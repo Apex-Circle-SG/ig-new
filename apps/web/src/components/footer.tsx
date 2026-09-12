@@ -1,0 +1,67 @@
+import Link from 'next/link';
+import { BrandMark } from '@insightginie/ui';
+export function Footer() {
+  return (
+    <footer className="site-footer">
+      <div className="shell">
+        <div className="footer-main">
+          <div>
+            <Link prefetch={false} href="/" className="brand">
+              <BrandMark size={24} />
+              <span>
+                insight<span className="brand-light">ginie</span>.
+              </span>
+            </Link>
+            <p>A little perspective for life’s big decisions.</p>
+            <p className="footer-note">
+              Independent data. Transparent calculations.
+              <br />
+              Built around you.
+            </p>
+          </div>
+          <div>
+            <h2>Explore</h2>
+            <Link prefetch={false} href="/calc/">
+              Calculators
+            </Link>
+            <Link prefetch={false} href="/data/">
+              Our data
+            </Link>
+            <Link prefetch={false} href="/methodology/">
+              Methodology
+            </Link>
+          </div>
+          <div>
+            <h2>InsightGinie</h2>
+            <Link prefetch={false} href="/about/">
+              About us
+            </Link>
+            <Link prefetch={false} href="/editorial-policy/">
+              Editorial policy
+            </Link>
+            <Link prefetch={false} href="/contact/">
+              Contact
+            </Link>
+          </div>
+          <div>
+            <h2>Your privacy</h2>
+            <Link prefetch={false} href="/privacy/">
+              Privacy policy
+            </Link>
+            <Link prefetch={false} href="/terms/">
+              Terms of use
+            </Link>
+            <Link prefetch={false} href="/privacy/#cookies">
+              Cookie settings
+            </Link>
+          </div>
+        </div>
+        <div className="footer-bottom">
+          <span>© {new Date().getUTCFullYear()} InsightGinie</span>
+          <span>For understanding. For exploring. For your next move.</span>
+          <span>Educational information, not financial advice.</span>
+        </div>
+      </div>
+    </footer>
+  );
+}

@@ -1,0 +1,27 @@
+
+> insightginie@0.1.0 test:e2e
+> playwright test
+
+
+Running 16 tests using 1 worker
+
+(node:3158114) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/vertical-slice.spec.ts:5:1 › homepage routes a real question to the calculator (2.0s)
+  ✓   2 [chromium] › tests/e2e/vertical-slice.spec.ts:21:1 › calculator validates, handles tail uncertainty, and explores a what-if (4.5s)
+  ✓   3 [chromium] › tests/e2e/vertical-slice.spec.ts:51:1 › financial inputs never enter network requests or browser storage (1.5s)
+  ✓   4 [chromium] › tests/e2e/vertical-slice.spec.ts:71:1 › sharing copies only the generic tool URL (823ms)
+  ✓   5 [chromium] › tests/e2e/vertical-slice.spec.ts:82:3 › homepage and calculator fit 320px and remain accessible (5.6s)
+  ✓   6 [chromium] › tests/e2e/vertical-slice.spec.ts:82:3 › homepage and calculator fit 375px and remain accessible (5.4s)
+  ✓   7 [chromium] › tests/e2e/vertical-slice.spec.ts:82:3 › homepage and calculator fit 390px and remain accessible (5.0s)
+  ✓   8 [chromium] › tests/e2e/vertical-slice.spec.ts:82:3 › homepage and calculator fit 430px and remain accessible (4.7s)
+  ✓   9 [chromium] › tests/e2e/vertical-slice.spec.ts:82:3 › homepage and calculator fit 768px and remain accessible (4.7s)
+  ✓  10 [chromium] › tests/e2e/vertical-slice.spec.ts:82:3 › homepage and calculator fit 1280px and remain accessible (4.9s)
+  ✓  11 [chromium] › tests/e2e/vertical-slice.spec.ts:98:1 › mobile menu and keyboard form work (1.5s)
+  ✓  12 [chromium] › tests/e2e/vertical-slice.spec.ts:115:1 › sources, metadata, preview isolation, headers and 404 (2.0s)
+  ✓  13 [chromium] › tests/e2e/vertical-slice.spec.ts:142:1 › all public navigation destinations render (185ms)
+  ✓  14 [chromium] › tests/e2e/vertical-slice.spec.ts:158:1 › no-JavaScript page cannot submit a private income (737ms)
+  ✓  15 [chromium] › tests/e2e/vertical-slice.spec.ts:176:1 › failed hydration cannot serialize financial input (627ms)
+  ✓  16 [chromium] › tests/e2e/vertical-slice.spec.ts:194:1 › a failed engine download preserves the example and shows a recoverable error (1.5s)
+
+  16 passed (48.0s)

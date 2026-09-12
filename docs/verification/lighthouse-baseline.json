@@ -1,0 +1,64 @@
+[
+  {
+    "name": "homepage",
+    "url": "http://127.0.0.1:3000/",
+    "fetchedAt": "2026-09-12T03:16:50.527Z",
+    "mode": "mobile simulated",
+    "scores": {
+      "performance": 64,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 66
+    },
+    "metrics": {
+      "lcpMs": 3266.516,
+      "tbtMs": 1732.5,
+      "cls": 0
+    },
+    "failedAudits": [
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names."
+      },
+      {
+        "id": "inspector-issues",
+        "title": "Issues were logged in the `Issues` panel in Chrome Devtools"
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing"
+      }
+    ]
+  },
+  {
+    "name": "income-calculator",
+    "url": "http://127.0.0.1:3000/calc/individual-income-percentile/",
+    "fetchedAt": "2026-09-12T03:17:07.205Z",
+    "mode": "mobile simulated",
+    "scores": {
+      "performance": 72,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 66
+    },
+    "metrics": {
+      "lcpMs": 1260.4299,
+      "tbtMs": 2014.5,
+      "cls": 0
+    },
+    "failedAudits": [
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names."
+      },
+      {
+        "id": "inspector-issues",
+        "title": "Issues were logged in the `Issues` panel in Chrome Devtools"
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing"
+      }
+    ]
+  }
+]

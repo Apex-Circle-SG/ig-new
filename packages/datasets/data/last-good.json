@@ -1,0 +1,318 @@
+{
+  "versionId": "census-cps-asec-2025-pinc11-us-67587226ba277577-v1",
+  "checksum": "67587226ba277577c1a519f9c878d2d5d5d1c8b73f5947641ef01adad1b670be",
+  "distribution": {
+    "id": "census-cps-asec-2025-pinc11-us-67587226ba277577-v1",
+    "geography": {
+      "id": "0100000US",
+      "name": "United States",
+      "type": "nation"
+    },
+    "universe": "US people age 15 and over as of March 2025, including people with no income or negative income",
+    "populationLabel": "US people age 15 and over",
+    "measure": "individual-total-money-income",
+    "currency": "USD",
+    "total": 278302000,
+    "sourceReportedTotal": 278300000,
+    "brackets": [
+      {
+        "lower": null,
+        "upper": 2500,
+        "count": 44290000,
+        "label": "Under $2,500"
+      },
+      {
+        "lower": 2500,
+        "upper": 5000,
+        "count": 4856000,
+        "label": "$2,500 to $4,999"
+      },
+      {
+        "lower": 5000,
+        "upper": 7500,
+        "count": 5023000,
+        "label": "$5,000 to $7,499"
+      },
+      {
+        "lower": 7500,
+        "upper": 10000,
+        "count": 4389000,
+        "label": "$7,500 to $9,999"
+      },
+      {
+        "lower": 10000,
+        "upper": 12500,
+        "count": 8339000,
+        "label": "$10,000 to $12,499"
+      },
+      {
+        "lower": 12500,
+        "upper": 15000,
+        "count": 7110000,
+        "label": "$12,500 to $14,999"
+      },
+      {
+        "lower": 15000,
+        "upper": 17500,
+        "count": 8138000,
+        "label": "$15,000 to $17,499"
+      },
+      {
+        "lower": 17500,
+        "upper": 20000,
+        "count": 6033000,
+        "label": "$17,500 to $19,999"
+      },
+      {
+        "lower": 20000,
+        "upper": 22500,
+        "count": 9050000,
+        "label": "$20,000 to $22,499"
+      },
+      {
+        "lower": 22500,
+        "upper": 25000,
+        "count": 6050000,
+        "label": "$22,500 to $24,999"
+      },
+      {
+        "lower": 25000,
+        "upper": 27500,
+        "count": 8299000,
+        "label": "$25,000 to $27,499"
+      },
+      {
+        "lower": 27500,
+        "upper": 30000,
+        "count": 4940000,
+        "label": "$27,500 to $29,999"
+      },
+      {
+        "lower": 30000,
+        "upper": 32500,
+        "count": 9665000,
+        "label": "$30,000 to $32,499"
+      },
+      {
+        "lower": 32500,
+        "upper": 35000,
+        "count": 4349000,
+        "label": "$32,500 to $34,999"
+      },
+      {
+        "lower": 35000,
+        "upper": 37500,
+        "count": 7893000,
+        "label": "$35,000 to $37,499"
+      },
+      {
+        "lower": 37500,
+        "upper": 40000,
+        "count": 4508000,
+        "label": "$37,500 to $39,999"
+      },
+      {
+        "lower": 40000,
+        "upper": 42500,
+        "count": 8249000,
+        "label": "$40,000 to $42,499"
+      },
+      {
+        "lower": 42500,
+        "upper": 45000,
+        "count": 3518000,
+        "label": "$42,500 to $44,999"
+      },
+      {
+        "lower": 45000,
+        "upper": 47500,
+        "count": 6385000,
+        "label": "$45,000 to $47,499"
+      },
+      {
+        "lower": 47500,
+        "upper": 50000,
+        "count": 4018000,
+        "label": "$47,500 to $49,999"
+      },
+      {
+        "lower": 50000,
+        "upper": 52500,
+        "count": 8610000,
+        "label": "$50,000 to $52,499"
+      },
+      {
+        "lower": 52500,
+        "upper": 55000,
+        "count": 3353000,
+        "label": "$52,500 to $54,999"
+      },
+      {
+        "lower": 55000,
+        "upper": 57500,
+        "count": 4918000,
+        "label": "$55,000 to $57,499"
+      },
+      {
+        "lower": 57500,
+        "upper": 60000,
+        "count": 2580000,
+        "label": "$57,500 to $59,999"
+      },
+      {
+        "lower": 60000,
+        "upper": 62500,
+        "count": 7485000,
+        "label": "$60,000 to $62,499"
+      },
+      {
+        "lower": 62500,
+        "upper": 65000,
+        "count": 2451000,
+        "label": "$62,500 to $64,999"
+      },
+      {
+        "lower": 65000,
+        "upper": 67500,
+        "count": 4072000,
+        "label": "$65,000 to $67,499"
+      },
+      {
+        "lower": 67500,
+        "upper": 70000,
+        "count": 2256000,
+        "label": "$67,500 to $69,999"
+      },
+      {
+        "lower": 70000,
+        "upper": 72500,
+        "count": 4894000,
+        "label": "$70,000 to $72,499"
+      },
+      {
+        "lower": 72500,
+        "upper": 75000,
+        "count": 2217000,
+        "label": "$72,500 to $74,999"
+      },
+      {
+        "lower": 75000,
+        "upper": 77500,
+        "count": 4358000,
+        "label": "$75,000 to $77,499"
+      },
+      {
+        "lower": 77500,
+        "upper": 80000,
+        "count": 1893000,
+        "label": "$77,500 to $79,999"
+      },
+      {
+        "lower": 80000,
+        "upper": 82500,
+        "count": 4172000,
+        "label": "$80,000 to $82,499"
+      },
+      {
+        "lower": 82500,
+        "upper": 85000,
+        "count": 1807000,
+        "label": "$82,500 to $84,999"
+      },
+      {
+        "lower": 85000,
+        "upper": 87500,
+        "count": 2681000,
+        "label": "$85,000 to $87,499"
+      },
+      {
+        "lower": 87500,
+        "upper": 90000,
+        "count": 1415000,
+        "label": "$87,500 to $89,999"
+      },
+      {
+        "lower": 90000,
+        "upper": 92500,
+        "count": 2907000,
+        "label": "$90,000 to $92,499"
+      },
+      {
+        "lower": 92500,
+        "upper": 95000,
+        "count": 1336000,
+        "label": "$92,500 to $94,999"
+      },
+      {
+        "lower": 95000,
+        "upper": 97500,
+        "count": 2092000,
+        "label": "$95,000 to $97,499"
+      },
+      {
+        "lower": 97500,
+        "upper": 100000,
+        "count": 1283000,
+        "label": "$97,500 to $99,999"
+      },
+      {
+        "lower": 100000,
+        "upper": 150000,
+        "count": 23909000,
+        "label": "$100,000 to $149,999"
+      },
+      {
+        "lower": 150000,
+        "upper": 200000,
+        "count": 10713000,
+        "label": "$150,000 to $199,999"
+      },
+      {
+        "lower": 200000,
+        "upper": 250000,
+        "count": 4777000,
+        "label": "$200,000 to $249,999"
+      },
+      {
+        "lower": 250000,
+        "upper": null,
+        "count": 7021000,
+        "label": "$250,000 and over"
+      }
+    ],
+    "datasetVersion": {
+      "id": "census-cps-asec-2025-pinc11-us-67587226ba277577-v1",
+      "sourceName": "US Census Bureau · CPS ASEC · PINC-11",
+      "sourceUrl": "https://www.census.gov/data/tables/time-series/demo/income-poverty/cps-pinc/pinc-11.2024.html",
+      "year": 2024,
+      "surveyYear": 2025,
+      "retrievedAt": "2026-09-12T03:03:38.101Z",
+      "transformationVersion": "cps-pinc11-v1",
+      "refreshCadence": "annual",
+      "validationStatus": "validated",
+      "checksum": "67587226ba277577c1a519f9c878d2d5d5d1c8b73f5947641ef01adad1b670be",
+      "universe": "US people age 15 and over as of March 2025, including people with no income or negative income",
+      "populationLabel": "US people age 15 and over",
+      "artifacts": [
+        {
+          "name": "CPS PINC-11 male income distribution",
+          "sourceUrl": "https://www2.census.gov/programs-surveys/cps/tables/pinc-11/2025/pinc11_1.xlsx",
+          "checksum": "1f75705c84a8ace4808572b1690653ba72cb373c150186d4c537a6d6714c9cb5",
+          "bytes": 12100
+        },
+        {
+          "name": "CPS PINC-11 female income distribution",
+          "sourceUrl": "https://www2.census.gov/programs-surveys/cps/tables/pinc-11/2025/pinc11_2.xlsx",
+          "checksum": "f4b75d4273b1dc95b9e4d65375407ba5d1b60ac44c04822d20d09295cf270329",
+          "bytes": 12119
+        }
+      ]
+    },
+    "assumptions": [
+      "Money income includes wages, self-employment, interest, and other cash income before taxes. Capital gains and noncash benefits are excluded.",
+      "The all-race male and female published counts are combined. Counts are survey estimates, published in thousands and rounded for disclosure protection.",
+      "Percentiles use the sum of the published bracket estimates as their denominator; publication rounding means this differs slightly from the separately published total.",
+      "This national comparison includes part-time workers, nonworkers, students, and retirees; it is not a comparison only with full-time workers."
+    ]
+  }
+}

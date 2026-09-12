@@ -1,0 +1,34 @@
+[
+  {
+    "name": "home-desktop",
+    "path": "/",
+    "width": 1440,
+    "viewport": 1440,
+    "document": 1440,
+    "errors": []
+  },
+  {
+    "name": "calculator-desktop",
+    "path": "/calc/individual-income-percentile/",
+    "width": 1440,
+    "viewport": 1440,
+    "document": 1440,
+    "errors": []
+  },
+  {
+    "name": "home-mobile",
+    "path": "/",
+    "width": 390,
+    "viewport": 390,
+    "document": 390,
+    "errors": []
+  },
+  {
+    "name": "calculator-mobile",
+    "path": "/calc/individual-income-percentile/",
+    "width": 390,
+    "viewport": 390,
+    "document": 390,
+    "errors": []
+  }
+]

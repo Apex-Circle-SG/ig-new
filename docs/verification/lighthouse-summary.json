@@ -1,0 +1,48 @@
+[
+  {
+    "name": "homepage",
+    "url": "http://127.0.0.1:3000/",
+    "fetchedAt": "2026-09-12T03:22:42.048Z",
+    "mode": "mobile simulated",
+    "scores": {
+      "performance": 91,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "lcpMs": 2525.261,
+      "tbtMs": 303,
+      "cls": 0
+    },
+    "failedAudits": [
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing"
+      }
+    ]
+  },
+  {
+    "name": "income-calculator",
+    "url": "http://127.0.0.1:3000/calc/individual-income-percentile/",
+    "fetchedAt": "2026-09-12T03:22:51.610Z",
+    "mode": "mobile simulated",
+    "scores": {
+      "performance": 92,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "lcpMs": 2103.4873,
+      "tbtMs": 320.4999999999999,
+      "cls": 0
+    },
+    "failedAudits": [
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing"
+      }
+    ]
+  }
+]

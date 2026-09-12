@@ -1,0 +1,13 @@
+node_modules
+.next
+**/.next
+playwright-report
+test-results
+artifacts
+backups
+graphify-out
+packages/datasets/data
+packages/database/migrations
+docs/legacy
+package-lock.json
+.env*

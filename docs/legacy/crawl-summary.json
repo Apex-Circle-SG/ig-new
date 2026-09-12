@@ -1,0 +1,499 @@
+{
+  "audit_version": "legacy-inventory-v1",
+  "started_at": "2026-09-12T03:05:18.349293+00:00",
+  "finished_at": "2026-09-12T03:05:21.727694+00:00",
+  "origin": "https://insightginie.com",
+  "url_count": 41211,
+  "kinds": {
+    "homepage": 1,
+    "post": 9071,
+    "unknown": 20,
+    "page": 17,
+    "author": 1,
+    "category": 68,
+    "tag": 32033
+  },
+  "provisional_actions": {
+    "KEEP": 5,
+    "410": 41206
+  },
+  "empty_taxonomies": 436,
+  "approved_actions": 0,
+  "sitemaps": [
+    {
+      "url": "https://insightginie.com/sitemap_index.xml",
+      "status": 200,
+      "entries": 0
+    },
+    {
+      "url": "https://insightginie.com/author-sitemap.xml",
+      "status": 200,
+      "entries": 1
+    },
+    {
+      "url": "https://insightginie.com/category-sitemap.xml",
+      "status": 200,
+      "entries": 68
+    },
+    {
+      "url": "https://insightginie.com/page-sitemap.xml",
+      "status": 200,
+      "entries": 18
+    },
+    {
+      "url": "https://insightginie.com/post-sitemap.xml",
+      "status": 200,
+      "entries": 1001
+    },
+    {
+      "url": "https://insightginie.com/post-sitemap10.xml",
+      "status": 200,
+      "entries": 71
+    },
+    {
+      "url": "https://insightginie.com/post-sitemap2.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post-sitemap3.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post-sitemap4.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post-sitemap5.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post-sitemap6.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post-sitemap7.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post-sitemap8.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post-sitemap9.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap10.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap11.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap12.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap13.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap14.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap15.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap16.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap17.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap18.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap19.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap2.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap20.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap21.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap22.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap23.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap24.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap25.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap26.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap27.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap28.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap29.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap3.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap30.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap31.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap32.xml",
+      "status": 200,
+      "entries": 606
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap4.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap5.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap6.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap7.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap8.xml",
+      "status": 200,
+      "entries": 1000
+    },
+    {
+      "url": "https://insightginie.com/post_tag-sitemap9.xml",
+      "status": 200,
+      "entries": 1000
+    }
+  ],
+  "rest_collections": {
+    "posts": {
+      "reported_total": 9071,
+      "reported_pages": 91,
+      "fetched_pages": 91,
+      "fetched_items": 9071,
+      "enumeration": "complete",
+      "duplicate_links": []
+    },
+    "pages": {
+      "reported_total": 17,
+      "reported_pages": 1,
+      "fetched_pages": 1,
+      "fetched_items": 17,
+      "enumeration": "complete",
+      "duplicate_links": []
+    },
+    "categories": {
+      "reported_total": 68,
+      "reported_pages": 1,
+      "fetched_pages": 1,
+      "fetched_items": 68,
+      "enumeration": "complete",
+      "duplicate_links": []
+    },
+    "tags": {
+      "reported_total": 32045,
+      "reported_pages": 321,
+      "fetched_pages": 321,
+      "fetched_items": 32045,
+      "enumeration": "complete",
+      "duplicate_links": [
+        {
+          "url": "https://insightginie.com/tag/medical-delivery/",
+          "entities": [
+            {
+              "id": 1591,
+              "published_item_count": 1
+            },
+            {
+              "id": 1592,
+              "published_item_count": 0
+            }
+          ]
+        },
+        {
+          "url": "https://insightginie.com/tag/home-based-rehabilitation/",
+          "entities": [
+            {
+              "id": 1639,
+              "published_item_count": 1
+            },
+            {
+              "id": 1640,
+              "published_item_count": 0
+            }
+          ]
+        },
+        {
+          "url": "https://insightginie.com/tag/telemedicine-benefits/",
+          "entities": [
+            {
+              "id": 2032,
+              "published_item_count": 2
+            },
+            {
+              "id": 2034,
+              "published_item_count": 0
+            }
+          ]
+        },
+        {
+          "url": "https://insightginie.com/tag/future-of-coding/",
+          "entities": [
+            {
+              "id": 2795,
+              "published_item_count": 3
+            },
+            {
+              "id": 2796,
+              "published_item_count": 1
+            }
+          ]
+        },
+        {
+          "url": "https://insightginie.com/tag/innovation-in-technology/",
+          "entities": [
+            {
+              "id": 5381,
+              "published_item_count": 0
+            },
+            {
+              "id": 5383,
+              "published_item_count": 1
+            }
+          ]
+        },
+        {
+          "url": "https://insightginie.com/tag/technology-project-metrics/",
+          "entities": [
+            {
+              "id": 5957,
+              "published_item_count": 1
+            },
+            {
+              "id": 5959,
+              "published_item_count": 0
+            }
+          ]
+        },
+        {
+          "url": "https://insightginie.com/tag/as-digital-phenotyping-matures/",
+          "entities": [
+            {
+              "id": 6906,
+              "published_item_count": 29
+            },
+            {
+              "id": 6911,
+              "published_item_count": 0
+            }
+          ]
+        },
+        {
+          "url": "https://insightginie.com/tag/international-stablecoins/",
+          "entities": [
+            {
+              "id": 10258,
+              "published_item_count": 0
+            },
+            {
+              "id": 10260,
+              "published_item_count": 1
+            }
+          ]
+        },
+        {
+          "url": "https://insightginie.com/tag/jpy-valuation-drivers/",
+          "entities": [
+            {
+              "id": 19672,
+              "published_item_count": 0
+            },
+            {
+              "id": 19673,
+              "published_item_count": 1
+            }
+          ]
+        },
+        {
+          "url": "https://insightginie.com/tag/japanese-yen-exchange-rate/",
+          "entities": [
+            {
+              "id": 19678,
+              "published_item_count": 0
+            },
+            {
+              "id": 19679,
+              "published_item_count": 1
+            }
+          ]
+        },
+        {
+          "url": "https://insightginie.com/tag/crypto-liquidity/",
+          "entities": [
+            {
+              "id": 19857,
+              "published_item_count": 1
+            },
+            {
+              "id": 19867,
+              "published_item_count": 1
+            }
+          ]
+        },
+        {
+          "url": "https://insightginie.com/tag/bitcoin-etf/",
+          "entities": [
+            {
+              "id": 19895,
+              "published_item_count": 3
+            },
+            {
+              "id": 19897,
+              "published_item_count": 0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "http_requests": 463,
+  "request_errors": [],
+  "reused_snapshots": 463,
+  "homepage": {
+    "title": "Insight Ginie - Stay Ahead of Tomorrow\u2019s Story",
+    "canonical": "https://insightginie.com/",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "generators": [
+      "WordPress 7.0.4",
+      "Site Kit by Google 1.184.0"
+    ],
+    "headers": {
+      "content-type": "text/html; charset=UTF-8",
+      "link": "<https://insightginie.com/wp-json/>; rel=\"https://api.w.org/\"",
+      "x-litespeed-cache": "hit",
+      "server": "cloudflare",
+      "platform": "hostinger",
+      "panel": "hpanel",
+      "content-security-policy": "upgrade-insecure-requests",
+      "x-turbo-charged-by": "LiteSpeed"
+    }
+  },
+  "wordpress": {
+    "name": "Insight Ginie",
+    "description": "Stay Ahead of Tomorrow\u2019s Story",
+    "url": "https://insightginie.com",
+    "home": "https://insightginie.com",
+    "show_on_front": "posts",
+    "namespaces": [
+      "oembed/1.0",
+      "litespeed/v1",
+      "litespeed/v3",
+      "yoast/v1",
+      "generatepress/v1",
+      "google-site-kit/v1",
+      "wp/v2",
+      "wp-site-health/v1",
+      "wp-block-editor/v1",
+      "wp-abilities/v1"
+    ]
+  },
+  "coverage": {
+    "sitemap_url_inventory": "Complete only if every listed sitemap succeeded; see sitemaps entries and errors.",
+    "public_content_metadata": "Posts/pages REST pagination bounded by --max-rest-pages; counts are recorded.",
+    "html_crawl": "Homepage links only; individual article HTML was not fetched.",
+    "unknown_urls": "Server logs, Search Console, private/draft content, pagination, attachment variants, alternate hosts and unlinked URLs require host/export access.",
+    "full_wordpress_backup": false
+  },
+  "blockers": [
+    "No WordPress admin/host access: database, media, plugins, themes, configuration and scheduled publisher backups unavailable.",
+    "No Search Console export or credentials supplied to crawler.",
+    "No backlink export supplied to crawler.",
+    "All URL decisions need evidence review and approval before enforcement."
+  ]
+}

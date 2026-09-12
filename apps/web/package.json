@@ -1,0 +1,27 @@
+{
+  "name": "@insightginie/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0"
+  },
+  "dependencies": {
+    "next": "16.3.5",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "lucide-react": "^0.577.0",
+    "@insightginie/schema": "*",
+    "@insightginie/datasets": "*",
+    "@insightginie/calculators": "*",
+    "@insightginie/database": "*",
+    "@insightginie/ui": "*",
+    "@insightginie/charts": "*",
+    "@insightginie/seo": "*",
+    "@insightginie/analytics": "*",
+    "@insightginie/ads": "*",
+    "@insightginie/config": "*"
+  }
+}
