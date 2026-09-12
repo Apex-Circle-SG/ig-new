@@ -62,7 +62,7 @@ Playwright checks passed against the service (8.2 seconds), covering homepage
 routing, calculator results and boundaries, private inputs, metadata and health.
 The tunnel is left to the operator. See [hosting instructions](deployment.md#background-service-on-this-host).
 
-The old WordPress site and publishing automation are untouched. All public posts/pages/categories/tag records and sitemaps were enumerated, but this is not a full database/uploads/plugins/configuration backup. A complete restore-tested backup, Search Console/backlink evidence and reviewed URL dispositions are prerequisites for cutover. See [migration evidence](legacy/README.md).
+The remote WordPress site has not been deleted. At the operator's explicit request, the local `/root/skill-wordpress` publishing automation, its hourly cron entry and associated background processes were removed; see the [retirement record](legacy-automation-retirement.md). All public posts/pages/categories/tag records and sitemaps were enumerated, but this is not a full database/uploads/plugins/configuration backup. A complete restore-tested backup, Search Console/backlink evidence and reviewed URL dispositions remain prerequisites for deleting the remote legacy installation. See [migration evidence](legacy/README.md).
 
 No salary-page batch, household/relocation/tax calculator, account persistence, chat, email report, ad provider, affiliate integration or billing is enabled. Author/reviewer identities, a real support/privacy channel, hosting log-retention policy and human legal/trademark clearance remain required for public launch. The current CSP permits inline Next.js bootstrap; authenticated features require their own strengthened policy and controls.
 
