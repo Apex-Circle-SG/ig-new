@@ -56,6 +56,44 @@ cloudflared tunnel --url http://127.0.0.1:3000
 
 For a named tunnel, use `http://127.0.0.1:3000` as its ingress service.
 
+### Troubleshooting a Hostinger 403
+
+On 2026-09-12 at 03:41 UTC, `https://insightginie.com/` returned HTTP 403 with
+`platform: hostinger`, `panel: hpanel`, and `x-turbo-charged-by: LiteSpeed`.
+The public `/api/health/` returned a Hostinger HTML 404. In contrast, the local
+homepage returned 200 with `Host: insightginie.com`, and the local health endpoint
+returned validated dataset JSON. Cloudflared's active configuration already
+mapped `insightginie.com` to `http://localhost:3000`.
+
+These responses show that public requests still reach the old hosting origin.
+The application and local ingress are healthy. Check the root record in
+Cloudflare **DNS → Records** and configure this web destination:
+
+| Setting      | Value                                                   |
+| ------------ | ------------------------------------------------------- |
+| Type         | CNAME                                                   |
+| Name         | `@` (insightginie.com)                                  |
+| Target       | `3ee8c20b-055d-43cc-8b9e-ec173cf1ef34.cfargotunnel.com` |
+| Proxy status | Proxied                                                 |
+
+Record the previous web destination for rollback. Replace conflicting root
+A/AAAA/CNAME web records; preserve unrelated records such as mail and TXT.
+The tunnel UUID is a routing identifier, not a credential. The root DNS record
+and tunnel must belong to the same Cloudflare account. If this DNS destination
+is already correct, inspect Cloudflare origin overrides, Workers routes and
+load-balancer rules for routes that still send this hostname to Hostinger.
+
+Cloudflare proxies/flattening hide the configured CNAME target from ordinary
+public DNS answers, so those answers alone cannot verify the account-side
+destination. The available connector token runs the tunnel; no Cloudflare DNS
+management credential or account certificate is configured here. No DNS record
+was modified during diagnosis.
+
+After correcting the route, verify that `https://insightginie.com/api/health/`
+returns the same JSON as the local endpoint and test the calculator through the
+public hostname. See Cloudflare's [tunnel DNS instructions](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/routing-to-tunnel/dns/)
+and [origin troubleshooting](https://developers.cloudflare.com/tunnel/troubleshooting/https-origins/).
+
 ## Vercel monorepo setup
 
 Use one Vercel project for `apps/web` with the Next.js framework preset:
