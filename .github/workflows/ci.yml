@@ -33,6 +33,7 @@ jobs:
       CI: 'true'
       NEXT_TELEMETRY_DISABLED: '1'
       SITE_INDEXABLE: 'false'
+      NEXT_PUBLIC_ADS_ENABLED: 'true'
       DATABASE_URL: postgres://postgres@localhost:5432/insightginie_ci
     steps:
       - uses: actions/checkout@v4

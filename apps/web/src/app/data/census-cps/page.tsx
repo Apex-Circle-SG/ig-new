@@ -1,5 +1,6 @@
+import { headers } from 'next/headers';
 import type { Metadata } from 'next';
-import Link from 'next/link';
+import { SiteLink as Link } from '@insightginie/ui';
 import { getIndividualIncomeDistribution } from '@insightginie/datasets';
 import { safeJsonLd } from '@insightginie/seo';
 import { Document } from '../../../components/document';
@@ -9,7 +10,8 @@ export const metadata: Metadata = {
     'Source, year, population, transformation and limitations of the Census CPS PINC-11 individual money-income distribution used by InsightGinie.',
   alternates: { canonical: '/data/census-cps/' },
 };
-export default function Census() {
+export default async function Census() {
+  const nonce = (await headers()).get('x-nonce') ?? undefined;
   const d = getIndividualIncomeDistribution();
   const v = d?.datasetVersion;
   return (
@@ -21,6 +23,7 @@ export default function Census() {
       {v && (
         <script
           type="application/ld+json"
+          nonce={nonce}
           dangerouslySetInnerHTML={{
             __html: safeJsonLd({
               '@context': 'https://schema.org',

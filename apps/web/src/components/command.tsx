@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import Link from 'next/link';
+import { SiteLink as Link } from '@insightginie/ui';
 import { ArrowRight, Search } from 'lucide-react';
 import { useHydrated } from './use-hydrated';
 const intents = [

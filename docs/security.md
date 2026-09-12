@@ -66,13 +66,20 @@ logs, rotate credentials, determine scope, patch and verify before re-enabling.
 Record an incident timeline without copying user financial data. See the
 [operations runbook](operations-runbook.md) for publication rollback and ownership.
 
-## Static-rendering CSP tradeoff
+## Nonces and advertising isolation
 
-The current CSP restricts resources to this origin and denies embedding, objects,
-external form actions, camera, microphone and location. Inline script/style
-permission supports Next.js static hydration. This is not a strict nonce-based
-CSP. Before enabling account or administrative pages, implement and verify their
-per-request nonce policy along with the other authenticated controls.
+HTML receives a per-request nonce and strict-dynamic CSP from Next.js Proxy.
+Framework scripts, explicit JSON-LD and the consented AdSense script use the
+nonce. HTML is dynamically rendered with private/no-store caching; shared HTML
+caching would invalidate both nonces and consent isolation.
+
+Calculator routes restrict resources to their own origin and forbid production
+eval. Consented public-information pages permit Google's dynamic advertising
+resources and eval, as required by its supported CSP integration. Native document
+navigation prevents a previously loaded provider from accessing calculator state.
+Embedding, objects and external form actions remain blocked. See
+[advertising operations](advertising.md) for the exact boundary and account-side
+consent requirements. Account/admin mutation controls remain future work.
 
 Financial controls are disabled until hydration and have no named form fields.
 Even a native submission after JavaScript failure cannot serialize income into a

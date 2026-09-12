@@ -3,6 +3,8 @@ import lighthouse from 'lighthouse';
 import { launch } from 'chrome-launcher';
 import { chromium } from '@playwright/test';
 const base = process.env.VERIFY_BASE_URL ?? 'http://127.0.0.1:3000';
+const prefix = process.env.VERIFY_REPORT_PREFIX ?? '';
+if (!/^[a-z0-9-]*$/.test(prefix)) throw new Error('Invalid report prefix');
 const chrome = await launch({
   chromePath: chromium.executablePath(),
   chromeFlags: ['--headless', '--no-sandbox', '--disable-dev-shm-usage'],
@@ -21,8 +23,8 @@ try {
       logLevel: 'error',
     });
     if (!result) throw new Error('Lighthouse returned no report');
-    await writeFile(`artifacts/lighthouse/${name}.json`, result.report[0]);
-    await writeFile(`artifacts/lighthouse/${name}.html`, result.report[1]);
+    await writeFile(`artifacts/lighthouse/${prefix}${name}.json`, result.report[0]);
+    await writeFile(`artifacts/lighthouse/${prefix}${name}.html`, result.report[1]);
     const { lhr } = result;
     const summary = {
       name,
@@ -48,7 +50,7 @@ try {
     console.log(JSON.stringify(summary));
   }
   await writeFile(
-    'docs/verification/lighthouse-summary.json',
+    `docs/verification/${prefix}lighthouse-summary.json`,
     JSON.stringify(summaries, null, 2) + '\n',
   );
 } finally {

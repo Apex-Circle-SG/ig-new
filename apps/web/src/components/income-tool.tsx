@@ -1,6 +1,6 @@
 'use client';
 import { useRef, useState } from 'react';
-import Link from 'next/link';
+import { SiteLink as Link } from '@insightginie/ui';
 import { ArrowRight, Check, Copy, Info, LockKeyhole, Plus, Sparkles } from 'lucide-react';
 import type { IncomeDistribution, IndividualIncomeResult } from '@insightginie/schema';
 import { IncomeChart } from '@insightginie/charts';

@@ -1,6 +1,15 @@
-import Link from 'next/link';
+import { SiteLink as Link } from '@insightginie/ui';
 import { BrandMark } from '@insightginie/ui';
-export function Footer() {
+import { AdvertisingPreferences } from './advertising-preferences';
+export function Footer({
+  adsEnabled,
+  adPreference,
+  advertisingPage,
+}: {
+  adsEnabled: boolean;
+  adPreference: string | undefined;
+  advertisingPage: boolean;
+}) {
   return (
     <footer className="site-footer">
       <div className="shell">
@@ -51,9 +60,13 @@ export function Footer() {
             <Link prefetch={false} href="/terms/">
               Terms of use
             </Link>
-            <Link prefetch={false} href="/privacy/#cookies">
-              Cookie settings
-            </Link>
+            {adsEnabled ? (
+              <AdvertisingPreferences preference={adPreference} showNotice={advertisingPage} />
+            ) : (
+              <Link prefetch={false} href="/privacy/#cookies">
+                Cookie settings
+              </Link>
+            )}
           </div>
         </div>
         <div className="footer-bottom">

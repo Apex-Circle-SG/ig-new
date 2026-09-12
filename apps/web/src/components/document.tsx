@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { SiteLink as Link } from '@insightginie/ui';
 import { ChevronRight } from 'lucide-react';
 export function Document({
   title,

@@ -1,5 +1,6 @@
+import { headers } from 'next/headers';
 import type { Metadata } from 'next';
-import Link from 'next/link';
+import { SiteLink as Link } from '@insightginie/ui';
 import { ArrowRight, Check, ChevronRight, Database } from 'lucide-react';
 import { getIndividualIncomeDistribution } from '@insightginie/datasets';
 import { calculateIndividualIncomePercentile } from '@insightginie/calculators';
@@ -12,7 +13,8 @@ export const metadata: Metadata = {
     'See how your annual individual income compares with US people age 15 and over using Census data. Free, private, and transparent about assumptions.',
   alternates: { canonical: '/calc/individual-income-percentile/' },
 };
-export default function Calculator() {
+export default async function Calculator() {
+  const nonce = (await headers()).get('x-nonce') ?? undefined;
   const distribution = getIndividualIncomeDistribution();
   const initialOutput = calculateIndividualIncomePercentile(
     { annualIncome: 75000 },
@@ -26,6 +28,7 @@ export default function Calculator() {
       <ViewEvent />
       <script
         type="application/ld+json"
+        nonce={nonce}
         dangerouslySetInnerHTML={{
           __html: safeJsonLd([
             breadcrumbSchema([

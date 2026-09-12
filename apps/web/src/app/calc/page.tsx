@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { SiteLink as Link } from '@insightginie/ui';
 import type { Metadata } from 'next';
 import { ArrowUpRight, BarChart3 } from 'lucide-react';
 export const metadata: Metadata = {

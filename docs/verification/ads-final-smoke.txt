@@ -1,0 +1,14 @@
+
+Running 5 tests using 2 workers
+
+(node:3167115) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3167116) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 [chromium] › tests/e2e/vertical-slice.spec.ts:5:1 › homepage routes a real question to the calculator (3.3s)
+  ✓  1 [chromium] › tests/e2e/adsense.spec.ts:7:1 › advertising requires a choice and disappears across the calculator boundary (4.9s)
+  ✓  4 [chromium] › tests/e2e/adsense.spec.ts:54:1 › withdrawing advertising reloads into a document without the provider (3.1s)
+  ✓  3 [chromium] › tests/e2e/vertical-slice.spec.ts:21:1 › calculator validates, handles tail uncertainty, and explores a what-if (5.5s)
+  ✓  5 [chromium] › tests/e2e/adsense.spec.ts:84:1 › ads.txt, fresh nonces, and mobile advertising choices are valid (3.5s)
+
+  5 passed (13.1s)

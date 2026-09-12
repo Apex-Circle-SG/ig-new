@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { SiteLink as Link } from '@insightginie/ui';
 export default function NotFound() {
   return (
     <div className="shell error-page">

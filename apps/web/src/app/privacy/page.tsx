@@ -36,9 +36,29 @@ export default function Privacy() {
       <section id="cookies">
         <h2>Cookie settings</h2>
         <p>
-          This release does not set application cookies or load third-party analytics, advertising
-          or tracking scripts. There are no optional cookies to enable or disable. If optional
-          tracking is introduced, consent controls will be provided before it runs.
+          You can allow or decline advertising using Cookie settings in the footer. Your choice is
+          stored in a first-party preference cookie for up to 180 days. It contains only your
+          advertising choice, never your income. You can change your choice at any time; the page
+          reloads to apply it.
+        </p>
+        <p>
+          If you allow advertising, Google AdSense may load on our public data and methodology
+          pages. Google may process your IP address, browser or device information, page context and
+          cookies to deliver, measure and protect ads. Google may request additional choices where
+          applicable. Read{' '}
+          <a
+            href="https://policies.google.com/technologies/partner-sites"
+            rel="noopener noreferrer"
+          >
+            how Google uses information from sites that use its services
+          </a>
+          .
+        </p>
+        <p>
+          Advertising scripts do not load in the homepage calculator or individual-income tool.
+          Navigation into those pages starts a fresh document so advertising code cannot access your
+          calculator inputs. Declining advertising does not limit the tools or source pages. No
+          third-party analytics provider is enabled.
         </p>
       </section>
       <section>

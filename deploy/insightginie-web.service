@@ -9,8 +9,11 @@ Type=simple
 User=root
 WorkingDirectory=/root/ig-new/apps/web
 Environment=NODE_ENV=production
+Environment=NEXT_BUILD_DIR=.next-live
 Environment=NEXT_TELEMETRY_DISABLED=1
 Environment=SITE_INDEXABLE=false
+Environment=NEXT_PUBLIC_ADS_ENABLED=true
+Environment=ADSENSE_CLIENT_ID=ca-pub-8735749779872017
 ExecStart=/usr/bin/node /root/ig-new/node_modules/next/dist/bin/next start --hostname 127.0.0.1 --port 3000
 Restart=always
 RestartSec=3
@@ -20,7 +23,7 @@ NoNewPrivileges=true
 PrivateTmp=true
 ProtectSystem=strict
 ProtectHome=read-only
-ReadWritePaths=/root/ig-new/apps/web/.next
+ReadWritePaths=/root/ig-new/apps/web/.next-live
 SyslogIdentifier=insightginie-web
 
 [Install]

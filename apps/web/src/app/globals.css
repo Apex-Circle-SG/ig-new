@@ -2531,3 +2531,69 @@ td {
   background: repeating-linear-gradient(135deg, #c8baf2 0px, #c8baf2 3px, #eee8fc 3px, #eee8fc 6px);
   border-radius: 2px;
 }
+
+/* Advertising preferences never overlay the calculator interaction by default. */
+.cookie-settings-button {
+  display: block;
+  min-height: 32px;
+  margin-top: 7px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #5f6674;
+  font: inherit;
+  font-size: 11px;
+  text-align: left;
+  cursor: pointer;
+}
+.advertising-preferences {
+  position: fixed;
+  z-index: 100;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  max-width: 1000px;
+  max-height: 70vh;
+  overflow: auto;
+  margin: 0 auto;
+  padding: 24px;
+  border: 1px solid #d9d5ef;
+  border-radius: 16px;
+  background: #fff;
+  color: #25283f;
+  box-shadow: 0 8px 40px #24233c20;
+}
+.site-footer .advertising-preferences h2 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+.site-footer .advertising-preferences p {
+  max-width: none;
+  margin: 0 0 16px;
+  color: #555c73;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.site-footer .advertising-preferences a {
+  display: inline;
+  color: #5140cf;
+  text-decoration: underline;
+}
+.advertising-preference-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+.advertising-preference-actions .button {
+  min-height: 44px;
+  flex: 1 0 auto;
+}
+@media (max-width: 430px) {
+  .advertising-preferences {
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
+    padding: 18px;
+  }
+}

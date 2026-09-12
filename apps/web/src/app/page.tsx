@@ -1,4 +1,5 @@
-import Link from 'next/link';
+import { headers } from 'next/headers';
+import { SiteLink as Link } from '@insightginie/ui';
 import {
   ArrowRight,
   ArrowUpRight,
@@ -17,7 +18,8 @@ import { calculateIndividualIncomePercentile } from '@insightginie/calculators';
 import { safeJsonLd } from '@insightginie/seo';
 import { IncomeTool } from '../components/income-tool';
 import { Command } from '../components/command';
-export default function Home() {
+export default async function Home() {
+  const nonce = (await headers()).get('x-nonce') ?? undefined;
   const distribution = getIndividualIncomeDistribution();
   const initialOutput = calculateIndividualIncomePercentile(
     { annualIncome: 75000 },
@@ -30,6 +32,7 @@ export default function Home() {
     <>
       <script
         type="application/ld+json"
+        nonce={nonce}
         dangerouslySetInnerHTML={{
           __html: safeJsonLd({
             '@context': 'https://schema.org',

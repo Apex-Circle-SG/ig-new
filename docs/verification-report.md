@@ -2,6 +2,10 @@
 
 Date: 2026-09-12. Scope: audit, shared platform foundation, real Census ingest and Individual Income Percentile. This is **locally verified application code**, not a production migration or a completed full-platform MVP.
 
+The original build measurements below precede the AdSense integration. Current
+advertising behavior and release validation are recorded in
+[the advertising delivery report](advertising-delivery.md).
+
 ## Delivered
 
 - Next.js/TypeScript monorepo, responsive design system, command routing, calculator and source/methodology/trust pages.
@@ -64,7 +68,7 @@ The tunnel is left to the operator. See [hosting instructions](deployment.md#bac
 
 The remote WordPress site has not been deleted. At the operator's explicit request, the local `/root/skill-wordpress` publishing automation, its hourly cron entry and associated background processes were removed; see the [retirement record](legacy-automation-retirement.md). All public posts/pages/categories/tag records and sitemaps were enumerated, but this is not a full database/uploads/plugins/configuration backup. A complete restore-tested backup, Search Console/backlink evidence and reviewed URL dispositions remain prerequisites for deleting the remote legacy installation. See [migration evidence](legacy/README.md).
 
-No salary-page batch, household/relocation/tax calculator, account persistence, chat, email report, ad provider, affiliate integration or billing is enabled. Author/reviewer identities, a real support/privacy channel, hosting log-retention policy and human legal/trademark clearance remain required for public launch. The current CSP permits inline Next.js bootstrap; authenticated features require their own strengthened policy and controls.
+No salary-page batch, household/relocation/tax calculator, account persistence, chat, email report, affiliate integration or billing is enabled. AdSense was subsequently integrated on opted-in public source pages. Author/reviewer identities, a real support/privacy channel, hosting log-retention policy and human legal/trademark clearance remain required for public launch. HTML now uses per-request nonce CSP; authenticated features still require their own authorization and mutation controls.
 
 ## Reproduction
 

@@ -3,6 +3,8 @@
 !.env.example
 node_modules/
 .next/
+.next-live/
+.next-candidate/
 .vercel/
 dist/
 coverage/

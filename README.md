@@ -21,7 +21,7 @@ Open http://localhost:3000. The homepage and `/calc/individual-income-percentile
 npm run lint
 npm run typecheck
 npm test
-npm run build
+NEXT_PUBLIC_ADS_ENABLED=true npm run build
 npx playwright install chromium
 npm run test:e2e
 python3 -m unittest discover -s scripts/legacy-url-audit -p 'test_*.py'
@@ -51,7 +51,7 @@ Public Census spreadsheets are archived with SHA-256 checksums. Validation rejec
 
 ## Delivery boundaries
 
-Only GitHub credentials were supplied. The local production application is hosted by the `insightginie-web` systemd service on `127.0.0.1:3000`, ready for the operator's Cloudflare tunnel. See [service management](docs/deployment.md#background-service-on-this-host). No remote database or Vercel deployment is configured. The legacy WordPress installation is unchanged. Public response snapshots are not a complete WordPress backup. No programmatic salary pages, account storage, chatbot, email, ad provider or billing are enabled.
+The local production application is hosted by the `insightginie-web` systemd service on `127.0.0.1:3000`, ready for the operator's Cloudflare tunnel. See [service management](docs/deployment.md#background-service-on-this-host). AdSense is integrated on opted-in public data/methodology pages; see [advertising](docs/advertising.md). No remote database or Vercel deployment is configured. The local legacy publishing automation was removed at the operator's request; the remote WordPress installation has not been deleted. Public response snapshots are not a complete WordPress backup. No programmatic salary pages, account storage, chatbot, email or billing are enabled.
 
 Never commit `.env`, credentials, private profile data or raw operational secrets. The production cutover requires a complete WordPress database/files backup, reviewed URL dispositions, traffic/backlink evidence, configured support/retention terms and human legal/trademark clearance.
 

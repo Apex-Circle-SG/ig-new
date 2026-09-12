@@ -20,6 +20,8 @@ migration gates in [the migration plan](migration-plan.md) pass.
 
 The checked-in unit is [deploy/insightginie-web.service](../deploy/insightginie-web.service).
 Its paths target this checkout at `/root/ig-new` and the installed `/usr/bin/node`.
+The current service selects `apps/web/.next-live` through `NEXT_BUILD_DIR`;
+the default `.next` is available for independent development builds.
 It runs the production build, automatically restarts on exit, starts after reboot,
 and writes logs to the journal. It listens only on loopback for the local tunnel.
 The service does not import the repository's Git credentials into its environment.
@@ -36,7 +38,7 @@ installation on the same host:
 
 ```sh
 npm ci
-npm run build
+NEXT_BUILD_DIR=.next-live NEXT_PUBLIC_ADS_ENABLED=true npm run build
 sudo install -m 0644 deploy/insightginie-web.service /etc/systemd/system/insightginie-web.service
 sudo systemctl daemon-reload
 sudo systemctl enable --now insightginie-web
@@ -126,8 +128,9 @@ Preview: `SITE_INDEXABLE=false`, `NEXT_PUBLIC_SITE_URL=https://insightginie.com`
 and advertising disabled. Keep the canonical host consistent while sending
 non-indexing directives on previews. Use preview access protection when available.
 
-The first calculator needs no database, LLM, email, ad or Census API key at request
-time. Only configure optional providers when the corresponding integration has
+The first calculator needs no database, LLM, email or Census API key at request
+time. AdSense uses the public publisher ID and an opt-in loading boundary described
+in [advertising](advertising.md). Only configure other optional providers when their integration has
 been implemented and tested. Server secrets must never use `NEXT_PUBLIC_` names.
 For PostgreSQL, use a direct TLS connection for migrations and a separately scoped
 runtime connection. Apply migrations once through a controlled release job, not
