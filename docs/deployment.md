@@ -2,14 +2,59 @@
 
 ## Current status
 
-The first vertical slice can run locally from its validated public-data snapshot.
-No Vercel project binding, deployment token, database URL, or existing hosting
-integration was available for staging verification in this session. Git access
-does not confer hosting access. A local production build is not a staging deployment.
+The first vertical slice runs on this host at `http://127.0.0.1:3000`, supervised
+by the enabled `insightginie-web.service` systemd unit. It uses the validated
+public-data snapshot and needs no remote database. The application is
+TypeScript/JavaScript running on Node.js with Next.js; Python is used only for
+legacy audit tooling. Cloudflared can connect to port **3000** on the same host.
+
+The tunnel and its public hostname are managed by the operator. No Vercel project,
+deployment token, or hosted database is configured. External tunnel behavior must
+be verified after the tunnel is connected.
 
 Production WordPress remains separate. Do not change DNS, remove WordPress,
 delete its publishing system, or apply legacy dispositions until the backup and
 migration gates in [the migration plan](migration-plan.md) pass.
+
+## Background service on this host
+
+The checked-in unit is [deploy/insightginie-web.service](../deploy/insightginie-web.service).
+Its paths target this checkout at `/root/ig-new` and the installed `/usr/bin/node`.
+It runs the production build, automatically restarts on exit, starts after reboot,
+and writes logs to the journal. It listens only on loopback for the local tunnel.
+The service does not import the repository's Git credentials into its environment.
+
+```sh
+sudo systemctl status insightginie-web --no-pager
+sudo systemctl restart insightginie-web
+sudo journalctl -u insightginie-web -n 50 --no-pager
+curl --fail http://127.0.0.1:3000/api/health/
+```
+
+After building and checking a new release, restart this service. For a first
+installation on the same host:
+
+```sh
+npm ci
+npm run build
+sudo install -m 0644 deploy/insightginie-web.service /etc/systemd/system/insightginie-web.service
+sudo systemctl daemon-reload
+sudo systemctl enable --now insightginie-web
+```
+
+Build before installing the unit because its writable Next.js cache path must
+exist. Avoid rebuilding in place while serving traffic; stop the service for a
+maintenance release or prepare a separate release directory. Runtime source
+files are read-only to the service, except for the Next.js build/cache directory.
+Search indexing remains disabled for this preview.
+
+For a temporary tunnel, the operator can run:
+
+```sh
+cloudflared tunnel --url http://127.0.0.1:3000
+```
+
+For a named tunnel, use `http://127.0.0.1:3000` as its ingress service.
 
 ## Vercel monorepo setup
 

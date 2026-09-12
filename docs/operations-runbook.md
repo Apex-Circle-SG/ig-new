@@ -3,9 +3,11 @@
 ## Status and ownership
 
 This repository is the rebuild, not the canonical production cutover. The
-maintainer owns release approval, legacy migration and data review. Hosting,
-remote PostgreSQL, alert routing, Search Console and email providers still need
-provisioning. An environment variable or schema table does not prove an integration
+maintainer owns release approval, legacy migration and data review. Local hosting
+uses the `insightginie-web` systemd service on port 3000; see the
+[service commands](deployment.md#background-service-on-this-host). The public
+tunnel, remote PostgreSQL, alert routing, Search Console and email providers still
+need provisioning. An environment variable or schema table does not prove an integration
 is active. Consult the current validation report for checks actually executed.
 
 ## Routine release

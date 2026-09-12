@@ -14,19 +14,20 @@ The default $75,000 example yields approximately **74.7th percentile**, compared
 
 ## Verification evidence
 
-| Check                                               | Result                                                                 |
-| --------------------------------------------------- | ---------------------------------------------------------------------- |
-| ESLint, zero-warning gate                           | Passed                                                                 |
-| TypeScript                                          | Passed                                                                 |
-| Vitest calculator, ingest, privacy and quality gate | 43 passed                                                              |
-| PostgreSQL 18 isolated integration checks           | 33 passed; migrations replay and schema generation verified            |
-| Legacy migration safety tests                       | 15 passed                                                              |
-| Legacy inventory validation                         | 41,211 rows; zero errors; zero approved dispositions                   |
-| Production Next.js build                            | Passed; static public pages and a dynamic health endpoint              |
-| Playwright                                          | 16 passed in 48.0 seconds                                              |
-| Dependency audit                                    | Zero reported vulnerabilities, including development dependencies      |
-| Desktop/mobile screenshots                          | No overflow or browser runtime errors at 1440px and 390px              |
-| Staging deployment                                  | Blocked: no hosting credentials, CLI login or project binding supplied |
+| Check                                               | Result                                                               |
+| --------------------------------------------------- | -------------------------------------------------------------------- |
+| ESLint, zero-warning gate                           | Passed                                                               |
+| TypeScript                                          | Passed                                                               |
+| Vitest calculator, ingest, privacy and quality gate | 43 passed                                                            |
+| PostgreSQL 18 isolated integration checks           | 33 passed; migrations replay and schema generation verified          |
+| Legacy migration safety tests                       | 15 passed                                                            |
+| Legacy inventory validation                         | 41,211 rows; zero errors; zero approved dispositions                 |
+| Production Next.js build                            | Passed; static public pages and a dynamic health endpoint            |
+| Playwright                                          | 16 passed in 48.0 seconds                                            |
+| Dependency audit                                    | Zero reported vulnerabilities, including development dependencies    |
+| Desktop/mobile screenshots                          | No overflow or browser runtime errors at 1440px and 390px            |
+| Local background hosting                            | Active on 127.0.0.1:3000 under enabled systemd service               |
+| External preview                                    | Operator-managed Cloudflare tunnel; public hostname not yet verified |
 
 The browser suite covers homepage intent routing, invalid inputs, known results, open tails, cents, negative incomes, what-if controls, accessible data table, private-input network/storage isolation, sharing, mobile navigation, keyboard submission, metadata, security headers, health, 404, preview robots, policy routes, failed/disabled JavaScript and recovery when the calculation engine cannot download. It checks both homepage and calculator at 320, 375, 390, 430, 768 and 1280px with axe WCAG 2/2.1/2.2 AA rules. Automated checks do not substitute for a full manual accessibility certification.
 
@@ -53,6 +54,14 @@ The server renders the default example with the same calculator engine used by t
 
 Only GitHub credentials are configured. Known hosting/database/search credentials are also absent from the process environment; no local Vercel login exists. The web calculator works without those services by using its validated public snapshot. A disposable PostgreSQL 18 instance was used for database verification and removed afterward; no hosted database was provisioned.
 
+At the operator's request, the production build now runs on this machine as
+`insightginie-web.service`, listening at `127.0.0.1:3000`. Systemd unit validation
+passed, the unit is enabled for boot, and terminating its main process confirmed
+automatic restart with a new PID and a healthy dataset response. Four targeted
+Playwright checks passed against the service (8.2 seconds), covering homepage
+routing, calculator results and boundaries, private inputs, metadata and health.
+The tunnel is left to the operator. See [hosting instructions](deployment.md#background-service-on-this-host).
+
 The old WordPress site and publishing automation are untouched. All public posts/pages/categories/tag records and sitemaps were enumerated, but this is not a full database/uploads/plugins/configuration backup. A complete restore-tested backup, Search Console/backlink evidence and reviewed URL dispositions are prerequisites for cutover. See [migration evidence](legacy/README.md).
 
 No salary-page batch, household/relocation/tax calculator, account persistence, chat, email report, ad provider, affiliate integration or billing is enabled. Author/reviewer identities, a real support/privacy channel, hosting log-retention policy and human legal/trademark clearance remain required for public launch. The current CSP permits inline Next.js bootstrap; authenticated features require their own strengthened policy and controls.
@@ -63,4 +72,4 @@ Use the commands in [README](../README.md) and [local development](local-develop
 
 ## Next milestone
 
-Provision and verify staging against this same slice, then proceed to household-income ingestion/calculation. Broader calculator and entity expansion stays behind the staged [implementation plan](implementation-plan.md).
+Connect and verify the operator's tunnel against the running service, then proceed to household-income ingestion/calculation. Broader calculator and entity expansion stays behind the staged [implementation plan](implementation-plan.md).

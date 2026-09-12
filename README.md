@@ -51,7 +51,7 @@ Public Census spreadsheets are archived with SHA-256 checksums. Validation rejec
 
 ## Delivery boundaries
 
-Only GitHub credentials were supplied. There is no remote database or hosting deployment configured. Local production-build/browser verification is distinct from staging verification. The legacy WordPress installation is unchanged. Public response snapshots are not a complete WordPress backup. No programmatic salary pages, account storage, chatbot, email, ad provider or billing are enabled.
+Only GitHub credentials were supplied. The local production application is hosted by the `insightginie-web` systemd service on `127.0.0.1:3000`, ready for the operator's Cloudflare tunnel. See [service management](docs/deployment.md#background-service-on-this-host). No remote database or Vercel deployment is configured. The legacy WordPress installation is unchanged. Public response snapshots are not a complete WordPress backup. No programmatic salary pages, account storage, chatbot, email, ad provider or billing are enabled.
 
 Never commit `.env`, credentials, private profile data or raw operational secrets. The production cutover requires a complete WordPress database/files backup, reviewed URL dispositions, traffic/backlink evidence, configured support/retention terms and human legal/trademark clearance.
 

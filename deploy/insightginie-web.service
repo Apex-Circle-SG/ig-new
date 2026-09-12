@@ -1,0 +1,27 @@
+[Unit]
+Description=InsightGinie Next.js application
+After=network.target
+StartLimitIntervalSec=60
+StartLimitBurst=10
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/ig-new/apps/web
+Environment=NODE_ENV=production
+Environment=NEXT_TELEMETRY_DISABLED=1
+Environment=SITE_INDEXABLE=false
+ExecStart=/usr/bin/node /root/ig-new/node_modules/next/dist/bin/next start --hostname 127.0.0.1 --port 3000
+Restart=always
+RestartSec=3
+TimeoutStopSec=30
+KillSignal=SIGTERM
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/root/ig-new/apps/web/.next
+SyslogIdentifier=insightginie-web
+
+[Install]
+WantedBy=multi-user.target
