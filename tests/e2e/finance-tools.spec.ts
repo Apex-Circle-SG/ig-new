@@ -27,6 +27,7 @@ for (const scenario of scenarios)
     const tool = page.frameLocator('iframe[data-private-finance]');
     await expect(tool.getByRole('button', { name: 'Calculate scenario' })).toBeEnabled();
     await tool.getByRole('button', { name: 'Calculate scenario' }).click();
+    await expect(tool.getByText('02 · YOUR SCENARIO', { exact: true })).toBeVisible();
     await expect(tool.locator('.finance-primary-result')).toContainText(scenario.example);
     expect(
       await page
@@ -36,6 +37,7 @@ for (const scenario of scenarios)
     await expect(tool.locator('#insightginie-adsense')).toHaveCount(0);
     const first = tool.locator('input,textarea').first();
     await first.fill('not a number');
+    await expect(first).toHaveValue('not a number');
     await tool.getByRole('button', { name: 'Calculate scenario' }).click();
     await expect(tool.getByRole('alert')).toBeVisible();
     await expect(first).toHaveAttribute('aria-invalid', 'true');
