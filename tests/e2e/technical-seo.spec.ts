@@ -121,6 +121,7 @@ test('published pages serve unique metadata, valid schema and working internal l
 
 test('sitemap serves only reachable canonical pages and query/private pages stay excluded', async ({
   request,
+  baseURL,
 }) => {
   const response = await request.get('/sitemap.xml');
   expect(response.status()).toBe(200);
@@ -143,10 +144,12 @@ test('sitemap serves only reachable canonical pages and query/private pages stay
   expect(await filtered.text()).toMatch(/name="robots" content="noindex/);
   const parameterized = await request.get('/tools/cash-runway/?filter=example');
   expect(parameterized.headers()['x-robots-tag']).toContain('noindex');
-  const hostAlias = await request.get('/tools/cash-runway/', {
-    maxRedirects: 0,
-    headers: { Host: 'www.insightginie.com' },
-  });
-  expect(hostAlias.status()).toBe(308);
+  const publicEdge = baseURL?.startsWith('https://insightginie.com');
+  const hostAlias = await request.get(
+    publicEdge ? 'https://www.insightginie.com/tools/cash-runway/' : '/tools/cash-runway/',
+    { maxRedirects: 0, ...(publicEdge ? {} : { headers: { Host: 'www.insightginie.com' } }) },
+  );
+  // The configured Cloudflare alias uses301; the application's guard uses308.
+  expect(publicEdge ? [301, 308] : [308]).toContain(hostAlias.status());
   expect(hostAlias.headers().location).toBe('https://insightginie.com/tools/cash-runway/');
 });

@@ -58,20 +58,18 @@ export async function GET(request: Request) {
     ],
     [
       'Datadog aggregate export',
-      process.env.DD_METRICS_ENABLED === 'true'
-        ? 'Configured; inspect worker receipt for delivery'
-        : 'Not enabled in web process',
+      'Separate metrics worker; inspect its delivery receipt for current status',
     ],
     ['Browser RUM', 'Not enabled; no browser Datadog token'],
     ['Search Console / GA4 baseline', 'Data unavailable — account evidence required'],
     ['Ad RPM / revenue baseline', 'Data unavailable — AdSense account reports required'],
   ])}</section>
   <section><h2>Recent aggregate service events</h2>${operations.length ? `<div style="overflow:auto"><table><thead><tr><th>UTC day</th><th>Event</th><th>Count</th></tr></thead><tbody>${operations.flatMap((day) => Object.entries(day.counts).map(([code, count]) => `<tr><td>${e(day.day)}</td><td>${e(code)}</td><td>${e(count)}</td></tr>`)).join('')}</tbody></table></div>` : '<p>No recorded service events are available. This is not a traffic baseline.</p>'}</section>
-  <script nonce="${nonce}">document.getElementById('validate').addEventListener('click',async()=>{const out=document.getElementById('quality');out.textContent='Checking…';try{const response=await fetch('/api/admin/checks/',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'});out.textContent=JSON.stringify(await response.json(),null,2);}catch{out.textContent='Checks unavailable; use the operational CLI.'}});</script></main></body></html>`;
+  <script nonce="${nonce}">document.getElementById('validate').addEventListener('click',async()=>{const out=document.getElementById('quality');out.textContent='Checking…';try{const response=await fetch('/api/admin/checks/',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}',signal:AbortSignal.timeout(15000)});out.textContent=JSON.stringify(await response.json(),null,2);}catch{out.textContent='Checks unavailable; use the operational CLI.'}});</script></main></body></html>`;
   return new Response(html, {
     headers: {
       'Content-Type': 'text/html; charset=utf-8',
-      'Cache-Control': 'private, no-store',
+      'Cache-Control': 'private, no-store, no-transform',
       'X-Robots-Tag': 'noindex, nofollow',
       'X-Frame-Options': 'DENY',
       'Referrer-Policy': 'no-referrer',

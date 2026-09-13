@@ -1,5 +1,6 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import { adminChallenge, authenticatedAdmin, htmlEscape } from '../../apps/web/src/lib/admin';
+import { GET as adminPage } from '../../apps/web/src/app/admin/route';
 
 afterEach(() => vi.unstubAllEnvs());
 const key = 'test-only-admin-key-not-for-production-use';
@@ -30,5 +31,19 @@ describe('admin authentication boundary', () => {
     expect(htmlEscape('<img src="x" onerror=\'alert(1)\'>&')).toBe(
       '&lt;img src=&quot;x&quot; onerror=&#39;alert(1)&#39;&gt;&amp;',
     );
+  });
+  it('keeps authenticated nonced HTML private and protected from edge script rewriting', async () => {
+    vi.stubEnv('ADMIN_ACCESS_KEY', key);
+    vi.stubEnv('ADMIN_USERNAME', 'admin');
+    const response = await adminPage(request(`admin:${key}`));
+    expect(response.status).toBe(200);
+    expect(response.headers.get('cache-control')).toBe('private, no-store, no-transform');
+    expect(response.headers.get('x-robots-tag')).toContain('noindex');
+    const nonce = response.headers.get('content-security-policy')?.match(/'nonce-([^']+)'/)?.[1];
+    expect(nonce).toBeTruthy();
+    const html = await response.text();
+    expect(html).toContain(`<script nonce="${nonce}">`);
+    expect(html).toContain('AbortSignal.timeout(15000)');
+    expect(html).not.toContain(key);
   });
 });
