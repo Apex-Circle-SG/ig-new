@@ -10,6 +10,9 @@
 - Added resumable capture, source validation, immutable normalization manifests,
   redirect verification and CI coverage. The v2 normalizer repairs two malformed
   source bodies while preserving both deployed v1 previews byte-for-byte.
+- Pinned the audit's Python dependencies for clean CI runners; full CI passed.
+  Verified the deployed Ginie connection, 31 canonical pages, internal links,
+  sitemaps and mobile navigation through the public host.
 - Retained the working production site and the source blog. Full hosting backup,
   media preservation, restore verification and blog-host authority still block
   cutover; no new article or blog redirect was activated.

@@ -29,12 +29,19 @@ Commands and results are recorded in [release checks](verification/ginie-migrati
 [browser checks](verification/ginie-migration-browser.json) and the
 [preservation handover](audits/2026-09-13-migration-preservation/handover.md).
 The first Ginie implementation also passed [GitHub CI](verification/ginie-ci.json).
+The [final CI run](verification/ginie-migration-ci.json) passed at `304d4cf`,
+including PostgreSQL migration replay, dependency scanning and the full browser
+suite. The initial runner failure was a missing Python parser dependency;
+the pinned install now also passes in a [clean environment](verification/ginie-migration-clean-python.json).
 The final application build is `vp4vAp13jZLVwN8E3_4r1` from commit `e87ed43`;
 see [deployment](verification/ginie-migration-deployment.json) and
 [background-service verification](verification/ginie-migration-runtime.json).
 Public checks passed for [31 canonical pages and 35 internal destinations](verification/ginie-migration-public-routes.json),
 [sitemaps and indexing](verification/ginie-migration-public-seo.json), and
 [mobile menu and keyboard calculator use](verification/ginie-migration-public-menu.json).
+Application source is unchanged between the deployed build and the final CI
+commit. The [provider budget receipt](verification/ginie-migration-provider-budget.json)
+confirms that cached public checks did not add workflow executions.
 
 ## Still blocked or unverified
 

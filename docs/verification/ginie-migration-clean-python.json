@@ -1,0 +1,30 @@
+{
+  "verifiedAt": "2026-09-13T09:43:57.784099+00:00",
+  "pythonVersion": "3.13",
+  "cleanVirtualEnvironment": true,
+  "commands": [
+    {
+      "command": "python3 -m venv /tmp/ig-migration-audit-venv",
+      "exitCode": 0
+    },
+    {
+      "command": "/tmp/ig-migration-audit-venv/bin/python -m pip install -r scripts/consolidation-audit/requirements.txt",
+      "exitCode": 0
+    },
+    {
+      "command": "/tmp/ig-migration-audit-venv/bin/python -m unittest discover -s scripts/consolidation-audit -p 'test_*.py'",
+      "exitCode": 0,
+      "passed": 9
+    },
+    {
+      "command": "/tmp/ig-migration-audit-venv/bin/python -m unittest discover -s scripts/content-sync -p '*_test.py'",
+      "exitCode": 0,
+      "passed": 20
+    },
+    {
+      "command": "/tmp/ig-migration-audit-venv/bin/python -m pip check",
+      "exitCode": 0
+    }
+  ],
+  "productionEnvironmentChanged": false
+}

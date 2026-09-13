@@ -171,7 +171,9 @@
     "runtimeReceipt": "docs/verification/ginie-migration-deployment.json",
     "performance": "Latest local mobile lab LCP target unmet on income and cash-runway pages; field p75 unavailable",
     "applicationBuildId": "vp4vAp13jZLVwN8E3_4r1",
-    "publicAskVerification": "docs/verification/ginie-live-browser.json"
+    "publicAskVerification": "docs/verification/ginie-live-browser.json",
+    "ciReceipt": "docs/verification/ginie-migration-ci.json",
+    "ciStatus": "passed"
   },
   "migration_preservation": {
     "version": "wordpress-public-mirror-v1",

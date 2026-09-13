@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-09-13T09:43:16.000430+00:00",
+  "budgetReservations": {
+    "day": "2026-09-13",
+    "month": "2026-09",
+    "dailyRuns": 3,
+    "monthlyRuns": 3
+  },
+  "fileMode": "0o600",
+  "includesCancelledCompatibilityProbes": true,
+  "stateChangedByVerification": false,
+  "noAdditionalProviderExecutionForCachedBrowserChecks": true,
+  "fullAccountUsage": false
+}

@@ -1,0 +1,25 @@
+{
+  "sha": "304d4cf65706a8f184a0cf7d691c5fcf17f7e378",
+  "run": "https://github.com/Apex-Circle-SG/ig-new/actions/runs/34750052947",
+  "status": "completed",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "name": "dependencies",
+      "status": "completed",
+      "conclusion": "success",
+      "current": [],
+      "failed": []
+    },
+    {
+      "name": "application",
+      "status": "completed",
+      "conclusion": "success",
+      "current": [],
+      "failed": []
+    }
+  ],
+  "deployedApplicationBuildId": "vp4vAp13jZLVwN8E3_4r1",
+  "deployedApplicationSourceUnchanged": true,
+  "priorFailureReceipt": "docs/verification/ginie-migration-ci-first.json"
+}
