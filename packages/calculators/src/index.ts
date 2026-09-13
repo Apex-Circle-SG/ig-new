@@ -119,3 +119,5 @@ export type {
   IndividualIncomeResult,
   DatasetContext,
 } from '@insightginie/schema';
+
+export * from './business';
