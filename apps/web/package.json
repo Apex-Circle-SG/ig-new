@@ -9,19 +9,21 @@
     "start": "next start --hostname 0.0.0.0"
   },
   "dependencies": {
+    "@insightginie/ads": "*",
+    "@insightginie/analytics": "*",
+    "@insightginie/calculators": "*",
+    "@insightginie/charts": "*",
+    "@insightginie/config": "*",
+    "@insightginie/database": "*",
+    "@insightginie/datasets": "*",
+    "@insightginie/schema": "*",
+    "@insightginie/seo": "*",
+    "@insightginie/ui": "*",
+    "lucide-react": "^0.577.0",
     "next": "16.3.5",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
-    "lucide-react": "^0.577.0",
-    "@insightginie/schema": "*",
-    "@insightginie/datasets": "*",
-    "@insightginie/calculators": "*",
-    "@insightginie/database": "*",
-    "@insightginie/ui": "*",
-    "@insightginie/charts": "*",
-    "@insightginie/seo": "*",
-    "@insightginie/analytics": "*",
-    "@insightginie/ads": "*",
-    "@insightginie/config": "*"
+    "sanitize-html": "^2.17.7",
+    "zod": "^4.6.4"
   }
 }

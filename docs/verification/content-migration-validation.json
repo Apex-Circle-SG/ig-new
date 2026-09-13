@@ -1,0 +1,39 @@
+{
+  "verifiedAt": "2026-09-13T08:07:03.313Z",
+  "versionId": "930f09d7136ca6c6496c30c4fe336a5d8168a4a848a5b52092b32136ce3f0ac1",
+  "status": "passed",
+  "scope": "Local source-to-preview preservation and publication gates; not a full WordPress backup or verified remote redirect cutover.",
+  "publicCutoverReady": false,
+  "checks": [
+    {
+      "id": "wp-post-9164",
+      "path": "/insights/connecting-openclaw-to-qq-a-guide-to-the-onebot-adapter-skill/",
+      "originalUrl": "https://blog.insightginie.com/connecting-openclaw-to-qq-a-guide-to-the-onebot-adapter-skill/",
+      "authorPreserved": true,
+      "datesPreserved": true,
+      "bodyReproduced": true,
+      "mediaCount": 1,
+      "featuredMedia": true,
+      "sourceLinkCount": 2,
+      "indexable": false,
+      "canonical": "https://blog.insightginie.com/connecting-openclaw-to-qq-a-guide-to-the-onebot-adapter-skill/",
+      "warnings": []
+    },
+    {
+      "id": "wp-post-13530",
+      "path": "/insights/how-to-get-into-quantitative-trading-a-career-guide/",
+      "originalUrl": "https://blog.insightginie.com/how-to-get-into-quantitative-trading-a-career-guide/",
+      "authorPreserved": true,
+      "datesPreserved": true,
+      "bodyReproduced": true,
+      "mediaCount": 1,
+      "featuredMedia": true,
+      "sourceLinkCount": 7,
+      "indexable": false,
+      "canonical": "https://blog.insightginie.com/how-to-get-into-quantitative-trading-a-career-guide/",
+      "warnings": [
+        "Active embeds or scripts removed for safe display; original publication retains the source rendering."
+      ]
+    }
+  ]
+}
