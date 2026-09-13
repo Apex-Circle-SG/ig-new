@@ -1,0 +1,23 @@
+{
+  "sha": "74ef596b6bc9a8c6022cb797e1c589cb4694a1fb",
+  "run": "https://github.com/Apex-Circle-SG/ig-new/actions/runs/34751572699",
+  "status": "completed",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "name": "dependencies",
+      "status": "completed",
+      "conclusion": "success",
+      "current": [],
+      "failed": []
+    },
+    {
+      "name": "application",
+      "status": "completed",
+      "conclusion": "success",
+      "current": [],
+      "failed": []
+    }
+  ],
+  "deployedApplicationBuildId": "p2y2WZozM9htX0Oc9K_Oz"
+}

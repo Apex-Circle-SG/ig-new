@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-09-13T10:20:34.489Z",
+  "status": "passed",
+  "scope": "General-enabled mobile interface with synthetic local-only configuration, intercepted API and no provider credentials",
+  "checks": {
+    "externalProcessingDisclosureBeforeSuggestionButtons": true,
+    "generalAnswerLabel": true,
+    "mobileOverflow": false,
+    "axeViolations": 0,
+    "providerRequests": 0
+  },
+  "liveInference": false
+}

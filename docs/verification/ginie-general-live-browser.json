@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-09-13T10:20:51.913Z",
+  "status": "passed",
+  "url": "https://insightginie.com/ask/",
+  "syntheticQuestion": "What is an API key?",
+  "checks": {
+    "httpsStatus": 200,
+    "newInterface": true,
+    "harmlessApiTopicNotRefused": true,
+    "disabledGeneralModeDisclosed": true,
+    "mobileOverflow": false,
+    "pageErrors": 0,
+    "noBrowserProviderOrAdRequests": true
+  },
+  "generalGenerationEnabled": false,
+  "liveGeneralInferenceVerified": false,
+  "browserHosts": [
+    "insightginie.com"
+  ]
+}

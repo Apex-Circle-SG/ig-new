@@ -48,6 +48,24 @@ A change to the agent or its tools requires another review. See the
 
 ## Verification and deployment
 
+Deployed to `https://insightginie.com/ask/` on September 13, 2026 at 10:20 UTC,
+source commit `74ef596b6bc9a8c6022cb797e1c589cb4694a1fb`, build
+`p2y2WZozM9htX0Oc9K_Oz`. The [deployment receipt](verification/ginie-general-deployment.json)
+records health verification and the private rollback archive. General generation
+remains disabled; source selection remains enabled.
+
+The [public browser check](verification/ginie-general-live-browser.json) verifies
+the updated interface, the removal of the harmless API-topic refusal, truthful
+disabled-mode disclosure, and mobile layout without JavaScript errors. The
+[source/calculator regression](verification/ginie-general-source-regression.json)
+verifies a cached, previously validated Datadog selection and a local deterministic
+calculation. Neither is a live general-generation test.
+
+[GitHub CI passed](https://github.com/Apex-Circle-SG/ig-new/actions/runs/34751572699)
+for the deployed source commit, including database migration replay, dependency
+scanning and the full browser suite. The [CI receipt](verification/ginie-general-ci.json)
+records both successful jobs.
+
 The [acceptance receipt](verification/ginie-general-acceptance.json) records the
 exact accepted build and completed checks: lint, types, 399 Vitest tests, 35 Node
 tests, 50 Python tests and 56 browser tests. Four visual snapshots passed; the
@@ -66,9 +84,19 @@ General provider tests use controlled responses; production source-selection
 checks use the real configured workflow or its validated cache. These scopes
 must not be conflated.
 
+The [enabled-interface check](verification/ginie-general-enabled-ui.json) used a
+separate local process with synthetic configuration and intercepted API replies.
+It verified the external-processing disclosure before submission controls,
+general-answer labeling and zero Axe violations on mobile. It used no provider
+credentials and made no remote provider requests.
+
 Deploy using the [existing promotion procedure](consolidation-release.md). The
 service remains on `127.0.0.1:3000`. Its private release archive supports rollback
 of the application and runtime settings. Preserve
 `/var/lib/insightginie/datadog-ask/selection-state.json` across release and rollback
 so run reservations are not reset. General mode can be disabled independently;
 WordPress migration status is unaffected.
+
+For this release, rollback is
+`python3 scripts/deploy/promote.py --rollback
+/root/ig-new/artifacts/releases/pre-consolidation-20260913T102036Z`.
