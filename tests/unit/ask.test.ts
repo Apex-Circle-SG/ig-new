@@ -79,6 +79,7 @@ describe('request security', () => {
         new Request('https://insightginie.com/api/ask/', {
           headers: { origin: 'https://evil.example' },
         }),
+        'https://insightginie.com',
       ),
     ).toBe(false);
     expect(
@@ -86,8 +87,17 @@ describe('request security', () => {
         new Request('https://insightginie.com/api/ask/', {
           headers: { origin: 'https://insightginie.com', 'sec-fetch-site': 'same-origin' },
         }),
+        'https://insightginie.com',
       ),
     ).toBe(true);
+    expect(
+      trustedOrigin(
+        new Request('https://insightginie.com/api/ask/', {
+          headers: { origin: 'https://insightginie.com', 'sec-fetch-site': 'cross-site' },
+        }),
+        'https://insightginie.com',
+      ),
+    ).toBe(false);
   });
   it('bounds bucket cardinality, bursts and rate-limit windows', () => {
     const allow = createRequestLimiter(2, 1000, 2);

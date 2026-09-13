@@ -1,7 +1,10 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 
-test.beforeEach(async ({ context }, info) => {
+test.beforeEach(async ({ context, baseURL }, info) => {
+  // Cloudflare owns these headers at the public edge; spoofing its client IP
+  // there triggers Error1000 before the request reaches the application.
+  if (baseURL?.startsWith('https://insightginie.com')) return;
   await context.setExtraHTTPHeaders({
     'cf-ipcountry': 'US',
     'cf-connecting-ip': `198.51.100.${100 + info.parallelIndex}`,

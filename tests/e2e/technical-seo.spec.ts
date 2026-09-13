@@ -33,6 +33,9 @@ test('published pages serve unique metadata, valid schema and working internal l
     expect(response.status(), `${path} must be a successful canonical page`).toBe(200);
     checked.set(path, response.status());
     expect(response.headers()['x-robots-tag'] ?? '', path).not.toMatch(/noindex|none/i);
+    expect(await response.text(), `${path} must retain executable CSP-nonced scripts`).not.toMatch(
+      /rocket-loader\.min\.js|type="[a-f0-9]+-text\/javascript"/,
+    );
     const facts = await page.evaluate(
       (html) => {
         const document = new DOMParser().parseFromString(html, 'text/html');

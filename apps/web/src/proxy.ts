@@ -36,9 +36,9 @@ export function proxy(request: NextRequest) {
   headers.set('Content-Security-Policy', csp);
   const response = NextResponse.next({ request: { headers } });
   response.headers.set('Content-Security-Policy', csp);
-  // Permit HTTP compression for public SSR HTML. Opaque calculator documents
-  // keep their separate origin-compressed no-transform policy.
-  response.headers.set('Cache-Control', 'private, no-store');
+  // Cloudflare Rocket Loader rewrites script types unless transformations are
+  // disabled. Preserve nonce-bearing scripts and the private input boundary.
+  response.headers.set('Cache-Control', 'private, no-store, no-transform');
   if (request.nextUrl.searchParams.size > 0)
     response.headers.set('X-Robots-Tag', 'noindex, follow');
   return response;

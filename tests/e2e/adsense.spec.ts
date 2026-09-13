@@ -114,9 +114,10 @@ test('ads.txt, fresh nonces, and mobile advertising choices are valid', async ({
   expect(first.headers()['content-security-policy']).not.toEqual(
     second.headers()['content-security-policy'],
   );
-  // Nonce-bearing public HTML stays uncacheable while allowing transport compression.
+  // Nonce-bearing HTML must survive the configured Cloudflare script optimizer.
   expect(first.headers()['cache-control']).toContain('no-store');
   expect(first.headers()['cache-control']).toContain('private');
+  expect(first.headers()['cache-control']).toContain('no-transform');
   await context.setExtraHTTPHeaders({ 'cf-ipcountry': 'GB' });
   await page.setViewportSize({ width: 320, height: 700 });
   await page.goto('/methodology/');
