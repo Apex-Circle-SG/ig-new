@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-09-13T09:40:28.000586+00:00",
+  "status": "passed",
+  "base": "https://insightginie.com",
+  "suite": "tests/e2e/technical-seo.spec.ts",
+  "stats": {
+    "startTime": "2026-09-13T09:40:14.240Z",
+    "duration": 4758.662,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "checks": [
+    "Canonical 200 pages",
+    "Unique titles and descriptions",
+    "One H1 per page",
+    "Matching schema and CSP nonces",
+    "Working internal links",
+    "Sitemap membership and noindex exclusions",
+    "Direct www host redirect",
+    "No Cloudflare Rocket Loader transformation"
+  ],
+  "externalScriptsExecuted": false
+}

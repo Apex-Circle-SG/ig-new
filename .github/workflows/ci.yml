@@ -47,6 +47,12 @@ jobs:
         with:
           node-version: 22
           cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: scripts/consolidation-audit/requirements.txt
+      - run: python3 -m pip install --requirement scripts/consolidation-audit/requirements.txt
       - run: npm ci
       - run: npm run lint
       - run: npm run typecheck

@@ -29,7 +29,12 @@ Commands and results are recorded in [release checks](verification/ginie-migrati
 [browser checks](verification/ginie-migration-browser.json) and the
 [preservation handover](audits/2026-09-13-migration-preservation/handover.md).
 The first Ginie implementation also passed [GitHub CI](verification/ginie-ci.json).
-Final migration CI and deployment receipts are recorded separately when complete.
+The final application build is `vp4vAp13jZLVwN8E3_4r1` from commit `e87ed43`;
+see [deployment](verification/ginie-migration-deployment.json) and
+[background-service verification](verification/ginie-migration-runtime.json).
+Public checks passed for [31 canonical pages and 35 internal destinations](verification/ginie-migration-public-routes.json),
+[sitemaps and indexing](verification/ginie-migration-public-seo.json), and
+[mobile menu and keyboard calculator use](verification/ginie-migration-public-menu.json).
 
 ## Still blocked or unverified
 
@@ -70,7 +75,8 @@ python3 scripts/deploy/promote.py --rollback /root/ig-new/artifacts/releases/REC
 node scripts/verification/ginie-live.mjs
 ```
 
-Replace `RECEIPT_DIRECTORY` with the actual receipt value. The Datadog budget and
+For this release, `RECEIPT_DIRECTORY` is `pre-consolidation-20260913T093938Z`.
+It restores the preceding working Ginie release. The Datadog budget and
 cache directory `/var/lib/insightginie/datadog-ask` must survive promotion and
 rollback. Never reset it to bypass run limits. A rollback to a pre-Datadog build
 requires its corresponding smoke tests, rather than the Ginie-provider check.

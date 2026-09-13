@@ -1,6 +1,6 @@
 {
   "audit_version": "consolidation-implementation-v1",
-  "generated_at": "2026-09-13T09:35:36.042940+00:00",
+  "generated_at": "2026-09-13T09:42:02.244435+00:00",
   "phase": "Functional application deployed; remote WordPress cutover and performance acceptance remain open",
   "phase1_complete": false,
   "application_modified": true,
@@ -125,28 +125,28 @@
     {
       "id": "AI-01",
       "classification": "UNAVAILABLE_EVIDENCE",
-      "finding": "Bits Agent Builder documents workflow execution, but account entitlement, public-inference support and prompt-retention controls are unverified.",
-      "evidence": "docs/datadog-bits-requirements.md"
+      "finding": "Published Datadog workflow and Agent Builder execution are verified for bounded public excerpt selection. Account-side monetary limits, agent tools and retention remain unverified.",
+      "evidence": "docs/verification/datadog-ginie-execution.json"
     }
   ],
   "blocked_acceptance": [
     "Full source/rendered crawl and internal-link completeness",
     "Restorable WordPress backup, complete uploads export and isolated restore verification",
     "Direct blog-host redirects and private backend",
-    "New finance products, reviewed editorial trust metadata and assistant",
-    "Datadog monitoring/inference account validation",
+    "Verified editorial authors/reviewers and publication approval for new finance content",
+    "Datadog account-side monetary limits, agent tools, retention and optional observability entitlements",
     "Field Core Web Vitals and organic/revenue baselines"
   ],
   "implementation": {
     "public_routes": 31,
     "private_calculators": 7,
-    "assistant": "approved-source retrieval and deterministic tools; no external inference",
+    "assistant": "Ask Ginie: verified Datadog workflow selects approved public excerpts; raw questions stay local, calculations are deterministic, fallback is explicit",
     "wordpress_previews": 2,
     "wordpress_inventoried_posts": 9071,
     "wordpress_redirects_activated": 0,
-    "technical_seo_report": "docs/verification/technical-seo-routes.json",
+    "technical_seo_report": "docs/verification/ginie-migration-public-routes.json",
     "original_inspection": "docs/audits/2026-09-13-consolidation/SEO_AUDIT.json",
-    "acceptance_report": "docs/verification/consolidation-acceptance.json",
+    "acceptance_report": "docs/verification/ginie-migration-acceptance.json",
     "wordpress_mirrored_posts": 9071,
     "wordpress_mirrored_pages": 17,
     "wordpress_normalized_candidates": 9070
@@ -156,17 +156,22 @@
     "docs/verification/consolidation-browser.json",
     "docs/verification/consolidation-lighthouse-summary.json",
     "docs/verification/consolidation-first-promotion-rollback.json",
-    "docs/audits/2026-09-13-migration-preservation/preservation-receipt.json"
+    "docs/audits/2026-09-13-migration-preservation/preservation-receipt.json",
+    "docs/ginie-migration-acceptance.md",
+    "docs/verification/ginie-live-browser.json",
+    "docs/verification/ginie-migration-public-seo.json"
   ],
   "release": {
-    "applicationCommit": "7b82bd078d1d5c9777b2f3c7076574c6cd169eea",
+    "applicationCommit": "e87ed43b4ff893f1b926a682c1dd4af13fa8f28e",
     "canonicalPagesVerified": 31,
-    "publicBrowserChecksPassed": 13,
+    "publicBrowserChecksPassed": 4,
     "wordpressCutover": false,
     "approvedBlogRedirects": 0,
     "indexNowReceipt": "docs/offsite-seo/consolidation-submission.json",
-    "runtimeReceipt": "docs/verification/consolidation-deployment.json",
-    "performance": "Lab LCP target unmet on three pages; field p75 unavailable"
+    "runtimeReceipt": "docs/verification/ginie-migration-deployment.json",
+    "performance": "Latest local mobile lab LCP target unmet on income and cash-runway pages; field p75 unavailable",
+    "applicationBuildId": "vp4vAp13jZLVwN8E3_4r1",
+    "publicAskVerification": "docs/verification/ginie-live-browser.json"
   },
   "migration_preservation": {
     "version": "wordpress-public-mirror-v1",

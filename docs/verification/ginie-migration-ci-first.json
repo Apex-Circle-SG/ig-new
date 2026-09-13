@@ -1,0 +1,26 @@
+{
+  "sha": "e87ed43b4ff893f1b926a682c1dd4af13fa8f28e",
+  "run": "https://github.com/Apex-Circle-SG/ig-new/actions/runs/34749943409",
+  "status": "completed",
+  "conclusion": "failure",
+  "jobs": [
+    {
+      "name": "application",
+      "status": "completed",
+      "conclusion": "failure",
+      "current": [],
+      "failed": [
+        "Verify legacy migration safety"
+      ]
+    },
+    {
+      "name": "dependencies",
+      "status": "completed",
+      "conclusion": "success",
+      "current": [],
+      "failed": []
+    }
+  ],
+  "cause": "Consolidation audit tests import lxml; it was installed locally but absent from the fresh runner.",
+  "resolution": "CI explicitly installs the pinned audit requirements in Python 3.13; rerun pending."
+}

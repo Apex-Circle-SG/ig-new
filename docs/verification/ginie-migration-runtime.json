@@ -1,0 +1,18 @@
+{
+  "insightginie-web": {
+    "active": "active",
+    "enabled": "enabled"
+  },
+  "insightginie-metrics.timer": {
+    "active": "active",
+    "enabled": "enabled"
+  },
+  "insightginie-analytics-prune.timer": {
+    "active": "active",
+    "enabled": "enabled"
+  },
+  "buildMatchesAcceptance": true,
+  "port": 3000,
+  "bind": "127.0.0.1",
+  "checkedAt": "2026-09-13T09:39:58.734194+00:00"
+}

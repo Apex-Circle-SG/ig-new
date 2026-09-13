@@ -2,7 +2,17 @@
 
 Read-only HTTP inspection. Nothing here deploys redirects, publishes content,
 changes WordPress or configures Datadog. Requires Python with `requests` and
-`lxml`, plus the repository's Playwright/axe dependencies.
+`lxml`, plus the repository's Playwright/axe dependencies. Install the pinned
+Python dependencies in an isolated environment before running the audit suite:
+
+```sh
+python3 -m venv .venv
+.venv/bin/python -m pip install -r scripts/consolidation-audit/requirements.txt
+.venv/bin/python -m unittest discover -s scripts/consolidation-audit -p 'test_*.py'
+```
+
+CI selects Python 3.13 and installs this requirements file explicitly; it does
+not rely on packages preinstalled on the development host.
 
 ## Discovery and evidence
 
