@@ -1,0 +1,95 @@
+{
+  "reviewedAt": "2026-09-13T09:22:25.343Z",
+  "scope": "Read-only account contract inspection plus local source, privacy-boundary and regression-test review. Reviewer executed no workflow or remote mutation; root-authorized real probes are recorded separately.",
+  "files": [
+    {
+      "path": "apps/web/src/lib/ask/orchestrate.ts",
+      "sha256": "815c34d251069bd3925efb4caa511536dd98dbc31c6e25c69b128c2ee4c67ea0"
+    },
+    {
+      "path": "apps/web/src/lib/ask/datadog.ts",
+      "sha256": "401e0cff78b76d1d7ddf243dc26485dc0fe7fc8ce7cb18958245b5d2b58793fe"
+    },
+    {
+      "path": "apps/web/src/lib/ask/core.ts",
+      "sha256": "0ec7e732cce36341ccbe1ee02f20454f8fbfc62a510113f36b5e47886db0c205"
+    },
+    {
+      "path": "scripts/observability/bits.mjs",
+      "sha256": "672f8d5024686930d889fcee39dce9bb6702ef7882c52d4de9a1faf25310560e"
+    }
+  ],
+  "findings": [
+    {
+      "id": "ASK-01",
+      "issue": "Generic about/tell terms matched product metadata and invoked the provider for an unrelated question.",
+      "status": "resolved",
+      "resolution": "Generic request terms excluded from retrieval; unrelated-topic orchestration regression passes."
+    },
+    {
+      "id": "ASK-02",
+      "issue": "Workflow read/validation failures bypassed the cache-miss cooldown before a billable reservation.",
+      "status": "resolved",
+      "resolution": "Durable lastProbeAt limits read failures too. Pure budget evaluation preserves prior-day state during failed probes; rollover regression passes."
+    },
+    {
+      "id": "ASK-03",
+      "issue": "Fixtures and the earlier normalized receipt incorrectly implied attributes.status; actual API returns instanceStatus.detailsKind and pending IN_PROGRESS.",
+      "status": "resolved",
+      "resolution": "Public and private adapters read the current machine field, accept finite compatibility variants without conflicting aliases, and recognize IN_PROGRESS and terminal INSTANCE_ERROR. Contract evidence corrected."
+    },
+    {
+      "id": "ASK-04",
+      "issue": "The real workflow includes a static prefix before its one Trigger.question binding.",
+      "status": "resolved",
+      "resolution": "Bounded static wrapper accepted; additional bindings/context and conversation parameters rejected."
+    }
+  ],
+  "boundaryFindings": {
+    "rawQuestionForwarded": false,
+    "privateFinancialValuesForwarded": false,
+    "providerGeneratedTextDisplayed": false,
+    "selectionReconstructedFromApprovedLocalText": true,
+    "outputIdsRevalidated": true,
+    "secretsOrProviderBodiesLogged": false,
+    "cacheStoresOnlyFingerprintIdsAndTime": true,
+    "durableCapsAndCrossProcessLock": true,
+    "optionalPrivateAdapterActivatedByReview": false
+  },
+  "validation": {
+    "publicProviderAndOrchestration": {
+      "command": "npx vitest run tests/unit/ask-datadog.test.ts tests/unit/ask-orchestrate.test.ts",
+      "passed": 68,
+      "failed": 0
+    },
+    "privateObservability": {
+      "command": "node --test scripts/observability/observability.test.mjs",
+      "passed": 18,
+      "failed": 0
+    },
+    "privateScopedEslint": "passed",
+    "scopedDiffCheck": "passed"
+  },
+  "unresolvedCodeFindings": [],
+  "limits": [
+    "Review covers the inspected code and tests, not general security certification.",
+    "Account-side tools/model/retention/spending settings remain as documented in the separate contract report.",
+    "Local run caps do not prove monetary allowance; no billing amount or private account identifiers were recorded.",
+    "A root-authorized fixed-public-packet run passed and a cache read made zero additional requests. Service activation remains separate deployment evidence."
+  ],
+  "evidence": [
+    "docs/verification/datadog-ask-contract.json",
+    "docs/verification/datadog-ginie-instance-shape.json",
+    "docs/verification/datadog-ginie-execution.json"
+  ],
+  "rootAuthorizedLiveVerification": {
+    "receipt": "docs/verification/datadog-ginie-execution.json",
+    "checkedAt": "2026-09-13T09:22:09.734Z",
+    "status": "passed",
+    "elapsedMs": 6100,
+    "fixedPublicPacketOnly": true,
+    "resultStatus": "selected",
+    "cacheAdditionalRequests": 0,
+    "scope": "Configured Datadog agent selected IDs from approved public excerpts; text and citations were reconstructed locally. This verifies narrow workflow-backed inference, not unrestricted chat or model-generated financial advice."
+  }
+}

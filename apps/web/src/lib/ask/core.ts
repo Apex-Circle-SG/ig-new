@@ -34,7 +34,18 @@ export const askOutputSchema = z.object({
     .max(3),
   followups: z.array(z.object({ label: z.string(), path: localPath })).max(4),
   assumptions: z.array(z.string()).max(5),
-  method: z.enum(['approved-content-retrieval', 'deterministic-calculator']),
+  method: z.enum([
+    'approved-content-retrieval',
+    'deterministic-calculator',
+    'datadog-grounded-selection',
+  ]),
+  provider: z
+    .object({
+      id: z.enum(['datadog', 'local']),
+      status: z.enum(['live', 'cached', 'fallback', 'not-needed']),
+      preparedAt: z.iso.datetime().optional(),
+    })
+    .optional(),
 });
 export type AskAnswer = z.infer<typeof askOutputSchema>;
 
@@ -43,7 +54,7 @@ const defaults = [
   { label: 'Understand the data', path: '/methodology/' },
 ];
 const stop = new Set(
-  'a an and are as at be can do does for from how i in is it me my of on or please the this to what when where which with you your'.split(
+  'a about an and are as at be can do does for from how i in is it me my of on or please tell the this to what when where which with you your'.split(
     ' ',
   ),
 );

@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-09-13 — Datadog-backed Ask Ginie
+
+- Connected the configured Datadog workflow to approved public excerpt selection;
+  verified a real successful execution and a cache hit with no extra API calls.
+- Corrected the live Workflow Automation `instanceStatus.detailsKind` contract,
+  including `IN_PROGRESS`, and retained the two cancelled compatibility probes.
+- Added durable run caps, public-content caching, strict output validation and
+  explicit live/cached/local provider labels. Raw questions and financial values
+  never enter the provider packet; deterministic calculations remain local.
+- Renamed the assistant to Ginie throughout active navigation, pages and tests,
+  and updated privacy disclosures and reversible server configuration.
+
+See [the provider receipt](docs/verification/datadog-ginie-execution.json) and
+[the Ginie implementation contract](docs/genie.md).
+
 ## 2026-09-13 — Finance tools, source-grounded Ask and guarded content consolidation
 
 - Added six deterministic finance tools with local exports, private input frames

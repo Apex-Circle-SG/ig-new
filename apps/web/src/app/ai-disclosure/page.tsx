@@ -18,13 +18,19 @@ export default function AiDisclosure() {
       lead="A fluent answer is not evidence. Sources and calculation assumptions matter."
     >
       <section>
-        <h2>What Ask does in this release</h2>
+        <h2>What Ginie does in this release</h2>
         <p>
-          The public Ask experience uses deterministic search over approved public site material and
-          available tool descriptions. It does not call an external generative language model. It
-          returns supported sources or a limitation when the approved material does not answer the
-          question. A matching page is evidence to inspect, not a guarantee that it resolves your
-          circumstances.
+          Ask Ginie searches approved public explanations on the InsightGinie server. For supported
+          explanatory questions, our Datadog agent selects useful passages from that material. The
+          application displays the original source text and citations; the model cannot insert
+          invented facts or alter a calculator result. Each answer identifies a Datadog selection, a
+          cached selection, a local calculation or a local source fallback.
+        </p>
+        <p>
+          Datadog receives only published excerpts and a general topic category. It does not receive
+          your question, financial values or conversation history. Selections are reused for up to
+          14 days while the underlying source text is unchanged. Timeouts, usage limits or invalid
+          output fall back to the approved local sources.
         </p>
         <p>
           Unless an answer explicitly identifies a current source and its date, do not treat it as
@@ -49,15 +55,17 @@ export default function AiDisclosure() {
       <section>
         <h2>Questions and private inputs are different</h2>
         <p>
-          A question submitted to Ask is processed transiently by the application; raw questions are
-          not persisted by this feature. This differs from financial calculator inputs that remain
-          inside a browser sandbox. Do not include account numbers, credentials, names of other
-          people or other sensitive identifying information in a question.
+          A question submitted to Ginie is processed transiently by the application; raw questions
+          are not persisted by this feature. This differs from financial calculator inputs that
+          remain inside a browser sandbox. Do not include account numbers, credentials, names of
+          other people or other sensitive identifying information in a question.
         </p>
         <p>
-          Public Ask requests are not forwarded to the project’s private operational integrations.
-          See the <a href="/privacy/">privacy policy</a> for the currently enabled processing and
-          retention.
+          The Datadog workflow is called by our server using server-held credentials. Only the
+          approved public selection task is sent; visitors cannot invoke arbitrary agent tools.
+          Provider-side records of these public tasks follow the Datadog account’s retention
+          settings. See the <a href="/privacy/">privacy policy</a> for the currently enabled
+          processing and retention.
         </p>
       </section>
       <section>

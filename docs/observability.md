@@ -4,7 +4,9 @@ Implemented, tested and activated 13 September 2026. Production aggregate
 metrics were accepted by AP1 intake with HTTP202; a query returned one non-null
 series. The five-minute metrics timer is enabled. An authenticated-account
 operations dashboard was created and read back with HTTP200. No public share or
-notifications were created. **Bits remains disabled with a zero execution budget.**
+notifications were created. **Private operational triage remains disabled with a zero execution budget.**
+The separately authorized public-source Ginie adapter is documented in
+[the Ginie contract](genie.md); its bounded workflow calls receive public excerpts only.
 No browser RUM, APM SDK, monitor or scanner/pipeline is active. Custom-metric
 billing allowance remains unverified.
 
@@ -30,7 +32,7 @@ it does not establish recurring capacity or complete account governance.
 | Selected workflow and instance reads                                      | `workflows_read` and resource access               | Live read HTTP 200; earlier instance retrieval succeeded                              |
 | Selected workflow execution                                               | `workflows_run` and resource/connection access     | Earlier authorized synthetic execution succeeded; disabled in this adapter by default |
 | Workflow cancellation                                                     | Workflow run access and applicable resource access | Documented request implemented and mocked; not live tested                            |
-| Metrics intake `/api/v2/series`                                           | API key; application key is not sent               | Intake HTTP202; metric query HTTP200 with one non-null series                     |
+| Metrics intake `/api/v2/series`                                           | API key; application key is not sent               | Intake HTTP202; metric query HTTP200 with one non-null series                         |
 | APM, Error Tracking, RUM, Sensitive Data Scanner, Observability Pipelines | Product-specific configuration and entitlements    | Unverified; no SDK, agent, pipeline or remote product activated here                  |
 
 This table records observed endpoint capabilities, not a complete enumeration of

@@ -130,7 +130,7 @@ export function Command() {
             <p>
               Find a source-linked starting point.{' '}
               <Link prefetch={false} href="/ask/">
-                Ask Genie <ArrowRight size={14} />
+                Ask Ginie <ArrowRight size={14} />
               </Link>
             </p>
           )}

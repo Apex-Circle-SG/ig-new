@@ -51,7 +51,7 @@ export function getAskKnowledge(): GroundingDocument[] {
       approved: true,
       updatedAt: '2026-09-13',
       keywords: ['privacy', 'private', 'data', 'save', 'share'],
-      text: 'Calculator inputs and results stay inside a separate browser sandbox. Public share links contain only the tool address. Downloads are created locally when you request them. Ask questions are sent to the InsightGinie server to search approved public explanations; avoid including private details. Questions and answers are not retained in application analytics or forwarded to the private Datadog operations workflow.',
+      text: 'Calculator inputs and results stay inside a separate browser sandbox. Public share links contain only the tool address. Downloads are created locally when you request them. Ginie questions are processed transiently on the InsightGinie server; avoid including private details. Datadog receives only approved public excerpts and a general topic category to select source passages. Raw questions, personal values and conversations are not sent to Datadog or retained in application analytics.',
       sources: [{ name: 'InsightGinie privacy policy', url: 'https://insightginie.com/privacy/' }],
     },
   ];

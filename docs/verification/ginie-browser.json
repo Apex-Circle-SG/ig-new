@@ -1,0 +1,12 @@
+{
+  "stats": {
+    "startTime": "2026-09-13T09:24:17.622Z",
+    "duration": 113414.607,
+    "expected": 55,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "suite": "55 Chromium tests across calculators, Ginie, previews, SEO, ads, privacy, accessibility and visual snapshots",
+  "base": "http://127.0.0.1:3011"
+}

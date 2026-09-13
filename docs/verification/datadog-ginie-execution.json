@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-09-13T09:22:09.734Z",
+  "status": "passed",
+  "provider": "Datadog Workflow Automation / configured Agent Builder agent",
+  "input": "Fixed public cash-runway explanations and formula category only",
+  "payloadVerified": true,
+  "privateQuestionOrValuesSent": false,
+  "credentialsRecorded": false,
+  "remoteBodiesRecorded": false,
+  "calls": [
+    {
+      "operation": "workflow-read",
+      "status": 200
+    },
+    {
+      "operation": "create",
+      "status": 200
+    },
+    {
+      "operation": "poll",
+      "status": 200,
+      "stateField": "instanceStatus",
+      "executionState": "IN_PROGRESS"
+    },
+    {
+      "operation": "poll",
+      "status": 200,
+      "stateField": "instanceStatus",
+      "executionState": "IN_PROGRESS"
+    },
+    {
+      "operation": "poll",
+      "status": 200,
+      "stateField": "instanceStatus",
+      "executionState": "IN_PROGRESS"
+    },
+    {
+      "operation": "poll",
+      "status": 200,
+      "stateField": "instanceStatus",
+      "executionState": "IN_PROGRESS"
+    },
+    {
+      "operation": "poll",
+      "status": 200,
+      "stateField": "instanceStatus",
+      "executionState": "SUCCEEDED"
+    }
+  ],
+  "elapsedMs": 6100,
+  "result": {
+    "status": "selected",
+    "excerptIds": [
+      "cash-runway:1",
+      "cash-runway:2"
+    ],
+    "cached": false,
+    "preparedAt": "2026-09-13T09:22:09.661Z"
+  },
+  "cacheRead": {
+    "status": "selected",
+    "excerptIds": [
+      "cash-runway:1",
+      "cash-runway:2"
+    ],
+    "cached": true,
+    "preparedAt": "2026-09-13T09:22:09.661Z"
+  },
+  "cacheAdditionalRequests": 0,
+  "persistentRunBudget": {
+    "daily": 20,
+    "monthly": 120
+  },
+  "note": "Run caps are not a monetary cap. This verifies source selection, not unrestricted chat or model-generated financial calculations."
+}

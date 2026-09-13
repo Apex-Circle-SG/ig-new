@@ -28,7 +28,7 @@ export default function AdvertisingDisclosure() {
         <p>
           Calculator inputs run in a separate browser sandbox. Our calculators do not send entered
           financial values or results to advertising providers. Advertising does not belong inside
-          private tools or the Ask conversation.
+          private tools or the Ginie conversation.
         </p>
         <p>
           Use Cookie settings in the footer to change your advertising choice. The{' '}

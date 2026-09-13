@@ -9,7 +9,7 @@ const names: Record<string, string> = {
   '/tools/': 'Finance tools',
   '/insights/': 'Insights',
   '/research/': 'Research and US income data',
-  '/ask/': 'Ask Genie',
+  '/ask/': 'Ask Ginie',
   '/data/': 'Datasets',
   '/data/census-cps/': 'Census CPS source documentation',
   '/data/us-income-distribution/': 'US income distribution',

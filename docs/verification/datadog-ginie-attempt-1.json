@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-09-13T09:19:08.841Z",
+  "status": "failed",
+  "provider": "Datadog Workflow Automation / configured Agent Builder agent",
+  "input": "Fixed public cash-runway explanations and formula category only",
+  "payloadVerified": true,
+  "privateQuestionOrValuesSent": false,
+  "credentialsRecorded": false,
+  "remoteBodiesRecorded": false,
+  "calls": [
+    {
+      "operation": "workflow-read",
+      "status": 200
+    },
+    {
+      "operation": "create",
+      "status": 200
+    },
+    {
+      "operation": "poll",
+      "status": 200
+    },
+    {
+      "operation": "cancel",
+      "status": 200
+    }
+  ],
+  "elapsedMs": 1415,
+  "result": {
+    "status": "unavailable",
+    "reason": "validation"
+  },
+  "cacheRead": null,
+  "cacheAdditionalRequests": 0,
+  "persistentRunBudget": {
+    "daily": 20,
+    "monthly": 120
+  },
+  "note": "Run caps are not a monetary cap. This verifies source selection, not unrestricted chat or model-generated financial calculations."
+}

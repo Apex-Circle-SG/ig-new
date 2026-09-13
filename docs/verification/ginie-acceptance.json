@@ -1,0 +1,46 @@
+{
+  "verifiedAt": "2026-09-13T09:28:03.059558+00:00",
+  "buildId": "-Y3xB0EtlgU3AqNA_jsTT",
+  "status": "passed",
+  "scope": "Ginie provider, naming and preserved application behavior; WordPress host cutover remains blocked",
+  "checks": {
+    "lint": "passed",
+    "typecheck": "passed",
+    "vitest": {
+      "passed": 325,
+      "files": 18
+    },
+    "node": {
+      "passed": 35
+    },
+    "python": {
+      "deployPassed": 5,
+      "legacyPassed": 15
+    },
+    "browser": {
+      "passed": 55,
+      "report": "docs/verification/ginie-browser.json"
+    },
+    "visualSnapshots": 4,
+    "visualReview": "desktop and mobile Ginie inspected",
+    "realDatadogExecution": "docs/verification/datadog-ginie-execution.json",
+    "providerCache": "verified zero additional requests",
+    "lighthouse": "docs/verification/ginie-lighthouse-summary.json",
+    "fieldCoreWebVitals": "unavailable",
+    "labLcpTarget": "not met on 3 of 4 pages; performance remains open",
+    "systemdUnitSyntax": "passed",
+    "secretScan": "passed",
+    "dependencyAudit": "0 vulnerabilities",
+    "contentRecordsValidated": 2,
+    "publicCloudflareGuard": "private, no-store, no-transform"
+  },
+  "wordpressCutover": false,
+  "publicDatadogEnabledAtPromotion": true,
+  "privateBitsEnabled": false,
+  "knownLimitations": [
+    "WordPress full backup/restore and blog-host redirect authority unavailable",
+    "Account-side AI Credit limits and internal agent tool/retention settings not independently verified",
+    "Run caps are not a monetary cap",
+    "Field performance and GSC/backlink/revenue baselines unavailable"
+  ]
+}

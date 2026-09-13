@@ -136,7 +136,7 @@ export default async function ToolPage({ params }: Props) {
             <Link href="/tools/">All finance tools</Link>
           </li>
           <li>
-            <Link href="/ask/">Ask InsightGinie</Link>
+            <Link href="/ask/">Ask Ginie</Link>
           </li>
         </ul>
       </section>

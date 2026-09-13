@@ -1,0 +1,201 @@
+{
+  "checkedAt": "2026-09-13T09:14:35.972Z",
+  "scope": "Read-only contract and account-capability review for the newly authorized workflow-backed Ask integration; no execution or activation.",
+  "userDirection": "The latest direct request authorizes server-side Datadog-backed Ask and supersedes the earlier private-operations-only application brief. The proposed provider sends approved public intent/source records only, never a visitor question, financial value or identifier.",
+  "site": "ap1.datadoghq.com",
+  "remoteWrites": 0,
+  "workflowExecutions": 0,
+  "credentialsRecorded": false,
+  "accountOrResourceIdsRecorded": false,
+  "workflow": {
+    "endpoint": "/api/v2/workflows/{configured_workflow}",
+    "status": 200,
+    "published": true,
+    "stepCount": 1,
+    "agentStepCount": 1,
+    "agentSteps": [
+      {
+        "configuredAgentMatches": true,
+        "parameterNames": ["userPrompt", "customAgentId"],
+        "promptIncludesTriggerQuestion": true,
+        "promptHasStaticText": true,
+        "outputSchemaConfigured": false,
+        "conversationIdConfigured": false,
+        "retryConfigurationPresent": false,
+        "stepTimeoutPresent": false,
+        "actionId": "com.datadoghq.dd.bitsai.customagent.customAgentExecute"
+      }
+    ],
+    "inputSchema": [
+      {
+        "name": "question",
+        "type": "STRING"
+      }
+    ],
+    "outputSchema": [
+      {
+        "name": "answer",
+        "type": "STRING"
+      }
+    ],
+    "answerMapsRunAgentFinalResponse": true,
+    "triggerKinds": [["startStepNames", "apiTrigger"]],
+    "apiTriggerRateLimitPresent": false,
+    "agentConfigurationEmbedded": []
+  },
+  "access": {
+    "currentUserHttpStatus": 200,
+    "rolePermissions": {
+      "workflows_read": true,
+      "workflows_run": true,
+      "usage_read": true,
+      "billing_read": true,
+      "billing_edit": true,
+      "connections_resolve": true
+    },
+    "agentPermissions": [
+      "agent_builder_read",
+      "agent_builder_write",
+      "agent_builder_run",
+      "agent_builder_external_mcp_write",
+      "agent_builder_external_mcp_resolve"
+    ],
+    "serviceAccount": false,
+    "matchedKeyEnumerationComplete": true,
+    "singleConfiguredKeySuffixMatch": true,
+    "matchedKeyRelevantScopes": [
+      "billing_read",
+      "billing_edit",
+      "usage_read",
+      "workflows_read",
+      "workflows_run"
+    ],
+    "keyMatchingMethod": "A single key record matched the configured suffix internally; no key ID or suffix retained."
+  },
+  "documentedContract": {
+    "execute": {
+      "method": "POST",
+      "path": "/api/v2/workflows/{workflow_id}/instances",
+      "requiredPermission": "workflows_run",
+      "bodyShape": {
+        "meta": {
+          "payload": {
+            "question": "SERIALIZED_APPROVED_SOURCE_SELECTION_TASK"
+          }
+        }
+      },
+      "documentedSuccessStatus": 200,
+      "compatibleSuccessStatuses": [200, 201],
+      "instanceIdPath": "data.id"
+    },
+    "poll": {
+      "method": "GET",
+      "path": "/api/v2/workflows/{workflow_id}/instances/{instance_id}",
+      "requiredPermission": "workflows_read",
+      "documentedSuccessStatus": 200,
+      "schemaCaveat": "The official response schema is open. Fresh read-only instance GETs verified instanceStatus as an object with detailsKind and displayName, with no attributes.status field. The earlier execution receipt recorded a normalized status and did not prove its raw field path.",
+      "verifiedSuccessStatusPath": "data.attributes.instanceStatus.detailsKind",
+      "verifiedSuccessStatus": "SUCCEEDED",
+      "verifiedOutputPath": "data.attributes.outputs.answer",
+      "verifiedStatusObjectShape": {
+        "detailsKind": "SUCCEEDED",
+        "displayName": "Success"
+      },
+      "observedDetailsKinds": ["IN_PROGRESS", "CANCELED", "SUCCEEDED", "INSTANCE_ERROR"],
+      "legacyCompatibility": "Optional attributes.status or string instanceStatus may be accepted only with validated enum values and no conflicts; these are compatibility inputs, not observed in the current account response.",
+      "pendingStatusEvidence": "Root-authorized fixed-public-packet execution recorded instanceStatus.detailsKind=IN_PROGRESS followed by SUCCEEDED; see docs/verification/datadog-ginie-execution.json. The earlier failed probes are retained separately."
+    },
+    "cancel": {
+      "method": "PUT",
+      "path": "/api/v2/workflows/{workflow_id}/instances/{instance_id}/cancel",
+      "requiredPermission": "workflows_run",
+      "liveCancellationVerified": true,
+      "evidence": "Root-authorized fixed-public-packet execution receipt records cancellation HTTP200; this reviewer made no cancellation request."
+    },
+    "conversation": "Run Agent invocations are standalone unless Conversation ID is supplied; none is currently configured.",
+    "structuredOutput": "Run Agent supports an optional JSON Output Schema. The configured step currently omits it and returns a STRING answer."
+  },
+  "inspectionCapabilities": {
+    "agentModelToolsInstructions": {
+      "documentedPublicReadApiFound": false,
+      "embeddedInWorkflowResponse": false,
+      "documentedAlternative": "Review the selected agent in Bits Agent Builder. Its instructions, model, tools and automations are configured there. Official docs state that Datadog MCP is enabled by default; one Run Agent step does not prove a tool-free agent."
+    },
+    "usage": {
+      "summary": {
+        "endpoint": "/api/v1/usage/summary",
+        "status": 200,
+        "numericCreditFields": ["ai_credits_sum", "ai_credits_agent_builder_ai_credits_sum"],
+        "aggregateValuesRecorded": false,
+        "topLevelFieldNames": ["start_date", "end_date", "last_updated", "usage"]
+      },
+      "hourly": {
+        "endpoint": "/api/v2/usage/hourly_usage",
+        "status": 200,
+        "returnedRows": 0,
+        "hasNextPage": false,
+        "aiCreditMeasurementPresent": false,
+        "aggregateValuesRecorded": false
+      },
+      "summaryCreditField": "ai_credits_agent_builder_ai_credits_sum",
+      "estimatedUsageMetric": "datadog.estimated_usage.bits_agent_builder.ai_credits",
+      "limitations": "Usage totals are not remaining credits, contracted allowance, a per-run upper bound or immediate budget enforcement. Empty hourly rows do not prove zero consumption."
+    },
+    "limits": {
+      "documentedPublicCapReadApiFound": false,
+      "documentedAlternative": "Bits AI > AI Credits Management; billing_edit is required. Organization, default per-user and per-user override caps are supported; organization cap is unset by default. Account values were not inspected.",
+      "workflowAttribution": "Docs attribute Agent Builder workflow runs to the workflow creator; service-account-created workflows attribute to Autonomous Agents. Do not assume an API initiator limit covers the workflow."
+    },
+    "retention": {
+      "documentedPublicAccountReadApiFound": false,
+      "publishedDefault": "Workflow Automation workflows: 30 days. Agent Builder documentation says chat history is retained across sessions.",
+      "accountSpecificRetentionVerified": false,
+      "limitation": "Omitting Conversation ID avoids reusing conversational context; it does not imply zero storage of workflow inputs and outputs."
+    }
+  },
+  "remainingTechnicalGaps": [
+    "Agent tool/MCP configuration and model are not independently inspected through a documented API",
+    "Current workflow lacks an explicit JSON Output Schema; strict application parsing must reject prose or unknown IDs",
+    "Current trigger has no explicit rate limit; public endpoint needs its own durable run caps, concurrency bound and shared cache",
+    "Usage access is verified but the actual account spending cap and available allowance are not",
+    "Cancellation HTTP200 is recorded for the root-authorized test, but cancellation cannot be addressed after an ambiguous create response lacking an instance ID."
+  ],
+  "sources": [
+    "https://docs.datadoghq.com/api/latest/workflow-automation/get-an-existing-workflow/",
+    "https://docs.datadoghq.com/api/latest/workflow-automation/execute-a-workflow/",
+    "https://docs.datadoghq.com/api/latest/workflow-automation/get-a-workflow-instance/",
+    "https://docs.datadoghq.com/api/latest/workflow-automation/cancel-a-workflow-instance/",
+    "https://docs.datadoghq.com/actions/agents/",
+    "https://docs.datadoghq.com/api/latest/bits-ai/",
+    "https://docs.datadoghq.com/api/latest/usage-metering/get-usage-across-your-account/",
+    "https://docs.datadoghq.com/api/latest/usage-metering/get-hourly-usage-by-product-family/",
+    "https://docs.datadoghq.com/account_management/billing/ai_credits/",
+    "https://docs.datadoghq.com/account_management/billing/ai_credit_limits/",
+    "https://docs.datadoghq.com/data_security/data_retention_periods/",
+    "https://docs.datadoghq.com/actions/workflows/limits/"
+  ],
+  "priorExecutionEvidence": "docs/audits/2026-09-13-datadog/workflow-recheck.json",
+  "promptBindingFollowup": {
+    "additionalReadOnlyRequests": 1,
+    "httpStatus": 200,
+    "bindingExpressions": ["Trigger.question"],
+    "bindingCount": 1,
+    "templateLength": 83,
+    "staticPrefixLength": 61,
+    "suffixLength": 0,
+    "staticPrefix": "Answer the following question from the InsightGinie website: ",
+    "responseFormatInstructionPresent": false,
+    "sha256": "1ecd6e5704f7d1f7bc6826ab78799c177dae380526bf43774288bb80f8989675",
+    "nonQuestionBindings": false,
+    "remoteWrites": 0,
+    "workflowExecutions": 0
+  },
+  "statusContractCorrection": {
+    "evidence": "docs/verification/datadog-ginie-instance-shape.json",
+    "previousAssumption": "attributes.status was incorrectly inferred from the prior normalized execution receipt.",
+    "correctMachineField": "attributes.instanceStatus.detailsKind",
+    "rawAnswerRecorded": false,
+    "workflowExecutionsForCorrection": 0
+  },
+  "rootAuthorizedSelectionEvidence": "docs/verification/datadog-ginie-execution.json"
+}

@@ -47,7 +47,7 @@ export function Footer({
               Research
             </Link>
             <Link prefetch={false} href="/ask/">
-              Ask Genie
+              Ask Ginie
             </Link>
           </div>
           <div>

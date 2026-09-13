@@ -220,6 +220,12 @@
   font-size: 0.8rem;
   color: #526075;
 }
+.answer .provider {
+  color: #526075;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: -4px;
+}
 .feedback summary {
   cursor: pointer;
   padding: 10px 0;

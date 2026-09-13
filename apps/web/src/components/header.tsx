@@ -27,7 +27,7 @@ export function Header() {
           </Link>
         </nav>
         <Link prefetch={false} href="/ask/" className="header-cta">
-          Ask Genie <ArrowUpRight size={16} />
+          Ask Ginie <ArrowUpRight size={16} />
         </Link>
         <details className="mobile-nav">
           <summary aria-label="Menu">
@@ -53,7 +53,7 @@ export function Header() {
               Research
             </Link>
             <Link prefetch={false} href="/ask/">
-              Ask Genie
+              Ask Ginie
             </Link>
           </nav>
         </details>

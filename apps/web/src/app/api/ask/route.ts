@@ -1,6 +1,6 @@
-import { answerFromApprovedContent, askInputSchema } from '../../../lib/ask/core';
+import { askInputSchema } from '../../../lib/ask/core';
 import { getAskKnowledge } from '../../../lib/ask/knowledge';
-import { calculateStatedQuestion } from '../../../lib/ask/calculations';
+import { answerQuestion } from '../../../lib/ask/orchestrate';
 import { operationStore } from '../../../lib/operations';
 import {
   createRequestLimiter,
@@ -19,11 +19,11 @@ let activeRequests = 0;
 export async function POST(request: Request) {
   if (process.env.ASK_ENABLED === 'false')
     return privateJson(
-      { error: 'Ask is temporarily unavailable. The tools remain available at /tools/.' },
+      { error: 'Ginie is temporarily unavailable. The tools remain available at /tools/.' },
       503,
     );
   if (!trustedOrigin(request))
-    return privateJson({ error: 'Open Ask on InsightGinie to continue.' }, 403);
+    return privateJson({ error: 'Open Ask Ginie on InsightGinie to continue.' }, 403);
   if (!/^application\/json(?:\s*;|$)/i.test(request.headers.get('content-type') ?? ''))
     return privateJson({ error: 'JSON required.' }, 415);
   if (activeRequests >= 30 || !allow(requestBucket(request)))
@@ -38,12 +38,14 @@ export async function POST(request: Request) {
       );
     if (!validRequestToken(parsed.data.token, securityCookie(request)))
       return privateJson({ error: 'Your session expired. Refresh the page and try again.' }, 403);
-    const grounded = answerFromApprovedContent(parsed.data.question, getAskKnowledge());
-    const answer =
-      grounded.mode === 'answer'
-        ? (calculateStatedQuestion(parsed.data.question) ?? grounded)
-        : grounded;
+    const answer = await answerQuestion(parsed.data.question, getAskKnowledge());
     await operationStore.record(`ask_${answer.mode}`);
+    if (answer.provider?.id === 'datadog')
+      await operationStore.record(
+        answer.provider.status === 'cached' ? 'ask_datadog_cached' : 'ask_datadog_live',
+      );
+    else if (answer.provider?.status === 'fallback')
+      await operationStore.record('ask_datadog_fallback');
     return privateJson(answer);
   } catch {
     // Do not log request bodies, prompts, financial values or provider errors.

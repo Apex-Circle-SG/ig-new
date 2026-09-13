@@ -6,7 +6,7 @@ import test from 'node:test';
 import { datadogSite } from './config.mjs';
 import { exportMetrics, metricPayload } from './metrics.mjs';
 import { bitsTask, safeManualSpan, validateBitsAnswer, validateOperations } from './privacy.mjs';
-import { runPrivateBitsTask } from './bits.mjs';
+import { runPrivateBitsTask, workflowExecutionStatus } from './bits.mjs';
 import { requestJson } from './io.mjs';
 import { configureManualApm, recordManualSpan } from './manual-apm.mjs';
 import { denyBrowserRumEvent } from '../../deploy/datadog/rum-policy.mjs';
@@ -86,7 +86,7 @@ test('counters reject unexpected data, invalid dates and arbitrary metric tags',
     metricPayload(aggregate, ['service:insightginie-web', 'url:/?income=137000'], now),
   );
   const body = metricPayload(aggregate, ['service:insightginie-web', 'env:production'], now);
-  assert.equal(body.series.length, 10);
+  assert.equal(body.series.length, 13);
   assert(
     body.series.every(
       (series) => series.type === 3 && !series.tags.some((tag) => tag.startsWith('day:')),
@@ -212,6 +212,79 @@ test('private tasks reject arbitrary prompts even when disabled', async () => {
     'disabled',
   );
 });
+test('workflow status reads the current machine field and rejects conflicting aliases', () => {
+  assert.equal(
+    workflowExecutionStatus({
+      instanceStatus: { detailsKind: 'SUCCEEDED', displayName: 'Success' },
+    }),
+    'SUCCEEDED',
+  );
+  assert.equal(workflowExecutionStatus({ instanceStatus: 'RUNNING' }), 'RUNNING');
+  assert.equal(workflowExecutionStatus({ status: 'PENDING' }), 'PENDING');
+  assert.equal(
+    workflowExecutionStatus({ instanceStatus: { detailsKind: 'CANCELED' }, status: 'CANCELLED' }),
+    'CANCELED',
+  );
+  for (const value of [
+    { instanceStatus: { displayName: 'Success' } },
+    { instanceStatus: { detailsKind: 'SUCCEEDED' }, status: 'RUNNING' },
+    { instanceStatus: { detailsKind: 'NOT_A_KNOWN_STATE' } },
+    { instanceStatus: null, status: 'SUCCEEDED' },
+    {},
+  ])
+    assert.throws(() => workflowExecutionStatus(value), { code: 'unknown_workflow_status' });
+});
+test('current API pending and success objects complete without unnecessary cancellation', async () =>
+  state(async (env) => {
+    const methods = [];
+    let polls = 0;
+    const fetcher = async (url, options) => {
+      methods.push(options.method);
+      if (url.endsWith(`/workflows/${workflowId}`)) return response(workflow);
+      if (options.method === 'POST') return response({ data: { id: instanceId } });
+      polls++;
+      return response({
+        data: {
+          attributes: {
+            instanceStatus: {
+              detailsKind: polls === 1 ? 'IN_PROGRESS' : 'SUCCEEDED',
+              displayName: 'Display label is not parsed',
+            },
+            ...(polls > 1 ? { outputs: { answer: 'INSIGHTGINIE_READY' } } : {}),
+          },
+        },
+      });
+    };
+    const result = await runPrivateBitsTask(
+      { kind: 'synthetic-health' },
+      { env, fetcher, now: () => now, sleep: async () => {} },
+    );
+    assert.equal(result.status, 'succeeded');
+    assert.equal(polls, 2);
+    assert.equal(methods.filter((method) => method === 'POST').length, 1);
+    assert.equal(methods.filter((method) => method === 'PUT').length, 0);
+  }));
+test('current API INSTANCE_ERROR is terminal and does not trigger cancellation', async () =>
+  state(async (env) => {
+    let canceled = false;
+    const fetcher = async (url, options) => {
+      if (url.endsWith(`/workflows/${workflowId}`)) return response(workflow);
+      if (options.method === 'POST') return response({ data: { id: instanceId } });
+      if (options.method === 'PUT') canceled = true;
+      return response({
+        data: {
+          attributes: {
+            instanceStatus: { detailsKind: 'INSTANCE_ERROR', displayName: 'Invalid inputs' },
+          },
+        },
+      });
+    };
+    await assert.rejects(
+      runPrivateBitsTask({ kind: 'synthetic-health' }, { env, fetcher, now: () => now }),
+      { code: 'workflow_execution_failed' },
+    );
+    assert.equal(canceled, false);
+  }));
 for (const status of [200, 201])
   test(`private health accepts create HTTP ${status} and the verified outputs.answer contract`, async () =>
     state(async (env) => {

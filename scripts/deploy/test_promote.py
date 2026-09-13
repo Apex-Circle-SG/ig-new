@@ -12,6 +12,27 @@ spec.loader.exec_module(promote)
 
 
 class ReleaseBoundaries(unittest.TestCase):
+    def test_public_provider_copy_is_opt_in_and_allowlisted(self):
+        local = {'ASK_DATADOG_ENABLED': 'true', 'DD_API_KEY': 'a' * 32,
+                 'DD_APP_KEY': 'b' * 40, 'DD_REGION': 'AP1',
+                 'DD_AGENT_ID': '11111111-1111-4111-8111-111111111111',
+                 'DD_BITS_WORKFLOW_ID': '22222222-2222-4222-8222-222222222222',
+                 'GH_PAT': 'must-not-copy', 'CMS_PASSWORD': 'must-not-copy'}
+        runtime = {}
+        promote.configure_ask_datadog(runtime, local)
+        self.assertEqual(runtime['ASK_DATADOG_ENABLED'], 'true')
+        self.assertEqual(runtime['ASK_DATADOG_MAX_MONTHLY_RUNS'], '120')
+        self.assertNotIn('GH_PAT', runtime)
+        self.assertNotIn('CMS_PASSWORD', runtime)
+        promote.configure_ask_datadog(runtime, {})
+        self.assertEqual(runtime['ASK_DATADOG_ENABLED'], 'false')
+        self.assertNotIn('DD_API_KEY', runtime)
+        self.assertNotIn('DD_APP_KEY', runtime)
+
+    def test_public_provider_invalid_credentials_do_not_activate(self):
+        with self.assertRaises(RuntimeError):
+            promote.configure_ask_datadog({}, {'ASK_DATADOG_ENABLED': 'true'})
+
     def test_environment_values_roundtrip_with_private_permissions(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / 'runtime.env'

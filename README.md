@@ -17,7 +17,7 @@ npm ci
 npm run dev
 ```
 
-Open http://localhost:3000. The homepage and `/calc/individual-income-percentile/` use a real, versioned US Census CPS PINC-11 distribution (2024 income, 2025 survey). Private calculator inputs are never transmitted. Questions deliberately submitted to Ask are processed transiently on the server without raw logging or external model calls. For $75,000 the income estimate is approximately 74.7th percentile among US people age 15 and over, including nonworkers.
+Open http://localhost:3000. The homepage and `/calc/individual-income-percentile/` use a real, versioned US Census CPS PINC-11 distribution (2024 income, 2025 survey). Private calculator inputs are never transmitted. Questions submitted to Ask Ginie are processed transiently on the server without raw logging. When configured, Datadog selects approved public excerpts; it never receives the raw question or financial values. For $75,000 the income estimate is approximately 74.7th percentile among US people age 15 and over, including nonworkers.
 
 ## Verify
 
@@ -60,7 +60,7 @@ Public Census spreadsheets are archived with SHA-256 checksums. Validation rejec
 
 The production application is hosted by the `insightginie-web` systemd service on `127.0.0.1:3000` through Cloudflare. See [service management](docs/deployment.md#background-service-on-this-host). AdSense covers reviewed public pages with regional privacy handling; Ask and private calculator frames have no ads. Analytics needs explicit consent. See [advertising](docs/advertising.md), [SEO launch](docs/seo-launch.md), and [offsite discovery](scripts/seo/README.md). No remote database or Vercel deployment is configured. The remote WordPress installation remains intact; two preserved article previews are noindex with original blog canonicals. The complete backup, restore test, redirect authority and per-URL review are prerequisites for cutover. Public snapshots are not a complete WordPress backup. No programmatic salary pages, account storage, email subscriptions or billing are enabled.
 
-Never commit `.env`, credentials, private profile data or raw operational secrets. See [MANUAL_REQUIRED.md](MANUAL_REQUIRED.md) for exact external dependencies and [the release instructions](docs/consolidation-release.md) for verification, deployment and rollback. Datadog Bits is a separate disabled private-operations adapter; it is not the public assistant's inference provider.
+Never commit `.env`, credentials, private profile data or raw operational secrets. See [MANUAL_REQUIRED.md](MANUAL_REQUIRED.md) for exact external dependencies and [the release instructions](docs/consolidation-release.md) for verification, deployment and rollback. [Ask Ginie](docs/genie.md) uses the configured Datadog workflow for bounded public-source selection with a local fallback. A separate private-operations adapter remains disabled.
 
 ## Documentation
 

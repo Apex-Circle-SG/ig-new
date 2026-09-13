@@ -41,6 +41,39 @@ export function verifyWorkflow(payload, agentId) {
     throw new ObservabilityError('workflow_contract_mismatch');
 }
 
+/** Current API uses instanceStatus.detailsKind; older clients may expose status. */
+export function workflowExecutionStatus(state) {
+  if (!state || typeof state !== 'object' || Array.isArray(state))
+    throw new ObservabilityError('unknown_workflow_status');
+  const statuses = [];
+  const normalize = (value) => {
+    if (typeof value !== 'string') throw new ObservabilityError('unknown_workflow_status');
+    return value === 'CANCELLED' ? 'CANCELED' : value;
+  };
+  if (Object.hasOwn(state, 'instanceStatus')) {
+    const value = state.instanceStatus;
+    statuses.push(normalize(typeof value === 'string' ? value : value?.detailsKind));
+  }
+  if (Object.hasOwn(state, 'status')) statuses.push(normalize(state.status));
+  if (!statuses.length || new Set(statuses).size !== 1)
+    throw new ObservabilityError('unknown_workflow_status');
+  if (
+    ![
+      'SUCCEEDED',
+      'FAILED',
+      'INSTANCE_ERROR',
+      'CANCELED',
+      'TIMED_OUT',
+      'RUNNING',
+      'IN_PROGRESS',
+      'PENDING',
+      'QUEUED',
+    ].includes(statuses[0])
+  )
+    throw new ObservabilityError('unknown_workflow_status');
+  return statuses[0];
+}
+
 /** Importable only by private server operations. There is deliberately no public endpoint or CLI loop. */
 export async function runPrivateBitsTask(
   task,
@@ -145,16 +178,15 @@ export async function runPrivateBitsTask(
         );
         if (result.status !== 200) throw new ObservabilityError('workflow_result_failed');
         const state = result.data?.data?.attributes;
-        if (state?.status === 'SUCCEEDED') {
+        const status = workflowExecutionStatus(state);
+        if (status === 'SUCCEEDED') {
           terminal = true;
           return { status: 'succeeded', result: validateBitsAnswer(task, state.outputs?.answer) };
         }
-        if (['FAILED', 'CANCELED', 'CANCELLED', 'TIMED_OUT'].includes(state?.status)) {
+        if (['FAILED', 'INSTANCE_ERROR', 'CANCELED', 'TIMED_OUT'].includes(status)) {
           terminal = true;
           throw new ObservabilityError('workflow_execution_failed');
         }
-        if (!['RUNNING', 'PENDING', 'QUEUED'].includes(state?.status))
-          throw new ObservabilityError('unknown_workflow_status');
         await sleep(Math.min(1000, Math.max(0, maxRuntime - (Date.now() - started))));
       }
       throw new ObservabilityError('workflow_deadline_exceeded');

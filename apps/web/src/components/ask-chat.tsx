@@ -34,14 +34,14 @@ export function AskChat() {
     setError('');
     setFeedback('');
     try {
-      const signal = AbortSignal.timeout(15_000);
+      const signal = AbortSignal.timeout(35_000);
       const tokenResponse = await fetch('/api/ask/token/', {
         credentials: 'same-origin',
         cache: 'no-store',
         referrerPolicy: 'no-referrer',
         signal,
       });
-      if (!tokenResponse.ok) throw new Error('Ask is busy. Please try again in a minute.');
+      if (!tokenResponse.ok) throw new Error('Ginie is busy. Please try again in a minute.');
       const { token } = (await tokenResponse.json()) as { token: string };
       const response = await fetch('/api/ask/', {
         method: 'POST',
@@ -55,7 +55,7 @@ export function AskChat() {
       const data = (await response.json()) as AskAnswer & { error?: string };
       if (!response.ok)
         throw new Error(
-          data.error ?? 'Ask is temporarily unavailable. Try the finance tools below.',
+          data.error ?? 'Ginie is temporarily unavailable. Try the finance tools below.',
         );
       track(
         data.mode === 'answer'
@@ -107,7 +107,7 @@ export function AskChat() {
   }
 
   return (
-    <section className={styles.chat} aria-label="Ask InsightGinie">
+    <section className={styles.chat} aria-label="Ask Ginie">
       <div className={styles.intro}>
         <span className={styles.spark}>
           <Sparkles size={22} aria-hidden="true" />
@@ -158,6 +158,17 @@ export function AskChat() {
                       ? 'What I can help with'
                       : 'Let’s use a reliable starting point'}
               </h3>
+              <p className={styles.provider} data-testid="answer-provider">
+                {exchange.answer.provider?.id === 'datadog'
+                  ? exchange.answer.provider.status === 'cached'
+                    ? 'Datadog · cached source selection'
+                    : 'Datadog · source selection'
+                  : exchange.answer.method === 'deterministic-calculator'
+                    ? 'InsightGinie · deterministic calculation'
+                    : exchange.answer.provider?.status === 'fallback'
+                      ? 'InsightGinie · local source fallback'
+                      : 'InsightGinie · local response'}
+              </p>
               {exchange.answer.message.split('\n\n').map((paragraph, n) => (
                 <p key={n}>{paragraph}</p>
               ))}
@@ -239,15 +250,16 @@ export function AskChat() {
         />
         <div className={styles.formBottom}>
           <p id={`${id}-privacy`}>
-            Please leave out personal details. Questions are processed on our server and are not
-            saved to your account or analytics. <a href="/ai-disclosure/">How Ask works</a>
+            Please leave out personal details. Your question stays on our server; Datadog receives
+            only approved public excerpts and a general topic.{' '}
+            <a href="/ai-disclosure/">How Ginie works</a>
           </p>
           <button
             className={styles.submit}
             type="submit"
             disabled={busy || question.trim().length < 3}
           >
-            {busy ? 'Checking…' : 'Ask Genie'}
+            {busy ? 'Checking…' : 'Ask Ginie'}
             <Send size={17} aria-hidden="true" />
           </button>
         </div>
@@ -272,8 +284,8 @@ export function AskChat() {
         </div>
       )}
       <p className={styles.disclaimer}>
-        Educational information. Ask does not provide investment recommendations, lending decisions,
-        tax conclusions or personalized professional advice.
+        Educational information. Ginie does not provide investment recommendations, lending
+        decisions, tax conclusions or personalized professional advice.
       </p>
     </section>
   );

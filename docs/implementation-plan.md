@@ -27,7 +27,7 @@ State/city/occupation hubs, source-backed salary comparisons, page quality scori
 
 ## M5 — Persistence and retention
 
-Provision PostgreSQL, authentication, encrypted profiles, ownership enforcement, scenario snapshots, export/deletion, consent and unsubscribe. Genie tool registry follows stable engines; all numbers come from tools. Scheduled reports and optional monetization follow engagement validation.
+Provision PostgreSQL, authentication, encrypted profiles, ownership enforcement, scenario snapshots, export/deletion, consent and unsubscribe. Ginie tool registry follows stable engines; all numbers come from tools. Scheduled reports and optional monetization follow engagement validation.
 
 ## Release gates
 

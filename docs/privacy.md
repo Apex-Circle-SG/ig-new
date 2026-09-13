@@ -27,7 +27,10 @@ promise must not be applied to Ask. The application does not retain or log raw
 questions, answers or numeric examples. The current browser conversation is
 memory-only and resets on reload.
 
-Ask never invokes an external generative model or Datadog Bits. Requests use an
+Datadog selects excerpts using only approved public material and a finite topic
+category. Raw questions and values never enter that packet. Its public selections
+are cached for up to 14 days by content hash; provider-side retention follows
+the Datadog account policy. Requests use an
 essential ten-minute `ig_ask_security` cookie and a signed request token. The
 cookie is HttpOnly, SameSite=Strict and Secure on HTTPS. It is used for request
 validation, not analytics. IP-derived abuse buckets are process-key HMACs kept
@@ -73,7 +76,7 @@ remove access to the tools. A provider's approval, actual fill, regional message
 and placements require account-side evidence. No claim of universal impressions
 or verified legal compliance is made here.
 
-The optional server-only Datadog exporter accepts ten fixed service-health
+The optional server-only Datadog exporter accepts thirteen fixed service-health
 counters, uses no browser SDK and sends no raw question, URL, IP, cookie,
 financial value or identifier. It reads operations totals, not optional browser
 analytics. Local 30-day deletion does not delete samples already accepted by

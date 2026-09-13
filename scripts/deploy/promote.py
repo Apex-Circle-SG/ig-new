@@ -59,6 +59,39 @@ def verify_candidate():
     return build_id
 
 
+def configure_ask_datadog(runtime, local):
+    """Copy only the explicitly enabled public-source provider configuration; never arbitrary secrets."""
+    if local.get('ASK_DATADOG_ENABLED') != 'true':
+        runtime['ASK_DATADOG_ENABLED'] = 'false'
+        for key in ['DD_API_KEY', 'DD_APP_KEY', 'DD_AGENT_ID', 'DD_BITS_WORKFLOW_ID']:
+            runtime.pop(key, None)
+        return
+    for key in ['DD_API_KEY', 'DD_APP_KEY']:
+        value = local.get(key, '')
+        if not 20 <= len(value) <= 512 or re.search(r'\s', value):
+            raise RuntimeError(f'{key} is missing or invalid')
+        runtime[key] = value
+    for key in ['DD_AGENT_ID', 'DD_BITS_WORKFLOW_ID']:
+        value = local.get(key, '')
+        if not re.fullmatch(r'[a-fA-F0-9]{8}(?:-[a-fA-F0-9]{4}){3}-[a-fA-F0-9]{12}', value):
+            raise RuntimeError(f'{key} is missing or invalid')
+        runtime[key] = value
+    region = local.get('DD_REGION', '').upper()
+    if region not in ['US1', 'US3', 'US5', 'EU', 'EU1', 'AP1', 'AP2', 'UK1', 'US1FED', 'US2FED']:
+        raise RuntimeError('DD_REGION must select a supported Datadog region')
+    runtime['DD_REGION'] = region
+    for key, default, maximum in [
+        ('ASK_DATADOG_MAX_DAILY_RUNS', '20', 100),
+        ('ASK_DATADOG_MAX_MONTHLY_RUNS', '120', 1000),
+    ]:
+        value = local.get(key, default)
+        if not value.isdigit() or not 1 <= int(value) <= maximum:
+            raise RuntimeError(f'{key} must be a bounded positive integer')
+        runtime[key] = value
+    runtime['ASK_DATADOG_ENABLED'] = 'true'
+    runtime['ASK_DATADOG_STATE_DIRECTORY'] = '/var/lib/insightginie/datadog-ask'
+
+
 def check_service():
     for _ in range(20):
         try:
@@ -107,7 +140,7 @@ def promote():
         (archive / 'runtime.env').chmod(0o600)
     local = env_values(ROOT / '.env')
     runtime = env_values(RUNTIME)
-    # Never copy Git, Datadog, CMS or arbitrary .env credentials into the web process.
+    # Never copy Git, CMS or arbitrary .env credentials into the web process.
     for key, pattern in [('ASK_SECURITY_SECRET', r'[a-fA-F0-9]{64}'), ('ADMIN_ACCESS_KEY', r'[A-Za-z0-9_-]{43,}')]:
         value = runtime.get(key) or local.get(key)
         if not value:
@@ -118,6 +151,7 @@ def promote():
         if not re.fullmatch(pattern, value):
             raise RuntimeError(f'{key} is not a valid production configuration')
         runtime[key] = value
+    configure_ask_datadog(runtime, local)
     runtime.update({
         'APP_SITE_ORIGIN': 'https://insightginie.com',
         'ANALYTICS_SITE_ORIGIN': 'https://insightginie.com',
@@ -150,7 +184,9 @@ def promote():
         'commit': run('git', '-C', str(ROOT), 'rev-parse', 'HEAD'),
         'buildId': build_id, 'service': 'insightginie-web', 'port': 3000,
         'health': 'passed', 'rollbackDirectory': str(archive),
-        'runtimeSecretNames': ['ASK_SECURITY_SECRET', 'ADMIN_ACCESS_KEY'],
+        'runtimeSecretNames': ['ASK_SECURITY_SECRET', 'ADMIN_ACCESS_KEY'] + (
+            ['DD_API_KEY', 'DD_APP_KEY'] if runtime.get('ASK_DATADOG_ENABLED') == 'true' else []),
+        'askDatadogEnabled': runtime.get('ASK_DATADOG_ENABLED') == 'true',
         'candidateEvidenceSha256': hashlib.sha256((ROOT / 'artifacts/candidate-acceptance.json').read_bytes()).hexdigest(),
         'wordpressCutover': False,
     }

@@ -5,12 +5,12 @@ import { AskChat } from '../../components/ask-chat';
 import { breadcrumbSchema, safeJsonLd } from '@insightginie/seo';
 
 export const metadata: Metadata = {
-  title: 'Ask Genie — Understand the Numbers',
+  title: 'Ask Ginie — Understand the Numbers',
   description:
     'Ask about finance calculations and US income data. Get explanations grounded in published sources, with links to private interactive tools.',
   alternates: { canonical: '/ask/' },
   openGraph: {
-    title: 'Ask Genie — Understand the Numbers',
+    title: 'Ask Ginie — Understand the Numbers',
     description: 'Source-linked explanations. Deterministic tools. A clearer next step.',
     url: '/ask/',
     siteName: 'InsightGinie',
@@ -25,7 +25,7 @@ export default async function AskPage() {
       <nav className="breadcrumbs" aria-label="Breadcrumb">
         <Link href="/">Home</Link>
         <span aria-hidden="true">/</span>
-        <span>Ask Genie</span>
+        <span>Ask Ginie</span>
       </nav>
       <div className="eyebrow">A QUESTION IS A GOOD START</div>
       <h1>Make sense of the numbers.</h1>
@@ -40,7 +40,7 @@ export default async function AskPage() {
           __html: safeJsonLd(
             breadcrumbSchema([
               { name: 'Home', path: '/' },
-              { name: 'Ask Genie', path: '/ask/' },
+              { name: 'Ask Ginie', path: '/ask/' },
             ]),
           ),
         }}

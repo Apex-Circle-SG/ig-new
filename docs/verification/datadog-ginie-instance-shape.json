@@ -1,0 +1,124 @@
+{
+  "checkedAt": "2026-09-13T09:19:42.024Z",
+  "listStatus": 200,
+  "listRootKeys": ["data", "meta"],
+  "remoteWrites": 0,
+  "executions": 0,
+  "rows": [
+    {
+      "dataKeys": ["attributes", "id", "type"],
+      "attributeKeys": [
+        "endTimestamp",
+        "errorDetail",
+        "instanceStatus",
+        "source",
+        "startTimestamp",
+        "systemTags"
+      ],
+      "status": null,
+      "timeFieldKeys": ["endTimestamp", "startTimestamp"],
+      "outputKeys": []
+    },
+    {
+      "dataKeys": ["attributes", "id", "type"],
+      "attributeKeys": ["endTimestamp", "instanceStatus", "source", "startTimestamp", "systemTags"],
+      "status": null,
+      "timeFieldKeys": ["endTimestamp", "startTimestamp"],
+      "outputKeys": []
+    },
+    {
+      "dataKeys": ["attributes", "id", "type"],
+      "attributeKeys": [
+        "endTimestamp",
+        "errorDetail",
+        "instanceStatus",
+        "source",
+        "startTimestamp",
+        "systemTags"
+      ],
+      "status": null,
+      "timeFieldKeys": ["endTimestamp", "startTimestamp"],
+      "outputKeys": []
+    }
+  ],
+  "listedCount": 4,
+  "latest": {
+    "status": 200,
+    "rootKeys": ["data", "included", "meta"],
+    "dataKeys": ["attributes", "id", "relationships", "type"],
+    "attributeKeys": [
+      "endTimestamp",
+      "errorDetail",
+      "instanceStatus",
+      "outputs",
+      "source",
+      "sourceForTemplating",
+      "startTimestamp",
+      "stepStateAssociations",
+      "systemTags",
+      "trigger"
+    ],
+    "workflowStatus": null,
+    "outputKeys": [],
+    "stepStateKeys": []
+  },
+  "enumCheckedAt": "2026-09-13T09:19:57.293Z",
+  "instanceStatusPath": "data.attributes.instanceStatus",
+  "statusSamples": [
+    {
+      "httpStatus": 200,
+      "instanceStatus": {
+        "type": "object",
+        "keys": ["detailsKind", "displayName"]
+      },
+      "legacyStatusFieldPresent": false,
+      "outputKeys": [],
+      "answerType": "undefined",
+      "stepAssociationType": "object",
+      "includedTypes": ["spec_versions", "workflows"]
+    },
+    {
+      "httpStatus": 200,
+      "instanceStatus": {
+        "type": "object",
+        "keys": ["detailsKind", "displayName"]
+      },
+      "legacyStatusFieldPresent": false,
+      "outputKeys": ["answer"],
+      "answerType": "string",
+      "stepAssociationType": "object",
+      "includedTypes": ["spec_versions", "workflows"]
+    },
+    {
+      "httpStatus": 200,
+      "instanceStatus": {
+        "type": "object",
+        "keys": ["detailsKind", "displayName", "instanceError"]
+      },
+      "legacyStatusFieldPresent": false,
+      "outputKeys": [],
+      "answerType": "undefined",
+      "stepAssociationType": "undefined",
+      "includedTypes": ["spec_versions", "workflows"]
+    }
+  ],
+  "additionalReadRequests": 8,
+  "statusObjectSamples": [
+    {
+      "detailsKind": "CANCELED",
+      "displayName": "Canceled",
+      "answerType": "undefined"
+    },
+    {
+      "detailsKind": "SUCCEEDED",
+      "displayName": "Success",
+      "answerType": "string"
+    },
+    {
+      "detailsKind": "INSTANCE_ERROR",
+      "displayName": "Invalid inputs",
+      "answerType": "undefined"
+    }
+  ],
+  "statusDetailsPath": "data.attributes.instanceStatus.detailsKind"
+}

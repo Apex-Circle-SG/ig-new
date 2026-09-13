@@ -34,25 +34,28 @@ export default function Privacy() {
           Loading the website sends ordinary web requests to its hosting infrastructure. A deployed
           host may process IP addresses, requested paths, browser information and security logs.
           Private calculator inputs are not part of those requests. Questions you choose to submit
-          to Ask are sent to our server as described below. Cloudflare handles delivery and security
-          at the edge. The application does not store individual access histories.
+          to Ginie are sent to our server as described below. Cloudflare handles delivery and
+          security at the edge. The application does not store individual access histories.
         </p>
       </section>
       <section>
-        <h2>Ask questions and service health</h2>
+        <h2>Ginie questions and service health</h2>
         <p>
-          Ask processes questions in server memory to retrieve approved public material and run
-          explicitly supported calculations. It does not save conversations, send them to Datadog
-          Bits or an external model, or attach them to analytics. Avoid personal identifying
+          Ginie processes questions in server memory to retrieve approved public material and run
+          explicitly supported calculations. It does not save conversations or attach them to
+          analytics. The Datadog agent receives only approved public source passages and a general
+          topic category to select an explanation; raw questions, financial values, conversation
+          history, cookies and visitor identifiers are not forwarded. Avoid personal identifying
           information. A short-lived, essential security cookie expires after ten minutes and binds
           requests to the browser that obtained it.
         </p>
         <p>
           Operational monitoring stores daily totals of answers, fallbacks, refusals, errors and
           issue categories for up to 30 days. These totals contain no questions, answers, financial
-          values, cookies or IP addresses. If enabled, Datadog receives only these aggregate
-          service-health measurements; its account retention settings also apply. No session replay
-          or browser recording is enabled.
+          values, cookies or IP addresses. Datadog receives these aggregate service-health
+          measurements and the public selection tasks described above; its account retention
+          settings also apply. We cache public passage selections for up to 14 days, keyed by the
+          source content rather than a visitor. No session replay or browser recording is enabled.
         </p>
       </section>
       <section id="cookies">
