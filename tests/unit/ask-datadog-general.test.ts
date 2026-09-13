@@ -110,6 +110,26 @@ afterEach(async () => {
 });
 
 describe('general-mode configuration and outbound boundary', () => {
+  it('accepts owner authorization without falsely attesting disabled remote tools', async () => {
+    const mock = provider();
+    delete env.ASK_DATADOG_TOOL_FREE_AGENT_ID;
+    env.ASK_DATADOG_PUBLIC_AGENT_ID = agentId;
+    expect(await generateGeneralAnswer({ question }, options(mock.fetcher))).toMatchObject({
+      status: 'answered',
+      message,
+    });
+    expect(mock.calls.filter((call) => call.init.method === 'POST')).toHaveLength(1);
+  });
+  it('rejects owner authorization for a different configured agent', async () => {
+    const mock = provider();
+    delete env.ASK_DATADOG_TOOL_FREE_AGENT_ID;
+    env.ASK_DATADOG_PUBLIC_AGENT_ID = workflowId;
+    expect(await generateGeneralAnswer({ question }, options(mock.fetcher))).toEqual({
+      status: 'unavailable',
+      reason: 'configuration',
+    });
+    expect(mock.calls).toEqual([]);
+  });
   for (const override of [
     { ASK_DATADOG_ENABLED: 'false' },
     { ASK_DATADOG_GENERAL_ENABLED: 'false' },
@@ -165,7 +185,7 @@ describe('general-mode configuration and outbound boundary', () => {
       expect(Object.keys(task.meta.payload)).toEqual(['question']);
       const prompt: string = task.meta.payload.question;
       expect(prompt).toContain('You are Ginie');
-      expect(prompt).toContain('no access to tools, MCP actions');
+      expect(prompt).toContain('Do not use tools, MCP actions');
       expect(prompt).toContain('Do not fabricate sources');
       expect(prompt).toContain('Never claim licensed professional status');
       expect(prompt).toContain('When a request would enable harm');

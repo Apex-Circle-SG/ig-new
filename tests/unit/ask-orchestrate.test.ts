@@ -87,6 +87,18 @@ describe('Ginie privacy boundary and source reconstruction', () => {
     expect(JSON.stringify(answer)).not.toContain('private provider');
   });
 
+  it.each([
+    ['disabled', 'not enabled'],
+    ['configuration', 'configuration update'],
+  ] as const)('explains %s instead of promising a temporary recovery', async (reason, message) => {
+    const answer = await answerQuestion('Why is the sky blue?', knowledge, vi.fn(), async () => ({
+      status: 'unavailable',
+      reason,
+    }));
+    expect(answer.message).toContain(message);
+    expect(answer.message).not.toContain('temporarily');
+  });
+
   it('rejects an invalid general answer at the orchestration boundary', async () => {
     const answer = await answerQuestion('Why is the sky blue?', knowledge, vi.fn(), async () => ({
       status: 'answered',

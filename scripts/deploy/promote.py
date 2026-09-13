@@ -65,6 +65,7 @@ def configure_ask_datadog(runtime, local):
         runtime['ASK_DATADOG_ENABLED'] = 'false'
         runtime['ASK_DATADOG_GENERAL_ENABLED'] = 'false'
         runtime.pop('ASK_DATADOG_TOOL_FREE_AGENT_ID', None)
+        runtime.pop('ASK_DATADOG_PUBLIC_AGENT_ID', None)
         for key in ['DD_API_KEY', 'DD_APP_KEY', 'DD_AGENT_ID', 'DD_BITS_WORKFLOW_ID']:
             runtime.pop(key, None)
         return
@@ -98,10 +99,14 @@ def configure_ask_datadog(runtime, local):
     runtime['ASK_DATADOG_STATE_DIRECTORY'] = '/var/lib/insightginie/datadog-ask'
     runtime['ASK_DATADOG_GENERAL_ENABLED'] = 'false'
     runtime.pop('ASK_DATADOG_TOOL_FREE_AGENT_ID', None)
+    runtime.pop('ASK_DATADOG_PUBLIC_AGENT_ID', None)
     if local.get('ASK_DATADOG_GENERAL_ENABLED') == 'true':
-        if local.get('ASK_DATADOG_TOOL_FREE_AGENT_ID') != runtime['DD_AGENT_ID']:
-            raise RuntimeError('General questions require a tool-free review of the configured agent')
-        runtime['ASK_DATADOG_TOOL_FREE_AGENT_ID'] = runtime['DD_AGENT_ID']
+        if local.get('ASK_DATADOG_TOOL_FREE_AGENT_ID') == runtime['DD_AGENT_ID']:
+            runtime['ASK_DATADOG_TOOL_FREE_AGENT_ID'] = runtime['DD_AGENT_ID']
+        elif local.get('ASK_DATADOG_PUBLIC_AGENT_ID') == runtime['DD_AGENT_ID']:
+            runtime['ASK_DATADOG_PUBLIC_AGENT_ID'] = runtime['DD_AGENT_ID']
+        else:
+            raise RuntimeError('General questions require authorization for the configured agent')
         runtime['ASK_DATADOG_GENERAL_ENABLED'] = 'true'
 
 
@@ -201,6 +206,8 @@ def promote():
             ['DD_API_KEY', 'DD_APP_KEY'] if runtime.get('ASK_DATADOG_ENABLED') == 'true' else []),
         'askDatadogEnabled': runtime.get('ASK_DATADOG_ENABLED') == 'true',
         'askGeneralEnabled': runtime.get('ASK_DATADOG_GENERAL_ENABLED') == 'true',
+        'askGeneralAuthorization': 'tool-free-attestation' if runtime.get('ASK_DATADOG_TOOL_FREE_AGENT_ID') else (
+            'owner-authorized' if runtime.get('ASK_DATADOG_PUBLIC_AGENT_ID') else None),
         'candidateEvidenceSha256': hashlib.sha256((ROOT / 'artifacts/candidate-acceptance.json').read_bytes()).hexdigest(),
         'wordpressCutover': False,
     }

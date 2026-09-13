@@ -1,5 +1,8 @@
 # Ginie general-question release
 
+Historical release report. The later owner authorization and activation are
+recorded in [Open-topic Ginie activation](ginie-open-topic-acceptance.md).
+
 The broad topic filters have been removed. Questions are no longer rejected just
 for mentioning APIs, taxes, investing, loans or similar subjects. Existing
 sourced explanations and deterministic calculations remain available.

@@ -9,7 +9,7 @@ A US consumer decision platform built around public data and deterministic calcu
 The application includes seven private calculators, a source-grounded assistant at `/ask/`, finance tools at `/tools/`, editorial previews at `/insights/`, original data at `/research/`, trust policies and a protected operations dashboard. The six new engines cover AI workflow ROI, cash runway, break-even, business loans, drawdown recovery and portfolio concentration. Household, location and career products remain on the roadmap.
 
 Ginie also has an optional general-question mode. It requires an operator-reviewed
-Datadog agent with every tool disabled; its generated answers are labelled and
+Datadog agent authorized by the owner; its generated answers are labelled and
 are not cached or presented as verified sources. See [activation and privacy](docs/genie.md#general-answers-and-activation).
 
 ## Run locally

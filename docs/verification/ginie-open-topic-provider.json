@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-09-13T12:33:53.788Z",
+  "status": "passed",
+  "mode": "live-general-inference",
+  "topic": "JavaScript promises",
+  "answered": true,
+  "relevant": true,
+  "messageLength": 261,
+  "elapsedMs": 7897,
+  "calls": [
+    {
+      "operation": "workflow-read",
+      "status": 200
+    },
+    {
+      "operation": "create",
+      "status": 200
+    },
+    {
+      "operation": "poll",
+      "status": 200
+    },
+    {
+      "operation": "poll",
+      "status": 200
+    },
+    {
+      "operation": "poll",
+      "status": 200
+    },
+    {
+      "operation": "poll",
+      "status": 200
+    },
+    {
+      "operation": "poll",
+      "status": 200
+    },
+    {
+      "operation": "poll",
+      "status": 200
+    },
+    {
+      "operation": "poll",
+      "status": 200
+    }
+  ],
+  "remoteBodyRecorded": false,
+  "credentialsRecorded": false,
+  "sharedProductionRunLedger": true,
+  "remoteToolIsolationVerified": false
+}

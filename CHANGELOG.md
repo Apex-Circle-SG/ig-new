@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-09-13 — Owner-authorized open-topic Ginie
+
+- Added explicit authorization for the configured Datadog agent without falsely
+  claiming that remote tools were disabled; retained the tool-free option.
+- Enabled general inference under the owner’s authorization, with source and
+  deterministic paths preserved and credential/budget controls retained.
+- Disabled or incomplete configuration now has an accurate response instead of
+  the misleading temporary-unavailability message.
+- Added real general-inference verification and matching deployment tests.
+
 ## 2026-09-13 — General-question support for Ginie
 
 - Removed broad topic refusals for APIs, taxes, investing, credit and other

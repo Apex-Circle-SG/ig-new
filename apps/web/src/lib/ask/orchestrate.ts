@@ -53,6 +53,10 @@ async function generalAnswer(question: string, generate: Generator): Promise<Ask
     result = { status: 'unavailable', reason: 'validation' };
   }
   const messages: Partial<Record<typeof result.reason, string>> = {
+    disabled:
+      'General AI answers are not enabled on this site. Published explanations and private tools are available.',
+    configuration:
+      'General AI answers need a site configuration update. Published explanations and private tools are available.',
     busy: 'Ginie is busy. Please wait a minute and try again.',
     budget:
       'General AI answers have reached their current usage limit. The published explanations and private tools remain available.',

@@ -34,8 +34,8 @@ the Datadog account policy. When general AI is enabled, unmatched questions are
 sent after identifier checks and detected financial-amount omission. This is
 not guaranteed anonymization; the form warns against confidential details.
 General prompts and results are not logged or cached locally, but Datadog may
-retain them. General mode requires an operator-reviewed agent with all tools
-disabled. Conversation history is never attached. Requests use an
+retain them. The owner has authorized the configured general-answer agent; its
+remote tool settings are not independently verified. Conversation history is never attached. Requests use an
 essential ten-minute `ig_ask_security` cookie and a signed request token. The
 cookie is HttpOnly, SameSite=Strict and Secure on HTTPS. It is used for request
 validation, not analytics. IP-derived abuse buckets are process-key HMACs kept

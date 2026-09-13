@@ -66,6 +66,25 @@ class ReleaseBoundaries(unittest.TestCase):
             self.assertEqual(os.stat(path).st_mode & 0o777, 0o600)
             self.assertEqual(list(Path(directory).iterdir()), [path])
 
+    def test_owner_authorized_agent_does_not_claim_tool_isolation(self):
+        local = {'ASK_DATADOG_ENABLED': 'true', 'DD_API_KEY': 'a' * 32,
+                 'DD_APP_KEY': 'b' * 40, 'DD_REGION': 'AP1',
+                 'DD_AGENT_ID': '11111111-1111-4111-8111-111111111111',
+                 'DD_BITS_WORKFLOW_ID': '22222222-2222-4222-8222-222222222222',
+                 'ASK_DATADOG_GENERAL_ENABLED': 'true'}
+        runtime = {}
+        for authorized in ['', local['DD_BITS_WORKFLOW_ID']]:
+            with self.assertRaises(RuntimeError):
+                promote.configure_ask_datadog({}, {**local, 'ASK_DATADOG_PUBLIC_AGENT_ID': authorized})
+        local['ASK_DATADOG_PUBLIC_AGENT_ID'] = local['DD_AGENT_ID']
+        promote.configure_ask_datadog(runtime, local)
+        self.assertEqual(runtime['ASK_DATADOG_GENERAL_ENABLED'], 'true')
+        self.assertEqual(runtime['ASK_DATADOG_PUBLIC_AGENT_ID'], local['DD_AGENT_ID'])
+        self.assertNotIn('ASK_DATADOG_TOOL_FREE_AGENT_ID', runtime)
+        promote.configure_ask_datadog(runtime, {})
+        self.assertEqual(runtime['ASK_DATADOG_GENERAL_ENABLED'], 'false')
+        self.assertNotIn('ASK_DATADOG_PUBLIC_AGENT_ID', runtime)
+
     def test_newline_injection_cannot_replace_runtime_configuration(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / 'runtime.env'

@@ -3,6 +3,7 @@ import { headers } from 'next/headers';
 import { SiteLink as Link } from '@insightginie/ui';
 import { AskChat } from '../../components/ask-chat';
 import { breadcrumbSchema, safeJsonLd } from '@insightginie/seo';
+import { generalAccessMode } from '../../lib/ask/general-access';
 
 export const metadata: Metadata = {
   title: 'Ask Ginie — Clear Explanations and Useful Tools',
@@ -21,11 +22,7 @@ export const metadata: Metadata = {
 };
 export default async function AskPage() {
   const nonce = (await headers()).get('x-nonce') ?? undefined;
-  const toolFreeAgentId = process.env.ASK_DATADOG_TOOL_FREE_AGENT_ID?.trim();
-  const generalAvailable =
-    process.env.ASK_DATADOG_ENABLED === 'true' &&
-    process.env.ASK_DATADOG_GENERAL_ENABLED === 'true' &&
-    Boolean(toolFreeAgentId && toolFreeAgentId === process.env.DD_AGENT_ID?.trim());
+  const generalAvailable = Boolean(generalAccessMode(process.env));
   return (
     <div className="shell listing-page">
       <nav className="breadcrumbs" aria-label="Breadcrumb">

@@ -74,11 +74,12 @@ export default function AiDisclosure() {
         </p>
         <p>
           Datadog is called by our server using server-held credentials. Your conversation history,
-          browser headers, cookies and visitor identifiers are not attached to these requests.
-          General mode stays disabled until the operator confirms the configured agent has no
-          connected actions or tools. Datadog may retain general prompts and generated answers under
-          its account policy; provider-side retention also applies to public selection tasks. See
-          the <a href="/privacy/">privacy policy</a> for processing and retention details.
+          browser headers, cookies and visitor identifiers are not attached to these requests. The
+          site owner has authorized general questions through the configured Datadog agent. Its
+          remote tool settings have not been independently verified. Datadog may retain general
+          prompts and generated answers under its account policy; provider-side retention also
+          applies to public selection tasks. See the <a href="/privacy/">privacy policy</a> for
+          processing and retention details.
         </p>
       </section>
       <section>

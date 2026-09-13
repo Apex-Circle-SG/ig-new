@@ -20,7 +20,7 @@ Automation integration, not a claimed public Bits website-chat API.
 6. Accept only a strict JSON selection of 1–4 distinct, supplied excerpt IDs.
    Reconstruct the displayed text and citations from the original public source.
    Ignore all model prose; reject unknown IDs, extra keys or invalid output.
-7. When no source matches, optionally send a minimized question to the isolated
+7. When no source matches, optionally send a minimized question to the owner-authorized
    general-answer provider described below.
 8. Label each response as source selection, deterministic calculation, general
    AI answer or local fallback. A failure never masquerades as a model answer.
@@ -47,30 +47,33 @@ have numeric values omitted. These heuristics are data minimization, not
 anonymization. The interface explains the omission and warns visitors not to
 submit confidential details. No live data feed or web browsing is available.
 
-General mode defaults off. Before activating it, the operator must disable
-**Datadog MCP, every other MCP connection and all Action Catalog actions** on the
-configured agent, save, reopen and verify those settings. A dedicated website
-agent is preferable if the existing agent also serves operational work. Keep
-Conversation ID unset in Run Agent. Official documentation says Run Agent uses
-the agent's configured tools and provides no per-request tool override:
-[Agent Builder](https://docs.datadoghq.com/actions/agents/),
-[editor screenshot](https://docs.dd-static.net/images/actions/agents/agent-builder-interface.a7d1f23bb07d7485f6813ac6154bb102.png).
-
-After that actual review, set protected server values:
+General mode defaults off and requires explicit authorization for the exact
+configured agent. The owner has now authorized public questions using the existing
+agent despite unverified remote tool settings. This supersedes the earlier
+requirement to wait for a tool-free confirmation. Protected server values are:
 
 ```dotenv
 ASK_DATADOG_ENABLED=true
 ASK_DATADOG_GENERAL_ENABLED=true
-ASK_DATADOG_TOOL_FREE_AGENT_ID=<the reviewed DD_AGENT_ID>
+ASK_DATADOG_PUBLIC_AGENT_ID=<the owner-authorized DD_AGENT_ID>
 ```
 
-The final value is an operator attestation tied to the configured agent ID,
-**not machine verification of remote settings**. No documented Agent Builder
-configuration API was found. The owner has been asked to perform the console
-step; no review or unrestricted live execution is claimed before confirmation.
-When changing the agent or its tools, disable general mode and review again.
-The independent `ASK_DATADOG_GENERAL_ENABLED=false` kill switch leaves existing
-sourced explanations and local calculators available.
+This records authorization, not a claim that tools are disabled. The alternative
+`ASK_DATADOG_TOOL_FREE_AGENT_ID` remains available for an actual operator review
+that disables Datadog MCP, other MCPs and Action Catalog actions. Both values must
+match the current agent; changing agents requires updating the authorization.
+Do not set a tool-free attestation based on the owner's acceptance of exposure.
+
+The workflow API does not verify the agent's tool settings. The fixed prompt asks
+for no tool use; this is not technical tool isolation. Known credential filtering
+and strict output validation reduce exposure but cannot guarantee the absence of
+private data from an agent with account access. A dedicated agent with all tools
+disabled remains the recommended deployment configuration. Keep Conversation ID
+unset. See [Agent Builder](https://docs.datadoghq.com/actions/agents/).
+
+The independent `ASK_DATADOG_GENERAL_ENABLED=false` kill switch leaves sourced
+explanations and local calculators available. Disabled configuration now receives
+an explicit disabled message instead of a misleading temporary-outage response.
 
 The public form discloses Datadog processing before general submissions.
 Datadog may retain these prompts and answers. Only source-backed responses show
@@ -131,16 +134,18 @@ answers or numeric examples. Datadog can retain both public selection tasks and,
 when enabled, general prompts and answers under its account policy. No provider
 zero-retention claim is made. The account's internal
 agent tools, model, service identity and exact retention are not independently
-verified by the workflow API. The fixed task instructs no tool use; strict local
-output validation prevents operational data from becoming a public answer.
+verified by the workflow API. The fixed task instructs no tool use. Strict local validation restricts source
+selection to public IDs; general-answer validation does not prove the absence of
+private operational data from an agent that has connected tools.
 
 Requests are 3–1,200 characters, at most 8 KiB JSON, with a five-second body read,
 ten-minute signed-cookie binding and bounded HMAC address buckets. The handler
 allows at most 30 active requests. Advertisements and browser recording are
 excluded from Ask. Direct private-disclosure requests and recognized identifiers
 receive local privacy responses. Broad topic-based refusals were removed.
-Matching rules cannot identify every private value. General mode requires remote
-tool isolation; a prompt instruction alone is not that isolation.
+Matching rules cannot identify every private value. The owner has authorized the
+configured agent without tool-isolation verification; a prompt instruction alone
+is not that isolation. Basic safety and credential protections remain active.
 
 Essential monitoring stores only fixed daily counters, including Datadog live,
 cache and fallback totals, for 30 days locally. Feedback includes an issue
