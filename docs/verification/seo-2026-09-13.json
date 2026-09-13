@@ -1,0 +1,675 @@
+{
+  "retrievedAt": "2026-09-13T02:23:39.665691+00:00",
+  "method": "Owner-authorized HTTP checks without running advertising scripts; sitemap and metadata are observations, not Search Console indexation data.",
+  "pages": [
+    {
+      "requestedUrl": "https://insightginie.com/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": "noindex, nofollow",
+        "cache-control": "private, no-store, no-transform",
+        "location": null
+      },
+      "title": "InsightGinie \u2014 Understand where you stand",
+      "h1": [
+        "Understandwhere you stand."
+      ],
+      "description": "Understand your income with real US data, transparent comparisons, and personal calculators. See where you stand and explore what changes next.",
+      "metaRobots": "noindex, nofollow",
+      "canonical": [
+        "https://insightginie.com/"
+      ],
+      "schemaTypes": [
+        "WebSite"
+      ],
+      "internalLinks": [
+        "/",
+        "/#explore",
+        "/about/",
+        "/calc/",
+        "/calc/individual-income-percentile/",
+        "/contact/",
+        "/data/",
+        "/data/census-cps/",
+        "/editorial-policy/",
+        "/methodology/",
+        "/privacy/",
+        "/terms/"
+      ],
+      "googleSiteVerificationPresent": false,
+      "bingSiteVerificationPresent": false,
+      "jsonLdValid": true
+    },
+    {
+      "requestedUrl": "https://insightginie.com/calc/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/calc/",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": "noindex, nofollow",
+        "cache-control": "private, no-store, no-transform",
+        "location": null
+      },
+      "title": "Calculators | InsightGinie",
+      "h1": [
+        "A good place to start."
+      ],
+      "description": "Explore personal income with source-backed, private calculators. Start with your US individual income percentile.",
+      "metaRobots": "noindex, nofollow",
+      "canonical": [
+        "https://insightginie.com/calc/"
+      ],
+      "schemaTypes": [],
+      "internalLinks": [
+        "/",
+        "/#explore",
+        "/about/",
+        "/calc/",
+        "/calc/individual-income-percentile/",
+        "/contact/",
+        "/data/",
+        "/editorial-policy/",
+        "/methodology/",
+        "/privacy/",
+        "/terms/"
+      ],
+      "googleSiteVerificationPresent": false,
+      "bingSiteVerificationPresent": false,
+      "jsonLdValid": true
+    },
+    {
+      "requestedUrl": "https://insightginie.com/calc/individual-income-percentile/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/calc/individual-income-percentile/",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": "noindex, nofollow",
+        "cache-control": "private, no-store, no-transform",
+        "location": null
+      },
+      "title": "Individual Income Percentile Calculator | InsightGinie",
+      "h1": [
+        "Where does your income stand?"
+      ],
+      "description": "See how your annual individual income compares with US people age 15 and over using Census data. Free, private, and transparent about assumptions.",
+      "metaRobots": "noindex, nofollow",
+      "canonical": [
+        "https://insightginie.com/calc/individual-income-percentile/"
+      ],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "WebApplication"
+      ],
+      "internalLinks": [
+        "/",
+        "/#explore",
+        "/about/",
+        "/calc/",
+        "/calc/individual-income-percentile/",
+        "/contact/",
+        "/data/",
+        "/data/census-cps/",
+        "/editorial-policy/",
+        "/methodology/",
+        "/methodology/individual-income/",
+        "/privacy/",
+        "/terms/"
+      ],
+      "googleSiteVerificationPresent": false,
+      "bingSiteVerificationPresent": false,
+      "jsonLdValid": true
+    },
+    {
+      "requestedUrl": "https://insightginie.com/data/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/data/",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": "noindex, nofollow",
+        "cache-control": "private, no-store, no-transform",
+        "location": null
+      },
+      "title": "Our Data | InsightGinie",
+      "h1": [
+        "Real sources. Open workings."
+      ],
+      "description": "Explore the public datasets behind InsightGinie. See source publishers, years, transformations and limitations.",
+      "metaRobots": "noindex, nofollow",
+      "canonical": [
+        "https://insightginie.com/data/"
+      ],
+      "schemaTypes": [],
+      "internalLinks": [
+        "/",
+        "/#explore",
+        "/about/",
+        "/calc/",
+        "/calc/individual-income-percentile/",
+        "/contact/",
+        "/data/",
+        "/data/census-cps/",
+        "/editorial-policy/",
+        "/methodology/",
+        "/privacy/",
+        "/privacy/#cookies",
+        "/terms/"
+      ],
+      "googleSiteVerificationPresent": false,
+      "bingSiteVerificationPresent": false,
+      "jsonLdValid": true
+    },
+    {
+      "requestedUrl": "https://insightginie.com/data/census-cps/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/data/census-cps/",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": "noindex, nofollow",
+        "cache-control": "private, no-store, no-transform",
+        "location": null
+      },
+      "title": "Census CPS Income Data | InsightGinie",
+      "h1": [
+        "The data behind your income insight."
+      ],
+      "description": "Source, year, population, transformation and limitations of the Census CPS PINC-11 individual money-income distribution used by InsightGinie.",
+      "metaRobots": "noindex, nofollow",
+      "canonical": [
+        "https://insightginie.com/data/census-cps/"
+      ],
+      "schemaTypes": [
+        "Dataset"
+      ],
+      "internalLinks": [
+        "/",
+        "/#explore",
+        "/about/",
+        "/calc/",
+        "/calc/individual-income-percentile/",
+        "/contact/",
+        "/data/",
+        "/editorial-policy/",
+        "/methodology/",
+        "/methodology/individual-income/",
+        "/privacy/",
+        "/privacy/#cookies",
+        "/terms/"
+      ],
+      "googleSiteVerificationPresent": false,
+      "bingSiteVerificationPresent": false,
+      "jsonLdValid": true
+    },
+    {
+      "requestedUrl": "https://insightginie.com/methodology/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/methodology/",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": "noindex, nofollow",
+        "cache-control": "private, no-store, no-transform",
+        "location": null
+      },
+      "title": "Methodology | InsightGinie",
+      "h1": [
+        "You deserve to see the workings."
+      ],
+      "description": "How InsightGinie turns public datasets into transparent, deterministic income comparisons, including assumptions and uncertainty.",
+      "metaRobots": "noindex, nofollow",
+      "canonical": [
+        "https://insightginie.com/methodology/"
+      ],
+      "schemaTypes": [],
+      "internalLinks": [
+        "/",
+        "/#explore",
+        "/about/",
+        "/calc/",
+        "/calc/individual-income-percentile/",
+        "/contact/",
+        "/data/",
+        "/editorial-policy/",
+        "/methodology/",
+        "/methodology/individual-income/",
+        "/privacy/",
+        "/privacy/#cookies",
+        "/terms/"
+      ],
+      "googleSiteVerificationPresent": false,
+      "bingSiteVerificationPresent": false,
+      "jsonLdValid": true
+    },
+    {
+      "requestedUrl": "https://insightginie.com/methodology/individual-income/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/methodology/individual-income/",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": "noindex, nofollow",
+        "cache-control": "private, no-store, no-transform",
+        "location": null
+      },
+      "title": "Individual Income Percentile Methodology | InsightGinie",
+      "h1": [
+        "How we estimate your income percentile."
+      ],
+      "description": "The exact formula, comparison population, open-tail handling and limitations behind the individual income percentile calculator.",
+      "metaRobots": "noindex, nofollow",
+      "canonical": [
+        "https://insightginie.com/methodology/individual-income/"
+      ],
+      "schemaTypes": [],
+      "internalLinks": [
+        "/",
+        "/#explore",
+        "/about/",
+        "/calc/",
+        "/calc/individual-income-percentile/",
+        "/contact/",
+        "/data/",
+        "/data/census-cps/",
+        "/editorial-policy/",
+        "/methodology/",
+        "/privacy/",
+        "/privacy/#cookies",
+        "/terms/"
+      ],
+      "googleSiteVerificationPresent": false,
+      "bingSiteVerificationPresent": false,
+      "jsonLdValid": true
+    },
+    {
+      "requestedUrl": "https://insightginie.com/about/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/about/",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": "noindex, nofollow",
+        "cache-control": "private, no-store, no-transform",
+        "location": null
+      },
+      "title": "About | InsightGinie",
+      "h1": [
+        "A little clarity for your next move."
+      ],
+      "description": "InsightGinie helps people understand their income and life decisions with public US data and transparent calculators.",
+      "metaRobots": "noindex, nofollow",
+      "canonical": [
+        "https://insightginie.com/about/"
+      ],
+      "schemaTypes": [],
+      "internalLinks": [
+        "/",
+        "/#explore",
+        "/about/",
+        "/calc/",
+        "/calc/individual-income-percentile/",
+        "/contact/",
+        "/data/",
+        "/editorial-policy/",
+        "/methodology/",
+        "/privacy/",
+        "/terms/"
+      ],
+      "googleSiteVerificationPresent": false,
+      "bingSiteVerificationPresent": false,
+      "jsonLdValid": true
+    },
+    {
+      "requestedUrl": "https://insightginie.com/editorial-policy/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/editorial-policy/",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": "noindex, nofollow",
+        "cache-control": "private, no-store, no-transform",
+        "location": null
+      },
+      "title": "Editorial Policy | InsightGinie",
+      "h1": [
+        "Trust is part of the product."
+      ],
+      "description": "Our standards for source attribution, authorship, corrections, calculator neutrality and publishing useful data products.",
+      "metaRobots": "noindex, nofollow",
+      "canonical": [
+        "https://insightginie.com/editorial-policy/"
+      ],
+      "schemaTypes": [],
+      "internalLinks": [
+        "/",
+        "/#explore",
+        "/about/",
+        "/authors/",
+        "/calc/",
+        "/calc/individual-income-percentile/",
+        "/contact/",
+        "/data/",
+        "/editorial-policy/",
+        "/methodology/",
+        "/privacy/",
+        "/terms/"
+      ],
+      "googleSiteVerificationPresent": false,
+      "bingSiteVerificationPresent": false,
+      "jsonLdValid": true
+    },
+    {
+      "requestedUrl": "https://insightginie.com/privacy/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/privacy/",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": "noindex, nofollow",
+        "cache-control": "private, no-store, no-transform",
+        "location": null
+      },
+      "title": "Privacy | InsightGinie",
+      "h1": [
+        "Your financial picture belongs to you."
+      ],
+      "description": "Your calculator inputs stay in browser memory. Learn what InsightGinie currently stores, shares and measures.",
+      "metaRobots": "noindex, nofollow",
+      "canonical": [
+        "https://insightginie.com/privacy/"
+      ],
+      "schemaTypes": [],
+      "internalLinks": [
+        "/",
+        "/#explore",
+        "/about/",
+        "/calc/",
+        "/calc/individual-income-percentile/",
+        "/contact/",
+        "/data/",
+        "/editorial-policy/",
+        "/methodology/",
+        "/privacy/",
+        "/terms/"
+      ],
+      "googleSiteVerificationPresent": false,
+      "bingSiteVerificationPresent": false,
+      "jsonLdValid": true
+    },
+    {
+      "requestedUrl": "https://insightginie.com/terms/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/terms/",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": "noindex, nofollow",
+        "cache-control": "private, no-store, no-transform",
+        "location": null
+      },
+      "title": "Terms of Use | InsightGinie",
+      "h1": [
+        "Use insight with context."
+      ],
+      "description": "Use InsightGinie as educational context. Understand the scope, source limitations and current preview status.",
+      "metaRobots": "noindex, nofollow",
+      "canonical": [
+        "https://insightginie.com/terms/"
+      ],
+      "schemaTypes": [],
+      "internalLinks": [
+        "/",
+        "/#explore",
+        "/about/",
+        "/calc/",
+        "/calc/individual-income-percentile/",
+        "/contact/",
+        "/data/",
+        "/editorial-policy/",
+        "/methodology/",
+        "/privacy/",
+        "/terms/"
+      ],
+      "googleSiteVerificationPresent": false,
+      "bingSiteVerificationPresent": false,
+      "jsonLdValid": true
+    },
+    {
+      "requestedUrl": "https://insightginie.com/contact/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/contact/",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": "noindex, nofollow",
+        "cache-control": "private, no-store, no-transform",
+        "location": null
+      },
+      "title": "Contact | InsightGinie",
+      "h1": [
+        "Good insights welcome questions."
+      ],
+      "description": "How to prepare a calculator correction or source question during the InsightGinie preview.",
+      "metaRobots": "noindex, follow",
+      "canonical": [
+        "https://insightginie.com/contact/"
+      ],
+      "schemaTypes": [],
+      "internalLinks": [
+        "/",
+        "/#explore",
+        "/about/",
+        "/calc/",
+        "/calc/individual-income-percentile/",
+        "/contact/",
+        "/data/",
+        "/data/census-cps/",
+        "/editorial-policy/",
+        "/methodology/",
+        "/methodology/individual-income/",
+        "/privacy/",
+        "/terms/"
+      ],
+      "googleSiteVerificationPresent": false,
+      "bingSiteVerificationPresent": false,
+      "jsonLdValid": true
+    },
+    {
+      "requestedUrl": "https://insightginie.com/authors/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/authors/",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": "noindex, nofollow",
+        "cache-control": "private, no-store, no-transform",
+        "location": null
+      },
+      "title": "Authors and Reviewers | InsightGinie",
+      "h1": [
+        "Real people. Accountable work."
+      ],
+      "description": "Authorship and review status for InsightGinie editorial content.",
+      "metaRobots": "noindex, follow",
+      "canonical": [
+        "https://insightginie.com/authors/"
+      ],
+      "schemaTypes": [],
+      "internalLinks": [
+        "/",
+        "/#explore",
+        "/about/",
+        "/calc/",
+        "/calc/individual-income-percentile/",
+        "/contact/",
+        "/data/",
+        "/editorial-policy/",
+        "/methodology/",
+        "/privacy/",
+        "/terms/"
+      ],
+      "googleSiteVerificationPresent": false,
+      "bingSiteVerificationPresent": false,
+      "jsonLdValid": true
+    },
+    {
+      "requestedUrl": "https://insightginie.com/robots.txt",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/robots.txt",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "x-robots-tag": "noindex, nofollow",
+        "cache-control": "public, max-age=31536000, must-revalidate",
+        "location": null
+      },
+      "body": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input: inputting content into one or more AI models (e.g., retrieval\n#           augmented generation, grounding, or other real-time taking of content for\n#           generative AI search answers).\n# ai-train: training or fine-tuning AI models.\n# use:      how AI systems may consume the content (immediate, reference, or full).\n\n# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF\n# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT\n# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.\n\n# BEGIN Cloudflare Managed content\n\nUser-agent: *\nContent-Signal: search=yes,ai-train=no,use=reference\nAllow: /\n\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: CloudflareBrowserRenderingCrawler\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\n# END Cloudflare Managed Content\n\nUser-Agent: *\nDisallow: /\n\nUser-Agent: Mediapartners-Google\nUser-Agent: AdsBot-Google\nAllow: /ads.txt\nAllow: /data/\nAllow: /methodology/\nDisallow: /\n\nHost: https://insightginie.com\nSitemap: https://insightginie.com/sitemap.xml\n"
+    },
+    {
+      "requestedUrl": "https://insightginie.com/sitemap.xml",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/sitemap.xml",
+      "headers": {
+        "content-type": "application/xml",
+        "x-robots-tag": "noindex, nofollow",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "location": null
+      },
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n</urlset>\n"
+    },
+    {
+      "requestedUrl": "https://insightginie.com/ads.txt",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/ads.txt",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "x-robots-tag": "noindex, nofollow",
+        "cache-control": "public, max-age=3600",
+        "location": null
+      },
+      "body": "google.com, pub-8735749779872017, DIRECT, f08c47fec0942fa0\n"
+    },
+    {
+      "requestedUrl": "https://insightginie.com/seo-audit-nonexistent-2026/",
+      "status": 404,
+      "finalUrl": "https://insightginie.com/seo-audit-nonexistent-2026/",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": "noindex, nofollow",
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "location": null
+      },
+      "title": "InsightGinie \u2014 Understand where you stand",
+      "h1": [
+        "There\u2019s no insight at this address."
+      ],
+      "description": "Understand your income with real US data, transparent comparisons, and personal calculators. See where you stand and explore what changes next.",
+      "metaRobots": "noindex, nofollow",
+      "canonical": [
+        "https://insightginie.com/"
+      ],
+      "schemaTypes": [],
+      "internalLinks": [
+        "/",
+        "/#explore",
+        "/about/",
+        "/calc/",
+        "/calc/individual-income-percentile/",
+        "/contact/",
+        "/data/",
+        "/editorial-policy/",
+        "/methodology/",
+        "/privacy/",
+        "/terms/"
+      ],
+      "googleSiteVerificationPresent": false,
+      "bingSiteVerificationPresent": false,
+      "jsonLdValid": true
+    },
+    {
+      "requestedUrl": "http://insightginie.com/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": "noindex, nofollow",
+        "cache-control": "private, no-store, no-transform",
+        "location": null
+      },
+      "title": "InsightGinie \u2014 Understand where you stand",
+      "h1": [
+        "Understandwhere you stand."
+      ],
+      "description": "Understand your income with real US data, transparent comparisons, and personal calculators. See where you stand and explore what changes next.",
+      "metaRobots": "noindex, nofollow",
+      "canonical": [
+        "https://insightginie.com/"
+      ],
+      "schemaTypes": [
+        "WebSite"
+      ],
+      "internalLinks": [
+        "/",
+        "/#explore",
+        "/about/",
+        "/calc/",
+        "/calc/individual-income-percentile/",
+        "/contact/",
+        "/data/",
+        "/data/census-cps/",
+        "/editorial-policy/",
+        "/methodology/",
+        "/privacy/",
+        "/terms/"
+      ],
+      "googleSiteVerificationPresent": false,
+      "bingSiteVerificationPresent": false,
+      "redirects": [
+        {
+          "from": "http://insightginie.com/",
+          "status": 301,
+          "to": "https://insightginie.com/"
+        }
+      ],
+      "jsonLdValid": true
+    },
+    {
+      "requestedUrl": "https://www.insightginie.com/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": "noindex, nofollow",
+        "cache-control": "private, no-store, no-transform",
+        "location": null
+      },
+      "title": "InsightGinie \u2014 Understand where you stand",
+      "h1": [
+        "Understandwhere you stand."
+      ],
+      "description": "Understand your income with real US data, transparent comparisons, and personal calculators. See where you stand and explore what changes next.",
+      "metaRobots": "noindex, nofollow",
+      "canonical": [
+        "https://insightginie.com/"
+      ],
+      "schemaTypes": [
+        "WebSite"
+      ],
+      "internalLinks": [
+        "/",
+        "/#explore",
+        "/about/",
+        "/calc/",
+        "/calc/individual-income-percentile/",
+        "/contact/",
+        "/data/",
+        "/data/census-cps/",
+        "/editorial-policy/",
+        "/methodology/",
+        "/privacy/",
+        "/terms/"
+      ],
+      "googleSiteVerificationPresent": false,
+      "bingSiteVerificationPresent": false,
+      "redirects": [
+        {
+          "from": "https://www.insightginie.com/",
+          "status": 301,
+          "to": "https://insightginie.com/"
+        }
+      ],
+      "jsonLdValid": true
+    }
+  ]
+}
