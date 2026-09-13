@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-09-13 — Datadog credential verification
+
+- Verified API/application-key authentication and workflow reads against AP1
+  with HTTP 200 responses; saved a sanitized access receipt.
+- Inspected all three visible workflow definitions. Neither published workflow
+  references the supplied agent ID; the workflow ID is absent from local config.
+- Updated remaining integration requirements, including service-account
+  execution, structured output, credits and retention checks.
+- Tightened the ignored local `.env` to `0600`. No secrets were committed, no
+  workflow ran and no production service or Datadog configuration changed.
+
+See [access results and next steps](docs/datadog-bits-requirements.md).
+
 ## 2026-09-13 — Consolidation inspection (Phase 1, incomplete)
 
 - Inventoried 41,211 distinct public blog URLs through complete published REST

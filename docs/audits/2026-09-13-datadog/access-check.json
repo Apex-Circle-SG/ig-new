@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-09-13T06:54:47.455066+00:00",
+  "completed_at": "2026-09-13T06:55:21.980235+00:00",
+  "scope": "Read-only authentication and workflow configuration checks; no inference or remote mutations",
+  "site": "ap1.datadoghq.com",
+  "configured_variables": [
+    "DD_AGENT_ID",
+    "DD_API_KEY",
+    "DD_APP_KEY",
+    "DD_REGION"
+  ],
+  "credential_values_recorded": false,
+  "account_identifiers_recorded": false,
+  "local_env_mode": "0o600",
+  "authentication": [
+    {
+      "endpoint": "/api/v1/validate",
+      "http_status": 200,
+      "valid": true
+    },
+    {
+      "endpoint": "/api/v2/validate_keys",
+      "http_status": 200,
+      "valid": true
+    }
+  ],
+  "workflow_access": {
+    "http_status": 200,
+    "includes_unpublished": true,
+    "includes_specs": true,
+    "total_count": 3,
+    "returned_count": 3,
+    "pagination_complete": true,
+    "summaries": [
+      {
+        "alias": "workflow_1",
+        "published": false,
+        "execution_identity": "owner",
+        "spec_present": true,
+        "steps_count": 15,
+        "supplied_agent_referenced": false,
+        "trigger_types": [
+          [
+            "scheduleTrigger"
+          ]
+        ]
+      },
+      {
+        "alias": "workflow_2",
+        "published": true,
+        "execution_identity": "owner",
+        "spec_present": true,
+        "steps_count": 3,
+        "supplied_agent_referenced": false,
+        "trigger_types": [
+          [
+            "apiTrigger"
+          ]
+        ]
+      },
+      {
+        "alias": "workflow_3",
+        "published": true,
+        "execution_identity": "owner",
+        "spec_present": true,
+        "steps_count": 1,
+        "supplied_agent_referenced": false,
+        "trigger_types": [
+          [
+            "apiTrigger"
+          ]
+        ]
+      }
+    ]
+  },
+  "agent_step_review": {
+    "http_status": 200,
+    "steps": [
+      {
+        "workflow_alias": "workflow_1",
+        "run_agent_parameters": [
+          {
+            "name": "customAgentId",
+            "value_type": "str",
+            "configured": false,
+            "matches_configured_agent": false,
+            "value_uuid_format": false,
+            "dynamic_expression": false
+          },
+          {
+            "name": "userPrompt",
+            "value_type": "str",
+            "configured": true
+          }
+        ]
+      },
+      {
+        "workflow_alias": "workflow_1",
+        "run_agent_parameters": [
+          {
+            "name": "customAgentId",
+            "value_type": "str",
+            "configured": false,
+            "matches_configured_agent": false,
+            "value_uuid_format": false,
+            "dynamic_expression": false
+          },
+          {
+            "name": "userPrompt",
+            "value_type": "str",
+            "configured": true
+          }
+        ]
+      },
+      {
+        "workflow_alias": "workflow_2",
+        "run_agent_parameters": [
+          {
+            "name": "customAgentId",
+            "value_type": "str",
+            "configured": true,
+            "matches_configured_agent": false,
+            "value_uuid_format": true,
+            "dynamic_expression": false
+          },
+          {
+            "name": "userPrompt",
+            "value_type": "str",
+            "configured": true
+          }
+        ]
+      },
+      {
+        "workflow_alias": "workflow_3",
+        "run_agent_parameters": [
+          {
+            "name": "customAgentId",
+            "value_type": "str",
+            "configured": true,
+            "matches_configured_agent": false,
+            "value_uuid_format": true,
+            "dynamic_expression": false
+          },
+          {
+            "name": "userPrompt",
+            "value_type": "str",
+            "configured": true
+          }
+        ]
+      }
+    ]
+  },
+  "identity": {
+    "endpoint": "/api/v2/current_user",
+    "http_status": 200,
+    "is_service_account": false,
+    "included_permissions_count": 322,
+    "relevant_user_role_permissions": {
+      "workflows_read": true,
+      "workflows_run": true,
+      "connections_resolve": true
+    },
+    "application_key_scope_restrictions_verified": false
+  },
+  "configuration_gaps": {
+    "workflow_id_missing": true,
+    "configured_agent_id_has_uuid_format": true,
+    "configured_agent_existence_verified": false,
+    "published_workflow_referencing_configured_agent_found": false,
+    "explicit_run_agent_output_schema_present": false
+  },
+  "not_verified": [
+    "Agent configuration, model and tool allowlist",
+    "Application-key run scope and workflow-specific Runner permissions",
+    "AI Credits balance and monthly spend cap",
+    "Prompt/workflow retention and redaction controls",
+    "Inference execution and validated structured output",
+    "Supported public website inference contract",
+    "Monitoring product entitlements"
+  ],
+  "inference_executed": false,
+  "remote_configuration_changed": false,
+  "production_service_changed": false,
+  "sources": [
+    "https://docs.datadoghq.com/api/latest/key-management/validate-api-and-application-keys/",
+    "https://docs.datadoghq.com/api/latest/workflow-automation/list-workflows/",
+    "https://docs.datadoghq.com/api/latest/users/get-current-user/",
+    "https://docs.datadoghq.com/actions/agents/",
+    "https://docs.datadoghq.com/actions/workflows/access/"
+  ]
+}
