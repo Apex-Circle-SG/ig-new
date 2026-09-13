@@ -109,10 +109,10 @@ test('mobile menu and keyboard form work', async ({ page }) => {
   await page.locator('.mobile-nav summary').click();
   await page
     .getByRole('navigation', { name: 'Mobile navigation' })
-    .getByRole('link', { name: 'Calculators', exact: true })
+    .getByRole('link', { name: 'Tools', exact: true })
     .click();
-  await expect(page).toHaveURL(/\/calc\/$/);
-  await page.getByRole('link', { name: /Individual income percentile/ }).click();
+  await expect(page).toHaveURL(/\/tools\/$/);
+  await page.getByRole('link', { name: /income percentile calculator/i }).click();
   await tool(page).getByLabel('Annual individual income').focus();
   await page.keyboard.press('ControlOrMeta+A');
   await page.keyboard.type('55000');

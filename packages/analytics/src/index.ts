@@ -4,6 +4,24 @@ export const eventNames = [
   'calculator_completed',
   'calculator_result_shared',
   'related_calculator_clicked',
+  'tool_exported',
+  'article_engaged',
+  'organic_landing',
+  'ask_answer_cited',
+  'ask_fallback',
+  'ask_refusal',
+] as const;
+export const experienceIds = [
+  'individual-income-percentile',
+  'ai-workflow-roi',
+  'cash-runway',
+  'break-even',
+  'business-loan',
+  'drawdown-recovery',
+  'portfolio-concentration',
+  'ask',
+  'insights',
+  'research',
 ] as const;
 export type AnalyticsEvent = (typeof eventNames)[number];
 export type SafeProperties = {
@@ -21,10 +39,9 @@ export function configureAnalytics(next?: AnalyticsProvider) {
 export function track(event: AnalyticsEvent, properties: SafeProperties) {
   if (!eventNames.includes(event)) return;
   const safe: SafeProperties = {
-    calculator_id:
-      properties.calculator_id === 'individual-income-percentile'
-        ? properties.calculator_id
-        : 'unknown',
+    calculator_id: (experienceIds as readonly string[]).includes(properties.calculator_id)
+      ? properties.calculator_id
+      : 'unknown',
   };
   if (['form', 'example', 'what-if', 'copy-link'].includes(properties.interaction ?? ''))
     safe.interaction = properties.interaction;
@@ -35,3 +52,4 @@ export function track(event: AnalyticsEvent, properties: SafeProperties) {
   }
 }
 export { createFirstPartyProvider, sendAggregateEvent } from './browser';
+export { analyticsConsentGranted, ANALYTICS_COOKIE, ANALYTICS_CHANGE_EVENT } from './consent';

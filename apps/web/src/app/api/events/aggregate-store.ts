@@ -2,7 +2,7 @@ import { randomUUID } from 'node:crypto';
 import { mkdir, readFile, readdir, rename, unlink, writeFile } from 'node:fs/promises';
 import { isIP } from 'node:net';
 import { join } from 'node:path';
-import { eventNames } from '@insightginie/analytics';
+import { eventNames, experienceIds } from '@insightginie/analytics';
 import { PUBLIC_ROUTE_IDS } from '@insightginie/seo';
 
 const maximumBodyBytes = 1024;
@@ -26,7 +26,11 @@ function validEvent(value: unknown): value is Record<string, string> {
   if (typeof event.event !== 'string' || !events.has(event.event)) return false;
   if (typeof event.route_id !== 'string' || !routeIds.has(event.route_id)) return false;
   if (event.event === 'page_view') return Object.keys(event).length === 2;
-  if (event.calculator_id !== 'individual-income-percentile') return false;
+  if (
+    typeof event.calculator_id !== 'string' ||
+    !(experienceIds as readonly string[]).includes(event.calculator_id)
+  )
+    return false;
   return (
     !Object.hasOwn(event, 'interaction') ||
     (typeof event.interaction === 'string' && interactions.has(event.interaction))
@@ -137,6 +141,12 @@ export function createAggregateCollector(options: CollectionOptions) {
 
   return async function collect(request: Request) {
     if (!options.directory) return respond(204);
+    if (
+      request.headers.get('x-insightginie-consent') !== 'allow' ||
+      request.headers.get('sec-gpc') === '1' ||
+      request.headers.get('dnt') === '1'
+    )
+      return respond(204);
     const origin = request.headers.get('origin');
     const fetchSite = request.headers.get('sec-fetch-site');
     const requestOrigin = new URL(request.url).origin;

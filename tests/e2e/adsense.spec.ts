@@ -17,6 +17,7 @@ test.beforeEach(async ({ page }) => {
 test('every reviewed public page loads advertising by default for US visitors', async ({
   page,
 }) => {
+  test.setTimeout(90_000);
   for (const path of PUBLIC_AD_PATHS) {
     await page.goto(path);
     await expect(page.locator('#insightginie-adsense'), path).toHaveCount(1);
@@ -31,8 +32,9 @@ test('every reviewed public page loads advertising by default for US visitors', 
       .toBe(true);
     await expect(page.getByRole('region', { name: 'Advertising preferences' })).toHaveCount(0);
   }
-  for (const path of ['/authors/', '/missing-insight/']) {
+  for (const path of ['/ask/', '/missing-insight/']) {
     await page.goto(path);
+    await page.waitForLoadState('networkidle');
     await expect(page.locator('#insightginie-adsense')).toHaveCount(0);
   }
 });
@@ -112,7 +114,9 @@ test('ads.txt, fresh nonces, and mobile advertising choices are valid', async ({
   expect(first.headers()['content-security-policy']).not.toEqual(
     second.headers()['content-security-policy'],
   );
-  expect(first.headers()['cache-control']).toContain('no-transform');
+  // Nonce-bearing public HTML stays uncacheable while allowing transport compression.
+  expect(first.headers()['cache-control']).toContain('no-store');
+  expect(first.headers()['cache-control']).toContain('private');
   await context.setExtraHTTPHeaders({ 'cf-ipcountry': 'GB' });
   await page.setViewportSize({ width: 320, height: 700 });
   await page.goto('/methodology/');

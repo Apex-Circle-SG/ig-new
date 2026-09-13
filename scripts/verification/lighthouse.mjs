@@ -15,6 +15,8 @@ try {
   for (const [name, path] of [
     ['homepage', '/'],
     ['income-calculator', '/calc/individual-income-percentile/'],
+    ['cash-runway', '/tools/cash-runway/'],
+    ['ask', '/ask/'],
   ]) {
     const result = await lighthouse(base + path, {
       port: chrome.port,

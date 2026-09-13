@@ -6,10 +6,8 @@ import {
   BarChart3,
   Check,
   CircleDollarSign,
-  Compass,
   Database,
   Fingerprint,
-  MapPin,
   ShieldCheck,
   Sparkles,
 } from 'lucide-react';
@@ -135,7 +133,7 @@ export default async function Home() {
             <h2>Good questions. Clearer answers.</h2>
             <p>Start with where you are. Then explore where you could go.</p>
           </div>
-          <Link prefetch={false} href="/calc/" className="text-link">
+          <Link prefetch={false} href="/tools/" className="text-link">
             Explore calculators <ArrowRight size={16} />
           </Link>
         </div>
@@ -152,8 +150,7 @@ export default async function Home() {
               <span className="pill available">Ready to explore</span>
             </div>
             <h3>
-              Where does my{' '}
-              <br />
+              Where does my <br />
               income stand?
             </h3>
             <p>Put your individual income in context with the US income distribution.</p>
@@ -162,42 +159,40 @@ export default async function Home() {
               <ArrowUpRight size={21} />
             </div>
           </Link>
-          <div className="insight-card upcoming-card">
+          <Link href="/tools/cash-runway/" className="insight-card active-card">
             <div className="card-top">
               <span className="feature-icon green">
-                <MapPin size={23} />
-              </span>
-              <span className="pill">Up next</span>
-            </div>
-            <h3>
-              What if I moved{' '}
-              <br />
-              somewhere new?
-            </h3>
-            <p>Compare what a salary could mean in a different city.</p>
-            <div className="card-bottom">
-              <span>Cost of living & relocation</span>
-              <Compass size={20} />
-            </div>
-          </div>
-          <div className="insight-card upcoming-card">
-            <div className="card-top">
-              <span className="feature-icon peach">
                 <CircleDollarSign size={23} />
               </span>
-              <span className="pill">Up next</span>
+              <span className="pill available">Ready to explore</span>
             </div>
             <h3>
-              What actually{' '}
-              <br />
-              comes home?
+              How long will <br />
+              my cash last?
             </h3>
-            <p>Understand how taxes could change the salary on your offer.</p>
+            <p>Explore business cash runway with your own revenue, expenses and reserve.</p>
             <div className="card-bottom">
-              <span>Take-home pay</span>
+              <span>Cash runway planner</span>
+              <ArrowUpRight size={20} />
+            </div>
+          </Link>
+          <Link href="/tools/ai-workflow-roi/" className="insight-card active-card">
+            <div className="card-top">
+              <span className="feature-icon peach">
+                <Sparkles size={23} />
+              </span>
+              <span className="pill available">Ready to explore</span>
+            </div>
+            <h3>
+              Does automation <br />
+              pay for itself?
+            </h3>
+            <p>Compare time saved, review effort and software costs in an AI workflow.</p>
+            <div className="card-bottom">
+              <span>AI workflow ROI</span>
               <ArrowUpRight size={21} />
             </div>
-          </div>
+          </Link>
         </div>
       </section>
       <section className="principles-section">

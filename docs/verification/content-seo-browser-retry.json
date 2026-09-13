@@ -1,0 +1,26 @@
+{
+  "candidate": "http://127.0.0.1:3011",
+  "scope": "Rerun two tests affected by shared output directory collisions",
+  "stats": {
+    "startTime": "2026-09-13T08:15:17.161Z",
+    "duration": 9711.036,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "tests": [
+    {
+      "title": "insights hub searches the preserved preview and query results stay noindex",
+      "status": "passed",
+      "durationMs": 2943,
+      "error": ""
+    },
+    {
+      "title": "published pages serve unique metadata, valid schema and working internal links",
+      "status": "passed",
+      "durationMs": 6651,
+      "error": ""
+    }
+  ]
+}

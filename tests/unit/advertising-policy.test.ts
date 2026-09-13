@@ -17,15 +17,39 @@ describe('regional advertising policy', () => {
       });
     },
   );
-  it.each(['/authors/', '/tools/income/', '/admin/', '/me/', '/missing/'])(
-    'never monetizes %s',
-    (pathname) => {
-      expect(advertisingPolicy({ ...base, pathname, preference: 'allow' }).load).toBe(false);
-    },
-  );
+  it.each([
+    '/ask/',
+    '/ask',
+    '/tools/income/',
+    '/private-tools/cash-runway/',
+    '/private-tools/portfolio-concentration/',
+    '/admin/',
+    '/me/',
+    '/missing/',
+    '/insights/connecting-openclaw-to-qq-a-guide-to-the-onebot-adapter-skill/',
+  ])('never monetizes %s', (pathname) => {
+    expect(advertisingPolicy({ ...base, pathname, preference: 'allow' })).toMatchObject({
+      eligible: false,
+      load: false,
+    });
+  });
   it('honors withdrawal, global opt-out signals, and the integration kill switch', () => {
     expect(advertisingPolicy({ ...base, preference: 'deny' }).load).toBe(false);
     expect(advertisingPolicy({ ...base, globalPrivacyControl: true }).nonPersonalized).toBe(true);
     expect(advertisingPolicy({ ...base, enabled: false }).load).toBe(false);
+  });
+  it('allows the public tool hub and organizational profile without exposing their private descendants', () => {
+    expect(advertisingPolicy({ ...base, pathname: '/tools/' })).toMatchObject({
+      eligible: true,
+      load: true,
+    });
+    expect(advertisingPolicy({ ...base, pathname: '/authors/insightginie/' })).toMatchObject({
+      eligible: true,
+      load: true,
+    });
+    expect(advertisingPolicy({ ...base, pathname: '/tools/income/' })).toMatchObject({
+      eligible: false,
+      load: false,
+    });
   });
 });

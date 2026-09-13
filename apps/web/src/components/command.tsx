@@ -16,6 +16,54 @@ const intents = [
     href: '/methodology/',
     tag: 'Our methodology',
   },
+  {
+    label: 'What does an AI workflow cost?',
+    terms: 'ai automation workflow roi payback cost',
+    href: '/tools/ai-workflow-roi/',
+    tag: 'AI economics',
+  },
+  {
+    label: 'How long will my business cash last?',
+    terms: 'cash runway burn business founder startup',
+    href: '/tools/cash-runway/',
+    tag: 'Cash runway planner',
+  },
+  {
+    label: 'When does a business break even?',
+    terms: 'break even margin contribution revenue profit',
+    href: '/tools/break-even/',
+    tag: 'Break-even calculator',
+  },
+  {
+    label: 'How much does a loan actually cost?',
+    terms: 'loan interest borrow fees payment amortization',
+    href: '/tools/business-loan/',
+    tag: 'Loan cost calculator',
+  },
+  {
+    label: 'What does recovering from a loss require?',
+    terms: 'drawdown recovery loss gain risk',
+    href: '/tools/drawdown-recovery/',
+    tag: 'Risk education',
+  },
+  {
+    label: 'How concentrated is a portfolio?',
+    terms: 'portfolio concentration diversification holdings position risk',
+    href: '/tools/portfolio-concentration/',
+    tag: 'Concentration explainer',
+  },
+  {
+    label: 'Explore published insights',
+    terms: 'insights articles editorial guides',
+    href: '/insights/',
+    tag: 'Insights',
+  },
+  {
+    label: 'Explore research and downloadable data',
+    terms: 'research data csv studies distribution',
+    href: '/research/',
+    tag: 'Research',
+  },
 ];
 export function Command() {
   const ready = useHydrated();
@@ -32,7 +80,7 @@ export function Command() {
   return (
     <div className="command-wrap">
       <form
-        action="/calc/"
+        action="/tools/"
         onSubmit={(e) => {
           e.preventDefault();
           setOpen(true);
@@ -80,9 +128,9 @@ export function Command() {
             ))
           ) : (
             <p>
-              We’re starting with income comparisons.{' '}
-              <Link prefetch={false} href="/calc/individual-income-percentile/">
-                Try the income calculator <ArrowRight size={14} />
+              Find a source-linked starting point.{' '}
+              <Link prefetch={false} href="/ask/">
+                Ask Genie <ArrowRight size={14} />
               </Link>
             </p>
           )}

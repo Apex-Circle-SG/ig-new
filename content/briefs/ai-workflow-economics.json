@@ -1,0 +1,46 @@
+{
+  "id": "ai-workflow-economics",
+  "title": "When saved AI workflow time becomes an economic benefit",
+  "intent": {
+    "question": "How much useful time must an AI workflow save to cover its implementation and running costs?",
+    "readerDecision": "Define a measured pilot and compare the costs with a defensible value of time saved.",
+    "uniqueValue": "A reproducible scenario distinguishes task time, rework, adoption, operating cost and monetizable savings rather than treating every saved minute as cash."
+  },
+  "hub": "ai-economics",
+  "author": null,
+  "reviewer": null,
+  "sources": [
+    {
+      "name": "NBER Working Paper 31161: Generative AI at Work",
+      "url": "https://www.nber.org/papers/w31161",
+      "type": "primary",
+      "status": "candidate",
+      "validatedAt": null,
+      "purpose": "Review the study design, population, revisions and limits before discussing measured productivity; do not transfer its effect size into default tool inputs."
+    }
+  ],
+  "methodology": {
+    "version": "brief-v1",
+    "plan": "Use labeled hypothetical inputs with the versioned AI workflow ROI engine. Separate setup and recurring costs, gross time saved, quality checks, rework and the fraction of time that can produce an economic benefit. Show sensitivity to assumptions without presenting a forecast.",
+    "assumptions": [
+      "Hypothetical costs and task volumes must be identified as examples, not market benchmarks.",
+      "A saved hour has economic value only under the explicit valuation assumptions used."
+    ],
+    "limitations": [
+      "Results from one workplace or task cannot establish returns for another organization.",
+      "Quality, implementation risk and changes in demand may not be represented by a simple scenario."
+    ]
+  },
+  "lastReviewedAt": null,
+  "disclaimer": "Educational research planning only. This draft is not a published finding or a recommendation to purchase an AI product, reduce staffing or make a financial commitment.",
+  "relatedTool": "ai-workflow-roi",
+  "status": "draft",
+  "contextualLinks": [
+    {
+      "targetPath": "/tools/ai-workflow-roi/",
+      "anchorText": "test the workflow assumptions",
+      "reason": "Would let a reader reproduce the labeled scenario after the tool and editorial content have passed review.",
+      "approval": { "status": "pending", "approvedBy": null, "approvedAt": null }
+    }
+  ]
+}

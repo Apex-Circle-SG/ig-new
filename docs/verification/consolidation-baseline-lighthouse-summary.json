@@ -1,0 +1,79 @@
+[
+  {
+    "name": "homepage",
+    "url": "http://127.0.0.1:3011/",
+    "fetchedAt": "2026-09-13T08:21:37.676Z",
+    "mode": "mobile simulated",
+    "scores": {
+      "performance": 84,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "lcpMs": 2771.502,
+      "tbtMs": 469,
+      "cls": 0
+    },
+    "failedAudits": []
+  },
+  {
+    "name": "income-calculator",
+    "url": "http://127.0.0.1:3011/calc/individual-income-percentile/",
+    "fetchedAt": "2026-09-13T08:21:47.666Z",
+    "mode": "mobile simulated",
+    "scores": {
+      "performance": 81,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "lcpMs": 2234.6695,
+      "tbtMs": 688.5,
+      "cls": 0.01415524441376156
+    },
+    "failedAudits": []
+  },
+  {
+    "name": "cash-runway",
+    "url": "http://127.0.0.1:3011/tools/cash-runway/",
+    "fetchedAt": "2026-09-13T08:21:57.220Z",
+    "mode": "mobile simulated",
+    "scores": {
+      "performance": 73,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "lcpMs": 3308.2947999999997,
+      "tbtMs": 679.5,
+      "cls": 0
+    },
+    "failedAudits": []
+  },
+  {
+    "name": "ask",
+    "url": "http://127.0.0.1:3011/ask/",
+    "fetchedAt": "2026-09-13T08:22:08.199Z",
+    "mode": "mobile simulated",
+    "scores": {
+      "performance": 88,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "lcpMs": 2614.7055,
+      "tbtMs": 358.14725,
+      "cls": 0
+    },
+    "failedAudits": [
+      {
+        "id": "aria-prohibited-attr",
+        "title": "Elements use prohibited ARIA attributes"
+      }
+    ]
+  }
+]

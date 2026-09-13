@@ -35,6 +35,12 @@ jobs:
       SITE_INDEXABLE: 'true'
       NEXT_PUBLIC_ADS_ENABLED: 'true'
       DATABASE_URL: postgres://postgres@localhost:5432/insightginie_ci
+      APP_SITE_ORIGIN: http://127.0.0.1:3000
+      ANALYTICS_SITE_ORIGIN: http://127.0.0.1:3000
+      ANALYTICS_DIRECTORY: /tmp/insightginie-ci/analytics
+      OPERATIONS_DIRECTORY: /tmp/insightginie-ci/operations
+      ASK_SECURITY_SECRET: '0000000000000000000000000000000000000000000000000000000000000000'
+      ADMIN_ACCESS_KEY: test-only-admin-key-not-for-production-use
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -47,10 +53,13 @@ jobs:
       - run: npm test
       - run: node --test scripts/seo/discovery.test.mjs
       - run: node --test scripts/operations/prune-analytics.test.mjs
+      - run: node --test scripts/observability/observability.test.mjs
+      - run: npx tsx scripts/content-sync/validate.ts
       - name: Verify legacy migration safety
         run: |
           python3 -m unittest discover -s scripts/legacy-url-audit -p "test_*.py"
           python3 scripts/legacy-url-audit/validate.py docs/legacy/url-inventory.csv.gz
+          python3 -m unittest discover -s scripts/deploy -p "test_*.py"
       - name: Apply migrations and verify replay safety
         run: |
           npm run db:migrate

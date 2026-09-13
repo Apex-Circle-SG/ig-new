@@ -1,0 +1,22 @@
+{
+  "verifiedAt": "2026-09-13T08:14:07.870Z",
+  "baseURL": "http://127.0.0.1:3011",
+  "views": [
+    {
+      "slug": "business-loan",
+      "width": 1440,
+      "screenshot": "docs/verification/finance-business-loan-desktop.png",
+      "parentOverflow": false,
+      "frameOverflow": false,
+      "runtimeErrors": []
+    },
+    {
+      "slug": "cash-runway",
+      "width": 390,
+      "screenshot": "docs/verification/finance-cash-runway-mobile.png",
+      "parentOverflow": false,
+      "frameOverflow": false,
+      "runtimeErrors": []
+    }
+  ]
+}

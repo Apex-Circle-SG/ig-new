@@ -1,0 +1,10 @@
+[Unit]
+Description=Optional InsightGinie aggregate metric export
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=5min
+Unit=insightginie-metrics.service
+
+[Install]
+WantedBy=timers.target

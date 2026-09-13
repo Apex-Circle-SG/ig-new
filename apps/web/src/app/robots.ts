@@ -8,7 +8,18 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         ...(indexable
-          ? { allow: '/', disallow: ['/api/', '/me/', '/admin/', '/tools/', '/embed/'] }
+          ? {
+              allow: '/',
+              disallow: [
+                '/api/',
+                '/me/',
+                '/admin/',
+                '/tools/income/',
+                '/private-tools/',
+                '/embed/',
+                '/search/',
+              ],
+            }
           : { disallow: '/' }),
       },
       {
@@ -19,7 +30,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: '/',
       },
     ],
-    ...(indexable ? { sitemap: canonical('/sitemap.xml') } : {}),
+    ...(indexable ? { sitemap: canonical('/sitemap-index.xml') } : {}),
     host: 'https://insightginie.com',
   };
 }

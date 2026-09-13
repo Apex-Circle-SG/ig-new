@@ -1,0 +1,73 @@
+{
+  "format": "review-specification-not-an-importable-datadog-api-payload",
+  "status": "disabled-until-entitlement-and-source-verification",
+  "source_boundary": {
+    "allowed_input": "Validated daily operation counters only, or explicitly created manual spans with a fixed route category and duration.",
+    "reject": [
+      "request bodies",
+      "raw prompts",
+      "answers",
+      "request URLs",
+      "query strings",
+      "headers",
+      "cookies",
+      "IP addresses",
+      "user/session identifiers",
+      "financial inputs/results",
+      "raw exceptions/stacks",
+      "auto-instrumented HTTP spans"
+    ],
+    "implementation": "scripts/observability/privacy.mjs reconstructs an allowlisted object before any exporter runs. Unknown aggregate fields or manual-span properties are rejected."
+  },
+  "observability_pipelines": {
+    "deployment": "Requires a configured Observability Pipelines worker and entitlement; none is installed by this template.",
+    "processor_order": [
+      "Receive only the dedicated sanitized operational source; exclude generic web/server access logs.",
+      "Filter to service insightginie-web and a reviewed fixed event/route-category set.",
+      "Reconstruct the exact allowed schema; reject an event with unknown attributes instead of retaining the original event.",
+      "Run the Sensitive Data Scanner processor in the worker before network egress.",
+      "Drop unexpected sensitive matches, count the dropped events without content, and route only validated objects to the configured Datadog destination."
+    ],
+    "allowed_fields": [
+      "metric",
+      "value",
+      "timestamp",
+      "service",
+      "env",
+      "route_category",
+      "operation_status",
+      "duration_ms"
+    ],
+    "scanner_rules_to_configure": [
+      {
+        "name": "Credentials and identifiers",
+        "match": "Use the account-supported standard rules for API tokens, authentication material, email, payment-card numbers and IP addresses.",
+        "action": "redact-or-drop before egress"
+      }
+    ],
+    "schema_rejection_rule": {
+      "forbidden_attribute_names": [
+        "income",
+        "net_worth",
+        "account_number",
+        "question",
+        "prompt",
+        "answer",
+        "cookie",
+        "authorization",
+        "session_id",
+        "profile_id"
+      ],
+      "action": "Reject at schema reconstruction. Check attribute names exactly, not substrings in allowed counter names such as ask_answer."
+    }
+  },
+  "sensitive_data_scanner": {
+    "deployment": "Account-side secondary control requiring separate access/entitlement and a reviewed rule group; not activated here.",
+    "scope": "Only reviewed operational telemetry. Hosted scanning does not justify sending unsanitized data to Datadog first.",
+    "test": "Use synthetic marker fixtures to verify redaction/drop and inspect egress; never seed real visitor data for a scanner test."
+  },
+  "sources": [
+    "https://docs.datadoghq.com/observability_pipelines/processors/sensitive_data_scanner/",
+    "https://docs.datadoghq.com/security/sensitive_data_scanner/"
+  ]
+}

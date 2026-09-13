@@ -28,13 +28,13 @@ export default function Calculators() {
         <ArrowUpRight />
       </Link>
       <section className="roadmap-note">
-        <h2>One useful insight at a time.</h2>
+        <h2>Explore your next decision.</h2>
         <p>
-          Household income, cost of living, equivalent salary and take-home pay are next. Each tool
-          will appear here once its data and calculations are validated.
+          Model AI workflow costs, business cash runway, break-even volume, loan costs, drawdown
+          recovery and portfolio concentration with our six finance tools.
         </p>
-        <Link prefetch={false} href="/methodology/">
-          How we validate our calculations →
+        <Link prefetch={false} href="/tools/">
+          Explore all finance tools →
         </Link>
       </section>
       <section className="roadmap-note">

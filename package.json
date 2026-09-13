@@ -11,9 +11,9 @@
     "node": ">=22.0.0"
   },
   "scripts": {
-    "predev": "node scripts/build-calculator-embed.mjs",
-    "prebuild": "node scripts/build-calculator-embed.mjs",
-    "pretypecheck": "node scripts/build-calculator-embed.mjs",
+    "predev": "node scripts/build-all-embeds.mjs",
+    "prebuild": "node scripts/build-all-embeds.mjs",
+    "pretypecheck": "node scripts/build-all-embeds.mjs",
     "dev": "npm run dev --workspace @insightginie/web",
     "build": "npm run build --workspace @insightginie/web",
     "start": "npm run start --workspace @insightginie/web",

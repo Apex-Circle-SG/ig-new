@@ -36,9 +36,8 @@ export function AdvertisingPreferences({
           <div>
             <h2>A choice about advertising</h2>
             <p>
-              Advertising supports our free public tools and data. Google may use cookies and device
-              information. Calculator inputs run in a separate protected frame and are never sent to
-              advertisers. You can change your choice here.{' '}
+              Google may use cookies and device information for advertising. Your calculator inputs
+              remain private. You can change your choice anytime.{' '}
               <a href="/privacy/#cookies">Privacy details</a>
             </p>
           </div>

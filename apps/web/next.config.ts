@@ -33,7 +33,14 @@ const config: NextConfig = {
         ],
       },
       {
-        source: '/tools/:path*',
+        source: '/tools/income/:path*',
+        headers: [
+          { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+          { key: 'X-Robots-Tag', value: 'noindex, nofollow' },
+        ],
+      },
+      {
+        source: '/private-tools/:path*',
         headers: [
           { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
           { key: 'X-Robots-Tag', value: 'noindex, nofollow' },

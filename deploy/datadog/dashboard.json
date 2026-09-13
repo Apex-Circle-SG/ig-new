@@ -1,0 +1,79 @@
+{
+  "title": "InsightGinie operations: aggregate health",
+  "description": "Source-redacted service-health counters only: fixed categories, no financial values, prompts, answers, raw URLs, cookies or visitor identifiers. Gauges are cumulative within each UTC day and reset on the next day's recorded operations. The latest sample is not proof of present-day traffic; inspect its time and missing-data state. Do not sum repeated gauge samples. Account access applies; this title does not enforce owner-only visibility.",
+  "layout_type": "ordered",
+  "reflow_type": "auto",
+  "widgets": [
+    {
+      "definition": {
+        "type": "query_value",
+        "title": "Answered Ask requests — latest daily total",
+        "precision": 0,
+        "requests": [
+          {
+            "q": "sum:insightginie.operations.ask_answer.daily{service:insightginie-web,env:production}",
+            "aggregator": "last"
+          }
+        ]
+      }
+    },
+    {
+      "definition": {
+        "type": "query_value",
+        "title": "Ask fallbacks — latest daily total",
+        "precision": 0,
+        "requests": [
+          {
+            "q": "sum:insightginie.operations.ask_fallback.daily{service:insightginie-web,env:production}",
+            "aggregator": "last"
+          }
+        ]
+      }
+    },
+    {
+      "definition": {
+        "type": "query_value",
+        "title": "Ask errors — latest daily total",
+        "precision": 0,
+        "requests": [
+          {
+            "q": "sum:insightginie.operations.ask_error.daily{service:insightginie-web,env:production}",
+            "aggregator": "last"
+          }
+        ]
+      }
+    },
+    {
+      "definition": {
+        "type": "timeseries",
+        "title": "Daily cumulative refusals and unsafe-feedback counts",
+        "requests": [
+          {
+            "q": "sum:insightginie.operations.ask_refusal.daily{service:insightginie-web,env:production}",
+            "display_type": "line"
+          },
+          {
+            "q": "sum:insightginie.operations.feedback_unsafe.daily{service:insightginie-web,env:production}",
+            "display_type": "line"
+          }
+        ]
+      }
+    },
+    {
+      "definition": {
+        "type": "timeseries",
+        "title": "Daily cumulative ingest outcomes",
+        "requests": [
+          {
+            "q": "sum:insightginie.operations.ingest_success.daily{service:insightginie-web,env:production}",
+            "display_type": "line"
+          },
+          {
+            "q": "sum:insightginie.operations.ingest_failure.daily{service:insightginie-web,env:production}",
+            "display_type": "line"
+          }
+        ]
+      }
+    }
+  ]
+}

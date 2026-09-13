@@ -1,0 +1,52 @@
+{
+  "id": "founder-runway-sensitivity",
+  "title": "What a runway estimate hides about a founder’s cash timing",
+  "intent": {
+    "question": "How does a fixed monthly cash-burn assumption change a runway estimate?",
+    "readerDecision": "Identify which timing and cost assumptions need checking before relying on a simple runway figure.",
+    "uniqueValue": "A reproducible example distinguishes cash available, net cash use and break-even assumptions, then explains why an accounting profit does not establish a cash balance."
+  },
+  "hub": "founder-finance",
+  "author": null,
+  "reviewer": null,
+  "sources": [
+    {
+      "name": "US Small Business Administration: Plan your business",
+      "url": "https://www.sba.gov/counseling/plan-your-business/",
+      "type": "primary",
+      "status": "candidate",
+      "validatedAt": null,
+      "purpose": "Identify the official startup-cost and planning guidance relevant to defining the scenario; verify the exact supporting sections before citation."
+    }
+  ],
+  "methodology": {
+    "version": "brief-v1",
+    "plan": "Run labeled cash scenarios through the versioned cash-runway calculator. Explain gross spending versus net cash burn, compare alternative monthly assumptions, and identify receivable timing, one-time costs and financing events that a constant-burn model omits.",
+    "assumptions": [
+      "Cash balance and monthly revenue and spending figures are hypothetical and use consistent units.",
+      "The simple comparison holds the chosen monthly cash flows constant."
+    ],
+    "limitations": [
+      "A calculation based on constant monthly burn is not a forecast of liquidity or solvency.",
+      "Seasonality, payment delays, liabilities and financing conditions require separate analysis."
+    ]
+  },
+  "lastReviewedAt": null,
+  "disclaimer": "Educational research planning only. This draft does not provide accounting, lending, insolvency or financial advice, and its illustrative cash figures must not be used as operating targets.",
+  "relatedTool": "cash-runway",
+  "status": "draft",
+  "contextualLinks": [
+    {
+      "targetPath": "/tools/cash-runway/",
+      "anchorText": "explore a cash-runway scenario",
+      "reason": "Would connect the explanation to a reproducible input model after the article and link have received editorial approval.",
+      "approval": { "status": "pending", "approvedBy": null, "approvedAt": null }
+    },
+    {
+      "targetPath": "/tools/break-even/",
+      "anchorText": "compare the break-even assumptions",
+      "reason": "Would clarify the separate contribution-margin question without equating break-even profit with available cash.",
+      "approval": { "status": "pending", "approvedBy": null, "approvedAt": null }
+    }
+  ]
+}

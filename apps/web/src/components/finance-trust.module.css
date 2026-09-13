@@ -1,0 +1,63 @@
+.trust {
+  margin-block: 2rem;
+  padding: clamp(1.1rem, 3vw, 1.75rem);
+  border: 1px solid #dce3ed;
+  border-radius: 16px;
+  background: #f7f9fc;
+  color: #23324a;
+}
+.heading {
+  margin: 0 0 1.1rem;
+  font-size: 1.15rem;
+  line-height: 1.4;
+}
+.facts {
+  margin: 0;
+  display: grid;
+  gap: 0.65rem;
+}
+.facts > div {
+  display: grid;
+  grid-template-columns: minmax(110px, 0.35fr) minmax(0, 1fr);
+  gap: 0.75rem;
+}
+.facts dt {
+  font-weight: 600;
+}
+.facts dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.scope {
+  display: block;
+  margin-top: 0.25rem;
+}
+.sources {
+  padding-left: 1.2rem;
+  line-height: 1.65;
+}
+.links {
+  display: flex;
+  gap: 0.5rem 1.2rem;
+  flex-wrap: wrap;
+}
+.note {
+  line-height: 1.65;
+  font-size: 0.92rem;
+}
+.trust a {
+  color: #2449a8;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.trust a:focus-visible {
+  outline: 3px solid #476af7;
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+@media (max-width: 430px) {
+  .facts > div {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+}

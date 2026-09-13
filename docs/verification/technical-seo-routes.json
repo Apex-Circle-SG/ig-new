@@ -1,0 +1,429 @@
+{
+  "candidate": "http://127.0.0.1:3011",
+  "checkedPages": [
+    {
+      "path": "/",
+      "status": 200,
+      "title": "InsightGinie \u2014 Understand where you stand",
+      "canonical": "https://insightginie.com/",
+      "schemas": [
+        "WebSite"
+      ],
+      "internalLinks": 42
+    },
+    {
+      "path": "/calc/",
+      "status": 200,
+      "title": "US Income Calculators | InsightGinie",
+      "canonical": "https://insightginie.com/calc/",
+      "schemas": [],
+      "internalLinks": 36
+    },
+    {
+      "path": "/calc/individual-income-percentile/",
+      "status": 200,
+      "title": "US Individual Income Percentile Calculator | InsightGinie",
+      "canonical": "https://insightginie.com/calc/individual-income-percentile/",
+      "schemas": [
+        "BreadcrumbList",
+        "WebApplication"
+      ],
+      "internalLinks": 38
+    },
+    {
+      "path": "/data/",
+      "status": 200,
+      "title": "Our Data | InsightGinie",
+      "canonical": "https://insightginie.com/data/",
+      "schemas": [],
+      "internalLinks": 37
+    },
+    {
+      "path": "/data/census-cps/",
+      "status": 200,
+      "title": "Census CPS Income Data | InsightGinie",
+      "canonical": "https://insightginie.com/data/census-cps/",
+      "schemas": [
+        "Dataset"
+      ],
+      "internalLinks": 40
+    },
+    {
+      "path": "/data/us-income-distribution/",
+      "status": 200,
+      "title": "US Individual Income Distribution: Census Data, Chart & CSV | InsightGinie",
+      "canonical": "https://insightginie.com/data/us-income-distribution/",
+      "schemas": [
+        "Dataset"
+      ],
+      "internalLinks": 39
+    },
+    {
+      "path": "/methodology/",
+      "status": 200,
+      "title": "Methodology | InsightGinie",
+      "canonical": "https://insightginie.com/methodology/",
+      "schemas": [],
+      "internalLinks": 36
+    },
+    {
+      "path": "/methodology/individual-income/",
+      "status": 200,
+      "title": "Individual Income Percentile Methodology | InsightGinie",
+      "canonical": "https://insightginie.com/methodology/individual-income/",
+      "schemas": [],
+      "internalLinks": 36
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "title": "About InsightGinie and Our Data Principles | InsightGinie",
+      "canonical": "https://insightginie.com/about/",
+      "schemas": [],
+      "internalLinks": 38
+    },
+    {
+      "path": "/editorial-policy/",
+      "status": 200,
+      "title": "Editorial Policy | InsightGinie",
+      "canonical": "https://insightginie.com/editorial-policy/",
+      "schemas": [],
+      "internalLinks": 38
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "title": "Privacy | InsightGinie",
+      "canonical": "https://insightginie.com/privacy/",
+      "schemas": [],
+      "internalLinks": 36
+    },
+    {
+      "path": "/terms/",
+      "status": 200,
+      "title": "Terms of Use | InsightGinie",
+      "canonical": "https://insightginie.com/terms/",
+      "schemas": [],
+      "internalLinks": 34
+    },
+    {
+      "path": "/contact/",
+      "status": 200,
+      "title": "Contact and Calculator Corrections | InsightGinie",
+      "canonical": "https://insightginie.com/contact/",
+      "schemas": [],
+      "internalLinks": 37
+    },
+    {
+      "path": "/tools/",
+      "status": 200,
+      "title": "Business and Finance Calculators | InsightGinie",
+      "canonical": "https://insightginie.com/tools/",
+      "schemas": [],
+      "internalLinks": 41
+    },
+    {
+      "path": "/tools/ai-workflow-roi/",
+      "status": 200,
+      "title": "AI workflow ROI calculator | InsightGinie",
+      "canonical": "https://insightginie.com/tools/ai-workflow-roi/",
+      "schemas": [
+        "BreadcrumbList",
+        "WebApplication"
+      ],
+      "internalLinks": 47
+    },
+    {
+      "path": "/tools/cash-runway/",
+      "status": 200,
+      "title": "Cash runway calculator | InsightGinie",
+      "canonical": "https://insightginie.com/tools/cash-runway/",
+      "schemas": [
+        "BreadcrumbList",
+        "WebApplication"
+      ],
+      "internalLinks": 46
+    },
+    {
+      "path": "/tools/break-even/",
+      "status": 200,
+      "title": "Break-even calculator | InsightGinie",
+      "canonical": "https://insightginie.com/tools/break-even/",
+      "schemas": [
+        "BreadcrumbList",
+        "WebApplication"
+      ],
+      "internalLinks": 46
+    },
+    {
+      "path": "/tools/business-loan/",
+      "status": 200,
+      "title": "Business loan payment calculator | InsightGinie",
+      "canonical": "https://insightginie.com/tools/business-loan/",
+      "schemas": [
+        "BreadcrumbList",
+        "WebApplication"
+      ],
+      "internalLinks": 46
+    },
+    {
+      "path": "/tools/drawdown-recovery/",
+      "status": 200,
+      "title": "Drawdown recovery calculator | InsightGinie",
+      "canonical": "https://insightginie.com/tools/drawdown-recovery/",
+      "schemas": [
+        "BreadcrumbList",
+        "WebApplication"
+      ],
+      "internalLinks": 44
+    },
+    {
+      "path": "/tools/portfolio-concentration/",
+      "status": 200,
+      "title": "Portfolio concentration calculator | InsightGinie",
+      "canonical": "https://insightginie.com/tools/portfolio-concentration/",
+      "schemas": [
+        "BreadcrumbList",
+        "WebApplication"
+      ],
+      "internalLinks": 45
+    },
+    {
+      "path": "/insights/",
+      "status": 200,
+      "title": "Insights, Research and Practical Tools | InsightGinie",
+      "canonical": "https://insightginie.com/insights/",
+      "schemas": [],
+      "internalLinks": 39
+    },
+    {
+      "path": "/research/",
+      "status": 200,
+      "title": "US Income Data and Research | InsightGinie",
+      "canonical": "https://insightginie.com/research/",
+      "schemas": [
+        "BreadcrumbList",
+        "Dataset"
+      ],
+      "internalLinks": 47
+    },
+    {
+      "path": "/ask/",
+      "status": 200,
+      "title": "Ask Genie \u2014 Understand the Numbers | InsightGinie",
+      "canonical": "https://insightginie.com/ask/",
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "internalLinks": 34
+    },
+    {
+      "path": "/authors/",
+      "status": 200,
+      "title": "Authors and Reviewers | InsightGinie",
+      "canonical": "https://insightginie.com/authors/",
+      "schemas": [],
+      "internalLinks": 36
+    },
+    {
+      "path": "/authors/insightginie/",
+      "status": 200,
+      "title": "InsightGinie Product Maintainer | InsightGinie",
+      "canonical": "https://insightginie.com/authors/insightginie/",
+      "schemas": [
+        "Organization"
+      ],
+      "internalLinks": 39
+    },
+    {
+      "path": "/corrections-policy/",
+      "status": 200,
+      "title": "Corrections Policy | InsightGinie",
+      "canonical": "https://insightginie.com/corrections-policy/",
+      "schemas": [],
+      "internalLinks": 40
+    },
+    {
+      "path": "/advertising-disclosure/",
+      "status": 200,
+      "title": "Advertising and Commercial Disclosure | InsightGinie",
+      "canonical": "https://insightginie.com/advertising-disclosure/",
+      "schemas": [],
+      "internalLinks": 41
+    },
+    {
+      "path": "/ai-disclosure/",
+      "status": 200,
+      "title": "AI and Automated Assistance Disclosure | InsightGinie",
+      "canonical": "https://insightginie.com/ai-disclosure/",
+      "schemas": [],
+      "internalLinks": 41
+    },
+    {
+      "path": "/finance-disclaimer/",
+      "status": 200,
+      "title": "Financial Information Disclaimer | InsightGinie",
+      "canonical": "https://insightginie.com/finance-disclaimer/",
+      "schemas": [],
+      "internalLinks": 42
+    },
+    {
+      "path": "/research-methodology/",
+      "status": 200,
+      "title": "Research and Financial Tool Methodology | InsightGinie",
+      "canonical": "https://insightginie.com/research-methodology/",
+      "schemas": [],
+      "internalLinks": 43
+    },
+    {
+      "path": "/content-index/",
+      "status": 200,
+      "title": "Content Index \u2014 All Published Tools and Pages | InsightGinie",
+      "canonical": "https://insightginie.com/content-index/",
+      "schemas": [],
+      "internalLinks": 65
+    }
+  ],
+  "internalDestinations": [
+    [
+      "/",
+      200
+    ],
+    [
+      "/calc/",
+      200
+    ],
+    [
+      "/calc/individual-income-percentile/",
+      200
+    ],
+    [
+      "/data/",
+      200
+    ],
+    [
+      "/data/census-cps/",
+      200
+    ],
+    [
+      "/data/us-income-distribution/",
+      200
+    ],
+    [
+      "/methodology/",
+      200
+    ],
+    [
+      "/methodology/individual-income/",
+      200
+    ],
+    [
+      "/about/",
+      200
+    ],
+    [
+      "/editorial-policy/",
+      200
+    ],
+    [
+      "/privacy/",
+      200
+    ],
+    [
+      "/terms/",
+      200
+    ],
+    [
+      "/contact/",
+      200
+    ],
+    [
+      "/tools/",
+      200
+    ],
+    [
+      "/tools/ai-workflow-roi/",
+      200
+    ],
+    [
+      "/tools/cash-runway/",
+      200
+    ],
+    [
+      "/tools/break-even/",
+      200
+    ],
+    [
+      "/tools/business-loan/",
+      200
+    ],
+    [
+      "/tools/drawdown-recovery/",
+      200
+    ],
+    [
+      "/tools/portfolio-concentration/",
+      200
+    ],
+    [
+      "/insights/",
+      200
+    ],
+    [
+      "/research/",
+      200
+    ],
+    [
+      "/ask/",
+      200
+    ],
+    [
+      "/authors/",
+      200
+    ],
+    [
+      "/authors/insightginie/",
+      200
+    ],
+    [
+      "/corrections-policy/",
+      200
+    ],
+    [
+      "/advertising-disclosure/",
+      200
+    ],
+    [
+      "/ai-disclosure/",
+      200
+    ],
+    [
+      "/finance-disclaimer/",
+      200
+    ],
+    [
+      "/research-methodology/",
+      200
+    ],
+    [
+      "/content-index/",
+      200
+    ],
+    [
+      "/data/us-income-distribution.csv",
+      200
+    ],
+    [
+      "/insights/how-to-get-into-quantitative-trading-a-career-guide/",
+      200
+    ],
+    [
+      "/insights/connecting-openclaw-to-qq-a-guide-to-the-onebot-adapter-skill/",
+      200
+    ],
+    [
+      "/feed.xml",
+      200
+    ]
+  ]
+}

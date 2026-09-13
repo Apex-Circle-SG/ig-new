@@ -5,6 +5,7 @@ import { ArrowRight, Check, ChevronRight, Database } from 'lucide-react';
 import { getIndividualIncomeDistribution } from '@insightginie/datasets';
 import { breadcrumbSchema, safeJsonLd, webApplicationSchema } from '@insightginie/seo';
 import { PrivateIncomeTool } from '../../../components/private-income-tool';
+import { FinanceTrust } from '../../../components/finance-trust';
 export const metadata: Metadata = {
   title: 'US Individual Income Percentile Calculator',
   description:
@@ -129,6 +130,21 @@ export default async function Calculator() {
           </Link>
         </aside>
       </div>
+      <FinanceTrust
+        updatedAt="2026-09-13"
+        methodologyPath="/methodology/individual-income/"
+        sources={
+          distribution
+            ? [
+                {
+                  name: distribution.datasetVersion.sourceName,
+                  url: distribution.datasetVersion.sourceUrl,
+                  year: distribution.datasetVersion.year,
+                },
+              ]
+            : []
+        }
+      />
       <section className="faq-section">
         <h2>A few good questions</h2>
         {[

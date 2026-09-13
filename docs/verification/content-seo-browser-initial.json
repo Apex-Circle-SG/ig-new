@@ -1,0 +1,67 @@
+{
+  "candidate": "http://127.0.0.1:3011",
+  "stats": {
+    "startTime": "2026-09-13T08:13:25.247Z",
+    "duration": 39359.793,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 3,
+    "flaky": 0
+  },
+  "tests": [
+    {
+      "title": "insights hub searches the preserved preview and query results stay noindex",
+      "status": "failed",
+      "durationMs": 5044,
+      "error": "Error: browserContext.close: ENOENT: no such file or directory, open '/root/ig-new/test-results/.playwright-artifacts-0/traces/d74cd27346db6aa64657-fc90293a39e7b3c193a5.network'"
+    },
+    {
+      "title": "migration preview preserves connecting-openclaw-to-qq-a-guide-to-the-onebot-adapter-skill",
+      "status": "passed",
+      "durationMs": 3942,
+      "error": ""
+    },
+    {
+      "title": "migration preview preserves how-to-get-into-quantitative-trading-a-career-guide",
+      "status": "passed",
+      "durationMs": 2766,
+      "error": ""
+    },
+    {
+      "title": "public RSS excludes migration previews and draft article bodies",
+      "status": "passed",
+      "durationMs": 468,
+      "error": ""
+    },
+    {
+      "title": "research data table and sources remain usable at 320px",
+      "status": "passed",
+      "durationMs": 2617,
+      "error": ""
+    },
+    {
+      "title": "research data table and sources remain usable at 390px",
+      "status": "failed",
+      "durationMs": 8532,
+      "error": "Error: expect(received).toEqual(expected) // deep equality\n\n- Expected  -  1\n+ Received  + 70\n\n- Array []\n+ Array [\n+   Object {\n+     \"description\": \"Ensure links are distinguished from surrounding text in a way that does not rely on color\",\n+     \"help\": \"Links must be distinguishable without relying on color\",\n+     \"helpUrl\": \"https://dequeuniversity.com/rules/axe/4.13/link-in-text-block?application=playwright\",\n+     \"id\": \"link-in-text-block\",\n+     \"impact\": \"serious\",\n+     \"nodes\": Array [\n+       Object {\n+         \"all\": Array [],\n+         \"any\": Array [\n+           Object {\n+             \"data\": Object {\n+               \"contrastRatio\": 1.16,\n+               \"messageKey\": \"fgContrast\",\n+               \"nodeColor\": \"#254cc1\",\n+               \"parentColor\": \"#53617a\",\n+               \"requiredContrastRatio\": 3,\n+             },\n+             \"id\": \"link-in-text-block\",\n+             \"impact\": \"serious\",\n+             \"message\": \"The link has insufficient color contrast of 1.16:1 with the surrounding text. (Minimum contrast is 3:1, link text: #254cc1, surrounding text: #53617a)\",\n+             \"relatedNodes\": Array [\n+               Object {\n+                 \"html\": \"<nav class=\\\"content-module__o-lXGa__breadcrumb\\\" aria-label=\\\"Breadcrumb\\\"><a href=\\\"/\\\">Home</a> / Research</nav>\",\n+                 \"target\": Array [\n+                   \".content-module__o-lXGa__breadcrumb\",\n+                 ],\n+               },\n+             ],\n+           },\n+           Object {\n+             \"data\": null,\n+             \"id\": \"link-in-text-block-style\",\n+             \"impact\": \"serious\",\n+             \"message\": \"The link has no styling (such as underline) to distinguish it from the surrounding text\",\n+             \"relatedNodes\": Array [\n+               Object {\n+                 \"html\": \"<nav class=\\\"content-module__o-lXGa__breadcrumb\\\" aria-label=\\\"Breadcrumb\\\"><a href=\\\"/\\\">Home</a> / Research</nav>\",\n+                 \"target\": Array [\n+                   \".content-module__o-lXGa__breadcrumb\",\n+                 ],\n+               },\n+             ],\n+           },\n+         ],\n+         \"failureSummary\": \"Fix any of the following:\n+   The link has insufficient color contrast of 1.16:1 with the surrounding text. (Minimum contrast is 3:1, link text: #254cc1, surrounding text: #53617a)\n+   The link has no styling (such as underline) to distinguish it from the surrounding text\",\n+         \"html\": \"<a href=\\\"/\\\">Home</a>\",\n+         \"impact\": \"serious\",\n+         \"none\": Array [],\n+         \"target\": Array [\n+           \".content-module__o-lXGa__breadcrumb > a[href=\\\"/\\\"]\",\n+         ],\n+       },\n+     ],\n+     \"tags\": Array [\n+       \"cat.color\",\n+       \"wcag2a\",\n+       \"wcag141\",\n+       \"TTv5\",\n+       \"TT13.a\",\n+       \"EN-301-549\",\n+       \"EN-9.1.4.1\",\n+       \"RGAAv4\",\n+       \"RGAA-10.6.1\",\n+     ],\n+   },\n+ ]\n\n  90 |         .withTags(['wcag2a', 'wcag2aa', 'wcag21aa', 'wcag22aa'])\n  91 |         .analyze();\n> 92 |       expect(results.violations).toEqual([]);\n     |                                  ^\n  93 |       const schema = await page.locator('script[type=\"application/ld+json\"]').allTextContents();\n  94 |       expect(\n  95 |         schema.map((value) => JSON.parse(value)).some((value) => value['@type'] === 'Dataset'),\n    at /root/ig-new/tests/e2e/content.spec.ts:92:34\nError: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/root/ig-new/test-results/.playwright-artifacts-2/traces/d74cd27346db6aa64657-0556b8121b5dac22beb3-recording9-pwnetcopy-1.network'\nError: ENOENT: no such file or directory, open '/root/ig-new/test-results/.playwright-artifacts-2/3020cdd9b7660440847bc3d95d5c8a53.zip'"
+    },
+    {
+      "title": "research data table and sources remain usable at 768px",
+      "status": "passed",
+      "durationMs": 2599,
+      "error": ""
+    },
+    {
+      "title": "published pages serve unique metadata, valid schema and working internal links",
+      "status": "failed",
+      "durationMs": 17910,
+      "error": "Error: browserContext.close: ENOENT: no such file or directory, open '/root/ig-new/test-results/.playwright-artifacts-1/traces/cd863fca043a29490924-dca32632e7173b811ab6-recording1.trace'\nError: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, open '/root/ig-new/test-results/.playwright-artifacts-1/traces/cd863fca043a29490924-dca32632e7173b811ab6.network'"
+    },
+    {
+      "title": "sitemap serves only reachable canonical pages and query/private pages stay excluded",
+      "status": "passed",
+      "durationMs": 642,
+      "error": ""
+    }
+  ]
+}

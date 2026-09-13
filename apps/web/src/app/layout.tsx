@@ -16,7 +16,10 @@ export const metadata: Metadata = {
   title: { default: 'InsightGinie — Understand where you stand', template: '%s | InsightGinie' },
   description:
     'Understand your income with real US data, transparent comparisons, and personal calculators. See where you stand and explore what changes next.',
-  alternates: { canonical: '/' },
+  alternates: {
+    canonical: '/',
+    types: { 'application/rss+xml': 'https://insightginie.com/feed.xml' },
+  },
   openGraph: {
     type: 'website',
     siteName: 'InsightGinie',

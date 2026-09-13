@@ -1,0 +1,19 @@
+[Unit]
+Description=Export approved InsightGinie operation totals to Datadog
+
+[Service]
+Type=oneshot
+User=root
+Environment=DD_METRICS_ENABLED=false
+Environment=OPERATIONS_DIRECTORY=/var/lib/insightginie/operations
+Environment=OBSERVABILITY_STATE_DIRECTORY=/var/lib/insightginie/observability
+EnvironmentFile=-/etc/insightginie/datadog.env
+ExecStart=/usr/bin/node /root/ig-new/scripts/observability/metrics.mjs
+StateDirectory=insightginie/observability
+StateDirectoryMode=0700
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+TimeoutStartSec=30
+SyslogIdentifier=insightginie-metrics

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "homepage",
+    "url": "http://127.0.0.1:3011/",
+    "fetchedAt": "2026-09-13T08:27:07.016Z",
+    "mode": "mobile simulated",
+    "scores": {
+      "performance": 92,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "lcpMs": 2368.587,
+      "tbtMs": 294,
+      "cls": 0
+    },
+    "failedAudits": []
+  },
+  {
+    "name": "income-calculator",
+    "url": "http://127.0.0.1:3011/calc/individual-income-percentile/",
+    "fetchedAt": "2026-09-13T08:27:16.824Z",
+    "mode": "mobile simulated",
+    "scores": {
+      "performance": 79,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "lcpMs": 2392.4518,
+      "tbtMs": 728,
+      "cls": 0.01343395807420683
+    },
+    "failedAudits": []
+  },
+  {
+    "name": "cash-runway",
+    "url": "http://127.0.0.1:3011/tools/cash-runway/",
+    "fetchedAt": "2026-09-13T08:27:26.294Z",
+    "mode": "mobile simulated",
+    "scores": {
+      "performance": 84,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "lcpMs": 2408.7270000000003,
+      "tbtMs": 495.5,
+      "cls": 0.003325949428501425
+    },
+    "failedAudits": []
+  },
+  {
+    "name": "ask",
+    "url": "http://127.0.0.1:3011/ask/",
+    "fetchedAt": "2026-09-13T08:27:35.300Z",
+    "mode": "mobile simulated",
+    "scores": {
+      "performance": 87,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "lcpMs": 1800.531,
+      "tbtMs": 509,
+      "cls": 0.0001024870863762741
+    },
+    "failedAudits": []
+  }
+]

@@ -1,6 +1,7 @@
 import { SiteLink as Link } from '@insightginie/ui';
 import { BrandMark } from '@insightginie/ui';
 import { AdvertisingPreferences } from './advertising-preferences';
+import { AnalyticsPreferences } from './analytics-preferences';
 export function Footer({
   adsEnabled,
   adPreference,
@@ -30,14 +31,23 @@ export function Footer({
           </div>
           <div>
             <h2>Explore</h2>
-            <Link prefetch={false} href="/calc/">
-              Calculators
+            <Link prefetch={false} href="/tools/">
+              Tools
             </Link>
             <Link prefetch={false} href="/data/">
               Our data
             </Link>
             <Link prefetch={false} href="/methodology/">
               Methodology
+            </Link>
+            <Link prefetch={false} href="/insights/">
+              Insights
+            </Link>
+            <Link prefetch={false} href="/research/">
+              Research
+            </Link>
+            <Link prefetch={false} href="/ask/">
+              Ask Genie
             </Link>
           </div>
           <div>
@@ -51,6 +61,15 @@ export function Footer({
             <Link prefetch={false} href="/contact/">
               Contact
             </Link>
+            <Link prefetch={false} href="/corrections-policy/">
+              Corrections
+            </Link>
+            <Link prefetch={false} href="/authors/">
+              Who maintains the site
+            </Link>
+            <Link prefetch={false} href="/content-index/">
+              Content index
+            </Link>
           </div>
           <div>
             <h2>Your privacy</h2>
@@ -60,6 +79,16 @@ export function Footer({
             <Link prefetch={false} href="/terms/">
               Terms of use
             </Link>
+            <Link prefetch={false} href="/advertising-disclosure/">
+              Advertising disclosure
+            </Link>
+            <Link prefetch={false} href="/ai-disclosure/">
+              AI-use disclosure
+            </Link>
+            <Link prefetch={false} href="/finance-disclaimer/">
+              Finance disclaimer
+            </Link>
+            <AnalyticsPreferences />
             {adsEnabled ? (
               <AdvertisingPreferences preference={adPreference} showNotice={advertisingPage} />
             ) : (

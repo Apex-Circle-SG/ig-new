@@ -1,0 +1,69 @@
+{
+  "candidate": "http://127.0.0.1:3011",
+  "status": "passed",
+  "passed": 10,
+  "failed": 0,
+  "verifiedAt": "2026-09-13T08:26:57.757Z",
+  "tests": [
+    {
+      "file": "content.spec.ts",
+      "title": "insights hub searches the preserved preview and query results stay noindex",
+      "status": "passed",
+      "durationMs": 3638
+    },
+    {
+      "file": "content.spec.ts",
+      "title": "insights topic hubs link accessible decision sections to implemented tools",
+      "status": "passed",
+      "durationMs": 2168
+    },
+    {
+      "file": "content.spec.ts",
+      "title": "migration preview preserves connecting-openclaw-to-qq-a-guide-to-the-onebot-adapter-skill",
+      "status": "passed",
+      "durationMs": 983
+    },
+    {
+      "file": "content.spec.ts",
+      "title": "migration preview preserves how-to-get-into-quantitative-trading-a-career-guide",
+      "status": "passed",
+      "durationMs": 981
+    },
+    {
+      "file": "content.spec.ts",
+      "title": "public RSS excludes migration previews and draft article bodies",
+      "status": "passed",
+      "durationMs": 284
+    },
+    {
+      "file": "content.spec.ts",
+      "title": "research data table and sources remain usable at 320px",
+      "status": "passed",
+      "durationMs": 774
+    },
+    {
+      "file": "content.spec.ts",
+      "title": "research data table and sources remain usable at 390px",
+      "status": "passed",
+      "durationMs": 3591
+    },
+    {
+      "file": "content.spec.ts",
+      "title": "research data table and sources remain usable at 768px",
+      "status": "passed",
+      "durationMs": 821
+    },
+    {
+      "file": "technical-seo.spec.ts",
+      "title": "published pages serve unique metadata, valid schema and working internal links",
+      "status": "passed",
+      "durationMs": 3495
+    },
+    {
+      "file": "technical-seo.spec.ts",
+      "title": "sitemap serves only reachable canonical pages and query/private pages stay excluded",
+      "status": "passed",
+      "durationMs": 192
+    }
+  ]
+}

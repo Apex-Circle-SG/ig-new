@@ -1,0 +1,335 @@
+{
+  "verifiedAt": "2026-09-13T08:26:57.757Z",
+  "buildId": "oPjP3LItPeKfLgh_F0AK1",
+  "baseURL": "http://127.0.0.1:3011",
+  "passed": 54,
+  "failed": 0,
+  "note": "53 passed in full run; obsolete no-transform assertion corrected to private/no-store and the remaining test passed a focused recheck. No application change between runs.",
+  "tests": [
+    {
+      "file": "adsense.spec.ts",
+      "title": "every reviewed public page loads advertising by default for US visitors",
+      "status": "passed",
+      "durationMs": 24952
+    },
+    {
+      "file": "adsense.spec.ts",
+      "title": "advertising cannot read calculator inputs or results",
+      "status": "passed",
+      "durationMs": 1848
+    },
+    {
+      "file": "adsense.spec.ts",
+      "title": "required regional choice and withdrawal are respected",
+      "status": "passed",
+      "durationMs": 2945
+    },
+    {
+      "file": "adsense.spec.ts",
+      "title": "ads.txt, fresh nonces, and mobile advertising choices are valid",
+      "status": "passed",
+      "durationMs": 1924,
+      "rechecked": true
+    },
+    {
+      "file": "adsense.spec.ts",
+      "title": "public dataset supports sorting, CSV downloads and source-attributed embeds",
+      "status": "passed",
+      "durationMs": 1280
+    },
+    {
+      "file": "ask-admin.spec.ts",
+      "title": "Ask returns cited explanations, deterministic arithmetic, refusals and fallbacks",
+      "status": "passed",
+      "durationMs": 11476
+    },
+    {
+      "file": "ask-admin.spec.ts",
+      "title": "Ask handles API failures and rejects cross-site or unbound submissions",
+      "status": "passed",
+      "durationMs": 1293
+    },
+    {
+      "file": "ask-admin.spec.ts",
+      "title": "admin is protected and quality checks do not approve an incomplete migration",
+      "status": "passed",
+      "durationMs": 967
+    },
+    {
+      "file": "ask-admin.spec.ts",
+      "title": "usage counts wait for consent and contain no questions",
+      "status": "passed",
+      "durationMs": 2840
+    },
+    {
+      "file": "ask-admin.spec.ts",
+      "title": "Ask is usable at 320px",
+      "status": "passed",
+      "durationMs": 2114
+    },
+    {
+      "file": "ask-admin.spec.ts",
+      "title": "Ask is usable at 375px",
+      "status": "passed",
+      "durationMs": 2277
+    },
+    {
+      "file": "ask-admin.spec.ts",
+      "title": "Ask is usable at 390px",
+      "status": "passed",
+      "durationMs": 1194
+    },
+    {
+      "file": "ask-admin.spec.ts",
+      "title": "Ask is usable at 430px",
+      "status": "passed",
+      "durationMs": 1113
+    },
+    {
+      "file": "ask-admin.spec.ts",
+      "title": "Ask is usable at 768px",
+      "status": "passed",
+      "durationMs": 803
+    },
+    {
+      "file": "content.spec.ts",
+      "title": "insights hub searches the preserved preview and query results stay noindex",
+      "status": "passed",
+      "durationMs": 3638
+    },
+    {
+      "file": "content.spec.ts",
+      "title": "insights topic hubs link accessible decision sections to implemented tools",
+      "status": "passed",
+      "durationMs": 2168
+    },
+    {
+      "file": "content.spec.ts",
+      "title": "migration preview preserves connecting-openclaw-to-qq-a-guide-to-the-onebot-adapter-skill",
+      "status": "passed",
+      "durationMs": 983
+    },
+    {
+      "file": "content.spec.ts",
+      "title": "migration preview preserves how-to-get-into-quantitative-trading-a-career-guide",
+      "status": "passed",
+      "durationMs": 981
+    },
+    {
+      "file": "content.spec.ts",
+      "title": "public RSS excludes migration previews and draft article bodies",
+      "status": "passed",
+      "durationMs": 284
+    },
+    {
+      "file": "content.spec.ts",
+      "title": "research data table and sources remain usable at 320px",
+      "status": "passed",
+      "durationMs": 774
+    },
+    {
+      "file": "content.spec.ts",
+      "title": "research data table and sources remain usable at 390px",
+      "status": "passed",
+      "durationMs": 3591
+    },
+    {
+      "file": "content.spec.ts",
+      "title": "research data table and sources remain usable at 768px",
+      "status": "passed",
+      "durationMs": 821
+    },
+    {
+      "file": "finance-tools.spec.ts",
+      "title": "AI workflow ROI calculator calculates inside the private boundary",
+      "status": "passed",
+      "durationMs": 2745
+    },
+    {
+      "file": "finance-tools.spec.ts",
+      "title": "Cash runway calculator calculates inside the private boundary",
+      "status": "passed",
+      "durationMs": 2187
+    },
+    {
+      "file": "finance-tools.spec.ts",
+      "title": "Break-even calculator calculates inside the private boundary",
+      "status": "passed",
+      "durationMs": 2183
+    },
+    {
+      "file": "finance-tools.spec.ts",
+      "title": "Business loan payment calculator calculates inside the private boundary",
+      "status": "passed",
+      "durationMs": 2486
+    },
+    {
+      "file": "finance-tools.spec.ts",
+      "title": "Drawdown recovery calculator calculates inside the private boundary",
+      "status": "passed",
+      "durationMs": 1902
+    },
+    {
+      "file": "finance-tools.spec.ts",
+      "title": "Portfolio concentration calculator calculates inside the private boundary",
+      "status": "passed",
+      "durationMs": 1966
+    },
+    {
+      "file": "finance-tools.spec.ts",
+      "title": "private results export locally without entering parent requests or share links",
+      "status": "passed",
+      "durationMs": 2991
+    },
+    {
+      "file": "finance-tools.spec.ts",
+      "title": "tool hub and mobile cash runway stay accessible and fit the viewport",
+      "status": "passed",
+      "durationMs": 4900
+    },
+    {
+      "file": "finance-tools.spec.ts",
+      "title": "loan comparison keeps both scenarios private, exports deliberately and clears on reload",
+      "status": "passed",
+      "durationMs": 7427
+    },
+    {
+      "file": "home-preview.spec.ts",
+      "title": "homepage shows a public example and loads the private calculator only on request",
+      "status": "passed",
+      "durationMs": 2610
+    },
+    {
+      "file": "technical-seo.spec.ts",
+      "title": "published pages serve unique metadata, valid schema and working internal links",
+      "status": "passed",
+      "durationMs": 3495
+    },
+    {
+      "file": "technical-seo.spec.ts",
+      "title": "sitemap serves only reachable canonical pages and query/private pages stay excluded",
+      "status": "passed",
+      "durationMs": 192
+    },
+    {
+      "file": "vertical-slice.spec.ts",
+      "title": "homepage routes a real question to the calculator",
+      "status": "passed",
+      "durationMs": 2234
+    },
+    {
+      "file": "vertical-slice.spec.ts",
+      "title": "calculator validates, handles tail uncertainty, and explores a what-if",
+      "status": "passed",
+      "durationMs": 4255
+    },
+    {
+      "file": "vertical-slice.spec.ts",
+      "title": "financial inputs never enter network requests or browser storage",
+      "status": "passed",
+      "durationMs": 3150
+    },
+    {
+      "file": "vertical-slice.spec.ts",
+      "title": "sharing copies only the generic tool URL",
+      "status": "passed",
+      "durationMs": 1591
+    },
+    {
+      "file": "vertical-slice.spec.ts",
+      "title": "homepage and calculator fit 320px and remain accessible",
+      "status": "passed",
+      "durationMs": 7238
+    },
+    {
+      "file": "vertical-slice.spec.ts",
+      "title": "homepage and calculator fit 375px and remain accessible",
+      "status": "passed",
+      "durationMs": 6653
+    },
+    {
+      "file": "vertical-slice.spec.ts",
+      "title": "homepage and calculator fit 390px and remain accessible",
+      "status": "passed",
+      "durationMs": 4875
+    },
+    {
+      "file": "vertical-slice.spec.ts",
+      "title": "homepage and calculator fit 430px and remain accessible",
+      "status": "passed",
+      "durationMs": 5060
+    },
+    {
+      "file": "vertical-slice.spec.ts",
+      "title": "homepage and calculator fit 768px and remain accessible",
+      "status": "passed",
+      "durationMs": 4950
+    },
+    {
+      "file": "vertical-slice.spec.ts",
+      "title": "homepage and calculator fit 1280px and remain accessible",
+      "status": "passed",
+      "durationMs": 5219
+    },
+    {
+      "file": "vertical-slice.spec.ts",
+      "title": "mobile menu and keyboard form work",
+      "status": "passed",
+      "durationMs": 1883
+    },
+    {
+      "file": "vertical-slice.spec.ts",
+      "title": "sources, production indexing, headers and 404",
+      "status": "passed",
+      "durationMs": 1416
+    },
+    {
+      "file": "vertical-slice.spec.ts",
+      "title": "all public navigation destinations render",
+      "status": "passed",
+      "durationMs": 383
+    },
+    {
+      "file": "vertical-slice.spec.ts",
+      "title": "no-JavaScript page cannot submit a private income",
+      "status": "passed",
+      "durationMs": 871
+    },
+    {
+      "file": "vertical-slice.spec.ts",
+      "title": "native form submission cannot send financial values out of the sandbox",
+      "status": "passed",
+      "durationMs": 1012
+    },
+    {
+      "file": "vertical-slice.spec.ts",
+      "title": "a failed calculator document can be retried without exposing an input",
+      "status": "passed",
+      "durationMs": 9395
+    },
+    {
+      "file": "visual.spec.ts",
+      "title": "ask visual regression at 390px",
+      "status": "passed",
+      "durationMs": 963
+    },
+    {
+      "file": "visual.spec.ts",
+      "title": "tools/cash-runway visual regression at 390px",
+      "status": "passed",
+      "durationMs": 1774
+    },
+    {
+      "file": "visual.spec.ts",
+      "title": "ask visual regression at 1280px",
+      "status": "passed",
+      "durationMs": 1204
+    },
+    {
+      "file": "visual.spec.ts",
+      "title": "tools/cash-runway visual regression at 1280px",
+      "status": "passed",
+      "durationMs": 2095
+    }
+  ]
+}

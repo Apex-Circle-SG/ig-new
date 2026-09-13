@@ -1,31 +1,52 @@
 # Editorial backlog — unapproved briefs
 
-All entries are **EDITORIAL_REQUIRED / DRAFT**. None is a published article or
-an invented research result. New hub creation does not authorize mass migration
-of unrelated legacy tags into finance categories.
+Updated 2026-09-13. All research briefs below remain
+**EDITORIAL_REQUIRED / DRAFT**. The tools and source-backed data explorer are
+implemented product features; their existence does not publish the proposed
+articles or certify professional review. Three anchored topic hubs now organize
+implemented decision tools within `/insights/`: `#ai-economics`,
+`#founder-finance` and `#quantitative-risk`. These sections share one substantive
+index URL; the draft articles below remain unpublished.
 
-Required structured fields: intent, hub, author ID, reviewer ID when configured,
-primary sources, methodology, original publication date, legitimate modification
-date, last-reviewed date, disclaimer, related tool, editorial status and approved
-internal links. Existing WordPress content retains original metadata and media;
-missing values stay missing and require review.
+## Structured briefs already in Git
 
-| Hub / intended route | Brief / decision supported | Related deterministic tool | Evidence required |
-| --- | --- | --- | --- |
-| AI economics / `/insights/ai-economics/` | When does an AI workflow recover its setup cost? Separate labor assumptions from measured savings. | Workflow cost, ROI and payback | Actual supplied costs; labor assumptions; no fabricated model prices |
-| AI economics / `/insights/ai-economics/` | Compare fixed versus usage-dependent automation costs. | Workflow cost scenarios | Source/versioned pricing only when supplied and validated |
-| Small-business finance / `/insights/business-finance/` | How variable monthly cash burn changes runway estimates. | Cash runway and burn planner | Cash-flow definitions, edge cases and no solvency assurance |
-| Small-business finance / `/insights/business-finance/` | Contribution margin and break-even under changing volume. | Break-even calculator | Units, fixed/variable cost assumptions and worked examples |
-| Small-business finance / `/insights/business-finance/` | Compare amortization schedules and stated loan fees. | Loan effective-cost comparator | Payment timing and fee assumptions; no approval/eligibility claims |
-| Quantitative risk / `/insights/risk-education/` | Why a 50% decline requires a 100% recovery to return to the starting value. | Drawdown/recovery | Arithmetic proof, assumptions, no return forecast |
-| Quantitative risk / `/insights/risk-education/` | What concentration measures can and cannot show. | Concentration/risk explainer | Metric definitions; no fabricated correlations or portfolio advice |
-| Original reports / `/research/` | Source-backed US individual-income distribution report | Existing income calculator | Existing Census version; real author/reviewer; methodological review |
+| Theme             | Brief and decision supported                                                                                         | Implemented related tool                                          | Evidence still required                                                                                                              |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| AI economics      | [When saved AI workflow time becomes an economic benefit](content/briefs/ai-workflow-economics.json)                 | `/tools/ai-workflow-roi/`                                         | Verified costs, treatment of time saved versus realized cash savings, validated primary sources and completed author/reviewer review |
+| Founder finance   | [What a runway estimate hides about a founder's cash timing](content/briefs/founder-runway-sensitivity.json)         | `/tools/cash-runway/`                                             | Cash-flow definitions, timing/variability assumptions, source validation and review; no solvency assurance                           |
+| Quantitative risk | [What drawdown recovery and position weights can explain about risk](content/briefs/drawdown-and-concentration.json) | `/tools/drawdown-recovery/` and `/tools/portfolio-concentration/` | Checked formulas, limitations and distinct author/reviewer review; no invented correlations or portfolio recommendations             |
 
-Finance templates must visibly expose source links, assumptions, methodology,
-correction/report route, publication/review information and educational scope.
-Internal-link suggestions are drafts until editorial approval. No fake authors,
-credentials, ratings, FAQ schema, keyword volumes, live rates or market forecasts.
+[The brief schema](content/briefs/schema.ts) records intent, theme, author,
+reviewer, sources and validation dates, methodology/version, last-reviewed date,
+disclaimer, related tool, status and individual contextual-link approvals. The
+three seed briefs have null authors, reviewers and review dates; their sources
+are candidates. For these finance briefs, approval requires real, distinct
+author/reviewer identities and validated sources. Brief approval still does not
+publish an article: the resulting article needs its own publication decision.
 
-Legacy migration takes precedence over redesign. Review the current WordPress
-export separately: preservation does not certify accuracy, rights, authorship,
-finance suitability or compliance.
+## Additional ideas awaiting structured briefs
+
+| Theme             | Proposed decision-oriented article                           | Implemented tool or data product                                        | Required evidence                                                                                                         |
+| ----------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| AI economics      | Compare fixed versus usage-dependent automation costs        | `/tools/ai-workflow-roi/`                                               | Source/versioned prices when used; no fabricated current model prices                                                     |
+| Founder finance   | Contribution margin and break-even under changing volume     | `/tools/break-even/`                                                    | Consistent units, fixed/variable costs and worked examples                                                                |
+| Founder finance   | Compare amortization and stated loan fees                    | `/tools/business-loan/`                                                 | Payment timing, fee assumptions and scope limits; no approval/eligibility claims                                          |
+| Original research | Explain the US individual-income distribution and its limits | `/research/`, `/data/us-income-distribution/` and the income calculator | Current validated Census snapshot, population/method review and real editorial attribution; no invented study conclusions |
+
+Finance pages use the implemented trust component and policy links for sources,
+assumptions, methodology, corrections and educational scope. The organizational
+maintainer at `/authors/insightginie/` is not a fabricated person or independent
+reviewer. Publication, update and review dates must reflect actual records.
+Contextual-link suggestions require their own recorded approval before insertion.
+Draft briefs stay out of sitemaps, feeds, published listings and the Ask corpus.
+
+## Legacy preservation remains separate
+
+The read-only migration pilot contains **2 of 9,071 inventoried WordPress posts**.
+Those article previews remain noindex with original blog canonicals and preserved
+source attribution. Local preservation checks are not a full-site migration,
+content-rights review or restorable backup. No remote cutover has occurred.
+Continue per-URL source/media/link and author checks before expansion. Backup,
+restore verification and blog-host redirect authority remain blocked as recorded
+in [MANUAL_REQUIRED.md](MANUAL_REQUIRED.md). Unrelated legacy content must not be
+silently reassigned to the finance themes or mass-redirected to a hub.

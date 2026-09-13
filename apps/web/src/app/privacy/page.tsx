@@ -11,26 +11,48 @@ export default function Privacy() {
     <Document
       title="Your financial picture belongs to you."
       eyebrow="PRIVACY"
-      lead="The first calculator works without an account, an email address or saving your income."
+      lead="Use our calculators without an account, an email address or saving your financial inputs."
     >
       <p className="document-meta">Policy version: September 13, 2026</p>
       <section>
         <h2>Calculator inputs</h2>
         <p>
-          Your income and calculated result remain in the browser tab’s memory. This release does
+          Your calculator inputs and results remain in the browser tab’s memory. This release does
           not send those values to our server, analytics, an AI provider or an advertising provider.
           They are not placed in a URL or stored in browser storage. Reloading the page resets the
           calculator.
         </p>
-        <p>The share action copies the calculator’s public URL without your income or result.</p>
+        <p>
+          The share action copies the calculator’s public URL without your inputs or result. Finance
+          tools can download a CSV or print a scenario locally when you choose; these files can
+          contain your inputs. Keep any downloaded or printed copy private.
+        </p>
       </section>
       <section>
         <h2>Server requests</h2>
         <p>
           Loading the website sends ordinary web requests to its hosting infrastructure. A deployed
           host may process IP addresses, requested paths, browser information and security logs.
-          Financial inputs are not part of those requests. Cloudflare handles delivery and security
+          Private calculator inputs are not part of those requests. Questions you choose to submit
+          to Ask are sent to our server as described below. Cloudflare handles delivery and security
           at the edge. The application does not store individual access histories.
+        </p>
+      </section>
+      <section>
+        <h2>Ask questions and service health</h2>
+        <p>
+          Ask processes questions in server memory to retrieve approved public material and run
+          explicitly supported calculations. It does not save conversations, send them to Datadog
+          Bits or an external model, or attach them to analytics. Avoid personal identifying
+          information. A short-lived, essential security cookie expires after ten minutes and binds
+          requests to the browser that obtained it.
+        </p>
+        <p>
+          Operational monitoring stores daily totals of answers, fallbacks, refusals, errors and
+          issue categories for up to 30 days. These totals contain no questions, answers, financial
+          values, cookies or IP addresses. If enabled, Datadog receives only these aggregate
+          service-health measurements; its account retention settings also apply. No session replay
+          or browser recording is enabled.
         </p>
       </section>
       <section id="cookies">
@@ -67,11 +89,13 @@ export default function Privacy() {
       <section>
         <h2>Anonymous usage counts</h2>
         <p>
-          We count page visits and general calculator interactions, such as starting or completing a
-          calculation. We keep daily totals for up to 30 days. These totals contain no income,
-          result, profile, IP address, device identifier or individual browsing history. No
-          third-party analytics provider is enabled. Temporary in-memory request limits help prevent
-          abuse.
+          If you allow optional analytics in the footer, we count page visits and general tool
+          interactions, such as starting, completing or exporting a calculation. Analytics is off
+          until you allow it, and remains off when your browser sends Global Privacy Control or Do
+          Not Track. Your preference cookie lasts up to 180 days and can be changed at any time. We
+          keep daily totals for up to 30 days. These totals contain no income, result, profile, IP
+          address, device identifier or individual browsing history. No third-party analytics
+          provider is enabled. Temporary in-memory request limits help prevent abuse.
         </p>
       </section>
       <section>

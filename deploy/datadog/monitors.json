@@ -1,0 +1,23 @@
+[
+  {
+    "name": "InsightGinie: an ingest failure was recorded today",
+    "type": "metric alert",
+    "query": "max(last_10m):max:insightginie.operations.ingest_failure.daily{env:production} > 0",
+    "message": "Review the private ingest status and last-good source snapshot. This is a cumulative daily count, not an error-rate calculation. Add the approved notification destination before activation.",
+    "tags": ["service:insightginie-web", "env:production"],
+    "options": { "thresholds": { "critical": 0 }, "notify_no_data": false, "include_tags": false }
+  },
+  {
+    "name": "InsightGinie: at least five Ask errors recorded today",
+    "type": "metric alert",
+    "query": "max(last_10m):max:insightginie.operations.ask_error.daily{env:production} >= 5",
+    "message": "Inspect categorized service failures. Do not attach prompts or request bodies. This monitor remains triggered while the current daily count exceeds the threshold; it is not an error-spike monitor.",
+    "tags": ["service:insightginie-web", "env:production"],
+    "options": {
+      "thresholds": { "critical": 5 },
+      "notify_no_data": true,
+      "no_data_timeframe": 30,
+      "include_tags": false
+    }
+  }
+]

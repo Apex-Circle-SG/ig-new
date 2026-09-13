@@ -1,0 +1,38 @@
+{
+  "verifiedAt": "2026-09-13T08:28:41.940221+00:00",
+  "buildId": "oPjP3LItPeKfLgh_F0AK1",
+  "status": "passed",
+  "scope": "Independent application release; remote WordPress cutover and unconfigured services excluded",
+  "checks": {
+    "lint": "passed",
+    "typecheck": "passed",
+    "vitest": {
+      "passed": 256,
+      "files": 16
+    },
+    "node": {
+      "passed": 32
+    },
+    "python": {
+      "deployPassed": 3,
+      "legacyPassed": 15
+    },
+    "browser": {
+      "passed": 54,
+      "report": "docs/verification/consolidation-browser.json"
+    },
+    "visualSnapshots": 4,
+    "lighthouse": "docs/verification/consolidation-lighthouse-summary.json",
+    "fieldCoreWebVitals": "unavailable",
+    "systemdUnitSyntax": "passed",
+    "secretScan": "passed"
+  },
+  "wordpressCutover": false,
+  "bitsEnabled": false,
+  "knownLimitations": [
+    "Full blog backup/restore, redirect access and editorial approval missing",
+    "Field INP unavailable; simulated total blocking time remains 294\u2013728ms",
+    "GSC, backlink and ad-revenue baselines unavailable",
+    "RUM/APM/scanner/pipeline integration requires account-side configuration"
+  ]
+}

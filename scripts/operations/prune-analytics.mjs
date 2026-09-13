@@ -35,6 +35,7 @@ export async function pruneAnalytics(directory, now = new Date()) {
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
   try {
     await pruneAnalytics(process.env.ANALYTICS_DIRECTORY);
+    await pruneAnalytics(process.env.OPERATIONS_DIRECTORY);
   } catch {
     console.error('Analytics retention maintenance failed.');
     process.exitCode = 1;

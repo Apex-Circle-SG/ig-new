@@ -1,7 +1,6 @@
 # Consolidation implementation and rollback plan
 
-Phase 1 does not deploy anything. The current app, port 3000 service, calculator,
-ads, Cloudflare routing and WordPress templates remain unchanged.
+This document preserves the WordPress cutover prerequisites established during the inspection phase. Local application implementation is now authorized and covered by [the web release procedure](consolidation-release.md). WordPress templates and remote host routing remain unchanged until the gates below pass.
 
 ## Dependency order
 

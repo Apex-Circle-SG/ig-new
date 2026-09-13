@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-09-13T08:24:12.128Z",
+  "scope": "Read-only API access checks and local dashboard contract review. No creation, sharing, alerts or notifications.",
+  "site": "ap1.datadoghq.com",
+  "authentication": {
+    "currentUserStatus": 200,
+    "identityRecorded": false
+  },
+  "rolePermissions": {
+    "dashboards_read": true,
+    "dashboards_write": true
+  },
+  "applicationKeyScopeEvidence": {
+    "endpoint": "/api/v2/current_user/application_keys",
+    "status": 200,
+    "enumerationComplete": true,
+    "singleRecordMatchedConfiguredKeySuffix": true,
+    "dashboards_read": true,
+    "dashboards_write": true,
+    "matchingMethod": "One returned key record, complete enumeration, suffix matched internally; no key ID or suffix retained."
+  },
+  "dashboardRead": {
+    "endpoint": "/api/v1/dashboard?count=1&start=0",
+    "status": 200,
+    "listReadable": true
+  },
+  "payload": {
+    "path": "deploy/datadog/dashboard.json",
+    "sha256": "979a0290874ae8514ec59b8b543fa0360f9329ab119e4ea5044da1e20c01cc55",
+    "widgets": 5,
+    "queries": 7,
+    "localSubsetValidation": "passed",
+    "officialContractReview": "required fields and widget request enums checked against current dashboard API documentation and official generated client models",
+    "legacyQueryField": "q remains documented but deprecated; use queries/formulas in a future schema migration",
+    "remoteCreateValidated": false,
+    "notificationDestinations": 0,
+    "publicShareRequested": false
+  },
+  "conclusion": "Role and matched application-key scope evidence support attempting one authorized dashboard creation after metric intake succeeds. This is not a successful-create receipt or proof of owner-only access.",
+  "unverified": [
+    "Remote create acceptance",
+    "Metric intake and dashboard sample visibility",
+    "Resource-specific viewer restrictions",
+    "Billing allowance"
+  ],
+  "remoteWrites": 0,
+  "secretsRecorded": false,
+  "accountIdentifiersRecorded": false,
+  "sources": [
+    "https://docs.datadoghq.com/api/latest/dashboards/create-a-new-dashboard/",
+    "https://docs.datadoghq.com/api/latest/dashboards/get-all-dashboards/",
+    "https://docs.datadoghq.com/api/latest/users/get-current-user/",
+    "https://docs.datadoghq.com/api/latest/key-management/get-all-application-keys-owned-by-current-user/",
+    "https://docs.datadoghq.com/api/latest/restriction-policies/",
+    "https://github.com/DataDog/datadog-api-client-typescript/tree/master/packages/datadog-api-client-v1/models"
+  ]
+}

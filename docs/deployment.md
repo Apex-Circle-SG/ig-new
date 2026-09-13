@@ -2,7 +2,9 @@
 
 ## Current status
 
-The first vertical slice runs on this host at `http://127.0.0.1:3000`, supervised
+The consolidation release adds finance tools, approved-source Ask, editorial previews, research, privacy controls and protected operations. Follow [the current candidate promotion and rollback procedure](consolidation-release.md). The original service details below still apply; WordPress consolidation remains a separate unapproved cutover.
+
+The application runs on this host at `http://127.0.0.1:3000`, supervised
 by the enabled `insightginie-web.service` systemd unit. It uses the validated
 public-data snapshot and needs no remote database. The application is
 TypeScript/JavaScript running on Node.js with Next.js; Python is used only for

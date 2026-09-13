@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-09-13 — Finance tools, source-grounded Ask and guarded content consolidation
+
+- Added six deterministic finance tools with local exports, private input frames
+  and loan scenario comparison; preserved the Census income calculator.
+- Built source-cited Ask, protected operations, consent-aware aggregate events,
+  trust pages, topic/research hubs, feeds and canonical sitemap partitions.
+- Added reproducible headless WordPress ingestion with two noindex previews and
+  explicit backup/restore/redirect/editorial gates; no remote WordPress cutover.
+- Added bounded Datadog aggregate/private-workflow adapters, deployment rollback,
+  security/privacy tests and mobile/visual/SEO verification. Bits stays disabled.
+- Improved public HTML compression and resolved the detected accessibility and
+  financial-input parsing defects.
+
+See [acceptance and remaining dependencies](docs/consolidation-acceptance.md).
+
 ## 2026-09-13 — Datadog workflow connection and live test
 
 - Revalidated AP1 credentials and confirmed the selected published workflow now

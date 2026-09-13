@@ -6,18 +6,18 @@ A US consumer decision platform built around public data and deterministic calcu
 
 [Try the income calculator](https://insightginie.com/calc/individual-income-percentile/) · [Explore the US income distribution](https://insightginie.com/data/us-income-distribution/) · [Sources and methodology](https://insightginie.com/methodology/individual-income/)
 
-The current release includes a private browser calculator, a downloadable Census-based income table, an embeddable chart, and transparent source documentation. Household, location and career products remain on the roadmap.
+The application includes seven private calculators, a source-grounded assistant at `/ask/`, finance tools at `/tools/`, editorial previews at `/insights/`, original data at `/research/`, trust policies and a protected operations dashboard. The six new engines cover AI workflow ROI, cash runway, break-even, business loans, drawdown recovery and portfolio concentration. Household, location and career products remain on the roadmap.
 
 ## Run locally
 
-Requires Node 22+ and npm. No external credentials are needed for the income calculator.
+Requires Node 22+ and npm. Public tools and approved-source Ask require no inference key. For local Ask requests set `APP_SITE_ORIGIN=http://localhost:3000` in `apps/web/.env.local` (match your actual browser origin). Optional integrations fail closed when unconfigured.
 
 ```sh
 npm ci
 npm run dev
 ```
 
-Open http://localhost:3000. The homepage and `/calc/individual-income-percentile/` use a real, versioned US Census CPS PINC-11 distribution (2024 income, 2025 survey). No user income is stored or transmitted. For $75,000 the estimate is approximately 74.7th percentile among US people age 15 and over, including nonworkers.
+Open http://localhost:3000. The homepage and `/calc/individual-income-percentile/` use a real, versioned US Census CPS PINC-11 distribution (2024 income, 2025 survey). Private calculator inputs are never transmitted. Questions deliberately submitted to Ask are processed transiently on the server without raw logging or external model calls. For $75,000 the income estimate is approximately 74.7th percentile among US people age 15 and over, including nonworkers.
 
 ## Verify
 
@@ -29,6 +29,8 @@ SITE_INDEXABLE=true NEXT_PUBLIC_ADS_ENABLED=true npm run build
 npx playwright install chromium
 npm run test:e2e
 node --test scripts/seo/discovery.test.mjs
+node --test scripts/observability/observability.test.mjs scripts/operations/prune-analytics.test.mjs
+npx tsx scripts/content-sync/validate.ts
 python3 -m unittest discover -s scripts/legacy-url-audit -p 'test_*.py'
 python3 scripts/legacy-url-audit/validate.py docs/legacy/url-inventory.csv.gz
 npm audit
@@ -56,9 +58,9 @@ Public Census spreadsheets are archived with SHA-256 checksums. Validation rejec
 
 ## Delivery boundaries
 
-The production application is hosted by the `insightginie-web` systemd service on `127.0.0.1:3000` through Cloudflare. See [service management](docs/deployment.md#background-service-on-this-host). AdSense covers reviewed public pages with regional privacy handling; personal calculations run inside an isolated browser frame. See [advertising](docs/advertising.md), [SEO launch](docs/seo-launch.md), and [offsite discovery](scripts/seo/README.md). No remote database or Vercel deployment is configured. The local legacy publishing automation was removed at the operator's request; the remote WordPress installation has not been deleted. Public response snapshots are not a complete WordPress backup. No programmatic salary pages, account storage, chatbot, email or billing are enabled.
+The production application is hosted by the `insightginie-web` systemd service on `127.0.0.1:3000` through Cloudflare. See [service management](docs/deployment.md#background-service-on-this-host). AdSense covers reviewed public pages with regional privacy handling; Ask and private calculator frames have no ads. Analytics needs explicit consent. See [advertising](docs/advertising.md), [SEO launch](docs/seo-launch.md), and [offsite discovery](scripts/seo/README.md). No remote database or Vercel deployment is configured. The remote WordPress installation remains intact; two preserved article previews are noindex with original blog canonicals. The complete backup, restore test, redirect authority and per-URL review are prerequisites for cutover. Public snapshots are not a complete WordPress backup. No programmatic salary pages, account storage, email subscriptions or billing are enabled.
 
-Never commit `.env`, credentials, private profile data or raw operational secrets. Legacy URL migration remains subject to a complete WordPress database/files backup and reviewed URL dispositions with traffic/backlink evidence. Private support, external monitoring and human policy/trademark review remain operator tasks; the current public release does not claim those are complete.
+Never commit `.env`, credentials, private profile data or raw operational secrets. See [MANUAL_REQUIRED.md](MANUAL_REQUIRED.md) for exact external dependencies and [the release instructions](docs/consolidation-release.md) for verification, deployment and rollback. Datadog Bits is a separate disabled private-operations adapter; it is not the public assistant's inference provider.
 
 ## Documentation
 

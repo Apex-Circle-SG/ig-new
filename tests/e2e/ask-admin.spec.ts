@@ -1,0 +1,134 @@
+import { test, expect } from '@playwright/test';
+import AxeBuilder from '@axe-core/playwright';
+
+test.beforeEach(async ({ context }, info) => {
+  await context.setExtraHTTPHeaders({
+    'cf-ipcountry': 'US',
+    'cf-connecting-ip': `198.51.100.${100 + info.parallelIndex}`,
+  });
+});
+
+test('Ask returns cited explanations, deterministic arithmetic, refusals and fallbacks', async ({
+  page,
+}) => {
+  const outbound: string[] = [];
+  page.on('request', (request) => outbound.push(request.url()));
+  await page.goto('/ask/');
+  await expect(page.locator('#insightginie-adsense')).toHaveCount(0);
+  for (const [question, expected] of [
+    ['How do I calculate cash runway?', 'Sources & freshness'],
+    ['What gain recovers a 50% loss?', 'gain of 100%'],
+    ['Should I buy this stock?', 'cannot recommend trades'],
+    ['What are today mortgage rates?', 'do not have a validated live'],
+  ]) {
+    await page.getByLabel('Your question', { exact: true }).fill(question);
+    await page.getByRole('button', { name: 'Ask Genie', exact: true }).click();
+    await expect(page.getByLabel('Answers').locator('article').last()).toContainText(expected);
+  }
+  expect(outbound.some((url) => /datadog|anthropic|openai|googlesyndication/.test(url))).toBe(
+    false,
+  );
+  await page.getByText('Report an answer', { exact: true }).click();
+  await page.getByRole('button', { name: 'source issue', exact: true }).click();
+  await expect(page.getByText(/Only the issue category was recorded/)).toBeVisible();
+  expect(
+    (
+      await new AxeBuilder({ page })
+        .withTags(['wcag2a', 'wcag2aa', 'wcag21aa', 'wcag22aa'])
+        .analyze()
+    ).violations,
+  ).toEqual([]);
+});
+
+test('Ask handles API failures and rejects cross-site or unbound submissions', async ({
+  page,
+  request,
+  baseURL,
+}) => {
+  expect(
+    (
+      await request.post('/api/ask/', {
+        data: { question: 'How does cash runway work?', token: 'a'.repeat(50) },
+        headers: { Origin: 'https://untrusted.example' },
+      })
+    ).status(),
+  ).toBe(403);
+  expect(
+    (
+      await request.post('/api/ask/', {
+        data: { question: 'How does cash runway work?', token: 'a'.repeat(50) },
+        headers: { Origin: baseURL! },
+      })
+    ).status(),
+  ).toBe(403);
+  await page.route('**/api/ask/token/', (route) =>
+    route.fulfill({ status: 503, contentType: 'application/json', body: '{}' }),
+  );
+  await page.goto('/ask/');
+  await page.getByLabel('Your question', { exact: true }).fill('How does cash runway work?');
+  await page.getByRole('button', { name: 'Ask Genie', exact: true }).click();
+  await expect(page.getByRole('alert').filter({ hasText: 'Ask is busy' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Ask Genie', exact: true })).toBeEnabled();
+});
+
+test('admin is protected and quality checks do not approve an incomplete migration', async ({
+  browser,
+  request,
+  baseURL,
+}) => {
+  const denied = await request.get('/admin/');
+  expect(denied.status()).toBe(401);
+  expect(denied.headers()['x-robots-tag']).toContain('noindex');
+  const context = await browser.newContext({
+    baseURL,
+    httpCredentials: {
+      username: 'admin',
+      password: process.env.ADMIN_ACCESS_KEY ?? 'test-only-admin-key-not-for-production-use',
+    },
+  });
+  const page = await context.newPage();
+  await page.goto('/admin/');
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText('InsightGinie operations');
+  await page.getByRole('button', { name: 'Run local quality checks' }).click();
+  await expect(page.getByRole('status')).toContainText('"datasetValid": true');
+  await expect(page.getByRole('status')).toContainText('"publicationAllowed": false');
+  await expect(page.getByRole('button', { name: /Approve publication/ })).toBeDisabled();
+  expect(await page.locator('script[src*="google"],script[src*="datadog"]').count()).toBe(0);
+  await context.close();
+});
+
+test('usage counts wait for consent and contain no questions', async ({ page }) => {
+  const bodies: string[] = [];
+  await page.route('**/api/events/', async (route) => {
+    bodies.push(route.request().postData() ?? '');
+    await route.fulfill({ status: 204 });
+  });
+  await page.goto('/ask/');
+  await expect(page.getByRole('button', { name: 'Analytics settings' })).toBeEnabled();
+  expect(bodies).toEqual([]);
+  await page.getByRole('button', { name: 'Analytics settings' }).click();
+  await page.getByRole('button', { name: 'Allow anonymous counts' }).click();
+  await expect.poll(() => bodies.length).toBeGreaterThan(0);
+  await page.getByLabel('Your question', { exact: true }).fill('How does cash runway work?');
+  await page.getByRole('button', { name: 'Ask Genie', exact: true }).click();
+  await expect.poll(() => bodies.some((body) => body.includes('ask_answer_cited'))).toBe(true);
+  expect(bodies.join('')).not.toContain('How does');
+  await page.getByRole('button', { name: 'Decline anonymous counts' }).click();
+  const count = bodies.length;
+  await page.getByLabel('Your question', { exact: true }).fill('What is an AI payback period?');
+  await page.getByRole('button', { name: 'Ask Genie', exact: true }).click();
+  await expect(page.getByLabel('Answers').locator('article')).toHaveCount(2);
+  expect(bodies).toHaveLength(count);
+});
+
+for (const width of [320, 375, 390, 430, 768])
+  test(`Ask is usable at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 850 });
+    await page.goto('/ask/');
+    await page.getByLabel('Your question', { exact: true }).fill('How does cash runway work?');
+    await page.getByRole('button', { name: 'Ask Genie', exact: true }).click();
+    await expect(page.getByLabel('Answers').locator('article')).toBeVisible();
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(
+      true,
+    );
+  });

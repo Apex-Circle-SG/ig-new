@@ -21,6 +21,7 @@ function request(body: unknown = pageEvent, headers: Record<string, string> = {}
       origin: 'https://insightginie.com',
       'sec-fetch-site': 'same-origin',
       'cf-connecting-ip': '198.51.100.12',
+      'x-insightginie-consent': 'allow',
       ...headers,
     },
     body: JSON.stringify(body),
@@ -35,6 +36,18 @@ afterEach(async () => {
 });
 
 describe('first-party aggregate collection', () => {
+  it('stores nothing without consent or when a privacy signal is set', async () => {
+    const { directory, collect } = await collector();
+    const choices: Record<string, string>[] = [
+      { 'x-insightginie-consent': '' },
+      { 'sec-gpc': '1' },
+      { dnt: '1' },
+    ];
+    for (const headers of choices)
+      expect((await collect(request(pageEvent, headers))).status).toBe(204);
+    expect(await readdir(directory)).toEqual([]);
+  });
+
   it('is disabled without a configured state directory', async () => {
     const collect = createAggregateCollector({});
     expect((await collect(request())).status).toBe(204);
@@ -179,6 +192,8 @@ describe('browser aggregate boundary', () => {
   it('omits cookies, referrers and runtime extra fields from network requests', () => {
     const fetch = vi.fn().mockResolvedValue(new Response(null, { status: 204 }));
     vi.stubGlobal('window', {});
+    vi.stubGlobal('document', { cookie: 'ig_analytics=allow' });
+    vi.stubGlobal('navigator', {});
     vi.stubGlobal('fetch', fetch);
     sendAggregateEvent({ event: 'page_view', route_id: 'home', ...{ income: 137000 } });
     expect(fetch).toHaveBeenCalledWith(

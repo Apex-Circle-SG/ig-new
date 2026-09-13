@@ -13,21 +13,21 @@ export function Header() {
           </span>
         </Link>
         <nav className="desktop-nav" aria-label="Main navigation">
-          <Link prefetch={false} href="/#explore">
-            Explore
+          <Link prefetch={false} href="/insights/">
+            Insights
           </Link>
-          <Link prefetch={false} href="/calc/">
-            Calculators
+          <Link prefetch={false} href="/tools/">
+            Tools
           </Link>
-          <Link prefetch={false} href="/data/">
-            Our data
+          <Link prefetch={false} href="/research/">
+            Research
           </Link>
           <Link prefetch={false} href="/methodology/">
             Methodology
           </Link>
         </nav>
-        <Link prefetch={false} href="/calc/individual-income-percentile/" className="header-cta">
-          Find your insight <ArrowUpRight size={16} />
+        <Link prefetch={false} href="/ask/" className="header-cta">
+          Ask Genie <ArrowUpRight size={16} />
         </Link>
         <details className="mobile-nav">
           <summary aria-label="Menu">
@@ -37,14 +37,23 @@ export function Header() {
             <Link prefetch={false} href="/">
               Home
             </Link>
-            <Link prefetch={false} href="/calc/">
-              Calculators
+            <Link prefetch={false} href="/tools/">
+              Tools
             </Link>
             <Link prefetch={false} href="/data/">
               Our data
             </Link>
             <Link prefetch={false} href="/methodology/">
               Methodology
+            </Link>
+            <Link prefetch={false} href="/insights/">
+              Insights
+            </Link>
+            <Link prefetch={false} href="/research/">
+              Research
+            </Link>
+            <Link prefetch={false} href="/ask/">
+              Ask Genie
             </Link>
           </nav>
         </details>

@@ -26,8 +26,10 @@ export default function Editorial() {
         <h2>Real authors and reviewers</h2>
         <p>
           Editorial articles require a real author, source list and appropriate review before
-          publication. No named author or independent professional reviewer has yet been appointed
-          for this preview. Editorial articles remain unpublished until those requirements are met.
+          publication. Named editorial authors and independent professional reviewers are not yet
+          listed. New editorial research remains in draft until those requirements are met.
+          Organizational product maintenance is identified separately and does not imply expert
+          review.
         </p>
         <Link prefetch={false} href="/authors/">
           Author and reviewer status →
@@ -37,9 +39,11 @@ export default function Editorial() {
         <h2>Neutral calculations</h2>
         <p>
           Advertising and commercial relationships do not change formulas, source selection or
-          results. Future partner offers will be identified separately. No advertisements or partner
-          offers are enabled in this release.
+          results. Future partner offers will be identified separately. Eligible public pages may
+          include display advertising. No affiliate offer or sponsored editorial program is enabled
+          in this release.
         </p>
+        <Link href="/advertising-disclosure/">Advertising and commercial disclosure →</Link>
       </section>
       <section>
         <h2>Corrections and updates</h2>
@@ -48,9 +52,18 @@ export default function Editorial() {
           validation before replacing a published snapshot. Material methodological changes are
           documented alongside their version.
         </p>
-        <Link prefetch={false} href="/contact/">
-          Reporting a data issue →
+        <Link prefetch={false} href="/corrections-policy/">
+          Correction reporting and version history →
         </Link>
+      </section>
+      <section>
+        <h2>Automated assistance and suggested links</h2>
+        <p>
+          AI-assisted research plans and drafts are not approved findings. Sources must be checked,
+          and an automated system must not invent authors, review records or numerical results.
+          Contextual link suggestions require approval before insertion into editorial prose.
+        </p>
+        <Link href="/ai-disclosure/">Current automated-assistance disclosure →</Link>
       </section>
     </Document>
   );

@@ -1,0 +1,52 @@
+{
+  "id": "drawdown-and-concentration",
+  "title": "What drawdown recovery and position weights can explain about risk",
+  "intent": {
+    "question": "What can a recovery percentage and a concentration measure tell a reader, and what do they leave out?",
+    "readerDecision": "Understand the mathematics of a loss and the limits of a portfolio-weight summary without turning either into a trading signal.",
+    "uniqueValue": "Reproducible loss/recovery examples are paired with explicit limits on concentration measures, preventing a compact risk number from implying a forecast or recommendation."
+  },
+  "hub": "quantitative-risk",
+  "author": null,
+  "reviewer": null,
+  "sources": [
+    {
+      "name": "SEC Investor.gov: Asset Allocation and Diversification",
+      "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+      "type": "primary",
+      "status": "candidate",
+      "validatedAt": null,
+      "purpose": "Check the official explanation of diversification and overlapping holdings before discussing what a position-weight calculation cannot establish."
+    }
+  ],
+  "methodology": {
+    "version": "brief-v1",
+    "plan": "Use the versioned drawdown-recovery engine for hypothetical losses, including zero and near-total loss boundaries. Explain the portfolio-concentration engine’s exact metric separately. Do not infer recovery time, expected returns or complete portfolio risk from either calculation.",
+    "assumptions": [
+      "The recovery comparison uses the same starting capital basis and the formula’s stated treatment of contributions.",
+      "Position-weight examples are hypothetical, with no claim about a reader’s actual holdings."
+    ],
+    "limitations": [
+      "A required recovery percentage says nothing about whether or when a recovery will occur.",
+      "Weights alone do not capture correlations, leverage, liquidity, overlapping exposures or tail losses."
+    ]
+  },
+  "lastReviewedAt": null,
+  "disclaimer": "Educational research planning only. This draft is not investment advice, a forecast, a portfolio allocation recommendation or a suggestion to buy, sell or hold any security.",
+  "relatedTool": "drawdown-recovery",
+  "status": "draft",
+  "contextualLinks": [
+    {
+      "targetPath": "/tools/drawdown-recovery/",
+      "anchorText": "inspect the recovery calculation",
+      "reason": "Would let a reader reproduce the stated mathematical example after editorial review, without implying a market forecast.",
+      "approval": { "status": "pending", "approvedBy": null, "approvedAt": null }
+    },
+    {
+      "targetPath": "/tools/portfolio-concentration/",
+      "anchorText": "inspect the concentration measure",
+      "reason": "Would show the separate weight-based metric and its limitations once the corresponding explanation has been approved.",
+      "approval": { "status": "pending", "approvedBy": null, "approvedAt": null }
+    }
+  ]
+}

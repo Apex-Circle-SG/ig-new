@@ -2,11 +2,11 @@
 
 ## Status and ownership
 
-This repository is the rebuild, not the canonical production cutover. The
+This repository serves the main application; the separate WordPress host cutover is still pending. The
 maintainer owns release approval, legacy migration and data review. Local hosting
 uses the `insightginie-web` systemd service on port 3000; see the
 [service commands](deployment.md#background-service-on-this-host). The public
-tunnel, remote PostgreSQL, alert routing, Search Console and email providers still
+tunnel is active; remote PostgreSQL, alert routing, Search Console and email providers still
 need provisioning. An environment variable or schema table does not prove an integration
 is active. Consult the current validation report for checks actually executed.
 
@@ -66,7 +66,7 @@ only through the privacy-reviewed analytics abstraction.
 Generated pages follow draft → quality check → explicit approval → publication.
 Require data completeness, valid sources, interactive utility, unique canonical,
 internal links and a passing threshold. The schema enforces minimum publication
-metadata but no authenticated admin dashboard is active yet.
+metadata. The protected `/admin/` dashboard shows dataset/content status, source-preserving previews and aggregate service events. Its local checks are read-only; publication remains disabled until backup, restoration, redirects and per-record review are verified.
 
 Legacy migration is blocked until a complete backup and URL classification exist.
 Use a 301 only for a reviewed equivalent replacement, 410 when there is none, and

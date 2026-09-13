@@ -17,10 +17,28 @@ export const PUBLIC_INDEXABLE_PATHS = [
   '/privacy/',
   '/terms/',
   '/contact/',
+  '/tools/',
+  '/tools/ai-workflow-roi/',
+  '/tools/cash-runway/',
+  '/tools/break-even/',
+  '/tools/business-loan/',
+  '/tools/drawdown-recovery/',
+  '/tools/portfolio-concentration/',
+  '/insights/',
+  '/research/',
+  '/ask/',
+  '/authors/',
+  '/authors/insightginie/',
+  '/corrections-policy/',
+  '/advertising-disclosure/',
+  '/ai-disclosure/',
+  '/finance-disclaimer/',
+  '/research-methodology/',
+  '/content-index/',
 ] as const;
 
 /** Advertising inventory is all reviewed public pages, never private tools. */
-export const PUBLIC_AD_PATHS = PUBLIC_INDEXABLE_PATHS;
+export const PUBLIC_AD_PATHS = PUBLIC_INDEXABLE_PATHS.filter((path) => path !== '/ask/');
 
 export const PUBLIC_ROUTE_IDS: Readonly<Record<string, string>> = Object.fromEntries(
   PUBLIC_INDEXABLE_PATHS.map((path) => [
