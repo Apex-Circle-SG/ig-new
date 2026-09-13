@@ -1,0 +1,119 @@
+{
+  "checked_at": "2026-09-13T07:35:41.586295+00:00",
+  "site": "ap1.datadoghq.com",
+  "env_names": [
+    "DD_AGENT_ID",
+    "DD_API_KEY",
+    "DD_APP_KEY",
+    "DD_BITS_WORKFLOW_ID",
+    "DD_REGION"
+  ],
+  "checks": [
+    {
+      "endpoint": "/api/v2/validate_keys",
+      "http_status": 200,
+      "valid": true
+    },
+    {
+      "endpoint": "/api/v2/workflows/{configured_workflow_id}",
+      "http_status": 200,
+      "published": true,
+      "execution_identity": "initiator",
+      "step_count": 1,
+      "action_ids": [
+        "com.datadoghq.dd.bitsai.customagent.customAgentExecute"
+      ],
+      "trigger_types": [
+        [
+          "apiTrigger"
+        ]
+      ],
+      "agent_steps": [
+        {
+          "configured_agent_matches": true,
+          "agent_id_present": true,
+          "parameter_names": [
+            "userPrompt",
+            "customAgentId"
+          ],
+          "prompt_present": true,
+          "output_schema_present": false
+        }
+      ],
+      "input_schema_fields": [
+        "parameters"
+      ],
+      "output_schema_fields": [
+        "parameters"
+      ]
+    }
+  ],
+  "inference_executed": true,
+  "remote_configuration_changed": false,
+  "agent_id_uuid_format": true,
+  "workflow_id_uuid_format": true,
+  "workflow_contract": {
+    "inputSchema": [
+      {
+        "name": "question",
+        "type": "STRING",
+        "required": null,
+        "has_default": false
+      }
+    ],
+    "outputSchema": [
+      {
+        "name": "answer",
+        "type": "STRING",
+        "required": null,
+        "has_default": false
+      }
+    ],
+    "prompt_template_expressions": [
+      "Trigger.question"
+    ],
+    "prompt_only_template": false,
+    "api_trigger_rate_limit": [
+      null
+    ]
+  },
+  "smoke_test": {
+    "attempted_at": "2026-09-13T07:36:32.230460+00:00",
+    "create_requests": 1,
+    "create_http_status": 200,
+    "result_http_status": 200,
+    "status": "SUCCEEDED",
+    "result_field": "outputs.answer",
+    "expected_marker": "INSIGHTGINIE_READY",
+    "actual_marker": "INSIGHTGINIE_READY",
+    "marker_matches": true,
+    "started_at": "2026-09-13T07:36:32.491054Z",
+    "ended_at": "2026-09-13T07:36:38.045719Z",
+    "synthetic_prompt_only": true,
+    "public_visitor_data_sent": false,
+    "tools_requested": false,
+    "agent_tool_usage_independently_verified": false,
+    "runtime_retention_tested": false,
+    "retry_create_requests": 0,
+    "note": "The account returned HTTP 200 with an instance ID on creation; the documented 201 was not required. No duplicate POST was sent."
+  },
+  "identity": {
+    "http_status": 200,
+    "service_account": false
+  },
+  "completed_at": "2026-09-13T07:37:07.601012+00:00",
+  "remaining_production_requirements": [
+    "Agent tool/instruction review and strict structured response validation",
+    "Restricted service account for production execution",
+    "AI Credits balance and recurring spend cap",
+    "Retention/redaction and monitoring entitlement verification",
+    "Separate approval and supported contract for public inference; current scope is private operations"
+  ],
+  "production_service_changed": false,
+  "sources": [
+    "https://docs.datadoghq.com/api/latest/workflow-automation/get-an-existing-workflow/",
+    "https://docs.datadoghq.com/api/latest/workflow-automation/execute-a-workflow/",
+    "https://docs.datadoghq.com/api/latest/workflow-automation/get-a-workflow-instance/",
+    "https://docs.datadoghq.com/actions/agents/"
+  ]
+}

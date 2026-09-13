@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-09-13 — Datadog workflow connection and live test
+
+- Revalidated AP1 credentials and confirmed the selected published workflow now
+  references the configured agent ID.
+- Ran one synthetic health check. Execution succeeded and the workflow returned
+  the exact expected `INSIGHTGINIE_READY` marker through its `answer` output.
+- Recorded the verified input/output contract and current initiator identity;
+  retained the earlier failed-configuration receipt as historical evidence.
+- Updated production prerequisites. No visitor data was sent, no duplicate
+  execution request was issued, and no production website or remote workflow
+  configuration was changed.
+
+See [the live-test receipt](docs/audits/2026-09-13-datadog/workflow-recheck.json)
+and [remaining production work](docs/datadog-bits-requirements.md).
+
 ## 2026-09-13 — Datadog credential verification
 
 - Verified API/application-key authentication and workflow reads against AP1
