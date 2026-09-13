@@ -32,7 +32,7 @@ jobs:
     env:
       CI: 'true'
       NEXT_TELEMETRY_DISABLED: '1'
-      SITE_INDEXABLE: 'false'
+      SITE_INDEXABLE: 'true'
       NEXT_PUBLIC_ADS_ENABLED: 'true'
       DATABASE_URL: postgres://postgres@localhost:5432/insightginie_ci
     steps:
@@ -45,6 +45,8 @@ jobs:
       - run: npm run lint
       - run: npm run typecheck
       - run: npm test
+      - run: node --test scripts/seo/discovery.test.mjs
+      - run: node --test scripts/operations/prune-analytics.test.mjs
       - name: Verify legacy migration safety
         run: |
           python3 -m unittest discover -s scripts/legacy-url-audit -p "test_*.py"

@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
+import { SiteLink as Link } from '@insightginie/ui';
 import { Document } from '../../components/document';
 export const metadata: Metadata = {
-  title: 'About',
+  title: 'About InsightGinie and Our Data Principles',
   description:
     'InsightGinie helps people understand their income and life decisions with public US data and transparent calculators.',
   alternates: { canonical: '/about/' },
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <Document
-      title="A little clarity for your next move."
+      title="About InsightGinie"
       eyebrow="ABOUT INSIGHTGINIE"
       lead="Understand where you stand. See what changes next."
     >
@@ -24,6 +25,22 @@ export default function About() {
           Our first tool compares individual income with a published Census distribution. We are
           building the next tools around the same principles: real sources, deterministic
           calculations, clear limitations and privacy.
+        </p>
+        <Link href="/calc/individual-income-percentile/">
+          Try the individual income calculator →
+        </Link>
+      </section>
+      <section>
+        <h2>Check the source. Ask about the result.</h2>
+        <p>
+          Each published tool links to its dataset and explains the comparison population, reference
+          year and calculation method. Our income tool uses the Census Bureau’s Current Population
+          Survey; the Bureau does not review or endorse this website.
+        </p>
+        <p>
+          <Link href="/methodology/">Read our methodology</Link>,{' '}
+          <Link href="/editorial-policy/">see our editorial policy</Link>, or{' '}
+          <Link href="/contact/">report a correction</Link>.
         </p>
       </section>
       <section>

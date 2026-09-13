@@ -1,0 +1,27 @@
+[
+  {
+    "name": "home-live",
+    "base": "https://insightginie.com",
+    "path": "/",
+    "width": 390,
+    "status": 200,
+    "canonical": "https://insightginie.com/",
+    "robots": "index, follow",
+    "h1Count": 1,
+    "errors": [],
+    "provider": [
+      200
+    ],
+    "events": [
+      204,
+      204,
+      204
+    ],
+    "overflow": false,
+    "consentShown": false,
+    "result": "74.7%of the comparison population",
+    "isolated": true,
+    "adScriptPresent": true,
+    "adFrames": 7
+  }
+]

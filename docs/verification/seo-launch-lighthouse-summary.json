@@ -1,0 +1,56 @@
+[
+  {
+    "name": "homepage",
+    "url": "http://127.0.0.1:3001/",
+    "fetchedAt": "2026-09-13T02:40:57.181Z",
+    "mode": "mobile simulated",
+    "scores": {
+      "performance": 75,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100
+    },
+    "metrics": {
+      "lcpMs": 4737.5405,
+      "tbtMs": 43,
+      "cls": 0
+    },
+    "failedAudits": [
+      {
+        "id": "errors-in-console",
+        "title": "Browser errors were logged to the console"
+      },
+      {
+        "id": "bf-cache",
+        "title": "Page prevented back/forward cache restoration"
+      }
+    ]
+  },
+  {
+    "name": "income-calculator",
+    "url": "http://127.0.0.1:3001/calc/individual-income-percentile/",
+    "fetchedAt": "2026-09-13T02:41:08.467Z",
+    "mode": "mobile simulated",
+    "scores": {
+      "performance": 82,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100
+    },
+    "metrics": {
+      "lcpMs": 3845.1202,
+      "tbtMs": 68,
+      "cls": 0.02922402822760189
+    },
+    "failedAudits": [
+      {
+        "id": "errors-in-console",
+        "title": "Browser errors were logged to the console"
+      },
+      {
+        "id": "bf-cache",
+        "title": "Page prevented back/forward cache restoration"
+      }
+    ]
+  }
+]

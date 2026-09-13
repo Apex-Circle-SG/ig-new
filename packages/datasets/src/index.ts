@@ -14,3 +14,4 @@ export function getIndividualIncomeDistribution(): IncomeDistribution | null {
 }
 
 export type { DatasetVersion, IncomeDistribution, IncomeBracket } from '@insightginie/schema';
+export { incomeDistributionRows, incomeDistributionCsv, incomeOverviewGroups } from './income-export';

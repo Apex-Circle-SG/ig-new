@@ -11,9 +11,12 @@ WorkingDirectory=/root/ig-new/apps/web
 Environment=NODE_ENV=production
 Environment=NEXT_BUILD_DIR=.next-live
 Environment=NEXT_TELEMETRY_DISABLED=1
-Environment=SITE_INDEXABLE=false
+Environment=SITE_INDEXABLE=true
 Environment=NEXT_PUBLIC_ADS_ENABLED=true
 Environment=ADSENSE_CLIENT_ID=ca-pub-8735749779872017
+Environment=ANALYTICS_DIRECTORY=/var/lib/insightginie/analytics
+EnvironmentFile=-/etc/insightginie/runtime.env
+StateDirectory=insightginie
 ExecStart=/usr/bin/node /root/ig-new/node_modules/next/dist/bin/next start --hostname 127.0.0.1 --port 3000
 Restart=always
 RestartSec=3

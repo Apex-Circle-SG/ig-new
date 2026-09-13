@@ -27,3 +27,12 @@ export function safeJsonLd(value: unknown) {
   return JSON.stringify(value).replace(/</g, '\\u003c');
 }
 export { evaluatePageQuality, type PageCandidate } from './quality';
+export {
+  PUBLIC_INDEXABLE_PATHS,
+  PUBLIC_AD_PATHS,
+  PUBLIC_ROUTE_IDS,
+  publicRouteId,
+  siteIsIndexable,
+  isPublicIndexablePath,
+  isPublicAdvertisingPath,
+} from './routes';

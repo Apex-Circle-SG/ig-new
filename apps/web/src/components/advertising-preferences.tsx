@@ -36,9 +36,10 @@ export function AdvertisingPreferences({
           <div>
             <h2>A choice about advertising</h2>
             <p>
-              Allow Google AdSense on our public data and methodology pages to help support
-              InsightGinie. Google may use cookies and device information. Your calculators stay
-              separate from advertising scripts. <a href="/privacy/#cookies">Privacy details</a>
+              Advertising supports our free public tools and data. Google may use cookies and device
+              information. Calculator inputs run in a separate protected frame and are never sent to
+              advertisers. You can change your choice here.{' '}
+              <a href="/privacy/#cookies">Privacy details</a>
             </p>
           </div>
           <div className="advertising-preference-actions">

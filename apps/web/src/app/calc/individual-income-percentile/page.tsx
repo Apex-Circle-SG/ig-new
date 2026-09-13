@@ -3,12 +3,10 @@ import type { Metadata } from 'next';
 import { SiteLink as Link } from '@insightginie/ui';
 import { ArrowRight, Check, ChevronRight, Database } from 'lucide-react';
 import { getIndividualIncomeDistribution } from '@insightginie/datasets';
-import { calculateIndividualIncomePercentile } from '@insightginie/calculators';
 import { breadcrumbSchema, safeJsonLd, webApplicationSchema } from '@insightginie/seo';
-import { IncomeTool } from '../../../components/income-tool';
-import { ViewEvent } from '../../../components/view-event';
+import { PrivateIncomeTool } from '../../../components/private-income-tool';
 export const metadata: Metadata = {
-  title: 'Individual Income Percentile Calculator',
+  title: 'US Individual Income Percentile Calculator',
   description:
     'See how your annual individual income compares with US people age 15 and over using Census data. Free, private, and transparent about assumptions.',
   alternates: { canonical: '/calc/individual-income-percentile/' },
@@ -16,16 +14,8 @@ export const metadata: Metadata = {
 export default async function Calculator() {
   const nonce = (await headers()).get('x-nonce') ?? undefined;
   const distribution = getIndividualIncomeDistribution();
-  const initialOutput = calculateIndividualIncomePercentile(
-    { annualIncome: 75000 },
-    {
-      distribution,
-      calculatedAt: distribution?.datasetVersion.retrievedAt ?? '2026-09-12T00:00:00.000Z',
-    },
-  );
   return (
     <div className="shell calculator-page">
-      <ViewEvent />
       <script
         type="application/ld+json"
         nonce={nonce}
@@ -57,7 +47,7 @@ export default async function Calculator() {
       </nav>
       <div className="calculator-heading">
         <div className="eyebrow">A CLEARER VIEW OF YOUR INCOME</div>
-        <h1>Where does your income stand?</h1>
+        <h1>US individual income percentile calculator</h1>
         <p>See how your annual income compares with people across the United States.</p>
         <div className="tool-badges">
           <span>
@@ -71,7 +61,7 @@ export default async function Calculator() {
           <span>No account needed</span>
         </div>
       </div>
-      <IncomeTool distribution={distribution} initialOutput={initialOutput} />
+      <PrivateIncomeTool />
       <div className="below-tool-grid">
         <section>
           <div className="eyebrow">BEYOND THE NUMBER</div>
@@ -93,6 +83,10 @@ export default async function Calculator() {
           <Link prefetch={false} className="text-link" href="/methodology/individual-income/">
             Read the full methodology <ArrowRight size={16} />
           </Link>
+          <p>
+            <Link href="/data/us-income-distribution/">Explore the US income distribution</Link> to
+            see the underlying bands and download the source-derived table.
+          </p>
         </section>
         <aside className="source-card">
           <span className="feature-icon violet">

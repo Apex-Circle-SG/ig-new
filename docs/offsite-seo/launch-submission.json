@@ -1,0 +1,51 @@
+{
+  "generatedAt": "2026-09-13T02:50:08.834Z",
+  "mode": "submit",
+  "site": "https://insightginie.com",
+  "sitemap": "https://insightginie.com/sitemap.xml",
+  "note": "A received submission is a discovery notification, not proof or a promise of indexing.",
+  "validation": "passed",
+  "providers": [
+    {
+      "provider": "indexnow",
+      "status": "accepted_pending_key_validation",
+      "keyLocation": "https://insightginie.com/indexnow-key.txt",
+      "batches": [
+        {
+          "httpStatus": 202,
+          "urlCount": 13
+        }
+      ]
+    },
+    {
+      "provider": "google-search-console",
+      "status": "skipped",
+      "reason": "GOOGLE_SEARCH_CONSOLE_ACCESS_TOKEN_missing"
+    },
+    {
+      "provider": "bing-webmaster",
+      "status": "skipped",
+      "reason": "BING_WEBMASTER_API_KEY_missing"
+    }
+  ],
+  "urlCount": 13,
+  "urls": [
+    "https://insightginie.com/",
+    "https://insightginie.com/about/",
+    "https://insightginie.com/calc/",
+    "https://insightginie.com/calc/individual-income-percentile/",
+    "https://insightginie.com/contact/",
+    "https://insightginie.com/data/",
+    "https://insightginie.com/data/census-cps/",
+    "https://insightginie.com/data/us-income-distribution/",
+    "https://insightginie.com/editorial-policy/",
+    "https://insightginie.com/methodology/",
+    "https://insightginie.com/methodology/individual-income/",
+    "https://insightginie.com/privacy/",
+    "https://insightginie.com/terms/"
+  ],
+  "sitemaps": [
+    "https://insightginie.com/sitemap.xml"
+  ],
+  "urlsSha256": "538e41848cca3517a4abcc5ea6d9b7adba7aba2f626a35e3b91ab5ece1b3ce06"
+}

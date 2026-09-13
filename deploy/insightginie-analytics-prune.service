@@ -1,0 +1,17 @@
+[Unit]
+Description=Remove expired InsightGinie aggregate analytics
+
+[Service]
+Type=oneshot
+User=root
+Environment=ANALYTICS_DIRECTORY=/var/lib/insightginie/analytics
+EnvironmentFile=-/etc/insightginie/runtime.env
+ExecStart=/usr/bin/node /root/ig-new/scripts/operations/prune-analytics.mjs
+StateDirectory=insightginie
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=-/var/lib/insightginie/analytics
+TimeoutStartSec=60
+SyslogIdentifier=insightginie-analytics-prune

@@ -1,12 +1,15 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { AD_PREFERENCE_COOKIE, advertisingEnabled, isAdvertisingPage } from '@insightginie/ads';
+import { AD_PREFERENCE_COOKIE, advertisingEnabled, advertisingPolicy } from '@insightginie/ads';
 
 export function proxy(request: NextRequest) {
   const nonce = Buffer.from(crypto.randomUUID()).toString('base64');
-  const allowAds =
-    advertisingEnabled() &&
-    isAdvertisingPage(request.nextUrl.pathname) &&
-    request.cookies.get(AD_PREFERENCE_COOKIE)?.value === 'allow';
+  const allowAds = advertisingPolicy({
+    enabled: advertisingEnabled(),
+    pathname: request.nextUrl.pathname,
+    country: request.headers.get('cf-ipcountry'),
+    preference: request.cookies.get(AD_PREFERENCE_COOKIE)?.value,
+    globalPrivacyControl: request.headers.get('sec-gpc') === '1',
+  }).load;
   const allowEval = allowAds || process.env.NODE_ENV === 'development';
   const csp = [
     `default-src 'self'${allowAds ? ' https: data: blob:' : ''}`,
@@ -15,7 +18,7 @@ export function proxy(request: NextRequest) {
     `img-src 'self' data:${allowAds ? ' https: blob:' : ''}`,
     `font-src 'self'${allowAds ? ' https: data:' : ''}`,
     `connect-src 'self'${allowAds ? ' https:' : ''}`,
-    `frame-src ${allowAds ? 'https:' : "'none'"}`,
+    `frame-src 'self'${allowAds ? ' https:' : ''}`,
     "frame-ancestors 'none'",
     "base-uri 'none'",
     "form-action 'self'",
@@ -33,6 +36,6 @@ export function proxy(request: NextRequest) {
 
 export const config = {
   matcher: [
-    '/((?!api/|_next/|ads\\.txt|robots\\.txt|sitemap\\.xml|icon\\.svg|opengraph-image|favicon\\.ico|fonts\\.css).*)',
+    '/((?!api/|tools/|embed/|_next/|ads\\.txt|indexnow-key\\.txt|robots\\.txt|sitemap\\.xml|icon\\.svg|opengraph-image|favicon\\.ico|fonts\\.css).*)',
   ],
 };

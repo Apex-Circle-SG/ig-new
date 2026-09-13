@@ -1,0 +1,9 @@
+{
+  "deployedAt": "2026-09-13T02:49:58.270510+00:00",
+  "port": 3000,
+  "service": "insightginie-web",
+  "health": "ok",
+  "analyticsRetentionTimer": "enabled",
+  "rollbackDirectory": "/root/ig-new/artifacts/releases/pre-seo-20260913T024956Z",
+  "buildId": "VAf7t-9Dy0NJXwXKfc1Wf"
+}

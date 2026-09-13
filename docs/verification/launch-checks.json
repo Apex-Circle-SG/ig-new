@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-13",
+  "lint": "passed",
+  "typecheck": "passed",
+  "build": "passed",
+  "vitest": {
+    "passed": 112,
+    "files": 8
+  },
+  "nodeTests": {
+    "discovery": 15,
+    "analyticsRetention": 2,
+    "status": "passed"
+  },
+  "playwright": {
+    "passed": 22,
+    "status": "passed",
+    "evidence": "launch-playwright.txt"
+  },
+  "viewports": [
+    320,
+    375,
+    390,
+    430,
+    768,
+    1280
+  ],
+  "axe": "No violations in tested WCAG 2.2 AA flows",
+  "realGoogleAds": {
+    "publicScriptStatus": 200,
+    "creativeObserved": true,
+    "adClicks": 0
+  },
+  "note": "The full browser suite ran before a final copy-only spacing correction in three homepage headings. The final rebuild passed; the corrected headings and calculator were verified through the public domain."
+}

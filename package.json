@@ -11,6 +11,9 @@
     "node": ">=22.0.0"
   },
   "scripts": {
+    "predev": "node scripts/build-calculator-embed.mjs",
+    "prebuild": "node scripts/build-calculator-embed.mjs",
+    "pretypecheck": "node scripts/build-calculator-embed.mjs",
     "dev": "npm run dev --workspace @insightginie/web",
     "build": "npm run build --workspace @insightginie/web",
     "start": "npm run start --workspace @insightginie/web",
@@ -18,13 +21,14 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:e2e": "playwright test",
-    "test:all": "npm run lint && npm run typecheck && npm test && NEXT_PUBLIC_ADS_ENABLED=true npm run build && npm run test:e2e",
+    "test:all": "npm run lint && npm run typecheck && npm test && SITE_INDEXABLE=true NEXT_PUBLIC_ADS_ENABLED=true npm run build && npm run test:e2e",
     "ingest:census": "tsx apps/ingest/src/census.ts",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "tsx packages/database/src/migrate.ts",
     "audit:legacy": "python3 scripts/legacy-url-audit/crawl.py"
   },
   "devDependencies": {
+    "esbuild": "^0.28.2",
     "@axe-core/playwright": "^4.11.1",
     "@playwright/test": "^1.58.2",
     "@types/node": "^24.10.0",

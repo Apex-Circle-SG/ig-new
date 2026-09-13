@@ -12,6 +12,7 @@ playwright-report/
 test-results/
 backups/
 artifacts/
+apps/web/src/generated/
 *.tsbuildinfo
 graphify-out/
 __pycache__/

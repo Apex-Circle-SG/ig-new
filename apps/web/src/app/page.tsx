@@ -13,21 +13,33 @@ import {
   ShieldCheck,
   Sparkles,
 } from 'lucide-react';
+import { safeJsonLd } from '@insightginie/seo';
 import { getIndividualIncomeDistribution } from '@insightginie/datasets';
 import { calculateIndividualIncomePercentile } from '@insightginie/calculators';
-import { safeJsonLd } from '@insightginie/seo';
-import { IncomeTool } from '../components/income-tool';
+import { PrivateIncomeTool } from '../components/private-income-tool';
 import { Command } from '../components/command';
 export default async function Home() {
   const nonce = (await headers()).get('x-nonce') ?? undefined;
   const distribution = getIndividualIncomeDistribution();
-  const initialOutput = calculateIndividualIncomePercentile(
+  const example = calculateIndividualIncomePercentile(
     { annualIncome: 75000 },
     {
       distribution,
       calculatedAt: distribution?.datasetVersion.retrievedAt ?? '2026-09-12T00:00:00.000Z',
     },
   );
+  const preview =
+    distribution && example.result?.percentile != null
+      ? {
+          incomeLabel: new Intl.NumberFormat('en-US', {
+            style: 'currency',
+            currency: 'USD',
+            maximumFractionDigits: 0,
+          }).format(example.result.annualIncome),
+          percentileLabel: `${Math.floor(example.result.percentile * 10) / 10}%`,
+          year: distribution.datasetVersion.year,
+        }
+      : null;
   return (
     <>
       <script
@@ -82,7 +94,7 @@ export default async function Home() {
           <div className="preview-label">
             <Sparkles size={14} /> A number becomes an insight
           </div>
-          <IncomeTool distribution={distribution} initialOutput={initialOutput} compact />
+          <PrivateIncomeTool compact preview={preview} />
           <div className="preview-footnote">
             <LockIcon />
             Your financial picture belongs to you.
@@ -140,7 +152,7 @@ export default async function Home() {
               <span className="pill available">Ready to explore</span>
             </div>
             <h3>
-              Where does my
+              Where does my{' '}
               <br />
               income stand?
             </h3>
@@ -158,7 +170,7 @@ export default async function Home() {
               <span className="pill">Up next</span>
             </div>
             <h3>
-              What if I moved
+              What if I moved{' '}
               <br />
               somewhere new?
             </h3>
@@ -176,7 +188,7 @@ export default async function Home() {
               <span className="pill">Up next</span>
             </div>
             <h3>
-              What actually
+              What actually{' '}
               <br />
               comes home?
             </h3>

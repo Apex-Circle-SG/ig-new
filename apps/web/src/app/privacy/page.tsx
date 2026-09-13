@@ -10,10 +10,10 @@ export default function Privacy() {
   return (
     <Document
       title="Your financial picture belongs to you."
-      eyebrow="PRIVACY · CURRENT PREVIEW"
+      eyebrow="PRIVACY"
       lead="The first calculator works without an account, an email address or saving your income."
     >
-      <p className="document-meta">Policy version: September 12, 2026</p>
+      <p className="document-meta">Policy version: September 13, 2026</p>
       <section>
         <h2>Calculator inputs</h2>
         <p>
@@ -29,8 +29,8 @@ export default function Privacy() {
         <p>
           Loading the website sends ordinary web requests to its hosting infrastructure. A deployed
           host may process IP addresses, requested paths, browser information and security logs.
-          Financial inputs are not part of those requests. Hosting retention settings must be
-          configured and disclosed before a public production launch.
+          Financial inputs are not part of those requests. Cloudflare handles delivery and security
+          at the edge. The application does not store individual access histories.
         </p>
       </section>
       <section id="cookies">
@@ -42,10 +42,11 @@ export default function Privacy() {
           reloads to apply it.
         </p>
         <p>
-          If you allow advertising, Google AdSense may load on our public data and methodology
-          pages. Google may process your IP address, browser or device information, page context and
-          cookies to deliver, measure and protect ads. Google may request additional choices where
-          applicable. Read{' '}
+          Google AdSense may load on our public pages, including pages containing calculators. We
+          wait for your choice in the EEA, UK, Switzerland or when your region is unknown; otherwise
+          advertising normally loads unless you have declined it. Google may process your IP
+          address, browser or device information, page context and cookies to deliver, measure and
+          protect ads. Google may request additional choices where applicable. Read{' '}
           <a
             href="https://policies.google.com/technologies/partner-sites"
             rel="noopener noreferrer"
@@ -55,10 +56,22 @@ export default function Privacy() {
           .
         </p>
         <p>
-          Advertising scripts do not load in the homepage calculator or individual-income tool.
-          Navigation into those pages starts a fresh document so advertising code cannot access your
-          calculator inputs. Declining advertising does not limit the tools or source pages. No
-          third-party analytics provider is enabled.
+          Your calculator runs in a browser sandbox that prevents the surrounding page’s advertising
+          scripts from reading its inputs or results. Only the frame’s size, a request to copy the
+          public tool link, and general interaction events leave the calculator. Declining
+          advertising does not limit the tools or source pages. We request non-personalized ads when
+          a Global Privacy Control signal is present, and after an advertising choice in regions
+          where we wait for consent. Google may present additional regional choices.
+        </p>
+      </section>
+      <section>
+        <h2>Anonymous usage counts</h2>
+        <p>
+          We count page visits and general calculator interactions, such as starting or completing a
+          calculation. We keep daily totals for up to 30 days. These totals contain no income,
+          result, profile, IP address, device identifier or individual browsing history. No
+          third-party analytics provider is enabled. Temporary in-memory request limits help prevent
+          abuse.
         </p>
       </section>
       <section>
@@ -70,11 +83,11 @@ export default function Privacy() {
         </p>
       </section>
       <section>
-        <h2>Contact and production review</h2>
+        <h2>Privacy questions and corrections</h2>
         <p>
-          A privacy contact and hosting-specific retention terms are pending configuration. They are
-          required before production launch. This policy describes the preview’s implemented
-          behavior and will be updated before additional collection begins.
+          Use the reporting options on our <a href="/contact/">Contact page</a>. Public issue
+          reports must not include personal financial information or other confidential details.
+          This policy will be updated before additional collection begins.
         </p>
       </section>
     </Document>

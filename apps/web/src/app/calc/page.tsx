@@ -2,7 +2,7 @@ import { SiteLink as Link } from '@insightginie/ui';
 import type { Metadata } from 'next';
 import { ArrowUpRight, BarChart3 } from 'lucide-react';
 export const metadata: Metadata = {
-  title: 'Calculators',
+  title: 'US Income Calculators',
   description:
     'Explore personal income with source-backed, private calculators. Start with your US individual income percentile.',
   alternates: { canonical: '/calc/' },
@@ -11,8 +11,11 @@ export default function Calculators() {
   return (
     <div className="shell listing-page">
       <div className="eyebrow">YOUR NUMBERS, WITH CONTEXT</div>
-      <h1>A good place to start.</h1>
-      <p className="page-lead">Useful calculations. Real sources. A clearer next move.</p>
+      <h1>Income calculators, with real US data.</h1>
+      <p className="page-lead">
+        Compare your individual income with a published US Census distribution. See the source,
+        assumptions and limitations alongside your result.
+      </p>
       <Link prefetch={false} href="/calc/individual-income-percentile/" className="catalog-card">
         <span className="feature-icon violet">
           <BarChart3 />
@@ -33,6 +36,14 @@ export default function Calculators() {
         <Link prefetch={false} href="/methodology/">
           How we validate our calculations →
         </Link>
+      </section>
+      <section className="roadmap-note">
+        <h2>Explore the distribution behind the result</h2>
+        <p>
+          See the published income bands, comparison population and downloadable data used by the
+          calculator before entering your own number.
+        </p>
+        <Link href="/data/us-income-distribution/">Explore US individual income data →</Link>
       </section>
     </div>
   );

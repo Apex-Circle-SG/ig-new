@@ -1,0 +1,58 @@
+[
+  {
+    "name": "home-mobile",
+    "base": "http://127.0.0.1:3001",
+    "path": "/",
+    "width": 390,
+    "status": 200,
+    "canonical": "https://insightginie.com/",
+    "robots": "index, follow",
+    "h1Count": 1,
+    "errors": [],
+    "provider": [
+      200
+    ],
+    "events": [
+      204,
+      204
+    ],
+    "overflow": false
+  },
+  {
+    "name": "data-mobile",
+    "base": "http://127.0.0.1:3001",
+    "path": "/data/us-income-distribution/",
+    "width": 390,
+    "status": 200,
+    "canonical": "https://insightginie.com/data/us-income-distribution/",
+    "robots": "index, follow",
+    "h1Count": 1,
+    "errors": [],
+    "provider": [
+      200
+    ],
+    "events": [
+      204
+    ],
+    "overflow": false
+  },
+  {
+    "name": "calculator-desktop",
+    "base": "http://127.0.0.1:3001",
+    "path": "/calc/individual-income-percentile/",
+    "width": 1440,
+    "status": 200,
+    "canonical": "https://insightginie.com/calc/individual-income-percentile/",
+    "robots": "index, follow",
+    "h1Count": 1,
+    "errors": [],
+    "provider": [
+      200
+    ],
+    "events": [
+      204,
+      204
+    ],
+    "overflow": false
+  }
+]

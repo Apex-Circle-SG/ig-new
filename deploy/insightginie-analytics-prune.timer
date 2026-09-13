@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily InsightGinie aggregate analytics retention
+
+[Timer]
+OnCalendar=*-*-* 00:15:00 UTC
+Persistent=true
+Unit=insightginie-analytics-prune.service
+
+[Install]
+WantedBy=timers.target

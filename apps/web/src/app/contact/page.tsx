@@ -2,23 +2,34 @@ import type { Metadata } from 'next';
 import { SiteLink as Link } from '@insightginie/ui';
 import { Document } from '../../components/document';
 export const metadata: Metadata = {
-  title: 'Contact',
+  title: 'Contact and Calculator Corrections',
   description:
-    'How to prepare a calculator correction or source question during the InsightGinie preview.',
+    'Report an InsightGinie calculator issue or data correction, and find the source version and methodology needed to explain your question.',
   alternates: { canonical: '/contact/' },
-  robots: { index: false, follow: true },
 };
 export default function Contact() {
   return (
     <Document
-      title="Good insights welcome questions."
+      title="Contact and calculator corrections"
       eyebrow="CONTACT & CORRECTIONS"
       lead="Help make the workings clearer."
     >
-      <div className="document-callout">
-        The support channel is not yet configured for this preview. No form submission or message
-        collection is enabled.
-      </div>
+      <section>
+        <h2>Report an issue</h2>
+        <p>
+          Use the project’s public GitHub issue tracker for calculator bugs, source questions,
+          accessibility problems and corrections. A GitHub account is required to submit an issue.
+          Reports are public, so use hypothetical examples and do not include your income, contact
+          details, credentials or other private information.
+        </p>
+        <a href="https://github.com/Apex-Circle-SG/ig-new/issues/new">
+          Open an InsightGinie issue on GitHub →
+        </a>
+        <p>
+          We do not currently provide a private support inbox. The issue tracker is for product
+          feedback, not personal financial advice.
+        </p>
+      </section>
       <section>
         <h2>For a data or calculation issue</h2>
         <p>

@@ -21,7 +21,6 @@ const config: NextConfig = {
         source: '/:path*',
         headers: [
           { key: 'X-Content-Type-Options', value: 'nosniff' },
-          { key: 'X-Frame-Options', value: 'DENY' },
           { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
           {
             key: 'Permissions-Policy',
@@ -31,6 +30,13 @@ const config: NextConfig = {
           ...(process.env.SITE_INDEXABLE === 'true' && process.env.VERCEL_ENV !== 'preview'
             ? []
             : [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }]),
+        ],
+      },
+      {
+        source: '/tools/:path*',
+        headers: [
+          { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+          { key: 'X-Robots-Tag', value: 'noindex, nofollow' },
         ],
       },
     ];

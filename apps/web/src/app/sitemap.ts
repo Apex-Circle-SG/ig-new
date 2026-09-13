@@ -1,17 +1,8 @@
 import type { MetadataRoute } from 'next';
+import { canonical, PUBLIC_INDEXABLE_PATHS, siteIsIndexable } from '@insightginie/seo';
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  if (process.env.SITE_INDEXABLE !== 'true' || process.env.VERCEL_ENV === 'preview') return [];
-  return [
-    '/',
-    '/calc/',
-    '/calc/individual-income-percentile/',
-    '/data/',
-    '/data/census-cps/',
-    '/methodology/',
-    '/methodology/individual-income/',
-    '/about/',
-    '/editorial-policy/',
-    '/privacy/',
-    '/terms/',
-  ].map((path) => ({ url: `https://insightginie.com${path}` }));
+  if (!siteIsIndexable()) return [];
+  // Do not claim today's date as a content update on every build.
+  return PUBLIC_INDEXABLE_PATHS.map((path) => ({ url: canonical(path) }));
 }

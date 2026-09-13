@@ -8,13 +8,14 @@ public-data snapshot and needs no remote database. The application is
 TypeScript/JavaScript running on Node.js with Next.js; Python is used only for
 legacy audit tooling. Cloudflared can connect to port **3000** on the same host.
 
-The tunnel and its public hostname are managed by the operator. No Vercel project,
-deployment token, or hosted database is configured. External tunnel behavior must
-be verified after the tunnel is connected.
+The operator's Cloudflare tunnel connects `https://insightginie.com` to this
+service. No Vercel project, deployment token, or hosted database is configured.
+Verify the public hostname after every release.
 
-Production WordPress remains separate. Do not change DNS, remove WordPress,
-delete its publishing system, or apply legacy dispositions until the backup and
-migration gates in [the migration plan](migration-plan.md) pass.
+The local legacy WordPress publisher was removed in an earlier operator-approved
+cleanup. Remote legacy hosting and the preserved URL inventory remain separate.
+This SEO release does not apply legacy redirects or delete remote backups;
+dispositions still require the evidence in [the migration plan](migration-plan.md).
 
 ## Background service on this host
 
@@ -38,7 +39,7 @@ installation on the same host:
 
 ```sh
 npm ci
-NEXT_BUILD_DIR=.next-live NEXT_PUBLIC_ADS_ENABLED=true npm run build
+SITE_INDEXABLE=true NEXT_BUILD_DIR=.next-live NEXT_PUBLIC_ADS_ENABLED=true npm run build
 sudo install -m 0644 deploy/insightginie-web.service /etc/systemd/system/insightginie-web.service
 sudo systemctl daemon-reload
 sudo systemctl enable --now insightginie-web
@@ -48,7 +49,7 @@ Build before installing the unit because its writable Next.js cache path must
 exist. Avoid rebuilding in place while serving traffic; stop the service for a
 maintenance release or prepare a separate release directory. Runtime source
 files are read-only to the service, except for the Next.js build/cache directory.
-Search indexing remains disabled for this preview.
+The reviewed public routes now use SITE_INDEXABLE=true; preview deployments must retain false.
 
 For a temporary tunnel, the operator can run:
 
@@ -129,7 +130,7 @@ and advertising disabled. Keep the canonical host consistent while sending
 non-indexing directives on previews. Use preview access protection when available.
 
 The first calculator needs no database, LLM, email or Census API key at request
-time. AdSense uses the public publisher ID and an opt-in loading boundary described
+time. AdSense uses the public publisher ID and a regional loading policy described
 in [advertising](advertising.md). Only configure other optional providers when their integration has
 been implemented and tested. Server secrets must never use `NEXT_PUBLIC_` names.
 For PostgreSQL, use a direct TLS connection for migrations and a separately scoped
@@ -145,9 +146,25 @@ navigation, source links, public health response, canonical metadata, and robots
 checks at the deployed URL. Record URL, commit, date and evidence in the release
 report. Lab Lighthouse scores do not prove field Core Web Vitals targets.
 
-Before public cutover: complete and restore-test the WordPress files/database
-backup; finish legacy URL review and redirect/410 tests; validate domain/TLS/CDN;
-set up error/uptime alerts; review policies and obtain human trademark clearance;
-then explicitly authorize the cutover. Enable production indexing only when these
-gates pass. Roll back by restoring the prior deployment and routing, preserving
-dataset/scenario history rather than destructive database rollback.
+The current application is already public. The September 13 operator request
+authorizes indexing the 13 reviewed application routes. Legacy migration and
+future expansion remain separate: preserve and restore-test remote backups,
+review URL dispositions, configure external alerts, and complete policy and
+human trademark review. No legacy article batch is published or redirected by
+this release. Roll back by restoring the prior deployment and service unit,
+preserving dataset history rather than destructively rolling back data.
+
+## September 2026 launch configuration
+
+The hosted unit enables indexing and advertising, reads `/etc/insightginie/runtime.env`
+for INDEXNOW_KEY, and uses systemd StateDirectory `insightginie`. Daily aggregate
+counters live under `/var/lib/insightginie/analytics`. A daily persistent timer
+runs `insightginie-analytics-prune.service` independently of visitor activity.
+Install the checked-in service/timer units and enable the timer after deployment.
+Do not import the repository Git credentials into the web service.
+
+INDEXNOW_KEY is a random ownership-verification value served at
+`/indexnow-key.txt`; it is separate from account credentials. Generate it once,
+preserve it between releases, and submit only verified live sitemap URLs using
+[scripts/seo](../scripts/seo/README.md). Google/Bing account APIs remain optional
+and require their own authorized credentials.

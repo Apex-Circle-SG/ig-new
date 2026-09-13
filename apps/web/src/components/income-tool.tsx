@@ -6,6 +6,7 @@ import type { IncomeDistribution, IndividualIncomeResult } from '@insightginie/s
 import { IncomeChart } from '@insightginie/charts';
 import { track } from '@insightginie/analytics';
 import { useHydrated } from './use-hydrated';
+import { requestPublicToolShare } from '../embed/share';
 const money = (value: number) =>
   new Intl.NumberFormat('en-US', {
     style: 'currency',
@@ -20,10 +21,12 @@ export function IncomeTool({
   distribution,
   initialOutput,
   compact = false,
+  embedded = false,
 }: {
   distribution: IncomeDistribution | null;
   initialOutput: IndividualIncomeResult;
   compact?: boolean;
+  embedded?: boolean;
 }) {
   const ready = useHydrated();
   const [income, setIncome] = useState('75000');
@@ -67,9 +70,11 @@ export function IncomeTool({
   }
   async function copyLink() {
     try {
-      await navigator.clipboard.writeText(
-        'https://insightginie.com/calc/individual-income-percentile/',
-      );
+      if (embedded) await requestPublicToolShare();
+      else
+        await navigator.clipboard.writeText(
+          'https://insightginie.com/calc/individual-income-percentile/',
+        );
       setCopied(true);
       track('calculator_result_shared', {
         calculator_id: 'individual-income-percentile',
@@ -267,7 +272,12 @@ export function IncomeTool({
             <Check size={13} />
           </span>
           <span>US Census Bureau · {distribution?.datasetVersion.year ?? '—'} income</span>
-          <Link prefetch={false} href="/data/census-cps/">
+          <Link
+            prefetch={false}
+            href={embedded ? 'https://insightginie.com/data/census-cps/' : '/data/census-cps/'}
+            target={embedded ? '_blank' : undefined}
+            rel={embedded ? 'noopener noreferrer' : undefined}
+          >
             Source & method <ArrowRight size={12} />
           </Link>
         </div>
@@ -310,7 +320,16 @@ export function IncomeTool({
             <strong>An estimate, with context.</strong> Published income bands do not reveal
             everyone’s exact income. We interpolate within closed bands and show ranges at open
             ends. A percentile is a comparison—not a measure of financial health.{' '}
-            <Link prefetch={false} href="/methodology/individual-income/">
+            <Link
+              prefetch={false}
+              href={
+                embedded
+                  ? 'https://insightginie.com/methodology/individual-income/'
+                  : '/methodology/individual-income/'
+              }
+              target={embedded ? '_blank' : undefined}
+              rel={embedded ? 'noopener noreferrer' : undefined}
+            >
               See all assumptions
             </Link>
             .

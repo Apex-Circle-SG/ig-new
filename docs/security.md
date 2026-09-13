@@ -68,20 +68,20 @@ Record an incident timeline without copying user financial data. See the
 
 ## Nonces and advertising isolation
 
-HTML receives a per-request nonce and strict-dynamic CSP from Next.js Proxy.
-Framework scripts, explicit JSON-LD and the consented AdSense script use the
-nonce. HTML is dynamically rendered with private/no-store caching; shared HTML
-caching would invalidate both nonces and consent isolation.
+Public HTML receives per-request nonce/strict-dynamic CSP and no-store/no-transform.
+AdSense is permitted on reviewed public documents subject to regional choices.
+Personal calculator inputs/results run in an opaque-origin sandbox, enforced
+both by iframe attributes and the response CSP. No allow-same-origin is granted.
+The tool has no network access, cookies or storage; CSP form-action none blocks
+native submissions even though allow-forms is needed for React submit handling.
+Only bounded frame size, fixed event enums and generic sharing messages pass to
+an exact parent/child window. Source links are static and open separate tabs.
+See [advertising](advertising.md) for the supported provider/CSP boundary.
 
-Calculator routes restrict resources to their own origin and forbid production
-eval. Consented public-information pages permit Google's dynamic advertising
-resources and eval, as required by its supported CSP integration. Native document
-navigation prevents a previously loaded provider from accessing calculator state.
-Embedding, objects and external form actions remain blocked. See
-[advertising operations](advertising.md) for the exact boundary and account-side
-consent requirements. Account/admin mutation controls remain future work.
-
-Financial controls are disabled until hydration and have no named form fields.
-Even a native submission after JavaScript failure cannot serialize income into a
-GET URL. Browser regression tests cover normal use, disabled JavaScript and failed
-chunk loading.
+The aggregate analytics endpoint is the only new public write endpoint. It
+accepts a small strict schema of known events/route IDs, enforces same-origin
+browser metadata, limits bodies and request rates, and writes daily counters.
+No financial input, raw URL, IP or user identifier is persisted. The deployment
+uses a dedicated state directory and independent daily retention maintenance.
+See [analytics](analytics.md) for scope and operating limits. This lightweight
+single-host counter is not an authenticated profile or general telemetry API.

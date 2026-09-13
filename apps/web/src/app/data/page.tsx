@@ -25,6 +25,14 @@ export default function Data() {
         </Link>
       </section>
       <section>
+        <h2>Explore the US income distribution</h2>
+        <p>
+          See population shares across income bands, sort the complete table, download the CSV, or
+          embed a source-attributed chart in your own resource.
+        </p>
+        <Link href="/data/us-income-distribution/">Open the income data explorer →</Link>
+      </section>
+      <section>
         <h2>Coverage grows with confidence</h2>
         <p>
           Regional prices, occupation wages, household income and tax rules are planned next. No

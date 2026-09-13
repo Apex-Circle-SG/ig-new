@@ -2,7 +2,11 @@
 
 Understand where you stand. See what changes next.
 
-A US consumer decision-intelligence platform built around public data and deterministic calculators. This repository delivers the **first vertical slice**, not the full product or a WordPress cutover.
+A US consumer decision platform built around public data and deterministic calculators.
+
+[Try the income calculator](https://insightginie.com/calc/individual-income-percentile/) · [Explore the US income distribution](https://insightginie.com/data/us-income-distribution/) · [Sources and methodology](https://insightginie.com/methodology/individual-income/)
+
+The current release includes a private browser calculator, a downloadable Census-based income table, an embeddable chart, and transparent source documentation. Household, location and career products remain on the roadmap.
 
 ## Run locally
 
@@ -21,9 +25,10 @@ Open http://localhost:3000. The homepage and `/calc/individual-income-percentile
 npm run lint
 npm run typecheck
 npm test
-NEXT_PUBLIC_ADS_ENABLED=true npm run build
+SITE_INDEXABLE=true NEXT_PUBLIC_ADS_ENABLED=true npm run build
 npx playwright install chromium
 npm run test:e2e
+node --test scripts/seo/discovery.test.mjs
 python3 -m unittest discover -s scripts/legacy-url-audit -p 'test_*.py'
 python3 scripts/legacy-url-audit/validate.py docs/legacy/url-inventory.csv.gz
 npm audit
@@ -51,9 +56,9 @@ Public Census spreadsheets are archived with SHA-256 checksums. Validation rejec
 
 ## Delivery boundaries
 
-The local production application is hosted by the `insightginie-web` systemd service on `127.0.0.1:3000`, ready for the operator's Cloudflare tunnel. See [service management](docs/deployment.md#background-service-on-this-host). AdSense is integrated on opted-in public data/methodology pages; see [advertising](docs/advertising.md). No remote database or Vercel deployment is configured. The local legacy publishing automation was removed at the operator's request; the remote WordPress installation has not been deleted. Public response snapshots are not a complete WordPress backup. No programmatic salary pages, account storage, chatbot, email or billing are enabled.
+The production application is hosted by the `insightginie-web` systemd service on `127.0.0.1:3000` through Cloudflare. See [service management](docs/deployment.md#background-service-on-this-host). AdSense covers reviewed public pages with regional privacy handling; personal calculations run inside an isolated browser frame. See [advertising](docs/advertising.md), [SEO launch](docs/seo-launch.md), and [offsite discovery](scripts/seo/README.md). No remote database or Vercel deployment is configured. The local legacy publishing automation was removed at the operator's request; the remote WordPress installation has not been deleted. Public response snapshots are not a complete WordPress backup. No programmatic salary pages, account storage, chatbot, email or billing are enabled.
 
-Never commit `.env`, credentials, private profile data or raw operational secrets. The production cutover requires a complete WordPress database/files backup, reviewed URL dispositions, traffic/backlink evidence, configured support/retention terms and human legal/trademark clearance.
+Never commit `.env`, credentials, private profile data or raw operational secrets. Legacy URL migration remains subject to a complete WordPress database/files backup and reviewed URL dispositions with traffic/backlink evidence. Private support, external monitoring and human policy/trademark review remain operator tasks; the current public release does not claim those are complete.
 
 ## Documentation
 

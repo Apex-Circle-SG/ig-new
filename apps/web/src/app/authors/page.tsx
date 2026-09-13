@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function Authors() {
   return (
     <Document
-      title="Real people. Accountable work."
+      title="Authors and reviewers"
       eyebrow="AUTHORS & REVIEWERS"
       lead="Authorship should tell you who stands behind an article."
     >

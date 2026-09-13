@@ -22,7 +22,6 @@
     "@insightginie/seo": "*",
     "@insightginie/analytics": "*",
     "@insightginie/ads": "*",
-    "@insightginie/config": "*",
-    "@insightginie/ads": "*"
+    "@insightginie/config": "*"
   }
 }

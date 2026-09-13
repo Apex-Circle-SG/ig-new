@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-09-13T02:35:37.697Z",
+  "mode": "dry-run",
+  "site": "https://insightginie.com",
+  "sitemap": "https://insightginie.com/sitemap.xml",
+  "note": "A received submission is a discovery notification, not proof or a promise of indexing.",
+  "validation": "failed",
+  "providers": [],
+  "reason": "empty_sitemap"
+}

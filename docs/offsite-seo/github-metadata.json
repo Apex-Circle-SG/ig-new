@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/Apex-Circle-SG/ig-new",
+  "description": "US income comparisons and transparent financial calculators built on authoritative public data.",
+  "homepage": "https://insightginie.com",
+  "topics": [
+    "census-data",
+    "income-calculator",
+    "nextjs",
+    "open-data",
+    "personal-finance",
+    "typescript"
+  ]
+}

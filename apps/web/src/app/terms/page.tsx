@@ -3,7 +3,7 @@ import { Document } from '../../components/document';
 export const metadata: Metadata = {
   title: 'Terms of Use',
   description:
-    'Use InsightGinie as educational context. Understand the scope, source limitations and current preview status.',
+    'Use InsightGinie as educational context. Understand the scope of its tools and source limitations.',
   alternates: { canonical: '/terms/' },
 };
 export default function Terms() {
@@ -36,7 +36,7 @@ export default function Terms() {
       <section>
         <h2>Preview availability</h2>
         <p>
-          Features and datasets may change. This preview has no paid services or user accounts.
+          Features and datasets may change. This release has no paid services or user accounts.
           Operating entity details, support arrangements and final legal terms must be reviewed
           before public production launch.
         </p>

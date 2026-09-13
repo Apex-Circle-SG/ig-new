@@ -6,6 +6,7 @@ export default defineConfig([
   ...nextTs,
   { settings: { next: { rootDir: 'apps/web/' } } },
   globalIgnores([
+    'apps/web/src/generated/**',
     '**/.next/**',
     '**/.next-live/**',
     '**/.next-candidate/**',

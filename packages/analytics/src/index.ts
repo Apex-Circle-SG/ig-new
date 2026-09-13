@@ -34,3 +34,4 @@ export function track(event: AnalyticsEvent, properties: SafeProperties) {
     /* Analytics must never prevent a calculation. */
   }
 }
+export { createFirstPartyProvider, sendAggregateEvent } from './browser';

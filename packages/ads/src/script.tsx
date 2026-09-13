@@ -2,9 +2,24 @@
 
 import { useEffect } from 'react';
 
-export function AdSenseScript({ clientId, nonce }: { clientId: string; nonce: string }) {
+export function AdSenseScript({
+  clientId,
+  nonce,
+  nonPersonalized = false,
+}: {
+  clientId: string;
+  nonce: string;
+  nonPersonalized?: boolean;
+}) {
   useEffect(() => {
     if (document.getElementById('insightginie-adsense')) return;
+    const adWindow = window as Window & {
+      adsbygoogle?: unknown[] & { requestNonPersonalizedAds?: number };
+    };
+    const privacySignal = (navigator as Navigator & { globalPrivacyControl?: boolean })
+      .globalPrivacyControl;
+    adWindow.adsbygoogle ??= [];
+    if (nonPersonalized || privacySignal) adWindow.adsbygoogle.requestNonPersonalizedAds = 1;
     // Google may insert elements immediately; start only after React has hydrated.
     const script = document.createElement('script');
     script.id = 'insightginie-adsense';
@@ -15,6 +30,6 @@ export function AdSenseScript({ clientId, nonce }: { clientId: string; nonce: st
     script.crossOrigin = 'anonymous';
     document.head.appendChild(script);
     // Native navigation/withdrawal replaces the document and all provider code.
-  }, [clientId, nonce]);
+  }, [clientId, nonce, nonPersonalized]);
   return null;
 }
