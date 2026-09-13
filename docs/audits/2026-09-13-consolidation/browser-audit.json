@@ -1,0 +1,1203 @@
+{
+  "coverage": "All 13 approved main pages plus explicitly listed viewport/blog-template samples; not every blog URL.",
+  "adPolicy": "Ad/analytics requests blocked during automated crawling to avoid generating impressions or analytics events.",
+  "records": [
+    {
+      "url": "https://insightginie.com/",
+      "kind": "main-public",
+      "width": 390,
+      "measuredAt": "2026-09-13T06:02:39.300Z",
+      "errors": [],
+      "status": 200,
+      "rendered": {
+        "title": "InsightGinie — Understand where you stand",
+        "canonical": "https://insightginie.com/",
+        "h1": [
+          "Understandwhere you stand."
+        ],
+        "language": "en-US",
+        "overflow": false,
+        "wordCount": 311,
+        "images": []
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "917be78def7a3fb1b4d8ab18d7a91edefcfca2cf293eb6c768a61ac795729538",
+        "renderedTextHash": "33d23da92e93cda827a39719942e4b89a07899efc63ab4096ed8fb0bd675e875",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ],
+        "passedRules": 26,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "blockedTelemetryAndAdRequests": [
+        "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        "insightginie.com/api/events/"
+      ]
+    },
+    {
+      "url": "https://insightginie.com/calc/",
+      "kind": "main-public",
+      "width": 390,
+      "measuredAt": "2026-09-13T06:02:41.389Z",
+      "errors": [],
+      "status": 200,
+      "rendered": {
+        "title": "US Income Calculators | InsightGinie",
+        "canonical": "https://insightginie.com/calc/",
+        "h1": [
+          "Income calculators, with real US data."
+        ],
+        "language": "en-US",
+        "overflow": false,
+        "wordCount": 113,
+        "images": []
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "32ad8fb8525191fd5abd2d7a2aad08b840ca2ce87bc23508e88a0637281f6c3c",
+        "renderedTextHash": "e687053eb82c258f531061decd328519830db38d50b623574d24586537dd7669",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ],
+        "passedRules": 22,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "blockedTelemetryAndAdRequests": [
+        "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        "insightginie.com/api/events/"
+      ]
+    },
+    {
+      "url": "https://insightginie.com/calc/individual-income-percentile/",
+      "kind": "main-public",
+      "width": 390,
+      "measuredAt": "2026-09-13T06:02:43.021Z",
+      "errors": [],
+      "status": 200,
+      "rendered": {
+        "title": "US Individual Income Percentile Calculator | InsightGinie",
+        "canonical": "https://insightginie.com/calc/individual-income-percentile/",
+        "h1": [
+          "US individual income percentile calculator"
+        ],
+        "language": "en-US",
+        "overflow": false,
+        "wordCount": 205,
+        "images": []
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "46874c50271afc9f9505e0de4574e6492faae058b530cd71452bd21c021aec31",
+        "renderedTextHash": "99756fb01ebdd93522e70b54d1c9dbf73bfa308a72fcf7dc37632054287696c7",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ],
+        "passedRules": 32,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "blockedTelemetryAndAdRequests": [
+        "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        "insightginie.com/api/events/"
+      ]
+    },
+    {
+      "url": "https://insightginie.com/data/",
+      "kind": "main-public",
+      "width": 390,
+      "measuredAt": "2026-09-13T06:02:45.589Z",
+      "errors": [],
+      "status": 200,
+      "rendered": {
+        "title": "Our Data | InsightGinie",
+        "canonical": "https://insightginie.com/data/",
+        "h1": [
+          "Real sources. Open workings."
+        ],
+        "language": "en-US",
+        "overflow": false,
+        "wordCount": 123,
+        "images": []
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "45110fade3a9f7702cc788268d0399b2f90811f48956fe7f2c9623cc0936f821",
+        "renderedTextHash": "ca2f8caa22af638a8492d3b3442bd9fe34c4c961ddd8aad04d34b607339eb78a",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ],
+        "passedRules": 22,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "blockedTelemetryAndAdRequests": [
+        "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        "insightginie.com/api/events/"
+      ]
+    },
+    {
+      "url": "https://insightginie.com/data/census-cps/",
+      "kind": "main-public",
+      "width": 390,
+      "measuredAt": "2026-09-13T06:02:47.237Z",
+      "errors": [],
+      "status": 200,
+      "rendered": {
+        "title": "Census CPS Income Data | InsightGinie",
+        "canonical": "https://insightginie.com/data/census-cps/",
+        "h1": [
+          "The data behind your income insight."
+        ],
+        "language": "en-US",
+        "overflow": false,
+        "wordCount": 377,
+        "images": []
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "53639ed00a2c854fcef208aef631a0d64aac45b2ff5f2f8f13db4a782278ba16",
+        "renderedTextHash": "3a4846bd159a6d9a69b2fb18be95e33c5a490007ed368bc511a8cfa2683d1ece",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ],
+        "passedRules": 24,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "blockedTelemetryAndAdRequests": [
+        "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        "insightginie.com/api/events/"
+      ]
+    },
+    {
+      "url": "https://insightginie.com/data/us-income-distribution/",
+      "kind": "main-public",
+      "width": 390,
+      "measuredAt": "2026-09-13T06:02:49.550Z",
+      "errors": [],
+      "status": 200,
+      "rendered": {
+        "title": "US Individual Income Distribution: Census Data, Chart & CSV | InsightGinie",
+        "canonical": "https://insightginie.com/data/us-income-distribution/",
+        "h1": [
+          "US individual income distribution, 2024"
+        ],
+        "language": "en-US",
+        "overflow": false,
+        "wordCount": 618,
+        "images": []
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "7cd319fa1a654fd8406e6d727eda1ed73a91a951260bae31a994b0fc061af8a4",
+        "renderedTextHash": "9b12d50aee8ed195096882fd8c629fa59427c9a38631cde95b38ae2df3526d52",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ],
+        "passedRules": 29,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "blockedTelemetryAndAdRequests": [
+        "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        "insightginie.com/api/events/"
+      ]
+    },
+    {
+      "url": "https://insightginie.com/methodology/",
+      "kind": "main-public",
+      "width": 390,
+      "measuredAt": "2026-09-13T06:02:52.131Z",
+      "errors": [],
+      "status": 200,
+      "rendered": {
+        "title": "Methodology | InsightGinie",
+        "canonical": "https://insightginie.com/methodology/",
+        "h1": [
+          "You deserve to see the workings."
+        ],
+        "language": "en-US",
+        "overflow": false,
+        "wordCount": 208,
+        "images": []
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "cf2818d375ce1345963874d0f7d55760c64fa343e77463cc720d0788ebf28d40",
+        "renderedTextHash": "921334307e21396b5fe41fa6d171f8a93deae2e8bbdb7a0c4d12677fea27aaab",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ],
+        "passedRules": 22,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "blockedTelemetryAndAdRequests": [
+        "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        "insightginie.com/api/events/"
+      ]
+    },
+    {
+      "url": "https://insightginie.com/methodology/individual-income/",
+      "kind": "main-public",
+      "width": 390,
+      "measuredAt": "2026-09-13T06:02:53.694Z",
+      "errors": [],
+      "status": 200,
+      "rendered": {
+        "title": "Individual Income Percentile Methodology | InsightGinie",
+        "canonical": "https://insightginie.com/methodology/individual-income/",
+        "h1": [
+          "How we estimate your income percentile."
+        ],
+        "language": "en-US",
+        "overflow": false,
+        "wordCount": 375,
+        "images": []
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "e48e91ff77dbd146c54aedf538c6a4bbbad59ea5fbcedb021ace7b84d9063d69",
+        "renderedTextHash": "b637a736bb4db2e78f56edc717bdbb98505b09b36d06fa9126a4bdcc85228e0a",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ],
+        "passedRules": 22,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "blockedTelemetryAndAdRequests": [
+        "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        "insightginie.com/api/events/"
+      ]
+    },
+    {
+      "url": "https://insightginie.com/about/",
+      "kind": "main-public",
+      "width": 390,
+      "measuredAt": "2026-09-13T06:02:55.274Z",
+      "errors": [],
+      "status": 200,
+      "rendered": {
+        "title": "About InsightGinie and Our Data Principles | InsightGinie",
+        "canonical": "https://insightginie.com/about/",
+        "h1": [
+          "About InsightGinie"
+        ],
+        "language": "en-US",
+        "overflow": false,
+        "wordCount": 216,
+        "images": []
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "509aba25ee35cf497753738da162e8504d68ac9c647ca7ed69ba662748c47c8e",
+        "renderedTextHash": "e334f0d3bfc4423ea29f0a9b0cf9d126d22831bb5b89fa798e33a220d2f86c3e",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ],
+        "passedRules": 22,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "blockedTelemetryAndAdRequests": [
+        "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        "insightginie.com/api/events/"
+      ]
+    },
+    {
+      "url": "https://insightginie.com/editorial-policy/",
+      "kind": "main-public",
+      "width": 390,
+      "measuredAt": "2026-09-13T06:02:56.873Z",
+      "errors": [],
+      "status": 200,
+      "rendered": {
+        "title": "Editorial Policy | InsightGinie",
+        "canonical": "https://insightginie.com/editorial-policy/",
+        "h1": [
+          "Trust is part of the product."
+        ],
+        "language": "en-US",
+        "overflow": false,
+        "wordCount": 171,
+        "images": []
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "1836a2eb5361ecb47d1191a4d88cce04c06eda0226596ab8b623be9c71e4afcf",
+        "renderedTextHash": "60ff3d14c402d14e33ec6274670281577b8a031178bb249d3f53e73ef7e24eb7",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ],
+        "passedRules": 22,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "blockedTelemetryAndAdRequests": [
+        "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        "insightginie.com/api/events/"
+      ]
+    },
+    {
+      "url": "https://insightginie.com/privacy/",
+      "kind": "main-public",
+      "width": 390,
+      "measuredAt": "2026-09-13T06:02:58.453Z",
+      "errors": [],
+      "status": 200,
+      "rendered": {
+        "title": "Privacy | InsightGinie",
+        "canonical": "https://insightginie.com/privacy/",
+        "h1": [
+          "Your financial picture belongs to you."
+        ],
+        "language": "en-US",
+        "overflow": false,
+        "wordCount": 479,
+        "images": []
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "2eae089afa56c332b401834498ec5dcd3552333bbe477ec7ab8cdd7c9c385171",
+        "renderedTextHash": "afc75fa615bdf982b16670e06777ea5bce0456549839ceb1e3066598ad62e642",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ],
+        "passedRules": 23,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "blockedTelemetryAndAdRequests": [
+        "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        "insightginie.com/api/events/"
+      ]
+    },
+    {
+      "url": "https://insightginie.com/terms/",
+      "kind": "main-public",
+      "width": 390,
+      "measuredAt": "2026-09-13T06:03:00.104Z",
+      "errors": [],
+      "status": 200,
+      "rendered": {
+        "title": "Terms of Use | InsightGinie",
+        "canonical": "https://insightginie.com/terms/",
+        "h1": [
+          "Use insight with context."
+        ],
+        "language": "en-US",
+        "overflow": false,
+        "wordCount": 172,
+        "images": []
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "8a9a570ada17c7e5eb8568db8cbcde24bdb487bb80c47be24d5f0c5141b6f0b0",
+        "renderedTextHash": "86ece5f10b3c095070a3d2076a85107b50c41781f6f42471b6c41068e4b83795",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ],
+        "passedRules": 22,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "blockedTelemetryAndAdRequests": [
+        "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        "insightginie.com/api/events/"
+      ]
+    },
+    {
+      "url": "https://insightginie.com/contact/",
+      "kind": "main-public",
+      "width": 390,
+      "measuredAt": "2026-09-13T06:03:01.706Z",
+      "errors": [],
+      "status": 200,
+      "rendered": {
+        "title": "Contact and Calculator Corrections | InsightGinie",
+        "canonical": "https://insightginie.com/contact/",
+        "h1": [
+          "Contact and calculator corrections"
+        ],
+        "language": "en-US",
+        "overflow": false,
+        "wordCount": 158,
+        "images": []
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "35b8469bf45fa39f037afa761e7c849bb4d741afa4fcca71271c24adaad149b1",
+        "renderedTextHash": "8cb5e45a14392b1a5ab86beb0c928f191353194bdf37a3a2a455eba0421ee7f1",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ],
+        "passedRules": 22,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "blockedTelemetryAndAdRequests": [
+        "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        "insightginie.com/api/events/"
+      ]
+    },
+    {
+      "url": "https://insightginie.com/",
+      "kind": "main-desktop",
+      "width": 1280,
+      "measuredAt": "2026-09-13T06:03:03.465Z",
+      "errors": [],
+      "status": 200,
+      "rendered": {
+        "title": "InsightGinie — Understand where you stand",
+        "canonical": "https://insightginie.com/",
+        "h1": [
+          "Understandwhere you stand."
+        ],
+        "language": "en-US",
+        "overflow": false,
+        "wordCount": 316,
+        "images": []
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "917be78def7a3fb1b4d8ab18d7a91edefcfca2cf293eb6c768a61ac795729538",
+        "renderedTextHash": "a3c600f8c4ca7dd3d8ad78ffd6989dbb980a9421ea6bc56d0aa14e69a77943de",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ],
+        "passedRules": 25,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "screenshot": "main-desktop-1280.png",
+      "blockedTelemetryAndAdRequests": [
+        "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        "insightginie.com/api/events/"
+      ]
+    },
+    {
+      "url": "https://insightginie.com/calc/individual-income-percentile/",
+      "kind": "main-narrow",
+      "width": 320,
+      "measuredAt": "2026-09-13T06:03:05.730Z",
+      "errors": [],
+      "status": 200,
+      "rendered": {
+        "title": "US Individual Income Percentile Calculator | InsightGinie",
+        "canonical": "https://insightginie.com/calc/individual-income-percentile/",
+        "h1": [
+          "US individual income percentile calculator"
+        ],
+        "language": "en-US",
+        "overflow": false,
+        "wordCount": 205,
+        "images": []
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "46874c50271afc9f9505e0de4574e6492faae058b530cd71452bd21c021aec31",
+        "renderedTextHash": "99756fb01ebdd93522e70b54d1c9dbf73bfa308a72fcf7dc37632054287696c7",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ],
+        "passedRules": 32,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "blockedTelemetryAndAdRequests": [
+        "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        "insightginie.com/api/events/"
+      ]
+    },
+    {
+      "url": "https://blog.insightginie.com/",
+      "kind": "blog-template-sample",
+      "width": 390,
+      "measuredAt": "2026-09-13T06:03:08.144Z",
+      "errors": [],
+      "status": 200,
+      "rendered": {
+        "title": "Insight Ginie - Stay Ahead of Tomorrow’s Story",
+        "canonical": "https://blog.insightginie.com/",
+        "h1": [
+          "Insight Ginie"
+        ],
+        "language": "en-US",
+        "overflow": false,
+        "wordCount": 1460,
+        "images": [
+          {
+            "src": "https://blog.insightginie.com/wp-content/uploads/2026/03/8149.jpg",
+            "alt": "Self Host AI Tools: A Guide for Local Performance & Privacy — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 390,
+            "naturalHeight": 390,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "Inside the AI Power Race: Why DFW Could be the Backbone of the Next Industrial Revolution — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "Inside the AI Power Race: Why DFW Could be the Backbone of the Next Industrial Revolution — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "Teen Swimmer Missing at Rockaway Beach: Emergency Search and Water Safety Analysis — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "What is CMMI? A Comprehensive Guide to Optimizing Development Processes — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "How To Write A Successful Business Plan For A Loan — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "Bermuda High Pressure Ridge Driving Record East Coast Heat Wave — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "Self Host AI Tools: A Guide for Local Performance & Privacy — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "How to Get Into Quantitative Trading: A Career Guide — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "MIT Breaks Barriers: Shrinking Light-Based Devices 2,000 Times for the Future of Optical Computing — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "Pop Psychology With a Twist: Rewiring How We View Human Behavior — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "Teen Swimmer Missing at Rockaway Beach: Emergency Search and Water Safety Analysis — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "The Efficiency of Nature-Inspired Metaheuristics in Limited-Budget Expensive Global Optimization — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "CETOL 6σ v11.5 3D Tolerance Analysis Software Now Available from Sigmetrix — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "Lean Six Sigma White Belt Online: Your Comprehensive Guide to Getting Started — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "Bermuda High Pressure Ridge Driving Record East Coast Heat Wave — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "Pop Psychology With a Twist: Rewiring How We View Human Behavior — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "Lean Six Sigma White Belt Online: Your Comprehensive Guide to Getting Started — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "What Is an AI Agent Engineer? A Comprehensive Guide — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "What is CMMI? A Comprehensive Guide to Optimizing Development Processes — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "Bermuda High Pressure Ridge Driving Record East Coast Heat Wave — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "Candlestick Patterns: A Guide to Reliable Trading Signals — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "Twist Bioscience Corp. (TWST) Rallied on Record-Breaking Quarterly Report: A Deep Dive — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "Twist Bioscience Corp. (TWST) Rallied on Record-Breaking Quarterly Report: A Deep Dive — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          },
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+            "alt": "Self Host AI Tools: A Guide for Local Performance & Privacy — Insight Ginie illustration",
+            "width": 213,
+            "height": 213,
+            "naturalWidth": 512,
+            "naturalHeight": 512,
+            "complete": true
+          }
+        ]
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "4d0cda81b2595e487c5519c376ae6392681c776e8bc1765f21a067eeee0ca3d5",
+        "renderedTextHash": "00c8272cae623b61865fac931a99d73fc2f85f0376fd458aecdbb64d9e72e383",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "aria-valid-attr-value",
+          "color-contrast"
+        ],
+        "passedRules": 25,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "screenshot": "blog-template-sample-390.png",
+      "blockedTelemetryAndAdRequests": [
+        "static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495"
+      ]
+    },
+    {
+      "url": "https://blog.insightginie.com/how-does-ai-work-dougdoug-style-systems-explained/",
+      "kind": "blog-template-sample",
+      "width": 390,
+      "measuredAt": "2026-09-13T06:03:13.833Z",
+      "errors": [],
+      "status": 200,
+      "rendered": {
+        "title": "How Does AI Work? DougDoug-Style Systems Explained - Insight Ginie",
+        "canonical": "https://blog.insightginie.com/how-does-ai-work-dougdoug-style-systems-explained/",
+        "h1": [
+          "How Does AI Work? DougDoug-Style Systems Explained"
+        ],
+        "language": "en-US",
+        "overflow": true,
+        "wordCount": 2535,
+        "images": [
+          {
+            "src": "https://blog.insightginie.com/wp-content/uploads/2026/03/8149.jpg",
+            "alt": "Self Host AI Tools: A Guide for Local Performance & Privacy — Insight Ginie illustration",
+            "width": 330,
+            "height": 330,
+            "naturalWidth": 390,
+            "naturalHeight": 390,
+            "complete": true
+          }
+        ]
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "5def8c4f61869365e89b0123277d0e303d95db9f8dfc8855bc344537900d9516",
+        "renderedTextHash": "353637b4848f5f060630ae5cef289e3e629e5008cfd2b5dbec7607c22d32e89a",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "aria-valid-attr-value",
+          "color-contrast"
+        ],
+        "passedRules": 27,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "blockedTelemetryAndAdRequests": [
+        "static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495"
+      ]
+    },
+    {
+      "url": "https://blog.insightginie.com/about/",
+      "kind": "blog-template-sample",
+      "width": 390,
+      "measuredAt": "2026-09-13T06:03:16.764Z",
+      "errors": [],
+      "status": 200,
+      "rendered": {
+        "title": "About Insight Ginie - Insight Ginie",
+        "canonical": "https://blog.insightginie.com/about/",
+        "h1": [
+          "About Insight Ginie"
+        ],
+        "language": "en-US",
+        "overflow": false,
+        "wordCount": 198,
+        "images": []
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "8b4071ab8fb9738e078ea0368ad4c95f9c8e42545ea52ae3ae1ef474cc576fa6",
+        "renderedTextHash": "731abbdda18bd1afc1b3f83800f0c2c98fc2e5d37b1d7e42c8aff3a783801dea",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "aria-valid-attr-value"
+        ],
+        "passedRules": 24,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "blockedTelemetryAndAdRequests": [
+        "static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495"
+      ]
+    },
+    {
+      "url": "https://blog.insightginie.com/contact/",
+      "kind": "blog-template-sample",
+      "width": 390,
+      "measuredAt": "2026-09-13T06:03:19.030Z",
+      "errors": [],
+      "status": 200,
+      "rendered": {
+        "title": "Contact Insight Ginie - Insight Ginie",
+        "canonical": "https://blog.insightginie.com/contact/",
+        "h1": [
+          "Contact Insight Ginie"
+        ],
+        "language": "en-US",
+        "overflow": false,
+        "wordCount": 96,
+        "images": []
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "c6bed3e520d315fc1c87299b3ee205fd5690a97ee9640528cdac8da9e331ce76",
+        "renderedTextHash": "30d2b6b74f4dbd410419a9ae2e1311e0d40dff8890823d64e69a1b6f761bd968",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "aria-valid-attr-value"
+        ],
+        "passedRules": 24,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "blockedTelemetryAndAdRequests": [
+        "static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495"
+      ]
+    },
+    {
+      "url": "https://blog.insightginie.com/editorial-policy/",
+      "kind": "blog-template-sample",
+      "width": 390,
+      "measuredAt": "2026-09-13T06:03:21.208Z",
+      "errors": [],
+      "status": 200,
+      "rendered": {
+        "title": "Editorial Policy - Insight Ginie",
+        "canonical": "https://blog.insightginie.com/editorial-policy/",
+        "h1": [
+          "Editorial Policy"
+        ],
+        "language": "en-US",
+        "overflow": false,
+        "wordCount": 248,
+        "images": []
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "b2bb5da483e5494a97cb8bf98b86bc7c464c879387ac8147cb629e342a35e407",
+        "renderedTextHash": "81f0f99502ebaae7d1e29eae866b6a4cf45507274d7fc42b0bf6bfa11116424d",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "aria-valid-attr-value"
+        ],
+        "passedRules": 24,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "blockedTelemetryAndAdRequests": [
+        "static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495"
+      ]
+    },
+    {
+      "url": "https://blog.insightginie.com/privacy-policy/",
+      "kind": "blog-template-sample",
+      "width": 390,
+      "measuredAt": "2026-09-13T06:03:24.999Z",
+      "errors": [],
+      "status": 200,
+      "rendered": {
+        "title": "Privacy Policy - Insight Ginie",
+        "canonical": "https://blog.insightginie.com/privacy-policy/",
+        "h1": [
+          "Privacy Policy"
+        ],
+        "language": "en-US",
+        "overflow": false,
+        "wordCount": 594,
+        "images": []
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "be4256c2080ae1f0cd0ac2dd1dab7cee19f591b2012866a7df185237e3665a5e",
+        "renderedTextHash": "e4d8667fe5a1055b2447bdb06c6739f280008d9b63e6f78653b2f52b08493e49",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "aria-valid-attr-value",
+          "color-contrast"
+        ],
+        "passedRules": 24,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "blockedTelemetryAndAdRequests": [
+        "static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495"
+      ]
+    },
+    {
+      "url": "https://blog.insightginie.com/page/2/",
+      "kind": "blog-template-sample",
+      "width": 390,
+      "measuredAt": "2026-09-13T06:03:29.324Z",
+      "errors": [],
+      "status": 429,
+      "rendered": {
+        "title": "",
+        "h1": [],
+        "language": "",
+        "overflow": false,
+        "wordCount": 1,
+        "images": []
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "renderedTextHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [
+          {
+            "id": "document-title",
+            "impact": "serious",
+            "description": "Ensure each HTML document contains a non-empty <title> element",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/document-title?application=playwright",
+            "nodes": [
+              {
+                "target": [
+                  "html"
+                ],
+                "failureSummary": "Fix any of the following:\n  Document does not have a non-empty <title> element"
+              }
+            ]
+          },
+          {
+            "id": "html-has-lang",
+            "impact": "serious",
+            "description": "Ensure every HTML document has a lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/html-has-lang?application=playwright",
+            "nodes": [
+              {
+                "target": [
+                  "html"
+                ],
+                "failureSummary": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+              }
+            ]
+          }
+        ],
+        "incomplete": [],
+        "passedRules": 1,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "blockedTelemetryAndAdRequests": []
+    },
+    {
+      "url": "https://blog.insightginie.com/?s=income",
+      "kind": "blog-template-sample",
+      "width": 390,
+      "measuredAt": "2026-09-13T06:03:30.474Z",
+      "errors": [],
+      "status": 429,
+      "rendered": {
+        "title": "",
+        "h1": [],
+        "language": "",
+        "overflow": false,
+        "wordCount": 1,
+        "images": []
+      },
+      "sourceVersusRendered": {
+        "titleChanged": false,
+        "canonicalChanged": false,
+        "h1Changed": false,
+        "imageCountChanged": false,
+        "sourceTextHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "renderedTextHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "note": "Source textContent and visible innerText differ in hidden elements and scripts; differing hashes alone do not prove cloaking."
+      },
+      "accessibility": {
+        "violations": [
+          {
+            "id": "document-title",
+            "impact": "serious",
+            "description": "Ensure each HTML document contains a non-empty <title> element",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/document-title?application=playwright",
+            "nodes": [
+              {
+                "target": [
+                  "html"
+                ],
+                "failureSummary": "Fix any of the following:\n  Document does not have a non-empty <title> element"
+              }
+            ]
+          },
+          {
+            "id": "html-has-lang",
+            "impact": "serious",
+            "description": "Ensure every HTML document has a lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/html-has-lang?application=playwright",
+            "nodes": [
+              {
+                "target": [
+                  "html"
+                ],
+                "failureSummary": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+              }
+            ]
+          }
+        ],
+        "incomplete": [],
+        "passedRules": 1,
+        "note": "Automated findings are not a WCAG conformance certification."
+      },
+      "blockedTelemetryAndAdRequests": []
+    }
+  ]
+}

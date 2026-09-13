@@ -1,0 +1,130 @@
+{
+  "audit_version": "consolidation-audit-v1",
+  "generated_at": "2026-09-13T06:07:43.066868+00:00",
+  "phase": "1 \u2014 inspection only",
+  "phase1_complete": false,
+  "application_modified": false,
+  "production_deployed": false,
+  "inventory": {
+    "blog_distinct_urls": 41211,
+    "blog_kinds": {
+      "homepage": 1,
+      "post": 9071,
+      "unknown": 20,
+      "page": 17,
+      "author": 1,
+      "category": 68,
+      "tag": 32033
+    },
+    "sitemap_documents": 46,
+    "rest_collections": {
+      "posts": {
+        "reported_total": 9071,
+        "fetched_items": 9071,
+        "fetched_pages": 91
+      },
+      "pages": {
+        "reported_total": 17,
+        "fetched_items": 17,
+        "fetched_pages": 1
+      },
+      "categories": {
+        "reported_total": 68,
+        "fetched_items": 68,
+        "fetched_pages": 1
+      },
+      "tags": {
+        "reported_total": 32045,
+        "fetched_items": 32045,
+        "fetched_pages": 321
+      }
+    }
+  },
+  "coverage": {
+    "total_url_records": 41236,
+    "measured_source_documents": 23,
+    "browser_checks": 23,
+    "browser_successful_200_checks": 21,
+    "rendered_blog_urls": "Explicit template sample only",
+    "full_source_crawl": "Paused after observed HTTP 429, incomplete",
+    "unknown_urls": "Unlinked, parameter combinations, attachments and server-log-only URLs require additional discovery; no exhaustive all-URL claim."
+  },
+  "reports": [
+    "docs/audits/2026-09-13-consolidation/url-records-00000.jsonl.gz",
+    "docs/audits/2026-09-13-consolidation/url-records-10000.jsonl.gz",
+    "docs/audits/2026-09-13-consolidation/url-records-20000.jsonl.gz",
+    "docs/audits/2026-09-13-consolidation/url-records-30000.jsonl.gz",
+    "docs/audits/2026-09-13-consolidation/url-records-40000.jsonl.gz"
+  ],
+  "migration_map": "MIGRATION_MAP.csv",
+  "migration": {
+    "rows": 41227,
+    "approved_redirects": 0,
+    "deployed_redirects": 0,
+    "note": "Candidates are not authorization to publish unreviewed archives or delete content."
+  },
+  "findings": [
+    {
+      "id": "HOST-01",
+      "classification": "VERIFIED_DEFECT",
+      "finding": "Blog homepage and sampled articles remain 200 with blog-host self canonicals; single canonical-host consolidation is not implemented.",
+      "evidence": "browser-audit.json"
+    },
+    {
+      "id": "LINK-01",
+      "classification": "VERIFIED_DEFECT",
+      "finding": "Two externally referenced main-domain articles return 404 while exact blog counterparts return 200.",
+      "evidence": "known-linked-url-checks.json"
+    },
+    {
+      "id": "MOBILE-01",
+      "classification": "VERIFIED_DEFECT",
+      "finding": "Sampled DougDoug article overflows the 390px viewport.",
+      "evidence": "browser-audit.json"
+    },
+    {
+      "id": "ROUTE-01",
+      "classification": "VERIFIED_DEFECT",
+      "finding": "Requested /insights/, /tools/, /research/ and /ask/ hubs are absent. /tools/income/ is an existing private calculator frame and must not be broken.",
+      "evidence": "infrastructure.json and measured-source.jsonl.gz"
+    },
+    {
+      "id": "RATE-01",
+      "classification": "UNAVAILABLE_EVIDENCE",
+      "finding": "Blog pagination and search browser probes returned HTTP 429; further blog crawl paused. Their error-page accessibility results do not describe the underlying templates.",
+      "evidence": "browser-audit.json"
+    },
+    {
+      "id": "SEARCH-01",
+      "classification": "UNAVAILABLE_EVIDENCE",
+      "finding": "No GSC/GA4/backlink/server-log export; no organic traffic, rankings, revenue or performance-based grandfathering baseline claimed.",
+      "evidence": "available-analytics.json"
+    },
+    {
+      "id": "CONTENT-01",
+      "classification": "INFERRED_RISK",
+      "finding": "32,033 tag URLs and unrelated legacy topics suggest archive dilution and inconsistent finance positioning. Counts do not establish low traffic or justify deletion.",
+      "evidence": "blog-inventory/crawl-summary.json"
+    },
+    {
+      "id": "BACKUP-01",
+      "classification": "UNAVAILABLE_EVIDENCE",
+      "finding": "Public metadata/HTML snapshots do not constitute a restorable WordPress database/media/configuration backup.",
+      "evidence": "MANUAL_REQUIRED.md"
+    },
+    {
+      "id": "AI-01",
+      "classification": "UNAVAILABLE_EVIDENCE",
+      "finding": "Bits Agent Builder documents workflow execution, but account entitlement, public-inference support and prompt-retention controls are unverified.",
+      "evidence": "docs/datadog-bits-requirements.md"
+    }
+  ],
+  "blocked_acceptance": [
+    "Full source/rendered crawl and internal-link completeness",
+    "Restorable WordPress backup and headless sync",
+    "Direct blog-host redirects and private backend",
+    "New finance products, reviewed editorial trust metadata and assistant",
+    "Datadog monitoring/inference account validation",
+    "Field Core Web Vitals and organic/revenue baselines"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "First-party aggregate event counters only; no sessions, referrer attribution, search queries, GSC clicks/impressions or backlinks. Counts include prior verification activity and are not an organic baseline.",
+  "days": [
+    {
+      "day": "2026-09-13",
+      "counters": {
+        "home|page_view||": 11,
+        "home|calculator_view|individual-income-percentile|": 11,
+        "home|calculator_completed|individual-income-percentile|form": 1,
+        "calc:individual-income-percentile|calculator_view|individual-income-percentile|": 1,
+        "calc:individual-income-percentile|page_view||": 1
+      }
+    }
+  ]
+}

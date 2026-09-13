@@ -1,0 +1,12 @@
+
+> insightginie@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.11 /root/ig-new
+
+
+ Test Files  8 passed (8)
+      Tests  112 passed (112)
+   Start at  14:04:27
+   Duration  5.27s (transform 465ms, setup 0ms, import 1.50s, tests 1.66s, environment 1ms)

@@ -1,0 +1,12 @@
+{
+  "scope": "Measured 200 source documents only; no cross-host duplicate absence claim.",
+  "groups": [
+    {
+      "sha256": "78bf28007483c05a1ab8ddcfa9ef41ea10a757dfd2b22b71a3af0411fd6800e4",
+      "urls": [
+        "https://insightginie.com/",
+        "https://insightginie.com/?utm_source=owner-audit"
+      ]
+    }
+  ]
+}

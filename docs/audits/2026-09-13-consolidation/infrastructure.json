@@ -1,0 +1,115 @@
+{
+  "observed_at": "2026-09-13",
+  "git_commit": "e9a5848f129811bb8ce6e31e0fd678feb5f8496a",
+  "framework": "Next.js App Router / React / TypeScript",
+  "root_dependencies": {
+    "esbuild": "^0.28.2",
+    "@axe-core/playwright": "^4.11.1",
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "dotenv": "^17.2.3",
+    "drizzle-kit": "^0.31.9",
+    "eslint": "^9.39.0",
+    "eslint-config-next": "16.3.5",
+    "fast-check": "^4.5.3",
+    "lighthouse": "^13.0.3",
+    "prettier": "^3.6.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  },
+  "web_dependencies": {
+    "next": "16.3.5",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "lucide-react": "^0.577.0",
+    "@insightginie/schema": "*",
+    "@insightginie/datasets": "*",
+    "@insightginie/calculators": "*",
+    "@insightginie/database": "*",
+    "@insightginie/ui": "*",
+    "@insightginie/charts": "*",
+    "@insightginie/seo": "*",
+    "@insightginie/analytics": "*",
+    "@insightginie/ads": "*",
+    "@insightginie/config": "*"
+  },
+  "deployment": {
+    "service": "insightginie-web",
+    "origin": "http://127.0.0.1:3000",
+    "build_directory": "apps/web/.next-live",
+    "edge": "Cloudflare Tunnel",
+    "active": "active"
+  },
+  "wordpress": {
+    "public_origin": "https://blog.insightginie.com",
+    "api": "/wp-json/wp/v2",
+    "origin_hosting": "Hostinger/LiteSpeed inferred from public header/theme evidence; account unavailable",
+    "public_ad_publisher_ids": [
+      "ca-pub-8735749779872017"
+    ],
+    "public_ga_measurement_ids": [],
+    "public_plugin_markers": [
+      "litespeed-cache",
+      "generatepress"
+    ],
+    "rest_namespaces": [
+      "oembed/1.0",
+      "litespeed/v1",
+      "litespeed/v3",
+      "yoast/v1",
+      "generatepress/v1",
+      "google-site-kit/v1",
+      "wp/v2",
+      "wp-site-health/v1",
+      "wp-block-editor/v1",
+      "wp-abilities/v1"
+    ]
+  },
+  "database": {
+    "schema": "PostgreSQL / Drizzle",
+    "production_connection_configured": false,
+    "runtime": "validated checked-in public Census snapshot",
+    "local_service": "postgresql@18-main active; application runtime connection not configured"
+  },
+  "analytics": {
+    "main": "first-party fixed aggregate counters, 30 UTC dates, no session IDs",
+    "GA4": "not configured in main app",
+    "GSC": "credentials/export absent"
+  },
+  "ads": {
+    "provider": "AdSense Auto ads",
+    "publisher_id": "ca-pub-8735749779872017",
+    "main_eligible_pages": 13,
+    "private_input_boundary": "opaque sandbox iframe at /tools/income/"
+  },
+  "datadog": {
+    "sdk_dependency_found": false,
+    "configured_keys": [],
+    "installed_account_documentation": "unavailable",
+    "agent_executable_present": false,
+    "agent_config_directory_present": false
+  },
+  "credentials_inventory_names_only": {
+    ".env": [
+      "GH_USER",
+      "GH_PAT"
+    ],
+    "/etc/insightginie/runtime.env": [
+      "INDEXNOW_KEY"
+    ]
+  },
+  "test_tooling": [
+    "Vitest",
+    "fast-check",
+    "Playwright",
+    "axe-core",
+    "Lighthouse",
+    "Node test runner",
+    "Python unittest",
+    "GitHub Actions"
+  ],
+  "dns_assumption": "Both public hosts resolve to Cloudflare edge addresses; DNS answers do not identify account-side origin records."
+}
