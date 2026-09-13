@@ -8,6 +8,10 @@ A US consumer decision platform built around public data and deterministic calcu
 
 The application includes seven private calculators, a source-grounded assistant at `/ask/`, finance tools at `/tools/`, editorial previews at `/insights/`, original data at `/research/`, trust policies and a protected operations dashboard. The six new engines cover AI workflow ROI, cash runway, break-even, business loans, drawdown recovery and portfolio concentration. Household, location and career products remain on the roadmap.
 
+Ginie also has an optional general-question mode. It requires an operator-reviewed
+Datadog agent with every tool disabled; its generated answers are labelled and
+are not cached or presented as verified sources. See [activation and privacy](docs/genie.md#general-answers-and-activation).
+
 ## Run locally
 
 Requires Node 22+ and npm. Public tools and approved-source Ask require no inference key. For local Ask requests set `APP_SITE_ORIGIN=http://localhost:3000` in `apps/web/.env.local` (match your actual browser origin). Optional integrations fail closed when unconfigured.
@@ -17,7 +21,7 @@ npm ci
 npm run dev
 ```
 
-Open http://localhost:3000. The homepage and `/calc/individual-income-percentile/` use a real, versioned US Census CPS PINC-11 distribution (2024 income, 2025 survey). Private calculator inputs are never transmitted. Questions submitted to Ask Ginie are processed transiently on the server without raw logging. When configured, Datadog selects approved public excerpts; it never receives the raw question or financial values. For $75,000 the income estimate is approximately 74.7th percentile among US people age 15 and over, including nonworkers.
+Open http://localhost:3000. The homepage and `/calc/individual-income-percentile/` use a real, versioned US Census CPS PINC-11 distribution (2024 income, 2025 survey). Private calculator inputs are never transmitted. Questions submitted to Ask Ginie are processed transiently on the server without raw logging. Source selection sends Datadog only public excerpts. Optional general mode sends a minimized current question after disclosure; Datadog may retain it. For $75,000 the income estimate is approximately 74.7th percentile among US people age 15 and over, including nonworkers.
 
 ## Verify
 

@@ -38,6 +38,25 @@ class ReleaseBoundaries(unittest.TestCase):
         with self.assertRaises(RuntimeError):
             promote.configure_ask_datadog({}, {'ASK_DATADOG_ENABLED': 'true'})
 
+    def test_general_provider_requires_review_bound_to_the_current_agent(self):
+        local = {'ASK_DATADOG_ENABLED': 'true', 'DD_API_KEY': 'a' * 32,
+                 'DD_APP_KEY': 'b' * 40, 'DD_REGION': 'AP1',
+                 'DD_AGENT_ID': '11111111-1111-4111-8111-111111111111',
+                 'DD_BITS_WORKFLOW_ID': '22222222-2222-4222-8222-222222222222'}
+        runtime = {}
+        promote.configure_ask_datadog(runtime, local)
+        self.assertEqual(runtime['ASK_DATADOG_GENERAL_ENABLED'], 'false')
+        for reviewed in [None, local['DD_BITS_WORKFLOW_ID']]:
+            with self.assertRaises(RuntimeError):
+                promote.configure_ask_datadog({}, {**local, 'ASK_DATADOG_GENERAL_ENABLED': 'true',
+                                                  'ASK_DATADOG_TOOL_FREE_AGENT_ID': reviewed})
+        promote.configure_ask_datadog(runtime, {**local, 'ASK_DATADOG_GENERAL_ENABLED': 'true',
+                                              'ASK_DATADOG_TOOL_FREE_AGENT_ID': local['DD_AGENT_ID']})
+        self.assertEqual(runtime['ASK_DATADOG_GENERAL_ENABLED'], 'true')
+        promote.configure_ask_datadog(runtime, local)
+        self.assertEqual(runtime['ASK_DATADOG_GENERAL_ENABLED'], 'false')
+        self.assertNotIn('ASK_DATADOG_TOOL_FREE_AGENT_ID', runtime)
+
     def test_environment_values_roundtrip_with_private_permissions(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / 'runtime.env'

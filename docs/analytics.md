@@ -28,7 +28,8 @@ Only these dimensions are accepted:
 
 - `event`: `page_view`, calculator view/start/completion/share/related-tool
   events, `tool_exported`, `article_engaged`, `organic_landing`,
-  `ask_answer_cited`, `ask_fallback` or `ask_refusal`. The exact names are
+  `ask_answer_cited`, `ask_answer_generated`, `ask_fallback` or `ask_refusal`.
+  Cited answers require citations; general AI answers use the generated event. The exact names are
   allowlisted in `packages/analytics/src/index.ts`.
 - `route_id`: a fixed reviewed public-route identifier from
   `packages/seo/src/routes.ts`, never a raw URL.

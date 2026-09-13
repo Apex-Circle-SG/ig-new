@@ -1,4 +1,4 @@
-# Ask Ginie: Datadog-backed source selection
+# Ask Ginie: sourced explanations and general questions
 
 Ginie at `/ask/` combines local approved-content retrieval, deterministic
 calculations and the configured Datadog Agent Builder workflow. The latest owner
@@ -9,7 +9,8 @@ Automation integration, not a claimed public Bits website-chat API.
 ## Answer path
 
 1. Validate the question, same-origin request, signed security token and rate limit.
-2. Apply local refusal and unsupported-live-data checks.
+2. Check actual identifiers/private-disclosure requests and unsupported live financial data.
+   Questions are not rejected just for mentioning APIs, taxes, investing or other topics.
 3. Run supported explicit income/drawdown calculations locally, without Datadog.
 4. Retrieve at most two approved public documents. Convert the question locally
    into one of four categories: overview, formula, assumptions or example.
@@ -19,14 +20,61 @@ Automation integration, not a claimed public Bits website-chat API.
 6. Accept only a strict JSON selection of 1–4 distinct, supplied excerpt IDs.
    Reconstruct the displayed text and citations from the original public source.
    Ignore all model prose; reject unknown IDs, extra keys or invalid output.
-7. Label the response as a live Datadog selection, cached Datadog selection,
-   local deterministic calculation or local fallback. A failure never masquerades
-   as a successful model answer.
+7. When no source matches, optionally send a minimized question to the isolated
+   general-answer provider described below.
+8. Label each response as source selection, deterministic calculation, general
+   AI answer or local fallback. A failure never masquerades as a model answer.
 
-The model selects source passages. It does not write unrestricted financial
-advice or calculate numbers. Approved tool explanations, source dates and primary
+The sourced path selects original passages; it does not replace calculated
+values with model output. Approved tool explanations, source dates and primary
 references are visible. Unreviewed WordPress previews and editorial briefs are
 excluded. Source matches do not imply that a passage resolves personal circumstances.
+
+## General answers and activation
+
+`generateGeneralAnswer` accepts one current question and returns a strict JSON
+`{message}` with at most 6,000 characters. It shares the existing lock, durable
+run ledger, cooldown, timeout, cancellation and credential boundaries. It does
+not create a second allowance. General questions, hashes and generated answers
+never enter the persistent source cache or application logs. Each request is
+independent; conversation history is not sent. Responses render as escaped text,
+with no model-generated citation or claim of source verification.
+
+The request still allows any topic; questions need not be financial. Actual
+credentials and recognizable identifiers are rejected before provider routing.
+Explicit currency amounts are omitted, and detected personal-finance questions
+have numeric values omitted. These heuristics are data minimization, not
+anonymization. The interface explains the omission and warns visitors not to
+submit confidential details. No live data feed or web browsing is available.
+
+General mode defaults off. Before activating it, the operator must disable
+**Datadog MCP, every other MCP connection and all Action Catalog actions** on the
+configured agent, save, reopen and verify those settings. A dedicated website
+agent is preferable if the existing agent also serves operational work. Keep
+Conversation ID unset in Run Agent. Official documentation says Run Agent uses
+the agent's configured tools and provides no per-request tool override:
+[Agent Builder](https://docs.datadoghq.com/actions/agents/),
+[editor screenshot](https://docs.dd-static.net/images/actions/agents/agent-builder-interface.a7d1f23bb07d7485f6813ac6154bb102.png).
+
+After that actual review, set protected server values:
+
+```dotenv
+ASK_DATADOG_ENABLED=true
+ASK_DATADOG_GENERAL_ENABLED=true
+ASK_DATADOG_TOOL_FREE_AGENT_ID=<the reviewed DD_AGENT_ID>
+```
+
+The final value is an operator attestation tied to the configured agent ID,
+**not machine verification of remote settings**. No documented Agent Builder
+configuration API was found. The owner has been asked to perform the console
+step; no review or unrestricted live execution is claimed before confirmation.
+When changing the agent or its tools, disable general mode and review again.
+The independent `ASK_DATADOG_GENERAL_ENABLED=false` kill switch leaves existing
+sourced explanations and local calculators available.
+
+The public form discloses Datadog processing before general submissions.
+Datadog may retain these prompts and answers. Only source-backed responses show
+source citations; general AI answers explicitly state that facts are not verified.
 
 ## Deterministic questions
 
@@ -69,7 +117,8 @@ its protection. Review a stale lock only after confirming no provider call is
 active. State files need durable shared storage before adding web replicas.
 
 Missing credentials, disabled provider, insufficient budget, concurrency,
-timeouts, rejected output and remote errors all return cited local sources.
+timeouts, rejected output and remote errors use local sources when available,
+or an explicit unavailable response when there is no matching source.
 `ASK_DATADOG_ENABLED=false` disables inference while leaving Ask available;
 `ASK_ENABLED=false` disables Ask. The private triage adapter's `DD_BITS_ENABLED`
 flag does not control this public-source selector.
@@ -78,8 +127,9 @@ flag does not control this public-source selector.
 
 Questions exist transiently in application memory; the browser retains at most
 six exchanges until reload. The application does not log or persist raw questions,
-answers or numeric examples. Datadog can retain the **public** task and selection
-under its account policy; no zero-retention claim is made. The account's internal
+answers or numeric examples. Datadog can retain both public selection tasks and,
+when enabled, general prompts and answers under its account policy. No provider
+zero-retention claim is made. The account's internal
 agent tools, model, service identity and exact retention are not independently
 verified by the workflow API. The fixed task instructs no tool use; strict local
 output validation prevents operational data from becoming a public answer.
@@ -87,16 +137,16 @@ output validation prevents operational data from becoming a public answer.
 Requests are 3–1,200 characters, at most 8 KiB JSON, with a five-second body read,
 ten-minute signed-cookie binding and bounded HMAC address buckets. The handler
 allows at most 30 active requests. Advertisements and browser recording are
-excluded from Ask. Recognized credential/instruction attacks, identifiers,
-trading recommendations, credit eligibility and individualized legal/tax advice
-receive local refusals. Matching rules are not complete language understanding;
-the absence of arbitrary visitor text in the provider packet is the primary
-prompt-injection boundary.
+excluded from Ask. Direct private-disclosure requests and recognized identifiers
+receive local privacy responses. Broad topic-based refusals were removed.
+Matching rules cannot identify every private value. General mode requires remote
+tool isolation; a prompt instruction alone is not that isolation.
 
 Essential monitoring stores only fixed daily counters, including Datadog live,
 cache and fallback totals, for 30 days locally. Feedback includes an issue
 category only. Optional browser analytics separately requires consent and honors
-DNT/GPC. No prompt or financial value is an analytics dimension.
+DNT/GPC. Generated answers use `ask_answer_generated`; `ask_answer_cited` requires
+actual citations. No prompt or financial value is an analytics dimension.
 
 ## Verification and operations
 

@@ -38,6 +38,7 @@ export const askOutputSchema = z.object({
     'approved-content-retrieval',
     'deterministic-calculator',
     'datadog-grounded-selection',
+    'datadog-general-answer',
   ]),
   provider: z
     .object({
@@ -48,6 +49,33 @@ export const askOutputSchema = z.object({
     .optional(),
 });
 export type AskAnswer = z.infer<typeof askOutputSchema>;
+
+/** Match disclosure requests and actual identifiers, not educational topic words. */
+export function questionPrivacyNotice(question: string): string | undefined {
+  if (
+    /^\s*(?:ignore|disregard|override)\b.{0,50}\b(?:instructions|rules|prompt)\b/i.test(question) ||
+    /\b(?:reveal|show|print|expose|dump|give\s+me)\s+(?:(?:your|the|our|server|internal|private)\s+){1,3}(?:system\s+prompt|api\s*key|application\s*key|credentials|secrets|account\s+data|telemetry)\b/i.test(
+      question,
+    )
+  )
+    return 'I can explain how systems and security work, but I cannot disclose private credentials, instructions or account data.';
+  if (
+    /\b\d{3}[- ]\d{2}[- ]\d{4}\b|[\w.+-]+@[\w.-]+\.[a-z]{2,}/i.test(question) ||
+    /\b(?:account|routing|card)\s*(?:number|no\.?|#)\s*(?:is\s*)?[:=]?\s*\d{5}/i.test(question) ||
+    /\b(?:sk-[a-z0-9_-]{16,}|gh[pousr]_[a-z0-9]{20,}|github_pat_[a-z0-9_]{20,}|[a-f0-9]{32,})\b/i.test(
+      question,
+    ) ||
+    /\b(?:api[_ -]?key|password|secret|access[_ -]?token)\s*[:=]\s*[^\s]{12,}/i.test(question) ||
+    /\b(?:\d[ -]?){13,19}\b/.test(question)
+  )
+    return 'Please remove personal identifiers or credentials and ask again. Do not include account numbers, email addresses or other confidential details.';
+}
+
+export function requiresLiveFinancialData(question: string) {
+  return /\b(today|latest|live|real[- ]time|current)\b.{0,35}\b(rate|rates|stock|stocks|price|prices|market)\b|\b(rate|stock|price)\b.{0,20}\btoday\b/i.test(
+    question,
+  );
+}
 
 const defaults = [
   { label: 'Explore the finance tools', path: '/tools/' },
@@ -120,47 +148,15 @@ export function answerFromApprovedContent(
     assumptions: [],
   };
   if (question.length < 3 || question.length > 1200) throw new Error('Invalid question length');
-  if (
-    /ignore\b.{0,45}\b(instructions|rules|prompt)|reveal\b.{0,35}\b(secret|prompt|key)|(?:execute|run)\b.{0,30}\b(shell|sql|command)|(?:api|application)\s*key|system\s*prompt/i.test(
-      question,
-    )
-  ) {
+  const privacyNotice = questionPrivacyNotice(question);
+  if (privacyNotice) {
     return askOutputSchema.parse({
       ...base,
       mode: 'refusal',
-      message:
-        'I can explain the published tools and methodology. I cannot reveal private instructions, credentials, account data or execute commands.',
+      message: privacyNotice,
     });
   }
-  if (
-    /\b\d{3}-\d{2}-\d{4}\b|[\w.+-]+@[\w.-]+\.[a-z]{2,}|\b(?:account|routing|card)\s*(?:number|no\.?|#)\b/i.test(
-      question,
-    )
-  ) {
-    return askOutputSchema.parse({
-      ...base,
-      mode: 'refusal',
-      message:
-        'Please remove personal identifiers and ask a general question. Do not include account numbers, email addresses or other private details.',
-    });
-  }
-  if (
-    /\bshould i\b.{0,70}\b(buy|sell|invest|borrow|trade)|\brecommend\b.{0,45}\b(stock|security|securities|investment|portfolio)|\bwhat\b.{0,45}\b(stock|crypto|coin)\b.{0,25}\bbuy|\b(am i|will i)\b.{0,35}\b(eligible|approved|qualify)|\b(my|personal)\s+(taxes|tax return|legal case)|\btax\s+(advice|strategy)|\blegal\s+advice/i.test(
-      question,
-    )
-  ) {
-    return askOutputSchema.parse({
-      ...base,
-      mode: 'refusal',
-      message:
-        'I can explain calculations and general concepts, but cannot recommend trades, determine credit eligibility, or give personalized financial, tax or legal advice. Use the tools for educational scenarios and consult an appropriately qualified professional for personal advice.',
-    });
-  }
-  if (
-    /\b(today|latest|live|real[- ]time|current)\b.{0,35}\b(rate|rates|stock|stocks|price|prices|market)\b|\b(rate|stock|price)\b.{0,20}\btoday\b/i.test(
-      question,
-    )
-  ) {
+  if (requiresLiveFinancialData(question)) {
     return askOutputSchema.parse({
       ...base,
       mode: 'fallback',
@@ -173,8 +169,7 @@ export function answerFromApprovedContent(
     return askOutputSchema.parse({
       ...base,
       mode: 'fallback',
-      message:
-        'I could not find enough approved source material to answer that reliably. Try a question about income percentiles, AI workflow costs, cash runway, break-even, loan costs, drawdowns or portfolio concentration.',
+      message: 'I could not match that question to a published InsightGinie explanation.',
     });
   let length = 0;
   const selected = matches

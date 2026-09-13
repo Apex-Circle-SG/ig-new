@@ -42,20 +42,34 @@ export default function Privacy() {
         <h2>Ginie questions and service health</h2>
         <p>
           Ginie processes questions in server memory to retrieve approved public material and run
-          explicitly supported calculations. It does not save conversations or attach them to
-          analytics. The Datadog agent receives only approved public source passages and a general
-          topic category to select an explanation; raw questions, financial values, conversation
-          history, cookies and visitor identifiers are not forwarded. Avoid personal identifying
-          information. A short-lived, essential security cookie expires after ten minutes and binds
+          supported calculations. For source selection, Datadog receives only approved public
+          excerpts and a general topic category; your question is not included in that selection
+          task.
+        </p>
+        <p>
+          When general AI answers are enabled, an unmatched question can be sent to Datadog to
+          generate an answer. The Ask page discloses this before submission. The application checks
+          for identifiers and omits detected financial amounts before sending the current question.
+          These filters cannot guarantee that all personal or confidential information is removed.
+          Do not submit sensitive details. Your conversation history, browser headers, cookies and
+          visitor identifiers are not attached to provider requests.
+        </p>
+        <p>
+          This feature does not persist questions or answers locally, attach them to analytics, or
+          place general questions and answers in a shared cache. The browser holds recent exchanges
+          in the current tab’s memory. Datadog may retain general prompts and generated answers
+          under its account policy. Local transient processing does not guarantee deletion from the
+          provider. A short-lived, essential security cookie expires after ten minutes and binds
           requests to the browser that obtained it.
         </p>
         <p>
           Operational monitoring stores daily totals of answers, fallbacks, refusals, errors and
           issue categories for up to 30 days. These totals contain no questions, answers, financial
           values, cookies or IP addresses. Datadog receives these aggregate service-health
-          measurements and the public selection tasks described above; its account retention
-          settings also apply. We cache public passage selections for up to 14 days, keyed by the
-          source content rather than a visitor. No session replay or browser recording is enabled.
+          measurements and the applicable tasks described above; its account retention settings also
+          apply. We cache public passage selections for up to 14 days, keyed by the source content
+          rather than a visitor. This cache does not contain general prompts or generated answers.
+          No session replay or browser recording is enabled.
         </p>
       </section>
       <section id="cookies">

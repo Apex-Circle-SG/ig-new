@@ -8,6 +8,7 @@ export const eventNames = [
   'article_engaged',
   'organic_landing',
   'ask_answer_cited',
+  'ask_answer_generated',
   'ask_fallback',
   'ask_refusal',
 ] as const;

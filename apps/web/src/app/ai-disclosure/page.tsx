@@ -23,20 +23,29 @@ export default function AiDisclosure() {
           Ask Ginie searches approved public explanations on the InsightGinie server. For supported
           explanatory questions, our Datadog agent selects useful passages from that material. The
           application displays the original source text and citations; the model cannot insert
-          invented facts or alter a calculator result. Each answer identifies a Datadog selection, a
-          cached selection, a local calculation or a local source fallback.
+          generated text into that sourced explanation or alter a calculator result. Each response
+          identifies a source selection, a local calculation, a local response or a general AI
+          answer.
         </p>
         <p>
-          Datadog receives only published excerpts and a general topic category. It does not receive
-          your question, financial values or conversation history. Selections are reused for up to
-          14 days while the underlying source text is unchanged. Timeouts, usage limits or invalid
-          output fall back to the approved local sources.
+          For source selection, Datadog receives only published excerpts and a general topic
+          category. That task does not include your question or conversation history. Public
+          selections are reused for up to 14 days while the underlying source text is unchanged.
+          Timeouts, usage limits or invalid selection output fall back to approved local sources
+          when available.
+        </p>
+        <p>
+          When general AI answers are enabled, questions without a supported calculation or source
+          match can receive a generated Datadog response on other topics. These responses are
+          labelled “General AI answer” and have not been verified against published sources. They do
+          not carry invented source citations. General answers are not placed in the shared
+          source-selection cache. The Ask page indicates whether this mode is available.
         </p>
         <p>
           Unless an answer explicitly identifies a current source and its date, do not treat it as
-          live market data, a current rate quote or an up-to-date legal or tax determination.
-          Unsupported questions should receive a limitation or a relevant tool link rather than an
-          invented fact.
+          live market data, a current rate quote or an up-to-date legal or tax determination. AI can
+          be wrong, incomplete or out of date. Check important claims against reliable sources. When
+          an answer is unavailable, Ginie should state the limitation.
         </p>
       </section>
       <section>
@@ -48,24 +57,28 @@ export default function AiDisclosure() {
           tool to supply the required inputs.
         </p>
         <p>
-          Tools and automated answers provide educational context, not personalized financial,
-          investment, legal or tax advice.
+          Tools and automated answers provide educational context and are not a substitute for
+          qualified professional advice, including medical, financial, investment, legal or tax
+          advice.
         </p>
       </section>
       <section>
         <h2>Questions and private inputs are different</h2>
         <p>
-          A question submitted to Ginie is processed transiently by the application; raw questions
-          are not persisted by this feature. This differs from financial calculator inputs that
-          remain inside a browser sandbox. Do not include account numbers, credentials, names of
-          other people or other sensitive identifying information in a question.
+          A question submitted to Ginie is processed transiently by the application; this feature
+          does not persist prompts or answers locally. Financial calculator inputs remain inside a
+          browser sandbox. General answer requests send the current question to Datadog after
+          checking for identifiers and omitting detected financial amounts. These checks cannot
+          guarantee removal of all personal or confidential information. Do not include account
+          numbers, credentials or other sensitive details.
         </p>
         <p>
-          The Datadog workflow is called by our server using server-held credentials. Only the
-          approved public selection task is sent; visitors cannot invoke arbitrary agent tools.
-          Provider-side records of these public tasks follow the Datadog account’s retention
-          settings. See the <a href="/privacy/">privacy policy</a> for the currently enabled
-          processing and retention.
+          Datadog is called by our server using server-held credentials. Your conversation history,
+          browser headers, cookies and visitor identifiers are not attached to these requests.
+          General mode stays disabled until the operator confirms the configured agent has no
+          connected actions or tools. Datadog may retain general prompts and generated answers under
+          its account policy; provider-side retention also applies to public selection tasks. See
+          the <a href="/privacy/">privacy policy</a> for processing and retention details.
         </p>
       </section>
       <section>

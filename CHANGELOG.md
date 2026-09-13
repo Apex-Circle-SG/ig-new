@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-09-13 — General-question support for Ginie
+
+- Removed broad topic refusals for APIs, taxes, investing, credit and other
+  subjects; retained actual identifier and private-disclosure checks.
+- Added optional Datadog generation for questions outside the published corpus,
+  sharing the existing run budget, lock, timeout and cancellation controls.
+  General questions and answers are never stored in the public source cache.
+- Added clear generated-answer labels, separate consent-aware event counts,
+  provider-retention disclosure and financial-amount minimization.
+- General mode requires confirmation that every tool on the configured agent is
+  disabled. A matching local attestation is not remote API verification. Existing
+  sourced explanations and deterministic calculations remain available.
+
 ## 2026-09-13 — Complete public-content preservation and migration rehearsal
 
 - Preserved all 9,071 inventoried public WordPress posts and 17 pages with raw

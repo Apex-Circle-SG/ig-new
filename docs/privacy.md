@@ -30,7 +30,12 @@ memory-only and resets on reload.
 Datadog selects excerpts using only approved public material and a finite topic
 category. Raw questions and values never enter that packet. Its public selections
 are cached for up to 14 days by content hash; provider-side retention follows
-the Datadog account policy. Requests use an
+the Datadog account policy. When general AI is enabled, unmatched questions are
+sent after identifier checks and detected financial-amount omission. This is
+not guaranteed anonymization; the form warns against confidential details.
+General prompts and results are not logged or cached locally, but Datadog may
+retain them. General mode requires an operator-reviewed agent with all tools
+disabled. Conversation history is never attached. Requests use an
 essential ten-minute `ig_ask_security` cookie and a signed request token. The
 cookie is HttpOnly, SameSite=Strict and Secure on HTTPS. It is used for request
 validation, not analytics. IP-derived abuse buckets are process-key HMACs kept

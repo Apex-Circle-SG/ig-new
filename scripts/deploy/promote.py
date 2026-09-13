@@ -63,6 +63,8 @@ def configure_ask_datadog(runtime, local):
     """Copy only the explicitly enabled public-source provider configuration; never arbitrary secrets."""
     if local.get('ASK_DATADOG_ENABLED') != 'true':
         runtime['ASK_DATADOG_ENABLED'] = 'false'
+        runtime['ASK_DATADOG_GENERAL_ENABLED'] = 'false'
+        runtime.pop('ASK_DATADOG_TOOL_FREE_AGENT_ID', None)
         for key in ['DD_API_KEY', 'DD_APP_KEY', 'DD_AGENT_ID', 'DD_BITS_WORKFLOW_ID']:
             runtime.pop(key, None)
         return
@@ -94,6 +96,13 @@ def configure_ask_datadog(runtime, local):
         runtime[key] = value
     runtime['ASK_DATADOG_ENABLED'] = 'true'
     runtime['ASK_DATADOG_STATE_DIRECTORY'] = '/var/lib/insightginie/datadog-ask'
+    runtime['ASK_DATADOG_GENERAL_ENABLED'] = 'false'
+    runtime.pop('ASK_DATADOG_TOOL_FREE_AGENT_ID', None)
+    if local.get('ASK_DATADOG_GENERAL_ENABLED') == 'true':
+        if local.get('ASK_DATADOG_TOOL_FREE_AGENT_ID') != runtime['DD_AGENT_ID']:
+            raise RuntimeError('General questions require a tool-free review of the configured agent')
+        runtime['ASK_DATADOG_TOOL_FREE_AGENT_ID'] = runtime['DD_AGENT_ID']
+        runtime['ASK_DATADOG_GENERAL_ENABLED'] = 'true'
 
 
 def check_service():
@@ -191,6 +200,7 @@ def promote():
         'runtimeSecretNames': ['ASK_SECURITY_SECRET', 'ADMIN_ACCESS_KEY'] + (
             ['DD_API_KEY', 'DD_APP_KEY'] if runtime.get('ASK_DATADOG_ENABLED') == 'true' else []),
         'askDatadogEnabled': runtime.get('ASK_DATADOG_ENABLED') == 'true',
+        'askGeneralEnabled': runtime.get('ASK_DATADOG_GENERAL_ENABLED') == 'true',
         'candidateEvidenceSha256': hashlib.sha256((ROOT / 'artifacts/candidate-acceptance.json').read_bytes()).hexdigest(),
         'wordpressCutover': False,
     }

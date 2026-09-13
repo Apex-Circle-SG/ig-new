@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-09-13T10:19:52.654742+00:00",
+  "status": "passed",
+  "buildId": "p2y2WZozM9htX0Oc9K_Oz",
+  "scope": "Broader topic routing and disabled-by-default general-answer capability; controlled provider responses only for general inference",
+  "checks": {
+    "lint": "passed",
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "vitest": {
+      "passed": 399,
+      "files": 20
+    },
+    "node": {
+      "passed": 35
+    },
+    "python": {
+      "passed": 50,
+      "deploy": 6,
+      "contentMirror": 20,
+      "audit": 9,
+      "legacy": 15
+    },
+    "playwright": {
+      "startTime": "2026-09-13T10:17:11.697Z",
+      "duration": 97555.804,
+      "expected": 56,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "visualSnapshots": {
+      "passed": 4,
+      "askUpdatedAndReviewed": 2
+    },
+    "secretScan": "docs/verification/ginie-general-secret-scan.json",
+    "lighthouse": "docs/verification/ginie-general-lighthouse.json"
+  },
+  "generalGenerationEnabled": false,
+  "operatorToolReviewConfirmed": false,
+  "liveGeneralInferenceVerified": false,
+  "activationBlocker": "Operator must disable all MCP connections and Action Catalog actions on the configured Datadog agent and confirm; no documented API for verifying or changing the agent configuration was found.",
+  "productionDeployment": "pending"
+}

@@ -2,12 +2,74 @@ import { calculateStatedQuestion } from './calculations';
 import {
   answerFromApprovedContent,
   askOutputSchema,
+  requiresLiveFinancialData,
   searchApprovedContent,
   type AskAnswer,
 } from './core';
-import { selectPublicExcerpts, type PublicSelectionPacket, type SelectionResult } from './datadog';
+import {
+  generateGeneralAnswer,
+  selectPublicExcerpts,
+  type GeneralAnswerResult,
+  type GeneralQuestionPacket,
+  type PublicSelectionPacket,
+  type SelectionResult,
+} from './datadog';
+import { prepareGeneralQuestion } from './general-question';
 
 type Selector = (packet: PublicSelectionPacket) => Promise<SelectionResult>;
+type Generator = (packet: GeneralQuestionPacket) => Promise<GeneralAnswerResult>;
+
+async function generalAnswer(question: string, generate: Generator): Promise<AskAnswer> {
+  const prepared = prepareGeneralQuestion(question);
+  let result: GeneralAnswerResult;
+  try {
+    result =
+      prepared.question.length <= 1200
+        ? await generate({ question: prepared.question })
+        : { status: 'unavailable', reason: 'validation' };
+  } catch {
+    result = { status: 'unavailable', reason: 'provider' };
+  }
+  if (result.status === 'answered') {
+    const validated = askOutputSchema.safeParse({
+      mode: 'answer',
+      message: result.message,
+      citations: [],
+      followups: [],
+      assumptions: [
+        'This is a general AI answer, not an answer verified against InsightGinie sources. Check important facts independently.',
+        'Ginie has no live browsing or market feed. Its general answers can be incomplete or incorrect.',
+        'This question was sent to Datadog without conversation history. The provider may retain the request and answer under its account policy.',
+        ...(prepared.redacted
+          ? [
+              'Explicit amounts or personal financial numbers were omitted before sending. Use a private calculator for an exact scenario.',
+            ]
+          : []),
+      ],
+      method: 'datadog-general-answer',
+      provider: { id: 'datadog', status: 'live', preparedAt: result.preparedAt },
+    });
+    if (validated.success) return validated.data;
+    result = { status: 'unavailable', reason: 'validation' };
+  }
+  const messages: Partial<Record<typeof result.reason, string>> = {
+    busy: 'Ginie is busy. Please wait a minute and try again.',
+    budget:
+      'General AI answers have reached their current usage limit. The published explanations and private tools remain available.',
+    timeout: 'The general answer took too long. Please try again in a minute.',
+  };
+  return askOutputSchema.parse({
+    mode: 'fallback',
+    message:
+      messages[result.reason] ??
+      'General AI answers are temporarily unavailable. You can still use the published explanations and private tools, or try again later.',
+    citations: [],
+    followups: [{ label: 'Explore the tools', path: '/tools/' }],
+    assumptions: [],
+    method: 'approved-content-retrieval',
+    provider: { id: 'local', status: 'fallback' },
+  });
+}
 
 /** The question ends here: only a finite focus and reviewed public text cross the provider boundary. */
 export function publicSelectionPacket(question: string, supplied: readonly unknown[]) {
@@ -40,12 +102,14 @@ export async function answerQuestion(
   question: string,
   documents: readonly unknown[],
   select: Selector = selectPublicExcerpts,
+  generate: Generator = generateGeneralAnswer,
 ): Promise<AskAnswer> {
   const grounded = answerFromApprovedContent(question, documents);
-  if (grounded.mode !== 'answer')
+  if (grounded.mode === 'refusal' || requiresLiveFinancialData(question))
     return { ...grounded, provider: { id: 'local', status: 'not-needed' } };
   const calculated = calculateStatedQuestion(question);
   if (calculated) return { ...calculated, provider: { id: 'local', status: 'not-needed' } };
+  if (grounded.mode !== 'answer') return generalAnswer(question, generate);
 
   const local: AskAnswer = { ...grounded, provider: { id: 'local', status: 'fallback' } };
   try {

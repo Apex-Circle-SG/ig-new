@@ -5,13 +5,14 @@ import { AskChat } from '../../components/ask-chat';
 import { breadcrumbSchema, safeJsonLd } from '@insightginie/seo';
 
 export const metadata: Metadata = {
-  title: 'Ask Ginie — Understand the Numbers',
+  title: 'Ask Ginie — Clear Explanations and Useful Tools',
   description:
-    'Ask about finance calculations and US income data. Get explanations grounded in published sources, with links to private interactive tools.',
+    'Explore questions with Ginie. See how each answer was prepared, follow available sources, and use deterministic tools for supported calculations.',
   alternates: { canonical: '/ask/' },
   openGraph: {
-    title: 'Ask Ginie — Understand the Numbers',
-    description: 'Source-linked explanations. Deterministic tools. A clearer next step.',
+    title: 'Ask Ginie — Clear Explanations and Useful Tools',
+    description:
+      'Explore questions, follow available sources, and understand how answers are prepared.',
     url: '/ask/',
     siteName: 'InsightGinie',
     type: 'website',
@@ -20,6 +21,11 @@ export const metadata: Metadata = {
 };
 export default async function AskPage() {
   const nonce = (await headers()).get('x-nonce') ?? undefined;
+  const toolFreeAgentId = process.env.ASK_DATADOG_TOOL_FREE_AGENT_ID?.trim();
+  const generalAvailable =
+    process.env.ASK_DATADOG_ENABLED === 'true' &&
+    process.env.ASK_DATADOG_GENERAL_ENABLED === 'true' &&
+    Boolean(toolFreeAgentId && toolFreeAgentId === process.env.DD_AGENT_ID?.trim());
   return (
     <div className="shell listing-page">
       <nav className="breadcrumbs" aria-label="Breadcrumb">
@@ -28,11 +34,13 @@ export default async function AskPage() {
         <span>Ask Ginie</span>
       </nav>
       <div className="eyebrow">A QUESTION IS A GOOD START</div>
-      <h1>Make sense of the numbers.</h1>
+      <h1>Explore your next question.</h1>
       <p className="page-lead">
-        Understand the method, see the sources, and find the right tool for your next question.
+        {generalAvailable
+          ? 'Ask about science, coding, writing, or any other topic. Ginie distinguishes general AI answers from published explanations and calculated results.'
+          : 'Understand a method, explore published explanations, and find a useful tool. Each response shows how it was prepared.'}
       </p>
-      <AskChat />
+      <AskChat generalAvailable={generalAvailable} />
       <script
         nonce={nonce}
         type="application/ld+json"

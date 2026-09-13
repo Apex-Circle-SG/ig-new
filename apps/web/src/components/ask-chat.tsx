@@ -6,15 +6,21 @@ import type { AskAnswer } from '../lib/ask/core';
 import styles from './ask-chat.module.css';
 import { track } from '@insightginie/analytics';
 
-const suggestions = [
+const sourcedSuggestions = [
   'How do I calculate cash runway?',
   'What is an AI workflow’s payback period?',
   'Why does a drawdown need a larger recovery?',
-  'How does my income percentile work?',
+  'How does InsightGinie protect my privacy?',
+];
+const generalSuggestions = [
+  'Why is the sky blue?',
+  'Explain a JavaScript promise with an example.',
+  'Help me write a clear project update.',
+  'How do I calculate cash runway?',
 ];
 type Exchange = { question: string; answer: AskAnswer };
 
-export function AskChat() {
+export function AskChat({ generalAvailable = false }: { generalAvailable?: boolean } = {}) {
   const id = useId();
   const [question, setQuestion] = useState('');
   const [exchanges, setExchanges] = useState<Exchange[]>([]);
@@ -55,16 +61,19 @@ export function AskChat() {
       const data = (await response.json()) as AskAnswer & { error?: string };
       if (!response.ok)
         throw new Error(
-          data.error ?? 'Ginie is temporarily unavailable. Try the finance tools below.',
+          data.error ?? 'Ginie is temporarily unavailable. Please try again or explore the tools.',
         );
-      track(
-        data.mode === 'answer'
-          ? 'ask_answer_cited'
-          : data.mode === 'refusal'
-            ? 'ask_refusal'
-            : 'ask_fallback',
-        { calculator_id: 'ask' },
-      );
+      const event =
+        data.mode === 'answer' && data.method === 'datadog-general-answer'
+          ? 'ask_answer_generated'
+          : data.mode === 'answer' && data.citations.length > 0
+            ? 'ask_answer_cited'
+            : data.mode === 'refusal'
+              ? 'ask_refusal'
+              : data.mode === 'fallback'
+                ? 'ask_fallback'
+                : null;
+      if (event) track(event, { calculator_id: 'ask' });
       setExchanges((previous) => [...previous.slice(-5), { question: clean, answer: data }]);
       setQuestion('');
       requestAnimationFrame(() => results.current?.focus({ preventScroll: true }));
@@ -115,13 +124,22 @@ export function AskChat() {
         <div>
           <h2>What would you like to understand?</h2>
           <p>
-            Ask about a calculation or the data behind it. Follow the sources, then explore your own
-            scenario.
+            {generalAvailable
+              ? 'Ask about any topic: explore an idea, work through a problem, or try a calculation. Each answer shows how it was prepared.'
+              : 'Explore published explanations, understand a method, or find a useful tool. General AI answers are not enabled.'}
           </p>
         </div>
       </div>
+      {generalAvailable && (
+        <p className={styles.disclaimer} id={`${id}-general-disclosure`}>
+          Questions without a supported calculation or source match are sent to Datadog for a
+          general AI answer. Datadog may retain those questions and answers under its account
+          policy. Avoid personal or confidential information.{' '}
+          <a href="/privacy/">Privacy details</a>
+        </p>
+      )}
       <div className={styles.suggestions} aria-label="Example questions">
-        {suggestions.map((suggestion) => (
+        {(generalAvailable ? generalSuggestions : sourcedSuggestions).map((suggestion) => (
           <button
             type="button"
             key={suggestion}
@@ -150,59 +168,75 @@ export function AskChat() {
             </p>
             <article className={styles.answer}>
               <h3>
-                {exchange.answer.method === 'deterministic-calculator'
-                  ? 'Calculated from your stated example'
-                  : exchange.answer.mode === 'answer'
-                    ? 'From the published sources'
-                    : exchange.answer.mode === 'refusal'
-                      ? 'What I can help with'
-                      : 'Let’s use a reliable starting point'}
+                {exchange.answer.method === 'datadog-general-answer'
+                  ? 'General AI answer'
+                  : exchange.answer.method === 'deterministic-calculator'
+                    ? 'Calculated from your stated example'
+                    : exchange.answer.mode === 'answer' && exchange.answer.citations.length > 0
+                      ? 'From the published sources'
+                      : exchange.answer.mode === 'answer'
+                        ? 'Ginie’s answer'
+                        : exchange.answer.mode === 'refusal'
+                          ? 'What I can help with'
+                          : 'Let’s use a reliable starting point'}
               </h3>
               <p className={styles.provider} data-testid="answer-provider">
-                {exchange.answer.provider?.id === 'datadog'
-                  ? exchange.answer.provider.status === 'cached'
-                    ? 'Datadog · cached source selection'
-                    : 'Datadog · source selection'
-                  : exchange.answer.method === 'deterministic-calculator'
-                    ? 'InsightGinie · deterministic calculation'
-                    : exchange.answer.provider?.status === 'fallback'
-                      ? 'InsightGinie · local source fallback'
-                      : 'InsightGinie · local response'}
+                {exchange.answer.method === 'datadog-general-answer'
+                  ? 'Datadog · general answer'
+                  : exchange.answer.provider?.id === 'datadog'
+                    ? exchange.answer.provider.status === 'cached'
+                      ? 'Datadog · cached source selection'
+                      : 'Datadog · source selection'
+                    : exchange.answer.method === 'deterministic-calculator'
+                      ? 'InsightGinie · deterministic calculation'
+                      : exchange.answer.provider?.status === 'fallback' &&
+                          exchange.answer.citations.length > 0
+                        ? 'InsightGinie · local source fallback'
+                        : 'InsightGinie · local response'}
               </p>
-              {exchange.answer.message.split('\n\n').map((paragraph, n) => (
-                <p key={n}>{paragraph}</p>
-              ))}
-              {exchange.answer.citations.length > 0 && (
-                <div className={styles.sources}>
-                  <h4>Sources & freshness</h4>
-                  <ul>
-                    {exchange.answer.citations.map((citation) => (
-                      <li key={citation.path}>
-                        <a href={citation.path}>{citation.title}</a>
-                        <span>
-                          Updated{' '}
-                          {new Date(citation.updatedAt).toLocaleDateString('en-US', {
-                            timeZone: 'UTC',
-                            month: 'short',
-                            day: 'numeric',
-                            year: 'numeric',
-                          })}
-                        </span>
-                        {citation.sources.map((source) => (
-                          <a
-                            className={styles.primarySource}
-                            key={source.url}
-                            href={source.url}
-                            rel="noopener noreferrer"
-                          >
-                            {source.name} ↗
-                          </a>
-                        ))}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+              {exchange.answer.method === 'datadog-general-answer' && (
+                <p>
+                  This general AI answer has not been verified against published sources. It may be
+                  incorrect or out of date.
+                </p>
               )}
+              {exchange.answer.message.split('\n\n').map((paragraph, n) => (
+                <p key={n} style={{ whiteSpace: 'pre-wrap', overflowWrap: 'anywhere' }}>
+                  {paragraph}
+                </p>
+              ))}
+              {exchange.answer.method !== 'datadog-general-answer' &&
+                exchange.answer.citations.length > 0 && (
+                  <div className={styles.sources}>
+                    <h4>Sources & freshness</h4>
+                    <ul>
+                      {exchange.answer.citations.map((citation) => (
+                        <li key={citation.path}>
+                          <a href={citation.path}>{citation.title}</a>
+                          <span>
+                            Updated{' '}
+                            {new Date(citation.updatedAt).toLocaleDateString('en-US', {
+                              timeZone: 'UTC',
+                              month: 'short',
+                              day: 'numeric',
+                              year: 'numeric',
+                            })}
+                          </span>
+                          {citation.sources.map((source) => (
+                            <a
+                              className={styles.primarySource}
+                              key={source.url}
+                              href={source.url}
+                              rel="noopener noreferrer"
+                            >
+                              {source.name} ↗
+                            </a>
+                          ))}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               {exchange.answer.assumptions.length > 0 && (
                 <details>
                   <summary>How this answer was prepared</summary>
@@ -226,7 +260,7 @@ export function AskChat() {
         ))}
         {busy && (
           <p role="status" className={styles.loading}>
-            Checking the approved sources…
+            {generalAvailable ? 'Preparing your answer…' : 'Checking the approved sources…'}
           </p>
         )}
       </div>
@@ -242,16 +276,21 @@ export function AskChat() {
           id={id}
           value={question}
           onChange={(event) => setQuestion(event.target.value)}
-          placeholder="For example: how do fees change the cost of a business loan?"
+          placeholder={
+            generalAvailable
+              ? 'For example: explain how solar panels work.'
+              : 'For example: how do your calculators protect my privacy?'
+          }
           maxLength={1200}
           rows={3}
-          aria-describedby={`${id}-privacy${error ? ` ${id}-error` : ''}`}
+          aria-describedby={`${id}-privacy${generalAvailable ? ` ${id}-general-disclosure` : ''}${error ? ` ${id}-error` : ''}`}
           disabled={busy}
         />
         <div className={styles.formBottom}>
           <p id={`${id}-privacy`}>
-            Please leave out personal details. Your question stays on our server; Datadog receives
-            only approved public excerpts and a general topic.{' '}
+            {generalAvailable
+              ? 'Checking for identifiers and removing detected financial amounts cannot guarantee removal of private information. Only your current question is sent for a general answer; your chat history is not forwarded.'
+              : 'Please leave out personal or confidential details. Your question is processed on our server; Datadog receives only approved public excerpts and a general topic for source selection.'}{' '}
             <a href="/ai-disclosure/">How Ginie works</a>
           </p>
           <button
@@ -259,7 +298,7 @@ export function AskChat() {
             type="submit"
             disabled={busy || question.trim().length < 3}
           >
-            {busy ? 'Checking…' : 'Ask Ginie'}
+            {busy ? 'Working…' : 'Ask Ginie'}
             <Send size={17} aria-hidden="true" />
           </button>
         </div>
@@ -284,8 +323,8 @@ export function AskChat() {
         </div>
       )}
       <p className={styles.disclaimer}>
-        Educational information. Ginie does not provide investment recommendations, lending
-        decisions, tax conclusions or personalized professional advice.
+        AI can be wrong. Check important claims. Ginie provides educational information and is not a
+        substitute for qualified professional advice.
       </p>
     </section>
   );
