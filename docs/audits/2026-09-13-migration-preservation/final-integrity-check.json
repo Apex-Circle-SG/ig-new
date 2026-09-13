@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-09-13T09:36:35.460815+00:00",
+  "mirroredPosts": 9071,
+  "mirroredPages": 17,
+  "normalizedArticleCandidates": 9070,
+  "normalizationReviewRecords": 1,
+  "rootMapRows": 41227,
+  "rootMapStatusCounts": {
+    "KEEP": 13,
+    "301": 9072,
+    "REVIEW": 32142
+  },
+  "approvedRootMapRows": 0,
+  "inactiveRedirectRows": 36280,
+  "redirectContentDestinations": 9070,
+  "preparedManifestSha256": "aba2d745f596809b34c1716ac589cc038f27dc9a418a2c301fdcd8919ca61c22",
+  "redirectCsvSha256": "c9769c004abba4288ab77c72128032fdd3fa04f86cf505e10a906d1b7f97d522",
+  "livePreviewManifestByteIdenticalToGitHead": true,
+  "cutoverGateByteIdenticalToGitHead": true,
+  "livePreviews": 2,
+  "contentUnitTestsPassed": 25,
+  "contentUnitTestsFailed": 0,
+  "mirrorArtifactTestsPassed": 20,
+  "migrationAuditTestsPassed": 9,
+  "eslintExitCode": 0,
+  "preparationNetworkRequests": 0,
+  "mediaBinariesFetched": 0,
+  "publicationChanged": false,
+  "redirectsApplied": false
+}

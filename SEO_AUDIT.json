@@ -1,6 +1,6 @@
 {
   "audit_version": "consolidation-implementation-v1",
-  "generated_at": "2026-09-13T08:39:33.755607+00:00",
+  "generated_at": "2026-09-13T09:35:36.042940+00:00",
   "phase": "Functional application deployed; remote WordPress cutover and performance acceptance remain open",
   "phase1_complete": false,
   "application_modified": true,
@@ -47,7 +47,13 @@
     "browser_successful_200_checks": 21,
     "rendered_blog_urls": "Explicit template sample only",
     "full_source_crawl": "Paused after observed HTTP 429, incomplete",
-    "unknown_urls": "Unlinked, parameter combinations, attachments and server-log-only URLs require additional discovery; no exhaustive all-URL claim."
+    "unknown_urls": "Unlinked, parameter combinations, attachments and server-log-only URLs require additional discovery; no exhaustive all-URL claim.",
+    "public_content_preservation": {
+      "posts": 9071,
+      "pages": 17,
+      "scope": "Audited public REST bodies; separate from incomplete rendered-URL crawl.",
+      "receipt": "docs/audits/2026-09-13-migration-preservation/preservation-receipt.json"
+    }
   },
   "reports": [
     "docs/audits/2026-09-13-consolidation/url-records-00000.jsonl.gz",
@@ -61,7 +67,11 @@
     "rows": 41227,
     "approved_redirects": 0,
     "deployed_redirects": 0,
-    "note": "Candidates are not authorization to publish unreviewed archives or delete content."
+    "note": "Exact article candidates are staged outside the application. All dispositions remain unapproved; no speculative taxonomy/archive/page destinations. Full backup, media, restore, editorial and redirect authority remain required.",
+    "exact_normalized_article_candidates": 9070,
+    "preserved_public_posts": 9071,
+    "preserved_public_pages": 17,
+    "review_without_target": 32142
   },
   "findings": [
     {
@@ -121,7 +131,7 @@
   ],
   "blocked_acceptance": [
     "Full source/rendered crawl and internal-link completeness",
-    "Restorable WordPress backup and headless sync",
+    "Restorable WordPress backup, complete uploads export and isolated restore verification",
     "Direct blog-host redirects and private backend",
     "New finance products, reviewed editorial trust metadata and assistant",
     "Datadog monitoring/inference account validation",
@@ -136,13 +146,17 @@
     "wordpress_redirects_activated": 0,
     "technical_seo_report": "docs/verification/technical-seo-routes.json",
     "original_inspection": "docs/audits/2026-09-13-consolidation/SEO_AUDIT.json",
-    "acceptance_report": "docs/verification/consolidation-acceptance.json"
+    "acceptance_report": "docs/verification/consolidation-acceptance.json",
+    "wordpress_mirrored_posts": 9071,
+    "wordpress_mirrored_pages": 17,
+    "wordpress_normalized_candidates": 9070
   },
   "implementation_reports": [
     "docs/consolidation-acceptance.md",
     "docs/verification/consolidation-browser.json",
     "docs/verification/consolidation-lighthouse-summary.json",
-    "docs/verification/consolidation-first-promotion-rollback.json"
+    "docs/verification/consolidation-first-promotion-rollback.json",
+    "docs/audits/2026-09-13-migration-preservation/preservation-receipt.json"
   ],
   "release": {
     "applicationCommit": "7b82bd078d1d5c9777b2f3c7076574c6cd169eea",
@@ -153,5 +167,147 @@
     "indexNowReceipt": "docs/offsite-seo/consolidation-submission.json",
     "runtimeReceipt": "docs/verification/consolidation-deployment.json",
     "performance": "Lab LCP target unmet on three pages; field p75 unavailable"
+  },
+  "migration_preservation": {
+    "version": "wordpress-public-mirror-v1",
+    "generatedAt": "2026-09-13T09:34:07.267320+00:00",
+    "sourceOrigin": "https://blog.insightginie.com",
+    "storage": "/root/ig-new/backups/wordpress-mirror-2026-09-13",
+    "planned": {
+      "posts": 9071,
+      "pages": 17
+    },
+    "preserved": {
+      "posts": 9071,
+      "pages": 17
+    },
+    "referencedUploadUrls": 7841,
+    "mediaFilesCopied": 0,
+    "successfulHttpRequests": 92,
+    "lastRun": {
+      "startedAt": "2026-09-13T09:27:24.007938+00:00",
+      "mode": "public-content-capture",
+      "httpRequests": 13,
+      "preservedThisRun": 1271,
+      "status": "audited_public_content_captured",
+      "finishedAt": "2026-09-13T09:28:42.171394+00:00"
+    },
+    "notBefore": null,
+    "integrityFailures": [],
+    "publicContentComplete": true,
+    "fullWordPressBackup": false,
+    "restoreTestPerformed": false,
+    "publicationChanged": false,
+    "redirectsApplied": false,
+    "remainingAccess": [
+      "WordPress/hosting database, configuration, plugins/themes, private content and complete uploads export",
+      "Isolated restore target and hosting/Cloudflare redirect administration"
+    ],
+    "scope": "Public rendered content and referenced upload copies only; no database, private posts, plugin configuration or complete media-library backup.",
+    "preparedImmutableManifest": "/root/ig-new/backups/wordpress-mirror-2026-09-13/prepared/manifests/aba2d745f596809b34c1716ac589cc038f27dc9a418a2c301fdcd8919ca61c22.json",
+    "preparedTransformationVersion": "wordpress-public-v2",
+    "normalizationSourceHashes": {
+      "apps/web/src/lib/content/normalize.ts": "9acea66a552cf580326710147bf9c68891674d3444486fab40e364a913488652",
+      "apps/web/src/lib/content/sanitize.ts": "414b0b7b35204e83976c5f72dfb85f68162add42344eefe0b8714b24f486c7d9",
+      "apps/web/src/lib/content/schema.ts": "28e08de427a5f7297889062d7d8a5e2d5fabf14eb1f991316fcfa28d3b6e16a4",
+      "package-lock.json": "67e6eacc5a26d4315202770e231ef503d5e60d2bfa4c0e57a442828dd56ade7f"
+    },
+    "checksumSchemes": {
+      "checkpoint.records.rawSha256": "SHA-256 of the stored UTF-8 individual source JSON file bytes (pretty JSON).",
+      "prepared.index.records.rawSha256": "The same mirror source-file byte checksum; links each derived record to its immutable raw object.",
+      "prepared.index.records.recordSha256": "SHA-256 of the stored UTF-8 normalized record file bytes.",
+      "ContentRecord.rawSha256": "SHA-256 of JavaScript JSON.stringify(parsedSourceObject), as UTF-8; compact serialization, not RFC 8785 canonical JSON.",
+      "ContentRecord.contentSha256": "SHA-256 of the sanitized HTML string, as UTF-8.",
+      "preparedIndexSha256": "SHA-256 of the complete prepared manifest file bytes; the immutable filename has the same checksum."
+    },
+    "httpRequestCountScope": "Successful responses durably recorded in the checkpoint only; interrupted in-flight attempts may not be counted.",
+    "migrationMapFile": "content-migration-map-54fd8246a5c3.csv.gz",
+    "migrationMapRows": 9088,
+    "relatedFullUrlInventory": "docs/audits/2026-09-13-consolidation/blog-inventory/url-inventory.csv.gz",
+    "preparedPostCandidates": 9070,
+    "changedSinceAudit": 0,
+    "planSha256": "b58f86d85785354aa7281fb51e7385da5bb91f174dbc40332912576ccb0aff92",
+    "checkpointSha256": "4c699c90484982d1ac6c64e6c5805db7aa1e8fcea82b00bebdb615093169d9b2",
+    "preparedIndexSha256": "aba2d745f596809b34c1716ac589cc038f27dc9a418a2c301fdcd8919ca61c22",
+    "sourceObjects": 9088,
+    "responseObjects": 92,
+    "redirectReview": {
+      "format": "Cloudflare Bulk Redirects CSV (no header, all seven columns explicit)",
+      "documentation": "https://developers.cloudflare.com/rules/url-forwarding/bulk-redirects/reference/csv-file-format/",
+      "status": "REVIEW_ONLY_DO_NOT_IMPORT",
+      "artifact": "backups/wordpress-mirror-2026-09-13/prepared/cloudflare-bulk-redirects.review-only.csv",
+      "sha256": "c9769c004abba4288ab77c72128032fdd3fa04f86cf505e10a906d1b7f97d522",
+      "rows": 36280,
+      "contentDestinations": 9070,
+      "canonicalSourceRows": 9070,
+      "explicitAliasRows": 27210,
+      "aliases": "Explicit HTTP/HTTPS and trailing-slash/slashless variants; no wildcard matching.",
+      "rowsVerifiedAgainstNormalizedRecords": 36280,
+      "includeSubdomains": false,
+      "subpathMatching": false,
+      "preservePathSuffix": false,
+      "preserveQueryString": false,
+      "statusCode": 301,
+      "sourceOrigin": "https://blog.insightginie.com",
+      "targetOrigin": "https://insightginie.com",
+      "eligibleForActivation": false,
+      "approvedRows": 0,
+      "liveTargetChecksPerformed": 0,
+      "uploadedToCloudflare": false,
+      "edgeOrderingVerified": false,
+      "accountBulkRedirectQuotaVerified": false,
+      "fullBackupVerified": false,
+      "restoreTestVerified": false,
+      "requiredBeforeActivation": [
+        "Complete restorable hosting backup, uploads mirror and isolated restore verification",
+        "Per-record editorial and cutover approvals tied to the actual content hashes",
+        "Every target deployed with verified 200, correct canonical and approved indexing state",
+        "Scoped blog-host redirect authority, account capacity check and explicit activation review",
+        "Cloudflare edge trace of HTTP/HTTPS and both slash forms to prevent HTTPS/slash normalization before the direct redirect"
+      ]
+    },
+    "freshPublicTotalsCheck": {
+      "checkedAt": "2026-09-13T09:35:09.393501+00:00",
+      "scope": "Fresh public REST totals only; preservation completeness refers to the inventoried corpus. Matching totals do not establish a publishing freeze or unchanged content.",
+      "authenticatedPublishingFreeze": false,
+      "requests": [
+        {
+          "url": "https://blog.insightginie.com/wp-json/wp/v2/posts?per_page=1&_fields=id&status=publish&context=view",
+          "status": 200,
+          "retrievedAt": "2026-09-13T09:35:12.001355+00:00",
+          "contentType": "application/json; charset=UTF-8",
+          "bytes": 14,
+          "sha256": "af493709358960c75168abc734c041d1b17526f1e8ebc3ed54d2f5bdf85708b1",
+          "etag": null,
+          "xWpTotal": 9071
+        },
+        {
+          "url": "https://blog.insightginie.com/wp-json/wp/v2/pages?per_page=1&_fields=id&status=publish&context=view",
+          "status": 200,
+          "retrievedAt": "2026-09-13T09:35:16.773386+00:00",
+          "contentType": "application/json; charset=UTF-8",
+          "bytes": 14,
+          "sha256": "55d02845e62ed6cbf197d6070ff17fd1eb7a602dcce23218c5ae8fd12af5d433",
+          "etag": null,
+          "xWpTotal": 17
+        }
+      ],
+      "totals": {
+        "posts": {
+          "audited": 9071,
+          "currentPublicTotal": 9071,
+          "delta": 0
+        },
+        "pages": {
+          "audited": 17,
+          "currentPublicTotal": 17,
+          "delta": 0
+        }
+      },
+      "automaticDeltaCapture": false,
+      "status": "checked",
+      "matchesAuditedTotals": true,
+      "completedAt": "2026-09-13T09:35:16.776975+00:00"
+    }
   }
 }

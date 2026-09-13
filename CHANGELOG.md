@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-09-13 — Complete public-content preservation and migration rehearsal
+
+- Preserved all 9,071 inventoried public WordPress posts and 17 pages with raw
+  checksums, original bodies, bylines, dates and media references.
+- Prepared 9,070 article candidates and an inactive exact redirect CSV; one
+  literal placeholder remains under review. Unverified archives and taxonomies
+  have no invented replacement targets.
+- Added resumable capture, source validation, immutable normalization manifests,
+  redirect verification and CI coverage. The v2 normalizer repairs two malformed
+  source bodies while preserving both deployed v1 previews byte-for-byte.
+- Retained the working production site and the source blog. Full hosting backup,
+  media preservation, restore verification and blog-host authority still block
+  cutover; no new article or blog redirect was activated.
+
+See [release acceptance](docs/ginie-migration-acceptance.md) and the
+[migration handover](docs/audits/2026-09-13-migration-preservation/handover.md).
+
 ## 2026-09-13 — Datadog-backed Ask Ginie
 
 - Connected the configured Datadog workflow to approved public excerpt selection;

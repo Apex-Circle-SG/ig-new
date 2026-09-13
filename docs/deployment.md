@@ -2,13 +2,13 @@
 
 ## Current status
 
-The consolidation release adds finance tools, approved-source Ask, editorial previews, research, privacy controls and protected operations. Follow [the current candidate promotion and rollback procedure](consolidation-release.md). The original service details below still apply; WordPress consolidation remains a separate unapproved cutover.
+The current release includes Datadog-backed Ask Ginie, finance tools, editorial previews, research, privacy controls and protected operations. See [current acceptance](ginie-migration-acceptance.md) and follow [the candidate promotion and rollback procedure](consolidation-release.md). Public WordPress content is preserved locally; the blog-host cutover remains blocked by backup/restore and hosting authority.
 
 The application runs on this host at `http://127.0.0.1:3000`, supervised
 by the enabled `insightginie-web.service` systemd unit. It uses the validated
 public-data snapshot and needs no remote database. The application is
-TypeScript/JavaScript running on Node.js with Next.js; Python is used only for
-legacy audit tooling. Cloudflared can connect to port **3000** on the same host.
+TypeScript/JavaScript running on Node.js with Next.js; Python supports audit,
+migration and release tooling. Cloudflared can connect to port **3000** on the same host.
 
 The operator's Cloudflare tunnel connects `https://insightginie.com` to this
 service. No Vercel project, deployment token, or hosted database is configured.

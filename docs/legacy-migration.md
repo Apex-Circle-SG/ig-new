@@ -1,6 +1,16 @@
 # Legacy WordPress migration
 
-Status: read-only audit. The production WordPress site has not been modified. No legacy redirects or `410` responses have been enabled.
+Current status, September 13, 2026: all **9,071 inventoried public blog posts and
+17 pages** are preserved locally; **9,070 article copies** are normalized for
+migration. The application still serves two noindex previews. No blog-host
+redirects or cutover have been activated. See the [current handover](audits/2026-09-13-migration-preservation/handover.md),
+[complete map](../MIGRATION_MAP.csv) and [release acceptance](ginie-migration-acceptance.md).
+
+The main host now runs Next.js. The WordPress archive remains on
+`blog.insightginie.com`. The evidence and origin URLs below describe the earlier
+main-host audit and are retained as historical records, not current routing.
+
+## Original audit
 
 The current public site is a WordPress article archive on Hostinger/LiteSpeed behind Cloudflare. GeneratePress, Yoast SEO, Google Site Kit and LiteSpeed cache are visible in public responses. The homepage advertises hundreds of archive pages and articles about AI, cryptocurrency, trading and other topics unrelated to the new product. This architecture is legacy infrastructure, not the starting information architecture for the new application.
 

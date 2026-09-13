@@ -75,7 +75,11 @@ export function normalizeWordPressPost(raw: unknown, retrievedAt: string): Conte
     source.hash
   )
     throw new Error('source_canonical_mismatch');
-  const body = sanitizePublicHtml(post.content.rendered);
+  // Removing unknown source tags can expose malformed paragraph/list nesting.
+  // One bounded reparsing pass closes that structure before we hash the output.
+  // Already stable records retain exactly the same HTML and content checksum.
+  const firstPass = sanitizePublicHtml(post.content.rendered);
+  const body = sanitizePublicHtml(firstPass.html);
   const author = post._embedded.author.find((entry) => entry.id === post.author);
   if (!author) throw new Error('source_author_missing');
   const terms = post._embedded['wp:term']?.flat() ?? [];
@@ -137,11 +141,14 @@ export function normalizeWordPressPost(raw: unknown, retrievedAt: string): Conte
   return record;
 }
 
-export function snapshotHash(records: ContentRecord[]) {
+export function snapshotHash(
+  records: ContentRecord[],
+  transformationVersion: ContentSnapshot['transformationVersion'] = CONTENT_TRANSFORMATION_VERSION,
+) {
   return sha256(
     JSON.stringify({
       schemaVersion: 1,
-      transformationVersion: CONTENT_TRANSFORMATION_VERSION,
+      transformationVersion,
       sourceOrigin: WORDPRESS_ORIGIN,
       records,
     }),
@@ -165,7 +172,7 @@ export function createSnapshot(
 
 export function validateSnapshot(input: unknown): ContentSnapshot {
   const snapshot = contentSnapshotSchema.parse(input);
-  if (snapshot.versionId !== snapshotHash(snapshot.records))
+  if (snapshot.versionId !== snapshotHash(snapshot.records, snapshot.transformationVersion))
     throw new Error('snapshot_checksum_mismatch');
   for (const key of ['id', 'slug', 'originalUrl', 'path'] as const) {
     if (new Set(snapshot.records.map((record) => record[key])).size !== snapshot.records.length)

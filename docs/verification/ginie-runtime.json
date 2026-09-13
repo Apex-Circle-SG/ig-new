@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-09-13T09:31:58.473418+00:00",
+  "latestDelivery": {
+    "deliveredAt": "2026-09-13T09:29:01.273702+00:00",
+    "status": "delivered",
+    "series": 13
+  },
+  "webService": "active/enabled",
+  "port": 3000,
+  "bind": "127.0.0.1",
+  "metricsTimer": "active/enabled",
+  "rawPromptsRecorded": false
+}

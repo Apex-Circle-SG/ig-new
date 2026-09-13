@@ -1,0 +1,31 @@
+{"preserved": 1, "planned": 1, "requestsThisRun": 1}
+{"preserved": 1, "planned": 1, "requestsThisRun": 1}
+{"preserved": 1, "planned": 2, "requestsThisRun": 1}
+{"preserved": 1, "planned": 1, "requestsThisRun": 1}
+{"preserved": 1, "planned": 1, "requestsThisRun": 1}
+{"preserved": 1, "planned": 1, "requestsThisRun": 1}
+test_duplicate_counterparts_fail_instead_of_silent_overwrite (artifacts_test.MigrationArtifactTests.test_duplicate_counterparts_fail_instead_of_silent_overwrite) ... ok
+test_existing_approval_cannot_be_rewritten_by_review_tool (artifacts_test.MigrationArtifactTests.test_existing_approval_cannot_be_rewritten_by_review_tool) ... ok
+test_only_verified_exact_posts_receive_unapproved_targets (artifacts_test.MigrationArtifactTests.test_only_verified_exact_posts_receive_unapproved_targets) ... ok
+test_original_pages_are_preserved_without_invented_equivalence (artifacts_test.MigrationArtifactTests.test_original_pages_are_preserved_without_invented_equivalence) ... ok
+test_redirect_csv_is_exact_escaped_and_inactive (artifacts_test.MigrationArtifactTests.test_redirect_csv_is_exact_escaped_and_inactive) ... ok
+test_redirect_csv_rejects_injected_paths (artifacts_test.MigrationArtifactTests.test_redirect_csv_rejects_injected_paths) ... ok
+test_tampered_prepared_copy_fails_integrity (artifacts_test.MigrationArtifactTests.test_tampered_prepared_copy_fails_integrity) ... ok
+test_assets_include_captions_body_variants_and_reject_external_or_traversal (mirror_test.MirrorTests.test_assets_include_captions_body_variants_and_reject_external_or_traversal) ... ok
+test_capture_preserves_exact_source_author_dates_and_resumes_without_requests (mirror_test.MirrorTests.test_capture_preserves_exact_source_author_dates_and_resumes_without_requests) ... ok
+test_exclusive_lock_and_immutable_objects (mirror_test.MirrorTests.test_exclusive_lock_and_immutable_objects) ... ok
+test_missing_duplicate_or_protected_source_never_marks_record_complete (mirror_test.MirrorTests.test_missing_duplicate_or_protected_source_never_marks_record_complete) ... ok
+test_pages_are_preserved_without_converting_them_to_posts (mirror_test.MirrorTests.test_pages_are_preserved_without_converting_them_to_posts) ... ok
+test_persisted_cooldown_blocks_a_new_invocation (mirror_test.MirrorTests.test_persisted_cooldown_blocks_a_new_invocation) ... ok
+test_plan_reuses_only_checksummed_audit_metadata (mirror_test.MirrorTests.test_plan_reuses_only_checksummed_audit_metadata) ... ok
+test_rate_limit_stops_without_retry_and_retains_completed_checkpoint (mirror_test.MirrorTests.test_rate_limit_stops_without_retry_and_retains_completed_checkpoint) ... ok
+test_raw_corruption_fails_verification (mirror_test.MirrorTests.test_raw_corruption_fails_verification) ... ok
+test_reader_rejects_untrusted_hosts_oversized_and_non_json_before_preservation (mirror_test.MirrorTests.test_reader_rejects_untrusted_hosts_oversized_and_non_json_before_preservation) ... ok
+test_report_archives_exact_manifest_and_distinguishes_checksum_schemes (mirror_test.MirrorTests.test_report_archives_exact_manifest_and_distinguishes_checksum_schemes) ... ok
+test_response_receipt_corruption_also_fails_verification (mirror_test.MirrorTests.test_response_receipt_corruption_also_fails_verification) ... ok
+test_source_host_author_and_identity_are_required (mirror_test.MirrorTests.test_source_host_author_and_identity_are_required) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.101s
+
+OK

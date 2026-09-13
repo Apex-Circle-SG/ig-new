@@ -1,0 +1,22 @@
+{
+  "sha": "ca1d0156001bcbc7c8dc713f03d01367df634250",
+  "run": "https://github.com/Apex-Circle-SG/ig-new/actions/runs/34749560774",
+  "status": "completed",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "name": "application",
+      "status": "completed",
+      "conclusion": "success",
+      "current": [],
+      "failed": []
+    },
+    {
+      "name": "dependencies",
+      "status": "completed",
+      "conclusion": "success",
+      "current": [],
+      "failed": []
+    }
+  ]
+}

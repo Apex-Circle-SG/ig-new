@@ -1,5 +1,127 @@
 # Read-only WordPress preservation pipeline
 
+## Resumable archive preservation
+
+`mirror.py` extends the small deployed preview with a separate **ignored local
+preservation store**. It reads the previously checksummed metadata audit for
+9,071 public posts and 17 pages; it does not enumerate those IDs again. Full
+responses and individual source records are immutable, hashed objects. Author
+identity, source dates, original rendered HTML, captions, featured-media metadata,
+source links and taxonomy fields remain in each raw object.
+
+```sh
+# All writes remain under ignored backups/; this makes no HTTP requests.
+python3 scripts/content-sync/mirror.py plan
+
+# Default: one bounded request. Resume skips already preserved IDs.
+python3 scripts/content-sync/mirror.py capture --requests 1 --interval 5
+
+# Explicit bounded archive capture: at most 92 sequential source requests.
+python3 scripts/content-sync/mirror.py capture --requests 92 --interval 5
+
+# Offline validation and nonpublished article preparation; no network calls.
+npx tsx scripts/content-sync/prepare-mirror.ts
+python3 scripts/content-sync/mirror.py verify
+
+# Update inactive review artifacts after capture and preparation, without cutover.
+python3 scripts/content-sync/update_migration_artifacts.py
+python3 scripts/consolidation-audit/validate.py
+
+# Optional bounded binary copies of referenced blog-host uploads.
+python3 scripts/content-sync/mirror.py media --requests 25 --interval 5
+
+# Offline importer regression tests.
+python3 -m unittest discover -s scripts/content-sync -p '*_test.py' -v
+```
+
+Each collection request fixes `include` to audited IDs and requests at most 100
+public records, so concurrent publishing cannot silently shift pagination. The
+capture checks the expected ID set, source URLs, publication state and embedded
+authors before checkpointing a batch. A changed/missing ID stops the operation
+for reconciliation; an updated body is preserved with `changedSinceAudit` set.
+Every completed batch survives a later source error or interruption. No command
+in this mirror replaces application `last-good.json`, changes the cutover gate,
+publishes a page, edits DNS or retires WordPress.
+
+The request reader follows no redirects and permits only the two public REST
+collection paths plus files under the original blog's uploads path. It enforces
+timeouts, byte limits, response types, a minimum two-second interval (five by
+default), and an exclusive local lock. **HTTP 429 stops immediately with no
+automatic retry.** A persisted cooldown is the longer of `Retry-After` and five
+minutes; a new capture command refuses network access until that time has passed.
+Other source errors also stop for inspection. Do not defeat the cooldown by
+moving the checkpoint or running multiple mirror processes.
+
+`prepare-mirror.ts` runs the application's existing sanitizer and schemas offline
+against the copied post bodies and writes reproducible, nonpublished records in
+`backups/wordpress-mirror-2026-09-13/prepared/`. Pages retain their actual `page`
+type in the raw mirror and await a corresponding page template/review; they are
+never relabelled as articles. An invalid derived record remains in the raw
+preservation store and is recorded as requiring review.
+
+The dated receipt under `docs/audits/2026-09-13-migration-preservation/` distinguishes
+body coverage, normalized candidates, copied binary files and missing host
+access. Its compressed content map covers all 9,088 audited content records and
+proposes article destinations only after local normalization succeeds. Every
+candidate remains inactive and unapproved, without an asserted live target.
+The earlier 41,211-URL discovery inventory still covers taxonomies/archives;
+those URLs have no automatically invented equivalent target.
+
+The artifact updater also writes
+`prepared/cloudflare-bulk-redirects.review-only.csv` in ignored storage and
+commits only its hash/summary in `redirect-review.json`. It follows the
+[official Cloudflare CSV format](https://developers.cloudflare.com/rules/url-forwarding/bulk-redirects/reference/csv-file-format/),
+with literal original URLs, verified normalized counterparts, HTTP 301 and every
+query/subdomain/subpath/suffix option explicitly false. CSV escaping and each
+source/target binding are machine-checked. There is no upload or activation code.
+Each destination has four explicit source variants: HTTP/HTTPS, with/without the
+trailing slash. Alias rows are counted separately from content destinations.
+Actual Cloudflare quota and edge rule ordering remain unverified; an account
+trace must establish that automatic HTTPS/slash normalization will not precede
+these direct redirects and introduce a chain.
+**Do not import this review file** while backup, restore, per-record approval,
+target deployment/indexing and scoped redirect authority remain unverified.
+It is a concrete configuration candidate, not a live redirect registry.
+
+Current normalization is `wordpress-public-v2`: a bounded second sanitization
+pass repairs malformed nesting exposed when unknown source tags are removed.
+Existing `wordpress-public-v1` snapshots remain readable and are hashed with
+their recorded version. New snapshots use v2. The deployed v1 manifest and its
+two valid records are retained byte-for-byte. Prepared manifests record the
+current version and hashes of the normalizer, sanitizer, schema and dependency
+lockfile so the exact transformation can be reproduced.
+
+Every prepared index is retained in `prepared/manifests/{sha256}.json` before
+the atomic `prepared/index.json` alias is replaced. The existing alias is also
+archived by verification, without changing its bytes. Source objects and derived
+record objects are likewise immutable.
+
+Checksum meanings are explicit: the checkpoint and prepared index `rawSha256`
+hash the stored pretty-printed source JSON **file bytes**. The index links that
+hash to `recordSha256`, the normalized record file's byte hash. Inside the
+normalized `ContentRecord`, `rawSha256` hashes UTF-8
+`JSON.stringify(parsedSourceObject)` instead. That compact JavaScript
+serialization is not RFC 8785 canonical JSON and need not match the original
+file's byte hash. `contentSha256` hashes the sanitized HTML string. The receipt
+records each scheme and the immutable manifest hash.
+
+The optional media command deduplicates original blog-host upload references,
+including body `src`/`srcset`, media posters, linked uploads and featured-image
+variants. It copies bytes without executing or serving them. Files hosted
+elsewhere are retained as source references but never fetched by this command.
+The referenced-media mirror is **not** the complete uploads directory: unlinked
+files and private media still require a hosting export. A hosted archive export
+is the appropriate way to preserve the full media library at scale.
+
+Even complete public-body coverage is **not a restorable WordPress backup**.
+Database tables, unpublished content/revisions, plugins/themes, secrets,
+configuration, scheduled publishing and an isolated restore test require scoped
+WordPress/hosting access. Final redirects require authority over the blog host.
+
+Protocol references: [public post collection and include filter](https://developer.wordpress.org/rest-api/reference/posts/),
+[REST pagination](https://developer.wordpress.org/rest-api/using-the-rest-api/pagination/),
+[public media metadata](https://developer.wordpress.org/rest-api/reference/media/).
+
 This pipeline reads **public published posts** from `https://blog.insightginie.com`.
 It cannot change WordPress, DNS, ads, users or remote redirects. It keeps immutable
 public JSON source snapshots and sanitized derived versions, then atomically

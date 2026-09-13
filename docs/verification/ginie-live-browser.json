@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-09-13T09:29:41.723Z",
+  "status": "passed",
+  "base": "https://insightginie.com",
+  "checks": {
+    "httpsOrLoopbackPage": true,
+    "ginieName": true,
+    "datadogAnswer": true,
+    "sourceCitations": true,
+    "deterministicCalculator": true,
+    "mobileOverflow": false,
+    "noBrowserProviderOrAdRequests": true,
+    "cloudflareTransformationGuard": true
+  },
+  "provider": {
+    "id": "datadog",
+    "status": "cached",
+    "preparedAt": "2026-09-13T09:22:09.661Z"
+  },
+  "method": "datadog-grounded-selection",
+  "browserHosts": [
+    "insightginie.com"
+  ],
+  "syntheticQuestionsOnly": true,
+  "credentialsOrCookiesRecorded": false
+}

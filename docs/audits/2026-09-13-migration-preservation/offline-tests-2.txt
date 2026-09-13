@@ -1,0 +1,14 @@
+test_duplicate_hash_ignores_script_payloads (test_source.AuditTests.test_duplicate_hash_ignores_script_payloads) ... ok
+test_host_boundary (test_source.AuditTests.test_host_boundary) ... ok
+test_invalid_schema_is_not_validated (test_source.AuditTests.test_invalid_schema_is_not_validated) ... ok
+test_source_measurements_are_not_rendered_claims (test_source.AuditTests.test_source_measurements_are_not_rendered_claims) ... ok
+test_no_more_requests_to_rate_limited_host (test_source.RateLimitTests.test_no_more_requests_to_rate_limited_host) ... ok
+test_exact_candidates_working_keep_and_unmapped_review (test_targets.CandidateTargetTests.test_exact_candidates_working_keep_and_unmapped_review) ... ok
+test_no_approval_homepage_redirects_or_chains (test_targets.CandidateTargetTests.test_no_approval_homepage_redirects_or_chains) ... ok
+test_no_duplicate_source_or_wrong_host_credentials (test_targets.CandidateTargetTests.test_no_duplicate_source_or_wrong_host_credentials) ... ok
+test_reviews_cannot_invent_destinations_and_redirects_need_targets (test_targets.CandidateTargetTests.test_reviews_cannot_invent_destinations_and_redirects_need_targets) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.159s
+
+OK

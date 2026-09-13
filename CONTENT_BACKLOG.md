@@ -50,3 +50,22 @@ Continue per-URL source/media/link and author checks before expansion. Backup,
 restore verification and blog-host redirect authority remain blocked as recorded
 in [MANUAL_REQUIRED.md](MANUAL_REQUIRED.md). Unrelated legacy content must not be
 silently reassigned to the finance themes or mass-redirected to a hub.
+
+## Preserved legacy content awaiting migration review
+
+The public archive now contains 9,071 posts and 17 pages. These are preserved
+sources, not newly approved finance articles. The migration preparation produced
+9,070 valid article candidates. Original authors, dates, captions and source
+links remain in the preserved records; no credentials or reviewer qualifications
+have been invented.
+
+Source post 7363 (`/crypto-security-in-2026/`) contains only “Test content”. It
+remains **EDITORIAL_REQUIRED / REVIEW** with no redirect target; do not create a
+thin replacement or infer a retirement decision without the missing traffic and
+link evidence. Static pages, tags and archive destinations also require genuine
+entity/content equivalence before approval.
+
+See [the preservation report](docs/audits/2026-09-13-migration-preservation/README.md)
+and [the migration map](MIGRATION_MAP.csv). Completing the public archive does
+not satisfy the full WordPress database/files backup, restore test, media or
+host-routing requirements.

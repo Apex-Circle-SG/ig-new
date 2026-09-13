@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-09-13T09:39:21.998083+00:00",
+  "buildId": "vp4vAp13jZLVwN8E3_4r1",
+  "status": "passed",
+  "stats": {
+    "startTime": "2026-09-13T09:34:09.037Z",
+    "duration": 119824.17199999999,
+    "expected": 55,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "errors": [],
+  "scope": "Local production candidate with Datadog disabled to avoid paid calls; separate live provider verification is recorded.",
+  "commands": [
+    "PLAYWRIGHT_BASE_URL=http://127.0.0.1:3011 npx playwright test"
+  ],
+  "visualSnapshots": 4
+}

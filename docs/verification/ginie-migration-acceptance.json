@@ -1,0 +1,49 @@
+{
+  "verifiedAt": "2026-09-13T09:39:21.998083+00:00",
+  "buildId": "vp4vAp13jZLVwN8E3_4r1",
+  "status": "passed",
+  "scope": "Release checks for the Ginie integration and migration preservation tooling; host cutover and field performance are not accepted as complete.",
+  "checks": {
+    "lint": "passed",
+    "typecheck": "passed",
+    "vitest": {
+      "passed": 330,
+      "files": 18
+    },
+    "node": {
+      "passed": 35
+    },
+    "python": {
+      "deployPassed": 5,
+      "legacyPassed": 15,
+      "contentMirrorAndArtifactPassed": 20,
+      "auditPassed": 9
+    },
+    "browser": {
+      "passed": 55,
+      "report": "docs/verification/ginie-migration-browser.json"
+    },
+    "visualSnapshots": 4,
+    "realDatadogExecution": "docs/verification/datadog-ginie-execution.json",
+    "providerCache": "verified zero additional requests",
+    "secretScan": "docs/verification/ginie-migration-secret-scan.json",
+    "lighthouse": "docs/verification/ginie-migration-lighthouse-summary.json",
+    "labLcpTarget": "not met on income and cash-runway pages; other two pages passed this run",
+    "fieldCoreWebVitals": "unavailable",
+    "dependencyAudit": "0 vulnerabilities; lockfile unchanged",
+    "liveContentRecordsValidated": 2,
+    "publicBodiesPreserved": 9088,
+    "normalizedArticleCandidates": 9070,
+    "migrationMapRowsValidated": 41227,
+    "inactiveRedirectAliasesValidated": 36280
+  },
+  "wordpressCutover": false,
+  "publicDatadogEnabledAtPromotion": true,
+  "privateBitsEnabled": false,
+  "knownLimitations": [
+    "Complete WordPress backup/restore, media preservation and blog-host redirect authority unavailable",
+    "Archive-wide rendered/media/editorial review remains open; no new article publication",
+    "Datadog account-side monetary cap, agent tools and retention not independently verified",
+    "Field Core Web Vitals and GSC/backlink/revenue baselines unavailable"
+  ]
+}

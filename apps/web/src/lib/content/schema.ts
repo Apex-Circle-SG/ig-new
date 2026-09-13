@@ -1,7 +1,11 @@
 import { z } from 'zod';
 
 export const WORDPRESS_ORIGIN = 'https://blog.insightginie.com';
-export const CONTENT_TRANSFORMATION_VERSION = 'wordpress-public-v1';
+export const CONTENT_TRANSFORMATION_VERSION = 'wordpress-public-v2';
+export const CONTENT_TRANSFORMATION_VERSIONS = [
+  'wordpress-public-v1',
+  CONTENT_TRANSFORMATION_VERSION,
+] as const;
 export const slugSchema = z
   .string()
   .min(1)
@@ -76,7 +80,7 @@ export const contentRecordSchema = z
 export const contentSnapshotSchema = z
   .object({
     schemaVersion: z.literal(1),
-    transformationVersion: z.literal(CONTENT_TRANSFORMATION_VERSION),
+    transformationVersion: z.enum(CONTENT_TRANSFORMATION_VERSIONS),
     sourceOrigin: z.literal(WORDPRESS_ORIGIN),
     versionId: z.string().regex(/^[a-f0-9]{64}$/),
     generatedAt: z.iso.datetime(),

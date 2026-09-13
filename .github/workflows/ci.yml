@@ -60,6 +60,8 @@ jobs:
           python3 -m unittest discover -s scripts/legacy-url-audit -p "test_*.py"
           python3 scripts/legacy-url-audit/validate.py docs/legacy/url-inventory.csv.gz
           python3 -m unittest discover -s scripts/deploy -p "test_*.py"
+          python3 -m unittest discover -s scripts/content-sync -p "*_test.py"
+          python3 -m unittest discover -s scripts/consolidation-audit -p "test_*.py"
       - name: Apply migrations and verify replay safety
         run: |
           npm run db:migrate

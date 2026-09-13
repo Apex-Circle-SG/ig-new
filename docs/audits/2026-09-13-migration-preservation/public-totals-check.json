@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-09-13T09:35:09.393501+00:00",
+  "scope": "Fresh public REST totals only; preservation completeness refers to the inventoried corpus. Matching totals do not establish a publishing freeze or unchanged content.",
+  "authenticatedPublishingFreeze": false,
+  "requests": [
+    {
+      "url": "https://blog.insightginie.com/wp-json/wp/v2/posts?per_page=1&_fields=id&status=publish&context=view",
+      "status": 200,
+      "retrievedAt": "2026-09-13T09:35:12.001355+00:00",
+      "contentType": "application/json; charset=UTF-8",
+      "bytes": 14,
+      "sha256": "af493709358960c75168abc734c041d1b17526f1e8ebc3ed54d2f5bdf85708b1",
+      "etag": null,
+      "xWpTotal": 9071
+    },
+    {
+      "url": "https://blog.insightginie.com/wp-json/wp/v2/pages?per_page=1&_fields=id&status=publish&context=view",
+      "status": 200,
+      "retrievedAt": "2026-09-13T09:35:16.773386+00:00",
+      "contentType": "application/json; charset=UTF-8",
+      "bytes": 14,
+      "sha256": "55d02845e62ed6cbf197d6070ff17fd1eb7a602dcce23218c5ae8fd12af5d433",
+      "etag": null,
+      "xWpTotal": 17
+    }
+  ],
+  "totals": {
+    "posts": {
+      "audited": 9071,
+      "currentPublicTotal": 9071,
+      "delta": 0
+    },
+    "pages": {
+      "audited": 17,
+      "currentPublicTotal": 17,
+      "delta": 0
+    }
+  },
+  "automaticDeltaCapture": false,
+  "status": "checked",
+  "matchesAuditedTotals": true,
+  "completedAt": "2026-09-13T09:35:16.776975+00:00"
+}

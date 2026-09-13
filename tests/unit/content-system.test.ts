@@ -8,6 +8,7 @@ import {
   validateSnapshot,
   hasApprovedCutover,
   publishedRecords,
+  snapshotHash,
 } from '../../apps/web/src/lib/content/normalize';
 import {
   sanitizePublicHtml,
@@ -118,6 +119,35 @@ describe('safe source preservation', () => {
     ).toContain('rel="noopener noreferrer nofollow sponsored"');
   });
 
+  it.each([
+    '<p>Before editing a file at a <placeholder>/file, keep this original context.<ul><li>Restore the backup</li></ul>',
+    '<ul><li><strong>First preserved question?</strong><br><placeholder><li><strong>Second preserved question?</strong><br><placeholder></ul>',
+  ])('normalizes malformed source nesting with one bounded repair pass', (html) => {
+    const original = raw();
+    original.content.rendered = html;
+    const first = sanitizePublicHtml(html);
+    expect(sanitizePublicHtml(first.html).html).not.toBe(first.html);
+    const record = normalizeWordPressPost(original, '2026-09-13T00:00:00.000Z');
+    expect(record.text).toBe(first.text);
+    expect(sanitizePublicHtml(record.html).html).toBe(record.html);
+    expect(() => createSnapshot([record])).not.toThrow();
+  });
+
+  it('preserves both existing valid preview records byte-for-byte', async () => {
+    for (const record of listContent()) {
+      const source = JSON.parse(
+        await readFile(`content/wordpress/raw/${record.rawSha256}.json`, 'utf8'),
+      );
+      expect(normalizeWordPressPost(source, record.retrievedAt)).toEqual(record);
+    }
+  });
+
+  it('does not relax content requirements for a literal placeholder source', () => {
+    const placeholder = raw();
+    placeholder.content.rendered = '<p>Test content</p>\n';
+    expect(() => normalizeWordPressPost(placeholder, '2026-09-13T00:00:00.000Z')).toThrow();
+  });
+
   it('rejects private/protected content, missing authors and mismatched canonical hosts', () => {
     expect(() =>
       normalizeWordPressPost({ ...raw(), status: 'private' }, '2026-09-13T00:00:00.000Z'),
@@ -156,6 +186,22 @@ describe('safe source preservation', () => {
 });
 
 describe('immutable snapshots and migration gates', () => {
+  it('preserves v1 snapshots while creating explicitly versioned v2 snapshots', async () => {
+    const text = await readFile('content/wordpress/last-good.json', 'utf8');
+    const legacy = JSON.parse(text);
+    expect(legacy.transformationVersion).toBe('wordpress-public-v1');
+    expect(validateSnapshot(legacy)).toEqual(legacy);
+    expect(snapshotHash(legacy.records, 'wordpress-public-v1')).toBe(legacy.versionId);
+    const next = createSnapshot(legacy.records, legacy.generatedAt);
+    expect(next.transformationVersion).toBe('wordpress-public-v2');
+    expect(next.records).toEqual(legacy.records);
+    expect(next.versionId).not.toBe(legacy.versionId);
+    expect(() =>
+      validateSnapshot({ ...legacy, transformationVersion: 'wordpress-public-v99' }),
+    ).toThrow();
+    expect(await readFile('content/wordpress/last-good.json', 'utf8')).toBe(text);
+  });
+
   it('rejects corrupted content and duplicate source identities', () => {
     const snapshot = createSnapshot([normalized()]);
     expect(() =>
