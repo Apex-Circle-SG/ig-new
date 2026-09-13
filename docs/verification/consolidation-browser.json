@@ -1,335 +1,334 @@
 {
-  "verifiedAt": "2026-09-13T08:26:57.757Z",
-  "buildId": "oPjP3LItPeKfLgh_F0AK1",
+  "verifiedAt": "2026-09-13T08:33:32.689Z",
+  "buildId": "ZvykuP-R56oZuWtKJlshk",
   "baseURL": "http://127.0.0.1:3011",
   "passed": 54,
   "failed": 0,
-  "note": "53 passed in full run; obsolete no-transform assertion corrected to private/no-store and the remaining test passed a focused recheck. No application change between runs.",
+  "note": "Full suite passed after Cloudflare no-transform restoration and immediate scrolling. Form tests require actual YOUR SCENARIO state after submission.",
   "tests": [
     {
       "file": "adsense.spec.ts",
       "title": "every reviewed public page loads advertising by default for US visitors",
       "status": "passed",
-      "durationMs": 24952
+      "durationMs": 23708
     },
     {
       "file": "adsense.spec.ts",
       "title": "advertising cannot read calculator inputs or results",
       "status": "passed",
-      "durationMs": 1848
+      "durationMs": 1939
     },
     {
       "file": "adsense.spec.ts",
       "title": "required regional choice and withdrawal are respected",
       "status": "passed",
-      "durationMs": 2945
+      "durationMs": 2947
     },
     {
       "file": "adsense.spec.ts",
       "title": "ads.txt, fresh nonces, and mobile advertising choices are valid",
       "status": "passed",
-      "durationMs": 1924,
-      "rechecked": true
+      "durationMs": 2451
     },
     {
       "file": "adsense.spec.ts",
       "title": "public dataset supports sorting, CSV downloads and source-attributed embeds",
       "status": "passed",
-      "durationMs": 1280
+      "durationMs": 999
     },
     {
       "file": "ask-admin.spec.ts",
       "title": "Ask returns cited explanations, deterministic arithmetic, refusals and fallbacks",
       "status": "passed",
-      "durationMs": 11476
+      "durationMs": 5550
     },
     {
       "file": "ask-admin.spec.ts",
       "title": "Ask handles API failures and rejects cross-site or unbound submissions",
       "status": "passed",
-      "durationMs": 1293
+      "durationMs": 1388
     },
     {
       "file": "ask-admin.spec.ts",
       "title": "admin is protected and quality checks do not approve an incomplete migration",
       "status": "passed",
-      "durationMs": 967
+      "durationMs": 1037
     },
     {
       "file": "ask-admin.spec.ts",
       "title": "usage counts wait for consent and contain no questions",
       "status": "passed",
-      "durationMs": 2840
+      "durationMs": 2082
     },
     {
       "file": "ask-admin.spec.ts",
       "title": "Ask is usable at 320px",
       "status": "passed",
-      "durationMs": 2114
+      "durationMs": 976
     },
     {
       "file": "ask-admin.spec.ts",
       "title": "Ask is usable at 375px",
       "status": "passed",
-      "durationMs": 2277
+      "durationMs": 1154
     },
     {
       "file": "ask-admin.spec.ts",
       "title": "Ask is usable at 390px",
       "status": "passed",
-      "durationMs": 1194
+      "durationMs": 1144
     },
     {
       "file": "ask-admin.spec.ts",
       "title": "Ask is usable at 430px",
       "status": "passed",
-      "durationMs": 1113
+      "durationMs": 1189
     },
     {
       "file": "ask-admin.spec.ts",
       "title": "Ask is usable at 768px",
       "status": "passed",
-      "durationMs": 803
+      "durationMs": 1193
     },
     {
       "file": "content.spec.ts",
       "title": "insights hub searches the preserved preview and query results stay noindex",
       "status": "passed",
-      "durationMs": 3638
+      "durationMs": 1803
     },
     {
       "file": "content.spec.ts",
       "title": "insights topic hubs link accessible decision sections to implemented tools",
       "status": "passed",
-      "durationMs": 2168
+      "durationMs": 1571
     },
     {
       "file": "content.spec.ts",
       "title": "migration preview preserves connecting-openclaw-to-qq-a-guide-to-the-onebot-adapter-skill",
       "status": "passed",
-      "durationMs": 983
+      "durationMs": 1033
     },
     {
       "file": "content.spec.ts",
       "title": "migration preview preserves how-to-get-into-quantitative-trading-a-career-guide",
       "status": "passed",
-      "durationMs": 981
+      "durationMs": 1183
     },
     {
       "file": "content.spec.ts",
       "title": "public RSS excludes migration previews and draft article bodies",
       "status": "passed",
-      "durationMs": 284
+      "durationMs": 303
     },
     {
       "file": "content.spec.ts",
       "title": "research data table and sources remain usable at 320px",
       "status": "passed",
-      "durationMs": 774
+      "durationMs": 689
     },
     {
       "file": "content.spec.ts",
       "title": "research data table and sources remain usable at 390px",
       "status": "passed",
-      "durationMs": 3591
+      "durationMs": 3118
     },
     {
       "file": "content.spec.ts",
       "title": "research data table and sources remain usable at 768px",
       "status": "passed",
-      "durationMs": 821
+      "durationMs": 977
     },
     {
       "file": "finance-tools.spec.ts",
       "title": "AI workflow ROI calculator calculates inside the private boundary",
       "status": "passed",
-      "durationMs": 2745
+      "durationMs": 2206
     },
     {
       "file": "finance-tools.spec.ts",
       "title": "Cash runway calculator calculates inside the private boundary",
       "status": "passed",
-      "durationMs": 2187
+      "durationMs": 1777
     },
     {
       "file": "finance-tools.spec.ts",
       "title": "Break-even calculator calculates inside the private boundary",
       "status": "passed",
-      "durationMs": 2183
+      "durationMs": 2150
     },
     {
       "file": "finance-tools.spec.ts",
       "title": "Business loan payment calculator calculates inside the private boundary",
       "status": "passed",
-      "durationMs": 2486
+      "durationMs": 2409
     },
     {
       "file": "finance-tools.spec.ts",
       "title": "Drawdown recovery calculator calculates inside the private boundary",
       "status": "passed",
-      "durationMs": 1902
+      "durationMs": 1781
     },
     {
       "file": "finance-tools.spec.ts",
       "title": "Portfolio concentration calculator calculates inside the private boundary",
       "status": "passed",
-      "durationMs": 1966
+      "durationMs": 2058
     },
     {
       "file": "finance-tools.spec.ts",
       "title": "private results export locally without entering parent requests or share links",
       "status": "passed",
-      "durationMs": 2991
+      "durationMs": 2624
     },
     {
       "file": "finance-tools.spec.ts",
       "title": "tool hub and mobile cash runway stay accessible and fit the viewport",
       "status": "passed",
-      "durationMs": 4900
+      "durationMs": 5231
     },
     {
       "file": "finance-tools.spec.ts",
       "title": "loan comparison keeps both scenarios private, exports deliberately and clears on reload",
       "status": "passed",
-      "durationMs": 7427
+      "durationMs": 7557
     },
     {
       "file": "home-preview.spec.ts",
       "title": "homepage shows a public example and loads the private calculator only on request",
       "status": "passed",
-      "durationMs": 2610
+      "durationMs": 2451
     },
     {
       "file": "technical-seo.spec.ts",
       "title": "published pages serve unique metadata, valid schema and working internal links",
       "status": "passed",
-      "durationMs": 3495
+      "durationMs": 3336
     },
     {
       "file": "technical-seo.spec.ts",
       "title": "sitemap serves only reachable canonical pages and query/private pages stay excluded",
       "status": "passed",
-      "durationMs": 192
+      "durationMs": 128
     },
     {
       "file": "vertical-slice.spec.ts",
       "title": "homepage routes a real question to the calculator",
       "status": "passed",
-      "durationMs": 2234
+      "durationMs": 2114
     },
     {
       "file": "vertical-slice.spec.ts",
       "title": "calculator validates, handles tail uncertainty, and explores a what-if",
       "status": "passed",
-      "durationMs": 4255
+      "durationMs": 3924
     },
     {
       "file": "vertical-slice.spec.ts",
       "title": "financial inputs never enter network requests or browser storage",
       "status": "passed",
-      "durationMs": 3150
+      "durationMs": 3322
     },
     {
       "file": "vertical-slice.spec.ts",
       "title": "sharing copies only the generic tool URL",
       "status": "passed",
-      "durationMs": 1591
+      "durationMs": 1685
     },
     {
       "file": "vertical-slice.spec.ts",
       "title": "homepage and calculator fit 320px and remain accessible",
       "status": "passed",
-      "durationMs": 7238
+      "durationMs": 6793
     },
     {
       "file": "vertical-slice.spec.ts",
       "title": "homepage and calculator fit 375px and remain accessible",
       "status": "passed",
-      "durationMs": 6653
+      "durationMs": 6767
     },
     {
       "file": "vertical-slice.spec.ts",
       "title": "homepage and calculator fit 390px and remain accessible",
       "status": "passed",
-      "durationMs": 4875
+      "durationMs": 4986
     },
     {
       "file": "vertical-slice.spec.ts",
       "title": "homepage and calculator fit 430px and remain accessible",
       "status": "passed",
-      "durationMs": 5060
+      "durationMs": 4991
     },
     {
       "file": "vertical-slice.spec.ts",
       "title": "homepage and calculator fit 768px and remain accessible",
       "status": "passed",
-      "durationMs": 4950
+      "durationMs": 4945
     },
     {
       "file": "vertical-slice.spec.ts",
       "title": "homepage and calculator fit 1280px and remain accessible",
       "status": "passed",
-      "durationMs": 5219
+      "durationMs": 5108
     },
     {
       "file": "vertical-slice.spec.ts",
       "title": "mobile menu and keyboard form work",
       "status": "passed",
-      "durationMs": 1883
+      "durationMs": 1865
     },
     {
       "file": "vertical-slice.spec.ts",
       "title": "sources, production indexing, headers and 404",
       "status": "passed",
-      "durationMs": 1416
+      "durationMs": 1537
     },
     {
       "file": "vertical-slice.spec.ts",
       "title": "all public navigation destinations render",
       "status": "passed",
-      "durationMs": 383
+      "durationMs": 307
     },
     {
       "file": "vertical-slice.spec.ts",
       "title": "no-JavaScript page cannot submit a private income",
       "status": "passed",
-      "durationMs": 871
+      "durationMs": 976
     },
     {
       "file": "vertical-slice.spec.ts",
       "title": "native form submission cannot send financial values out of the sandbox",
       "status": "passed",
-      "durationMs": 1012
+      "durationMs": 957
     },
     {
       "file": "vertical-slice.spec.ts",
       "title": "a failed calculator document can be retried without exposing an input",
       "status": "passed",
-      "durationMs": 9395
+      "durationMs": 9366
     },
     {
       "file": "visual.spec.ts",
       "title": "ask visual regression at 390px",
       "status": "passed",
-      "durationMs": 963
+      "durationMs": 1071
     },
     {
       "file": "visual.spec.ts",
       "title": "tools/cash-runway visual regression at 390px",
       "status": "passed",
-      "durationMs": 1774
+      "durationMs": 1862
     },
     {
       "file": "visual.spec.ts",
       "title": "ask visual regression at 1280px",
       "status": "passed",
-      "durationMs": 1204
+      "durationMs": 1186
     },
     {
       "file": "visual.spec.ts",
       "title": "tools/cash-runway visual regression at 1280px",
       "status": "passed",
-      "durationMs": 2095
+      "durationMs": 2459
     }
   ]
 }

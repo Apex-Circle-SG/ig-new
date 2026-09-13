@@ -8,10 +8,12 @@
   trust pages, topic/research hubs, feeds and canonical sitemap partitions.
 - Added reproducible headless WordPress ingestion with two noindex previews and
   explicit backup/restore/redirect/editorial gates; no remote WordPress cutover.
-- Added bounded Datadog aggregate/private-workflow adapters, deployment rollback,
-  security/privacy tests and mobile/visual/SEO verification. Bits stays disabled.
-- Improved public HTML compression and resolved the detected accessibility and
-  financial-input parsing defects.
+- Activated redacted Datadog metrics and an authenticated-account dashboard;
+  added bounded private-workflow adapters, rollback and security/privacy tests.
+  Bits stays disabled. Submitted 31 validated canonical URLs to IndexNow.
+- Preserved Cloudflare-safe script execution, removed moving calculator controls,
+  and resolved accessibility and financial-input parsing defects. An attempted
+  public compression optimization was rolled back after real edge verification.
 
 See [acceptance and remaining dependencies](docs/consolidation-acceptance.md).
 

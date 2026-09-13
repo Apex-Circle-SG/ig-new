@@ -65,3 +65,5 @@ Never commit `.env`, credentials, private profile data or raw operational secret
 ## Documentation
 
 [Verification report](docs/verification-report.md) · [Audit](docs/current-state-audit.md) · [Architecture](docs/architecture.md) · [Plan](docs/implementation-plan.md) · [Local development](docs/local-development.md) · [Deployment](docs/deployment.md) · [Database](docs/database.md) · [Datasets](docs/datasets.md) · [Calculator framework](docs/calculator-framework.md) · [Migration](docs/legacy-migration.md) · [Operations](docs/operations-runbook.md)
+
+Current release: see [acceptance, live verification and remaining dependencies](docs/consolidation-acceptance.md). The permanent service uses port **3000**.

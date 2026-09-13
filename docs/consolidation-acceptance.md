@@ -1,8 +1,18 @@
 # Consolidation application acceptance — 13 September 2026
 
-The application release provides seven working tools, `/insights/`, `/research/`,
+The application is deployed and provides seven working tools, `/insights/`, `/research/`,
 `/ask/`, trust pages and protected operations. It does **not** complete the remote
 WordPress cutover. The permanent Node.js/Next.js service uses port **3000**.
+
+Public HTTPS verification passes [13 browser checks](verification/consolidation-live-browser.json)
+and the [authenticated admin flow](verification/consolidation-live-admin.json).
+Datadog [aggregate intake](verification/datadog-metrics-activation.json),
+[metric readback](verification/datadog-metric-readback.json) and
+[dashboard creation/readback](verification/datadog-dashboard-activation.json) are verified;
+the five-minute metrics timer is enabled. These counts include release tests and
+are not an organic traffic baseline. IndexNow [received all 31 approved URLs](offsite-seo/consolidation-submission.json)
+with HTTP200; this does not guarantee indexing. Google/Bing account-specific APIs
+remain unconfigured.
 
 ## Implemented and verified
 
@@ -31,9 +41,15 @@ WordPress cutover. The permanent Node.js/Next.js service uses port **3000**.
 
 ## Validation
 
-Lint, TypeScript, 256 Vitest tests, 32 Node tests, 18 Python tests and systemd unit syntax checks pass. Commands and deployment procedures are in [the release runbook](consolidation-release.md).
+[GitHub CI passed for the deployed application commit](verification/consolidation-ci.json),
+including a clean install, all tests, PostgreSQL migration/replay verification,
+build, 54 browser checks and dependency audit. Later release-record edits do not
+change the deployed application source.
+
+Lint, TypeScript, 257 Vitest tests, 32 Node tests, 18 Python tests and systemd unit syntax checks pass. Commands and deployment procedures are in [the release runbook](consolidation-release.md).
 The [browser receipt](verification/consolidation-browser.json) records all 54
-passing checks, including the focused recheck of an obsolete caching assertion.
+passing checks in one final full-suite run. Earlier failures and fixes are retained
+in the rollback record.
 Four reviewed visual snapshots cover Ask and cash runway at 390px and 1280px.
 Mobile tests include widths 320, 375, 390, 430 and 768px. Automated axe checks
 report no violations in the tested flows; this is not a complete accessibility
@@ -45,19 +61,29 @@ candidate, without concurrent browser suites:
 
 | Page | Performance | Accessibility / best practices / SEO | LCP | CLS |
 | --- | ---: | --- | ---: | ---: |
-| Home | 92 | 100 / 100 / 100 | 2.37s | 0 |
-| Income | 79 | 100 / 100 / 100 | 2.39s | 0.0134 |
-| Cash runway | 84 | 100 / 100 / 100 | 2.41s | 0.0033 |
-| Ask | 87 | 100 / 100 / 100 | 1.80s | 0.0001 |
+| Home | 89 | 100 / 100 / 100 | 2.69s | 0.0000 |
+| Income | 76 | 100 / 100 / 100 | 3.19s | 0.0285 |
+| Cash runway | 74 | 100 / 100 / 100 | 3.23s | 0.0000 |
+| Ask | 96 | 100 / 100 / 100 | 1.92s | 0.0000 |
 
-Public nonce-bearing HTML remains private/no-store but now permits transport
-compression. Measured homepage gzip size fell from 53,783 uncompressed bytes to
-10,965 compressed bytes. Private calculator responses retain their isolation
-headers and explicit compression. Homepage performance improved from 84 to 92;
-cash runway improved from 73 to 84 after compression and consent-copy changes.
+The compression experiment passed local tests but was rolled back after public
+edge checks: Cloudflare Rocket Loader rewrote executable script types. The final
+release restores `private, no-store, no-transform`, preserving nonce-bearing
+scripts. Private calculator responses retain explicit origin compression. The
+[experiment measurements](verification/consolidation-compression-experiment-lighthouse.json)
+are historical and must not be presented as the deployed configuration's scores.
+Disabling Rocket Loader through scoped Cloudflare configuration is a prerequisite
+for revisiting public HTML compression with this deployment stack.
+
+The first public test also sent a synthetic Cloudflare client-IP header intended
+only for localhost, producing Cloudflare Error1000. Public tests now leave
+Cloudflare-owned headers untouched. The first GitHub CI run found an origin test
+that depended on the runner environment; it now supplies its tested origin
+explicitly and checks cross-site rejection. These fixes preserve production
+origin validation.
 
 **Field p75 Core Web Vitals remain unmeasured.** Lab total blocking time is
-294–728ms and is not INP. More JavaScript reduction, especially the original
+220.5–656.5ms and is not INP. Three measured pages exceed the 2.5-second lab LCP target. More JavaScript reduction, especially the original
 income experience, remains performance work; these results do not certify the
 field INP target or ad-network behavior under real traffic.
 
@@ -75,5 +101,7 @@ field INP target or ad-network behavior under real traffic.
   and budget review. APM/RUM/scanner/pipeline templates are not active products.
 
 Detailed labels and dependencies are in [MANUAL_REQUIRED.md](../MANUAL_REQUIRED.md).
-The [deployment receipt](verification/consolidation-deployment.json) is written
-only after promotion; the runbook describes the protected rollback archive.
+The [deployment receipt](verification/consolidation-deployment.json) records the
+active build and protected rollback archive. The latest change affects only the
+admin response: edge script protection, a bounded fetch and accurate worker-status
+copy. Its unit/targeted browser checks supplement the complete public suite.

@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-09-13T08:37:34.000Z",
+  "mode": "submit",
+  "site": "https://insightginie.com",
+  "sitemap": "https://insightginie.com/sitemap.xml",
+  "note": "A received submission is a discovery notification, not proof or a promise of indexing.",
+  "validation": "passed",
+  "providers": [
+    {
+      "provider": "indexnow",
+      "status": "received",
+      "keyLocation": "https://insightginie.com/indexnow-key.txt",
+      "batches": [
+        {
+          "httpStatus": 200,
+          "urlCount": 31
+        }
+      ]
+    },
+    {
+      "provider": "google-search-console",
+      "status": "skipped",
+      "reason": "GOOGLE_SEARCH_CONSOLE_ACCESS_TOKEN_missing"
+    },
+    {
+      "provider": "bing-webmaster",
+      "status": "skipped",
+      "reason": "BING_WEBMASTER_API_KEY_missing"
+    }
+  ],
+  "urlCount": 31,
+  "urls": [
+    "https://insightginie.com/",
+    "https://insightginie.com/about/",
+    "https://insightginie.com/advertising-disclosure/",
+    "https://insightginie.com/ai-disclosure/",
+    "https://insightginie.com/ask/",
+    "https://insightginie.com/authors/",
+    "https://insightginie.com/authors/insightginie/",
+    "https://insightginie.com/calc/",
+    "https://insightginie.com/calc/individual-income-percentile/",
+    "https://insightginie.com/contact/",
+    "https://insightginie.com/content-index/",
+    "https://insightginie.com/corrections-policy/",
+    "https://insightginie.com/data/",
+    "https://insightginie.com/data/census-cps/",
+    "https://insightginie.com/data/us-income-distribution/",
+    "https://insightginie.com/editorial-policy/",
+    "https://insightginie.com/finance-disclaimer/",
+    "https://insightginie.com/insights/",
+    "https://insightginie.com/methodology/",
+    "https://insightginie.com/methodology/individual-income/",
+    "https://insightginie.com/privacy/",
+    "https://insightginie.com/research-methodology/",
+    "https://insightginie.com/research/",
+    "https://insightginie.com/terms/",
+    "https://insightginie.com/tools/",
+    "https://insightginie.com/tools/ai-workflow-roi/",
+    "https://insightginie.com/tools/break-even/",
+    "https://insightginie.com/tools/business-loan/",
+    "https://insightginie.com/tools/cash-runway/",
+    "https://insightginie.com/tools/drawdown-recovery/",
+    "https://insightginie.com/tools/portfolio-concentration/"
+  ],
+  "sitemaps": [
+    "https://insightginie.com/sitemap.xml"
+  ],
+  "urlsSha256": "822ec584c117b062ad26a6070e92f44d28b60e9612f560d99e06ce87b683bbbd"
+}

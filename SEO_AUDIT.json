@@ -1,10 +1,10 @@
 {
   "audit_version": "consolidation-implementation-v1",
-  "generated_at": "2026-09-13T06:07:43.066868+00:00",
-  "phase": "Implementation and local verification; WordPress cutover blocked",
+  "generated_at": "2026-09-13T08:39:33.755607+00:00",
+  "phase": "Functional application deployed; remote WordPress cutover and performance acceptance remain open",
   "phase1_complete": false,
   "application_modified": true,
-  "production_deployed": false,
+  "production_deployed": true,
   "inventory": {
     "blog_distinct_urls": 41211,
     "blog_kinds": {
@@ -137,5 +137,21 @@
     "technical_seo_report": "docs/verification/technical-seo-routes.json",
     "original_inspection": "docs/audits/2026-09-13-consolidation/SEO_AUDIT.json",
     "acceptance_report": "docs/verification/consolidation-acceptance.json"
+  },
+  "implementation_reports": [
+    "docs/consolidation-acceptance.md",
+    "docs/verification/consolidation-browser.json",
+    "docs/verification/consolidation-lighthouse-summary.json",
+    "docs/verification/consolidation-first-promotion-rollback.json"
+  ],
+  "release": {
+    "applicationCommit": "7b82bd078d1d5c9777b2f3c7076574c6cd169eea",
+    "canonicalPagesVerified": 31,
+    "publicBrowserChecksPassed": 13,
+    "wordpressCutover": false,
+    "approvedBlogRedirects": 0,
+    "indexNowReceipt": "docs/offsite-seo/consolidation-submission.json",
+    "runtimeReceipt": "docs/verification/consolidation-deployment.json",
+    "performance": "Lab LCP target unmet on three pages; field p75 unavailable"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "deployedAt": "2026-09-13T08:39:10.960143+00:00",
+  "commit": "7b82bd078d1d5c9777b2f3c7076574c6cd169eea",
+  "buildId": "ZzaE3tnLuu_cN7n5jiUp_",
+  "service": "insightginie-web",
+  "port": 3000,
+  "health": "passed",
+  "rollbackDirectory": "/root/ig-new/artifacts/releases/pre-consolidation-20260913T083908Z",
+  "runtimeSecretNames": [
+    "ASK_SECURITY_SECRET",
+    "ADMIN_ACCESS_KEY"
+  ],
+  "candidateEvidenceSha256": "0c17ab1896682a76118a38ffb643242a35c5fe432299f51c71d29699395b908b",
+  "wordpressCutover": false
+}

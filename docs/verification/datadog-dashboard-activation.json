@@ -1,0 +1,12 @@
+{
+  "verifiedAt": "2026-09-13T08:37:14.931Z",
+  "title": "InsightGinie operations: aggregate health",
+  "created": true,
+  "writeStatus": 200,
+  "readbackStatus": 200,
+  "widgets": 5,
+  "publicShareCreated": false,
+  "notificationTargets": [],
+  "visibility": "authenticated Datadog account access; no owner-only restriction asserted",
+  "bitsExecutions": 0
+}

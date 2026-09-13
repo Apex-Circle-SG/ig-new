@@ -1,14 +1,18 @@
 # Privacy-safe Datadog operations
 
-Implemented and locally tested 13 September 2026. This implementation work made
-read-only availability checks, with no metric submissions or workflow executions.
-Deployment is preparing one approved current-day aggregate submission followed
-by the five-minute metrics timer only if intake returns HTTP 202. **Runtime
-activation evidence is pending and must be recorded separately. Bits remains
-disabled with a zero execution budget.** No dashboard, monitor, SDK or pipeline
-has been activated by these files. Templates are configuration proposals, not
-evidence of active Datadog products. Existing access evidence is in
-[the Bits requirements record](datadog-bits-requirements.md).
+Implemented, tested and activated 13 September 2026. Production aggregate
+metrics were accepted by AP1 intake with HTTP202; a query returned one non-null
+series. The five-minute metrics timer is enabled. An authenticated-account
+operations dashboard was created and read back with HTTP200. No public share or
+notifications were created. **Bits remains disabled with a zero execution budget.**
+No browser RUM, APM SDK, monitor or scanner/pipeline is active. Custom-metric
+billing allowance remains unverified.
+
+Runtime evidence: [intake](verification/datadog-metrics-activation.json),
+[readback](verification/datadog-metric-readback.json),
+[dashboard](verification/datadog-dashboard-activation.json).
+Counters include explicit release verification, not an organic-traffic baseline.
+Earlier workflow access evidence is in [the Bits requirements record](datadog-bits-requirements.md).
 
 ## Verified and unresolved access
 
@@ -26,7 +30,7 @@ it does not establish recurring capacity or complete account governance.
 | Selected workflow and instance reads                                      | `workflows_read` and resource access               | Live read HTTP 200; earlier instance retrieval succeeded                              |
 | Selected workflow execution                                               | `workflows_run` and resource/connection access     | Earlier authorized synthetic execution succeeded; disabled in this adapter by default |
 | Workflow cancellation                                                     | Workflow run access and applicable resource access | Documented request implemented and mocked; not live tested                            |
-| Metrics intake `/api/v2/series`                                           | API key; application key is not sent               | Local payload validation passes; live intake verification pending                     |
+| Metrics intake `/api/v2/series`                                           | API key; application key is not sent               | Intake HTTP202; metric query HTTP200 with one non-null series                     |
 | APM, Error Tracking, RUM, Sensitive Data Scanner, Observability Pipelines | Product-specific configuration and entitlements    | Unverified; no SDK, agent, pipeline or remote product activated here                  |
 
 This table records observed endpoint capabilities, not a complete enumeration of
@@ -46,7 +50,7 @@ The following still need operator/account verification:
   not read live billing or guarantee the provider will charge at most a reservation.
 - Custom-metric ingestion/billing, APM/Error Tracking, RUM, Sensitive Data Scanner
   and Observability Pipelines access. Workflow access does not imply entitlement
-  to these products. No monitoring write was used to probe availability.
+  to these products. The release submitted the authorized aggregate gauges and created one dashboard; other product entitlements remain unverified.
 - Workflow cancellation permission and terminal behavior in the account. The
   implementation and mocks exercise the documented cancellation request; the
   request has not been executed against the configured workflow.
@@ -108,7 +112,7 @@ stale lock. Do not automatically clear an ambiguous lock and create another run.
 
 The optional [metrics service](../deploy/datadog/insightginie-metrics.service) and
 [timer](../deploy/datadog/insightginie-metrics.timer) require deployment activation
-after a successful aggregate submission; that runtime receipt is pending.
+after a successful aggregate submission; the production timer is enabled and its runtime receipt is linked above.
 They run at most once every five minutes and default to disabled export. The unit
 reads operation files and has write access only to its private state directory.
 No timer or recurring inference command is provided for Bits.
@@ -201,8 +205,9 @@ Data Scanner is an additional check, not permission to transmit raw data first.
 
 [Dashboard](../deploy/datadog/dashboard.json) and [monitor](../deploy/datadog/monitors.json)
 templates use the submitted gauge names and standard Datadog API shapes. They
-have not been imported or remotely validated. Select approved notification
-destinations and validate them in the authorized account before activation.
+include an activated, read-back dashboard. Monitor templates remain inactive.
+Select approved notification destinations and validate monitors in the authorized
+account before activation.
 The templates show daily cumulative outcomes; thresholds are provisional
 operational settings, not learned baselines. No-data monitoring is important
 because failed delivery cannot reliably report its own outage through the same
@@ -216,5 +221,5 @@ tags, disabled/missing-data behavior, retries, persistent rate limits, private
 file modes, timeout/size bounds, task rejection, both create success codes,
 reserved-budget persistence, independent monthly caps, concurrent execution
 locking, month transitions, cancellation, workflow shape checks and response
-redaction. ESLint and systemd unit syntax checks pass. Activation and actual
-Datadog ingestion/trace/dashboard behavior remain separate deployment checks.
+redaction. ESLint and systemd unit syntax checks pass. Intake, metric query and dashboard readback are recorded in the runtime receipts.
+Trace/RUM/scanner/pipeline activation remains pending.

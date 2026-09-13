@@ -35,7 +35,7 @@ python3 scripts/deploy/promote.py --promote
 curl --fail http://127.0.0.1:3000/api/health/
 ```
 
-The helper archives the previous live build, systemd units and protected runtime environment under `artifacts/releases/pre-consolidation-*` with restricted permissions, then installs the candidate and checks the health route and four major pages. Failure attempts automatic restoration. `docs/verification/consolidation-deployment.json` records the exact archive, commit and build. Recheck public HTTPS behavior and real browser flows through Cloudflare.
+The helper archives the previous live build, systemd units and protected runtime environment under `artifacts/releases/pre-consolidation-*` with restricted permissions, then installs the candidate and checks the health route and four major pages. Failure attempts automatic restoration. `docs/verification/consolidation-deployment.json` records the exact archive, commit and build. Recheck public HTTPS behavior and real browser flows through Cloudflare. Keep `no-transform` on nonce-bearing HTML while Rocket Loader is enabled. Do not spoof `cf-connecting-ip` in public tests; that header belongs to Cloudflare and can trigger Error1000. A successful loopback check is insufficient for release acceptance.
 
 Production configuration is `/etc/insightginie/runtime.env`. The helper generates `ASK_SECURITY_SECRET` and `ADMIN_ACCESS_KEY` if missing and stores a protected copy in ignored root `.env`. Admin username is `admin`; retrieve its secret locally without posting it to chat or an issue. No Git, CMS, model or Datadog credentials are copied into the web process. The metrics worker uses its own `/etc/insightginie/datadog.env`.
 

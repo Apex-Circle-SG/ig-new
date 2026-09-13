@@ -1,0 +1,9 @@
+{
+  "verifiedAt": "2026-09-13T08:37:47.871Z",
+  "queryStatus": 200,
+  "returnedSeries": 1,
+  "nonNullPoints": 1,
+  "metricVisible": true,
+  "baseline": "Operational verification activity; not measured organic traffic",
+  "billingAllowanceVerified": false
+}

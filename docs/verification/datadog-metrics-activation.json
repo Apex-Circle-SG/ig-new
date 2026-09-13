@@ -1,0 +1,16 @@
+{
+  "verifiedAt": "2026-09-13T08:37:04.434283+00:00",
+  "site": "ap1.datadoghq.com",
+  "intakeStatus": 202,
+  "series": 10,
+  "fields": "fixed operation counts, fixed service/environment tags",
+  "source": "current-day production operations; includes explicit release verification requests, not an organic-traffic baseline",
+  "promptsSent": false,
+  "financialInputsSent": false,
+  "applicationKeySent": false,
+  "bitsExecuted": false,
+  "billingAllowanceVerified": false,
+  "timer": "insightginie-metrics.timer",
+  "timerEnabled": true,
+  "intervalSeconds": 300
+}

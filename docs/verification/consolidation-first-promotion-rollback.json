@@ -1,0 +1,20 @@
+{
+  "deployedAt": "2026-09-13T08:28:52.386231+00:00",
+  "commit": "7a90e25ee516012dbe5ca99ee1e223ef62e858f4",
+  "buildId": "oPjP3LItPeKfLgh_F0AK1",
+  "service": "insightginie-web",
+  "port": 3000,
+  "health": "passed",
+  "rollbackDirectory": "/root/ig-new/artifacts/releases/pre-consolidation-20260913T082849Z",
+  "runtimeSecretNames": [
+    "ASK_SECURITY_SECRET",
+    "ADMIN_ACCESS_KEY"
+  ],
+  "candidateEvidenceSha256": "b18e2668accdaa668bb98d80d1effba36f5f41818b74334a920da20b2ef0dabf",
+  "wordpressCutover": false,
+  "status": "rolled_back",
+  "reason": "Public edge verification found Rocket Loader script-type transformations; production test also incorrectly spoofed Cloudflare-owned client-IP headers and received Error1000.",
+  "restoredPreviousBuild": true,
+  "rolledBackAt": "2026-09-13T08:30:19.629990+00:00",
+  "additionalRegression": "Global smooth scrolling moved iframe controls during automated pointer interaction; final source uses immediate scrolling and requires the YOUR SCENARIO state after a calculator submission."
+}

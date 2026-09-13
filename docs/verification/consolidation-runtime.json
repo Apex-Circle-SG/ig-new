@@ -1,0 +1,17 @@
+{
+  "verifiedAt": "2026-09-13T08:40:43.207597+00:00",
+  "service": "insightginie-web",
+  "port": 3000,
+  "webActive": true,
+  "webEnabled": true,
+  "metricsTimerEnabled": true,
+  "metricsDeliveryVerified": true,
+  "dashboardReadbackVerified": true,
+  "bitsExecutionsThisRelease": 0,
+  "secretsInBrowserBuild": 0,
+  "wordpressModified": false,
+  "fullMigrationComplete": false,
+  "applicationCi": "passed",
+  "applicationCommit": "7b82bd078d1d5c9777b2f3c7076574c6cd169eea",
+  "adminLiveVerification": "passed"
+}

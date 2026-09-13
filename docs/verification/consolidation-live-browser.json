@@ -1,0 +1,88 @@
+{
+  "verifiedAt": "2026-09-13T08:37:34.143Z",
+  "baseURL": "https://insightginie.com",
+  "passed": 13,
+  "failed": 0,
+  "note": "12 passed in initial public run. Canonical alias test then passed using actual public www URL and accepting the configured direct301. Local app fallback remains308. No Cloudflare client-IP spoofing.",
+  "tests": [
+    {
+      "file": "ask-admin.spec.ts",
+      "title": "Ask returns cited explanations, deterministic arithmetic, refusals and fallbacks",
+      "status": "passed",
+      "durationMs": 7379
+    },
+    {
+      "file": "ask-admin.spec.ts",
+      "title": "Ask handles API failures and rejects cross-site or unbound submissions",
+      "status": "passed",
+      "durationMs": 1023
+    },
+    {
+      "file": "finance-tools.spec.ts",
+      "title": "AI workflow ROI calculator calculates inside the private boundary",
+      "status": "passed",
+      "durationMs": 1393
+    },
+    {
+      "file": "finance-tools.spec.ts",
+      "title": "Cash runway calculator calculates inside the private boundary",
+      "status": "passed",
+      "durationMs": 1349
+    },
+    {
+      "file": "finance-tools.spec.ts",
+      "title": "Break-even calculator calculates inside the private boundary",
+      "status": "passed",
+      "durationMs": 1390
+    },
+    {
+      "file": "finance-tools.spec.ts",
+      "title": "Business loan payment calculator calculates inside the private boundary",
+      "status": "passed",
+      "durationMs": 1662
+    },
+    {
+      "file": "finance-tools.spec.ts",
+      "title": "Drawdown recovery calculator calculates inside the private boundary",
+      "status": "passed",
+      "durationMs": 1449
+    },
+    {
+      "file": "finance-tools.spec.ts",
+      "title": "Portfolio concentration calculator calculates inside the private boundary",
+      "status": "passed",
+      "durationMs": 1325
+    },
+    {
+      "file": "finance-tools.spec.ts",
+      "title": "private results export locally without entering parent requests or share links",
+      "status": "passed",
+      "durationMs": 2230
+    },
+    {
+      "file": "finance-tools.spec.ts",
+      "title": "tool hub and mobile cash runway stay accessible and fit the viewport",
+      "status": "passed",
+      "durationMs": 3455
+    },
+    {
+      "file": "finance-tools.spec.ts",
+      "title": "loan comparison keeps both scenarios private, exports deliberately and clears on reload",
+      "status": "passed",
+      "durationMs": 5646
+    },
+    {
+      "file": "technical-seo.spec.ts",
+      "title": "published pages serve unique metadata, valid schema and working internal links",
+      "status": "passed",
+      "durationMs": 3250
+    },
+    {
+      "file": "technical-seo.spec.ts",
+      "title": "sitemap serves only reachable canonical pages and query/private pages stay excluded",
+      "status": "passed",
+      "durationMs": 462,
+      "rechecked": true
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
-  "verifiedAt": "2026-09-13T08:28:41.940221+00:00",
-  "buildId": "oPjP3LItPeKfLgh_F0AK1",
+  "verifiedAt": "2026-09-13T08:39:08.516289+00:00",
+  "buildId": "ZzaE3tnLuu_cN7n5jiUp_",
   "status": "passed",
-  "scope": "Independent application release; remote WordPress cutover and unconfigured services excluded",
+  "scope": "Functional application release; WordPress cutover, field performance and unconfigured services remain open",
   "checks": {
     "lint": "passed",
     "typecheck": "passed",
     "vitest": {
-      "passed": 256,
+      "passed": 257,
       "files": 16
     },
     "node": {
@@ -25,14 +25,33 @@
     "lighthouse": "docs/verification/consolidation-lighthouse-summary.json",
     "fieldCoreWebVitals": "unavailable",
     "systemdUnitSyntax": "passed",
-    "secretScan": "passed"
+    "secretScan": "passed",
+    "dependencyAudit": "0 vulnerabilities",
+    "contentRecordsValidated": 2,
+    "migrationInventoryRowsValidated": 41211,
+    "publicCloudflareGuard": "private, no-store, no-transform",
+    "lighthouseCategories": {
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+    },
+    "labLcpTarget": "not met on 3 of 4 tested pages",
+    "adminOnlyDelta": {
+      "changedApplicationFiles": [
+        "apps/web/src/app/admin/route.ts"
+      ],
+      "browserPassed": 2,
+      "publicSourceUnchanged": true,
+      "notes": "Full54 browser and Lighthouse records apply to unchanged public route source; admin header/timeout tested separately."
+    }
   },
   "wordpressCutover": false,
   "bitsEnabled": false,
   "knownLimitations": [
     "Full blog backup/restore, redirect access and editorial approval missing",
-    "Field INP unavailable; simulated total blocking time remains 294\u2013728ms",
+    "Lab LCP 2.69\u20133.23s on three pages exceeds 2.5s; field INP unavailable; TBT 220.5\u2013656.5ms",
     "GSC, backlink and ad-revenue baselines unavailable",
     "RUM/APM/scanner/pipeline integration requires account-side configuration"
-  ]
+  ],
+  "basePublicBuildId": "ZvykuP-R56oZuWtKJlshk"
 }
