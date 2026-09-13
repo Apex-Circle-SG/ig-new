@@ -24,6 +24,11 @@ class ReleaseBoundaries(unittest.TestCase):
         self.assertEqual(runtime['ASK_DATADOG_MAX_MONTHLY_RUNS'], '120')
         self.assertNotIn('GH_PAT', runtime)
         self.assertNotIn('CMS_PASSWORD', runtime)
+        local['DD_REGION'] = 'ap1.datadoghq.com'
+        promote.configure_ask_datadog(runtime, local)
+        self.assertEqual(runtime['DD_REGION'], 'ap1.datadoghq.com')
+        with self.assertRaises(RuntimeError):
+            promote.configure_ask_datadog({}, {**local, 'DD_REGION': 'datadoghq.com.attacker.test'})
         promote.configure_ask_datadog(runtime, {})
         self.assertEqual(runtime['ASK_DATADOG_ENABLED'], 'false')
         self.assertNotIn('DD_API_KEY', runtime)

@@ -76,8 +76,12 @@ def configure_ask_datadog(runtime, local):
         if not re.fullmatch(r'[a-fA-F0-9]{8}(?:-[a-fA-F0-9]{4}){3}-[a-fA-F0-9]{12}', value):
             raise RuntimeError(f'{key} is missing or invalid')
         runtime[key] = value
-    region = local.get('DD_REGION', '').upper()
-    if region not in ['US1', 'US3', 'US5', 'EU', 'EU1', 'AP1', 'AP2', 'UK1', 'US1FED', 'US2FED']:
+    configured_region = local.get('DD_REGION', '')
+    aliases = ['US1', 'US3', 'US5', 'EU', 'EU1', 'AP1', 'AP2', 'UK1', 'US1FED', 'US2FED']
+    sites = ['datadoghq.com', 'us3.datadoghq.com', 'us5.datadoghq.com', 'datadoghq.eu',
+             'ap1.datadoghq.com', 'ap2.datadoghq.com', 'uk1.datadoghq.com', 'ddog-gov.com', 'us2.ddog-gov.com']
+    region = configured_region.upper() if configured_region.upper() in aliases else configured_region.lower()
+    if region not in aliases and region not in sites:
         raise RuntimeError('DD_REGION must select a supported Datadog region')
     runtime['DD_REGION'] = region
     for key, default, maximum in [
