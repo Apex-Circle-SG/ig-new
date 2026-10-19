@@ -17,6 +17,8 @@ The hourly cron rotates one source at minute 17. Each provider is fetched once e
 
 GA4 uses the owner-supplied measurement ID **G-4HQVZL3586**. The tag endpoint returned JavaScript successfully. Browser tests verify opt-in, manual pageview commands, withdrawal and private-page exclusions using intercepted requests, without sending artificial pageviews to the property.
 
+Live verification loaded the real Google tag after consent and Google accepted the pageview for G-4HQVZL3586 with HTTP 204. This confirms transport, not GA4 dashboard receipt. The Google-served tag also contains destination G-DRNHRZSYP2 and sent an automatic scroll event to it. That ID is absent from the site source and comes from the supplied tag’s Google-side configuration. Review connected destinations and Enhanced Measurement in Google Admin if that destination is unintended. See [live verification](verification/opportunities-live.json).
+
 Existing consent to anonymous first-party counts does not opt visitors into Google Analytics. Google Analytics requires the updated consent. Ask, private tools, saved lists and query-string pages do not load it. Private calculator frames remain isolated.
 
 AdSense publisher **ca-pub-8735749779872017** is preserved on existing approved inventory. The new opportunity, idea and platform surfaces are excluded pending review. AdSense consent is managed separately.
