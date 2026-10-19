@@ -1,0 +1,17 @@
+{
+  "verifiedAt": "2026-10-19T05:34:07.824Z",
+  "requestedByOwner": true,
+  "result": {
+    "status": "published",
+    "day": "2026-10-19"
+  },
+  "receipt": {
+    "day": "2026-10-19",
+    "opportunity_id": "method-security-bounties",
+    "status": "published",
+    "finished_at": "2026-10-19T05:34:07.678Z",
+    "post_id": "urn:li:share:7517820355353370625",
+    "error_code": null
+  },
+  "postUrl": "https://www.linkedin.com/feed/update/urn:li:share:7517820355353370625/"
+}
