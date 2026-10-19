@@ -1,0 +1,29 @@
+{
+  "verifiedAt": "2026-10-19T04:23:11.097Z",
+  "status": "enabled-and-verified",
+  "schedulesUTC": [
+    "*/10 * * * *",
+    "0 1 * * *",
+    "10 0,6,12,18 * * *"
+  ],
+  "linkedin": {
+    "personalProfile": true,
+    "enabled": true,
+    "localSchedule": "09:00 Asia/Singapore",
+    "firstScheduledRun": "2026-10-20T01:00:00Z",
+    "livePostsPublishedByQA": 0,
+    "livePublicationResult": "Pending first scheduled run; token and posting scope verified; read-only preview passed"
+  },
+  "counts": {
+    "remoteRoles": 782,
+    "methods": 24,
+    "ideas": 84,
+    "platforms": 21,
+    "liveSources": 11
+  },
+  "methodLinkStatus": {
+    "reachable": 14,
+    "check-needed": 8,
+    "redirected": 2
+  }
+}

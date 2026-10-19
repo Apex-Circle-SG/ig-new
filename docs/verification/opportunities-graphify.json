@@ -86,10 +86,10 @@
   ],
   "refresh_instructions": "scripts/graphify/README.md",
   "last_incremental_refresh": {
-    "timestamp": "2026-10-19T04:19:10.435255+00:00",
+    "timestamp": "2026-10-19T04:23:28.243140+00:00",
     "mode": "incremental",
     "source_files": 123,
-    "changed_files": 3,
+    "changed_files": 2,
     "deleted_files": 0,
     "nodes": 547,
     "edges": 1070,
@@ -100,9 +100,9 @@
   },
   "last_incremental_diagnostics": {
     "scope": "last changed-file subset, not a full-corpus diagnostic",
-    "node_count": 11,
-    "raw_edge_count": 24,
-    "dangling_endpoint_edges": 16,
+    "node_count": 18,
+    "raw_edge_count": 41,
+    "dangling_endpoint_edges": 8,
     "missing_endpoint_edges": 0,
     "self_loop_edges": 0,
     "undirected_same_endpoint_collapsed_edges": 0

@@ -69,3 +69,7 @@ node scripts/opportunities/deploy.mjs
 The private credentials are `/root/.config/insightginie/linkedin.json`, `linkedin-state-key` and `ingest-secret` (0600). Never print their values. After renewed OAuth authorisation, replace the local LinkedIn file, deploy it and deliberately remove only the encrypted `linkedin_credentials` row from `automation_state` if runtime state exists. Preserve `social_posts` to prevent duplicate publishing. Do not delete all state as a credential-reset shortcut.
 
 Graphify is a separate developer architecture tool, not an opportunity generator. Refresh it after source changes using [these instructions](../scripts/graphify/README.md). Graph extraction has documented unresolved external references and collapsed relationships; it is not runtime proof of correctness.
+
+## Release evidence
+
+[Release checks](verification/opportunities-automation-release.json), [live browser verification](verification/opportunities-automation-live.json), [active Cloudflare schedules](verification/opportunities-automation-schedules.json), [Graphify receipt](verification/opportunities-graphify.json), and [secret scan](verification/opportunities-automation-secrets.json). The first real LinkedIn publication is pending the scheduled run, not claimed by QA.
