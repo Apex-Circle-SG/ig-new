@@ -202,7 +202,7 @@ test('credential state is encrypted and tampering fails; Singapore day boundary 
     description: 'An idea',
   });
   assert.match(post, /not an available paid assignment/);
-  assert.match(post, /utm_source=linkedin/);
+  assert.match(post, /https:\/\/insightginie\.com\/earn\/test\/\n/);
 });
 
 test('expired access tokens renew and the replacement is encrypted before publishing', async () => {

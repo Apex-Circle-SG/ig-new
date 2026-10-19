@@ -1,0 +1,79 @@
+{
+  "verifiedAt": "2026-10-19T04:21:23.309Z",
+  "status": "passed",
+  "counts": {
+    "remoteRoles": 782,
+    "methods": 24,
+    "ideas": 84
+  },
+  "checks": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/earn/",
+      "status": 200
+    },
+    {
+      "path": "/earn/custom-pet-portraits/",
+      "status": 200
+    },
+    {
+      "path": "/ideas/",
+      "status": 200
+    },
+    {
+      "path": "/ideas/pet-personality-reports/",
+      "status": 200
+    },
+    {
+      "path": "/opportunities/",
+      "status": 200
+    },
+    {
+      "path": "/opportunities/arbeitnow-head-of-growth-berlin-309647/",
+      "status": 200
+    },
+    {
+      "path": "/opportunities/sources/",
+      "status": 200
+    },
+    {
+      "path": "/opportunities/feed.xml",
+      "status": 200
+    },
+    {
+      "path": "/ads.txt",
+      "status": 200
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200
+    },
+    {
+      "path": "/api/health/",
+      "status": 200
+    }
+  ],
+  "ads": [
+    {
+      "path": "/earn/custom-pet-portraits/",
+      "providerLoaded": true
+    },
+    {
+      "path": "/opportunities/arbeitnow-head-of-growth-berlin-309647/",
+      "providerLoaded": true
+    },
+    {
+      "path": "/ideas/pet-personality-reports/",
+      "providerLoaded": true
+    }
+  ],
+  "ga4": {
+    "id": "G-4HQVZL3586",
+    "consentGated": true,
+    "qaRequestsIntercepted": true
+  },
+  "socialPostsPublishedByQA": 0
+}

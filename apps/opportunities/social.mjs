@@ -13,7 +13,7 @@ export function postText(item) {
   const method = item.kind === 'method';
   const intro = method ? 'A creative way to earn worth exploring' : 'Remote opportunity to explore';
   const url = `https://insightginie.com/${method ? 'earn' : 'opportunities'}/${encodeURIComponent(item.id)}/`;
-  return `${intro}: ${clean(item.title)}\n\n${method ? `${clean(item.description, 230)}\n\nThis is a method to explore, not an available paid assignment. Check platform eligibility, costs and demand before starting.` : `${clean(item.organization)} · ${clean(item.location)}\nArrangement: ${clean(item.employment_type || 'Not specified')}\nPay: ${clean(item.reward)}\nSource: ${clean(item.source_name || item.organization)}\n\nRemote does not always mean worldwide. Confirm current eligibility and availability with the original employer.`}\n\n${url}?utm_source=linkedin&utm_medium=social&utm_campaign=daily_discovery\n\n${method ? '#SideHustle #CreativeBusiness' : '#RemoteWork #RemoteJobs'}`;
+  return `${intro}: ${clean(item.title)}\n\n${method ? `${clean(item.description, 230)}\n\nThis is a method to explore, not an available paid assignment. Check platform eligibility, costs and demand before starting.` : `${clean(item.organization)} · ${clean(item.location)}\nArrangement: ${clean(item.employment_type || 'Not specified')}\nPay: ${clean(item.reward)}\nSource: ${clean(item.source_name || item.organization)}\n\nRemote does not always mean worldwide. Confirm current eligibility and availability with the original employer.`}\n\n${url}\n\n${method ? '#SideHustle #CreativeBusiness' : '#RemoteWork #RemoteJobs'}`;
 }
 async function key(secret) {
   return crypto.subtle.importKey(
