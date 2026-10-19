@@ -9,11 +9,80 @@ const clean = (value, length = 180) =>
 export function singaporeDay(time) {
   return new Date(time + 8 * 3600000).toISOString().slice(0, 10);
 }
+function skillsOf(item) {
+  try {
+    const skills = Array.isArray(item.skills) ? item.skills : JSON.parse(item.skills || '[]');
+    return Array.isArray(skills)
+      ? skills
+          .map((s) => clean(s, 45))
+          .filter(Boolean)
+          .slice(0, 4)
+      : [];
+  } catch {
+    return [];
+  }
+}
+function excerptOf(item) {
+  const text = clean(
+    String(item.excerpt || '')
+      .replace(/<[^>]*>/g, ' ')
+      .replace(/https?:\/\/\S+/g, ''),
+    700,
+  );
+  const match =
+    /(?:responsibilit(?:y|ies)|requirements|qualifications|what you(?:'|’)ll do|you will|you(?:'|’)ll|your role|the role|we(?:'|’)re looking for|we are looking for|you have|work with|build (?:customer|services)|design and|develop and|experience (?:in|with))/i.exec(
+      text,
+    );
+  if (!match) return '';
+  const start = Math.max(text.lastIndexOf('. ', match.index), text.lastIndexOf('! ', match.index));
+  const excerpt = text.slice(start >= 0 ? start + 2 : match.index).trim();
+  return excerpt.length > 520 ? `${excerpt.slice(0, 517).trimEnd()}…` : excerpt;
+}
+function hasPay(item) {
+  return (
+    /\d/.test(item.reward || '') && !/not supplied|not disclosed|unspecified/i.test(item.reward)
+  );
+}
+export function postScore(item, time = Date.now()) {
+  const excerpt = excerptOf(item);
+  if (excerpt.length < 100 || !clean(item.location) || !clean(item.organization)) return -1;
+  const age = Math.max(0, (time - Date.parse(item.published_at)) / 86400000);
+  return (
+    (hasPay(item) ? 35 : 0) +
+    (/worldwide|anywhere|global/i.test(item.location) ? 20 : 0) +
+    Math.min(20, excerpt.length / 25) +
+    skillsOf(item).length * 3 +
+    Math.max(0, 20 - (Number.isFinite(age) ? age : 30))
+  );
+}
 export function postText(item) {
   const method = item.kind === 'method';
-  const intro = method ? 'A creative way to earn worth exploring' : 'Remote opportunity to explore';
   const url = `https://insightginie.com/${method ? 'earn' : 'opportunities'}/${encodeURIComponent(item.id)}/`;
-  return `${intro}: ${clean(item.title)}\n\n${method ? `${clean(item.description, 230)}\n\nThis is a method to explore, not an available paid assignment. Check platform eligibility, costs and demand before starting.` : `${clean(item.organization)} · ${clean(item.location)}\nArrangement: ${clean(item.employment_type || 'Not specified')}\nPay: ${clean(item.reward)}\nSource: ${clean(item.source_name || item.organization)}\n\nRemote does not always mean worldwide. Confirm current eligibility and availability with the original employer.`}\n\n${url}\n\n${method ? '#SideHustle #CreativeBusiness' : '#RemoteWork #RemoteJobs'}`;
+  if (method)
+    return [
+      `Who would pay for this? ${clean(item.title)}`,
+      clean(item.description, 300),
+      `Potential buyer: ${clean(item.buyer, 220)}`,
+      `Your first step: ${clean(item.first_step, 300)}`,
+      `Reality check: ${clean(item.risks, 300)}`,
+      'This is a method to explore, not an available paid assignment. Earnings depend on eligibility, selection or demand.',
+      `See the steps, requirements and original platform:\n${url}`,
+      '#SideHustle #CreativeBusiness',
+    ].join('\n\n');
+  const skills = skillsOf(item);
+  return [
+    `${clean(item.organization)} is hiring: ${clean(item.title)}${hasPay(item) ? ` — ${clean(item.reward)}` : ''}`,
+    `From the job listing:\n${excerptOf(item)}`,
+    skills.length ? `Skills listed: ${skills.join(' · ')}` : null,
+    `🌍 Remote eligibility: ${clean(item.location)}\n🕒 ${clean(item.employment_type || 'Arrangement not specified')}\n💰 ${hasPay(item) ? clean(item.reward) : 'Salary not disclosed'}`,
+    item.expires_at ? `Listed deadline: ${clean(item.expires_at, 40)}` : null,
+    `Source: ${clean(item.source_name || item.organization)}. Remote does not always mean worldwide; confirm requirements and availability with the employer.`,
+    `See the full brief and application link:\n${url}`,
+    'Know someone suited to this role? Send it their way.',
+    '#RemoteWork #RemoteJobs',
+  ]
+    .filter(Boolean)
+    .join('\n\n');
 }
 async function key(secret) {
   return crypto.subtle.importKey(
@@ -98,14 +167,22 @@ async function credentials(env) {
   return value;
 }
 export async function choosePost(env, time) {
-  const methodDay = Math.floor(time / 86400000) % 2 === 1;
-  const job = async () =>
-    env.DB.prepare(
-      "SELECT o.*,s.name AS source_name FROM opportunities o JOIN sources s ON o.source_id=s.id WHERE o.status='active' AND o.category='jobs' AND s.status='enabled' AND julianday(o.last_seen_at)>julianday('now','-1 day') AND julianday(s.last_success)>julianday('now','-1 day') AND julianday(o.published_at)>julianday('now','-30 days') AND (o.expires_at IS NULL OR julianday(o.expires_at)>julianday('now')) AND NOT EXISTS(SELECT 1 FROM social_posts p WHERE (p.opportunity_id=o.id OR p.fingerprint=o.fingerprint) AND p.status IN ('published','publishing','uncertain')) ORDER BY RANDOM() LIMIT 1",
-    ).first();
+  // Singapore weekdays: jobs Mon/Tue/Thu/Sat; creative methods Wed/Fri/Sun.
+  const methodDay = [0, 3, 5].includes(new Date(time + 8 * 3600000).getUTCDay());
+  const job = async () => {
+    const rows = await env.DB.prepare(
+      "SELECT o.*,s.name AS source_name FROM opportunities o JOIN sources s ON o.source_id=s.id WHERE o.status='active' AND o.category='jobs' AND s.status='enabled' AND julianday(o.last_seen_at)>julianday('now','-1 day') AND julianday(s.last_success)>julianday('now','-1 day') AND julianday(o.published_at)>julianday('now','-30 days') AND (o.expires_at IS NULL OR julianday(o.expires_at)>julianday('now')) AND NOT EXISTS(SELECT 1 FROM social_posts p WHERE (p.opportunity_id=o.id OR p.fingerprint=o.fingerprint) AND p.status IN ('published','publishing','uncertain')) ORDER BY o.published_at DESC LIMIT 100",
+    ).all();
+    return (
+      rows.results
+        .map((row) => ({ row, score: postScore(row, time) }))
+        .filter((item) => item.score >= 0)
+        .sort((a, b) => b.score - a.score || a.row.id.localeCompare(b.row.id))[0]?.row || null
+    );
+  };
   const method = async () => {
     const row = await env.DB.prepare(
-      "SELECT m.* FROM earning_methods m WHERE m.check_status='reachable' AND julianday(m.last_checked)>julianday('now','-2 days') AND NOT EXISTS(SELECT 1 FROM social_posts p WHERE p.opportunity_id=('method-'||m.id) AND p.status IN ('published','publishing','uncertain')) ORDER BY RANDOM() LIMIT 1",
+      "SELECT m.* FROM earning_methods m WHERE m.check_status='reachable' AND julianday(m.last_checked)>julianday('now','-2 days') AND NOT EXISTS(SELECT 1 FROM social_posts p WHERE p.opportunity_id=('method-'||m.id) AND p.status IN ('published','publishing','uncertain')) AND length(json_extract(m.data,'$.first_step'))>30 AND length(json_extract(m.data,'$.buyer'))>10 AND length(json_extract(m.data,'$.risks'))>30 ORDER BY m.id LIMIT 1",
     ).first();
     return row
       ? { ...JSON.parse(row.data), id: row.id, kind: 'method', fingerprint: `method-${row.id}` }

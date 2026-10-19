@@ -4,7 +4,15 @@ import { DatabaseSync } from 'node:sqlite';
 import { readFileSync } from 'node:fs';
 import { normalize } from './catalog.mjs';
 import { ingestSource } from './worker.mjs';
-import { publishDaily, encryptState, decryptState, singaporeDay, postText } from './social.mjs';
+import {
+  publishDaily,
+  encryptState,
+  decryptState,
+  singaporeDay,
+  postText,
+  postScore,
+  choosePost,
+} from './social.mjs';
 function database() {
   const db = new DatabaseSync(':memory:');
   for (const file of ['0001_catalog.sql', '0002_automation.sql'])
@@ -46,7 +54,7 @@ function source(DB, id = 'greenhouse-gitlab') {
 function job(DB, id = 'role-1') {
   DB.db
     .prepare(
-      "INSERT INTO opportunities(id,source_id,external_id,title,organization,category,location,work_mode,reward,skills,excerpt,source_url,published_at,last_seen_at,status,fingerprint,employment_type) VALUES(?,?,?,?,?,'jobs','Remote, UK','remote','Pay not supplied','[]','Source summary',?,?,?,'active',?,'Contract')",
+      "INSERT INTO opportunities(id,source_id,external_id,title,organization,category,location,work_mode,reward,skills,excerpt,source_url,published_at,last_seen_at,status,fingerprint,employment_type) VALUES(?,?,?,?,?,'jobs','Remote, UK','remote','Pay not supplied','[]','Build customer-facing services and improve reliability across our platform. Work with engineering teams to ship and maintain production features.',?,?,?,'active',?,'Contract')",
     )
     .run(
       id,
@@ -297,4 +305,71 @@ test('revoked refresh requests fail without publishing or exposing response data
     globalThis.fetch = original;
     DB.db.close();
   }
+});
+
+test('job briefs include source content, skills and eligibility without invented pay', () => {
+  const item = {
+    id: 'brief',
+    title: 'Engineer',
+    organization: 'Example',
+    location: 'UK only',
+    excerpt: 'Build services. Improve reliability.',
+    skills: '["Python","SQL"]',
+    reward: 'Pay not supplied',
+    employment_type: 'Contract',
+  };
+  const text = postText(item);
+  for (const value of [
+    'Build services.',
+    'Python · SQL',
+    'UK only',
+    'Contract',
+    'Salary not disclosed',
+    '/opportunities/brief/',
+  ])
+    assert.ok(text.includes(value));
+  assert.ok(text.length < 3000);
+  assert.equal(postScore(item), -1);
+});
+test('selection ranks substantive paid roles above generic roles and skips thin listings', async () => {
+  const DB = database();
+  source(DB);
+  job(DB, 'ordinary');
+  job(DB, 'paid');
+  job(DB, 'thin');
+  DB.db.prepare("UPDATE opportunities SET reward='USD 100000 / year' WHERE id='paid'").run();
+  DB.db.prepare("UPDATE opportunities SET excerpt='Apply now' WHERE id='thin'").run();
+  const monday = Date.parse('2026-10-19T01:00:00Z');
+  assert.equal((await choosePost(env(DB), monday)).id, 'paid');
+  DB.db.prepare("UPDATE opportunities SET status='closed' WHERE id!='thin'").run();
+  assert.equal(await choosePost(env(DB), monday), null);
+});
+test('creative briefs explain buyer, first step and practical limitations', () => {
+  const text = postText({
+    kind: 'method',
+    id: 'test',
+    title: 'License photos',
+    description: 'Create useful photographs.',
+    buyer: 'Stock library customers',
+    first_step: 'Photograph one original collection.',
+    risks: 'Sales are not guaranteed.',
+  });
+  for (const value of [
+    'Stock library customers',
+    'Photograph one original collection.',
+    'Sales are not guaranteed.',
+    'not an available paid assignment',
+  ])
+    assert.ok(text.includes(value));
+});
+
+test('company marketing alone never qualifies as job content', () => {
+  const item = {
+    organization: 'Example',
+    location: 'Worldwide',
+    excerpt: 'We are revolutionizing the industry. Our company is a global leader in software.',
+    reward: 'USD 200000',
+    published_at: new Date().toISOString(),
+  };
+  assert.equal(postScore(item), -1);
 });
