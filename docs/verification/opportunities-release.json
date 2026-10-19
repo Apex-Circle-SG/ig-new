@@ -1,0 +1,33 @@
+{
+  "verifiedAt": "2026-10-19T03:33:35.282392+00:00",
+  "status": "passed",
+  "buildId": "mBLGMLEEyr65Q_z5VDRQL",
+  "checks": {
+    "productionBuild": "passed",
+    "lint": "passed",
+    "unitTests": 403,
+    "browserTests": 63,
+    "operationsTests": 35,
+    "catalogTests": 5,
+    "liveBackend": "passed",
+    "secretScan": "passed",
+    "productionAuditVulnerabilities": 0,
+    "visualSnapshots": "4 passed and visually reviewed"
+  },
+  "ga4Id": "G-4HQVZL3586",
+  "adsensePublisher": "ca-pub-8735749779872017",
+  "evidence": [
+    "docs/verification/opportunities-api.json",
+    "docs/verification/opportunities-secret-scan.json",
+    "docs/verification/opportunities-production-audit.json",
+    "artifacts/opportunities-final-playwright.json"
+  ],
+  "limitations": [
+    "GA4 dashboard receipt requires property access",
+    "5 development-only lint-tooling audit entries remain",
+    "Only 3 of 33 researched sources have live ingestion",
+    "Ideas are unvalidated static seeds",
+    "New opportunity surfaces are excluded from AdSense pending review",
+    "Concurrent pre-patch lab performance scores 60\u201369; no field performance baseline"
+  ]
+}

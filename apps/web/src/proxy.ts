@@ -23,7 +23,7 @@ export function proxy(request: NextRequest) {
     `style-src 'self' 'unsafe-inline'${allowAds ? ' https:' : ''}`,
     `img-src 'self' data: https://blog.insightginie.com${allowAds ? ' https: blob:' : ''}`,
     `font-src 'self'${allowAds ? ' https: data:' : ''}`,
-    `connect-src 'self'${allowAds ? ' https:' : ''}`,
+    `connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://www.googletagmanager.com${allowAds ? ' https:' : ''}`,
     `frame-src 'self'${allowAds ? ' https:' : ''}`,
     "frame-ancestors 'none'",
     "base-uri 'none'",

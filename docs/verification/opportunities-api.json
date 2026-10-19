@@ -1,0 +1,23 @@
+{
+  "verifiedAt": "2026-10-19T03:28:14.290Z",
+  "apiUrl": "https://insightginie-opportunities.aloycwl.workers.dev",
+  "database": "insightginie-opportunities",
+  "status": "passed",
+  "counts": {
+    "opportunities": 181,
+    "ideas": 60,
+    "platforms": 21,
+    "liveSources": 3,
+    "researchedSources": 33
+  },
+  "checks": [
+    "health and schema",
+    "active source status",
+    "source filter and approved outbound hosts",
+    "empty search",
+    "escaped search syntax",
+    "idea classification",
+    "private write denial",
+    "unknown listing 404"
+  ]
+}

@@ -127,6 +127,27 @@ export default async function Home() {
         </div>
       </div>
       <section className="shell section" id="explore">
+        <div
+          style={{
+            padding: '28px',
+            marginBottom: '40px',
+            borderRadius: '18px',
+            background: '#edf4ef',
+            border: '1px solid #d7e4dc',
+          }}
+        >
+          <div className="eyebrow">YOUR NEXT POSSIBILITY</div>
+          <h2 style={{ margin: '12px 0' }}>Find an opportunity. Or create your own.</h2>
+          <p style={{ lineHeight: 1.8 }}>
+            Explore remote roles, platforms for paid tasks and research, and practical or
+            wonderfully unusual business ideas to test.
+          </p>
+          <p>
+            <Link href="/opportunities/">Explore opportunities →</Link>
+            {' · '}
+            <Link href="/ideas/">Visit the idea lab →</Link>
+          </p>
+        </div>
         <div className="section-top">
           <div>
             <div className="eyebrow">FOLLOW YOUR CURIOSITY</div>

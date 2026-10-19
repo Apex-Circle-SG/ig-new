@@ -13,6 +13,9 @@ export function Header() {
           </span>
         </Link>
         <nav className="desktop-nav" aria-label="Main navigation">
+          <Link prefetch={false} href="/opportunities/">
+            Opportunities
+          </Link>
           <Link prefetch={false} href="/insights/">
             Insights
           </Link>
@@ -34,6 +37,12 @@ export function Header() {
             Menu <span aria-hidden="true">☰</span>
           </summary>
           <nav aria-label="Mobile navigation">
+            <Link prefetch={false} href="/opportunities/">
+              Opportunities
+            </Link>
+            <Link prefetch={false} href="/ideas/">
+              Idea lab
+            </Link>
             <Link prefetch={false} href="/">
               Home
             </Link>

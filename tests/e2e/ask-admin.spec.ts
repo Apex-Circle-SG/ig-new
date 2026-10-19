@@ -129,7 +129,7 @@ test('general answers are labelled honestly, escaped and counted without questio
   );
   await page.goto('/ask/');
   await page.getByRole('button', { name: 'Analytics settings' }).click();
-  await page.getByRole('button', { name: 'Allow anonymous counts' }).click();
+  await page.getByRole('button', { name: 'Allow analytics' }).click();
   await page.getByLabel('Your question', { exact: true }).fill('Why is the sky blue?');
   await page.getByRole('button', { name: 'Ask Ginie', exact: true }).click();
   const answer = page.getByLabel('Answers').locator('article').last();
@@ -179,13 +179,13 @@ test('usage counts wait for consent and contain no questions', async ({ page }) 
   await expect(page.getByRole('button', { name: 'Analytics settings' })).toBeEnabled();
   expect(bodies).toEqual([]);
   await page.getByRole('button', { name: 'Analytics settings' }).click();
-  await page.getByRole('button', { name: 'Allow anonymous counts' }).click();
+  await page.getByRole('button', { name: 'Allow analytics' }).click();
   await expect.poll(() => bodies.length).toBeGreaterThan(0);
   await page.getByLabel('Your question', { exact: true }).fill('How does cash runway work?');
   await page.getByRole('button', { name: 'Ask Ginie', exact: true }).click();
   await expect.poll(() => bodies.some((body) => body.includes('ask_answer_cited'))).toBe(true);
   expect(bodies.join('')).not.toContain('How does');
-  await page.getByRole('button', { name: 'Decline anonymous counts' }).click();
+  await page.getByRole('button', { name: 'Decline analytics' }).click();
   const count = bodies.length;
   await page.getByLabel('Your question', { exact: true }).fill('What is an AI payback period?');
   await page.getByRole('button', { name: 'Ask Ginie', exact: true }).click();

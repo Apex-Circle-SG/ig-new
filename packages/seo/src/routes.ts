@@ -35,10 +35,19 @@ export const PUBLIC_INDEXABLE_PATHS = [
   '/finance-disclaimer/',
   '/research-methodology/',
   '/content-index/',
+  '/opportunities/',
+  '/opportunities/sources/',
+  '/ideas/',
+  '/platforms/',
 ] as const;
 
 /** Advertising inventory is all reviewed public pages, never private tools. */
-export const PUBLIC_AD_PATHS = PUBLIC_INDEXABLE_PATHS.filter((path) => path !== '/ask/');
+export const PUBLIC_AD_PATHS = PUBLIC_INDEXABLE_PATHS.filter(
+  (path) =>
+    !['/ask/', '/opportunities/', '/opportunities/sources/', '/ideas/', '/platforms/'].includes(
+      path,
+    ),
+);
 
 export const PUBLIC_ROUTE_IDS: Readonly<Record<string, string>> = Object.fromEntries(
   PUBLIC_INDEXABLE_PATHS.map((path) => [

@@ -1,0 +1,191 @@
+[
+  {
+    "id": "usajobs",
+    "name": "USAJOBS",
+    "category": "Government jobs",
+    "url": "https://www.usajobs.gov/",
+    "description": "Country citizenship and work authorization restrictions; not all work is remote",
+    "eligibility": "Check current country, identity, skills and account requirements on the original platform.",
+    "payment": "Acceptance, qualification and provider-specific payout conditions apply. A platform profile is not an available paid listing."
+  },
+  {
+    "id": "freelancer",
+    "name": "Freelancer",
+    "category": "Freelance projects",
+    "url": "https://www.freelancer.com/",
+    "description": "Verify project-search scope credentials display retention and commercial permission before integration",
+    "eligibility": "Check current country, identity, skills and account requirements on the original platform.",
+    "payment": "Acceptance, qualification and provider-specific payout conditions apply. A platform profile is not an available paid listing."
+  },
+  {
+    "id": "upwork",
+    "name": "Upwork",
+    "category": "Freelance jobs",
+    "url": "https://www.upwork.com/",
+    "description": "API application required; maintain Upwork attribution; search aggregation and storage constraints need specific review",
+    "eligibility": "Check current country, identity, skills and account requirements on the original platform.",
+    "payment": "Acceptance, qualification and provider-specific payout conditions apply. A platform profile is not an available paid listing."
+  },
+  {
+    "id": "taskrabbit",
+    "name": "Taskrabbit",
+    "category": "Local paid tasks",
+    "url": "https://www.taskrabbit.com/",
+    "description": "Automated collection indexing and republication prohibited; seek partnership; local work is outside default online-only view",
+    "eligibility": "Check current country, identity, skills and account requirements on the original platform.",
+    "payment": "Acceptance, qualification and provider-specific payout conditions apply. A platform profile is not an available paid listing."
+  },
+  {
+    "id": "algora",
+    "name": "Algora",
+    "category": "Open-source coding bounties",
+    "url": "https://algora.io/",
+    "description": "Confirm read access scope commercial display reward and claim status",
+    "eligibility": "Check current country, identity, skills and account requirements on the original platform.",
+    "payment": "Acceptance, qualification and provider-specific payout conditions apply. A platform profile is not an available paid listing."
+  },
+  {
+    "id": "hackerone",
+    "name": "HackerOne",
+    "category": "Security bounties",
+    "url": "https://hackerone.com/bug-bounty-programs",
+    "description": "Do not assume reports API is public bounty feed; partner or directory approach; authorized program scope only",
+    "eligibility": "Check current country, identity, skills and account requirements on the original platform.",
+    "payment": "Acceptance, qualification and provider-specific payout conditions apply. A platform profile is not an available paid listing."
+  },
+  {
+    "id": "immunefi",
+    "name": "Immunefi",
+    "category": "Security bounties",
+    "url": "https://immunefi.com/bug-bounty/",
+    "description": "Rewards conditional on valid in-scope reports; headline maximum is not expected earnings",
+    "eligibility": "Check current country, identity, skills and account requirements on the original platform.",
+    "payment": "Acceptance, qualification and provider-specific payout conditions apply. A platform profile is not an available paid listing."
+  },
+  {
+    "id": "kaggle",
+    "name": "Kaggle",
+    "category": "Data competitions",
+    "url": "https://www.kaggle.com/competitions",
+    "description": "Include cash-prize competitions only; prize pool is not per-person pay; rules vary",
+    "eligibility": "Check current country, identity, skills and account requirements on the original platform.",
+    "payment": "Only some competitions offer cash prizes. Prizes are competitive, not pay per entry."
+  },
+  {
+    "id": "devpost",
+    "name": "Devpost",
+    "category": "Hackathons and prizes",
+    "url": "https://devpost.com/hackathons",
+    "description": "Seek organizer permission; filter online events with cash prizes; preserve deadlines and team eligibility",
+    "eligibility": "Check current country, identity, skills and account requirements on the original platform.",
+    "payment": "Some hackathons have cash awards. Check the individual competition rules."
+  },
+  {
+    "id": "herox",
+    "name": "HeroX",
+    "category": "Challenges and prizes",
+    "url": "https://www.herox.com/crowdsourcing-projects",
+    "description": "Check prize rules entrant geography and payout conditions; no bulk API confirmed",
+    "eligibility": "Check current country, identity, skills and account requirements on the original platform.",
+    "payment": "Acceptance, qualification and provider-specific payout conditions apply. A platform profile is not an available paid listing."
+  },
+  {
+    "id": "nasa-solve",
+    "name": "NASA Solve",
+    "category": "Challenges and prizes",
+    "url": "https://www.nasa.gov/solve/",
+    "description": "Not every challenge pays; preserve individual challenge cash eligibility and rules",
+    "eligibility": "Check current country, identity, skills and account requirements on the original platform.",
+    "payment": "Acceptance, qualification and provider-specific payout conditions apply. A platform profile is not an available paid listing."
+  },
+  {
+    "id": "grants-gov",
+    "name": "Grants.gov",
+    "category": "Grants and funding",
+    "url": "https://www.grants.gov/",
+    "description": "Most grants are restricted funding not personal income; filter eligibility; check attachments separately",
+    "eligibility": "Check current country, identity, skills and account requirements on the original platform.",
+    "payment": "Restricted funding for eligible applicants; not general personal income."
+  },
+  {
+    "id": "sam-gov",
+    "name": "SAM.gov",
+    "category": "Business contracts",
+    "url": "https://sam.gov/",
+    "description": "Organizational tenders not instant gigs; distinguish solicitations from awards and sources-sought notices",
+    "eligibility": "Check current country, identity, skills and account requirements on the original platform.",
+    "payment": "Business procurement notices; winning and delivering a contract is required."
+  },
+  {
+    "id": "eu-ted",
+    "name": "EU TED",
+    "category": "Business tenders",
+    "url": "https://ted.europa.eu/",
+    "description": "Business procurement with regional and organizational eligibility; not all opportunities online-deliverable",
+    "eligibility": "Check current country, identity, skills and account requirements on the original platform.",
+    "payment": "Procurement opportunities for eligible businesses; not casual paid tasks."
+  },
+  {
+    "id": "prolific",
+    "name": "Prolific",
+    "category": "Paid research participation",
+    "url": "https://www.prolific.com/participants",
+    "description": "Researcher API is not global participant task feed; personalized studies and waitlists; no login scraping",
+    "eligibility": "Check current country, identity, skills and account requirements on the original platform.",
+    "payment": "Payment requires eligible study participation and acceptance. Availability is personalized."
+  },
+  {
+    "id": "respondent",
+    "name": "Respondent",
+    "category": "Paid research participation",
+    "url": "https://www.respondent.io/become-a-participant",
+    "description": "Screening and researcher selection apply; no public study aggregation API confirmed",
+    "eligibility": "Check current country, identity, skills and account requirements on the original platform.",
+    "payment": "Researcher screening and selection apply; the stated incentive is not guaranteed income."
+  },
+  {
+    "id": "usertesting",
+    "name": "UserTesting",
+    "category": "Paid usability tests",
+    "url": "https://www.usertesting.com/get-paid-to-test",
+    "description": "Personalized available tests inside contributor account; no public live task feed confirmed",
+    "eligibility": "Check current country, identity, skills and account requirements on the original platform.",
+    "payment": "Payment varies by test; see the contributor dashboard and payment conditions."
+  },
+  {
+    "id": "user-interviews",
+    "name": "User Interviews",
+    "category": "Paid research participation",
+    "url": "https://www.userinterviews.com/",
+    "description": "Confirm current participant route; public listing reuse not established",
+    "eligibility": "Check current country, identity, skills and account requirements on the original platform.",
+    "payment": "Acceptance, qualification and provider-specific payout conditions apply. A platform profile is not an available paid listing."
+  },
+  {
+    "id": "dataannotation",
+    "name": "DataAnnotation",
+    "category": "AI evaluation work",
+    "url": "https://www.dataannotation.tech/",
+    "description": "Qualification and country restrictions; advertised maximum rates are not guaranteed earnings; private tasks excluded",
+    "eligibility": "Check current country, identity, skills and account requirements on the original platform.",
+    "payment": "Acceptance, qualification and provider-specific payout conditions apply. A platform profile is not an available paid listing."
+  },
+  {
+    "id": "outlier",
+    "name": "Outlier",
+    "category": "AI training work",
+    "url": "https://outlier.ai/",
+    "description": "Qualification country and task availability restrictions; no public global task feed established",
+    "eligibility": "Check current country, identity, skills and account requirements on the original platform.",
+    "payment": "Acceptance, qualification and provider-specific payout conditions apply. A platform profile is not an available paid listing."
+  },
+  {
+    "id": "clickworker",
+    "name": "Clickworker",
+    "category": "Microtasks and data work",
+    "url": "https://www.clickworker.com/clickworker/",
+    "description": "Worker-specific task access; customer task-management APIs do not imply worker-feed access",
+    "eligibility": "Check current country, identity, skills and account requirements on the original platform.",
+    "payment": "Acceptance, qualification and provider-specific payout conditions apply. A platform profile is not an available paid listing."
+  }
+]

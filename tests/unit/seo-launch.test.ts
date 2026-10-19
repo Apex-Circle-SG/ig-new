@@ -51,7 +51,11 @@ describe('reviewed public-page boundaries', () => {
   it('allows published paths with and without the trailing slash', () => {
     for (const path of PUBLIC_INDEXABLE_PATHS) {
       expect(isPublicIndexablePath(path)).toBe(true);
-      expect(isPublicAdvertisingPath(path)).toBe(path !== '/ask/');
+      expect(isPublicAdvertisingPath(path)).toBe(
+        !['/ask/', '/opportunities/', '/opportunities/sources/', '/ideas/', '/platforms/'].includes(
+          path,
+        ),
+      );
       if (path !== '/') expect(isPublicIndexablePath(path.slice(0, -1))).toBe(true);
     }
     expect(new Set(PUBLIC_INDEXABLE_PATHS).size).toBe(PUBLIC_INDEXABLE_PATHS.length);

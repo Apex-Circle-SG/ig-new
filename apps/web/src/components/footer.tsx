@@ -31,6 +31,15 @@ export function Footer({
           </div>
           <div>
             <h2>Explore</h2>
+            <Link prefetch={false} href="/opportunities/">
+              Opportunities
+            </Link>
+            <Link prefetch={false} href="/ideas/">
+              Idea lab
+            </Link>
+            <Link prefetch={false} href="/platforms/">
+              Earning platforms
+            </Link>
             <Link prefetch={false} href="/tools/">
               Tools
             </Link>

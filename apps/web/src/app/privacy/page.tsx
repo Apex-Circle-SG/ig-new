@@ -13,7 +13,7 @@ export default function Privacy() {
       eyebrow="PRIVACY"
       lead="Use our calculators without an account, an email address or saving your financial inputs."
     >
-      <p className="document-meta">Policy version: September 13, 2026</p>
+      <p className="document-meta">Policy version: October 19, 2026</p>
       <section>
         <h2>Calculator inputs</h2>
         <p>
@@ -111,8 +111,20 @@ export default function Privacy() {
           until you allow it, and remains off when your browser sends Global Privacy Control or Do
           Not Track. Your preference cookie lasts up to 180 days and can be changed at any time. We
           keep daily totals for up to 30 days. These totals contain no income, result, profile, IP
-          address, device identifier or individual browsing history. No third-party analytics
-          provider is enabled. Temporary in-memory request limits help prevent abuse.
+          address, device identifier or individual browsing history. Temporary in-memory request
+          limits help prevent abuse.
+        </p>
+        <p>
+          Google Analytics 4 is also available after you explicitly allow it through the updated
+          Analytics settings. An older anonymous-counts preference alone does not activate Google
+          Analytics. Google may use analytics cookies and process device information, IP addresses
+          and page visits under its own policies and the property’s retention settings. We send page
+          locations without query strings or fragments, and do not intentionally send calculator
+          values, questions, search terms or saved lists. Google Analytics is excluded from Ask
+          Ginie, private tools, filtered search pages and your saved-opportunity page. Browser
+          privacy signals still take precedence. Withdrawing consent disables subsequent collection
+          and removes accessible Google Analytics cookies. It does not erase data already processed
+          by Google.
         </p>
       </section>
       <section>
@@ -121,6 +133,11 @@ export default function Privacy() {
           Accounts, saved profiles and email reports are not enabled. There is no stored financial
           profile to export or delete in this release. Those features will require explicit
           retention, export and deletion controls before activation.
+        </p>
+        <p>
+          When you save an opportunity, its public listing ID, title and organization are stored in
+          this browser’s local storage. This shortlist is not uploaded or synced to an account.
+          Remove a saved role on the saved-opportunities page, or clear site data in your browser.
         </p>
       </section>
       <section>

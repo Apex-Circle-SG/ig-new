@@ -10,6 +10,7 @@ import {
 import { Header } from '../components/header';
 import { Footer } from '../components/footer';
 import { PageAnalytics } from '../components/analytics';
+import { GoogleAnalytics } from '../components/google-analytics';
 import './globals.css';
 export const metadata: Metadata = {
   metadataBase: new URL('https://insightginie.com'),
@@ -65,6 +66,10 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
         <PageAnalytics
           pathname={requestHeaders.get('x-insightginie-pathname') ?? '/'}
           enabled={Boolean(process.env.ANALYTICS_DIRECTORY)}
+        />
+        <GoogleAnalytics
+          pathname={requestHeaders.get('x-insightginie-pathname') ?? '/'}
+          nonce={nonce}
         />
         <Footer
           adsEnabled={enabled}

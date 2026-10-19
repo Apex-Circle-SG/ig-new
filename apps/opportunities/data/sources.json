@@ -1,0 +1,299 @@
+[
+  {
+    "id": "jobicy",
+    "name": "Jobicy",
+    "category": "Remote jobs",
+    "url": "https://jobicy.com/jobs-rss-feed",
+    "access_method": "API and RSS",
+    "status": "enabled",
+    "policy": "Free public feed links to Jobicy; optional paid direct-application API; preserve requirements and check commercial reuse before launch"
+  },
+  {
+    "id": "remoteok",
+    "name": "Remote OK",
+    "category": "Remote jobs",
+    "url": "https://remoteok.com/api",
+    "access_method": "Public JSON API",
+    "status": "enabled",
+    "policy": "Credit source and preserve required source backlink; archive freshness and test eligibility"
+  },
+  {
+    "id": "arbeitnow",
+    "name": "Arbeitnow",
+    "category": "Jobs and remote roles",
+    "url": "https://www.arbeitnow.com/blog/job-board-api",
+    "access_method": "Job-board API",
+    "status": "enabled",
+    "policy": "Review attribution and commercial display; many roles have geographic requirements"
+  },
+  {
+    "id": "remotive",
+    "name": "Remotive",
+    "category": "Remote jobs",
+    "url": "https://remotive.com/remote-jobs/api",
+    "access_method": "Public API and RSS",
+    "status": "permission-review",
+    "policy": "24-hour delay; attribution and source links; no signup gate to view jobs; downstream syndication restrictions; clarify search-indexing use"
+  },
+  {
+    "id": "greenhouse-employer-boards",
+    "name": "Greenhouse employer boards",
+    "category": "Jobs and contracts",
+    "url": "https://docs.greenhouse.io/job-board.html",
+    "access_method": "Per-employer Job Board API",
+    "status": "permission-review",
+    "policy": "Public access is not blanket republication consent; onboard approved employers; no application submission"
+  },
+  {
+    "id": "lever-employer-boards",
+    "name": "Lever employer boards",
+    "category": "Jobs and contracts",
+    "url": "https://github.com/lever/postings-api",
+    "access_method": "Per-employer Postings API",
+    "status": "permission-review",
+    "policy": "Discover approved employers separately; confirm reuse; link to original application"
+  },
+  {
+    "id": "ashby-employer-boards",
+    "name": "Ashby employer boards",
+    "category": "Jobs and contracts",
+    "url": "https://developers.ashbyhq.com/docs/public-job-posting-api",
+    "access_method": "Public Job Postings API",
+    "status": "permission-review",
+    "policy": "Confirm employer board and permitted republication; preserve location and salary context"
+  },
+  {
+    "id": "usajobs",
+    "name": "USAJOBS",
+    "category": "Government jobs",
+    "url": "https://developer.usajobs.gov/",
+    "access_method": "Registered API",
+    "status": "permission-review",
+    "policy": "Country citizenship and work authorization restrictions; not all work is remote"
+  },
+  {
+    "id": "freelancer",
+    "name": "Freelancer",
+    "category": "Freelance projects",
+    "url": "https://developers.freelancer.com/",
+    "access_method": "Developer API",
+    "status": "permission-review",
+    "policy": "Verify project-search scope credentials display retention and commercial permission before integration"
+  },
+  {
+    "id": "upwork",
+    "name": "Upwork",
+    "category": "Freelance jobs",
+    "url": "https://www.upwork.com/developer",
+    "access_method": "Approved GraphQL API",
+    "status": "permission-review",
+    "policy": "API application required; maintain Upwork attribution; search aggregation and storage constraints need specific review"
+  },
+  {
+    "id": "taskrabbit",
+    "name": "Taskrabbit",
+    "category": "Local paid tasks",
+    "url": "https://support.taskrabbit.com/hc/en-us/articles/46260475390107-Taskrabbit-Platform-Acceptable-Use-Policy",
+    "access_method": "Platform directory only",
+    "status": "permission-review",
+    "policy": "Automated collection indexing and republication prohibited; seek partnership; local work is outside default online-only view"
+  },
+  {
+    "id": "fiverr",
+    "name": "Fiverr",
+    "category": "Services marketplace",
+    "url": "https://www.fiverr.com/",
+    "access_method": "Outbound platform link; partnership candidate",
+    "status": "directory",
+    "policy": "Seller service listings are not buyer-funded open jobs; no approved live task feed established"
+  },
+  {
+    "id": "algora",
+    "name": "Algora",
+    "category": "Open-source coding bounties",
+    "url": "https://api.docs.algora.io/",
+    "access_method": "Bounties API",
+    "status": "permission-review",
+    "policy": "Confirm read access scope commercial display reward and claim status"
+  },
+  {
+    "id": "github-approved-repositories",
+    "name": "GitHub approved repositories",
+    "category": "Coding bounties",
+    "url": "https://docs.github.com/en/rest/issues/issues",
+    "access_method": "Issues REST API",
+    "status": "permission-review",
+    "policy": "Only issuer-confirmed paid issues count; labels alone do not establish funding; verify terms rate limits and closures"
+  },
+  {
+    "id": "hackerone",
+    "name": "HackerOne",
+    "category": "Security bounties",
+    "url": "https://api.hackerone.com/",
+    "access_method": "API and public program directory",
+    "status": "permission-review",
+    "policy": "Do not assume reports API is public bounty feed; partner or directory approach; authorized program scope only"
+  },
+  {
+    "id": "immunefi",
+    "name": "Immunefi",
+    "category": "Security bounties",
+    "url": "https://immunefi.com/bug-bounty/",
+    "access_method": "Public program directory",
+    "status": "permission-review",
+    "policy": "Rewards conditional on valid in-scope reports; headline maximum is not expected earnings"
+  },
+  {
+    "id": "kaggle",
+    "name": "Kaggle",
+    "category": "Data competitions",
+    "url": "https://github.com/Kaggle/kaggle-cli",
+    "access_method": "Official CLI/API",
+    "status": "permission-review",
+    "policy": "Include cash-prize competitions only; prize pool is not per-person pay; rules vary"
+  },
+  {
+    "id": "devpost",
+    "name": "Devpost",
+    "category": "Hackathons and prizes",
+    "url": "https://devpost.com/hackathons",
+    "access_method": "Public directory; organizer feeds by arrangement",
+    "status": "permission-review",
+    "policy": "Seek organizer permission; filter online events with cash prizes; preserve deadlines and team eligibility"
+  },
+  {
+    "id": "herox",
+    "name": "HeroX",
+    "category": "Challenges and prizes",
+    "url": "https://www.herox.com/crowdsourcing-projects",
+    "access_method": "Public challenge directory",
+    "status": "permission-review",
+    "policy": "Check prize rules entrant geography and payout conditions; no bulk API confirmed"
+  },
+  {
+    "id": "nasa-solve",
+    "name": "NASA Solve",
+    "category": "Challenges and prizes",
+    "url": "https://www.nasa.gov/solve/",
+    "access_method": "Official announcements",
+    "status": "permission-review",
+    "policy": "Not every challenge pays; preserve individual challenge cash eligibility and rules"
+  },
+  {
+    "id": "grants-gov",
+    "name": "Grants.gov",
+    "category": "Grants and funding",
+    "url": "https://www.grants.gov/api/common/search2",
+    "access_method": "search2 and fetchOpportunity APIs",
+    "status": "permission-review",
+    "policy": "Most grants are restricted funding not personal income; filter eligibility; check attachments separately"
+  },
+  {
+    "id": "simpler-grants-gov",
+    "name": "Simpler.Grants.gov",
+    "category": "Grants and funding",
+    "url": "https://wiki.simpler.grants.gov/product/api/search-opportunities",
+    "access_method": "Search/detail API and extracts",
+    "status": "permission-review",
+    "policy": "Same underlying grant ecosystem; deduplicate against Grants.gov; use extracts/pagination rather than truncated broad search"
+  },
+  {
+    "id": "sam-gov",
+    "name": "SAM.gov",
+    "category": "Business contracts",
+    "url": "https://open.gsa.gov/api/get-opportunities-public-api/",
+    "access_method": "Get Opportunities Public API",
+    "status": "permission-review",
+    "policy": "Organizational tenders not instant gigs; distinguish solicitations from awards and sources-sought notices"
+  },
+  {
+    "id": "eu-ted",
+    "name": "EU TED",
+    "category": "Business tenders",
+    "url": "https://docs.ted.europa.eu/api/latest/index.html",
+    "access_method": "TED API",
+    "status": "permission-review",
+    "policy": "Business procurement with regional and organizational eligibility; not all opportunities online-deliverable"
+  },
+  {
+    "id": "prolific",
+    "name": "Prolific",
+    "category": "Paid research participation",
+    "url": "https://www.prolific.com/participants",
+    "access_method": "Outbound participant directory",
+    "status": "directory",
+    "policy": "Researcher API is not global participant task feed; personalized studies and waitlists; no login scraping"
+  },
+  {
+    "id": "respondent",
+    "name": "Respondent",
+    "category": "Paid research participation",
+    "url": "https://www.respondent.io/become-a-participant",
+    "access_method": "Outbound participant directory",
+    "status": "directory",
+    "policy": "Screening and researcher selection apply; no public study aggregation API confirmed"
+  },
+  {
+    "id": "usertesting",
+    "name": "UserTesting",
+    "category": "Paid usability tests",
+    "url": "https://www.usertesting.com/get-paid-to-test",
+    "access_method": "Outbound contributor directory",
+    "status": "directory",
+    "policy": "Personalized available tests inside contributor account; no public live task feed confirmed"
+  },
+  {
+    "id": "user-interviews",
+    "name": "User Interviews",
+    "category": "Paid research participation",
+    "url": "https://www.userinterviews.com/",
+    "access_method": "Platform directory; partner inquiry",
+    "status": "directory",
+    "policy": "Confirm current participant route; public listing reuse not established"
+  },
+  {
+    "id": "dataannotation",
+    "name": "DataAnnotation",
+    "category": "AI evaluation work",
+    "url": "https://www.dataannotation.tech/",
+    "access_method": "Outbound platform directory",
+    "status": "directory",
+    "policy": "Qualification and country restrictions; advertised maximum rates are not guaranteed earnings; private tasks excluded"
+  },
+  {
+    "id": "outlier",
+    "name": "Outlier",
+    "category": "AI training work",
+    "url": "https://outlier.ai/",
+    "access_method": "Outbound platform directory",
+    "status": "directory",
+    "policy": "Qualification country and task availability restrictions; no public global task feed established"
+  },
+  {
+    "id": "clickworker",
+    "name": "Clickworker",
+    "category": "Microtasks and data work",
+    "url": "https://www.clickworker.com/clickworker/",
+    "access_method": "Outbound worker directory",
+    "status": "directory",
+    "policy": "Worker-specific task access; customer task-management APIs do not imply worker-feed access"
+  },
+  {
+    "id": "direct-employers-clients-and-organizers",
+    "name": "Direct employers clients and organizers",
+    "category": "All paid opportunity types",
+    "url": "https://insightginie.com/",
+    "access_method": "Permissioned submission API form or feed",
+    "status": "permission-review",
+    "policy": "Verify poster and funding claims; moderate before publish; no automatic payout promise"
+  },
+  {
+    "id": "demand-backed-business-ideas",
+    "name": "Demand-backed business ideas",
+    "category": "Business-building paths",
+    "url": "https://insightginie.com/",
+    "access_method": "Approved client requests and original research",
+    "status": "permission-review",
+    "policy": "Not paid listings; show observed buyer problem evidence validation cost and unknowns; no million-dollar income claim"
+  }
+]

@@ -4,6 +4,10 @@ import { getPublishedContent } from './content';
 
 const names: Record<string, string> = {
   '/': 'Home',
+  '/opportunities/': 'Online opportunities and remote work',
+  '/opportunities/sources/': 'Opportunity sources and freshness',
+  '/ideas/': 'Creative business idea lab',
+  '/platforms/': 'Earning platforms',
   '/calc/': 'Income calculators',
   '/calc/individual-income-percentile/': 'Individual income percentile',
   '/tools/': 'Finance tools',

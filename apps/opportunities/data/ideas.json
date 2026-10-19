@@ -1,0 +1,954 @@
+[
+  {
+    "id": "pet-personality-reports",
+    "title": "Pet personality reports",
+    "category": "Playful",
+    "description": "Turn an owner's stories into a fictional pet personality profile.",
+    "buyer": "Pet owners buying a humorous gift",
+    "experiment": "Offer three sample styles to a small pet-owner group and ask for one paid commission.",
+    "delivery": "Collect a short questionnaire; create a clearly fictional illustrated profile.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "writing",
+      "design"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "wedding-speech-rescue",
+    "title": "Wedding speech rescue",
+    "category": "Playful",
+    "description": "Edit awkward wedding speeches into warm, concise stories.",
+    "buyer": "Wedding speakers with a draft",
+    "experiment": "Offer one fixed-scope edit using an anonymized before-and-after sample.",
+    "delivery": "Work from the customer's facts and voice; return an edited script and rehearsal notes.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "writing",
+      "editing"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "office-jargon-translator",
+    "title": "Office jargon translator",
+    "category": "Playful",
+    "description": "Rewrite corporate jargon into funny plain-English posters.",
+    "buyer": "Teams planning an offsite",
+    "experiment": "Show five original poster examples and test whether a team pays for a custom set.",
+    "delivery": "Use customer-approved phrases and original layouts; provide print-ready files.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "writing",
+      "design"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "custom-trivia-nights",
+    "title": "Custom trivia nights",
+    "category": "Playful",
+    "description": "Build private trivia rounds about a friend group or team.",
+    "buyer": "Birthday hosts and remote teams",
+    "experiment": "Pre-sell one hosted or downloadable trivia night before building software.",
+    "delivery": "Collect consensually shared facts; write questions, answer sheets and a host guide.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "research",
+      "writing"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "landing-page-roast",
+    "title": "Landing page roast",
+    "category": "Playful",
+    "description": "Deliver a playful, constructive critique of a consenting founder's website.",
+    "buyer": "Founders seeking usable feedback",
+    "experiment": "Offer a sample roast of your own page and invite a paid review.",
+    "delivery": "Record a short critique ending with three specific fixes; agree on tone first.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "marketing",
+      "writing"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "relationship-decision-flowcharts",
+    "title": "Relationship decision flowcharts",
+    "category": "Playful",
+    "description": "Design funny fictional decision trees as personalized gifts.",
+    "buyer": "Gift buyers",
+    "experiment": "Test three clearly comedic designs and ask for a custom-order deposit.",
+    "delivery": "Use the buyer's brief; avoid presenting jokes as relationship advice.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "design",
+      "writing"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "excel-escape-rooms",
+    "title": "Excel escape rooms",
+    "category": "Playful",
+    "description": "Make puzzle adventures that run inside spreadsheets.",
+    "buyer": "Team activity organizers",
+    "experiment": "Build one short demo and ask a host to buy a tailored version.",
+    "delivery": "Use formulas and clues with no macros; test the puzzle with real players.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "spreadsheets",
+      "game-design"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "pet-adventure-postcards",
+    "title": "Pet adventure postcards",
+    "category": "Playful",
+    "description": "Write fictional postcards from a customer's pet on imaginary travels.",
+    "buyer": "Pet owners and gift buyers",
+    "experiment": "Offer a three-postcard bundle and measure paid orders.",
+    "delivery": "Use supplied pet details and original copy; clearly label fictional storytelling.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "writing",
+      "design"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "birthday-mystery-dossiers",
+    "title": "Birthday mystery dossiers",
+    "category": "Playful",
+    "description": "Turn birthday clues into an interactive digital detective case.",
+    "buyer": "Friends organizing a surprise",
+    "experiment": "Pre-sell a single custom case with a defined number of clues.",
+    "delivery": "Build a lightweight slide or web experience using buyer-provided facts.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "writing",
+      "design"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "personal-theme-song-briefs",
+    "title": "Personal theme-song briefs",
+    "category": "Playful",
+    "description": "Write a playful original song brief for a milestone or team.",
+    "buyer": "Gift buyers and team leads",
+    "experiment": "Sell the lyric and creative-brief service before promising music production.",
+    "delivery": "Write original lyrics; use a licensed producer if audio is commissioned.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "writing",
+      "music"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "podcast-clip-packaging",
+    "title": "Podcast clip packaging",
+    "category": "Creative",
+    "description": "Turn a creator's own recordings into captioned short clips.",
+    "buyer": "Independent podcast hosts",
+    "experiment": "Edit one authorized sample and offer a fixed-price batch.",
+    "delivery": "Select clips with permission, add accurate captions and deliver platform-ready files.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "video",
+      "editing"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "newsletter-visual-kits",
+    "title": "Newsletter visual kits",
+    "category": "Creative",
+    "description": "Design reusable charts and section headers for newsletters.",
+    "buyer": "Small newsletter publishers",
+    "experiment": "Make one example kit and test a paid custom order.",
+    "delivery": "Use original components and licensed fonts; deliver editable templates.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "design"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "memory-map-gifts",
+    "title": "Memory map gifts",
+    "category": "Creative",
+    "description": "Illustrate a customer's meaningful places as a digital map.",
+    "buyer": "Anniversary and graduation gift buyers",
+    "experiment": "Test a simple map style with one paid custom commission.",
+    "delivery": "Use customer-approved locations and appropriately licensed map materials.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "design",
+      "illustration"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "independent-author-launch-kits",
+    "title": "Independent author launch kits",
+    "category": "Creative",
+    "description": "Package a book launch with original social graphics and copy.",
+    "buyer": "Self-published authors",
+    "experiment": "Offer a limited launch bundle to authors with upcoming releases.",
+    "delivery": "Work from the author's approved book material and defined campaign scope.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "design",
+      "marketing"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "accessible-presentation-makeovers",
+    "title": "Accessible presentation makeovers",
+    "category": "Creative",
+    "description": "Improve slides for readability, contrast and clarity.",
+    "buyer": "Speakers and small businesses",
+    "experiment": "Offer a paid five-slide pilot before redesigning a full deck.",
+    "delivery": "Edit customer-owned slides and check reading order and text alternatives.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "design",
+      "accessibility"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "recipe-story-cards",
+    "title": "Recipe story cards",
+    "category": "Creative",
+    "description": "Turn family recipes and memories into printable keepsakes.",
+    "buyer": "Families compiling a gift",
+    "experiment": "Show a fictional sample and pre-sell a small card set.",
+    "delivery": "Format supplied recipes and stories; verify measurements with the customer.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "design",
+      "editing"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "community-mascot-kits",
+    "title": "Community mascot kits",
+    "category": "Creative",
+    "description": "Create an original mascot concept and basic brand expressions.",
+    "buyer": "Clubs and small communities",
+    "experiment": "Sell a scoped concept package with one revision.",
+    "delivery": "Create original work; agree on usage rights and avoid copying established characters.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "illustration",
+      "branding"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "product-photo-cleanup",
+    "title": "Product photo cleanup",
+    "category": "Creative",
+    "description": "Prepare a merchant's own photos for a consistent online catalog.",
+    "buyer": "Small online shops",
+    "experiment": "Offer a paid small-batch edit using an authorized sample.",
+    "delivery": "Correct crops and backgrounds without misrepresenting the product.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "photo-editing"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "caption-style-libraries",
+    "title": "Caption style libraries",
+    "category": "Creative",
+    "description": "Create caption presets and voice guidelines for a creator.",
+    "buyer": "Video creators",
+    "experiment": "Test a custom starter pack with one paying creator.",
+    "delivery": "Use the creator's own footage; verify captions rather than publishing raw transcription.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "video",
+      "writing"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "virtual-event-stage-kits",
+    "title": "Virtual event stage kits",
+    "category": "Creative",
+    "description": "Design backgrounds, overlays and run-of-show slides for events.",
+    "buyer": "Online event organizers",
+    "experiment": "Offer one event package with a fixed delivery date.",
+    "delivery": "Create editable assets using licensed materials and the organizer's branding.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "design",
+      "events"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "spreadsheet-rescue-desk",
+    "title": "Spreadsheet rescue desk",
+    "category": "Digital services",
+    "description": "Repair confusing budgets, inventory sheets and formulas.",
+    "buyer": "Small teams with a messy spreadsheet",
+    "experiment": "Ask a business to pay for a scoped diagnostic and repair.",
+    "delivery": "Use a redacted sample first; document formulas and hand over a clean version.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "spreadsheets"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "inbox-organization-setup",
+    "title": "Inbox organization setup",
+    "category": "Digital services",
+    "description": "Set up labels, rules and a lightweight email workflow.",
+    "buyer": "Independent professionals",
+    "experiment": "Offer a supervised setup session with no ongoing inbox access.",
+    "delivery": "Have the customer control access and approve each rule; avoid reading unnecessary mail.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "operations"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "website-accessibility-fixes",
+    "title": "Website accessibility fixes",
+    "category": "Digital services",
+    "description": "Fix a small set of concrete accessibility problems.",
+    "buyer": "Small website owners",
+    "experiment": "Sell a short audit with three implementation fixes.",
+    "delivery": "Combine automated checks with manual keyboard and screen-reader testing.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "web",
+      "accessibility"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "local-business-booking-setup",
+    "title": "Local business booking setup",
+    "category": "Digital services",
+    "description": "Configure a simple booking and reminder workflow.",
+    "buyer": "Independent service providers",
+    "experiment": "Test a paid setup with one provider and a limited appointment type.",
+    "delivery": "Use approved software and client-owned accounts; document the handover.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "automation",
+      "operations"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "research-citation-cleanup",
+    "title": "Research citation cleanup",
+    "category": "Digital services",
+    "description": "Organize references and repair inconsistent citation formatting.",
+    "buyer": "Writers and research teams",
+    "experiment": "Offer a sample bibliography cleanup and a scoped paid batch.",
+    "delivery": "Verify references against originals; never invent sources or write academic work dishonestly.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "research",
+      "editing"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "product-catalog-normalization",
+    "title": "Product catalog normalization",
+    "category": "Digital services",
+    "description": "Standardize a shop's product sizes, tags and attributes.",
+    "buyer": "Merchants with inconsistent inventory data",
+    "experiment": "Sell a fixed-record-count cleanup pilot.",
+    "delivery": "Agree on a schema, validate sample records and preserve an audit copy.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "data",
+      "spreadsheets"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "meeting-to-checklist-service",
+    "title": "Meeting-to-checklist service",
+    "category": "Digital services",
+    "description": "Turn authorized meeting notes into actionable checklists.",
+    "buyer": "Small teams",
+    "experiment": "Offer one paid weekly digest using supplied notes.",
+    "delivery": "Extract owners and dates; ask the client to confirm ambiguous actions.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "operations",
+      "writing"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "digital-file-decluttering",
+    "title": "Digital file decluttering",
+    "category": "Digital services",
+    "description": "Design a sensible folder and naming system.",
+    "buyer": "Creators and independent consultants",
+    "experiment": "Sell a supervised session for one project folder.",
+    "delivery": "Use customer-controlled storage and agree on deletion rules before changing files.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "operations"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "multilingual-subtitle-review",
+    "title": "Multilingual subtitle review",
+    "category": "Digital services",
+    "description": "Review subtitles in a language you genuinely know.",
+    "buyer": "Creators publishing across languages",
+    "experiment": "Offer a paid short-video review with sample corrections.",
+    "delivery": "Check meaning, timing and accessibility; do not claim unearned language expertise.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "languages",
+      "video"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "online-course-worksheet-kits",
+    "title": "Online course worksheet kits",
+    "category": "Digital services",
+    "description": "Create practical worksheets from an instructor's own material.",
+    "buyer": "Independent instructors",
+    "experiment": "Test a paid single-module workbook.",
+    "delivery": "Use authorized content and have the instructor review exercises for accuracy.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "design",
+      "education"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "price-change-notification-setup",
+    "title": "Price-change notification setup",
+    "category": "Build and automate",
+    "description": "Build an authorized monitoring workflow for a business.",
+    "buyer": "Teams tracking approved supplier pages",
+    "experiment": "Sell a pilot for a short list of permitted sources.",
+    "delivery": "Use APIs or permissioned access; filter cosmetic changes and test alerts.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "automation",
+      "web"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "csv-conversion-tools",
+    "title": "CSV conversion tools",
+    "category": "Build and automate",
+    "description": "Build a small tool that transforms a recurring file format.",
+    "buyer": "Operations teams repeating manual imports",
+    "experiment": "Find a repeated transformation and sell a working sample.",
+    "delivery": "Validate schemas and errors; avoid uploading sensitive files unnecessarily.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "coding",
+      "data"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "directory-maintenance-service",
+    "title": "Directory maintenance service",
+    "category": "Build and automate",
+    "description": "Keep a permissioned resource directory fresh and deduplicated.",
+    "buyer": "Associations and niche publishers",
+    "experiment": "Offer a paid cleanup of one neglected directory.",
+    "delivery": "Track original sources, validate updates and send exceptions to the owner.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "data",
+      "automation"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "form-to-document-workflows",
+    "title": "Form-to-document workflows",
+    "category": "Build and automate",
+    "description": "Turn approved form answers into consistent draft documents.",
+    "buyer": "Teams preparing routine internal documents",
+    "experiment": "Sell a pilot for a low-risk internal template.",
+    "delivery": "Validate fields and require human review before consequential use.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "automation"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "broken-link-repair-service",
+    "title": "Broken-link repair service",
+    "category": "Build and automate",
+    "description": "Find and repair stale links on a client-owned website.",
+    "buyer": "Publishers and small companies",
+    "experiment": "Offer a scoped scan of one authorized site and a paid repair batch.",
+    "delivery": "Check redirect targets and preserve useful link context.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "web",
+      "automation"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "small-website-migration-helpers",
+    "title": "Small website migration helpers",
+    "category": "Build and automate",
+    "description": "Build mapping and validation tools for a simple website move.",
+    "buyer": "Small website owners changing platforms",
+    "experiment": "Sell a paid URL inventory and migration plan.",
+    "delivery": "Test redirects and retain a rollback copy before making changes.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "web",
+      "data"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "personal-inventory-mini-apps",
+    "title": "Personal inventory mini-apps",
+    "category": "Build and automate",
+    "description": "Build a lightweight inventory tracker for a narrow hobby.",
+    "buyer": "Collectors with an existing manual process",
+    "experiment": "Pre-sell a small custom tracker before building a general platform.",
+    "delivery": "Use a simple exportable database and agree on essential fields.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "coding",
+      "design"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "client-onboarding-automation",
+    "title": "Client onboarding automation",
+    "category": "Build and automate",
+    "description": "Connect intake forms with client-approved task templates.",
+    "buyer": "Small agencies",
+    "experiment": "Sell a pilot for one repeatable onboarding workflow.",
+    "delivery": "Limit permissions, test failures and document manual recovery.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "automation",
+      "operations"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "event-reminder-utilities",
+    "title": "Event reminder utilities",
+    "category": "Build and automate",
+    "description": "Create opt-in reminders for a specific community schedule.",
+    "buyer": "Membership communities",
+    "experiment": "Ask one organizer to pay for a small reminder pilot.",
+    "delivery": "Use authorized event data and collect explicit notification consent.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "automation",
+      "web"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "document-comparison-assistants",
+    "title": "Document comparison assistants",
+    "category": "Build and automate",
+    "description": "Highlight changes between versions of supplied documents.",
+    "buyer": "Teams reviewing routine drafts",
+    "experiment": "Test a paid comparison of a low-risk document set.",
+    "delivery": "Show source-linked diffs and preserve uncertainty; do not replace professional review.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "coding",
+      "operations"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "podcast-guest-research-briefs",
+    "title": "Podcast guest research briefs",
+    "category": "Research",
+    "description": "Prepare concise background briefs for interview hosts.",
+    "buyer": "Podcast hosts",
+    "experiment": "Offer one paid brief for a confirmed upcoming guest.",
+    "delivery": "Use public sources and link every factual claim to evidence.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "research",
+      "writing"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "competitor-feature-inventories",
+    "title": "Competitor feature inventories",
+    "category": "Research",
+    "description": "Document publicly stated product features for a specific market.",
+    "buyer": "Product teams",
+    "experiment": "Sell a small dated comparison with clearly defined scope.",
+    "delivery": "Use allowed public materials; separate verified claims from interpretation.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "research",
+      "data"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "grant-eligibility-shortlists",
+    "title": "Grant eligibility shortlists",
+    "category": "Research",
+    "description": "Match an organization against published funding criteria.",
+    "buyer": "Eligible nonprofits and small research teams",
+    "experiment": "Offer a paid shortlist for one clearly specified applicant profile.",
+    "delivery": "Use official notices; distinguish grant eligibility from the chance of award.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "research"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "supplier-shortlist-research",
+    "title": "Supplier shortlist research",
+    "category": "Research",
+    "description": "Find suppliers meeting a buyer's documented requirements.",
+    "buyer": "Small businesses sourcing a product",
+    "experiment": "Test a fixed-scope shortlist with one paying buyer.",
+    "delivery": "Use verifiable supplier information and disclose referral relationships.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "research",
+      "operations"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "conference-relevance-briefs",
+    "title": "Conference relevance briefs",
+    "category": "Research",
+    "description": "Compare events against a professional's goals and budget.",
+    "buyer": "Professionals choosing an event",
+    "experiment": "Sell a shortlist for a specific field and travel constraint.",
+    "delivery": "Use official schedules and current prices; verify dates before delivery.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "research"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "public-data-chart-packs",
+    "title": "Public-data chart packs",
+    "category": "Research",
+    "description": "Turn a licensed public dataset into readable charts.",
+    "buyer": "Small publishers and educators",
+    "experiment": "Offer a paid sample chart pack with reproducible calculations.",
+    "delivery": "Document source dates, transformations and uncertainty.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "data",
+      "design"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "customer-interview-synthesis",
+    "title": "Customer interview synthesis",
+    "category": "Research",
+    "description": "Organize a client's consented interview notes into themes.",
+    "buyer": "Small product teams",
+    "experiment": "Offer a paid synthesis of a small anonymized batch.",
+    "delivery": "Protect identities and separate quotations from inferred themes.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "research",
+      "writing"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "job-application-research-packs",
+    "title": "Job application research packs",
+    "category": "Research",
+    "description": "Help applicants understand an employer and role.",
+    "buyer": "Job seekers seeking structured preparation",
+    "experiment": "Sell a small preparation pack without promising hiring outcomes.",
+    "delivery": "Use public employer sources; avoid fabricating experience or applications.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "research",
+      "writing"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "niche-public-resource-maps",
+    "title": "Niche public resource maps",
+    "category": "Research",
+    "description": "Map credible tools and official resources for one profession.",
+    "buyer": "Associations and learning communities",
+    "experiment": "Offer an organization a paid maintained map.",
+    "delivery": "Verify links and terms; distinguish sponsorship from selection criteria.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "research",
+      "data"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "website-content-inventories",
+    "title": "Website content inventories",
+    "category": "Research",
+    "description": "Inventory a client's pages before a redesign.",
+    "buyer": "Teams planning website changes",
+    "experiment": "Offer a paid inventory for one authorized domain.",
+    "delivery": "Record titles, duplicates and owners; recommend actions with evidence.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "research",
+      "web"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "remote-team-scavenger-hunts",
+    "title": "Remote team scavenger hunts",
+    "category": "Community",
+    "description": "Design lightweight online scavenger hunts for a team.",
+    "buyer": "Remote team organizers",
+    "experiment": "Pre-sell one original activity with a clear duration.",
+    "delivery": "Use safe public clues and optional participation; avoid collecting personal details.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "events",
+      "writing"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "hobby-challenge-clubs",
+    "title": "Hobby challenge clubs",
+    "category": "Community",
+    "description": "Host a small recurring challenge around a shared hobby.",
+    "buyer": "Hobbyists looking for accountability",
+    "experiment": "Run a small free sample and test paid membership interest.",
+    "delivery": "Create original prompts and clear community rules; moderate participation.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "community",
+      "events"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "virtual-museum-itinerary-guides",
+    "title": "Virtual museum itinerary guides",
+    "category": "Community",
+    "description": "Assemble thematic tours of officially available online collections.",
+    "buyer": "Educators and interest groups",
+    "experiment": "Test a paid hosted session using authorized museum resources.",
+    "delivery": "Link to originals and check presentation permissions; add your own tour structure.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "research",
+      "events"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "language-conversation-hosts",
+    "title": "Language conversation hosts",
+    "category": "Community",
+    "description": "Facilitate small online speaking sessions within your competence.",
+    "buyer": "Language learners",
+    "experiment": "Pre-sell a small session at a stated skill level.",
+    "delivery": "Prepare original prompts and enforce respectful participation.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "languages",
+      "education"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "independent-creator-accountability",
+    "title": "Independent creator accountability",
+    "category": "Community",
+    "description": "Run structured work sessions for creators with similar goals.",
+    "buyer": "Independent creators",
+    "experiment": "Offer a short paid cohort after testing attendance.",
+    "delivery": "Provide clear meeting structure and avoid promising income or audience growth.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "community",
+      "operations"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "virtual-plant-care-diaries",
+    "title": "Virtual plant-care diaries",
+    "category": "Community",
+    "description": "Design a custom tracking journal for a plant collection.",
+    "buyer": "Plant hobbyists",
+    "experiment": "Sell a personalized journal layout with a simple sample.",
+    "delivery": "Use owner-supplied plant details and clearly sourced care references.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "design",
+      "research"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "family-digital-archive-workshops",
+    "title": "Family digital archive workshops",
+    "category": "Community",
+    "description": "Teach people to organize and preserve their own photos.",
+    "buyer": "Families with scattered digital memories",
+    "experiment": "Sell one small workshop using your own example archive.",
+    "delivery": "Keep files under the owner's control and explain backup limitations.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "education",
+      "operations"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "niche-book-club-hosting",
+    "title": "Niche book-club hosting",
+    "category": "Community",
+    "description": "Host structured discussions for a clearly defined reading interest.",
+    "buyer": "Small reading communities",
+    "experiment": "Pre-sell a short series after a sample discussion.",
+    "delivery": "Discuss legitimately obtained books and use original discussion questions.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "community",
+      "education"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "mini-skill-swap-events",
+    "title": "Mini skill-swap events",
+    "category": "Community",
+    "description": "Organize short peer teaching sessions with clear expectations.",
+    "buyer": "Professional communities",
+    "experiment": "Test whether an organizer pays for event coordination.",
+    "delivery": "Define the schedule and moderation; do not promise participants paid work.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "events",
+      "operations"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "digital-celebration-producers",
+    "title": "Digital celebration producers",
+    "category": "Community",
+    "description": "Coordinate a remote birthday or milestone event.",
+    "buyer": "Friends and distributed families",
+    "experiment": "Sell a small event plan and facilitation package.",
+    "delivery": "Use original activities, consented memories and appropriately licensed media.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "events",
+      "design"
+    ],
+    "startup": "Low cash setup; your time and relevant skills are required.",
+    "status": "unvalidated"
+  }
+]
