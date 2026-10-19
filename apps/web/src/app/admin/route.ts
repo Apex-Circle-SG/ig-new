@@ -1,4 +1,5 @@
 import { randomBytes } from 'node:crypto';
+import { catalog, type CatalogStats, type AutomationStatus } from '../../lib/opportunities';
 import { getIndividualIncomeDistribution } from '@insightginie/datasets';
 import { FINANCE_TOOLS } from '@insightginie/calculators';
 import { adminChallenge, authenticatedAdmin, htmlEscape as e } from '../../lib/admin';
@@ -16,11 +17,24 @@ export async function GET(request: Request) {
   const dataset = getIndividualIncomeDistribution();
   const content = getContentStatus();
   const operations = await operationStore.recent();
+  const [opportunities, automation] = await Promise.all([
+    catalog<CatalogStats>('/v1/stats'),
+    catalog<AutomationStatus>('/v1/automation'),
+  ]);
   const nonce = randomBytes(24).toString('base64');
   const table = (rows: [string, unknown][]) =>
     `<dl>${rows.map(([key, value]) => `<dt>${e(key)}</dt><dd>${e(value)}</dd>`).join('')}</dl>`;
   const html = `<!doctype html><html lang="en-US"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>InsightGinie operations</title><style>
   *{box-sizing:border-box}body{font:16px/1.65 system-ui,sans-serif;color:#203149;background:#f4f6fa;margin:0}main{max-width:1100px;margin:auto;padding:30px 20px}h1{font-size:clamp(1.7rem,4vw,2.5rem)}h2{font-size:1.15rem}a{color:#503aab}section{background:white;border:1px solid #dce2ec;border-radius:14px;margin:20px 0;padding:22px}dl{display:grid;grid-template-columns:minmax(160px,1fr) 2fr;gap:8px}dt{font-weight:600}dd{margin:0;overflow-wrap:anywhere}button{font:inherit;background:#513cac;color:white;border:0;border-radius:8px;min-height:44px;padding:8px 16px;cursor:pointer}button:disabled{background:#e1e4eb;color:#555;cursor:not-allowed}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px}.notice{background:#fff7df;padding:12px;border-radius:8px}table{border-collapse:collapse;width:100%}th,td{text-align:left;border-bottom:1px solid #eee;padding:8px}nav{display:flex;flex-wrap:wrap;gap:18px}a:focus-visible,button:focus-visible{outline:3px solid #7f65d0;outline-offset:3px}@media(max-width:550px){dl{grid-template-columns:1fr}dd{margin-bottom:12px}}</style></head><body><main><nav><a href="/">Public site</a><a href="/tools/">Tools</a><a href="/insights/">Content previews</a><a href="/content-index/">Published index</a></nav><h1>InsightGinie operations</h1><p>Authenticated operational status. Counts contain no questions, financial inputs or visitor identifiers.</p>
+  <section><h2>Opportunity automation</h2>${table([
+    ['Active source listings', opportunities?.opportunities ?? 'Unavailable'],
+    ['Creative earning methods', opportunities?.methods ?? 'Unavailable'],
+    ['Business experiments', opportunities?.ideas ?? 'Unavailable'],
+    ['Ingestion', automation?.ingestion ?? 'Unavailable'],
+    ['LinkedIn enabled', automation?.linkedin.enabled ?? 'Unknown'],
+    ['LinkedIn schedule', automation?.linkedin.schedule ?? 'Unavailable'],
+    ['Latest LinkedIn status', automation?.linkedin.recent[0]?.status ?? 'No scheduled run yet'],
+  ])}<p>Failed or uncertain social posts are held for review, never blindly retried.</p><a href="/opportunities/sources/">Source health and daily update status</a></section>
   <section><h2>Dataset and calculator status</h2>${table([
     ['Dataset', dataset?.datasetVersion.id ?? 'Data unavailable'],
     ['Validation', dataset?.datasetVersion.validationStatus ?? 'Unavailable'],

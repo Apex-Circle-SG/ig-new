@@ -39,15 +39,21 @@ export const PUBLIC_INDEXABLE_PATHS = [
   '/opportunities/sources/',
   '/ideas/',
   '/platforms/',
+  '/earn/',
 ] as const;
 
 /** Advertising inventory is all reviewed public pages, never private tools. */
 export const PUBLIC_AD_PATHS = PUBLIC_INDEXABLE_PATHS.filter(
-  (path) =>
-    !['/ask/', '/opportunities/', '/opportunities/sources/', '/ideas/', '/platforms/'].includes(
-      path,
-    ),
+  (path) => !['/ask/', '/opportunities/sources/'].includes(path),
 );
+export const DYNAMIC_AD_CRAWLER_PATHS = ['/opportunities/*-*/$', '/ideas/*/$', '/earn/*/$'];
+export function isOpportunityContentPath(pathname: string) {
+  const path = canonicalPathname(pathname);
+  return (
+    /^\/(?:ideas|earn)\/[a-z0-9]+(?:-[a-z0-9]+)*\/$/.test(path) ||
+    /^\/opportunities\/[a-zA-Z0-9_]+(?:-[a-zA-Z0-9_]+)+\/$/.test(path)
+  );
+}
 
 export const PUBLIC_ROUTE_IDS: Readonly<Record<string, string>> = Object.fromEntries(
   PUBLIC_INDEXABLE_PATHS.map((path) => [
@@ -85,5 +91,8 @@ export function isPublicIndexablePath(pathname: string) {
 }
 
 export function isPublicAdvertisingPath(pathname: string) {
-  return (PUBLIC_AD_PATHS as readonly string[]).includes(canonicalPathname(pathname));
+  return (
+    (PUBLIC_AD_PATHS as readonly string[]).includes(canonicalPathname(pathname)) ||
+    isOpportunityContentPath(pathname)
+  );
 }

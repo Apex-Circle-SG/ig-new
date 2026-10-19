@@ -14,7 +14,7 @@ test('homepage routes a real question to the calculator', async ({ page }) => {
   const runtimeErrors: string[] = [];
   page.on('pageerror', (error) => runtimeErrors.push(error.message));
   await page.goto('/');
-  await expect(page.getByRole('heading', { level: 1 })).toHaveText('Understandwhere you stand.');
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText(/Discover ways\s*to earn\./);
   const search = page.getByRole('textbox', { name: 'What do you want to understand?' });
   await search.fill('compare my income');
   await page

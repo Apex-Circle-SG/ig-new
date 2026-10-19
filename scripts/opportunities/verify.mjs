@@ -13,10 +13,11 @@ const health = await request('/health');
 assert.equal(health.status, 'ok');
 const stats = await request('/v1/stats');
 assert(stats.opportunities > 0);
-assert.equal(stats.ideas, 60);
+assert.equal(stats.ideas, 84);
+assert.equal(stats.methods, 24);
 assert.equal(stats.platforms, 21);
 const sources = stats.sources.filter((source) => source.status === 'enabled');
-assert.equal(sources.length, 3);
+assert.equal(sources.length, 11);
 assert(sources.every((source) => source.last_success && !source.last_error));
 const results = await request('/v1/opportunities?source=jobicy&limit=3');
 assert(results.items.length > 0);
@@ -28,11 +29,29 @@ assert(
 const none = await request('/v1/opportunities?q=zzzznotanactualkeywordzzzz');
 assert.equal(none.total, 0);
 await request('/v1/opportunities?q=%22%20OR%20%28%29%20%2A');
+const methods = await request('/v1/methods');
+assert.equal(methods.items.length, 24);
+assert(
+  methods.items.every(
+    (method) =>
+      method.first_step && method.steps && method.risks && method.source_url.startsWith('https://'),
+  ),
+);
+const automation = await request('/v1/automation');
+assert.equal(automation.linkedin.schedule, 'Daily 09:00 Asia/Singapore');
+for (const path of ['/admin/social-preview', '/admin/check-methods']) {
+  const response = await fetch(base + path, { method: 'POST' });
+  assert.equal(response.status, 401);
+}
+const contracts = await request('/v1/opportunities?category=jobs&arrangement=Contract');
+assert(
+  contracts.items.every((item) => item.category === 'jobs' && item.employment_type === 'Contract'),
+);
 const ideas = await request('/v1/ideas');
 assert(
   ideas.items.every((idea) => idea.status === 'unvalidated' && idea.experiment && idea.caveat),
 );
-assert.equal(new Set(ideas.items.map((idea) => idea.id)).size, 60);
+assert.equal(new Set(ideas.items.map((idea) => idea.id)).size, 84);
 const denied = await fetch(base + '/admin/ingest?source=jobicy', { method: 'POST' });
 assert.equal(denied.status, 401);
 const unknown = await fetch(base + '/v1/opportunities/jobicy-not-an-existing-id');
@@ -46,6 +65,8 @@ const report = {
     opportunities: stats.opportunities,
     ideas: stats.ideas,
     platforms: stats.platforms,
+    methods: stats.methods,
+    categories: stats.categories,
     liveSources: sources.length,
     researchedSources: stats.sources.length,
   },
@@ -56,6 +77,9 @@ const report = {
     'empty search',
     'escaped search syntax',
     'idea classification',
+    'earning method guidance and source links',
+    'work arrangement filter',
+    'automation schedule and protected preview',
     'private write denial',
     'unknown listing 404',
   ],

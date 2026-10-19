@@ -1,14 +1,21 @@
 {
-  "verifiedAt": "2026-10-19T03:28:14.290Z",
+  "verifiedAt": "2026-10-19T04:15:35.321Z",
   "apiUrl": "https://insightginie-opportunities.aloycwl.workers.dev",
   "database": "insightginie-opportunities",
   "status": "passed",
   "counts": {
-    "opportunities": 181,
-    "ideas": 60,
+    "opportunities": 782,
+    "ideas": 84,
     "platforms": 21,
-    "liveSources": 3,
-    "researchedSources": 33
+    "methods": 24,
+    "categories": [
+      {
+        "category": "jobs",
+        "total": 782
+      }
+    ],
+    "liveSources": 11,
+    "researchedSources": 41
   },
   "checks": [
     "health and schema",
@@ -17,6 +24,9 @@
     "empty search",
     "escaped search syntax",
     "idea classification",
+    "earning method guidance and source links",
+    "work arrangement filter",
+    "automation schedule and protected preview",
     "private write denial",
     "unknown listing 404"
   ]

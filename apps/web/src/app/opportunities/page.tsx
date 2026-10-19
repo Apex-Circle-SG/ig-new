@@ -22,7 +22,7 @@ export default async function Opportunities({ searchParams }: { searchParams: Pr
   const raw = await searchParams;
   const value = (key: string) => (typeof raw[key] === 'string' ? raw[key].slice(0, 160) : '');
   const query = new URLSearchParams();
-  for (const key of ['q', 'location', 'source', 'paid', 'page'])
+  for (const key of ['q', 'location', 'source', 'paid', 'page', 'category', 'arrangement'])
     if (value(key)) query.set(key, value(key));
   const [result, stats] = await Promise.all([
     catalog<OpportunityResults>(`/v1/opportunities?${query}`),
@@ -44,16 +44,19 @@ export default async function Opportunities({ searchParams }: { searchParams: Pr
           Explore what’s possible.
         </h1>
         <p>
-          Fresh remote roles, places to find paid tasks, and creative ideas worth testing. Start
-          with your skills and check what you qualify for.
+          Employer-listed remote work, part-time and contract arrangements, open-source rewards and
+          creative ways to earn. Start with your skills and check what you qualify for.
         </p>
         {stats && (
           <div className={styles.stats}>
             <div>
-              <strong>{stats.opportunities}</strong>recent role listings
+              <strong>{stats.opportunities}</strong>active source listings
             </div>
             <div>
               <strong>{stats.platforms}</strong>earning platforms
+            </div>
+            <div>
+              <strong>{stats.methods}</strong>practical earning methods
             </div>
             <div>
               <strong>{stats.ideas}</strong>business experiments
@@ -85,9 +88,32 @@ export default async function Opportunities({ searchParams }: { searchParams: Pr
           Source
           <select name="source" defaultValue={value('source')}>
             <option value="">All live sources</option>
-            <option value="jobicy">Jobicy</option>
-            <option value="arbeitnow">Arbeitnow</option>
-            <option value="remoteok">Remote OK</option>
+            {stats?.sources
+              .filter((source) => source.status === 'enabled')
+              .map((source) => (
+                <option key={source.id} value={source.id}>
+                  {source.name}
+                </option>
+              ))}
+          </select>
+        </label>
+        <label>
+          Opportunity type
+          <select name="category" defaultValue={value('category')}>
+            <option value="">All opportunities</option>
+            <option value="jobs">Remote jobs</option>
+            <option value="bounties">Open-source rewards</option>
+          </select>
+        </label>
+        <label>
+          Arrangement
+          <select name="arrangement" defaultValue={value('arrangement')}>
+            <option value="">Any arrangement</option>
+            {['Full-time', 'Part-time', 'Contract', 'Freelance', 'Temporary', 'Internship'].map(
+              (mode) => (
+                <option key={mode}>{mode}</option>
+              ),
+            )}
           </select>
         </label>
         <button type="submit">Find opportunities →</button>
@@ -97,21 +123,26 @@ export default async function Opportunities({ searchParams }: { searchParams: Pr
         </label>
       </form>
       <div className={styles.links}>
-        <Link href="/platforms/">Paid research & testing</Link>
+        <Link href="/earn/">Creative ways to earn</Link>
+        <Link href="/opportunities/?category=jobs&arrangement=Contract">Remote contracts</Link>
+        <Link href="/opportunities/?category=jobs&arrangement=Part-time">
+          Remote part-time work
+        </Link>
+        <Link href="/earn/?category=Paid%20participation">Paid research & testing</Link>
         <Link href="/platforms/#bounties">Coding & security bounties</Link>
         <Link href="/platforms/#competitions">Competitions & funding</Link>
         <Link href="/ideas/?category=Playful">Funny & unusual ideas</Link>
         <Link href="/ideas/">Start a small business</Link>
       </div>
       <div className={styles.results}>
-        <h2>{result ? `${result.total} matching remote roles` : 'Latest remote roles'}</h2>
+        <h2>{result ? `${result.total} matching opportunities` : 'Latest opportunities'}</h2>
         <span className={styles.muted}>Original providers handle applications and payment.</span>
       </div>
       {!result ? (
         <CatalogUnavailable />
       ) : result.items.length === 0 ? (
         <div className={styles.empty}>
-          <h2>No matching roles right now.</h2>
+          <h2>No matching opportunities right now.</h2>
           <p>Try fewer filters, or explore platforms and ideas while new listings arrive.</p>
           <Link href="/opportunities/">Clear filters</Link>
         </div>
@@ -119,7 +150,10 @@ export default async function Opportunities({ searchParams }: { searchParams: Pr
         <div className={styles.grid}>
           {result.items.map((item) => (
             <article className={styles.card} key={item.id}>
-              <span className={styles.badge}>Remote role · {item.source_name}</span>
+              <span className={styles.badge}>
+                {item.category === 'bounties' ? 'Project reward' : 'Remote role'} ·{' '}
+                {item.source_name}
+              </span>
               <h2>
                 <Link href={`/opportunities/${item.id}/`}>{item.title}</Link>
               </h2>
@@ -130,6 +164,7 @@ export default async function Opportunities({ searchParams }: { searchParams: Pr
               </p>
               <div className={styles.reward}>{item.reward}</div>
               <div className={styles.tags}>
+                <span>{item.employment_type || 'Not specified'}</span>
                 {item.skills.slice(0, 4).map((skill) => (
                   <span key={skill}>{skill}</span>
                 ))}

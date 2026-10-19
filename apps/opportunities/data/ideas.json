@@ -950,5 +950,389 @@
     ],
     "startup": "Low cash setup; your time and relevant skills are required.",
     "status": "unvalidated"
+  },
+  {
+    "id": "custom-inside-joke-dictionaries",
+    "title": "Inside-joke dictionaries",
+    "category": "Playful",
+    "description": "Turn a friend group’s shared phrases into a private illustrated mini dictionary.",
+    "buyer": "Friend groups buying birthday gifts",
+    "experiment": "Create a fictional example page and seek one fixed-price order.",
+    "delivery": "Collect approved phrases, write definitions and deliver a proofed PDF.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "fantasy-pet-election",
+    "title": "Pet election campaign kits",
+    "category": "Playful",
+    "description": "Design a playful campaign poster and manifesto for someone’s pet.",
+    "buyer": "Pet owners organising gifts or parties",
+    "experiment": "Offer one original sample and ask a pet owner to commission a small kit.",
+    "delivery": "Use owner-approved photos and clearly fictional promises; deliver printable files.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "personalised-puzzle-trails",
+    "title": "Personalised puzzle trails",
+    "category": "Playful",
+    "description": "Build a short puzzle trail using a customer’s memories and favourite places.",
+    "buyer": "People planning birthdays and proposals",
+    "experiment": "Test a three-puzzle prototype with a real player before taking one order.",
+    "delivery": "Agree accessibility and locations; write original clues; test every solution.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "desk-museum-labels",
+    "title": "Desk museum labels",
+    "category": "Playful",
+    "description": "Write miniature museum-style labels for ordinary office objects.",
+    "buyer": "Teams looking for a light-hearted gift",
+    "experiment": "Create five fictional sample labels and offer a small custom batch.",
+    "delivery": "Collect safe object descriptions, write labels and deliver print-ready sheets.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "family-awards-night",
+    "title": "Family awards-night kits",
+    "category": "Playful",
+    "description": "Create warm, consent-based award categories and certificates for a gathering.",
+    "buyer": "Families planning reunions",
+    "experiment": "Offer one sample kit with a clear maximum number of recipients.",
+    "delivery": "Collect approved facts, avoid sensitive jokes and supply a printable host pack.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "fictional-map-gifts",
+    "title": "Fictional maps of shared memories",
+    "category": "Playful",
+    "description": "Draw an original imaginary map based on a couple or friend group’s memories.",
+    "buyer": "Gift buyers",
+    "experiment": "Show one fictional map and ask for a paid small-format commission.",
+    "delivery": "Use approved place names, draw original artwork and provide a digital proof.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "hobby-field-guides",
+    "title": "Personal hobby field guides",
+    "category": "Creative",
+    "description": "Make a compact beginner guide for a local hobby group.",
+    "buyer": "Clubs welcoming new members",
+    "experiment": "Ask one club to pay for a short onboarding guide.",
+    "delivery": "Interview organisers, verify facts and provide accessible printable pages.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "board-game-teaching-cards",
+    "title": "Board-game teaching cards",
+    "category": "Creative",
+    "description": "Create original quick-start reference cards for a client’s own game.",
+    "buyer": "Independent tabletop designers",
+    "experiment": "Offer a small usability review and one reference card.",
+    "delivery": "Observe a playtest, simplify instructions and test with a new player.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "recipe-memory-books",
+    "title": "Recipe memory books",
+    "category": "Creative",
+    "description": "Edit family-supplied recipes and stories into a private keepsake.",
+    "buyer": "Families buying a personal gift",
+    "experiment": "Create one sample spread and commission a short booklet.",
+    "delivery": "Collect permissions, proof measurements with the family and prepare print files.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "creator-media-kits",
+    "title": "Creator media-kit cleanup",
+    "category": "Digital services",
+    "description": "Organise a creator’s verified audience facts and examples into a concise media kit.",
+    "buyer": "Small creators approaching sponsors",
+    "experiment": "Offer a fixed-scope refresh using only creator-provided metrics.",
+    "delivery": "Verify supplied facts, improve structure and deliver editable templates.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "accessibility-document-cleanup",
+    "title": "Accessible document cleanup",
+    "category": "Digital services",
+    "description": "Improve headings, reading order and alt text in client-owned documents.",
+    "buyer": "Small organisations distributing PDFs",
+    "experiment": "Review a short sample and offer a scoped accessibility improvement pass.",
+    "delivery": "Use document accessibility tools, manually inspect reading order and document remaining limits.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "webinar-resource-packs",
+    "title": "Webinar resource packs",
+    "category": "Digital services",
+    "description": "Turn a client’s webinar into an organised companion worksheet and reading list.",
+    "buyer": "Trainers and webinar hosts",
+    "experiment": "Create one sample pack from material you have permission to use.",
+    "delivery": "Extract agreed exercises, verify links and return editable learning materials.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "craft-quote-helper",
+    "title": "Craft commission quote helper",
+    "category": "Build and automate",
+    "description": "Build a small quoting sheet around a maker’s own costs and workflow.",
+    "buyer": "Craft sellers taking custom orders",
+    "experiment": "Ask one maker to test a prototype using their real cost categories.",
+    "delivery": "Document assumptions, add editable inputs and test the calculations together.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "event-rsvp-triage",
+    "title": "Event RSVP triage setup",
+    "category": "Build and automate",
+    "description": "Organise an event host’s RSVP intake and reminder workflow.",
+    "buyer": "Small event organisers",
+    "experiment": "Offer one fixed-scope setup for an existing event.",
+    "delivery": "Map required fields, minimise personal data and test reminders before launch.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "inventory-photo-index",
+    "title": "Inventory photo index",
+    "category": "Build and automate",
+    "description": "Create a searchable reference index for a small collection using client-owned photos.",
+    "buyer": "Collectors or small makers",
+    "experiment": "Index one small sample collection and ask for a paid expansion.",
+    "delivery": "Agree metadata, preserve originals and supply a portable catalogue.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "local-accessibility-research",
+    "title": "Local access information research",
+    "category": "Research",
+    "description": "Compile dated, source-linked access information for a specific outing.",
+    "buyer": "Event organisers planning accessible visits",
+    "experiment": "Agree one destination and deliver a small verified information sheet.",
+    "delivery": "Contact venues through the client or public sources and clearly mark unknowns.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "hobby-supplier-comparisons",
+    "title": "Hobby supplier comparisons",
+    "category": "Research",
+    "description": "Compare source-linked specifications for a specialist hobby purchase.",
+    "buyer": "Clubs or individuals with a defined buying shortlist",
+    "experiment": "Offer one narrowly scoped comparison with a timestamp.",
+    "delivery": "Use public specifications, distinguish facts from preferences and disclose affiliate links.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "newsletter-fact-check",
+    "title": "Newsletter source checks",
+    "category": "Research",
+    "description": "Check cited facts and broken links in a client’s draft newsletter.",
+    "buyer": "Independent newsletter writers",
+    "experiment": "Offer one clearly bounded source-verification pass.",
+    "delivery": "Return sources, corrections and unresolved claims without promising legal or scientific certification.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "remote-coworking-games",
+    "title": "Remote coworking game sessions",
+    "category": "Community",
+    "description": "Host a short original social game for a distributed team.",
+    "buyer": "Remote team organisers",
+    "experiment": "Test the format with volunteers before offering one paid small-group session.",
+    "delivery": "Agree accessibility and privacy, rehearse the game and provide a concise host schedule.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "neighbourhood-skill-swap-kit",
+    "title": "Skill-swap event kits",
+    "category": "Community",
+    "description": "Create an organiser pack for a community skill-sharing event.",
+    "buyer": "Clubs or community organisers",
+    "experiment": "Ask an organiser to test and pay for a small tailored pack.",
+    "delivery": "Draft signup templates, session cards and a simple code of conduct.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "book-club-companion",
+    "title": "Book-club companion packs",
+    "category": "Community",
+    "description": "Write original discussion prompts and host notes without reproducing book text.",
+    "buyer": "Independent book clubs",
+    "experiment": "Offer a small original prompt pack for one upcoming meeting.",
+    "delivery": "Read authorised material, cite sources and avoid copying copyrighted passages.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "custom-digital-stickers",
+    "title": "Custom celebration stickers",
+    "category": "Creative",
+    "description": "Design original digital stickers for a group celebration.",
+    "buyer": "Teams and friend groups",
+    "experiment": "Offer one sample style with a limited fixed-price sticker set.",
+    "delivery": "Use approved names and images, export agreed formats and clarify reuse rights.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "plant-care-handover",
+    "title": "Plant-care handover cards",
+    "category": "Digital services",
+    "description": "Organise owner-supplied plant instructions into clear sitter cards.",
+    "buyer": "Plant owners preparing for travel",
+    "experiment": "Offer one small paid set using the owner’s own care instructions.",
+    "delivery": "Use supplied photos and routines; format clear cards without inventing horticultural advice.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
+  },
+  {
+    "id": "mini-documentary-interviews",
+    "title": "Personal history interview edits",
+    "category": "Creative",
+    "description": "Edit a customer-owned recorded interview into a short family audio keepsake.",
+    "buyer": "Families preserving stories",
+    "experiment": "Offer one short permission-based audio sample and fixed-length edit.",
+    "delivery": "Obtain participant consent, remove unwanted sections and agree private storage and deletion.",
+    "caveat": "Original brainstorming concept. No buyer or payment is committed. Validate demand before spending; earnings are not established.",
+    "skills": [
+      "creative problem solving",
+      "customer communication"
+    ],
+    "startup": "Start with a small prototype using tools you already have; account for your time, fees and materials.",
+    "status": "unvalidated"
   }
 ]

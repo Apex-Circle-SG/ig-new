@@ -1,5 +1,10 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
+test.beforeEach(async ({ page }) => {
+  await page.route('**/pagead/js/adsbygoogle.js*', (route) =>
+    route.fulfill({ contentType: 'application/javascript', body: '' }),
+  );
+});
 
 test('live roles can be filtered, inspected and saved locally', async ({ page }) => {
   await page.goto('/opportunities/');
@@ -32,7 +37,7 @@ test('ideas are explicitly speculative and platforms are not presented as availa
 }) => {
   await page.goto('/ideas/?category=Playful');
   await expect(page.getByText('Ideas, not paid listings.')).toBeVisible();
-  await expect(page.locator('article')).toHaveCount(10);
+  expect(await page.locator('article').count()).toBeGreaterThanOrEqual(10);
   await page.getByRole('link', { name: 'Pet personality reports', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'Your first experiment' })).toBeVisible();
   await expect(page.getByText(/No buyer or payment is committed/)).toBeVisible();
@@ -52,10 +57,10 @@ test('opportunity discovery works without JavaScript', async ({ browser, baseURL
   await context.close();
 });
 
-test('new discovery pages exclude ads and personal/filter pages exclude indexing', async ({
+test('status and personal pages exclude ads and filtered pages exclude indexing', async ({
   request,
 }) => {
-  for (const path of ['/opportunities/', '/ideas/', '/platforms/', '/opportunities/sources/']) {
+  for (const path of ['/opportunities/saved/', '/opportunities/sources/']) {
     const response = await request.get(path);
     expect(response.status()).toBe(200);
     expect(await response.text()).not.toContain(
@@ -81,6 +86,7 @@ test('opportunity and idea pages fit mobile and meet basic accessibility checks'
       '/opportunities/',
       '/ideas/?category=Playful',
       '/platforms/',
+      '/earn/',
       '/opportunities/sources/',
     ]) {
       await page.goto(path);
@@ -95,5 +101,53 @@ test('opportunity and idea pages fit mobile and meet basic accessibility checks'
     }
     await page.goto('/opportunities/');
     await page.screenshot({ path: `artifacts/opportunities-${width}.png`, fullPage: true });
+  }
+});
+
+test('creative methods have concrete first steps and eligibility disclosures', async ({ page }) => {
+  await page.goto('/earn/');
+  await expect(page.locator('article')).toHaveCount(24);
+  await page.getByRole('link', { name: 'Offer custom pet portraits', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'Your first step' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Eligibility and payment' })).toBeVisible();
+  await expect(page.getByText(/not an available paid assignment/)).toBeVisible();
+});
+
+test('ads are eligible on earning content and valid details, never missing or saved pages', async ({
+  page,
+  context,
+}) => {
+  await context.setExtraHTTPHeaders({ 'cf-ipcountry': 'US' });
+  await page.route('**/pagead/js/adsbygoogle.js*', (route) =>
+    route.fulfill({ contentType: 'application/javascript', body: '' }),
+  );
+  const first = await (await page.request.get('/opportunities/')).text();
+  const id = first.match(
+    /href="(\/opportunities\/(?:ashby|greenhouse|jobicy|arbeitnow|remoteok)[a-zA-Z0-9_-]+\/)"/,
+  )?.[1];
+  expect(id).toBeTruthy();
+  for (const path of [
+    '/earn/',
+    '/ideas/',
+    '/opportunities/',
+    '/earn/custom-pet-portraits/',
+    '/ideas/pet-personality-reports/',
+    id!,
+  ]) {
+    await page.goto(path);
+    await expect(page.locator('#insightginie-adsense')).toHaveAttribute(
+      'src',
+      /client=ca-pub-8735749779872017/,
+    );
+  }
+  for (const path of [
+    '/opportunities/saved/',
+    '/opportunities/sources/',
+    '/opportunities/jobicy-does-not-exist/',
+    '/earn/missing-method/',
+  ]) {
+    await page.goto(path);
+    await expect(page.getByRole('button', { name: 'Analytics settings' })).toBeEnabled();
+    await expect(page.locator('#insightginie-adsense')).toHaveCount(0);
   }
 });

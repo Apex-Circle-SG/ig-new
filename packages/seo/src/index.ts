@@ -30,6 +30,8 @@ export { evaluatePageQuality, type PageCandidate } from './quality';
 export {
   PUBLIC_INDEXABLE_PATHS,
   PUBLIC_AD_PATHS,
+  DYNAMIC_AD_CRAWLER_PATHS,
+  isOpportunityContentPath,
   PUBLIC_ROUTE_IDS,
   publicRouteId,
   siteIsIndexable,

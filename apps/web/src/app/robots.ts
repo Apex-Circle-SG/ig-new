@@ -1,5 +1,10 @@
 import type { MetadataRoute } from 'next';
-import { canonical, PUBLIC_AD_PATHS, siteIsIndexable } from '@insightginie/seo';
+import {
+  canonical,
+  PUBLIC_AD_PATHS,
+  DYNAMIC_AD_CRAWLER_PATHS,
+  siteIsIndexable,
+} from '@insightginie/seo';
 
 export default function robots(): MetadataRoute.Robots {
   const indexable = siteIsIndexable();
@@ -25,7 +30,14 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: ['Mediapartners-Google', 'AdsBot-Google'],
         ...(indexable
-          ? { allow: [...PUBLIC_AD_PATHS.map((path) => `${path}$`), '/ads.txt$', '/_next/'] }
+          ? {
+              allow: [
+                ...PUBLIC_AD_PATHS.map((path) => `${path}$`),
+                ...DYNAMIC_AD_CRAWLER_PATHS,
+                '/ads.txt$',
+                '/_next/',
+              ],
+            }
           : {}),
         disallow: '/',
       },

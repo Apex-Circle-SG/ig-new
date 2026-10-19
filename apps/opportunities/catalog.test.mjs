@@ -68,6 +68,7 @@ test('FTS user syntax is quoted and SQL parameters remain bound', () => {
   assert(!query.where.includes("x'"));
   const db = new DatabaseSync(':memory:');
   db.exec(readFileSync(new URL('./migrations/0001_catalog.sql', import.meta.url), 'utf8'));
+  db.exec(readFileSync(new URL('./migrations/0002_automation.sql', import.meta.url), 'utf8'));
   assert.doesNotThrow(() =>
     db
       .prepare(`SELECT COUNT(*) AS total FROM opportunities o WHERE ${query.where}`)
@@ -78,6 +79,7 @@ test('FTS user syntax is quoted and SQL parameters remain bound', () => {
 test('schema upserts maintain a searchable record without duplicates', () => {
   const db = new DatabaseSync(':memory:');
   db.exec(readFileSync(new URL('./migrations/0001_catalog.sql', import.meta.url), 'utf8'));
+  db.exec(readFileSync(new URL('./migrations/0002_automation.sql', import.meta.url), 'utf8'));
   db.exec(
     "INSERT INTO sources(id,name,category,url,access_method,status,policy) VALUES('jobicy','Jobicy','jobs','https://jobicy.com','API','enabled','attribution')",
   );

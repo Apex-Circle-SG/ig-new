@@ -2,5 +2,6 @@
   "database_id": "597bf375-1acf-4747-8740-f74b4dafedef",
   "database_name": "insightginie-opportunities",
   "worker_name": "insightginie-opportunities",
-  "api_url": "https://insightginie-opportunities.aloycwl.workers.dev"
+  "api_url": "https://insightginie-opportunities.aloycwl.workers.dev",
+  "linkedin_enabled": true
 }

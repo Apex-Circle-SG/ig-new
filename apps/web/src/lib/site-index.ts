@@ -8,6 +8,7 @@ const names: Record<string, string> = {
   '/opportunities/sources/': 'Opportunity sources and freshness',
   '/ideas/': 'Creative business idea lab',
   '/platforms/': 'Earning platforms',
+  '/earn/': 'Creative ways to earn online',
   '/calc/': 'Income calculators',
   '/calc/individual-income-percentile/': 'Individual income percentile',
   '/tools/': 'Finance tools',

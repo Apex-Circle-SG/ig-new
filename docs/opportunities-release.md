@@ -1,5 +1,7 @@
 # Opportunities hub release — 19 October 2026
 
+The later [daily automation expansion](opportunities-automation.md) supersedes the initial counts, refresh cadence and ad exclusions described below.
+
 Cloudflare D1 and a dedicated Worker now power the opportunity catalog. The Next.js site reads the public API; Cloudflare management credentials stay outside the frontend and repository.
 
 ## What is included

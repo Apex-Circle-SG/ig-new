@@ -16,6 +16,9 @@ export function Header() {
           <Link prefetch={false} href="/opportunities/">
             Opportunities
           </Link>
+          <Link prefetch={false} href="/earn/">
+            Ways to earn
+          </Link>
           <Link prefetch={false} href="/insights/">
             Insights
           </Link>
@@ -42,6 +45,9 @@ export function Header() {
             </Link>
             <Link prefetch={false} href="/ideas/">
               Idea lab
+            </Link>
+            <Link prefetch={false} href="/earn/">
+              Ways to earn
             </Link>
             <Link prefetch={false} href="/">
               Home

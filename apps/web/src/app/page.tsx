@@ -49,23 +49,28 @@ export default async function Home() {
             '@type': 'WebSite',
             name: 'InsightGinie',
             url: 'https://insightginie.com',
-            description: 'Personal income comparisons based on public US data.',
+            description:
+              'Remote opportunities, creative earning methods and practical decision tools.',
           }),
         }}
       />
       <section className="hero shell">
         <div className="hero-copy">
           <div className="eyebrow">
-            <span className="tiny-spark">✦</span> A LITTLE PERSPECTIVE CHANGES EVERYTHING
+            <span className="tiny-spark">✦</span> YOUR NEXT POSSIBILITY
           </div>
           <h1>
-            Understand
+            Discover ways
             <br />
-            where you <span>stand.</span>
+            to <span>earn.</span>
           </h1>
           <p className="hero-description">
-            Your numbers tell a story. See how your income compares, understand the context, and
-            explore what could come next.
+            Find remote work, flexible contracts and creative ways to make money. Explore real
+            sources, practical first steps and unusual ideas worth testing.
+          </p>
+          <p className="hero-suggestions">
+            <Link href="/earn/">Explore ways to earn →</Link>
+            <Link href="/opportunities/">Find remote work →</Link>
           </p>
           <Command />
           <div className="hero-suggestions">
@@ -82,7 +87,7 @@ export default async function Home() {
               <Check size={15} /> No account needed
             </span>
             <span>
-              <Check size={15} /> Real US data
+              <Check size={15} /> Source-linked opportunities
             </span>
           </div>
         </div>
@@ -144,6 +149,8 @@ export default async function Home() {
           </p>
           <p>
             <Link href="/opportunities/">Explore opportunities →</Link>
+            {' · '}
+            <Link href="/earn/">Explore creative earning methods →</Link>
             {' · '}
             <Link href="/ideas/">Visit the idea lab →</Link>
           </p>

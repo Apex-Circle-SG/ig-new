@@ -19,7 +19,7 @@ export function GoogleAnalytics({ pathname, nonce }: { pathname: string; nonce: 
     function update() {
       const publicPage =
         Boolean(publicRouteId(pathname)) ||
-        /^\/(?:ideas|opportunities)\/[a-z0-9-]+\/$/.test(pathname);
+        /^\/(?:ideas|opportunities|earn)\/[a-z0-9-]+\/$/.test(pathname);
       const privatePage =
         pathname === '/ask/' || pathname === '/opportunities/saved/' || Boolean(location.search);
       const consent =

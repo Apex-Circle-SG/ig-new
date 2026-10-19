@@ -4,7 +4,8 @@ export function OpportunityNavigation({ current }: { current: string }) {
   return (
     <nav className={styles.tabs} aria-label="Explore earning opportunities">
       {[
-        ['/opportunities/', 'Paid opportunities'],
+        ['/opportunities/', 'Remote work & rewards'],
+        ['/earn/', 'Ways to earn'],
         ['/ideas/', 'Idea lab'],
         ['/platforms/', 'Earning platforms'],
         ['/opportunities/sources/', 'Sources & updates'],

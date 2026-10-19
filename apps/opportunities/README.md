@@ -90,3 +90,13 @@ account-side setting cannot be verified through the public measurement ID.
 QA tests intercept the Google script, inspect commands and do not send test
 pageviews to the property. Actual property ownership and dashboard receipt
 require access to GA4 Realtime/DebugView.
+
+## Daily automation expansion (19 October 2026)
+
+The current schedules, 11 adapters, 24 earning guides, 84 experiments, social
+publication controls and updated advertising scope supersede the initial-release
+counts and cadence above. See [the current operations guide](../../docs/opportunities-automation.md).
+Schema 0002 adds work arrangements, persistent cursors, guide link status,
+encrypted runtime credential state and a daily publication ledger.
+
+Refresh the architecture map using `scripts/graphify/refresh.py`; see its README.

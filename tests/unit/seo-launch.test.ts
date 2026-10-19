@@ -1,6 +1,7 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import {
   PUBLIC_AD_PATHS,
+  DYNAMIC_AD_CRAWLER_PATHS,
   PUBLIC_INDEXABLE_PATHS,
   isPublicAdvertisingPath,
   isPublicIndexablePath,
@@ -52,9 +53,7 @@ describe('reviewed public-page boundaries', () => {
     for (const path of PUBLIC_INDEXABLE_PATHS) {
       expect(isPublicIndexablePath(path)).toBe(true);
       expect(isPublicAdvertisingPath(path)).toBe(
-        !['/ask/', '/opportunities/', '/opportunities/sources/', '/ideas/', '/platforms/'].includes(
-          path,
-        ),
+        !['/ask/', '/opportunities/sources/'].includes(path),
       );
       if (path !== '/') expect(isPublicIndexablePath(path.slice(0, -1))).toBe(true);
     }
@@ -113,6 +112,7 @@ describe('production discovery and preview isolation', () => {
     const adRule = Array.isArray(rules) ? rules[1] : undefined;
     expect(adRule?.allow).toEqual([
       ...PUBLIC_AD_PATHS.map((path) => `${path}$`),
+      ...DYNAMIC_AD_CRAWLER_PATHS,
       '/ads.txt$',
       '/_next/',
     ]);

@@ -1,0 +1,110 @@
+{
+  "timestamp": "2026-10-19T04:16:15.952390+00:00",
+  "status": "completed_with_extractor_warnings",
+  "source_files": 123,
+  "nodes": 547,
+  "edges": 1070,
+  "communities": 37,
+  "mode": "incremental",
+  "llm_tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "scope": "Bounded source AST plus public JSON/SQL provenance; no credentials, env files or build artifacts.",
+  "diagnostics": {
+    "scope": "full safe source corpus AST before graph construction",
+    "node_count": 542,
+    "raw_edge_count": 1456,
+    "dangling_endpoint_edges": 346,
+    "missing_endpoint_edges": 0,
+    "self_loop_edges": 0,
+    "exact_duplicate_edges": 12,
+    "undirected_same_endpoint_collapsed_edges": 35
+  },
+  "query": {
+    "requested": "publishDaily scheduled ingestSource earning_methods advertising",
+    "expanded_tokens": [
+      "publish",
+      "daily",
+      "ingest",
+      "source",
+      "earning",
+      "methods",
+      "advertising"
+    ],
+    "unmatched_concept": "scheduled callback is not a named graph node; graph alone does not verify deployed cron schedules.",
+    "findings": [
+      {
+        "finding": "Worker imports publishDaily; publishDaily calls singaporeDay, choosePost, postText and credentials.",
+        "references": [
+          "apps/opportunities/worker.mjs:L3",
+          "apps/opportunities/social.mjs:L116",
+          "apps/opportunities/social.mjs:L117",
+          "apps/opportunities/social.mjs:L124",
+          "apps/opportunities/social.mjs:L126",
+          "apps/opportunities/social.mjs:L147"
+        ]
+      },
+      {
+        "finding": "ingestSource calls normalize and dataTotal; Worker imports catalog and feed configuration.",
+        "references": [
+          "apps/opportunities/worker.mjs:L1",
+          "apps/opportunities/worker.mjs:L2",
+          "apps/opportunities/worker.mjs:L26",
+          "apps/opportunities/worker.mjs:L45",
+          "apps/opportunities/worker.mjs:L83"
+        ]
+      },
+      {
+        "finding": "Migration declares earning_methods; frontend has EarningMethod and the public methods catalog has a file-level provenance node.",
+        "references": [
+          "apps/opportunities/migrations/0002_automation.sql:L3",
+          "apps/web/src/lib/opportunities.ts:L113",
+          "apps/opportunities/data/methods.json:L1"
+        ]
+      },
+      {
+        "finding": "Advertising route inventory declares PUBLIC_AD_PATHS; route membership and actual ad serving require source/browser verification.",
+        "references": [
+          "packages/seo/src/routes.ts:L46"
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "346 raw dangling references and35 undirected endpoint-pair collapses make graph paths incomplete.",
+    "Structural extraction includes heuristically inferred edges; source code remains authoritative.",
+    "No runtime cron execution, LinkedIn publication or ad delivery is proven by this graph."
+  ],
+  "outputs": [
+    "graphify-out/graph.json",
+    "graphify-out/graph.html",
+    "graphify-out/GRAPH_REPORT.md",
+    "graphify-out/health.json",
+    "graphify-out/refresh-receipt.json",
+    "graphify-out/opportunities-query.txt"
+  ],
+  "refresh_instructions": "scripts/graphify/README.md",
+  "last_incremental_refresh": {
+    "timestamp": "2026-10-19T04:19:10.435255+00:00",
+    "mode": "incremental",
+    "source_files": 123,
+    "changed_files": 3,
+    "deleted_files": 0,
+    "nodes": 547,
+    "edges": 1070,
+    "communities": 37,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "semantic_extraction": false
+  },
+  "last_incremental_diagnostics": {
+    "scope": "last changed-file subset, not a full-corpus diagnostic",
+    "node_count": 11,
+    "raw_edge_count": 24,
+    "dangling_endpoint_edges": 16,
+    "missing_endpoint_edges": 0,
+    "self_loop_edges": 0,
+    "undirected_same_endpoint_collapsed_edges": 0
+  }
+}

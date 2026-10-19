@@ -1,6 +1,11 @@
 import type { Metadata } from 'next';
 import { SiteLink as Link } from '@insightginie/ui';
-import { catalog, dateLabel, type CatalogStats } from '../../../lib/opportunities';
+import {
+  catalog,
+  dateLabel,
+  type CatalogStats,
+  type AutomationStatus,
+} from '../../../lib/opportunities';
 import {
   OpportunityNavigation,
   CatalogUnavailable,
@@ -13,7 +18,10 @@ export const metadata: Metadata = {
   alternates: { canonical: '/opportunities/sources/' },
 };
 export default async function Sources() {
-  const stats = await catalog<CatalogStats>('/v1/stats');
+  const [stats, automation] = await Promise.all([
+    catalog<CatalogStats>('/v1/stats'),
+    catalog<AutomationStatus>('/v1/automation'),
+  ]);
   return (
     <div className={`shell ${styles.page}`}>
       <OpportunityNavigation current="/opportunities/sources/" />
@@ -75,12 +83,42 @@ export default async function Sources() {
         </div>
       )}
       <section className={styles.detail}>
+        <h2>Daily earning discovery</h2>
+        <p>
+          Our curated earning-method links are checked daily in four batches. A reachable programme
+          page is not a guarantee of available assignments. Broken links are labelled for review;
+          removed programmes are excluded from social selection. Business experiments remain clearly
+          labelled unvalidated ideas.
+        </p>
+        <h2>LinkedIn publishing status</h2>
+        <p>
+          {automation?.linkedin.enabled
+            ? 'Daily publishing is enabled for 09:00 Singapore time.'
+            : 'Daily publishing is not currently enabled.'}{' '}
+          One eligible remote role or earning method is selected, alternating categories when
+          available. Previous selections and expired roles are excluded. If nothing qualifies, no
+          post is published.
+        </p>
+        {automation?.linkedin.recent.length ? (
+          <ul>
+            {automation.linkedin.recent.map((run) => (
+              <li key={run.day}>
+                {run.day}: {run.status}
+                {run.error_code ? ` (${run.error_code})` : ''}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p>No scheduled publishing run has been recorded yet.</p>
+        )}
+
         <h2>How updates work</h2>
         <p>
-          A scheduled job runs hourly and rotates across the three live feeds. Each source is
-          visited every three hours, with bounded batches cycling through its recent records.
-          Listings not reconfirmed within seven days leave active search. A fresh feed appearance
-          does not guarantee that the employer is still accepting applications.
+          A scheduled job runs every ten minutes and rotates across the live sources. Every source
+          is visited within two hours, with bounded batches cycling through active records. Complete
+          employer feeds also close listings that disappear; partial job-board feeds use a freshness
+          grace period. Listings not reconfirmed within seven days leave active search. A fresh feed
+          appearance does not guarantee that the employer is still accepting applications.
         </p>
         <h2>Payment and qualification</h2>
         <p>

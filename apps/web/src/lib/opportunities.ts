@@ -7,6 +7,8 @@ export type Opportunity = {
   category: string;
   location: string;
   work_mode: string;
+  employment_type: string;
+  expires_at: string | null;
   reward: string;
   skills: string[];
   excerpt: string;
@@ -51,6 +53,8 @@ export type Source = {
 };
 export type CatalogStats = {
   opportunities: number;
+  methods: number;
+  categories: { category: string; total: number }[];
   ideas: number;
   platforms: number;
   sources: Source[];
@@ -104,4 +108,35 @@ export const categoryDescriptions: Record<string, string> = {
   'Build and automate': 'Small tools and workflows that solve specific problems.',
   Research: 'Help someone find, verify or understand information.',
   Community: 'Bring people together around an activity or shared interest.',
+};
+
+export type EarningMethod = {
+  id: string;
+  title: string;
+  category: string;
+  description: string;
+  buyer: string;
+  first_step: string;
+  steps: string;
+  risks: string;
+  source_url: string;
+  source_name: string;
+  payment: string;
+  eligibility: string;
+  last_checked: string | null;
+  check_status: string;
+};
+export type AutomationStatus = {
+  ingestion: string;
+  methodChecks: string;
+  linkedin: {
+    enabled: boolean;
+    schedule: string;
+    recent: {
+      day: string;
+      status: string;
+      finished_at: string | null;
+      error_code: string | null;
+    }[];
+  };
 };

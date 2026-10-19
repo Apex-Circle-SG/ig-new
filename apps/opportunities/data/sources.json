@@ -295,5 +295,77 @@
     "access_method": "Approved client requests and original research",
     "status": "permission-review",
     "policy": "Not paid listings; show observed buyer problem evidence validation cost and unknowns; no million-dollar income claim"
+  },
+  {
+    "id": "greenhouse-gitlab",
+    "name": "GitLab careers",
+    "category": "Employer-listed remote roles",
+    "url": "https://job-boards.greenhouse.io/gitlab",
+    "access_method": "Documented public employer job-posting API",
+    "status": "enabled",
+    "policy": "Factual role metadata and employer links only; remote flag or explicit remote/home-based location required; retain geographic limits. No application data collected."
+  },
+  {
+    "id": "greenhouse-canonical",
+    "name": "Canonical careers",
+    "category": "Employer-listed remote roles",
+    "url": "https://job-boards.greenhouse.io/canonical",
+    "access_method": "Documented public employer job-posting API",
+    "status": "enabled",
+    "policy": "Factual role metadata and employer links only; remote flag or explicit remote/home-based location required; retain geographic limits. No application data collected."
+  },
+  {
+    "id": "greenhouse-wikimedia",
+    "name": "Wikimedia Foundation careers",
+    "category": "Employer-listed remote roles",
+    "url": "https://job-boards.greenhouse.io/wikimedia",
+    "access_method": "Documented public employer job-posting API",
+    "status": "enabled",
+    "policy": "Factual role metadata and employer links only; remote flag or explicit remote/home-based location required; retain geographic limits. No application data collected."
+  },
+  {
+    "id": "ashby-zapier",
+    "name": "Zapier careers",
+    "category": "Employer-listed remote roles",
+    "url": "https://jobs.ashbyhq.com/zapier",
+    "access_method": "Documented public employer job-posting API",
+    "status": "enabled",
+    "policy": "Factual role metadata and employer links only; remote flag or explicit remote/home-based location required; retain geographic limits. No application data collected."
+  },
+  {
+    "id": "ashby-docker",
+    "name": "Docker careers",
+    "category": "Employer-listed remote roles",
+    "url": "https://jobs.ashbyhq.com/docker",
+    "access_method": "Documented public employer job-posting API",
+    "status": "enabled",
+    "policy": "Factual role metadata and employer links only; remote flag or explicit remote/home-based location required; retain geographic limits. No application data collected."
+  },
+  {
+    "id": "ashby-buffer",
+    "name": "Buffer careers",
+    "category": "Employer-listed remote roles",
+    "url": "https://jobs.ashbyhq.com/buffer",
+    "access_method": "Documented public employer job-posting API",
+    "status": "enabled",
+    "policy": "Factual role metadata and employer links only; remote flag or explicit remote/home-based location required; retain geographic limits. No application data collected."
+  },
+  {
+    "id": "ashby-linear",
+    "name": "Linear careers",
+    "category": "Employer-listed remote roles",
+    "url": "https://jobs.ashbyhq.com/linear",
+    "access_method": "Documented public employer job-posting API",
+    "status": "enabled",
+    "policy": "Factual role metadata and employer links only; remote flag or explicit remote/home-based location required; retain geographic limits. No application data collected."
+  },
+  {
+    "id": "github-bounties",
+    "name": "Tenstorrent open-source bounties",
+    "category": "Open-source project rewards",
+    "url": "https://github.com/tenstorrent/tt-metal",
+    "access_method": "Documented public GitHub search API",
+    "status": "enabled",
+    "policy": "Curated Tenstorrent organisation only, documented bounty programme; unassigned open issues with a title reward. Sponsor acceptance, funding and country eligibility must still be checked; no automated claiming or security testing."
   }
 ]

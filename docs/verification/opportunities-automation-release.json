@@ -1,0 +1,65 @@
+{
+  "verifiedAt": "2026-10-19T04:20:13.833421+00:00",
+  "status": "passed",
+  "buildId": "U8UVeCoX6_W12XYx3zKpC",
+  "counts": {
+    "opportunities": 782,
+    "ideas": 84,
+    "platforms": 21,
+    "methods": 24,
+    "categories": [
+      {
+        "category": "jobs",
+        "total": 782
+      }
+    ],
+    "liveSources": 11,
+    "researchedSources": 41
+  },
+  "checks": {
+    "build": "passed; Next.js 16.4.2 and TypeScript",
+    "lint": "passed",
+    "unitTests": 407,
+    "backendTests": 14,
+    "operationsTests": 35,
+    "browserUniqueChecks": 65,
+    "browserEvidence": {
+      "focused": 11,
+      "visualSnapshotsReviewed": 4,
+      "regressionCompletedBeforePreviewInterruption": 43,
+      "intentionalHomepageCopyAssertionUpdatedAndRerun": 1,
+      "remainingChecksAfterPreviewRestart": 6
+    },
+    "ga4Consent": "passed",
+    "adsOnValidEarningContent": "passed",
+    "adsOnMissingAndPrivatePages": "excluded",
+    "secretScan": "passed",
+    "liveBackend": "passed",
+    "linkedin": "read-only preview passed; no test post published"
+  },
+  "browserNotes": "The broad regression run was interrupted by SIGTERM after 43 passes and one obsolete homepage-copy assertion. That assertion was updated to match the intentional earning-focused homepage and passed; all six remaining checks passed after restarting the preview server under a managed temporary service. No unresolved product-test failure remains.",
+  "schedules": {
+    "ingestion": "*/10 * * * *",
+    "methodChecks": "10 0,6,12,18 * * *",
+    "linkedin": "0 1 * * *",
+    "timezone": "UTC; LinkedIn 09:00 Asia/Singapore"
+  },
+  "limitations": [
+    "Earning methods and business experiments are curated seeds; their programme links update daily, but new ideas are not invented automatically.",
+    "The curated bounty programme currently has no eligible unassigned reward; no fabricated listings are substituted.",
+    "Programme-page availability is not proof of available paid assignments.",
+    "Ads are enabled through existing Auto ads; rendering and revenue depend on consent, blockers, account settings and Google.",
+    "LinkedIn live publishing has not been tested by creating a QA post; first scheduled live result must be checked after activation.",
+    "Existing development-only lint dependency audit findings and Graphify extractor warnings remain documented."
+  ],
+  "evidence": [
+    "docs/verification/opportunities-api.json",
+    "docs/verification/opportunities-automation-secrets.json",
+    "docs/verification/opportunities-graphify.json",
+    "artifacts/opportunities-expansion/targeted.json",
+    "artifacts/opportunities-expansion/homepage-check.json",
+    "artifacts/opportunities-expansion/remaining.json",
+    "artifacts/opportunities-expansion/catalog-tests.txt",
+    "artifacts/opportunities-expansion/operations-tests.txt"
+  ]
+}
