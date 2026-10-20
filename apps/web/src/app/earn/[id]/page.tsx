@@ -1,7 +1,15 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { SiteLink as Link } from '@insightginie/ui';
+import { headers } from 'next/headers';
+import {
+  PUBLIC_EARNING_GUIDE_PATHS,
+  siteIsIndexable,
+  breadcrumbSchema,
+  safeJsonLd,
+} from '@insightginie/seo';
 import { catalog, dateLabel, type EarningMethod } from '../../../lib/opportunities';
+import { earningHubPath } from '../../../lib/discovery-hubs';
 import { CatalogUnavailable } from '../../../components/opportunity-navigation';
 import styles from '../../../components/opportunities.module.css';
 async function method(id: string) {
@@ -19,6 +27,13 @@ export async function generateMetadata({
     title: item?.title || 'Earning method',
     description: item?.description,
     alternates: { canonical: `/earn/${id}/` },
+    robots: {
+      index:
+        Boolean(item) &&
+        siteIsIndexable() &&
+        (PUBLIC_EARNING_GUIDE_PATHS as readonly string[]).includes(`/earn/${id}/`),
+      follow: true,
+    },
   };
 }
 export default async function Method({ params }: { params: Promise<{ id: string }> }) {
@@ -31,11 +46,29 @@ export default async function Method({ params }: { params: Promise<{ id: string 
       </div>
     );
   if (!item) notFound();
+  const nonce = (await headers()).get('x-nonce') ?? undefined;
+  const hubPath = earningHubPath(item.category);
+  const related = data.items
+    .filter((other) => other.id !== item.id && other.category === item.category)
+    .slice(0, 3);
   return (
     <div className={`shell ${styles.page}`}>
+      <script
+        type="application/ld+json"
+        nonce={nonce}
+        dangerouslySetInnerHTML={{
+          __html: safeJsonLd(
+            breadcrumbSchema([
+              { name: 'Ways to earn', path: '/earn/' },
+              { name: item.title, path: `/earn/${id}/` },
+            ]),
+          ),
+        }}
+      />
       <article className={styles.detail}>
         <nav className={styles.breadcrumb} aria-label="Breadcrumb">
-          <Link href="/earn/">Ways to earn</Link> / {item.category}
+          <Link href="/earn/">Ways to earn</Link> /{' '}
+          {hubPath ? <Link href={hubPath}>{item.category}</Link> : item.category}
         </nav>
         <span className={styles.eyebrow}>{item.category} · Method guide</span>
         <h1>{item.title}</h1>
@@ -85,6 +118,18 @@ export default async function Method({ params }: { params: Promise<{ id: string 
           <Link href="/earn/">← More ways to earn</Link> ·{' '}
           <Link href="/opportunities/">Browse remote work and rewards →</Link>
         </p>
+        {related.length > 0 && (
+          <section>
+            <h2>Compare related earning methods</h2>
+            <ul>
+              {related.map((other) => (
+                <li key={other.id}>
+                  <Link href={`/earn/${other.id}/`}>{other.title}</Link> — {other.description}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
       </article>
     </div>
   );

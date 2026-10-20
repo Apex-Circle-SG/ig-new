@@ -111,6 +111,30 @@ export default async function Sources() {
         ) : (
           <p>No scheduled publishing run has been recorded yet.</p>
         )}
+        {automation?.linkedin.evening && (
+          <section>
+            <h3>Evening Money Discovery</h3>
+            <p>
+              {automation.linkedin.evening.enabled
+                ? 'The evening trial is enabled for 21:00 Singapore time.'
+                : 'Evening publishing is disabled.'}{' '}
+              The reviewed queue runs {automation.linkedin.evening.start} through{' '}
+              {automation.linkedin.evening.end}, then pauses for review. Source checks can cause a
+              skipped post.
+            </p>
+            {automation.linkedin.evening.recent.length ? (
+              <ul>
+                {automation.linkedin.evening.recent.map((run) => (
+                  <li key={run.day}>
+                    {run.day}: {run.status}
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p>No evening publication has been recorded yet.</p>
+            )}
+          </section>
+        )}
 
         <h2>How updates work</h2>
         <p>

@@ -3,6 +3,7 @@ import { SiteLink as Link } from '@insightginie/ui';
 import { catalog, type EarningMethod } from '../../lib/opportunities';
 import { OpportunityNavigation, CatalogUnavailable } from '../../components/opportunity-navigation';
 import styles from '../../components/opportunities.module.css';
+import { DiscoveryTopics } from '../../components/discovery-hub';
 export const metadata: Metadata = {
   title: 'Creative ways to earn online: practical methods and first steps',
   description:
@@ -34,6 +35,7 @@ export default async function Earn({
           small first step.
         </p>
       </header>
+      <DiscoveryTopics />
       <aside className={styles.notice}>
         <strong>Methods, not paid assignments.</strong> These guides explain earning routes. They
         are not promises of available tasks, customers, acceptance or income. Programme links are

@@ -132,6 +132,19 @@ export type AutomationStatus = {
   linkedin: {
     enabled: boolean;
     schedule: string;
+    evening?: {
+      enabled: boolean;
+      schedule: string;
+      start: string;
+      end: string;
+      posts: number;
+      recent: {
+        day: string;
+        status: string;
+        finished_at: string | null;
+        error_code: string | null;
+      }[];
+    };
     recent: {
       day: string;
       status: string;

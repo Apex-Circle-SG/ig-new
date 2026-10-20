@@ -1,0 +1,46 @@
+{
+  "verifiedAt": "2026-10-20T05:58:34.175697+00:00",
+  "status": "passed",
+  "buildId": "7nixsOdbxVhzwTM_ZpDzx",
+  "scope": "Opportunity indexing audit, four original search topic pages, 24 exact guide sitemap entries and contextual internal links",
+  "checks": {
+    "unitTests": 414,
+    "operationalTests": 35,
+    "finalBrowserTests": 20,
+    "browserFailures": 0,
+    "lint": "passed",
+    "typecheck": "passed",
+    "candidateBuild": "passed",
+    "contentValidation": "passed",
+    "mobileAndAccessibility": "390px and 1280px, WCAG checks passed",
+    "noJavaScriptNavigation": "passed",
+    "ga4AndAdsenseConsentRegression": "passed",
+    "candidateSitemapUrls": 64,
+    "candidateGuidesInSitemap": 24,
+    "candidateHubsInSitemap": 4,
+    "credentialScan": {
+      "filesScanned": 133,
+      "credentialMatches": 0,
+      "matchedPaths": [],
+      "scope": "Web source, SEO package and candidate public JavaScript; compared privately held configured keys, tokens and secrets without printing values"
+    }
+  },
+  "evidence": [
+    "docs/verification/opportunity-seo-before.json",
+    "docs/verification/opportunity-seo-candidate.json",
+    "artifacts/seo-discovery-playwright-final.json",
+    "docs/verification/opportunity-seo-secret-scan.json"
+  ],
+  "graphify": {
+    "nodes": 594,
+    "edges": 1196,
+    "communities": 36,
+    "warning": "Changed extraction: 53 dangling references, 5 duplicate edges, 9 collapsed endpoint relationships. Structural map only; source and runtime checks determine release correctness."
+  },
+  "limitations": [
+    "No Search Console or GA report access. Google indexing, rankings and traffic changes are not established.",
+    "Feed-only job details retain noindex until permitted complete descriptions and meaningful editorial enrichment are available.",
+    "Per-post attribution/application clicks and off-site outreach assets are follow-up work, not shipped in this release.",
+    "No LinkedIn post or human outreach was sent during this deployment."
+  ]
+}

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { SiteLink as Link } from '@insightginie/ui';
+import { siteIsIndexable } from '@insightginie/seo';
 import { catalog, type Idea } from '../../../lib/opportunities';
 import { CatalogUnavailable } from '../../../components/opportunity-navigation';
 import styles from '../../../components/opportunities.module.css';
@@ -19,6 +20,7 @@ export async function generateMetadata({
     title: idea ? `${idea.title}: a business experiment` : 'Business experiment',
     description: idea?.description,
     alternates: { canonical: `/ideas/${id}/` },
+    robots: { index: Boolean(idea) && siteIsIndexable(), follow: true },
   };
 }
 export default async function IdeaDetail({ params }: { params: Promise<{ id: string }> }) {

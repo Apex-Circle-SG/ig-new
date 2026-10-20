@@ -3,6 +3,7 @@ import {
   PUBLIC_AD_PATHS,
   DYNAMIC_AD_CRAWLER_PATHS,
   PUBLIC_INDEXABLE_PATHS,
+  PUBLIC_EARNING_GUIDE_PATHS,
   isPublicAdvertisingPath,
   isPublicIndexablePath,
   siteIsIndexable,
@@ -74,6 +75,7 @@ describe('production discovery and preview isolation', () => {
     expect(entries.map((entry) => entry.url)).toEqual([
       ...PUBLIC_INDEXABLE_PATHS.map((path) => `https://insightginie.com${path}`),
       ...getPublishedContent().map((record) => `https://insightginie.com${record.path}`),
+      ...PUBLIC_EARNING_GUIDE_PATHS.map((path) => `https://insightginie.com${path}`),
     ]);
     expect(entries.find((entry) => entry.url === 'https://insightginie.com/')).not.toHaveProperty(
       'lastModified',

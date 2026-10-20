@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test';
-import { PUBLIC_INDEXABLE_PATHS } from '@insightginie/seo';
+import { PUBLIC_INDEXABLE_PATHS, PUBLIC_EARNING_GUIDE_PATHS } from '@insightginie/seo';
 import { FINANCE_TOOLS } from '@insightginie/calculators';
 
 test('published pages serve unique metadata, valid schema and working internal links', async ({
@@ -129,7 +129,9 @@ test('sitemap serves only reachable canonical pages and query/private pages stay
   const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
   expect(new Set(urls).size).toBe(urls.length);
   expect(urls.sort()).toEqual(
-    PUBLIC_INDEXABLE_PATHS.map((path) => `https://insightginie.com${path}`).sort(),
+    [...PUBLIC_INDEXABLE_PATHS, ...PUBLIC_EARNING_GUIDE_PATHS]
+      .map((path) => `https://insightginie.com${path}`)
+      .sort(),
   );
   expect(sitemap).not.toMatch(
     /private-tools|tools\/income|connecting-openclaw-to-qq|how-to-get-into-quantitative-trading/,

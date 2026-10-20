@@ -27,8 +27,10 @@ export function safeJsonLd(value: unknown) {
   return JSON.stringify(value).replace(/</g, '\\u003c');
 }
 export { evaluatePageQuality, type PageCandidate } from './quality';
+export { PUBLIC_EARNING_GUIDE_PATHS } from './earning-guides';
 export {
   PUBLIC_INDEXABLE_PATHS,
+  DISCOVERY_HUB_PATHS,
   PUBLIC_AD_PATHS,
   DYNAMIC_AD_CRAWLER_PATHS,
   isOpportunityContentPath,

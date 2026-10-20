@@ -70,3 +70,19 @@ suite because those controls live outside this package.
 Do not add city/occupation permutations until the corresponding data, useful
 comparisons and publication quality review exist. Search Console/Bing verification
 and actual indexation measurements require the relevant account access.
+
+## Opportunity search discovery release — 20 October 2026
+
+The live baseline had 36 sitemap URLs and omitted all 24 original earning-method guides. A paginated catalog audit read 992 active deduplicated remote jobs at the time of collection; 862 stored excerpts were shorter than 500 characters and 270 contained an ellipsis. Counts fluctuate. The catalog stores bounded excerpts rather than verified full job descriptions, so the existing noindex policy for feed-only job details remains in place. This release does not claim Google Jobs eligibility, indexing, ranking improvement or traffic growth. See `docs/verification/opportunity-seo-before.json`.
+
+Four original topic hubs now give readers useful comparisons, practical experiments and matched source records: `/opportunities/remote-contracts/`, `/earn/paid-research/`, `/earn/creative-services/` and `/earn/digital-products/`. They work without JavaScript. Contract records come from the existing live Contract filter; method cards retain provider-status labels and distinguish methods from available assignments. If the catalog fails, original hub guidance remains available with an explicit unavailable state.
+
+The exact allowlist of 24 earning-guide paths now feeds the main sitemap, the existing site sitemap partition, the content index and public route IDs. Arbitrary slugs and private/query routes do not become approved. Guides link to their category hubs and three related methods, and valid guide pages gain breadcrumb data. Missing or failed guide/idea lookups produce noindex metadata. Preview environments remain excluded. New topic routes are explicitly distinguished from dynamic opportunity records so the ad provider does not mistake a hub for a missing job or method. GA4 `G-4HQVZL3586`, AdSense `ca-pub-8735749779872017` and consent controls remain in place.
+
+The source status page also reports the already configured 21:00 Singapore trial separately from morning publishing. No LinkedIn publication is part of this frontend deployment.
+
+Validation includes type checking, lint, unit and operational tests, a separate candidate build, canonical/sitemap/schema checks, server-rendered content, no-JavaScript navigation, mobile fit, accessibility and consent/ad checks. The release receipt records exact counts and build IDs. Run `node scripts/seo/opportunity-audit.mjs --after` after promotion; `SEO_BASE_URL=http://127.0.0.1:3011` can target a candidate. Its metadata observations are not Search Console indexing results.
+
+References: [Google sitemap guidance](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap), [job content requirements](https://developers.google.com/search/docs/appearance/structured-data/job-posting), and [spam policies](https://developers.google.com/search/docs/essentials/spam-policies). The hubs provide original decision guidance rather than mass-producing near-identical filter URLs. Full JobPosting markup should wait for complete permitted descriptions and required verified data. No new search-engine credentials were requested; owner-provided analytics exports remain the basis for performance review.
+
+Next work: consent-compatible per-post visit/application-click measurement, then a transparent observed-catalog data asset and targeted outreach drafts. These are not shipped in this release. Do not treat LinkedIn engagement as evidence of Google ranking changes. External email or community posting is not authorised by this release.

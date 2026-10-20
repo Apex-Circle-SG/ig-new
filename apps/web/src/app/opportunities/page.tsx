@@ -8,6 +8,7 @@ import {
 } from '../../lib/opportunities';
 import { OpportunityNavigation, CatalogUnavailable } from '../../components/opportunity-navigation';
 import styles from '../../components/opportunities.module.css';
+import { DiscoveryTopics } from '../../components/discovery-hub';
 export const metadata: Metadata = {
   title: 'Online opportunities, remote work and ways to earn',
   description:
@@ -122,13 +123,12 @@ export default async function Opportunities({ searchParams }: { searchParams: Pr
           Only roles with a source-listed pay range
         </label>
       </form>
+      <DiscoveryTopics />
       <div className={styles.links}>
         <Link href="/earn/">Creative ways to earn</Link>
-        <Link href="/opportunities/?category=jobs&arrangement=Contract">Remote contracts</Link>
         <Link href="/opportunities/?category=jobs&arrangement=Part-time">
           Remote part-time work
         </Link>
-        <Link href="/earn/?category=Paid%20participation">Paid research & testing</Link>
         <Link href="/platforms/#bounties">Coding & security bounties</Link>
         <Link href="/platforms/#competitions">Competitions & funding</Link>
         <Link href="/ideas/?category=Playful">Funny & unusual ideas</Link>

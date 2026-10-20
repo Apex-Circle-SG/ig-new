@@ -1,6 +1,8 @@
-import { canonical, PUBLIC_INDEXABLE_PATHS } from '@insightginie/seo';
+import { canonical, PUBLIC_INDEXABLE_PATHS, PUBLIC_EARNING_GUIDE_PATHS } from '@insightginie/seo';
 import { FINANCE_TOOLS } from '@insightginie/calculators';
 import { getPublishedContent } from './content';
+import methods from '../../../opportunities/data/methods.json';
+import { discoveryHubs } from './discovery-hubs';
 
 const names: Record<string, string> = {
   '/': 'Home',
@@ -9,6 +11,7 @@ const names: Record<string, string> = {
   '/ideas/': 'Creative business idea lab',
   '/platforms/': 'Earning platforms',
   '/earn/': 'Creative ways to earn online',
+  ...Object.fromEntries(discoveryHubs.map((hub) => [hub.path, hub.title])),
   '/calc/': 'Income calculators',
   '/calc/individual-income-percentile/': 'Individual income percentile',
   '/tools/': 'Finance tools',
@@ -51,7 +54,14 @@ export function getSiteEntries() {
     title: record.title,
     lastModified: record.updatedAt,
   }));
-  return [...pages, ...content];
+  const guides = PUBLIC_EARNING_GUIDE_PATHS.map((path) => ({
+    path,
+    url: canonical(path),
+    title:
+      methods.find((method) => `/earn/${method.id}/` === path)?.title ?? 'Earning method guide',
+    lastModified: undefined,
+  }));
+  return [...pages, ...content, ...guides];
 }
 export function sitemapGroup(path: string) {
   return path.startsWith('/tools/') || path.startsWith('/calc/')
