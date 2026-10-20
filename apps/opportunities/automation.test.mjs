@@ -10,6 +10,7 @@ import {
   decryptState,
   singaporeDay,
   postText,
+  linkedinCommentary,
   postScore,
   choosePost,
 } from './social.mjs';
@@ -372,4 +373,19 @@ test('company marketing alone never qualifies as job content', () => {
     published_at: new Date().toISOString(),
   };
   assert.equal(postScore(item), -1);
+});
+
+
+test('LinkedIn escaping preserves literal text and the early website link after reserved characters', () => {
+  const text = postText({ id: 'jobicy-155904', organization: 'Fresh Prints', title: 'Customer Service Associate', location: 'Philippines', excerpt: "Your role (internally called CX) includes customer support and working with [clients] on service requests." });
+  const url = 'https://insightginie.com/opportunities/jobicy-155904/';
+  assert.ok(text.indexOf(url) < text.indexOf('From the job listing:'));
+  const encoded = linkedinCommentary(text);
+  assert.ok(encoded.includes('role \\(internally called CX\\)'));
+  assert.ok(encoded.includes(url));
+  assert.equal(encoded.replace(/\\([\\|{}@\[\]()<>#*_~])/g, '$1'), text);
+  const reserved = '\\|{}@[]()<>#*_~';
+  assert.equal(linkedinCommentary(reserved), [...reserved].map(c => '\\' + c).join(''));
+  const method = postText({ kind: 'method', id: 'creative', title: 'A guide' });
+  assert.ok(method.indexOf('https://insightginie.com/earn/creative/') < method.indexOf('Potential buyer:'));
 });

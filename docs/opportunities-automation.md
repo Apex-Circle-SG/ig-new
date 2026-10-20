@@ -77,3 +77,7 @@ Graphify is a separate developer architecture tool, not an opportunity generator
 ## Release evidence
 
 [Release checks](verification/opportunities-automation-release.json), [live browser verification](verification/opportunities-automation-live.json), [active Cloudflare schedules](verification/opportunities-automation-schedules.json), [Graphify receipt](verification/opportunities-graphify.json), and [secret scan](verification/opportunities-automation-secrets.json). The first real LinkedIn publication is pending the scheduled run, not claimed by QA.
+
+### LinkedIn link preservation (20 October 2026)
+
+All job and creative-method posts place the InsightGinie destination immediately after the headline and repeat it with the closing call to action. Commentary is escaped using LinkedIn little text rules before transmission, including parentheses and brackets that can otherwise truncate rendered text. The 20 October Fresh Prints post was edited in place; LinkedIn returned HTTP 204. See `docs/verification/linkedin-link-fix.json`. Regression coverage checks reserved characters and early destination placement.

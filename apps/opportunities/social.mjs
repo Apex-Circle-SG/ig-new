@@ -55,12 +55,17 @@ export function postScore(item, time = Date.now()) {
     Math.max(0, 20 - (Number.isFinite(age) ? age : 30))
   );
 }
+// LinkedIn commentary uses little text grammar, not raw plain text.
+export function linkedinCommentary(text) {
+  return String(text).replace(/[\\|{}@\[\]()<>#*_~]/g, '\\$&');
+}
 export function postText(item) {
   const method = item.kind === 'method';
   const url = `https://insightginie.com/${method ? 'earn' : 'opportunities'}/${encodeURIComponent(item.id)}/`;
   if (method)
     return [
       `Who would pay for this? ${clean(item.title)}`,
+      `Explore the guide on InsightGinie:\n${url}`,
       clean(item.description, 300),
       `Potential buyer: ${clean(item.buyer, 220)}`,
       `Your first step: ${clean(item.first_step, 300)}`,
@@ -72,6 +77,7 @@ export function postText(item) {
   const skills = skillsOf(item);
   return [
     `${clean(item.organization)} is hiring: ${clean(item.title)}${hasPay(item) ? ` — ${clean(item.reward)}` : ''}`,
+    `Full details and how to apply on InsightGinie:\n${url}`,
     `From the job listing:\n${excerptOf(item)}`,
     skills.length ? `Skills listed: ${skills.join(' · ')}` : null,
     `🌍 Remote eligibility: ${clean(item.location)}\n🕒 ${clean(item.employment_type || 'Arrangement not specified')}\n💰 ${hasPay(item) ? clean(item.reward) : 'Salary not disclosed'}`,
@@ -241,7 +247,7 @@ export async function publishDaily(env, time = Date.now(), { dryRun = false } = 
       },
       body: JSON.stringify({
         author: value.person_urn,
-        commentary: postText(item),
+        commentary: linkedinCommentary(postText(item)),
         visibility: 'PUBLIC',
         distribution: {
           feedDistribution: 'MAIN_FEED',

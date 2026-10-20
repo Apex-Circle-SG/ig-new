@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-20T05:25:08.665Z",
+  "postId": "urn:li:share:7518113783555362816",
+  "postUrl": "https://www.linkedin.com/feed/update/urn:li:share:7518113783555362816/",
+  "destination": "https://insightginie.com/opportunities/jobicy-155904/",
+  "destinationStatus": 200,
+  "updateStatus": 204,
+  "updated": true,
+  "text": "Fresh Prints is hiring: Customer Service Associate \u2014 $550 \u2013 $700 / monthly \u00b7 source-listed\n\nFull details and how to apply on InsightGinie:\nhttps://insightginie.com/opportunities/jobicy-155904/\n\nFrom the job listing:\nWe work with talented student entrepreneurs and provide the working capital, training, and support they need to build businesses at their schools. The Customer Experience Associate (what we call the role internally) is responsible for providing timely,\u2026\n\nSkills listed: Customer Support & Success\n\n\ud83c\udf0d Remote eligibility: Philippines\n\ud83d\udd52 Full-time\n\ud83d\udcb0 $550 \u2013 $700 / monthly \u00b7 source-listed\n\nSource: Jobicy. Remote does not always mean worldwide; confirm requirements and availability with the employer.\n\nSee the full brief and application link:\nhttps://insightginie.com/opportunities/jobicy-155904/\n\nKnow someone suited to this role? Send it their way.\n\n#RemoteWork #RemoteJobs",
+  "cause": "Unescaped little-format parenthesis matched reported truncation point; escape all reserved characters and put destination below headline.",
+  "tests": {
+    "passed": 19,
+    "failed": 0
+  },
+  "deployment": "insightginie-opportunities deployed; LinkedIn enabled; 09:00 Singapore schedule retained",
+  "livePreview": "Verified destination directly below headline after deployment; preview only, no additional publication",
+  "renderVerification": "LinkedIn accepted edit with HTTP 204; displayed post not independently read back",
+  "graphify": "Refreshed: 552 nodes,1089 edges. Changed extraction retains 8 external dangling references; no missing endpoints or duplicate edges.",
+  "reference": "https://learn.microsoft.com/en-us/linkedin/marketing/community-management/shares/little-text-format"
+}
