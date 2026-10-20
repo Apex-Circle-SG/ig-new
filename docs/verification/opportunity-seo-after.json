@@ -1,0 +1,385 @@
+{
+  "checkedAt": "2026-10-20T05:59:55.833Z",
+  "base": "https://insightginie.com",
+  "scope": "Observed route metadata, catalog snapshot and sitemap coverage. This does not establish Google indexing, search rankings or traffic.",
+  "sitemap": {
+    "status": 200,
+    "urls": 64,
+    "unique": 64
+  },
+  "guides": [
+    {
+      "path": "/earn/website-user-testing/",
+      "status": 200,
+      "title": "Get paid to test websites | InsightGinie",
+      "canonical": "https://insightginie.com/earn/website-user-testing/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/research-interviews/",
+      "status": 200,
+      "title": "Join paid research interviews | InsightGinie",
+      "canonical": "https://insightginie.com/earn/research-interviews/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/academic-studies/",
+      "status": 200,
+      "title": "Participate in academic studies | InsightGinie",
+      "canonical": "https://insightginie.com/earn/academic-studies/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/research-panels/",
+      "status": 200,
+      "title": "Join research discussion panels | InsightGinie",
+      "canonical": "https://insightginie.com/earn/research-panels/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/mock-jury/",
+      "status": 200,
+      "title": "Review mock legal cases | InsightGinie",
+      "canonical": "https://insightginie.com/earn/mock-jury/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/stock-photos/",
+      "status": 200,
+      "title": "License useful stock photographs | InsightGinie",
+      "canonical": "https://insightginie.com/earn/stock-photos/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/stock-footage/",
+      "status": 200,
+      "title": "License short video clips | InsightGinie",
+      "canonical": "https://insightginie.com/earn/stock-footage/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/sell-printables/",
+      "status": 200,
+      "title": "Sell niche printable kits | InsightGinie",
+      "canonical": "https://insightginie.com/earn/sell-printables/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/sell-spreadsheets/",
+      "status": 200,
+      "title": "Sell a specialist spreadsheet | InsightGinie",
+      "canonical": "https://insightginie.com/earn/sell-spreadsheets/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/sell-notion-templates/",
+      "status": 200,
+      "title": "Create focused workspace templates | InsightGinie",
+      "canonical": "https://insightginie.com/earn/sell-notion-templates/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/game-assets/",
+      "status": 200,
+      "title": "Sell original game assets | InsightGinie",
+      "canonical": "https://insightginie.com/earn/game-assets/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/3d-models/",
+      "status": 200,
+      "title": "Sell practical 3D assets | InsightGinie",
+      "canonical": "https://insightginie.com/earn/3d-models/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/custom-pet-portraits/",
+      "status": 200,
+      "title": "Offer custom pet portraits | InsightGinie",
+      "canonical": "https://insightginie.com/earn/custom-pet-portraits/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/wedding-speech-editing/",
+      "status": 200,
+      "title": "Edit wedding speeches | InsightGinie",
+      "canonical": "https://insightginie.com/earn/wedding-speech-editing/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/podcast-clips/",
+      "status": 200,
+      "title": "Turn podcasts into short clips | InsightGinie",
+      "canonical": "https://insightginie.com/earn/podcast-clips/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/presentation-polish/",
+      "status": 200,
+      "title": "Improve business slide decks | InsightGinie",
+      "canonical": "https://insightginie.com/earn/presentation-polish/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/voiceover/",
+      "status": 200,
+      "title": "Record voiceovers | InsightGinie",
+      "canonical": "https://insightginie.com/earn/voiceover/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/audiobook-narration/",
+      "status": 200,
+      "title": "Narrate audiobooks | InsightGinie",
+      "canonical": "https://insightginie.com/earn/audiobook-narration/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/online-tutoring/",
+      "status": 200,
+      "title": "Teach a specific skill online | InsightGinie",
+      "canonical": "https://insightginie.com/earn/online-tutoring/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/paid-open-source/",
+      "status": 200,
+      "title": "Explore funded open-source issues | InsightGinie",
+      "canonical": "https://insightginie.com/earn/paid-open-source/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/security-bounties/",
+      "status": 200,
+      "title": "Participate in authorised security bounties | InsightGinie",
+      "canonical": "https://insightginie.com/earn/security-bounties/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/design-competitions/",
+      "status": 200,
+      "title": "Enter design competitions selectively | InsightGinie",
+      "canonical": "https://insightginie.com/earn/design-competitions/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/self-published-workbooks/",
+      "status": 200,
+      "title": "Publish original workbooks | InsightGinie",
+      "canonical": "https://insightginie.com/earn/self-published-workbooks/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/paid-expert-consulting/",
+      "status": 200,
+      "title": "Offer a narrowly scoped expert session | InsightGinie",
+      "canonical": "https://insightginie.com/earn/paid-expert-consulting/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    }
+  ],
+  "hubs": [
+    {
+      "path": "/opportunities/remote-contracts/",
+      "status": 200,
+      "title": "Remote contract jobs: compare scope, location and pay | InsightGinie",
+      "canonical": "https://insightginie.com/opportunities/remote-contracts/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/paid-research/",
+      "status": 200,
+      "title": "Paid research and website testing: find your first suitable study | InsightGinie",
+      "canonical": "https://insightginie.com/earn/paid-research/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/creative-services/",
+      "status": 200,
+      "title": "Creative freelance services: turn a skill into a clear offer | InsightGinie",
+      "canonical": "https://insightginie.com/earn/creative-services/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/digital-products/",
+      "status": 200,
+      "title": "Digital products to sell: templates, assets and realistic costs | InsightGinie",
+      "canonical": "https://insightginie.com/earn/digital-products/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    }
+  ],
+  "sampledJobs": [
+    {
+      "path": "/opportunities/arbeitnow-remote-senior-product-designer-growth-website-deel-422078/",
+      "status": 200,
+      "title": "Senior Product Designer - Growth/Website | Deel at Hirehire | InsightGinie",
+      "canonical": "https://insightginie.com/opportunities/arbeitnow-remote-senior-product-designer-growth-website-deel-422078/",
+      "robots": [
+        "noindex, follow"
+      ],
+      "excludesIndexing": true
+    },
+    {
+      "path": "/opportunities/arbeitnow-remote-senior-staff-product-designer-ai-deel-425222/",
+      "status": 200,
+      "title": "Senior Staff Product Designer - AI | Deel at Hirehire | InsightGinie",
+      "canonical": "https://insightginie.com/opportunities/arbeitnow-remote-senior-staff-product-designer-ai-deel-425222/",
+      "robots": [
+        "noindex, follow"
+      ],
+      "excludesIndexing": true
+    },
+    {
+      "path": "/opportunities/arbeitnow-remote-staff-product-designer-growth-deel-327661/",
+      "status": 200,
+      "title": "Staff Product Designer - Growth | Deel at Hirehire | InsightGinie",
+      "canonical": "https://insightginie.com/opportunities/arbeitnow-remote-staff-product-designer-growth-deel-327661/",
+      "robots": [
+        "noindex, follow"
+      ],
+      "excludesIndexing": true
+    },
+    {
+      "path": "/opportunities/arbeitnow-remote-ai-native-account-executive-compute-56125/",
+      "status": 200,
+      "title": "AI Native Account Executive, Compute at Fal Ai | InsightGinie",
+      "canonical": "https://insightginie.com/opportunities/arbeitnow-remote-ai-native-account-executive-compute-56125/",
+      "robots": [
+        "noindex, follow"
+      ],
+      "excludesIndexing": true
+    },
+    {
+      "path": "/opportunities/arbeitnow-remote-engineering-manager-search-engine-all-genders-berlin-201029/",
+      "status": 200,
+      "title": "Engineering Manager, Search Engine (all genders) at Distribusion Technologies | InsightGinie",
+      "canonical": "https://insightginie.com/opportunities/arbeitnow-remote-engineering-manager-search-engine-all-genders-berlin-201029/",
+      "robots": [
+        "noindex, follow"
+      ],
+      "excludesIndexing": true
+    }
+  ],
+  "catalog": {
+    "sourceTotalAtStart": 992,
+    "recordsRead": 992,
+    "truncatedExcerpts": 270,
+    "excerptsUnder500Characters": 862
+  },
+  "jobIndexingDecision": "Retain noindex on feed-only details. The catalog stores bounded source excerpts, not verified complete role descriptions. Original search hubs and reviewed earning guides provide the indexable discovery surface. Revisit selected detailed jobs when complete permitted descriptions and original editorial value are available.",
+  "references": [
+    "https://developers.google.com/search/docs/appearance/structured-data/job-posting",
+    "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap"
+  ]
+}

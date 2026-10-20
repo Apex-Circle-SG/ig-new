@@ -42,5 +42,19 @@
     "Feed-only job details retain noindex until permitted complete descriptions and meaningful editorial enrichment are available.",
     "Per-post attribution/application clicks and off-site outreach assets are follow-up work, not shipped in this release.",
     "No LinkedIn post or human outreach was sent during this deployment."
-  ]
+  ],
+  "production": {
+    "verifiedAt": "2026-10-20T06:01:03.648016+00:00",
+    "liveBrowserTests": 6,
+    "liveBrowserFailures": 0,
+    "sitemapUrls": 64,
+    "guidesInSitemap": 24,
+    "hubsInSitemap": 4,
+    "canonicalDiscoveryValidation": "64 pages passed; no search-engine notifications sent",
+    "deploymentReceipt": "docs/verification/opportunity-seo-deployment.json",
+    "afterAudit": "docs/verification/opportunity-seo-after.json",
+    "browserEvidence": "artifacts/seo-discovery-live-playwright.json",
+    "candidateListenerStopped": true,
+    "preexistingOwnerReceiptPreserved": true
+  }
 }

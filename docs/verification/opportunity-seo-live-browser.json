@@ -1,0 +1,65 @@
+{
+  "verifiedAt": "2026-10-20T06:01:03.648016+00:00",
+  "status": "passed",
+  "browserStats": {
+    "startTime": "2026-10-20T05:59:47.237Z",
+    "duration": 22953.82,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "network": "AdSense and Google tag requests were intercepted during browser QA; no ad impressions were intentionally generated.",
+  "routes": [
+    {
+      "path": "/opportunities/remote-contracts/",
+      "status": 200,
+      "title": "Remote contract jobs: compare scope, location and pay | InsightGinie",
+      "canonical": "https://insightginie.com/opportunities/remote-contracts/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/paid-research/",
+      "status": 200,
+      "title": "Paid research and website testing: find your first suitable study | InsightGinie",
+      "canonical": "https://insightginie.com/earn/paid-research/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/creative-services/",
+      "status": 200,
+      "title": "Creative freelance services: turn a skill into a clear offer | InsightGinie",
+      "canonical": "https://insightginie.com/earn/creative-services/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    },
+    {
+      "path": "/earn/digital-products/",
+      "status": 200,
+      "title": "Digital products to sell: templates, assets and realistic costs | InsightGinie",
+      "canonical": "https://insightginie.com/earn/digital-products/",
+      "robots": [
+        "index, follow"
+      ],
+      "excludesIndexing": false,
+      "inSitemap": true
+    }
+  ],
+  "sitemap": {
+    "status": 200,
+    "urls": 64,
+    "unique": 64
+  },
+  "discoveryReceipt": "docs/verification/opportunity-seo-discovery.json"
+}
