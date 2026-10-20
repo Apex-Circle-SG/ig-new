@@ -4,7 +4,8 @@ const config = JSON.parse(
 );
 if (process.argv.includes('--preview')) {
   const secret = (await readFile('/root/.config/insightginie/ingest-secret', 'utf8')).trim();
-  const response = await fetch(config.api_url + '/admin/social-preview', {
+  const slot = process.argv.includes('--evening') ? 'evening' : 'morning';
+  const response = await fetch(config.api_url + `/admin/social-preview?slot=${slot}`, {
     method: 'POST',
     headers: { Authorization: `Bearer ${secret}` },
     signal: AbortSignal.timeout(15000),

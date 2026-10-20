@@ -1,3 +1,5 @@
+import { chooseDiscovery, DISCOVERY_TRIAL } from './discoveries.mjs';
+
 const API_VERSION = '202609';
 const encoder = new TextEncoder();
 const clean = (value, length = 180) =>
@@ -59,9 +61,23 @@ export function postScore(item, time = Date.now()) {
 export function linkedinCommentary(text) {
   return String(text).replace(/[\\|{}@\[\]()<>#*_~]/g, '\\$&');
 }
+export function postDestination(item) {
+  const path = item.kind === 'discovery' || item.kind === 'method' ? 'earn' : 'opportunities';
+  return `https://insightginie.com/${path}/${encodeURIComponent(item.kind === 'discovery' ? item.method_id : item.id)}/`;
+}
 export function postText(item) {
+  if (item.kind === 'discovery')
+    return [
+      clean(item.hook, 220),
+      `The practical guide on InsightGinie:\n${postDestination(item)}`,
+      clean(item.explanation, 600),
+      `Try this: ${clean(item.takeaway, 300)}`,
+      clean(item.caveat, 320),
+      `${item.type === 'calculation' ? 'Illustrative calculation' : 'Source'}: ${clean(item.source_name)}. Reviewed ${clean(item.reviewed_on, 10)}; original reference is in the guide.`,
+      'Evening Money Discovery · #WaysToEarn #FutureOfWork',
+    ].join('\n\n');
   const method = item.kind === 'method';
-  const url = `https://insightginie.com/${method ? 'earn' : 'opportunities'}/${encodeURIComponent(item.id)}/`;
+  const url = postDestination(item);
   if (method)
     return [
       `Who would pay for this? ${clean(item.title)}`,
@@ -196,31 +212,44 @@ export async function choosePost(env, time) {
   };
   return methodDay ? (await method()) || (await job()) : (await job()) || (await method());
 }
-export async function publishDaily(env, time = Date.now(), { dryRun = false } = {}) {
+export async function publishDaily(
+  env,
+  time = Date.now(),
+  { dryRun = false, slot = 'morning' } = {},
+) {
+  if (!['morning', 'evening'].includes(slot)) throw new Error('Invalid posting slot');
+  const table = slot === 'evening' ? 'social_discovery_posts' : 'social_posts';
   const day = singaporeDay(time);
+  if (slot === 'evening' && !dryRun && env.LINKEDIN_EVENING_ENABLED !== 'true')
+    return { status: 'disabled', day };
   if (!dryRun && env.LINKEDIN_ENABLED !== 'true') return { status: 'disabled', day };
-  if (
-    !dryRun &&
-    (await env.DB.prepare('SELECT day FROM social_posts WHERE day=?').bind(day).first())
-  )
+  if (slot === 'evening' && !dryRun && (day < DISCOVERY_TRIAL.start || day > DISCOVERY_TRIAL.end))
+    return { status: 'outside-trial', day };
+  if (!dryRun && (await env.DB.prepare(`SELECT day FROM ${table} WHERE day=?`).bind(day).first()))
     return { status: 'already-recorded', day };
-  const item = await choosePost(env, time);
+  const item = await (slot === 'evening' ? chooseDiscovery(env, time) : choosePost(env, time));
   if (dryRun)
     return { status: item ? 'preview' : 'no-candidate', day, text: item ? postText(item) : null };
   const started = new Date().toISOString();
   const claim = await env.DB.prepare(
-    "INSERT OR IGNORE INTO social_posts(day,opportunity_id,fingerprint,status,started_at) VALUES(?,?,?,'publishing',?)",
+    `INSERT OR IGNORE INTO ${table}(day,opportunity_id,fingerprint,status,started_at) VALUES(?,?,?,'publishing',?)`,
   )
     .bind(
       day,
-      item ? (item.kind === 'method' ? `method-${item.id}` : item.id) : null,
+      item
+        ? item.kind === 'method'
+          ? `method-${item.id}`
+          : item.kind === 'discovery'
+            ? `discovery-${item.id}`
+            : item.id
+        : null,
       item?.fingerprint || null,
       started,
     )
     .run();
   if (!claim.meta.changes) return { status: 'already-recorded', day };
   if (!item) {
-    await env.DB.prepare("UPDATE social_posts SET status='skipped',finished_at=? WHERE day=?")
+    await env.DB.prepare(`UPDATE ${table} SET status='skipped',finished_at=? WHERE day=?`)
       .bind(started, day)
       .run();
     return { status: 'skipped', day };
@@ -229,7 +258,12 @@ export async function publishDaily(env, time = Date.now(), { dryRun = false } = 
   try {
     const value = await credentials(env);
     // Check our own public destination before an external post; never post broken pages.
-    const destination = `https://insightginie.com/${item.kind === 'method' ? 'earn' : 'opportunities'}/${encodeURIComponent(item.id)}/`;
+    const destination = postDestination(item);
+    if (item.kind === 'discovery' && !(await sourceReachable(item.source_url)))
+      throw new Error('destination_source_unavailable');
+    const commentary = linkedinCommentary(postText(item));
+    if (!commentary.includes(destination) || commentary.length > 2900)
+      throw new Error('destination_invalid_commentary');
     const page = await fetch(destination, {
       method: 'HEAD',
       signal: AbortSignal.timeout(10000),
@@ -247,7 +281,7 @@ export async function publishDaily(env, time = Date.now(), { dryRun = false } = 
       },
       body: JSON.stringify({
         author: value.person_urn,
-        commentary: linkedinCommentary(postText(item)),
+        commentary,
         visibility: 'PUBLIC',
         distribution: {
           feedDistribution: 'MAIN_FEED',
@@ -267,7 +301,7 @@ export async function publishDaily(env, time = Date.now(), { dryRun = false } = 
     const postId = response.headers.get('x-restli-id');
     if (!postId) throw new Error('linkedin_post_missing_receipt');
     await env.DB.prepare(
-      "UPDATE social_posts SET status='published',finished_at=?,post_id=? WHERE day=?",
+      `UPDATE ${table} SET status='published',finished_at=?,post_id=? WHERE day=?`,
     )
       .bind(new Date().toISOString(), postId, day)
       .run();
@@ -278,9 +312,27 @@ export async function publishDaily(env, time = Date.now(), { dryRun = false } = 
       : 'request_failed';
     // A timeout/5xx may have published. Never retry it automatically and risk duplicate posts.
     const status = sent ? 'uncertain' : 'failed';
-    await env.DB.prepare('UPDATE social_posts SET status=?,finished_at=?,error_code=? WHERE day=?')
+    await env.DB.prepare(`UPDATE ${table} SET status=?,finished_at=?,error_code=? WHERE day=?`)
       .bind(status, new Date().toISOString(), code, day)
       .run();
     return { status, day, error: code };
   }
+}
+
+async function sourceReachable(url) {
+  let response = await fetch(url, {
+    method: 'HEAD',
+    redirect: 'manual',
+    signal: AbortSignal.timeout(8000),
+  });
+  if ([403, 404, 405, 410].includes(response.status)) {
+    response = await fetch(url, {
+      method: 'GET',
+      headers: { Range: 'bytes=0-1023' },
+      redirect: 'manual',
+      signal: AbortSignal.timeout(8000),
+    });
+    await response.body?.cancel();
+  }
+  return response.status === 200 || response.status === 206;
 }

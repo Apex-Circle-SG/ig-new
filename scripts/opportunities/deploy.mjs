@@ -36,6 +36,10 @@ await query(await readFile(resolve(directory, 'migrations/0001_catalog.sql'), 'u
 const versions = await query('SELECT version FROM schema_migrations');
 if (!versions[0].results.some((row) => row.version === 2))
   await query(await readFile(resolve(directory, 'migrations/0002_automation.sql'), 'utf8'));
+if (!versions[0].results.some((row) => row.version === 3))
+  await query(
+    await readFile(resolve(directory, 'migrations/0003_evening_discoveries.sql'), 'utf8'),
+  );
 const literal = (value) =>
   value == null
     ? 'NULL'
@@ -69,7 +73,9 @@ for (const table of ['sources', 'platforms', 'ideas', 'earning_methods']) {
       `INSERT INTO ${table} (${fields.join(',')}) VALUES ${values.join(',')} ON CONFLICT(id) DO UPDATE SET ${fields
         .filter((field) => field !== 'id')
         .map((field) => `${field}=excluded.${field}`)
-        .join(',')}`,
+        .join(
+          ',',
+        )}${table === 'earning_methods' ? ",last_checked=CASE WHEN json_extract(earning_methods.data,'$.source_url')=json_extract(excluded.data,'$.source_url') THEN earning_methods.last_checked ELSE NULL END,check_status=CASE WHEN json_extract(earning_methods.data,'$.source_url')=json_extract(excluded.data,'$.source_url') THEN earning_methods.check_status ELSE 'not-checked' END,last_http_status=CASE WHEN json_extract(earning_methods.data,'$.source_url')=json_extract(excluded.data,'$.source_url') THEN earning_methods.last_http_status ELSE NULL END" : ''}`,
     );
   }
 }
@@ -120,6 +126,11 @@ form.set(
           { type: 'secret_text', name: 'INGEST_SECRET', text: secret },
           {
             type: 'plain_text',
+            name: 'LINKEDIN_EVENING_ENABLED',
+            text: config.linkedin_evening_enabled === true ? 'true' : 'false',
+          },
+          {
+            type: 'plain_text',
             name: 'LINKEDIN_ENABLED',
             text:
               (process.argv.includes('--enable-linkedin') || config.linkedin_enabled === true) &&
@@ -156,6 +167,7 @@ await api(`/workers/scripts/${config.worker_name}/schedules`, {
     { cron: '*/10 * * * *' },
     { cron: '10 0,6,12,18 * * *' },
     { cron: '0 1 * * *' },
+    { cron: '0 13 * * *' },
   ]),
 });
 console.log(
@@ -164,7 +176,7 @@ console.log(
     worker: config.worker_name,
     url: config.api_url,
     schedule:
-      'Rotating imports every 10 minutes; daily method checks; LinkedIn 09:00 Asia/Singapore',
+      'Rotating imports every 10 minutes; daily method checks; LinkedIn 09:00 and evening trial 21:00 Asia/Singapore',
     linkedinEnabled:
       (process.argv.includes('--enable-linkedin') || config.linkedin_enabled === true) &&
       !process.argv.includes('--disable-linkedin'),

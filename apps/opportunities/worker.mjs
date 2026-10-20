@@ -1,6 +1,7 @@
 import { FEEDS, normalize, searchQuery, publicOpportunity } from './catalog.mjs';
 import { FEED_CONFIG } from './feed-config.mjs';
 import { publishDaily } from './social.mjs';
+import { DISCOVERY_TRIAL } from './discoveries.mjs';
 
 function json(data, status = 200, cache = true) {
   return Response.json(data, {
@@ -165,7 +166,10 @@ const worker = {
       if (url.pathname === '/admin/social-preview' && request.method === 'POST') {
         if (!(await allowed(request, env.INGEST_SECRET)))
           return json({ error: 'Unauthorized' }, 401, false);
-        return json(await publishDaily(env, Date.now(), { dryRun: true }), 200, false);
+        const slot = url.searchParams.get('slot') || 'morning';
+        if (!['morning', 'evening'].includes(slot))
+          return json({ error: 'Invalid slot' }, 400, false);
+        return json(await publishDaily(env, Date.now(), { dryRun: true, slot }), 200, false);
       }
       if (url.pathname === '/admin/ingest' && request.method === 'POST') {
         if (!(await allowed(request, env.INGEST_SECRET)))
@@ -266,6 +270,9 @@ const worker = {
         const posts = await env.DB.prepare(
           'SELECT day,status,finished_at,error_code FROM social_posts ORDER BY day DESC LIMIT 7',
         ).all();
+        const discoveries = await env.DB.prepare(
+          'SELECT day,status,finished_at,error_code FROM social_discovery_posts ORDER BY day DESC LIMIT 7',
+        ).all();
         return json({
           ingestion:
             'Every 10 minutes, one source and rotating batch; every source visited within two hours',
@@ -274,6 +281,11 @@ const worker = {
             enabled: env.LINKEDIN_ENABLED === 'true',
             schedule: 'Daily 09:00 Asia/Singapore',
             recent: posts.results,
+            evening: {
+              ...DISCOVERY_TRIAL,
+              enabled: env.LINKEDIN_ENABLED === 'true' && env.LINKEDIN_EVENING_ENABLED === 'true',
+              recent: discoveries.results,
+            },
           },
         });
       }
@@ -295,6 +307,8 @@ const worker = {
   },
   async scheduled(event, env) {
     if (event.cron === '0 1 * * *') return publishDaily(env, event.scheduledTime);
+    if (event.cron === '0 13 * * *')
+      return publishDaily(env, event.scheduledTime, { slot: 'evening' });
     if (event.cron === '10 0,6,12,18 * * *') {
       await checkMethods(env, event.scheduledTime);
       await cleanup(env);

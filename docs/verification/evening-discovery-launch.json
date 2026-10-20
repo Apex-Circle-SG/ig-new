@@ -1,0 +1,203 @@
+{
+  "verifiedAt": "2026-10-20T05:39:14.007Z",
+  "status": "passed",
+  "trial": {
+    "start": "2026-10-20",
+    "end": "2026-11-02",
+    "schedule": "Daily 21:00 Asia/Singapore",
+    "posts": 14,
+    "enabled": true,
+    "recent": []
+  },
+  "schedules": [
+    {
+      "cron": "0 1 * * *",
+      "created_on": "2026-10-19T04:05:29.283578Z",
+      "modified_on": "2026-10-19T04:05:29.283578Z"
+    },
+    {
+      "cron": "0 13 * * *",
+      "created_on": "2026-10-20T05:34:14.57616Z",
+      "modified_on": "2026-10-20T05:34:14.57616Z"
+    },
+    {
+      "cron": "*/10 * * * *",
+      "created_on": "2026-10-19T04:05:29.283578Z",
+      "modified_on": "2026-10-19T04:05:29.283578Z"
+    },
+    {
+      "cron": "10 0,6,12,18 * * *",
+      "created_on": "2026-10-19T04:05:29.283578Z",
+      "modified_on": "2026-10-19T04:05:29.283578Z"
+    }
+  ],
+  "morningLedger": [
+    {
+      "day": "2026-10-20",
+      "status": "published",
+      "post_id": "urn:li:share:7518113783555362816"
+    },
+    {
+      "day": "2026-10-19",
+      "status": "published",
+      "post_id": "urn:li:share:7517820355353370625"
+    }
+  ],
+  "eveningLedger": [],
+  "preview": {
+    "status": "preview",
+    "day": "2026-10-20",
+    "text": "You can get paid for getting confused by a website.\n\nThe practical guide on InsightGinie:\nhttps://insightginie.com/earn/website-user-testing/\n\nIn recorded UserTesting sessions, eligible participants try tasks and say what they are thinking. The useful output is feedback about the experience, rather than a polished performance.\n\nTry this: Practise explaining one confusing checkout screen aloud, without exposing personal information.\n\nYou must qualify for individual tests. Invitations and earnings are not guaranteed.\n\nSource: UserTesting participant guide. Reviewed 2026-10-20; original reference is in the guide.\n\nEvening Money Discovery · #WaysToEarn #FutureOfWork"
+  },
+  "checks": [
+    {
+      "day": "2026-10-20",
+      "topic": "think-out-loud",
+      "destination": "https://insightginie.com/earn/website-user-testing/",
+      "source": "https://www.usertesting.com/get-paid-to-test",
+      "sourceStatus": "reachable",
+      "pageStatus": 200,
+      "text": "You can get paid for getting confused by a website.\n\nThe practical guide on InsightGinie:\nhttps://insightginie.com/earn/website-user-testing/\n\nIn recorded UserTesting sessions, eligible participants try tasks and say what they are thinking. The useful output is feedback about the experience, rather than a polished performance.\n\nTry this: Practise explaining one confusing checkout screen aloud, without exposing personal information.\n\nYou must qualify for individual tests. Invitations and earnings are not guaranteed.\n\nSource: UserTesting participant guide. Reviewed 2026-10-20; original reference is in the guide.\n\nEvening Money Discovery · #WaysToEarn #FutureOfWork"
+    },
+    {
+      "day": "2026-10-21",
+      "topic": "mock-jury",
+      "destination": "https://insightginie.com/earn/mock-jury/",
+      "source": "https://www.onlineverdict.com/jurors/",
+      "sourceStatus": "reachable",
+      "pageStatus": 200,
+      "text": "A paid online task can involve reviewing a legal case before a real trial.\n\nThe practical guide on InsightGinie:\nhttps://insightginie.com/earn/mock-jury/\n\nOnlineVerdict recruits eligible people to review case material and give feedback. Its programme includes online case reviews as well as scheduled virtual and in-person mock trials.\n\nTry this: Check the location and juror eligibility requirements before joining; distinguish a self-paced review from a scheduled session.\n\nThis is research participation, not appointment to a court jury. Selection depends on the case and participant location; this is not a worldwide offer.\n\nSource: OnlineVerdict juror FAQ. Reviewed 2026-10-20; original reference is in the guide.\n\nEvening Money Discovery · #WaysToEarn #FutureOfWork"
+    },
+    {
+      "day": "2026-10-22",
+      "topic": "template-not-app",
+      "destination": "https://insightginie.com/earn/sell-notion-templates/",
+      "source": "https://www.notion.com/help/selling-on-marketplace",
+      "sourceStatus": "reachable",
+      "pageStatus": 200,
+      "text": "Your next digital product could be a workflow, without building an app.\n\nThe practical guide on InsightGinie:\nhttps://insightginie.com/earn/sell-notion-templates/\n\nNotion lets creators offer paid templates through its Marketplace, subject to review and payment eligibility. A focused workflow can be packaged as a reusable template.\n\nTry this: Prototype a client-handover checklist for one kind of freelancer and test whether another person can use it unaided.\n\nThe example is a business experiment, not evidence of demand. Seller approval, fees, support and refunds still matter.\n\nSource: Notion Marketplace seller documentation. Reviewed 2026-10-20; original reference is in the guide.\n\nEvening Money Discovery · #WaysToEarn #FutureOfWork"
+    },
+    {
+      "day": "2026-10-23",
+      "topic": "spreadsheet-break-even",
+      "destination": "https://insightginie.com/earn/sell-spreadsheets/",
+      "source": "https://gumroad.com/",
+      "sourceStatus": "reachable",
+      "pageStatus": 200,
+      "text": "A $10 spreadsheet needs more than 20 sales to repay $200 of your time.\n\nThe practical guide on InsightGinie:\nhttps://insightginie.com/earn/sell-spreadsheets/\n\nIllustrative maths: assume 10 hours of work valued at $20 per hour, a $10 selling price and hypothetical fees of 10%. Each sale leaves $9 before tax and other costs. Twenty-two sales leave $198; twenty-three leave $207.\n\nTry this: Calculate your own break-even sales before spending a weekend building a digital product.\n\nThese are assumptions, not a platform fee quote or an earnings forecast. Refunds, support and other costs would increase the target.\n\nIllustrative calculation: InsightGinie original worked example; Gumroad is one possible selling platform. Reviewed 2026-10-20; original reference is in the guide.\n\nEvening Money Discovery · #WaysToEarn #FutureOfWork"
+    },
+    {
+      "day": "2026-10-24",
+      "topic": "license-not-followers",
+      "destination": "https://insightginie.com/earn/stock-photos/",
+      "source": "https://submit.shutterstock.com/",
+      "sourceStatus": "reachable",
+      "pageStatus": 200,
+      "text": "Photography has a route to revenue that does not start with growing followers.\n\nThe practical guide on InsightGinie:\nhttps://insightginie.com/earn/stock-photos/\n\nShutterstock accepts contributor photos and other creative work for licensing to customers. This is a marketplace route, where the asset and its suitability matter to a potential buyer.\n\nTry this: Explore a small original photo collection around a specific business use, such as unbranded home-office details.\n\nThis is an experiment, not a claim of proven demand. Rights, releases, review standards and competition apply; uploads do not guarantee sales.\n\nSource: Shutterstock contributor programme. Reviewed 2026-10-20; original reference is in the guide.\n\nEvening Money Discovery · #WaysToEarn #FutureOfWork"
+    },
+    {
+      "day": "2026-10-25",
+      "topic": "game-without-game",
+      "destination": "https://insightginie.com/earn/game-assets/",
+      "source": "https://itch.io/docs/creators/getting-started",
+      "sourceStatus": "reachable",
+      "pageStatus": 200,
+      "text": "You can sell something for a game without making the whole game.\n\nThe practical guide on InsightGinie:\nhttps://insightginie.com/earn/game-assets/\n\nitch.io supports project pages for assets, soundtracks, comics and other downloadable work alongside games. A creator can package a small original asset collection rather than a complete playable title.\n\nTry this: Build a consistent set of interface sounds or icons and include clear usage and licence instructions.\n\nThis is a product experiment. Use work you have rights to distribute; listing an asset pack does not guarantee buyers.\n\nSource: itch.io creator documentation. Reviewed 2026-10-20; original reference is in the guide.\n\nEvening Money Discovery · #WaysToEarn #FutureOfWork"
+    },
+    {
+      "day": "2026-10-26",
+      "topic": "research-games",
+      "destination": "https://insightginie.com/earn/academic-studies/",
+      "source": "https://www.prolific.com/participants",
+      "sourceStatus": "reachable",
+      "pageStatus": 200,
+      "text": "Some paid research tasks look more like decision-making games than surveys.\n\nThe practical guide on InsightGinie:\nhttps://insightginie.com/earn/academic-studies/\n\nProlific describes participant tasks including decision-making games, questionnaires and AI evaluation. Researchers use different activities to study behaviour and improve products.\n\nTry this: Check participant eligibility and give an accurate profile so studies can match your background.\n\nProlific uses a waitlist and verification. Tasks depend on study needs; this is occasional participation, not a guaranteed job.\n\nSource: Prolific participant information. Reviewed 2026-10-20; original reference is in the guide.\n\nEvening Money Discovery · #WaysToEarn #FutureOfWork"
+    },
+    {
+      "day": "2026-10-27",
+      "topic": "tutor-trial-commission",
+      "destination": "https://insightginie.com/earn/online-tutoring/",
+      "source": "https://preply.com/en/teach",
+      "sourceStatus": "reachable",
+      "pageStatus": 200,
+      "text": "A paid trial lesson can leave the tutor with no lesson revenue.\n\nThe practical guide on InsightGinie:\nhttps://insightginie.com/earn/online-tutoring/\n\nPreply currently states that its commission on a trial lesson with a new student is 100%. Later lessons have a different commission structure. The lesson price a student sees is therefore not the same as tutor take-home revenue.\n\nTry this: Before setting a tutoring rate, account for trial lessons, preparation time and the current commission schedule.\n\nThis describes one platform’s published model, not all tutoring. Terms can change. Profile approval and student bookings are not guaranteed.\n\nSource: Preply tutor FAQ and commission information. Reviewed 2026-10-20; original reference is in the guide.\n\nEvening Money Discovery · #WaysToEarn #FutureOfWork"
+    },
+    {
+      "day": "2026-10-28",
+      "topic": "short-clip-product",
+      "destination": "https://insightginie.com/earn/stock-footage/",
+      "source": "https://contributor.pond5.com/",
+      "sourceStatus": "reachable",
+      "pageStatus": 200,
+      "text": "A short clip can be a product rather than a social-media post.\n\nThe practical guide on InsightGinie:\nhttps://insightginie.com/earn/stock-footage/\n\nPond5 gives video contributors a route to upload work, add searchable keywords and earn from sales. A clip can be offered as an asset for someone else's production.\n\nTry this: Try a small original collection of clean establishing shots with accurate descriptions and clear rights.\n\nThis is a creative experiment, not guaranteed demand. Releases, technical standards, rights and contributor terms affect what you can sell.\n\nSource: Pond5 contributor portal. Reviewed 2026-10-20; original reference is in the guide.\n\nEvening Money Discovery · #WaysToEarn #FutureOfWork"
+    },
+    {
+      "day": "2026-10-29",
+      "topic": "freelance-hourly-trap",
+      "destination": "https://insightginie.com/earn/presentation-polish/",
+      "source": "https://freelancersunion.org/resources/",
+      "sourceStatus": "reachable",
+      "pageStatus": 200,
+      "text": "A $500 freelance project can turn into $20 an hour before tax.\n\nThe practical guide on InsightGinie:\nhttps://insightginie.com/earn/presentation-polish/\n\nIllustrative example: a client pays $500, you spend $100 on project costs, and the job takes 20 hours including calls, revisions and admin. The $400 left divided by 20 is $20 per hour before tax.\n\nTry this: Quote a slide-deck cleanup with a fixed slide count and revision limit, then track every hour.\n\nThese are hypothetical figures, not typical rates. If extra fees apply or revisions expand, the effective hourly return falls further.\n\nIllustrative calculation: InsightGinie original worked example; Freelancers Union resources. Reviewed 2026-10-20; original reference is in the guide.\n\nEvening Money Discovery · #WaysToEarn #FutureOfWork"
+    },
+    {
+      "day": "2026-10-30",
+      "topic": "experience-as-research",
+      "destination": "https://insightginie.com/earn/research-interviews/",
+      "source": "https://www.respondent.io/become-a-participant",
+      "sourceStatus": "reachable",
+      "pageStatus": 200,
+      "text": "Your experience using a work tool can be useful to a paid researcher.\n\nThe practical guide on InsightGinie:\nhttps://insightginie.com/earn/research-interviews/\n\nRespondent matches participants with research based on background, profession and interests. Some studies seek professional experience; others seek consumer perspectives. A specialist does not fit every study.\n\nTry this: List tools you actually use and apply only to studies whose requirements you genuinely meet.\n\nScreening is not a promise of selection or payment. Do not disclose employer secrets or customer data; check each study's terms.\n\nSource: Respondent participant information. Reviewed 2026-10-20; original reference is in the guide.\n\nEvening Money Discovery · #WaysToEarn #FutureOfWork"
+    },
+    {
+      "day": "2026-10-31",
+      "topic": "finished-hour",
+      "destination": "https://insightginie.com/earn/audiobook-narration/",
+      "source": "https://help.acx.com/s/article/producing-and-recording-your-audiobook",
+      "sourceStatus": "reachable",
+      "pageStatus": 200,
+      "text": "One paid audiobook hour can involve several hours of actual work.\n\nThe practical guide on InsightGinie:\nhttps://insightginie.com/earn/audiobook-narration/\n\nACX explains that finished audio includes recording, editing and quality checks. Its beginner guidance estimates roughly five to seven working hours for an hour of completed narration.\n\nTry this: Record and fully edit a short sample, then measure total working time before judging a per-finished-hour offer.\n\nThe estimate varies by experience and project. Check country eligibility, audio requirements and payment terms; auditions do not guarantee work.\n\nSource: ACX audiobook production guidance. Reviewed 2026-10-20; original reference is in the guide.\n\nEvening Money Discovery · #WaysToEarn #FutureOfWork"
+    },
+    {
+      "day": "2026-11-01",
+      "topic": "book-without-stock",
+      "destination": "https://insightginie.com/earn/self-published-workbooks/",
+      "source": "https://kdp.amazon.com/en_US/help/topic/G201834340",
+      "sourceStatus": "reachable",
+      "pageStatus": 200,
+      "text": "You can publish a paperback without ordering a garage full of copies.\n\nThe practical guide on InsightGinie:\nhttps://insightginie.com/earn/self-published-workbooks/\n\nAmazon KDP prints paperbacks on demand and deducts printing costs from royalties. Page count, ink and marketplace affect those costs.\n\nTry this: For an original workbook idea, estimate printing costs and review the proof before deciding whether the price makes sense.\n\nNo bulk inventory does not mean no work or no costs. Quality, rights, discoverability and demand still matter; publication does not guarantee sales.\n\nSource: Amazon KDP paperback printing guidance. Reviewed 2026-10-20; original reference is in the guide.\n\nEvening Money Discovery · #WaysToEarn #FutureOfWork"
+    },
+    {
+      "day": "2026-11-02",
+      "topic": "contest-or-project",
+      "destination": "https://insightginie.com/earn/design-competitions/",
+      "source": "https://99designs.com.sg/designers",
+      "sourceStatus": "reachable",
+      "pageStatus": 200,
+      "text": "The same design platform can offer two very different ways to pursue paid work.\n\nThe practical guide on InsightGinie:\nhttps://insightginie.com/earn/design-competitions/\n\n99designs offers both one-to-one client projects and design contests. A contest entry competes for selection, while a direct project begins with a specific client agreement.\n\nTry this: Decide how much unpaid preparation you can afford before entering a contest or pitching a project.\n\nContest entry is not guaranteed paid work. Check prize, ownership and project terms; never treat all open contests as available income.\n\nSource: 99designs designer programme. Reviewed 2026-10-20; original reference is in the guide.\n\nEvening Money Discovery · #WaysToEarn #FutureOfWork"
+    }
+  ],
+  "tests": {
+    "passed": 26,
+    "failed": 0
+  },
+  "limitations": [
+    "No extra LinkedIn post was published during verification. First evening publication is pending its cron.",
+    "Fourteen reviewed posts run 20 October through 2 November 2026, then pause pending review and replenishment.",
+    "Source reachability is checked daily and before publishing; it does not re-verify every factual claim.",
+    "No autonomous factual research or paid generative model is configured. New reviewed items require an editorial update.",
+    "GA4 consent remains unchanged. Per-post attribution and application-click measurement are separate follow-up work; analytics review uses owner exports."
+  ],
+  "graphify": {
+    "nodes": 571,
+    "edges": 1117,
+    "communities": 40,
+    "scope": "Structural graph; not runtime proof",
+    "warning": "Latest changed-file extraction has 28 dangling external references; no missing endpoints or collapsed edges in that subset. Existing merged graph relationships may still be incomplete."
+  },
+  "lint": "Passed on modified JavaScript files",
+  "credentialScan": {
+    "filesScanned": 12,
+    "linkedinCredentialMatches": 0
+  }
+}

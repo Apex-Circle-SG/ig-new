@@ -8,7 +8,8 @@ The opportunities Worker and Cloudflare D1 run independently of the frontend ser
 | -------------------- | -------------------------- | ------------------------------------------------------------------------ |
 | `*/10 * * * *`       | Every ten minutes          | One fixed source, with a persistent rotating batch of at most 25 records |
 | `10 0,6,12,18 * * *` | 08:10, 14:10, 20:10, 02:10 | One quarter of earning-method links and catalog housekeeping             |
-| `0 1 * * *`          | 09:00 daily                | One personal-profile LinkedIn post, or a recorded skip                   |
+| `0 1 * * *`          | 09:00 daily                | One personal-profile LinkedIn opportunity post, or a recorded skip       |
+| `0 13 * * *`         | 21:00 daily                | Evening Money Discovery trial, 20 October–2 November 2026                |
 
 Eleven live adapters cover ten job sources and one curated bounty programme: Jobicy, Arbeitnow, Remote OK, GitLab, Canonical, Wikimedia Foundation, Zapier, Docker, Buffer, Linear and Tenstorrent's GitHub bounty programme. The job adapters require a remote flag or explicit remote/home-based location. Hybrid and onsite records are excluded. Country limits remain intact. Full-time, part-time, contract, freelance and temporary arrangements are available as filters when sources supply them.
 
@@ -54,6 +55,7 @@ The detail pages add practical eligibility, commitment, compensation and applica
 ```sh
 node scripts/opportunities/automation.mjs
 node scripts/opportunities/automation.mjs --preview
+node scripts/opportunities/automation.mjs --preview --evening
 node scripts/opportunities/verify.mjs
 node --test apps/opportunities/*.test.mjs
 ```
@@ -81,3 +83,25 @@ Graphify is a separate developer architecture tool, not an opportunity generator
 ### LinkedIn link preservation (20 October 2026)
 
 All job and creative-method posts place the InsightGinie destination immediately after the headline and repeat it with the closing call to action. Commentary is escaped using LinkedIn little text rules before transmission, including parentheses and brackets that can otherwise truncate rendered text. The 20 October Fresh Prints post was edited in place; LinkedIn returned HTTP 204. See `docs/verification/linkedin-link-fix.json`. Regression coverage checks reserved characters and early destination placement.
+
+### Evening Money Discovery trial (20 October–2 November 2026)
+
+Fourteen original, reviewed posts are queued in `apps/opportunities/data/discoveries.json`. The matching fourteen existing method guides now include the explanation, a practical step and limitations; the original reference is linked on each guide. The post destination appears immediately below the hook. Subjects cover website testing, mock juries, Notion templates, digital-product break-even maths, photography licensing, game assets, research games, tutoring commissions, footage, freelance hourly returns, interviews, audiobook production, print-on-demand and design projects versus contests. Calculations use explicit hypothetical assumptions rather than typical earnings claims.
+
+The queue is editorially researched, not generated from unchecked daily model output. Original provider documentation was reviewed on 20 October. Direct source and destination links must respond successfully before an evening publication. A method must also have a successful source check within two days, and its reference must still match the reviewed queue. A changed, blocked, expired or unavailable source can cause a skipped evening; there is no catch-up burst. Reachability does not establish factual accuracy or available paid work. Several sources initially returned redirects or blocked automated requests; the final queue uses successfully checked references instead. The full queue and live checks are in [the launch receipt](verification/evening-discovery-launch.json).
+
+`social_posts` remains the morning ledger, and `social_discovery_posts` independently claims each evening. Both reuse the existing encryption, token refresh, text escaping, URL validation and ambiguous-publication protections. Morning activity cannot suppress an evening post. `linkedin_evening_enabled` in `cloudflare.json` can disable just the evening slot; `linkedin_enabled` disables both. After 2 November, evening calls return `outside-trial` and publish nothing until reviewed content and dates are deliberately updated. This trial does not automatically renew or research its own replacement queue.
+
+The read-only `/admin/social-preview?slot=evening` previews today's eligible evening item; it never posts. `/v1/automation` includes separate evening schedule, trial dates, enabled state and recent outcomes. Existing website status panels still describe morning publishing; consult the API or operating script for the evening status. Verify with `node scripts/opportunities/verify-evening.mjs` after sourcing the protected Cloudflare environment. That script reads Cloudflare schedules, D1 ledgers, preview and live guide content; it never calls LinkedIn publishing.
+
+### Next SEO work proposed after the evening launch
+
+These are recommendations, not changes shipped in this release. Analytics access remains export-based as agreed. LinkedIn distribution can bring visitors, but engagement alone is not proof of improved Google rankings.
+
+1. **Indexing audit first.** The opportunity detail metadata currently applies `robots: { index: false, follow: true }` to every role (`apps/web/src/app/opportunities/[id]/page.tsx`). Keep thin syndicated listings excluded; enrich a selected set with useful original context and verify eligibility before making them indexable. Audit sitemap coverage for original earning guides and ideas. Google recommends accurate job data, visible matching content, and removing or expiring closed job markup: https://developers.google.com/search/docs/appearance/structured-data/job-posting . Do not blindly add JobPosting markup to every short feed excerpt.
+2. **Build useful search landing pages.** Create substantive hubs for remote work by eligibility, paid research, creative services and digital products, with real current results, clear limitations and useful internal links. Avoid a mass of near-identical filter pages. Match titles and descriptions to the page's actual purpose: https://developers.google.com/search/docs/appearance/title-link .
+3. **Give guides original value.** Add worked costs, decision checklists, comparisons and visible review/source information. Connect each guide to relevant live opportunities and tools. Audit mobile speed, canonical URLs, broken links and sitemap freshness with appropriate crawl and performance checks. Use exported Search Console queries to prioritise pages with impressions but weak clicks.
+4. **Measure the traffic journey.** Add consent-compatible attribution for each LinkedIn post and outbound provider/application clicks without conflicting with the current query-string exclusions. This is analytics work, not a ranking factor; without it, a two-week comparison is limited to exported channel/landing-page results and owner-provided LinkedIn figures.
+5. **Off-site assets and outreach preparation.** Produce a transparent snapshot of observed remote-job geography, disclosed pay and contract types, explaining feed coverage, missing data and collection dates. Do not describe it as a census of the whole job market. Create an embeddable useful widget or checklist and prepare targeted pitches for career newsletters, universities and relevant communities. I can research contacts and draft submissions; sending outreach needs explicit instruction. Avoid automated link dropping, paid ranking links or mass directory submissions: https://developers.google.com/search/docs/essentials/spam-policies#link-spam .
+
+Suggested order: indexing audit and guide sitemap coverage, then substantive search hubs and journey measurement, then a useful data asset for off-site promotion. No new Google credentials are required for code audits or these content improvements; Search Console exports improve prioritisation.

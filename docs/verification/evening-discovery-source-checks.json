@@ -1,0 +1,118 @@
+{
+  "checkedAt": "2026-10-20T05:39:14.007Z",
+  "scope": "Final production checks from Worker link-status records and rendered guide pages; all fourteen passed",
+  "checks": [
+    {
+      "id": "think-out-loud",
+      "sourceUrl": "https://www.usertesting.com/get-paid-to-test",
+      "workerSourceStatus": "reachable",
+      "destination": "https://insightginie.com/earn/website-user-testing/",
+      "destinationStatus": 200,
+      "guideContentPresent": true
+    },
+    {
+      "id": "mock-jury",
+      "sourceUrl": "https://www.onlineverdict.com/jurors/",
+      "workerSourceStatus": "reachable",
+      "destination": "https://insightginie.com/earn/mock-jury/",
+      "destinationStatus": 200,
+      "guideContentPresent": true
+    },
+    {
+      "id": "template-not-app",
+      "sourceUrl": "https://www.notion.com/help/selling-on-marketplace",
+      "workerSourceStatus": "reachable",
+      "destination": "https://insightginie.com/earn/sell-notion-templates/",
+      "destinationStatus": 200,
+      "guideContentPresent": true
+    },
+    {
+      "id": "spreadsheet-break-even",
+      "sourceUrl": "https://gumroad.com/",
+      "workerSourceStatus": "reachable",
+      "destination": "https://insightginie.com/earn/sell-spreadsheets/",
+      "destinationStatus": 200,
+      "guideContentPresent": true
+    },
+    {
+      "id": "license-not-followers",
+      "sourceUrl": "https://submit.shutterstock.com/",
+      "workerSourceStatus": "reachable",
+      "destination": "https://insightginie.com/earn/stock-photos/",
+      "destinationStatus": 200,
+      "guideContentPresent": true
+    },
+    {
+      "id": "game-without-game",
+      "sourceUrl": "https://itch.io/docs/creators/getting-started",
+      "workerSourceStatus": "reachable",
+      "destination": "https://insightginie.com/earn/game-assets/",
+      "destinationStatus": 200,
+      "guideContentPresent": true
+    },
+    {
+      "id": "research-games",
+      "sourceUrl": "https://www.prolific.com/participants",
+      "workerSourceStatus": "reachable",
+      "destination": "https://insightginie.com/earn/academic-studies/",
+      "destinationStatus": 200,
+      "guideContentPresent": true
+    },
+    {
+      "id": "tutor-trial-commission",
+      "sourceUrl": "https://preply.com/en/teach",
+      "workerSourceStatus": "reachable",
+      "destination": "https://insightginie.com/earn/online-tutoring/",
+      "destinationStatus": 200,
+      "guideContentPresent": true
+    },
+    {
+      "id": "short-clip-product",
+      "sourceUrl": "https://contributor.pond5.com/",
+      "workerSourceStatus": "reachable",
+      "destination": "https://insightginie.com/earn/stock-footage/",
+      "destinationStatus": 200,
+      "guideContentPresent": true
+    },
+    {
+      "id": "freelance-hourly-trap",
+      "sourceUrl": "https://freelancersunion.org/resources/",
+      "workerSourceStatus": "reachable",
+      "destination": "https://insightginie.com/earn/presentation-polish/",
+      "destinationStatus": 200,
+      "guideContentPresent": true
+    },
+    {
+      "id": "experience-as-research",
+      "sourceUrl": "https://www.respondent.io/become-a-participant",
+      "workerSourceStatus": "reachable",
+      "destination": "https://insightginie.com/earn/research-interviews/",
+      "destinationStatus": 200,
+      "guideContentPresent": true
+    },
+    {
+      "id": "finished-hour",
+      "sourceUrl": "https://help.acx.com/s/article/producing-and-recording-your-audiobook",
+      "workerSourceStatus": "reachable",
+      "destination": "https://insightginie.com/earn/audiobook-narration/",
+      "destinationStatus": 200,
+      "guideContentPresent": true
+    },
+    {
+      "id": "book-without-stock",
+      "sourceUrl": "https://kdp.amazon.com/en_US/help/topic/G201834340",
+      "workerSourceStatus": "reachable",
+      "destination": "https://insightginie.com/earn/self-published-workbooks/",
+      "destinationStatus": 200,
+      "guideContentPresent": true
+    },
+    {
+      "id": "contest-or-project",
+      "sourceUrl": "https://99designs.com.sg/designers",
+      "workerSourceStatus": "reachable",
+      "destination": "https://insightginie.com/earn/design-competitions/",
+      "destinationStatus": 200,
+      "guideContentPresent": true
+    }
+  ]
+}
