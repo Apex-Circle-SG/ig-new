@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-23T12:34:50.640Z",
+  "baseURL": "https://insightginie.com",
+  "stats": {
+    "startTime": "2026-10-23T12:33:18.340Z",
+    "duration": 14671.489000000001,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "checks": [
+    "Earning homepage, mobile and desktop accessibility",
+    "No-JavaScript navigation",
+    "Generated PNGs and invalid-record rejection",
+    "GA4 consent and owner measurement ID",
+    "Calculator input and frame isolation"
+  ],
+  "advertisingScriptsMocked": true
+}

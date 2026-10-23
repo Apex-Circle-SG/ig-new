@@ -1,0 +1,60 @@
+{
+  "checkedAt": "2026-10-23T12:34:50.579Z",
+  "worker": "insightginie-opportunities",
+  "migrationVersion": 4,
+  "existingPostingRecords": 8,
+  "existingLedgerPreserved": true,
+  "ledgerSha256": "5634b3a5d0272b4e1a940de770b675db131aa3ab2d170a3b2ddf5bd780833437",
+  "previewsReadOnly": true,
+  "schedules": {
+    "schedules": [
+      {
+        "cron": "0 1 * * *",
+        "created_on": "2026-10-19T04:05:29.283578Z",
+        "modified_on": "2026-10-19T04:05:29.283578Z"
+      },
+      {
+        "cron": "0 13 * * *",
+        "created_on": "2026-10-20T05:34:14.57616Z",
+        "modified_on": "2026-10-20T05:34:14.57616Z"
+      },
+      {
+        "cron": "*/10 * * * *",
+        "created_on": "2026-10-19T04:05:29.283578Z",
+        "modified_on": "2026-10-19T04:05:29.283578Z"
+      },
+      {
+        "cron": "10 0,6,12,18 * * *",
+        "created_on": "2026-10-19T04:05:29.283578Z",
+        "modified_on": "2026-10-19T04:05:29.283578Z"
+      }
+    ]
+  },
+  "previews": {
+    "morning": {
+      "status": "preview",
+      "day": "2026-10-23",
+      "text": "A design prize is not a client contract. Know the difference before you enter.\n\nHow it works and where to start:\nhttps://insightginie.com/earn/design-competitions/\n\nSubmit original work to a contest after reviewing its prize and rights conditions.\n\nWho pays: Clients running a design contest\n\nTry one small step: Compare the time commitment, selection process and rights before entering one suitable contest.\n\nThe catch: Most entrants do not win. Contest work is speculative, and platform eligibility, entry rules and intellectual-property terms apply.\n\nA method to explore, not an available paid assignment. Selection, demand and earnings vary.",
+      "visual": {
+        "url": "https://insightginie.com/api/social-card/method/design-competitions/",
+        "alt": "Enter design competitions selectively",
+        "title": "Enter design competitions selectively"
+      }
+    },
+    "evening": {
+      "status": "preview",
+      "day": "2026-10-23",
+      "text": "A $10 spreadsheet needs more than 20 sales to repay $200 of your time.\n\nThe guide and practical first step:\nhttps://insightginie.com/earn/sell-spreadsheets/\n\nIllustrative maths: assume 10 hours of work valued at $20 per hour, a $10 selling price and hypothetical fees of 10%. Each sale leaves $9 before tax and other costs. Twenty-two sales leave $198; twenty-three leave $207.\n\nTry this: Calculate your own break-even sales before spending a weekend building a digital product.\n\nThese are assumptions, not a platform fee quote or an earnings forecast. Refunds, support and other costs would increase the target.\n\nIllustrative calculation: InsightGinie original worked example; Gumroad is one possible selling platform. Original reference and review date are in the guide.",
+      "visual": {
+        "url": "https://insightginie.com/api/social-card/discovery/spreadsheet-break-even/",
+        "alt": "A $10 spreadsheet needs more than 20 sales to repay $200 of your time.",
+        "title": "A $10 spreadsheet needs more than 20 sales to repay $200 of your time."
+      }
+    }
+  },
+  "enabled": {
+    "morning": true,
+    "evening": true
+  },
+  "feedPostsCreatedByVerification": 0
+}

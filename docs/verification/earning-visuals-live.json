@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-23T12:33:16.120Z",
+  "feedPostsCreated": 0,
+  "checks": [
+    {
+      "page": "/",
+      "status": 200,
+      "earningHomepage": true
+    },
+    {
+      "page": "/api/social-card/method/website-user-testing/",
+      "status": 200,
+      "bytes": 106999,
+      "noindex": "noindex, noimageindex"
+    },
+    {
+      "page": "/api/social-card/discovery/think-out-loud/",
+      "status": 200,
+      "bytes": 106800,
+      "noindex": "noindex, noimageindex"
+    }
+  ],
+  "upload": {
+    "status": "accepted",
+    "imageUrn": "urn:li:image:D5610AQHagDBdSFBZhw",
+    "visualUrl": "https://insightginie.com/api/social-card/discovery/think-out-loud/",
+    "feedPostCreated": false,
+    "temporaryFilesCreated": 0
+  }
+}

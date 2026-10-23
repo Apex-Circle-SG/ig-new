@@ -1,6 +1,6 @@
 {
-  "verifiedAt": "2026-10-23T12:32:16.164181+00:00",
-  "status": "candidate_verified",
+  "verifiedAt": "2026-10-23T12:35:46.820103+00:00",
+  "status": "deployed_and_verified",
   "buildId": "olT58fpH5T7vVAG7BNMTZ",
   "scope": "Earning homepage, concise LinkedIn copy, original record-backed social image cards and upload readiness",
   "checks": {
@@ -51,7 +51,10 @@
     "worker": "artifacts/earning-worker-tests.txt",
     "desktopScreenshot": "artifacts/earning-home-1440.png",
     "mobileScreenshot": "artifacts/earning-home-390.png",
-    "guide": "docs/earning-home-and-social.md"
+    "guide": "docs/earning-home-and-social.md",
+    "liveImages": "docs/verification/earning-visuals-live.json",
+    "liveWorker": "docs/verification/earning-social-worker-live.json",
+    "liveBrowser": "docs/verification/earning-home-live-browser.json"
   },
   "limitations": [
     "No extra feed post is created during QA; actual image attachment in a scheduled feed post is not yet independently verified.",
@@ -59,5 +62,68 @@
     "No claim of improved traffic, ad revenue, ranking or Google indexing.",
     "No per-post visit/application attribution added.",
     "No new Lighthouse or field performance measurement for this release."
-  ]
+  ],
+  "sourceCommit": "b319d570078d180d8fe4214e82007c5ad878b539",
+  "deployment": {
+    "deployedAt": "2026-10-23T12:32:47.095131+00:00",
+    "commit": "b319d570078d180d8fe4214e82007c5ad878b539",
+    "buildId": "olT58fpH5T7vVAG7BNMTZ",
+    "service": "insightginie-web",
+    "port": 3000,
+    "health": "passed",
+    "rollbackDirectory": "/root/ig-new/artifacts/releases/pre-consolidation-20261023T123244Z",
+    "runtimeSecretNames": [
+      "ASK_SECURITY_SECRET",
+      "ADMIN_ACCESS_KEY",
+      "DD_API_KEY",
+      "DD_APP_KEY"
+    ],
+    "askDatadogEnabled": true,
+    "askGeneralEnabled": true,
+    "askGeneralAuthorization": "owner-authorized",
+    "candidateEvidenceSha256": "c532c80b8c82ae7e95052d56b551dbfbfadae6e1e68c8ef3372b311192de7d74",
+    "wordpressCutover": false
+  },
+  "liveBrowser": {
+    "checkedAt": "2026-10-23T12:34:50.640Z",
+    "baseURL": "https://insightginie.com",
+    "stats": {
+      "startTime": "2026-10-23T12:33:18.340Z",
+      "duration": 14671.489000000001,
+      "expected": 6,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "checks": [
+      "Earning homepage, mobile and desktop accessibility",
+      "No-JavaScript navigation",
+      "Generated PNGs and invalid-record rejection",
+      "GA4 consent and owner measurement ID",
+      "Calculator input and frame isolation"
+    ],
+    "advertisingScriptsMocked": true
+  },
+  "linkedinImageUpload": {
+    "status": "accepted",
+    "imageUrn": "urn:li:image:D5610AQHagDBdSFBZhw",
+    "visualUrl": "https://insightginie.com/api/social-card/discovery/think-out-loud/",
+    "feedPostCreated": false,
+    "temporaryFilesCreated": 0,
+    "availableBeforeReturn": true
+  },
+  "liveWorker": {
+    "migrationVersion": 4,
+    "existingPostingRecords": 8,
+    "existingLedgerPreserved": true,
+    "previewsReadOnly": true,
+    "enabled": {
+      "morning": true,
+      "evening": true
+    },
+    "feedPostsCreatedByVerification": 0
+  },
+  "candidatePortClosed": true,
+  "preexistingDeploymentReceiptPreserved": true,
+  "finalLiveHealthHttp": 200
 }
