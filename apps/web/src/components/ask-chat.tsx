@@ -7,17 +7,12 @@ import styles from './ask-chat.module.css';
 import { track } from '@insightginie/analytics';
 
 const sourcedSuggestions = [
-  'How do I calculate cash runway?',
-  'What is an AI workflow’s payback period?',
-  'Why does a drawdown need a larger recovery?',
-  'How does InsightGinie protect my privacy?',
-];
-const generalSuggestions = [
-  'Why is the sky blue?',
-  'Explain a JavaScript promise with an example.',
-  'Help me write a clear project update.',
+  'Find remote customer support jobs',
+  'Show me paid research opportunities',
+  'Suggest funny business ideas',
   'How do I calculate cash runway?',
 ];
+const generalSuggestions = sourcedSuggestions;
 type Exchange = { question: string; answer: AskAnswer };
 
 export function AskChat({ generalAvailable = false }: { generalAvailable?: boolean } = {}) {
@@ -55,7 +50,24 @@ export function AskChat({ generalAvailable = false }: { generalAvailable?: boole
         cache: 'no-store',
         referrerPolicy: 'no-referrer',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question: clean, token, website: '' }),
+        body: JSON.stringify({
+          question: clean,
+          token,
+          website: '',
+          history: exchanges.slice(-2).map((exchange) => ({
+            question: exchange.question.slice(0, 1200),
+            answer: [
+              exchange.answer.message,
+              ...(exchange.answer.catalog?.items.map((item) => `${item.title}: ${item.summary}`) ||
+                []),
+            ]
+              .join('\n')
+              .slice(0, 1200),
+          })),
+          ...(exchanges.at(-1)?.answer.catalog
+            ? { context: exchanges.at(-1)!.answer.catalog!.query }
+            : {}),
+        }),
         signal,
       });
       const data = (await response.json()) as AskAnswer & { error?: string };
@@ -125,17 +137,16 @@ export function AskChat({ generalAvailable = false }: { generalAvailable?: boole
           <h2>What would you like to understand?</h2>
           <p>
             {generalAvailable
-              ? 'Ask about any topic: explore an idea, work through a problem, or try a calculation. Each answer shows how it was prepared.'
-              : 'Explore published explanations, understand a method, or find a useful tool. General AI answers are not enabled.'}
+              ? 'Find remote work, discover creative earning routes, or ask a follow-up. Ginie searches our catalog and can use Datadog for general questions.'
+              : 'Find remote work, explore earning guides and business ideas, or ask a follow-up. Site search and published explanations are available.'}
           </p>
         </div>
       </div>
       {generalAvailable && (
         <p className={styles.disclaimer} id={`${id}-general-disclosure`}>
-          Questions without a supported calculation or source match are sent to Datadog for a
-          general AI answer. Datadog may retain those questions and answers under its account
-          policy. Avoid personal or confidential information.{' '}
-          <a href="/privacy/">Privacy details</a>
+          Site searches use our catalog. For general AI answers, your question and up to two recent
+          minimized exchanges are sent to Datadog, which may retain them under its account policy.
+          Avoid personal or confidential information. <a href="/privacy/">Privacy details</a>
         </p>
       )}
       <div className={styles.suggestions} aria-label="Example questions">
@@ -168,31 +179,35 @@ export function AskChat({ generalAvailable = false }: { generalAvailable?: boole
             </p>
             <article className={styles.answer}>
               <h3>
-                {exchange.answer.method === 'datadog-general-answer'
-                  ? 'General AI answer'
-                  : exchange.answer.method === 'deterministic-calculator'
-                    ? 'Calculated from your stated example'
-                    : exchange.answer.mode === 'answer' && exchange.answer.citations.length > 0
-                      ? 'From the published sources'
-                      : exchange.answer.mode === 'answer'
-                        ? 'Ginie’s answer'
-                        : exchange.answer.mode === 'refusal'
-                          ? 'What I can help with'
-                          : 'Let’s use a reliable starting point'}
+                {exchange.answer.method === 'live-catalog-search'
+                  ? 'From the opportunity catalog'
+                  : exchange.answer.method === 'datadog-general-answer'
+                    ? 'General AI answer'
+                    : exchange.answer.method === 'deterministic-calculator'
+                      ? 'Calculated from your stated example'
+                      : exchange.answer.mode === 'answer' && exchange.answer.citations.length > 0
+                        ? 'From the published sources'
+                        : exchange.answer.mode === 'answer'
+                          ? 'Ginie’s answer'
+                          : exchange.answer.mode === 'refusal'
+                            ? 'What I can help with'
+                            : 'Let’s use a reliable starting point'}
               </h3>
               <p className={styles.provider} data-testid="answer-provider">
-                {exchange.answer.method === 'datadog-general-answer'
-                  ? 'Datadog · general answer'
-                  : exchange.answer.provider?.id === 'datadog'
-                    ? exchange.answer.provider.status === 'cached'
-                      ? 'Datadog · cached source selection'
-                      : 'Datadog · source selection'
-                    : exchange.answer.method === 'deterministic-calculator'
-                      ? 'InsightGinie · deterministic calculation'
-                      : exchange.answer.provider?.status === 'fallback' &&
-                          exchange.answer.citations.length > 0
-                        ? 'InsightGinie · local source fallback'
-                        : 'InsightGinie · local response'}
+                {exchange.answer.method === 'live-catalog-search'
+                  ? 'InsightGinie · live catalog search'
+                  : exchange.answer.method === 'datadog-general-answer'
+                    ? 'Datadog · general answer'
+                    : exchange.answer.provider?.id === 'datadog'
+                      ? exchange.answer.provider.status === 'cached'
+                        ? 'Datadog · cached source selection'
+                        : 'Datadog · source selection'
+                      : exchange.answer.method === 'deterministic-calculator'
+                        ? 'InsightGinie · deterministic calculation'
+                        : exchange.answer.provider?.status === 'fallback' &&
+                            exchange.answer.citations.length > 0
+                          ? 'InsightGinie · local source fallback'
+                          : 'InsightGinie · local response'}
               </p>
               {exchange.answer.method === 'datadog-general-answer' && (
                 <p>
@@ -205,6 +220,39 @@ export function AskChat({ generalAvailable = false }: { generalAvailable?: boole
                   {paragraph}
                 </p>
               ))}
+              {exchange.answer.catalog && (
+                <div className={styles.catalog}>
+                  {exchange.answer.catalog.items.map((item) => (
+                    <section key={item.path + item.title} className={styles.catalogCard}>
+                      <h4>
+                        <a href={item.path}>{item.title}</a>
+                      </h4>
+                      {item.location && (
+                        <p>
+                          <strong>Listed location:</strong> {item.location}
+                        </p>
+                      )}
+                      {item.reward && (
+                        <p>
+                          <strong>Source-listed pay:</strong> {item.reward}
+                        </p>
+                      )}
+                      {item.arrangement && <p>{item.arrangement}</p>}
+                      <p>{item.summary}</p>
+                      <p>
+                        <a href={item.path}>See details and next steps →</a>
+                      </p>
+                      <small>
+                        Source:{' '}
+                        <a href={item.sourceUrl} target="_blank" rel="noopener noreferrer">
+                          {item.source} ↗
+                        </a>
+                      </small>
+                    </section>
+                  ))}
+                  <a href={exchange.answer.catalog.browsePath}>Open the directory →</a>
+                </div>
+              )}
               {exchange.answer.method !== 'datadog-general-answer' &&
                 exchange.answer.citations.length > 0 && (
                   <div className={styles.sources}>
@@ -260,10 +308,25 @@ export function AskChat({ generalAvailable = false }: { generalAvailable?: boole
         ))}
         {busy && (
           <p role="status" className={styles.loading}>
-            {generalAvailable ? 'Preparing your answer…' : 'Checking the approved sources…'}
+            Searching the catalog or preparing your answer…
           </p>
         )}
       </div>
+      {exchanges.length > 0 && (
+        <button
+          type="button"
+          className="button secondary"
+          disabled={busy}
+          onClick={() => {
+            setExchanges([]);
+            setQuestion('');
+            setError('');
+            setFeedback('');
+          }}
+        >
+          Start new chat
+        </button>
+      )}
       <form
         className={styles.form}
         onSubmit={(event) => {
@@ -277,9 +340,7 @@ export function AskChat({ generalAvailable = false }: { generalAvailable?: boole
           value={question}
           onChange={(event) => setQuestion(event.target.value)}
           placeholder={
-            generalAvailable
-              ? 'For example: explain how solar panels work.'
-              : 'For example: how do your calculators protect my privacy?'
+            'For example: find remote customer support jobs, then ask “Only in Singapore?”'
           }
           maxLength={1200}
           rows={3}
@@ -289,7 +350,7 @@ export function AskChat({ generalAvailable = false }: { generalAvailable?: boole
         <div className={styles.formBottom}>
           <p id={`${id}-privacy`}>
             {generalAvailable
-              ? 'Checking for identifiers and removing detected financial amounts cannot guarantee removal of private information. Only your current question is sent for a general answer; your chat history is not forwarded.'
+              ? 'Avoid confidential details. General AI answers can use your current question and up to two recent minimized exchanges. Filters cannot guarantee removal of all private information.'
               : 'Please leave out personal or confidential details. Your question is processed on our server; Datadog receives only approved public excerpts and a general topic for source selection.'}{' '}
             <a href="/ai-disclosure/">How Ginie works</a>
           </p>

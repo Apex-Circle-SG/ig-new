@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-10-23T12:41:11.192450+00:00",
+  "scope": "Read-only diagnosis plus synthetic live questions; no deployment or configuration change",
+  "connection": {
+    "askEnabled": true,
+    "datadogEnabled": true,
+    "generalEnabled": true,
+    "verifiedLiveResponse": {
+      "syntheticQuestion": "How do I calculate cash runway?",
+      "httpStatus": 200,
+      "method": "datadog-grounded-selection",
+      "providerStatus": "live"
+    }
+  },
+  "reproducedFailure": {
+    "subsequentSyntheticQuestions": [
+      "Find remote customer support jobs on this website",
+      "Why is the sky blue?"
+    ],
+    "httpStatus": 200,
+    "mode": "fallback",
+    "message": "Ginie is busy. Please wait a minute and try again.",
+    "cause": "Site-wide cooldown between uncached provider requests"
+  },
+  "configuredLimits": {
+    "dailyRuns": 20,
+    "monthlyRuns": 120,
+    "minimumSecondsBetweenUncachedRequests": 60,
+    "simultaneousProviderRequests": 1
+  },
+  "knowledgeScope": {
+    "current": "Reviewed calculator explanations, approved editorial documents, income methodology and privacy",
+    "missing": "Live opportunities, earning-method catalog, ideas and platforms are not retrieved by getAskKnowledge",
+    "generalMode": "One minimized current question; no live browsing and no conversation history"
+  },
+  "sources": [
+    "apps/web/src/lib/ask/knowledge.ts",
+    "apps/web/src/lib/ask/orchestrate.ts",
+    "apps/web/src/lib/ask/datadog.ts",
+    "docs/genie.md"
+  ]
+}

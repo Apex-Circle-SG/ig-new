@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { catalogQuerySchema, conversationTurnSchema } from './conversation';
 
 const localPath = z.string().regex(/^\/(?!\/)[a-z0-9/-]*\/$/);
 export const groundingDocumentSchema = z.object({
@@ -17,6 +18,8 @@ export const askInputSchema = z
     question: z.string().trim().min(3).max(1200),
     token: z.string().min(20).max(300),
     website: z.literal('').optional(),
+    history: z.array(conversationTurnSchema).max(2).optional(),
+    context: catalogQuerySchema.optional(),
   })
   .strict();
 export const askOutputSchema = z.object({
@@ -39,7 +42,33 @@ export const askOutputSchema = z.object({
     'deterministic-calculator',
     'datadog-grounded-selection',
     'datadog-general-answer',
+    'live-catalog-search',
   ]),
+  catalog: z
+    .object({
+      query: catalogQuerySchema,
+      total: z.number().int().min(0),
+      browsePath: z
+        .string()
+        .regex(/^\/(?:opportunities|earn|ideas|platforms)\/(?:\?[a-zA-Z0-9%&=+._~-]*)?$/),
+      retrievedAt: z.iso.datetime(),
+      items: z
+        .array(
+          z.object({
+            title: z.string().max(220),
+            path: localPath,
+            summary: z.string().max(700),
+            location: z.string().max(240).optional(),
+            reward: z.string().max(240).optional(),
+            arrangement: z.string().max(60).optional(),
+            source: z.string().max(180),
+            sourceUrl: z.url().startsWith('https://'),
+            checkedAt: z.string().max(60).optional(),
+          }),
+        )
+        .max(5),
+    })
+    .optional(),
   provider: z
     .object({
       id: z.enum(['datadog', 'local']),

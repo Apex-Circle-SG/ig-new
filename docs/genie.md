@@ -36,8 +36,7 @@ excluded. Source matches do not imply that a passage resolves personal circumsta
 `{message}` with at most 6,000 characters. It shares the existing lock, durable
 run ledger, cooldown, timeout, cancellation and credential boundaries. It does
 not create a second allowance. General questions, hashes and generated answers
-never enter the persistent source cache or application logs. Each request is
-independent; conversation history is not sent. Responses render as escaped text,
+never enter the persistent source cache or application logs. General follow-ups can include up to two recent minimized user/assistant exchanges. These are transient request data, never persisted by the application. Responses render as escaped text,
 with no model-generated citation or claim of source verification.
 
 The request still allows any topic; questions need not be financial. Actual
@@ -106,7 +105,7 @@ the deadline. An ambiguous create is neither retried nor refunded. A timeout
 cannot prove provider-side work stopped, especially if no instance ID returned.
 
 Defaults are **20 executions per UTC day, 120 per UTC month, one execution at a
-time and at least 60 seconds between cache misses**. These are run limits, not a
+time**. Successful calls permit an immediate next request. Failed/ambiguous attempts retain a 60-second backoff. These are run limits, not a
 dollar cap or verified remaining AI Credits. Review the provider's AI Credit
 Limits for the workflow creator/Autonomous Agents attribution; see the
 [read-only account review](datadog-ask-recommendations.md).
@@ -138,7 +137,7 @@ verified by the workflow API. The fixed task instructs no tool use. Strict local
 selection to public IDs; general-answer validation does not prove the absence of
 private operational data from an agent that has connected tools.
 
-Requests are 3–1,200 characters, at most 8 KiB JSON, with a five-second body read,
+Questions are 3–1,200 characters; the request including optional bounded context is at most 16 KiB JSON, with a five-second body read,
 ten-minute signed-cookie binding and bounded HMAC address buckets. The handler
 allows at most 30 active requests. Advertisements and browser recording are
 excluded from Ask. Direct private-disclosure requests and recognized identifiers
@@ -165,3 +164,7 @@ A provider kill switch requires editing the protected runtime flag and restartin
 `insightginie-web`. Also update the source deployment configuration so a later
 release does not re-enable it. Normal rollback restores the previous build and
 runtime environment; retain the provider budget state across rollback/redeployment.
+
+## Catalog copilot update (23 October)
+
+The website first searches the live opportunity catalog for jobs, bounties, earning guides, business ideas and platform profiles. Those responses are assembled locally with real links and can refine bounded filters across turns; they do not spend AI runs. General follow-ups may include two minimized recent exchanges. Successful AI calls no longer impose a shared one-minute delay; failed/ambiguous requests retain their backoff. Existing daily/monthly limits and the durable ledger remain unchanged. See [the copilot implementation and limits](ask-copilot.md).

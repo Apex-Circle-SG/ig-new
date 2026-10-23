@@ -34,8 +34,8 @@ export default async function AskPage() {
       <h1>Explore your next question.</h1>
       <p className="page-lead">
         {generalAvailable
-          ? 'Ask about science, coding, writing, or any other topic. Ginie distinguishes general AI answers from published explanations and calculated results.'
-          : 'Understand a method, explore published explanations, and find a useful tool. Each response shows how it was prepared.'}
+          ? 'Search remote jobs, earning guides and business ideas. Refine your results with follow-up questions, or ask Ginie for a general explanation.'
+          : 'Search remote jobs, earning guides and business ideas, or explore a published explanation. Each response shows how it was prepared.'}
       </p>
       <AskChat generalAvailable={generalAvailable} />
       <script

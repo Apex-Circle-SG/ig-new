@@ -41,18 +41,20 @@ export default function Privacy() {
       <section>
         <h2>Ginie questions and service health</h2>
         <p>
-          Ginie processes questions in server memory to retrieve approved public material and run
-          supported calculations. For source selection, Datadog receives only approved public
-          excerpts and a general topic category; your question is not included in that selection
-          task.
+          Ginie processes questions and search filters in server memory to search the public
+          opportunity catalog, retrieve approved public material and run supported calculations. For
+          source selection, Datadog receives only approved public excerpts and a general topic
+          category; your question is not included in that selection task.
         </p>
         <p>
           When general AI answers are enabled, an unmatched question can be sent to Datadog to
           generate an answer. The Ask page discloses this before submission. The application checks
-          for identifiers and omits detected financial amounts before sending the current question.
-          These filters cannot guarantee that all personal or confidential information is removed.
-          Do not submit sensitive details. Your conversation history, browser headers, cookies and
-          visitor identifiers are not attached to provider requests.
+          for identifiers and omits detected financial amounts before sending the current question
+          and up to two recent exchanges. These filters cannot guarantee that all personal or
+          confidential information is removed. Do not submit sensitive details. Up to two recent
+          minimized exchanges provide follow-up context for general answers. Browser headers,
+          cookies and visitor identifiers are not attached to provider requests. Catalog searches
+          use the public catalog API; search filters can appear in that service’s request records.
         </p>
         <p>
           This feature does not persist questions or answers locally, attach them to analytics, or

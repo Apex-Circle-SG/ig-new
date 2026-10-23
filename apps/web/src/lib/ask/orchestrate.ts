@@ -14,18 +14,27 @@ import {
   type PublicSelectionPacket,
   type SelectionResult,
 } from './datadog';
-import { prepareGeneralQuestion } from './general-question';
+import { prepareGeneralQuestion, prepareConversation } from './general-question';
+import type { ConversationTurn } from './conversation';
 
 type Selector = (packet: PublicSelectionPacket) => Promise<SelectionResult>;
 type Generator = (packet: GeneralQuestionPacket) => Promise<GeneralAnswerResult>;
 
-async function generalAnswer(question: string, generate: Generator): Promise<AskAnswer> {
+async function generalAnswer(
+  question: string,
+  generate: Generator,
+  history: readonly ConversationTurn[],
+): Promise<AskAnswer> {
+  const context = prepareConversation(history);
   const prepared = prepareGeneralQuestion(question);
   let result: GeneralAnswerResult;
   try {
     result =
       prepared.question.length <= 1200
-        ? await generate({ question: prepared.question })
+        ? await generate({
+            question: prepared.question,
+            ...(context.length ? { history: context } : {}),
+          })
         : { status: 'unavailable', reason: 'validation' };
   } catch {
     result = { status: 'unavailable', reason: 'provider' };
@@ -39,7 +48,7 @@ async function generalAnswer(question: string, generate: Generator): Promise<Ask
       assumptions: [
         'This is a general AI answer, not an answer verified against InsightGinie sources. Check important facts independently.',
         'Ginie has no live browsing or market feed. Its general answers can be incomplete or incorrect.',
-        'This question was sent to Datadog without conversation history. The provider may retain the request and answer under its account policy.',
+        'This question and up to two recent minimized exchanges were sent to Datadog. The provider may retain them under its account policy.',
         ...(prepared.redacted
           ? [
               'Explicit amounts or personal financial numbers were omitted before sending. Use a private calculator for an exact scenario.',
@@ -57,7 +66,7 @@ async function generalAnswer(question: string, generate: Generator): Promise<Ask
       'General AI answers are not enabled on this site. Published explanations and private tools are available.',
     configuration:
       'General AI answers need a site configuration update. Published explanations and private tools are available.',
-    busy: 'Ginie is busy. Please wait a minute and try again.',
+    busy: 'General AI is busy or recovering from a failed request. Site search remains available; try your general question again shortly.',
     budget:
       'General AI answers have reached their current usage limit. The published explanations and private tools remain available.',
     timeout: 'The general answer took too long. Please try again in a minute.',
@@ -107,13 +116,14 @@ export async function answerQuestion(
   documents: readonly unknown[],
   select: Selector = selectPublicExcerpts,
   generate: Generator = generateGeneralAnswer,
+  history: readonly ConversationTurn[] = [],
 ): Promise<AskAnswer> {
   const grounded = answerFromApprovedContent(question, documents);
   if (grounded.mode === 'refusal' || requiresLiveFinancialData(question))
     return { ...grounded, provider: { id: 'local', status: 'not-needed' } };
   const calculated = calculateStatedQuestion(question);
   if (calculated) return { ...calculated, provider: { id: 'local', status: 'not-needed' } };
-  if (grounded.mode !== 'answer') return generalAnswer(question, generate);
+  if (grounded.mode !== 'answer') return generalAnswer(question, generate, history);
 
   const local: AskAnswer = { ...grounded, provider: { id: 'local', status: 'fallback' } };
   try {

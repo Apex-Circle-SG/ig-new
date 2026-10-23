@@ -271,3 +271,32 @@
     animation: none;
   }
 }
+
+.catalog {
+  display: grid;
+  gap: 14px;
+  margin-top: 20px;
+}
+.catalogCard {
+  border: 1px solid #ded9ec;
+  border-radius: 12px;
+  padding: 18px;
+  background: #faf9fd;
+  overflow-wrap: anywhere;
+}
+.catalogCard h4 {
+  margin: 0 0 12px;
+  font-size: 18px;
+  line-height: 1.4;
+}
+.catalogCard p {
+  margin: 8px 0;
+}
+.catalogCard a {
+  color: #5139b0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.catalogCard small {
+  color: #586076;
+}

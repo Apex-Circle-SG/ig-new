@@ -20,19 +20,19 @@ export default function AiDisclosure() {
       <section>
         <h2>What Ginie does in this release</h2>
         <p>
-          Ask Ginie searches approved public explanations on the InsightGinie server. For supported
-          explanatory questions, our Datadog agent selects useful passages from that material. The
-          application displays the original source text and citations; the model cannot insert
-          generated text into that sourced explanation or alter a calculator result. Each response
-          identifies a source selection, a local calculation, a local response or a general AI
-          answer.
+          Ask Ginie searches the public opportunities, earning guides, business ideas and platform
+          catalog, and approved public explanations. Catalog results are retrieved by the
+          application, not invented by a model. For supported explanatory questions, our Datadog
+          agent selects useful passages from that material. The application displays the original
+          source text and citations; the model cannot insert generated text into that sourced
+          explanation or alter a calculator result. Each response identifies a source selection, a
+          local calculation, a local response or a general AI answer.
         </p>
         <p>
           For source selection, Datadog receives only published excerpts and a general topic
-          category. That task does not include your question or conversation history. Public
-          selections are reused for up to 14 days while the underlying source text is unchanged.
-          Timeouts, usage limits or invalid selection output fall back to approved local sources
-          when available.
+          category. That task does not include your question or chat history. Public selections are
+          reused for up to 14 days while the underlying source text is unchanged. Timeouts, usage
+          limits or invalid selection output fall back to approved local sources when available.
         </p>
         <p>
           When general AI answers are enabled, questions without a supported calculation or source
@@ -67,19 +67,19 @@ export default function AiDisclosure() {
         <p>
           A question submitted to Ginie is processed transiently by the application; this feature
           does not persist prompts or answers locally. Financial calculator inputs remain inside a
-          browser sandbox. General answer requests send the current question to Datadog after
-          checking for identifiers and omitting detected financial amounts. These checks cannot
-          guarantee removal of all personal or confidential information. Do not include account
-          numbers, credentials or other sensitive details.
+          browser sandbox. General answer requests can send the current question and up to two
+          recent exchanges to Datadog after checking for identifiers and omitting detected financial
+          amounts. These checks cannot guarantee removal of all personal or confidential
+          information. Do not include account numbers, credentials or other sensitive details.
         </p>
         <p>
-          Datadog is called by our server using server-held credentials. Your conversation history,
-          browser headers, cookies and visitor identifiers are not attached to these requests. The
-          site owner has authorized general questions through the configured Datadog agent. Its
-          remote tool settings have not been independently verified. Datadog may retain general
-          prompts and generated answers under its account policy; provider-side retention also
-          applies to public selection tasks. See the <a href="/privacy/">privacy policy</a> for
-          processing and retention details.
+          Datadog is called by our server using server-held credentials. Up to two recent minimized
+          exchanges provide follow-up context for general answers. Browser headers, cookies and
+          visitor identifiers are not attached to these requests. The site owner has authorized
+          general questions through the configured Datadog agent. Its remote tool settings have not
+          been independently verified. Datadog may retain general prompts and generated answers
+          under its account policy; provider-side retention also applies to public selection tasks.
+          See the <a href="/privacy/">privacy policy</a> for processing and retention details.
         </p>
       </section>
       <section>

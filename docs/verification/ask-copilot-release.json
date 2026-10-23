@@ -1,0 +1,69 @@
+{
+  "verifiedAt": "2026-10-23T13:10:48.496917+00:00",
+  "status": "candidate_verified",
+  "buildId": "bEevhfB56DGObvIBkHVWh",
+  "scope": "Live catalog retrieval, bounded chat and filter context, successful-request cooldown removal with original AI limits retained",
+  "checks": {
+    "unitTests": 424,
+    "operationalTests": 35,
+    "browserRegressionTests": 21,
+    "finalBuildChatSmokeTests": 3,
+    "browserFailures": 0,
+    "lint": "passed (full repository and subsequent changed files)",
+    "typecheck": "passed (standalone and final Next build)",
+    "build": "passed",
+    "contentValidation": "passed",
+    "mobileAccessibility": "390px and 1280px, WCAG checks passed",
+    "credentialScan": {
+      "filesScanned": 137,
+      "credentialMatches": 0,
+      "matchedPaths": [],
+      "scope": "Web and SEO source plus final candidate browser JavaScript, compared against configured private credentials without printing values"
+    }
+  },
+  "controls": {
+    "generalDailyRunCap": 20,
+    "generalMonthlyRunCap": 120,
+    "simultaneousProviderExecutions": 1,
+    "failedRequestBackoffSeconds": 60,
+    "successfulRequestCooldownSeconds": 0,
+    "catalogRequiresPaidInference": false,
+    "recentExchangesMaximum": 2,
+    "conversationPersistedByApplication": false
+  },
+  "graphify": {
+    "refresh": {
+      "timestamp": "2026-10-23T13:08:27.080636+00:00",
+      "mode": "incremental",
+      "source_files": 141,
+      "changed_files": 1,
+      "deleted_files": 0,
+      "nodes": 627,
+      "edges": 1269,
+      "communities": 48,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "semantic_extraction": false
+    },
+    "warning": "Structural map only: external references may be dangling and some relationships collapse; not runtime proof.",
+    "changedExtractionHealth": {
+      "dangling_endpoint_edges": 8,
+      "missing_endpoint_edges": 0,
+      "exact_duplicate_edges": 0,
+      "undirected_same_endpoint_collapsed_edges": 0
+    }
+  },
+  "evidence": {
+    "browserRegression": "artifacts/copilot-browser-accepted.json",
+    "finalBuildSmoke": "artifacts/copilot-final-build-smoke.json",
+    "unitTests": "artifacts/copilot-all-unit-accepted.txt",
+    "guide": "docs/ask-copilot.md"
+  },
+  "limitations": [
+    "Public catalog and reviewed explanations are searched; this is not a general web crawler or access to unpublished WordPress content.",
+    "Keyword and listed-location filters are heuristic and do not verify eligibility, degrees, experience or numeric salary thresholds.",
+    "General AI remains limited to one execution at a time and existing daily/monthly caps; these are run limits, not a verified dollar cap.",
+    "Only up to two minimized recent exchanges are sent for general answers; no durable or cross-device chat memory.",
+    "Datadog can retain general prompts and answers; owner-authorized remote agent settings are unchanged."
+  ]
+}

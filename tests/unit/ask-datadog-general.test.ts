@@ -328,22 +328,17 @@ describe('shared state without general question or response persistence', () => 
       version: 1,
       cache: [],
       budget: { dailyRuns: 1, monthlyRuns: 1 },
-      lastProbeAt: START,
+      lastProbeAt: 0,
     });
     expect(await readdir(env.ASK_DATADOG_STATE_DIRECTORY)).toEqual(['selection-state.json']);
   });
-  it('shares cooldown and caps with public selection while preserving its existing v1 cache', async () => {
+  it('allows immediate successful follow-ups while sharing caps and preserving the public cache', async () => {
     env.ASK_DATADOG_MAX_DAILY_RUNS = '2';
     const mock = provider();
     expect((await selectPublicExcerpts(publicPacket, options(mock.fetcher))).status).toBe(
       'selected',
     );
     const before = JSON.parse(await readFile(statePath(), 'utf8'));
-    expect(await generateGeneralAnswer({ question }, options(mock.fetcher))).toEqual({
-      status: 'unavailable',
-      reason: 'busy',
-    });
-    current += 60_000;
     expect((await generateGeneralAnswer({ question }, options(mock.fetcher))).status).toBe(
       'answered',
     );

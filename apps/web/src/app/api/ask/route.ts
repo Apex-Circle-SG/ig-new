@@ -1,6 +1,5 @@
 import { askInputSchema } from '../../../lib/ask/core';
-import { getAskKnowledge } from '../../../lib/ask/knowledge';
-import { answerQuestion } from '../../../lib/ask/orchestrate';
+import { answerWebsiteQuestion } from '../../../lib/ask/copilot';
 import { operationStore } from '../../../lib/operations';
 import {
   createRequestLimiter,
@@ -30,7 +29,7 @@ export async function POST(request: Request) {
     return privateJson({ error: 'Please wait a minute before asking another question.' }, 429);
   activeRequests += 1;
   try {
-    const parsed = askInputSchema.safeParse(await readBoundedJson(request));
+    const parsed = askInputSchema.safeParse(await readBoundedJson(request, 16384));
     if (!parsed.success)
       return privateJson(
         { error: 'Enter a question between 3 and 1,200 characters without extra fields.' },
@@ -38,7 +37,11 @@ export async function POST(request: Request) {
       );
     if (!validRequestToken(parsed.data.token, securityCookie(request)))
       return privateJson({ error: 'Your session expired. Refresh the page and try again.' }, 403);
-    const answer = await answerQuestion(parsed.data.question, getAskKnowledge());
+    const answer = await answerWebsiteQuestion(
+      parsed.data.question,
+      parsed.data.history,
+      parsed.data.context,
+    );
     await operationStore.record(`ask_${answer.mode}`);
     if (answer.provider?.id === 'datadog')
       await operationStore.record(

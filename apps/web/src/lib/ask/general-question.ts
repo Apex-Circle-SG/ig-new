@@ -1,3 +1,5 @@
+import { questionPrivacyNotice } from './core';
+import type { ConversationTurn } from './conversation';
 /** Minimize explicit amounts before a general AI request. This is not anonymization. */
 export function prepareGeneralQuestion(input: string) {
   let question = input.replace(
@@ -15,4 +17,15 @@ export function prepareGeneralQuestion(input: string) {
       '[number omitted]',
     );
   return { question, redacted: question !== input };
+}
+
+/** Only two recent, minimized exchanges are used transiently; none are persisted. */
+export function prepareConversation(history: readonly ConversationTurn[]) {
+  return history
+    .slice(-2)
+    .filter((turn) => !questionPrivacyNotice(turn.question) && !questionPrivacyNotice(turn.answer))
+    .map((turn) => ({
+      question: prepareGeneralQuestion(turn.question).question,
+      answer: prepareGeneralQuestion(turn.answer).question,
+    }));
 }

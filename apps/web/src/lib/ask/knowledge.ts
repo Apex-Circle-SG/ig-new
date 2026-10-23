@@ -49,9 +49,9 @@ export function getAskKnowledge(): GroundingDocument[] {
       title: 'How calculator privacy works',
       path: '/privacy/',
       approved: true,
-      updatedAt: '2026-09-13',
+      updatedAt: '2026-10-23',
       keywords: ['privacy', 'private', 'data', 'save', 'share'],
-      text: 'Calculator inputs and results stay inside a separate browser sandbox. Public share links contain only the tool address. Downloads are created locally when you request them. Ginie source selection sends Datadog only approved public excerpts and a general topic category. When general AI answers are enabled, unmatched questions are sent to Datadog after identifier checks and omission of detected financial amounts. Filters do not guarantee removal of all private information; avoid personal or confidential details. Conversation history, browser headers and cookies are not forwarded. The application does not persist prompts or answers, attach them to analytics, or cache general questions and answers. Datadog may retain general prompts and generated answers under its account policy.',
+      text: 'Calculator inputs and results stay inside a separate browser sandbox. Public share links contain only the tool address. Downloads are created locally when you request them. Ginie source selection sends Datadog only approved public excerpts and a general topic category. When general AI answers are enabled, unmatched questions are sent to Datadog after identifier checks and omission of detected financial amounts. Filters do not guarantee removal of all private information; avoid personal or confidential details. Up to two recent minimized exchanges can be forwarded to Datadog for general follow-ups. Browser headers and cookies are not forwarded. The application does not persist prompts or answers, attach them to analytics, or cache general questions and answers. Datadog may retain general prompts and generated answers under its account policy.',
       sources: [{ name: 'InsightGinie privacy policy', url: 'https://insightginie.com/privacy/' }],
     },
   ];
