@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-23T13:13:07.181004+00:00",
+  "baseURL": "https://insightginie.com",
+  "stats": {
+    "startTime": "2026-10-23T13:11:48.715Z",
+    "duration": 15708.64,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "scope": [
+    "Live catalog results and filter follow-ups",
+    "Earning guides and creative-idea links",
+    "Mobile and desktop accessibility",
+    "Bounded browser chat context",
+    "No GA4 or AdSense on chat"
+  ],
+  "advertisingAndAnalyticsScriptsBlockedInQA": true
+}

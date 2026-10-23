@@ -1,0 +1,163 @@
+{
+  "checkedAt": "2026-10-23T13:11:46.915Z",
+  "baseURL": "https://insightginie.com",
+  "catalogChecks": [
+    {
+      "syntheticQuestion": "Find remote customer support jobs",
+      "status": 200,
+      "mode": "answer",
+      "query": {
+        "kind": "jobs",
+        "q": "customer support",
+        "location": "",
+        "arrangement": "",
+        "paid": false,
+        "page": 1
+      },
+      "total": 146,
+      "paths": [
+        "/opportunities/arbeitnow-backend-software-engineer-rust-ai-first-e-commerce-tech-berlin-334474/",
+        "/opportunities/jobicy-156535/",
+        "/opportunities/jobicy-153902/",
+        "/opportunities/jobicy-153853/",
+        "/opportunities/arbeitnow-remote-project-manager-gaming-localization-production-314188/"
+      ]
+    },
+    {
+      "syntheticQuestion": "Only in Singapore",
+      "status": 200,
+      "mode": "answer",
+      "query": {
+        "kind": "jobs",
+        "q": "customer support",
+        "location": "Singapore",
+        "arrangement": "",
+        "paid": false,
+        "page": 1
+      },
+      "total": 5,
+      "paths": [
+        "/opportunities/jobicy-156370/",
+        "/opportunities/ashby-linear-41b3ed5c-f7a0-40b7-8a77-4952868c3d47/",
+        "/opportunities/jobicy-156244/",
+        "/opportunities/jobicy-156190/",
+        "/opportunities/jobicy-156130/"
+      ]
+    },
+    {
+      "syntheticQuestion": "What about contract roles?",
+      "status": 200,
+      "mode": "answer",
+      "query": {
+        "kind": "jobs",
+        "q": "customer support",
+        "location": "Singapore",
+        "arrangement": "Contract",
+        "paid": false,
+        "page": 1
+      },
+      "total": 0,
+      "paths": []
+    },
+    {
+      "syntheticQuestion": "Show me paid research opportunities",
+      "status": 200,
+      "mode": "answer",
+      "query": {
+        "kind": "methods",
+        "q": "research",
+        "location": "",
+        "arrangement": "",
+        "paid": false,
+        "page": 1
+      },
+      "total": 4,
+      "paths": [
+        "/earn/research-interviews/",
+        "/earn/academic-studies/",
+        "/earn/mock-jury/",
+        "/earn/website-user-testing/"
+      ]
+    },
+    {
+      "syntheticQuestion": "Suggest funny business ideas",
+      "status": 200,
+      "mode": "answer",
+      "query": {
+        "kind": "ideas",
+        "q": "playful",
+        "location": "",
+        "arrangement": "",
+        "paid": false,
+        "page": 1
+      },
+      "total": 16,
+      "paths": [
+        "/ideas/birthday-mystery-dossiers/",
+        "/ideas/custom-inside-joke-dictionaries/",
+        "/ideas/custom-trivia-nights/",
+        "/ideas/desk-museum-labels/",
+        "/ideas/excel-escape-rooms/"
+      ]
+    },
+    {
+      "syntheticQuestion": "Show earning platforms",
+      "status": 200,
+      "mode": "answer",
+      "query": {
+        "kind": "platforms",
+        "q": "",
+        "location": "",
+        "arrangement": "",
+        "paid": false,
+        "page": 1
+      },
+      "total": 21,
+      "paths": [
+        "/platforms/",
+        "/platforms/",
+        "/platforms/",
+        "/platforms/",
+        "/platforms/"
+      ]
+    }
+  ],
+  "generalChecks": [
+    {
+      "sequence": 1,
+      "status": 200,
+      "method": "datadog-general-answer",
+      "provider": {
+        "id": "datadog",
+        "status": "live",
+        "preparedAt": "2026-10-23T13:12:02.829Z"
+      },
+      "answerCharacters": 117
+    },
+    {
+      "sequence": 2,
+      "status": 200,
+      "method": "datadog-general-answer",
+      "provider": {
+        "id": "datadog",
+        "status": "live",
+        "preparedAt": "2026-10-23T13:12:12.088Z"
+      },
+      "answerCharacters": 195
+    }
+  ],
+  "budgetBefore": {
+    "day": "2026-10-23",
+    "month": "2026-10",
+    "dailyRuns": 3,
+    "monthlyRuns": 3,
+    "lastAttemptAt": 1792759696231
+  },
+  "budgetAfter": {
+    "day": "2026-10-23",
+    "month": "2026-10",
+    "dailyRuns": 5,
+    "monthlyRuns": 5,
+    "lastAttemptAt": 1792761123670
+  }
+}
