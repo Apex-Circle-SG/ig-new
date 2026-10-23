@@ -17,10 +17,37 @@ import {
   linkedinCommentary,
   postScore,
   choosePost,
+  postVisual,
+  uploadPostImage,
 } from './social.mjs';
+
+const testPng = new Uint8Array([137, 80, 78, 71, 13, 10, 26, 10]);
+function withImageUploads(next) {
+  return async (url, options) => {
+    if (String(url).includes('/api/social-card/'))
+      return new Response(testPng, { headers: { 'content-type': 'image/png' } });
+    if (String(url).includes('/rest/images?action=initializeUpload'))
+      return Response.json({
+        value: {
+          image: 'urn:li:image:test',
+          uploadUrl: 'https://www.linkedin.com/dms-uploads/test',
+        },
+      });
+    if (String(url).startsWith('https://www.linkedin.com/dms-uploads/'))
+      return new Response(null, { status: 201 });
+    if (String(url).includes('/rest/images/')) return Response.json({ status: 'AVAILABLE' });
+    return next(url, options);
+  };
+}
+
 function database() {
   const db = new DatabaseSync(':memory:');
-  for (const file of ['0001_catalog.sql', '0002_automation.sql', '0003_evening_discoveries.sql'])
+  for (const file of [
+    '0001_catalog.sql',
+    '0002_automation.sql',
+    '0003_evening_discoveries.sql',
+    '0004_social_images.sql',
+  ])
     db.exec(readFileSync(new URL(`./migrations/${file}`, import.meta.url), 'utf8'));
   return {
     db,
@@ -137,11 +164,13 @@ test('complete empty employer snapshots close old records; failed requests retai
   job(DB);
   const original = globalThis.fetch;
   try {
-    globalThis.fetch = async () => new Response('unavailable', { status: 503 });
+    globalThis.fetch = withImageUploads(async () => new Response('unavailable', { status: 503 }));
     const failed = await ingestSource({ DB }, 'greenhouse-gitlab');
     assert.equal(failed.status, 'failed');
     assert.equal(DB.db.prepare('SELECT status FROM opportunities').get().status, 'active');
-    globalThis.fetch = async () => Response.json({ jobs: [], meta: { total: 0 } });
+    globalThis.fetch = withImageUploads(async () =>
+      Response.json({ jobs: [], meta: { total: 0 } }),
+    );
     const result = await ingestSource({ DB }, 'greenhouse-gitlab');
     assert.equal(result.status, 'success');
     assert.equal(DB.db.prepare('SELECT status FROM opportunities').get().status, 'closed');
@@ -157,12 +186,12 @@ test('LinkedIn previews are read-only; a scheduled day publishes once and record
   let calls = 0;
   const original = globalThis.fetch;
   try {
-    globalThis.fetch = async (url) => {
+    globalThis.fetch = withImageUploads(async (url) => {
       calls++;
       return String(url).includes('api.linkedin.com')
         ? new Response(null, { status: 201, headers: { 'x-restli-id': 'urn:li:share:123' } })
         : new Response(null, { status: 200 });
-    };
+    });
     const config = env(DB);
     const preview = await publishDaily(config, Date.now(), { dryRun: true });
     assert.equal(preview.status, 'preview');
@@ -189,11 +218,11 @@ test('ambiguous LinkedIn timeouts are held and never automatically retried', asy
   let calls = 0;
   const original = globalThis.fetch;
   try {
-    globalThis.fetch = async (url) => {
+    globalThis.fetch = withImageUploads(async (url) => {
       calls++;
       if (String(url).includes('api.linkedin.com')) throw new Error('timeout');
       return new Response(null, { status: 200 });
-    };
+    });
     const config = env(DB);
     assert.equal((await publishDaily(config)).status, 'uncertain');
     assert.equal((await publishDaily(config)).status, 'already-recorded');
@@ -233,7 +262,7 @@ test('expired access tokens renew and the replacement is encrypted before publis
   const original = globalThis.fetch;
   let renewals = 0;
   try {
-    globalThis.fetch = async (url) => {
+    globalThis.fetch = withImageUploads(async (url) => {
       if (String(url).includes('/oauth/v2/accessToken')) {
         renewals++;
         return Response.json({
@@ -246,7 +275,7 @@ test('expired access tokens renew and the replacement is encrypted before publis
       return String(url).includes('api.linkedin.com')
         ? new Response(null, { status: 201, headers: { 'x-restli-id': 'urn:li:share:refreshed' } })
         : new Response(null, { status: 200 });
-    };
+    });
     assert.equal((await publishDaily(config)).status, 'published');
     assert.equal(renewals, 1);
     const row = DB.db
@@ -268,13 +297,13 @@ test('concurrent scheduled invocations claim the day once', async () => {
   const original = globalThis.fetch;
   let sends = 0;
   try {
-    globalThis.fetch = async (url) => {
+    globalThis.fetch = withImageUploads(async (url) => {
       if (String(url).includes('api.linkedin.com')) {
         sends++;
         return new Response(null, { status: 201, headers: { 'x-restli-id': 'urn:li:share:once' } });
       }
       return new Response(null, { status: 200 });
-    };
+    });
     const results = await Promise.all([publishDaily(env(DB)), publishDaily(env(DB))]);
     assert.equal(results.filter((r) => r.status === 'published').length, 1);
     assert.equal(sends, 1);
@@ -295,13 +324,13 @@ test('revoked refresh requests fail without publishing or exposing response data
   let sends = 0;
   const original = globalThis.fetch;
   try {
-    globalThis.fetch = async (url) => {
+    globalThis.fetch = withImageUploads(async (url) => {
       if (String(url).includes('/rest/posts')) sends++;
       return Response.json(
         { error: 'invalid_grant', error_description: 'private detail must not be logged' },
         { status: 400 },
       );
-    };
+    });
     const result = await publishDaily(config);
     assert.equal(result.status, 'failed');
     assert.equal(result.error, 'linkedin_refresh_http_400');
@@ -399,7 +428,7 @@ test('LinkedIn escaping preserves literal text and the early website link after 
   assert.equal(linkedinCommentary(reserved), [...reserved].map((c) => '\\' + c).join(''));
   const method = postText({ kind: 'method', id: 'creative', title: 'A guide' });
   assert.ok(
-    method.indexOf('https://insightginie.com/earn/creative/') < method.indexOf('Potential buyer:'),
+    method.indexOf('https://insightginie.com/earn/creative/') < method.indexOf('Who pays:'),
   );
 });
 
@@ -478,7 +507,7 @@ test('morning and evening publish independently, with one atomic evening claim a
   discoveryMethods(DB);
   const original = globalThis.fetch;
   const sent = [];
-  globalThis.fetch = async (url, options) => {
+  globalThis.fetch = withImageUploads(async (url, options) => {
     if (String(url).includes('api.linkedin.com')) {
       sent.push(JSON.parse(options.body));
       return new Response(null, {
@@ -487,7 +516,7 @@ test('morning and evening publish independently, with one atomic evening claim a
       });
     }
     return new Response(null, { status: 200 });
-  };
+  });
   try {
     const config = env(DB);
     assert.equal(
@@ -523,14 +552,14 @@ test('evening posts stop on broken sources and destinations, without sending to 
     discoveryMethods(DB);
     const original = globalThis.fetch;
     let posts = 0;
-    globalThis.fetch = async (url) => {
+    globalThis.fetch = withImageUploads(async (url) => {
       if (String(url).includes('api.linkedin.com')) {
         posts++;
         throw Error('must not post');
       }
       const isSite = String(url).startsWith('https://insightginie.com/');
       return new Response(null, { status: (broken === 'source' ? !isSite : isSite) ? 404 : 200 });
-    };
+    });
     try {
       const result = await publishDaily(env(DB), eveningTime, { slot: 'evening' });
       assert.equal(result.status, 'failed');
@@ -551,13 +580,13 @@ test('evening timeout is held, and its disable switch does not disable morning p
   discoveryMethods(DB);
   const original = globalThis.fetch;
   let posts = 0;
-  globalThis.fetch = async (url) => {
+  globalThis.fetch = withImageUploads(async (url) => {
     if (String(url).includes('api.linkedin.com')) {
       posts++;
       throw Error('timeout');
     }
     return new Response(null, { status: 200 });
-  };
+  });
   try {
     const config = env(DB);
     assert.equal(
@@ -602,7 +631,7 @@ test('21:00 Singapore cron selects the evening slot and protected previews stay 
   assert.equal(invalid.status, 400);
   const original = globalThis.fetch;
   const sent = [];
-  globalThis.fetch = async (url, options) => {
+  globalThis.fetch = withImageUploads(async (url, options) => {
     if (String(url).includes('api.linkedin.com')) {
       sent.push(JSON.parse(options.body));
       return new Response(null, {
@@ -611,11 +640,11 @@ test('21:00 Singapore cron selects the evening slot and protected previews stay 
       });
     }
     return new Response(null, { status: 200 });
-  };
+  });
   try {
     await worker.scheduled({ cron: '0 13 * * *', scheduledTime: eveningTime }, config);
     assert.equal(sent.length, 1);
-    assert.match(sent[0].commentary, /Evening Money Discovery/);
+    assert.match(sent[0].commentary, /You can get paid for getting confused/);
     assert.equal(DB.db.prepare('SELECT count(*) n FROM social_posts').get().n, 0);
   } finally {
     globalThis.fetch = original;
@@ -644,4 +673,203 @@ test('evening migration preserves existing morning receipts and is safe to reapp
   assert.equal(db.prepare('SELECT COUNT(*) n FROM social_posts').get().n, 1);
   assert.equal(db.prepare('SELECT COUNT(*) n FROM social_discovery_posts').get().n, 1);
   db.close();
+});
+
+test('image is uploaded before publishing and its receipt is saved with each post', async () => {
+  const DB = database();
+  source(DB);
+  job(DB);
+  const original = globalThis.fetch;
+  const actions = [];
+  globalThis.fetch = async (url, options) => {
+    actions.push(String(url));
+    if (String(url).includes('/rest/images/')) return Response.json({ status: 'AVAILABLE' });
+    if (String(url).includes('/rest/images?')) {
+      assert.equal(JSON.parse(options.body).initializeUploadRequest.owner, 'urn:li:person:test');
+      return Response.json({
+        value: {
+          image: 'urn:li:image:uploaded',
+          uploadUrl: 'https://www.linkedin.com/dms-uploads/test',
+        },
+      });
+    }
+    if (String(url).includes('/dms-uploads/')) {
+      assert.equal(options.method, 'PUT');
+      assert.equal(options.headers['Content-Type'], 'image/png');
+      assert.deepEqual(options.body, testPng);
+      return new Response(null, { status: 201 });
+    }
+    if (String(url).includes('/api/social-card/'))
+      return new Response(testPng, { headers: { 'content-type': 'image/png' } });
+    if (String(url).endsWith('/rest/posts')) {
+      const post = JSON.parse(options.body);
+      assert.equal(post.content.media.id, 'urn:li:image:uploaded');
+      assert.match(post.content.media.altText, /Remote engineer/);
+      assert.equal((post.commentary.match(/https:\/\/insightginie.com/g) || []).length, 1);
+      return new Response(null, { status: 201, headers: { 'x-restli-id': 'urn:li:share:visual' } });
+    }
+    return new Response(null, { status: 200 });
+  };
+  try {
+    assert.equal((await publishDaily(env(DB))).status, 'published');
+    assert(
+      actions.findIndex((x) => x.includes('/dms-uploads/')) <
+        actions.findIndex((x) => x.endsWith('/rest/posts')),
+    );
+    const receipt = DB.db.prepare('SELECT image_urn,visual_url FROM social_posts').get();
+    assert.equal(receipt.image_urn, 'urn:li:image:uploaded');
+    assert.equal(receipt.visual_url, 'https://insightginie.com/api/social-card/job/role-1/');
+  } finally {
+    globalThis.fetch = original;
+    DB.db.close();
+  }
+});
+
+test('failed image uploads hold posting without a silent text-only post or automatic retry', async () => {
+  const DB = database();
+  source(DB);
+  job(DB);
+  const original = globalThis.fetch;
+  let posts = 0;
+  globalThis.fetch = withImageUploads(async (url) => {
+    if (String(url).includes('/rest/posts')) posts++;
+    return new Response(null, { status: 200 });
+  });
+  const normal = globalThis.fetch;
+  globalThis.fetch = async (url, options) =>
+    String(url).includes('/dms-uploads/')
+      ? new Response(null, { status: 503 })
+      : normal(url, options);
+  try {
+    const result = await publishDaily(env(DB));
+    assert.equal(result.status, 'failed');
+    assert.equal(result.error, 'linkedin_image_upload_http_503');
+    assert.equal((await publishDaily(env(DB))).status, 'already-recorded');
+    assert.equal(posts, 0);
+  } finally {
+    globalThis.fetch = original;
+    DB.db.close();
+  }
+});
+
+test('upload rejects invalid images, oversized streams and untrusted upload hosts without leaking tokens', async () => {
+  const original = globalThis.fetch;
+  try {
+    for (const scenario of ['html', 'oversize', 'signature', 'host']) {
+      let external = 0;
+      globalThis.fetch = async (url) => {
+        if (String(url).includes('/api/social-card/'))
+          return scenario === 'html'
+            ? new Response('HTML', { headers: { 'content-type': 'text/html' } })
+            : new Response(
+                scenario === 'oversize'
+                  ? new Uint8Array(4000001)
+                  : scenario === 'signature'
+                    ? new Uint8Array(8)
+                    : testPng,
+                { headers: { 'content-type': 'image/png' } },
+              );
+        if (String(url).includes('/rest/images?'))
+          return Response.json({
+            value: {
+              image: 'urn:li:image:test',
+              uploadUrl: 'https://evil.example/dms-uploads/test',
+            },
+          });
+        external++;
+        return new Response(null, { status: 200 });
+      };
+      await assert.rejects(
+        () =>
+          uploadPostImage(
+            { access_token: 'secret', person_urn: 'urn:li:person:test' },
+            postVisual({ id: 'role', title: 'Role' }),
+          ),
+        /linkedin_image_/,
+      );
+      assert.equal(external, 0);
+    }
+  } finally {
+    globalThis.fetch = original;
+  }
+});
+
+test('job selection rejects the company-introduction phrasing from the Fresh Prints post', () => {
+  assert.equal(
+    postScore({
+      organization: 'Fresh Prints',
+      location: 'Philippines',
+      excerpt:
+        'We work with talented student entrepreneurs and provide working capital, training, and support to build businesses at their schools. The Customer Experience Associate',
+    }),
+    -1,
+  );
+});
+
+test('image migration retains published receipts and permits per-slot image evidence', () => {
+  const db = new DatabaseSync(':memory:');
+  for (const file of ['0001_catalog.sql', '0002_automation.sql', '0003_evening_discoveries.sql'])
+    db.exec(readFileSync(new URL(`./migrations/${file}`, import.meta.url), 'utf8'));
+  db.prepare(
+    "INSERT INTO social_posts(day,status,started_at,post_id) VALUES('2026-10-20','published','test','urn:li:share:existing')",
+  ).run();
+  db.exec(readFileSync(new URL('./migrations/0004_social_images.sql', import.meta.url), 'utf8'));
+  const receipt = db.prepare('SELECT post_id,status,image_urn FROM social_posts').get();
+  assert.equal(receipt.post_id, 'urn:li:share:existing');
+  assert.equal(receipt.status, 'published');
+  assert.equal(receipt.image_urn, null);
+  assert.equal(db.prepare('SELECT max(version) v FROM schema_migrations').get().v, 4);
+  db.close();
+});
+
+test('image readiness waits for AVAILABLE and supports documented legacy member-token status reads', async () => {
+  const original = globalThis.fetch;
+  let reads = 0;
+  const normal = withImageUploads(async () => {
+    throw Error('Unexpected request');
+  });
+  globalThis.fetch = async (url, options) => {
+    if (String(url).includes('/rest/images/')) {
+      reads++;
+      if (options.headers['LinkedIn-Version']) return new Response(null, { status: 403 });
+      return Response.json({ status: reads === 2 ? 'PROCESSING' : 'AVAILABLE' });
+    }
+    return normal(url, options);
+  };
+  try {
+    assert.equal(
+      await uploadPostImage(
+        { access_token: 'test', person_urn: 'urn:li:person:test' },
+        postVisual({ id: 'role', title: 'Role' }),
+      ),
+      'urn:li:image:test',
+    );
+    assert.equal(reads, 3);
+  } finally {
+    globalThis.fetch = original;
+  }
+});
+test('failed image processing never proceeds to a feed post', async () => {
+  const DB = database();
+  source(DB);
+  job(DB);
+  const original = globalThis.fetch;
+  let posts = 0;
+  const normal = withImageUploads(async (url) => {
+    if (String(url).includes('/rest/posts')) posts++;
+    return new Response(null, { status: 200 });
+  });
+  globalThis.fetch = async (url, options) =>
+    String(url).includes('/rest/images/')
+      ? Response.json({ status: 'PROCESSING_FAILED' })
+      : normal(url, options);
+  try {
+    const result = await publishDaily(env(DB));
+    assert.equal(result.status, 'failed');
+    assert.equal(result.error, 'linkedin_image_processing_failed');
+    assert.equal(posts, 0);
+  } finally {
+    globalThis.fetch = original;
+    DB.db.close();
+  }
 });

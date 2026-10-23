@@ -1,0 +1,23 @@
+# Earning homepage and LinkedIn visuals
+
+23 October 2026. The homepage now makes remote work and creative earning routes the primary product. It shows live catalog counts, three roles with numeric source-listed pay, four practical entry routes, three real earning guides and a business experiment call to action. Calculators remain available through a smaller decision-tools section. Catalog failures produce a visible fallback rather than fabricated listings. Homepage figures describe source listings and guides, not guaranteed available paid tasks or income.
+
+Morning posts keep real source excerpts, eligibility and arrangement, use a single early canonical website link and omit repetitive template footers. Method posts use 24 topic-specific hooks. Evening posts retain the reviewed daily queue, facts, original references and caveats; the trial still ends on 2 November. The Fresh Prints company-introduction phrase no longer qualifies a job for selection. This is a bounded text heuristic, not verification of full job responsibilities.
+
+Every scheduled post now requires a relevant original branded 1200×1200 PNG, generated from a known job, earning guide or reviewed discovery. Job cards show the role, organization, source-listed pay when numeric, country restriction and arrangement. Method and discovery cards show a relevant hook and practical step. Illustrative calculations are identified. The first-party `/api/social-card/{job|method|discovery}/{id}/` route rejects unknown or closed/expired jobs, returns noindex/noimageindex and has no arbitrary text input. No stock API, stock photos or image model is used.
+
+The Worker fetches the PNG into a capped 4 MB memory buffer, initializes a personal LinkedIn image upload, validates the HTTPS upload host, uploads the PNG, waits for LinkedIn to report AVAILABLE and attaches its image URN with alternate text to the post. No local temporary images or bucket objects are written, so no scheduled file garbage collector is needed. The image remains in LinkedIn storage after upload. Production image bytes may be held briefly in HTTP caches; they are generated public editorial content, not private user data.
+
+Migration 0004 adds image URN and visual URL evidence to both independent daily posting ledgers without changing existing post receipts. Dry-run previews include the image URL and alternate text but do not upload anything. A failed image stage holds the post rather than silently publishing text only. Ambiguous post-create outcomes retain the existing uncertain status and are never automatically retried. The upload URL and tokens never enter public reports. Image upload success alone does not verify the appearance of a published feed post or establish performance gains.
+
+## Verification and operations
+
+`node --test apps/opportunities/*.test.mjs` covers independent slots, atomic claiming, upload-before-post behavior, image evidence, rejected content and upload hosts, failed uploads, ambiguous posts, source checks and additive migration. Browser checks cover mobile/desktop accessibility, no-JavaScript navigation, PNG dimensions and existing analytics/advertising boundaries.
+
+`node scripts/opportunities/verify-visuals.mjs` checks public deployed pages and images without publishing. With the private Cloudflare environment loaded, `--upload` additionally tests one actual LinkedIn media upload. It never creates a feed post. Its receipt is `docs/verification/earning-visuals-live.json`.
+
+Official API references: [LinkedIn Images API](https://learn.microsoft.com/en-us/linkedin/marketing/community-management/shares/images-api) and [LinkedIn Posts API](https://learn.microsoft.com/en-us/linkedin/marketing/community-management/shares/posts-api). The existing API version and personal posting credentials are retained. `w_member_social` is write-only for versioned image GETs; when a versioned status read returns 403, the flow uses the legacy GET documented by LinkedIn for this permission. Other denied or failed status checks hold the post.
+
+GA4 G-4HQVZL3586, AdSense ca-pub-8735749779872017 and consent/private-calculator boundaries remain in place. This release does not add per-post attribution or application tracking, connect Google APIs, extend the evening trial, or claim traffic/revenue improvements. Actual clicks and post performance still require review.
+
+The no-JavaScript navigation check also exposed an existing advertising notice overlay whose disabled buttons could cover page links. Its UI now waits for hydration before appearing; server-side regional consent and script loading policies are unchanged. This permits ordinary HTML links to work without JavaScript.

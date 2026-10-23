@@ -13,7 +13,10 @@ export function AdvertisingPreferences({
 }) {
   const ready = useHydrated();
   const [open, setOpen] = useState(false);
-  const visible = open || (showNotice && preference !== 'allow' && preference !== 'deny');
+  // The controls require hydration. Do not cover page links with a notice whose
+  // buttons cannot work when JavaScript is disabled. Consent policy stays server-side.
+  const visible =
+    ready && (open || (showNotice && preference !== 'allow' && preference !== 'deny'));
 
   function choose(value: 'allow' | 'deny') {
     document.cookie = `${AD_PREFERENCE_COOKIE}=${value}; Path=/; Max-Age=15552000; SameSite=Lax${location.protocol === 'https:' ? '; Secure' : ''}`;

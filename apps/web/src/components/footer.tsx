@@ -22,11 +22,11 @@ export function Footer({
                 insight<span className="brand-light">ginie</span>.
               </span>
             </Link>
-            <p>A little perspective for life’s big decisions.</p>
+            <p>Remote work. Creative ways to earn. Your next move.</p>
             <p className="footer-note">
-              Independent data. Transparent calculations.
+              Practical first steps. Original sources.
               <br />
-              Built around you.
+              Explore what’s possible.
             </p>
           </div>
           <div>

@@ -1,0 +1,63 @@
+{
+  "verifiedAt": "2026-10-23T12:32:16.164181+00:00",
+  "status": "candidate_verified",
+  "buildId": "olT58fpH5T7vVAG7BNMTZ",
+  "scope": "Earning homepage, concise LinkedIn copy, original record-backed social image cards and upload readiness",
+  "checks": {
+    "unitTests": 414,
+    "workerTests": 33,
+    "operationalTests": 35,
+    "candidateBrowserTests": 36,
+    "browserFailures": 0,
+    "lint": "passed (full repository and final Worker changes)",
+    "typecheck": "passed (standalone and final Next build)",
+    "candidateBuild": "passed",
+    "contentValidation": "passed",
+    "mobileAndAccessibility": "320, 375, 390, 430, 768, 1280 and 1440px checks passed",
+    "noJavaScriptNavigation": "passed",
+    "ga4AndAdsenseConsentRegression": "passed",
+    "discoveryCardsRendered": 14,
+    "credentialScan": {
+      "filesScanned": 134,
+      "credentialMatches": 0,
+      "matchedPaths": [],
+      "scope": "Web and SEO source plus final candidate browser JavaScript, compared against configured private credentials without printing values"
+    }
+  },
+  "graphify": {
+    "refresh": {
+      "timestamp": "2026-10-23T12:32:16.031440+00:00",
+      "mode": "incremental",
+      "source_files": 138,
+      "changed_files": 2,
+      "deleted_files": 0,
+      "nodes": 610,
+      "edges": 1219,
+      "communities": 42,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "semantic_extraction": false
+    },
+    "warning": "Deterministic structural map has dangling external references and collapsed relationships; it is not complete runtime evidence.",
+    "health": {
+      "dangling_endpoint_edges": 17,
+      "missing_endpoint_edges": 0,
+      "exact_duplicate_edges": 0,
+      "undirected_same_endpoint_collapsed_edges": 0
+    }
+  },
+  "evidence": {
+    "browser": "artifacts/earning-browser-accepted.json",
+    "worker": "artifacts/earning-worker-tests.txt",
+    "desktopScreenshot": "artifacts/earning-home-1440.png",
+    "mobileScreenshot": "artifacts/earning-home-390.png",
+    "guide": "docs/earning-home-and-social.md"
+  },
+  "limitations": [
+    "No extra feed post is created during QA; actual image attachment in a scheduled feed post is not yet independently verified.",
+    "Evening trial ends 2026-11-02; no automatic extension or fresh editorial research queue added.",
+    "No claim of improved traffic, ad revenue, ranking or Google indexing.",
+    "No per-post visit/application attribution added.",
+    "No new Lighthouse or field performance measurement for this release."
+  ]
+}

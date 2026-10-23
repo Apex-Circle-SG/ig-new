@@ -3,41 +3,72 @@ import { SiteLink as Link } from '@insightginie/ui';
 import {
   ArrowRight,
   ArrowUpRight,
-  BarChart3,
   Check,
-  CircleDollarSign,
-  Database,
-  Fingerprint,
-  ShieldCheck,
-  Sparkles,
+  Globe2,
+  Lightbulb,
+  MousePointer2,
+  Palette,
 } from 'lucide-react';
 import { safeJsonLd } from '@insightginie/seo';
-import { getIndividualIncomeDistribution } from '@insightginie/datasets';
-import { calculateIndividualIncomePercentile } from '@insightginie/calculators';
-import { PrivateIncomeTool } from '../components/private-income-tool';
-import { Command } from '../components/command';
+import {
+  catalog,
+  type CatalogStats,
+  type EarningMethod,
+  type OpportunityResults,
+} from '../lib/opportunities';
+import styles from './home.module.css';
+
+const routes = [
+  {
+    name: 'Find remote work',
+    label: 'A role that fits your life',
+    href: '/opportunities/',
+    icon: Globe2,
+    text: 'Explore employer-listed roles. Check the country, arrangement and listed pay before you apply.',
+    color: 'violet',
+  },
+  {
+    name: 'Get paid for your perspective',
+    label: 'Research & testing',
+    href: '/earn/paid-research/',
+    icon: MousePointer2,
+    text: 'Website testing, research interviews and mock juries. Learn how selection and eligibility work.',
+    color: 'green',
+  },
+  {
+    name: 'Make something worth selling',
+    label: 'Creative services & products',
+    href: '/earn/creative-services/',
+    icon: Palette,
+    text: 'Turn a useful skill into an offer, or explore templates, assets and other digital products.',
+    color: 'peach',
+  },
+  {
+    name: 'Try an unusual idea',
+    label: 'Small business experiments',
+    href: '/ideas/',
+    icon: Lightbulb,
+    text: 'Playful services and tiny businesses, with a possible buyer and a small experiment to try.',
+    color: 'yellow',
+  },
+];
 export default async function Home() {
   const nonce = (await headers()).get('x-nonce') ?? undefined;
-  const distribution = getIndividualIncomeDistribution();
-  const example = calculateIndividualIncomePercentile(
-    { annualIncome: 75000 },
-    {
-      distribution,
-      calculatedAt: distribution?.datasetVersion.retrievedAt ?? '2026-09-12T00:00:00.000Z',
-    },
-  );
-  const preview =
-    distribution && example.result?.percentile != null
-      ? {
-          incomeLabel: new Intl.NumberFormat('en-US', {
-            style: 'currency',
-            currency: 'USD',
-            maximumFractionDigits: 0,
-          }).format(example.result.annualIncome),
-          percentileLabel: `${Math.floor(example.result.percentile * 10) / 10}%`,
-          year: distribution.datasetVersion.year,
-        }
-      : null;
+  const [stats, roles, methods] = await Promise.all([
+    catalog<CatalogStats>('/v1/stats'),
+    catalog<OpportunityResults>('/v1/opportunities?category=jobs&paid=1'),
+    catalog<{ items: EarningMethod[] }>('/v1/methods'),
+  ]);
+  const featuredIds = ['website-user-testing', 'mock-jury', 'sell-notion-templates'];
+  const featured = featuredIds.flatMap((id) => methods?.items.find((m) => m.id === id) ?? []);
+  const jobs =
+    roles?.items
+      .filter((job) => /\d/.test(job.reward))
+      .filter(
+        (job, index, items) =>
+          items.findIndex((other) => other.organization === job.organization) === index,
+      )
+      .slice(0, 3) ?? [];
   return (
     <>
       <script
@@ -54,32 +85,27 @@ export default async function Home() {
           }),
         }}
       />
-      <section className="hero shell">
-        <div className="hero-copy">
-          <div className="eyebrow">
-            <span className="tiny-spark">✦</span> YOUR NEXT POSSIBILITY
-          </div>
+      <section className={`shell ${styles.hero}`}>
+        <div>
+          <p className={styles.eyebrow}>YOUR NEXT MOVE STARTS HERE</p>
           <h1>
-            Discover ways
+            Find your next
             <br />
-            to <span>earn.</span>
+            way to <span>earn.</span>
           </h1>
-          <p className="hero-description">
-            Find remote work, flexible contracts and creative ways to make money. Explore real
-            sources, practical first steps and unusual ideas worth testing.
+          <p className={styles.intro}>
+            A remote role. A creative side project. A surprisingly useful skill. Discover
+            possibilities—and what it actually takes to get started.
           </p>
-          <p className="hero-suggestions">
-            <Link href="/earn/">Explore ways to earn →</Link>
-            <Link href="/opportunities/">Find remote work →</Link>
-          </p>
-          <Command />
-          <div className="hero-suggestions">
-            <span>Start here</span>
-            <Link prefetch={false} href="/calc/individual-income-percentile/">
-              How does my income compare? <ArrowUpRight size={13} />
+          <div className={styles.actions}>
+            <Link href="/opportunities/" className={styles.primary}>
+              Find remote work <ArrowRight size={18} />
+            </Link>
+            <Link href="/earn/" className={styles.secondary}>
+              Explore ways to earn <ArrowUpRight size={18} />
             </Link>
           </div>
-          <div className="hero-reassurance">
+          <div className={styles.checks}>
             <span>
               <Check size={15} /> Free to explore
             </span>
@@ -87,208 +113,206 @@ export default async function Home() {
               <Check size={15} /> No account needed
             </span>
             <span>
-              <Check size={15} /> Source-linked opportunities
+              <Check size={15} /> Original sources linked
             </span>
           </div>
         </div>
-        <div className="hero-visual">
-          <div className="preview-orbit orbit-one" />
-          <div className="preview-orbit orbit-two" />
-          <div className="preview-label">
-            <Sparkles size={14} /> A number becomes an insight
+        <div className={styles.board}>
+          <div className={styles.boardTop}>
+            <span>THE POSSIBILITY BOARD</span>
+            <span className={styles.dot}>Explore a different route</span>
           </div>
-          <PrivateIncomeTool compact preview={preview} />
-          <div className="preview-footnote">
-            <LockIcon />
-            Your financial picture belongs to you.
-          </div>
-        </div>
-      </section>
-      <div className="trust-strip">
-        <div className="shell trust-strip-inner">
-          <span>
-            REAL SOURCES.
-            <br />
-            <strong>A CLEARER PICTURE.</strong>
-          </span>
-          <div>
-            <Database size={23} />
-            <span>
-              US Census Bureau<small>Our first income dataset</small>
-            </span>
-          </div>
-          <div>
-            <ShieldCheck size={24} />
-            <span>
-              Transparent methods<small>Every assumption explained</small>
-            </span>
-          </div>
-          <div>
-            <Fingerprint size={24} />
-            <span>
-              Private by design<small>Your income stays in your browser</small>
-            </span>
-          </div>
-        </div>
-      </div>
-      <section className="shell section" id="explore">
-        <div
-          style={{
-            padding: '28px',
-            marginBottom: '40px',
-            borderRadius: '18px',
-            background: '#edf4ef',
-            border: '1px solid #d7e4dc',
-          }}
-        >
-          <div className="eyebrow">YOUR NEXT POSSIBILITY</div>
-          <h2 style={{ margin: '12px 0' }}>Find an opportunity. Or create your own.</h2>
-          <p style={{ lineHeight: 1.8 }}>
-            Explore remote roles, platforms for paid tasks and research, and practical or
-            wonderfully unusual business ideas to test.
-          </p>
-          <p>
-            <Link href="/opportunities/">Explore opportunities →</Link>
-            {' · '}
-            <Link href="/earn/">Explore creative earning methods →</Link>
-            {' · '}
-            <Link href="/ideas/">Visit the idea lab →</Link>
-          </p>
-        </div>
-        <div className="section-top">
-          <div>
-            <div className="eyebrow">FOLLOW YOUR CURIOSITY</div>
-            <h2>Good questions. Clearer answers.</h2>
-            <p>Start with where you are. Then explore where you could go.</p>
-          </div>
-          <Link prefetch={false} href="/tools/" className="text-link">
-            Explore calculators <ArrowRight size={16} />
-          </Link>
-        </div>
-        <div className="insight-grid">
-          <Link
-            prefetch={false}
-            className="insight-card active-card"
-            href="/calc/individual-income-percentile/"
-          >
-            <div className="card-top">
-              <span className="feature-icon violet">
-                <BarChart3 size={23} />
-              </span>
-              <span className="pill available">Ready to explore</span>
+          <Link className={styles.spotlight} href="/earn/website-user-testing/">
+            <div className={styles.motif} aria-hidden="true">
+              <MousePointer2 size={42} />
+              <span>“Where do I click?”</span>
             </div>
-            <h3>
-              Where does my <br />
-              income stand?
-            </h3>
-            <p>Put your individual income in context with the US income distribution.</p>
-            <div className="card-bottom">
-              <span>Income percentile</span>
-              <ArrowUpRight size={21} />
-            </div>
-          </Link>
-          <Link href="/tools/cash-runway/" className="insight-card active-card">
-            <div className="card-top">
-              <span className="feature-icon green">
-                <CircleDollarSign size={23} />
-              </span>
-              <span className="pill available">Ready to explore</span>
-            </div>
-            <h3>
-              How long will <br />
-              my cash last?
-            </h3>
-            <p>Explore business cash runway with your own revenue, expenses and reserve.</p>
-            <div className="card-bottom">
-              <span>Cash runway planner</span>
-              <ArrowUpRight size={20} />
-            </div>
-          </Link>
-          <Link href="/tools/ai-workflow-roi/" className="insight-card active-card">
-            <div className="card-top">
-              <span className="feature-icon peach">
-                <Sparkles size={23} />
-              </span>
-              <span className="pill available">Ready to explore</span>
-            </div>
-            <h3>
-              Does automation <br />
-              pay for itself?
-            </h3>
-            <p>Compare time saved, review effort and software costs in an AI workflow.</p>
-            <div className="card-bottom">
-              <span>AI workflow ROI</span>
-              <ArrowUpRight size={21} />
-            </div>
-          </Link>
-        </div>
-      </section>
-      <section className="principles-section">
-        <div className="shell principles-inner">
-          <div>
-            <div className="eyebrow">LESS GUESSWORK. MORE UNDERSTANDING.</div>
-            <h2>
-              You bring the question.
-              <br />
-              We bring the context.
-            </h2>
+            <span className={styles.eyebrow}>PAID RESEARCH & TESTING</span>
+            <h2>Your confusion can be useful feedback.</h2>
             <p>
-              Big decisions deserve more than a single number. We make public data personal, with
-              the workings always in view.
+              Some companies pay eligible participants to try websites and explain what’s confusing.
+              You’ll need to qualify for each test.
             </p>
-            <Link prefetch={false} href="/about/" className="text-link">
-              Meet InsightGinie <ArrowRight size={16} />
+            <strong>
+              See how website testing works <ArrowUpRight size={17} />
+            </strong>
+          </Link>
+          <div className={styles.boardBottom}>
+            <span>Curiosity → practical first step</span>
+            <Link href="/earn/">
+              Explore the methods <ArrowRight size={15} />
             </Link>
           </div>
-          <div className="principle-list">
-            <div>
-              <span>01</span>
-              <div>
-                <h3>Start with real data</h3>
-                <p>
-                  Published US Census figures, with the source and year right beside your result.
-                </p>
-              </div>
-            </div>
-            <div>
-              <span>02</span>
-              <div>
-                <h3>Make it about you</h3>
-                <p>
-                  Enter a number. See a comparison. Change an input and explore a different
-                  scenario.
-                </p>
-              </div>
-            </div>
-            <div>
-              <span>03</span>
-              <div>
-                <h3>Understand the whole picture</h3>
-                <p>See the assumptions and limits, so an estimate never looks like a certainty.</p>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
-      <section className="shell closing-section">
-        <div className="closing-card">
-          <span className="closing-spark">✦</span>
+      <div className={styles.band}>
+        <div className={`shell ${styles.bandInner}`}>
+          {stats ? (
+            <>
+              <span>
+                <strong>{stats.opportunities.toLocaleString('en-US')}</strong> active source
+                listings
+              </span>
+              <span>
+                <strong>{stats.methods}</strong> earning guides
+              </span>
+              <span>
+                <strong>{stats.ideas}</strong> business experiments
+              </span>
+            </>
+          ) : (
+            <span>Explore remote work, earning guides and business experiments</span>
+          )}
+          <Link href="/opportunities/sources/">
+            See our sources & updates <ArrowUpRight size={16} />
+          </Link>
+        </div>
+      </div>
+      <section className={`shell ${styles.section}`}>
+        <div className={styles.sectionTop}>
           <div>
-            <h2>Your next insight starts with one number.</h2>
-            <p>No sign-up. No pressure. Just a little more clarity.</p>
+            <p className={styles.eyebrow}>CHOOSE YOUR STARTING POINT</p>
+            <h2>More than one way forward.</h2>
           </div>
+          <p>Find a route that matches your skills, time and curiosity.</p>
+        </div>
+        <div className={styles.routes}>
+          {routes.map(({ icon: Icon, ...route }) => (
+            <Link
+              key={route.href}
+              href={route.href}
+              className={`${styles.route} ${styles[route.color]}`}
+            >
+              <Icon size={29} />
+              <span className={styles.eyebrow}>{route.label}</span>
+              <h3>{route.name}</h3>
+              <p>{route.text}</p>
+              <span className={styles.routeArrow}>
+                <ArrowUpRight size={22} />
+              </span>
+            </Link>
+          ))}
+        </div>
+      </section>
+      <section className={styles.workSection}>
+        <div className={`shell ${styles.section}`}>
+          <div className={styles.sectionTop}>
+            <div>
+              <p className={styles.eyebrow}>REMOTE WORK · SOURCE-LISTED PAY</p>
+              <h2>A few roles to explore.</h2>
+            </div>
+            <Link href="/opportunities/" className={styles.textLink}>
+              Browse all opportunities <ArrowRight size={17} />
+            </Link>
+          </div>
+          {jobs.length ? (
+            <div className={styles.jobs}>
+              {jobs.map((job) => (
+                <article key={job.id} className={styles.job}>
+                  <span className={styles.eyebrow}>{job.organization}</span>
+                  <h3>
+                    <Link href={`/opportunities/${job.id}/`}>{job.title}</Link>
+                  </h3>
+                  <p className={styles.pay}>{job.reward}</p>
+                  <p>
+                    <Globe2 size={16} /> {job.location}
+                  </p>
+                  <p>{job.employment_type || 'Arrangement not supplied'}</p>
+                  <div className={styles.jobFoot}>
+                    <span>Via {job.source_name}</span>
+                    <Link href={`/opportunities/${job.id}/`}>
+                      See the role <ArrowUpRight size={16} />
+                    </Link>
+                  </div>
+                </article>
+              ))}
+            </div>
+          ) : (
+            <p>
+              We couldn’t load paid-role examples right now.{' '}
+              <Link href="/opportunities/">Browse the opportunity catalog →</Link>
+            </p>
+          )}
+          <p className={styles.note}>
+            Remote can be restricted to specific countries. Pay and eligibility come from the
+            source; confirm current details with the employer.
+          </p>
+        </div>
+      </section>
+      <section className={`shell ${styles.section}`}>
+        <div className={styles.sectionTop}>
+          <div>
+            <p className={styles.eyebrow}>BEYOND THE JOB BOARD</p>
+            <h2>“Wait, that’s a way to earn?”</h2>
+          </div>
+          <Link href="/earn/" className={styles.textLink}>
+            Explore all earning guides <ArrowRight size={17} />
+          </Link>
+        </div>
+        <div className={styles.methods}>
+          {featured.map((method, index) => (
+            <article key={method.id} className={styles.method}>
+              <div
+                className={`${styles.methodArt} ${styles[['green', 'peach', 'violet'][index]]}`}
+                aria-hidden="true"
+              >
+                <span>
+                  {['Speak your mind.', 'Consider the case.', 'Package your process.'][index]}
+                </span>
+                <span className={styles.artNumber}>0{index + 1}</span>
+              </div>
+              <span className={styles.eyebrow}>{method.category}</span>
+              <h3>
+                <Link href={`/earn/${method.id}/`}>{method.title}</Link>
+              </h3>
+              <p>{method.description}</p>
+              <Link href={`/earn/${method.id}/`} className={styles.textLink}>
+                See the first step <ArrowRight size={16} />
+              </Link>
+            </article>
+          ))}
+        </div>
+        {!featured.length && (
+          <p>
+            Our earning guides are temporarily unavailable.{' '}
+            <Link href="/earn/">Try the guide directory →</Link>
+          </p>
+        )}
+        <p className={styles.note}>
+          These are methods to explore, not available paid assignments or promises of income.
+        </p>
+      </section>
+      <section className={`shell ${styles.bottom}`}>
+        <div>
+          <p className={styles.eyebrow}>SMALL EXPERIMENT. REAL LEARNING.</p>
+          <h2>
+            You don’t need a million-dollar idea.
+            <br />
+            Start with one useful offer.
+          </h2>
+          <p>
+            Explore unusual services and tiny businesses. Each idea includes a potential buyer, a
+            first experiment and the catch.
+          </p>
+          <Link href="/ideas/" className={styles.primary}>
+            Find an idea to test <ArrowRight size={18} />
+          </Link>
+        </div>
+        <div className={styles.tools}>
+          <h3>Make the numbers work, too.</h3>
+          <p>Use our calculators to explore income, cash runway and the cost of automation.</p>
+          <Link prefetch={false} href="/tools/" className={styles.textLink}>
+            Explore decision tools <ArrowUpRight size={17} />
+          </Link>
           <Link
             prefetch={false}
             href="/calc/individual-income-percentile/"
-            className="button primary"
+            className={styles.textLink}
           >
-            See where I stand <ArrowRight size={17} />
+            Compare my income <ArrowUpRight size={17} />
           </Link>
         </div>
       </section>
     </>
   );
-}
-function LockIcon() {
-  return <ShieldCheck size={14} />;
 }

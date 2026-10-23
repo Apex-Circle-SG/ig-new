@@ -40,6 +40,8 @@ if (!versions[0].results.some((row) => row.version === 3))
   await query(
     await readFile(resolve(directory, 'migrations/0003_evening_discoveries.sql'), 'utf8'),
   );
+if (!versions[0].results.some((row) => row.version === 4))
+  await query(await readFile(resolve(directory, 'migrations/0004_social_images.sql'), 'utf8'));
 const literal = (value) =>
   value == null
     ? 'NULL'

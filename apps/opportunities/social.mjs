@@ -1,3 +1,4 @@
+import socialHooks from './data/social-hooks.json' with { type: 'json' };
 import { chooseDiscovery, DISCOVERY_TRIAL } from './discoveries.mjs';
 
 const API_VERSION = '202609';
@@ -32,7 +33,7 @@ function excerptOf(item) {
     700,
   );
   const match =
-    /(?:responsibilit(?:y|ies)|requirements|qualifications|what you(?:'|’)ll do|you will|you(?:'|’)ll|your role|the role|we(?:'|’)re looking for|we are looking for|you have|work with|build (?:customer|services)|design and|develop and|experience (?:in|with))/i.exec(
+    /(?:responsibilit(?:y|ies)|requirements|qualifications|what you(?:'|’)ll do|you will|you(?:'|’)ll|your role|the role|we(?:'|’)re looking for|we are looking for|you have|(?:^|[.!] )build |(?:^|[.!] )improve |design and|develop and|experience (?:in|with))/i.exec(
       text,
     );
   if (!match) return '';
@@ -66,45 +67,160 @@ export function postDestination(item) {
   return `https://insightginie.com/${path}/${encodeURIComponent(item.kind === 'discovery' ? item.method_id : item.id)}/`;
 }
 export function postText(item) {
+  const url = postDestination(item);
   if (item.kind === 'discovery')
     return [
       clean(item.hook, 220),
-      `The practical guide on InsightGinie:\n${postDestination(item)}`,
-      clean(item.explanation, 600),
-      `Try this: ${clean(item.takeaway, 300)}`,
-      clean(item.caveat, 320),
-      `${item.type === 'calculation' ? 'Illustrative calculation' : 'Source'}: ${clean(item.source_name)}. Reviewed ${clean(item.reviewed_on, 10)}; original reference is in the guide.`,
-      'Evening Money Discovery · #WaysToEarn #FutureOfWork',
+      `The guide and practical first step:\n${url}`,
+      clean(item.explanation, 500),
+      `Try this: ${clean(item.takeaway, 250)}`,
+      clean(item.caveat, 260),
+      `${item.type === 'calculation' ? 'Illustrative calculation' : 'Source'}: ${clean(item.source_name)}. Original reference and review date are in the guide.`,
     ].join('\n\n');
-  const method = item.kind === 'method';
-  const url = postDestination(item);
-  if (method)
+  if (item.kind === 'method')
     return [
-      `Who would pay for this? ${clean(item.title)}`,
-      `Explore the guide on InsightGinie:\n${url}`,
+      clean(socialHooks[item.id] || item.title, 220),
+      `How it works and where to start:\n${url}`,
       clean(item.description, 300),
-      `Potential buyer: ${clean(item.buyer, 220)}`,
-      `Your first step: ${clean(item.first_step, 300)}`,
-      `Reality check: ${clean(item.risks, 300)}`,
-      'This is a method to explore, not an available paid assignment. Earnings depend on eligibility, selection or demand.',
-      `See the steps, requirements and original platform:\n${url}`,
-      '#SideHustle #CreativeBusiness',
+      `Who pays: ${clean(item.buyer, 200)}`,
+      `Try one small step: ${clean(item.first_step, 250)}`,
+      `The catch: ${clean(item.risks, 250)}`,
+      'A method to explore, not an available paid assignment. Selection, demand and earnings vary.',
     ].join('\n\n');
   const skills = skillsOf(item);
   return [
-    `${clean(item.organization)} is hiring: ${clean(item.title)}${hasPay(item) ? ` — ${clean(item.reward)}` : ''}`,
-    `Full details and how to apply on InsightGinie:\n${url}`,
+    `${clean(item.title)} at ${clean(item.organization)}${hasPay(item) ? ` — ${clean(item.reward)}` : ''}`,
+    `Role brief and application route:\n${url}`,
     `From the job listing:\n${excerptOf(item)}`,
     skills.length ? `Skills listed: ${skills.join(' · ')}` : null,
-    `🌍 Remote eligibility: ${clean(item.location)}\n🕒 ${clean(item.employment_type || 'Arrangement not specified')}\n💰 ${hasPay(item) ? clean(item.reward) : 'Salary not disclosed'}`,
+    `Location eligibility: ${clean(item.location)}\nArrangement: ${clean(item.employment_type || 'Not specified')}${hasPay(item) ? '' : '\nSalary not disclosed'}`,
     item.expires_at ? `Listed deadline: ${clean(item.expires_at, 40)}` : null,
-    `Source: ${clean(item.source_name || item.organization)}. Remote does not always mean worldwide; confirm requirements and availability with the employer.`,
-    `See the full brief and application link:\n${url}`,
-    'Know someone suited to this role? Send it their way.',
-    '#RemoteWork #RemoteJobs',
+    `Source: ${clean(item.source_name || item.organization)}. Check current requirements with the employer; remote can be restricted by country.`,
   ]
     .filter(Boolean)
     .join('\n\n');
+}
+export function postVisual(item) {
+  const kind = item.kind === 'discovery' ? 'discovery' : item.kind === 'method' ? 'method' : 'job';
+  return {
+    url: `https://insightginie.com/api/social-card/${kind}/${encodeURIComponent(item.id)}/`,
+    alt: clean(
+      kind === 'job'
+        ? `${item.title} at ${item.organization}. Eligibility: ${item.location}. ${hasPay(item) ? item.reward : 'Salary not disclosed'}.`
+        : item.hook || item.title,
+      300,
+    ),
+    title: clean(item.title || item.hook, 180),
+  };
+}
+// Only first-party, record-backed PNGs are fetched. Bytes stay in memory and are
+// released after the request; no temporary files, object bucket or stock licence.
+export async function uploadPostImage(value, visual) {
+  if (
+    !/^https:\/\/insightginie\.com\/api\/social-card\/(job|method|discovery)\/[a-zA-Z0-9_-]{1,150}\/$/.test(
+      visual.url,
+    )
+  )
+    throw new Error('linkedin_image_invalid_source');
+  const image = await fetch(visual.url, { signal: AbortSignal.timeout(20000), redirect: 'manual' });
+  if (!image.ok || !image.headers.get('content-type')?.startsWith('image/png')) {
+    await image.body?.cancel();
+    throw new Error('linkedin_image_fetch_failed');
+  }
+  if (Number(image.headers.get('content-length')) > 4000000) {
+    await image.body?.cancel();
+    throw new Error('linkedin_image_too_large');
+  }
+  const reader = image.body?.getReader();
+  if (!reader) throw new Error('linkedin_image_fetch_failed');
+  const chunks = [];
+  let length = 0;
+  try {
+    while (true) {
+      const { done, value: chunk } = await reader.read();
+      if (done) break;
+      length += chunk.length;
+      if (length > 4000000) throw new Error('linkedin_image_too_large');
+      chunks.push(chunk);
+    }
+  } finally {
+    await reader.cancel();
+  }
+  const bytes = new Uint8Array(length);
+  let offset = 0;
+  for (const chunk of chunks) {
+    bytes.set(chunk, offset);
+    offset += chunk.length;
+  }
+  if (length < 8 || ![137, 80, 78, 71, 13, 10, 26, 10].every((v, i) => bytes[i] === v))
+    throw new Error('linkedin_image_invalid');
+  const initialized = await fetch('https://api.linkedin.com/rest/images?action=initializeUpload', {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${value.access_token}`,
+      'Content-Type': 'application/json',
+      'LinkedIn-Version': API_VERSION,
+      'X-Restli-Protocol-Version': '2.0.0',
+    },
+    body: JSON.stringify({ initializeUploadRequest: { owner: value.person_urn } }),
+    signal: AbortSignal.timeout(15000),
+    redirect: 'manual',
+  });
+  if (!initialized.ok) throw new Error(`linkedin_image_init_http_${initialized.status}`);
+  const result = (await initialized.json()).value;
+  let upload;
+  try {
+    upload = new URL(result?.uploadUrl);
+  } catch {
+    throw new Error('linkedin_image_invalid_upload');
+  }
+  if (
+    upload.protocol !== 'https:' ||
+    upload.hostname !== 'www.linkedin.com' ||
+    !upload.pathname.startsWith('/dms-uploads/') ||
+    upload.username ||
+    upload.password ||
+    upload.port ||
+    !/^urn:li:image:[a-zA-Z0-9_-]+$/.test(result?.image || '')
+  )
+    throw new Error('linkedin_image_invalid_upload');
+  const uploaded = await fetch(upload.href, {
+    method: 'PUT',
+    headers: { Authorization: `Bearer ${value.access_token}`, 'Content-Type': 'image/png' },
+    body: bytes,
+    signal: AbortSignal.timeout(20000),
+    redirect: 'manual',
+  });
+  if (!uploaded.ok) throw new Error(`linkedin_image_upload_http_${uploaded.status}`);
+  // Image processing is asynchronous. Require AVAILABLE before creating a post.
+  // LinkedIn documents legacy GET access for write-only member tokens; retry a
+  // denied versioned read once without the version header, never a post create.
+  let legacy = false;
+  for (let attempt = 0; attempt < 5; attempt++) {
+    const requestStatus = () =>
+      fetch(`https://api.linkedin.com/rest/images/${encodeURIComponent(result.image)}`, {
+        headers: {
+          Authorization: `Bearer ${value.access_token}`,
+          'X-Restli-Protocol-Version': '2.0.0',
+          ...(legacy ? {} : { 'LinkedIn-Version': API_VERSION }),
+        },
+        signal: AbortSignal.timeout(10000),
+        redirect: 'manual',
+      });
+    let status = await requestStatus();
+    if (status.status === 403 && !legacy) {
+      await status.body?.cancel();
+      legacy = true;
+      status = await requestStatus();
+    }
+    if (!status.ok) throw new Error(`linkedin_image_status_http_${status.status}`);
+    const state = (await status.json()).status;
+    if (state === 'AVAILABLE') return result.image;
+    if (!['WAITING_UPLOAD', 'PROCESSING'].includes(state))
+      throw new Error('linkedin_image_processing_failed');
+    if (attempt < 4) await new Promise((resolve) => setTimeout(resolve, 1500));
+  }
+  throw new Error('linkedin_image_processing_timeout');
 }
 async function key(secret) {
   return crypto.subtle.importKey(
@@ -229,7 +345,12 @@ export async function publishDaily(
     return { status: 'already-recorded', day };
   const item = await (slot === 'evening' ? chooseDiscovery(env, time) : choosePost(env, time));
   if (dryRun)
-    return { status: item ? 'preview' : 'no-candidate', day, text: item ? postText(item) : null };
+    return {
+      status: item ? 'preview' : 'no-candidate',
+      day,
+      text: item ? postText(item) : null,
+      visual: item ? postVisual(item) : null,
+    };
   const started = new Date().toISOString();
   const claim = await env.DB.prepare(
     `INSERT OR IGNORE INTO ${table}(day,opportunity_id,fingerprint,status,started_at) VALUES(?,?,?,'publishing',?)`,
@@ -270,6 +391,11 @@ export async function publishDaily(
       redirect: 'manual',
     });
     if (page.status !== 200) throw new Error(`destination_http_${page.status}`);
+    const visual = postVisual(item);
+    const imageUrn = await uploadPostImage(value, visual);
+    await env.DB.prepare(`UPDATE ${table} SET image_urn=?,visual_url=? WHERE day=?`)
+      .bind(imageUrn, visual.url, day)
+      .run();
     sent = true;
     const response = await fetch('https://api.linkedin.com/rest/posts', {
       method: 'POST',
@@ -282,6 +408,7 @@ export async function publishDaily(
       body: JSON.stringify({
         author: value.person_urn,
         commentary,
+        content: { media: { id: imageUrn, title: visual.title, altText: visual.alt } },
         visibility: 'PUBLIC',
         distribution: {
           feedDistribution: 'MAIN_FEED',

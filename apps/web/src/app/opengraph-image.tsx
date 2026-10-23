@@ -1,5 +1,5 @@
 import { ImageResponse } from 'next/og';
-export const alt = 'InsightGinie — Understand where you stand.';
+export const alt = 'InsightGinie — Find your next way to earn.';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 export default function Image() {
@@ -36,11 +36,11 @@ export default function Image() {
             letterSpacing: -4,
           }}
         >
-          <span>Understand where</span>
-          <span style={{ color: '#5844d7' }}>you stand.</span>
+          <span>Find your next way</span>
+          <span style={{ color: '#5844d7' }}>to earn.</span>
         </div>
         <div style={{ display: 'flex', fontSize: 26 }}>
-          Real US data. Clear comparisons. Your next move.
+          Remote work. Creative ideas. Practical first steps.
         </div>
       </div>
     ),

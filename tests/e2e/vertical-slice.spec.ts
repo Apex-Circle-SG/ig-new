@@ -10,17 +10,16 @@ test.beforeEach(async ({ page }) => {
   );
 });
 
-test('homepage routes a real question to the calculator', async ({ page }) => {
+test('homepage leads to earning opportunities and keeps decision tools available', async ({
+  page,
+}) => {
   const runtimeErrors: string[] = [];
   page.on('pageerror', (error) => runtimeErrors.push(error.message));
   await page.goto('/');
-  await expect(page.getByRole('heading', { level: 1 })).toHaveText(/Discover ways\s*to earn\./);
-  const search = page.getByRole('textbox', { name: 'What do you want to understand?' });
-  await search.fill('compare my income');
-  await page
-    .locator('#intent-results')
-    .getByRole('link', { name: 'How does my income compare?' })
-    .click();
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText(
+    /Find your next\s*way to earn\./,
+  );
+  await page.getByRole('link', { name: 'Compare my income', exact: true }).click();
   await expect(page).toHaveURL(new RegExp(calculator));
   await expect(tool(page).locator('.big-percent')).toContainText('74.7%');
   expect(runtimeErrors).toEqual([]);
