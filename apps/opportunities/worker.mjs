@@ -1,3 +1,4 @@
+import { cachedPublic, invalidateCatalog } from './redis-cache.mjs';
 import { FEEDS, normalize, searchQuery, publicOpportunity } from './catalog.mjs';
 import { FEED_CONFIG } from './feed-config.mjs';
 import { publishDaily } from './social.mjs';
@@ -63,13 +64,33 @@ export async function ingestSource(env, source, batchIndex) {
       .filter((key) => !['id', 'source_id', 'external_id'].includes(key))
       .map((key) => `${key}=excluded.${key}`)
       .join(',')}`;
-    for (let i = 0; i < records.length; i += 25) {
-      await env.DB.batch(
-        records
-          .slice(i, i + 25)
-          .map((record) => env.DB.prepare(sql).bind(...fields.map((key) => record[key]))),
-      );
+    const existing = records.length
+      ? await env.DB.prepare(
+          `SELECT * FROM opportunities WHERE source_id=? AND external_id IN (${records.map(() => '?').join(',')})`,
+        )
+          .bind(source, ...records.map((record) => record.external_id))
+          .all()
+      : { results: [] };
+    const byId = new Map(existing.results.map((row) => [row.external_id, row]));
+    const changed = [],
+      seen = [];
+    for (const record of records) {
+      const previous = byId.get(record.external_id);
+      const same =
+        previous && fields.every((key) => key === 'last_seen_at' || previous[key] === record[key]);
+      if (same) seen.push(record.id);
+      else changed.push(record);
     }
+    const statements = changed.map((record) =>
+      env.DB.prepare(sql).bind(...fields.map((key) => record[key])),
+    );
+    if (seen.length)
+      statements.push(
+        env.DB.prepare(
+          `UPDATE opportunities SET last_seen_at=? WHERE id IN (${seen.map(() => '?').join(',')})`,
+        ).bind(started, ...seen),
+      );
+    if (statements.length) await env.DB.batch(statements);
     await env.DB.prepare(
       'INSERT INTO source_cursors VALUES(?,?) ON CONFLICT(source_id) DO UPDATE SET cursor=excluded.cursor',
     )
@@ -113,9 +134,12 @@ export async function ingestSource(env, source, batchIndex) {
         null,
       )
       .run();
+    await invalidateCatalog(env);
     return {
       source,
       records: records.length,
+      contentUpdates: changed.length,
+      freshnessOnly: seen.length,
       available: all.length,
       batch: selected,
       batches,
@@ -147,6 +171,9 @@ async function cleanup(env) {
 
 const worker = {
   async fetch(request, env) {
+    return cachedPublic(request, env, () => worker.uncachedFetch(request, env));
+  },
+  async uncachedFetch(request, env) {
     const url = new URL(request.url);
     try {
       if (url.pathname === '/admin/check-methods' && request.method === 'POST') {
@@ -194,9 +221,6 @@ const worker = {
       }
       if (url.pathname === '/v1/stats') {
         const query = searchQuery(new URLSearchParams());
-        const counts = await env.DB.prepare(
-          `SELECT COUNT(*) AS total FROM opportunities o WHERE ${query.where}`,
-        ).first();
         const categories = await env.DB.prepare(
           `SELECT o.category,COUNT(*) AS total FROM opportunities o WHERE ${query.where} GROUP BY o.category`,
         ).all();
@@ -209,7 +233,7 @@ const worker = {
           'SELECT id,name,status,last_success,last_error,last_count,url,category FROM sources ORDER BY name',
         ).all();
         return json({
-          opportunities: counts.total,
+          opportunities: categories.results.reduce((total, row) => total + row.total, 0),
           categories: categories.results,
           methods: methods.total,
           ideas: ideas.total,
@@ -312,6 +336,7 @@ const worker = {
     if (event.cron === '10 0,6,12,18 * * *') {
       await checkMethods(env, event.scheduledTime);
       await cleanup(env);
+      await invalidateCatalog(env);
       return;
     }
     const keys = Object.keys(FEEDS);
@@ -370,6 +395,7 @@ export async function checkMethods(env, time) {
     );
   }
   if (statements.length) await env.DB.batch(statements);
+  if (statements.length) await invalidateCatalog(env);
   return { checked: statements.length };
 }
 export default worker;

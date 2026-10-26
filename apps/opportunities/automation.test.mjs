@@ -873,3 +873,50 @@ test('failed image processing never proceeds to a feed post', async () => {
     DB.db.close();
   }
 });
+
+test('unchanged imports only refresh last-seen; changed and reappearing jobs update content', async () => {
+  const DB = database();
+  source(DB, 'ashby-zapier');
+  DB.db.exec(
+    'CREATE TABLE content_writes(n INTEGER); INSERT INTO content_writes VALUES(0); CREATE TRIGGER count_content AFTER UPDATE OF title ON opportunities BEGIN UPDATE content_writes SET n=n+1; END;',
+  );
+  const original = globalThis.fetch;
+  let title = 'Remote Engineer';
+  globalThis.fetch = async () =>
+    Response.json({
+      jobs: [
+        {
+          id: 'one',
+          title,
+          jobUrl: 'https://jobs.ashbyhq.com/zapier/one',
+          publishedAt: '2026-01-01',
+          isListed: true,
+          location: 'UK',
+          isRemote: true,
+          workplaceType: 'Remote',
+          employmentType: 'Contract',
+        },
+      ],
+    });
+  try {
+    assert.equal((await ingestSource({ DB }, 'ashby-zapier')).contentUpdates, 1);
+    DB.db.exec("UPDATE opportunities SET last_seen_at='2026-01-01T00:00:00Z'");
+    const next = await ingestSource({ DB }, 'ashby-zapier');
+    assert.equal(next.freshnessOnly, 1);
+    assert.equal(next.contentUpdates, 0);
+    assert.equal(DB.db.prepare('SELECT n FROM content_writes').get().n, 0);
+    assert.ok(
+      Date.parse(DB.db.prepare('SELECT last_seen_at FROM opportunities').get().last_seen_at) >
+        Date.parse('2026-01-01'),
+    );
+    title = 'Remote Support Engineer';
+    assert.equal((await ingestSource({ DB }, 'ashby-zapier')).contentUpdates, 1);
+    assert.equal(DB.db.prepare('SELECT n FROM content_writes').get().n, 1);
+    DB.db.exec("UPDATE opportunities SET status='closed'");
+    assert.equal((await ingestSource({ DB }, 'ashby-zapier')).contentUpdates, 1);
+    assert.equal(DB.db.prepare('SELECT status FROM opportunities').get().status, 'active');
+  } finally {
+    globalThis.fetch = original;
+    DB.db.close();
+  }
+});

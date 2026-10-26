@@ -32,55 +32,62 @@ const query = (sql) =>
     method: 'POST',
     body: JSON.stringify({ sql }),
   });
-await query(await readFile(resolve(directory, 'migrations/0001_catalog.sql'), 'utf8'));
-const versions = await query('SELECT version FROM schema_migrations');
-if (!versions[0].results.some((row) => row.version === 2))
-  await query(await readFile(resolve(directory, 'migrations/0002_automation.sql'), 'utf8'));
-if (!versions[0].results.some((row) => row.version === 3))
-  await query(
-    await readFile(resolve(directory, 'migrations/0003_evening_discoveries.sql'), 'utf8'),
-  );
-if (!versions[0].results.some((row) => row.version === 4))
-  await query(await readFile(resolve(directory, 'migrations/0004_social_images.sql'), 'utf8'));
-const literal = (value) =>
-  value == null
-    ? 'NULL'
-    : typeof value === 'number'
-      ? String(value)
-      : `'${String(value).replaceAll("'", "''")}'`;
-for (const table of ['sources', 'platforms', 'ideas', 'earning_methods']) {
-  const seed = JSON.parse(
-    await readFile(
-      resolve(directory, `data/${table === 'earning_methods' ? 'methods' : table}.json`),
-      'utf8',
-    ),
-  );
-  const rows =
-    table === 'earning_methods'
-      ? seed.map((row) => ({
-          id: row.id,
-          title: row.title,
-          category: row.category,
-          data: JSON.stringify(row),
-        }))
-      : seed;
-  for (let i = 0; i < rows.length; i += 20) {
-    const group = rows.slice(i, i + 20);
-    const fields = Object.keys(group[0]);
-    const values = group.map(
-      (row) =>
-        `(${fields.map((field) => literal(Array.isArray(row[field]) ? JSON.stringify(row[field]) : row[field])).join(',')})`,
-    );
+if (!process.argv.includes('--worker-only')) {
+  await query(await readFile(resolve(directory, 'migrations/0001_catalog.sql'), 'utf8'));
+  const versions = await query('SELECT version FROM schema_migrations');
+  if (!versions[0].results.some((row) => row.version === 2))
+    await query(await readFile(resolve(directory, 'migrations/0002_automation.sql'), 'utf8'));
+  if (!versions[0].results.some((row) => row.version === 3))
     await query(
-      `INSERT INTO ${table} (${fields.join(',')}) VALUES ${values.join(',')} ON CONFLICT(id) DO UPDATE SET ${fields
-        .filter((field) => field !== 'id')
-        .map((field) => `${field}=excluded.${field}`)
-        .join(
-          ',',
-        )}${table === 'earning_methods' ? ",last_checked=CASE WHEN json_extract(earning_methods.data,'$.source_url')=json_extract(excluded.data,'$.source_url') THEN earning_methods.last_checked ELSE NULL END,check_status=CASE WHEN json_extract(earning_methods.data,'$.source_url')=json_extract(excluded.data,'$.source_url') THEN earning_methods.check_status ELSE 'not-checked' END,last_http_status=CASE WHEN json_extract(earning_methods.data,'$.source_url')=json_extract(excluded.data,'$.source_url') THEN earning_methods.last_http_status ELSE NULL END" : ''}`,
+      await readFile(resolve(directory, 'migrations/0003_evening_discoveries.sql'), 'utf8'),
     );
+  if (!versions[0].results.some((row) => row.version === 4))
+    await query(await readFile(resolve(directory, 'migrations/0004_social_images.sql'), 'utf8'));
+  const literal = (value) =>
+    value == null
+      ? 'NULL'
+      : typeof value === 'number'
+        ? String(value)
+        : `'${String(value).replaceAll("'", "''")}'`;
+  for (const table of ['sources', 'platforms', 'ideas', 'earning_methods']) {
+    const seed = JSON.parse(
+      await readFile(
+        resolve(directory, `data/${table === 'earning_methods' ? 'methods' : table}.json`),
+        'utf8',
+      ),
+    );
+    const rows =
+      table === 'earning_methods'
+        ? seed.map((row) => ({
+            id: row.id,
+            title: row.title,
+            category: row.category,
+            data: JSON.stringify(row),
+          }))
+        : seed;
+    for (let i = 0; i < rows.length; i += 20) {
+      const group = rows.slice(i, i + 20);
+      const fields = Object.keys(group[0]);
+      const values = group.map(
+        (row) =>
+          `(${fields.map((field) => literal(Array.isArray(row[field]) ? JSON.stringify(row[field]) : row[field])).join(',')})`,
+      );
+      await query(
+        `INSERT INTO ${table} (${fields.join(',')}) VALUES ${values.join(',')} ON CONFLICT(id) DO UPDATE SET ${fields
+          .filter((field) => field !== 'id')
+          .map((field) => `${field}=excluded.${field}`)
+          .join(
+            ',',
+          )}${table === 'earning_methods' ? ",last_checked=CASE WHEN json_extract(earning_methods.data,'$.source_url')=json_extract(excluded.data,'$.source_url') THEN earning_methods.last_checked ELSE NULL END,check_status=CASE WHEN json_extract(earning_methods.data,'$.source_url')=json_extract(excluded.data,'$.source_url') THEN earning_methods.check_status ELSE 'not-checked' END,last_http_status=CASE WHEN json_extract(earning_methods.data,'$.source_url')=json_extract(excluded.data,'$.source_url') THEN earning_methods.last_http_status ELSE NULL END" : ''}`,
+      );
+    }
   }
 }
+process.loadEnvFile(resolve(root, '.env'));
+const redisBindings = ['UPSTASH_REDIS_REST_URL', 'UPSTASH_REDIS_REST_TOKEN'].map((name) => {
+  if (!process.env[name]) throw new Error('Missing server cache configuration');
+  return { type: 'secret_text', name, text: process.env[name] };
+});
 const privateDir = resolve(
   process.env.XDG_CONFIG_HOME ?? resolve(process.env.HOME, '.config'),
   'insightginie',
@@ -124,6 +131,7 @@ form.set(
         main_module: 'worker.mjs',
         compatibility_date: '2026-10-01',
         bindings: [
+          ...redisBindings,
           { type: 'd1', name: 'DB', id: config.database_id },
           { type: 'secret_text', name: 'INGEST_SECRET', text: secret },
           {
