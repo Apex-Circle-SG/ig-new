@@ -1,0 +1,195 @@
+{
+  "status": "deployed_and_verified",
+  "checked_at": "2026-10-26T00:57:31.798176+00:00",
+  "source_commit": "14f5840f2667dafe2645323ddb2a8b459f459fbc",
+  "worker_version": "056e9d69-ee07-412e-ad20-f413b7d68beb",
+  "previous_worker_version": "7e06f381-16cb-4b40-9b33-fc81d8008aa2",
+  "scope": "Cloudflare opportunity Worker only. No Next.js redeployment, database reseed, plan upgrade, or test LinkedIn feed post.",
+  "cache": {
+    "provider": "Upstash Redis REST",
+    "source_of_truth": "Cloudflare D1",
+    "ttl_seconds": 600,
+    "routes": [
+      "/v1/stats",
+      "/v1/opportunities",
+      "/v1/methods",
+      "/v1/ideas",
+      "/v1/platforms"
+    ],
+    "uncached": [
+      "job detail point lookups",
+      "health",
+      "automation status",
+      "admin endpoints",
+      "LinkedIn publishing and credential state"
+    ],
+    "invalidation": "Generation rotation after successful ingestion, method checks and cleanup; old entries expire automatically.",
+    "fallback": "D1 on missing/unavailable Redis; 1.5-second command timeouts.",
+    "concurrency": "Miss coalescing within each Worker isolate; no distributed lock.",
+    "privacy": "Only existing public catalog payloads; hashed cache identities; secrets in Worker secret bindings.",
+    "cost": "Usually two Redis GET commands per eligible request, plus SET on miss. No numerical daily D1 savings claimed yet."
+  },
+  "import_optimizations": [
+    "One batch lookup of existing records; compare all normalized content fields.",
+    "Unchanged listings receive one grouped last-seen-only update and skip content-column FTS triggers.",
+    "Changed, new and reappearing listings still use full upserts.",
+    "Cursor rotation, source-failure retention, complete-board removal, expiry and stale rules preserved."
+  ],
+  "query_optimization": "Stats total is summed from grouped category results, removing the separate full eligibility/dedup count query.",
+  "validation": {
+    "worker_tests": 38,
+    "worker_tests_failed": 0,
+    "changed_file_eslint": "passed",
+    "live": {
+      "checked_at": "2026-10-26T00:56:15.278Z",
+      "endpoints": [
+        {
+          "path": "/v1/stats",
+          "status": 200,
+          "first": "MISS",
+          "second": "HIT",
+          "identical": true
+        },
+        {
+          "path": "/v1/opportunities?category=jobs&paid=1",
+          "status": 200,
+          "first": "MISS",
+          "second": "HIT",
+          "identical": true
+        },
+        {
+          "path": "/v1/opportunities?q=engineer&arrangement=Contract",
+          "status": 200,
+          "first": "MISS",
+          "second": "HIT",
+          "identical": true
+        },
+        {
+          "path": "/v1/methods",
+          "status": 200,
+          "first": "MISS",
+          "second": "HIT",
+          "identical": true
+        },
+        {
+          "path": "/v1/ideas",
+          "status": 200,
+          "first": "MISS",
+          "second": "HIT",
+          "identical": true
+        },
+        {
+          "path": "/v1/platforms",
+          "status": 200,
+          "first": "MISS",
+          "second": "HIT",
+          "identical": true
+        }
+      ],
+      "productionPostsCreatedByVerification": 0,
+      "imports": [
+        {
+          "source": "ashby-zapier",
+          "records": 12,
+          "contentUpdates": 0,
+          "freshnessOnly": 12,
+          "available": 12,
+          "batch": 0,
+          "batches": 1,
+          "status": "success"
+        },
+        {
+          "source": "ashby-zapier",
+          "records": 12,
+          "contentUpdates": 0,
+          "freshnessOnly": 12,
+          "available": 12,
+          "batch": 0,
+          "batches": 1,
+          "status": "success"
+        }
+      ],
+      "afterImportCache": "MISS",
+      "afterImportHit": "HIT",
+      "postingStatePreserved": true,
+      "linkedinEnabled": true,
+      "eveningEnabled": true,
+      "publicPages": [
+        {
+          "path": "/",
+          "status": 200,
+          "cacheSecretExposed": false
+        },
+        {
+          "path": "/opportunities/",
+          "status": 200,
+          "cacheSecretExposed": false
+        },
+        {
+          "path": "/earn/",
+          "status": 200,
+          "cacheSecretExposed": false
+        },
+        {
+          "path": "/ask/",
+          "status": 200,
+          "cacheSecretExposed": false
+        }
+      ],
+      "generationKeyPresent": true
+    },
+    "secret_scan": {
+      "files": 149,
+      "matches": 0
+    },
+    "graphify": {
+      "timestamp": "2026-10-26T00:56:45.004073+00:00",
+      "mode": "incremental",
+      "source_files": 143,
+      "changed_files": 3,
+      "deleted_files": 0,
+      "nodes": 636,
+      "edges": 1288,
+      "communities": 45,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "semantic_extraction": false
+    }
+  },
+  "schedules": {
+    "schedules": [
+      {
+        "cron": "0 1 * * *",
+        "created_on": "2026-10-19T04:05:29.283578Z",
+        "modified_on": "2026-10-19T04:05:29.283578Z"
+      },
+      {
+        "cron": "0 13 * * *",
+        "created_on": "2026-10-20T05:34:14.57616Z",
+        "modified_on": "2026-10-20T05:34:14.57616Z"
+      },
+      {
+        "cron": "*/10 * * * *",
+        "created_on": "2026-10-19T04:05:29.283578Z",
+        "modified_on": "2026-10-19T04:05:29.283578Z"
+      },
+      {
+        "cron": "10 0,6,12,18 * * *",
+        "created_on": "2026-10-19T04:05:29.283578Z",
+        "modified_on": "2026-10-19T04:05:29.283578Z"
+      }
+    ]
+  },
+  "deployment_notes": [
+    "An initial live check exposed unsupported fetch redirect mode error; corrected to manual and reverified all six cache routes on the final deployed Worker.",
+    "Live verification performed two empty Buffer snapshots and two nonempty Zapier snapshots, no feed publications.",
+    "Worker-only deployment avoids migrations/seeding; existing posting state and both enable flags verified unchanged."
+  ],
+  "limitations": [
+    "Public catalog changes may take up to ten minutes to appear if invalidation fails; existing Next data cache may add two minutes.",
+    "Redis outages fall back to D1 and can restore high D1 usage.",
+    "High-cardinality searches and uncached endpoints still query D1.",
+    "No automated future analytics review was scheduled. Compare subsequent UTC daily D1 totals with the prior audit."
+  ],
+  "guide": "docs/redis-catalog-cache.md"
+}
