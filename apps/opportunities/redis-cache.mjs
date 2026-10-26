@@ -7,7 +7,7 @@ export async function redisCommand(env, command) {
     throw new Error('Invalid cache endpoint');
   const response = await fetch(endpoint.origin, {
     method: 'POST',
-    redirect: 'error',
+    redirect: 'manual',
     signal: AbortSignal.timeout(1500),
     headers: {
       Authorization: `Bearer ${env.UPSTASH_REDIS_REST_TOKEN}`,
@@ -15,7 +15,7 @@ export async function redisCommand(env, command) {
     },
     body: JSON.stringify(command),
   });
-  if (!response.ok) throw new Error('Cache unavailable');
+  if (!response.ok) throw new Error('Cache unavailable ' + response.status);
   const data = await response.json();
   if (data.error) throw new Error('Cache command failed');
   return data.result;
@@ -32,7 +32,7 @@ export function cacheDescriptor(url) {
   if (['/v1/stats', '/v1/methods', '/v1/ideas', '/v1/platforms'].includes(url.pathname))
     return { identity: url.pathname, ttl: 600 };
   if (url.pathname === '/v1/opportunities') {
-    const allowed = ['q', 'category', 'location', 'arrangement', 'paid', 'page', 'limit'];
+    const allowed = ['q', 'category', 'location', 'arrangement', 'source', 'paid', 'page', 'limit'];
     const params = new URLSearchParams();
     for (const name of allowed)
       if (url.searchParams.has(name)) params.set(name, url.searchParams.get(name).slice(0, 200));
@@ -47,24 +47,42 @@ export async function cachedPublic(request, env, load) {
   const spec = ['GET', 'HEAD'].includes(request.method) && cacheDescriptor(new URL(request.url));
   if (!spec || !env.UPSTASH_REDIS_REST_URL || !env.UPSTASH_REDIS_REST_TOKEN) return load();
   let key;
+  let stage = 'generation';
   try {
     const generation = (await redisCommand(env, ['GET', PREFIX + 'generation'])) || 'initial';
+    stage = 'digest';
     const digest = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(spec.identity));
     key =
       PREFIX +
       generation +
       ':' +
       [...new Uint8Array(digest)].map((x) => x.toString(16).padStart(2, '0')).join('');
+    stage = 'read';
     const hit = await redisCommand(env, ['GET', key]);
     if (hit) {
+      stage = 'decode';
       const entry = JSON.parse(hit);
       if (entry.expiresAt > Date.now() && typeof entry.body === 'string')
         return new Response(request.method === 'HEAD' ? null : entry.body, {
           headers: { ...entry.headers, 'X-Catalog-Cache': 'HIT' },
         });
     }
-  } catch {
-    return load();
+  } catch (error) {
+    console.warn(
+      JSON.stringify({
+        event: 'catalog_cache_unavailable',
+        stage,
+        kind: error.name,
+        reason: ['Invalid cache endpoint', 'Cache unavailable', 'Cache command failed'].includes(
+          error.message,
+        )
+          ? error.message
+          : 'transport-or-payload',
+      }),
+    );
+    const response = await load();
+    response.headers.set('X-Catalog-Cache', 'BYPASS');
+    return response;
   }
   // Coalesce simultaneous cache misses inside each Worker isolate.
   if (!pending.has(key))

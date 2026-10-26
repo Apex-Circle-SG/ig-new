@@ -190,7 +190,7 @@ console.log(
     linkedinEnabled:
       (process.argv.includes('--enable-linkedin') || config.linkedin_enabled === true) &&
       !process.argv.includes('--disable-linkedin'),
-    seeded: true,
+    seeded: !process.argv.includes('--worker-only'),
   }),
 );
 if (process.argv.includes('--ingest')) {

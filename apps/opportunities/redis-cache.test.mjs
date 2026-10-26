@@ -12,6 +12,7 @@ function redisMock() {
     values,
     commands,
     fetch: async (_url, options) => {
+      assert.equal(options.redirect, 'manual');
       const command = JSON.parse(options.body);
       commands.push(command);
       if (command[0] === 'GET') return Response.json({ result: values.get(command[1]) || null });
