@@ -1,0 +1,120 @@
+{
+  "verifiedAt": "2026-10-29T01:36:44.043407+00:00",
+  "status": "passed",
+  "origin": "https://insightginie.com",
+  "sourceCommit": "81a9a6a849538b71cc568ef19db5ba43de0d8cbd",
+  "buildId": "mPbHgmGVoyIFwtWycWwdo",
+  "browser": {
+    "startTime": "2026-10-29T01:34:16.576Z",
+    "duration": 107046.498,
+    "expected": 11,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "mobileWidth": 390,
+  "desktopWidth": 1280,
+  "checks": [
+    "Changed page and all 24 guide sweeps on mobile and desktop",
+    "New links reachable, no horizontal page overflow, key page accessibility",
+    "Seven calculators work; inputs absent from observed outbound requests",
+    "Anonymous band share text stays inside private frame, no exact salary by default",
+    "Calculator shells load neither AdSense nor GA4 even with consent",
+    "FAQ text, source lines, FAQ schema and email UI in exactly three locations",
+    "Both duplicate hubs return HTTP 301",
+    "63 sitemap entries return 200 with matching canonicals"
+  ],
+  "sitemapCanonicalCount": 63,
+  "secretScan": {
+    "checkedAt": "2026-10-29T01:23:50.126496+00:00",
+    "filesChecked": 222,
+    "secretValuesChecked": 11,
+    "matchingFiles": [],
+    "status": "passed"
+  },
+  "d1Backup": {
+    "completedAt": "2026-10-29T01:29:43.715284+00:00",
+    "method": "Read-only schema and normal-table export; restored into private local SQLite; FTS rebuilt locally; no live writes",
+    "tables": {
+      "automation_state": 0,
+      "source_cursors": 11,
+      "earning_methods": 24,
+      "ingestion_runs": 1286,
+      "ideas": 84,
+      "social_posts": 11,
+      "social_discovery_posts": 7,
+      "opportunities": 2654,
+      "platforms": 21,
+      "schema_migrations": 4,
+      "sources": 41
+    },
+    "integrityCheck": "ok",
+    "foreignKeyCheck": "passed",
+    "atomicSnapshot": false,
+    "remoteChanged": false,
+    "files": {
+      "d1-logical.json": "6d178398e13c976b6cee95cd92272139dba08b037d1ac032d86b5e56898e7ade",
+      "d1-restored.sqlite": "f889adbbac3be7e4a475f90052a2d81632217de9850ea3fe56ca7232c4552b0a"
+    }
+  },
+  "publicHttpChecks": {
+    "checkedAt": "2026-10-29T01:34:15.285141+00:00",
+    "userAgent": "InsightGinie-owner-read-only-audit/1.0",
+    "pages": [
+      {
+        "path": "/calculators/",
+        "status": 200,
+        "location": null,
+        "title": "Calculators \u2014 Understand Where You Stand | InsightGinie"
+      },
+      {
+        "path": "/tools/",
+        "status": 301,
+        "location": "/calculators/",
+        "title": null
+      },
+      {
+        "path": "/calc/",
+        "status": 301,
+        "location": "/calculators/",
+        "title": null
+      },
+      {
+        "path": "/calc/individual-income-percentile/",
+        "status": 200,
+        "location": null,
+        "title": "Compare My Income \u2014 US Income Percentile Calculator | InsightGinie"
+      },
+      {
+        "path": "/data/us-income-distribution/",
+        "status": 200,
+        "location": null,
+        "title": "US Individual Income Distribution: Census Data, Chart &amp; CSV | InsightGinie"
+      },
+      {
+        "path": "/sitemap.xml",
+        "status": 200,
+        "location": null,
+        "title": null
+      },
+      {
+        "path": "/embed/income-distribution/",
+        "status": 200,
+        "location": null,
+        "title": "US individual income distribution, 2024"
+      }
+    ]
+  },
+  "scopeLimits": [
+    "Email UI only; no mailing provider or delivery configured",
+    "Existing interpolation unchanged; new FAQ/share use published band ranges",
+    "No historical WordPress query-ID mapping, Search Console submission or outreach sending",
+    "Chromium viewport testing; no Safari/device hardware test or full application restore drill"
+  ],
+  "outreachDraftCount": 20,
+  "outreachSent": 0,
+  "wordpressChanged": false,
+  "workerOrSchedulesChanged": false,
+  "calculatorEngineOrDatasetChanged": false,
+  "ownerDeploymentReportPreserved": true
+}

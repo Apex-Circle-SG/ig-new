@@ -1,0 +1,386 @@
+{
+  "checkedAt": "2026-10-29T01:34:41.906531+00:00",
+  "sitemap": "https://insightginie.com/sitemap.xml",
+  "canonicalCount": 63,
+  "pages": [
+    {
+      "url": "https://insightginie.com/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/",
+      "canonical": "https://insightginie.com/"
+    },
+    {
+      "url": "https://insightginie.com/calculators/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/calculators/",
+      "canonical": "https://insightginie.com/calculators/"
+    },
+    {
+      "url": "https://insightginie.com/calc/individual-income-percentile/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/calc/individual-income-percentile/",
+      "canonical": "https://insightginie.com/calc/individual-income-percentile/"
+    },
+    {
+      "url": "https://insightginie.com/data/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/data/",
+      "canonical": "https://insightginie.com/data/"
+    },
+    {
+      "url": "https://insightginie.com/data/census-cps/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/data/census-cps/",
+      "canonical": "https://insightginie.com/data/census-cps/"
+    },
+    {
+      "url": "https://insightginie.com/data/us-income-distribution/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/data/us-income-distribution/",
+      "canonical": "https://insightginie.com/data/us-income-distribution/"
+    },
+    {
+      "url": "https://insightginie.com/methodology/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/methodology/",
+      "canonical": "https://insightginie.com/methodology/"
+    },
+    {
+      "url": "https://insightginie.com/methodology/individual-income/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/methodology/individual-income/",
+      "canonical": "https://insightginie.com/methodology/individual-income/"
+    },
+    {
+      "url": "https://insightginie.com/about/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/about/",
+      "canonical": "https://insightginie.com/about/"
+    },
+    {
+      "url": "https://insightginie.com/editorial-policy/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/editorial-policy/",
+      "canonical": "https://insightginie.com/editorial-policy/"
+    },
+    {
+      "url": "https://insightginie.com/privacy/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/privacy/",
+      "canonical": "https://insightginie.com/privacy/"
+    },
+    {
+      "url": "https://insightginie.com/terms/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/terms/",
+      "canonical": "https://insightginie.com/terms/"
+    },
+    {
+      "url": "https://insightginie.com/contact/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/contact/",
+      "canonical": "https://insightginie.com/contact/"
+    },
+    {
+      "url": "https://insightginie.com/tools/ai-workflow-roi/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/tools/ai-workflow-roi/",
+      "canonical": "https://insightginie.com/tools/ai-workflow-roi/"
+    },
+    {
+      "url": "https://insightginie.com/tools/cash-runway/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/tools/cash-runway/",
+      "canonical": "https://insightginie.com/tools/cash-runway/"
+    },
+    {
+      "url": "https://insightginie.com/tools/break-even/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/tools/break-even/",
+      "canonical": "https://insightginie.com/tools/break-even/"
+    },
+    {
+      "url": "https://insightginie.com/tools/business-loan/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/tools/business-loan/",
+      "canonical": "https://insightginie.com/tools/business-loan/"
+    },
+    {
+      "url": "https://insightginie.com/tools/drawdown-recovery/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/tools/drawdown-recovery/",
+      "canonical": "https://insightginie.com/tools/drawdown-recovery/"
+    },
+    {
+      "url": "https://insightginie.com/tools/portfolio-concentration/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/tools/portfolio-concentration/",
+      "canonical": "https://insightginie.com/tools/portfolio-concentration/"
+    },
+    {
+      "url": "https://insightginie.com/insights/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/insights/",
+      "canonical": "https://insightginie.com/insights/"
+    },
+    {
+      "url": "https://insightginie.com/research/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/research/",
+      "canonical": "https://insightginie.com/research/"
+    },
+    {
+      "url": "https://insightginie.com/ask/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/ask/",
+      "canonical": "https://insightginie.com/ask/"
+    },
+    {
+      "url": "https://insightginie.com/authors/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/authors/",
+      "canonical": "https://insightginie.com/authors/"
+    },
+    {
+      "url": "https://insightginie.com/authors/insightginie/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/authors/insightginie/",
+      "canonical": "https://insightginie.com/authors/insightginie/"
+    },
+    {
+      "url": "https://insightginie.com/corrections-policy/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/corrections-policy/",
+      "canonical": "https://insightginie.com/corrections-policy/"
+    },
+    {
+      "url": "https://insightginie.com/advertising-disclosure/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/advertising-disclosure/",
+      "canonical": "https://insightginie.com/advertising-disclosure/"
+    },
+    {
+      "url": "https://insightginie.com/ai-disclosure/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/ai-disclosure/",
+      "canonical": "https://insightginie.com/ai-disclosure/"
+    },
+    {
+      "url": "https://insightginie.com/finance-disclaimer/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/finance-disclaimer/",
+      "canonical": "https://insightginie.com/finance-disclaimer/"
+    },
+    {
+      "url": "https://insightginie.com/research-methodology/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/research-methodology/",
+      "canonical": "https://insightginie.com/research-methodology/"
+    },
+    {
+      "url": "https://insightginie.com/content-index/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/content-index/",
+      "canonical": "https://insightginie.com/content-index/"
+    },
+    {
+      "url": "https://insightginie.com/opportunities/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/opportunities/",
+      "canonical": "https://insightginie.com/opportunities/"
+    },
+    {
+      "url": "https://insightginie.com/opportunities/sources/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/opportunities/sources/",
+      "canonical": "https://insightginie.com/opportunities/sources/"
+    },
+    {
+      "url": "https://insightginie.com/ideas/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/ideas/",
+      "canonical": "https://insightginie.com/ideas/"
+    },
+    {
+      "url": "https://insightginie.com/platforms/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/platforms/",
+      "canonical": "https://insightginie.com/platforms/"
+    },
+    {
+      "url": "https://insightginie.com/earn/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/",
+      "canonical": "https://insightginie.com/earn/"
+    },
+    {
+      "url": "https://insightginie.com/opportunities/remote-contracts/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/opportunities/remote-contracts/",
+      "canonical": "https://insightginie.com/opportunities/remote-contracts/"
+    },
+    {
+      "url": "https://insightginie.com/earn/paid-research/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/paid-research/",
+      "canonical": "https://insightginie.com/earn/paid-research/"
+    },
+    {
+      "url": "https://insightginie.com/earn/creative-services/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/creative-services/",
+      "canonical": "https://insightginie.com/earn/creative-services/"
+    },
+    {
+      "url": "https://insightginie.com/earn/digital-products/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/digital-products/",
+      "canonical": "https://insightginie.com/earn/digital-products/"
+    },
+    {
+      "url": "https://insightginie.com/earn/website-user-testing/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/website-user-testing/",
+      "canonical": "https://insightginie.com/earn/website-user-testing/"
+    },
+    {
+      "url": "https://insightginie.com/earn/research-interviews/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/research-interviews/",
+      "canonical": "https://insightginie.com/earn/research-interviews/"
+    },
+    {
+      "url": "https://insightginie.com/earn/academic-studies/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/academic-studies/",
+      "canonical": "https://insightginie.com/earn/academic-studies/"
+    },
+    {
+      "url": "https://insightginie.com/earn/research-panels/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/research-panels/",
+      "canonical": "https://insightginie.com/earn/research-panels/"
+    },
+    {
+      "url": "https://insightginie.com/earn/mock-jury/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/mock-jury/",
+      "canonical": "https://insightginie.com/earn/mock-jury/"
+    },
+    {
+      "url": "https://insightginie.com/earn/stock-photos/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/stock-photos/",
+      "canonical": "https://insightginie.com/earn/stock-photos/"
+    },
+    {
+      "url": "https://insightginie.com/earn/stock-footage/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/stock-footage/",
+      "canonical": "https://insightginie.com/earn/stock-footage/"
+    },
+    {
+      "url": "https://insightginie.com/earn/sell-printables/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/sell-printables/",
+      "canonical": "https://insightginie.com/earn/sell-printables/"
+    },
+    {
+      "url": "https://insightginie.com/earn/sell-spreadsheets/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/sell-spreadsheets/",
+      "canonical": "https://insightginie.com/earn/sell-spreadsheets/"
+    },
+    {
+      "url": "https://insightginie.com/earn/sell-notion-templates/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/sell-notion-templates/",
+      "canonical": "https://insightginie.com/earn/sell-notion-templates/"
+    },
+    {
+      "url": "https://insightginie.com/earn/game-assets/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/game-assets/",
+      "canonical": "https://insightginie.com/earn/game-assets/"
+    },
+    {
+      "url": "https://insightginie.com/earn/3d-models/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/3d-models/",
+      "canonical": "https://insightginie.com/earn/3d-models/"
+    },
+    {
+      "url": "https://insightginie.com/earn/custom-pet-portraits/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/custom-pet-portraits/",
+      "canonical": "https://insightginie.com/earn/custom-pet-portraits/"
+    },
+    {
+      "url": "https://insightginie.com/earn/wedding-speech-editing/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/wedding-speech-editing/",
+      "canonical": "https://insightginie.com/earn/wedding-speech-editing/"
+    },
+    {
+      "url": "https://insightginie.com/earn/podcast-clips/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/podcast-clips/",
+      "canonical": "https://insightginie.com/earn/podcast-clips/"
+    },
+    {
+      "url": "https://insightginie.com/earn/presentation-polish/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/presentation-polish/",
+      "canonical": "https://insightginie.com/earn/presentation-polish/"
+    },
+    {
+      "url": "https://insightginie.com/earn/voiceover/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/voiceover/",
+      "canonical": "https://insightginie.com/earn/voiceover/"
+    },
+    {
+      "url": "https://insightginie.com/earn/audiobook-narration/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/audiobook-narration/",
+      "canonical": "https://insightginie.com/earn/audiobook-narration/"
+    },
+    {
+      "url": "https://insightginie.com/earn/online-tutoring/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/online-tutoring/",
+      "canonical": "https://insightginie.com/earn/online-tutoring/"
+    },
+    {
+      "url": "https://insightginie.com/earn/paid-open-source/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/paid-open-source/",
+      "canonical": "https://insightginie.com/earn/paid-open-source/"
+    },
+    {
+      "url": "https://insightginie.com/earn/security-bounties/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/security-bounties/",
+      "canonical": "https://insightginie.com/earn/security-bounties/"
+    },
+    {
+      "url": "https://insightginie.com/earn/design-competitions/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/design-competitions/",
+      "canonical": "https://insightginie.com/earn/design-competitions/"
+    },
+    {
+      "url": "https://insightginie.com/earn/self-published-workbooks/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/self-published-workbooks/",
+      "canonical": "https://insightginie.com/earn/self-published-workbooks/"
+    },
+    {
+      "url": "https://insightginie.com/earn/paid-expert-consulting/",
+      "status": 200,
+      "finalUrl": "https://insightginie.com/earn/paid-expert-consulting/",
+      "canonical": "https://insightginie.com/earn/paid-expert-consulting/"
+    }
+  ],
+  "status": "passed"
+}
