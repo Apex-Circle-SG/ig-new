@@ -78,9 +78,17 @@ test('private results export locally without entering parent requests or share l
 });
 
 test('tool hub and mobile cash runway stay accessible and fit the viewport', async ({ page }) => {
-  await page.goto('/tools/');
+  await page.goto('/calculators/');
   for (const scenario of scenarios)
-    await expect(page.getByRole('heading', { name: scenario.title, exact: true })).toBeVisible();
+    await expect(
+      page.getByRole('heading', {
+        name:
+          scenario.id === 'ai-workflow-roi'
+            ? 'Cost of automation — AI workflow ROI calculator'
+            : scenario.title,
+        exact: true,
+      }),
+    ).toBeVisible();
   await page.setViewportSize({ width: 320, height: 740 });
   await page.goto('/tools/cash-runway/');
   const tool = page.frameLocator('iframe[data-private-finance]');

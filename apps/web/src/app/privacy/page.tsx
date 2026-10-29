@@ -13,7 +13,7 @@ export default function Privacy() {
       eyebrow="PRIVACY"
       lead="Use our calculators without an account, an email address or saving your financial inputs."
     >
-      <p className="document-meta">Policy version: October 19, 2026</p>
+      <p className="document-meta">Policy version: October 29, 2026</p>
       <section>
         <h2>Calculator inputs</h2>
         <p>
@@ -23,9 +23,11 @@ export default function Privacy() {
           calculator.
         </p>
         <p>
-          The share action copies the calculator’s public URL without your inputs or result. Finance
-          tools can download a CSV or print a scenario locally when you choose; these files can
-          contain your inputs. Keep any downloaded or printed copy private.
+          Sharing the tool copies its public URL. “Share this insight” lets you review and copy an
+          anonymous published income band locally; it omits your exact entered income. If you edit
+          that text to include private information, only share it intentionally. Finance tools can
+          download a CSV or print a scenario locally when you choose; these files can contain your
+          inputs. Keep any downloaded or printed copy private.
         </p>
       </section>
       <section>
@@ -74,6 +76,14 @@ export default function Privacy() {
           No session replay or browser recording is enabled.
         </p>
       </section>
+      <section>
+        <h2>Weekly insight signup</h2>
+        <p>
+          The email form is not connected to a mailing provider yet. It does not send or save an
+          email address. Signup will remain optional and separate from calculators when an
+          owner-approved provider is connected.
+        </p>
+      </section>
       <section id="cookies">
         <h2>Cookie settings</h2>
         <p>
@@ -83,11 +93,11 @@ export default function Privacy() {
           reloads to apply it.
         </p>
         <p>
-          Google AdSense may load on our public pages, including pages containing calculators. We
-          wait for your choice in the EEA, UK, Switzerland or when your region is unknown; otherwise
-          advertising normally loads unless you have declined it. Google may process your IP
-          address, browser or device information, page context and cookies to deliver, measure and
-          protect ads. Google may request additional choices where applicable. Read{' '}
+          Google AdSense may load on eligible public pages. Calculator pages and embeds are ad-free.
+          We wait for your choice in the EEA, UK, Switzerland or when your region is unknown;
+          otherwise advertising normally loads unless you have declined it. Google may process your
+          IP address, browser or device information, page context and cookies to deliver, measure
+          and protect ads. Google may request additional choices where applicable. Read{' '}
           <a
             href="https://policies.google.com/technologies/partner-sites"
             rel="noopener noreferrer"
@@ -97,12 +107,12 @@ export default function Privacy() {
           .
         </p>
         <p>
-          Your calculator runs in a browser sandbox that prevents the surrounding page’s advertising
-          scripts from reading its inputs or results. Only the frame’s size, a request to copy the
-          public tool link, and general interaction events leave the calculator. Declining
-          advertising does not limit the tools or source pages. We request non-personalized ads when
-          a Global Privacy Control signal is present, and after an advertising choice in regions
-          where we wait for consent. Google may present additional regional choices.
+          Your calculator runs in a browser sandbox. Calculator pages and embeds do not load
+          advertising or third-party analytics. Only the frame’s size, a request to copy the public
+          tool link, and general interaction events leave the calculator. Declining advertising does
+          not limit the tools or source pages. We request non-personalized ads when a Global Privacy
+          Control signal is present, and after an advertising choice in regions where we wait for
+          consent. Google may present additional regional choices.
         </p>
       </section>
       <section>
@@ -122,11 +132,11 @@ export default function Privacy() {
           Analytics. Google may use analytics cookies and process device information, IP addresses
           and page visits under its own policies and the property’s retention settings. We send page
           locations without query strings or fragments, and do not intentionally send calculator
-          values, questions, search terms or saved lists. Google Analytics is excluded from Ask
-          Ginie, private tools, filtered search pages and your saved-opportunity page. Browser
-          privacy signals still take precedence. Withdrawing consent disables subsequent collection
-          and removes accessible Google Analytics cookies. It does not erase data already processed
-          by Google.
+          values, questions, search terms or saved lists. Google Analytics is excluded from
+          calculator pages, embeds, Ask Ginie, private tools, filtered search pages and your
+          saved-opportunity page. Browser privacy signals still take precedence. Withdrawing consent
+          disables subsequent collection and removes accessible Google Analytics cookies. It does
+          not erase data already processed by Google.
         </p>
       </section>
       <section>

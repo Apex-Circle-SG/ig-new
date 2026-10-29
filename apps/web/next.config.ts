@@ -15,6 +15,13 @@ const config: NextConfig = {
     '@insightginie/ads',
     '@insightginie/config',
   ],
+  async redirects() {
+    return ['/tools/', '/calc/'].map((source) => ({
+      source,
+      destination: '/calculators/',
+      statusCode: 301,
+    }));
+  },
   async headers() {
     return [
       {

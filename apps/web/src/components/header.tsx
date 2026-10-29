@@ -22,8 +22,8 @@ export function Header() {
           <Link prefetch={false} href="/insights/">
             Insights
           </Link>
-          <Link prefetch={false} href="/tools/">
-            Tools
+          <Link prefetch={false} href="/calculators/">
+            Calculators
           </Link>
           <Link prefetch={false} href="/research/">
             Research
@@ -52,8 +52,8 @@ export function Header() {
             <Link prefetch={false} href="/">
               Home
             </Link>
-            <Link prefetch={false} href="/tools/">
-              Tools
+            <Link prefetch={false} href="/calculators/">
+              Calculators
             </Link>
             <Link prefetch={false} href="/data/">
               Our data

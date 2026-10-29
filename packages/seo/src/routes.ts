@@ -14,7 +14,7 @@ export const DISCOVERY_HUB_PATHS = [
  */
 export const PUBLIC_INDEXABLE_PATHS = [
   '/',
-  '/calc/',
+  '/calculators/',
   '/calc/individual-income-percentile/',
   '/data/',
   '/data/census-cps/',
@@ -26,7 +26,6 @@ export const PUBLIC_INDEXABLE_PATHS = [
   '/privacy/',
   '/terms/',
   '/contact/',
-  '/tools/',
   '/tools/ai-workflow-roi/',
   '/tools/cash-runway/',
   '/tools/break-even/',
@@ -52,9 +51,18 @@ export const PUBLIC_INDEXABLE_PATHS = [
   ...DISCOVERY_HUB_PATHS,
 ] as const;
 
-/** Advertising inventory is all reviewed public pages, never private tools. */
+/** Calculator pages are ad-free, including their surrounding public shells. */
+export function isCalculatorPage(pathname: string) {
+  const path = canonicalPathname(pathname);
+  return (
+    path.startsWith('/calc/') ||
+    path.startsWith('/tools/') ||
+    path.startsWith('/private-tools/') ||
+    path.startsWith('/embed/')
+  );
+}
 export const PUBLIC_AD_PATHS = PUBLIC_INDEXABLE_PATHS.filter(
-  (path) => !['/ask/', '/opportunities/sources/'].includes(path),
+  (path) => !isCalculatorPage(path) && !['/ask/', '/opportunities/sources/'].includes(path),
 );
 export const DYNAMIC_AD_CRAWLER_PATHS = ['/opportunities/*-*/$', '/ideas/*/$', '/earn/*/$'];
 export function isOpportunityContentPath(pathname: string) {

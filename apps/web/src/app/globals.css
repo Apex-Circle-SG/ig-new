@@ -2730,3 +2730,53 @@ td {
     min-width: 130px;
   }
 }
+
+.weekly-insight {
+  border: 1px solid #d8d0e9;
+  border-radius: 16px;
+  background: #f7f5fc;
+  padding: 24px;
+  margin-block: 32px;
+}
+.weekly-insight h2 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+.weekly-insight p {
+  line-height: 1.7;
+  margin-block: 12px;
+}
+.weekly-insight form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+.weekly-insight input {
+  min-width: 0;
+  max-width: 100%;
+  flex: 1 1 200px;
+  padding: 12px;
+  border: 1px solid #777;
+  border-radius: 8px;
+  font: inherit;
+  background: white;
+}
+.weekly-insight button:disabled {
+  opacity: 1;
+  background: #665b83;
+  cursor: not-allowed;
+}
+.insight-share {
+  margin: 18px 0;
+}
+.insight-share textarea {
+  display: block;
+  width: 100%;
+  min-height: 160px;
+  padding: 12px;
+  margin-block: 12px;
+  font: inherit;
+  border: 1px solid #777;
+  border-radius: 8px;
+}

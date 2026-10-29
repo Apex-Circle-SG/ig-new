@@ -488,3 +488,33 @@
     transform: none;
   }
 }
+
+.calculatorFeature {
+  margin-block: 32px 56px;
+  padding: 28px;
+  background: #f2effc;
+  border: 1px solid #d8d0e9;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+.calculatorFeature > div {
+  flex: 1 1 360px;
+}
+.calculatorFeature h2 {
+  font-size: clamp(25px, 3vw, 36px);
+  margin-block: 8px 12px;
+}
+.calculatorFeature p {
+  max-width: 720px;
+  line-height: 1.7;
+}
+.calculatorFeature a:focus-visible {
+  outline: 3px solid #5844d7;
+  outline-offset: 5px;
+}
+.bottom {
+  grid-template-columns: 1fr;
+}

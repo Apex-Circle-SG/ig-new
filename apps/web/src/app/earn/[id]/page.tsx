@@ -98,6 +98,12 @@ export default async function Method({ params }: { params: Promise<{ id: string 
           and revision time alongside direct costs. An actual payment and a satisfied customer are
           stronger evidence than a signup or a compliment.
         </p>
+        <h2>Make the numbers work</h2>
+        <p>
+          <Link href="/tools/break-even/">Explore break-even sales</Link> before investing in an
+          offer, or <Link href="/tools/cash-runway/">estimate your cash runway</Link>. These
+          scenarios do not predict earnings.
+        </p>
         <h2>Original provider and link status</h2>
         <p>
           <a href={item.source_url} target="_blank" rel="noopener">

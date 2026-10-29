@@ -43,8 +43,8 @@ export function Footer({
             <Link prefetch={false} href="/platforms/">
               Earning platforms
             </Link>
-            <Link prefetch={false} href="/tools/">
-              Tools
+            <Link prefetch={false} href="/calculators/">
+              Calculators
             </Link>
             <Link prefetch={false} href="/data/">
               Our data

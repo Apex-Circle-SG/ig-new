@@ -19,7 +19,8 @@ test('homepage leads to earning opportunities and keeps decision tools available
   await expect(page.getByRole('heading', { level: 1 })).toHaveText(
     /Find your next\s*way to earn\./,
   );
-  await page.getByRole('link', { name: 'Compare my income', exact: true }).click();
+  await page.getByRole('link', { name: 'Explore calculators', exact: true }).click();
+  await page.getByRole('link', { name: /Compare my income/ }).click();
   await expect(page).toHaveURL(new RegExp(calculator));
   await expect(tool(page).locator('.big-percent')).toContainText('74.7%');
   expect(runtimeErrors).toEqual([]);
@@ -108,10 +109,10 @@ test('mobile menu and keyboard form work', async ({ page }) => {
   await page.locator('.mobile-nav summary').click();
   await page
     .getByRole('navigation', { name: 'Mobile navigation' })
-    .getByRole('link', { name: 'Tools', exact: true })
+    .getByRole('link', { name: 'Calculators', exact: true })
     .click();
-  await expect(page).toHaveURL(/\/tools\/$/);
-  await page.getByRole('link', { name: /income percentile calculator/i }).click();
+  await expect(page).toHaveURL(/\/calculators\/$/);
+  await page.getByRole('link', { name: /^Compare my income/ }).click();
   await tool(page).getByLabel('Annual individual income').focus();
   await page.keyboard.press('ControlOrMeta+A');
   await page.keyboard.type('55000');

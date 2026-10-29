@@ -46,7 +46,7 @@ export default async function Insights({ searchParams }: { searchParams: Promise
           <p className={styles.eyebrow}>Calculate</p>
           <h2>Try a decision tool</h2>
           <p>Change an assumption and see the mathematical result, with the formula explained.</p>
-          <Link href="/tools/">Explore tools →</Link>
+          <Link href="/calculators/">Explore tools →</Link>
         </section>
         <section className={styles.card}>
           <p className={styles.eyebrow}>Investigate</p>

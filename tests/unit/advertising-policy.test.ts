@@ -39,7 +39,7 @@ describe('regional advertising policy', () => {
     expect(advertisingPolicy({ ...base, enabled: false }).load).toBe(false);
   });
   it('allows the public tool hub and organizational profile without exposing their private descendants', () => {
-    expect(advertisingPolicy({ ...base, pathname: '/tools/' })).toMatchObject({
+    expect(advertisingPolicy({ ...base, pathname: '/calculators/' })).toMatchObject({
       eligible: true,
       load: true,
     });

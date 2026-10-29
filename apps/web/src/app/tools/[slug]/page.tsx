@@ -45,7 +45,7 @@ export default async function ToolPage({ params }: Props) {
           __html: safeJsonLd([
             breadcrumbSchema([
               { name: 'Home', path: '/' },
-              { name: 'Tools', path: '/tools/' },
+              { name: 'Calculators', path: '/calculators/' },
               { name: tool.title, path: `/tools/${tool.id}/` },
             ]),
             webApplicationSchema(tool.title, `/tools/${tool.id}/`, tool.description),
@@ -55,7 +55,7 @@ export default async function ToolPage({ params }: Props) {
       <nav className={styles.breadcrumbs} aria-label="Breadcrumb">
         <Link href="/">Home</Link>
         <span aria-hidden="true">/</span>
-        <Link href="/tools/">Tools</Link>
+        <Link href="/calculators/">Calculators</Link>
         <span aria-hidden="true">/</span>
         <span>{tool.title}</span>
       </nav>
@@ -122,6 +122,14 @@ export default async function ToolPage({ params }: Props) {
       />
       <section className={styles.related}>
         <h2>Keep exploring</h2>
+        <p>
+          <Link href="/calc/individual-income-percentile/">Compare my income</Link> ·{' '}
+          <Link
+            href={tool.id === 'cash-runway' ? '/tools/ai-workflow-roi/' : '/tools/cash-runway/'}
+          >
+            {tool.id === 'cash-runway' ? 'Next: Cost of automation →' : 'Explore cash runway →'}
+          </Link>
+        </p>
         <ul>
           {FINANCE_TOOLS.filter(
             (candidate) => candidate.id !== tool.id && candidate.category === tool.category,
@@ -133,7 +141,7 @@ export default async function ToolPage({ params }: Props) {
               </li>
             ))}
           <li>
-            <Link href="/tools/">All finance tools</Link>
+            <Link href="/calculators/">All calculators</Link>
           </li>
           <li>
             <Link href="/ask/">Ask Ginie</Link>

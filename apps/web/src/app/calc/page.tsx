@@ -33,7 +33,7 @@ export default function Calculators() {
           Model AI workflow costs, business cash runway, break-even volume, loan costs, drawdown
           recovery and portfolio concentration with our six finance tools.
         </p>
-        <Link prefetch={false} href="/tools/">
+        <Link prefetch={false} href="/calculators/">
           Explore all finance tools →
         </Link>
       </section>

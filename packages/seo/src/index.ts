@@ -40,3 +40,5 @@ export {
   isPublicIndexablePath,
   isPublicAdvertisingPath,
 } from './routes';
+
+export { isCalculatorPage } from './routes';

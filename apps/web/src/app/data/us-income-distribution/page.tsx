@@ -8,12 +8,14 @@ import {
 import { safeJsonLd } from '@insightginie/seo';
 import { SiteLink as Link } from '@insightginie/ui';
 import { Document } from '../../../components/document';
+import { IncomeFaq } from '../../../components/income-faq';
+import { WeeklyInsight } from '../../../components/weekly-insight';
 import { IncomeDistributionTable } from '../../../components/income-distribution-table';
 
 export const metadata: Metadata = {
   title: 'US Individual Income Distribution: Census Data, Chart & CSV',
   description:
-    'Explore US individual income bands with Census CPS data, population shares, an accessible chart, downloadable CSV and transparent methodology.',
+    'Find the median and top-10% income bands in the full 44-band table, chart and CSV — Free, no sign-up, source: US Census Bureau.',
   alternates: { canonical: '/data/us-income-distribution/' },
 };
 
@@ -118,6 +120,7 @@ export default async function IncomeDistribution() {
           reveal the exact distribution within a band.
         </p>
         <IncomeDistributionTable rows={incomeDistributionRows(distribution)} />
+        <WeeklyInsight id="data-weekly" />
         <p>
           <a href="/data/us-income-distribution.csv" download>
             Download the complete CSV
@@ -139,6 +142,10 @@ export default async function IncomeDistribution() {
         </p>
         <Link href="/methodology/individual-income/">Read the calculation assumptions →</Link>
       </section>
+      <IncomeFaq />
+      <p>
+        <Link href="/calculators/">Explore all calculators →</Link>
+      </p>
       <section>
         <h2>Embed or cite this chart</h2>
         <p>

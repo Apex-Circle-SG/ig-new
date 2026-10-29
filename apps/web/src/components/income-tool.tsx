@@ -7,6 +7,7 @@ import { IncomeChart } from '@insightginie/charts';
 import { track } from '@insightginie/analytics';
 import { useHydrated } from './use-hydrated';
 import { requestPublicToolShare } from '../embed/share';
+import { incomeBandInsight } from '../lib/income-share';
 const money = (value: number) =>
   new Intl.NumberFormat('en-US', {
     style: 'currency',
@@ -35,6 +36,9 @@ export function IncomeTool({
   const [error, setError] = useState('');
   const [hasRun, setHasRun] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [shareText, setShareText] = useState('');
+  const [insightStatus, setInsightStatus] = useState('');
+  const shareField = useRef<HTMLTextAreaElement>(null);
   const started = useRef(false);
   const result = output.result;
   async function run(value: string, interaction: 'form' | 'example' | 'what-if' = 'form') {
@@ -61,6 +65,8 @@ export function IncomeTool({
       setIncome(cleaned);
       setError('');
       setHasRun(true);
+      setShareText('');
+      setInsightStatus('');
       track('calculator_completed', { calculator_id: 'individual-income-percentile', interaction });
     } catch {
       setError('We could not load the calculation. Check your connection and try again.');
@@ -305,11 +311,58 @@ export function IncomeTool({
         )}
         {!compact && (
           <div className="result-actions">
+            {result && (
+              <button
+                type="button"
+                className="text-button"
+                onClick={() => {
+                  setShareText(incomeBandInsight(output));
+                  setInsightStatus(
+                    'Review this anonymous band before copying. Your exact input is not included.',
+                  );
+                }}
+              >
+                Share this insight
+              </button>
+            )}
             <button onClick={copyLink} type="button" className="text-button">
               <Copy size={15} />
               {copied ? 'Tool link copied' : 'Share this calculator'}
             </button>
             <span>Your income is never included in the link.</span>
+          </div>
+        )}
+        {shareText && (
+          <div className="insight-share">
+            <label htmlFor="anonymous-insight">Review or edit your anonymous insight</label>
+            <textarea
+              ref={shareField}
+              id="anonymous-insight"
+              value={shareText}
+              maxLength={2000}
+              onChange={(event) => setShareText(event.target.value)}
+            />
+            <button
+              type="button"
+              className="button secondary"
+              onClick={() => {
+                shareField.current?.focus();
+                shareField.current?.select();
+                try {
+                  // The sandbox keeps this copy entirely local, without sending a result to the parent.
+                  setInsightStatus(
+                    document.execCommand('copy')
+                      ? 'Insight copied. Paste it wherever you choose.'
+                      : 'Text selected. Use your device’s Copy command.',
+                  );
+                } catch {
+                  setInsightStatus('Text selected. Use your device’s Copy command.');
+                }
+              }}
+            >
+              Copy insight
+            </button>
+            <p role="status">{insightStatus}</p>
           </div>
         )}
       </section>

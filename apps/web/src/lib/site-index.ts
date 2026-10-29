@@ -12,9 +12,8 @@ const names: Record<string, string> = {
   '/platforms/': 'Earning platforms',
   '/earn/': 'Creative ways to earn online',
   ...Object.fromEntries(discoveryHubs.map((hub) => [hub.path, hub.title])),
-  '/calc/': 'Income calculators',
+  '/calculators/': 'Calculators — Understand where you stand',
   '/calc/individual-income-percentile/': 'Individual income percentile',
-  '/tools/': 'Finance tools',
   '/insights/': 'Insights',
   '/research/': 'Research and US income data',
   '/ask/': 'Ask Ginie',
@@ -64,7 +63,7 @@ export function getSiteEntries() {
   return [...pages, ...content, ...guides];
 }
 export function sitemapGroup(path: string) {
-  return path.startsWith('/tools/') || path.startsWith('/calc/')
+  return path === '/calculators/' || path.startsWith('/tools/') || path.startsWith('/calc/')
     ? 'tools'
     : path.startsWith('/insights/') || path.startsWith('/research/')
       ? 'content'

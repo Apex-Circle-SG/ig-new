@@ -168,6 +168,19 @@ export default async function Home() {
           </Link>
         </div>
       </div>
+      <section className={`shell ${styles.calculatorFeature}`}>
+        <div>
+          <p className={styles.eyebrow}>MAKE THE NUMBERS WORK</p>
+          <h2>Understand where you stand.</h2>
+          <p>
+            Compare your income, explore cash runway and see what automation really costs. Free
+            calculators. No account needed. Your inputs stay in your browser.
+          </p>
+        </div>
+        <Link href="/calculators/" className={styles.primary}>
+          Explore calculators <ArrowRight size={18} />
+        </Link>
+      </section>
       <section className={`shell ${styles.section}`}>
         <div className={styles.sectionTop}>
           <div>
@@ -296,20 +309,6 @@ export default async function Home() {
           </p>
           <Link href="/ideas/" className={styles.primary}>
             Find an idea to test <ArrowRight size={18} />
-          </Link>
-        </div>
-        <div className={styles.tools}>
-          <h3>Make the numbers work, too.</h3>
-          <p>Use our calculators to explore income, cash runway and the cost of automation.</p>
-          <Link prefetch={false} href="/tools/" className={styles.textLink}>
-            Explore decision tools <ArrowUpRight size={17} />
-          </Link>
-          <Link
-            prefetch={false}
-            href="/calc/individual-income-percentile/"
-            className={styles.textLink}
-          >
-            Compare my income <ArrowUpRight size={17} />
           </Link>
         </div>
       </section>

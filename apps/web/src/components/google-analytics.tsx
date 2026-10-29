@@ -1,7 +1,7 @@
 'use client';
 import { useEffect } from 'react';
 import { ANALYTICS_CHANGE_EVENT, analyticsConsentGranted } from '@insightginie/analytics';
-import { publicRouteId } from '@insightginie/seo';
+import { isCalculatorPage, publicRouteId } from '@insightginie/seo';
 
 export const GA4_ID = 'G-4HQVZL3586';
 export const GA4_COOKIE = 'ig_ga4';
@@ -21,7 +21,10 @@ export function GoogleAnalytics({ pathname, nonce }: { pathname: string; nonce: 
         Boolean(publicRouteId(pathname)) ||
         /^\/(?:ideas|opportunities|earn)\/[a-z0-9-]+\/$/.test(pathname);
       const privatePage =
-        pathname === '/ask/' || pathname === '/opportunities/saved/' || Boolean(location.search);
+        isCalculatorPage(pathname) ||
+        pathname === '/ask/' ||
+        pathname === '/opportunities/saved/' ||
+        Boolean(location.search);
       const consent =
         analyticsConsentGranted() &&
         document.cookie.split(';').some((part) => part.trim() === `${GA4_COOKIE}=allow`);

@@ -5,11 +5,13 @@ import { ArrowRight, Check, ChevronRight, Database } from 'lucide-react';
 import { getIndividualIncomeDistribution } from '@insightginie/datasets';
 import { breadcrumbSchema, safeJsonLd, webApplicationSchema } from '@insightginie/seo';
 import { PrivateIncomeTool } from '../../../components/private-income-tool';
+import { IncomeFaq } from '../../../components/income-faq';
+import { WeeklyInsight } from '../../../components/weekly-insight';
 import { FinanceTrust } from '../../../components/finance-trust';
 export const metadata: Metadata = {
-  title: 'US Individual Income Percentile Calculator',
+  title: 'Compare My Income — US Income Percentile Calculator',
   description:
-    'See how your annual individual income compares with US people age 15 and over using Census data. Free, private, and transparent about assumptions.',
+    'See the published income band for $50,000, $75,000 or $100,000 — Free, no sign-up, source: US Census Bureau.',
   alternates: { canonical: '/calc/individual-income-percentile/' },
 };
 export default async function Calculator() {
@@ -24,7 +26,7 @@ export default async function Calculator() {
           __html: safeJsonLd([
             breadcrumbSchema([
               { name: 'Home', path: '/' },
-              { name: 'Calculators', path: '/calc/' },
+              { name: 'Calculators', path: '/calculators/' },
               { name: 'Income percentile', path: '/calc/individual-income-percentile/' },
             ]),
             webApplicationSchema(
@@ -40,7 +42,7 @@ export default async function Calculator() {
           Home
         </Link>
         <ChevronRight size={13} />
-        <Link prefetch={false} href="/calc/">
+        <Link prefetch={false} href="/calculators/">
           Calculators
         </Link>
         <ChevronRight size={13} />
@@ -63,6 +65,13 @@ export default async function Calculator() {
         </div>
       </div>
       <PrivateIncomeTool />
+      <WeeklyInsight id="income-weekly" />
+      <p>
+        <Link href="/calculators/">All calculators</Link> ·{' '}
+        <Link href="/tools/cash-runway/">Next: Cash runway →</Link> ·{' '}
+        <Link href="/tools/ai-workflow-roi/">Explore automation costs →</Link>
+      </p>
+      <IncomeFaq />
       <div className="below-tool-grid">
         <section>
           <div className="eyebrow">BEYOND THE NUMBER</div>

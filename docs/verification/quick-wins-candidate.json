@@ -1,0 +1,41 @@
+{
+  "buildId": "mPbHgmGVoyIFwtWycWwdo",
+  "status": "passed",
+  "verifiedAt": "2026-10-29T01:33:09.733111+00:00",
+  "baseURL": "http://127.0.0.1:3011",
+  "checks": {
+    "unit": "424 passed; final share helper 8 passed after rounding adjustment",
+    "operations": 35,
+    "typecheck": "passed",
+    "lint": "passed",
+    "productionBuild": "passed",
+    "browserDistinctChecks": 41,
+    "browserSuite": {
+      "startTime": "2026-10-29T01:28:06.975Z",
+      "duration": 265101.81299999997,
+      "expected": 40,
+      "skipped": 0,
+      "unexpected": 1,
+      "flaky": 0
+    },
+    "correctedNavigationRerun": {
+      "startTime": "2026-10-29T01:32:35.544Z",
+      "duration": 3531.0370000000003,
+      "expected": 1,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "browserNote": "Full suite had one stale Tools-label assertion; updated for Calculators navigation and isolated rerun passed. No application change was needed. Initial execution-window interruption is not counted as a completed suite.",
+    "secretScan": {
+      "checkedAt": "2026-10-29T01:23:50.126496+00:00",
+      "filesChecked": 222,
+      "secretValuesChecked": 11,
+      "matchingFiles": [],
+      "status": "passed"
+    },
+    "datasetAndFormulaDiff": "none",
+    "d1LogicalRestore": "integrity and foreign keys passed"
+  },
+  "evidenceDirectory": "artifacts/quick-wins-preflight"
+}

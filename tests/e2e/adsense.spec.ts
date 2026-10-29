@@ -52,7 +52,7 @@ test('advertising cannot read calculator inputs or results', async ({ page }) =>
     });
   });
   await page.goto('/calc/individual-income-percentile/');
-  await expect(page.locator('#insightginie-adsense')).toHaveCount(1);
+  await expect(page.locator('#insightginie-adsense')).toHaveCount(0);
   const frame = page.frameLocator('iframe.private-income-frame');
   await expect(frame.getByLabel('Annual individual income')).toBeEnabled();
   page.on('request', (request) => requests.push(request.url() + (request.postData() ?? '')));
