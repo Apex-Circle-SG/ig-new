@@ -7,7 +7,7 @@ test('homepage focuses on opportunities and keeps calculator inputs on their own
 }) => {
   const calculatorRequests: string[] = [];
   page.on('request', (request) => {
-    if (new URL(request.url()).pathname === '/tools/income/')
+    if (new URL(request.url()).pathname === '/calc/individual-income-percentile/')
       calculatorRequests.push(request.url());
   });
   await page.route('**/pagead/js/adsbygoogle.js?*', (route) =>
@@ -22,7 +22,8 @@ test('homepage focuses on opportunities and keeps calculator inputs on their own
   await expect(page.getByRole('link', { name: 'Find remote work', exact: true })).toBeVisible();
   await expect(page.locator('iframe.private-income-frame')).toHaveCount(0);
   expect(calculatorRequests).toEqual([]);
-  await page.getByRole('link', { name: 'Compare my income', exact: true }).click();
+  await page.getByRole('link', { name: 'Explore calculators', exact: true }).click();
+  await page.getByRole('link', { name: /Compare my income/ }).click();
   const tool = page.frameLocator('iframe.private-income-frame');
   await expect(tool.getByLabel('Annual individual income')).toBeEnabled();
   await tool.getByLabel('Annual individual income').fill('137891.23');
