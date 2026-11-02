@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import GuideArticle from '../../../components/guide-article';
 
 export const metadata: Metadata = {
   title: 'How many Americans earn between $50,000 and $100,000?',
@@ -10,14 +11,15 @@ export const metadata: Metadata = {
 
 export default function Earn50000To100000() {
   return (
-    <main>
-      <h1>How many Americans earn between $50,000 and $100,000 a year?</h1>
-      <p>
+    <GuideArticle
+      title="How many Americans earn between $50,000 and $100,000 a year?"
+      answer={<>
         <strong>Answer first:</strong> About 24.0% — roughly one in four US individuals.
         That is not a new Census figure; it is the difference between two published
         cumulatives: 83.3% earn under $100,000, and 59.3% earn under $50,000, so
         83.3% − 59.3% = 24.0% earn between those two lines.
-      </p>
+      </>}
+    >
       <h2>The arithmetic, shown</h2>
       <p>
         Under $50,000: 59.3%. Under $100,000: 83.3%. Between $50,000 and $100,000:
@@ -67,7 +69,6 @@ export default function Earn50000To100000() {
         {' '}· <Link href="/calc/individual-income-percentile/">Income calculator</Link>
         {' '}· <Link href="/calculators/">All calculators</Link>
         {' '}· <Link href="/guides/">All guides</Link>
-      </p>
-    </main>
+      </p>    </GuideArticle>
   );
 }

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import GuideArticle from '../../../components/guide-article';
 
 export const metadata: Metadata = {
   title: 'Do most Americans earn more than $75,000 a year?',
@@ -10,13 +11,14 @@ export const metadata: Metadata = {
 
 export default function MostEarnMoreThan75000() {
   return (
-    <main>
-      <h1>Do most Americans earn more than $75,000 a year?</h1>
-      <p>
+    <GuideArticle
+      title="Do most Americans earn more than $75,000 a year?"
+      answer={<>
         <strong>Answer first:</strong> No. 74.7% of US individuals earn under $75,000 a
         year, so most Americans do not earn more than $75,000. By subtraction,
         100% − 74.7% = 25.3% earn $75,000 or more — about one in four.
-      </p>
+      </>}
+    >
       <h2>The numbers</h2>
       <p>
         Under $25,000: 37.1%. Under $50,000: 59.3%. Under $75,000: 74.7%. Under $100,000:
@@ -69,7 +71,6 @@ export default function MostEarnMoreThan75000() {
         {' '}· <Link href="/calc/individual-income-percentile/">Income calculator</Link>
         {' '}· <Link href="/calculators/">All calculators</Link>
         {' '}· <Link href="/guides/">All guides</Link>
-      </p>
-    </main>
+      </p>    </GuideArticle>
   );
 }

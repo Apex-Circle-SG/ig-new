@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import GuideArticle from '../../../components/guide-article';
 
 export const metadata: Metadata = {
   title: 'What does before-tax income mean?',
@@ -10,14 +11,15 @@ export const metadata: Metadata = {
 
 export default function BeforeTaxIncomeMeans() {
   return (
-    <main>
-      <h1>What does before-tax income mean?</h1>
-      <p>
+    <GuideArticle
+      title="What does before-tax income mean?"
+      answer={<>
         <strong>Answer first:</strong> Before-tax income is your income before any tax is
         deducted. If you are comparing an income with InsightGinie’s US distribution, use
         the before-tax figure — because that is what the Census table counts. Do not use
         take-home pay for this comparison, or you will be comparing two different things.
-      </p>
+      </>}
+    >
       <h2>What “before-tax” counts</h2>
       <p>
         Wages, net self-employment income, interest, dividends, retirement income, and
@@ -71,7 +73,6 @@ export default function BeforeTaxIncomeMeans() {
         {' '}· <Link href="/data/us-income-distribution/">US income distribution</Link>
         {' '}· <Link href="/calculators/">All calculators</Link>
         {' '}· <Link href="/guides/">All guides</Link>
-      </p>
-    </main>
+      </p>    </GuideArticle>
   );
 }

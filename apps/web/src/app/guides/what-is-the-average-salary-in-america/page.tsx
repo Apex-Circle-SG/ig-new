@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import GuideArticle from '../../../components/guide-article';
 
 export const metadata: Metadata = {
   title: 'What is the average salary in America?',
@@ -10,16 +11,17 @@ export const metadata: Metadata = {
 
 export default function WhatIsTheAverageSalaryInAmerica() {
   return (
-    <main>
-      <h1>What is the average salary in America?</h1>
-      <p>
+    <GuideArticle
+      title="What is the average salary in America?"
+      answer={<>
         <strong>Answer first:</strong> It depends on which “average” you mean, so start
         with one clearly defined figure. On the Census individual-income basis, the
         median falls in the $37,500–$39,999 band: 59.3% earn under $50,000, 74.7%
         earn under $75,000, and 83.3% earn under $100,000. A mean (“average”) is a
         different figure from the median, and household income is a different
         population again.
-      </p>
+      </>}
+    >
       <h2>Mean vs. median</h2>
       <p>
         The median is the middle of the distribution — half of people earn less,
@@ -73,7 +75,6 @@ export default function WhatIsTheAverageSalaryInAmerica() {
         {' '}· <Link href="/data/us-income-distribution/">US income distribution</Link>
         {' '}· <Link href="/calculators/">All calculators</Link>
         {' '}· <Link href="/guides/">All guides</Link>
-      </p>
-    </main>
+      </p>    </GuideArticle>
   );
 }

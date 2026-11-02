@@ -1,0 +1,84 @@
+.article {
+  max-width: 850px;
+  padding-block: 36px 72px;
+}
+
+.eyebrow {
+  color: #5945c8;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.article h1 {
+  font-size: clamp(32px, 4.2vw, 50px);
+  line-height: 1.12;
+  margin-bottom: 17px;
+}
+
+.intro {
+  font-size: 18px;
+  max-width: 730px;
+  margin-bottom: 20px;
+}
+
+.answer {
+  background: #f2effe;
+  border: 1px solid #e5dffd;
+  border-radius: 14px;
+  padding: 22px 24px;
+  margin-bottom: 32px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--ink);
+}
+
+.answer p {
+  color: var(--ink);
+}
+
+.article h2 {
+  font-size: 27px;
+  margin: 40px 0 14px;
+}
+
+.article h3 {
+  font-size: 19px;
+  margin: 24px 0 8px;
+}
+
+.article p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.article ul,
+.article ol {
+  padding-left: 22px;
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.article li {
+  margin-bottom: 10px;
+}
+
+.article li strong,
+.article p strong {
+  color: var(--ink);
+}
+
+.article a {
+  color: #4835bd;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.article a:hover {
+  color: #5c48dc;
+}

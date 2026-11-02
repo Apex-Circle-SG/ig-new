@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import GuideArticle from '../../../components/guide-article';
 
 export const metadata: Metadata = {
   title: 'What income band are you in? (A 4-question check, not a precise ranking)',
@@ -10,15 +11,16 @@ export const metadata: Metadata = {
 
 export default function WhatIncomeBandAreYouIn() {
   return (
-    <main>
-      <h1>What income band are you in?</h1>
-      <p>A 4-question check, not a precise ranking.</p>
-      <p>
+    <GuideArticle
+      title="What income band are you in?"
+      intro="A 4-question check, not a precise ranking."
+      answer={<>
         <strong>This quiz cannot place you precisely — only the calculator, using your
         income, can put you in a band.</strong> It asks about work and pay patterns, not
         for an income amount. Your answers are not collected or stored; they stay in your
         browser.
-      </p>
+      </>}
+    >
       <h2>The 4 questions</h2>
       <h3>1. How is your pay usually described?</h3>
       <ul>
@@ -122,7 +124,6 @@ export default function WhatIncomeBandAreYouIn() {
         <Link href="/calculators/">All calculators</Link>
         {' '}· <Link href="/data/us-income-distribution/">US income distribution</Link>
         {' '}· <Link href="/guides/">All guides</Link>
-      </p>
-    </main>
+      </p>    </GuideArticle>
   );
 }

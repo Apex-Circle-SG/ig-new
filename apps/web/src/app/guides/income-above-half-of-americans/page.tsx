@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import GuideArticle from '../../../components/guide-article';
 
 export const metadata: Metadata = {
   title: 'How much do you need to earn to be above half of all Americans?',
@@ -10,15 +11,16 @@ export const metadata: Metadata = {
 
 export default function IncomeAboveHalf() {
   return (
-    <main>
-      <h1>How much do you need to earn to be above half of all Americans?</h1>
-      <p>
+    <GuideArticle
+      title="How much do you need to earn to be above half of all Americans?"
+      answer={<>
         <strong>Answer first:</strong> Above $39,999 — that is, above the top of the
         median band. Earn less than $37,500 and you are below half; earn inside
         $37,500–$39,999 and the table cannot say whether you are above or below the exact
         middle person, because it does not show incomes inside the band. Earn above $39,999
         and you are above half, on this basis.
-      </p>
+      </>}
+    >
       <h2>The three zones</h2>
       <p>
         Below $37,500: below half (49.74% earn under $37,500, per the data page’s band
@@ -73,7 +75,6 @@ export default function IncomeAboveHalf() {
         {' '}· <Link href="/guides/why-median-income-is-a-range/">Why the median is a range</Link>
         {' '}· <Link href="/calculators/">All calculators</Link>
         {' '}· <Link href="/guides/">All guides</Link>
-      </p>
-    </main>
+      </p>    </GuideArticle>
   );
 }

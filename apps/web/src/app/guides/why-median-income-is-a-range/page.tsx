@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import GuideArticle from '../../../components/guide-article';
 
 export const metadata: Metadata = {
   title: 'Why is the median US income a range, not a single number?',
@@ -10,15 +11,16 @@ export const metadata: Metadata = {
 
 export default function MedianIncomeRange() {
   return (
-    <main>
-      <h1>Why is the median US income a range, $37,500–$39,999?</h1>
-      <p>
+    <GuideArticle
+      title="Why is the median US income a range, $37,500–$39,999?"
+      answer={<>
         <strong>Answer first:</strong> Because the Census publishes income in bands, not
         as a list of every person’s income. The middle person — the median — falls inside
         the $37,500–$39,999 band, and the table alone cannot say exactly where inside
         that $2,500-wide band they sit. Any site that gives you a single median dollar
         figure from this table is estimating or interpolating, not reporting.
-      </p>
+      </>}
+    >
       <h2>How a median works in a banded table</h2>
       <p>
         Line the whole population up by income. The median is the person in the middle.
@@ -72,7 +74,6 @@ export default function MedianIncomeRange() {
         {' '}· <Link href="/calc/individual-income-percentile/">Income calculator</Link>
         {' '}· <Link href="/calculators/">All calculators</Link>
         {' '}· <Link href="/guides/">All guides</Link>
-      </p>
-    </main>
+      </p>    </GuideArticle>
   );
 }

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import GuideArticle from '../../../components/guide-article';
 
 export const metadata: Metadata = {
   title: 'What percentile is $60,000 a year in the US?',
@@ -10,16 +11,17 @@ export const metadata: Metadata = {
 
 export default function WhatPercentileIs60000AYear() {
   return (
-    <main>
-      <h1>What percentile is $60,000 a year in the US?</h1>
-      <p>
+    <GuideArticle
+      title="What percentile is $60,000 a year in the US?"
+      answer={<>
         <strong>Answer first:</strong> On the Census individual-income basis, $60,000 is
         above the median band ($37,500–$39,999) and above the under-$50,000 mark
         (59.3% earn less than $50,000), but below the under-$75,000 mark (74.7%
         earn less than $75,000). So it sits in a band between those two thresholds.
         The calculator shows the exact published band for an income, rather than
         inventing a single pinpoint percentile.
-      </p>
+      </>}
+    >
       <h2>Why there is no single percentile here</h2>
       <p>
         The Census table publishes income in bands, not as a continuous list of
@@ -69,7 +71,6 @@ export default function WhatPercentileIs60000AYear() {
         {' '}· <Link href="/data/us-income-distribution/">US income distribution</Link>
         {' '}· <Link href="/calculators/">All calculators</Link>
         {' '}· <Link href="/guides/">All guides</Link>
-      </p>
-    </main>
+      </p>    </GuideArticle>
   );
 }
