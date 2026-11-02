@@ -142,6 +142,19 @@ export default async function IncomeDistribution() {
         </p>
         <Link href="/methodology/individual-income/">Read the calculation assumptions →</Link>
       </section>
+      <section>
+        <h2>Guides: US income, explained in bands</h2>
+        <p>
+          Short guides that explain the bands in this table — band ranges only, never a pinpoint
+          percentile the table cannot support.
+        </p>
+        <p>
+          <Link href="/guides/what-percentile-is-60000-a-year/">What percentile is $60,000 a year in the US?</Link>
+          {' '}· <Link href="/guides/why-median-income-is-a-range/">Why is the median US income a range, $37,500–$39,999?</Link>
+          {' '}· <Link href="/guides/what-before-tax-income-means/">What does before-tax income mean?</Link>
+          {' '}· <Link href="/guides/">Browse all 8 guides →</Link>
+        </p>
+      </section>
       <IncomeFaq />
       <p>
         <Link href="/calculators/">Explore all calculators →</Link>
