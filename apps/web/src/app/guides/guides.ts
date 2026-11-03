@@ -55,4 +55,10 @@ export const GUIDES = [
     summary:
       '“Average” can mean mean, median, individual, household, or full-time-only. On the Census individual-income basis, the median falls in the $37,500–$39,999 band.',
   },
+  {
+    href: '/guides/is-75000-a-good-salary/',
+    title: 'Is $75,000 a good salary in the US?',
+    summary:
+      'About 75–76% of US individuals earn less than $75,000 — a position in the distribution, not a verdict on whether it feels good.',
+  },
 ];
