@@ -65,6 +65,8 @@ export function isCalculatorPage(pathname: string) {
   const path = canonicalPathname(pathname);
   return (
     path.startsWith('/calc/') ||
+    path.startsWith('/calculators/expanded/') ||
+    path.startsWith('/private-expanded/') ||
     path.startsWith('/tools/') ||
     path.startsWith('/private-tools/') ||
     path.startsWith('/embed/')

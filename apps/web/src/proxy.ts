@@ -46,6 +46,6 @@ export function proxy(request: NextRequest) {
 
 export const config = {
   matcher: [
-    '/((?!api/|tools/income/|private-tools/|embed/|_next/|ads\\.txt|indexnow-key\\.txt|robots\\.txt|sitemap\\.xml|sitemap-index\\.xml|sitemaps/|feed/|feed\\.xml|admin/|icon\\.svg|opengraph-image|favicon\\.ico|fonts\\.css).*)',
+    '/((?!api/|tools/income/|private-tools/|private-expanded/|embed/|_next/|ads\\.txt|indexnow-key\\.txt|robots\\.txt|sitemap\\.xml|sitemap-index\\.xml|sitemaps/|feed/|feed\\.xml|admin/|icon\\.svg|opengraph-image|favicon\\.ico|fonts\\.css).*)',
   ],
 };

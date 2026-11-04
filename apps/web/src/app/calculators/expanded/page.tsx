@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import ExpandedCalculators from './expanded-calculators';
 
 export const metadata: Metadata = {
   title: 'All calculators — 88 free finance calculators',
@@ -9,5 +8,13 @@ export const metadata: Metadata = {
 };
 
 export default function ExpandedCalculatorsPage() {
-  return <ExpandedCalculators />;
+  return (
+    <iframe
+      title="Private finance calculators"
+      src="/private-expanded/"
+      sandbox="allow-scripts allow-forms"
+      referrerPolicy="no-referrer"
+      style={{ width: '100%', height: '85vh', minHeight: 600, border: 0 }}
+    />
+  );
 }
