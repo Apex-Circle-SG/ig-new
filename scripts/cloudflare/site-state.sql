@@ -21,3 +21,7 @@ CREATE TABLE IF NOT EXISTS scheduled_jobs (
   name TEXT PRIMARY KEY,
   last_attempt INTEGER NOT NULL
 );
+CREATE TABLE IF NOT EXISTS migration_runs (
+  id TEXT PRIMARY KEY,
+  complete INTEGER NOT NULL DEFAULT 0
+);
