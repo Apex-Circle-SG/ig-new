@@ -1,15 +1,11 @@
-# Cloudflare migration status
+# Cloudflare deployment
 
-The live domain remains on the existing server. The production Worker `insightginie-site` is uploaded with no public route. `insightginie-site-stage` is a separate noindex test Worker using its own D1 database. The production database `insightginie-site-state` contains a staging copy of the original aggregates and Ginie state; these copies are not current enough for cutover.
+The production Worker `insightginie-site` serves `insightginie.com/*`. The existing proxied tunnel DNS record remains in place as a rollback route; the Worker handles requests before they reach the tunnel. The production D1 database is `insightginie-site-state`. `insightginie-site-stage` and its separate database are for testing.
 
-The account's saved token can deploy Workers and use D1, but DNS and Worker route reads return 403. Before switching, obtain a token with the existing account permissions and zone DNS and Workers Routes write permissions. Back up the actual DNS and Worker route configuration before changing either.
+Ginie’s credentials and security keys are Worker secrets. Its shared spending ledger and aggregate counts live in D1. `insightginie-metrics` runs on Cloudflare and exports aggregate operational counts to Datadog. The former server web service, tunnel, metrics timer and analytics-prune timer are stopped and disabled.
 
-Before connecting the domain:
+`scripts/cloudflare/prepare.sh` builds an isolated Worker from the current Git commit. Set `IG_CLOUDFLARE_TARGET=production` for production. The script checks that `worker.patch` still applies before building, so incompatible source updates fail rather than overwrite changes. Deployment requires the appropriate Cloudflare account permissions; secrets remain in Worker settings.
 
-1. Verify the production Worker against an isolated test route and confirm the Datadog provider, analytics, admin, search, ads, calculators, indexing, security headers, and origin protections.
-2. Freeze the old Datadog provider and wait for in-flight calls to finish; copy its latest validated budget and cache into the production D1 database. Preserve the shared budget across the switch and rollback.
-3. Synchronize analytics and operation aggregates without overwriting new Cloudflare counts. Account for requests still reaching the old server while routes propagate.
-4. Switch traffic with a reversible route, then verify the actual domain and provider. Keep the original server and its rollback state available.
-5. Enable the Cloudflare metrics exporter with its server-side secret, after disabling the old metrics timer to avoid duplicate exports. Verify the cleanup cron and Datadog delivery.
+The pre-cutover runtime and routing backups are in `artifacts/cloudflare-preview/`. A rollback must preserve the current D1 Ginie budget and aggregate counts before restoring the old provider; otherwise usage can be double-counted or lost. The old server's Datadog provider was intentionally paused before cutover.
 
-`prepare.sh` builds an isolated Worker from the current Git commit and fails if `worker.patch` no longer applies. The patch and staging build need review and the complete release tests before promotion. Production secrets are supplied at deployment, never stored in the repository.
+Automatic GitHub deployment is not connected yet. It requires Cloudflare Workers Builds Configuration Edit permission and the Cloudflare GitHub application to have access to the repository.

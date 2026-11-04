@@ -55,7 +55,7 @@ if (mode === '--dry-run') {
   console.log(JSON.stringify({status:'baseline_synced',statements:batch.length}));
 } else {
   const baseline = JSON.parse(await readFile(baselineFile, 'utf8'));
-  const id = 'post-cutover-' + current.state.budget.month + '-' + current.metrics.lastAttemptAt;
+  const id = 'post-cutover-' + current.state.budget.month + '-' + current.metrics.lastAttemptAt + '-' + (process.env.CLOUDFLARE_SYNC_PHASE ?? 'initial');
   const batch = [{sql:'CREATE TABLE IF NOT EXISTS migration_runs (id TEXT PRIMARY KEY, complete INTEGER NOT NULL DEFAULT 0)'},{sql:'INSERT OR IGNORE INTO migration_runs(id,complete) VALUES (?,0)',params:[id]}];
   let deltas=0;
   for (const [kind, days] of Object.entries(current.aggregates)) for (const [day, counts] of Object.entries(days)) for (const [key, count] of Object.entries(counts)) {
