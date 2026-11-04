@@ -23,6 +23,7 @@ it('sends only approved daily aggregates and runs at most once per five minutes'
     expect(await exportMetrics({SITE_DB:db, DD_API_KEY:'test', DD_METRICS_ENABLED:'true'}, now, send)).toBe('delivered');
     expect(await exportMetrics({SITE_DB:db, DD_API_KEY:'test', DD_METRICS_ENABLED:'true'}, now + 1000, send)).toBe('rate_limited');
     expect(send).toHaveBeenCalledTimes(1);
+    expect(sql.prepare("SELECT last_success FROM scheduled_jobs WHERE name='metrics'").get()).toMatchObject({last_success:now});
     expect(sql.prepare('SELECT COUNT(*) AS n FROM request_limits').get()).toMatchObject({n:0});
     const retry: typeof fetch = vi.fn().mockResolvedValueOnce(new Response(null, { status: 503 })).mockResolvedValueOnce(new Response(null, { status: 202 }));
     expect(await exportMetrics({SITE_DB:db, DD_API_KEY:'test', DD_METRICS_ENABLED:'true'}, now + 300_000, retry, async () => {})).toBe('delivered');

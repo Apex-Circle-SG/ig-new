@@ -42,7 +42,11 @@ export async function exportMetrics(env: Environment, now: number, send = fetch,
       method: 'POST', headers: {'DD-API-KEY': env.DD_API_KEY, 'Content-Type': 'application/json', Accept: 'application/json'},
       body, signal: AbortSignal.timeout(4000), redirect: 'manual',
     });
-    if (response.status === 202) return 'delivered';
+    if (response.status === 202) {
+      const saved = await db.prepare("UPDATE scheduled_jobs SET last_success = ? WHERE name = 'metrics'").bind(now).run();
+      if (!saved.success || saved.meta.changes !== 1) throw new Error('Metrics receipt failed');
+      return 'delivered';
+    }
     if (attempt === 0 && [429, 502, 503, 504].includes(response.status)) { await sleep(1000); continue; }
     throw new Error('Metrics delivery rejected');
   }

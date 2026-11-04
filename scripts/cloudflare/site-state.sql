@@ -19,7 +19,8 @@ CREATE TABLE IF NOT EXISTS request_limits (
 CREATE INDEX IF NOT EXISTS request_limits_expiry ON request_limits(expires);
 CREATE TABLE IF NOT EXISTS scheduled_jobs (
   name TEXT PRIMARY KEY,
-  last_attempt INTEGER NOT NULL
+  last_attempt INTEGER NOT NULL,
+  last_success INTEGER NOT NULL DEFAULT 0
 );
 CREATE TABLE IF NOT EXISTS migration_runs (
   id TEXT PRIMARY KEY,
