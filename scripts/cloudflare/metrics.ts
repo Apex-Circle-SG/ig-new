@@ -40,7 +40,7 @@ export async function exportMetrics(env: Environment, now: number, send = fetch,
   for (let attempt = 0; attempt < 2; attempt++) {
     const response = await send('https://api.ap1.datadoghq.com/api/v2/series', {
       method: 'POST', headers: {'DD-API-KEY': env.DD_API_KEY, 'Content-Type': 'application/json', Accept: 'application/json'},
-      body, signal: AbortSignal.timeout(4000),
+      body, signal: AbortSignal.timeout(4000), redirect: 'manual',
     });
     if (response.status === 202) return 'delivered';
     if (attempt === 0 && [429, 502, 503, 504].includes(response.status)) { await sleep(1000); continue; }

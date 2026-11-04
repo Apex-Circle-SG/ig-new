@@ -139,6 +139,15 @@
  }
  function availableBudget(state: State, config: ReturnType<typeof configuration>, current: number) {
    const parts = dateParts(current);
+@@ -463,7 +389,7 @@
+         const response = await fetcher(url, {
+           ...options,
+           signal: controller.signal,
+-          redirect: 'error',
++          redirect: 'manual',
+           cache: 'no-store',
+         });
+         if (controller.signal.aborted) return fail('timeout');
 @@ -538,12 +464,12 @@
    const runtime = bounded(options.deadlineMs, 25_000, 25_000);
    const requestLimit = bounded(options.requestTimeoutMs, 4000, 4000);
