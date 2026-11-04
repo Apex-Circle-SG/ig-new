@@ -19,6 +19,7 @@ for (const width of [390, 1280]) {
       await expect(page).toHaveScreenshot(`${route.replaceAll('/', '-')}-${width}.png`, {
         fullPage: true,
         animations: 'disabled',
+        mask: [page.locator('img[alt="Listed on Tool Index"]')],
         maxDiffPixelRatio: 0.005,
       });
     });
