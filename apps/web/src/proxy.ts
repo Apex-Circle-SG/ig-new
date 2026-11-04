@@ -21,7 +21,7 @@ export function proxy(request: NextRequest) {
     `default-src 'self'${allowAds ? ' https: data: blob:' : ''}`,
     `script-src 'self' 'nonce-${nonce}' 'strict-dynamic'${allowEval ? " 'unsafe-eval'" : ''}${allowAds ? " 'unsafe-inline' https:" : ''}`,
     `style-src 'self' 'unsafe-inline'${allowAds ? ' https:' : ''}`,
-    `img-src 'self' data: https://blog.insightginie.com${allowAds ? ' https: blob:' : ''}`,
+    `img-src 'self' data: https://blog.insightginie.com https://toolindex.net${allowAds ? ' https: blob:' : ''}`,
     `font-src 'self'${allowAds ? ' https: data:' : ''}`,
     `connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://www.googletagmanager.com${allowAds ? ' https:' : ''}`,
     `frame-src 'self'${allowAds ? ' https:' : ''}`,
