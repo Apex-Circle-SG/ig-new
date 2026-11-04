@@ -60,6 +60,15 @@ export default function Calculators() {
         ))}
       </div>
       <section className={styles.section}>
+        <h2>All calculators — 88 more free tools</h2>
+        <p>
+          Salary, paycheck and tax, budgeting, debt, saving and investing, retirement, housing,
+          freelance and business, and risk tools — every calculation runs in your browser, no
+          sign-up, with the formula and limits shown on each calculator.
+        </p>
+        <Link href="/calculators/expanded/">Browse all 88 calculators →</Link>
+      </section>
+      <section className={styles.section}>
         <h2>Guides: US income, explained in bands</h2>
         <p>
           Short guides that explain the Census bands behind the calculators — band ranges only,
