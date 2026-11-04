@@ -115,6 +115,8 @@ export function Footer({
           <span>For understanding. For exploring. For your next move.</span>
           <span>Educational information, not financial advice.</span>
           <a href="https://toolindex.net/?ref=badge" target="_blank" rel="nofollow noopener">
+            {/* The directory provides this externally hosted SVG badge. */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="https://toolindex.net/badges/listed-on-toolindex.svg" alt="Listed on Tool Index" width="200" height="54" />
           </a>
         </div>
