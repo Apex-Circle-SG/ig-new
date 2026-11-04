@@ -61,4 +61,10 @@ export const GUIDES = [
     summary:
       'About 75–76% of US individuals earn less than $75,000 — a position in the distribution, not a verdict on whether it feels good.',
   },
+  {
+    href: '/guides/what-income-puts-you-in-the-top-10-percent/',
+    title: 'What income puts you in the top 10% in the US?',
+    summary:
+      'The 90% line falls somewhere inside the wide $100,000–$149,999 band (83.32%–91.91%) — the table cannot give a single threshold figure.',
+  },
 ];
