@@ -1,0 +1,581 @@
+--- a/apps/web/package.json
++++ b/apps/web/package.json
+@@ -6,7 +6,11 @@
+   "scripts": {
+     "dev": "next dev --hostname 0.0.0.0",
+     "build": "next build",
+-    "start": "next start --hostname 0.0.0.0"
++    "start": "next start --hostname 0.0.0.0",
++    "dev:vinext": "vite dev --port 3001",
++    "build:vinext": "vite build",
++    "start:vinext": "vite preview",
++    "deploy:vinext": "vinext-cloudflare deploy"
+   },
+   "dependencies": {
+     "@insightginie/ads": "*",
+@@ -21,9 +25,21 @@
+     "@insightginie/ui": "*",
+     "lucide-react": "^0.577.0",
+     "next": "16.4.2",
+-    "react": "^19.3.0",
+-    "react-dom": "^19.3.0",
++    "react": "latest",
++    "react-dom": "latest",
+     "sanitize-html": "^2.17.7",
+-    "zod": "^4.6.4"
++    "zod": "^4.6.4",
++    "vinext": "latest",
++    "react-server-dom-webpack": "latest",
++    "@vinext/cloudflare": "latest"
++  },
++  "devDependencies": {
++    "vite": "8.3.0",
++    "@vitejs/plugin-react": "latest",
++    "@vitejs/plugin-rsc": "latest",
++    "@cloudflare/vite-plugin": "beta",
++    "cf": "latest",
++    "vite-css-modules": "latest",
++    "postcss": "latest"
+   }
+ }
+--- a/apps/web/src/lib/ask/datadog.ts
++++ b/apps/web/src/lib/ask/datadog.ts
+@@ -1,6 +1,6 @@
++import { env as cloudflareEnv } from 'cloudflare:workers';
++import { createCloudflareState } from '../cloudflare/state';
+ import { createHash, randomUUID } from 'node:crypto';
+-import { constants } from 'node:fs';
+-import { mkdir, open, realpath, rename, unlink } from 'node:fs/promises';
+ import path from 'node:path';
+ import { z } from 'zod';
+ import { generalAccessMode } from './general-access';
+@@ -289,39 +289,7 @@
+   const date = new Date(value).toISOString();
+   return { day: date.slice(0, 10), month: date.slice(0, 7) };
+ }
+-async function prepareDirectory(directory: string) {
+-  await mkdir(directory, { recursive: true, mode: 0o700 });
+-  if ((await realpath(directory)) !== directory) return fail('state');
+-  const handle = await open(
+-    directory,
+-    constants.O_RDONLY | constants.O_DIRECTORY | constants.O_NOFOLLOW,
+-  );
+-  try {
+-    const stat = await handle.stat();
+-    if (!stat.isDirectory() || (process.getuid && stat.uid !== process.getuid()))
+-      return fail('state');
+-    await handle.chmod(0o700);
+-  } finally {
+-    await handle.close();
+-  }
+-}
+-async function readState(directory: string, current: number): Promise<State> {
+-  let handle;
+-  try {
+-    handle = await open(
+-      path.join(directory, STATE_FILE),
+-      constants.O_RDONLY | constants.O_NOFOLLOW | constants.O_NONBLOCK,
+-    );
+-    const stat = await handle.stat();
+-    if (
+-      !stat.isFile() ||
+-      stat.nlink !== 1 ||
+-      stat.size > 65536 ||
+-      (stat.mode & 0o777) !== 0o600 ||
+-      (process.getuid && stat.uid !== process.getuid())
+-    )
+-      return fail('state');
+-    const text = await handle.readFile('utf8');
++function validateStoredState(text: string, current: number): State {
+     if (Buffer.byteLength(text) > 65536) return fail('state');
+     const parsed = stateSchema.safeParse(JSON.parse(text));
+     if (!parsed.success) return fail('state');
+@@ -340,48 +308,6 @@
+     )
+       return fail('state');
+     return state;
+-  } catch (error) {
+-    if (error instanceof Error && 'code' in error && error.code === 'ENOENT')
+-      return {
+-        version: 1,
+-        lastProbeAt: 0,
+-        budget: { ...dateParts(current), dailyRuns: 0, monthlyRuns: 0, lastAttemptAt: 0 },
+-        cache: [],
+-      };
+-    return fail('state');
+-  } finally {
+-    await handle?.close();
+-  }
+-}
+-async function writeState(directory: string, state: State) {
+-  const temporary = path.join(directory, `.${STATE_FILE}.${randomUUID()}.tmp`);
+-  let handle;
+-  try {
+-    handle = await open(
+-      temporary,
+-      constants.O_CREAT | constants.O_EXCL | constants.O_WRONLY | constants.O_NOFOLLOW,
+-      0o600,
+-    );
+-    await handle.writeFile(JSON.stringify(state));
+-    await handle.sync();
+-    await handle.close();
+-    handle = undefined;
+-    await rename(temporary, path.join(directory, STATE_FILE));
+-    const directoryHandle = await open(
+-      directory,
+-      constants.O_RDONLY | constants.O_DIRECTORY | constants.O_NOFOLLOW,
+-    );
+-    try {
+-      await directoryHandle.sync();
+-    } finally {
+-      await directoryHandle.close();
+-    }
+-  } finally {
+-    await handle?.close();
+-    await unlink(temporary).catch((error: NodeJS.ErrnoException) => {
+-      if (error.code !== 'ENOENT') throw error;
+-    });
+-  }
+ }
+ function availableBudget(state: State, config: ReturnType<typeof configuration>, current: number) {
+   const parts = dateParts(current);
+@@ -538,12 +464,12 @@
+   const runtime = bounded(options.deadlineMs, 25_000, 25_000);
+   const requestLimit = bounded(options.requestTimeoutMs, 4000, 4000);
+   const cancelReserve = Math.min(requestLimit, Math.max(1, Math.floor(runtime / 5)));
+-  let lock: Awaited<ReturnType<typeof open>> | undefined;
+-  let directory: string | undefined;
++  const cloudState = createCloudflareState(cloudflareEnv.SITE_DB);
++  const owner = randomUUID();
++  let cloudLock = false;
+   try {
+     const config = configuration(env);
+     const plan = createPlan(config);
+-    directory = config.directory;
+     const started = timestamp(now);
+     const wallStarted = performance.now();
+     const remaining = (reserve = 0) =>
+@@ -554,18 +480,9 @@
+           runtime - reserve - (performance.now() - wallStarted),
+         ),
+       );
+-    await prepareDirectory(directory);
+-    try {
+-      lock = await open(
+-        path.join(directory, LOCK_FILE),
+-        constants.O_CREAT | constants.O_EXCL | constants.O_RDWR | constants.O_NOFOLLOW,
+-        0o600,
+-      );
+-    } catch (error) {
+-      if ((error as NodeJS.ErrnoException).code === 'EEXIST') return unavailable('busy');
+-      throw error;
+-    }
+-    const state = await readState(directory, timestamp(now));
++    cloudLock = await cloudState.acquire(owner, timestamp(now), 45_000);
++    if (!cloudLock) return unavailable('busy');
++    const state = validateStoredState(await cloudState.read(owner, timestamp(now)), timestamp(now));
+     const cached = plan.cached?.(state, timestamp(now));
+     if (cached) return cached;
+     availableBudget(state, config, timestamp(now));
+@@ -573,7 +490,7 @@
+     // A failed/ambiguous call retains a short backoff; successful calls clear it.
+     if (state.lastProbeAt && probeAt - state.lastProbeAt < 60_000) return unavailable('busy');
+     state.lastProbeAt = probeAt;
+-    await writeState(directory, state);
++    await cloudState.write(owner, timestamp(now), JSON.stringify(state));
+     const base = `${config.origin}/api/v2/workflows/${config.workflow}`;
+     const request = (url: string, method: string, body?: string, reserve = cancelReserve) =>
+       requestJson(
+@@ -590,7 +507,7 @@
+     state.budget.dailyRuns++;
+     state.budget.monthlyRuns++;
+     state.budget.lastAttemptAt = reservedAt;
+-    await writeState(directory, state);
++    await cloudState.write(owner, timestamp(now), JSON.stringify(state));
+     // Durable reservation precedes POST. Never refund or retry an ambiguous create.
+     let instance: string | undefined;
+     let terminal = false;
+@@ -641,7 +558,7 @@
+             state,
+           );
+           state.lastProbeAt = 0;
+-          await writeState(directory, state);
++          await cloudState.write(owner, timestamp(now), JSON.stringify(state));
+           return completed.result;
+         }
+         if (['FAILED', 'INSTANCE_ERROR', 'CANCELED', 'CANCELLED', 'TIMED_OUT'].includes(status)) {
+@@ -663,11 +580,7 @@
+   } catch (error) {
+     return unavailable(error instanceof SelectionError ? error.reason : 'state');
+   } finally {
+-    if (lock && directory) {
+-      await lock.close().catch(() => undefined);
+-      // A failed unlink leaves a stale lock, so subsequent attempts stay closed.
+-      await unlink(path.join(directory, LOCK_FILE)).catch(() => undefined);
+-    }
++    if (cloudLock) await cloudState.release(owner).catch(() => undefined);
+   }
+ }
+ 
+--- a/apps/web/src/lib/operations.ts
++++ b/apps/web/src/lib/operations.ts
+@@ -1,6 +1,5 @@
+-import { mkdir, readFile, readdir, rename, writeFile } from 'node:fs/promises';
+-import { join } from 'node:path';
+-import { randomUUID } from 'node:crypto';
++import { env as cloudflareEnv } from 'cloudflare:workers';
++import { createCloudflareState } from './cloudflare/state';
+ 
+ export const OPERATION_CODES = [
+   'ask_answer',
+@@ -22,44 +21,19 @@
+ 
+ /** Aggregate service-health counts only. No free text or request context accepted. */
+ export function createOperationStore(directory?: string) {
+-  let queue = Promise.resolve();
++  const cloudState = createCloudflareState(cloudflareEnv.SITE_DB);
+   let pending = 0;
+-  async function read(day: string): Promise<Counts> {
+-    if (!directory) return { day, counts: {} };
+-    try {
+-      const value = JSON.parse(await readFile(join(directory, `${day}.json`), 'utf8')) as Counts;
+-      if (
+-        value.day !== day ||
+-        !value.counts ||
+-        Object.entries(value.counts).some(
+-          ([key, count]) =>
+-            !(OPERATION_CODES as readonly string[]).includes(key) ||
+-            !Number.isSafeInteger(count) ||
+-            count < 0,
+-        )
+-      )
+-        throw new Error('Invalid operation aggregate');
+-      return value;
+-    } catch (error) {
+-      if ((error as NodeJS.ErrnoException).code === 'ENOENT') return { day, counts: {} };
+-      throw error;
+-    }
+-  }
+   return {
+     async record(code: OperationCode, now = new Date()) {
+       if (!directory || pending >= 100 || !(OPERATION_CODES as readonly string[]).includes(code))
+         return;
+       pending += 1;
+-      const write = queue.then(async () => {
++      const write = (async () => {
+         const day = now.toISOString().slice(0, 10);
+-        await mkdir(directory, { recursive: true, mode: 0o700 });
+-        const value = await read(day);
+-        value.counts[code] = Math.min(Number.MAX_SAFE_INTEGER, (value.counts[code] ?? 0) + 1);
+-        const temporary = join(directory, `.${randomUUID()}.tmp`);
+-        await writeFile(temporary, JSON.stringify(value), { mode: 0o600, flag: 'wx' });
+-        await rename(temporary, join(directory, `${day}.json`));
+-      });
+-      queue = write.catch(() => undefined);
++        await cloudState.increment('operations', day, code);
++        await cloudState.prune('operations', new Date(now.getTime() - 29 * 86_400_000).toISOString().slice(0, 10));
++
++      })();
+       try {
+         await write;
+       } catch {
+@@ -69,16 +43,17 @@
+       }
+     },
+     async recent(): Promise<Counts[]> {
+-      if (!directory) return [];
+       try {
+-        const names = (await readdir(directory))
+-          .filter((name) => /^\d{4}-\d{2}-\d{2}\.json$/.test(name))
+-          .sort()
+-          .slice(-30);
+-        return await Promise.all(names.map((name) => read(name.slice(0, 10))));
+-      } catch {
+-        return [];
++      const result = await cloudflareEnv.SITE_DB.prepare("SELECT day, key, count FROM site_counts WHERE kind = 'operations' ORDER BY day DESC LIMIT 1000").all();
++      const grouped = new Map<string, Counts>();
++      for (const row of result.results as {day: string; key: OperationCode; count: number}[]) {
++        if (!(OPERATION_CODES as readonly string[]).includes(row.key) || !/^\d{4}-\d{2}-\d{2}$/.test(row.day) || !Number.isSafeInteger(row.count) || row.count < 0) return [];
++        const entry = grouped.get(row.day) ?? {day: row.day, counts: {}};
++        entry.counts[row.key] = row.count;
++        grouped.set(row.day, entry);
+       }
++      return [...grouped.values()];
++      } catch { return []; }
+     },
+   };
+ }
+--- a/apps/web/src/lib/request-security.ts
++++ b/apps/web/src/lib/request-security.ts
+@@ -1,3 +1,4 @@
++import { env as cloudflareEnv } from 'cloudflare:workers';
+ import { createHmac, randomBytes, timingSafeEqual } from 'node:crypto';
+ import { isIP } from 'node:net';
+ 
+@@ -55,25 +56,21 @@
+   const address = request.headers.get('cf-connecting-ip') ?? '';
+   return signature(address.length <= 45 && isIP(address) ? address : 'unknown');
+ }
+-export function createRequestLimiter(maximum = 20, windowMs = 60_000, maxBuckets = 4096) {
+-  const buckets = new Map<string, { count: number; expires: number }>();
+-  let global = { count: 0, expires: 0 };
+-  return (key: string, now = Date.now()) => {
+-    if (global.expires <= now) {
+-      global = { count: 0, expires: now + windowMs };
+-      for (const [id, value] of buckets) if (value.expires <= now) buckets.delete(id);
+-    }
+-    if (global.count >= 500) return false;
+-    const found = buckets.get(key);
+-    if (!found || found.expires <= now) {
+-      if (!found && buckets.size >= maxBuckets) return false;
+-      buckets.set(key, { count: 1, expires: now + windowMs });
+-    } else {
+-      if (found.count >= maximum) return false;
+-      found.count += 1;
+-    }
+-    global.count += 1;
+-    return true;
++export function createRequestLimiter(maximum = 20, windowMs = 60_000, namespace: string | number = 'ask') {
++  return async (key: string, now = Date.now()) => {
++    const db = cloudflareEnv.SITE_DB;
++    const sql = `INSERT INTO request_limits(bucket, expires, count) VALUES (?, ?, 1)
++      ON CONFLICT(bucket) DO UPDATE SET
++      count = CASE WHEN expires <= ? THEN 1 ELSE count + 1 END,
++      expires = CASE WHEN expires <= ? THEN ? ELSE expires END
++      RETURNING count`;
++    try {
++      const global = await db.prepare(sql).bind(`${namespace}:global`, now + windowMs, now, now, now + windowMs).first();
++      if (!global || Number(global.count) > 500) return false;
++      const row = await db.prepare(sql).bind(`${namespace}:${key}`, now + windowMs, now, now, now + windowMs).first();
++      await db.prepare('DELETE FROM request_limits WHERE expires <= ?').bind(now).run();
++      return Boolean(row && Number(row.count) <= maximum);
++    } catch { return false; }
+   };
+ }
+ 
+--- a/apps/web/src/app/api/events/aggregate-store.ts
++++ b/apps/web/src/app/api/events/aggregate-store.ts
+@@ -1,7 +1,6 @@
+-import { randomUUID } from 'node:crypto';
+-import { mkdir, readFile, readdir, rename, unlink, writeFile } from 'node:fs/promises';
++import { env as cloudflareEnv } from 'cloudflare:workers';
++import { createCloudflareState } from '../../../lib/cloudflare/state';
+ import { isIP } from 'node:net';
+-import { join } from 'node:path';
+ import { eventNames, experienceIds } from '@insightginie/analytics';
+ import { PUBLIC_ROUTE_IDS } from '@insightginie/seo';
+ 
+@@ -9,8 +8,6 @@
+ const routeIds = new Set(Object.values(PUBLIC_ROUTE_IDS));
+ const events = new Set<string>(['page_view', ...eventNames]);
+ const interactions = new Set(['form', 'example', 'what-if', 'copy-link']);
+-type AggregateKey = string;
+-type DailyCounts = { day: string; counts: Record<AggregateKey, number> };
+ type CollectionOptions = {
+   directory?: string;
+   now?: () => number;
+@@ -41,42 +38,6 @@
+   return [event.route_id, event.event, event.calculator_id ?? '', event.interaction ?? ''].join(
+     '|',
+   );
+-}
+-
+-function validKey(key: string) {
+-  const parts = key.split('|');
+-  if (parts.length !== 4) return false;
+-  const [route_id, event, calculator_id, interaction] = parts;
+-  return validEvent({
+-    route_id,
+-    event,
+-    ...(calculator_id ? { calculator_id } : {}),
+-    ...(interaction ? { interaction } : {}),
+-  });
+-}
+-
+-async function readCounts(filename: string, day: string): Promise<DailyCounts> {
+-  let text: string;
+-  try {
+-    text = await readFile(filename, 'utf8');
+-  } catch (error) {
+-    if ((error as NodeJS.ErrnoException).code === 'ENOENT') return { day, counts: {} };
+-    throw error;
+-  }
+-  const data = JSON.parse(text) as DailyCounts;
+-  if (
+-    !data ||
+-    data.day !== day ||
+-    !data.counts ||
+-    typeof data.counts !== 'object' ||
+-    Array.isArray(data.counts) ||
+-    Object.keys(data).some((key) => key !== 'day' && key !== 'counts') ||
+-    Object.entries(data.counts).some(
+-      ([key, count]) => !validKey(key) || !Number.isSafeInteger(count) || count < 0,
+-    )
+-  )
+-    throw new Error('Invalid aggregate file');
+-  return data;
+ }
+ 
+ async function readSmallJson(request: Request, timeoutMs: number) {
+@@ -126,11 +87,11 @@
+ 
+ /** Single Node process only. No event rows, IP addresses or identifiers reach disk. */
+ export function createAggregateCollector(options: CollectionOptions) {
++  const cloudState = createCloudflareState(cloudflareEnv.SITE_DB);
+   const now = options.now ?? Date.now;
+   const siteOrigin = options.siteOrigin ?? 'https://insightginie.com';
+   const addresses = new Map<string, { expires: number; count: number }>();
+   let nextPrune = 0;
+-  let writes: Promise<void> = Promise.resolve();
+   let pendingWrites = 0;
+   let activeBodyReaders = 0;
+   const respond = (status: number) =>
+@@ -195,34 +156,13 @@
+     if (pendingWrites >= 100) return respond(429);
+     const day = new Date(timestamp).toISOString().slice(0, 10);
+     const key = eventKey(event);
+-    const directory = options.directory;
+     const write = async () => {
+-      await mkdir(directory, { recursive: true, mode: 0o700 });
+-      const filename = join(directory, `${day}.json`);
+-      const counts = await readCounts(filename, day);
+-      if ((counts.counts[key] ?? 0) >= Number.MAX_SAFE_INTEGER)
+-        throw new Error('Aggregate overflow');
+-      counts.counts[key] = (counts.counts[key] ?? 0) + 1;
+-      const temporary = join(directory, `.${day}.${process.pid}.${randomUUID()}.tmp`);
+-      try {
+-        await writeFile(temporary, `${JSON.stringify(counts)}\n`, { mode: 0o600, flag: 'wx' });
+-        await rename(temporary, filename);
+-      } finally {
+-        await unlink(temporary).catch((error: NodeJS.ErrnoException) => {
+-          if (error.code !== 'ENOENT') throw error;
+-        });
+-      }
+-      const cutoff = new Date(timestamp - 29 * 86_400_000).toISOString().slice(0, 10);
+-      for (const file of await readdir(directory)) {
+-        if (/^\d{4}-\d{2}-\d{2}\.json$/.test(file) && file.slice(0, 10) < cutoff)
+-          await unlink(join(directory, file)).catch((error: NodeJS.ErrnoException) => {
+-            if (error.code !== 'ENOENT') throw error;
+-          });
+-      }
++      await cloudState.increment('analytics', day, key);
++      await cloudState.prune('analytics', new Date(timestamp - 29 * 86_400_000).toISOString().slice(0, 10));
++
+     };
+     pendingWrites += 1;
+-    const committed = writes.then(write);
+-    writes = committed.catch(() => undefined);
++    const committed = write();
+     try {
+       await committed;
+       return respond(204);
+--- a/apps/web/src/app/api/ask/route.ts
++++ b/apps/web/src/app/api/ask/route.ts
+@@ -12,7 +12,7 @@
+ } from '../../../lib/request-security';
+ export const runtime = 'nodejs';
+ export const dynamic = 'force-dynamic';
+-const allow = createRequestLimiter();
++const allow = createRequestLimiter(20, 60_000, 'ask');
+ let activeRequests = 0;
+ 
+ export async function POST(request: Request) {
+@@ -25,7 +25,7 @@
+     return privateJson({ error: 'Open Ask Ginie on InsightGinie to continue.' }, 403);
+   if (!/^application\/json(?:\s*;|$)/i.test(request.headers.get('content-type') ?? ''))
+     return privateJson({ error: 'JSON required.' }, 415);
+-  if (activeRequests >= 30 || !allow(requestBucket(request)))
++  if (activeRequests >= 30 || !(await allow(requestBucket(request))))
+     return privateJson({ error: 'Please wait a minute before asking another question.' }, 429);
+   activeRequests += 1;
+   try {
+--- a/apps/web/src/app/api/ask/token/route.ts
++++ b/apps/web/src/app/api/ask/token/route.ts
+@@ -7,11 +7,11 @@
+ } from '../../../../lib/request-security';
+ export const runtime = 'nodejs';
+ export const dynamic = 'force-dynamic';
+-const allow = createRequestLimiter(60);
+-export function GET(request: Request) {
++const allow = createRequestLimiter(60, 60_000, 'token');
++export async function GET(request: Request) {
+   if (request.headers.get('sec-fetch-site') === 'cross-site')
+     return privateJson({ error: 'Use Ask on this site.' }, 403);
+-  if (!allow(requestBucket(request)))
++  if (!(await allow(requestBucket(request))))
+     return privateJson({ error: 'Please try again shortly.' }, 429);
+   const { nonce, token } = issueRequestToken();
+   const response = privateJson({ token });
+--- a/apps/web/src/app/api/ask/feedback/route.ts
++++ b/apps/web/src/app/api/ask/feedback/route.ts
+@@ -11,7 +11,7 @@
+ import { operationStore, type OperationCode } from '../../../../lib/operations';
+ 
+ export const runtime = 'nodejs';
+-const allow = createRequestLimiter(5);
++const allow = createRequestLimiter(5, 60_000, 'feedback');
+ const schema = z
+   .object({
+     token: z.string().max(300),
+@@ -25,7 +25,7 @@
+ };
+ export async function POST(request: Request) {
+   if (!trustedOrigin(request)) return privateJson({ error: 'Same-origin requests required.' }, 403);
+-  if (!allow(requestBucket(request))) return privateJson({ error: 'Please try again later.' }, 429);
++  if (!(await allow(requestBucket(request)))) return privateJson({ error: 'Please try again later.' }, 429);
+   if (!/^application\/json(?:\s*;|$)/i.test(request.headers.get('content-type') ?? ''))
+     return privateJson({ error: 'JSON required.' }, 415);
+   const value = schema.safeParse(await readBoundedJson(request, 1024));
+--- a/apps/web/src/app/api/admin/checks/route.ts
++++ b/apps/web/src/app/api/admin/checks/route.ts
+@@ -9,11 +9,11 @@
+ import { contentPublication, getContentStatus, listContent } from '../../../../lib/content';
+ import { getIndividualIncomeDistribution } from '@insightginie/datasets';
+ export const runtime = 'nodejs';
+-const allow = createRequestLimiter(5);
++const allow = createRequestLimiter(5, 60_000, 'checks');
+ export async function POST(request: Request) {
+   if (!authenticatedAdmin(request)) return adminChallenge();
+   if (!trustedOrigin(request)) return privateJson({ error: 'Same-origin requests required.' }, 403);
+-  if (!allow(requestBucket(request))) return privateJson({ error: 'Please try again later.' }, 429);
++  if (!(await allow(requestBucket(request)))) return privateJson({ error: 'Please try again later.' }, 429);
+   const body = await readBoundedJson(request, 128);
+   if (!body || typeof body !== 'object' || Object.keys(body).length)
+     return privateJson({ error: 'No parameters accepted.' }, 400);
+--- a/apps/web/src/app/admin/route.ts
++++ b/apps/web/src/app/admin/route.ts
+@@ -9,10 +9,10 @@
+ import { createRequestLimiter, privateJson, requestBucket } from '../../lib/request-security';
+ export const runtime = 'nodejs';
+ export const dynamic = 'force-dynamic';
+-const allow = createRequestLimiter(30);
++const allow = createRequestLimiter(30, 60_000, 'admin');
+ 
+ export async function GET(request: Request) {
+-  if (!allow(requestBucket(request))) return privateJson({ error: 'Try again shortly.' }, 429);
++  if (!(await allow(requestBucket(request)))) return privateJson({ error: 'Try again shortly.' }, 429);
+   if (!authenticatedAdmin(request)) return adminChallenge();
+   const dataset = getIndividualIncomeDistribution();
+   const content = getContentStatus();
+--- a/apps/web/src/app/private-tools/[slug]/route.ts
++++ b/apps/web/src/app/private-tools/[slug]/route.ts
+@@ -15,7 +15,7 @@
+     });
+   const nonce = randomBytes(24).toString('base64');
+   const html = template.replaceAll('__FINANCE_EMBED_NONCE__', nonce);
+-  const accepted = request.headers.get('accept-encoding') ?? '';
++  const accepted = '';
+   const encoding = /\bbr\b/.test(accepted) ? 'br' : /\bgzip\b/.test(accepted) ? 'gzip' : undefined;
+   const body =
+     encoding === 'br'
+--- a/apps/web/src/app/tools/income/route.ts
++++ b/apps/web/src/app/tools/income/route.ts
+@@ -14,7 +14,7 @@
+     nonce,
+   );
+   // no-transform protects nonce scripts from edge rewriting, so compress at the origin.
+-  const accepted = request.headers.get('accept-encoding') ?? '';
++  const accepted = '';
+   const encoding = /\bbr\b/.test(accepted) ? 'br' : /\bgzip\b/.test(accepted) ? 'gzip' : undefined;
+   const compressed =
+     encoding === 'br'
