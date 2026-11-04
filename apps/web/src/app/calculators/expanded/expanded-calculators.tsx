@@ -3,6 +3,7 @@
 import { useMemo, useState } from 'react';
 import { CALCS } from '../../../lib/expanded-calculators';
 import styles from '../../../components/finance/finance-tool.module.css';
+import local from './expanded-calculators.module.css';
 
 type Values = Record<string, Record<string, number>>;
 
@@ -49,7 +50,7 @@ export default function ExpandedCalculators() {
   }, [query, activeCategory]);
 
   return (
-    <div className={`shell ${styles.page}`}>
+    <div className={`shell ${styles.page} ${local.wrap}`}>
       <header className={styles.header}>
         <div className={styles.eyebrow}>YOUR NUMBERS, WITH CONTEXT</div>
         <h1>All calculators — 88 free tools</h1>
@@ -60,30 +61,26 @@ export default function ExpandedCalculators() {
           only (individual, before-tax, US Census CPS ASEC PINC-11, 2024), never a pinpoint
           percentile the table cannot support. Tax tools are educational only, not tax advice.
         </p>
-        <p>
+        <p className={local.count}>
           Showing {shownCount} of {CALCS.length} calculators. The original 8 calculators remain on
-          the main <a href="/calculators/">calculators hub</a>.
+          the main <a className={local.hubLink} href="/calculators/">calculators hub</a>.
         </p>
       </header>
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginBottom: '1rem' }}>
+      <div className={local.controls}>
         <input
           type="search"
           placeholder="Search calculators…"
           aria-label="Search calculators"
           value={query}
           onChange={(event) => setQuery(event.target.value)}
-          style={{ flex: '1 1 260px', padding: '0.55rem 0.7rem', fontSize: '1rem' }}
+          className={local.search}
         />
         {['All', ...categories].map((category) => (
           <button
             key={category}
             type="button"
             onClick={() => setActiveCategory(category)}
-            style={{
-              padding: '0.35rem 0.8rem',
-              cursor: 'pointer',
-              fontWeight: activeCategory === category ? 700 : 400,
-            }}
+            className={`${local.filter} ${activeCategory === category ? local.filterActive : ''}`}
           >
             {category}
           </button>
@@ -114,10 +111,8 @@ export default function ExpandedCalculators() {
                     <h2>{calc.name}</h2>
                     <p>{calc.blurb}</p>
                     {calc.inputs.map((input: { key: string; label: string; step?: number; min?: number }) => (
-                      <div key={input.key} style={{ margin: '0.5rem 0' }}>
-                        <label style={{ display: 'block', fontSize: '0.9rem', fontWeight: 600 }}>
-                          {input.label}
-                        </label>
+                      <div key={input.key} className={local.field}>
+                        <label className={local.label}>{input.label}</label>
                         <input
                           type="number"
                           step={input.step ?? 1}
@@ -132,24 +127,24 @@ export default function ExpandedCalculators() {
                               },
                             }))
                           }
-                          style={{ width: '100%', padding: '0.45rem 0.6rem', fontSize: '1rem' }}
+                          className={local.input}
                         />
                       </div>
                     ))}
-                    <div style={{ background: '#eef3fb', borderRadius: '8px', padding: '0.6rem 0.8rem', marginTop: '0.7rem' }}>
+                    <div className={local.results}>
                       {calc.outputs.map((output: { key: string; label: string; format?: string }) => (
-                        <div key={output.key} style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
-                          <span>{output.label}</span>
-                          <strong>{formatResult(output, results[output.key])}</strong>
+                        <div key={output.key} className={local.resultRow}>
+                          <span className={local.resultLabel}>{output.label}</span>
+                          <strong className={local.resultValue}>{formatResult(output, results[output.key])}</strong>
                         </div>
                       ))}
                     </div>
-                    <p style={{ fontSize: '0.88rem' }}>
+                    <div className={local.note}>
                       <strong>Formula:</strong> {calc.formula}
-                    </p>
-                    <p style={{ fontSize: '0.88rem' }}>
+                    </div>
+                    <div className={local.note}>
                       <strong>Limits:</strong> {calc.limits}
-                    </p>
+                    </div>
                   </div>
                 );
               })}
