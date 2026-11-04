@@ -1,0 +1,118 @@
+/* Expanded calculators — self-contained site colours (same hex values as
+   globals.css) because this content renders inside a sandboxed iframe
+   whose document does not load globals.css. Do not switch these back to
+   var(--...) without also loading globals.css inside that frame. */
+.wrap {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.search {
+  flex: 1 1 260px;
+  padding: 10px 14px;
+  font-size: 15px;
+  border: 1px solid #e8e9ef;
+  border-radius: 12px;
+  background: #fff;
+  color: #1d2439;
+}
+
+.filter {
+  border: 1px solid #e4deef;
+  background: #f8f6fd;
+  border-radius: 20px;
+  padding: 6px 13px;
+  font-size: 12px;
+  color: #49435f;
+}
+
+.filterActive {
+  background: #5c48dc;
+  border-color: #5c48dc;
+  color: #fff;
+  font-weight: 700;
+}
+
+.count {
+  color: #5e687b;
+  font-size: 14px;
+}
+
+.hubLink {
+  color: #5c48dc;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 600;
+}
+
+.field {
+  margin: 10px 0;
+}
+
+.label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #1d2439;
+}
+
+.input {
+  width: 100%;
+  padding: 9px 12px;
+  font-size: 15px;
+  border: 1px solid #e8e9ef;
+  border-radius: 10px;
+  background: #fff;
+  color: #1d2439;
+}
+
+.results {
+  background: #f8f7fc;
+  border: 1px solid #e6e1f1;
+  padding: 18px;
+  border-radius: 14px;
+  margin-top: 14px;
+}
+
+.resultRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 8px 0;
+  border-top: 1px solid #e0dce9;
+}
+
+.resultRow:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.resultLabel {
+  font-size: 12px;
+  color: #5e687b;
+}
+
+.resultValue {
+  font-size: 18px;
+  font-weight: 600;
+  color: #342958;
+  text-align: right;
+}
+
+.note {
+  font-size: 12px;
+  color: #5e687b;
+  line-height: 1.8;
+}
+
+.note strong {
+  color: #1d2439;
+}
