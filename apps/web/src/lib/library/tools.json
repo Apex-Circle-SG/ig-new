@@ -1,0 +1,5413 @@
+[
+  {
+    "id": "AI-1",
+    "title": "AI Computer",
+    "category": "AI",
+    "subcategory": "Agent",
+    "url": "https://manus.im"
+  },
+  {
+    "id": "AI-2",
+    "title": "AI Computer",
+    "category": "AI",
+    "subcategory": "Agent",
+    "url": "https://zo.computer"
+  },
+  {
+    "id": "AI-3",
+    "title": "AI Computer",
+    "category": "AI",
+    "subcategory": "Agent",
+    "url": "https://bolt.new"
+  },
+  {
+    "id": "AI-4",
+    "title": "AI Computer",
+    "category": "AI",
+    "subcategory": "Agent",
+    "url": "https://caffeine.ai"
+  },
+  {
+    "id": "AI-5",
+    "title": "AI Computer",
+    "category": "AI",
+    "subcategory": "Agent",
+    "url": "https://github.com/p-e-w/heretic"
+  },
+  {
+    "id": "AI-6",
+    "title": "Agenticflow AI",
+    "category": "AI",
+    "subcategory": "Agent",
+    "url": "https://agenticflow.ai"
+  },
+  {
+    "id": "AI-7",
+    "title": "Big AGI",
+    "category": "AI",
+    "subcategory": "Agent",
+    "url": "https://github.com/enricoros/big-AGI"
+  },
+  {
+    "id": "AI-8",
+    "title": "Bytedance Agent",
+    "category": "AI",
+    "subcategory": "Agent",
+    "url": "https://github.com/bytedance/deer-flow"
+  },
+  {
+    "id": "AI-9",
+    "title": "Company",
+    "category": "AI",
+    "subcategory": "Agent",
+    "url": "https://polsia.com"
+  },
+  {
+    "id": "AI-10",
+    "title": "CrewAI",
+    "category": "AI",
+    "subcategory": "Agent",
+    "url": "https://crewai.com"
+  },
+  {
+    "id": "AI-11",
+    "title": "Nous Research Agent",
+    "category": "AI",
+    "subcategory": "Agent",
+    "url": "https://hermes-agent.nousresearch.com"
+  },
+  {
+    "id": "AI-12",
+    "title": "Personal Assistant",
+    "category": "AI",
+    "subcategory": "Agent",
+    "url": "https://openclaw.ai"
+  },
+  {
+    "id": "AI-13",
+    "title": "Personal Assistant",
+    "category": "AI",
+    "subcategory": "Agent",
+    "url": "https://github.com/tinyhumansai/openhuman"
+  },
+  {
+    "id": "AI-14",
+    "title": "Personal Assistant",
+    "category": "AI",
+    "subcategory": "Agent",
+    "url": "https://github.com/open-jarvis/OpenJarvis"
+  },
+  {
+    "id": "AI-15",
+    "title": "QuantaLogic",
+    "category": "AI",
+    "subcategory": "Agent",
+    "url": "https://quantalogic.app"
+  },
+  {
+    "id": "AI-16",
+    "title": "Swarm",
+    "category": "AI",
+    "subcategory": "Agent",
+    "url": "https://swarms.ai"
+  },
+  {
+    "id": "AI-17",
+    "title": "Swarm (OpenAI)",
+    "category": "AI",
+    "subcategory": "Agent",
+    "url": "https://github.com/openai/openai-agents-python"
+  },
+  {
+    "id": "AI-18",
+    "title": "Taskade",
+    "category": "AI",
+    "subcategory": "Agent",
+    "url": "https://taskade.com"
+  },
+  {
+    "id": "AI-19",
+    "title": "Upsonic",
+    "category": "AI",
+    "subcategory": "Agent",
+    "url": "https://github.com/Upsonic/Upsonic"
+  },
+  {
+    "id": "AI-20",
+    "title": "WeChat",
+    "category": "AI",
+    "subcategory": "Agent",
+    "url": "https://github.com/zhayujie/chatgpt-on-wechat"
+  },
+  {
+    "id": "AI-21",
+    "title": "Agent Universe",
+    "category": "AI",
+    "subcategory": "Builder",
+    "url": "https://github.com/antgroup/agentUniverse"
+  },
+  {
+    "id": "AI-22",
+    "title": "Ango",
+    "category": "AI",
+    "subcategory": "Builder",
+    "url": "https://agno.com"
+  },
+  {
+    "id": "AI-23",
+    "title": "Camel",
+    "category": "AI",
+    "subcategory": "Builder",
+    "url": "https://camel-ai.org"
+  },
+  {
+    "id": "AI-24",
+    "title": "Comet",
+    "category": "AI",
+    "subcategory": "Builder",
+    "url": "https://comet.com"
+  },
+  {
+    "id": "AI-25",
+    "title": "DataRobot",
+    "category": "AI",
+    "subcategory": "Builder",
+    "url": "https://datarobot.com"
+  },
+  {
+    "id": "AI-26",
+    "title": "DSPy",
+    "category": "AI",
+    "subcategory": "Builder",
+    "url": "https://dspy.ai"
+  },
+  {
+    "id": "AI-27",
+    "title": "Fireworks",
+    "category": "AI",
+    "subcategory": "Builder",
+    "url": "https://fireworks.ai"
+  },
+  {
+    "id": "AI-28",
+    "title": "LangChain",
+    "category": "AI",
+    "subcategory": "Builder",
+    "url": "https://langchain.com"
+  },
+  {
+    "id": "AI-29",
+    "title": "Prompting",
+    "category": "AI",
+    "subcategory": "Builder",
+    "url": "https://niceprompt.app"
+  },
+  {
+    "id": "AI-30",
+    "title": "Anda",
+    "category": "AI",
+    "subcategory": "Chat",
+    "url": "https://github.com/ldclabs/anda"
+  },
+  {
+    "id": "AI-31",
+    "title": "AutoGPT",
+    "category": "AI",
+    "subcategory": "Chat",
+    "url": "https://agpt.co"
+  },
+  {
+    "id": "AI-32",
+    "title": "Chat Labs (Aggregator)",
+    "category": "AI",
+    "subcategory": "Chat",
+    "url": "https://chatlabsai.com"
+  },
+  {
+    "id": "AI-33",
+    "title": "ChatSonic",
+    "category": "AI",
+    "subcategory": "Chat",
+    "url": "https://chatsonic.pro"
+  },
+  {
+    "id": "AI-34",
+    "title": "Just Chat",
+    "category": "AI",
+    "subcategory": "Chat",
+    "url": "https://github.com/longevity-genie/just-chat"
+  },
+  {
+    "id": "AI-35",
+    "title": "Koomunicate",
+    "category": "AI",
+    "subcategory": "Chat",
+    "url": "https://kommunicate.io"
+  },
+  {
+    "id": "AI-36",
+    "title": "LangBot",
+    "category": "AI",
+    "subcategory": "Chat",
+    "url": "https://langbot.app"
+  },
+  {
+    "id": "AI-37",
+    "title": "Magic AI",
+    "category": "AI",
+    "subcategory": "Chat",
+    "url": "https://magicai.ai"
+  },
+  {
+    "id": "AI-38",
+    "title": "NextChat (Aggregator)",
+    "category": "AI",
+    "subcategory": "Chat",
+    "url": "https://nextchat.club"
+  },
+  {
+    "id": "AI-39",
+    "title": "Poe (Aggregator)",
+    "category": "AI",
+    "subcategory": "Chat",
+    "url": "https://poe.com"
+  },
+  {
+    "id": "AI-40",
+    "title": "Quickchat (Custom)",
+    "category": "AI",
+    "subcategory": "Chat",
+    "url": "https://quickchat.ai"
+  },
+  {
+    "id": "AI-41",
+    "title": "Free",
+    "category": "AI",
+    "subcategory": "Endpoint",
+    "url": "https://github.com/tashfeenahmed/freellmapi"
+  },
+  {
+    "id": "AI-42",
+    "title": "Free",
+    "category": "AI",
+    "subcategory": "Endpoint",
+    "url": "https://github.com/diegosouzapw/OmniRoute"
+  },
+  {
+    "id": "AI-43",
+    "title": "Serving",
+    "category": "AI",
+    "subcategory": "Endpoint",
+    "url": "https://github.com/sgl-project/sglang"
+  },
+  {
+    "id": "AI-44",
+    "title": "IDE",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://cursor.com"
+  },
+  {
+    "id": "AI-45",
+    "title": "IDE",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://kiro.dev"
+  },
+  {
+    "id": "AI-46",
+    "title": "IDE",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://opencode.ai"
+  },
+  {
+    "id": "AI-47",
+    "title": "IDE (Aggregator)",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://github.com/lidge-jun/opencodex"
+  },
+  {
+    "id": "AI-48",
+    "title": "IDE (token effecient)",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://opensquilla.ai"
+  },
+  {
+    "id": "AI-49",
+    "title": "IDE",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://16x.engineer"
+  },
+  {
+    "id": "AI-50",
+    "title": "IDE (Minimal)",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://pi.dev"
+  },
+  {
+    "id": "AI-51",
+    "title": "Alibaba IDE",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://lingma.aliyun.com"
+  },
+  {
+    "id": "AI-52",
+    "title": "Claude IDE",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://claude.com/product/claude-code"
+  },
+  {
+    "id": "AI-53",
+    "title": "Claude IDE",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://github.com/anthropics/claude-code"
+  },
+  {
+    "id": "AI-54",
+    "title": "Free (Ads)",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://freebuff.com"
+  },
+  {
+    "id": "AI-55",
+    "title": "Google Coding",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://antigravity.google"
+  },
+  {
+    "id": "AI-56",
+    "title": "Google Coding",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://geminicli.com"
+  },
+  {
+    "id": "AI-57",
+    "title": "Google Coding",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://jules.google"
+  },
+  {
+    "id": "AI-58",
+    "title": "Microsoft Coding",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://github.com/copilot"
+  },
+  {
+    "id": "AI-59",
+    "title": "OpenAI Coding",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://openai.com/codex"
+  },
+  {
+    "id": "AI-60",
+    "title": "Qoder",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://qoder.com"
+  },
+  {
+    "id": "AI-61",
+    "title": "Trae",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://trae.ai"
+  },
+  {
+    "id": "AI-62",
+    "title": "Tencent Coding",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://codebuddy.ai"
+  },
+  {
+    "id": "AI-63",
+    "title": "Windsurf Coding",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://devin.ai"
+  },
+  {
+    "id": "AI-64",
+    "title": "Vibe Coding",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://base44.com"
+  },
+  {
+    "id": "AI-65",
+    "title": "Vibe Coding",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://lovable.dev"
+  },
+  {
+    "id": "AI-66",
+    "title": "Vibe Coding",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://replit.com/"
+  },
+  {
+    "id": "AI-67",
+    "title": "Vibe Coding",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://superagentx.ai"
+  },
+  {
+    "id": "AI-68",
+    "title": "Vibe Coding",
+    "category": "AI",
+    "subcategory": "Harness",
+    "url": "https://wordware.ai"
+  },
+  {
+    "id": "AI-69",
+    "title": "AskAnywhere (Journaling)",
+    "category": "AI",
+    "subcategory": "Local",
+    "url": "https://github.com/sharmt1411/askanywhere"
+  },
+  {
+    "id": "AI-70",
+    "title": "Athena",
+    "category": "AI",
+    "subcategory": "Local",
+    "url": "https://athenalab.ai"
+  },
+  {
+    "id": "AI-71",
+    "title": "Chatbox AI",
+    "category": "AI",
+    "subcategory": "Local",
+    "url": "https://chatboxai.app"
+  },
+  {
+    "id": "AI-72",
+    "title": "Cherry Studio",
+    "category": "AI",
+    "subcategory": "Local",
+    "url": "https://github.com/CherryHQ/cherry-studio"
+  },
+  {
+    "id": "AI-73",
+    "title": "Deepchat",
+    "category": "AI",
+    "subcategory": "Local",
+    "url": "https://github.com/ThinkInAIXYZ/deepchat"
+  },
+  {
+    "id": "AI-74",
+    "title": "EnConvo",
+    "category": "AI",
+    "subcategory": "Local",
+    "url": "https://enconvo.com"
+  },
+  {
+    "id": "AI-75",
+    "title": "FreeToken",
+    "category": "AI",
+    "subcategory": "Local",
+    "url": "https://flashml.ai"
+  },
+  {
+    "id": "AI-76",
+    "title": "IntelliBar",
+    "category": "AI",
+    "subcategory": "Local",
+    "url": "https://intellibar.app"
+  },
+  {
+    "id": "AI-77",
+    "title": "LibreChat",
+    "category": "AI",
+    "subcategory": "Local",
+    "url": "https://librechat.ai"
+  },
+  {
+    "id": "AI-78",
+    "title": "MaxKB",
+    "category": "AI",
+    "subcategory": "Local",
+    "url": "https://github.com/1Panel-dev/MaxKB"
+  },
+  {
+    "id": "AI-79",
+    "title": "OpenWebUI",
+    "category": "AI",
+    "subcategory": "Local",
+    "url": "https://openwebui.com"
+  },
+  {
+    "id": "AI-81",
+    "title": "vLLM",
+    "category": "AI",
+    "subcategory": "Local",
+    "url": "https://vllm.ai"
+  },
+  {
+    "id": "AI-82",
+    "title": "Xark",
+    "category": "AI",
+    "subcategory": "Local",
+    "url": "https://xark-argo.com"
+  },
+  {
+    "id": "AI-83",
+    "title": "Arize",
+    "category": "AI",
+    "subcategory": "Memory",
+    "url": "https://arize.com"
+  },
+  {
+    "id": "AI-84",
+    "title": "Conversation history",
+    "category": "AI",
+    "subcategory": "Memory",
+    "url": "https://getzep.com"
+  },
+  {
+    "id": "AI-85",
+    "title": "Graph (Codebase)",
+    "category": "AI",
+    "subcategory": "Memory",
+    "url": "https://github.com/DeusData/codebase-memory-mcp"
+  },
+  {
+    "id": "AI-86",
+    "title": "Graph (Codebase)",
+    "category": "AI",
+    "subcategory": "Memory",
+    "url": "https://github.com/Graphify-Labs/graphify"
+  },
+  {
+    "id": "AI-87",
+    "title": "Improvement",
+    "category": "AI",
+    "subcategory": "Memory",
+    "url": "https://cognee.ai"
+  },
+  {
+    "id": "AI-88",
+    "title": "Improvement",
+    "category": "AI",
+    "subcategory": "Memory",
+    "url": "https://mem0.ai"
+  },
+  {
+    "id": "AI-89",
+    "title": "Persistent",
+    "category": "AI",
+    "subcategory": "Memory",
+    "url": "https://letta.com"
+  },
+  {
+    "id": "AI-90",
+    "title": "3.99 / month",
+    "category": "AI",
+    "subcategory": "One-click Deploy",
+    "url": "https://agent37.com"
+  },
+  {
+    "id": "AI-91",
+    "title": "5 / month",
+    "category": "AI",
+    "subcategory": "One-click Deploy",
+    "url": "https://railway.com/deploy/openclaw"
+  },
+  {
+    "id": "AI-92",
+    "title": "9 / month",
+    "category": "AI",
+    "subcategory": "One-click Deploy",
+    "url": "https://useclawy.com"
+  },
+  {
+    "id": "AI-93",
+    "title": "15 / month",
+    "category": "AI",
+    "subcategory": "One-click Deploy",
+    "url": "https://kilo.ai"
+  },
+  {
+    "id": "AI-94",
+    "title": "29 / month",
+    "category": "AI",
+    "subcategory": "One-click Deploy",
+    "url": "https://clawdi.ai"
+  },
+  {
+    "id": "AI-95",
+    "title": "99 / month",
+    "category": "AI",
+    "subcategory": "One-click Deploy",
+    "url": "https://icoco.ai"
+  },
+  {
+    "id": "AI-96",
+    "title": "99 / month",
+    "category": "AI",
+    "subcategory": "One-click Deploy",
+    "url": "https://worksbuddy.ai"
+  },
+  {
+    "id": "AaaS-1",
+    "title": "Chutes",
+    "category": "AaaS",
+    "subcategory": "Compute",
+    "url": "https://chutes.ai"
+  },
+  {
+    "id": "AaaS-2",
+    "title": "Checker",
+    "category": "AaaS",
+    "subcategory": "Hardware",
+    "url": "https://canirun.ai"
+  },
+  {
+    "id": "AaaS-3",
+    "title": "Cloud",
+    "category": "AaaS",
+    "subcategory": "Hardware",
+    "url": "https://anyscale.com"
+  },
+  {
+    "id": "AaaS-4",
+    "title": "Cloud",
+    "category": "AaaS",
+    "subcategory": "Hardware",
+    "url": "https://modal.com"
+  },
+  {
+    "id": "AaaS-5",
+    "title": "Cloud",
+    "category": "AaaS",
+    "subcategory": "Hardware",
+    "url": "https://simplismart.ai"
+  },
+  {
+    "id": "AaaS-6",
+    "title": "Cloud",
+    "category": "AaaS",
+    "subcategory": "Hardware",
+    "url": "https://yomo.run"
+  },
+  {
+    "id": "AaaS-7",
+    "title": "Pool",
+    "category": "AaaS",
+    "subcategory": "Hardware",
+    "url": "https://pooled.run"
+  },
+  {
+    "id": "AaaS-8",
+    "title": "Midjourney",
+    "category": "AaaS",
+    "subcategory": "Image",
+    "url": "https://midjourney.com"
+  },
+  {
+    "id": "AaaS-9",
+    "title": "Pollinations",
+    "category": "AaaS",
+    "subcategory": "Image",
+    "url": "https://pollinations.ai"
+  },
+  {
+    "id": "AaaS-10",
+    "title": "Bitnet",
+    "category": "AaaS",
+    "subcategory": "Local",
+    "url": "https://github.com/microsoft/BitNet"
+  },
+  {
+    "id": "AaaS-11",
+    "title": "Distributed",
+    "category": "AaaS",
+    "subcategory": "Local",
+    "url": "https://github.com/exo-explore/exo"
+  },
+  {
+    "id": "AaaS-12",
+    "title": "Agentrouter",
+    "category": "AaaS",
+    "subcategory": "Marketplace",
+    "url": "https://agentrouter.org"
+  },
+  {
+    "id": "AaaS-13",
+    "title": "Baseten",
+    "category": "AaaS",
+    "subcategory": "Marketplace",
+    "url": "https://baseten.co"
+  },
+  {
+    "id": "AaaS-14",
+    "title": "Bedrock (Amazon)",
+    "category": "AaaS",
+    "subcategory": "Marketplace",
+    "url": "https://aws.amazon.com/bedrock"
+  },
+  {
+    "id": "AaaS-15",
+    "title": "Cerebras",
+    "category": "AaaS",
+    "subcategory": "Marketplace",
+    "url": "https://cerebras.ai"
+  },
+  {
+    "id": "AaaS-16",
+    "title": "Cloudflare",
+    "category": "AaaS",
+    "subcategory": "Marketplace",
+    "url": "https://developers.cloudflare.com/workers-ai/models"
+  },
+  {
+    "id": "AaaS-17",
+    "title": "Deep Infra",
+    "category": "AaaS",
+    "subcategory": "Marketplace",
+    "url": "https://deepinfra.com"
+  },
+  {
+    "id": "AaaS-18",
+    "title": "Dough",
+    "category": "AaaS",
+    "subcategory": "Marketplace",
+    "url": "https://dough.id"
+  },
+  {
+    "id": "AaaS-19",
+    "title": "Groq",
+    "category": "AaaS",
+    "subcategory": "Marketplace",
+    "url": "https://groq.com"
+  },
+  {
+    "id": "AaaS-20",
+    "title": "HIX",
+    "category": "AaaS",
+    "subcategory": "Marketplace",
+    "url": "https://hix.ai"
+  },
+  {
+    "id": "AaaS-21",
+    "title": "Hugging Face",
+    "category": "AaaS",
+    "subcategory": "Marketplace",
+    "url": "https://huggingface.co"
+  },
+  {
+    "id": "AaaS-22",
+    "title": "ModelArk (Bytedance)",
+    "category": "AaaS",
+    "subcategory": "Marketplace",
+    "url": "https://byteplus.com/en/product/modelark"
+  },
+  {
+    "id": "AaaS-23",
+    "title": "Novita",
+    "category": "AaaS",
+    "subcategory": "Marketplace",
+    "url": "https://novita.ai"
+  },
+  {
+    "id": "AaaS-24",
+    "title": "nVidia",
+    "category": "AaaS",
+    "subcategory": "Marketplace",
+    "url": "https://build.nvidia.com/models"
+  },
+  {
+    "id": "AaaS-25",
+    "title": "Ollama",
+    "category": "AaaS",
+    "subcategory": "Marketplace",
+    "url": "https://ollama.com"
+  },
+  {
+    "id": "AaaS-26",
+    "title": "Openrouter (BYOK)",
+    "category": "AaaS",
+    "subcategory": "Marketplace",
+    "url": "https://openrouter.ai"
+  },
+  {
+    "id": "AaaS-27",
+    "title": "Portkey",
+    "category": "AaaS",
+    "subcategory": "Marketplace",
+    "url": "https://portkey.ai"
+  },
+  {
+    "id": "AaaS-28",
+    "title": "Together AI",
+    "category": "AaaS",
+    "subcategory": "Marketplace",
+    "url": "https://together.ai"
+  },
+  {
+    "id": "AaaS-29",
+    "title": "TokenHub (Tencent)",
+    "category": "AaaS",
+    "subcategory": "Marketplace",
+    "url": "https://cloud.tencent.com/product/tokenhub"
+  },
+  {
+    "id": "AaaS-30",
+    "title": "Anthropic",
+    "category": "AaaS",
+    "subcategory": "Principal",
+    "url": "https://claude.ai"
+  },
+  {
+    "id": "AaaS-31",
+    "title": "Deepseek",
+    "category": "AaaS",
+    "subcategory": "Principal",
+    "url": "https://deepseek.com"
+  },
+  {
+    "id": "AaaS-32",
+    "title": "Gemini",
+    "category": "AaaS",
+    "subcategory": "Principal",
+    "url": "https://gemini.google.com"
+  },
+  {
+    "id": "AaaS-33",
+    "title": "Grok",
+    "category": "AaaS",
+    "subcategory": "Principal",
+    "url": "https://grok.com"
+  },
+  {
+    "id": "AaaS-34",
+    "title": "Kimi",
+    "category": "AaaS",
+    "subcategory": "Principal",
+    "url": "https://moonshot.ai"
+  },
+  {
+    "id": "AaaS-35",
+    "title": "MiniMax",
+    "category": "AaaS",
+    "subcategory": "Principal",
+    "url": "https://minimax.io"
+  },
+  {
+    "id": "AaaS-36",
+    "title": "Mistral",
+    "category": "AaaS",
+    "subcategory": "Principal",
+    "url": "https://mistral.ai"
+  },
+  {
+    "id": "AaaS-37",
+    "title": "OpenAI",
+    "category": "AaaS",
+    "subcategory": "Principal",
+    "url": "https://chatgpt.com"
+  },
+  {
+    "id": "AaaS-38",
+    "title": "Perplexity",
+    "category": "AaaS",
+    "subcategory": "Principal",
+    "url": "https://perplexity.ai"
+  },
+  {
+    "id": "AaaS-39",
+    "title": "Xiaomi",
+    "category": "AaaS",
+    "subcategory": "Principal",
+    "url": "https://platform.xiaomimimo.com"
+  },
+  {
+    "id": "AaaS-40",
+    "title": "Zhipu",
+    "category": "AaaS",
+    "subcategory": "Principal",
+    "url": "https://z.ai"
+  },
+  {
+    "id": "AaaS-41",
+    "title": "Zhipu",
+    "category": "AaaS",
+    "subcategory": "Principal",
+    "url": "https://zhipuai.cn"
+  },
+  {
+    "id": "AaaS-42",
+    "title": "Zhipu",
+    "category": "AaaS",
+    "subcategory": "Principal",
+    "url": "https://bigmodel.cn"
+  },
+  {
+    "id": "AaaS-43",
+    "title": "Gemma4 (Cracked)",
+    "category": "AaaS",
+    "subcategory": "Uncensored",
+    "url": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK"
+  },
+  {
+    "id": "AaaS-44",
+    "title": "Heretic",
+    "category": "AaaS",
+    "subcategory": "Uncensored",
+    "url": "https://heretic-project.org"
+  },
+  {
+    "id": "AaaS-45",
+    "title": "Local",
+    "category": "AaaS",
+    "subcategory": "Uncensored",
+    "url": "https://github.com/p-e-w/heretic"
+  },
+  {
+    "id": "AaaS-46",
+    "title": "Venice",
+    "category": "AaaS",
+    "subcategory": "Uncensored",
+    "url": "https://venice.ai"
+  },
+  {
+    "id": "Blockchain-1",
+    "title": "Gitcoin",
+    "category": "Blockchain",
+    "subcategory": "DAO",
+    "url": "https://gitcoin.co"
+  },
+  {
+    "id": "Blockchain-2",
+    "title": "ONNX",
+    "category": "Blockchain",
+    "subcategory": "DAO",
+    "url": "https://onnx.ai"
+  },
+  {
+    "id": "Blockchain-3",
+    "title": "Snapshot",
+    "category": "Blockchain",
+    "subcategory": "DAO",
+    "url": "https://snapshot.box"
+  },
+  {
+    "id": "Blockchain-4",
+    "title": "Aarna",
+    "category": "Blockchain",
+    "subcategory": "Defi",
+    "url": "https://aarna.ai"
+  },
+  {
+    "id": "Blockchain-5",
+    "title": "Beets",
+    "category": "Blockchain",
+    "subcategory": "Defi",
+    "url": "https://beets.fi"
+  },
+  {
+    "id": "Blockchain-6",
+    "title": "Crosscurve",
+    "category": "Blockchain",
+    "subcategory": "Defi",
+    "url": "https://crosscurve.fi"
+  },
+  {
+    "id": "Blockchain-7",
+    "title": "GMX",
+    "category": "Blockchain",
+    "subcategory": "Defi",
+    "url": "https://gmx.io"
+  },
+  {
+    "id": "Blockchain-8",
+    "title": "Kyber",
+    "category": "Blockchain",
+    "subcategory": "Defi",
+    "url": "https://kyber.network"
+  },
+  {
+    "id": "Blockchain-9",
+    "title": "Layer3",
+    "category": "Blockchain",
+    "subcategory": "Defi",
+    "url": "https://layer3.xyz"
+  },
+  {
+    "id": "Blockchain-10",
+    "title": "Magpie",
+    "category": "Blockchain",
+    "subcategory": "Defi",
+    "url": "https://magpiexyz.io"
+  },
+  {
+    "id": "Blockchain-11",
+    "title": "Odos",
+    "category": "Blockchain",
+    "subcategory": "Defi",
+    "url": "https://odos.xyz"
+  },
+  {
+    "id": "Blockchain-12",
+    "title": "Open Ocean",
+    "category": "Blockchain",
+    "subcategory": "Defi",
+    "url": "https://openocean.finance"
+  },
+  {
+    "id": "Blockchain-13",
+    "title": "Pendle",
+    "category": "Blockchain",
+    "subcategory": "Defi",
+    "url": "https://pendle.finance"
+  },
+  {
+    "id": "Blockchain-14",
+    "title": "Silo",
+    "category": "Blockchain",
+    "subcategory": "Defi",
+    "url": "https://silo.finance"
+  },
+  {
+    "id": "Blockchain-15",
+    "title": "Spirit Swap",
+    "category": "Blockchain",
+    "subcategory": "Defi",
+    "url": "https://spiritswap.finance"
+  },
+  {
+    "id": "Blockchain-16",
+    "title": "Stake Stone",
+    "category": "Blockchain",
+    "subcategory": "Defi",
+    "url": "https://stakestone.io"
+  },
+  {
+    "id": "Blockchain-17",
+    "title": "Swapspace",
+    "category": "Blockchain",
+    "subcategory": "Defi",
+    "url": "https://swapspace.co"
+  },
+  {
+    "id": "Blockchain-18",
+    "title": "SYN Futures",
+    "category": "Blockchain",
+    "subcategory": "Defi",
+    "url": "https://synfutures.com"
+  },
+  {
+    "id": "Blockchain-19",
+    "title": "Wigo Swap",
+    "category": "Blockchain",
+    "subcategory": "Defi",
+    "url": "https://wigoswap.io"
+  },
+  {
+    "id": "Blockchain-20",
+    "title": "YEL",
+    "category": "Blockchain",
+    "subcategory": "Defi",
+    "url": "https://yel.finance"
+  },
+  {
+    "id": "Blockchain-21",
+    "title": "Zomma",
+    "category": "Blockchain",
+    "subcategory": "Defi",
+    "url": "https://zomma.pro"
+  },
+  {
+    "id": "Blockchain-22",
+    "title": "Buidl Guidl",
+    "category": "Blockchain",
+    "subcategory": "Dev",
+    "url": "https://buidlguidl.com"
+  },
+  {
+    "id": "Blockchain-23",
+    "title": "Crypto Dev Hub",
+    "category": "Blockchain",
+    "subcategory": "Dev",
+    "url": "https://cryptodevhub.io"
+  },
+  {
+    "id": "Blockchain-24",
+    "title": "Scaffold ETH",
+    "category": "Blockchain",
+    "subcategory": "Dev",
+    "url": "https://scaffoldeth.io"
+  },
+  {
+    "id": "Blockchain-25",
+    "title": "Aave",
+    "category": "Blockchain",
+    "subcategory": "Lending",
+    "url": "https://aave.com"
+  },
+  {
+    "id": "Blockchain-26",
+    "title": "Curve",
+    "category": "Blockchain",
+    "subcategory": "Lending",
+    "url": "https://curve.fi"
+  },
+  {
+    "id": "Blockchain-27",
+    "title": "DEbita",
+    "category": "Blockchain",
+    "subcategory": "Lending",
+    "url": "https://debita.org"
+  },
+  {
+    "id": "Blockchain-28",
+    "title": "Zerolend",
+    "category": "Blockchain",
+    "subcategory": "Lending",
+    "url": "https://zerolend.xyz"
+  },
+  {
+    "id": "Blockchain-29",
+    "title": "AI BTC",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://aibtc.com"
+  },
+  {
+    "id": "Blockchain-30",
+    "title": "Bitcoin OS",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://bitcoinos.build"
+  },
+  {
+    "id": "Blockchain-31",
+    "title": "Brevis",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://brevis.network"
+  },
+  {
+    "id": "Blockchain-32",
+    "title": "Cycle",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://cyclenetwork.io"
+  },
+  {
+    "id": "Blockchain-33",
+    "title": "Goat",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://goat.network"
+  },
+  {
+    "id": "Blockchain-34",
+    "title": "Kii Chain",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://kiichain.io"
+  },
+  {
+    "id": "Blockchain-35",
+    "title": "KIP",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://kip.pro"
+  },
+  {
+    "id": "Blockchain-36",
+    "title": "Layer Zero",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://layerzero.network"
+  },
+  {
+    "id": "Blockchain-37",
+    "title": "Linea",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://linea.build"
+  },
+  {
+    "id": "Blockchain-38",
+    "title": "MangoNet",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://mangonet.io"
+  },
+  {
+    "id": "Blockchain-39",
+    "title": "Mantle",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://mantle.xyz"
+  },
+  {
+    "id": "Blockchain-40",
+    "title": "Mezo",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://mezo.org"
+  },
+  {
+    "id": "Blockchain-41",
+    "title": "Moonbeam",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://moonbeam.network"
+  },
+  {
+    "id": "Blockchain-42",
+    "title": "Nervos",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://nervos.org"
+  },
+  {
+    "id": "Blockchain-43",
+    "title": "Nubit",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://nubit.org"
+  },
+  {
+    "id": "Blockchain-44",
+    "title": "Rootstock",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://rootstock.io"
+  },
+  {
+    "id": "Blockchain-45",
+    "title": "Shardeum",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://shardeum.org"
+  },
+  {
+    "id": "Blockchain-46",
+    "title": "Solana",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://sendai.fun"
+  },
+  {
+    "id": "Blockchain-47",
+    "title": "Somnia",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://somnia.network"
+  },
+  {
+    "id": "Blockchain-48",
+    "title": "Supra",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://supra.com"
+  },
+  {
+    "id": "Blockchain-49",
+    "title": "Surge",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://surge.build"
+  },
+  {
+    "id": "Blockchain-50",
+    "title": "Wire",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://wire.foundation"
+  },
+  {
+    "id": "Blockchain-51",
+    "title": "Xion",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://xion.burnt.com"
+  },
+  {
+    "id": "Blockchain-52",
+    "title": "ZK",
+    "category": "Blockchain",
+    "subcategory": "Network",
+    "url": "https://zk.link"
+  },
+  {
+    "id": "Blockchain-53",
+    "title": "Paint Swap",
+    "category": "Blockchain",
+    "subcategory": "NFT",
+    "url": "https://paintswap.finance"
+  },
+  {
+    "id": "Blockchain-54",
+    "title": "Alchemy",
+    "category": "Blockchain",
+    "subcategory": "Node",
+    "url": "https://alchemy.com"
+  },
+  {
+    "id": "Blockchain-55",
+    "title": "Gelato",
+    "category": "Blockchain",
+    "subcategory": "Node",
+    "url": "https://gelato.network"
+  },
+  {
+    "id": "Blockchain-56",
+    "title": "Tenderly",
+    "category": "Blockchain",
+    "subcategory": "Node",
+    "url": "https://tenderly.co"
+  },
+  {
+    "id": "Blockchain-57",
+    "title": "Chain Link",
+    "category": "Blockchain",
+    "subcategory": "Oracle",
+    "url": "https://chain.link"
+  },
+  {
+    "id": "Blockchain-58",
+    "title": "Dune",
+    "category": "Blockchain",
+    "subcategory": "Oracle",
+    "url": "https://dune.com"
+  },
+  {
+    "id": "Blockchain-59",
+    "title": "Redstone",
+    "category": "Blockchain",
+    "subcategory": "Oracle",
+    "url": "https://redstone.finance"
+  },
+  {
+    "id": "Blockchain-60",
+    "title": "LlamaPay",
+    "category": "Blockchain",
+    "subcategory": "Payment",
+    "url": "https://llamapay.io"
+  },
+  {
+    "id": "Blockchain-61",
+    "title": "Paywong",
+    "category": "Blockchain",
+    "subcategory": "Payment",
+    "url": "https://paywong.com"
+  },
+  {
+    "id": "Blockchain-62",
+    "title": "ADDX",
+    "category": "Blockchain",
+    "subcategory": "RWA",
+    "url": "https://addx.co"
+  },
+  {
+    "id": "Blockchain-63",
+    "title": "DigiFT",
+    "category": "Blockchain",
+    "subcategory": "RWA",
+    "url": "https://digift.io"
+  },
+  {
+    "id": "Blockchain-64",
+    "title": "Hydrax",
+    "category": "Blockchain",
+    "subcategory": "RWA",
+    "url": "https://hydrax.io"
+  },
+  {
+    "id": "Blockchain-65",
+    "title": "4everland",
+    "category": "Blockchain",
+    "subcategory": "Storage",
+    "url": "https://4everland.org"
+  },
+  {
+    "id": "Blockchain-66",
+    "title": "Ceremic",
+    "category": "Blockchain",
+    "subcategory": "Storage",
+    "url": "https://ceramic.network"
+  },
+  {
+    "id": "Blockchain-67",
+    "title": "ETH Store",
+    "category": "Blockchain",
+    "subcategory": "Storage",
+    "url": "https://eth-store.w3eth.io"
+  },
+  {
+    "id": "Blockchain-68",
+    "title": "Filedgr",
+    "category": "Blockchain",
+    "subcategory": "Storage",
+    "url": "https://filedgr.com"
+  },
+  {
+    "id": "Blockchain-69",
+    "title": "Kwil",
+    "category": "Blockchain",
+    "subcategory": "Storage",
+    "url": "https://kwil.com"
+  },
+  {
+    "id": "Blockchain-70",
+    "title": "Pyth",
+    "category": "Blockchain",
+    "subcategory": "Storage",
+    "url": "https://pyth.network"
+  },
+  {
+    "id": "Blockchain-71",
+    "title": "SQD",
+    "category": "Blockchain",
+    "subcategory": "Storage",
+    "url": "https://sqd.dev"
+  },
+  {
+    "id": "Blockchain-72",
+    "title": "Arkham",
+    "category": "Blockchain",
+    "subcategory": "Tracer",
+    "url": "https://intel.arkm.com"
+  },
+  {
+    "id": "Blockchain-73",
+    "title": "Bitquery",
+    "category": "Blockchain",
+    "subcategory": "Tracer",
+    "url": "https://explorer.bitquery.io"
+  },
+  {
+    "id": "Blockchain-74",
+    "title": "Chainalysis",
+    "category": "Blockchain",
+    "subcategory": "Tracer",
+    "url": "https://chainalysis.com"
+  },
+  {
+    "id": "Blockchain-75",
+    "title": "Cipher Tracers",
+    "category": "Blockchain",
+    "subcategory": "Tracer",
+    "url": "https://ciphertracers.com"
+  },
+  {
+    "id": "Blockchain-76",
+    "title": "Crystal",
+    "category": "Blockchain",
+    "subcategory": "Tracer",
+    "url": "https://crystalintelligence.com"
+  },
+  {
+    "id": "Blockchain-77",
+    "title": "Elliptic",
+    "category": "Blockchain",
+    "subcategory": "Tracer",
+    "url": "https://elliptic.co"
+  },
+  {
+    "id": "Blockchain-78",
+    "title": "MIsttrack",
+    "category": "Blockchain",
+    "subcategory": "Tracer",
+    "url": "https://misttrack.io"
+  },
+  {
+    "id": "Blockchain-79",
+    "title": "Sentio",
+    "category": "Blockchain",
+    "subcategory": "Tracer",
+    "url": "https://sentio.xyz"
+  },
+  {
+    "id": "Blockchain-80",
+    "title": "TRM Labs",
+    "category": "Blockchain",
+    "subcategory": "Tracer",
+    "url": "https://trmlabs.com"
+  },
+  {
+    "id": "Blockchain-81",
+    "title": "For Defi",
+    "category": "Blockchain",
+    "subcategory": "Wallet",
+    "url": "https://fordefi.com"
+  },
+  {
+    "id": "Blockchain-82",
+    "title": "Safe",
+    "category": "Blockchain",
+    "subcategory": "Wallet",
+    "url": "https://safe.global"
+  },
+  {
+    "id": "Blockchain-83",
+    "title": "VLY",
+    "category": "Blockchain",
+    "subcategory": "Wallet",
+    "url": "https://vly.money"
+  },
+  {
+    "id": "Blockchain-84",
+    "title": "Mind Network",
+    "category": "Blockchain",
+    "subcategory": "Web",
+    "url": "https://mindnetwork.xyz"
+  },
+  {
+    "id": "Blockchain-85",
+    "title": "Artemis",
+    "category": "Blockchain",
+    "subcategory": "Market Data",
+    "url": "https://artemisanalytics.com"
+  },
+  {
+    "id": "Blockchain-86",
+    "title": "Bitcoin Mag",
+    "category": "Blockchain",
+    "subcategory": "Market Data",
+    "url": "https://bitcoinmagazinepro.com"
+  },
+  {
+    "id": "Blockchain-87",
+    "title": "Chainbroker",
+    "category": "Blockchain",
+    "subcategory": "Market Data",
+    "url": "https://chainbroker.io"
+  },
+  {
+    "id": "Blockchain-88",
+    "title": "Coin Dance",
+    "category": "Blockchain",
+    "subcategory": "Market Data",
+    "url": "https://coin.dance"
+  },
+  {
+    "id": "Blockchain-89",
+    "title": "Coinalyze",
+    "category": "Blockchain",
+    "subcategory": "Market Data",
+    "url": "https://coinalyze.net"
+  },
+  {
+    "id": "Blockchain-90",
+    "title": "Coinglass",
+    "category": "Blockchain",
+    "subcategory": "Market Data",
+    "url": "https://coinglass.com"
+  },
+  {
+    "id": "Blockchain-91",
+    "title": "Crypto Meter",
+    "category": "Blockchain",
+    "subcategory": "Market Data",
+    "url": "https://cryptometer.io"
+  },
+  {
+    "id": "Blockchain-92",
+    "title": "Cryptobubbles",
+    "category": "Blockchain",
+    "subcategory": "Market Data",
+    "url": "https://cryptobubbles.net"
+  },
+  {
+    "id": "Blockchain-93",
+    "title": "Dappradar",
+    "category": "Blockchain",
+    "subcategory": "Market Data",
+    "url": "https://dappradar.com"
+  },
+  {
+    "id": "Blockchain-94",
+    "title": "Defillama",
+    "category": "Blockchain",
+    "subcategory": "Market Data",
+    "url": "https://defillama.com"
+  },
+  {
+    "id": "Blockchain-95",
+    "title": "Dextools",
+    "category": "Blockchain",
+    "subcategory": "Market Data",
+    "url": "https://dextools.io"
+  },
+  {
+    "id": "Blockchain-96",
+    "title": "Dyor",
+    "category": "Blockchain",
+    "subcategory": "Market Data",
+    "url": "https://dyor.net"
+  },
+  {
+    "id": "Blockchain-97",
+    "title": "Invo",
+    "category": "Blockchain",
+    "subcategory": "Market Data",
+    "url": "https://invoapp.com"
+  },
+  {
+    "id": "Blockchain-98",
+    "title": "Luna Crush",
+    "category": "Blockchain",
+    "subcategory": "Market Data",
+    "url": "https://lunarcrush.com"
+  },
+  {
+    "id": "Blockchain-99",
+    "title": "Martetcapof",
+    "category": "Blockchain",
+    "subcategory": "Market Data",
+    "url": "https://marketcapof.com"
+  },
+  {
+    "id": "Blockchain-100",
+    "title": "Messari",
+    "category": "Blockchain",
+    "subcategory": "Market Data",
+    "url": "https://messari.io"
+  },
+  {
+    "id": "Blockchain-101",
+    "title": "Nansen",
+    "category": "Blockchain",
+    "subcategory": "Market Data",
+    "url": "https://nansen.ai"
+  },
+  {
+    "id": "Blockchain-102",
+    "title": "Poocoin",
+    "category": "Blockchain",
+    "subcategory": "Market Data",
+    "url": "https://poocoin.app"
+  },
+  {
+    "id": "Blockchain-103",
+    "title": "Token Metrics",
+    "category": "Blockchain",
+    "subcategory": "Market Data",
+    "url": "https://tokenmetrics.com"
+  },
+  {
+    "id": "Blockchain-104",
+    "title": "Zapper",
+    "category": "Blockchain",
+    "subcategory": "Market Data",
+    "url": "https://zapper.xyz"
+  },
+  {
+    "id": "Data-1",
+    "title": "Apache Hive",
+    "category": "Data",
+    "subcategory": "Analytics",
+    "url": "https://hive.apache.org"
+  },
+  {
+    "id": "Data-2",
+    "title": "Julius",
+    "category": "Data",
+    "subcategory": "Analytics",
+    "url": "https://julius.ai"
+  },
+  {
+    "id": "Data-3",
+    "title": "R Project",
+    "category": "Data",
+    "subcategory": "Analytics",
+    "url": "https://r-project.org"
+  },
+  {
+    "id": "Data-4",
+    "title": "SAS",
+    "category": "Data",
+    "subcategory": "Analytics",
+    "url": "https://sas.com"
+  },
+  {
+    "id": "Data-5",
+    "title": "Tableu",
+    "category": "Data",
+    "subcategory": "Analytics",
+    "url": "https://tableau.com"
+  },
+  {
+    "id": "Data-6",
+    "title": "Redis",
+    "category": "Data",
+    "subcategory": "Caching",
+    "url": "https://redis.io"
+  },
+  {
+    "id": "Data-7",
+    "title": "Redis Online",
+    "category": "Data",
+    "subcategory": "Caching",
+    "url": "https://upstash.com"
+  },
+  {
+    "id": "Data-8",
+    "title": "Apache Mahout",
+    "category": "Data",
+    "subcategory": "Cleaning",
+    "url": "https://mahout.apache.org"
+  },
+  {
+    "id": "Data-9",
+    "title": "Apache Sqoop",
+    "category": "Data",
+    "subcategory": "Cleaning",
+    "url": "https://sqoop.apache.org"
+  },
+  {
+    "id": "Data-10",
+    "title": "Pentaho",
+    "category": "Data",
+    "subcategory": "Cleaning",
+    "url": "https://pentaho.com"
+  },
+  {
+    "id": "Data-11",
+    "title": "Talend",
+    "category": "Data",
+    "subcategory": "Cleaning",
+    "url": "https://talend.com"
+  },
+  {
+    "id": "Data-12",
+    "title": "Kaggle",
+    "category": "Data",
+    "subcategory": "Evaluation",
+    "url": "https://kaggle.com"
+  },
+  {
+    "id": "Data-13",
+    "title": "Langfuse",
+    "category": "Data",
+    "subcategory": "Evaluation",
+    "url": "https://langfuse.com"
+  },
+  {
+    "id": "Data-14",
+    "title": "Apache Flink",
+    "category": "Data",
+    "subcategory": "Processing",
+    "url": "https://flink.apache.org"
+  },
+  {
+    "id": "Data-15",
+    "title": "Apache Hadoop",
+    "category": "Data",
+    "subcategory": "Processing",
+    "url": "https://hadoop.apache.org"
+  },
+  {
+    "id": "Data-16",
+    "title": "Apache Spark",
+    "category": "Data",
+    "subcategory": "Processing",
+    "url": "https://spark.apache.org"
+  },
+  {
+    "id": "Data-17",
+    "title": "Apache Storm",
+    "category": "Data",
+    "subcategory": "Processing",
+    "url": "https://storm.apache.org"
+  },
+  {
+    "id": "Data-18",
+    "title": "NumPy",
+    "category": "Data",
+    "subcategory": "Processing",
+    "url": "https://numpy.org"
+  },
+  {
+    "id": "Data-19",
+    "title": "R Library",
+    "category": "Data",
+    "subcategory": "Processing",
+    "url": "https://rdrr.io"
+  },
+  {
+    "id": "Data-20",
+    "title": "Scikit",
+    "category": "Data",
+    "subcategory": "Processing",
+    "url": "https://scikit-learn.org"
+  },
+  {
+    "id": "Data-21",
+    "title": "Knowledge base",
+    "category": "Data",
+    "subcategory": "RAG",
+    "url": "https://ragflow.io"
+  },
+  {
+    "id": "Data-22",
+    "title": "OCR",
+    "category": "Data",
+    "subcategory": "RAG",
+    "url": "https://llamaindex.ai"
+  },
+  {
+    "id": "Data-23",
+    "title": "Q&A",
+    "category": "Data",
+    "subcategory": "RAG",
+    "url": "https://github.com/OpenSPG/KAG"
+  },
+  {
+    "id": "Data-24",
+    "title": "Plant Based",
+    "category": "Data",
+    "subcategory": "RAG",
+    "url": "https://github.com/internlm/huixiangdou"
+  },
+  {
+    "id": "Data-25",
+    "title": "Research",
+    "category": "Data",
+    "subcategory": "RAG",
+    "url": "https://github.com/zilliztech/deep-searcher"
+  },
+  {
+    "id": "Data-26",
+    "title": "Search",
+    "category": "Data",
+    "subcategory": "RAG",
+    "url": "https://github.com/RyanCodrai/turbovec"
+  },
+  {
+    "id": "Data-27",
+    "title": "Postgres",
+    "category": "Data",
+    "subcategory": "Storage",
+    "url": "https://neon.ai"
+  },
+  {
+    "id": "Data-28",
+    "title": "Postgres",
+    "category": "Data",
+    "subcategory": "Storage",
+    "url": "https://supabase.com"
+  },
+  {
+    "id": "Data-29",
+    "title": "NoSQL",
+    "category": "Data",
+    "subcategory": "Storage",
+    "url": "https://hbase.apache.org"
+  },
+  {
+    "id": "Data-30",
+    "title": "NoSQL",
+    "category": "Data",
+    "subcategory": "Storage",
+    "url": "https://firebase.google.com"
+  },
+  {
+    "id": "Data-31",
+    "title": "Vector",
+    "category": "Data",
+    "subcategory": "Storage",
+    "url": "https://trychroma.com"
+  },
+  {
+    "id": "Data-32",
+    "title": "Vector",
+    "category": "Data",
+    "subcategory": "Storage",
+    "url": "https://milvus.io"
+  },
+  {
+    "id": "Data-33",
+    "title": "Vector",
+    "category": "Data",
+    "subcategory": "Storage",
+    "url": "https://qdrant.tech"
+  },
+  {
+    "id": "Data-34",
+    "title": "Vector",
+    "category": "Data",
+    "subcategory": "Storage",
+    "url": "https://pinecone.io"
+  },
+  {
+    "id": "Data-35",
+    "title": "Vector",
+    "category": "Data",
+    "subcategory": "Storage",
+    "url": "https://weaviate.io"
+  },
+  {
+    "id": "Data-36",
+    "title": "Vector (Open Source)",
+    "category": "Data",
+    "subcategory": "Storage",
+    "url": "https://github.com/pgvector/pgvector"
+  },
+  {
+    "id": "Data-37",
+    "title": "Vector (Open Source)",
+    "category": "Data",
+    "subcategory": "Storage",
+    "url": "https://github.com/ryancodrai/turbovec"
+  },
+  {
+    "id": "Data-38",
+    "title": "Finetune",
+    "category": "Data",
+    "subcategory": "Training",
+    "url": "https://github.com/Kiln-AI/Kiln"
+  },
+  {
+    "id": "Data-39",
+    "title": "Finetune",
+    "category": "Data",
+    "subcategory": "Training",
+    "url": "https://replicate.com"
+  },
+  {
+    "id": "Data-40",
+    "title": "Finetune",
+    "category": "Data",
+    "subcategory": "Training",
+    "url": "https://scale.com"
+  },
+  {
+    "id": "Data-41",
+    "title": "Machine Learning",
+    "category": "Data",
+    "subcategory": "Training",
+    "url": "https://h2o.ai"
+  },
+  {
+    "id": "Data-42",
+    "title": "Machine Learning",
+    "category": "Data",
+    "subcategory": "Training",
+    "url": "https://keras.io"
+  },
+  {
+    "id": "Data-43",
+    "title": "Machine Learning",
+    "category": "Data",
+    "subcategory": "Training",
+    "url": "https://konduit.ai"
+  },
+  {
+    "id": "Data-44",
+    "title": "Machine Learning",
+    "category": "Data",
+    "subcategory": "Training",
+    "url": "https://pytorch.org"
+  },
+  {
+    "id": "Data-45",
+    "title": "Machine Learning",
+    "category": "Data",
+    "subcategory": "Training",
+    "url": "https://tensorflow.org"
+  },
+  {
+    "id": "Data-46",
+    "title": "Apache Mxnet",
+    "category": "Data",
+    "subcategory": "Training",
+    "url": "https://mxnet.apache.org"
+  },
+  {
+    "id": "Data-47",
+    "title": "Neural Network",
+    "category": "Data",
+    "subcategory": "Training",
+    "url": "https://chainer.org"
+  },
+  {
+    "id": "Data-48",
+    "title": "Neural Network",
+    "category": "Data",
+    "subcategory": "Training",
+    "url": "https://leenissen.dk"
+  },
+  {
+    "id": "Data-49",
+    "title": "Organise",
+    "category": "Data",
+    "subcategory": "Training",
+    "url": "https://github.com/bespokelabsai/curator"
+  },
+  {
+    "id": "Data-50",
+    "title": "Organise",
+    "category": "Data",
+    "subcategory": "Training",
+    "url": "https://github.com/DataEval/dingo"
+  },
+  {
+    "id": "Data-51",
+    "title": "Unstructured",
+    "category": "Data",
+    "subcategory": "Training",
+    "url": "https://nomic.ai"
+  },
+  {
+    "id": "Data-52",
+    "title": "Pydantic",
+    "category": "Data",
+    "subcategory": "Validation",
+    "url": "https://pydantic.dev"
+  },
+  {
+    "id": "Dev-1",
+    "title": "10k+",
+    "category": "Dev",
+    "subcategory": "API Suite",
+    "url": "https://github.com/cporter202/API-mega-list"
+  },
+  {
+    "id": "Dev-2",
+    "title": "Auto-clicker",
+    "category": "Dev",
+    "subcategory": "Browser",
+    "url": "https://getmagical.com"
+  },
+  {
+    "id": "Dev-3",
+    "title": "Extension",
+    "category": "Dev",
+    "subcategory": "Browser",
+    "url": "https://github.com/josStorer/chatGPTBox"
+  },
+  {
+    "id": "Dev-4",
+    "title": "Headless",
+    "category": "Dev",
+    "subcategory": "Browser",
+    "url": "https://chromium.org"
+  },
+  {
+    "id": "Dev-5",
+    "title": "Headless",
+    "category": "Dev",
+    "subcategory": "Browser",
+    "url": "https://github.com/lightpanda-io/browser"
+  },
+  {
+    "id": "Dev-6",
+    "title": "Headless",
+    "category": "Dev",
+    "subcategory": "Browser",
+    "url": "https://selenium.dev"
+  },
+  {
+    "id": "Dev-7",
+    "title": "Staying Alive",
+    "category": "Dev",
+    "subcategory": "Browser",
+    "url": "https://browserbase.com"
+  },
+  {
+    "id": "Dev-8",
+    "title": "Staying Alive",
+    "category": "Dev",
+    "subcategory": "Browser",
+    "url": "https://reworkd.ai"
+  },
+  {
+    "id": "Dev-9",
+    "title": "CircleCI",
+    "category": "Dev",
+    "subcategory": "CI/CD",
+    "url": "https://circleci.com"
+  },
+  {
+    "id": "Dev-10",
+    "title": "Jenkins",
+    "category": "Dev",
+    "subcategory": "CI/CD",
+    "url": "https://jenkins.io"
+  },
+  {
+    "id": "Dev-11",
+    "title": "Agile",
+    "category": "Dev",
+    "subcategory": "Coding",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD"
+  },
+  {
+    "id": "Dev-12",
+    "title": "Codebase Indexing",
+    "category": "Dev",
+    "subcategory": "Coding",
+    "url": "https://github.com/DeusData/codebase-memory-mcp"
+  },
+  {
+    "id": "Dev-13",
+    "title": "Codebase Simplification",
+    "category": "Dev",
+    "subcategory": "Coding",
+    "url": "https://github.com/pingcap/autoflow"
+  },
+  {
+    "id": "Dev-14",
+    "title": "Codebase Understanding",
+    "category": "Dev",
+    "subcategory": "Coding",
+    "url": "https://github.com/AIDC-AI/ComfyUI-Copilot"
+  },
+  {
+    "id": "Dev-15",
+    "title": "Codebase Understanding",
+    "category": "Dev",
+    "subcategory": "Coding",
+    "url": "https://understand-anything.com"
+  },
+  {
+    "id": "Dev-16",
+    "title": "Codebase Understanding",
+    "category": "Dev",
+    "subcategory": "Coding",
+    "url": "https://codeflow-five.vercel.app"
+  },
+  {
+    "id": "Dev-17",
+    "title": "Codebase Understanding",
+    "category": "Dev",
+    "subcategory": "Coding",
+    "url": "https://gitdiagram.com"
+  },
+  {
+    "id": "Dev-18",
+    "title": "Codebase Understanding",
+    "category": "Dev",
+    "subcategory": "Coding",
+    "url": "https://gitingest.com"
+  },
+  {
+    "id": "Dev-19",
+    "title": "Refractoring",
+    "category": "Dev",
+    "subcategory": "Coding",
+    "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+    "id": "Dev-20",
+    "title": "Refractoring",
+    "category": "Dev",
+    "subcategory": "Coding",
+    "url": "https://github.com/mattpocock/skills"
+  },
+  {
+    "id": "Dev-21",
+    "title": "VSCode online",
+    "category": "Dev",
+    "subcategory": "Coding",
+    "url": "https://github.dev"
+  },
+  {
+    "id": "Dev-22",
+    "title": "Arcade",
+    "category": "Dev",
+    "subcategory": "Connectors",
+    "url": "https://arcade.dev"
+  },
+  {
+    "id": "Dev-23",
+    "title": "Composio",
+    "category": "Dev",
+    "subcategory": "Connectors",
+    "url": "https://composio.dev"
+  },
+  {
+    "id": "Dev-24",
+    "title": "Dify",
+    "category": "Dev",
+    "subcategory": "Connectors",
+    "url": "https://dify.ai"
+  },
+  {
+    "id": "Dev-25",
+    "title": "Google",
+    "category": "Dev",
+    "subcategory": "Connectors",
+    "url": "https://opal.google"
+  },
+  {
+    "id": "Dev-26",
+    "title": "Make",
+    "category": "Dev",
+    "subcategory": "Connectors",
+    "url": "https://make.com"
+  },
+  {
+    "id": "Dev-27",
+    "title": "n8n",
+    "category": "Dev",
+    "subcategory": "Connectors",
+    "url": "https://n8n.io"
+  },
+  {
+    "id": "Dev-28",
+    "title": "Nango",
+    "category": "Dev",
+    "subcategory": "Connectors",
+    "url": "https://nango.dev"
+  },
+  {
+    "id": "Dev-29",
+    "title": "Pipedream",
+    "category": "Dev",
+    "subcategory": "Connectors",
+    "url": "https://pipedream.com"
+  },
+  {
+    "id": "Dev-30",
+    "title": "Zapier",
+    "category": "Dev",
+    "subcategory": "Connectors",
+    "url": "https://zapier.com"
+  },
+  {
+    "id": "Dev-31",
+    "title": "Docker",
+    "category": "Dev",
+    "subcategory": "Container",
+    "url": "https://docker.com"
+  },
+  {
+    "id": "Dev-32",
+    "title": "Kubernates",
+    "category": "Dev",
+    "subcategory": "Container",
+    "url": "https://kubernetes.io"
+  },
+  {
+    "id": "Dev-33",
+    "title": "Tunnel",
+    "category": "Dev",
+    "subcategory": "Gateway",
+    "url": "https://ngrok.com"
+  },
+  {
+    "id": "Dev-34",
+    "title": "Ansible",
+    "category": "Dev",
+    "subcategory": "IaC",
+    "url": "https://docs.ansible.com"
+  },
+  {
+    "id": "Dev-35",
+    "title": "Opensible",
+    "category": "Dev",
+    "subcategory": "IaC",
+    "url": "https://opensible.com"
+  },
+  {
+    "id": "Dev-36",
+    "title": "OpenTofu",
+    "category": "Dev",
+    "subcategory": "IaC",
+    "url": "https://opentofu.org"
+  },
+  {
+    "id": "Dev-37",
+    "title": "Terraform",
+    "category": "Dev",
+    "subcategory": "IaC",
+    "url": "https://developer.hashicorp.com/terraform"
+  },
+  {
+    "id": "Dev-38",
+    "title": "SDK 100+",
+    "category": "Dev",
+    "subcategory": "Library",
+    "url": "https://github.com/BerriAI/litellm"
+  },
+  {
+    "id": "Dev-39",
+    "title": "SDK 100+",
+    "category": "Dev",
+    "subcategory": "Library",
+    "url": "https://github.com/lunary-ai/abso"
+  },
+  {
+    "id": "Dev-40",
+    "title": "Elastic Stack",
+    "category": "Dev",
+    "subcategory": "Monitor",
+    "url": "https://elastic.co/elastic-stack"
+  },
+  {
+    "id": "Dev-41",
+    "title": "Grafana",
+    "category": "Dev",
+    "subcategory": "Monitor",
+    "url": "https://grafana.com"
+  },
+  {
+    "id": "Dev-42",
+    "title": "Prometheus",
+    "category": "Dev",
+    "subcategory": "Monitor",
+    "url": "https://prometheus.io"
+  },
+  {
+    "id": "Dev-43",
+    "title": "Streamlit",
+    "category": "Dev",
+    "subcategory": "Monitor",
+    "url": "https://streamlit.io"
+  },
+  {
+    "id": "Dev-44",
+    "title": "E2b",
+    "category": "Dev",
+    "subcategory": "Sandbox",
+    "url": "https://e2b.dev"
+  },
+  {
+    "id": "Dev-45",
+    "title": "Phala",
+    "category": "Dev",
+    "subcategory": "Sandbox",
+    "url": "https://phala.com"
+  },
+  {
+    "id": "Dev-46",
+    "title": "WebVM",
+    "category": "Dev",
+    "subcategory": "Sandbox",
+    "url": "https://github.com/leaningtech/webvm"
+  },
+  {
+    "id": "Dev-47",
+    "title": "Agent Skills",
+    "category": "Dev",
+    "subcategory": "SDLC",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  {
+    "id": "Dev-48",
+    "title": "Unitmesh",
+    "category": "Dev",
+    "subcategory": "SDLC",
+    "url": "https://unitmesh.cc"
+  },
+  {
+    "id": "Dev-49",
+    "title": "Exa",
+    "category": "Dev",
+    "subcategory": "Search",
+    "url": "https://exa.ai"
+  },
+  {
+    "id": "Dev-50",
+    "title": "Brave",
+    "category": "Dev",
+    "subcategory": "Search",
+    "url": "https://brave.com/search"
+  },
+  {
+    "id": "Dev-51",
+    "title": "Firecrawl",
+    "category": "Dev",
+    "subcategory": "Search",
+    "url": "https://firecrawl.dev"
+  },
+  {
+    "id": "Dev-52",
+    "title": "Linkup",
+    "category": "Dev",
+    "subcategory": "Search",
+    "url": "https://linkup.so"
+  },
+  {
+    "id": "Dev-53",
+    "title": "Tavily (Research)",
+    "category": "Dev",
+    "subcategory": "Search",
+    "url": "https://tavily.com"
+  },
+  {
+    "id": "Dev-54",
+    "title": "Jina",
+    "category": "Dev",
+    "subcategory": "Search",
+    "url": "https://jina.ai"
+  },
+  {
+    "id": "Dev-55",
+    "title": "News",
+    "category": "Dev",
+    "subcategory": "Search",
+    "url": "https://you.com"
+  },
+  {
+    "id": "Dev-56",
+    "title": "Privacy",
+    "category": "Dev",
+    "subcategory": "Search",
+    "url": "https://kagi.com"
+  },
+  {
+    "id": "Dev-57",
+    "title": "Helicone",
+    "category": "Dev",
+    "subcategory": "Testing",
+    "url": "https://helicone.ai"
+  },
+  {
+    "id": "Dev-58",
+    "title": "Hub",
+    "category": "Dev",
+    "subcategory": "Testing",
+    "url": "https://rapidapi.com"
+  },
+  {
+    "id": "Finance-1",
+    "title": "AI Hedge Fund",
+    "category": "Finance",
+    "subcategory": "Analytics",
+    "url": "https://github.com/virattt/ai-hedge-fund"
+  },
+  {
+    "id": "Finance-2",
+    "title": "AlphaSense",
+    "category": "Finance",
+    "subcategory": "Analytics",
+    "url": "https://alpha-sense.com"
+  },
+  {
+    "id": "Finance-3",
+    "title": "Awesome",
+    "category": "Finance",
+    "subcategory": "Analytics",
+    "url": "https://github.com/georgezouq/awesome-ai-in-finance"
+  },
+  {
+    "id": "Finance-4",
+    "title": "Daily Stock Analysis",
+    "category": "Finance",
+    "subcategory": "Analytics",
+    "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+  },
+  {
+    "id": "Finance-5",
+    "title": "FinRobot",
+    "category": "Finance",
+    "subcategory": "Analytics",
+    "url": "https://github.com/AI4Finance-Foundation/FinRobot"
+  },
+  {
+    "id": "Finance-6",
+    "title": "Go-stock",
+    "category": "Finance",
+    "subcategory": "Analytics",
+    "url": "https://github.com/ArvinLovegood/go-stock"
+  },
+  {
+    "id": "Finance-7",
+    "title": "KOL Quant",
+    "category": "Finance",
+    "subcategory": "Analytics",
+    "url": "https://github.com/0xquqi/crypto-kol-quant"
+  },
+  {
+    "id": "Finance-8",
+    "title": "OpenBB",
+    "category": "Finance",
+    "subcategory": "Analytics",
+    "url": "https://openbb.co"
+  },
+  {
+    "id": "Finance-9",
+    "title": "Quant Agent",
+    "category": "Finance",
+    "subcategory": "Analytics",
+    "url": "https://github.com/y-research-sbu/QuantAgent"
+  },
+  {
+    "id": "Finance-10",
+    "title": "ThoughtSpot",
+    "category": "Finance",
+    "subcategory": "Analytics",
+    "url": "https://thoughtspot.com"
+  },
+  {
+    "id": "Finance-11",
+    "title": "TigerGPT",
+    "category": "Finance",
+    "subcategory": "Analytics",
+    "url": "https://ttm.financial/gpt"
+  },
+  {
+    "id": "Finance-12",
+    "title": "Times FM",
+    "category": "Finance",
+    "subcategory": "Analytics",
+    "url": "https://github.com/google-research/timesfm"
+  },
+  {
+    "id": "Finance-13",
+    "title": "Software",
+    "category": "Finance",
+    "subcategory": "Banking",
+    "url": "https://cyclos.org"
+  },
+  {
+    "id": "Finance-14",
+    "title": "Alpha Vantage",
+    "category": "Finance",
+    "subcategory": "Datasource",
+    "url": "https://alphavantage.co"
+  },
+  {
+    "id": "Finance-15",
+    "title": "FinancialModelingPrep",
+    "category": "Finance",
+    "subcategory": "Datasource",
+    "url": "https://financialmodelingprep.com"
+  },
+  {
+    "id": "Finance-16",
+    "title": "Finnhub",
+    "category": "Finance",
+    "subcategory": "Datasource",
+    "url": "https://finnhub.io"
+  },
+  {
+    "id": "Finance-17",
+    "title": "Nasdaq",
+    "category": "Finance",
+    "subcategory": "Datasource",
+    "url": "https://data.nasdaq.com"
+  },
+  {
+    "id": "Finance-18",
+    "title": "Quiver",
+    "category": "Finance",
+    "subcategory": "Datasource",
+    "url": "https://quiverquant.com"
+  },
+  {
+    "id": "Finance-19",
+    "title": "SEC EDGAR",
+    "category": "Finance",
+    "subcategory": "Datasource",
+    "url": "https://sec-api.io"
+  },
+  {
+    "id": "Finance-20",
+    "title": "Twelve Data",
+    "category": "Finance",
+    "subcategory": "Datasource",
+    "url": "https://twelvedata.com"
+  },
+  {
+    "id": "Finance-21",
+    "title": "Management",
+    "category": "Finance",
+    "subcategory": "Fund",
+    "url": "https://ark-funds.com"
+  },
+  {
+    "id": "Finance-22",
+    "title": "Instituition Monitor",
+    "category": "Finance",
+    "subcategory": "Monitor",
+    "url": "https://dataroma.com"
+  },
+  {
+    "id": "Finance-23",
+    "title": "Stock",
+    "category": "Finance",
+    "subcategory": "Monitor",
+    "url": "https://finviz.com"
+  },
+  {
+    "id": "Finance-24",
+    "title": "AI Stock Dashboard",
+    "category": "Finance",
+    "subcategory": "Terminal",
+    "url": "https://github.com/ErikThiart/ai-stock-dashboard"
+  },
+  {
+    "id": "Finance-25",
+    "title": "Fincept",
+    "category": "Finance",
+    "subcategory": "Terminal",
+    "url": "https://github.com/Fincept-Corporation/FinceptTerminal"
+  },
+  {
+    "id": "Finance-26",
+    "title": "Invest Brain",
+    "category": "Finance",
+    "subcategory": "Terminal",
+    "url": "https://github.com/investbrainapp/investbrain"
+  },
+  {
+    "id": "Finance-27",
+    "title": "OpenStock",
+    "category": "Finance",
+    "subcategory": "Terminal",
+    "url": "https://github.com/Open-Dev-Society/OpenStock"
+  },
+  {
+    "id": "Finance-28",
+    "title": "VNPY",
+    "category": "Finance",
+    "subcategory": "Terminal",
+    "url": "https://github.com/vnpy/vnpy"
+  },
+  {
+    "id": "Finance-29",
+    "title": "Quant Dinger",
+    "category": "Finance",
+    "subcategory": "Trading",
+    "url": "https://github.com/brokermr810/QuantDinger"
+  },
+  {
+    "id": "Finance-30",
+    "title": "Vibe Trading",
+    "category": "Finance",
+    "subcategory": "Trading",
+    "url": "https://github.com/HKUDS/Vibe-Trading"
+  },
+  {
+    "id": "Marketing-1",
+    "title": "Blend AI (Ads)",
+    "category": "Marketing",
+    "subcategory": "Acquisition",
+    "url": "https://blend-ai.com"
+  },
+  {
+    "id": "Marketing-2",
+    "title": "CMO",
+    "category": "Marketing",
+    "subcategory": "Acquisition",
+    "url": "https://okara.ai"
+  },
+  {
+    "id": "Marketing-3",
+    "title": "Social Media",
+    "category": "Marketing",
+    "subcategory": "Acquisition",
+    "url": "https://feedhive.com"
+  },
+  {
+    "id": "Marketing-4",
+    "title": "Social Media",
+    "category": "Marketing",
+    "subcategory": "Acquisition",
+    "url": "https://ocoya.com"
+  },
+  {
+    "id": "Marketing-5",
+    "title": "Social Media",
+    "category": "Marketing",
+    "subcategory": "Acquisition",
+    "url": "https://simplified.com"
+  },
+  {
+    "id": "Marketing-6",
+    "title": "Social Media",
+    "category": "Marketing",
+    "subcategory": "Acquisition",
+    "url": "https://socialbee.com"
+  },
+  {
+    "id": "Marketing-7",
+    "title": "Scrapping",
+    "category": "Marketing",
+    "subcategory": "Acquisition",
+    "url": "https://apify.com"
+  },
+  {
+    "id": "Marketing-8",
+    "title": "Scrapping",
+    "category": "Marketing",
+    "subcategory": "Acquisition",
+    "url": "https://bardeen.ai"
+  },
+  {
+    "id": "Marketing-9",
+    "title": "Scrapping",
+    "category": "Marketing",
+    "subcategory": "Acquisition",
+    "url": "https://helixscale.com"
+  },
+  {
+    "id": "Marketing-10",
+    "title": "Scrapping",
+    "category": "Marketing",
+    "subcategory": "Acquisition",
+    "url": "https://hunter.io"
+  },
+  {
+    "id": "Marketing-11",
+    "title": "Scrapping",
+    "category": "Marketing",
+    "subcategory": "Acquisition",
+    "url": "https://openmart.com"
+  },
+  {
+    "id": "Marketing-12",
+    "title": "Scrapping",
+    "category": "Marketing",
+    "subcategory": "Acquisition",
+    "url": "https://snov.io"
+  },
+  {
+    "id": "Marketing-13",
+    "title": "Scrapping",
+    "category": "Marketing",
+    "subcategory": "Acquisition",
+    "url": "https://wiza.co"
+  },
+  {
+    "id": "Marketing-14",
+    "title": "Scrapping (Aggregator)",
+    "category": "Marketing",
+    "subcategory": "Acquisition",
+    "url": "https://fullenrich.com"
+  },
+  {
+    "id": "Marketing-15",
+    "title": "Scrapping (Internal)",
+    "category": "Marketing",
+    "subcategory": "Acquisition",
+    "url": "https://commonroom.io"
+  },
+  {
+    "id": "Marketing-16",
+    "title": "Scrapping (Internal)",
+    "category": "Marketing",
+    "subcategory": "Acquisition",
+    "url": "https://rb2b.com"
+  },
+  {
+    "id": "Marketing-17",
+    "title": "Scrapping (Internal)",
+    "category": "Marketing",
+    "subcategory": "Acquisition",
+    "url": "https://vector.co"
+  },
+  {
+    "id": "Marketing-18",
+    "title": "Scrapping (LinkedIn)",
+    "category": "Marketing",
+    "subcategory": "Acquisition",
+    "url": "https://prospeo.io"
+  },
+  {
+    "id": "Marketing-19",
+    "title": "Scrapping (LinkedIn)",
+    "category": "Marketing",
+    "subcategory": "Acquisition",
+    "url": "https://taplio.com"
+  },
+  {
+    "id": "Marketing-20",
+    "title": "Intelligence",
+    "category": "Marketing",
+    "subcategory": "Analytics",
+    "url": "https://aomni.com"
+  },
+  {
+    "id": "Marketing-21",
+    "title": "Intelligence",
+    "category": "Marketing",
+    "subcategory": "Analytics",
+    "url": "https://apollo.io"
+  },
+  {
+    "id": "Marketing-22",
+    "title": "Intelligence",
+    "category": "Marketing",
+    "subcategory": "Analytics",
+    "url": "https://predictleads.com"
+  },
+  {
+    "id": "Marketing-23",
+    "title": "SEO",
+    "category": "Marketing",
+    "subcategory": "Analytics",
+    "url": "https://canirank.com"
+  },
+  {
+    "id": "Marketing-24",
+    "title": "SEO",
+    "category": "Marketing",
+    "subcategory": "Analytics",
+    "url": "https://diib.com"
+  },
+  {
+    "id": "Marketing-25",
+    "title": "SEO",
+    "category": "Marketing",
+    "subcategory": "Analytics",
+    "url": "https://hypotenuse.ai"
+  },
+  {
+    "id": "Marketing-26",
+    "title": "SEO",
+    "category": "Marketing",
+    "subcategory": "Analytics",
+    "url": "https://keywordtool.io"
+  },
+  {
+    "id": "Marketing-27",
+    "title": "SEO",
+    "category": "Marketing",
+    "subcategory": "Analytics",
+    "url": "https://proranktracker.com"
+  },
+  {
+    "id": "Marketing-28",
+    "title": "SEO",
+    "category": "Marketing",
+    "subcategory": "Analytics",
+    "url": "https://scalenut.com"
+  },
+  {
+    "id": "Marketing-29",
+    "title": "SEO",
+    "category": "Marketing",
+    "subcategory": "Analytics",
+    "url": "https://seo.ai"
+  },
+  {
+    "id": "Marketing-30",
+    "title": "SEO",
+    "category": "Marketing",
+    "subcategory": "Analytics",
+    "url": "https://seodity.com"
+  },
+  {
+    "id": "Marketing-31",
+    "title": "SEO",
+    "category": "Marketing",
+    "subcategory": "Analytics",
+    "url": "https://surferseo.com"
+  },
+  {
+    "id": "Marketing-32",
+    "title": "Tracking",
+    "category": "Marketing",
+    "subcategory": "Analytics",
+    "url": "https://dreamdata.io"
+  },
+  {
+    "id": "Marketing-33",
+    "title": "CRM",
+    "category": "Marketing",
+    "subcategory": "Retention",
+    "url": "https://attio.com"
+  },
+  {
+    "id": "Marketing-34",
+    "title": "CRM",
+    "category": "Marketing",
+    "subcategory": "Retention",
+    "url": "https://dotdigital.com"
+  },
+  {
+    "id": "Marketing-35",
+    "title": "CRM",
+    "category": "Marketing",
+    "subcategory": "Retention",
+    "url": "https://folk.app"
+  },
+  {
+    "id": "Marketing-36",
+    "title": "CRM",
+    "category": "Marketing",
+    "subcategory": "Retention",
+    "url": "https://hints.so"
+  },
+  {
+    "id": "Marketing-37",
+    "title": "CRM",
+    "category": "Marketing",
+    "subcategory": "Retention",
+    "url": "https://sleekflow.io"
+  },
+  {
+    "id": "Marketing-38",
+    "title": "CRM (E-comm)",
+    "category": "Marketing",
+    "subcategory": "Retention",
+    "url": "https://klaviyo.com"
+  },
+  {
+    "id": "Marketing-39",
+    "title": "Broadcast",
+    "category": "Marketing",
+    "subcategory": "Retention",
+    "url": "https://icontact.com"
+  },
+  {
+    "id": "Marketing-40",
+    "title": "Broadcast",
+    "category": "Marketing",
+    "subcategory": "Retention",
+    "url": "https://mailchimp.com"
+  },
+  {
+    "id": "Marketing-41",
+    "title": "Broadcast",
+    "category": "Marketing",
+    "subcategory": "Retention",
+    "url": "https://kit.com"
+  },
+  {
+    "id": "Marketing-42",
+    "title": "Broadcast (Drafting)",
+    "category": "Marketing",
+    "subcategory": "Retention",
+    "url": "https://newsletterpilot.com"
+  },
+  {
+    "id": "Marketing-43",
+    "title": "Feedback",
+    "category": "Marketing",
+    "subcategory": "Retention",
+    "url": "https://deeto.com"
+  },
+  {
+    "id": "Marketing-44",
+    "title": "Feedback",
+    "category": "Marketing",
+    "subcategory": "Retention",
+    "url": "https://zeda.io"
+  },
+  {
+    "id": "Marketing-45",
+    "title": "Support",
+    "category": "Marketing",
+    "subcategory": "Retention",
+    "url": "https://board.support"
+  },
+  {
+    "id": "Marketing-46",
+    "title": "Support",
+    "category": "Marketing",
+    "subcategory": "Retention",
+    "url": "https://respond.io"
+  },
+  {
+    "id": "Marketing-47",
+    "title": "Campaign",
+    "category": "Marketing",
+    "subcategory": "Sales",
+    "url": "https://jasper.ai"
+  },
+  {
+    "id": "Marketing-48",
+    "title": "Conversion",
+    "category": "Marketing",
+    "subcategory": "Sales",
+    "url": "https://attention.com"
+  },
+  {
+    "id": "Marketing-49",
+    "title": "Conversion",
+    "category": "Marketing",
+    "subcategory": "Sales",
+    "url": "https://lemlist.com"
+  },
+  {
+    "id": "Marketing-50",
+    "title": "Nonprofit",
+    "category": "Marketing",
+    "subcategory": "Sales",
+    "url": "https://chorusai.co"
+  },
+  {
+    "id": "Marketing-51",
+    "title": "Pipeline",
+    "category": "Marketing",
+    "subcategory": "Sales",
+    "url": "https://gong.io"
+  },
+  {
+    "id": "Marketing-52",
+    "title": "Pipeline",
+    "category": "Marketing",
+    "subcategory": "Sales",
+    "url": "https://regie.ai"
+  },
+  {
+    "id": "Marketing-53",
+    "title": "Telco",
+    "category": "Marketing",
+    "subcategory": "Sales",
+    "url": "https://actif.ai"
+  },
+  {
+    "id": "Media-1",
+    "title": "Contact Centre",
+    "category": "Media",
+    "subcategory": "Audio",
+    "url": "https://bolna.ai"
+  },
+  {
+    "id": "Media-2",
+    "title": "Contact Centre",
+    "category": "Media",
+    "subcategory": "Audio",
+    "url": "https://cresta.com"
+  },
+  {
+    "id": "Media-3",
+    "title": "Contact Centre",
+    "category": "Media",
+    "subcategory": "Audio",
+    "url": "https://echo.win"
+  },
+  {
+    "id": "Media-4",
+    "title": "Contact Centre",
+    "category": "Media",
+    "subcategory": "Audio",
+    "url": "https://mrassistant.ai"
+  },
+  {
+    "id": "Media-5",
+    "title": "Contact Centre",
+    "category": "Media",
+    "subcategory": "Audio",
+    "url": "https://poly.ai"
+  },
+  {
+    "id": "Media-6",
+    "title": "Carrier",
+    "category": "Media",
+    "subcategory": "Audio",
+    "url": "https://telnyx.com"
+  },
+  {
+    "id": "Media-7",
+    "title": "Music Generator",
+    "category": "Media",
+    "subcategory": "Audio",
+    "url": "https://soundraw.io"
+  },
+  {
+    "id": "Media-8",
+    "title": "Notetaking",
+    "category": "Media",
+    "subcategory": "Audio",
+    "url": "https://krisp.ai"
+  },
+  {
+    "id": "Media-9",
+    "title": "Notetaking",
+    "category": "Media",
+    "subcategory": "Audio",
+    "url": "https://tldv.io"
+  },
+  {
+    "id": "Media-10",
+    "title": "Summarizer",
+    "category": "Media",
+    "subcategory": "Audio",
+    "url": "https://summaraize.com"
+  },
+  {
+    "id": "Media-11",
+    "title": "Voice Edit",
+    "category": "Media",
+    "subcategory": "Audio",
+    "url": "https://cleanvoice.ai"
+  },
+  {
+    "id": "Media-12",
+    "title": "Voice Testing",
+    "category": "Media",
+    "subcategory": "Audio",
+    "url": "https://vocera.ai"
+  },
+  {
+    "id": "Media-13",
+    "title": "Tester",
+    "category": "Media",
+    "subcategory": "Audio",
+    "url": "https://coval.dev"
+  },
+  {
+    "id": "Media-14",
+    "title": "Text to speech",
+    "category": "Media",
+    "subcategory": "Audio",
+    "url": "https://elevenlabs.io"
+  },
+  {
+    "id": "Media-15",
+    "title": "Text to speech",
+    "category": "Media",
+    "subcategory": "Audio",
+    "url": "https://audioread.com"
+  },
+  {
+    "id": "Media-16",
+    "title": "Text to speech",
+    "category": "Media",
+    "subcategory": "Audio",
+    "url": "https://getspeechflow.com"
+  },
+  {
+    "id": "Media-17",
+    "title": "Text to speech",
+    "category": "Media",
+    "subcategory": "Audio",
+    "url": "https://murf.ai"
+  },
+  {
+    "id": "Media-18",
+    "title": "Banner Bear",
+    "category": "Media",
+    "subcategory": "Design",
+    "url": "https://bannerbear.com"
+  },
+  {
+    "id": "Media-19",
+    "title": "Canva (UI/UX)",
+    "category": "Media",
+    "subcategory": "Design",
+    "url": "https://canva.com"
+  },
+  {
+    "id": "Media-20",
+    "title": "Designs AI",
+    "category": "Media",
+    "subcategory": "Design",
+    "url": "https://designs.ai"
+  },
+  {
+    "id": "Media-21",
+    "title": "Figma (UI/UX)",
+    "category": "Media",
+    "subcategory": "Design",
+    "url": "https://figma.com"
+  },
+  {
+    "id": "Media-22",
+    "title": "Google",
+    "category": "Media",
+    "subcategory": "Design",
+    "url": "https://stitch.withgoogle.com"
+  },
+  {
+    "id": "Media-23",
+    "title": "Fontjoy (Pairing)",
+    "category": "Media",
+    "subcategory": "Design",
+    "url": "https://fontjoy.com"
+  },
+  {
+    "id": "Media-24",
+    "title": "Microsoft Designer",
+    "category": "Media",
+    "subcategory": "Design",
+    "url": "https://designer.microsoft.com"
+  },
+  {
+    "id": "Media-25",
+    "title": "Pencil (Marketing)",
+    "category": "Media",
+    "subcategory": "Design",
+    "url": "https://trypencil.com"
+  },
+  {
+    "id": "Media-26",
+    "title": "Pomelli (Marketing)",
+    "category": "Media",
+    "subcategory": "Design",
+    "url": "https://labs.google.com/pomelli"
+  },
+  {
+    "id": "Media-27",
+    "title": "PPT",
+    "category": "Media",
+    "subcategory": "Design",
+    "url": "https://beautiful.ai"
+  },
+  {
+    "id": "Media-28",
+    "title": "PPT",
+    "category": "Media",
+    "subcategory": "Design",
+    "url": "https://decktopus.com"
+  },
+  {
+    "id": "Media-29",
+    "title": "PPT",
+    "category": "Media",
+    "subcategory": "Design",
+    "url": "https://gamma.app"
+  },
+  {
+    "id": "Media-30",
+    "title": "PPT",
+    "category": "Media",
+    "subcategory": "Design",
+    "url": "https://popai.pro"
+  },
+  {
+    "id": "Media-31",
+    "title": "PPT",
+    "category": "Media",
+    "subcategory": "Design",
+    "url": "https://prezi.com"
+  },
+  {
+    "id": "Media-32",
+    "title": "PPT",
+    "category": "Media",
+    "subcategory": "Design",
+    "url": "https://slidesai.io"
+  },
+  {
+    "id": "Media-33",
+    "title": "UI",
+    "category": "Media",
+    "subcategory": "Design",
+    "url": "https://21st.dev"
+  },
+  {
+    "id": "Media-34",
+    "title": "UI",
+    "category": "Media",
+    "subcategory": "Design",
+    "url": "https://10web.io"
+  },
+  {
+    "id": "Media-35",
+    "title": "UI",
+    "category": "Media",
+    "subcategory": "Design",
+    "url": "https://butternut.ai"
+  },
+  {
+    "id": "Media-36",
+    "title": "UI",
+    "category": "Media",
+    "subcategory": "Design",
+    "url": "https://uizard.io"
+  },
+  {
+    "id": "Media-37",
+    "title": "UI",
+    "category": "Media",
+    "subcategory": "Design",
+    "url": "https://webwave.me"
+  },
+  {
+    "id": "Media-38",
+    "title": "UI (copy prompt)",
+    "category": "Media",
+    "subcategory": "Design",
+    "url": "https://github.com/tudorp06/UI-drop"
+  },
+  {
+    "id": "Media-39",
+    "title": "Bing",
+    "category": "Media",
+    "subcategory": "Image",
+    "url": "https://bing.com/images/create"
+  },
+  {
+    "id": "Media-40",
+    "title": "BlueWillow",
+    "category": "Media",
+    "subcategory": "Image",
+    "url": "https://bluewillow.ai"
+  },
+  {
+    "id": "Media-41",
+    "title": "CodeFormer (Restoration)",
+    "category": "Media",
+    "subcategory": "Image",
+    "url": "https://shangchenzhou.com/projects/CodeFormer"
+  },
+  {
+    "id": "Media-42",
+    "title": "Editor",
+    "category": "Media",
+    "subcategory": "Image",
+    "url": "https://fotor.com"
+  },
+  {
+    "id": "Media-43",
+    "title": "Editor",
+    "category": "Media",
+    "subcategory": "Image",
+    "url": "https://photopea.com"
+  },
+  {
+    "id": "Media-44",
+    "title": "Editor",
+    "category": "Media",
+    "subcategory": "Image",
+    "url": "https://express.adobe.com"
+  },
+  {
+    "id": "Media-45",
+    "title": "Editor",
+    "category": "Media",
+    "subcategory": "Image",
+    "url": "https://remove.bg"
+  },
+  {
+    "id": "Media-46",
+    "title": "Editor",
+    "category": "Media",
+    "subcategory": "Image",
+    "url": "https://squoosh.app"
+  },
+  {
+    "id": "Media-47",
+    "title": "Hotspot",
+    "category": "Media",
+    "subcategory": "Image",
+    "url": "https://hotpot.ai"
+  },
+  {
+    "id": "Media-48",
+    "title": "Leonardo",
+    "category": "Media",
+    "subcategory": "Image",
+    "url": "https://leonardo.ai"
+  },
+  {
+    "id": "Media-49",
+    "title": "Midjourney",
+    "category": "Media",
+    "subcategory": "Image",
+    "url": "https://midjourney.com"
+  },
+  {
+    "id": "Media-50",
+    "title": "Pollinations",
+    "category": "Media",
+    "subcategory": "Image",
+    "url": "https://pollinations.ai"
+  },
+  {
+    "id": "Media-51",
+    "title": "Stockimg",
+    "category": "Media",
+    "subcategory": "Image",
+    "url": "https://stockimg.ai"
+  },
+  {
+    "id": "Media-52",
+    "title": "ArcReel",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://github.com/ArcReel/ArcReel"
+  },
+  {
+    "id": "Media-53",
+    "title": "Avatar",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://aistudios.com"
+  },
+  {
+    "id": "Media-54",
+    "title": "Avatar",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://heygen.com"
+  },
+  {
+    "id": "Media-55",
+    "title": "Avatar",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://synthesia.io"
+  },
+  {
+    "id": "Media-56",
+    "title": "Caption",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://captions.ai"
+  },
+  {
+    "id": "Media-57",
+    "title": "Caption",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://github.com/buxuku/VideoSubtitleGenerator"
+  },
+  {
+    "id": "Media-58",
+    "title": "Cinematic",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://lumalabs.ai"
+  },
+  {
+    "id": "Media-59",
+    "title": "Cinematic",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://pikalabsai.org"
+  },
+  {
+    "id": "Media-60",
+    "title": "Cinematic",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://pixverse.ai"
+  },
+  {
+    "id": "Media-61",
+    "title": "Cinematic",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://vidu.com"
+  },
+  {
+    "id": "Media-62",
+    "title": "Content Repurpose",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://animoto.com"
+  },
+  {
+    "id": "Media-63",
+    "title": "Content Repurpose",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://pictory.ai"
+  },
+  {
+    "id": "Media-64",
+    "title": "Drama",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://github.com/HBAI-Ltd/Toonflow-app"
+  },
+  {
+    "id": "Media-65",
+    "title": "Editor",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://podcast.adobe.com"
+  },
+  {
+    "id": "Media-66",
+    "title": "Editor",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://capcut.com"
+  },
+  {
+    "id": "Media-67",
+    "title": "Editor",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://descript.com"
+  },
+  {
+    "id": "Media-68",
+    "title": "Editor",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://filmora.wondershare.net"
+  },
+  {
+    "id": "Media-69",
+    "title": "Editor",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://flexclip.com"
+  },
+  {
+    "id": "Media-70",
+    "title": "Editor (Background)",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://unscreen.com"
+  },
+  {
+    "id": "Media-71",
+    "title": "Ffmpeg",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://github.com/ychoi-kr/claude-ffmpeg-skill"
+  },
+  {
+    "id": "Media-72",
+    "title": "Hyperframes",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://github.com/heygen-com/hyperframes"
+  },
+  {
+    "id": "Media-73",
+    "title": "MD2video",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://github.com/leether/md2video"
+  },
+  {
+    "id": "Media-74",
+    "title": "Manim",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://github.com/Yusuke710/manim-skill"
+  },
+  {
+    "id": "Media-75",
+    "title": "OpenMontage",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://github.com/calesthio/OpenMontage"
+  },
+  {
+    "id": "Media-76",
+    "title": "Professional",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://runwayml.com"
+  },
+  {
+    "id": "Media-77",
+    "title": "Realistic",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://lumiere-video.github.io"
+  },
+  {
+    "id": "Media-78",
+    "title": "Remotion",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://remotion.dev"
+  },
+  {
+    "id": "Media-79",
+    "title": "Storyboard",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://labs.google/fx/tools/flow"
+  },
+  {
+    "id": "Media-80",
+    "title": "Storyboard",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://mixboard.google.com"
+  },
+  {
+    "id": "Media-81",
+    "title": "Storyboard",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://rawshorts.com"
+  },
+  {
+    "id": "Media-82",
+    "title": "Studio",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://invideo.io"
+  },
+  {
+    "id": "Media-83",
+    "title": "Studio",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://veed.io"
+  },
+  {
+    "id": "Media-84",
+    "title": "Studio",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://vimeo.com"
+  },
+  {
+    "id": "Media-85",
+    "title": "Video Editing Agent (VEA)",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://termo.ai/skills/vea"
+  },
+  {
+    "id": "Media-86",
+    "title": "Video-use",
+    "category": "Media",
+    "subcategory": "Video",
+    "url": "https://github.com/browser-use/video-use"
+  },
+  {
+    "id": "Productivity-1",
+    "title": "BI",
+    "category": "Productivity",
+    "subcategory": "Corporate",
+    "url": "https://mylens.ai"
+  },
+  {
+    "id": "Productivity-2",
+    "title": "HR",
+    "category": "Productivity",
+    "subcategory": "Corporate",
+    "url": "https://eightfold.ai"
+  },
+  {
+    "id": "Productivity-3",
+    "title": "HR",
+    "category": "Productivity",
+    "subcategory": "Corporate",
+    "url": "https://harver.com"
+  },
+  {
+    "id": "Productivity-4",
+    "title": "HR",
+    "category": "Productivity",
+    "subcategory": "Corporate",
+    "url": "https://hirevue.com"
+  },
+  {
+    "id": "Productivity-5",
+    "title": "HR (Writing)",
+    "category": "Productivity",
+    "subcategory": "Corporate",
+    "url": "https://textio.com"
+  },
+  {
+    "id": "Productivity-6",
+    "title": "Legal",
+    "category": "Productivity",
+    "subcategory": "Corporate",
+    "url": "https://harvey.ai"
+  },
+  {
+    "id": "Productivity-7",
+    "title": "Legal",
+    "category": "Productivity",
+    "subcategory": "Corporate",
+    "url": "https://robinai.com"
+  },
+  {
+    "id": "Productivity-8",
+    "title": "Management (AI)",
+    "category": "Productivity",
+    "subcategory": "Email",
+    "url": "https://maestrolabs.com"
+  },
+  {
+    "id": "Productivity-9",
+    "title": "Personalised",
+    "category": "Productivity",
+    "subcategory": "Email",
+    "url": "https://smartwriter.ai"
+  },
+  {
+    "id": "Productivity-10",
+    "title": "SMTP Relay",
+    "category": "Productivity",
+    "subcategory": "Email",
+    "url": "https://brevo.com"
+  },
+  {
+    "id": "Productivity-11",
+    "title": "SMTP Relay",
+    "category": "Productivity",
+    "subcategory": "Email",
+    "url": "https://resend.com"
+  },
+  {
+    "id": "Productivity-12",
+    "title": "Spam Review",
+    "category": "Productivity",
+    "subcategory": "Email",
+    "url": "https://unspam.email"
+  },
+  {
+    "id": "Productivity-13",
+    "title": "Clickup",
+    "category": "Productivity",
+    "subcategory": "Management",
+    "url": "https://clickup.com"
+  },
+  {
+    "id": "Productivity-14",
+    "title": "Notion",
+    "category": "Productivity",
+    "subcategory": "Management",
+    "url": "https://notion.so"
+  },
+  {
+    "id": "Productivity-15",
+    "title": "Feishu (Global)",
+    "category": "Productivity",
+    "subcategory": "Management",
+    "url": "https://larksuite.com"
+  },
+  {
+    "id": "Productivity-16",
+    "title": "Feishu (China)",
+    "category": "Productivity",
+    "subcategory": "Management",
+    "url": "https://feishu.cn"
+  },
+  {
+    "id": "Productivity-17",
+    "title": "Odoo (OpenERP)",
+    "category": "Productivity",
+    "subcategory": "Management",
+    "url": "https://odoo.com"
+  },
+  {
+    "id": "Productivity-18",
+    "title": "ERPNext",
+    "category": "Productivity",
+    "subcategory": "Management",
+    "url": "https://github.com/frappe/erpnext"
+  },
+  {
+    "id": "Productivity-19",
+    "title": "Accounting",
+    "category": "Productivity",
+    "subcategory": "Management",
+    "url": "https://mindbridge.ai"
+  },
+  {
+    "id": "Productivity-20",
+    "title": "Accounting",
+    "category": "Productivity",
+    "subcategory": "Management",
+    "url": "https://tesorio.com"
+  },
+  {
+    "id": "Productivity-21",
+    "title": "Accounting",
+    "category": "Productivity",
+    "subcategory": "Management",
+    "url": "https://zeni.ai"
+  },
+  {
+    "id": "Productivity-22",
+    "title": "Financial",
+    "category": "Productivity",
+    "subcategory": "Management",
+    "url": "https://abacum.ai"
+  },
+  {
+    "id": "Productivity-23",
+    "title": "Financial",
+    "category": "Productivity",
+    "subcategory": "Management",
+    "url": "https://anaplan.com"
+  },
+  {
+    "id": "Productivity-24",
+    "title": "Financial",
+    "category": "Productivity",
+    "subcategory": "Management",
+    "url": "https://datarails.com"
+  },
+  {
+    "id": "Productivity-25",
+    "title": "Financial",
+    "category": "Productivity",
+    "subcategory": "Management",
+    "url": "https://fathomhq.com"
+  },
+  {
+    "id": "Productivity-26",
+    "title": "Financial",
+    "category": "Productivity",
+    "subcategory": "Management",
+    "url": "https://pigment.com"
+  },
+  {
+    "id": "Productivity-27",
+    "title": "Planful",
+    "category": "Productivity",
+    "subcategory": "Management",
+    "url": "https://planful.com"
+  },
+  {
+    "id": "Productivity-28",
+    "title": "Knowledge",
+    "category": "Productivity",
+    "subcategory": "Management",
+    "url": "https://obsidian.md"
+  },
+  {
+    "id": "Productivity-29",
+    "title": "Revenue",
+    "category": "Productivity",
+    "subcategory": "Management",
+    "url": "https://hyperline.co"
+  },
+  {
+    "id": "Productivity-30",
+    "title": "Reclaim",
+    "category": "Productivity",
+    "subcategory": "Meeting",
+    "url": "https://reclaim.ai"
+  },
+  {
+    "id": "Productivity-31",
+    "title": "Cal",
+    "category": "Productivity",
+    "subcategory": "Meeting",
+    "url": "https://cal.com"
+  },
+  {
+    "id": "Productivity-32",
+    "title": "Calendly",
+    "category": "Productivity",
+    "subcategory": "Meeting",
+    "url": "https://calendly.com"
+  },
+  {
+    "id": "Productivity-33",
+    "title": "Notetaker",
+    "category": "Productivity",
+    "subcategory": "Meeting",
+    "url": "https://fireflies.ai"
+  },
+  {
+    "id": "Productivity-34",
+    "title": "Notetaker",
+    "category": "Productivity",
+    "subcategory": "Meeting",
+    "url": "https://noty.ai"
+  },
+  {
+    "id": "Productivity-35",
+    "title": "File Conversion",
+    "category": "Productivity",
+    "subcategory": "Other",
+    "url": "https://convertio.co"
+  },
+  {
+    "id": "Productivity-36",
+    "title": "Charting",
+    "category": "Productivity",
+    "subcategory": "Project",
+    "url": "https://ellie.ai"
+  },
+  {
+    "id": "Productivity-37",
+    "title": "Charting",
+    "category": "Productivity",
+    "subcategory": "Project",
+    "url": "https://gitmind.com"
+  },
+  {
+    "id": "Productivity-38",
+    "title": "Management",
+    "category": "Productivity",
+    "subcategory": "Project",
+    "url": "https://fibery.com"
+  },
+  {
+    "id": "Productivity-39",
+    "title": "Spreadsheet",
+    "category": "Productivity",
+    "subcategory": "Project",
+    "url": "https://sheetai.app"
+  },
+  {
+    "id": "Productivity-40",
+    "title": "Analyze Document",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://humata.ai"
+  },
+  {
+    "id": "Productivity-41",
+    "title": "Citation",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://researchrabbit.ai"
+  },
+  {
+    "id": "Productivity-42",
+    "title": "Citation",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://scite.ai"
+  },
+  {
+    "id": "Productivity-43",
+    "title": "Citation",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://zotero.org"
+  },
+  {
+    "id": "Productivity-44",
+    "title": "Genei",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://genei.io"
+  },
+  {
+    "id": "Productivity-45",
+    "title": "Literature Review",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://elicit.com"
+  },
+  {
+    "id": "Productivity-46",
+    "title": "Literature Review",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://scispace.com"
+  },
+  {
+    "id": "Productivity-47",
+    "title": "Notebook LM",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://notebooklm.google"
+  },
+  {
+    "id": "Productivity-48",
+    "title": "The Cube",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://thecubeai.com"
+  },
+  {
+    "id": "Productivity-49",
+    "title": "Unified Search",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://coco.rs"
+  },
+  {
+    "id": "Productivity-50",
+    "title": "Writing",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://contentforge.ai"
+  },
+  {
+    "id": "Productivity-51",
+    "title": "Writing",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://grammarly.com"
+  },
+  {
+    "id": "Productivity-52",
+    "title": "Writing",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://prowritingaid.com"
+  },
+  {
+    "id": "Productivity-53",
+    "title": "Writing",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://textmetrics.com"
+  },
+  {
+    "id": "Productivity-54",
+    "title": "Writing",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://wordtune.com"
+  },
+  {
+    "id": "Productivity-55",
+    "title": "Writing (Copywriting)",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://anyword.com"
+  },
+  {
+    "id": "Productivity-56",
+    "title": "Writing (Copywriting)",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://copy.ai"
+  },
+  {
+    "id": "Productivity-57",
+    "title": "Writing (Copywriting)",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://writecream.com"
+  },
+  {
+    "id": "Productivity-58",
+    "title": "Writing (Copywriting)",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://writesonic.com"
+  },
+  {
+    "id": "Productivity-59",
+    "title": "Writing (Human)",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://quillbot.com"
+  },
+  {
+    "id": "Productivity-60",
+    "title": "Writing (Human)",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://rytr.me"
+  },
+  {
+    "id": "Productivity-61",
+    "title": "Writing (Human)",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://wordai.com"
+  },
+  {
+    "id": "Productivity-62",
+    "title": "Writing (Storyboard)",
+    "category": "Productivity",
+    "subcategory": "Research",
+    "url": "https://github.com/alecm20/story-flicks"
+  },
+  {
+    "id": "Productivity-63",
+    "title": "Bob (OCR)",
+    "category": "Productivity",
+    "subcategory": "Translation",
+    "url": "https://bobtranslate.com"
+  },
+  {
+    "id": "Productivity-64",
+    "title": "DeepL",
+    "category": "Productivity",
+    "subcategory": "Translation",
+    "url": "https://deepl.com"
+  },
+  {
+    "id": "Productivity-65",
+    "title": "Immersive",
+    "category": "Productivity",
+    "subcategory": "Translation",
+    "url": "https://immersivetranslate.com"
+  },
+  {
+    "id": "Productivity-66",
+    "title": "Lightweight",
+    "category": "Productivity",
+    "subcategory": "Translation",
+    "url": "https://github.com/xnx3/translate"
+  },
+  {
+    "id": "Productivity-67",
+    "title": "OCR",
+    "category": "Productivity",
+    "subcategory": "Translation",
+    "url": "https://nanonets.com"
+  },
+  {
+    "id": "Productivity-68",
+    "title": "Trancy",
+    "category": "Productivity",
+    "subcategory": "Translation",
+    "url": "https://trancy.org"
+  },
+  {
+    "id": "Security-2",
+    "title": "Credentials",
+    "category": "Security",
+    "subcategory": "Audit",
+    "url": "https://cirt.net"
+  },
+  {
+    "id": "Security-3",
+    "title": "Firmware",
+    "category": "Security",
+    "subcategory": "Audit",
+    "url": "https://github.com/ReFirmLabs/binwalk"
+  },
+  {
+    "id": "Security-4",
+    "title": "Framework",
+    "category": "Security",
+    "subcategory": "Audit",
+    "url": "https://w3af.org"
+  },
+  {
+    "id": "Security-5",
+    "title": "Hardening",
+    "category": "Security",
+    "subcategory": "Audit",
+    "url": "https://cisofy.com"
+  },
+  {
+    "id": "Security-6",
+    "title": "Memory",
+    "category": "Security",
+    "subcategory": "Audit",
+    "url": "https://github.com/volatilityfoundation/volatility"
+  },
+  {
+    "id": "Security-7",
+    "title": "Misconfiguration",
+    "category": "Security",
+    "subcategory": "Audit",
+    "url": "https://github.com/aquasecurity/trivy"
+  },
+  {
+    "id": "Security-8",
+    "title": "Network",
+    "category": "Security",
+    "subcategory": "Audit",
+    "url": "https://openvas.org"
+  },
+  {
+    "id": "Security-9",
+    "title": "Process",
+    "category": "Security",
+    "subcategory": "Audit",
+    "url": "https://github.com/pranshuparmar/witr"
+  },
+  {
+    "id": "Security-10",
+    "title": "YAML",
+    "category": "Security",
+    "subcategory": "Audit",
+    "url": "https://github.com/projectdiscovery/nuclei"
+  },
+  {
+    "id": "Security-11",
+    "title": "Famous",
+    "category": "Security",
+    "subcategory": "Brute-force",
+    "url": "https://openwall.com/john"
+  },
+  {
+    "id": "Security-12",
+    "title": "GPU Cracking",
+    "category": "Security",
+    "subcategory": "Brute-force",
+    "url": "https://hashcat.net"
+  },
+  {
+    "id": "Security-13",
+    "title": "Lockscreen",
+    "category": "Security",
+    "subcategory": "Brute-force",
+    "url": "https://github.com/tegal1337/CiLocks"
+  },
+  {
+    "id": "Security-14",
+    "title": "Network",
+    "category": "Security",
+    "subcategory": "Brute-force",
+    "url": "https://github.com/vanhauser-thc/thc-hydra"
+  },
+  {
+    "id": "Security-15",
+    "title": "Network",
+    "category": "Security",
+    "subcategory": "Brute-force",
+    "url": "https://github.com/jasonxtn/Kraken"
+  },
+  {
+    "id": "Security-16",
+    "title": "Network",
+    "category": "Security",
+    "subcategory": "Brute-force",
+    "url": "https://kali.org/tools/medusa"
+  },
+  {
+    "id": "Security-17",
+    "title": "Wifi",
+    "category": "Security",
+    "subcategory": "Brute-force",
+    "url": "https://aircrack-ng.org"
+  },
+  {
+    "id": "Security-18",
+    "title": "Wifi",
+    "category": "Security",
+    "subcategory": "Brute-force",
+    "url": "https://code.google.com/archive/p/reaver-wps"
+  },
+  {
+    "id": "Security-19",
+    "title": "Wifi",
+    "category": "Security",
+    "subcategory": "Brute-force",
+    "url": "https://kali.org/tools/wifite"
+  },
+  {
+    "id": "Security-20",
+    "title": "Win-based",
+    "category": "Security",
+    "subcategory": "Brute-force",
+    "url": "https://ophcrack.sourceforge.io"
+  },
+  {
+    "id": "Security-21",
+    "title": "BIN",
+    "category": "Security",
+    "subcategory": "Card Gen",
+    "url": "https://ccardgenerator.com"
+  },
+  {
+    "id": "Security-22",
+    "title": "BIN",
+    "category": "Security",
+    "subcategory": "Card Gen",
+    "url": "https://madleets.me"
+  },
+  {
+    "id": "Security-23",
+    "title": "Arista",
+    "category": "Security",
+    "subcategory": "Cloud Security",
+    "url": "https://arista.com"
+  },
+  {
+    "id": "Security-24",
+    "title": "Beyond Trust",
+    "category": "Security",
+    "subcategory": "Cloud Security",
+    "url": "https://beyondtrust.com"
+  },
+  {
+    "id": "Security-25",
+    "title": "Darktrace",
+    "category": "Security",
+    "subcategory": "Cloud Security",
+    "url": "https://darktrace.com"
+  },
+  {
+    "id": "Security-26",
+    "title": "Prowler",
+    "category": "Security",
+    "subcategory": "Cloud Security",
+    "url": "https://prowler.com"
+  },
+  {
+    "id": "Security-27",
+    "title": "Rapid7",
+    "category": "Security",
+    "subcategory": "Cloud Security",
+    "url": "https://rapid7.com"
+  },
+  {
+    "id": "Security-28",
+    "title": "SIEM",
+    "category": "Security",
+    "subcategory": "Cloud Security",
+    "url": "https://splunk.com"
+  },
+  {
+    "id": "Security-29",
+    "title": "Tenable",
+    "category": "Security",
+    "subcategory": "Cloud Security",
+    "url": "https://tenable.com"
+  },
+  {
+    "id": "Security-30",
+    "title": "Winmill",
+    "category": "Security",
+    "subcategory": "Cloud Security",
+    "url": "https://winmill.com"
+  },
+  {
+    "id": "Security-31",
+    "title": "Cheatsheet",
+    "category": "Security",
+    "subcategory": "Collection",
+    "url": "https://github.com/trimstray/the-book-of-secret-knowledge"
+  },
+  {
+    "id": "Security-32",
+    "title": "Community",
+    "category": "Security",
+    "subcategory": "Collection",
+    "url": "https://github.com/Hack-with-Github/Awesome-Hacking"
+  },
+  {
+    "id": "Security-33",
+    "title": "Comprehensive",
+    "category": "Security",
+    "subcategory": "Collection",
+    "url": "https://github.com/The-Art-of-Hacking/h4cker"
+  },
+  {
+    "id": "Security-34",
+    "title": "Linux",
+    "category": "Security",
+    "subcategory": "Collection",
+    "url": "https://github.com/reblox01/DarkFly-Tool"
+  },
+  {
+    "id": "Security-35",
+    "title": "Linux",
+    "category": "Security",
+    "subcategory": "Collection",
+    "url": "https://github.com/jackind424/onex"
+  },
+  {
+    "id": "Security-36",
+    "title": "Python",
+    "category": "Security",
+    "subcategory": "Collection",
+    "url": "https://github.com/slimsevernake/Hacking-Toolkit-"
+  },
+  {
+    "id": "Security-37",
+    "title": "Python",
+    "category": "Security",
+    "subcategory": "Collection",
+    "url": "https://github.com/Z4nzu/hackingtool"
+  },
+  {
+    "id": "Security-38",
+    "title": "Web App",
+    "category": "Security",
+    "subcategory": "Collection",
+    "url": "https://github.com/hahwul/WebHackersWeapons"
+  },
+  {
+    "id": "Security-39",
+    "title": "Analytical",
+    "category": "Security",
+    "subcategory": "Cryptography",
+    "url": "https://github.com/gchq/CyberChef"
+  },
+  {
+    "id": "Security-40",
+    "title": "Hash Cracker",
+    "category": "Security",
+    "subcategory": "Cryptography",
+    "url": "https://crackstation.net"
+  },
+  {
+    "id": "Security-41",
+    "title": "Secret Management",
+    "category": "Security",
+    "subcategory": "Cryptography",
+    "url": "https://github.com/hashicorp/vault"
+  },
+  {
+    "id": "Security-42",
+    "title": "SSL",
+    "category": "Security",
+    "subcategory": "Cryptography",
+    "url": "https://github.com/openssl/openssl"
+  },
+  {
+    "id": "Security-43",
+    "title": "SQL Injection",
+    "category": "Security",
+    "subcategory": "Database",
+    "url": "https://github.com/sqlmapproject/sqlmap"
+  },
+  {
+    "id": "Security-44",
+    "title": "SQL Injection",
+    "category": "Security",
+    "subcategory": "Database",
+    "url": "https://github.com/blackhatethicalhacking/SQLMutant"
+  },
+  {
+    "id": "Security-45",
+    "title": "Suite",
+    "category": "Security",
+    "subcategory": "DDOS",
+    "url": "https://github.com/lucthienphong1120/full-60-ddos-tools"
+  },
+  {
+    "id": "Security-46",
+    "title": "Hardware",
+    "category": "Security",
+    "subcategory": "DFIR",
+    "url": "https://autopsy.com"
+  },
+  {
+    "id": "Security-47",
+    "title": "Hardware",
+    "category": "Security",
+    "subcategory": "DFIR",
+    "url": "https://github.com/sleuthkit/sleuthkit"
+  },
+  {
+    "id": "Security-48",
+    "title": "Media",
+    "category": "Security",
+    "subcategory": "DFIR",
+    "url": "https://guymager.sourceforge.io"
+  },
+  {
+    "id": "Security-49",
+    "title": "Network",
+    "category": "Security",
+    "subcategory": "DFIR",
+    "url": "https://corelight.com"
+  },
+  {
+    "id": "Security-50",
+    "title": "Recovery",
+    "category": "Security",
+    "subcategory": "DFIR",
+    "url": "https://kali.org/tools/foremost"
+  },
+  {
+    "id": "Security-51",
+    "title": "WAF",
+    "category": "Security",
+    "subcategory": "Firewall",
+    "url": "https://gladioswaf.ai"
+  },
+  {
+    "id": "Security-52",
+    "title": "Bitburner",
+    "category": "Security",
+    "subcategory": "Games",
+    "url": "https://store.steampowered.com/app/1812820/Bitburner"
+  },
+  {
+    "id": "Security-53",
+    "title": "Exapunk",
+    "category": "Security",
+    "subcategory": "Games",
+    "url": "https://store.steampowered.com/app/716490/EXAPUNKS"
+  },
+  {
+    "id": "Security-54",
+    "title": "Hacker Evolution",
+    "category": "Security",
+    "subcategory": "Games",
+    "url": "https://store.steampowered.com/app/70100/Hacker_Evolution"
+  },
+  {
+    "id": "Security-55",
+    "title": "Hacknet",
+    "category": "Security",
+    "subcategory": "Games",
+    "url": "https://hacknet-os.com"
+  },
+  {
+    "id": "Security-56",
+    "title": "Hack The Game",
+    "category": "Security",
+    "subcategory": "Games",
+    "url": "https://hackthegame.com"
+  },
+  {
+    "id": "Security-57",
+    "title": "Nite Team 4",
+    "category": "Security",
+    "subcategory": "Games",
+    "url": "https://niteteam4.com"
+  },
+  {
+    "id": "Security-58",
+    "title": "Uplink",
+    "category": "Security",
+    "subcategory": "Games",
+    "url": "https://store.steampowered.com/app/1510/Uplink"
+  },
+  {
+    "id": "Security-59",
+    "title": "Galileo",
+    "category": "Security",
+    "subcategory": "Guardrail",
+    "url": "https://galileo.ai"
+  },
+  {
+    "id": "Security-60",
+    "title": "Guardrails AI",
+    "category": "Security",
+    "subcategory": "Guardrail",
+    "url": "https://guardrailsai.com"
+  },
+  {
+    "id": "Security-61",
+    "title": "Lakera",
+    "category": "Security",
+    "subcategory": "Guardrail",
+    "url": "https://lakera.ai"
+  },
+  {
+    "id": "Security-62",
+    "title": "LLM-Guard",
+    "category": "Security",
+    "subcategory": "Guardrail",
+    "url": "https://github.com/protectai/llm-guard"
+  },
+  {
+    "id": "Security-63",
+    "title": "NeMo Guardrails",
+    "category": "Security",
+    "subcategory": "Guardrail",
+    "url": "https://docs.nvidia.com/nemo/guardrails"
+  },
+  {
+    "id": "Security-64",
+    "title": "Stacklok",
+    "category": "Security",
+    "subcategory": "Guardrail",
+    "url": "https://stacklok.com"
+  },
+  {
+    "id": "Security-65",
+    "title": "Dashboard",
+    "category": "Security",
+    "subcategory": "Honeypot",
+    "url": "https://sicherheitstacho.eu"
+  },
+  {
+    "id": "Security-66",
+    "title": "Clerk",
+    "category": "Security",
+    "subcategory": "IAM",
+    "url": "https://clerk.com"
+  },
+  {
+    "id": "Security-67",
+    "title": "Magic Link",
+    "category": "Security",
+    "subcategory": "IAM",
+    "url": "https://magic.link"
+  },
+  {
+    "id": "Security-68",
+    "title": "Name",
+    "category": "Security",
+    "subcategory": "Lookup",
+    "url": "https://lookups.io"
+  },
+  {
+    "id": "Security-69",
+    "title": "Email",
+    "category": "Security",
+    "subcategory": "Lookup",
+    "url": "https://haveibeenpwned.com"
+  },
+  {
+    "id": "Security-70",
+    "title": "Email",
+    "category": "Security",
+    "subcategory": "Lookup",
+    "url": "https://intelbase.is"
+  },
+  {
+    "id": "Security-71",
+    "title": "Email",
+    "category": "Security",
+    "subcategory": "Lookup",
+    "url": "https://hackcheck.io"
+  },
+  {
+    "id": "Security-72",
+    "title": "Email",
+    "category": "Security",
+    "subcategory": "Lookup",
+    "url": "https://kali.org/tools/theharvester"
+  },
+  {
+    "id": "Security-73",
+    "title": "Host",
+    "category": "Security",
+    "subcategory": "Lookup",
+    "url": "https://github.com/jasonxtn/argus"
+  },
+  {
+    "id": "Security-74",
+    "title": "Host",
+    "category": "Security",
+    "subcategory": "Lookup",
+    "url": "https://search.censys.io"
+  },
+  {
+    "id": "Security-75",
+    "title": "Host",
+    "category": "Security",
+    "subcategory": "Lookup",
+    "url": "https://kali.org/tools/gobuster"
+  },
+  {
+    "id": "Security-76",
+    "title": "Username",
+    "category": "Security",
+    "subcategory": "Lookup",
+    "url": "https://breachdirectory.org"
+  },
+  {
+    "id": "Security-77",
+    "title": "Username",
+    "category": "Security",
+    "subcategory": "Lookup",
+    "url": "https://github.com/HunxByts/GhostTrack"
+  },
+  {
+    "id": "Security-78",
+    "title": "Username",
+    "category": "Security",
+    "subcategory": "Lookup",
+    "url": "https://github.com/sherlock-project/sherlock"
+  },
+  {
+    "id": "Security-79",
+    "title": "Username",
+    "category": "Security",
+    "subcategory": "Lookup",
+    "url": "https://socialeye.net"
+  },
+  {
+    "id": "Security-80",
+    "title": "Username",
+    "category": "Security",
+    "subcategory": "Lookup",
+    "url": "https://whatsmyname.app"
+  },
+  {
+    "id": "Security-81",
+    "title": "Website",
+    "category": "Security",
+    "subcategory": "Lookup",
+    "url": "https://github.com/Lissy93/web-check"
+  },
+  {
+    "id": "Security-82",
+    "title": "Website",
+    "category": "Security",
+    "subcategory": "Lookup",
+    "url": "https://web-check.xyz"
+  },
+  {
+    "id": "Security-83",
+    "title": "Bypass",
+    "category": "Security",
+    "subcategory": "Network",
+    "url": "https://github.com/2dust/v2rayNG"
+  },
+  {
+    "id": "Security-84",
+    "title": "Bypass",
+    "category": "Security",
+    "subcategory": "Network",
+    "url": "https://github.com/XTLS/Xray-core"
+  },
+  {
+    "id": "Security-85",
+    "title": "DNS Blocker",
+    "category": "Security",
+    "subcategory": "Network",
+    "url": "https://github.com/AdguardTeam/AdGuardHome"
+  },
+  {
+    "id": "Security-86",
+    "title": "DNS Blocker",
+    "category": "Security",
+    "subcategory": "Network",
+    "url": "https://github.com/StevenBlack/hosts"
+  },
+  {
+    "id": "Security-87",
+    "title": "Privacy Test",
+    "category": "Security",
+    "subcategory": "Network",
+    "url": "https://dnsleaktest.com"
+  },
+  {
+    "id": "Security-88",
+    "title": "Simulation",
+    "category": "Security",
+    "subcategory": "Network",
+    "url": "https://github.com/mandiant/flare-fakenet-ng"
+  },
+  {
+    "id": "Security-89",
+    "title": "Sniffer",
+    "category": "Security",
+    "subcategory": "Network",
+    "url": "https://github.com/mitmproxy/mitmproxy"
+  },
+  {
+    "id": "Security-90",
+    "title": "Sniffer",
+    "category": "Security",
+    "subcategory": "Network",
+    "url": "https://github.com/Chukak/netsniffer"
+  },
+  {
+    "id": "Security-91",
+    "title": "Sniffer",
+    "category": "Security",
+    "subcategory": "Network",
+    "url": "https://nmap.org"
+  },
+  {
+    "id": "Security-92",
+    "title": "Sniffer",
+    "category": "Security",
+    "subcategory": "Network",
+    "url": "https://sniffnet.app"
+  },
+  {
+    "id": "Security-93",
+    "title": "Sniffer",
+    "category": "Security",
+    "subcategory": "Network",
+    "url": "https://tcpdump.org"
+  },
+  {
+    "id": "Security-94",
+    "title": "Wifi Audit",
+    "category": "Security",
+    "subcategory": "Network",
+    "url": "https://sourceforge.net/projects/airsnort"
+  },
+  {
+    "id": "Security-95",
+    "title": "Exploits",
+    "category": "Security",
+    "subcategory": "OSINT",
+    "url": "https://exploit-db.com"
+  },
+  {
+    "id": "Security-96",
+    "title": "Instagram",
+    "category": "Security",
+    "subcategory": "OSINT",
+    "url": "https://osintgram.com"
+  },
+  {
+    "id": "Security-97",
+    "title": "CCTV",
+    "category": "Security",
+    "subcategory": "OSINT",
+    "url": "https://github.com/bilawalsidhu/gods-eye-view"
+  },
+  {
+    "id": "Security-98",
+    "title": "CCTV",
+    "category": "Security",
+    "subcategory": "OSINT",
+    "url": "https://osirisai.live"
+  },
+  {
+    "id": "Security-99",
+    "title": "Cybercrime",
+    "category": "Security",
+    "subcategory": "OSINT",
+    "url": "https://maltego.com"
+  },
+  {
+    "id": "Security-100",
+    "title": "Events",
+    "category": "Security",
+    "subcategory": "OSINT",
+    "url": "https://overwatch.earth"
+  },
+  {
+    "id": "Security-101",
+    "title": "Events",
+    "category": "Security",
+    "subcategory": "OSINT",
+    "url": "https://worldmonitor.app"
+  },
+  {
+    "id": "Security-102",
+    "title": "Framework",
+    "category": "Security",
+    "subcategory": "OSINT",
+    "url": "https://osintframework.com"
+  },
+  {
+    "id": "Security-103",
+    "title": "Search",
+    "category": "Security",
+    "subcategory": "OSINT",
+    "url": "https://shodan.io"
+  },
+  {
+    "id": "Security-104",
+    "title": "Toolkit",
+    "category": "Security",
+    "subcategory": "OSINT",
+    "url": "https://github.com/Gameye98/OSINT-Tools"
+  },
+  {
+    "id": "Security-105",
+    "title": "Mapping",
+    "category": "Security",
+    "subcategory": "OWASP",
+    "url": "https://github.com/owasp-amass/amass"
+  },
+  {
+    "id": "Security-106",
+    "title": "Testing",
+    "category": "Security",
+    "subcategory": "OWASP",
+    "url": "https://zaproxy.org"
+  },
+  {
+    "id": "Security-107",
+    "title": "Agent",
+    "category": "Security",
+    "subcategory": "Pentest",
+    "url": "https://hackerai.co"
+  },
+  {
+    "id": "Security-108",
+    "title": "Backdoor",
+    "category": "Security",
+    "subcategory": "Pentest",
+    "url": "https://github.com/screetsec/TheFatRat"
+  },
+  {
+    "id": "Security-109",
+    "title": "Bounty",
+    "category": "Security",
+    "subcategory": "Pentest",
+    "url": "https://github.com/GH05TCREW/pentestagent"
+  },
+  {
+    "id": "Security-110",
+    "title": "Bounty",
+    "category": "Security",
+    "subcategory": "Pentest",
+    "url": "https://yeswehack.com"
+  },
+  {
+    "id": "Security-111",
+    "title": "Certification",
+    "category": "Security",
+    "subcategory": "Pentest",
+    "url": "https://offsec.com"
+  },
+  {
+    "id": "Security-112",
+    "title": "Client-side",
+    "category": "Security",
+    "subcategory": "Pentest",
+    "url": "https://beefproject.com"
+  },
+  {
+    "id": "Security-113",
+    "title": "Client-side",
+    "category": "Security",
+    "subcategory": "Pentest",
+    "url": "https://github.com/ultrasecurity/Storm-Breaker"
+  },
+  {
+    "id": "Security-114",
+    "title": "Cloud-based",
+    "category": "Security",
+    "subcategory": "Pentest",
+    "url": "https://pentest-tools.com"
+  },
+  {
+    "id": "Security-115",
+    "title": "Debian",
+    "category": "Security",
+    "subcategory": "Pentest",
+    "url": "https://kali.org"
+  },
+  {
+    "id": "Security-116",
+    "title": "Framework",
+    "category": "Security",
+    "subcategory": "Pentest",
+    "url": "https://github.com/Manisso/fsociety"
+  },
+  {
+    "id": "Security-117",
+    "title": "Framework",
+    "category": "Security",
+    "subcategory": "Pentest",
+    "url": "https://metasploit.com"
+  },
+  {
+    "id": "Security-118",
+    "title": "IoT",
+    "category": "Security",
+    "subcategory": "Pentest",
+    "url": "https://github.com/threat9/routersploit"
+  },
+  {
+    "id": "Security-119",
+    "title": "Physical",
+    "category": "Security",
+    "subcategory": "Pentest",
+    "url": "https://redteamtools.com"
+  },
+  {
+    "id": "Security-120",
+    "title": "Threat-aware",
+    "category": "Security",
+    "subcategory": "Pentest",
+    "url": "https://coresecurity.com"
+  },
+  {
+    "id": "Security-121",
+    "title": "Toolkit",
+    "category": "Security",
+    "subcategory": "Pentest",
+    "url": "https://github.com/enaqx/awesome-pentest"
+  },
+  {
+    "id": "Security-122",
+    "title": "Toolkit",
+    "category": "Security",
+    "subcategory": "Pentest",
+    "url": "https://github.com/usestrix/strix"
+  },
+  {
+    "id": "Security-123",
+    "title": "Toolkit",
+    "category": "Security",
+    "subcategory": "Pentest",
+    "url": "https://portswigger.net"
+  },
+  {
+    "id": "Security-124",
+    "title": "Smartphone",
+    "category": "Security",
+    "subcategory": "Phishing",
+    "url": "https://github.com/techchipnet/CamPhish"
+  },
+  {
+    "id": "Security-125",
+    "title": "Smartphone",
+    "category": "Security",
+    "subcategory": "Phishing",
+    "url": "https://github.com/thewhiteh4t/seeker"
+  },
+  {
+    "id": "Security-126",
+    "title": "Social Enginnering",
+    "category": "Security",
+    "subcategory": "Phishing",
+    "url": "https://github.com/hicodersofficial/blackeye"
+  },
+  {
+    "id": "Security-127",
+    "title": "Social Enginnering",
+    "category": "Security",
+    "subcategory": "Phishing",
+    "url": "https://github.com/yangr0/BlackPhish"
+  },
+  {
+    "id": "Security-128",
+    "title": "Social Enginnering",
+    "category": "Security",
+    "subcategory": "Phishing",
+    "url": "https://github.com/Morsmalleo/HiddenEye_Legacy"
+  },
+  {
+    "id": "Security-129",
+    "title": "Social Enginnering",
+    "category": "Security",
+    "subcategory": "Phishing",
+    "url": "https://github.com/jaykali/maskphish"
+  },
+  {
+    "id": "Security-130",
+    "title": "Steganography",
+    "category": "Security",
+    "subcategory": "Phishing",
+    "url": "https://steghide.com"
+  },
+  {
+    "id": "Security-131",
+    "title": "Tester",
+    "category": "Security",
+    "subcategory": "Phishing",
+    "url": "https://getgophish.com"
+  },
+  {
+    "id": "Security-132",
+    "title": "Tester",
+    "category": "Security",
+    "subcategory": "Phishing",
+    "url": "https://github.com/trustedsec/social-engineer-toolkit"
+  },
+  {
+    "id": "Security-133",
+    "title": "Tester",
+    "category": "Security",
+    "subcategory": "Phishing",
+    "url": "https://github.com/UndeadSec/SocialFish"
+  },
+  {
+    "id": "Security-134",
+    "title": "Tester",
+    "category": "Security",
+    "subcategory": "Phishing",
+    "url": "https://github.com/htr-tech/zphisher"
+  },
+  {
+    "id": "Security-135",
+    "title": "Sitemap",
+    "category": "Security",
+    "subcategory": "Recon",
+    "url": "https://kali.org/tools/skipfish"
+  },
+  {
+    "id": "Security-136",
+    "title": "Web-based",
+    "category": "Security",
+    "subcategory": "Recon",
+    "url": "https://github.com/lanmaster53/recon-ng"
+  },
+  {
+    "id": "Security-137",
+    "title": "Web-based",
+    "category": "Security",
+    "subcategory": "Recon",
+    "url": "https://github.com/x3rz/ReconEverything"
+  },
+  {
+    "id": "Security-138",
+    "title": "Hex Editor",
+    "category": "Security",
+    "subcategory": "Reverse Engineer",
+    "url": "https://github.com/WerWolv/ImHex"
+  },
+  {
+    "id": "Security-139",
+    "title": "NSA",
+    "category": "Security",
+    "subcategory": "Reverse Engineer",
+    "url": "https://github.com/NationalSecurityAgency/ghidra"
+  },
+  {
+    "id": "Security-140",
+    "title": "Win Debugger",
+    "category": "Security",
+    "subcategory": "Reverse Engineer",
+    "url": "https://github.com/x64dbg/x64dbg"
+  },
+  {
+    "id": "Security-141",
+    "title": "Bounty",
+    "category": "Security",
+    "subcategory": "SAST",
+    "url": "https://github.com/shuvonsec/claude-bug-bounty"
+  },
+  {
+    "id": "Security-142",
+    "title": "Go",
+    "category": "Security",
+    "subcategory": "SAST",
+    "url": "https://github.com/securego/gosec"
+  },
+  {
+    "id": "Security-143",
+    "title": "Mobile app",
+    "category": "Security",
+    "subcategory": "SAST",
+    "url": "https://github.com/mobsf/mobile-security-framework-mobsf"
+  },
+  {
+    "id": "Security-144",
+    "title": "Node.js",
+    "category": "Security",
+    "subcategory": "SAST",
+    "url": "https://github.com/ajinabraham/njsscan"
+  },
+  {
+    "id": "Security-145",
+    "title": "Python",
+    "category": "Security",
+    "subcategory": "SAST",
+    "url": "https://github.com/PyCQA/bandit"
+  },
+  {
+    "id": "Security-146",
+    "title": "Ruby",
+    "category": "Security",
+    "subcategory": "SAST",
+    "url": "https://brakemanscanner.org"
+  },
+  {
+    "id": "Security-147",
+    "title": "Scan miscon",
+    "category": "Security",
+    "subcategory": "SAST",
+    "url": "https://trivy.dev"
+  },
+  {
+    "id": "Security-148",
+    "title": "Scan Secrets",
+    "category": "Security",
+    "subcategory": "SAST",
+    "url": "https://codeql.github.com"
+  },
+  {
+    "id": "Security-149",
+    "title": "Scan Secrets",
+    "category": "Security",
+    "subcategory": "SAST",
+    "url": "https://gitguardian.com"
+  },
+  {
+    "id": "Security-150",
+    "title": "Scan Security",
+    "category": "Security",
+    "subcategory": "SAST",
+    "url": "https://aikido.dev"
+  },
+  {
+    "id": "Security-151",
+    "title": "Scan Security",
+    "category": "Security",
+    "subcategory": "SAST",
+    "url": "https://semgrep.dev"
+  },
+  {
+    "id": "Security-152",
+    "title": "Scan Security",
+    "category": "Security",
+    "subcategory": "SAST",
+    "url": "https://snyk.io"
+  },
+  {
+    "id": "Security-153",
+    "title": "Scan Security",
+    "category": "Security",
+    "subcategory": "SAST",
+    "url": "https://sonarsource.com/products/sonarqube"
+  },
+  {
+    "id": "Security-154",
+    "title": "Scan Security (AI)",
+    "category": "Security",
+    "subcategory": "SAST",
+    "url": "https://promptfoo.dev"
+  },
+  {
+    "id": "Security-155",
+    "title": "Domain",
+    "category": "Security",
+    "subcategory": "Spoofing",
+    "url": "https://github.com/aptzer0x/evilurl"
+  },
+  {
+    "id": "Security-156",
+    "title": "AI Infra",
+    "category": "Security",
+    "subcategory": "Protection",
+    "url": "https://github.com/tencent/AI-Infra-Guard"
+  },
+  {
+    "id": "Security-157",
+    "title": "Endpoint",
+    "category": "Security",
+    "subcategory": "Protection",
+    "url": "https://crowdstrike.com"
+  },
+  {
+    "id": "Security-158",
+    "title": "Algo",
+    "category": "Security",
+    "subcategory": "VPN",
+    "url": "https://github.com/trailofbits/algo"
+  },
+  {
+    "id": "Security-159",
+    "title": "IPSec",
+    "category": "Security",
+    "subcategory": "VPN",
+    "url": "https://github.com/hwdsl2/setup-ipsec-vpn"
+  },
+  {
+    "id": "Security-160",
+    "title": "Wireguard",
+    "category": "Security",
+    "subcategory": "VPN",
+    "url": "https://wireguard.com"
+  },
+  {
+    "id": "Skill-1",
+    "title": "Presentation (PPT)",
+    "category": "Skill",
+    "subcategory": "Graphical",
+    "url": "https://github.com/ningzimu/codex-ppt-skill"
+  },
+  {
+    "id": "Skill-2",
+    "title": "Diagram & Workflow",
+    "category": "Skill",
+    "subcategory": "Graphical",
+    "url": "https://github.com/DayuanJiang/next-ai-draw-io"
+  },
+  {
+    "id": "Skill-3",
+    "title": "Self-evolving",
+    "category": "Skill",
+    "subcategory": "Improvement",
+    "url": "https://github.com/HKUDS/OpenSpace"
+  },
+  {
+    "id": "Skill-4",
+    "title": "Garry's Brain",
+    "category": "Skill",
+    "subcategory": "Improvement",
+    "url": "https://github.com/garrytan/gbrain"
+  },
+  {
+    "id": "Skill-5",
+    "title": "Agents 100+",
+    "category": "Skill",
+    "subcategory": "Suite",
+    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+  },
+  {
+    "id": "Skill-6",
+    "title": "Agents 232",
+    "category": "Skill",
+    "subcategory": "Suite",
+    "url": "https://github.com/msitarzewski/agency-agents"
+  },
+  {
+    "id": "Skill-7",
+    "title": "OpenClaw 65k+",
+    "category": "Skill",
+    "subcategory": "Suite",
+    "url": "https://clawhub.ai"
+  },
+  {
+    "id": "Skill-8",
+    "title": "Claude 232+",
+    "category": "Skill",
+    "subcategory": "Suite",
+    "url": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "id": "Skill-9",
+    "title": "Money Making",
+    "category": "Skill",
+    "subcategory": "Suite",
+    "url": "https://github.com/BlockRunAI/awesome-OpenClaw-Money-Maker"
+  },
+  {
+    "id": "Skill-10",
+    "title": "npx 852k+ skills",
+    "category": "Skill",
+    "subcategory": "Suite",
+    "url": "https://skills.sh"
+  },
+  {
+    "id": "Skill-11",
+    "title": "Age of Agents",
+    "category": "Skill",
+    "subcategory": "Visualiser",
+    "url": "https://github.com/agentsmill/age-of-agents"
+  },
+  {
+    "id": "Skill-12",
+    "title": "AgentBlazo",
+    "category": "Skill",
+    "subcategory": "Visualiser",
+    "url": "https://github.com/agentblazo/blazo"
+  },
+  {
+    "id": "Skill-13",
+    "title": "Control Centre",
+    "category": "Skill",
+    "subcategory": "Visualiser",
+    "url": "https://github.com/TianyiDataScience/openclaw-control-center"
+  },
+  {
+    "id": "Skill-14",
+    "title": "OpenClaw Office",
+    "category": "Skill",
+    "subcategory": "Visualiser",
+    "url": "https://github.com/openclaw-office/openclaw-office"
+  },
+  {
+    "id": "Skill-15",
+    "title": "PetDex",
+    "category": "Skill",
+    "subcategory": "Visualiser",
+    "url": "https://github.com/crafter-station/petdex"
+  },
+  {
+    "id": "Skill-16",
+    "title": "Star Office UI",
+    "category": "Skill",
+    "subcategory": "Visualiser",
+    "url": "https://github.com/ringhyacinth/Star-Office-UI"
+  },
+  {
+    "id": "Suite-1",
+    "title": "Animation",
+    "category": "Suite",
+    "subcategory": "Tool",
+    "url": "https://reactbits.dev"
+  },
+  {
+    "id": "Suite-2",
+    "title": "Freemedia",
+    "category": "Suite",
+    "subcategory": "Tool",
+    "url": "https://fmhy.net"
+  },
+  {
+    "id": "Suite-3",
+    "title": "Futurepedia",
+    "category": "Suite",
+    "subcategory": "Tool",
+    "url": "https://futurepedia.io"
+  },
+  {
+    "id": "Suite-4",
+    "title": "Rewind",
+    "category": "Suite",
+    "subcategory": "Tool",
+    "url": "https://rewind.ai"
+  },
+  {
+    "id": "Suite-5",
+    "title": "Toolfolio",
+    "category": "Suite",
+    "subcategory": "Tool",
+    "url": "https://toolfolio.com"
+  },
+  {
+    "id": "Suite-6",
+    "title": "WhatTheAI",
+    "category": "Suite",
+    "subcategory": "Tool",
+    "url": "https://whattheai.tech"
+  }
+]

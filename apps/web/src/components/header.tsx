@@ -25,6 +25,9 @@ export function Header() {
           <Link prefetch={false} href="/calculators/">
             Calculators
           </Link>
+          <Link prefetch={false} href="/library/">
+            Library
+          </Link>
           <Link prefetch={false} href="/research/">
             Research
           </Link>
@@ -54,6 +57,9 @@ export function Header() {
             </Link>
             <Link prefetch={false} href="/calculators/">
               Calculators
+            </Link>
+            <Link prefetch={false} href="/library/">
+              Library
             </Link>
             <Link prefetch={false} href="/data/">
               Our data
