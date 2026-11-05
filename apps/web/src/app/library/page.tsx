@@ -36,6 +36,9 @@ export default async function LibraryPage({ searchParams }: { searchParams: Prom
       <Link href="/library/knowledge/communication-personal-development/" className={styles.hubFeature}>
         <div><span className={styles.eyebrow}>COMMUNICATION &amp; PERSONAL DEVELOPMENT</span><h2>Make understanding easier<span>.</span></h2><p>Explore listening, clear communication, persuasion and an annotated NLP reference with context and evidence notes.</p><strong>Explore the communication hub →</strong></div><div className={styles.hubFeatureMark} aria-hidden="true">↔</div>
       </Link>
+      <Link href="/library/knowledge/project-management/" className={styles.hubFeature}>
+        <div><span className={styles.eyebrow}>PROJECT MANAGEMENT</span><h2>Plan, deliver and improve<span>.</span></h2><p>Explore delivery approaches, Six Sigma, risk analysis, estimation and team responsibilities in one connected collection.</p><strong>Explore Project Management →</strong></div><div className={styles.hubFeatureMark} aria-hidden="true">◎</div>
+      </Link>
       <KnowledgeList articles={articles} />
       <LibraryDirectory tools={tools} initialCategory={params.tools} />
     </main>

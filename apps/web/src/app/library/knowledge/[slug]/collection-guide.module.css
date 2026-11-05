@@ -90,3 +90,6 @@
 
 .compactTable table { min-width: 0; table-layout: fixed; }
 .compactTable th, .compactTable td { min-width: 0; }
+
+.tableHint { display: none; }
+@media (max-width: 760px) { .tableHint { display: block; font-size: 12px; color: #535c70; margin-bottom: 8px; } }

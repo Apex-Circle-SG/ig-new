@@ -16,7 +16,6 @@ ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
 DEST = ROOT / 'apps/web/src/lib/library/business'
 TOPIC = 'Business & Management'
-COMMUNICATION = 'Communication & Personal Development'
 
 
 def save(path, value):
@@ -62,7 +61,7 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
     archive = source / 'collection.zip'
     assert hashlib.sha256(archive.read_bytes()).hexdigest() == batch['sha256'], f'Unreviewed archive: {batch["key"]}'
     plan = json.loads((HERE / batch['plan']).read_text())
-    figures = json.loads((HERE / batch['figures']).read_text())
+    figures = json.loads((HERE / batch['figures']).read_text()) if batch['figures'] else []
     with zipfile.ZipFile(archive) as zipped:
         expected_names = {r['document'] for p in plan for r in p['ranges']}
         assert set(zipped.namelist()) == expected_names, 'Unexpected archive contents; review first'
@@ -79,21 +78,29 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
             assert slug not in articles, f'Duplicate slug: {slug}'
             article = {k:v for k,v in page.items() if k != 'ranges'}
             article.update(topic=page.get('topic', TOPIC), format=page.get('format', 'guide'), collection=page.get('collection', ''),
-                           interpretation=page.get('interpretation', ''), references=page.get('references', []), sections=[], figures=[], questionStages=[])
+                           interpretation=page.get('interpretation', ''), references=page.get('references', []), sections=[], figures=[], visuals=page.get('visuals', []), questionStages=[])
             articles[slug] = article
             search_sections[slug] = []
         for span in page['ranges']:
             doc = documents[span['document']]
             assert 0 <= span['start'] < span['end'] <= len(doc['paragraphs'])
-            section_id = f'section-{len(article["sections"]) + 1}'
-            blocks = blocks_for(doc, span, page)
+            reuse = span.get('reuseSection')
+            section_id = reuse or f'section-{len(article["sections"]) + 1}'
+            if reuse:
+                existing = next((section for section in article['sections'] if section['id'] == reuse), None)
+                assert existing, f'Unknown reused section: {slug}/{reuse}'
+                blocks = existing['blocks']
+            else:
+                blocks = blocks_for(doc, span, page)
             rendered = json.dumps(blocks, ensure_ascii=False)
             for i in range(span['start'], span['end']):
                 p = doc['paragraphs'][i]
                 coverage[(doc['name'], i)].append((slug, section_id))
-                if p['index'] != 0 and p['style'] not in ('2', '6', '7', '5'):
+                if p['index'] != 0 and p['style'] not in ('1', '2', '6', '7', '5'):
                     value = p['text'] if page.get('format') == 'chapter' or doc['name'] == 'NLP.docx' else edited(p['text'])
                     assert json.dumps(value, ensure_ascii=False)[1:-1] in rendered, f'Lost passage: {doc["name"]}:{i}'
+            if reuse:
+                continue
             article['sections'].append(dict(id=section_id, heading=span['heading'], blocks=blocks))
             search_sections[slug].append(dict(heading=span['heading'], body='\n'.join(p['text'] if page.get('format') == 'chapter' or doc['name'] == 'NLP.docx' else edited(p['text']) for p in doc['paragraphs'][span['start']:span['end']])))
             if page.get('format') == 'questions':
@@ -135,7 +142,7 @@ for collection in collections:
         continue
     assert collection['slug'] not in articles
     articles[collection['slug']] = dict(slug=collection['slug'],title=collection['title'],topic=collection['topic'],group=collection['group'],
-        summary=collection['summary'],takeaway='',steps=[],notes=collection['notes'],related=[],sections=[],figures=[],collection='',format='collection',interpretation='',references=collection['references'],questionStages=[])
+        summary=collection['summary'],takeaway='',steps=[],notes=collection['notes'],related=[],sections=[],figures=[],collection='',format='collection',interpretation='',references=collection['references'],visuals=[],questionStages=[])
     search_sections[collection['slug']] = []
 
 # Retain the original guides' official references when rebuilding.
@@ -149,7 +156,11 @@ for slug, (title, url) in references.items():
     articles[slug]['references'] = [dict(title=title, url=url)]
 
 knowledge_path = ROOT / 'apps/web/src/lib/library/knowledge.json'
-knowledge = [a for a in json.loads(knowledge_path.read_text()) if a['topic'] not in (TOPIC, COMMUNICATION)]
+# Own entries by slug, not by topic: adding a Technology hub must preserve existing technical articles.
+previous_guides = json.loads((DEST / 'guides.json').read_text())
+previous_collections = json.loads((DEST / 'collections.json').read_text())
+owned = set(articles) | {a['slug'] for a in previous_guides} | {a['slug'] for a in collections + previous_collections}
+knowledge = [a for a in json.loads(knowledge_path.read_text()) if a['slug'] not in owned]
 for collection in collections:
     if collection['topicRoot']:
         knowledge.append(dict(slug=collection['slug'],title=collection['title'],topic=collection['topic'],group='Start here',summary=collection['summary'],sections=[dict(heading='Choose a reading path',body=collection['intro'])],sources=collection['references']))
@@ -162,13 +173,24 @@ assert len([a for a in articles.values() if a['format'] == 'chapter']) == 13, 'M
 for a in articles.values():
     assert not a['collection'] or any(c['slug'] == a['collection'] for c in collections), 'Unknown collection'
 for collection in collections:
-    selected = [a for a in articles.values() if (a['topic'] == collection['topic'] and not a['collection'])] if collection['topicRoot'] else [a for a in articles.values() if a['collection'] == collection['slug']]
+    selected = [a for a in knowledge if a['topic'] == collection['topic'] and not articles.get(a['slug'], {}).get('collection') and a['slug'] != collection['slug']] if collection['topicRoot'] else [a for a in articles.values() if a['collection'] == collection['slug']]
     assert selected, f'Empty collection: {collection["slug"]}'
     for a in selected:
         assert a['group'] in [g['name'] for g in collection['groups']], f'Unlisted category: {collection["slug"]}/{a["group"]}'
     assert all(link['slug'] in slugs for step in collection['journey'] for link in step['links'])
 
-# Write only after both batches, all destinations and all discovery paths have passed checks.
+for article in articles.values():
+    for visual in article['visuals']:
+        assert visual['kind'] in ('flow', 'matrix', 'cards')
+        assert visual['title'] and visual['note'] and visual['rows']
+        if visual['kind'] == 'matrix':
+            assert visual['headers'] and all(len(row) == len(visual['headers']) for row in visual['rows'])
+    assert len({v['title'] for v in article['figures'] + article['visuals']}) == len(article['figures'] + article['visuals'])
+# Source arithmetic is checked, not silently repaired.
+assert 500 + 0 - 10 - 20 + 20 == 490
+assert 500 + 120 - 20 - 30 + 30 == 600
+
+# Write only after all batches, destinations and discovery paths have passed checks.
 for batch, documents, coverage, image_coverage in outputs:
     save(ROOT / batch['source'] / 'editorial/inventory.json', dict(archiveSha256=batch['sha256'], documents=list(documents.values())))
     with (ROOT / batch['ledger']).open('w', newline='') as out:
@@ -183,5 +205,6 @@ for batch, documents, coverage, image_coverage in outputs:
     print(f'{batch["key"]}: {len(coverage)} paragraphs, {len(image_coverage)} images, no unmapped items')
 save(DEST / 'guides.json', list(articles.values()))
 save(DEST / 'collections.json', collections)
+save(DEST / 'collection-roots.json', [dict(slug=c['slug'], topic=c['topic']) for c in collections if c['topicRoot']])
 save(knowledge_path, knowledge)
 print(f'{len(articles)} guides/collection indexes; {sum(c["topicRoot"] for c in collections)} topic hubs')

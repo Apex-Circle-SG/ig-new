@@ -410,5 +410,266 @@
       }
     ],
     "topicRoot": false
+  },
+  {
+    "slug": "project-management",
+    "title": "Project Management: plan, deliver and improve",
+    "topic": "Project Management",
+    "group": "Start here",
+    "summary": "Explore planning, delivery, Six Sigma, risk, measurement and team responsibilities through connected guides.",
+    "intro": "Start with a project question or browse the six sections. Six Sigma & Process Improvement is a focused collection within this wider project-management hub.",
+    "groups": [
+      {
+        "name": "Planning & governance",
+        "description": "Clarify scope, objectives, ownership, selection and review."
+      },
+      {
+        "name": "Delivery approaches",
+        "description": "Compare software delivery methods, assumptions and feedback loops."
+      },
+      {
+        "name": "Six Sigma & process improvement",
+        "description": "Explore variation, DMAIC/DMADV, robust design and operational improvement."
+      },
+      {
+        "name": "Risk & assurance",
+        "description": "Examine analytical questions, evidence, failure modes and safety-study limitations."
+      },
+      {
+        "name": "Estimation & performance",
+        "description": "Read estimation, measurement, size-accounting and tracking references."
+      },
+      {
+        "name": "Teams, responsibilities & change",
+        "description": "Clarify responsibilities, organizational context and the human work of change."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Frame the work",
+        "links": [
+          {
+            "slug": "project-charter",
+            "label": "Define the charter"
+          },
+          {
+            "slug": "rasci-responsibilities",
+            "label": "Clarify responsibilities"
+          },
+          {
+            "slug": "hazard-methods-comparison",
+            "label": "Choose a risk-analysis question"
+          }
+        ]
+      },
+      {
+        "title": "Choose how to deliver",
+        "links": [
+          {
+            "slug": "delivery-approaches",
+            "label": "Compare delivery approaches"
+          },
+          {
+            "slug": "six-sigma-improvement",
+            "label": "Explore Six Sigma and improvement"
+          },
+          {
+            "slug": "software-process-discipline",
+            "label": "Plan and measure the work"
+          }
+        ]
+      },
+      {
+        "title": "Review and improve",
+        "links": [
+          {
+            "slug": "project-action-reporting",
+            "label": "Track actions and evidence"
+          },
+          {
+            "slug": "change-communication-planning",
+            "label": "Plan change communication"
+          },
+          {
+            "slug": "technology",
+            "label": "Explore technical models and systems"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "This collection currently emphasizes process improvement, safety/risk analysis and software delivery. The hierarchy can grow with additional project-management material.",
+      "Six Sigma is placed here as an improvement approach. Its use in ongoing operations is also connected through Business & Management.",
+      "Missing figures, incomplete templates and inconsistent source calculations are disclosed on the relevant pages; no missing project data are invented."
+    ],
+    "references": [],
+    "topicRoot": true
+  },
+  {
+    "slug": "six-sigma-improvement",
+    "title": "Six Sigma & Process Improvement",
+    "topic": "Project Management",
+    "group": "Six Sigma & process improvement",
+    "summary": "Explore variation, Lean, DMAIC/DMADV, robust design and process architecture within Project Management.",
+    "intro": "Use this focused collection for improvement work, then return to Project Management for governance, delivery, risk, people and performance.",
+    "groups": [
+      {
+        "name": "Six Sigma & process improvement",
+        "description": "Read the fundamentals and tools together with their source limitations."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Understand the problem",
+        "links": [
+          {
+            "slug": "six-sigma-foundations",
+            "label": "Understand variation and improvement"
+          },
+          {
+            "slug": "dmaic-dmadv",
+            "label": "Choose improvement or design"
+          }
+        ]
+      },
+      {
+        "title": "Examine the process",
+        "links": [
+          {
+            "slug": "process-architecture",
+            "label": "Map inputs, work and customers"
+          },
+          {
+            "slug": "taguchi-quality",
+            "label": "Examine loss and variation"
+          },
+          {
+            "slug": "taguchi-robust-design",
+            "label": "Explore robust design"
+          }
+        ]
+      },
+      {
+        "title": "Connect the organization",
+        "links": [
+          {
+            "slug": "quality-excellence-models",
+            "label": "Compare excellence-model outlines"
+          },
+          {
+            "slug": "lean-supply",
+            "label": "Read Lean supply principles"
+          },
+          {
+            "slug": "strategy-deployment",
+            "label": "Align objectives and action"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "The parent is Project Management. Process-improvement methods also apply to ongoing operations and are cross-linked from the business collection.",
+      "The supplied material mixes historical descriptions, named frameworks and incomplete technical examples. A method name or diagram does not constitute a completed improvement project."
+    ],
+    "references": [
+      {
+        "title": "ASQ: Six Sigma overview",
+        "url": "https://asq.org/quality-resources/six-sigma"
+      }
+    ],
+    "topicRoot": false
+  },
+  {
+    "slug": "technology",
+    "title": "Technology: software, models and systems",
+    "topic": "Technology",
+    "group": "Start here",
+    "summary": "Explore the existing technical guides alongside new references on modeling and software engineering.",
+    "intro": "Find a technical subject here, or follow the Project Management collection for delivery methods, estimation, governance and process improvement.",
+    "groups": [
+      {
+        "name": "Models & software engineering",
+        "description": "Distinguish computing approaches, probabilistic models and architecture methods."
+      },
+      {
+        "name": "Software architecture",
+        "description": "Understand interfaces, networking and traffic routing."
+      },
+      {
+        "name": "Cloud and operations",
+        "description": "Explore deployment and infrastructure concepts."
+      },
+      {
+        "name": "Databases and data",
+        "description": "Compare data storage, queries and retrieval."
+      },
+      {
+        "name": "Software development",
+        "description": "Connect development decisions and testing."
+      },
+      {
+        "name": "Systems and operations",
+        "description": "Read the existing operating-system and administration guides."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Understand the system",
+        "links": [
+          {
+            "slug": "api-fundamentals",
+            "label": "APIs and HTTP"
+          },
+          {
+            "slug": "software-testing",
+            "label": "Software development and testing"
+          },
+          {
+            "slug": "containers-and-cloud",
+            "label": "Containers and infrastructure"
+          }
+        ]
+      },
+      {
+        "title": "Understand the model",
+        "links": [
+          {
+            "slug": "markov-models",
+            "label": "Markov models and hidden states"
+          },
+          {
+            "slug": "empirical-modeling",
+            "label": "Empirical Modelling"
+          },
+          {
+            "slug": "model-driven-engineering",
+            "label": "Model-driven engineering"
+          }
+        ]
+      },
+      {
+        "title": "Connect delivery and operations",
+        "links": [
+          {
+            "slug": "project-management",
+            "label": "Explore Project Management"
+          },
+          {
+            "slug": "system-administration",
+            "label": "Read system administration"
+          },
+          {
+            "slug": "constructionist-design",
+            "label": "Read the interactive-AI design reference"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Technical models are classified by what they describe; they are not all treated as Six Sigma methods or project-management frameworks.",
+      "Existing technical articles retain their URLs and content. Historical tools and incomplete abstracts carry their own source notes."
+    ],
+    "references": [],
+    "topicRoot": true
   }
 ]

@@ -14,5 +14,13 @@
     "figures": "sales-figures.json",
     "ledger": "docs/sales-content-coverage.csv",
     "sha256": "107568fad6dffbdb8fca0442a3029200f709891e797daf3559563f2e6ae45770"
+  },
+  {
+    "key": "project-management",
+    "source": "content/sources/business/project-management",
+    "plan": "project-plan.json",
+    "figures": null,
+    "ledger": "docs/project-content-coverage.csv",
+    "sha256": "c754ccebccb8c7f854cb67911bb4af8b0e95181d46f4e187c20c642535ebf550"
   }
 ]

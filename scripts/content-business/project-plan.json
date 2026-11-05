@@ -1,0 +1,2108 @@
+[
+  {
+    "slug": "six-sigma-foundations",
+    "title": "Six Sigma: variation, defects and improvement",
+    "topic": "Project Management",
+    "group": "Six Sigma & process improvement",
+    "summary": "Understand the collection’s account of Six Sigma, Lean integration, leadership commitment and measurable improvement.",
+    "takeaway": "Choose a meaningful improvement goal and examine the process evidence behind it.",
+    "ranges": [
+      {
+        "document": "Six Sigma.docx",
+        "start": 0,
+        "end": 15,
+        "heading": "Origins, numerical claims and the purpose of improvement"
+      },
+      {
+        "document": "Six Sigma.docx",
+        "start": 213,
+        "end": 222,
+        "heading": "The doctrine and distinguishing features in the source"
+      }
+    ],
+    "steps": [
+      "Define value",
+      "Examine variation",
+      "Use evidence",
+      "Sustain improvement"
+    ],
+    "related": [
+      "dmaic-dmadv",
+      "taguchi-quality",
+      "process-architecture",
+      "six-sigma-improvement"
+    ],
+    "notes": [
+      "The source contains historical adoption, savings, trademark and standards claims without complete references; these are retained as source claims, not current organizational facts.",
+      "The conventional 3.4-defects-per-million figure uses a 1.5-standard-deviation long-term mean-shift convention and depends on how defect opportunities are defined. It is not a universal defect probability obtained merely by saying “six standard deviations”.",
+      "The “effectiveness = quality × acceptance” expression is a management heuristic, not a measured physical law."
+    ],
+    "collection": "six-sigma-improvement",
+    "visuals": [],
+    "references": [
+      {
+        "title": "ASQ: Six Sigma overview",
+        "url": "https://asq.org/quality-resources/six-sigma"
+      },
+      {
+        "title": "ASQ: the 1.5-sigma convention",
+        "url": "https://asqasktheexperts.org/2016/10/07/six-sigma-statistical-meaning/"
+      }
+    ]
+  },
+  {
+    "slug": "dmaic-dmadv",
+    "title": "DMAIC or DMADV: improve a process or design one",
+    "topic": "Project Management",
+    "group": "Six Sigma & process improvement",
+    "summary": "Compare the supplied improvement sequence with the design-and-verification sequence and their customer-quality focus.",
+    "takeaway": "Distinguish improving an existing process from developing a design that must meet customer needs.",
+    "ranges": [
+      {
+        "document": "Methodologies.docx",
+        "start": 0,
+        "end": 7,
+        "heading": "DMAIC: define, measure, analyze, improve and control"
+      },
+      {
+        "document": "Methodologies.docx",
+        "start": 7,
+        "end": 13,
+        "heading": "DMADV: define, measure, analyze, design and verify"
+      }
+    ],
+    "steps": [
+      "Define the problem",
+      "Choose the appropriate path",
+      "Use evidence",
+      "Verify and sustain"
+    ],
+    "related": [
+      "six-sigma-foundations",
+      "taguchi-robust-design",
+      "project-charter"
+    ],
+    "notes": [
+      "The source places DMADV and DFSS together. DMADV is presented here as a design pathway; the notes do not establish that it is the only Design for Six Sigma approach.",
+      "No process capability results or complete worked improvement project are supplied."
+    ],
+    "collection": "six-sigma-improvement",
+    "visuals": [
+      {
+        "title": "Two different improvement questions",
+        "kind": "matrix",
+        "headers": [
+          "Decision",
+          "Sequence in the source"
+        ],
+        "rows": [
+          [
+            "Improve a current process",
+            "Define → Measure → Analyze → Improve → Control"
+          ],
+          [
+            "Design or redesign",
+            "Define → Measure → Analyze → Design → Verify"
+          ]
+        ],
+        "note": "Editorial summary of the supplied steps. Choose based on the actual problem and design context, not the acronym alone."
+      }
+    ],
+    "references": [
+      {
+        "title": "ASQ: Six Sigma overview",
+        "url": "https://asq.org/quality-resources/six-sigma"
+      }
+    ]
+  },
+  {
+    "slug": "taguchi-quality",
+    "title": "Taguchi: quality, variation and loss",
+    "topic": "Project Management",
+    "group": "Six Sigma & process improvement",
+    "summary": "Read the source’s discussion of fitness for use, loss to society, targets and variation rather than conformance alone.",
+    "takeaway": "A process can meet a specification and still perform away from a useful target.",
+    "ranges": [
+      {
+        "document": "Measurement.docx",
+        "start": 0,
+        "end": 9,
+        "heading": "Quality definitions and the idea of loss to society"
+      },
+      {
+        "document": "Measurement.docx",
+        "start": 9,
+        "end": 15,
+        "heading": "Quadratic loss and missing equations in the source"
+      }
+    ],
+    "steps": [
+      "Define the function",
+      "Identify the target",
+      "Examine variation",
+      "Consider loss"
+    ],
+    "related": [
+      "taguchi-robust-design",
+      "six-sigma-foundations",
+      "ai-regression-diagnostics"
+    ],
+    "notes": [
+      "The referenced loss-function figure and several equations are absent from the archive. The text describes a quadratic relationship, but no missing source image or equation is represented as recovered.",
+      "Mean/variance notation is corrupted in the source. The prose distinguishes process variation and off-target bias, but this document is not a complete calculation specification.",
+      "Attributed quotations and historical claims lack full bibliographic details."
+    ],
+    "collection": "six-sigma-improvement",
+    "visuals": [
+      {
+        "title": "Two contributors to loss described in the notes",
+        "kind": "cards",
+        "headers": [
+          "Contributor",
+          "Question to ask"
+        ],
+        "rows": [
+          [
+            "Off-target performance",
+            "How far is the process average from the desired target?"
+          ],
+          [
+            "Variation",
+            "How much do outputs vary around that average?"
+          ]
+        ],
+        "note": "Editorial conceptual summary, not a reconstruction of the missing mathematical figure."
+      }
+    ],
+    "references": [
+      {
+        "title": "NIST: Taguchi designs, parameter design and tolerance design",
+        "url": "https://www.itl.nist.gov/div898/handbook/pri/section5/pri56.htm"
+      }
+    ]
+  },
+  {
+    "slug": "taguchi-robust-design",
+    "title": "Robust design: system, parameter and tolerance choices",
+    "topic": "Project Management",
+    "group": "Six Sigma & process improvement",
+    "summary": "Explore designed experiments, controllable and noise factors, signal-to-noise descriptions and the source’s application cases.",
+    "takeaway": "Design for the conditions a product must tolerate, while making the assumptions and evidence explicit.",
+    "ranges": [
+      {
+        "document": "Measurement.docx",
+        "start": 15,
+        "end": 23,
+        "heading": "Experiments and the three design phases"
+      },
+      {
+        "document": "Measurement.docx",
+        "start": 23,
+        "end": 29,
+        "heading": "Signal-to-noise discussion and missing formulas"
+      },
+      {
+        "document": "Measurement.docx",
+        "start": 29,
+        "end": 34,
+        "heading": "Applications and limitations reported in the source"
+      }
+    ],
+    "steps": [
+      "System design",
+      "Parameter design",
+      "Tolerance design",
+      "Review evidence"
+    ],
+    "related": [
+      "taguchi-quality",
+      "dmaic-dmadv",
+      "ai-experiments-metrics"
+    ],
+    "notes": [
+      "Signal-to-noise equations and the referenced figures are not supplied. The source’s wording also confuses variance/standard-deviation notation; no executable formula is inferred from it.",
+      "Welding, composite-fitting and non-quadratic-loss cases are source summaries without the underlying data. They cannot be independently recomputed from this archive.",
+      "Statements about controversy, national practice and statistical efficiency are historical source commentary, not a current comparison of countries or methods."
+    ],
+    "collection": "six-sigma-improvement",
+    "visuals": [],
+    "references": [
+      {
+        "title": "NIST: Taguchi designs, parameter design and tolerance design",
+        "url": "https://www.itl.nist.gov/div898/handbook/pri/section5/pri56.htm"
+      }
+    ]
+  },
+  {
+    "slug": "quality-excellence-models",
+    "title": "Quality excellence models: compare the supplied perspectives",
+    "topic": "Project Management",
+    "group": "Six Sigma & process improvement",
+    "summary": "Read the EFQM enablers/results outline, Baldrige categories and the brief Shingo culture expression as distinct frameworks.",
+    "takeaway": "Check a model’s edition and purpose before treating its categories as a current assessment instrument.",
+    "ranges": [
+      {
+        "document": "Six Sigma.docx",
+        "start": 61,
+        "end": 74,
+        "heading": "EFQM, Baldrige and Shingo in the notes"
+      }
+    ],
+    "steps": [
+      "Identify the framework",
+      "Check edition and scope",
+      "Compare dimensions",
+      "Find evidence"
+    ],
+    "related": [
+      "six-sigma-foundations",
+      "organizational-alignment",
+      "balanced-scorecard"
+    ],
+    "notes": [
+      "The EFQM enablers/results outline is an older presentation. The source provides no edition, assessment criteria or scoring rubric.",
+      "Baldrige and Shingo are named only at category/summary level. No certification score, complete model or causal equation is invented."
+    ],
+    "collection": "six-sigma-improvement",
+    "visuals": [],
+    "references": [
+      {
+        "title": "EFQM: current model overview for comparison",
+        "url": "https://efqm.org/the-efqm-model/"
+      }
+    ]
+  },
+  {
+    "slug": "process-architecture",
+    "title": "Process architecture: connect inputs, activities and customers",
+    "topic": "Project Management",
+    "group": "Six Sigma & process improvement",
+    "summary": "Explore PEMME and the process inventories attributed to APQC and Catalyst.",
+    "takeaway": "Use a process architecture to ask what work creates value, how activities connect and who receives the output.",
+    "ranges": [
+      {
+        "document": "Six Sigma.docx",
+        "start": 87,
+        "end": 102,
+        "heading": "PEMME and the process architecture labeled AQPC"
+      },
+      {
+        "document": "Six Sigma.docx",
+        "start": 102,
+        "end": 122,
+        "heading": "The Catalyst process inventory"
+      }
+    ],
+    "steps": [
+      "Identify inputs",
+      "Map activities",
+      "Identify outputs and customers",
+      "Review ownership"
+    ],
+    "related": [
+      "value-chain",
+      "six-sigma-foundations",
+      "strategy-deployment"
+    ],
+    "notes": [
+      "The source heading reads “AQPC”, apparently referring to APQC; its exact edition and publication are not supplied. The spelling is retained in the detailed notes.",
+      "The Catalyst inventory has no complete source citation. The lists are preserved as the collection’s process examples, not asserted as current official frameworks."
+    ],
+    "collection": "six-sigma-improvement",
+    "visuals": [],
+    "references": []
+  },
+  {
+    "slug": "lean-supply",
+    "title": "Lean supply: quality, lead time and continuous improvement",
+    "topic": "Project Management",
+    "group": "Six Sigma & process improvement",
+    "summary": "Connect the source’s procurement, manufacturing, warehousing and transportation stages with five Lean supply principles.",
+    "takeaway": "Improvement needs attention to the flow of work and the people who perform it.",
+    "ranges": [
+      {
+        "document": "Six Sigma.docx",
+        "start": 202,
+        "end": 213,
+        "heading": "Supply-chain stages and Lean supply principles"
+      }
+    ],
+    "steps": [
+      "Involve people",
+      "Build in quality",
+      "Reduce lead time",
+      "Standardize",
+      "Improve continuously"
+    ],
+    "related": [
+      "value-chain",
+      "supply-chain-response",
+      "kanban-workflow"
+    ],
+    "notes": [],
+    "collection": "six-sigma-improvement",
+    "visuals": [],
+    "references": []
+  },
+  {
+    "slug": "project-charter",
+    "title": "Project charters: define scope, purpose and ownership",
+    "topic": "Project Management",
+    "group": "Planning & governance",
+    "summary": "Use the supplied transformation-charter and project-tracking fields to clarify a project’s intended outcomes and boundaries.",
+    "takeaway": "A useful charter makes objectives, scope, responsibilities and milestones visible before work expands.",
+    "ranges": [
+      {
+        "document": "Six Sigma.docx",
+        "start": 34,
+        "end": 50,
+        "heading": "Transformation objectives and charter fields"
+      },
+      {
+        "document": "Six Sigma.docx",
+        "start": 74,
+        "end": 87,
+        "heading": "Project tracking report fields"
+      }
+    ],
+    "steps": [
+      "Clarify objectives",
+      "Define scope",
+      "Identify roles",
+      "Set milestones",
+      "Track status"
+    ],
+    "related": [
+      "strategy-deployment",
+      "rasci-responsibilities",
+      "project-action-reporting"
+    ],
+    "notes": [
+      "The source supplies field names, not a completed charter or a worked project. Blank fields are presented as a reference checklist.",
+      "“Recognising casual interrelationship” appears in the original objective-setting list; it may be a terminology error, and no causal analysis method is supplied."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": []
+  },
+  {
+    "slug": "strategy-deployment",
+    "title": "Strategy deployment: align objectives, improvements and resources",
+    "topic": "Project Management",
+    "group": "Planning & governance",
+    "summary": "Explore deployment architecture, catchball and the named X-matrix fields.",
+    "takeaway": "Connect strategic objectives to improvement work and ownership, then review whether the connection holds.",
+    "ranges": [
+      {
+        "document": "Six Sigma.docx",
+        "start": 122,
+        "end": 136,
+        "heading": "Deployment architecture, catchball and X-matrix fields"
+      }
+    ],
+    "steps": [
+      "Clarify objectives",
+      "Discuss alignment",
+      "Connect improvements",
+      "Assign resources",
+      "Review"
+    ],
+    "related": [
+      "project-charter",
+      "project-action-reporting",
+      "balanced-scorecard"
+    ],
+    "notes": [
+      "No completed X-matrix, correlation values or resource allocations are supplied. The visual below is a conceptual reading aid, not a recovered source matrix.",
+      "Compliance, debate, discussion and dialogue are the source’s catchball-style labels, not a validated maturity scale."
+    ],
+    "collection": "",
+    "visuals": [
+      {
+        "title": "From intent to action",
+        "kind": "flow",
+        "headers": [],
+        "rows": [
+          [
+            "Strategic essentials"
+          ],
+          [
+            "Critical objectives and focus areas"
+          ],
+          [
+            "Process improvements and measures"
+          ],
+          [
+            "Resources and ownership"
+          ],
+          [
+            "Review alignment and evidence"
+          ]
+        ],
+        "note": "Editorial sequence based on the supplied X-matrix field list. No original matrix or scores are available."
+      }
+    ],
+    "references": []
+  },
+  {
+    "slug": "project-action-reporting",
+    "title": "Action plans and reviews: make progress traceable",
+    "topic": "Project Management",
+    "group": "Planning & governance",
+    "summary": "Connect owners, teams, measures, action detail, timing, PDCA status and corrective action.",
+    "takeaway": "A status report should support a decision about the work, not simply record activity.",
+    "ranges": [
+      {
+        "document": "Six Sigma.docx",
+        "start": 136,
+        "end": 153,
+        "heading": "Action-plan fields and review/reporting artifacts"
+      }
+    ],
+    "steps": [
+      "Assign ownership",
+      "Describe the action",
+      "Choose measures",
+      "Set timing",
+      "Review and correct"
+    ],
+    "related": [
+      "project-charter",
+      "strategy-deployment",
+      "okr-goals"
+    ],
+    "notes": [
+      "The tracking chart, timing plan, X-matrix and PDCA status are named but no filled examples, numerical results or complete templates are included."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": []
+  },
+  {
+    "slug": "delivery-approaches",
+    "title": "Software delivery approaches: compare assumptions and feedback",
+    "topic": "Project Management",
+    "group": "Delivery approaches",
+    "summary": "Use a reading map to compare sequential, iterative, risk-driven and adaptive approaches in this collection.",
+    "takeaway": "Choose an approach by examining uncertainty, assurance needs, feedback and the work’s context.",
+    "ranges": [],
+    "steps": [
+      "Examine uncertainty",
+      "Identify assurance needs",
+      "Plan feedback",
+      "Adapt the approach"
+    ],
+    "related": [
+      "waterfall-v-model",
+      "spiral-iterative-delivery",
+      "agile-foundations",
+      "xp-values-practices",
+      "software-process-discipline"
+    ],
+    "notes": [
+      "The comparison is an editorial synthesis of the supplied descriptions. The source’s “best for” claims are contextual opinions rather than universal selection rules."
+    ],
+    "collection": "",
+    "visuals": [
+      {
+        "title": "What differs between the approaches?",
+        "kind": "matrix",
+        "headers": [
+          "Approach",
+          "Emphasis in the supplied descriptions"
+        ],
+        "rows": [
+          [
+            "Waterfall / V-model",
+            "Sequenced work and planned verification/validation relationships"
+          ],
+          [
+            "Spiral",
+            "Repeated risk assessment, alternatives and development"
+          ],
+          [
+            "Iterative development",
+            "Build, review and refine a version"
+          ],
+          [
+            "Agile / XP",
+            "Frequent feedback, adaptive planning and engineering practices"
+          ]
+        ],
+        "note": "Editorial comparison. Methods can be adapted and combined; this table is not an assurance or suitability assessment."
+      }
+    ],
+    "references": []
+  },
+  {
+    "slug": "waterfall-v-model",
+    "title": "Waterfall and the V-model: sequence and planned assurance",
+    "topic": "Project Management",
+    "group": "Delivery approaches",
+    "summary": "Read the supplied lifecycle stages, corresponding test-planning activities and the V-model’s reported trade-offs.",
+    "takeaway": "Make the relationship between development decisions and verification activities explicit.",
+    "ranges": [
+      {
+        "document": "Methodologies.docx",
+        "start": 31,
+        "end": 41,
+        "heading": "Waterfall stages and the source’s DMAIC connection"
+      },
+      {
+        "document": "Methodologies.docx",
+        "start": 41,
+        "end": 49,
+        "heading": "V-model development and verification relationships"
+      },
+      {
+        "document": "Methodologies.docx",
+        "start": 49,
+        "end": 62,
+        "heading": "Reported advantages, disadvantages and selection guidance"
+      }
+    ],
+    "steps": [
+      "Define requirements",
+      "Plan design and verification",
+      "Implement",
+      "Integrate and test",
+      "Maintain"
+    ],
+    "related": [
+      "delivery-approaches",
+      "software-fmea",
+      "software-process-discipline"
+    ],
+    "notes": [
+      "The source’s fixed-size recommendations, “no prototypes” statements and success comparisons are simplified descriptions, not universal rules for every V-model implementation.",
+      "The relationship graphic is an editorial summary; it does not claim to recover a missing source diagram."
+    ],
+    "collection": "",
+    "visuals": [
+      {
+        "title": "Development and related verification planning",
+        "kind": "matrix",
+        "headers": [
+          "Development focus",
+          "Related verification in the notes"
+        ],
+        "rows": [
+          [
+            "Requirements",
+            "System test planning"
+          ],
+          [
+            "High-level architecture",
+            "Integration test planning"
+          ],
+          [
+            "Detailed component design",
+            "Component test planning"
+          ],
+          [
+            "Implementation",
+            "Code and execution of the planned tests"
+          ]
+        ],
+        "note": "Editorial comparison preserving the relationships described by the source."
+      }
+    ],
+    "references": []
+  },
+  {
+    "slug": "spiral-iterative-delivery",
+    "title": "Spiral and iterative delivery: learn through repeated cycles",
+    "topic": "Project Management",
+    "group": "Delivery approaches",
+    "summary": "Compare the source’s risk-driven spiral description with iterative development, feedback and progressive refinement.",
+    "takeaway": "A repeated cycle should reduce uncertainty and improve the product, not merely repeat activity.",
+    "ranges": [
+      {
+        "document": "Methodologies.docx",
+        "start": 62,
+        "end": 73,
+        "heading": "Spiral development and six described activities"
+      },
+      {
+        "document": "Methodologies.docx",
+        "start": 117,
+        "end": 131,
+        "heading": "Iterative development and its stated trade-offs"
+      }
+    ],
+    "steps": [
+      "Set objectives",
+      "Assess risks and alternatives",
+      "Develop and test",
+      "Review",
+      "Plan the next cycle"
+    ],
+    "related": [
+      "delivery-approaches",
+      "risk-management",
+      "agile-foundations"
+    ],
+    "notes": [
+      "The iterative painting illustration is referred to but absent. The editorial flow below is not a reconstruction of that image.",
+      "The source says both that detailed requirements can emerge and that complete requirements are understood, and it describes rigid non-overlapping iterations. These are source tensions, not requirements imposed by this guide."
+    ],
+    "collection": "",
+    "visuals": [
+      {
+        "title": "A reviewable cycle",
+        "kind": "flow",
+        "headers": [],
+        "rows": [
+          [
+            "Define the next objective"
+          ],
+          [
+            "Examine alternatives and risks"
+          ],
+          [
+            "Develop and test a version"
+          ],
+          [
+            "Collect feedback"
+          ],
+          [
+            "Decide what to refine next"
+          ]
+        ],
+        "note": "Editorial summary of the source’s repeated-cycle descriptions."
+      }
+    ],
+    "references": []
+  },
+  {
+    "slug": "agile-foundations",
+    "title": "Agile delivery: feedback, uncertainty and people",
+    "topic": "Project Management",
+    "group": "Delivery approaches",
+    "summary": "Explore the source’s reasons for adaptive delivery, its discussion of methodology debates and the human conditions for teamwork.",
+    "takeaway": "Adaptation needs working progress and feedback, together with the skills and trust to use them.",
+    "ranges": [
+      {
+        "document": "Agile.docx",
+        "start": 0,
+        "end": 11,
+        "heading": "Uncertainty, adaptation and usable increments"
+      },
+      {
+        "document": "Agile.docx",
+        "start": 11,
+        "end": 18,
+        "heading": "Debates, people and fitting the process to the team"
+      },
+      {
+        "document": "Agile.docx",
+        "start": 18,
+        "end": 30,
+        "heading": "Competence, collaboration, autonomy and self-organization"
+      }
+    ],
+    "steps": [
+      "Deliver a usable increment",
+      "Seek feedback",
+      "Review assumptions",
+      "Adapt together"
+    ],
+    "related": [
+      "xp-values-practices",
+      "lean-agile-practices",
+      "delivery-approaches",
+      "high-performance-teams"
+    ],
+    "notes": [
+      "The chapter uses historical commentary and attributed quotations without complete editions or publication references. These are retained as supplied.",
+      "Agile is discussed broadly here; the source does not supply a complete Scrum Guide or a universal delivery recipe."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [
+      {
+        "title": "The 2020 Scrum Guide",
+        "url": "https://scrumguides.org/scrum-guide.html"
+      }
+    ]
+  },
+  {
+    "slug": "xp-values-practices",
+    "title": "Extreme Programming: values, feedback and engineering discipline",
+    "topic": "Project Management",
+    "group": "Delivery approaches",
+    "summary": "Read the source’s XP origins, five values, feedback principles, activities, practices and contextual trade-offs.",
+    "takeaway": "Adaptability is supported by disciplined feedback and a team that can change code responsibly.",
+    "ranges": [
+      {
+        "document": "Agile.docx",
+        "start": 30,
+        "end": 48,
+        "heading": "Origins, historical state and the cost of change"
+      },
+      {
+        "document": "Agile.docx",
+        "start": 48,
+        "end": 65,
+        "heading": "Five values and their implications"
+      },
+      {
+        "document": "Agile.docx",
+        "start": 65,
+        "end": 77,
+        "heading": "Principles and coding, testing, listening and design"
+      },
+      {
+        "document": "Agile.docx",
+        "start": 77,
+        "end": 104,
+        "heading": "Practices and the source’s selection claims"
+      }
+    ],
+    "steps": [
+      "Communicate",
+      "Keep designs understandable",
+      "Get rapid feedback",
+      "Work sustainably",
+      "Refactor responsibly"
+    ],
+    "related": [
+      "agile-foundations",
+      "lean-agile-practices",
+      "software-testing"
+    ],
+    "notes": [
+      "“Current state” in the source refers to late-1990s/early-2000s commentary, not an updated adoption survey.",
+      "Recommendations about small teams, safety-critical work and project size are source generalizations; no conclusion about a real project’s compliance or suitability follows from this list.",
+      "Statements that XP rejects reuse or that only code matters are source rhetoric, not requirements that replace professional design judgment."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": []
+  },
+  {
+    "slug": "lean-agile-practices",
+    "title": "Lean Agile practices: refinement, acceptance criteria and refactoring",
+    "topic": "Project Management",
+    "group": "Delivery approaches",
+    "summary": "Examine the source team’s refinement cadence, acceptance-criteria-driven work and continuous-refactoring examples.",
+    "takeaway": "Keep the work understandable and testable, while treating team-specific schedules as examples.",
+    "ranges": [
+      {
+        "document": "Agile.docx",
+        "start": 104,
+        "end": 124,
+        "heading": "A team’s release cadence and backlog-refinement example"
+      },
+      {
+        "document": "Agile.docx",
+        "start": 124,
+        "end": 131,
+        "heading": "Acceptance criteria, defect prevention and refactoring"
+      }
+    ],
+    "steps": [
+      "Refine upcoming work",
+      "Clarify acceptance criteria",
+      "Implement and review",
+      "Refactor where useful"
+    ],
+    "related": [
+      "agile-foundations",
+      "xp-values-practices",
+      "kanban-workflow"
+    ],
+    "notes": [
+      "Two-week sprints, four-sprint releases and two-/eight-hour refinement meetings describe one team. They are not mandatory Scrum events or timeboxes; the Scrum Guide describes refinement as ongoing activity.",
+      "The text’s assertion that all test scenarios are covered by acceptance criteria is not demonstrated. Acceptance criteria do not prove exhaustive testing.",
+      "Refactoring is not inherently technical debt. It can improve internal structure; the source’s equation of refactoring with waste/debt is retained as a claim to examine."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [
+      {
+        "title": "The 2020 Scrum Guide",
+        "url": "https://scrumguides.org/scrum-guide.html"
+      }
+    ]
+  },
+  {
+    "slug": "software-process-discipline",
+    "title": "PSP, CMM and TSP: personal discipline and team delivery",
+    "topic": "Project Management",
+    "group": "Estimation & performance",
+    "summary": "Explore the source’s personal software process, maturity progression, measurement and team-use descriptions.",
+    "takeaway": "Use trustworthy historical data to improve planning and quality, while recognizing the limits of the source’s reported results.",
+    "ranges": [
+      {
+        "document": "Methodologies.docx",
+        "start": 13,
+        "end": 21,
+        "heading": "Purpose of PSP and its relationship to CMM and TSP"
+      },
+      {
+        "document": "Methodologies.docx",
+        "start": 21,
+        "end": 27,
+        "heading": "PSP0 through PSP2.1 and the legacy PSP3 note"
+      },
+      {
+        "document": "Methodologies.docx",
+        "start": 27,
+        "end": 31,
+        "heading": "Team use and reported schedule results"
+      }
+    ],
+    "steps": [
+      "Record a baseline",
+      "Estimate and plan",
+      "Review quality",
+      "Learn from actuals"
+    ],
+    "related": [
+      "probe-estimation",
+      "psp-size-accounting",
+      "psp-tracking-templates",
+      "sales-forecasting"
+    ],
+    "notes": [
+      "The reported failure rate and six-percent schedule deviation refer to historical claims with incomplete citations in this archive. They are not current delivery benchmarks.",
+      "The source discusses CMM and PSP/TSP terminology historically; it does not provide a current maturity assessment or certification procedure."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": []
+  },
+  {
+    "slug": "probe-estimation",
+    "title": "PROBE estimation: sizes, regression and prediction ranges",
+    "topic": "Project Management",
+    "group": "Estimation & performance",
+    "summary": "Read the supplied size/time estimation fields and formulas with their missing definitions and notation problems identified.",
+    "takeaway": "A formula is usable only when its variables, units, fitted parameters and uncertainty assumptions are defined.",
+    "ranges": [
+      {
+        "document": "Measurement.docx",
+        "start": 34,
+        "end": 60,
+        "heading": "Added size, proxy size, regression and interval fields"
+      }
+    ],
+    "steps": [
+      "Define variables",
+      "Check historical data",
+      "Fit and review",
+      "State uncertainty"
+    ],
+    "related": [
+      "software-process-discipline",
+      "psp-size-accounting",
+      "ai-regression-diagnostics"
+    ],
+    "notes": [
+      "BA and PA are not defined in the supplied extract. The regression symbols rendered as ë_0 and ë_1 appear corrupted. No coefficient values, data or proxy-size mapping are invented.",
+      "The lower-interval line is labeled UPI although its expression subtracts Range. It appears to be a lower prediction limit; the source wording is retained and the discrepancy is disclosed.",
+      "No confidence level or method for computing Range is supplied, so no numerical interval or calculator is created."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": []
+  },
+  {
+    "slug": "psp-size-accounting",
+    "title": "Software size accounting: reconcile the plan and actuals",
+    "topic": "Project Management",
+    "group": "Estimation & performance",
+    "summary": "Inspect the supplied lines-of-code table and verify what can and cannot be reconciled from its printed values.",
+    "takeaway": "Reconcile the accounting identities before interpreting an estimate or a reported result.",
+    "ranges": [
+      {
+        "document": "Measurement.docx",
+        "start": 94,
+        "end": 131,
+        "heading": "The source program-size table"
+      }
+    ],
+    "steps": [
+      "Identify counting rules",
+      "Check added and modified size",
+      "Reconcile totals",
+      "Flag discrepancies"
+    ],
+    "related": [
+      "probe-estimation",
+      "software-process-discipline"
+    ],
+    "notes": [
+      "The planned base is printed “00”. With that value, the supplied total formula gives 490, while the table reports 590. A base of 100 would reconcile it, but that correction is not assumed.",
+      "Actual values reconcile to 600 under the printed formula. The table is a source example; code-size counts are not a stand-alone measure of software value.",
+      "The “Total New / Reused” label is split and ambiguous. Its meaning is not silently completed."
+    ],
+    "collection": "",
+    "visuals": [
+      {
+        "title": "Reconciliation using the printed values",
+        "kind": "matrix",
+        "headers": [
+          "Check",
+          "Arithmetic from the source",
+          "Result"
+        ],
+        "rows": [
+          [
+            "Planned total",
+            "500 + 0 − 10 − 20 + 20",
+            "490; source total is 590"
+          ],
+          [
+            "Actual total",
+            "500 + 120 − 20 − 30 + 30",
+            "600; matches the source"
+          ],
+          [
+            "Added code, planned / actual",
+            "500 − 10 / 500 − 20",
+            "490 / 480"
+          ]
+        ],
+        "note": "Editorial arithmetic check. The source’s “00” planned base is treated as zero, and the reported 590 is retained without inventing a replacement input."
+      }
+    ],
+    "references": []
+  },
+  {
+    "slug": "psp-tracking-templates",
+    "title": "PSP tracking sheets: phases, time and defects",
+    "topic": "Project Management",
+    "group": "Estimation & performance",
+    "summary": "Read the supplied phase and defect-tracking headings as an incomplete measurement template.",
+    "takeaway": "Blank rows and zero-percent placeholders are not evidence of a measured project outcome.",
+    "ranges": [
+      {
+        "document": "Measurement.docx",
+        "start": 131,
+        "end": 170,
+        "heading": "Phase, defect and percentage placeholders"
+      }
+    ],
+    "steps": [
+      "Define the measure",
+      "Record actual observations",
+      "Check completeness",
+      "Review the result"
+    ],
+    "related": [
+      "software-process-discipline",
+      "probe-estimation",
+      "project-action-reporting"
+    ],
+    "notes": [
+      "The source’s headings mention time in phase, defects injected and defects removed, but its extracted rows are mostly phase labels and 0% placeholders. It is not a complete dataset or a filled project report."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": []
+  },
+  {
+    "slug": "preliminary-hazard-analysis",
+    "title": "Preliminary hazard analysis: identify issues early",
+    "topic": "Project Management",
+    "group": "Risk & assurance",
+    "summary": "Study the supplied preliminary-analysis purpose, limitations, boundaries, marine examples and decision steps.",
+    "takeaway": "An early hazard review identifies questions and priorities; it does not replace the detailed analyses it recommends.",
+    "ranges": [
+      {
+        "document": "Risk Management.docx",
+        "start": 0,
+        "end": 16,
+        "heading": "Purpose, characteristics, uses and limitations"
+      },
+      {
+        "document": "Risk Management.docx",
+        "start": 16,
+        "end": 32,
+        "heading": "Procedure, intended functions and system boundaries"
+      },
+      {
+        "document": "Risk Management.docx",
+        "start": 32,
+        "end": 50,
+        "heading": "Accident categories and severity"
+      },
+      {
+        "document": "Risk Management.docx",
+        "start": 50,
+        "end": 67,
+        "heading": "Review factors, recommendations and follow-up"
+      }
+    ],
+    "steps": [
+      "Define scope",
+      "Identify hazards",
+      "Assess severity",
+      "Review safeguards",
+      "Plan follow-up"
+    ],
+    "related": [
+      "hazard-methods-comparison",
+      "hazop-study",
+      "risk-management"
+    ],
+    "notes": [
+      "PrHA here means preliminary hazard analysis. Process hazard analysis is a broader use of the abbreviation PHA; the two are not treated as interchangeable names.",
+      "One- or two-person reviews and the marine/LNG examples are source descriptions, not a staffing rule or a vessel-specific safety assessment.",
+      "Source suggestions about informal documentation do not establish what records a real project or regulator requires."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [
+      {
+        "title": "OSHA Technical Manual: process hazard analysis context",
+        "url": "https://www.osha.gov/otm/section-4-safety-hazards/chapter-5"
+      }
+    ]
+  },
+  {
+    "slug": "hazop-study",
+    "title": "HAZOP: examine deviations from intended operation",
+    "topic": "Project Management",
+    "group": "Risk & assurance",
+    "summary": "Explore the source’s team, process, deviation and action descriptions, with the copied vendor claim separated.",
+    "takeaway": "A useful study connects deviations, causes, consequences, safeguards and follow-up actions.",
+    "ranges": [
+      {
+        "document": "Risk Management.docx",
+        "start": 67,
+        "end": 80,
+        "heading": "Context, method and experienced-team requirements"
+      },
+      {
+        "document": "Risk Management.docx",
+        "start": 80,
+        "end": 90,
+        "heading": "Examining deviations and recommending action"
+      },
+      {
+        "document": "Risk Management.docx",
+        "start": 90,
+        "end": 92,
+        "heading": "Identifying process components"
+      },
+      {
+        "document": "Risk Management.docx",
+        "start": 92,
+        "end": 93,
+        "heading": "Vendor promotional passage in the source"
+      }
+    ],
+    "steps": [
+      "Define the intended operation",
+      "Examine deviations",
+      "Identify causes and consequences",
+      "Review safeguards",
+      "Track actions"
+    ],
+    "related": [
+      "hazard-methods-comparison",
+      "preliminary-hazard-analysis",
+      "software-fmea"
+    ],
+    "notes": [
+      "The source supplies no complete P&ID, guideword worksheet or worked HAZOP. No safety conclusions about an actual process can be inferred.",
+      "“Most commonly used” and the vendor’s growth/warranty claims are unverified source assertions. The printer passage is retained as attributed source context, not presented as a recommendation.",
+      "Applicability and team requirements for a regulated process must be established for the actual context; this is an educational collection."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [
+      {
+        "title": "OSHA Technical Manual: process hazard analysis context",
+        "url": "https://www.osha.gov/otm/section-4-safety-hazards/chapter-5"
+      }
+    ]
+  },
+  {
+    "slug": "software-fmea",
+    "title": "Software FMEA and FMECA: distinguish the requested analysis",
+    "topic": "Project Management",
+    "group": "Risk & assurance",
+    "summary": "Read the source’s failure-mode discussion, criticality distinction and historical standards references in context.",
+    "takeaway": "Define the analysis scope and deliverable before assuming that a named technique satisfies a requirement.",
+    "ranges": [
+      {
+        "document": "Risk Management.docx",
+        "start": 93,
+        "end": 99,
+        "heading": "Software failure-mode analysis and the source’s cautions"
+      },
+      {
+        "document": "Risk Management.docx",
+        "start": 99,
+        "end": 104,
+        "heading": "Training promotion and historical compliance examples"
+      }
+    ],
+    "steps": [
+      "Define scope",
+      "Identify failure modes",
+      "Examine effects",
+      "Clarify criticality requirements",
+      "Review evidence"
+    ],
+    "related": [
+      "fault-tree-analysis",
+      "risk-rating-scales",
+      "software-testing"
+    ],
+    "notes": [
+      "The HCRQ training statement is preserved as a vendor claim. It is not an endorsement or evidence that the technique guarantees useful results.",
+      "49 CFR 238.105 and MIL-STD-1629A are cited in the source without a verified current edition or applicability determination. The quotation is preserved as historical source material, not current compliance guidance.",
+      "The source contains “SFM CA”, apparently a damaged label. No missing technical requirement is reconstructed."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [
+      {
+        "title": "OSHA Technical Manual: process hazard analysis context",
+        "url": "https://www.osha.gov/otm/section-4-safety-hazards/chapter-5"
+      }
+    ]
+  },
+  {
+    "slug": "fault-tree-analysis",
+    "title": "Fault trees: reason backward from an unwanted event",
+    "topic": "Project Management",
+    "group": "Risk & assurance",
+    "summary": "Read the source’s deductive approach, AND/OR relationships and construction steps, while identifying the missing example diagram.",
+    "takeaway": "A logical relationship is not yet a probability calculation; quantitative conclusions need data and assumptions.",
+    "ranges": [
+      {
+        "document": "Risk Management.docx",
+        "start": 104,
+        "end": 112,
+        "heading": "Purpose, gates and the referenced example"
+      },
+      {
+        "document": "Risk Management.docx",
+        "start": 112,
+        "end": 118,
+        "heading": "Fault-tree construction and quantitative follow-up"
+      }
+    ],
+    "steps": [
+      "Define the top event",
+      "Identify contributing events",
+      "Check logic",
+      "Review basic events",
+      "Assess data needs"
+    ],
+    "related": [
+      "cause-consequence-analysis",
+      "software-fmea",
+      "hazard-methods-comparison"
+    ],
+    "notes": [
+      "The referenced Table 1 and patient-hazard Figure 1 are absent. The visual below explains the gate concepts without claiming to recover that medical-device example.",
+      "No failure probabilities, dependency assumptions or complete tree are supplied. No top-event probability is invented."
+    ],
+    "collection": "",
+    "visuals": [
+      {
+        "title": "Two relationships described in the source",
+        "kind": "matrix",
+        "headers": [
+          "Gate",
+          "Logical reading"
+        ],
+        "rows": [
+          [
+            "OR",
+            "Any listed input event is sufficient for the output event."
+          ],
+          [
+            "AND",
+            "The listed input events must occur together for the output event."
+          ]
+        ],
+        "note": "Editorial logical summary of the supplied AND/OR discussion, not the missing fault-tree figure or a quantitative reliability model."
+      }
+    ],
+    "references": []
+  },
+  {
+    "slug": "cause-consequence-analysis",
+    "title": "Cause–consequence analysis: link causes to possible outcomes",
+    "topic": "Project Management",
+    "group": "Risk & assurance",
+    "summary": "Explore the source’s combination of cause trees, consequence branches and the evidence required to estimate outcomes.",
+    "takeaway": "Keep the triggering event, causes, follow-up events and consequences distinct.",
+    "ranges": [
+      {
+        "document": "Risk Management.docx",
+        "start": 118,
+        "end": 134,
+        "heading": "Structure, phases and results of the analysis"
+      }
+    ],
+    "steps": [
+      "Identify the trigger",
+      "Trace follow-up events",
+      "Examine causes",
+      "Assess consequences",
+      "Review evidence"
+    ],
+    "related": [
+      "fault-tree-analysis",
+      "mort-investigation",
+      "hazard-methods-comparison"
+    ],
+    "notes": [
+      "No complete event tree, fault tree or probability dataset is supplied. The reading sequence does not establish a risk estimate for a real system."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": []
+  },
+  {
+    "slug": "mort-investigation",
+    "title": "MORT: examine barriers and management contributions",
+    "topic": "Project Management",
+    "group": "Risk & assurance",
+    "summary": "Read the source’s account of Management Oversight and Risk Tree analysis, barrier episodes, evidence coding and chart-based procedures.",
+    "takeaway": "Use evidence to distinguish what is known, what is inadequate and what still needs investigation.",
+    "ranges": [
+      {
+        "document": "Risk Management.docx",
+        "start": 134,
+        "end": 141,
+        "heading": "Origins, scope and the management perspective"
+      },
+      {
+        "document": "Risk Management.docx",
+        "start": 141,
+        "end": 155,
+        "heading": "Barrier episodes, evidence and color coding"
+      },
+      {
+        "document": "Risk Management.docx",
+        "start": 155,
+        "end": 160,
+        "heading": "Structure, branches and limits"
+      },
+      {
+        "document": "Risk Management.docx",
+        "start": 160,
+        "end": 182,
+        "heading": "The source’s chart-referenced procedure"
+      },
+      {
+        "document": "Risk Management.docx",
+        "start": 182,
+        "end": 186,
+        "heading": "Source commentary on detail and application"
+      }
+    ],
+    "steps": [
+      "Identify an episode",
+      "Examine barriers",
+      "Record evidence",
+      "Track open enquiries",
+      "Review management contributions"
+    ],
+    "related": [
+      "cause-consequence-analysis",
+      "hazard-methods-comparison",
+      "project-action-reporting"
+    ],
+    "notes": [
+      "The actual MORT charts and manuals are absent. Codes such as SA1, SB1, MA1 and MB2 are retained but cannot be followed as a complete chart-based procedure from this archive alone.",
+      "“Ultimate” hazard tool, diagram sizes and one-hour estimates are source claims, not a ranking or a promised effort estimate.",
+      "The source contains typographical and citation errors, including “February 19732” and “MOST Users Manual”. No original publication is reconstructed.",
+      "MORT’s assumed-risk route is part of the source model, not a declaration that an actual loss is acceptable."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": []
+  },
+  {
+    "slug": "hazard-methods-comparison",
+    "title": "Choose a hazard-analysis question before choosing a tool",
+    "topic": "Project Management",
+    "group": "Risk & assurance",
+    "summary": "Compare the questions addressed by preliminary analysis, HAZOP, software FMEA, fault trees, cause–consequence analysis and MORT.",
+    "takeaway": "Choose a method by the question, system stage, information available and expertise required.",
+    "ranges": [],
+    "steps": [
+      "Define the question",
+      "Examine available information",
+      "Choose the analysis scope",
+      "Plan specialist follow-up"
+    ],
+    "related": [
+      "preliminary-hazard-analysis",
+      "hazop-study",
+      "software-fmea",
+      "fault-tree-analysis",
+      "cause-consequence-analysis",
+      "mort-investigation"
+    ],
+    "notes": [
+      "This is an editorial reading map, not a safety assessment, qualification tool or determination that a particular regulatory requirement is satisfied."
+    ],
+    "collection": "",
+    "visuals": [
+      {
+        "title": "Six different analytical questions",
+        "kind": "matrix",
+        "headers": [
+          "Method",
+          "Question emphasized in the collection"
+        ],
+        "rows": [
+          [
+            "Preliminary hazard analysis",
+            "What major hazards should be identified early?"
+          ],
+          [
+            "HAZOP",
+            "How might operation deviate from the intended design?"
+          ],
+          [
+            "Software FMEA / FMECA",
+            "What failure modes, effects and criticality need examination?"
+          ],
+          [
+            "Fault tree",
+            "What combinations of causes could produce the top event?"
+          ],
+          [
+            "Cause–consequence",
+            "How can a trigger lead through different chains to outcomes?"
+          ],
+          [
+            "MORT",
+            "What barriers, controls and management contributions require investigation?"
+          ]
+        ],
+        "note": "Editorial synthesis. Use the linked guides for source detail, limitations and missing artifacts."
+      }
+    ],
+    "references": [
+      {
+        "title": "OSHA Technical Manual: process hazard analysis context",
+        "url": "https://www.osha.gov/otm/section-4-safety-hazards/chapter-5"
+      }
+    ]
+  },
+  {
+    "slug": "risk-rating-scales",
+    "title": "Risk ratings: read the supplied severity and detection scales",
+    "topic": "Project Management",
+    "group": "Risk & assurance",
+    "summary": "Inspect the collection’s impact, occurrence and visibility ratings without treating them as calibrated probabilities.",
+    "takeaway": "An ordinal score is meaningful only with clear definitions, context and a consistent method of application.",
+    "ranges": [
+      {
+        "document": "Measurement.docx",
+        "start": 60,
+        "end": 74,
+        "heading": "Impact descriptions and paired rankings"
+      },
+      {
+        "document": "Measurement.docx",
+        "start": 74,
+        "end": 85,
+        "heading": "Occurrence descriptions, units and rankings"
+      },
+      {
+        "document": "Measurement.docx",
+        "start": 85,
+        "end": 94,
+        "heading": "Visibility and detection descriptions"
+      }
+    ],
+    "steps": [
+      "Define the context",
+      "Check rating definitions",
+      "Check units and completeness",
+      "Record uncertainty"
+    ],
+    "related": [
+      "software-fmea",
+      "risk-management",
+      "hazard-methods-comparison"
+    ],
+    "notes": [
+      "The source mixes 1–5 rankings with 1–10 ratings. It gives no validated conversion, risk-priority formula or rule for combining them.",
+      "The occurrence intervals and their frequency descriptions are inconsistent or ambiguous. They are preserved, not converted into calibrated risk estimates.",
+      "Only four detection/visibility rows are supplied, ending at ranking 2. The missing ranking-1 row is not invented."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": []
+  },
+  {
+    "slug": "risk-modeling-perspectives",
+    "title": "Top-down and bottom-up: separate the risk-modeling context",
+    "topic": "Project Management",
+    "group": "Risk & assurance",
+    "summary": "Examine the source’s comparison while separating operational-risk aggregation from investment-selection language.",
+    "takeaway": "Define what is being modeled before comparing a top-down or bottom-up approach.",
+    "ranges": [
+      {
+        "document": "Methodologies.docx",
+        "start": 98,
+        "end": 107,
+        "heading": "The mixed-context source comparison"
+      }
+    ],
+    "steps": [
+      "Identify the domain",
+      "Define the modeled risk",
+      "Check data assumptions",
+      "Compare limitations"
+    ],
+    "related": [
+      "risk-management",
+      "fault-tree-analysis",
+      "markov-models"
+    ],
+    "notes": [
+      "The source combines sector/stock selection with operational-risk modeling. Its claims that one method never uses historical data and that either method is inherently backward/forward-looking are not established general rules.",
+      "These notes are a terminology comparison, not investment advice, a portfolio strategy or a numerical risk model."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": []
+  },
+  {
+    "slug": "rasci-responsibilities",
+    "title": "RASCI: make responsibility and accountability explicit",
+    "topic": "Project Management",
+    "group": "Teams, responsibilities & change",
+    "summary": "Distinguish responsible, accountable, supporting, consulted and informed roles using the supplied prompts.",
+    "takeaway": "Clarify who does the work, who owns the outcome and who needs involvement.",
+    "ranges": [
+      {
+        "document": "Measurement.docx",
+        "start": 170,
+        "end": 179,
+        "heading": "Role definitions and the source’s assignment guidance"
+      }
+    ],
+    "steps": [
+      "Responsible",
+      "Accountable",
+      "Support",
+      "Consulted",
+      "Informed"
+    ],
+    "related": [
+      "project-charter",
+      "project-action-reporting",
+      "high-performance-teams"
+    ],
+    "notes": [
+      "The source alternates RACI and RASCI wording. The extra S is supporting; the guide retains both labels while explaining the distinction.",
+      "The single-accountable-person convention is the source’s rule for the matrix, not a complete organizational governance model."
+    ],
+    "collection": "",
+    "visuals": [
+      {
+        "title": "Five involvement questions",
+        "kind": "cards",
+        "headers": [
+          "Role",
+          "Question"
+        ],
+        "rows": [
+          [
+            "R — Responsible",
+            "Who carries out the task?"
+          ],
+          [
+            "A — Accountable",
+            "Who owns the outcome?"
+          ],
+          [
+            "S — Support",
+            "Who helps execute it?"
+          ],
+          [
+            "C — Consulted",
+            "Whose advice is needed?"
+          ],
+          [
+            "I — Informed",
+            "Who needs updates?"
+          ]
+        ],
+        "note": "Editorial reference summary of the supplied role descriptions."
+      }
+    ],
+    "references": []
+  },
+  {
+    "slug": "organizational-structures",
+    "title": "Organizational structures: fit the work and the strategy",
+    "topic": "Project Management",
+    "group": "Teams, responsibilities & change",
+    "summary": "Compare mechanistic and organic structures with functional and divisional organization, using the supplied examples and diagnostic questions.",
+    "takeaway": "A structure should support the work and strategy; its label does not establish how well it operates.",
+    "ranges": [
+      {
+        "document": "Models.docx",
+        "start": 0,
+        "end": 19,
+        "heading": "Mechanistic and organic structures and their claimed effects"
+      },
+      {
+        "document": "Models.docx",
+        "start": 19,
+        "end": 23,
+        "heading": "Three diagnostic questions"
+      },
+      {
+        "document": "Six Sigma.docx",
+        "start": 195,
+        "end": 198,
+        "heading": "Divisional and functional structures"
+      }
+    ],
+    "steps": [
+      "Clarify the work",
+      "Review decision authority",
+      "Examine information flow",
+      "Check strategic fit"
+    ],
+    "related": [
+      "organizational-alignment",
+      "rasci-responsibilities",
+      "high-performance-teams"
+    ],
+    "notes": [
+      "The university and Google examples are undated generalizations, not current organizational assessments.",
+      "Claims that a structure removes the need for innovation or guarantees better decisions are source simplifications."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": []
+  },
+  {
+    "slug": "scientific-management",
+    "title": "Scientific management: ideas, history and critiques",
+    "topic": "Project Management",
+    "group": "Teams, responsibilities & change",
+    "summary": "Read the collection’s account of Taylorism, work measurement, task design, training and the critiques of narrow efficiency.",
+    "takeaway": "Examine how a method treats both the work system and the people doing the work.",
+    "ranges": [
+      {
+        "document": "Models.docx",
+        "start": 29,
+        "end": 38,
+        "heading": "Historical perspective and work-study examples"
+      },
+      {
+        "document": "Models.docx",
+        "start": 38,
+        "end": 43,
+        "heading": "Four principles as supplied"
+      },
+      {
+        "document": "Models.docx",
+        "start": 43,
+        "end": 50,
+        "heading": "Critiques, autonomy, teamwork and conclusions"
+      }
+    ],
+    "steps": [
+      "Study the work",
+      "Examine training",
+      "Consider incentives",
+      "Review human consequences"
+    ],
+    "related": [
+      "organizational-structures",
+      "high-performance-teams",
+      "software-process-discipline"
+    ],
+    "notes": [
+      "The source gives 1909 as the book publication date. The linked primary text is dated 1911; the original wording is retained with this correction. Other work-study anecdotes still lack complete references.",
+      "“Add to My Personal Learning Plan” is copied navigation text in the original. It is removed from the reading text while retained in the exact source inventory.",
+      "Claims about all workers’ motivation or the origins of modern teamwork are historical source assertions, not universal explanations of behavior."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [
+      {
+        "title": "Frederick Winslow Taylor: The Principles of Scientific Management (1911)",
+        "url": "https://www.gutenberg.org/cache/epub/6435/pg6435-images.html"
+      }
+    ]
+  },
+  {
+    "slug": "change-communication-planning",
+    "title": "Change communication: connect stakeholders, messages and review",
+    "topic": "Project Management",
+    "group": "Teams, responsibilities & change",
+    "summary": "Use the supplied objectives, concerns, channels, budgets, responsibilities and calendar prompts to plan communication.",
+    "takeaway": "A communication plan needs a specific audience, purpose and way to learn whether the message worked.",
+    "ranges": [
+      {
+        "document": "Six Sigma.docx",
+        "start": 177,
+        "end": 186,
+        "heading": "The communication-plan checklist"
+      }
+    ],
+    "steps": [
+      "Set objectives",
+      "Identify audiences",
+      "Understand concerns",
+      "Assign channels and responsibilities",
+      "Review results"
+    ],
+    "related": [
+      "change-kotter",
+      "stakeholder-management",
+      "clear-communication",
+      "project-charter"
+    ],
+    "notes": [],
+    "collection": "",
+    "visuals": [],
+    "references": []
+  },
+  {
+    "slug": "group-concept-selection",
+    "title": "Concept selection: Pugh matrices and group prioritization",
+    "topic": "Project Management",
+    "group": "Planning & governance",
+    "summary": "Read the brief Pugh description and the source’s group idea-generation/ranking sequence with their limits.",
+    "takeaway": "Keep the decision criteria and the process for generating and ranking ideas visible.",
+    "ranges": [
+      {
+        "document": "Six Sigma.docx",
+        "start": 186,
+        "end": 195,
+        "heading": "Pugh matrix and the group technique labeled NGT"
+      }
+    ],
+    "steps": [
+      "Define the question",
+      "Generate ideas",
+      "Discuss criteria",
+      "Rank and review"
+    ],
+    "related": [
+      "prioritization-methods",
+      "strategy-evaluation",
+      "project-charter"
+    ],
+    "notes": [
+      "“Normal Group Technique” is the source label; it appears to refer to Nominal Group Technique, but the original reference is missing. The supplied procedure is retained without claiming it is a complete canonical protocol.",
+      "The instruction to use groups of six is a source example, not a universal requirement. No Pugh scoring matrix or criteria weights are supplied."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": []
+  },
+  {
+    "slug": "empirical-modeling",
+    "title": "Empirical Modelling: observation, dependency and agency",
+    "topic": "Technology",
+    "group": "Models & software engineering",
+    "summary": "Distinguish the named Warwick computing approach from empirical modeling in the general statistical sense.",
+    "takeaway": "Clarify which meaning of “modeling” is intended before importing claims or tools from another context.",
+    "ranges": [
+      {
+        "document": "Models.docx",
+        "start": 23,
+        "end": 29,
+        "heading": "The named approach, EDEN and historical commentary"
+      }
+    ],
+    "steps": [
+      "Observation",
+      "Dependency",
+      "Agency",
+      "Examine the model’s purpose"
+    ],
+    "related": [
+      "model-driven-engineering",
+      "markov-models",
+      "software-testing"
+    ],
+    "notes": [
+      "The source’s “current” EDEN implementation description and its quoted criticisms are undated. They are preserved as historical notes, not current software recommendations.",
+      "“Broken functional programming” is an attributed critical opinion in the source, not the definition of the approach."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [
+      {
+        "title": "University of Warwick: Empirical Modelling research group",
+        "url": "https://warwick.ac.uk/fac/sci/dcs/research/em/"
+      }
+    ]
+  },
+  {
+    "slug": "markov-models",
+    "title": "Markov models and HMMs: states, transitions and observations",
+    "topic": "Technology",
+    "group": "Models & software engineering",
+    "summary": "Read the supplied introduction to model purpose, Markov chains, hidden states, inference tasks and biological examples.",
+    "takeaway": "Distinguish a model’s assumptions, observed data and unknown quantities before interpreting an inference.",
+    "ranges": [
+      {
+        "document": "Models.docx",
+        "start": 50,
+        "end": 63,
+        "heading": "Model purpose, structure, parameters and Markov states"
+      },
+      {
+        "document": "Models.docx",
+        "start": 63,
+        "end": 71,
+        "heading": "Hidden states and three inference tasks"
+      },
+      {
+        "document": "Models.docx",
+        "start": 71,
+        "end": 79,
+        "heading": "Probability, likelihood and the biological examples"
+      }
+    ],
+    "steps": [
+      "Define states",
+      "Specify transitions",
+      "Describe observations",
+      "Choose the inference question"
+    ],
+    "related": [
+      "ai-sequences-time-series",
+      "ai-statistical-inference",
+      "risk-modeling-perspectives"
+    ],
+    "notes": [
+      "The source definition of likelihood as requiring unaccounted outcomes is incorrect. A likelihood treats the observed data as fixed and varies model parameters; the original paragraph remains accessible with this correction.",
+      "“No memory” is shorthand for conditional dependence on the modeled current state, not a claim that the state cannot encode information about the past.",
+      "The parameter-description paragraph ends “If they are variable,” and is incomplete. No missing continuation is invented.",
+      "The biological examples are illustrative source prose. No transition matrix, emission probabilities or executable HMM example are supplied."
+    ],
+    "collection": "",
+    "visuals": [
+      {
+        "title": "Three HMM questions in the source",
+        "kind": "matrix",
+        "headers": [
+          "Question",
+          "What is sought"
+        ],
+        "rows": [
+          [
+            "Evaluation",
+            "How well does the model account for an observation sequence?"
+          ],
+          [
+            "Path inference",
+            "Which hidden-state path best fits the observations under the model?"
+          ],
+          [
+            "Parameter estimation",
+            "Which parameter values fit the observations?"
+          ]
+        ],
+        "note": "Editorial summary of the three supplied problem types; it is not a numerical worked example."
+      }
+    ],
+    "references": [
+      {
+        "title": "NIST: maximum likelihood",
+        "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda3652.htm"
+      }
+    ]
+  },
+  {
+    "slug": "model-driven-engineering",
+    "title": "Model-driven engineering: models as engineering artifacts",
+    "topic": "Technology",
+    "group": "Models & software engineering",
+    "summary": "Explore the supplied MDE, MDA, MDD and model-integrated-computing descriptions, with duplicated text consolidated.",
+    "takeaway": "Distinguish an engineering model used to develop a system from a statistical model used to explain data.",
+    "ranges": [
+      {
+        "document": "Methodologies.docx",
+        "start": 107,
+        "end": 112,
+        "heading": "MDE and related approaches"
+      },
+      {
+        "document": "Methodologies.docx",
+        "start": 112,
+        "end": 117,
+        "heading": "Repeated MDE text under the iterative heading",
+        "reuseSection": "section-1"
+      }
+    ],
+    "steps": [
+      "Identify the model",
+      "Define its engineering role",
+      "Review platform assumptions",
+      "Check the resulting system"
+    ],
+    "related": [
+      "empirical-modeling",
+      "software-testing",
+      "constructionist-design"
+    ],
+    "notes": [
+      "Four MDE paragraphs repeat verbatim under the source’s iterative-development heading. They share one displayed treatment, with both source locations mapped.",
+      "“Best known” and language-generation claims reflect the source’s undated framing, not a current comparison of engineering tools."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": []
+  },
+  {
+    "slug": "constructionist-design",
+    "title": "Constructionist design: modular integration for interactive AI",
+    "topic": "Technology",
+    "group": "Models & software engineering",
+    "summary": "Read the supplied CDM abstract about modular building blocks, interdisciplinary work and an interactive embodied-agent system.",
+    "takeaway": "Keep an architecture method, an example system and claims about its results distinct.",
+    "ranges": [
+      {
+        "document": "Agile.docx",
+        "start": 147,
+        "end": 155,
+        "heading": "The supplied methodology and demonstration-system abstract"
+      }
+    ],
+    "steps": [
+      "Identify components",
+      "Clarify boundaries",
+      "Coordinate integration",
+      "Review the evidence"
+    ],
+    "related": [
+      "ai-agent-platforms",
+      "model-driven-engineering",
+      "software-testing"
+    ],
+    "notes": [
+      "The extract gives no paper title, authors, date, implementation, evaluation data or complete CDM procedure. Its first-person claims are retained as source claims, not InsightGinie’s own experiment.",
+      "No current architecture recommendation or reproduced AI system is implied by this abstract."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": []
+  },
+  {
+    "slug": "wheel-spoke-development",
+    "title": "Wheel-and-spoke development: share a prototype across programs",
+    "topic": "Project Management",
+    "group": "Delivery approaches",
+    "summary": "Explore the source’s common-API prototype, successive integrations, feedback and claimed benefits.",
+    "takeaway": "A shared prototype can reveal reusable needs, but assumptions about commonality and scale need evidence.",
+    "ranges": [
+      {
+        "document": "Agile.docx",
+        "start": 131,
+        "end": 147,
+        "heading": "Process, applications and reported advantages"
+      }
+    ],
+    "steps": [
+      "Define shared needs",
+      "Build a prototype",
+      "Integrate and gather feedback",
+      "Review common changes"
+    ],
+    "related": [
+      "spiral-iterative-delivery",
+      "model-driven-engineering",
+      "risk-management"
+    ],
+    "notes": [
+      "Low risk, easy scaling and rising quality are claims in the source. No project data or comparison is supplied to establish them as general outcomes."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": []
+  },
+  {
+    "slug": "chaos-development-model",
+    "title": "The chaos model: connect small tasks with project-level work",
+    "topic": "Project Management",
+    "group": "Delivery approaches",
+    "summary": "Read the source’s account of nested development levels, issue prioritization and the model attributed to L. B. S. Raccoon.",
+    "takeaway": "A prioritization model should explain its assumptions rather than claim to be the only valid way to work.",
+    "ranges": [
+      {
+        "document": "Methodologies.docx",
+        "start": 73,
+        "end": 83,
+        "heading": "Origins and nested lifecycle levels"
+      },
+      {
+        "document": "Methodologies.docx",
+        "start": 83,
+        "end": 98,
+        "heading": "Issue prioritization and the stated chaos-theory connections"
+      }
+    ],
+    "steps": [
+      "Identify the issue",
+      "Assess value and urgency",
+      "Resolve to a stable state",
+      "Review wider effects"
+    ],
+    "related": [
+      "prioritization-methods",
+      "delivery-approaches",
+      "software-testing"
+    ],
+    "notes": [
+      "The source’s “only valid way” wording is a strong opinion, not an established universal rule.",
+      "The Go-strategy and chaos-theory connections are described without original references or a formal mathematical model."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": []
+  },
+  {
+    "slug": "balanced-scorecard",
+    "appendTo": "balanced-scorecard",
+    "ranges": [
+      {
+        "document": "Six Sigma.docx",
+        "start": 15,
+        "end": 20,
+        "heading": "Strategy-map examples from the Six Sigma collection"
+      }
+    ],
+    "related": [
+      "strategy-deployment"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "change-kotter",
+    "appendTo": "change-kotter",
+    "ranges": [
+      {
+        "document": "Six Sigma.docx",
+        "start": 164,
+        "end": 173,
+        "heading": "Eight-step wording in the Six Sigma collection"
+      }
+    ],
+    "related": [
+      "change-communication-planning"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "change-responses",
+    "appendTo": "change-responses",
+    "ranges": [
+      {
+        "document": "Six Sigma.docx",
+        "start": 153,
+        "end": 164,
+        "heading": "Culture, assumptions and the cultural web"
+      },
+      {
+        "document": "Six Sigma.docx",
+        "start": 173,
+        "end": 177,
+        "heading": "Lewin’s three-phase change model"
+      }
+    ],
+    "related": [
+      "change-communication-planning"
+    ],
+    "notes": [
+      "Lewin’s phases and the cultural-web labels are supplied as short lists, not a complete change program."
+    ]
+  },
+  {
+    "slug": "customer-feedback",
+    "appendTo": "customer-feedback",
+    "ranges": [
+      {
+        "document": "Six Sigma.docx",
+        "start": 198,
+        "end": 202,
+        "heading": "Promoter, passive and detractor labels in the improvement notes"
+      }
+    ],
+    "related": [
+      "six-sigma-improvement"
+    ],
+    "notes": [
+      "The new source supplies three customer labels without survey scoring thresholds. No missing calculation method is invented."
+    ]
+  },
+  {
+    "slug": "transformation-deployment",
+    "title": "Transformation: readiness, ownership and daily improvement",
+    "topic": "Project Management",
+    "group": "Teams, responsibilities & change",
+    "summary": "Read the source’s transformation sequence, stakeholder/change prompts and implementation practices.",
+    "takeaway": "Deployment depends on ownership, capability, communication and continued review.",
+    "ranges": [
+      {
+        "document": "Six Sigma.docx",
+        "start": 20,
+        "end": 34,
+        "heading": "Transformation sequence and change elements"
+      },
+      {
+        "document": "Six Sigma.docx",
+        "start": 50,
+        "end": 61,
+        "heading": "Ownership, communication and improvement practices"
+      }
+    ],
+    "steps": [
+      "Establish the need",
+      "Engage stakeholders",
+      "Plan and implement",
+      "Build capability",
+      "Review"
+    ],
+    "related": [
+      "project-charter",
+      "change-kotter",
+      "strategy-deployment"
+    ],
+    "notes": [
+      "The source’s readiness expression is a management heuristic, not a calibrated predictor of project success."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": []
+  },
+  {
+    "slug": "risk-management",
+    "appendTo": "risk-management",
+    "ranges": [],
+    "related": [
+      "project-management",
+      "hazard-methods-comparison"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "kanban-workflow",
+    "appendTo": "kanban-workflow",
+    "ranges": [],
+    "related": [
+      "project-management",
+      "lean-agile-practices"
+    ],
+    "notes": []
+  }
+]

@@ -8,6 +8,7 @@ import zipfile
 W = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
 
 COMPARISONS = {
+    ('Measurement.docx', 1), ('Measurement.docx', 2), ('Measurement.docx', 3),
     ('Spin Selling.docx', 0),
     ('Strategy.docx', 1), ('Strategy.docx', 4), ('Strategy.docx', 9),
     ('Strategy.docx', 10), ('Strategy.docx', 13),
@@ -95,6 +96,7 @@ LABELS = {
 }
 
 COPY_EDITS = {
+    'Add to My Personal Learning Plan': '',
     'Hybird': 'Hybrid', 'hybird': 'hybrid', 'respsonses': 'responses',
     'preceptions': 'perceptions', 'necssary': 'necessary', 'giveand-take': 'give-and-take',
     'selfbelief': 'self-belief', 'highperformance': 'high-performance',
@@ -142,7 +144,7 @@ def prose(items):
             continue
         t = edited(p['text'])
         # The section already names its topic. Keep source title provenance without repeating it visually.
-        if p['style'] in ('2', '6', '7', '5'):
+        if p['style'] in ('1', '2', '6', '7', '5'):
             if not blocks:
                 continue
             blocks.append(dict(kind='heading', text=t))

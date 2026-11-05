@@ -7,7 +7,7 @@ import { PaymentDirectory } from './payment-directory';
 import { SystemCommands } from './system-commands';
 import { GamesDirectory } from './games-directory';
 import { AiGuide } from './ai-guide';
-import { CollectionGuide } from './collection-guide';
+import { CollectionGuide, isCollectionArticle } from './collection-guide';
 
 export const dynamic = 'force-dynamic';
 
@@ -24,7 +24,7 @@ export default async function KnowledgePage({ params }: Props) {
   const articles = await getKnowledgeArticles();
   const article = articles.find((item) => item.slug === slug);
   if (!article) notFound();
-  if (['Business & Management', 'Communication & Personal Development'].includes(article.topic)) return <CollectionGuide article={article} articles={articles} />;
+  if (isCollectionArticle(article.slug)) return <CollectionGuide article={article} articles={articles} />;
   if (article.topic === 'Artificial intelligence') return <AiGuide article={article} articles={articles} />;
   const related = articles.filter((item) => item.slug !== slug && item.topic === article.topic && item.group === article.group).slice(0, 3);
   return <article className={`shell ${styles.article}`}>
@@ -57,6 +57,7 @@ export default async function KnowledgePage({ params }: Props) {
     {article.topic === 'Cybersecurity' && article.slug !== 'cybersecurity' && <p><Link href="/library/knowledge/cybersecurity/">Explore the cybersecurity hub →</Link></p>}
     {article.slug === 'network-spoofing' && <p><Link href="/library/knowledge/networking-osi/">Read the networking and OSI guide →</Link></p>}
     {article.slug === 'security-controls' && <p><Link href="/library/knowledge/api-fundamentals/">Read the API fundamentals guide →</Link></p>}
+    {article.topic === 'Technology' && <p><Link href="/library/knowledge/technology/">Explore the Technology hub →</Link> · <Link href="/library/knowledge/project-management/">Explore Project Management →</Link></p>}
     {related.length > 0 && <section><h2>Related knowledge</h2><ul>{related.map((item) => <li key={item.slug}><a href={`/library/knowledge/${item.slug}/`}>{item.title}</a></li>)}</ul></section>}
     {article.relatedToolCategory && <section><h2>Related tools</h2><a href={`/library/?tools=${encodeURIComponent(article.relatedToolCategory)}#tools-heading`}>Explore {article.relatedToolCategory} tools →</a></section>}
     <section><h2>Further reading</h2><ul>{article.sources.map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer">{source.title} ↗</a></li>)}</ul></section>

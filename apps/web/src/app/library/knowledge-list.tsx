@@ -2,6 +2,9 @@
 
 import { useState } from 'react';
 import type { KnowledgeArticle } from '../../lib/library';
+import roots from '../../lib/library/business/collection-roots.json';
+
+const topicHubs = new Map([['Artificial intelligence', 'ai-learning-hub'], ...roots.map((root) => [root.topic, root.slug] as const)]);
 import styles from './library.module.css';
 
 export function KnowledgeList({ articles }: { articles: KnowledgeArticle[] }) {
@@ -11,7 +14,7 @@ export function KnowledgeList({ articles }: { articles: KnowledgeArticle[] }) {
   const topics = Array.from(new Set(articles.map((article) => article.topic)));
   const groups = Array.from(new Set(articles.filter((article) => article.topic === topic).map((article) => article.group)));
   const query = search.trim().toLowerCase();
-  const filtered = articles.filter((article) => (topic !== 'All topics' || query !== '' || !['Artificial intelligence', 'Business & Management', 'Communication & Personal Development'].includes(article.topic) || ['ai-learning-hub', 'business-management', 'communication-personal-development'].includes(article.slug)) && (topic === 'All topics' || topic === article.topic) && (group === 'All subtopics' || group === article.group) && [article.title, article.summary, article.topic, article.group, ...article.sections.flatMap((section) => [section.heading, section.body])].join(' ').toLowerCase().includes(query));
+  const filtered = articles.filter((article) => (topic !== 'All topics' || query !== '' || !topicHubs.has(article.topic) || topicHubs.get(article.topic) === article.slug) && (topic === 'All topics' || topic === article.topic) && (group === 'All subtopics' || group === article.group) && [article.title, article.summary, article.topic, article.group, ...article.sections.flatMap((section) => [section.heading, section.body])].join(' ').toLowerCase().includes(query));
   return <section className={styles.directory} aria-labelledby="knowledge-heading">
     <div className={styles.directoryHeader}>
       <div><div className={styles.eyebrow}>IDEAS WORTH KEEPING</div><h2 id="knowledge-heading">Knowledge</h2><p>Explore notes and guides, one topic at a time.</p></div>
