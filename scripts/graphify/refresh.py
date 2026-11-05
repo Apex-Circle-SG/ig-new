@@ -23,6 +23,7 @@ ROOTS = [
     "scripts/opportunities",
     "packages/seo/src",
     "scripts/content-ai",
+    "scripts/content-business",
     "scripts/cloudflare",
 ]
 OUT.mkdir(exist_ok=True)

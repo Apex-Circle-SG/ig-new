@@ -1,0 +1,2042 @@
+[
+  {
+    "slug": "strategy-foundations",
+    "title": "What strategy does—and who makes it",
+    "group": "Strategy foundations",
+    "summary": "Connect purpose, competitive advantage and the choices made at corporate, business and functional levels.",
+    "takeaway": "A strategy gives connected decisions a direction; its levels must reinforce each other.",
+    "ranges": [
+      {
+        "document": "Strategy.docx",
+        "start": 0,
+        "end": 44,
+        "heading": "Purpose, levels and strategic choices"
+      }
+    ],
+    "steps": [
+      "Define purpose",
+      "Choose where to compete",
+      "Decide how to win",
+      "Align functional work"
+    ],
+    "related": [
+      "strategic-management-cycle",
+      "strategy-perspectives"
+    ],
+    "notes": [
+      "The original growth-strategy row says “makes no change”; that describes stability rather than growth. The wording is retained below as a source discrepancy, not a definition to follow.",
+      "The attributed definitions are quotations in the supplied notes; their original editions and page references were not supplied."
+    ]
+  },
+  {
+    "slug": "strategic-management-cycle",
+    "title": "Strategic management: analysis to action",
+    "group": "Strategy foundations",
+    "summary": "Follow strategic analysis, formulation, implementation and evaluation as a continuing management cycle.",
+    "takeaway": "Review the environment and your resources together, then revisit decisions as evidence changes.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 0,
+        "end": 33,
+        "heading": "Why strategy needs a management cycle"
+      },
+      {
+        "document": "Strategy.docx",
+        "start": 211,
+        "end": 255,
+        "heading": "Questions for position, choices and action"
+      }
+    ],
+    "steps": [
+      "Analyze position",
+      "Develop options",
+      "Select a strategy",
+      "Implement",
+      "Evaluate and adapt"
+    ],
+    "related": [
+      "strategic-audit",
+      "strategy-evaluation",
+      "strategy-perspectives"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "strategy-perspectives",
+    "title": "Strategy perspectives: planned, emergent and adaptive",
+    "group": "Strategy foundations",
+    "summary": "Compare strategy lenses, intended and emergent approaches, and market-led versus resource-led thinking.",
+    "takeaway": "Different perspectives reveal different assumptions; use them together rather than treating one as universally correct.",
+    "ranges": [
+      {
+        "document": "Strategy.docx",
+        "start": 44,
+        "end": 60,
+        "heading": "Four perspectives and four strategy lenses"
+      },
+      {
+        "document": "Strategy.docx",
+        "start": 60,
+        "end": 89,
+        "heading": "Four strategy lenses compared"
+      },
+      {
+        "document": "Strategy.docx",
+        "start": 89,
+        "end": 101,
+        "heading": "Intended and emergent approaches"
+      },
+      {
+        "document": "Strategy.docx",
+        "start": 101,
+        "end": 146,
+        "heading": "Outside-in and inside-out compared"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 33,
+        "end": 61,
+        "heading": "Market-based and resource-based models"
+      }
+    ],
+    "steps": [
+      "Name your assumptions",
+      "Examine the market",
+      "Examine capabilities",
+      "Experiment and revise"
+    ],
+    "related": [
+      "strategic-thinking",
+      "dynamic-capabilities"
+    ],
+    "notes": [
+      "The notes describe resource-led strategy as more certain and market-led strategy as riskier. Treat this as a teaching contrast, not a general risk ranking.",
+      "Several outside-in/inside-out comparisons are deliberately polarized; actual organizations can combine both approaches."
+    ]
+  },
+  {
+    "slug": "strategic-thinking",
+    "title": "Strategic thinking: logic, creativity and competing demands",
+    "group": "Strategy foundations",
+    "summary": "Explore analytical and generative reasoning, and ways to manage the tension between market demands and organizational strengths.",
+    "takeaway": "Use rigorous analysis to test ideas and creative thinking to discover options analysis alone may miss.",
+    "ranges": [
+      {
+        "document": "Strategy.docx",
+        "start": 255,
+        "end": 295,
+        "heading": "Logical and creative reasoning"
+      },
+      {
+        "document": "Strategy.docx",
+        "start": 329,
+        "end": 350,
+        "heading": "Sustaining advantage and managing paradox"
+      }
+    ],
+    "steps": [
+      "Question assumptions",
+      "Generate alternatives",
+      "Test implications",
+      "Balance opposing demands"
+    ],
+    "related": [
+      "strategy-perspectives",
+      "core-competencies"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "strategic-business-units",
+    "title": "Strategic business units and accountability",
+    "group": "Strategy foundations",
+    "summary": "Understand why companies organize distinct businesses around markets, capabilities and responsibility for results.",
+    "takeaway": "Define the unit before choosing its strategy or assessing its performance.",
+    "ranges": [
+      {
+        "document": "Strategy.docx",
+        "start": 146,
+        "end": 168,
+        "heading": "Identifying and managing business units"
+      }
+    ],
+    "steps": [
+      "Define the activity",
+      "Identify customers and rivals",
+      "Assign accountability"
+    ],
+    "related": [
+      "competitive-positioning",
+      "portfolio-bcg"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "strategic-audit",
+    "title": "Strategic audit: establish where the business stands",
+    "group": "Decisions & execution",
+    "summary": "Bring resources, market position and environmental evidence into a focused strategic review.",
+    "takeaway": "An audit should support a decision; agree its scope, evidence and review date before collecting lists.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 61,
+        "end": 81,
+        "heading": "Audit purpose, tools and practical constraints"
+      }
+    ],
+    "steps": [
+      "Agree scope",
+      "Gather evidence",
+      "Assess position",
+      "Prioritize implications"
+    ],
+    "related": [
+      "environmental-scanning",
+      "swot-analysis",
+      "value-chain"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "competition-landscape",
+    "title": "Understanding your competitive landscape",
+    "group": "Markets & competition",
+    "summary": "Distinguish market structures and four levels of competition, then examine who competes for the same customer need or budget.",
+    "takeaway": "Your competitors include alternative ways of meeting a need, not just similar brands.",
+    "ranges": [
+      {
+        "document": "Competition.docx",
+        "start": 0,
+        "end": 14,
+        "heading": "Market structures and levels of competition"
+      },
+      {
+        "document": "Competition.docx",
+        "start": 46,
+        "end": 62,
+        "heading": "Competitor analysis and its purpose"
+      }
+    ],
+    "steps": [
+      "Define the customer need",
+      "Identify alternatives",
+      "Compare strengths",
+      "Anticipate responses"
+    ],
+    "related": [
+      "competitive-dynamics",
+      "five-forces"
+    ],
+    "notes": [
+      "The four market structures are listed in the source without definitions; this page preserves that list and does not invent missing course explanations."
+    ]
+  },
+  {
+    "slug": "competitive-dynamics",
+    "title": "Competitive dynamics: moves, timing and responses",
+    "group": "Markets & competition",
+    "summary": "Consider competitive rivalry, likely reactions, and the trade-offs facing first, second and late movers.",
+    "takeaway": "A move changes the choices available to rivals; assess likely responses before acting.",
+    "ranges": [
+      {
+        "document": "Competition.docx",
+        "start": 14,
+        "end": 46,
+        "heading": "Rivalry, response and mover timing"
+      }
+    ],
+    "steps": [
+      "Identify the action",
+      "Assess rival incentives",
+      "Check resources",
+      "Plan a response"
+    ],
+    "related": [
+      "competitive-actions",
+      "competitive-positioning"
+    ],
+    "notes": [
+      "First-, second- and late-mover outcomes are possibilities, not guaranteed profit or risk rankings."
+    ]
+  },
+  {
+    "slug": "competitive-positioning",
+    "title": "Cost, differentiation and focused strategies",
+    "group": "Markets & competition",
+    "summary": "Compare generic strategies, niche positioning, hybrid approaches and the risks of losing a clear basis of advantage.",
+    "takeaway": "Connect the promised customer benefit to a cost structure the business can sustain.",
+    "ranges": [
+      {
+        "document": "Strategy.docx",
+        "start": 168,
+        "end": 185,
+        "heading": "Generic strategy, hybrid choices and the strategy clock"
+      },
+      {
+        "document": "Competition.docx",
+        "start": 62,
+        "end": 100,
+        "heading": "Focused strategies and the risks of each position"
+      },
+      {
+        "document": "Competition.docx",
+        "start": 100,
+        "end": 128,
+        "heading": "Hybrid approaches: AirAsia and Lexus examples"
+      }
+    ],
+    "steps": [
+      "Choose scope",
+      "Choose advantage",
+      "Align activities",
+      "Test imitation risk"
+    ],
+    "related": [
+      "competitive-dynamics",
+      "blue-ocean",
+      "value-chain"
+    ],
+    "notes": [
+      "The AirAsia, Lexus and IKEA examples are historical teaching illustrations. The notes do not establish their current operations."
+    ]
+  },
+  {
+    "slug": "competitive-actions",
+    "title": "Market leaders, challengers and followers",
+    "group": "Markets & competition",
+    "summary": "Explore market expansion, defensive moves, challenger attacks and follower approaches.",
+    "takeaway": "Choose actions in the context of your market role, resources and likely response.",
+    "ranges": [
+      {
+        "document": "Competition.docx",
+        "start": 128,
+        "end": 161,
+        "heading": "Actions by competitive role"
+      }
+    ],
+    "steps": [
+      "Identify market role",
+      "Choose the objective",
+      "Compare action options",
+      "Assess consequences"
+    ],
+    "related": [
+      "competitive-dynamics",
+      "negotiation-strategy"
+    ],
+    "notes": [
+      "Counterfeiting is retained as a named source classification, not recommended business conduct."
+    ]
+  },
+  {
+    "slug": "strategic-groups",
+    "title": "Strategic groups: map the closest competitors",
+    "group": "Markets & competition",
+    "summary": "Map firms by scope and resource commitment to reveal direct rivals, strategic spaces and mobility barriers.",
+    "takeaway": "Use independent, meaningful axes; proximity on the map should reflect how firms actually compete.",
+    "ranges": [
+      {
+        "document": "Strategy.docx",
+        "start": 295,
+        "end": 329,
+        "heading": "Mapping groups, strategic spaces and buyers"
+      }
+    ],
+    "steps": [
+      "Select independent axes",
+      "Plot competitors",
+      "Identify groups",
+      "Assess mobility barriers"
+    ],
+    "related": [
+      "competition-landscape",
+      "five-forces"
+    ],
+    "notes": [
+      "The automobile map is a historical teaching example, not a current classification of brands or ownership.",
+      "The “Strategic Customers” subsection lists search directions without explaining a customer-analysis method; no missing method has been invented."
+    ]
+  },
+  {
+    "slug": "environmental-scanning",
+    "title": "Environmental scanning: from signals to implications",
+    "group": "Markets & competition",
+    "summary": "Separate the macro environment, industry relationships and internal conditions, then connect change to managerial tasks.",
+    "takeaway": "Scanning is useful when signals reach decision-makers and lead to a considered response.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 1058,
+        "end": 1098,
+        "heading": "Layers of the environment and organizational responses"
+      }
+    ],
+    "steps": [
+      "Monitor signals",
+      "Evaluate relevance",
+      "Share implications",
+      "Review the response"
+    ],
+    "related": [
+      "pestle-analysis",
+      "scenario-planning",
+      "five-forces"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "pestle-analysis",
+    "title": "PESTLE: assess the wider business environment",
+    "group": "Markets & competition",
+    "summary": "Examine political, economic, social, technological, legal and environmental influences using the collection’s detailed prompts.",
+    "takeaway": "Translate external factors into specific opportunities, constraints and actions for the business.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 949,
+        "end": 968,
+        "heading": "Political influences"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 968,
+        "end": 985,
+        "heading": "Economic influences"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 985,
+        "end": 1000,
+        "heading": "Social influences"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1000,
+        "end": 1015,
+        "heading": "Technology influences"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1015,
+        "end": 1033,
+        "heading": "Legal influences"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1033,
+        "end": 1048,
+        "heading": "Environmental influences"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "heading": "Drawing strategic implications",
+        "start": 1048,
+        "end": 1058
+      }
+    ],
+    "steps": [
+      "Gather evidence",
+      "Assess impact",
+      "Prioritize drivers",
+      "Choose a response"
+    ],
+    "related": [
+      "environmental-scanning",
+      "five-forces",
+      "cage-international"
+    ],
+    "notes": [
+      "Market/non-market tags in the notes are a simplified teaching distinction; factors can interact across these categories.",
+      "Examples involving laws, economies or technologies are prompts from the notes, not current jurisdiction-specific guidance."
+    ]
+  },
+  {
+    "slug": "five-forces",
+    "title": "Porter’s Five Forces: assess industry pressure",
+    "group": "Markets & competition",
+    "summary": "Examine rivalry, buyers, suppliers, entry and substitutes, with detailed indicators, applications and limitations.",
+    "takeaway": "Define the relevant market before judging each force and its implications for profitability.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 1098,
+        "end": 1119,
+        "heading": "Industry rivalry"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1119,
+        "end": 1139,
+        "heading": "Buyer power"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1139,
+        "end": 1160,
+        "heading": "Supplier power"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1160,
+        "end": 1176,
+        "heading": "Entry barriers"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1176,
+        "end": 1191,
+        "heading": "Substitutes"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1191,
+        "end": 1213,
+        "heading": "Applying the framework"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1213,
+        "end": 1227,
+        "heading": "Limitations and complementors"
+      }
+    ],
+    "steps": [
+      "Define the market",
+      "Assess five pressures",
+      "Derive implications",
+      "Choose actions"
+    ],
+    "related": [
+      "competitive-positioning",
+      "environmental-scanning",
+      "strategic-groups"
+    ],
+    "notes": [
+      "The source’s positioning responses are possible actions to evaluate, not guarantees that price cuts or acquisitions improve results."
+    ]
+  },
+  {
+    "slug": "ohmae-three-cs",
+    "title": "Ohmae’s three Cs: company, customer and competitor",
+    "group": "Markets & competition",
+    "summary": "Balance organizational strengths, customer needs and competitor offerings when developing a strategic position.",
+    "takeaway": "A strong position needs all three perspectives, rather than an isolated focus on the company.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 943,
+        "end": 949,
+        "heading": "The three perspectives and an application"
+      }
+    ],
+    "steps": [
+      "Understand customers",
+      "Assess company strengths",
+      "Compare competitors"
+    ],
+    "related": [
+      "competition-landscape",
+      "core-competencies"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "market-sizing",
+    "title": "TAM, SAM and SOM: define the market you can serve",
+    "group": "Growth & innovation",
+    "summary": "Distinguish the total market, the serviceable market and the share realistically obtainable with available resources.",
+    "takeaway": "Keep the market universe, serviceable scope and obtainable share separate.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 1703,
+        "end": 1712,
+        "heading": "Market sizing and early adopters"
+      }
+    ],
+    "steps": [
+      "Define total demand",
+      "Constrain serviceable scope",
+      "Estimate obtainable demand"
+    ],
+    "related": [
+      "lean-startup",
+      "growth-ansoff"
+    ],
+    "notes": [
+      "The source uses short questions rather than a calculation method; no market estimates or numerical assumptions have been invented."
+    ]
+  },
+  {
+    "slug": "resource-base",
+    "title": "Resources: tangible assets, relationships and capabilities",
+    "group": "Resources & advantage",
+    "summary": "Distinguish physical and financial resources from relationships, reputation, knowledge, capabilities and attitudes.",
+    "takeaway": "An asset inventory is a starting point; advantage depends on how resources work together.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 1269,
+        "end": 1284,
+        "heading": "Resource categories"
+      }
+    ],
+    "steps": [
+      "Inventory assets",
+      "Identify intangibles",
+      "Connect capabilities"
+    ],
+    "related": [
+      "core-competencies",
+      "vrio-resources"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "core-competencies",
+    "title": "Core competencies: build strengths that travel",
+    "group": "Resources & advantage",
+    "summary": "Explore how skills and technologies combine into customer benefits, why capabilities can become rigidities, and how to share strengths across units.",
+    "takeaway": "A competence is an integrated ability, not simply an asset the business owns.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 536,
+        "end": 569,
+        "heading": "Meaning, origins and tests of core competence"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 569,
+        "end": 603,
+        "heading": "Rigidities, ownership and cross-business learning"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 603,
+        "end": 630,
+        "heading": "Company illustrations and asset distinctions"
+      }
+    ],
+    "steps": [
+      "Identify customer benefit",
+      "Trace shared capabilities",
+      "Test imitation",
+      "Renew and share strengths"
+    ],
+    "related": [
+      "vrio-resources",
+      "dynamic-capabilities",
+      "strategic-business-units"
+    ],
+    "notes": [
+      "The source says core competencies do not depreciate, while also warning of core rigidities. Durability is conditional; capabilities can lose relevance.",
+      "Company examples illustrate the notes’ reasoning and are not verified current capability assessments."
+    ]
+  },
+  {
+    "slug": "vrio-resources",
+    "title": "VRIO and VRIN: evaluate resources and advantage",
+    "group": "Resources & advantage",
+    "summary": "Assess value, rarity, imitation difficulty and organizational support, while distinguishing the related non-substitutability test.",
+    "takeaway": "Owning a useful resource is different from being organized to capture its value.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 1777,
+        "end": 1805,
+        "heading": "The VRIO questions and review prompts"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1805,
+        "end": 1821,
+        "heading": "Sustainable advantage and the related VRIN criteria"
+      }
+    ],
+    "steps": [
+      "Value",
+      "Rarity",
+      "Imitation difficulty",
+      "Organization"
+    ],
+    "related": [
+      "core-competencies",
+      "value-chain"
+    ],
+    "notes": [
+      "The source mixes VRIO with VRIN: non-substitutability is retained as a related criterion, not relabeled as the O in VRIO."
+    ]
+  },
+  {
+    "slug": "dynamic-capabilities",
+    "title": "Dynamic capabilities: sense, seize and transform",
+    "group": "Resources & advantage",
+    "summary": "Understand capability renewal through organizational processes, assets, learning, reconfiguration and path dependence.",
+    "takeaway": "Capabilities that run today’s business may differ from those needed to change it.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 695,
+        "end": 720,
+        "heading": "Renewing and developing capabilities"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 720,
+        "end": 746,
+        "heading": "Processes, positions and paths"
+      }
+    ],
+    "steps": [
+      "Sense opportunities",
+      "Seize opportunities",
+      "Transform capabilities"
+    ],
+    "related": [
+      "core-competencies",
+      "digital-maturity",
+      "strategy-perspectives"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "critical-success-factors",
+    "title": "Critical success factors: what an industry demands",
+    "group": "Resources & advantage",
+    "summary": "Explore customer-valued and cost-critical requirements, with technology, manufacturing, distribution, marketing and workforce examples.",
+    "takeaway": "Distinguish prerequisites for competing from strengths that make your business distinctive.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 630,
+        "end": 637,
+        "heading": "What critical success factors mean"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 637,
+        "end": 674,
+        "heading": "Factors by business activity"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 674,
+        "end": 687,
+        "heading": "Beer and apparel examples"
+      }
+    ],
+    "steps": [
+      "Define the industry",
+      "Identify customer priorities",
+      "Identify cost drivers",
+      "Assess gaps"
+    ],
+    "related": [
+      "core-competencies",
+      "five-forces"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "value-chain",
+    "title": "Value chains, networks and outsourcing",
+    "group": "Resources & advantage",
+    "summary": "Trace primary and support activities, inter-firm relationships, profit pools and make-or-buy choices.",
+    "takeaway": "Look at the links between activities as well as the activities themselves.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 1712,
+        "end": 1734,
+        "heading": "Primary and support activities"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1734,
+        "end": 1753,
+        "heading": "Analyzing value and delivery networks"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1753,
+        "end": 1766,
+        "heading": "Outsourcing decisions and risks"
+      }
+    ],
+    "steps": [
+      "Map activities",
+      "Trace cost and value",
+      "Examine linkages",
+      "Assess make or buy"
+    ],
+    "related": [
+      "core-competencies",
+      "supply-chain-response",
+      "competitive-positioning"
+    ],
+    "notes": [
+      "The source says never outsource core activities. Retain this as a strategic caution about losing critical capabilities, rather than an absolute rule for every business."
+    ]
+  },
+  {
+    "slug": "supply-chain-response",
+    "title": "Supply-chain response: mobilize to operate",
+    "group": "Decisions & execution",
+    "summary": "Follow the five-stage response sequence attributed in the notes to Accenture.",
+    "takeaway": "Connect risk sensing to scenarios, network configuration, operating action and measurement.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 1766,
+        "end": 1777,
+        "heading": "Five stages of supply-chain response"
+      }
+    ],
+    "steps": [
+      "Mobilize",
+      "Sense",
+      "Analyze",
+      "Configure",
+      "Operate"
+    ],
+    "related": [
+      "value-chain",
+      "risk-management"
+    ],
+    "notes": [
+      "The source labels this “Value Chain Analysis – Accenture”, but its content concerns supply-chain disruption response. Original publication details were not supplied."
+    ]
+  },
+  {
+    "slug": "growth-ansoff",
+    "title": "Ansoff: choose a direction for growth",
+    "group": "Growth & innovation",
+    "summary": "Compare market penetration, product development, market development and diversification, including constraints and risks.",
+    "takeaway": "Growth choices change products, markets or both; identify which capabilities and risks change with them.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 81,
+        "end": 101,
+        "heading": "The product–market choices"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 101,
+        "end": 116,
+        "heading": "Penetration, consolidation and retrenchment"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 116,
+        "end": 126,
+        "heading": "Product development"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 126,
+        "end": 139,
+        "heading": "Market development and a campaign caution"
+      }
+    ],
+    "steps": [
+      "Assess current markets",
+      "Assess product changes",
+      "Compare capabilities",
+      "Evaluate risks"
+    ],
+    "related": [
+      "diversification-integration",
+      "growth-methods",
+      "strategy-evaluation"
+    ],
+    "notes": [
+      "The “Samsung Galaxy 7” wording and the Burger King campaign are retained as historical source examples with incomplete or potentially inaccurate naming. They are not current factual case studies.",
+      "The image suggests a fixed sequence for growth choices. Treat sequencing as the source’s recommendation, not a universal requirement."
+    ]
+  },
+  {
+    "slug": "diversification-integration",
+    "title": "Diversification and integration: extending business scope",
+    "group": "Growth & innovation",
+    "summary": "Explore related and unrelated diversification, horizontal and vertical integration, benefits, costs and acquisition examples.",
+    "takeaway": "Evaluate whether the new scope creates value after coordination costs and capability gaps.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 139,
+        "end": 163,
+        "heading": "Purpose, benefits and costs"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 163,
+        "end": 200,
+        "heading": "Integration types, diversification and source examples"
+      }
+    ],
+    "steps": [
+      "Clarify the rationale",
+      "Identify synergies",
+      "Assess coordination cost",
+      "Compare alternatives"
+    ],
+    "related": [
+      "growth-ansoff",
+      "growth-methods",
+      "portfolio-ge"
+    ],
+    "notes": [
+      "Company holdings, transaction dates and prices are unverified historical notes. Preserve them as source claims, not current facts.",
+      "The airline integration diagram mixes alliances with integration and uses historical entities; its original relationships are transcribed with that limitation.",
+      "The diversification–performance curve is conceptual and supplies no data or estimated optimum."
+    ]
+  },
+  {
+    "slug": "growth-methods",
+    "title": "Build, buy or partner: methods for pursuing strategy",
+    "group": "Growth & innovation",
+    "summary": "Compare organic development with acquisitions, alliances and other ways to pursue strategic choices.",
+    "takeaway": "Choosing a direction and choosing a delivery method are separate decisions.",
+    "ranges": [
+      {
+        "document": "Strategy.docx",
+        "start": 185,
+        "end": 211,
+        "heading": "Organic development and the strategic choices menu"
+      }
+    ],
+    "steps": [
+      "Choose direction",
+      "Assess internal development",
+      "Compare acquisition",
+      "Compare partnership"
+    ],
+    "related": [
+      "growth-ansoff",
+      "strategy-evaluation",
+      "promise-integration"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "blue-ocean",
+    "title": "Blue Ocean Strategy: rethink buyer value",
+    "group": "Growth & innovation",
+    "summary": "Compare red and blue oceans, explore six search paths and connect cost reduction with increased buyer value.",
+    "takeaway": "Value innovation asks what can change in the offering and activity system, not merely how to outspend rivals.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 286,
+        "end": 334,
+        "heading": "Finding new market space and teaching examples"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 334,
+        "end": 363,
+        "heading": "Red and blue oceans compared"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 363,
+        "end": 370,
+        "heading": "Value innovation and the strategy canvas"
+      }
+    ],
+    "steps": [
+      "Eliminate",
+      "Reduce",
+      "Raise",
+      "Create"
+    ],
+    "related": [
+      "competitive-positioning",
+      "lean-startup"
+    ],
+    "notes": [
+      "The strategy-canvas image in the source is a rendering-error message. No recoverable plotted values are present; a numerical canvas cannot be reconstructed.",
+      "The AirAsia and QB House material is retained as teaching examples, not current operating descriptions."
+    ]
+  },
+  {
+    "slug": "lean-startup",
+    "title": "Lean Startup: learn before committing at scale",
+    "group": "Growth & innovation",
+    "summary": "Connect minimum viable products, build–measure–learn loops, evidence and staged funding.",
+    "takeaway": "Make progress visible through learning that can support a pivot, perseverance or a stop decision.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 904,
+        "end": 914,
+        "heading": "Teams, validated learning and executive decisions"
+      }
+    ],
+    "steps": [
+      "Build",
+      "Measure",
+      "Learn",
+      "Pivot, persevere or stop"
+    ],
+    "related": [
+      "market-sizing",
+      "growth-horizons",
+      "risk-management"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "growth-horizons",
+    "title": "Three Horizons: balance today and tomorrow",
+    "group": "Growth & innovation",
+    "summary": "Distinguish the core business, emerging opportunities and future ideas when planning a growth portfolio.",
+    "takeaway": "Keep attention on current performance while making room for opportunities at different stages.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 914,
+        "end": 925,
+        "heading": "The three horizons of growth"
+      }
+    ],
+    "steps": [
+      "Defend the core",
+      "Nurture emerging business",
+      "Explore future ideas"
+    ],
+    "related": [
+      "lean-startup",
+      "portfolio-bcg"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "cage-international",
+    "title": "CAGE: compare international market distance",
+    "group": "Growth & innovation",
+    "summary": "Examine cultural, administrative, geographic and economic differences before transferring a strategy across countries.",
+    "takeaway": "Compare specific country pairs and business requirements; distance is more than physical separation.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 451,
+        "end": 495,
+        "heading": "Four dimensions of distance"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 495,
+        "end": 536,
+        "heading": "Framework context and country-comparison notes"
+      }
+    ],
+    "steps": [
+      "Culture",
+      "Administration",
+      "Geography",
+      "Economics"
+    ],
+    "related": [
+      "pestle-analysis",
+      "growth-ansoff"
+    ],
+    "notes": [
+      "The China–India comparison contains undated generalizations and historical infrastructure or political assessments. It is preserved as source material, not a current country ranking.",
+      "The GE section’s “Alternative and International Market Segmentation” heading has no explanatory text; it is recorded as an incomplete source entry."
+    ]
+  },
+  {
+    "slug": "portfolio-bcg",
+    "title": "BCG matrix: balance growth and relative share",
+    "group": "Decisions & execution",
+    "summary": "Compare stars, cash cows, question marks and dogs, with investment options and the limitations of portfolio analysis.",
+    "takeaway": "Use the matrix to frame resource-allocation questions, not to make automatic divestment decisions.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 370,
+        "end": 408,
+        "heading": "The four portfolio positions"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 408,
+        "end": 451,
+        "heading": "Allocation, assumptions and limitations"
+      }
+    ],
+    "steps": [
+      "Define business units",
+      "Compare relative share",
+      "Assess market growth",
+      "Choose and review investments"
+    ],
+    "related": [
+      "portfolio-ge",
+      "strategic-business-units"
+    ],
+    "notes": [
+      "The source image labels relative share with a percent sign while its ticks are ratios such as 2×. The recreated visual uses relative-share ratios.",
+      "The assertion that profitability is directly determined by relative share is a simplifying source assumption, not a guaranteed relationship."
+    ]
+  },
+  {
+    "slug": "portfolio-ge",
+    "title": "GE matrix: weigh attractiveness against business strength",
+    "group": "Decisions & execution",
+    "summary": "Use multiple market and business factors to compare portfolio positions and possible investment directions.",
+    "takeaway": "Make factor definitions and judgments explicit; a nine-cell grid does not remove uncertainty.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 853,
+        "end": 889,
+        "heading": "Benefits, market attractiveness and business strength"
+      }
+    ],
+    "steps": [
+      "Define factors",
+      "Assess attractiveness",
+      "Assess strength",
+      "Compare investment choices"
+    ],
+    "related": [
+      "portfolio-bcg",
+      "strategy-evaluation"
+    ],
+    "notes": [
+      "The source names alternative/international market segmentation without explaining it. No missing method has been invented.",
+      "The sample bubbles lack numerical inputs; their positioning is illustrative, not a reproducible company valuation."
+    ]
+  },
+  {
+    "slug": "gap-analysis",
+    "title": "Gap analysis: turn a desired future into action",
+    "group": "Decisions & execution",
+    "summary": "Compare the present state with a target, prioritize gaps and consider unexploited strategic spaces.",
+    "takeaway": "A useful gap has a defined starting point, target and action to close it.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 836,
+        "end": 853,
+        "heading": "Closing performance gaps and identifying opportunities"
+      }
+    ],
+    "steps": [
+      "Define current state",
+      "Define target",
+      "Identify gaps",
+      "Prioritize action",
+      "Monitor progress"
+    ],
+    "related": [
+      "strategy-evaluation",
+      "swot-analysis"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "risk-management",
+    "title": "Risk management: prioritize uncertainty and response",
+    "group": "Decisions & execution",
+    "summary": "Identify risks, assess probability and impact, prioritize responses and revisit changing conditions.",
+    "takeaway": "A risk register should inform choices and resource allocation rather than become a static list.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 1284,
+        "end": 1292,
+        "heading": "Risk identification, ranking and response"
+      }
+    ],
+    "steps": [
+      "Identify",
+      "Assess",
+      "Prioritize",
+      "Respond",
+      "Monitor"
+    ],
+    "related": [
+      "scenario-planning",
+      "strategy-evaluation"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "strategy-evaluation",
+    "title": "Evaluate strategy: suitability, acceptability and feasibility",
+    "group": "Decisions & execution",
+    "summary": "Test strategic fit, stakeholder expectations and the practical ability to deliver, with detailed questions and funding considerations.",
+    "takeaway": "A strategically attractive option still needs acceptable outcomes and a credible delivery plan.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 1292,
+        "end": 1332,
+        "heading": "Suitability: strategic position and analytical tools"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1332,
+        "end": 1370,
+        "heading": "Suitability across directions and delivery methods"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1370,
+        "end": 1393,
+        "heading": "Acceptability: risk, return and stakeholder reactions"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1393,
+        "end": 1417,
+        "heading": "Feasibility: funding, people and operating systems"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1417,
+        "end": 1434,
+        "heading": "Business life-cycle funding and control"
+      }
+    ],
+    "steps": [
+      "Suitability",
+      "Acceptability",
+      "Feasibility",
+      "Review and control"
+    ],
+    "related": [
+      "balanced-scorecard",
+      "risk-management",
+      "stakeholder-management"
+    ],
+    "notes": [
+      "“SAFe” here means suitability, acceptability and feasibility; it is not the Scaled Agile Framework.",
+      "Life-cycle funding, dividends and risk labels are simplified teaching patterns rather than financing prescriptions."
+    ]
+  },
+  {
+    "slug": "scenario-planning",
+    "title": "Scenario planning: prepare for several futures",
+    "group": "Decisions & execution",
+    "summary": "Define a planning horizon, explore trends, build scenarios and identify external flags and internal triggers.",
+    "takeaway": "Scenarios support learning and contingent choices; they are not predictions with invented certainty.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 1443,
+        "end": 1452,
+        "heading": "An iterative scenario-planning process"
+      }
+    ],
+    "steps": [
+      "Frame the horizon",
+      "Explore trends",
+      "Build scenarios",
+      "Define choices",
+      "Monitor triggers"
+    ],
+    "related": [
+      "environmental-scanning",
+      "risk-management",
+      "ai-business-scenarios"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "swot-analysis",
+    "title": "SWOT: build an evidence-based strategic diagnosis",
+    "group": "Decisions & execution",
+    "summary": "Use detailed strength, weakness, opportunity and threat prompts, with benchmarking and common failure modes.",
+    "takeaway": "SWOT should summarize prior analysis and lead to prioritized choices—not replace evidence gathering.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 1457,
+        "end": 1481,
+        "heading": "Analysis, benchmarking and relative comparison"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1481,
+        "end": 1517,
+        "heading": "Strengths: diagnostic prompts and examples"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1517,
+        "end": 1551,
+        "heading": "Weaknesses: diagnostic prompts and examples"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1551,
+        "end": 1583,
+        "heading": "Opportunities: diagnostic prompts and examples"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1583,
+        "end": 1616,
+        "heading": "Threats: diagnostic prompts and examples"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1616,
+        "end": 1636,
+        "heading": "Using SWOT and avoiding common failures"
+      }
+    ],
+    "steps": [
+      "Gather evidence",
+      "Separate internal and external",
+      "Prioritize",
+      "Generate options"
+    ],
+    "related": [
+      "tows-options",
+      "pestle-analysis",
+      "vrio-resources"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "tows-options",
+    "title": "TOWS: turn SWOT findings into strategic options",
+    "group": "Decisions & execution",
+    "summary": "Connect internal and external findings using SO, ST, WO and WT options, with the supplied gym and pizza examples.",
+    "takeaway": "Make each proposed action traceable to the findings it addresses.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 1636,
+        "end": 1675,
+        "heading": "Virgin Active: source exercise"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1675,
+        "end": 1703,
+        "heading": "Domino’s Pizza: source exercise"
+      }
+    ],
+    "steps": [
+      "Strengths + opportunities",
+      "Strengths + threats",
+      "Weaknesses + opportunities",
+      "Weaknesses + threats"
+    ],
+    "related": [
+      "swot-analysis",
+      "strategy-evaluation"
+    ],
+    "notes": [
+      "Some example cross-references appear inconsistent: for example Domino’s S1+O1 mentions brand while S1 is franchise economics. The original pairings are retained and flagged rather than silently reassigned.",
+      "The company diagnoses are undated source exercises, not verified judgments about those businesses today.",
+      "The lower portion of the source TOWS image is cropped; visible text is preserved, with the missing endings explicitly marked."
+    ]
+  },
+  {
+    "slug": "balanced-scorecard",
+    "title": "Balanced scorecard: connect strategy to measures",
+    "group": "Decisions & execution",
+    "summary": "Link financial, customer, internal-process and learning objectives with indicators and initiatives.",
+    "takeaway": "Choose measures that reflect the strategy, and distinguish objectives, targets, indicators and actions.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 200,
+        "end": 222,
+        "heading": "Four perspectives and financial measures"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 222,
+        "end": 235,
+        "heading": "Customer measures"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 235,
+        "end": 250,
+        "heading": "Internal-process measures"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 250,
+        "end": 261,
+        "heading": "Learning and growth measures"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 261,
+        "end": 286,
+        "heading": "A retail scorecard example"
+      }
+    ],
+    "steps": [
+      "Define objectives",
+      "Set targets",
+      "Choose indicators",
+      "Assign initiatives",
+      "Review results"
+    ],
+    "related": [
+      "okr-goals",
+      "customer-feedback",
+      "strategy-evaluation"
+    ],
+    "notes": [
+      "The retail example proposes replacing staff as a learning-and-growth goal. This is retained as a source example, not endorsed as a development measure."
+    ]
+  },
+  {
+    "slug": "eos-operating-system",
+    "title": "EOS: connect vision, accountability and execution",
+    "group": "Decisions & execution",
+    "summary": "Explore the six components, meeting cadence, vision planning, quarterly priorities and the source’s toolbox inventory.",
+    "takeaway": "Connect longer-term direction with measurable priorities, issue solving and a repeatable review cadence.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 746,
+        "end": 771,
+        "heading": "The six components"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 771,
+        "end": 799,
+        "heading": "Implementation and planning cadence"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 799,
+        "end": 823,
+        "heading": "Vision organizer and toolbox inventory"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 823,
+        "end": 836,
+        "heading": "Meeting pulse and accountability"
+      }
+    ],
+    "steps": [
+      "Vision",
+      "People",
+      "Data",
+      "Issues",
+      "Process",
+      "Traction"
+    ],
+    "related": [
+      "okr-goals",
+      "high-performance-teams"
+    ],
+    "notes": [
+      "Several toolbox entries are names only, including LMA, GWC, 5-5-5, Kolbe and the assistance track. They remain explicitly undeveloped source entries.",
+      "EOS terminology and tools belong to their respective owners; this educational guide is not an official implementation manual."
+    ]
+  },
+  {
+    "slug": "high-performance-teams",
+    "title": "Build a high-performance team and culture",
+    "group": "Leadership & organizational change",
+    "summary": "Connect shared vision, belonging, behavior, resources, clear roles, communication and leadership.",
+    "takeaway": "Team performance depends on both the conditions for collaboration and the clarity to deliver results.",
+    "ranges": [
+      {
+        "document": "Other Management.docx",
+        "start": 0,
+        "end": 48,
+        "heading": "Shared vision, organizational conditions and culture"
+      },
+      {
+        "document": "Other Management.docx",
+        "start": 48,
+        "end": 71,
+        "heading": "Team structure, relationships and communication"
+      },
+      {
+        "document": "Other Management.docx",
+        "start": 71,
+        "end": 84,
+        "heading": "Success principles and reflective prompts"
+      }
+    ],
+    "steps": [
+      "Build shared purpose",
+      "Clarify roles",
+      "Support delivery",
+      "Coach and communicate"
+    ],
+    "related": [
+      "organizational-alignment",
+      "eos-operating-system"
+    ],
+    "notes": [
+      "The quotations and their attributions are preserved as supplied; original publication references were not provided."
+    ]
+  },
+  {
+    "slug": "organizational-alignment",
+    "title": "McKinsey 7S: check organizational alignment",
+    "group": "Leadership & organizational change",
+    "summary": "Review strategy, structure, systems, skills, style, staff and shared values as connected elements.",
+    "takeaway": "Changing strategy may require changes in people, systems and organizational design.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 925,
+        "end": 935,
+        "heading": "Seven elements and alignment prompts"
+      }
+    ],
+    "steps": [
+      "Assess seven elements",
+      "Identify inconsistencies",
+      "Plan coordinated change"
+    ],
+    "related": [
+      "change-kotter",
+      "high-performance-teams",
+      "promise-integration"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "change-kotter",
+    "title": "Kotter: build support and sustain change",
+    "group": "Leadership & organizational change",
+    "summary": "Follow the source’s eight-step change sequence from urgency and coalition to sustained organizational practice.",
+    "takeaway": "A change initiative needs participation, visible progress and reinforcement over time.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 889,
+        "end": 904,
+        "heading": "Benefits and the eight-step sequence"
+      }
+    ],
+    "steps": [
+      "Create urgency",
+      "Build coalition",
+      "Set vision",
+      "Communicate",
+      "Enable action",
+      "Create wins",
+      "Build momentum",
+      "Embed change"
+    ],
+    "related": [
+      "change-responses",
+      "organizational-alignment"
+    ],
+    "notes": [
+      "This page retains the traditional eight-step wording supplied in the notes. The official methodology has evolved; the further-reading link explains its current presentation."
+    ]
+  },
+  {
+    "slug": "change-responses",
+    "title": "Responding to change: emotion, engagement and support",
+    "group": "Leadership & organizational change",
+    "summary": "Separate the emotional stages listed as SARAH from the accompanying empower, engage and equip prompts.",
+    "takeaway": "Use emotional-response models as prompts for listening, not as a fixed sequence everyone must follow.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 1434,
+        "end": 1443,
+        "heading": "Emotional responses and support questions"
+      }
+    ],
+    "steps": [
+      "Listen",
+      "Engage",
+      "Equip",
+      "Empower"
+    ],
+    "related": [
+      "change-kotter",
+      "high-performance-teams"
+    ],
+    "notes": [
+      "The PwC attribution and the connection between SARAH and the sustainability prompts are not established by the source. They are kept separate in the presentation."
+    ]
+  },
+  {
+    "slug": "promise-integration",
+    "title": "PROMISE: examine people and culture in integration",
+    "group": "Leadership & organizational change",
+    "summary": "Explore development, rewards, leadership, systems, innovation, strategic direction and employee experience across organizations.",
+    "takeaway": "Integration decisions need attention to how people actually work, not only to structural fit.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 1227,
+        "end": 1234,
+        "heading": "People and professional development"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1234,
+        "end": 1239,
+        "heading": "Rewards and consequences"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1239,
+        "end": 1245,
+        "heading": "Organization and leadership"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1245,
+        "end": 1251,
+        "heading": "Management systems"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1251,
+        "end": 1257,
+        "heading": "Innovation and critical thinking"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1257,
+        "end": 1263,
+        "heading": "Strategic future"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1263,
+        "end": 1269,
+        "heading": "Employee experience"
+      }
+    ],
+    "steps": [
+      "Compare practices",
+      "Identify incompatibilities",
+      "Agree integration actions",
+      "Track employee experience"
+    ],
+    "related": [
+      "growth-methods",
+      "organizational-alignment"
+    ],
+    "notes": [
+      "The notes do not identify an original author or publication for this PROMISE framework. It is presented as the collection’s integration checklist."
+    ]
+  },
+  {
+    "slug": "digital-maturity",
+    "title": "Digital maturity: assess more than technology",
+    "group": "Leadership & organizational change",
+    "summary": "Consider culture, customers, strategy, technology and operations when reviewing digital transformation.",
+    "takeaway": "Technology adoption alone does not establish organizational maturity.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 687,
+        "end": 695,
+        "heading": "Five dimensions of maturity"
+      }
+    ],
+    "steps": [
+      "Culture",
+      "Customers",
+      "Strategy",
+      "Technology",
+      "Operations"
+    ],
+    "related": [
+      "dynamic-capabilities",
+      "organizational-alignment"
+    ],
+    "notes": [
+      "The notes attribute the model to Deloitte but provide no scoring rubric, maturity levels or source edition; no assessment score has been invented."
+    ]
+  },
+  {
+    "slug": "stakeholder-management",
+    "title": "Stakeholders: interests, influence and responsibility",
+    "group": "Leadership & organizational change",
+    "summary": "Understand stakeholder relationships through descriptive, instrumental and normative perspectives.",
+    "takeaway": "Identify whose interests and expectations a strategic decision affects.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 1452,
+        "end": 1457,
+        "heading": "The stakeholder model and its perspectives"
+      }
+    ],
+    "steps": [
+      "Identify stakeholders",
+      "Understand interests",
+      "Assess influence",
+      "Plan engagement"
+    ],
+    "related": [
+      "strategy-evaluation",
+      "negotiation-principled"
+    ],
+    "notes": [
+      "The three perspectives are named but not developed in the source. This short guide identifies that limit."
+    ]
+  },
+  {
+    "slug": "customer-feedback",
+    "title": "Customer feedback: NPS and learning loops",
+    "group": "Decisions & execution",
+    "summary": "Distinguish individual coaching, team problem solving and systemic improvement in the feedback-loop notes.",
+    "takeaway": "Collecting customer feedback has value when it changes behavior and resolves recurring issues.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 935,
+        "end": 943,
+        "heading": "Individual, team and systemic learning loops"
+      }
+    ],
+    "steps": [
+      "Individual learning",
+      "Team huddle",
+      "Systemic improvement"
+    ],
+    "related": [
+      "balanced-scorecard",
+      "critical-success-factors"
+    ],
+    "notes": [
+      "The source names Net Promoter Score but gives no survey scale or calculation formula. Those missing details have not been invented."
+    ]
+  },
+  {
+    "slug": "negotiation-distributive",
+    "title": "Distributive negotiation: targets, limits and concessions",
+    "group": "Negotiation",
+    "summary": "Prepare target and resistance points, assess the other party’s position and plan concessions.",
+    "takeaway": "Understand your limits before bargaining over a finite allocation.",
+    "ranges": [
+      {
+        "document": "Other Management.docx",
+        "start": 84,
+        "end": 92,
+        "heading": "The distributive model"
+      }
+    ],
+    "steps": [
+      "Set a target",
+      "Define a walk-away point",
+      "Assess the other party",
+      "Plan concessions"
+    ],
+    "related": [
+      "negotiation-principled",
+      "negotiation-strategy"
+    ],
+    "notes": [
+      "“Enlarge the pie” appears in the distributive notes but belongs to value-creation thinking; it is identified as a complementary move rather than the defining distributive mechanism."
+    ]
+  },
+  {
+    "slug": "negotiation-principled",
+    "title": "Principled negotiation: interests, options and BATNA",
+    "group": "Negotiation",
+    "summary": "Combine the overlapping Harvard and principled-negotiation notes while preserving their distinct prompts.",
+    "takeaway": "Separate people from the problem and compare possible agreements with your best available alternative.",
+    "ranges": [
+      {
+        "document": "Other Management.docx",
+        "start": 92,
+        "end": 107,
+        "heading": "Harvard approach and BATNA"
+      },
+      {
+        "document": "Other Management.docx",
+        "start": 121,
+        "end": 132,
+        "heading": "Principled negotiation and fair outcomes"
+      }
+    ],
+    "steps": [
+      "Separate people and problem",
+      "Explore interests",
+      "Create options",
+      "Use objective criteria",
+      "Know alternatives"
+    ],
+    "related": [
+      "negotiation-distributive",
+      "negotiation-process"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "negotiation-strategy",
+    "title": "Negotiation strategy: avoid common traps",
+    "group": "Negotiation",
+    "summary": "Review preparation, cultural differences, anchoring, leverage, team alignment and implementation risks.",
+    "takeaway": "Negotiate the whole agreement, including non-price terms and the work needed after agreement.",
+    "ranges": [
+      {
+        "document": "Other Management.docx",
+        "start": 107,
+        "end": 121,
+        "heading": "Planning, behavior and implementation pitfalls"
+      }
+    ],
+    "steps": [
+      "Prepare",
+      "Check assumptions",
+      "Align your team",
+      "Plan implementation"
+    ],
+    "related": [
+      "negotiation-principled",
+      "negotiation-process"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "negotiation-process",
+    "title": "Negotiation from preparation to follow-through",
+    "group": "Negotiation",
+    "summary": "Compare the RADPAC relationship sequence with a practical preparation, bargaining and evaluation process.",
+    "takeaway": "Closing an agreement is followed by implementation and learning, not the end of the work.",
+    "ranges": [
+      {
+        "document": "Other Management.docx",
+        "start": 132,
+        "end": 146,
+        "heading": "RADPAC: rapport through close"
+      },
+      {
+        "document": "Other Management.docx",
+        "start": 146,
+        "end": 154,
+        "heading": "Preparation through evaluation"
+      }
+    ],
+    "steps": [
+      "Prepare",
+      "Build rapport",
+      "Clarify interests",
+      "Develop proposals",
+      "Agree",
+      "Evaluate"
+    ],
+    "related": [
+      "negotiation-principled",
+      "negotiation-strategy"
+    ],
+    "notes": [
+      "The source introduction describes organizational change rather than negotiation. It is preserved as a mislabeled sentence and excluded from the recommended process."
+    ]
+  },
+  {
+    "slug": "personal-productivity",
+    "title": "Personal productivity: capture tasks and build habits",
+    "group": "Productivity & priorities",
+    "summary": "Explore the two-minute rule, GTD, a daily habit chain, Parkinson’s Law and the big-rocks approach.",
+    "takeaway": "Use a reliable task system and protect time for important work; no single rule fits every task.",
+    "ranges": [
+      {
+        "document": "Other Management.docx",
+        "start": 154,
+        "end": 166,
+        "heading": "Quick tasks and Getting Things Done"
+      },
+      {
+        "document": "Other Management.docx",
+        "start": 286,
+        "end": 289,
+        "heading": "Daily consistency"
+      },
+      {
+        "document": "Other Management.docx",
+        "start": 300,
+        "end": 304,
+        "heading": "Time limits and Parkinson’s Law"
+      },
+      {
+        "document": "Other Management.docx",
+        "start": 326,
+        "end": 333,
+        "heading": "Big rocks and the pickle-jar metaphor"
+      }
+    ],
+    "steps": [
+      "Capture",
+      "Clarify",
+      "Prioritize",
+      "Schedule",
+      "Review"
+    ],
+    "related": [
+      "prioritization-methods",
+      "kanban-workflow"
+    ],
+    "notes": [
+      "The habit-chain attribution to Jerry Seinfeld is supplied without an original reference.",
+      "Parkinson’s Law is a heuristic; less time does not automatically mean better results."
+    ]
+  },
+  {
+    "slug": "kanban-workflow",
+    "title": "Kanban: visualize work and limit work in progress",
+    "group": "Productivity & priorities",
+    "summary": "Use a visible workflow, work-in-progress limits, flow management and continuous improvement.",
+    "takeaway": "Make bottlenecks visible before starting more work.",
+    "ranges": [
+      {
+        "document": "Other Management.docx",
+        "start": 166,
+        "end": 175,
+        "heading": "Four Kanban practices"
+      }
+    ],
+    "steps": [
+      "Visualize",
+      "Limit WIP",
+      "Manage flow",
+      "Improve"
+    ],
+    "related": [
+      "personal-productivity",
+      "okr-goals"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "okr-goals",
+    "title": "OKRs and SMART goals: connect ambition to outcomes",
+    "group": "Productivity & priorities",
+    "summary": "Compare objectives and measurable key results with SMART criteria for defining clear goals.",
+    "takeaway": "Describe the outcome you want and the evidence that will show progress.",
+    "ranges": [
+      {
+        "document": "Other Management.docx",
+        "start": 175,
+        "end": 184,
+        "heading": "Objectives and key results"
+      },
+      {
+        "document": "Other Management.docx",
+        "start": 304,
+        "end": 316,
+        "heading": "SMART goal criteria"
+      }
+    ],
+    "steps": [
+      "Define the objective",
+      "Choose measurable outcomes",
+      "Check realism and relevance",
+      "Set timing",
+      "Review"
+    ],
+    "related": [
+      "balanced-scorecard",
+      "eos-operating-system"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "pareto-priorities",
+    "title": "Pareto: find the few factors with the greatest impact",
+    "group": "Productivity & priorities",
+    "summary": "Explore the 80/20 heuristic with all the supplied individual, team and company examples.",
+    "takeaway": "Investigate concentration in your own evidence; an exact 80/20 split is not a law.",
+    "ranges": [
+      {
+        "document": "Other Management.docx",
+        "start": 184,
+        "end": 193,
+        "heading": "Analyzing impact and concentrating effort"
+      },
+      {
+        "document": "Other Management.docx",
+        "start": 193,
+        "end": 224,
+        "heading": "Individual applications"
+      },
+      {
+        "document": "Other Management.docx",
+        "start": 224,
+        "end": 255,
+        "heading": "Team applications"
+      },
+      {
+        "document": "Other Management.docx",
+        "start": 255,
+        "end": 286,
+        "heading": "Company applications"
+      }
+    ],
+    "steps": [
+      "Measure impact",
+      "Identify concentration",
+      "Prioritize",
+      "Review trade-offs"
+    ],
+    "related": [
+      "prioritization-methods",
+      "critical-success-factors"
+    ],
+    "notes": [
+      "The final instruction in the source is incomplete (“with lower…”). It remains flagged as unfinished.",
+      "The relationships, health and investment examples are illustrations of the notes’ heuristic, not measured ratios or personalized advice."
+    ]
+  },
+  {
+    "slug": "prioritization-methods",
+    "title": "Prioritization: urgency, scope, value and complexity",
+    "group": "Productivity & priorities",
+    "summary": "Compare Eisenhower, MoSCoW and a value–complexity matrix for different prioritization questions.",
+    "takeaway": "Choose the framework that matches the decision: time, delivery scope or implementation trade-off.",
+    "ranges": [
+      {
+        "document": "Other Management.docx",
+        "start": 289,
+        "end": 300,
+        "heading": "MoSCoW: delivery scope"
+      },
+      {
+        "document": "Other Management.docx",
+        "start": 316,
+        "end": 326,
+        "heading": "Eisenhower: urgency and importance"
+      },
+      {
+        "document": "Strategic Management.docx",
+        "start": 1821,
+        "end": 1833,
+        "heading": "Value versus implementation complexity"
+      }
+    ],
+    "steps": [
+      "Define the decision",
+      "Compare criteria",
+      "Choose priorities",
+      "Review capacity"
+    ],
+    "related": [
+      "pareto-priorities",
+      "personal-productivity",
+      "okr-goals"
+    ],
+    "notes": [
+      "The final value–complexity quadrant repeats low complexity. The visual marks low-value/high-complexity work as an editorial reconstruction, while retaining the original wording below.",
+      "MoSCoW’s “Won’t have” means outside the agreed timeframe, not necessarily excluded forever."
+    ]
+  }
+]

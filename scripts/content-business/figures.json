@@ -1,0 +1,576 @@
+[
+  {
+    "document": "Strategy.docx",
+    "image": "word/media/image1.jpeg",
+    "slug": "strategy-perspectives",
+    "title": "Planned strategy: decide, implement and review",
+    "kind": "flow",
+    "headers": [],
+    "rows": [
+      [
+        "Analyze the environment and resources"
+      ],
+      [
+        "Define vision, mission and objectives"
+      ],
+      [
+        "Develop strategic options 1, 2, 3—or more"
+      ],
+      [
+        "Choose from the options"
+      ],
+      [
+        "Implement the chosen option"
+      ],
+      [
+        "Monitor and control over the long term; feed results back to both analyses"
+      ]
+    ],
+    "note": ""
+  },
+  {
+    "document": "Strategy.docx",
+    "image": "word/media/image2.jpeg",
+    "slug": "strategy-perspectives",
+    "title": "Emergent strategy: experiment and adapt",
+    "kind": "flow",
+    "headers": [],
+    "rows": [
+      [
+        "Analyze the environment and resources together"
+      ],
+      [
+        "Set vision, mission and objectives without fixing them permanently"
+      ],
+      [
+        "Develop and trial various options"
+      ],
+      [
+        "Experiment, learn and adjust; feed learning back to the environment and resource analyses"
+      ]
+    ],
+    "note": ""
+  },
+  {
+    "document": "Strategy.docx",
+    "image": "word/media/image3.jpeg",
+    "slug": "competitive-positioning",
+    "title": "Generic strategies: scope and advantage",
+    "kind": "matrix",
+    "headers": [
+      "Competitive scope",
+      "Lower cost",
+      "Differentiation"
+    ],
+    "rows": [
+      [
+        "Broad target",
+        "Cost leadership",
+        "Differentiation"
+      ],
+      [
+        "Narrow target",
+        "Cost focus",
+        "Differentiation focus"
+      ]
+    ],
+    "note": ""
+  },
+  {
+    "document": "Strategy.docx",
+    "image": "word/media/image4.jpeg",
+    "slug": "competitive-positioning",
+    "title": "Strategy clock: price and perceived benefits",
+    "kind": "matrix",
+    "headers": [
+      "Position in the source diagram",
+      "Price and perceived benefit"
+    ],
+    "rows": [
+      [
+        "Hybrid (3)",
+        "Lower price with higher perceived benefit"
+      ],
+      [
+        "Differentiation (1)",
+        "Higher perceived benefit; price varies within the differentiated region"
+      ],
+      [
+        "Low price (2)",
+        "Lower price with lower perceived benefit"
+      ],
+      [
+        "Non-competitive (4)",
+        "Higher price without sufficient perceived benefit"
+      ]
+    ],
+    "note": "The source uses four broad regions, not the full eight-position clock. Price runs low to high horizontally; perceived product/service benefits run low to high vertically. Region numbers follow the supplied diagram."
+  },
+  {
+    "document": "Strategy.docx",
+    "image": "word/media/image5.jpeg",
+    "slug": "strategic-groups",
+    "title": "Automobile strategic groups: historical teaching map",
+    "kind": "matrix",
+    "headers": [
+      "Product range",
+      "National or regional scope",
+      "Global scope"
+    ],
+    "rows": [
+      [
+        "Broad",
+        "Regionally focused broad-line producers: Fiat, PSA, Renault, Rover, Chrysler",
+        "Global broad-line producers: GM"
+      ],
+      [
+        "Intermediate",
+        "Nationally focused intermediate-line producers: Tofas, Vaz, Maruti",
+        "Global suppliers of a narrow model range: Volvo, Subaru, Isuzu, Suzuki, Saab"
+      ],
+      [
+        "Narrow",
+        "Nationally focused small specialists: Bristol (UK), Classic Roadsters (USA), Morgan (UK)",
+        "Luxury manufacturers: Jaguar, Rolls-Royce, Daimler-Benz, BMW"
+      ]
+    ],
+    "note": "The axes are product range (narrow to broad) and geographic scope (national to global). These are undated source examples, not current brand classifications."
+  },
+  {
+    "document": "Strategy.docx",
+    "image": "word/media/image6.jpeg",
+    "slug": "core-competencies",
+    "title": "From resources to competitive advantage",
+    "kind": "flow",
+    "headers": [],
+    "rows": [
+      [
+        "Resources: tangible and intangible"
+      ],
+      [
+        "Capabilities: teams of resources"
+      ],
+      [
+        "Core competencies: sources of competitive advantage"
+      ],
+      [
+        "Discover core competencies through value-chain analysis and sustainable-advantage criteria"
+      ],
+      [
+        "Evaluate value, rarity, inimitability and non-substitutability"
+      ],
+      [
+        "Competitive advantage gained through core competencies"
+      ]
+    ],
+    "note": "The four criteria in this source figure are VRIN; the separate VRIO guide explains organizational support."
+  },
+  {
+    "document": "Strategic Management.docx",
+    "image": "word/media/image1.jpeg",
+    "slug": "strategic-management-cycle",
+    "title": "Strategic management: three connected activities",
+    "kind": "cards",
+    "headers": [
+      "Activity",
+      "What it connects"
+    ],
+    "rows": [
+      [
+        "Strategic analysis",
+        "The environment, industry/task environment, and resources and capabilities"
+      ],
+      [
+        "Strategic choices",
+        "Generate strategic options, evaluate options and select options"
+      ],
+      [
+        "Strategic implementation",
+        "Resource planning, organization structure and design, and managing strategic change"
+      ]
+    ],
+    "note": ""
+  },
+  {
+    "document": "Strategic Management.docx",
+    "image": "word/media/image2.jpeg",
+    "slug": "environmental-scanning",
+    "title": "Layers and methods of environmental analysis",
+    "kind": "cards",
+    "headers": [
+      "Layer or method",
+      "Source detail"
+    ],
+    "rows": [
+      [
+        "Layers",
+        "Macro environment → industry or sector → competitors and markets → the organization"
+      ],
+      [
+        "PESTLE analysis",
+        "Market and non-market influences"
+      ],
+      [
+        "Forecasting: prediction emphasis",
+        "Megatrends, inflection points and weak signals"
+      ],
+      [
+        "Scenario analysis: learning emphasis",
+        "Explore plausible alternative conditions"
+      ]
+    ],
+    "note": ""
+  },
+  {
+    "document": "Strategic Management.docx",
+    "image": "word/media/image3.jpeg",
+    "slug": "growth-ansoff",
+    "title": "Product–market growth choices",
+    "kind": "matrix",
+    "headers": [
+      "Market",
+      "Existing products",
+      "New products"
+    ],
+    "rows": [
+      [
+        "Existing markets",
+        "Market penetration: increase purchasing and usage; gain customers from competitors; convert non-users in the same segment",
+        "Product development: modify features, vary quality levels, or introduce a new product"
+      ],
+      [
+        "New markets",
+        "Market development: new segments, distribution channels or geographies, including exports",
+        "Diversification: diversification strategy, joint ventures, mergers, acquisitions/takeovers"
+      ]
+    ],
+    "note": "The source recommends sequential execution on logical and economic grounds: current markets may still have growth potential, and later moves may raise risk and cost. This is a source recommendation, not a universal rule. It also lists downsizing: remove unprofitable products or business units, or those no longer fitting overall strategy."
+  },
+  {
+    "document": "Strategic Management.docx",
+    "image": "word/media/image4.jpeg",
+    "slug": "diversification-integration",
+    "title": "Airline relationships in the source example",
+    "kind": "cards",
+    "headers": [
+      "Source relationship",
+      "Named entities"
+    ],
+    "rows": [
+      [
+        "Central business",
+        "Singapore Airlines"
+      ],
+      [
+        "Backward integration",
+        "SIA Engineering Company"
+      ],
+      [
+        "Horizontal relationship",
+        "Star Alliance"
+      ],
+      [
+        "Integration",
+        "SilkAir / Scoot"
+      ],
+      [
+        "Forward integration",
+        "Tradewinds Tour"
+      ]
+    ],
+    "note": "Historical source diagram. An alliance is a form of cooperation and does not itself establish ownership integration. The notes give no date or ownership evidence for these relationships."
+  },
+  {
+    "document": "Strategic Management.docx",
+    "image": "word/media/image5.jpeg",
+    "slug": "diversification-integration",
+    "title": "Diversification and performance: a conceptual curve",
+    "kind": "cards",
+    "headers": [
+      "Axis or region",
+      "Meaning shown in the source"
+    ],
+    "rows": [
+      [
+        "Vertical axis",
+        "Performance: low to high"
+      ],
+      [
+        "Horizontal axis",
+        "Undiversified → related limited diversification → unrelated extensive diversification"
+      ],
+      [
+        "Curve",
+        "Performance rises toward related limited diversification and then falls toward unrelated extensive diversification"
+      ]
+    ],
+    "note": "No observations, units, dates or coefficients are supplied. This is an illustrative relationship, not an empirical estimate or a universal optimum."
+  },
+  {
+    "document": "Strategic Management.docx",
+    "image": "word/media/image6.jpeg",
+    "slug": "balanced-scorecard",
+    "title": "A balanced set of performance indicators",
+    "kind": "cards",
+    "headers": [
+      "Perspective",
+      "Source indicator examples"
+    ],
+    "rows": [
+      [
+        "Customer",
+        "Customer satisfaction; retention; net promoter score; market share; on-time delivery rate"
+      ],
+      [
+        "Financial",
+        "Profitability; leverage; debt coverage; growth; activity"
+      ],
+      [
+        "Internal",
+        "Inventory turnover; production lead times; time to market; defect ratio; productivity per full-time equivalent"
+      ],
+      [
+        "Education and learning",
+        "Job satisfaction; employee turnover; employee engagement; training hours per full-time equivalent; number of patents"
+      ]
+    ],
+    "note": ""
+  },
+  {
+    "document": "Strategic Management.docx",
+    "image": "word/media/image7.jpeg",
+    "slug": "blue-ocean",
+    "title": "Strategy canvas: source material unavailable",
+    "kind": "missing",
+    "headers": [],
+    "rows": [],
+    "note": "The embedded image contains only a rendering-error message. It supplies no recoverable strategy-canvas factors or plotted values. The original image is retained with the source archive; the guide explains the concept without inventing a chart."
+  },
+  {
+    "document": "Strategic Management.docx",
+    "image": "word/media/image8.jpeg",
+    "slug": "portfolio-bcg",
+    "title": "BCG growth–share positions and cash flow",
+    "kind": "matrix",
+    "headers": [
+      "Market growth",
+      "Higher relative share",
+      "Lower relative share"
+    ],
+    "rows": [
+      [
+        "High",
+        "Star: modest positive/negative cash flow",
+        "Question mark/problem child: large negative cash flow"
+      ],
+      [
+        "Low",
+        "Cash cow: large positive cash flow",
+        "Dog: modest positive/negative cash flow"
+      ]
+    ],
+    "note": "The source’s growth scale is 0, 5, 10, 15 and 20%; relative-share ticks are 10×, 5×, 2×, 1×, 0.5×, 0.2× and 0.1×, from high to low. It describes moving cash from mature cash cows to promising stars and question marks, hoping to create future cash cows. For each unit, consider build, hold, harvest or divest. No company values are supplied."
+  },
+  {
+    "document": "Strategic Management.docx",
+    "image": "word/media/image9.jpeg",
+    "slug": "portfolio-ge",
+    "title": "GE sample portfolio: illustrative business positions",
+    "kind": "cards",
+    "headers": [
+      "Unit",
+      "Approximate location in the source image"
+    ],
+    "rows": [
+      [
+        "SBU 1",
+        "Between high and medium attractiveness; between strong and medium competitive position"
+      ],
+      [
+        "SBU 2",
+        "Medium attractiveness; between medium and low competitive position"
+      ],
+      [
+        "SBU 3",
+        "Low attractiveness; strong competitive position"
+      ],
+      [
+        "SBU 4",
+        "High attractiveness; low competitive position"
+      ]
+    ],
+    "note": "Market attractiveness runs low to high vertically; competitive position runs strong, medium, low horizontally. The source says each pie represents company market share, but provides neither numeric shares nor a sizing scale. Approximate locations are qualitative readings of the drawing, not scored results."
+  },
+  {
+    "document": "Strategic Management.docx",
+    "image": "word/media/image10.jpeg",
+    "slug": "portfolio-ge",
+    "title": "GE nine-cell investment directions",
+    "kind": "matrix",
+    "headers": [
+      "Market attractiveness",
+      "Strong position",
+      "Medium position",
+      "Low position"
+    ],
+    "rows": [
+      [
+        "High",
+        "Invest for growth: primary market",
+        "Invest to build: secondary market",
+        "Build selectively: tertiary market"
+      ],
+      [
+        "Medium",
+        "Build selectively: secondary market",
+        "Develop selectively for income/earnings: tertiary market",
+        "Limited expansion or harvest"
+      ],
+      [
+        "Low",
+        "Protect and refocus: tertiary market",
+        "Harvest",
+        "Divest"
+      ]
+    ],
+    "note": "These are the source’s decision labels. They frame discussion rather than prescribe a decision without further analysis."
+  },
+  {
+    "document": "Strategic Management.docx",
+    "image": "word/media/image11.jpeg",
+    "slug": "five-forces",
+    "title": "Source examples: positioning responses to five forces",
+    "kind": "cards",
+    "headers": [
+      "Force",
+      "Responses described in the source"
+    ],
+    "rows": [
+      [
+        "New entrants",
+        "Positioning: entering at large scale may improve cost competitiveness, but learning takes time. Differentiation: new products must surpass proven products or offer equivalent performance at lower prices."
+      ],
+      [
+        "Suppliers",
+        "A low-cost position may absorb input increases and enable large purchases. Differentiation may support margins and passing on supplier increases when buyers remain brand-loyal."
+      ],
+      [
+        "Buyers",
+        "Cost leadership and price reductions may weaken rivals and alter bargaining power. Differentiated products may reduce customer price sensitivity."
+      ],
+      [
+        "Rivalry",
+        "Avoiding price wars may support industry profits. Brand loyalty may reduce price-based competition."
+      ],
+      [
+        "Substitutes",
+        "The source suggests investing in substitutes first, acquiring relevant patents and lowering prices to maintain value; it also suggests brand loyalty can reduce trial and switching."
+      ]
+    ],
+    "note": "These are contextual hypotheses from the notes, not guaranteed outcomes or recommended transactions. The source’s label “consumers” is interpreted here as buyers."
+  },
+  {
+    "document": "Strategic Management.docx",
+    "image": "word/media/image12.jpeg",
+    "slug": "strategy-evaluation",
+    "title": "Strategic control: compare results and adapt",
+    "kind": "flow",
+    "headers": [],
+    "rows": [
+      [
+        "Review uncontrollable environmental variables"
+      ],
+      [
+        "Assess controllable strategy variables and effectiveness"
+      ],
+      [
+        "Observe the transformation process"
+      ],
+      [
+        "Measure outputs: market share, profitability and image"
+      ],
+      [
+        "Compare actual results with standards and targets; analyze variance"
+      ],
+      [
+        "Take corrective action and reassess suitability, acceptability and feasibility"
+      ]
+    ],
+    "note": "Control reviews the environment, checks progress toward objectives, monitors developments requiring changed plans, and feeds learning into strategy."
+  },
+  {
+    "document": "Strategic Management.docx",
+    "image": "word/media/image13.jpeg",
+    "slug": "tows-options",
+    "title": "TOWS: match internal and external factors",
+    "kind": "matrix",
+    "headers": [
+      "External factor",
+      "Strengths",
+      "Weaknesses"
+    ],
+    "rows": [
+      [
+        "Opportunities",
+        "SO: use strengths to take advantage of opportunities. Source label: aggressive/growth-oriented strategy for a favorable match.",
+        "WO: overcome weaknesses to pursue opportunities. Source label: turnaround strategy; the final phrase in this image is cropped."
+      ],
+      [
+        "Threats",
+        "ST: use strengths to avoid threats. Source label: diversification strategy, using current strengths to build long-term opportunities; the ending is cropped.",
+        "WT: minimize weaknesses and avoid threats. Source label: defensive strategy; the ending about direct involvement in product markets is cropped."
+      ]
+    ],
+    "note": "The labels are source interpretations, not exclusive strategic prescriptions. Missing cropped words have not been reconstructed."
+  },
+  {
+    "document": "Strategic Management.docx",
+    "image": "word/media/image14.jpeg",
+    "slug": "value-chain",
+    "title": "Value chain: support and primary activities",
+    "kind": "cards",
+    "headers": [
+      "Activity",
+      "Examples in the source image"
+    ],
+    "rows": [
+      [
+        "Firm infrastructure",
+        "General management, accounting, finance and strategic planning"
+      ],
+      [
+        "Human resource management",
+        "Recruiting, training and development"
+      ],
+      [
+        "Technology development",
+        "Research and development; product and process improvement"
+      ],
+      [
+        "Procurement",
+        "Purchasing raw materials, machines and supplies"
+      ],
+      [
+        "Inbound logistics",
+        "Raw-material handling and warehousing"
+      ],
+      [
+        "Production and operations",
+        "Machining, assembling and testing"
+      ],
+      [
+        "Outbound logistics",
+        "Warehousing and distribution of finished products"
+      ],
+      [
+        "Marketing and sales",
+        "Advertising, promotion, pricing and channel relationships"
+      ],
+      [
+        "Service",
+        "Installation, repair and parts"
+      ]
+    ],
+    "note": "The original places the first four as support activities above the five primary activities, with a profit-margin arrow spanning the chain. The text-based reconstruction retains the distinction without an oversized image."
+  }
+]

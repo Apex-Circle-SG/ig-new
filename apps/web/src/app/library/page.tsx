@@ -30,6 +30,9 @@ export default async function LibraryPage({ searchParams }: { searchParams: Prom
       <Link href="/library/knowledge/ai-learning-hub/" className={styles.aiFeature}>
         <div><span className={styles.eyebrow}>FEATURED LEARNING HUB</span><h2>Make sense of AI<span>.</span></h2><p>Explore the ideas, mathematics and practical decisions behind AI, one clear guide at a time.</p><strong>Explore the AI learning hub →</strong></div><div className={styles.aiFeatureMark} aria-hidden="true">✳</div>
       </Link>
+      <Link href="/library/knowledge/business-management/" className={styles.aiFeature}>
+        <div><span className={styles.eyebrow}>BUSINESS &amp; MANAGEMENT</span><h2>From insight to action<span>.</span></h2><p>Explore strategy, competition, leadership and negotiation, with detailed notes and visual explanations.</p><strong>Explore the Business &amp; Management hub →</strong></div><div className={styles.aiFeatureMark} aria-hidden="true">↗</div>
+      </Link>
       <KnowledgeList articles={articles} />
       <LibraryDirectory tools={tools} initialCategory={params.tools} />
     </main>
