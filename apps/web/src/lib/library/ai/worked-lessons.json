@@ -1,0 +1,305 @@
+[
+  {
+    "slug": "ai-matrix-multiplication",
+    "title": "Matrix multiplication, one cell at a time",
+    "intro": "Learn how input features and weights combine, then apply the same operation to a batch.",
+    "formula": "Cᵢⱼ = Σₖ Aᵢₖ Bₖⱼ",
+    "steps": [
+      {
+        "title": "Check the dimensions",
+        "body": "A has two rows and three columns: [[1, 2, 0], [−1, 1, 3]]. B has three rows and two columns: [[2, 0], [1, 4], [3, −1]]. The inner dimensions match, so C has two rows and two columns."
+      },
+      {
+        "title": "Calculate each dot product",
+        "body": "C₁₁ = 1×2 + 2×1 + 0×3 = 4. C₁₂ = 1×0 + 2×4 + 0×(−1) = 8. C₂₁ = −1×2 + 1×1 + 3×3 = 8. C₂₂ = −1×0 + 1×4 + 3×(−1) = 1."
+      },
+      {
+        "title": "Read the result",
+        "body": "C = [[4, 8], [8, 1]]. Each output cell combines one row of A and one column of B. A neural-network layer repeats this pattern with learned weights."
+      },
+      {
+        "title": "Add bias and batch inputs",
+        "body": "With examples stored as columns, a dense layer can use Y = WX + b, broadcasting the output-sized bias across examples. Some libraries store examples as rows and transpose the weights; the underlying dot products are the same."
+      }
+    ],
+    "limits": "The numbers are illustrative. Matrix storage conventions must be stated before comparing formulas."
+  },
+  {
+    "slug": "ai-backpropagation-example",
+    "title": "Backpropagation: calculate a complete update",
+    "intro": "Follow a prediction, squared error and gradient update through one neuron.",
+    "formula": "L = (ŷ − y)²;  w′ = w − η ∂L/∂w",
+    "steps": [
+      {
+        "title": "Make a prediction",
+        "body": "Let x = 2, w = 3 and b = 1. The target is y = 5. The prediction is ŷ = wx + b = 7."
+      },
+      {
+        "title": "Measure the error",
+        "body": "The error is 7 − 5 = 2 and the squared loss is 4. The derivative with respect to the prediction is 2(ŷ − y) = 4."
+      },
+      {
+        "title": "Apply the chain rule",
+        "body": "Since ∂ŷ/∂w = x = 2, the weight gradient is 4×2 = 8. Since ∂ŷ/∂b = 1, the bias gradient is 4."
+      },
+      {
+        "title": "Update the parameters",
+        "body": "With learning rate η = 0.1, w′ = 3 − 0.1×8 = 2.2 and b′ = 1 − 0.1×4 = 0.6. The new prediction is 5 and the loss is zero for this one example."
+      },
+      {
+        "title": "Extend to hidden layers",
+        "body": "For a hidden layer, multiply by the downstream weights and the activation derivative. ReLU contributes a derivative of one on positive inputs and zero on negative inputs. Its behavior at zero depends on the chosen convention."
+      }
+    ],
+    "limits": "A perfect fit to one example says nothing about generalization. For mean squared error over n examples, averaging introduces a factor of 1/n."
+  },
+  {
+    "slug": "ai-softmax-sampling",
+    "title": "Softmax and next-token sampling",
+    "intro": "Turn scores into probabilities and select a token from a cumulative distribution.",
+    "formula": "pᵢ = exp(zᵢ) / Σⱼ exp(zⱼ)",
+    "steps": [
+      {
+        "title": "Choose simple scores",
+        "body": "Use scores [0, ln 2, ln 3]. Their exponentials are [1, 2, 3], whose sum is 6."
+      },
+      {
+        "title": "Normalize",
+        "body": "The probabilities are [1/6, 2/6, 3/6]. They sum to one. In implementations, subtracting the largest score before exponentiation improves numerical stability without changing the probabilities."
+      },
+      {
+        "title": "Build cumulative intervals",
+        "body": "For tokens A, B and C, the cumulative intervals are [0, 1/6), [1/6, 1/2) and [1/2, 1). A uniform draw of 0.65 selects C."
+      },
+      {
+        "title": "Generate another token",
+        "body": "Append the selected token and recompute the model’s distribution for the next position. A new prediction depends on the updated context."
+      },
+      {
+        "title": "Understand temperature",
+        "body": "Dividing scores by a positive temperature before softmax changes how concentrated the distribution is. Lower temperatures favor higher-scoring tokens more strongly; they do not guarantee correctness."
+      }
+    ],
+    "limits": "Token probabilities describe the model’s next-token distribution, not the truth of a sentence."
+  },
+  {
+    "slug": "ai-attention-example",
+    "title": "Self-attention with two tokens",
+    "intro": "Calculate attention weights and the weighted combination of values.",
+    "formula": "Attention(Q,K,V) = softmax(QKᵀ / √dₖ)V",
+    "steps": [
+      {
+        "title": "State the convention",
+        "body": "Represent tokens as rows. Let Q = K = [[1, 0], [0, 1]], and V = [[2, 0], [0, 4]]. There are two key dimensions, so dₖ = 2."
+      },
+      {
+        "title": "Compare queries and keys",
+        "body": "QKᵀ is the identity matrix. Scaling by √2 gives [[0.7071, 0], [0, 0.7071]]."
+      },
+      {
+        "title": "Normalize each query row",
+        "body": "Applying softmax across each row gives approximately [[0.6698, 0.3302], [0.3302, 0.6698]]. Each row sums to one."
+      },
+      {
+        "title": "Combine the values",
+        "body": "The first output is 0.6698[2,0] + 0.3302[0,4] ≈ [1.3396,1.3208]. The second is approximately [0.6604,2.6792]."
+      },
+      {
+        "title": "Add the real-world pieces",
+        "body": "A transformer learns the query, key and value projections and commonly uses multiple heads, residual paths, normalization and a feed-forward block. Causal masks prevent access to future positions when required."
+      }
+    ],
+    "limits": "The source exercise approximated exponentials and scaling for hand calculation. This example uses the actual softmax operation; it is still a tiny illustration."
+  },
+  {
+    "slug": "ai-normalization-dropout",
+    "title": "Batch normalization and dropout by example",
+    "intro": "Compare two operations that affect training in very different ways.",
+    "formula": "x̂ = (x − μ)/√(σ² + ε);  dropout(x) = mask·x/(1−p)",
+    "steps": [
+      {
+        "title": "Normalize a feature",
+        "body": "For one feature across a batch [1, 3], the mean is 2 and the population variance is 1. Ignoring a very small ε for this hand calculation gives normalized values [−1, 1]."
+      },
+      {
+        "title": "Learn scale and shift",
+        "body": "With learned scale γ = 2 and offset β = 0.5, the outputs become [−1.5, 2.5]. Batch normalization tracks statistics and uses configured evaluation behavior; layer normalization normalizes over different dimensions."
+      },
+      {
+        "title": "Apply a dropout mask",
+        "body": "For activations [2, 4] and dropout probability p = 0.5, suppose the first activation is kept and the second is dropped. Inverted dropout returns [4, 0]."
+      },
+      {
+        "title": "Explain the scaling",
+        "body": "The kept value is divided by 1−p. Across random masks this preserves the expected activation. At evaluation time, standard inverted dropout acts as the identity."
+      },
+      {
+        "title": "Keep their roles distinct",
+        "body": "Normalization rescales features using statistics and learned parameters. Dropout randomly removes activations during training. Neither guarantees better performance in every setting."
+      }
+    ],
+    "limits": "Training and evaluation behavior must be distinguished. Libraries may use different estimators for running variance."
+  },
+  {
+    "slug": "ai-sequence-state-example",
+    "title": "Recurrent and state-space models: follow the state",
+    "intro": "See how a sequence changes a hidden state, including the source’s small state-space calculation.",
+    "formula": "hₜ = Ahₜ₋₁ + Bxₜ;  yₜ = Chₜ",
+    "steps": [
+      {
+        "title": "Start from zero",
+        "body": "Use h₀ = [0,0], A = [[1,0],[0,−1]], B = [−1,2] and C = [−2,−3]. The first input is x₁ = 3."
+      },
+      {
+        "title": "Update and read out",
+        "body": "h₁ = A[0,0] + [−1,2]×3 = [−3,6]. The output is y₁ = (−2)(−3) + (−3)(6) = −12."
+      },
+      {
+        "title": "Process a second input",
+        "body": "Keeping these toy parameters fixed, let x₂ = 1. Then Ah₁ = [−3,−6], so h₂ = [−4,−4] and y₂ = 8 + 12 = 20."
+      },
+      {
+        "title": "Compare with an RNN",
+        "body": "A simple RNN commonly applies a nonlinearity to its state update. This linear state-space example does not. More advanced selective state-space systems can make components input-dependent and use discretization and additional structure."
+      }
+    ],
+    "limits": "This recurrence explains state updates; it is not a full implementation of Mamba or its selective mechanism."
+  },
+  {
+    "slug": "ai-expert-routing",
+    "title": "Mixture of experts: routing and capacity",
+    "intro": "Follow tokens through a router and understand what sparse computation means.",
+    "formula": "expert(x) = argmax(router scores)",
+    "steps": [
+      {
+        "title": "Read the scores",
+        "body": "Suppose token A receives expert scores [0.1, 0.8, 0.1] and token B receives [0.7, 0.2, 0.1]. A top-one router selects expert two for A and expert one for B."
+      },
+      {
+        "title": "Use the chosen experts",
+        "body": "Only the selected expert processes each token in this simplified example. The experts have distinct parameters; the same token representation need not produce the same output in every expert."
+      },
+      {
+        "title": "Respect capacity",
+        "body": "If an expert can accept two tokens in a batch and three route to it, the system needs a defined overflow policy. Dropping, rerouting and residual handling are design choices, not universal behavior."
+      },
+      {
+        "title": "Train the routing system",
+        "body": "Practical systems can use routing weights and auxiliary objectives to balance utilization. Total parameter count and parameters activated per token are different quantities."
+      }
+    ],
+    "limits": "The source omitted scaling and simplified overflow. No exact proprietary model behavior is inferred from that sketch."
+  },
+  {
+    "slug": "ai-residual-graph-example",
+    "title": "Residual connections and graph messages",
+    "intro": "Calculate a skip connection and aggregate neighboring node features.",
+    "formula": "residual output = x + F(x)",
+    "steps": [
+      {
+        "title": "Add the skip path",
+        "body": "Let x = [2,−1] and F(x) = [1,3]. A residual addition gives [3,2]. Shapes must match, or a projection is needed."
+      },
+      {
+        "title": "Separate addition from concatenation",
+        "body": "Concatenating the two vectors gives [2,−1,1,3], which has four components. It is a different operation; a later matrix can implement a sum, but concatenation alone is not residual addition."
+      },
+      {
+        "title": "Aggregate graph neighbors",
+        "body": "For a node with feature [1,2] and a neighbor with feature [3,1], a simple sum including the node itself is [4,3]. Repeating message passing lets information travel across more edges."
+      },
+      {
+        "title": "Understand the actual graph layer",
+        "body": "Graph convolution variants can normalize adjacency, transform features and apply nonlinearities. A raw sum illustrates aggregation but does not specify the normalization or learned operation of a particular GCN."
+      }
+    ],
+    "limits": "The source diagram’s matrix stacking is a visualization device. The guide distinguishes it from the residual addition itself."
+  },
+  {
+    "slug": "ai-generative-training-example",
+    "title": "Autoencoders, GANs and diffusion: training objectives",
+    "intro": "Compare reconstruction, adversarial learning and noise prediction with small examples.",
+    "formula": "MSE = (1/n) Σᵢ(ŷᵢ − yᵢ)²",
+    "steps": [
+      {
+        "title": "Reconstruct an input",
+        "body": "An autoencoder maps x = [2,0] through an encoder and decoder. If the reconstruction is [1.5,0.5], mean squared error is (0.25+0.25)/2 = 0.25. The gradient with respect to the reconstruction is [−0.5,0.5]."
+      },
+      {
+        "title": "Train an adversary",
+        "body": "A discriminator learns to distinguish real and generated examples; a generator learns to produce examples the discriminator accepts. With sigmoid output and binary cross-entropy, the derivative with respect to the logit is prediction minus target, subject to the chosen reduction."
+      },
+      {
+        "title": "Predict noise",
+        "body": "A diffusion training example adds noise according to a schedule. If sampled noise is [1,−1] and predicted noise is [0.8,−0.6], the two-component mean squared error is (0.04+0.16)/2 = 0.10."
+      },
+      {
+        "title": "Sample using the specified process",
+        "body": "Generation uses the model and a sampling rule to iteratively transform noise. Simply subtracting a predicted vector once is not a general diffusion sampler."
+      },
+      {
+        "title": "Distinguish architectures",
+        "body": "A diffusion transformer can process latent patches and conditioning. An illustrative patch diagram cannot establish a commercial video model’s exact encoder, schedule or parameter values."
+      }
+    ],
+    "limits": "The source simplified noise schedules and generation. The corrected example states the objective without claiming those simplifications are a production algorithm."
+  },
+  {
+    "slug": "ai-vector-search-example",
+    "title": "Vector retrieval: calculate similarity and rank results",
+    "intro": "Work through pooling, cosine similarity and an exact search before considering approximate indexes.",
+    "formula": "cos(q,v) = (q·v)/(‖q‖‖v‖)",
+    "steps": [
+      {
+        "title": "Pool token features",
+        "body": "For token vectors [1,0] and [1,2], mean pooling produces [1,1]. Pooling must match the embedding model’s design; mean pooling is not universally appropriate."
+      },
+      {
+        "title": "Score two candidates",
+        "body": "For query q = [1,0], candidate A = [2,0] has dot product 2 and cosine similarity 1. Candidate B = [1,1] has dot product 1 and cosine similarity 1/√2 ≈ 0.7071."
+      },
+      {
+        "title": "Choose the metric deliberately",
+        "body": "Dot product depends on vector magnitude. Cosine similarity removes that effect. A model’s training and index configuration determine the appropriate metric."
+      },
+      {
+        "title": "Scale search",
+        "body": "An exact scan scores every vector. Approximate nearest-neighbor indexes trade some recall for speed or memory efficiency; evaluate retrieval quality and filtering together."
+      },
+      {
+        "title": "Preserve permissions",
+        "body": "Retain source identifiers and access metadata. Similarity does not establish whether a passage is true or whether a user may access it."
+      }
+    ],
+    "limits": "Random projection, dimensionality reduction and vector indexing are distinct operations; an embedding database does not necessarily require the projection step shown in the source."
+  },
+  {
+    "slug": "ai-preference-training",
+    "title": "Learning from human preferences: a reward example",
+    "intro": "Understand pairwise reward learning and what it does—and does not—establish.",
+    "formula": "P(preferred) = sigmoid(r₊ − r₋)",
+    "steps": [
+      {
+        "title": "Collect a comparison",
+        "body": "A reviewer compares two responses to the same prompt under stated criteria. Preferences depend on instructions, reviewer judgment and the examples collected."
+      },
+      {
+        "title": "Calculate the reward gap",
+        "body": "Use source reward values 5 for the preferred response and 3 for the other. The difference is 2. Sigmoid(2) ≈ 0.8808, rather than exactly 0.9."
+      },
+      {
+        "title": "Measure pairwise loss",
+        "body": "For the preferred outcome, the negative log-likelihood is −ln(0.8808) ≈ 0.1269. The derivative with respect to the gap is sigmoid(2)−1 ≈ −0.1192."
+      },
+      {
+        "title": "Update and use the reward model",
+        "body": "Backpropagation can improve preference prediction. A later policy optimization step may use reward feedback with additional constraints; training a reward model alone does not complete RLHF."
+      },
+      {
+        "title": "Watch for reward mismatch",
+        "body": "A system can optimize a reward while missing the human goal. Preference agreement is not proof of factual accuracy, fairness or safety."
+      }
+    ],
+    "limits": "The original preference example’s social judgment is not treated as universally correct. The mathematical example concerns a declared preferred pair."
+  }
+]

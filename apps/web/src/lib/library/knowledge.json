@@ -2237,5 +2237,501 @@
         "url": "https://arxiv.org/abs/2103.00020"
       }
     ]
+  },
+  {
+    "slug": "ai-matrix-multiplication",
+    "title": "Matrix multiplication, one cell at a time",
+    "topic": "Artificial intelligence",
+    "group": "Math and worked examples",
+    "summary": "Learn how input features and weights combine, then apply the same operation to a batch.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "What this example teaches",
+        "body": "Learn how input features and weights combine, then apply the same operation to a batch."
+      }
+    ],
+    "sources": [
+      {
+        "title": "PyTorch neural-network reference",
+        "url": "https://docs.pytorch.org/docs/stable/nn.html"
+      }
+    ]
+  },
+  {
+    "slug": "ai-backpropagation-example",
+    "title": "Backpropagation: calculate a complete update",
+    "topic": "Artificial intelligence",
+    "group": "Math and worked examples",
+    "summary": "Follow a prediction, squared error and gradient update through one neuron.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "What this example teaches",
+        "body": "Follow a prediction, squared error and gradient update through one neuron."
+      }
+    ],
+    "sources": [
+      {
+        "title": "PyTorch neural-network reference",
+        "url": "https://docs.pytorch.org/docs/stable/nn.html"
+      }
+    ]
+  },
+  {
+    "slug": "ai-softmax-sampling",
+    "title": "Softmax and next-token sampling",
+    "topic": "Artificial intelligence",
+    "group": "Math and worked examples",
+    "summary": "Turn scores into probabilities and select a token from a cumulative distribution.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "What this example teaches",
+        "body": "Turn scores into probabilities and select a token from a cumulative distribution."
+      }
+    ],
+    "sources": [
+      {
+        "title": "PyTorch neural-network reference",
+        "url": "https://docs.pytorch.org/docs/stable/nn.html"
+      }
+    ]
+  },
+  {
+    "slug": "ai-attention-example",
+    "title": "Self-attention with two tokens",
+    "topic": "Artificial intelligence",
+    "group": "Math and worked examples",
+    "summary": "Calculate attention weights and the weighted combination of values.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "What this example teaches",
+        "body": "Calculate attention weights and the weighted combination of values."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Transformer research",
+        "url": "https://arxiv.org/abs/1706.03762"
+      }
+    ]
+  },
+  {
+    "slug": "ai-normalization-dropout",
+    "title": "Batch normalization and dropout by example",
+    "topic": "Artificial intelligence",
+    "group": "Math and worked examples",
+    "summary": "Compare two operations that affect training in very different ways.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "What this example teaches",
+        "body": "Compare two operations that affect training in very different ways."
+      }
+    ],
+    "sources": [
+      {
+        "title": "PyTorch neural-network reference",
+        "url": "https://docs.pytorch.org/docs/stable/nn.html"
+      }
+    ]
+  },
+  {
+    "slug": "ai-sequence-state-example",
+    "title": "Recurrent and state-space models: follow the state",
+    "topic": "Artificial intelligence",
+    "group": "Math and worked examples",
+    "summary": "See how a sequence changes a hidden state, including the source’s small state-space calculation.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "What this example teaches",
+        "body": "See how a sequence changes a hidden state, including the source’s small state-space calculation."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mamba research",
+        "url": "https://arxiv.org/abs/2312.00752"
+      }
+    ]
+  },
+  {
+    "slug": "ai-expert-routing",
+    "title": "Mixture of experts: routing and capacity",
+    "topic": "Artificial intelligence",
+    "group": "Math and worked examples",
+    "summary": "Follow tokens through a router and understand what sparse computation means.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "What this example teaches",
+        "body": "Follow tokens through a router and understand what sparse computation means."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Switch Transformers",
+        "url": "https://arxiv.org/abs/2101.03961"
+      }
+    ]
+  },
+  {
+    "slug": "ai-residual-graph-example",
+    "title": "Residual connections and graph messages",
+    "topic": "Artificial intelligence",
+    "group": "Math and worked examples",
+    "summary": "Calculate a skip connection and aggregate neighboring node features.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "What this example teaches",
+        "body": "Calculate a skip connection and aggregate neighboring node features."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Graph convolutional networks",
+        "url": "https://arxiv.org/abs/1609.02907"
+      }
+    ]
+  },
+  {
+    "slug": "ai-generative-training-example",
+    "title": "Autoencoders, GANs and diffusion: training objectives",
+    "topic": "Artificial intelligence",
+    "group": "Math and worked examples",
+    "summary": "Compare reconstruction, adversarial learning and noise prediction with small examples.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "What this example teaches",
+        "body": "Compare reconstruction, adversarial learning and noise prediction with small examples."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Diffusion research",
+        "url": "https://arxiv.org/abs/2006.11239"
+      },
+      {
+        "title": "GAN research",
+        "url": "https://arxiv.org/abs/1406.2661"
+      }
+    ]
+  },
+  {
+    "slug": "ai-vector-search-example",
+    "title": "Vector retrieval: calculate similarity and rank results",
+    "topic": "Artificial intelligence",
+    "group": "Math and worked examples",
+    "summary": "Work through pooling, cosine similarity and an exact search before considering approximate indexes.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "What this example teaches",
+        "body": "Work through pooling, cosine similarity and an exact search before considering approximate indexes."
+      }
+    ],
+    "sources": [
+      {
+        "title": "RAG research",
+        "url": "https://arxiv.org/abs/2005.11401"
+      }
+    ]
+  },
+  {
+    "slug": "ai-preference-training",
+    "title": "Learning from human preferences: a reward example",
+    "topic": "Artificial intelligence",
+    "group": "Math and worked examples",
+    "summary": "Understand pairwise reward learning and what it does—and does not—establish.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "What this example teaches",
+        "body": "Understand pairwise reward learning and what it does—and does not—establish."
+      }
+    ],
+    "sources": [
+      {
+        "title": "InstructGPT research",
+        "url": "https://arxiv.org/abs/2203.02155"
+      }
+    ]
+  },
+  {
+    "slug": "ai-probability-distributions",
+    "title": "Probability distributions: choose by the question",
+    "topic": "Artificial intelligence",
+    "group": "Math and worked examples",
+    "summary": "Distinguish counts, waiting times, proportions, tails and multivariate models.",
+    "relatedToolCategory": "Data",
+    "sections": [
+      {
+        "heading": "Discrete outcomes",
+        "body": "A Bernoulli variable represents a binary outcome with success probability p. A binomial variable counts successes in n independent trials with the same p. A categorical distribution selects one of several categories; a multinomial counts category outcomes over repeated trials. A degenerate distribution places all probability at one value."
+      },
+      {
+        "heading": "Counts, waiting and sampling",
+        "body": "Poisson models count events under a specified rate model. Geometric distributions describe trials until a first success, with conventions differing on whether the successful trial is counted; negative binomial distributions extend the waiting-to-success idea. Hypergeometric models sampling without replacement. Wallenius’ noncentral hypergeometric distribution introduces biased sampling. Yule–Simon and zeta/Zipf models describe particular discrete heavy-tailed patterns."
+      },
+      {
+        "heading": "Symmetric and bounded values",
+        "body": "A normal distribution is specified by a mean and variance. A uniform distribution assigns equal density over an interval. Beta and Kumaraswamy distributions describe flexible shapes on a bounded interval, commonly (0,1). A triangular distribution adds a mode between endpoints; a trapezoidal distribution has a flat central density region. A Laplace distribution has an exponential-shaped tail on either side of its center."
+      },
+      {
+        "heading": "Positive values and waiting times",
+        "body": "The exponential distribution has a constant hazard and is memoryless. Weibull models can have increasing or decreasing hazard. Lognormal variables have normally distributed logarithms. Inverse Gaussian, Gompertz and Lindley distributions are other positive-variable families; suitability depends on the generating process and fit, not simply positive observations. Folded normal and half-normal distributions arise from absolute values of normal variables."
+      },
+      {
+        "heading": "Heavy tails and extremes",
+        "body": "Cauchy is a heavy-tailed distribution whose mean and variance are undefined. Lévy, Pareto, stable, Burr and Fisk families provide different tail behavior. Generalized extreme-value models describe certain normalized maxima, and generalized error and Tukey lambda families allow flexible shapes. A power law is a functional tail pattern, not a universal explanation for a dataset."
+      },
+      {
+        "heading": "Multiple dimensions and angles",
+        "body": "Bivariate and multivariate normal models describe joint variation. Dirichlet distributions model vectors of proportions; Wishart distributions are associated with covariance matrices. Von Mises and Kent distributions describe directional data in different spaces. Rayleigh, Rician and Nakagami models appear in magnitude and signal applications."
+      },
+      {
+        "heading": "Families versus descriptions",
+        "body": "Skewed, symmetric, unimodal, bimodal, multimodal, long-tailed and U-shaped describe properties rather than identifying a unique distribution. A marginal comes from a joint distribution; a mixture combines component distributions. Truncation restricts support and requires renormalization. An empirical distribution assigns mass to observed data."
+      },
+      {
+        "heading": "A count example",
+        "body": "If X is binomial with n = 3 and p = 0.5, then P(X=2) = C(3,2)×0.5²×0.5 = 3/8. This calculation requires independent trials with a common success probability."
+      },
+      {
+        "heading": "Ambiguous names in the collection",
+        "body": "The labels “T Factorial”, “F J Shaped”, “G-and-H”, “Normal Lindley” and “Open Ended” need a precise definition or original reference before a formula can be assigned. “Inverse normal” may mean a quantile function or a named distribution depending on context; it should not automatically be equated with inverse Gaussian. These unresolved labels are retained in the editorial inventory."
+      }
+    ],
+    "sources": [
+      {
+        "title": "SciPy statistical distributions",
+        "url": "https://docs.scipy.org/doc/scipy/reference/stats.html"
+      },
+      {
+        "title": "NIST statistics handbook",
+        "url": "https://www.nist.gov/programs-projects/nistsematech-engineering-statistics-handbook"
+      }
+    ]
+  },
+  {
+    "slug": "ai-regression-diagnostics",
+    "title": "Regression: fit, interpret and diagnose",
+    "topic": "Artificial intelligence",
+    "group": "Working with data",
+    "summary": "Move beyond fitting a line to checking assumptions, coding variables and measuring errors.",
+    "relatedToolCategory": "Data",
+    "sections": [
+      {
+        "heading": "A complete line example",
+        "body": "For x = [0,1,2] and observed y = [1,2,2], the least-squares line is ŷ = 7/6 + x/2. Fitted values are [7/6,5/3,13/6] and residuals y−ŷ are [−1/6,1/3,−1/6]. Their squared sum is 1/6."
+      },
+      {
+        "heading": "Separate error measures",
+        "body": "RMSE is √(SSE/n), approximately 0.2357 here. Residual standard error for this line with an intercept and slope is √(SSE/(n−2)), approximately 0.4082. They use different denominators. R² = 1−SSE/SST measures improvement over the mean baseline in this setting; out-of-sample R² can be negative."
+      },
+      {
+        "heading": "Code features deliberately",
+        "body": "One-hot encoding represents categories with indicators. In an intercept-based linear model, a reference category or other constraint avoids redundant columns. Deviation coding compares levels with an overall effect under a defined convention. An interaction term lets one predictor’s association depend on another; a main effect is not a claim of independence."
+      },
+      {
+        "heading": "Check stability and assumptions",
+        "body": "Collinear predictors can make coefficients unstable. Leverage concerns an observation’s predictor position, while influence concerns its effect on the fitted model. Examine residual patterns, changing variance (heteroskedasticity), dependence and unusual observations. Normality assumptions relate to particular inferential procedures, not a universal prerequisite for prediction."
+      },
+      {
+        "heading": "Extend the model",
+        "body": "Polynomial terms and splines represent curves; knots locate spline transitions. Generalized additive models combine smooth effects. Lasso penalizes coefficient magnitudes, Bayesian regression uses a prior, quantile regression targets conditional quantiles, and robust regression reduces sensitivity under chosen loss rules. These approaches answer different questions."
+      },
+      {
+        "heading": "Validate outside the fitting data",
+        "body": "Cross-validation rotates training and validation folds, but the split must respect groups and time. Fit scaling and feature selection within the training portion. Use weighted regression only when the weight meaning is justified."
+      }
+    ],
+    "sources": [
+      {
+        "title": "SciPy statistical distributions",
+        "url": "https://docs.scipy.org/doc/scipy/reference/stats.html"
+      },
+      {
+        "title": "NIST statistics handbook",
+        "url": "https://www.nist.gov/programs-projects/nistsematech-engineering-statistics-handbook"
+      }
+    ]
+  },
+  {
+    "slug": "ai-experiments-metrics",
+    "title": "Experiments, uncertainty and evaluation formulas",
+    "topic": "Artificial intelligence",
+    "group": "Working with data",
+    "summary": "Work through a confusion matrix, sampling uncertainty and the logic of testing.",
+    "relatedToolCategory": "Data",
+    "sections": [
+      {
+        "heading": "Calculate a confusion matrix",
+        "body": "Suppose TP=8, FP=2, FN=4 and TN=86. Accuracy is 94/100 = 94%; precision is 8/10 = 80%; recall is 8/12 ≈ 66.7%; specificity is 86/88 ≈ 97.7%. F1 = 2TP/(2TP+FP+FN) = 16/22 ≈ 72.7%. The same model can look strong or weak depending on the error that matters."
+      },
+      {
+        "heading": "Change the threshold",
+        "body": "A threshold converts a score into a decision. ROC plots true-positive rate against false-positive rate across thresholds; a precision–recall curve focuses on predicted and actual positives. AUC summarizes a curve and does not choose the right operating threshold for a business."
+      },
+      {
+        "heading": "Sampling uncertainty",
+        "body": "For independent observations with sample standard deviation s, the estimated standard error of the mean is s/√n. A central limit theorem can justify an approximation under its conditions; it does not make the original observations normally distributed. Bootstrap resampling draws samples with replacement from observed data and has its own limitations."
+      },
+      {
+        "heading": "Design the comparison",
+        "body": "Random assignment allocates subjects to treatment and control; random sampling selects observations from a population. They solve different problems. Define effect size, statistical power and the analysis before examining results where possible."
+      },
+      {
+        "heading": "Choose an appropriate test",
+        "body": "A t-test concerns means under specified assumptions; ANOVA compares modelled group effects using an F statistic. Chi-square procedures can compare categorical counts, and permutation tests use an exchangeability argument. Pairwise and omnibus tests answer different questions."
+      },
+      {
+        "heading": "Interpret errors and multiple tests",
+        "body": "A Type I error rejects a true null; a Type II error fails to reject a false null under an alternative. Alpha controls a test’s Type I error rate under its assumptions. False discovery rate concerns the expected proportion of false rejections among rejections, with conventions for no rejections. Multiple testing needs an appropriate procedure rather than reusing an unadjusted threshold."
+      }
+    ],
+    "sources": [
+      {
+        "title": "SciPy statistical distributions",
+        "url": "https://docs.scipy.org/doc/scipy/reference/stats.html"
+      },
+      {
+        "title": "NIST statistics handbook",
+        "url": "https://www.nist.gov/programs-projects/nistsematech-engineering-statistics-handbook"
+      }
+    ]
+  },
+  {
+    "slug": "ai-search-optimization-reference",
+    "title": "Search and optimization methods: a field guide",
+    "topic": "Artificial intelligence",
+    "group": "Math and worked examples",
+    "summary": "Understand the mechanism behind search methods and distinguish algorithm names from settings.",
+    "relatedToolCategory": "Data",
+    "sections": [
+      {
+        "heading": "Gradient and curvature methods",
+        "body": "BFGS is a quasi-Newton method that builds a curvature approximation. Rprop uses gradient signs to adapt update steps; momentum carries a running influence of previous gradients. KKT conditions combine stationarity, feasibility and complementary slackness under specified conditions; they are not a blanket proof of global optimality."
+      },
+      {
+        "heading": "Evolutionary search",
+        "body": "Genetic algorithms select, recombine and mutate candidate representations. Genetic programming evolves program structures. Differential evolution perturbs candidates using differences between population members. Estimation-of-distribution algorithms learn a probabilistic model of promising candidates and sample from it."
+      },
+      {
+        "heading": "Collective search",
+        "body": "Particle swarm optimization updates candidate positions using individual and collective information. Ant-colony methods maintain pheromone-like search information, often for combinatorial problems. Artificial bee colony and the bees algorithm allocate exploration among candidate regions; they are distinct methods despite similar metaphors."
+      },
+      {
+        "heading": "Memory and neighborhoods",
+        "body": "Tabu search uses memory to restrict selected moves. Variable neighborhood search changes neighborhood structures to escape local patterns. Simulated annealing can accept worse candidates according to a temperature schedule. Shuffled frog leaping combines local improvement with regrouping of candidates."
+      },
+      {
+        "heading": "Other named metaheuristics",
+        "body": "Cuckoo search, firefly algorithms, gravitational search, imperialist competition and cultural algorithms define different population-update mechanisms. Their biological or social metaphors do not establish performance. Compare a specific implementation with simple baselines under the same evaluation budget."
+      },
+      {
+        "heading": "Harmony search settings",
+        "body": "Harmony search builds candidates using stored solutions, random choices and adjustments. Harmony memory considering rate is commonly a parameter governing memory use; it should not be listed as a standalone optimizer. The source’s “Harmony Memory Upgrade” label needs an original reference to establish its intended meaning."
+      },
+      {
+        "heading": "A fair comparison",
+        "body": "State the objective, constraints, variable encoding, stopping rule, random seeds and compute budget. Run multiple trials for stochastic methods and report distributions of outcomes, not only the best run."
+      }
+    ],
+    "sources": [
+      {
+        "title": "SciPy optimization reference",
+        "url": "https://docs.scipy.org/doc/scipy/reference/optimize.html"
+      }
+    ]
+  },
+  {
+    "slug": "ai-visual-features",
+    "title": "Image features: edges, corners, blobs and descriptors",
+    "topic": "Artificial intelligence",
+    "group": "How models work",
+    "summary": "Organize classical computer-vision methods by what they detect or describe.",
+    "relatedToolCategory": "Data",
+    "sections": [
+      {
+        "heading": "Edges and derivatives",
+        "body": "Sobel, Prewitt and Roberts operators approximate image derivatives. Canny combines smoothing, gradient information and further processing to produce edges. Deriche filters offer another approach. An edge marks an intensity change, which need not coincide with an object boundary."
+      },
+      {
+        "heading": "Corners and local structure",
+        "body": "Harris and Shi–Tomasi use local gradient structure to identify informative points. A structure tensor summarizes variation in different directions; points with variation in more than one direction can be useful for tracking and matching."
+      },
+      {
+        "heading": "Scale and regions",
+        "body": "Laplacian-of-Gaussian, Difference-of-Gaussians and Hessian-based methods detect structures over scale. Maximally stable extremal regions identify stable image regions across thresholds. Image pyramids support multiscale processing. Scale-space methods explain how representations change with smoothing."
+      },
+      {
+        "heading": "Shapes and invariance",
+        "body": "Hough transforms accumulate evidence for parameterized shapes; a generalized Hough transform handles more general templates. Affine-adapted region methods aim to improve matching under viewpoint changes. These methods have assumptions and can fail under occlusion, noise or repeated textures."
+      },
+      {
+        "heading": "Descriptors",
+        "body": "SIFT, SURF and GLOH summarize local visual structure for comparison. HOG describes gradient orientations, local binary patterns encode local intensity comparisons, and GIST summarizes scene-level structure. A descriptor is different from a detector: one describes a region while the other finds candidate regions."
+      },
+      {
+        "heading": "Choose by the task",
+        "body": "Tracking, image matching, classification and segmentation need different outputs. Evaluate repeatability, robustness, compute cost and any licensing or patent constraints for the intended implementation. The source’s PCBR abbreviation requires its original reference before a specific algorithm can be described."
+      }
+    ],
+    "sources": [
+      {
+        "title": "OpenCV feature tutorials",
+        "url": "https://docs.opencv.org/4.x/db/d27/tutorial_py_table_of_contents_feature2d.html"
+      }
+    ]
+  },
+  {
+    "slug": "ai-business-scenarios",
+    "title": "Business analytics and scenario planning",
+    "topic": "Artificial intelligence",
+    "group": "Working with data",
+    "summary": "Distinguish describing results, predicting outcomes and exploring uncertain futures.",
+    "relatedToolCategory": "Data",
+    "sections": [
+      {
+        "heading": "Start with the decision",
+        "body": "Aggregate analysis summarizes populations or segments; trend analysis follows change over time; segmentation groups cases for a stated purpose. A descriptive relationship does not prove what will happen if a business intervenes."
+      },
+      {
+        "heading": "Estimate with transparent assumptions",
+        "body": "For a hypothetical market with 10,000 eligible customers, 20% adoption and 50 units of annual revenue per adopter, the estimate is 100,000 units. If adoption ranges from 10% to 30%, the result ranges from 50,000 to 150,000. These are scenario assumptions, not observed outcomes."
+      },
+      {
+        "heading": "Triangulate",
+        "body": "Approach an estimate using another model or independent evidence. Agreement is more useful when the methods do not share the same hidden assumptions. Record uncertainty in the inputs instead of disguising it with precise output formatting."
+      },
+      {
+        "heading": "Map plausible futures",
+        "body": "Scenario planning examines multiple plausible futures rather than assigning certainty to one forecast. Cognitive maps represent perceived relationships; fuzzy cognitive maps add weighted influences and update rules. Their results depend on elicitation, weights and assumptions."
+      },
+      {
+        "heading": "Use experts carefully",
+        "body": "Delphi-style exercises gather and revise expert judgments; scenario workshops can incorporate stakeholder perspectives and identify disagreements. The source’s specific scenario counts and expert-count recommendations lack cited evidence and are not treated as fixed requirements."
+      },
+      {
+        "heading": "Close the loop",
+        "body": "State the decision, monitor signals that distinguish scenarios and revise assumptions as evidence arrives. A useful scenario changes what the team is prepared to do, rather than only producing a presentation."
+      }
+    ],
+    "sources": [
+      {
+        "title": "SciPy statistical distributions",
+        "url": "https://docs.scipy.org/doc/scipy/reference/stats.html"
+      },
+      {
+        "title": "NIST statistics handbook",
+        "url": "https://www.nist.gov/programs-projects/nistsematech-engineering-statistics-handbook"
+      }
+    ]
   }
 ]
