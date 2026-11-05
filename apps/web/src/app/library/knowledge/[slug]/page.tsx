@@ -5,6 +5,7 @@ import styles from '../../library.module.css';
 import { SecurityQuestions } from './security-questions';
 import { PaymentDirectory } from './payment-directory';
 import { SystemCommands } from './system-commands';
+import { GamesDirectory } from './games-directory';
 
 export const dynamic = 'force-dynamic';
 
@@ -28,6 +29,9 @@ export default async function KnowledgePage({ params }: Props) {
     <p className={styles.note}>Adapted from the knowledge collection. Educational information; verify changing details before making decisions.</p>
     <nav className={styles.contents} aria-label="On this page"><strong>On this page</strong><ol>{article.sections.map((section, index) => <li key={section.heading}><a href={`#section-${index + 1}`}>{section.heading}</a></li>)}</ol></nav>
     {article.sections.map((section, index) => <section key={section.heading} id={`section-${index + 1}`}><h2>{section.heading}</h2><p>{section.body}</p></section>)}
+    {article.slug === 'games-source-directory' && <GamesDirectory />}
+    {article.slug === 'metaverse-history' && <p><Link href="/library/knowledge/games-source-directory/">Browse the games source directory →</Link> · <Link href="/library/knowledge/blockchain-layers/">Explore blockchain layers →</Link></p>}
+    {article.slug === 'games-source-directory' && <p><Link href="/library/knowledge/metaverse-history/">Explore the metaverse timeline →</Link> · <Link href="/calculators/roulette/">Explore roulette probability →</Link></p>}
     {article.slug === 'system-administration' && <section><h2>Explore system administration</h2><div className={styles.sciencePaths}><div><h3>Linux</h3><ul><li><Link href="/library/knowledge/linux-everyday/">Everyday operations</Link></li><li><Link href="/library/knowledge/linux-remote-development/">Remote access and development</Link></li><li><Link href="/library/knowledge/linux-maintenance/">Maintenance and cleanup</Link></li></ul></div><div><h3>Operating systems</h3><ul><li><Link href="/library/knowledge/privacy-operating-systems/">Privacy and security systems</Link></li><li><Link href="/library/knowledge/windows-ssh-wireless/">Windows SSH and wireless reports</Link></li><li><Link href="/library/knowledge/cybersecurity/">Cybersecurity essentials</Link></li></ul></div></div></section>}
     <SystemCommands slug={article.slug} />
     {article.group === 'Systems and operations' && article.slug !== 'system-administration' && <p><Link href="/library/knowledge/system-administration/">Explore system administration →</Link></p>}

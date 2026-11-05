@@ -38,6 +38,7 @@ export default function Calculators() {
         description: tool.description,
       };
     }),
+    { path: '/calculators/roulette/', title: 'Roulette probability simulator', description: 'Explore virtual spins, betting strategies and house edge.' },
     {
       path: '/calculators/expanded/',
       title: 'All calculators — 88 more free tools',

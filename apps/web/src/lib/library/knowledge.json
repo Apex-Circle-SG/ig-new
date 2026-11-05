@@ -1333,5 +1333,77 @@
         "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/netsh-wlan"
       }
     ]
+  },
+  {
+    "slug": "metaverse-history",
+    "title": "Virtual worlds and the metaverse: a timeline",
+    "topic": "Games & virtual worlds",
+    "group": "Virtual worlds",
+    "summary": "Explore selected milestones in virtual worlds, immersive technology and digital ownership.",
+    "relatedToolCategory": "",
+    "sections": [
+      {
+        "heading": "What is the metaverse?",
+        "body": "The term is used for different visions of shared digital spaces, often involving persistent worlds, social interaction and user-created content. Virtual reality, games and blockchains can be involved, but none is required in every definition."
+      },
+      {
+        "heading": "1992–2003: fiction and virtual communities",
+        "body": "Neal Stephenson’s 1992 novel Snow Crash popularized the term metaverse. Linden Lab released the shared virtual world Second Life in 2003; it allowed people to socialize and build within a digital environment."
+      },
+      {
+        "heading": "2006–2015: platforms and digital infrastructure",
+        "body": "Roblox’s history of user-created experiences extends to 2006. Ethereum launched in 2015, providing a programmable blockchain used by some applications for digital assets. A shared virtual world does not inherently require a blockchain."
+      },
+      {
+        "heading": "2021 onward: renewed attention",
+        "body": "In 2021 the Facebook company adopted the name Meta and described its vision for the metaverse. Virtual worlds and immersive tools continue to evolve, and interoperability, privacy, governance and access remain open questions."
+      },
+      {
+        "heading": "Reading the original notes",
+        "body": "The supplied timeline also mentions earlier VR experiments, the web, Bitcoin, augmented reality and other events. Claims about inventions, firsts and popularity require further source verification before inclusion."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Second Life history",
+        "url": "https://wiki.secondlife.com/wiki/History"
+      },
+      {
+        "title": "Roblox: 20 years of experiences",
+        "url": "https://about.roblox.com/newsroom/2026/09/join-the-hunt-roblox-20"
+      },
+      {
+        "title": "Ethereum launch",
+        "url": "https://blog.ethereum.org/2015/07/30/ethereum-launches"
+      },
+      {
+        "title": "Meta company announcement",
+        "url": "https://about.fb.com/news/2021/10/facebook-company-is-now-meta/"
+      }
+    ]
+  },
+  {
+    "slug": "games-source-directory",
+    "title": "Games and virtual worlds: source directory",
+    "topic": "Games & virtual worlds",
+    "group": "Games directory",
+    "summary": "Search game and virtual-world names from a supplied categorized collection.",
+    "relatedToolCategory": "",
+    "sections": [
+      {
+        "heading": "About the collection",
+        "body": "The source groups names into genres and themes, including role-playing, strategy, metaverse, action and mobile. Some categories describe technologies or platforms rather than genres; entries may appear in more than one group."
+      },
+      {
+        "heading": "Before you explore",
+        "body": "The collection has not been individually verified for identity, active availability, costs or ownership. A name on this list is not a recommendation or an assurance that a title uses blockchain technology. Check official information independently."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Learn about online safety",
+        "url": "https://www.cisa.gov/secure-our-world"
+      }
+    ]
   }
 ]

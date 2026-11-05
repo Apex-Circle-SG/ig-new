@@ -15,6 +15,7 @@ export const DISCOVERY_HUB_PATHS = [
 export const PUBLIC_INDEXABLE_PATHS = [
   '/',
   '/calculators/',
+  '/calculators/roulette/',
   '/calc/individual-income-percentile/',
   '/data/',
   '/data/census-cps/',
@@ -67,6 +68,7 @@ export function isCalculatorPage(pathname: string) {
   return (
     path.startsWith('/calc/') ||
     path.startsWith('/calculators/expanded/') ||
+    path.startsWith('/calculators/roulette/') ||
     path.startsWith('/private-expanded/') ||
     path.startsWith('/tools/') ||
     path.startsWith('/private-tools/') ||
