@@ -4,9 +4,9 @@ import { useState } from 'react';
 import type { LibraryTool } from '../../lib/library';
 import styles from './library.module.css';
 
-export function LibraryDirectory({ tools }: { tools: LibraryTool[] }) {
+export function LibraryDirectory({ tools, initialCategory }: { tools: LibraryTool[]; initialCategory?: string }) {
   const [search, setSearch] = useState('');
-  const [category, setCategory] = useState('All topics');
+  const [category, setCategory] = useState(initialCategory && tools.some((tool) => tool.category === initialCategory) ? initialCategory : 'All topics');
   const [subcategory, setSubcategory] = useState('All subcategories');
   const [shown, setShown] = useState(24);
   const categories = Array.from(new Set(tools.map((tool) => tool.category)));

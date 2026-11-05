@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 
 export const dynamic = 'force-dynamic';
 
-export default async function LibraryPage() {
-  const [tools, articles] = await Promise.all([getLibraryTools(), getKnowledgeArticles()]);
+export default async function LibraryPage({ searchParams }: { searchParams: Promise<{ tools?: string }> }) {
+  const [tools, articles, params] = await Promise.all([getLibraryTools(), getKnowledgeArticles(), searchParams]);
   return (
     <main className={`shell ${styles.page}`}>
       <header className={styles.hero}>
@@ -27,7 +27,7 @@ export default async function LibraryPage() {
         <p>Explore knowledge and practical resources. More topics will join the library as the collection grows.</p>
       </section>
       <KnowledgeList articles={articles} />
-      <LibraryDirectory tools={tools} />
+      <LibraryDirectory tools={tools} initialCategory={params.tools} />
     </main>
   );
 }

@@ -309,5 +309,269 @@
         "url": "https://ethereum.org/smart-contracts/"
       }
     ]
+  },
+  {
+    "slug": "api-fundamentals",
+    "title": "APIs, HTTP methods and status codes",
+    "topic": "Technology",
+    "group": "Software architecture",
+    "summary": "A practical reference for API styles, HTTP requests, responses and security.",
+    "relatedToolCategory": "Dev",
+    "sections": [
+      {
+        "heading": "Ways systems communicate",
+        "body": "REST is an architectural style often used with HTTP. GraphQL lets a client request data using a query language. SOAP uses XML messaging, while gRPC supports remote procedure calls. WebSockets support two-way communication; webhooks notify a receiver when events occur. MQTT and AMQP are messaging protocols."
+      },
+      {
+        "heading": "Common HTTP methods",
+        "body": "GET retrieves a representation; HEAD requests headers without the response body; POST submits data; PUT creates or replaces a representation; PATCH applies partial changes; DELETE requests removal. OPTIONS describes communication options. CONNECT establishes a tunnel, and TRACE performs a diagnostic loop-back."
+      },
+      {
+        "heading": "Reading status codes",
+        "body": "2xx indicates success, 3xx redirection, 4xx a client error, and 5xx a server error. Common examples include 200 OK, 201 Created, 204 No Content, 400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found, 409 Conflict, 500 Internal Server Error, 502 Bad Gateway and 503 Service Unavailable."
+      },
+      {
+        "heading": "Security basics",
+        "body": "Use HTTPS, authenticate requests where needed, limit permissions, validate inputs and handle errors safely. Rate limiting and API versioning can help manage reliability and change. Choose authentication and authorization mechanisms appropriate to the system."
+      }
+    ],
+    "sources": [
+      {
+        "title": "HTTP reference",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP"
+      },
+      {
+        "title": "HTTP response codes",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status"
+      }
+    ]
+  },
+  {
+    "slug": "load-balancing",
+    "title": "Load balancing and traffic routing",
+    "topic": "Technology",
+    "group": "Software architecture",
+    "summary": "How servers distribute traffic and why routing strategy matters.",
+    "relatedToolCategory": "Dev",
+    "sections": [
+      {
+        "heading": "Routing strategies",
+        "body": "Round robin cycles through available servers. Weighted round robin assigns more traffic to selected servers. Least connections favors servers with fewer active connections; response-time-based strategies use observed latency."
+      },
+      {
+        "heading": "Other approaches",
+        "body": "Some systems route based on bandwidth or packet measurements. IP hashing can consistently map a client to a server, though changes in the server pool or client addresses can affect that mapping."
+      },
+      {
+        "heading": "Session affinity",
+        "body": "Sticky sessions route related requests to the same server. They can help applications with local session state, but can make balancing and failover harder. Health checks and capacity limits matter regardless of algorithm."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NGINX load balancing",
+        "url": "https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/"
+      }
+    ]
+  },
+  {
+    "slug": "networking-osi",
+    "title": "Networking and the OSI model",
+    "topic": "Technology",
+    "group": "Software architecture",
+    "summary": "A layered way to reason about network communication.",
+    "relatedToolCategory": "Dev",
+    "sections": [
+      {
+        "heading": "The seven layers",
+        "body": "The OSI model describes physical, data link, network, transport, session, presentation and application layers. Each layer provides a way to reason about a different aspect of communication."
+      },
+      {
+        "heading": "From wire to application",
+        "body": "Physical and data-link layers handle media and local delivery; the network layer handles routing; the transport layer provides end-to-end communication. Higher layers describe session, representation and application concerns."
+      },
+      {
+        "heading": "Use the model as a guide",
+        "body": "Real protocols and stacks do not always fit perfectly into a single OSI layer. IP, TCP, UDP, DNS and HTTP address different concerns, and the model is a diagnostic aid rather than a strict deployment diagram."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cloudflare OSI model",
+        "url": "https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/"
+      }
+    ]
+  },
+  {
+    "slug": "containers-and-cloud",
+    "title": "Containers and cloud infrastructure",
+    "topic": "Technology",
+    "group": "Cloud and operations",
+    "summary": "Images, containers, deployment tools and observability.",
+    "relatedToolCategory": "Dev",
+    "sections": [
+      {
+        "heading": "Images and containers",
+        "body": "A container image packages files and configuration used to start a container. A container is an isolated process created from an image. Registries store and distribute images."
+      },
+      {
+        "heading": "Orchestration and infrastructure",
+        "body": "Orchestration systems manage container workloads. Infrastructure as code describes infrastructure in machine-readable configuration; configuration-management tools help maintain system state."
+      },
+      {
+        "heading": "Observability and delivery",
+        "body": "Monitoring, logging and related tools help operators understand system behavior. Continuous integration and delivery automate steps in the process of building, checking and releasing software."
+      },
+      {
+        "heading": "Examples in the source notes",
+        "body": "The notes mention Docker, Kubernetes, Podman, Terraform, Ansible, Grafana, Prometheus, NGINX and GitHub among others. Tool capabilities and offerings change; inclusion is not an endorsement."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Docker: what is a container?",
+        "url": "https://docs.docker.com/learn/content/what-is-a-container/"
+      },
+      {
+        "title": "Kubernetes concepts",
+        "url": "https://kubernetes.io/docs/concepts/"
+      }
+    ]
+  },
+  {
+    "slug": "database-types",
+    "title": "Types of databases",
+    "topic": "Technology",
+    "group": "Databases and data",
+    "summary": "Compare relational, document, graph, vector and other database models.",
+    "relatedToolCategory": "Data",
+    "sections": [
+      {
+        "heading": "Relational and document databases",
+        "body": "Relational databases organize data into tables and can support SQL queries and transactions. Document databases store records as documents, often with flexible structures. Specific capabilities depend on the product."
+      },
+      {
+        "heading": "Specialized data models",
+        "body": "Key-value stores retrieve values using keys; graph databases model nodes and relationships; time-series systems are designed for timestamped data; spatial databases support geographic data and queries."
+      },
+      {
+        "heading": "Analytics and search",
+        "body": "Column-oriented systems can be useful for analytical workloads. Vector databases support similarity searches over vector representations. In-memory systems emphasize fast access, though persistence and durability vary."
+      },
+      {
+        "heading": "Choosing a database",
+        "body": "Start with data shape, query patterns, consistency, availability, operational effort and cost. A product may support several models; labels alone do not establish its guarantees."
+      }
+    ],
+    "sources": [
+      {
+        "title": "PostgreSQL documentation",
+        "url": "https://www.postgresql.org/docs/"
+      },
+      {
+        "title": "MongoDB document model",
+        "url": "https://www.mongodb.com/docs/manual/core/document/"
+      }
+    ]
+  },
+  {
+    "slug": "sql-reference",
+    "title": "SQL: queries, joins and transactions",
+    "topic": "Technology",
+    "group": "Databases and data",
+    "summary": "A compact guide to common SQL operations from the source notes.",
+    "relatedToolCategory": "Data",
+    "sections": [
+      {
+        "heading": "Retrieving and filtering",
+        "body": "SELECT chooses columns; WHERE filters rows; ORDER BY sorts results. Conditions can use comparisons, AND, OR, NOT, BETWEEN, LIKE, IN and EXISTS."
+      },
+      {
+        "heading": "Aggregation and joins",
+        "body": "COUNT, SUM, AVG, MIN and MAX summarize values. GROUP BY groups rows, and HAVING filters groups. INNER, LEFT, RIGHT and FULL joins combine rows from tables according to a condition."
+      },
+      {
+        "heading": "Window functions",
+        "body": "Window functions such as ROW_NUMBER, RANK, DENSE_RANK, NTILE, LAG and LEAD operate across related rows using an OVER clause without necessarily collapsing them into one row."
+      },
+      {
+        "heading": "Changing data and structure",
+        "body": "INSERT, UPDATE and DELETE change data. CREATE, ALTER, DROP and TRUNCATE change structures or data; GRANT and REVOKE manage privileges. COMMIT, ROLLBACK and SAVEPOINT manage transactions. Exact behavior varies by database."
+      }
+    ],
+    "sources": [
+      {
+        "title": "PostgreSQL SQL tutorial",
+        "url": "https://www.postgresql.org/docs/current/tutorial-sql.html"
+      },
+      {
+        "title": "PostgreSQL window functions",
+        "url": "https://www.postgresql.org/docs/current/tutorial-window.html"
+      }
+    ]
+  },
+  {
+    "slug": "vector-search",
+    "title": "Vector databases and retrieval",
+    "topic": "Technology",
+    "group": "Databases and data",
+    "summary": "The journey from source data to similarity search results.",
+    "relatedToolCategory": "Data",
+    "sections": [
+      {
+        "heading": "Prepare and embed",
+        "body": "Collect source material such as text, code or images. Larger documents may be split into chunks, then an embedding model converts each item into a vector. Metadata can retain source and access information."
+      },
+      {
+        "heading": "Index and search",
+        "body": "Store vectors in an index suited to a distance or similarity measure. Convert a query using a compatible embedding model, then retrieve candidates; approximate nearest-neighbor methods can trade some accuracy for speed."
+      },
+      {
+        "heading": "Rank and use results",
+        "body": "Filter and optionally rerank candidates, then return the most relevant items with their sources to the application. Test retrieval quality, access controls, freshness and latency for the actual workload."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cloudflare Vectorize",
+        "url": "https://developers.cloudflare.com/vectorize/"
+      },
+      {
+        "title": "Vector embeddings",
+        "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings"
+      }
+    ]
+  },
+  {
+    "slug": "software-testing",
+    "title": "Software development and testing",
+    "topic": "Technology",
+    "group": "Software development",
+    "summary": "A guide to delivery practices and common kinds of tests.",
+    "relatedToolCategory": "Dev",
+    "sections": [
+      {
+        "heading": "Development and delivery",
+        "body": "A software lifecycle typically includes understanding requirements, design, implementation, testing, release and maintenance. Agile and DevOps describe practices for iterative delivery and collaboration; teams adapt them to their needs."
+      },
+      {
+        "heading": "Functional and integration tests",
+        "body": "Smoke tests check whether basic functionality works. Functional tests compare behavior against requirements; integration tests check how components work together. Regression tests help detect unintended changes to existing behavior."
+      },
+      {
+        "heading": "Performance and security tests",
+        "body": "Load tests examine behavior under expected demand; stress tests explore behavior beyond normal capacity. Security testing investigates relevant threats, while fuzz testing supplies unexpected or malformed inputs to discover failures."
+      },
+      {
+        "heading": "User-interface tests",
+        "body": "UI tests exercise user interactions and can check important accessibility or responsive behavior. Select tests according to risk and the kind of change rather than treating any one test type as complete coverage."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MDN introduction to testing",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Introduction"
+      }
+    ]
   }
 ]

@@ -49,3 +49,10 @@
 .article section p { line-height: 1.8; }
 .article section a { color: #5b4ac5; text-decoration: underline; }
 .note { background: #f2effe; border-radius: 12px; padding: 16px; font-size: 14px; }
+
+.contents { background: #f8f7fd; border: 1px solid #ebe8f7; border-radius: 14px; margin-top: 30px; padding: 18px 22px; }
+.contents strong { color: #4b3a9f; }
+.contents ol { columns: 2; margin: 10px 0 0; padding-left: 20px; }
+.contents li { break-inside: avoid; padding: 3px 10px 3px 0; }
+.contents a { color: #5140b3; }
+@media (max-width: 480px) { .contents ol { columns: 1; } }

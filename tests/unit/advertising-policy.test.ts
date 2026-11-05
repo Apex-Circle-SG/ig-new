@@ -4,6 +4,10 @@ import { PUBLIC_AD_PATHS } from '@insightginie/seo';
 
 describe('regional advertising policy', () => {
   const base = { enabled: true, pathname: '/', country: 'US', preference: undefined };
+  it('enables knowledge article ads', () => {
+    expect(advertisingPolicy({ ...base, pathname: '/library/knowledge/bitcoin/', country: 'US' }).load).toBe(true);
+  });
+
   it('enables Library ads while respecting consent', () => {
     expect(advertisingPolicy({ ...base, pathname: '/library/', country: 'US' }).load).toBe(true);
     expect(advertisingPolicy({ ...base, pathname: '/library/', country: 'GB' }).load).toBe(false);

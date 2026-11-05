@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { cookies, headers } from 'next/headers';
-import { isCalculatorPage, isOpportunityContentPath } from '@insightginie/seo';
+import { isCalculatorPage, isKnowledgeContentPath, isOpportunityContentPath } from '@insightginie/seo';
 import { catalog, opportunityRecord, type Idea, type EarningMethod } from '../lib/opportunities';
 import {
   AD_PREFERENCE_COOKIE,
@@ -9,6 +9,7 @@ import {
   advertisingEnabled,
   advertisingPolicy,
 } from '@insightginie/ads';
+import { getKnowledgeArticles } from '../lib/library';
 import { Header } from '../components/header';
 import { Footer } from '../components/footer';
 import { PageAnalytics } from '../components/analytics';
@@ -53,6 +54,10 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
       );
       validContent = Boolean(data?.items.some((item) => item.id === id));
     }
+  }
+  if (isKnowledgeContentPath(pathname)) {
+    const slug = pathname.split('/')[3];
+    validContent = (await getKnowledgeArticles()).some((article) => article.slug === slug);
   }
   const enabled = advertisingEnabled();
   const preference = (await cookies()).get(AD_PREFERENCE_COOKIE)?.value;

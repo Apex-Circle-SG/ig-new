@@ -76,7 +76,10 @@ export function isCalculatorPage(pathname: string) {
 export const PUBLIC_AD_PATHS = PUBLIC_INDEXABLE_PATHS.filter(
   (path) => !isCalculatorPage(path) && !['/ask/', '/opportunities/sources/'].includes(path),
 );
-export const DYNAMIC_AD_CRAWLER_PATHS = ['/opportunities/*-*/$', '/ideas/*/$', '/earn/*/$'];
+export const DYNAMIC_AD_CRAWLER_PATHS = ['/opportunities/*-*/$', '/ideas/*/$', '/earn/*/$', '/library/knowledge/*/$'];
+export function isKnowledgeContentPath(pathname: string) {
+  return /^\/library\/knowledge\/[a-z0-9]+(?:-[a-z0-9]+)*\/$/.test(canonicalPathname(pathname));
+}
 export function isOpportunityContentPath(pathname: string) {
   const path = canonicalPathname(pathname);
   if ((DISCOVERY_HUB_PATHS as readonly string[]).includes(path)) return false;
@@ -126,6 +129,7 @@ export function isPublicIndexablePath(pathname: string) {
 export function isPublicAdvertisingPath(pathname: string) {
   return (
     (PUBLIC_AD_PATHS as readonly string[]).includes(canonicalPathname(pathname)) ||
-    isOpportunityContentPath(pathname)
+    isOpportunityContentPath(pathname) ||
+    isKnowledgeContentPath(pathname)
   );
 }

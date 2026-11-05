@@ -34,6 +34,7 @@ export {
   PUBLIC_AD_PATHS,
   DYNAMIC_AD_CRAWLER_PATHS,
   isOpportunityContentPath,
+  isKnowledgeContentPath,
   PUBLIC_ROUTE_IDS,
   publicRouteId,
   siteIsIndexable,
