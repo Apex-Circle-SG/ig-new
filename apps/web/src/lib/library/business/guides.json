@@ -15707,7 +15707,7 @@
   {
     "slug": "six-sigma-foundations",
     "title": "Six Sigma: variation, defects and improvement",
-    "topic": "Project Management",
+    "topic": "Process Improvement",
     "group": "Six Sigma & process improvement",
     "summary": "Understand the collection’s account of Six Sigma, Lean integration, leadership commitment and measurable improvement.",
     "takeaway": "Choose a meaningful improvement goal and examine the process evidence behind it.",
@@ -15830,7 +15830,7 @@
   {
     "slug": "dmaic-dmadv",
     "title": "DMAIC or DMADV: improve a process or design one",
-    "topic": "Project Management",
+    "topic": "Process Improvement",
     "group": "Six Sigma & process improvement",
     "summary": "Compare the supplied improvement sequence with the design-and-verification sequence and their customer-quality focus.",
     "takeaway": "Distinguish improving an existing process from developing a design that must meet customer needs.",
@@ -15936,7 +15936,7 @@
   {
     "slug": "taguchi-quality",
     "title": "Taguchi: quality, variation and loss",
-    "topic": "Project Management",
+    "topic": "Process Improvement",
     "group": "Six Sigma & process improvement",
     "summary": "Read the source’s discussion of fitness for use, loss to society, targets and variation rather than conformance alone.",
     "takeaway": "A process can meet a specification and still perform away from a useful target.",
@@ -16062,7 +16062,7 @@
   {
     "slug": "taguchi-robust-design",
     "title": "Robust design: system, parameter and tolerance choices",
-    "topic": "Project Management",
+    "topic": "Process Improvement",
     "group": "Six Sigma & process improvement",
     "summary": "Explore designed experiments, controllable and noise factors, signal-to-noise descriptions and the source’s application cases.",
     "takeaway": "Design for the conditions a product must tolerate, while making the assumptions and evidence explicit.",
@@ -16197,7 +16197,7 @@
   {
     "slug": "quality-excellence-models",
     "title": "Quality excellence models: compare the supplied perspectives",
-    "topic": "Project Management",
+    "topic": "Process Improvement",
     "group": "Six Sigma & process improvement",
     "summary": "Read the EFQM enablers/results outline, Baldrige categories and the brief Shingo culture expression as distinct frameworks.",
     "takeaway": "Check a model’s edition and purpose before treating its categories as a current assessment instrument.",
@@ -16273,7 +16273,7 @@
   {
     "slug": "process-architecture",
     "title": "Process architecture: connect inputs, activities and customers",
-    "topic": "Project Management",
+    "topic": "Process Improvement",
     "group": "Six Sigma & process improvement",
     "summary": "Explore PEMME and the process inventories attributed to APQC and Catalyst.",
     "takeaway": "Use a process architecture to ask what work creates value, how activities connect and who receives the output.",
@@ -16368,7 +16368,7 @@
   {
     "slug": "lean-supply",
     "title": "Lean supply: quality, lead time and continuous improvement",
-    "topic": "Project Management",
+    "topic": "Process Improvement",
     "group": "Six Sigma & process improvement",
     "summary": "Connect the source’s procurement, manufacturing, warehousing and transportation stages with five Lean supply principles.",
     "takeaway": "Improvement needs attention to the flow of work and the people who perform it.",
@@ -16441,7 +16441,9 @@
     "related": [
       "strategy-deployment",
       "rasci-responsibilities",
-      "project-action-reporting"
+      "project-action-reporting",
+      "project-foundations",
+      "project-stakeholders"
     ],
     "notes": [
       "The source supplies field names, not a completed charter or a worked project. Blank fields are presented as a reference checklist.",
@@ -16510,6 +16512,28 @@
               "Stage",
               "Status",
               "Progress"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Charter checklist: requirements, scope, stakeholders and constraints",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Identification of requirements",
+              "Needs / Concerns / Expectations of stakeholders in planning and executing the project",
+              "Project Scope",
+              "Management of stakeholders:",
+              "Setting up, maintaining and executing communication among stakeholders",
+              "Managing towards meeting requirements and deliverables",
+              "Project Quality",
+              "Project Schedule",
+              "Project budget",
+              "Project resources",
+              "Project risks"
             ]
           }
         ]
@@ -16884,6 +16908,28 @@
             ]
           }
         ]
+      },
+      {
+        "id": "section-4",
+        "heading": "Waterfall sequence and suggested conditions",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Gather requirements",
+              "Design system",
+              "Implement system",
+              "Test system",
+              "Full deployment",
+              "Maintenance",
+              "Works well when",
+              "Requirements are very well understood and fixed at the outset of the project.",
+              "Product definition is stable and not subject to changes.",
+              "Technology is understood and the project is of short duration.",
+              "Ample resources with required expertise are available freely."
+            ]
+          }
+        ]
       }
     ],
     "figures": [],
@@ -17041,11 +17087,15 @@
       "xp-values-practices",
       "lean-agile-practices",
       "delivery-approaches",
-      "high-performance-teams"
+      "high-performance-teams",
+      "project-team-development"
     ],
     "notes": [
       "The chapter uses historical commentary and attributed quotations without complete editions or publication references. These are retained as supplied.",
-      "Agile is discussed broadly here; the source does not supply a complete Scrum Guide or a universal delivery recipe."
+      "Agile is discussed broadly here; the source does not supply a complete Scrum Guide or a universal delivery recipe.",
+      "Agile is broader than Scrum. Scrum is a lightweight framework, not merely a development strategy agreed by the team.",
+      "Self-management does not remove accountability: the Scrum Team includes a Product Owner, Scrum Master and Developers. The current Scrum Guide defines Sprints as fixed-length events of one month or less.",
+      "The source’s minimum-requirements and testing-cost criticisms describe possible implementation problems, not requirements to omit documentation or defer quality."
     ],
     "collection": "",
     "visuals": [],
@@ -17186,6 +17236,144 @@
             ]
           }
         ]
+      },
+      {
+        "id": "section-4",
+        "heading": "Adaptive planning and the source’s Scrum framing",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Reflects a new era in project planning that places a premium on flexibility and evolving customer requirements throughout the development process."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Planning the work and then working the plan",
+              "Customer needs may evolve and change over course of project",
+              "Importance of evolving customer needs leads to incremental, iterative planning process"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Agile PM, referred to as Scrum, recognizes mistakes of assuming once initial project conceptualization and planning are completed, project will be executed to original specifications."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Example, software projects are prone to constant changes.",
+              "Flexible, iterative system designed for the challenge of managing projects in midst of change and uncertainty",
+              "“Rolling wave” process of continuous plan-execute-evaluate cycle",
+              "Emphasis on adaptation, flexibility, and coordinated efforts of multiple disciplines"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Rather than starting with a highly detailed plan of what is to be done on a project, much is left up to the Scrum software development team as they are best placed to solve the problem presented."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Work is done in ‘sprints’ of 1 – 4 weeks starting with a sprint planning meeting which defines the desired outcomes.",
+              "Scrum relies on a self-organising, cross functional team (no overall leader!) so ALL members of the team are essential."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "BUT, two important roles: ScrumMaster who is like a coach for the team, and Product Owner (PO) who represents the business, customers or users who guides the team towards building the right product."
+          }
+        ]
+      },
+      {
+        "id": "section-5",
+        "heading": "Sprint, backlog and role terminology",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Terms"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Sprint",
+            "text": "One iteration of the Agile planning and executing cycle."
+          },
+          {
+            "kind": "definition",
+            "term": "Scrum",
+            "text": "The development strategy agreed to by all key members of the project."
+          },
+          {
+            "kind": "definition",
+            "term": "Time-box",
+            "text": "The length of any particular sprint, fixed in advance, during the Scrum meeting."
+          },
+          {
+            "kind": "definition",
+            "term": "User stories",
+            "text": "Short explanation of the end user that captures what they do or what they need from the project under development."
+          },
+          {
+            "kind": "definition",
+            "term": "Sprint backlog",
+            "text": "The set of product backlog items selected for the Sprint, plus a plan for delivering the Sprint Goal."
+          },
+          {
+            "kind": "definition",
+            "term": "Product backlog",
+            "text": "A prioritized list of everything that might be needed in completed product and source of requirements for any changes."
+          },
+          {
+            "kind": "definition",
+            "term": "Work backlog",
+            "text": "Evolving, prioritized queue of business and technical functionality that needs to be developed into a system."
+          },
+          {
+            "kind": "definition",
+            "term": "Product owner",
+            "text": "Person representing the stakeholders and serving as the “voice of the customer.”"
+          },
+          {
+            "kind": "definition",
+            "term": "Development team",
+            "text": "Organizational unit responsible for delivering the product at the end of the iteration (Sprint)."
+          },
+          {
+            "kind": "definition",
+            "term": "Burndown chart",
+            "text": "Remaining work in the Sprint backlog."
+          },
+          {
+            "kind": "definition",
+            "term": "Scrum Master",
+            "text": "Person on the project team responsible for moving the project forward between iterations, removing impediments, or resolving differences of opinions between major stakeholders."
+          }
+        ]
+      },
+      {
+        "id": "section-6",
+        "heading": "Events and implementation challenges",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Steps in Agile",
+              "Sprint Planning",
+              "Daily Scrums",
+              "Development Work",
+              "Sprint Review",
+              "Sprint Retrospective",
+              "Agile Weaknesses",
+              "Active user involvement and close collaboration of the Scrum team are critical throughout the development cycle.",
+              "Evolving requirements can lead to potential for scope creep.",
+              "It is harder to predict at beginning of project what the end product will actually resemble.",
+              "Agile requirements are kept to minimum, which can lead to confusion about the final outcomes.",
+              "Testing is integrated throughout lifecycle, which can add cost to project.",
+              "Frequent delivery of project features puts a burden on product owners.",
+              "If it is misapplied to traditional projects, it can be an expensive approach without delivering benefits."
+            ]
+          }
+        ]
       }
     ],
     "figures": [],
@@ -17213,7 +17401,8 @@
     "notes": [
       "“Current state” in the source refers to late-1990s/early-2000s commentary, not an updated adoption survey.",
       "Recommendations about small teams, safety-critical work and project size are source generalizations; no conclusion about a real project’s compliance or suitability follows from this list.",
-      "Statements that XP rejects reuse or that only code matters are source rhetoric, not requirements that replace professional design judgment."
+      "Statements that XP rejects reuse or that only code matters are source rhetoric, not requirements that replace professional design judgment.",
+      "XP is not a more aggressive form of Scrum. It is a distinct Agile approach with engineering practices; the source’s comparison is retained with this correction."
     ],
     "collection": "",
     "visuals": [],
@@ -17440,6 +17629,29 @@
           {
             "kind": "paragraph",
             "text": "Have complex products which continue beyond the project scope to require frequent and significant alterations, where a recorded knowledge base, or documentation set, becomes a fundamental necessity to support the maintenance"
+          }
+        ]
+      },
+      {
+        "id": "section-5",
+        "heading": "Refactoring, pairing and the source’s XP comparison",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "A more aggressive form of Scrum; a software development methodology intended to improve software quality and responsiveness to changing customer requirements."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Two guiding features of XP",
+              "Refactoring",
+              "Pair programming",
+              "Advantage of XP is whole process is visible and accountable."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Agile PM and XP have grown out of need to combine the discipline of project management methodology with the needs of modern enterprise to respond quickly."
           }
         ]
       }
@@ -18156,7 +18368,8 @@
     "notes": [
       "PrHA here means preliminary hazard analysis. Process hazard analysis is a broader use of the abbreviation PHA; the two are not treated as interchangeable names.",
       "One- or two-person reviews and the marine/LNG examples are source descriptions, not a staffing rule or a vessel-specific safety assessment.",
-      "Source suggestions about informal documentation do not establish what records a real project or regulator requires."
+      "Source suggestions about informal documentation do not establish what records a real project or regulator requires.",
+      "This new passage labels PHA “Problem Hierarchy Analysis” but describes early hazard identification. It appears to conflate names; the correct intended reference is uncertain. It is linked here for comparison, not treated as a new verified method."
     ],
     "collection": "",
     "visuals": [],
@@ -18410,6 +18623,17 @@
           {
             "kind": "paragraph",
             "text": "Recommend additional risk assessments. As suggested by the name, preliminary hazard analysis is conducted in an early phase of a project. Additional risk assessments will likely be needed to investigate certain issues in more detail. The insights gained from the PrHA will help determine what, if any, additional risk assessments should be conducted."
+          }
+        ]
+      },
+      {
+        "id": "section-5",
+        "heading": "Ambiguous PHA label in the project-management notes",
+        "blocks": [
+          {
+            "kind": "definition",
+            "term": "Problem Hierarchy Analysis (PHA)",
+            "text": "A powerful tool for identifying hazards early in the design process for problem solving."
           }
         ]
       }
@@ -19485,11 +19709,14 @@
     "related": [
       "organizational-alignment",
       "rasci-responsibilities",
-      "high-performance-teams"
+      "high-performance-teams",
+      "project-leadership",
+      "project-team-development"
     ],
     "notes": [
       "The university and Google examples are undated generalizations, not current organizational assessments.",
-      "Claims that a structure removes the need for innovation or guarantees better decisions are source simplifications."
+      "Claims that a structure removes the need for innovation or guarantees better decisions are source simplifications.",
+      "Equal prominence is a simplification of matrix structures; actual authority varies. Benefits such as faster decisions depend on implementation."
     ],
     "collection": "",
     "visuals": [],
@@ -19569,6 +19796,134 @@
             "items": [
               "Divisional organisational structure (accordingly to geographical areas, market or products as autonomous)",
               "Functional organisational structure (activity performed by individual groups within the business)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-4",
+        "heading": "Reporting relationships and three project structures",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Organisational Structure",
+              "Key elements",
+              "Designates formal reporting relationships",
+              "Number of levels in the hierarchy",
+              "Span of control",
+              "Identifies groupings of",
+              "Individuals into departments",
+              "Departments into the total organization",
+              "Design of systems to ensure",
+              "Effective communication",
+              "Coordination",
+              "Integration across departments",
+              "Forms"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Functional organizations",
+            "text": "Group people performing similar activities into departments"
+          },
+          {
+            "kind": "definition",
+            "term": "Project organizations",
+            "text": "Group people into project teams on temporary assignments"
+          },
+          {
+            "kind": "definition",
+            "term": "Matrix organizations",
+            "text": "Create a dual hierarchy in which functions and projects have equal prominence"
+          }
+        ]
+      },
+      {
+        "id": "section-5",
+        "heading": "Functional, project and matrix trade-offs",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Functional Structure"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Strengths"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Projects developed within basic functional structure require no disruption or change to firm’s design.",
+              "Enables development of in-depth knowledge and intellectual capital.",
+              "Allows for standard career paths."
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Weaknesses"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Functional siloing makes it difficult to achieve cross-functional cooperation.",
+              "Lack of customer focus and varying interest or commitment.",
+              "Longer time to complete projects.",
+              "Project Structure"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Strengths"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Project manager sole authority",
+              "Improved communication",
+              "Effective decision-making",
+              "Creation of project management experts",
+              "Rapid response to market opportunities"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Weaknesses"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Expensive to set up and maintain teams",
+              "Chance of loyalty to the project rather than the firm",
+              "Difficult to maintain a pooled supply of intellectual capital",
+              "Team member concern about future once project ends",
+              "Matrix Structure"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Strengths"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Suited to dynamic environments and maximizes scarce resources",
+              "Equal emphasis on project management and functional efficiency",
+              "Promotes coordination across functional units"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Weaknesses"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Dual hierarchies mean two bosses",
+              "Negotiation required in order to share resources",
+              "Workers caught between competing project & functional demands"
             ]
           }
         ]
@@ -20462,6 +20817,3939 @@
     "questionStages": []
   },
   {
+    "slug": "project-foundations",
+    "title": "Projects: purpose, outcomes and success",
+    "topic": "Project Management",
+    "group": "Planning & governance",
+    "summary": "Distinguish temporary project work from ongoing operations and define success beyond the delivery deadline.",
+    "takeaway": "Agree what success means for customers, the organization and affected stakeholders.",
+    "steps": [
+      "Define the outcome",
+      "Identify constraints",
+      "Agree success measures",
+      "Connect to strategy"
+    ],
+    "related": [
+      "project-charter",
+      "project-lifecycle",
+      "strategy-deployment"
+    ],
+    "notes": [
+      "The failure percentages, government-contract totals and Iraq reconstruction figures lack complete citations and dates. They are retained as unverified historical source claims, not current benchmarks.",
+      "The project-versus-process comparison is a teaching simplification: operations can be uncertain and cross-functional, while a project may have multiple objectives."
+    ],
+    "collection": "",
+    "visuals": [
+      {
+        "title": "Projects and operations: different organizing needs",
+        "kind": "matrix",
+        "headers": [
+          "Dimension",
+          "Project",
+          "Operations"
+        ],
+        "rows": [
+          [
+            "Purpose",
+            "Create a defined change or result",
+            "Sustain and improve ongoing delivery"
+          ],
+          [
+            "Time",
+            "Temporary, with a completion or stopping decision",
+            "Ongoing, with repeated cycles"
+          ],
+          [
+            "Coordination",
+            "Often crosses functional boundaries",
+            "Often organized around repeatable work"
+          ],
+          [
+            "Uncertainty",
+            "Depends on novelty and context",
+            "Can also face uncertainty and change"
+          ]
+        ],
+        "note": "Editorial comparison of the supplied descriptions. These are conceptual distinctions, not a scoring instrument."
+      }
+    ],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "What makes work a project",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "A project is a temporary endeavor undertaken to create a unique product, service, or result.",
+              "Projects are complex, one-time processes.",
+              "Projects are limited by budget, schedule, and resources.",
+              "Projects are developed to resolve a clear goal or set of goals.",
+              "Projects are customer-focused.",
+              "Projects are ad hoc endeavors with a clear life cycle.",
+              "Projects are building blocks in the design and execution of organizational strategies.",
+              "Projects are responsible for the newest and most improved products, services, and organizational processes.",
+              "Projects provide a philosophy and strategy for the management of change.",
+              "Project management entails crossing functional and organizational boundaries.",
+              "Traditional management functions of planning, organizing, motivation, directing, and control apply to project management."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Principal outcomes of a project are the satisfaction of customer requirements within the constraints of technical, cost, and schedule objectives."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Projects are terminated upon successful completion of performance objectives.",
+              "To Create",
+              "A product (component, enhancement or end product in itself)",
+              "A service or capability to perform a service",
+              "An improvement in an existing product or service",
+              "A result (outcome or document)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Success dimensions, criteria and historical claims",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Project Success Rates",
+              "Software & hardware projects fail at a 65% rate.",
+              "Over half of all IT projects become runaways.",
+              "Only 30% of technology-based projects and programs are a success.",
+              "Ten major government contracts have over $16 billion in cost overruns and are a combined 38 years behind schedule.",
+              "Only 2.5% of global businesses achieve 100% project success and over 50% of global business projects fail.",
+              "More than $8 billion of $53 billion the Pentagon spent on Iraqi reconstruction projects was lost due to fraud, waste, and abuse.",
+              "Dimension of Project Success",
+              "Project efficiency",
+              "Impact on the customer",
+              "Business success",
+              "Preparing for the future",
+              "Constraint of Project Success",
+              "Budget",
+              "Client acceptance",
+              "Time"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Performance"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Success Criteria",
+              "Iron Triangle",
+              "Cost",
+              "Quality",
+              "Time",
+              "Information System",
+              "Maintainability",
+              "Reliability",
+              "Validity",
+              "Information quality",
+              "Use",
+              "Benefits (organisation)",
+              "Improved efficiency",
+              "Improved effectiveness",
+              "Increased profits",
+              "Strategic goals",
+              "Organisation learning",
+              "Reduced waste",
+              "Beenfits (stakeholders)",
+              "Satisfied users",
+              "Social and environmental impact",
+              "Personal development",
+              "Professional learning, contractors' profit",
+              "Capital suppliers, content",
+              "Project team, economic impact to surrounding community",
+              "Success Criteria for IT Project",
+              "System quality",
+              "User statisfaction",
+              "Individual impact",
+              "Organisational impact"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Projects compared with ongoing operations",
+        "blocks": [
+          {
+            "kind": "heading",
+            "text": "Process vs. Project"
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Process / operations",
+              "Project"
+            ],
+            "rows": [
+              [
+                [
+                  "Repeat process or product"
+                ],
+                [
+                  "New process or product"
+                ]
+              ],
+              [
+                [
+                  "Several objectives"
+                ],
+                [
+                  "One objective"
+                ]
+              ],
+              [
+                [
+                  "Ongoing"
+                ],
+                [
+                  "One-shot-limited life"
+                ]
+              ],
+              [
+                [
+                  "People are homogenous"
+                ],
+                [
+                  "More heterogeneous"
+                ]
+              ],
+              [
+                [
+                  "Well-established systems"
+                ],
+                [
+                  "Integrated system efforts"
+                ]
+              ],
+              [
+                [
+                  "Greater certainty"
+                ],
+                [
+                  "Greater uncertainty"
+                ]
+              ],
+              [
+                [
+                  "Part line organization"
+                ],
+                [
+                  "Outside of line organization"
+                ]
+              ],
+              [
+                [
+                  "Established practices"
+                ],
+                [
+                  "Violates established practice"
+                ]
+              ],
+              [
+                [
+                  "Supports status quo"
+                ],
+                [
+                  "Upsets status quo"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-4",
+        "heading": "Turning strategy into projects",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Strategy to Projects",
+              "Technical or operating initatives (such as new distribution strategies or decentralised plant operations)",
+              "Construction of new plants of modernisation of facilities",
+              "Development of products for greater market penetration and acceptance",
+              "New product development projects",
+              "New business processes for greater streamlining and efficiency",
+              "Re-engineering projects",
+              "Changes in strategic direction or product portfolio reconfiguration",
+              "New product lines"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Creation of new strategic alliances",
+            "text": "Negotiation with supply chain members (including suppliers and distributors)"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Maching or improving on competiors' products and services",
+              "Reverse engineering projects",
+              "Improvement of cross-organisational communication and efficiency in supply chain relationships",
+              "Enterprise IT efforts",
+              "Promotion of cross-functional interaction, streamlining of new product of service introduction, and improvement of departmental coordination",
+              "Concurrent engineering projects"
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "project-lifecycle",
+    "title": "Project lifecycle: from concept to handover",
+    "topic": "Project Management",
+    "group": "Planning & governance",
+    "summary": "Follow the source’s four-stage lifecycle and understand how effort, uncertainty and stakeholder interests can change.",
+    "takeaway": "Plan closure and customer transfer from the beginning, not only after execution.",
+    "steps": [
+      "Conceive",
+      "Plan",
+      "Execute",
+      "Transfer and close"
+    ],
+    "related": [
+      "project-foundations",
+      "project-closeout",
+      "project-risk-planning"
+    ],
+    "notes": [
+      "The four stages are the supplied teaching model, not a mandatory lifecycle for every project. Both lifecycle illustrations are conceptual, with no measured scale."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Conceptualization, planning, execution and termination",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "A project life cycle refers to the stages in a project’s development and are divided into four distinct phases",
+              "Conceptualization",
+              "Development of the initial goal and technical specifications of the project. Key stakeholders are identified and signed on at this phase.",
+              "Planning",
+              "All detailed specifications, schedules, schematics, and plans are developed.",
+              "Execution",
+              "The actual “work” of the project is performed.",
+              "Termination",
+              "Project is transferred to the customer, resources reassigned, project is closed out."
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Man-hours Allocations"
+          },
+          {
+            "kind": "heading",
+            "text": "Intensity Change"
+          }
+        ]
+      }
+    ],
+    "figures": [
+      {
+        "document": "Project Management.docx",
+        "image": "word/media/image1.jpeg",
+        "slug": "project-lifecycle",
+        "title": "Effort across the lifecycle",
+        "kind": "cards",
+        "headers": [
+          "Stage",
+          "Reading"
+        ],
+        "rows": [
+          [
+            "Conceptualization",
+            "Initial staffing and effort establish purpose and feasibility."
+          ],
+          [
+            "Planning",
+            "Effort increases as plans and specifications develop."
+          ],
+          [
+            "Execution",
+            "The conceptual man-hours curve rises to its largest allocation."
+          ],
+          [
+            "Termination",
+            "Effort falls as delivery is transferred and the team is released."
+          ]
+        ],
+        "note": "Accessible reconstruction of the unscaled staffing curve. Relative shape is illustrative; no staffing quantities or dates are supplied."
+      },
+      {
+        "document": "Project Management.docx",
+        "image": "word/media/image2.jpeg",
+        "slug": "project-lifecycle",
+        "title": "What changes as a project develops?",
+        "kind": "matrix",
+        "headers": [
+          "Dimension",
+          "Conceptual trend"
+        ],
+        "rows": [
+          [
+            "Client interest",
+            "High early, lower through development and renewed toward handover."
+          ],
+          [
+            "Project stake",
+            "Rises as commitments accumulate."
+          ],
+          [
+            "Resources",
+            "Rise toward execution, then fall."
+          ],
+          [
+            "Creativity",
+            "Dips early, rises through planning into execution, then falls toward termination."
+          ],
+          [
+            "Uncertainty",
+            "Falls as the project becomes better understood."
+          ]
+        ],
+        "note": "Conceptual trends in the supplied intensity illustration, not measured data or a prediction for every project."
+      }
+    ],
+    "questionStages": []
+  },
+  {
+    "slug": "project-maturity",
+    "title": "Project-management maturity: assess practices with evidence",
+    "topic": "Process Improvement",
+    "group": "Maturity & capability",
+    "summary": "Compare the supplied maturity outlines and use an eight-dimension assessment framework without mistaking it for scored results.",
+    "takeaway": "Maturity labels need observable practices, evidence and an identified model edition.",
+    "steps": [
+      "Choose a model",
+      "Define evidence",
+      "Assess dimensions",
+      "Prioritize improvement"
+    ],
+    "related": [
+      "cmmi-capability",
+      "software-process-discipline",
+      "six-sigma-improvement"
+    ],
+    "notes": [
+      "The Center for Business Practices, Kerzner, ESI and SEI outlines are undated source summaries, not interchangeable assessment instruments.",
+      "The spider-web graphic has eight axes and a 0–3 scale but no plotted observations, scoring rubric or assessed organization. No score or maturity result is inferred."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Benchmarking and four historical model outlines",
+        "blocks": [
+          {
+            "kind": "definition",
+            "term": "Project management maturity (PMM) models",
+            "text": "Used to allow organizations to benchmark the best practices of successful project management firms."
+          },
+          {
+            "kind": "definition",
+            "term": "Benchmarking",
+            "text": "The practice of systematically managing the process improvements of project delivery by a single organization of a period of time."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Generic Models"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "High maturity",
+            "text": "Instituitionalised seeks continuous improvements."
+          },
+          {
+            "kind": "definition",
+            "term": "Moderate maturity",
+            "text": "Defined practices, training programs, organisational support."
+          },
+          {
+            "kind": "definition",
+            "term": "Low maturity",
+            "text": "Ad hoc process, no common language, little support"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "PMM Models",
+              "Center for Business Practices",
+              "Initial Phase",
+              "Structure, Process, and Standards",
+              "Institutionalized Project Management",
+              "Managed",
+              "Optimizing",
+              "Kerzner’s Project Management Maturity Model",
+              "Common Language",
+              "Common Processes",
+              "Singular Methodology"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Benchmarking"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Continuous Improvement",
+              "ESI International’s Project Framework",
+              "Ad Hoc",
+              "Consistent",
+              "Integrated",
+              "Comprehensive",
+              "Optimizing",
+              "SEI’s Capability Maturity Model Integration",
+              "Initial",
+              "Managed",
+              "Defined",
+              "Quantitative Management"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Spider Web Diagram"
+          }
+        ]
+      }
+    ],
+    "figures": [
+      {
+        "document": "Project Management.docx",
+        "image": "word/media/image3.jpeg",
+        "slug": "project-maturity",
+        "title": "Eight maturity-assessment dimensions",
+        "kind": "cards",
+        "headers": [
+          "Stage",
+          "Reading"
+        ],
+        "rows": [
+          [
+            "Project scheduling",
+            "Define observable evidence before assigning a score."
+          ],
+          [
+            "Structural support for project management",
+            "Define observable evidence before assigning a score."
+          ],
+          [
+            "Portfolio management",
+            "Define observable evidence before assigning a score."
+          ],
+          [
+            "Coaching, auditing and evaluating projects",
+            "Define observable evidence before assigning a score."
+          ],
+          [
+            "Control practices",
+            "Define observable evidence before assigning a score."
+          ],
+          [
+            "Project stakeholder management",
+            "Define observable evidence before assigning a score."
+          ],
+          [
+            "Networking between projects",
+            "Define observable evidence before assigning a score."
+          ],
+          [
+            "Personal development for projects",
+            "Define observable evidence before assigning a score."
+          ]
+        ],
+        "note": "The original radar has eight axes and a 0–3 scale but no plotted scores. This framework preserves the dimensions without inventing an assessed profile."
+      }
+    ],
+    "questionStages": []
+  },
+  {
+    "slug": "project-leadership",
+    "title": "Project managers, PMOs and champions",
+    "topic": "Project Management",
+    "group": "Planning & governance",
+    "summary": "Clarify delivery leadership, organizational support, standards and sponsorship roles.",
+    "takeaway": "Separate the authority to deliver, the support to do so and the sponsorship that keeps the project viable.",
+    "steps": [
+      "Clarify authority",
+      "Provide support",
+      "Develop capability",
+      "Secure sponsorship"
+    ],
+    "related": [
+      "rasci-responsibilities",
+      "project-stakeholders",
+      "project-team-development"
+    ],
+    "notes": [
+      "“Fanatics,” “godfather” and political labels are the source’s metaphors, not recommended professional roles. Sponsor, champion and project manager should have explicit responsibilities."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Manager responsibilities, traits and development",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Selecting a team",
+              "Developing project objectives and a plan for execution",
+              "Performing risk management activities",
+              "Cost estimating and budgeting",
+              "Scheduling",
+              "Managing resources",
+              "Effective Traits",
+              "Leads by example",
+              "Visionary",
+              "Technically competent",
+              "Decisive",
+              "A good communicator",
+              "A good motivator",
+              "Supports team members",
+              "Encourages new ideas",
+              "Credibility",
+              "Creative problem-solver",
+              "Tolerance for ambiguity",
+              "Flexible management style",
+              "Stands up to top management when necessary",
+              "Abilities",
+              "Organizing under conflict",
+              "Experience",
+              "Decision making",
+              "Productive creativity",
+              "Organizing with cooperation",
+              "Cooperative leadership",
+              "Integrative thinking",
+              "Creating Project Managers",
+              "Match personalities with project work.",
+              "Formalize commitment to project work with training programs.",
+              "Develop a unique reward system.",
+              "Identify a distinct career path."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "PMO support and the control-tower model",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Technical details",
+              "Expertise",
+              "Repository",
+              "Center for excellence",
+              "Control Tower",
+              "Establishes standards for managing projects",
+              "Consults on how to follow these standards",
+              "Enforces the standards",
+              "Improves the standards"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Champions, sponsors and organizational support",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Champions are “fanatics” in the single-minded pursuit of their pet ideas.",
+              "Creative originator",
+              "Entrepreneur",
+              "“Godfather” or sponsor",
+              "Project manager",
+              "Traditional Duties",
+              "Technical understanding",
+              "Non-traditional Duties",
+              "Cheerleader",
+              "Leadership",
+              "Visionary",
+              "Coordination & control",
+              "Politician",
+              "Obtaining resources",
+              "Risk taker",
+              "Administrative",
+              "Ambassador",
+              "Creating Project Champions",
+              "Identify and encourage their emergence.",
+              "Encourage and reward risk takers.",
+              "Remember the emotional connection.",
+              "Free champions from traditional project management duties."
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "project-stakeholders",
+    "title": "Project stakeholders: interests, influence and engagement",
+    "topic": "Project Management",
+    "group": "Planning & governance",
+    "summary": "Identify internal and external stakeholders and make competing interests visible.",
+    "takeaway": "Engage people affected by the work as well as people who can influence it.",
+    "steps": [
+      "Identify stakeholders",
+      "Understand interests",
+      "Agree engagement",
+      "Review changes"
+    ],
+    "related": [
+      "project-charter",
+      "project-communication",
+      "rasci-responsibilities"
+    ],
+    "notes": [],
+    "collection": "",
+    "visuals": [],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Stakeholders, analysis and supplied examples",
+        "blocks": [
+          {
+            "kind": "definition",
+            "term": "Project Stakeholders",
+            "text": "all individuals or groups who have an active stake in the project and can potentially impact, either positively or negatively, its development."
+          },
+          {
+            "kind": "definition",
+            "term": "Stakeholder Analysis",
+            "text": "Useful tool for demonstrating some of the seemingly irresolvable conflicts that occur through the planned creation and introduction of new projects."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Internal stakeholders",
+              "Top management",
+              "Accountant",
+              "Other functional managers",
+              "Project team members",
+              "External stakeholders",
+              "Clients",
+              "Competitors",
+              "Suppliers",
+              "Environmental, political, consumer, and other intervenor groups",
+              "Stakeholders example",
+              "Parent organisation",
+              "External environment",
+              "Project team"
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "project-communication",
+    "title": "Project communication: meetings that move work forward",
+    "topic": "Project Management",
+    "group": "Teams, responsibilities & change",
+    "summary": "Prepare useful meetings and distinguish task progress from the behaviors that sustain participation.",
+    "takeaway": "A productive meeting needs both a clear outcome and space for people to contribute.",
+    "steps": [
+      "Set a purpose",
+      "Invite participation",
+      "Check understanding",
+      "Record decisions"
+    ],
+    "related": [
+      "clear-communication",
+      "project-stakeholders",
+      "project-team-development"
+    ],
+    "notes": [
+      "The funding-barrier list is not a complete resource-acquisition procedure. The behavior table describes facilitation roles, not fixed personality types."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Meeting purposes and funding barriers",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Purpose of meetings",
+              "Define project and team players.",
+              "Provide an opportunity to revise, update, and add to knowledge base.",
+              "Assist team members in understanding role in project as part of whole and how to contribute to project success.",
+              "Help stakeholders increase commitment to project.",
+              "Provide a collective opportunity to discuss project.",
+              "Provide visibility for project manager’s role.",
+              "Acquire resources when project is under funded",
+              "Vague goals",
+              "Lack of top management support",
+              "Requirements understated",
+              "Insufficient funds",
+              "Distrust between managers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Task and group-maintenance behaviors",
+        "blocks": [
+          {
+            "kind": "table",
+            "headers": [
+              "Task-Oriented Behaviour",
+              "Specific Outcome",
+              "Group Maintenance Behaviour",
+              "Specific Outcome"
+            ],
+            "rows": [
+              [
+                [
+                  "Structuring process"
+                ],
+                [
+                  "Guide and sequence discussion"
+                ],
+                [
+                  "Gatekeeping"
+                ],
+                [
+                  "Increase and equalise participation"
+                ]
+              ],
+              [
+                [
+                  "Stimulating communication"
+                ],
+                [
+                  "Increase information exchange"
+                ],
+                [
+                  "Harmonising"
+                ],
+                [
+                  "Reduce tension and hostility"
+                ]
+              ],
+              [
+                [
+                  "Clarifying communication"
+                ],
+                [
+                  "Increase comprehension"
+                ],
+                [
+                  "Supporting"
+                ],
+                [
+                  "Prevent withdrawal, encourage exchange"
+                ]
+              ],
+              [
+                [
+                  "Summarising"
+                ],
+                [
+                  "Check on understanding and assess progress"
+                ],
+                [
+                  "Setting standards"
+                ],
+                [
+                  "Regulate behaviour"
+                ]
+              ],
+              [
+                [
+                  "Testing consensus"
+                ],
+                [
+                  "Check on agreement"
+                ],
+                [
+                  "Analysing process"
+                ],
+                [
+                  "Discover and resolve process problem"
+                ]
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "project-team-development",
+    "title": "Project teams: development, cooperation and performance",
+    "topic": "Project Management",
+    "group": "Teams, responsibilities & change",
+    "summary": "Compare Tuckman’s stages with punctuated equilibrium and explore practical conditions for cross-functional cooperation.",
+    "takeaway": "Use team-development models to ask better questions, not to prescribe a fixed emotional timetable.",
+    "steps": [
+      "Clarify the mission",
+      "Build trust",
+      "Address conflict",
+      "Review cooperation"
+    ],
+    "related": [
+      "project-communication",
+      "project-leadership",
+      "project-team-development"
+    ],
+    "notes": [
+      "The diagrams are conceptual models, not measured forecasts. Teams may revisit stages and do not necessarily change at exactly the midpoint."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Conditions for teamwork and reasons teams struggle",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Clear Sense of Mission",
+              "Productive Interdependence",
+              "Cohesiveness",
+              "Trust",
+              "Enthusiasm",
+              "Results Orientation",
+              "Reasons for Failure",
+              "Poorly developed or unclear goals",
+              "Poorly defined project team roles & interdependencies",
+              "Lack of project team motivation",
+              "Turnover among project team members",
+              "Poor communication",
+              "Poor leadership",
+              "Dysfunctional behavior"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Development stages and cross-functional cooperation",
+        "blocks": [
+          {
+            "kind": "definition",
+            "term": "Stages in group development",
+            "text": "Punctuated equilibrium is a different model"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Forming",
+              "Members become acquainted.",
+              "Storming",
+              "Conflict begins",
+              "Norming",
+              "Nembers reach agreement",
+              "Performing",
+              "Members work together",
+              "Adjourning",
+              "Group disbands",
+              "Cross-functional Cooperation",
+              "Superordinate goals",
+              "Rules and procedures",
+              "Physical proximity",
+              "Accessibility",
+              "High-performing teams",
+              "Make the project team tangible.",
+              "Publicity",
+              "Terminology & language",
+              "Reward good behavior.",
+              "Flexibility",
+              "Creativity",
+              "Pragmatism",
+              "Develop a personal touch.",
+              "Lead by example",
+              "Positive feedback for good performance",
+              "Accessibility & consistency"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Tuckman and punctuated equilibrium",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Forming"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "There's usually high dependence on the leader for guidance and direction.",
+            "text": "Team acquaints and establishes groud rules. Formalities are preserved and members are treated as strangers."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Storming",
+              "This period can be marked by conflict and competition as individual personalities and working styles emerge."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Members start to communicate their feelings but still view themselves as individuals rather than part of the team. They resist control by group leaders and show hostility."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Norming"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Rules and values are established, leading to stronger team cohesion.",
+            "text": "People feel part of the team and realise that they can achieve work if they accept other viewpoints."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Performing",
+              "Members are motivated, knowledgeable, and able to work autonomously to achieve the team's goals.",
+              "The team works in an open and trusting atmosphere where flexibility is the key and hierarchy is of little importance."
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Punctuated Equlibrium"
+          }
+        ]
+      }
+    ],
+    "figures": [
+      {
+        "document": "Project Management.docx",
+        "image": "word/media/image4.jpeg",
+        "slug": "project-team-development",
+        "title": "Tuckman: team-development stages",
+        "kind": "cards",
+        "headers": [
+          "Stage",
+          "Reading"
+        ],
+        "rows": [
+          [
+            "Forming",
+            "Inclusion; quiet, polite, guarded, impersonal and businesslike behavior; initially high morale. Transition toward testing is marked at the edge of this stage."
+          ],
+          [
+            "Storming",
+            "Infighting, conflict over control, confrontation, alienation, personal agendas and low morale."
+          ],
+          [
+            "Norming",
+            "Becoming organized: establish procedures, develop team skills, confront issues and rebuild morale."
+          ],
+          [
+            "Performing",
+            "Productivity, trust, flexibility, support, confidence, efficiency and high morale."
+          ],
+          [
+            "Convene / adjourn",
+            "The original diagram shows a convening-to-adjourning cycle."
+          ]
+        ],
+        "note": "Rebuilt from the source diagram. These are model descriptions, not inevitable behaviors or a diagnostic measure."
+      },
+      {
+        "document": "Project Management.docx",
+        "image": "word/media/image5.jpeg",
+        "slug": "project-team-development",
+        "title": "Punctuated equilibrium: change can occur in bursts",
+        "kind": "flow",
+        "headers": [],
+        "rows": [
+          [
+            "First meeting: a relatively stable initial working pattern"
+          ],
+          [
+            "Midpoint transition: a marked change in approach"
+          ],
+          [
+            "Later work: additional advances toward completion"
+          ],
+          [
+            "Deadline: final push to complete"
+          ]
+        ],
+        "note": "The original step-shaped performance curve uses a midpoint and deadline. No numerical performance scale or universal timing is established."
+      }
+    ],
+    "questionStages": []
+  },
+  {
+    "slug": "prince2-project-governance",
+    "title": "PRINCE2: products, stages and governance",
+    "topic": "Project Management",
+    "group": "Delivery approaches",
+    "summary": "Read the source’s product-based planning and governance notes with explicit historical context.",
+    "takeaway": "Use the source to understand governance ideas, while checking the edition before relying on its terminology.",
+    "steps": [
+      "Define products",
+      "Plan stages",
+      "Clarify decisions",
+      "Tailor governance"
+    ],
+    "related": [
+      "delivery-approaches",
+      "project-charter",
+      "project-closeout"
+    ],
+    "notes": [
+      "The eight-process/eight-component/three-technique outline describes older PRINCE2 terminology. PRINCE2 7 uses seven processes and seven practices, with people as an integrated element.",
+      "Claims that people are outside the method, that change cannot be accommodated or that qualifications are universally required for UK government work are not established current rules. The limitation list is source commentary.",
+      "The PMBOK Guide is a body-of-knowledge guide, not simply another methodology."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [
+      {
+        "title": "PeopleCert: evolution of PRINCE2 7",
+        "url": "https://www.peoplecert.org/news-and-announcements/PRINCE2%207%20-%20A%20Process%20of%20Evolution"
+      }
+    ],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Origins, features and historical scope",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "PRINCE2 (PRojects IN Controlled Environments) – similar in some ways to PMBOK methodology which is popular in the USA",
+              "Developed initially as a standard to be used for all UK-Government information systems projects",
+              "Can now be applied to all kinds of projects (small and large) and is widely used in Europe, although it has limitations (see separate slide)",
+              "‘PRINCE2 Practitioner’ qualified status needed for employment / participation in many / all UK Government- sponsored projects.",
+              "Features",
+              "Follow a process model",
+              "Are managed by exception",
+              "Are delivered in stages",
+              "Are product-based (focus on what you produce, not on what you do)",
+              "Management products, e.g. Stage Plan, Project Initiation Document (PID)",
+              "Specialist products, e.g. Project deliverables",
+              "Not Covered by PRINCE2",
+              "Soft skills of people management including motivation, leadership, etc.",
+              "Specific techniques for financial analysis, planning, risk management or control of progress, etc.",
+              "Use of project management tools (e.g. MS Project)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Historical terminology and project-plan contents",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Terminology"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Planning Process PL (Recipe)",
+            "text": "The 8 processes that stipulates when to create a plan"
+          },
+          {
+            "kind": "definition",
+            "term": "Plans are a Component (Ingredients)",
+            "text": "The 8 areas of the method that helps with what you do"
+          },
+          {
+            "kind": "definition",
+            "term": "Product Based Planning is a Technique (Skills)",
+            "text": "3 techniques for how you do planning to define project deliverables"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Project Plan",
+              "Product descriptions",
+              "Activities to create product",
+              "Quality validation activities",
+              "Resources and skills needed",
+              "Explanatory text",
+              "Dependecies between activities",
+              "External dependencies",
+              "Dates and costs",
+              "Monitoring and control arragements"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Limitations argued in the source",
+        "blocks": [
+          {
+            "kind": "heading",
+            "text": "Limitations"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PRINCE2 adds additional overhead and may not be viable for all size projects – lots of documentation at each stage consumes resource effort, increasing the cost and duration of the project, disproportionately increasing the cost for smaller projects."
+          },
+          {
+            "kind": "paragraph",
+            "text": "Accurate measurement of the project success is not possible unless tangible outcomes are achieved– PRINCE2 focuses on the process and business case justification throughout the project stages instead of the end goal."
+          },
+          {
+            "kind": "paragraph",
+            "text": "PRINCE2 methodology is complex - and it cannot be carried out without experience or special training when compared with some other project management methods, so needs expensive and specialist resource."
+          },
+          {
+            "kind": "paragraph",
+            "text": "PRINCE2 Flexibility is not realistic – although this methodology can theoretically be customised and applied to projects of all types and levels, it does contain some mandatory tasks which become limitations."
+          },
+          {
+            "kind": "paragraph",
+            "text": "Documentation requirement increases the size of the project – one of the major issues for small projects is it that it no longer remains a small project due to the additional work required to support PRINCE2 methodology!"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Not easy to accommodate change requests – it’s not easy to accommodate scope changes once the project has started as focus is always on business case justification by which the project started. PRINCE2 methodology contains very low level of change adaptation process."
+          },
+          {
+            "kind": "paragraph",
+            "text": "Some important processes are missing - when viewed holistically, there is no support or ongoing maintenance process. It also does not contain any people management techniques neither budget control mechanisms."
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "critical-chain",
+    "title": "Critical chain: constraints, resources and buffers",
+    "topic": "Project Management",
+    "group": "Delivery approaches",
+    "summary": "Explore constraint-focused scheduling, project and feeding buffers, and portfolio coordination.",
+    "takeaway": "A schedule must account for constrained resources as well as activity dependencies.",
+    "steps": [
+      "Find the constraint",
+      "Exploit capacity",
+      "Coordinate schedules",
+      "Review buffers"
+    ],
+    "related": [
+      "project-scheduling",
+      "project-cost-estimation",
+      "delivery-approaches"
+    ],
+    "notes": [
+      "The 50% duration and buffer rules are source heuristics, not universal confidence guarantees. The Newbold formula is named but not supplied.",
+      "The claim that resource leveling is unnecessary should not be read as permission to ignore resource conflicts. The source assumes resource constraints are already considered when identifying the chain.",
+      "The critique list is undated opinion without comparative project data."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Critical chain and the theory of constraints",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Developed by Dr. Eli Goldratt in mid-1990s",
+              "Alternative scheduling mechanism to speed up project delivery",
+              "Make better use of project resources",
+              "Based on theory of constraints (TOC)",
+              "Represents both cultural shift and change in scheduling processes",
+              "Applies technical and behavioral elements of project management",
+              "More efficiently allocate and discipline the process of implementing projects",
+              "Constraint Theory",
+              "Identify the constraint.",
+              "Exploit the constraint.",
+              "Subordinate the system constraint.",
+              "Elevate the constraint.",
+              "Repeat the process."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Duration assumptions and buffers",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Solution",
+              "Central Limit Theorem",
+              "Activity durations estimated at 50% level",
+              "Buffer reapplied at project level",
+              "Goldratt rule of thumb (50%)",
+              "Newbold formula",
+              "Feeder buffers for non-critical paths",
+              "Activity Network",
+              "Resource leveling is not required because resources are leveled within the project in the process of identifying the critical chain."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "CCPM advocates putting off all noncritical activities as late as possible, while providing each non critical path in the network with its own buffer."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Noncritical buffers are referred to as feeder buffers.",
+              "Feeding buffer duration is calculated similarly to the process used to create the overall project buffer."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Portfolio coordination and source critiques",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "On Portfolio Management",
+              "Capacity constraint buffer (CCP) refers to a safety margin separating different projects scheduled to use the same resource."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Drum buffers are extra safety applied to a project immediately before the use of the constrained resource to ensure that the resource will not be starved for work."
+          },
+          {
+            "kind": "heading",
+            "text": "Steps"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Identify company resource constraints or drum.",
+              "Exploit resource constraints.",
+              "Subordinate individual project schedules.",
+              "Elevate the capacity of the constraint resource.",
+              "Go back to step 2 and reiterate the sequence.",
+              "Critiques",
+              "No milestones used",
+              "Not significantly different from PERT",
+              "Unproven at the portfolio level",
+              "Anecdotal support only",
+              "Incomplete solution",
+              "Overestimation of activity duration padding",
+              "Cultural changes unattainable"
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "project-cost-estimation",
+    "title": "Project costing: estimates, cost types and uncertainty",
+    "topic": "Project Management",
+    "group": "Estimation & performance",
+    "summary": "Compare cost categories and the source’s four estimating levels, including their limits.",
+    "takeaway": "An estimate should state its scope, evidence and uncertainty rather than promise a fixed accuracy from its label.",
+    "steps": [
+      "Define costs",
+      "Choose evidence",
+      "State uncertainty",
+      "Review assumptions"
+    ],
+    "related": [
+      "project-budgeting",
+      "probe-estimation",
+      "earned-value-management"
+    ],
+    "notes": [
+      "The ±30%, ±15%, ±10% and ±5% ranges are source rules of thumb, not universal estimating standards. Accuracy depends on definition, method, data and context.",
+      "The Boeing example lacks a dated underlying reference and is retained as a source illustration."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Cost management and cost categories",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Cost management has been defined to encompass data collection, cost accounting, and cost control.",
+              "Cost accounting and cost control serve as the chief mechanisms for identifying and maintaining control over project costs.",
+              "Cost estimation processes create a reasonable budget baseline for the project."
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Examples",
+            "text": "Labour, materials, subcontractors, equipment & facilities, travel"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Type of Costs",
+              "Direct Vs. Indirect",
+              "Recurring Vs. Nonrecurring",
+              "Fixed Vs. Variable",
+              "Normal Vs. Expedited"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Ballpark, comparative, feasibility and definitive estimates",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Cost Estimation",
+              "Ballpark (order of magnitude) ±30%"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Sometimes referred to as order of magnitude estimates, ballpark estimates are typically used when either information or time is scarce. Companies often use them as preliminary estimates for resource requirements or to determine if a competitive bid can be attempted for a project contract. For example, a client may file an RFQ (request for quote) for competitive bids on a project, stating a very short deadline. Managers would have little time to make a completely accurate assessment of the firm’s qualifications or requirements, but they could still request ballpark estimates from their personnel to determine if they should even attempt to bid the proposal through a more detailed analysis. The unofficial rule of thumb for ballpark estimates is to aim for an accuracy of ±30%. With such a wide variance plus or minus, it should be clear that ballpark estimates are not intended to substitute for more informed and detailed cost estimation."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Comparative (budgetary) ±15%"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Comparative estimates are based on the assumption that historical data can be used as a frame of reference for current estimates on similar projects. For example, Boeing Corporation routinely employs a process known as parametric estimation , in which managers develop detailed estimates of current projects by taking older work and inserting a multiplier to account for the impact of inflation, labor and materials increases, and other reasonable direct costs. This parametric estimate, when carefully performed, allows Boeing to create highly accurate estimates when costing out the work and preparing detailed budgets for new aircraft development projects. Even in cases where the technology is new or represents a significant upgrade over old technologies, it is often possible to gain valuable insight into the probable costs of development, based on historical examples."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Feasibility ±10%"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "These estimates are based as a guideline on real numbers, or figures derived after the completion of the preliminary project design work. Following initial scope development, it is possible to request quotes from suppliers and other subcontractors with a greater degree of confidence, particularly as it is common to engage in some general scheduling processes to begin to determine the working project baseline. Feasibility estimates are routinely used for construction projects, where there are published materials cost tables that can give reasonably accurate cost estimates for a wide range of project activities based on an estimate of the quantities involved. Because they are developed farther down the life cycle, feasibility estimates are often expressed in terms of a degree of accuracy of 10%."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Definitive ±5%"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "These estimates can be given only upon the completion of most design work, at a point when the scope and capabilities of the project are quite well understood. At this point all major purchase orders have been submitted based on known prices and availabilities, there is little or no wiggle room in the project’s specifications, and the steps to project completion have been identified and a comprehensive project plan is in place."
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Why cost estimates fail",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Costing Limitations",
+              "Low initial estimates",
+              "Unexpected technical difficulties",
+              "Lack of definition",
+              "Specification changes",
+              "External factors"
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "project-budgeting",
+    "title": "Project budgets: resource plans and contingencies",
+    "topic": "Project Management",
+    "group": "Estimation & performance",
+    "summary": "Compare top-down, bottom-up and activity-based budgeting and the role of contingency funding.",
+    "takeaway": "Connect budget resources to activities, timing and explicit assumptions about uncertainty.",
+    "steps": [
+      "Map activities",
+      "Identify cost drivers",
+      "Build the baseline",
+      "Plan contingency"
+    ],
+    "related": [
+      "project-cost-estimation",
+      "project-risk-planning",
+      "earned-value-management"
+    ],
+    "notes": [],
+    "collection": "",
+    "visuals": [],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Budgeting approaches and activity-based costs",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Creating a Project Budget",
+              "The budget is a plan that identifies the resources, goals, and schedule that allows a firm to achieve those goals.",
+              "Top-down",
+              "Bottom-up",
+              "Activity-based costing (ABC)",
+              "Activity-based Costing (ABC)",
+              "Assign costs to activities that use resources.",
+              "Identify cost drivers associated with this activity.",
+              "Compute a cost rate per cost driver unit or transaction.",
+              "Multiply the cost driver rate times the volume of cost driver units used by the project."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Contingency purposes and benefits",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Contigencies",
+              "Project scope may change",
+              "Murphy’s Law is present",
+              "Cost estimation must anticipate interaction costs",
+              "Normal conditions are rarely encountered",
+              "Benefits to Contigency Funding",
+              "Recognizes future contains unknowns",
+              "Adds provision for company plans for an increase in project cost",
+              "Applies contingency fund as an early warning signal to potential overdrawn budget"
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "project-scheduling",
+    "title": "Project schedules: dependencies, float and critical paths",
+    "topic": "Project Management",
+    "group": "Planning & governance",
+    "summary": "Build a vocabulary for network schedules and assess which changes can affect the finish date.",
+    "takeaway": "Shortening a task helps completion only when the actual dependencies and constraints make it consequential.",
+    "steps": [
+      "Define activities",
+      "Connect dependencies",
+      "Calculate dates",
+      "Review constraints"
+    ],
+    "related": [
+      "pert-three-point-estimation",
+      "schedule-network-examples",
+      "critical-chain"
+    ],
+    "notes": [
+      "AOA, AON, node labels, laddering and hammock activities are named without complete worked diagrams. No missing numerical network is reconstructed.",
+      "Shortening early, long, easy or cheap tasks does not automatically shorten a project. Re-evaluate the critical path and resource constraints; overlapping work can introduce rework and risk."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Network logic and scheduling glossary",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Project scheduling requires us to follow some carefully laid-out steps, in order, for the schedule to take shape. PMBoK states, “an output of a schedule model that presents linked activities with planned dates, durations, milestones, and resources.”"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Project Planning. The identification of the project objectives and the ordered activity necessary to complete the project including the identification of resource types and quantities required to carry out each activity or task."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Terms"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Project Network Diagram",
+            "text": "Any schematic display of the logical relationships of project activities."
+          },
+          {
+            "kind": "definition",
+            "term": "Path",
+            "text": "A sequence of activities defined by the project network logic."
+          },
+          {
+            "kind": "definition",
+            "term": "Event",
+            "text": "A point when an activity is either started or completed."
+          },
+          {
+            "kind": "definition",
+            "term": "Node",
+            "text": "One of the defining points of a network; a junction point joined to some or all of the other dependency lines (paths)."
+          },
+          {
+            "kind": "definition",
+            "term": "Predecessors",
+            "text": "Those activities that must be completed prior to initiation of a later activity in the network."
+          },
+          {
+            "kind": "definition",
+            "term": "Successors",
+            "text": "Activities that cannot be started until previous activities have been completed. These activities follow predecessor tasks."
+          },
+          {
+            "kind": "definition",
+            "term": "Early start (ES) date",
+            "text": "The earliest possible date the uncompleted portions of an activity can start."
+          },
+          {
+            "kind": "definition",
+            "term": "Late start (LS) date",
+            "text": "The latest possible date that an activity may begin without delaying a specified milestone."
+          },
+          {
+            "kind": "definition",
+            "term": "Forward pass",
+            "text": "Network calculations to determine earliest start/earliest finish for an activity through working forward through each activity in network."
+          },
+          {
+            "kind": "definition",
+            "term": "Backward pass",
+            "text": "Network calculations to determine late start/late finish for uncompleted tasks through working backward through each activity in network."
+          },
+          {
+            "kind": "definition",
+            "term": "Merge activity",
+            "text": "An activity with two or more immediate predecessors."
+          },
+          {
+            "kind": "definition",
+            "term": "Burst activity",
+            "text": "An activity with two or more immediate successors."
+          },
+          {
+            "kind": "definition",
+            "term": "Float",
+            "text": "The amount of time an activity may be delayed from its early start without delaying the finish of the project."
+          },
+          {
+            "kind": "definition",
+            "term": "Critical path",
+            "text": "The path through project network with the longest duration."
+          },
+          {
+            "kind": "definition",
+            "term": "Critical Path Method",
+            "text": "A network analysis technique used to determine the amount of schedule flexibility on logical network paths in project schedule network and to determine minimum project duration."
+          },
+          {
+            "kind": "definition",
+            "term": "Resource-limited schedule",
+            "text": "Start and finish dates reflect expected resource availability."
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Activity and node representations",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Activities",
+              "Activities on Arc (AOA)",
+              "Activities on Node (AON)",
+              "Node Labels",
+              "Serial Activities",
+              "Concurrent Activities",
+              "Merge Activity",
+              "Burst Activity",
+              "Complete Activity Network"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Forward and backward passes, float and compression",
+        "blocks": [
+          {
+            "kind": "definition",
+            "term": "Forward pass",
+            "text": "An additive move through the network from start to finish"
+          },
+          {
+            "kind": "definition",
+            "term": "Backward pass",
+            "text": "A subtractive move through the network from finish to start"
+          },
+          {
+            "kind": "definition",
+            "term": "Critical path",
+            "text": "The longest path from end to end which determines the shortest project length"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Slack and critical path",
+              "AON network with laddering effect",
+              "Hammock activity",
+              "Reducing Critical Path",
+              "Eliminate tasks on the critical path.",
+              "Replan serial paths to be in parallel.",
+              "Overlap sequential tasks.",
+              "Shorten the duration on critical path tasks.",
+              "Shorten early tasks.",
+              "Shorten longest tasks.",
+              "Shorten easiest tasks.",
+              "Shorten tasks that cost the least to speed up."
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "pert-three-point-estimation",
+    "title": "PERT: three-point duration estimates and variance",
+    "topic": "Project Management",
+    "group": "Planning & governance",
+    "summary": "Use the recovered equations and all eight supplied activity estimates, with calculated duration and variance.",
+    "takeaway": "Three duration estimates support an activity estimate; they do not establish a project schedule without dependency information.",
+    "steps": [
+      "Identify a, m and b",
+      "Calculate expected duration",
+      "Calculate variance",
+      "Check dependencies"
+    ],
+    "related": [
+      "project-scheduling",
+      "schedule-network-examples",
+      "project-cost-estimation"
+    ],
+    "notes": [
+      "The Word equations are present and have been transcribed, not guessed: TE = (a + 4m + b) / 6; s² = ((b − a) / 6)².",
+      "The source gives no duration unit and no dependency edges for the contract/questionnaire/survey activity table. Results use source duration units, variance uses squared units, and no total duration or critical path is inferred.",
+      "These are conventional PERT approximations. A three-point estimate alone does not prove a distribution fit or account for correlated activities."
+    ],
+    "collection": "",
+    "visuals": [
+      {
+        "title": "Calculated activity duration and variance",
+        "kind": "matrix",
+        "headers": [
+          "Activity",
+          "a / m / b",
+          "Expected duration",
+          "Variance"
+        ],
+        "rows": [
+          [
+            "A · Contract signing",
+            "3 / 4 / 11",
+            "5.000",
+            "1.778"
+          ],
+          [
+            "B · Questionnaire design",
+            "2 / 5 / 8",
+            "5.000",
+            "1.000"
+          ],
+          [
+            "C · Target market ID",
+            "3 / 6 / 9",
+            "6.000",
+            "1.000"
+          ],
+          [
+            "D · Survey sample",
+            "8 / 12 / 20",
+            "12.667",
+            "4.000"
+          ],
+          [
+            "E · Develop presentation",
+            "3 / 5 / 12",
+            "5.833",
+            "2.250"
+          ],
+          [
+            "F · Analyze results",
+            "2 / 4 / 7",
+            "4.167",
+            "0.694"
+          ],
+          [
+            "G · Demographic analysis",
+            "6 / 9 / 14",
+            "9.333",
+            "1.778"
+          ],
+          [
+            "H · Presentation to client",
+            "1 / 2 / 4",
+            "2.167",
+            "0.250"
+          ]
+        ],
+        "note": "Editorial calculations from all eight supplied triples. Rounded to three decimals for display; no unit is specified. Variance has squared duration units. Dependencies are absent, so no project total or critical path is calculated."
+      }
+    ],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Duration assumptions and recovered equations",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Duration Estimation",
+              "Experience",
+              "Expert opinion",
+              "Mathematical derivation – Beta distribution",
+              "Most likely (m)",
+              "Most pessimistic (b)",
+              "Most optimistic (a)",
+              "Activity Variance: s² = ((b − a) / 6)²",
+              "Activity Duration: TE = (a + 4m + b) / 6",
+              "Symmetrical (normal) distribution",
+              "Asymmetrical (beta) distribution"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "The eight-activity estimate table",
+        "blocks": [
+          {
+            "kind": "heading",
+            "text": "Activity Duration and Variance Example"
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Activity & Description",
+              "Optimistic",
+              "Likely",
+              "Pessimistic"
+            ],
+            "rows": [
+              [
+                [
+                  "A - Contract signing"
+                ],
+                [
+                  "3"
+                ],
+                [
+                  "4"
+                ],
+                [
+                  "11"
+                ]
+              ],
+              [
+                [
+                  "B - Questionaire design"
+                ],
+                [
+                  "2"
+                ],
+                [
+                  "5"
+                ],
+                [
+                  "8"
+                ]
+              ],
+              [
+                [
+                  "C - Target market ID"
+                ],
+                [
+                  "3"
+                ],
+                [
+                  "6"
+                ],
+                [
+                  "9"
+                ]
+              ],
+              [
+                [
+                  "D - Survey sample"
+                ],
+                [
+                  "8"
+                ],
+                [
+                  "12"
+                ],
+                [
+                  "20"
+                ]
+              ],
+              [
+                [
+                  "E - Develop presentation"
+                ],
+                [
+                  "3"
+                ],
+                [
+                  "5"
+                ],
+                [
+                  "12"
+                ]
+              ],
+              [
+                [
+                  "F - Analyze results"
+                ],
+                [
+                  "2"
+                ],
+                [
+                  "4"
+                ],
+                [
+                  "7"
+                ]
+              ],
+              [
+                [
+                  "G - Demographic analysis"
+                ],
+                [
+                  "6"
+                ],
+                [
+                  "9"
+                ],
+                [
+                  "14"
+                ]
+              ],
+              [
+                [
+                  "H - Presentation to client"
+                ],
+                [
+                  "1"
+                ],
+                [
+                  "2"
+                ],
+                [
+                  "4"
+                ]
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "schedule-network-examples",
+    "title": "Activity networks: serial and parallel work",
+    "topic": "Project Management",
+    "group": "Planning & governance",
+    "summary": "Compare the same paper-and-presentation activities arranged serially or with parallel branches.",
+    "takeaway": "Parallel work changes dependency logic; it does not supply missing duration or resource data.",
+    "steps": [
+      "Identify activities",
+      "Compare branches",
+      "Check merge points",
+      "Add real estimates"
+    ],
+    "related": [
+      "project-scheduling",
+      "pert-three-point-estimation"
+    ],
+    "notes": [
+      "These paper-and-presentation networks are a separate example from the numerical A–H PERT table. They share letter labels but represent different activities. No durations are supplied for either network."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Two network illustrations",
+        "blocks": []
+      }
+    ],
+    "figures": [
+      {
+        "document": "Project Management.docx",
+        "image": "word/media/image6.jpeg",
+        "slug": "schedule-network-examples",
+        "title": "Serial network: every activity follows the previous one",
+        "kind": "flow",
+        "headers": [],
+        "rows": [
+          [
+            "A · Identify topic"
+          ],
+          [
+            "B · Research"
+          ],
+          [
+            "C · Paper draft"
+          ],
+          [
+            "D · Edit paper"
+          ],
+          [
+            "E · Prepare presentation"
+          ],
+          [
+            "F · Final draft"
+          ],
+          [
+            "G · Finish presentation"
+          ],
+          [
+            "H · Finish"
+          ]
+        ],
+        "note": "Edges: A → B → C → D → E → F → G → H. No durations are supplied. This is the paper-and-presentation example, not the numerical survey table."
+      },
+      {
+        "document": "Project Management.docx",
+        "image": "word/media/image7.jpeg",
+        "slug": "schedule-network-examples",
+        "title": "Parallel network: split the work and merge at completion",
+        "kind": "cards",
+        "headers": [
+          "Stage",
+          "Reading"
+        ],
+        "rows": [
+          [
+            "Shared start",
+            "A Identify topic → B Research → C Paper draft"
+          ],
+          [
+            "Paper branch",
+            "C → D Edit paper → F Final draft → H Finish"
+          ],
+          [
+            "Presentation branch",
+            "C → E Prepare presentation → G Finish presentation → H Finish"
+          ],
+          [
+            "Merge at H",
+            "Both F and G must finish before H."
+          ]
+        ],
+        "note": "Reconstructs all source activities and edges: A→B, B→C, C→D, C→E, D→F, E→G, F→H, G→H. There are no durations or resource allocations."
+      }
+    ],
+    "questionStages": []
+  },
+  {
+    "slug": "project-risk-planning",
+    "title": "Project risk: identify, own and respond",
+    "topic": "Project Management",
+    "group": "Risk & assurance",
+    "summary": "Build a risk-management plan and register, choose responses and review uncertainty throughout the lifecycle.",
+    "takeaway": "Record each risk with an owner, trigger, response and review status.",
+    "steps": [
+      "Identify uncertainty",
+      "Assign ownership",
+      "Plan responses",
+      "Monitor changes"
+    ],
+    "related": [
+      "project-risk-scoring",
+      "risk-management",
+      "hazard-methods-comparison",
+      "project-budgeting"
+    ],
+    "notes": [
+      "Historical KPMG and London Olympics claims lack full dated references. They are retained as source claims rather than current evidence.",
+      "The risk-versus-stake illustration is conceptual, not a calibrated exposure curve. A project’s actual risk profile may differ.",
+      "Qualitative prioritization and quantitative probability analysis are different activities; a scored register does not by itself establish a statistical model."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Risk definitions, categories and identification",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "A dictionary definition of risk is “the possibility of loss or injury”"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Project risk management involves understanding potential problems that might occur on the project, how they might impede project success and doing something about it"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Risk management is like a form of insurance; it is an investment",
+              "In project management an issue is a risk that has already happened"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Risk management",
+            "text": "The art and science of identifying, analyzing, and responding to risk factors throughout the life of a project and in the best interest of its objectives."
+          },
+          {
+            "kind": "definition",
+            "term": "Project risk",
+            "text": "An uncertain event or condition that, if it occurs, has a positive or negative effect on one or more project objectives such as scope, schedule, cost, or quality."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Risk = (Probability of Event) * (Consequences of Event)",
+              "“Project management equals risk management”, Richard Rosen, MDDI, August 2003"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Project risk management is the art and science of identifying, assigning, and responding to risk throughout the life of a project and in the best interests of meeting project objectives"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Risk management is often overlooked on projects, but it can help improve project success by helping select good projects, determining project scope, and developing realistic estimates"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "A Project Management Journal (March 2000) study by Ibbs and Kwak show how risk management is often neglected",
+              "A KPMG study found that 55 percent of ‘runaway’ projects did no risk management at all",
+              "The main output of risk management planning is a risk management plan",
+              "The project team should review project documents and understand the organization’s and the sponsor’s approach/attitude to risk",
+              "The level of detail will vary with the needs of the project"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "What might be the attitude to risk for the 2012 Olympics? Might this be different to a project for testing a new aircraft or a project for you and your friends to go on a charity trip to Rwanda?"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "4 Stages of Risk Management",
+              "Risk identification",
+              "Analysis of probability and consequences",
+              "Risk mitigation strategies",
+              "Control and documentation",
+              "Risk Clusters"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Financial",
+            "text": "An the organization afford to undertake the project? Will the project meet NPV, ROI and payback estimates?"
+          },
+          {
+            "kind": "definition",
+            "term": "Technical",
+            "text": "Is the project technically feasible? Is it leading edge or bleeding edge technology?"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Commercial",
+              "Execution",
+              "Contractual or legal risk"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Market",
+            "text": "Will the new service or product be useful to the organization or marketable to others? Will the users accept it? Will someone else create a better product?"
+          },
+          {
+            "kind": "definition",
+            "term": "People",
+            "text": "Are people with appropriate skills available to help complete the project? Does senior management support the project?"
+          },
+          {
+            "kind": "definition",
+            "term": "Structure / Process",
+            "text": "What is the degree of change the new project will introduce into user areas and business procedures? With how many other systems does a new project/system need to interact?"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Common Types of Risks",
+              "Absenteeism",
+              "Resignation",
+              "Staff pulled away",
+              "Time overruns",
+              "Skills unavailable",
+              "Ineffective training",
+              "Specs incomplete",
+              "Change orders",
+              "Approach to Risk Factor Identification",
+              "Brainstorming meetings",
+              "Expert opinion",
+              "Past history",
+              "Multiple (or team based) assessments",
+              "Risk Breakdown Structure (RBS)",
+              "External",
+              "Market",
+              "Customer Acceptance",
+              "Profit Potential",
+              "Environmental Impact",
+              "Pollution Risk",
+              "Community Protests",
+              "Internal",
+              "Technical"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Performance"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Organisational",
+              "Funding Safety",
+              "Skilled Resources"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Plan and register contents",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Risk Management Plan"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Methodology",
+            "text": "How will risk management be performed on this project? What tools and data sources are available and applicable?"
+          },
+          {
+            "kind": "definition",
+            "term": "Roles and Responsibilities",
+            "text": "Who are the individuals responsible for implementing specific tasks and providing deliverables related to risk management?"
+          },
+          {
+            "kind": "definition",
+            "term": "Budget and Schedule",
+            "text": "What are the estimated costs and schedules for performing risk-related activities?"
+          },
+          {
+            "kind": "definition",
+            "term": "Risk Categories",
+            "text": "What are the main categories of risks that should be addressed on this project? Is there a risk breakdown structure for the project?"
+          },
+          {
+            "kind": "definition",
+            "term": "Risk Probability and Impact",
+            "text": "How will the probabilities and impacts of risk items be assessed? What scoring and interpretation methods will be used for the qualitative and quantitative analysis of risks?"
+          },
+          {
+            "kind": "definition",
+            "term": "Risk Documentation",
+            "text": "What reporting formats and processes will be used for risk management activities?"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Risk Register",
+              "Major document within the Risk Management Plan",
+              "Qualitative risk analysis: characterise, analyse and prioritize risks",
+              "Quantitative risk analysis: define the probability and consequences of risks",
+              "Risk response planning: taking steps to enhance opportunities and reduce threats to meeting project objectives (mitigation and contingency)",
+              "An identification number for each risk event",
+              "A rank for each risk event",
+              "The name of each risk event",
+              "A description of each risk event",
+              "The category under which each risk event falls",
+              "The root cause of each risk",
+              "Triggers for each risk; triggers are indicators or symptoms of actual risk events",
+              "Potential responses to each risk",
+              "The risk owner or person who will own or take responsibility for each risk",
+              "The probability and impact of each risk occurring",
+              "The status of each risk (often colour-coded RAG)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Responses and contingency",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Risk Mitigation Strategies",
+              "Accept",
+              "Minimise",
+              "Share",
+              "Transfer",
+              "Contingency Reserves",
+              "Task contingency",
+              "Managerial contingency",
+              "Insurance",
+              "Other Mitigation Strategies",
+              "Mentoring",
+              "Cross training",
+              "Control and Documentation",
+              "Change management"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-4",
+        "heading": "PRAM phases and lifecycle review",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Project Risk Analysis & Management (PRAM)"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "PRAM presents a generic methodology that can be applied to multiple project environments, and encompasses the key components of project risk management."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Risk management follows a life cycle.",
+              "Risk management strategy changes over the project life cycle.",
+              "Synthesized, coherent approach",
+              "Phases of Risk Assessment",
+              "Define",
+              "Focus",
+              "Identify",
+              "Structure",
+              "Clarify ownership of risks",
+              "Estimate",
+              "Evaluate",
+              "Plan",
+              "Manage",
+              "Goal",
+              "Risk planning: how do we structure the risk management activities?",
+              "Risk identification: which risks are likely to affect a project and what are their characteristics? (document them)",
+              "Qualitative risk analysis: characterise, analyse and prioritize risks",
+              "Quantitative risk analysis: define the probability and consequences of risks",
+              "Risk response planning: taking steps to enhance opportunities and reduce threats to meeting project objectives (mitigation and contingency)",
+              "Risk monitoring and control: monitor known risks, identify new risks, reducing risks, and evaluate the effectiveness of risk reduction"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Risk vs. Amount at Stake"
+          }
+        ]
+      }
+    ],
+    "figures": [
+      {
+        "document": "Project Management.docx",
+        "image": "word/media/image8.jpeg",
+        "slug": "project-risk-planning",
+        "title": "Uncertainty and the amount at stake",
+        "kind": "matrix",
+        "headers": [
+          "Lifecycle",
+          "Conceptual relationship"
+        ],
+        "rows": [
+          [
+            "Early: conceive / develop",
+            "Opportunity and uncertainty are higher; committed stake is lower."
+          ],
+          [
+            "Later: execute / finish",
+            "Amount at stake rises as work and commitments accumulate."
+          ],
+          [
+            "Combined impact",
+            "The conceptual risk-impact curve rises and peaks later, then declines."
+          ]
+        ],
+        "note": "The source separates plan/produce across Conceive, Develop, Execute and Finish, showing decreasing opportunities/risks, increasing stake and a combined impact curve. Its axes have no calibrated values."
+      }
+    ],
+    "questionStages": []
+  },
+  {
+    "slug": "project-risk-scoring",
+    "title": "Project risk scoring: compare the source’s rating methods",
+    "topic": "Project Management",
+    "group": "Risk & assurance",
+    "summary": "Inspect the supplied probability-factor and consequence-factor calculations, scales and classification thresholds.",
+    "takeaway": "A rating formula is a prioritization convention unless its inputs and interpretation have been validated.",
+    "steps": [
+      "Define ratings",
+      "Document assumptions",
+      "Calculate consistently",
+      "Review limitations"
+    ],
+    "related": [
+      "project-risk-planning",
+      "risk-rating-scales",
+      "software-fmea"
+    ],
+    "notes": [
+      "The source’s Pf and Cf averages combine ordinal judgments; RF = Pf + Cf − Pf×Cf must not be presented as a calibrated probability of project failure.",
+      "The source’s low (<0.30), medium (0.30–0.70) and high (>0.70) bands are local conventions. Some consequence descriptions leave gaps, including cost-impact boundaries. Do not silently fill them.",
+      "Risk = probability × consequence is an expected-impact interpretation only with appropriately defined quantities and units; it is not interchangeable with the source’s RF formula."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Probability, consequence and risk-factor calculations",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Project Risk Scoring"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Use project team’s consensus to determine the score for each Probability of Failure category: Maturity (Pm), Complexity (Pc), and Dependency (Pd)."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Calculate overall probability",
+              "Pf = (Pm + Pc + Pd) / 3"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Use project team’s consensus to determine the score for each Consequence of Failure category: Cost (Cc), Schedule (Cs), Reliability (Cr), and Performance (Cp)."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Calculate Cf by adding the four categories and dividing by 4",
+              "Cf = (Cc + Cs + Cr + Cp) / 4",
+              "Calculate Overall Risk factor for the project by using the formula",
+              "RF = Pf + Cf - (Pf)(Cf)"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Low Risk",
+            "text": "RF < 0.30"
+          },
+          {
+            "kind": "definition",
+            "term": "Medium Risk",
+            "text": "RF = 0.30 to 0.70"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "High Risk",
+              "RF > 0.70"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Rating descriptions and threshold tables",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Probability of Failure (Pf)",
+              "Low (0.1)",
+              "Existing software",
+              "Simple design",
+              "Not limited to existing system or clients. No external or uncontrollable events are likely to have an impact on the project.",
+              "Minor (0.3)",
+              "Minor redesigner",
+              "Minor increase in complexity",
+              "Schedule or performance depends on an existing system. Effect on cost or schedule is minor.",
+              "Moderate (0.5)",
+              "Major change",
+              "Moderate increase",
+              "Moderate risk to schedule or performance due to dependence on existing system, facility, or processes. Effect on cost is moderate.",
+              "Significant (0.7)",
+              "Technology is available, but complex design",
+              "Significant increase",
+              "Schedule or performance depends on new system or process. Significant cost or schedule risk.",
+              "Major (0.9)",
+              "State of art, some research complete",
+              "Extermely complex",
+              "Schedule and performance depend on new system and process. Very high cost or schedule risk.",
+              "Consequence of Failure (Cf)"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Low (0.1)",
+            "text": "Budget estimate not exceeded"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Negligible impact on program, no impact on critical path",
+              "Minimal or no reliability consequence",
+              "Minimal or no performance consequence"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Minor (0.3)",
+            "text": "Cost estimate exceeds by <5%"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Minor slip in schedule (less than 5%)",
+              "Small reduction in reliability",
+              "Small reduction in system performance"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Moderate (0.5)",
+            "text": "Cost estimate exceeds by <15%"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Small slip in schedule starting to impact critical path",
+              "Some reduction in reliability",
+              "Some reduction in system performance. May require moderate debugging"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Significant (0.7)",
+            "text": "Cost estimate exceeds by <30%"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Development time slips in excess of 1 month, requires readjustment of critical path",
+              "Significant degradation in reliability",
+              "Significant degradation in system performance. Guarantees are at risk. Serious debugging required"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Major (0.9)",
+            "text": "Cost estimate exceeds by >50%"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Large schedule slips ensure the system will miss client time frame",
+              "Reliability goals cannot be achieved under current plan",
+              "Performance goals cannot be achieved. Results may not be usable"
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "project-monitoring-control",
+    "title": "Project control: milestones, evidence and action",
+    "topic": "Project Management",
+    "group": "Estimation & performance",
+    "summary": "Use a control cycle, milestones and explicit completion rules to make progress discussions useful.",
+    "takeaway": "Measure against a clear baseline and respond to evidence rather than just collecting status.",
+    "steps": [
+      "Set the baseline",
+      "Measure progress",
+      "Compare results",
+      "Take action"
+    ],
+    "related": [
+      "earned-value-management",
+      "project-action-reporting",
+      "project-communication"
+    ],
+    "notes": [
+      "The 0/100, 50/50 and percentage-complete rules are named but not fully specified. Select and document rules appropriate to the work package; they are not interchangeable measures of physical progress."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Control cycle, milestones and completion conventions",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Control Cycle",
+              "Setting a goal.",
+              "Measuring progress.",
+              "Comparing actual with planned performance.",
+              "Taking action.",
+              "Milestone",
+              "Signal completion of important steps",
+              "Motivate team and suppliers",
+              "Offer reevaluation points",
+              "Help coordinate schedules",
+              "Identify key review gates",
+              "Signal other team members when their participation begins",
+              "Delineate work packages",
+              "Completion Values in EVM",
+              "Accurate and up-to-date information is critical in the use of EVM",
+              "0/100 Rule",
+              "50/50 Rule",
+              "Percentage Complete Rule"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Human factors and implementation success factors",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Human Factors in Project Evaluation & Control",
+              "Project coordination and relations among stakeholders",
+              "Adequacy of project structure and control",
+              "Project uniqueness, importance, and public exposure",
+              "Success criteria salience and consensus",
+              "Lack of budgetary pressure",
+              "Avoidance of initial overoptimism and conceptual difficulties",
+              "Critical Success Factors in the Project Implementation Profile",
+              "Project mission",
+              "Top management support",
+              "Project plans & schedules",
+              "Client consultation",
+              "Personnel",
+              "Technical tasks",
+              "Client acceptance",
+              "Monitoring & feedback",
+              "Communication channels",
+              "Troubleshooting"
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "earned-value-management",
+    "title": "Earned value: cost, schedule and forecast performance",
+    "topic": "Project Management",
+    "group": "Estimation & performance",
+    "summary": "Read PV, EV, AC and performance indices, with an annotated reconstruction of the supplied example.",
+    "takeaway": "Distinguish value earned, money spent and the assumptions behind any completion forecast.",
+    "steps": [
+      "Establish PV",
+      "Measure EV and AC",
+      "Calculate indices",
+      "State forecast assumptions"
+    ],
+    "related": [
+      "project-monitoring-control",
+      "project-budgeting",
+      "project-scheduling"
+    ],
+    "notes": [
+      "For the supplied PV = 103, EV = 44 and AC = 78, SPI = 44/103 ≈ 0.4272 and CPI = 44/78 ≈ 0.5641. These quantities must use consistent cost units.",
+      "If $118,000 is BAC and future cost efficiency equals cumulative CPI, EAC = BAC/CPI ≈ $209,181.82. The source instead rounds CPI to 0.56 first, giving $210,714.29, and incorrectly labels this remaining cost. EAC forecasts total cost; ETC = EAC − AC.",
+      "The unit linking AC = 78 to the dollar-denominated budget is not stated, so a numerical ETC is not asserted.",
+      "The 7/0.43 = 16.3-month illustration is an assumption-dependent extrapolation, not a reliable remaining-duration calculation. Without early rounding, 7/(44/103) ≈ 16.39 months; its baseline and elapsed-time meaning remain unclear."
+    ],
+    "collection": "",
+    "visuals": [
+      {
+        "title": "Performance measures and forecast assumptions",
+        "kind": "matrix",
+        "headers": [
+          "Measure",
+          "Meaning / formula",
+          "Source example"
+        ],
+        "rows": [
+          [
+            "CV",
+            "EV − AC",
+            "44 − 78 = −34 source cost units"
+          ],
+          [
+            "SV",
+            "EV − PV",
+            "44 − 103 = −59 source cost units; not a duration"
+          ],
+          [
+            "CPI",
+            "EV / AC",
+            "44 / 78 ≈ 0.5641"
+          ],
+          [
+            "SPI",
+            "EV / PV",
+            "44 / 103 ≈ 0.4272"
+          ],
+          [
+            "EAC",
+            "BAC / CPI if current cost efficiency continues",
+            "$118,000 ÷ (44/78) ≈ $209,181.82, assuming $118,000 is BAC"
+          ],
+          [
+            "ETC",
+            "EAC − AC",
+            "Cannot quantify consistently until AC units are confirmed"
+          ]
+        ],
+        "note": "Corrected editorial explanation. Negative cost variance indicates spending above earned value; negative schedule variance indicates less earned value than planned. SPI is value-based and does not directly measure elapsed time. The original rounded calculations remain in the detailed reading."
+      }
+    ],
+    "references": [
+      {
+        "title": "US Department of Energy: earned-value reference card",
+        "url": "https://www.energy.gov/management/articles/0evmgoldcard2020060621pdf"
+      }
+    ],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Terms and measurement steps",
+        "blocks": [
+          {
+            "kind": "definition",
+            "term": "Earned Value Management (EVM)",
+            "text": "Recognizes that it is necessary to jointly consider the impact of time, cost, and project performance on any analysis of current project status."
+          },
+          {
+            "kind": "definition",
+            "term": "Earned Value (EV)",
+            "text": "Directly links all three primary project success Metrics (cost, schedule, and performance)."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Terms",
+              "Planned value (PV)",
+              "Earned value (EV)",
+              "Cost variance (CV) and Cost performance index (CPI)",
+              "Schedule variance (SV) and Schedule performance index (SPI)",
+              "Actual cost of work performed (AC)",
+              "Budgeted cost at completion (BAC)",
+              "Estimate at completion (EAC)"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Steps"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Clearly define each activity including its resource needs and budget.",
+              "Create usage schedules for activities and resources.",
+              "Develop a time-phased budget (PV).",
+              "Total the actual costs of doing each task (AC).",
+              "Calculate both the budget variance (CV) and schedule variance (SV)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Source example and calculation limitations",
+        "blocks": [
+          {
+            "kind": "heading",
+            "text": "Examples"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Schedule Variances",
+              "Planned Value (PV) = 103",
+              "Earned Value (EV) = 44"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Schedule Performance Index = .43 = 44/103 = EV/PV",
+            "text": "Estimated Time to Completion = (1/.43)x7=16.3 months"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Cost Variances",
+              "Cumulative Actual Cost of Work Performed (AC) = 78"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Cost Performance Index = .56 = 44/78 = EV/AC",
+            "text": "Estimated Cost to Completion = $210,714 = (1/.56)x$118,000"
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "project-termination",
+    "title": "Project termination: finish, integrate or stop",
+    "topic": "Project Management",
+    "group": "Closeout & lessons learned",
+    "summary": "Compare four termination patterns and review strategic, economic and human considerations when stopping work.",
+    "takeaway": "A decision to stop needs clear ownership of remaining commitments and the people affected.",
+    "steps": [
+      "Review viability",
+      "Decide explicitly",
+      "Resolve commitments",
+      "Support transition"
+    ],
+    "related": [
+      "project-closeout",
+      "project-leadership",
+      "project-risk-planning"
+    ],
+    "notes": [
+      "Company anecdotes are source illustrations, not verified current cases. “Starvation” describes neglect, not a recommended governance technique.",
+      "Warning signs are prompts for investigation, not a validated diagnostic score or automatic shutdown rule."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Extinction, addition, integration and starvation",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Termination Main Reasons"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Extinction",
+            "text": "Termination by extinction: This process occurs when the project is stopped due to either a successful or an unsuccessful conclusion. In the successful case, the project has been transferred to its intended users and all final phase-out activities are conducted. Whether successful or not, however, during termination the project’s final budget is audited, team members receive new work assignments, and any material assets the project employed are dispersed or transferred according to company policies or contractual terms."
+          },
+          {
+            "kind": "definition",
+            "term": "Addition",
+            "text": "Termination by addition: This approach concludes a project by institutionalizing it as a formal part of the parent organization. For example, suppose a new hardware design at Apple Computer has been so successful that the company, rather than disband the project team, turns the project organization into a new operating group. In effect, the project has been “promoted” to a formal, hierarchical status within the organization. The project has indeed been terminated, but its success has led to its addition to the organizational structure."
+          },
+          {
+            "kind": "definition",
+            "term": "Integration",
+            "text": "Termination by integration: Integration represents a common, but exceedingly complicated, method for dealing with successful projects. The project’s resources, including the project team, are integrated within the organization’s existing structure following the conclusion of the project. In both matrix and project organizations, personnel released from project assignments are reabsorbed within their functional departments to perform other duties or simply wait for new project assignments."
+          },
+          {
+            "kind": "definition",
+            "term": "Starvation",
+            "text": "Termination by starvation: Termination by starvation can happen for a number of reasons. There may be political reasons for keeping a project officially “on the books,” even though the organization does not intend it to succeed or anticipate it will ever be finished. The project may have a powerful sponsor who must be placated with the maintenance of his “pet project.” Sometimes projects cannot be continued because of general budget cuts, but an organization may keep a number of them on file so that when the economic situation improves, the projects can be reactivated. Meredith and Mantel 4 argue that termination by starvation is not an outright act of termination at all, but rather a willful form of neglect in which the project budget is slowly decreased to the point at which the project cannot possibly remain viable."
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Closeout barriers and early-termination considerations",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Factors to Prevent Effective Project Closeouts",
+              "Project sign off discourages other closeout activities.",
+              "Urgency of all project pressures cause shortcuts on back-end.",
+              "Low priority given to closeout activities.",
+              "Lessons learned analysis seen as bookkeeping.",
+              "Unique view of projects.",
+              "Dynamic Factors to Monitor",
+              "Static",
+              "Task-team",
+              "Sponsorship",
+              "Economics",
+              "Environment",
+              "User",
+              "Early Termination Decision Rules",
+              "Costs exceed business benefits.",
+              "Failure to meet strategic fit criteria.",
+              "Deadlines continue to be missed.",
+              "Technology evolves beyond the project’s scope."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "People, deliverables and shutdown commitments",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Concerns When Shutting Down A Project",
+              "Emotional Issues of the Project Team",
+              "Emotional Issues of the Clients",
+              "Intellectual Issues-Internal",
+              "Intellectual Issues-External",
+              "Fear of no future work",
+              "Loss of interest in remaining tasks",
+              "Loss of project-derived motivation",
+              "Loss of team identity",
+              "Selection of personnel to be reassigned",
+              "Diversion of effort",
+              "Change in attitude",
+              "Loss of interest in project",
+              "Change in personnel dealing with project",
+              "Unavailability of key personnel",
+              "Identification of remaining deliverables",
+              "Certification needs",
+              "Identification of outstanding commitments",
+              "Control of changes to project",
+              "Screening of partially completed tasks",
+              "Closure of work orders and work packages",
+              "Disposal of unused material",
+              "Agreement with client on remaining deliverables",
+              "Agreement with suppliers on outstanding commitments",
+              "Communicating closure",
+              "Closing down facilities",
+              "Determination of requirements for audit trail data"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-4",
+        "heading": "Source warning signs for IT projects",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Top 10 Signs of IT Project Failure",
+              "Best practices and lessons learned are ignored.",
+              "Project lacks people with appropriate skills.",
+              "Sponsorship is lost.",
+              "Users are resistant.",
+              "Deadlines are unrealistic.",
+              "Business needs change.",
+              "Chosen technology changes.",
+              "Project changes are poorly managed.",
+              "Scope is ill-defined.",
+              "Project managers don’t understand users’ needs."
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "project-closeout",
+    "title": "Project closeout: acceptance, handover and records",
+    "topic": "Project Management",
+    "group": "Closeout & lessons learned",
+    "summary": "Finish the work, secure acceptance, transfer responsibilities and preserve a useful audit trail.",
+    "takeaway": "Delivery is incomplete until ownership, remaining obligations and operating responsibilities are clear.",
+    "steps": [
+      "Confirm acceptance",
+      "Transfer ownership",
+      "Close obligations",
+      "Archive records"
+    ],
+    "related": [
+      "project-lessons-learned",
+      "project-termination",
+      "project-charter"
+    ],
+    "notes": [
+      "PFI, BOT and BOOT are named without worked agreements or commercial analysis. They are not interchangeable handover procedures.",
+      "The claims/arbitration/ex-gratia/default list and binding/non-binding labels do not define a reliable legal classification. Applicable contracts and jurisdictions determine legal effects; the source supplies neither."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Acceptance, benefits and handover",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Natural Closeout Process",
+              "Finishing the Work",
+              "Gaining Acceptance for the Project",
+              "Harvesting the Benefits",
+              "Reviewing How It All Went",
+              "Handing Over the Project",
+              "Private Finance Initiatives (PFIs)",
+              "Build, Operate, and Transfer (BOT)",
+              "Build, Own, Operate, and Transfer (BOOT)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Paperwork and confidence reviews",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Closeout Paperwork",
+              "Documentation",
+              "Legal",
+              "Cost",
+              "Personnel",
+              "Required Reviews",
+              "General program and project management confidence",
+              "Commercial confidence",
+              "Market and sales confidence",
+              "Product quality confidence",
+              "Manufacturing confidence",
+              "Supply chain logistics confidence",
+              "Aftermarket confidence",
+              "Health, safety, and environment confidence"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Claims, disputes and record keeping",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Claims and Disputes",
+              "Types of claims",
+              "Resolved by Arbritration",
+              "Ex-gratia claims",
+              "Default by the project company",
+              "Binding",
+              "Non-binding",
+              "Protecting Against Claims",
+              "Consider claims as part of the project plan.",
+              "Verify stakeholders know their risks.",
+              "Keep good records throughout the life cycle.",
+              "Keep clear details of change orders.",
+              "Archive all correspondence."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-4",
+        "heading": "Final-report contents",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Final Report Elements",
+              "Project performance",
+              "Administrative performance",
+              "Organizational structure",
+              "Team performance",
+              "Project management techniques",
+              "Benefits to the organization and customer"
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "project-lessons-learned",
+    "title": "Project reviews: turn experience into usable learning",
+    "topic": "Project Management",
+    "group": "Closeout & lessons learned",
+    "summary": "Plan objective reviews, avoid blame and carry conclusions into future work.",
+    "takeaway": "A lesson becomes useful when someone can apply it to a future decision.",
+    "steps": [
+      "Describe events",
+      "Examine causes",
+      "Agree improvements",
+      "Share conclusions"
+    ],
+    "related": [
+      "project-closeout",
+      "project-monitoring-control",
+      "problem-solving-toolkit"
+    ],
+    "notes": [],
+    "collection": "",
+    "visuals": [],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Review quality, common errors and meeting guidelines",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Post Project Reviews",
+              "Objectivity and Issues",
+              "Outside reviewers are unfamiliar.",
+              "Project team may be suspicious.",
+              "Outside evaluators may be compelled to find problems.",
+              "Outside reviewers are not competent.",
+              "Internal Consistency",
+              "Replicability",
+              "Fairness",
+              "Lessons Learned Meetings",
+              "Common Errors",
+              "Misidentifying systematic errors",
+              "Misapplying or misinterpreting lessons based on events",
+              "Failure to pass along conclusions",
+              "Meeting Guidelines",
+              "Establish clear rules of behavior",
+              "Describe objectively what occurred",
+              "Fix the problem, not the blame"
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "problem-solving-toolkit",
+    "title": "Problem-solving tools: choose the question first",
+    "topic": "Problem Solving & Decision Making",
+    "group": "Problem framing & analysis",
+    "summary": "Distinguish cause exploration, failure analysis, structured decomposition and stratification.",
+    "takeaway": "Choose a tool for the question it answers; a list of tool names is not a completed analysis.",
+    "steps": [
+      "Frame the problem",
+      "Choose a question",
+      "Gather evidence",
+      "Test explanations"
+    ],
+    "related": [
+      "quality-problem-solving",
+      "structured-problem-solving",
+      "triz-contradictions",
+      "software-fmea"
+    ],
+    "notes": [
+      "The source names several methods without a worked example, scoring procedure or full protocol. The editorial comparisons below explain their different purposes; they do not claim to recover missing diagrams."
+    ],
+    "collection": "",
+    "visuals": [
+      {
+        "title": "Match the tool to the question",
+        "kind": "cards",
+        "headers": [],
+        "rows": [
+          [
+            "Cause exploration",
+            "Fishbone and Five Whys generate explanations to verify."
+          ],
+          [
+            "Failure prevention",
+            "FMEA examines possible failure modes and effects."
+          ],
+          [
+            "Decomposition",
+            "Issue trees and MECE help organize a question without gaps or overlap; the source provides no worked tree."
+          ],
+          [
+            "Stratification",
+            "Separate segments to see where patterns differ."
+          ]
+        ],
+        "note": "Editorial orientation to the named tools, not additional source examples."
+      }
+    ],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Framing problems and exploring causes",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "A problem well posed is half-solved",
+              "Ishikawa (fishbone cause and effect) diagram",
+              "5 whys"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Decision trees, MECE and stratification",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Pyramid & decision tree",
+              "Mutually exclusive, collectively exhaustive (MECE)"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Stratification",
+            "text": "Dice the problem into smaller pieces and identify segments that behave differently"
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "quality-problem-solving",
+    "title": "Quality problem solving: causes, failures and corrective action",
+    "topic": "Process Improvement",
+    "group": "Six Sigma & process improvement",
+    "summary": "Connect fishbone and Five Whys with failure-mode analysis and the 8D corrective-action reference.",
+    "takeaway": "Explore possible causes, verify them with evidence, and distinguish prevention from corrective action.",
+    "steps": [
+      "Explore causes",
+      "Verify evidence",
+      "Plan action",
+      "Check effectiveness"
+    ],
+    "related": [
+      "software-fmea",
+      "dmaic-dmadv",
+      "problem-solving-toolkit"
+    ],
+    "notes": [
+      "This source only names fishbone, Five Whys, FMEA and 8D. No complete 8D procedure, fishbone diagram or analysis dataset is supplied."
+    ],
+    "collection": "six-sigma-improvement",
+    "visuals": [
+      {
+        "title": "Different questions for different tools",
+        "kind": "matrix",
+        "headers": [
+          "Focus",
+          "Meaning"
+        ],
+        "rows": [
+          [
+            "Fishbone",
+            "Organize possible causes; verify them rather than treating the diagram as proof."
+          ],
+          [
+            "Five Whys",
+            "Trace a causal explanation; test each link and consider multiple causes."
+          ],
+          [
+            "FMEA",
+            "Explore potential failure modes, effects and controls."
+          ],
+          [
+            "8D",
+            "A named corrective-action approach; the supplied notes do not include its full sequence."
+          ]
+        ],
+        "note": "Editorial orientation. The uploaded passage provides method names only; the linked FMEA guide contains the separate retained technical notes."
+      }
+    ],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Cause and failure-analysis methods named in the source",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Ishikawa (fishbone cause and effect) diagram",
+              "5 whys",
+              "Failure mode and effects analysis (FMEA)",
+              "Eight disciplines (8D) problem solving"
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "structured-problem-solving",
+    "title": "Structure a problem: 4S and the TOSCA checklist",
+    "topic": "Problem Solving & Decision Making",
+    "group": "Problem framing & analysis",
+    "summary": "State the problem, structure the analysis, investigate solutions and communicate a recommendation.",
+    "takeaway": "Agree the trouble, owner, desired success, constraints and actors before solving.",
+    "steps": [
+      "State",
+      "Structure",
+      "Solve",
+      "Sell"
+    ],
+    "related": [
+      "problem-solving-toolkit",
+      "group-concept-selection",
+      "clear-communication"
+    ],
+    "notes": [
+      "“SuccessWhat” is a missing space in the source; the checklist question is “What will success look like and when?” No underlying case study or attribution is supplied."
+    ],
+    "collection": "",
+    "visuals": [
+      {
+        "title": "Frame the problem before choosing a solution",
+        "kind": "cards",
+        "headers": [
+          "Focus",
+          "Meaning"
+        ],
+        "rows": [
+          [
+            "Trouble",
+            "What differs from the desired situation?"
+          ],
+          [
+            "Owner",
+            "Who is responsible for resolution?"
+          ],
+          [
+            "Success",
+            "What outcome is required, and when?"
+          ],
+          [
+            "Constraints",
+            "What limits the solution?"
+          ],
+          [
+            "Actors",
+            "Who must be involved?"
+          ]
+        ],
+        "note": "Editorial summary of the supplied material; consult the detailed reading and limitations below."
+      }
+    ],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "4S: State, Structure, Solve and Sell",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "4S Method"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "State",
+            "text": "Define problem, empathise"
+          },
+          {
+            "kind": "definition",
+            "term": "Structure",
+            "text": "Build hypothesis pyramid, build issue tree, generate concept"
+          },
+          {
+            "kind": "definition",
+            "term": "Solve",
+            "text": "Perform analysis, prototype and test potential solutions"
+          },
+          {
+            "kind": "definition",
+            "term": "Sell",
+            "text": "Design storyline, produce and deliver recommendation report"
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "TOSCA: Trouble, Owner, Success, Constraints and Actors",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "TOSCA checklist"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Trouble",
+            "text": "What indicates the current situation is not the desired one?"
+          },
+          {
+            "kind": "definition",
+            "term": "Owner",
+            "text": "Who is responsible for its resolution?"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "SuccessWhat will success look like and when?"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Constraints",
+            "text": "What are the binding constraints on developing a solution?"
+          },
+          {
+            "kind": "definition",
+            "term": "Actors",
+            "text": "Who are the relevant stakeholders?"
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "triz-contradictions",
+    "title": "TRIZ: technical and physical contradictions",
+    "topic": "Problem Solving & Decision Making",
+    "group": "Creative problem solving",
+    "summary": "Follow the source’s contradiction-based outline and identify what is missing from the method description.",
+    "takeaway": "A contradiction can help structure inventive thinking, but this extract is not a complete TRIZ procedure.",
+    "steps": [
+      "Describe the problem",
+      "Identify contradictions",
+      "Explore principles",
+      "Test a specific proposal"
+    ],
+    "related": [
+      "structured-problem-solving",
+      "problem-solving-toolkit",
+      "taguchi-robust-design"
+    ],
+    "notes": [
+      "The source names a contradiction matrix, 40 principles and separation strategies but does not supply their contents or worked applications.",
+      "The original diagram ends with “Discover the problems,” repeating its starting label. This may indicate a loop or a labeling error; its intended meaning is uncertain and is not silently changed into a promised solution."
+    ],
+    "collection": "",
+    "visuals": [],
+    "references": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "The supplied TRIZ definition",
+        "blocks": [
+          {
+            "kind": "definition",
+            "term": "Teoriya Resheniya Izobreatatelskih Zadatch (TRIZ) methodology",
+            "text": "A systematic paradigm that converts a specific problem into a general issue, outlines a generic outcome from patents, and returns to the original problem."
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "The contradiction-method illustration",
+        "blocks": []
+      }
+    ],
+    "figures": [
+      {
+        "document": "Project Management.docx",
+        "image": "word/media/image9.jpeg",
+        "slug": "triz-contradictions",
+        "title": "Two routes in the supplied TRIZ outline",
+        "kind": "cards",
+        "headers": [
+          "Stage",
+          "Reading"
+        ],
+        "rows": [
+          [
+            "Starting point",
+            "Discover the problems → Technical contradiction"
+          ],
+          [
+            "Technical route",
+            "Contradiction matrix → 40 principles"
+          ],
+          [
+            "Physical route",
+            "Physical contradiction → Separation of the contradiction → Separation strategy"
+          ],
+          [
+            "Uncertain final label",
+            "Both routes end at “Discover the problems,” repeating the start."
+          ]
+        ],
+        "note": "Every labeled branch is retained. The repeated final label is unresolved; neither the matrix nor the 40 principles nor separation procedures are included."
+      }
+    ],
+    "questionStages": []
+  },
+  {
+    "slug": "cmmi-capability",
+    "title": "CMMI: capability, maturity and institutionalized improvement",
+    "topic": "Process Improvement",
+    "group": "Maturity & capability",
+    "summary": "Read the historical staged and continuous representations, goals, practices, process-area glossary and improvement roles.",
+    "takeaway": "Model version, appraisal scope and evidence matter more than a maturity label alone.",
+    "steps": [
+      "Identify model edition",
+      "Choose improvement scope",
+      "Institutionalize practices",
+      "Evaluate evidence"
+    ],
+    "related": [
+      "project-maturity",
+      "software-process-discipline",
+      "six-sigma-improvement",
+      "dmaic-dmadv"
+    ],
+    "notes": [
+      "The process-area names, IPPD additions, common features and continuous 0–5 capability outline reflect older CMMI material. They are historical study notes, not the current model or an appraisal manual.",
+      "The table mapping maturity directly to lowest/highest quality and risk is an oversimplification. A rating does not guarantee product quality, customer outcomes or project risk.",
+      "The archive does not provide an edition, complete appraisal criteria, an assessed organization or evidence supporting the promised benefits."
+    ],
+    "collection": "",
+    "visuals": [
+      {
+        "title": "Two historical representations",
+        "kind": "matrix",
+        "headers": [
+          "Representation",
+          "Reading focus"
+        ],
+        "rows": [
+          [
+            "Staged",
+            "An overall maturity sequence across the organization"
+          ],
+          [
+            "Continuous",
+            "Capability of selected process areas"
+          ],
+          [
+            "Important limit",
+            "The supplied levels and process-area labels belong to older editions; do not mix model versions."
+          ]
+        ],
+        "note": "Editorial comparison of the supplied descriptions. These are conceptual distinctions, not a scoring instrument."
+      }
+    ],
+    "references": [
+      {
+        "title": "CMMI Institute: capability and maturity levels",
+        "url": "https://cmmiinstitute.com/learning/appraisals/levels"
+      }
+    ],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Purpose, maturity characteristics and historical scope",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Common sense, efficient, proven ways of doing business",
+              "Evaluate and measure the maturity of software development process (1 to 5)",
+              "Maturity definition",
+              "Well-defined",
+              "Repeatable",
+              "Measured",
+              "Analysed",
+              "Improved",
+              "Effective",
+              "Matured organisation",
+              "Inter-group communication and coordination",
+              "Work accomplished according to plan",
+              "Practices consistent with processes",
+              "Processes updated as necessary",
+              "Well-defined roles/responsibilities",
+              "Management formally commits"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Benefits"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Produce quality products or services",
+              "Create value for the stockholders",
+              "Enhance customer satisfaction",
+              "Increase market value",
+              "Gain an industry-wide recognition for excellence"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "4 bodies of knowledge"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "System engineering",
+              "Software engineering",
+              "Integrated product and process development",
+              "Supplier sourcing"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Staged and continuous structures",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Maturity level (1 to 5) or capability levels (continuous representation)",
+              "Process areas",
+              "Goals (generic and specific)",
+              "Common features",
+              "Practices (generic and specific)"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Staged representation"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Provides a proven sequence of improvements, each serving as a foundation for the next",
+              "Permits comparisons across and among organisations by the use of maturity levels",
+              "Provides an easy migration from the SW-CMM to CMMI",
+              "Provides a single rating that summarises appraisal results and allows comparisons among organisation"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Staged structure"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Process area",
+              "Specific goals",
+              "Specific practices / process area",
+              "Generic goals",
+              "Commitment to perform",
+              "Ability to perform, directing implementation, verifying implementations",
+              "Generic practices"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Continuous structure"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Specific goals",
+              "Specific practices / generic goals",
+              "Generic practices"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Continuous structure vs staged structure"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Process area categories / maturity levels",
+              "0 - 5 / 1 – 5",
+              "Base and advanced practices / only advanced practice",
+              "Capability level on generic practice / common features in generic practice",
+              "All levels of generic practices / only level 2 and 3 in generic practices",
+              "Equivalent staging / can choose what and how much to improve"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Historical levels and improvement categories",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Initial: process is informal and ad hoc, poorly defined - lowest quality & highest risk",
+              "Managed: basic project management - low quality & high risk",
+              "Defined: process standardisation - medium quality & medium risk",
+              "Quantitatively managed: performance - high quality & low risk",
+              "Optimising: continuous process improvement, innovation - highest quality & lowest risk"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Continuous Representation"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Incomplete: goals are not met",
+              "Performed: baby-step, set out framework",
+              "Managed: everything is planned out and fit the goal",
+              "Defined: tailored to the organisation goal",
+              "Quantitatively managed: quality and process measured in statistical terms",
+              "Optimisation: performance and fixing"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "4 Areas of Improvements"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Project management",
+              "Support",
+              "Engineering",
+              "Process management"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-4",
+        "heading": "Institutionalization and generic practices",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Achieve specific goals: perform specific practices"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Institutionalised a managed process: established an organisational policy, plan the process, provide resources, assign responsibility, train people, manage configurations, identify and involve relevant stakeholders, monitor and control the process, objectively evaluate adherence, review status with higher level management"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Institutionalised a defined process - established a defined process, collect improvement information",
+              "Institutionalised a quantitatively managed process - establish quantitative objectives for the process, stabilise sub process",
+              "Institutionalised an optimising process - ensure continuous process improvement, correct root causes of problems"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Common features to ensure it is effective, repeatable and lasting"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Commitment to perform",
+              "Ability to perform",
+              "Activities performed",
+              "Measurement and analysis",
+              "Verifying implementation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-5",
+        "heading": "CAR and the process-area glossary",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "Determine causes of defects: select defect data for analysis, analyse causes",
+              "Address causes of defects - implement the action proposals, evaluate the effect of changes, record data"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Other purposes"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Configuration management (CM)",
+              "Decision analysis and resolution (DAR)",
+              "Integrated project management + IPPD (IPM)",
+              "Measurement and analysis (MA)",
+              "Organisational innovation and deployment (OID)",
+              "Organisational process definition + IPPD (OPD)",
+              "Organisational process focus (OPF)",
+              "Organisational process performance (OPP)",
+              "Organisational training (OT)",
+              "Product integration (PI)",
+              "Project monitoring and control (PMC)",
+              "Project planning (PP)",
+              "Process and product quality assurance (PPQA)",
+              "Quantitative project management (QPM)",
+              "Requirement development (RD)",
+              "Requirement management (REQM)",
+              "Supplier agreement management (SAM)",
+              "Technical solution (TS)",
+              "Validation (VAL)",
+              "Verification (VER)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-6",
+        "heading": "Improvement sponsors, groups and partners",
+        "blocks": [
+          {
+            "kind": "list",
+            "items": [
+              "PI sponsor",
+              "PI champion",
+              "Engineering process group (EPG) lead",
+              "EPG members, process action teams (PATs)",
+              "Transition partner"
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
     "slug": "sales-playbook",
     "title": "Sales playbook: from prospecting to customer success",
     "topic": "Business & Management",
@@ -20541,14 +24829,14 @@
   {
     "slug": "six-sigma-improvement",
     "title": "Six Sigma & Process Improvement",
-    "topic": "Project Management",
+    "topic": "Process Improvement",
     "group": "Six Sigma & process improvement",
-    "summary": "Explore variation, Lean, DMAIC/DMADV, robust design and process architecture within Project Management.",
+    "summary": "Explore variation, Lean, DMAIC/DMADV, robust design and quality methods within Process Improvement.",
     "takeaway": "",
     "steps": [],
     "notes": [
-      "The parent is Project Management. Process-improvement methods also apply to ongoing operations and are cross-linked from the business collection.",
-      "The supplied material mixes historical descriptions, named frameworks and incomplete technical examples. A method name or diagram does not constitute a completed improvement project."
+      "The parent is Process Improvement. Project Management links here when improvement work needs project governance and delivery.",
+      "Historical claims and incomplete examples are retained with clear limitations."
     ],
     "related": [],
     "sections": [],

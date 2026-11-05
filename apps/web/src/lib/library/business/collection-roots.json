@@ -14,5 +14,13 @@
   {
     "slug": "technology",
     "topic": "Technology"
+  },
+  {
+    "slug": "process-improvement",
+    "topic": "Process Improvement"
+  },
+  {
+    "slug": "problem-solving",
+    "topic": "Problem Solving & Decision Making"
   }
 ]

@@ -62,10 +62,12 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
     assert hashlib.sha256(archive.read_bytes()).hexdigest() == batch['sha256'], f'Unreviewed archive: {batch["key"]}'
     plan = json.loads((HERE / batch['plan']).read_text())
     figures = json.loads((HERE / batch['figures']).read_text()) if batch['figures'] else []
+    equations = json.loads((HERE / batch['equations']).read_text()) if batch.get('equations') else {}
     with zipfile.ZipFile(archive) as zipped:
         expected_names = {r['document'] for p in plan for r in p['ranges']}
         assert set(zipped.namelist()) == expected_names, 'Unexpected archive contents; review first'
-        documents = {name: read_document(name, zipped.read(name)) for name in zipped.namelist()}
+        documents = {name: read_document(name, zipped.read(name), equations.get(name, ())) for name in zipped.namelist()}
+        assert set(equations) <= set(documents), 'Unknown equation document'
     coverage = {(name, p['index']): [] for name, doc in documents.items() for p in doc['paragraphs']}
     for page in plan:
         slug = page['slug']
@@ -74,6 +76,7 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
             article = articles[slug]
             for key in ('notes', 'related'):
                 article[key] = list(dict.fromkeys(article[key] + page.get(key, [])))
+            article['visuals'].extend(page.get('visuals', []))
         else:
             assert slug not in articles, f'Duplicate slug: {slug}'
             article = {k:v for k,v in page.items() if k != 'ranges'}
@@ -96,6 +99,8 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
             for i in range(span['start'], span['end']):
                 p = doc['paragraphs'][i]
                 coverage[(doc['name'], i)].append((slug, section_id))
+                if p.get('equation'):
+                    assert p['equation'] in rendered, f'Lost equation: {doc["name"]}:{i}'
                 if p['index'] != 0 and p['style'] not in ('1', '2', '6', '7', '5'):
                     value = p['text'] if page.get('format') == 'chapter' or doc['name'] == 'NLP.docx' else edited(p['text'])
                     assert json.dumps(value, ensure_ascii=False)[1:-1] in rendered, f'Lost passage: {doc["name"]}:{i}'
@@ -202,6 +207,10 @@ for batch, documents, coverage, image_coverage in outputs:
         for (name, image), figure in image_coverage.items():
             media = next(m for m in documents[name]['images'] if m['path'] == image)
             writer.writerow([name,image,media['sha256'],f'/library/knowledge/{figure["slug"]}/',figure['title'],'unrecoverable source rendering error; disclosed' if figure['kind'] == 'missing' else 'reviewed and reconstructed as accessible text/visual'])
+        for name, document in documents.items():
+            for equation in document.get('equations', []):
+                for slug, section in coverage[(name, equation['afterParagraph'])]:
+                    writer.writerow([name, f'equation-after-{equation["afterParagraph"]}', equation['sha256'], f'/library/knowledge/{slug}/', section, 'reviewed equation transcribed: ' + equation['text']])
     print(f'{batch["key"]}: {len(coverage)} paragraphs, {len(image_coverage)} images, no unmapped items')
 save(DEST / 'guides.json', list(articles.values()))
 save(DEST / 'collections.json', collections)

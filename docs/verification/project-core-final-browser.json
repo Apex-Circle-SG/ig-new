@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-05",
+  "renderChecks": 6,
+  "accessibilityChecks": 6,
+  "sitemapAndContentIndexSlugs": 49,
+  "results": [
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-foundations/",
+      "status": 200,
+      "title": "Projects: purpose, outcomes and success",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-communication/",
+      "status": 200,
+      "title": "Project communication: meetings that move work forward",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/pert-three-point-estimation/",
+      "status": 200,
+      "title": "PERT: three-point duration estimates and variance",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-foundations/",
+      "status": 200,
+      "title": "Projects: purpose, outcomes and success",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-communication/",
+      "status": 200,
+      "title": "Project communication: meetings that move work forward",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/pert-three-point-estimation/",
+      "status": 200,
+      "title": "PERT: three-point duration estimates and variance",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    }
+  ],
+  "audits": [
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-foundations/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-communication/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/pert-three-point-estimation/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-foundations/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-communication/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/pert-three-point-estimation/",
+      "violations": []
+    }
+  ]
+}

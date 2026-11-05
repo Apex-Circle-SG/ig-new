@@ -21,7 +21,7 @@ COMPARISONS = {
 def text(p):
     return ''.join(t.text or '' for t in p.iter(W + 't')).strip()
 
-def read_document(name, data):
+def read_document(name, data, reviewed_equations=()):
     with zipfile.ZipFile(io.BytesIO(data)) as doc:
         root = ET.fromstring(doc.read('word/document.xml'))
         paragraphs = [p for p in root.iter(W + 'p') if text(p)]
@@ -59,8 +59,20 @@ def read_document(name, data):
             relationships = ET.fromstring(doc.read('word/_rels/document.xml.rels'))
             assert not any(r.get('TargetMode') == 'External' for r in relationships), f'Review external links: {name}'
         assert not any(e.get('descr') or e.get('title') for e in root.iter() if e.tag.endswith('docPr')), f'Review image alternate text: {name}'
-        assert not list(root.iter('{http://schemas.openxmlformats.org/officeDocument/2006/math}oMath')), 'Review equations before import'
-        return dict(name=name, sha256=hashlib.sha256(data).hexdigest(), paragraphs=result, tables=tables, images=media)
+        equations = []
+        for p in root.iter(W + 'p'):
+            for equation in p.iter('{http://schemas.openxmlformats.org/officeDocument/2006/math}oMath'):
+                fingerprint = hashlib.sha256(ET.tostring(equation)).hexdigest()
+                reviewed = next((e for e in reviewed_equations if e['sha256'] == fingerprint), None)
+                assert reviewed and id(p) in indices, f'Review equation before import: {name}/{fingerprint}'
+                assert reviewed['afterParagraph'] == indices[id(p)], 'Equation anchor changed'
+                result[indices[id(p)]]['equation'] = reviewed['text']
+                equations.append(reviewed)
+        assert len(equations) == len(reviewed_equations), 'Reviewed equation missing or duplicated'
+        document = dict(name=name, sha256=hashlib.sha256(data).hexdigest(), paragraphs=result, tables=tables, images=media)
+        if equations:
+            document['equations'] = equations
+        return document
 
 LABELS = {
     'Business-Level Strategy (Competitive Strategy)', 'Corporate-Level Strategy (Company wide Strategy)',
@@ -143,6 +155,8 @@ def prose(items):
             i += 1
             continue
         t = edited(p['text'])
+        if p.get('equation'):
+            t += ' ' + p['equation']
         # The section already names its topic. Keep source title provenance without repeating it visually.
         if p['style'] in ('1', '2', '6', '7', '5'):
             if not blocks:
@@ -163,6 +177,23 @@ def prose(items):
 
 def section_blocks(document, start, end):
     ps = document['paragraphs'][start:end]
+    if document['name'] == 'Project Management.docx':
+        # These reviewed spans are tables inside the document's larger layout table.
+        layouts = {
+            (69, 88): (1, ['Process / operations', 'Project'], 2),
+            (321, 345): (4, None, 4),
+            (659, 696): (5, None, 4),
+        }
+        layout = layouts.get((start, end))
+        if layout:
+            offset, headers, width = layout
+            values = [edited(p['text']) for p in ps[offset:]]
+            assert len(values) % width == 0, 'Reviewed table shape changed'
+            heading_count = offset if headers else offset - width
+            headers = headers or [edited(p['text']) for p in ps[offset - width:offset]]
+            headings = [dict(kind='heading', text=edited(p['text'])) for p in ps[:heading_count]]
+            return headings + [dict(kind='table', headers=headers,
+                rows=[[[value] for value in values[i:i + width]] for i in range(0, len(values), width)])]
     if document['name'] == 'Other Management.docx' and start in (193, 224, 255):
         terms = [edited(p['text']) for p in ps[1:]]
         assert len(terms) % 3 == 0

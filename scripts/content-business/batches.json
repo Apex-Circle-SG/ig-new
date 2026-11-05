@@ -22,5 +22,14 @@
     "figures": null,
     "ledger": "docs/project-content-coverage.csv",
     "sha256": "c754ccebccb8c7f854cb67911bb4af8b0e95181d46f4e187c20c642535ebf550"
+  },
+  {
+    "key": "project-core",
+    "source": "content/sources/business/project-core",
+    "plan": "project-core-plan.json",
+    "figures": "project-core-figures.json",
+    "equations": "project-core-equations.json",
+    "ledger": "docs/project-core-content-coverage.csv",
+    "sha256": "1fece58eaabc5f311ba51df26faea5fd8903ff95990dcc3e389d6b7ec94d3970"
   }
 ]

@@ -37,7 +37,13 @@ export default async function LibraryPage({ searchParams }: { searchParams: Prom
         <div><span className={styles.eyebrow}>COMMUNICATION &amp; PERSONAL DEVELOPMENT</span><h2>Make understanding easier<span>.</span></h2><p>Explore listening, clear communication, persuasion and an annotated NLP reference with context and evidence notes.</p><strong>Explore the communication hub →</strong></div><div className={styles.hubFeatureMark} aria-hidden="true">↔</div>
       </Link>
       <Link href="/library/knowledge/project-management/" className={styles.hubFeature}>
-        <div><span className={styles.eyebrow}>PROJECT MANAGEMENT</span><h2>Plan, deliver and improve<span>.</span></h2><p>Explore delivery approaches, Six Sigma, risk analysis, estimation and team responsibilities in one connected collection.</p><strong>Explore Project Management →</strong></div><div className={styles.hubFeatureMark} aria-hidden="true">◎</div>
+        <div><span className={styles.eyebrow}>PROJECT MANAGEMENT</span><h2>Plan, deliver and close<span>.</span></h2><p>Explore governance, delivery approaches, scheduling, budgets, risk, teamwork and handover.</p><strong>Explore Project Management →</strong></div><div className={styles.hubFeatureMark} aria-hidden="true">◎</div>
+      </Link>
+      <Link href="/library/knowledge/process-improvement/" className={styles.hubFeature}>
+        <div><span className={styles.eyebrow}>PROCESS IMPROVEMENT</span><h2>Make better work repeatable<span>.</span></h2><p>Connect Six Sigma and quality methods with process capability and organizational maturity.</p><strong>Explore Process Improvement →</strong></div><div className={styles.hubFeatureMark} aria-hidden="true">↻</div>
+      </Link>
+      <Link href="/library/knowledge/problem-solving/" className={styles.hubFeature}>
+        <div><span className={styles.eyebrow}>PROBLEM SOLVING &amp; DECISION MAKING</span><h2>Ask a clearer question<span>.</span></h2><p>Frame problems, structure analysis and explore creative approaches before choosing a solution.</p><strong>Explore Problem Solving →</strong></div><div className={styles.hubFeatureMark} aria-hidden="true">?</div>
       </Link>
       <KnowledgeList articles={articles} />
       <LibraryDirectory tools={tools} initialCategory={params.tools} />

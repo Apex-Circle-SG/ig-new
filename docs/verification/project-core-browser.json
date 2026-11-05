@@ -1,0 +1,1110 @@
+{
+  "date": "2026-11-05",
+  "renderChecks": 102,
+  "accessibilityChecks": 16,
+  "sitemapAndContentIndexSlugs": 49,
+  "results": [
+    {
+      "width": 390,
+      "path": "/library/",
+      "status": 200,
+      "title": "Good ideas deservea place to grow.",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/content-index/",
+      "status": 200,
+      "title": "Find your next useful page.",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-foundations/",
+      "status": 200,
+      "title": "Projects: purpose, outcomes and success",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-charter/",
+      "status": 200,
+      "title": "Project charters: define scope, purpose and ownership",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-lifecycle/",
+      "status": 200,
+      "title": "Project lifecycle: from concept to handover",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-maturity/",
+      "status": 200,
+      "title": "Project-management maturity: assess practices with evidence",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-leadership/",
+      "status": 200,
+      "title": "Project managers, PMOs and champions",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-stakeholders/",
+      "status": 200,
+      "title": "Project stakeholders: interests, influence and engagement",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/organizational-structures/",
+      "status": 200,
+      "title": "Organizational structures: fit the work and the strategy",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-communication/",
+      "status": 200,
+      "title": "Project communication: meetings that move work forward",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-team-development/",
+      "status": 200,
+      "title": "Project teams: development, cooperation and performance",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/prince2-project-governance/",
+      "status": 200,
+      "title": "PRINCE2: products, stages and governance",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/critical-chain/",
+      "status": 200,
+      "title": "Critical chain: constraints, resources and buffers",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/agile-foundations/",
+      "status": 200,
+      "title": "Agile delivery: feedback, uncertainty and people",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/waterfall-v-model/",
+      "status": 200,
+      "title": "Waterfall and the V-model: sequence and planned assurance",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/xp-values-practices/",
+      "status": 200,
+      "title": "Extreme Programming: values, feedback and engineering discipline",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-cost-estimation/",
+      "status": 200,
+      "title": "Project costing: estimates, cost types and uncertainty",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-budgeting/",
+      "status": 200,
+      "title": "Project budgets: resource plans and contingencies",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-scheduling/",
+      "status": 200,
+      "title": "Project schedules: dependencies, float and critical paths",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/pert-three-point-estimation/",
+      "status": 200,
+      "title": "PERT: three-point duration estimates and variance",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/schedule-network-examples/",
+      "status": 200,
+      "title": "Activity networks: serial and parallel work",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-risk-planning/",
+      "status": 200,
+      "title": "Project risk: identify, own and respond",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-risk-scoring/",
+      "status": 200,
+      "title": "Project risk scoring: compare the source’s rating methods",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-monitoring-control/",
+      "status": 200,
+      "title": "Project control: milestones, evidence and action",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/earned-value-management/",
+      "status": 200,
+      "title": "Earned value: cost, schedule and forecast performance",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-termination/",
+      "status": 200,
+      "title": "Project termination: finish, integrate or stop",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-closeout/",
+      "status": 200,
+      "title": "Project closeout: acceptance, handover and records",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-lessons-learned/",
+      "status": 200,
+      "title": "Project reviews: turn experience into usable learning",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/problem-solving-toolkit/",
+      "status": 200,
+      "title": "Problem-solving tools: choose the question first",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/quality-problem-solving/",
+      "status": 200,
+      "title": "Quality problem solving: causes, failures and corrective action",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/structured-problem-solving/",
+      "status": 200,
+      "title": "Structure a problem: 4S and the TOSCA checklist",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/triz-contradictions/",
+      "status": 200,
+      "title": "TRIZ: technical and physical contradictions",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/preliminary-hazard-analysis/",
+      "status": 200,
+      "title": "Preliminary hazard analysis: identify issues early",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/cmmi-capability/",
+      "status": 200,
+      "title": "CMMI: capability, maturity and institutionalized improvement",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/six-sigma-foundations/",
+      "status": 200,
+      "title": "Six Sigma: variation, defects and improvement",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/dmaic-dmadv/",
+      "status": 200,
+      "title": "DMAIC or DMADV: improve a process or design one",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/taguchi-quality/",
+      "status": 200,
+      "title": "Taguchi: quality, variation and loss",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/taguchi-robust-design/",
+      "status": 200,
+      "title": "Robust design: system, parameter and tolerance choices",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/quality-excellence-models/",
+      "status": 200,
+      "title": "Quality excellence models: compare the supplied perspectives",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/process-architecture/",
+      "status": 200,
+      "title": "Process architecture: connect inputs, activities and customers",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/lean-supply/",
+      "status": 200,
+      "title": "Lean supply: quality, lead time and continuous improvement",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/business-management/",
+      "status": 200,
+      "title": "Business & Management: from analysis to action",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/communication-personal-development/",
+      "status": 200,
+      "title": "Communication & Personal Development",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/sales-playbook/",
+      "status": 200,
+      "title": "Sales playbook: from prospecting to customer success",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/nlp-reference/",
+      "status": 200,
+      "title": "Neuro-linguistic programming: an annotated reference",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/art-of-war/",
+      "status": 200,
+      "title": "The Art of War: a guided reading collection",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-management/",
+      "status": 200,
+      "title": "Project Management: plan, deliver and improve",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/six-sigma-improvement/",
+      "status": 200,
+      "title": "Six Sigma & Process Improvement",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/technology/",
+      "status": 200,
+      "title": "Technology: software, models and systems",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/process-improvement/",
+      "status": 200,
+      "title": "Process Improvement",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/problem-solving/",
+      "status": 200,
+      "title": "Problem Solving & Decision Making",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/",
+      "status": 200,
+      "title": "Good ideas deservea place to grow.",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/content-index/",
+      "status": 200,
+      "title": "Find your next useful page.",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-foundations/",
+      "status": 200,
+      "title": "Projects: purpose, outcomes and success",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-charter/",
+      "status": 200,
+      "title": "Project charters: define scope, purpose and ownership",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-lifecycle/",
+      "status": 200,
+      "title": "Project lifecycle: from concept to handover",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-maturity/",
+      "status": 200,
+      "title": "Project-management maturity: assess practices with evidence",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-leadership/",
+      "status": 200,
+      "title": "Project managers, PMOs and champions",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-stakeholders/",
+      "status": 200,
+      "title": "Project stakeholders: interests, influence and engagement",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/organizational-structures/",
+      "status": 200,
+      "title": "Organizational structures: fit the work and the strategy",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-communication/",
+      "status": 200,
+      "title": "Project communication: meetings that move work forward",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-team-development/",
+      "status": 200,
+      "title": "Project teams: development, cooperation and performance",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/prince2-project-governance/",
+      "status": 200,
+      "title": "PRINCE2: products, stages and governance",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/critical-chain/",
+      "status": 200,
+      "title": "Critical chain: constraints, resources and buffers",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/agile-foundations/",
+      "status": 200,
+      "title": "Agile delivery: feedback, uncertainty and people",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/waterfall-v-model/",
+      "status": 200,
+      "title": "Waterfall and the V-model: sequence and planned assurance",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/xp-values-practices/",
+      "status": 200,
+      "title": "Extreme Programming: values, feedback and engineering discipline",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-cost-estimation/",
+      "status": 200,
+      "title": "Project costing: estimates, cost types and uncertainty",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-budgeting/",
+      "status": 200,
+      "title": "Project budgets: resource plans and contingencies",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-scheduling/",
+      "status": 200,
+      "title": "Project schedules: dependencies, float and critical paths",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/pert-three-point-estimation/",
+      "status": 200,
+      "title": "PERT: three-point duration estimates and variance",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/schedule-network-examples/",
+      "status": 200,
+      "title": "Activity networks: serial and parallel work",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-risk-planning/",
+      "status": 200,
+      "title": "Project risk: identify, own and respond",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-risk-scoring/",
+      "status": 200,
+      "title": "Project risk scoring: compare the source’s rating methods",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-monitoring-control/",
+      "status": 200,
+      "title": "Project control: milestones, evidence and action",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/earned-value-management/",
+      "status": 200,
+      "title": "Earned value: cost, schedule and forecast performance",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-termination/",
+      "status": 200,
+      "title": "Project termination: finish, integrate or stop",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-closeout/",
+      "status": 200,
+      "title": "Project closeout: acceptance, handover and records",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-lessons-learned/",
+      "status": 200,
+      "title": "Project reviews: turn experience into usable learning",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/problem-solving-toolkit/",
+      "status": 200,
+      "title": "Problem-solving tools: choose the question first",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/quality-problem-solving/",
+      "status": 200,
+      "title": "Quality problem solving: causes, failures and corrective action",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/structured-problem-solving/",
+      "status": 200,
+      "title": "Structure a problem: 4S and the TOSCA checklist",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/triz-contradictions/",
+      "status": 200,
+      "title": "TRIZ: technical and physical contradictions",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/preliminary-hazard-analysis/",
+      "status": 200,
+      "title": "Preliminary hazard analysis: identify issues early",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/cmmi-capability/",
+      "status": 200,
+      "title": "CMMI: capability, maturity and institutionalized improvement",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/six-sigma-foundations/",
+      "status": 200,
+      "title": "Six Sigma: variation, defects and improvement",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/dmaic-dmadv/",
+      "status": 200,
+      "title": "DMAIC or DMADV: improve a process or design one",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/taguchi-quality/",
+      "status": 200,
+      "title": "Taguchi: quality, variation and loss",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/taguchi-robust-design/",
+      "status": 200,
+      "title": "Robust design: system, parameter and tolerance choices",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/quality-excellence-models/",
+      "status": 200,
+      "title": "Quality excellence models: compare the supplied perspectives",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/process-architecture/",
+      "status": 200,
+      "title": "Process architecture: connect inputs, activities and customers",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/lean-supply/",
+      "status": 200,
+      "title": "Lean supply: quality, lead time and continuous improvement",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/business-management/",
+      "status": 200,
+      "title": "Business & Management: from analysis to action",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/communication-personal-development/",
+      "status": 200,
+      "title": "Communication & Personal Development",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/sales-playbook/",
+      "status": 200,
+      "title": "Sales playbook: from prospecting to customer success",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/nlp-reference/",
+      "status": 200,
+      "title": "Neuro-linguistic programming: an annotated reference",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/art-of-war/",
+      "status": 200,
+      "title": "The Art of War: a guided reading collection",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-management/",
+      "status": 200,
+      "title": "Project Management: plan, deliver and improve",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/six-sigma-improvement/",
+      "status": 200,
+      "title": "Six Sigma & Process Improvement",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/technology/",
+      "status": 200,
+      "title": "Technology: software, models and systems",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/process-improvement/",
+      "status": 200,
+      "title": "Process Improvement",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/problem-solving/",
+      "status": 200,
+      "title": "Problem Solving & Decision Making",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    }
+  ],
+  "audits": [
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-team-development/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/pert-three-point-estimation/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/schedule-network-examples/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/earned-value-management/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/cmmi-capability/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-management/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/process-improvement/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/problem-solving/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-team-development/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/pert-three-point-estimation/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/schedule-network-examples/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/earned-value-management/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/cmmi-capability/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-management/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/process-improvement/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/problem-solving/",
+      "violations": []
+    }
+  ]
+}

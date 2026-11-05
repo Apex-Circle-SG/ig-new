@@ -416,8 +416,8 @@
     "title": "Project Management: plan, deliver and improve",
     "topic": "Project Management",
     "group": "Start here",
-    "summary": "Explore planning, delivery, Six Sigma, risk, measurement and team responsibilities through connected guides.",
-    "intro": "Start with a project question or browse the six sections. Six Sigma & Process Improvement is a focused collection within this wider project-management hub.",
+    "summary": "Explore project governance, delivery, schedules, costs, risk, teams and closeout through connected guides.",
+    "intro": "Follow a project from its purpose and charter to delivery and handover. Process Improvement and Problem Solving are connected subjects with their own hubs.",
     "groups": [
       {
         "name": "Planning & governance",
@@ -426,10 +426,6 @@
       {
         "name": "Delivery approaches",
         "description": "Compare software delivery methods, assumptions and feedback loops."
-      },
-      {
-        "name": "Six Sigma & process improvement",
-        "description": "Explore variation, DMAIC/DMADV, robust design and operational improvement."
       },
       {
         "name": "Risk & assurance",
@@ -442,6 +438,10 @@
       {
         "name": "Teams, responsibilities & change",
         "description": "Clarify responsibilities, organizational context and the human work of change."
+      },
+      {
+        "name": "Closeout & lessons learned",
+        "description": "Finish responsibly, transfer ownership and carry learning forward."
       }
     ],
     "journey": [
@@ -449,58 +449,57 @@
         "title": "Frame the work",
         "links": [
           {
+            "slug": "project-foundations",
+            "label": "Define success"
+          },
+          {
             "slug": "project-charter",
-            "label": "Define the charter"
+            "label": "Write the charter"
           },
           {
-            "slug": "rasci-responsibilities",
-            "label": "Clarify responsibilities"
-          },
-          {
-            "slug": "hazard-methods-comparison",
-            "label": "Choose a risk-analysis question"
+            "slug": "project-stakeholders",
+            "label": "Engage stakeholders"
           }
         ]
       },
       {
-        "title": "Choose how to deliver",
+        "title": "Plan and deliver",
         "links": [
           {
             "slug": "delivery-approaches",
-            "label": "Compare delivery approaches"
+            "label": "Choose an approach"
           },
           {
-            "slug": "six-sigma-improvement",
-            "label": "Explore Six Sigma and improvement"
+            "slug": "project-scheduling",
+            "label": "Build the schedule"
           },
           {
-            "slug": "software-process-discipline",
-            "label": "Plan and measure the work"
+            "slug": "earned-value-management",
+            "label": "Read performance"
           }
         ]
       },
       {
-        "title": "Review and improve",
+        "title": "Review and close",
         "links": [
           {
-            "slug": "project-action-reporting",
-            "label": "Track actions and evidence"
+            "slug": "project-risk-planning",
+            "label": "Review risks"
           },
           {
-            "slug": "change-communication-planning",
-            "label": "Plan change communication"
+            "slug": "project-closeout",
+            "label": "Plan handover"
           },
           {
-            "slug": "technology",
-            "label": "Explore technical models and systems"
+            "slug": "project-lessons-learned",
+            "label": "Capture learning"
           }
         ]
       }
     ],
     "notes": [
-      "This collection currently emphasizes process improvement, safety/risk analysis and software delivery. The hierarchy can grow with additional project-management material.",
-      "Six Sigma is placed here as an improvement approach. Its use in ongoing operations is also connected through Business & Management.",
-      "Missing figures, incomplete templates and inconsistent source calculations are disclosed on the relevant pages; no missing project data are invented."
+      "Six Sigma and CMMI belong to the separate Process Improvement hub. General framing and creative methods belong to Problem Solving & Decision Making; links connect the subjects.",
+      "Historical claims and incomplete examples are retained with limitations. Named frameworks are not interchangeable or complete professional procedures."
     ],
     "references": [],
     "topicRoot": true
@@ -508,10 +507,10 @@
   {
     "slug": "six-sigma-improvement",
     "title": "Six Sigma & Process Improvement",
-    "topic": "Project Management",
+    "topic": "Process Improvement",
     "group": "Six Sigma & process improvement",
-    "summary": "Explore variation, Lean, DMAIC/DMADV, robust design and process architecture within Project Management.",
-    "intro": "Use this focused collection for improvement work, then return to Project Management for governance, delivery, risk, people and performance.",
+    "summary": "Explore variation, Lean, DMAIC/DMADV, robust design and quality methods within Process Improvement.",
+    "intro": "Use this focused collection for Six Sigma and quality improvement. Explore the parent Process Improvement hub for organizational maturity and capability.",
     "groups": [
       {
         "name": "Six Sigma & process improvement",
@@ -568,8 +567,8 @@
       }
     ],
     "notes": [
-      "The parent is Project Management. Process-improvement methods also apply to ongoing operations and are cross-linked from the business collection.",
-      "The supplied material mixes historical descriptions, named frameworks and incomplete technical examples. A method name or diagram does not constitute a completed improvement project."
+      "The parent is Process Improvement. Project Management links here when improvement work needs project governance and delivery.",
+      "Historical claims and incomplete examples are retained with clear limitations."
     ],
     "references": [
       {
@@ -668,6 +667,130 @@
     "notes": [
       "Technical models are classified by what they describe; they are not all treated as Six Sigma methods or project-management frameworks.",
       "Existing technical articles retain their URLs and content. Historical tools and incomplete abstracts carry their own source notes."
+    ],
+    "references": [],
+    "topicRoot": true
+  },
+  {
+    "slug": "process-improvement",
+    "title": "Process Improvement",
+    "topic": "Process Improvement",
+    "group": "Start here",
+    "summary": "Improve how work is performed: explore Six Sigma, quality, process capability and organizational maturity.",
+    "intro": "Improve how work is performed: explore Six Sigma, quality, process capability and organizational maturity.",
+    "groups": [
+      {
+        "name": "Six Sigma & process improvement",
+        "description": "Explore variation, quality methods and structured improvement."
+      },
+      {
+        "name": "Maturity & capability",
+        "description": "Assess practices, capability and evidence for sustained improvement."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Improve a process",
+        "links": [
+          {
+            "slug": "six-sigma-improvement",
+            "label": "Browse Six Sigma"
+          },
+          {
+            "slug": "dmaic-dmadv",
+            "label": "Choose improvement or design"
+          }
+        ]
+      },
+      {
+        "title": "Develop capability",
+        "links": [
+          {
+            "slug": "cmmi-capability",
+            "label": "Understand historical CMMI"
+          },
+          {
+            "slug": "project-maturity",
+            "label": "Examine maturity dimensions"
+          }
+        ]
+      },
+      {
+        "title": "Connect delivery",
+        "links": [
+          {
+            "slug": "project-management",
+            "label": "Manage improvement projects"
+          },
+          {
+            "slug": "problem-solving",
+            "label": "Frame the underlying problem"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Read each method with its source limitations. Conceptual summaries are distinguished from supplied measurements and complete worked examples."
+    ],
+    "references": [],
+    "topicRoot": true
+  },
+  {
+    "slug": "problem-solving",
+    "title": "Problem Solving & Decision Making",
+    "topic": "Problem Solving & Decision Making",
+    "group": "Start here",
+    "summary": "Frame difficult questions, structure analysis and explore creative approaches before choosing a solution.",
+    "intro": "Frame difficult questions, structure analysis and explore creative approaches before choosing a solution.",
+    "groups": [
+      {
+        "name": "Problem framing & analysis",
+        "description": "Clarify the question, structure evidence and define success."
+      },
+      {
+        "name": "Creative problem solving",
+        "description": "Explore contradictions and inventive-thinking references."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Frame the question",
+        "links": [
+          {
+            "slug": "structured-problem-solving",
+            "label": "Use 4S and TOSCA"
+          }
+        ]
+      },
+      {
+        "title": "Choose the analysis",
+        "links": [
+          {
+            "slug": "problem-solving-toolkit",
+            "label": "Compare tool purposes"
+          },
+          {
+            "slug": "quality-problem-solving",
+            "label": "Explore quality methods"
+          }
+        ]
+      },
+      {
+        "title": "Explore and decide",
+        "links": [
+          {
+            "slug": "triz-contradictions",
+            "label": "Examine contradictions"
+          },
+          {
+            "slug": "group-concept-selection",
+            "label": "Compare concepts"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Read each method with its source limitations. Conceptual summaries are distinguished from supplied measurements and complete worked examples."
     ],
     "references": [],
     "topicRoot": true

@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-05",
+  "status": "implemented locally; not pushed",
+  "source": {
+    "archiveSha256": "1fece58eaabc5f311ba51df26faea5fd8903ff95990dcc3e389d6b7ec94d3970",
+    "documents": [
+      {
+        "name": "_Capability Maturity Model Integration (CMMI).docx",
+        "paragraphs": 119,
+        "images": 0,
+        "equations": 0
+      },
+      {
+        "name": "Project Management.docx",
+        "paragraphs": 1138,
+        "images": 9,
+        "equations": 2
+      }
+    ],
+    "paragraphs": 1257,
+    "images": 9,
+    "equations": 2,
+    "newGuides": 26,
+    "expandedGuides": [
+      "project-charter",
+      "organizational-structures",
+      "agile-foundations",
+      "waterfall-v-model",
+      "xp-values-practices",
+      "preliminary-hazard-analysis"
+    ],
+    "newHubs": [
+      "process-improvement",
+      "problem-solving"
+    ],
+    "allPrior147SectionsAndFiguresPreserved": true,
+    "unownedCatalogueEntriesUnchanged": true,
+    "combinedSourceParagraphs": 6544,
+    "combinedSourceImages": 32
+  },
+  "checks": {
+    "generator": "pass: every paragraph, image and equation mapped; fingerprints, section text, slugs, categories and links validated",
+    "parser": "pass: 3 negative equation checks and 3 reviewed table shape checks",
+    "typecheck": "pass",
+    "productionBuild": "pass; rebuilt after final table changes",
+    "lint": "pass: full repository ESLint, zero warnings",
+    "browserRenderChecks": 108,
+    "accessibilityAudits": 22,
+    "sitemapAndContentIndexSlugs": 49,
+    "graph": {
+      "nodes": 875,
+      "edges": 1587,
+      "danglingEndpoints": 0,
+      "llmTokens": 0
+    },
+    "previewServer": "stopped",
+    "contentUnitTests": "not added, per user preference"
+  },
+  "limitations": [
+    "Historical and unreferenced claims are retained with reading notes rather than asserted as current facts.",
+    "PERT activity units and dependencies are not supplied; no complete project duration or critical path is invented.",
+    "EVM example cost units and forecast timing assumptions are incomplete; ETC is not given a fabricated numerical value.",
+    "CMMI/PRINCE2 editions, conflicting PHA labels and the repeated TRIZ final label remain explicitly qualified."
+  ]
+}

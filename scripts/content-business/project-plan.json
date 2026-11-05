@@ -2,7 +2,7 @@
   {
     "slug": "six-sigma-foundations",
     "title": "Six Sigma: variation, defects and improvement",
-    "topic": "Project Management",
+    "topic": "Process Improvement",
     "group": "Six Sigma & process improvement",
     "summary": "Understand the collection’s account of Six Sigma, Lean integration, leadership commitment and measurable improvement.",
     "takeaway": "Choose a meaningful improvement goal and examine the process evidence behind it.",
@@ -53,7 +53,7 @@
   {
     "slug": "dmaic-dmadv",
     "title": "DMAIC or DMADV: improve a process or design one",
-    "topic": "Project Management",
+    "topic": "Process Improvement",
     "group": "Six Sigma & process improvement",
     "summary": "Compare the supplied improvement sequence with the design-and-verification sequence and their customer-quality focus.",
     "takeaway": "Distinguish improving an existing process from developing a design that must meet customer needs.",
@@ -118,7 +118,7 @@
   {
     "slug": "taguchi-quality",
     "title": "Taguchi: quality, variation and loss",
-    "topic": "Project Management",
+    "topic": "Process Improvement",
     "group": "Six Sigma & process improvement",
     "summary": "Read the source’s discussion of fitness for use, loss to society, targets and variation rather than conformance alone.",
     "takeaway": "A process can meet a specification and still perform away from a useful target.",
@@ -184,7 +184,7 @@
   {
     "slug": "taguchi-robust-design",
     "title": "Robust design: system, parameter and tolerance choices",
-    "topic": "Project Management",
+    "topic": "Process Improvement",
     "group": "Six Sigma & process improvement",
     "summary": "Explore designed experiments, controllable and noise factors, signal-to-noise descriptions and the source’s application cases.",
     "takeaway": "Design for the conditions a product must tolerate, while making the assumptions and evidence explicit.",
@@ -236,7 +236,7 @@
   {
     "slug": "quality-excellence-models",
     "title": "Quality excellence models: compare the supplied perspectives",
-    "topic": "Project Management",
+    "topic": "Process Improvement",
     "group": "Six Sigma & process improvement",
     "summary": "Read the EFQM enablers/results outline, Baldrige categories and the brief Shingo culture expression as distinct frameworks.",
     "takeaway": "Check a model’s edition and purpose before treating its categories as a current assessment instrument.",
@@ -275,7 +275,7 @@
   {
     "slug": "process-architecture",
     "title": "Process architecture: connect inputs, activities and customers",
-    "topic": "Project Management",
+    "topic": "Process Improvement",
     "group": "Six Sigma & process improvement",
     "summary": "Explore PEMME and the process inventories attributed to APQC and Catalyst.",
     "takeaway": "Use a process architecture to ask what work creates value, how activities connect and who receives the output.",
@@ -315,7 +315,7 @@
   {
     "slug": "lean-supply",
     "title": "Lean supply: quality, lead time and continuous improvement",
-    "topic": "Project Management",
+    "topic": "Process Improvement",
     "group": "Six Sigma & process improvement",
     "summary": "Connect the source’s procurement, manufacturing, warehousing and transportation stages with five Lean supply principles.",
     "takeaway": "Improvement needs attention to the flow of work and the people who perform it.",

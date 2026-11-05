@@ -1,0 +1,290 @@
+[
+  {
+    "document": "Project Management.docx",
+    "image": "word/media/image1.jpeg",
+    "slug": "project-lifecycle",
+    "title": "Effort across the lifecycle",
+    "kind": "cards",
+    "headers": [
+      "Stage",
+      "Reading"
+    ],
+    "rows": [
+      [
+        "Conceptualization",
+        "Initial staffing and effort establish purpose and feasibility."
+      ],
+      [
+        "Planning",
+        "Effort increases as plans and specifications develop."
+      ],
+      [
+        "Execution",
+        "The conceptual man-hours curve rises to its largest allocation."
+      ],
+      [
+        "Termination",
+        "Effort falls as delivery is transferred and the team is released."
+      ]
+    ],
+    "note": "Accessible reconstruction of the unscaled staffing curve. Relative shape is illustrative; no staffing quantities or dates are supplied."
+  },
+  {
+    "document": "Project Management.docx",
+    "image": "word/media/image2.jpeg",
+    "slug": "project-lifecycle",
+    "title": "What changes as a project develops?",
+    "kind": "matrix",
+    "headers": [
+      "Dimension",
+      "Conceptual trend"
+    ],
+    "rows": [
+      [
+        "Client interest",
+        "High early, lower through development and renewed toward handover."
+      ],
+      [
+        "Project stake",
+        "Rises as commitments accumulate."
+      ],
+      [
+        "Resources",
+        "Rise toward execution, then fall."
+      ],
+      [
+        "Creativity",
+        "Dips early, rises through planning into execution, then falls toward termination."
+      ],
+      [
+        "Uncertainty",
+        "Falls as the project becomes better understood."
+      ]
+    ],
+    "note": "Conceptual trends in the supplied intensity illustration, not measured data or a prediction for every project."
+  },
+  {
+    "document": "Project Management.docx",
+    "image": "word/media/image3.jpeg",
+    "slug": "project-maturity",
+    "title": "Eight maturity-assessment dimensions",
+    "kind": "cards",
+    "headers": [
+      "Stage",
+      "Reading"
+    ],
+    "rows": [
+      [
+        "Project scheduling",
+        "Define observable evidence before assigning a score."
+      ],
+      [
+        "Structural support for project management",
+        "Define observable evidence before assigning a score."
+      ],
+      [
+        "Portfolio management",
+        "Define observable evidence before assigning a score."
+      ],
+      [
+        "Coaching, auditing and evaluating projects",
+        "Define observable evidence before assigning a score."
+      ],
+      [
+        "Control practices",
+        "Define observable evidence before assigning a score."
+      ],
+      [
+        "Project stakeholder management",
+        "Define observable evidence before assigning a score."
+      ],
+      [
+        "Networking between projects",
+        "Define observable evidence before assigning a score."
+      ],
+      [
+        "Personal development for projects",
+        "Define observable evidence before assigning a score."
+      ]
+    ],
+    "note": "The original radar has eight axes and a 0–3 scale but no plotted scores. This framework preserves the dimensions without inventing an assessed profile."
+  },
+  {
+    "document": "Project Management.docx",
+    "image": "word/media/image4.jpeg",
+    "slug": "project-team-development",
+    "title": "Tuckman: team-development stages",
+    "kind": "cards",
+    "headers": [
+      "Stage",
+      "Reading"
+    ],
+    "rows": [
+      [
+        "Forming",
+        "Inclusion; quiet, polite, guarded, impersonal and businesslike behavior; initially high morale. Transition toward testing is marked at the edge of this stage."
+      ],
+      [
+        "Storming",
+        "Infighting, conflict over control, confrontation, alienation, personal agendas and low morale."
+      ],
+      [
+        "Norming",
+        "Becoming organized: establish procedures, develop team skills, confront issues and rebuild morale."
+      ],
+      [
+        "Performing",
+        "Productivity, trust, flexibility, support, confidence, efficiency and high morale."
+      ],
+      [
+        "Convene / adjourn",
+        "The original diagram shows a convening-to-adjourning cycle."
+      ]
+    ],
+    "note": "Rebuilt from the source diagram. These are model descriptions, not inevitable behaviors or a diagnostic measure."
+  },
+  {
+    "document": "Project Management.docx",
+    "image": "word/media/image5.jpeg",
+    "slug": "project-team-development",
+    "title": "Punctuated equilibrium: change can occur in bursts",
+    "kind": "flow",
+    "headers": [],
+    "rows": [
+      [
+        "First meeting: a relatively stable initial working pattern"
+      ],
+      [
+        "Midpoint transition: a marked change in approach"
+      ],
+      [
+        "Later work: additional advances toward completion"
+      ],
+      [
+        "Deadline: final push to complete"
+      ]
+    ],
+    "note": "The original step-shaped performance curve uses a midpoint and deadline. No numerical performance scale or universal timing is established."
+  },
+  {
+    "document": "Project Management.docx",
+    "image": "word/media/image6.jpeg",
+    "slug": "schedule-network-examples",
+    "title": "Serial network: every activity follows the previous one",
+    "kind": "flow",
+    "headers": [],
+    "rows": [
+      [
+        "A · Identify topic"
+      ],
+      [
+        "B · Research"
+      ],
+      [
+        "C · Paper draft"
+      ],
+      [
+        "D · Edit paper"
+      ],
+      [
+        "E · Prepare presentation"
+      ],
+      [
+        "F · Final draft"
+      ],
+      [
+        "G · Finish presentation"
+      ],
+      [
+        "H · Finish"
+      ]
+    ],
+    "note": "Edges: A → B → C → D → E → F → G → H. No durations are supplied. This is the paper-and-presentation example, not the numerical survey table."
+  },
+  {
+    "document": "Project Management.docx",
+    "image": "word/media/image7.jpeg",
+    "slug": "schedule-network-examples",
+    "title": "Parallel network: split the work and merge at completion",
+    "kind": "cards",
+    "headers": [
+      "Stage",
+      "Reading"
+    ],
+    "rows": [
+      [
+        "Shared start",
+        "A Identify topic → B Research → C Paper draft"
+      ],
+      [
+        "Paper branch",
+        "C → D Edit paper → F Final draft → H Finish"
+      ],
+      [
+        "Presentation branch",
+        "C → E Prepare presentation → G Finish presentation → H Finish"
+      ],
+      [
+        "Merge at H",
+        "Both F and G must finish before H."
+      ]
+    ],
+    "note": "Reconstructs all source activities and edges: A→B, B→C, C→D, C→E, D→F, E→G, F→H, G→H. There are no durations or resource allocations."
+  },
+  {
+    "document": "Project Management.docx",
+    "image": "word/media/image8.jpeg",
+    "slug": "project-risk-planning",
+    "title": "Uncertainty and the amount at stake",
+    "kind": "matrix",
+    "headers": [
+      "Lifecycle",
+      "Conceptual relationship"
+    ],
+    "rows": [
+      [
+        "Early: conceive / develop",
+        "Opportunity and uncertainty are higher; committed stake is lower."
+      ],
+      [
+        "Later: execute / finish",
+        "Amount at stake rises as work and commitments accumulate."
+      ],
+      [
+        "Combined impact",
+        "The conceptual risk-impact curve rises and peaks later, then declines."
+      ]
+    ],
+    "note": "The source separates plan/produce across Conceive, Develop, Execute and Finish, showing decreasing opportunities/risks, increasing stake and a combined impact curve. Its axes have no calibrated values."
+  },
+  {
+    "document": "Project Management.docx",
+    "image": "word/media/image9.jpeg",
+    "slug": "triz-contradictions",
+    "title": "Two routes in the supplied TRIZ outline",
+    "kind": "cards",
+    "headers": [
+      "Stage",
+      "Reading"
+    ],
+    "rows": [
+      [
+        "Starting point",
+        "Discover the problems → Technical contradiction"
+      ],
+      [
+        "Technical route",
+        "Contradiction matrix → 40 principles"
+      ],
+      [
+        "Physical route",
+        "Physical contradiction → Separation of the contradiction → Separation strategy"
+      ],
+      [
+        "Uncertain final label",
+        "Both routes end at “Discover the problems,” repeating the start."
+      ]
+    ],
+    "note": "Every labeled branch is retained. The repeated final label is unresolved; neither the matrix nor the 40 principles nor separation procedures are included."
+  }
+]
