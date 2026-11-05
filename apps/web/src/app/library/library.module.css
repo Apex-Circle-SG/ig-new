@@ -61,3 +61,7 @@
 .sciencePaths > div { padding: 1rem 1.25rem; border: 1px solid #d5e2df; border-radius: 12px; background: #f4f9f7; }
 .scienceFlow { display: flex; flex-wrap: wrap; gap: .65rem; }
 .scienceFlow span { padding: .7rem 1rem; border-radius: 8px; background: #e3f2ee; color: #124b40; font-weight: 700; }
+
+.commandCard { margin: 1rem 0; padding: 1rem 1.25rem; border: 1px solid #d5e2df; border-radius: 12px; }
+.commandCard pre { overflow-x: auto; padding: 1rem; border-radius: 8px; background: #15332e; color: #f0faf6; white-space: pre; }
+.commandCard button { padding: .5rem .8rem; border: 1px solid #205d50; border-radius: 6px; background: white; color: #205d50; cursor: pointer; }

@@ -4,6 +4,7 @@ import { getKnowledgeArticles } from '../../../../lib/library';
 import styles from '../../library.module.css';
 import { SecurityQuestions } from './security-questions';
 import { PaymentDirectory } from './payment-directory';
+import { SystemCommands } from './system-commands';
 
 export const dynamic = 'force-dynamic';
 
@@ -27,6 +28,11 @@ export default async function KnowledgePage({ params }: Props) {
     <p className={styles.note}>Adapted from the knowledge collection. Educational information; verify changing details before making decisions.</p>
     <nav className={styles.contents} aria-label="On this page"><strong>On this page</strong><ol>{article.sections.map((section, index) => <li key={section.heading}><a href={`#section-${index + 1}`}>{section.heading}</a></li>)}</ol></nav>
     {article.sections.map((section, index) => <section key={section.heading} id={`section-${index + 1}`}><h2>{section.heading}</h2><p>{section.body}</p></section>)}
+    {article.slug === 'system-administration' && <section><h2>Explore system administration</h2><div className={styles.sciencePaths}><div><h3>Linux</h3><ul><li><Link href="/library/knowledge/linux-everyday/">Everyday operations</Link></li><li><Link href="/library/knowledge/linux-remote-development/">Remote access and development</Link></li><li><Link href="/library/knowledge/linux-maintenance/">Maintenance and cleanup</Link></li></ul></div><div><h3>Operating systems</h3><ul><li><Link href="/library/knowledge/privacy-operating-systems/">Privacy and security systems</Link></li><li><Link href="/library/knowledge/windows-ssh-wireless/">Windows SSH and wireless reports</Link></li><li><Link href="/library/knowledge/cybersecurity/">Cybersecurity essentials</Link></li></ul></div></div></section>}
+    <SystemCommands slug={article.slug} />
+    {article.group === 'Systems and operations' && article.slug !== 'system-administration' && <p><Link href="/library/knowledge/system-administration/">Explore system administration →</Link></p>}
+    {article.slug === 'linux-maintenance' && <p><Link href="/library/knowledge/containers-and-cloud/">Explore containers and cloud infrastructure →</Link></p>}
+    {article.slug === 'windows-ssh-wireless' && <p><Link href="/library/knowledge/linux-remote-development/">Linux remote access and development →</Link></p>}
     {article.slug === 'payments' && <section><h2>Explore payments</h2><div className={styles.sciencePaths}><div><h3>Learn the basics</h3><ul><li><Link href="/library/knowledge/payment-flow/">How a card payment works</Link></li><li><Link href="/library/knowledge/payment-stack/">The payment stack</Link></li></ul></div><div><h3>Compare services</h3><ul><li><Link href="/library/knowledge/payment-providers/">Payment provider directory</Link></li><li><Link href="/library/knowledge/cybersecurity/">Cybersecurity essentials</Link></li></ul></div></div></section>}
     {article.slug === 'payment-flow' && <section aria-label="Card payment overview"><h2>A card payment at a glance</h2><div className={styles.scienceFlow}><span>Checkout</span><span>Authorization</span><span>Clearing</span><span>Settlement</span><span>Merchant payout</span></div><p>This is a simplified flow; steps and timing vary.</p></section>}
     {article.slug === 'payment-providers' && <PaymentDirectory />}

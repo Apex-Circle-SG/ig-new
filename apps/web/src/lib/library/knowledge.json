@@ -1109,5 +1109,229 @@
         "url": "https://www.chargebee.com/docs/billing/2.0/getting-started/accessing_chargebee"
       }
     ]
+  },
+  {
+    "slug": "system-administration",
+    "title": "Linux and system administration",
+    "topic": "Technology",
+    "group": "Systems and operations",
+    "summary": "Find practical command references, operating-system choices and Windows equivalents.",
+    "relatedToolCategory": "Dev",
+    "sections": [
+      {
+        "heading": "Choose a task",
+        "body": "Explore everyday Linux diagnostics, remote access and development, maintenance, privacy-focused systems, and Windows commands. The examples assume a compatible shell and installed tools; distributions differ."
+      },
+      {
+        "heading": "Read before running",
+        "body": "Replace placeholders with your own values. Commands that change configuration, delete data or restart services should be scoped to your system and reviewed first."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ubuntu command-line reference",
+        "url": "https://assets.ubuntu.com/v1/d00791ae-ubuntu_cli_cheat_sheet_2025.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "linux-everyday",
+    "title": "Linux: files, processes and services",
+    "topic": "Technology",
+    "group": "Systems and operations",
+    "summary": "Find common commands for inspecting a Linux machine.",
+    "relatedToolCategory": "Dev",
+    "sections": [
+      {
+        "heading": "Inspect first",
+        "body": "Check system version, disk and memory usage, running processes, ports and service status. Some utilities require installation or elevated access."
+      },
+      {
+        "heading": "Files and logs",
+        "body": "Follow a file or a service log to investigate activity. Log access may contain private information; apply your organization’s retention policy."
+      },
+      {
+        "heading": "Archives and timing",
+        "body": "Archive and extract files with care: check the source and destination before extraction. Measure a command’s elapsed time when investigating performance."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ubuntu command-line reference",
+        "url": "https://assets.ubuntu.com/v1/d00791ae-ubuntu_cli_cheat_sheet_2025.pdf"
+      },
+      {
+        "title": "systemd journalctl manual",
+        "url": "https://www.freedesktop.org/software/systemd/man/latest/journalctl.html"
+      }
+    ]
+  },
+  {
+    "slug": "linux-remote-development",
+    "title": "Linux: remote access and development",
+    "topic": "Technology",
+    "group": "Systems and operations",
+    "summary": "Use SSH, Git, Python environments and persistent terminal sessions.",
+    "relatedToolCategory": "Dev",
+    "sections": [
+      {
+        "heading": "SSH and credentials",
+        "body": "Generate an SSH key and protect the private key. Add only the public key to the intended account. Verify host identity when connecting, and use port forwarding only when needed."
+      },
+      {
+        "heading": "Git and Python",
+        "body": "Use SSH or a credential manager for Git; avoid tokens in URLs or shell history. Git’s store helper saves credentials in plaintext. Install Python dependencies inside a virtual environment rather than overriding system packages."
+      },
+      {
+        "heading": "Long-running work",
+        "body": "A terminal multiplexer can preserve sessions when a connection drops. nohup can keep a process running after logout, but is not a full service manager. For production services, use an appropriate supervisor and logging policy."
+      },
+      {
+        "heading": "Local models",
+        "body": "Ollama commands can list and run locally available models; model behavior, hardware needs and command options vary by version."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Git credential helpers",
+        "url": "https://git-scm.com/doc/credential-helpers"
+      },
+      {
+        "title": "Python virtual environments",
+        "url": "https://docs.python.org/3/library/venv.html"
+      },
+      {
+        "title": "Ollama CLI reference",
+        "url": "https://docs.ollama.com/cli"
+      }
+    ]
+  },
+  {
+    "slug": "linux-maintenance",
+    "title": "Linux maintenance and cleanup",
+    "topic": "Technology",
+    "group": "Systems and operations",
+    "summary": "A cautious approach to updates, networking, storage and containers.",
+    "relatedToolCategory": "Dev",
+    "sections": [
+      {
+        "heading": "Updates and recovery",
+        "body": "Package and release upgrades depend on the distribution. Review the proposed changes, verify backups and plan recovery before upgrading. Do not remove core packages or disable logging, time synchronization and automatic updates as a generic cleanup recipe."
+      },
+      {
+        "heading": "Network changes",
+        "body": "A mistaken network change can cut off remote access. On systems using Netplan, netplan try can roll back unconfirmed changes; verify the rollback and keep an independent recovery path."
+      },
+      {
+        "heading": "Docker cleanup",
+        "body": "Inspect disk use and containers before deleting anything. Pruning can remove stopped containers, images or persistent volumes; unused does not necessarily mean unneeded. Back up data and target a specific resource."
+      },
+      {
+        "heading": "Memory, swap and logs",
+        "body": "Linux uses spare memory for cache and generally manages it automatically. Do not routinely clear caches, remove swap or erase logs to make free-memory numbers look larger. Review retention and capacity needs before changes."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Docker: prune unused objects",
+        "url": "https://docs.docker.com/engine/manage-resources/pruning/"
+      },
+      {
+        "title": "Ubuntu: netplan try",
+        "url": "https://manpages.ubuntu.com/manpages/noble/man8/netplan-try.8.html"
+      },
+      {
+        "title": "Ubuntu command-line reference",
+        "url": "https://assets.ubuntu.com/v1/d00791ae-ubuntu_cli_cheat_sheet_2025.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "privacy-operating-systems",
+    "title": "Privacy and security operating systems",
+    "topic": "Technology",
+    "group": "Systems and operations",
+    "summary": "Compare approaches to security, compartmentalization and online privacy.",
+    "relatedToolCategory": "Dev",
+    "sections": [
+      {
+        "heading": "Different purposes",
+        "body": "Debian and Fedora are general-purpose systems with security features, not anonymity systems by default. Qubes OS isolates activities in separate compartments and requires compatible hardware. Tails is a portable live system designed for privacy and routes connections through Tor."
+      },
+      {
+        "heading": "Isolation and security",
+        "body": "Whonix uses a gateway and workstation architecture with Tor, typically in virtual machines. Kicksecure focuses on hardening. Parrot includes security and privacy-oriented tools; its editions serve different purposes."
+      },
+      {
+        "heading": "Check current details",
+        "body": "The original notes also list MOFO Linux and Kodachi. Their current maintenance, official download location and security properties need independent verification. For every option, check recent updates, hardware requirements, documentation, threat model and authentic downloads."
+      },
+      {
+        "heading": "Limits",
+        "body": "No operating system guarantees anonymity or safety. Identity disclosure, browser behavior, compromised hardware and configuration can still matter."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Qubes OS architecture",
+        "url": "https://www.qubes-os.org/doc/QubesArchitecture/"
+      },
+      {
+        "title": "Tails project",
+        "url": "https://tails.net/"
+      },
+      {
+        "title": "Whonix overview",
+        "url": "https://www.whonix.org/wiki/About"
+      },
+      {
+        "title": "Debian security",
+        "url": "https://wiki.debian.org/SecurityManagement"
+      },
+      {
+        "title": "Fedora project",
+        "url": "https://fedoraproject.org/"
+      },
+      {
+        "title": "Kicksecure",
+        "url": "https://www.kicksecure.com/"
+      },
+      {
+        "title": "Parrot Security",
+        "url": "https://www.parrotsec.org/"
+      }
+    ]
+  },
+  {
+    "slug": "windows-ssh-wireless",
+    "title": "Windows: SSH keys and wireless reports",
+    "topic": "Technology",
+    "group": "Systems and operations",
+    "summary": "Generate SSH keys and create a Wi-Fi diagnostic report using Windows tools.",
+    "relatedToolCategory": "Dev",
+    "sections": [
+      {
+        "heading": "SSH keys",
+        "body": "Windows OpenSSH can generate an Ed25519 key pair. Keep the private key secret; install only the public key on the destination. Review the official Windows guidance for private-key permissions and access control before changing ACLs."
+      },
+      {
+        "heading": "Wireless reports",
+        "body": "The WLAN report summarizes recent wireless activity and can help diagnose connection issues. Treat the resulting report as potentially sensitive before sharing it."
+      },
+      {
+        "heading": "Related Linux tasks",
+        "body": "The same SSH concepts apply on Linux, though shell syntax, file paths and permission controls differ."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Microsoft: OpenSSH key management",
+        "url": "https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement"
+      },
+      {
+        "title": "Microsoft: netsh wlan",
+        "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/netsh-wlan"
+      }
+    ]
   }
 ]
