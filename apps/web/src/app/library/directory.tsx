@@ -29,7 +29,7 @@ export function LibraryDirectory({ tools }: { tools: LibraryTool[] }) {
       )}
       <p className={styles.count} aria-live="polite">{filtered.length} {filtered.length === 1 ? 'resource' : 'resources'}</p>
       <div className={styles.grid}>
-        {filtered.slice(0, shown).map((tool) => <a className={styles.card} key={tool.id} href={tool.url} target="_blank" rel="noopener noreferrer">{tool.title}</a>)}
+        {filtered.slice(0, shown).map((tool) => <a className={styles.card} key={tool.id} href={tool.url} target="_blank" rel="noopener noreferrer"><span>{tool.title}</span><span className={styles.domain}>{new URL(tool.url).hostname.replace(/^www\./, '')}</span></a>)}
       </div>
       {filtered.length === 0 && <p className={styles.empty}>No resources found. Try another search or topic.</p>}
       {shown < filtered.length && <button className={styles.more} onClick={() => setShown(shown + 24)}>Show more tools</button>}

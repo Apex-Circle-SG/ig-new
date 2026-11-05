@@ -24,6 +24,7 @@
 .count { font-size: 13px; margin-bottom: 16px; }
 .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
 .card { border: 1px solid #e9e9f0; border-radius: 10px; padding: 12px 16px; color: #5140b3; font-weight: 600; overflow-wrap: anywhere; transition: border-color .15s, background .15s; }
+.domain { display: block; margin-top: 3px; color: #74798a; font-size: 12px; font-style: italic; font-weight: 400; }
 .card:hover { border-color: #a99cee; background: #f8f6ff; }
 .more { display: block; margin: 32px auto 0; border: 1px solid #ded9f4; border-radius: 50px; background: #f6f3ff; color: #5644bd; font-weight: 700; padding: 12px 24px; }
 .empty { padding: 30px 0; }
