@@ -573,5 +573,169 @@
         "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Introduction"
       }
     ]
+  },
+  {
+    "slug": "cybersecurity",
+    "title": "Cybersecurity: threats, defenses and assessment",
+    "topic": "Cybersecurity",
+    "group": "Security essentials",
+    "summary": "Explore common threats, protective controls and questions for assessing an organization.",
+    "relatedToolCategory": "Security",
+    "sections": [
+      {
+        "heading": "Start with threats",
+        "body": "Learn how phishing, ransomware, denial of service and application attacks work, then explore interception and spoofing. Each attack can have multiple paths; diagrams are simplified examples."
+      },
+      {
+        "heading": "Build layers of protection",
+        "body": "Use access controls, secure development, network protection, monitoring and tested recovery plans together. Choose safeguards based on the systems and risks involved."
+      },
+      {
+        "heading": "Assess and improve",
+        "body": "Use the security questionnaire to identify questions, owners, evidence and follow-up actions. An answer alone does not establish that a control is effective or that an organization is certified."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework/faqs"
+      }
+    ]
+  },
+  {
+    "slug": "cyber-attacks",
+    "title": "Common cyberattacks",
+    "topic": "Cybersecurity",
+    "group": "Security essentials",
+    "summary": "Recognize common attack patterns and ways to reduce exposure.",
+    "relatedToolCategory": "Security",
+    "sections": [
+      {
+        "heading": "Phishing",
+        "body": "Deceptive messages or websites attempt to make people disclose information or take harmful actions. Example: deceptive message → fake sign-in page → stolen credentials → account misuse. Verify requests through a known channel and use phishing-resistant authentication where feasible."
+      },
+      {
+        "heading": "Ransomware",
+        "body": "Ransomware can encrypt files or disrupt systems and demand payment; attackers may also steal data. Example: malicious attachment → compromised device → data encrypted → ransom demand. Restrict access, update systems and test isolated backups and recovery."
+      },
+      {
+        "heading": "Denial of service",
+        "body": "A denial-of-service attack exhausts resources or disrupts service; a distributed attack uses multiple sources. Capacity planning, rate limits, filtering and upstream mitigation can reduce impact, but do not guarantee availability."
+      },
+      {
+        "heading": "SQL injection and cross-site scripting",
+        "body": "SQL injection occurs when untrusted input changes a database query’s meaning. Parameterized queries and least privilege help prevent it. Cross-site scripting occurs when untrusted content executes as code in a user’s browser; context-appropriate output encoding and safe frameworks help reduce risk."
+      },
+      {
+        "heading": "Zero-day exploits",
+        "body": "A zero-day exploit targets a vulnerability before a fix is available or before defenders have had an opportunity to apply it. Monitor advisories, limit exposure and apply available mitigations; the timeline differs by incident."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework/faqs"
+      },
+      {
+        "title": "OWASP SQL injection prevention",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html"
+      },
+      {
+        "title": "OWASP cross-site scripting prevention",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+      }
+    ]
+  },
+  {
+    "slug": "network-spoofing",
+    "title": "Network interception and spoofing",
+    "topic": "Cybersecurity",
+    "group": "Security essentials",
+    "summary": "Understand impersonation, traffic interception and practical safeguards.",
+    "relatedToolCategory": "Security",
+    "sections": [
+      {
+        "heading": "Interception and sniffing",
+        "body": "A person positioned on a network path may observe or alter traffic. Packet capture can be legitimate administration or malicious surveillance; unencrypted content is particularly exposed. Use authenticated encryption such as HTTPS and verify certificate warnings."
+      },
+      {
+        "heading": "DNS spoofing",
+        "body": "A forged DNS response or compromised resolver can direct a request to an unintended address. Example: user requests a domain → false DNS answer → connection to an attacker-controlled destination. HTTPS certificate validation and trustworthy DNS infrastructure provide complementary protection."
+      },
+      {
+        "heading": "ARP spoofing",
+        "body": "On a local network an attacker may send false ARP messages associating the attacker’s hardware address with another device’s IP address. This can redirect traffic. Network segmentation and switch protections can help; encrypted connections still matter."
+      },
+      {
+        "heading": "Spoofing more broadly",
+        "body": "Spoofing means impersonating an identity or source, such as an email sender, address or device. The right defense depends on the protocol and trust boundary."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework/faqs"
+      }
+    ]
+  },
+  {
+    "slug": "security-controls",
+    "title": "Security controls and operations",
+    "topic": "Cybersecurity",
+    "group": "Security essentials",
+    "summary": "A practical overview of controls across people, systems and recovery.",
+    "relatedToolCategory": "Security",
+    "sections": [
+      {
+        "heading": "Governance and access",
+        "body": "Assign owners, inventory assets and assess risk. Grant the access needed for a role, review it regularly and use strong authentication. Keep policies and awareness training relevant to actual operations."
+      },
+      {
+        "heading": "Networks, cloud and devices",
+        "body": "Firewalls filter traffic using rules such as address, port, protocol or connection state; application-aware controls can inspect higher-level traffic. An intrusion prevention system detects and can block suspicious activity. Segment networks and manage endpoint and cloud configurations."
+      },
+      {
+        "heading": "Applications and data",
+        "body": "Protect sensitive data in transit and at rest, manage secrets, validate inputs, review dependencies and test application changes. Retention and privacy requirements depend on the data and context."
+      },
+      {
+        "heading": "Monitoring and recovery",
+        "body": "Collect and protect useful logs, investigate alerts and plan incident response. Test backups and restoration, assign responsibilities and coordinate with service providers. Periodic exercises expose gaps before an incident."
+      },
+      {
+        "heading": "Review suppliers and physical access",
+        "body": "Assess suppliers according to the data and systems they handle. Consider physical access, staff onboarding and offboarding, vulnerability management and updates alongside technical controls."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework/faqs"
+      }
+    ]
+  },
+  {
+    "slug": "security-questionnaire",
+    "title": "Security assessment questionnaire",
+    "topic": "Cybersecurity",
+    "group": "Security essentials",
+    "summary": "Search questions across 13 areas to guide an evidence-based security review.",
+    "relatedToolCategory": "Security",
+    "sections": [
+      {
+        "heading": "How to use this questionnaire",
+        "body": "Search the questions below, identify a responsible owner and request evidence such as policies, configuration records, audit findings or test results. Record gaps and follow-up actions in your own approved system."
+      },
+      {
+        "heading": "Interpret answers carefully",
+        "body": "Questions are adapted from a supplied questionnaire. Its organization-specific answers are not included. The questions are prompts, not a certification, compliance determination or complete assessment; adapt them to your organization and obligations."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework/faqs"
+      }
+    ]
   }
 ]

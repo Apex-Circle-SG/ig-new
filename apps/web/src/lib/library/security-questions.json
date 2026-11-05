@@ -1,0 +1,739 @@
+[
+  {
+    "title": "Section 1: Security Governance & Risk Management",
+    "questions": [
+      {
+        "id": "1.1",
+        "text": "What information security policies and procedures does your organization have in place?"
+      },
+      {
+        "id": "1.2",
+        "text": "How often are they reviewed and updated?"
+      },
+      {
+        "id": "1.2.1",
+        "text": "Who is responsible for enforcing these policies across departments?"
+      },
+      {
+        "id": "1.3",
+        "text": "How does your organization perform risk assessments? Describe the process for identifying and prioritizing risks."
+      },
+      {
+        "id": "1.3.1",
+        "text": "How often are risk assessments conducted, and how is residual risk managed?"
+      },
+      {
+        "id": "1.4",
+        "text": "How does your organization address security governance at the executive and board level?"
+      },
+      {
+        "id": "1.4.1",
+        "text": "Who has ultimate accountability for security decisions?"
+      },
+      {
+        "id": "1.5",
+        "text": "Are there dedicated security roles (e.g., CISO, security team) within the organization?"
+      },
+      {
+        "id": "1.5.1",
+        "text": "What responsibilities do they hold?"
+      },
+      {
+        "id": "1.6",
+        "text": "What metrics or key performance indicators (KPIs) are used to measure the effectiveness of your security program?"
+      },
+      {
+        "id": "1.7",
+        "text": "Describe how security is integrated into organizational culture. How are security-related roles and responsibilities communicated to all employees?"
+      },
+      {
+        "id": "1.8",
+        "text": "How does your organization handle risk management for new projects or initiatives?"
+      },
+      {
+        "id": "1.8.1",
+        "text": "Are security risks assessed as part of project planning?"
+      },
+      {
+        "id": "1.9",
+        "text": "What third-party frameworks or standards does your organization align with (e.g., ISO 27001, NIST, SOC 2)?"
+      },
+      {
+        "id": "1.9.1",
+        "text": "How is compliance with these frameworks achieved?"
+      },
+      {
+        "id": "1.10",
+        "text": "How are security risks communicated to senior management? Is there a formal process for escalating critical risks to the executive level?"
+      },
+      {
+        "id": "1.11",
+        "text": "What are your organization’s plans for continual improvement of your security program?"
+      },
+      {
+        "id": "1.12",
+        "text": "How are emerging threats and trends addressed?"
+      }
+    ]
+  },
+  {
+    "title": "Section 2: Access Control & Identity Management",
+    "questions": [
+      {
+        "id": "2.1",
+        "text": "How is user access to systems and data managed?"
+      },
+      {
+        "id": "2.2",
+        "text": "What controls are in place to enforce least privilege access?"
+      },
+      {
+        "id": "2.2.1",
+        "text": "How do you handle role-based access controls (RBAC) and ensure that users only have access to necessary resources?"
+      },
+      {
+        "id": "2.3",
+        "text": "What mechanisms are in place to authenticate users accessing systems? Are multi-factor authentication (MFA) or password policies enforced?"
+      },
+      {
+        "id": "2.3.1",
+        "text": "How is MFA configured for different user types (e.g., admin vs. regular users)?"
+      },
+      {
+        "id": "2.4",
+        "text": "Describe your process for provisioning and de-provisioning user accounts."
+      },
+      {
+        "id": "2.5",
+        "text": "How is timely removal of access ensured when employees leave the company?"
+      },
+      {
+        "id": "2.6",
+        "text": "How is access to privileged accounts managed and monitored? Do you use privileged access management (PAM) solutions?"
+      },
+      {
+        "id": "2.7",
+        "text": "How do you handle identity management for remote employees, contractors, or third-party vendors?"
+      },
+      {
+        "id": "2.8",
+        "text": "Are user access reviews conducted regularly? What is the process for reviewing access permissions to critical systems?"
+      },
+      {
+        "id": "2.8.1",
+        "text": "How are identified access discrepancies addressed, and what steps are taken to prevent similar issues?"
+      },
+      {
+        "id": "2.9",
+        "text": "How are shared accounts (if any) managed? Are there strict controls in place to ensure accounrability for actions performed using shared accounts?"
+      },
+      {
+        "id": "2.10",
+        "text": "What logging and monitoring tools are used to track user access and activity? How are suspicious activities flagged and investigated?"
+      },
+      {
+        "id": "2.11",
+        "text": "How do you ensure that password policies (e.g., length, complexity, expiration) comply with best practices? Are password audits conducted regularly?"
+      },
+      {
+        "id": "2.12",
+        "text": "Describe how you handle access to cloud services. Are specific identity and access management (IAM) tools in place for cloud environments?"
+      }
+    ]
+  },
+  {
+    "title": "Section 3: Data Protection & Privacy",
+    "questions": [
+      {
+        "id": "3.1",
+        "text": "How is sensitive data classified and protected within you organization? Describe your data classification framework."
+      },
+      {
+        "id": "3.1.1",
+        "text": "How do you handle classification for unstructured data (e.g., emails, files)?"
+      },
+      {
+        "id": "3.2",
+        "text": "How do you ensure that sensitive data is encrypted both at rest and in transit? What encryption standards do you follow?"
+      },
+      {
+        "id": "3.2.1",
+        "text": "How are encryption keys stored and managed securely?"
+      },
+      {
+        "id": "3.3",
+        "text": "What process are in place to control access to sensitive data? How is access resctrcited based on user roles or data classification?"
+      },
+      {
+        "id": "3.4",
+        "text": "Describe how your organization ensures compliance with data privacy regulations (e.g., GDPR, CCPA). How do you handle data subject rights requests (e.g., access, deletion)?"
+      },
+      {
+        "id": "3.5",
+        "text": "How do you ensure that data is securely deleted or sanitized when it is no longer needed or when equipment is decommissioned?"
+      },
+      {
+        "id": "3.6",
+        "text": "What third-party services or tools do you use to manage or store sensitive data? How is the security of these services ensured?"
+      },
+      {
+        "id": "3.7",
+        "text": "How is data securely shared with third parties (e.g., vendors, partners)? Are secure transmission mechanisms such as TLS or secure file transfer protocols used?"
+      },
+      {
+        "id": "3.8",
+        "text": "How are backups of sensistive data handled? Are backups encrypted and stored securely in off site or geographically diverse locations?"
+      },
+      {
+        "id": "3.9",
+        "text": "Describe your approach to data retention. How do you ensure that data is retained only as long as necessary to meet business or regulatory requirements?"
+      },
+      {
+        "id": "3.10",
+        "text": "How is personal data anonymized of pseudonymized where possible to reduce the risk of exposure?"
+      },
+      {
+        "id": "3.11",
+        "text": "How do you handle cross-border data transfers, and what safeguards are in place to protect data moving across jurisdictions?"
+      },
+      {
+        "id": "3.12",
+        "text": "Are privacy impact assessments (PIAs) performed for new projects or when new data processing activities are introduced?"
+      },
+      {
+        "id": "3.12.1",
+        "text": "How are PIAs documented and maintained? Who is responsible for approving them?"
+      },
+      {
+        "id": "3.13",
+        "text": "Describe your organization’s breach notification process in the event of a personal data breach. How are affected individuals and regulators notified?"
+      },
+      {
+        "id": "3.13.1",
+        "text": "What is the required notification timeline based on your local regulatory environment?"
+      }
+    ]
+  },
+  {
+    "title": "Section 4: Physical Security",
+    "questions": [
+      {
+        "id": "4.1",
+        "text": "How is physical access to sensitive areas (e.g., data centers, server rooms) controlled? What authentication methods (e.g., access cards, biometrics) are used?"
+      },
+      {
+        "id": "4.1.1",
+        "text": "How often are access logs for these areas reviewed and audited?"
+      },
+      {
+        "id": "4.2",
+        "text": "What physical security measures are in place to prevent unauthorized access to your facilities (e.g., security guards, CCTV, alarms)?"
+      },
+      {
+        "id": "4.3",
+        "text": "How do you handle visitor access to your premises? Is there a formal visitor management process?"
+      },
+      {
+        "id": "4.4",
+        "text": "How are physical assets (e.g., servers, laptops, storage devices) tracked and managed? Is there an inventory management system in place?"
+      },
+      {
+        "id": "4.5",
+        "text": "What policies or procedures are in place to ensure that physical assets containing sensitive data are securely disposed of or decommissioned?"
+      },
+      {
+        "id": "4.6",
+        "text": "How are employees, contractors, or third-party vendors vetted before being granted access to sensitive physical locations?"
+      },
+      {
+        "id": "4.7",
+        "text": "How do you handle security for remote or distributed workers? Are there additional controls for securing home offices or off-site locations?"
+      },
+      {
+        "id": "4.8",
+        "text": "What measures are in place to protect critical infrastructure from physical damage (e.g., fire suppression systems, environmental controls)?"
+      },
+      {
+        "id": "4.9",
+        "text": "How are physical security incidents (e.g., unauthorized access, theft) detected, investigated, and responded to?"
+      },
+      {
+        "id": "4.10",
+        "text": "How often is physical security assessed or audited, and how are the results of these assessments used to improve security measures?"
+      }
+    ]
+  },
+  {
+    "title": "Section 5: Network Security",
+    "questions": [
+      {
+        "id": "5.1",
+        "text": "How is your network segmented to protect sensitive data or systems?"
+      },
+      {
+        "id": "5.2",
+        "text": "Are internal and external network traffic separated?"
+      },
+      {
+        "id": "5.3",
+        "text": "How are segmentation controls tested to ensure proper isolation of critical systems?"
+      },
+      {
+        "id": "5.4",
+        "text": "What firewalls or network access controls are in place to prevent unauthorized access? How are firewall rules managed and updated?"
+      },
+      {
+        "id": "5.5",
+        "text": "How is network traffic monitored for potential security threats? What tools are in place to detect malicious activity (e.g., IDS/IPS, network monitoring)?"
+      },
+      {
+        "id": "5.6",
+        "text": "Describe how you protect your network from distributed denial-of-service (DDoS) attacks. What strategies are in place to mitigate such threats?"
+      },
+      {
+        "id": "5.7",
+        "text": "How do you ensure secure remote access to your network (e.g., VPN, secure tunneling)? Are there additional controls for remote employees or contractors?"
+      },
+      {
+        "id": "5.8",
+        "text": "How is wireless network security managed? What encryption standards and authentication methods are used for wireless access?"
+      },
+      {
+        "id": "5.9",
+        "text": "What policies are in place for managing network devices (e.g., routers, switches, firewalls)?"
+      },
+      {
+        "id": "5.10",
+        "text": "How are firmware updates and patches applied to network hardware?"
+      },
+      {
+        "id": "5.11",
+        "text": "How are network vulnerabilities identified and addressed?"
+      },
+      {
+        "id": "5.12",
+        "text": "Are regular vulnerability scans or penetration tests performed on network infrastructure?"
+      },
+      {
+        "id": "5.13",
+        "text": "How are network logs collected and analyzed?"
+      },
+      {
+        "id": "5.14",
+        "text": "What processes are in place to ensure that network events are monitored for suspicious activity?"
+      }
+    ]
+  },
+  {
+    "title": "Section 6: Application Security",
+    "questions": [
+      {
+        "id": "6.1",
+        "text": "How are security requirements integrated into the software development lifecycle (SDLC)? Are secure coding practices enforced?"
+      },
+      {
+        "id": "6.2",
+        "text": "How are application vulnerabilities identified and remediated? Are automated tools (e.g., static/dynamic code analysis) used for vulnerability scanning?"
+      },
+      {
+        "id": "6.3",
+        "text": "How frequently are code reviews performed, and how are security flaws detected during development?"
+      },
+      {
+        "id": "6.4",
+        "text": "What processes are in place for testing applications for security vulnerabilities before they are deployed to production (e.g., penetration testing)?"
+      },
+      {
+        "id": "6.5",
+        "text": "How are third-party libraries or open-source components used in your applications monitored for security vulnerabilities?"
+      },
+      {
+        "id": "6.6",
+        "text": "How are critical application updates or patches deployed to ensure that security vulnerabilities are quickly addressed?"
+      },
+      {
+        "id": "6.7",
+        "text": "How do you ensure the security of APIs used by or within your applications? Are APIs tested for vulnerabilities such as injection attacks or data exposure?"
+      },
+      {
+        "id": "6.8",
+        "text": "What processes are in place to prevent or mitigate common web application security risks (e.g., OWASP Top 10)?"
+      },
+      {
+        "id": "6.9",
+        "text": "How do you ensure that applications are resilient to denial-of-service attacks or other forms of abuse?"
+      },
+      {
+        "id": "6.10",
+        "text": "How do you handle the secure decommissioning or end-of-life of applications to ensure that sensitive data is not exposed after they are retired?"
+      }
+    ]
+  },
+  {
+    "title": "Section 7: Endpoint Security",
+    "questions": [
+      {
+        "id": "7.1",
+        "text": "How do you manage and secure endpoints (e.g., laptops, desktops, mobile devices) used within your organization?"
+      },
+      {
+        "id": "7.2",
+        "text": "Are mobile device management (MDM) solutions used to enforce security policies on mobile devices?"
+      },
+      {
+        "id": "7.3",
+        "text": "What antivirus or endpoint detection and response (EDR) solutions are used to protect against malware and other threats?"
+      },
+      {
+        "id": "7.4",
+        "text": "How are endpoints monitored for signs of compromise?"
+      },
+      {
+        "id": "7.5",
+        "text": "Are there automated alerting and incident response mechanisms in place for endpoint security incidents?"
+      },
+      {
+        "id": "7.6",
+        "text": "What processes are in place to ensure that endpoint devices are patched and updated with the latest security patches and software updates?"
+      },
+      {
+        "id": "7.7",
+        "text": "How do you handle device encryption? Are all devices encrypted, and how is encryption enforced (e.g., through policy or MDM)?"
+      },
+      {
+        "id": "7.8",
+        "text": "How do you secure removable media (e.g., USB drives, external hard drives)? Are there controls in place to restrict the use of removable media on sensitive devices?"
+      },
+      {
+        "id": "7.9",
+        "text": "What policies or procedures are in place for remote wipe of lost or stolen devices?"
+      },
+      {
+        "id": "7.9.1",
+        "text": "How is compliance with this policy enforced?"
+      },
+      {
+        "id": "7.10",
+        "text": "How do you ensure that endpoint devices are securely decommissioned when no longer in use?"
+      },
+      {
+        "id": "7.11",
+        "text": "Are there additional controls for securing endpoints used by remote employees (e.g., VPN enforcement, restricted admin privileges)?"
+      },
+      {
+        "id": "7.12",
+        "text": "How are endpoint security policies communicated and enforced across the organization?"
+      },
+      {
+        "id": "7.12.1",
+        "text": "Are there regular audits to ensure compliance with endpoint security policies?"
+      }
+    ]
+  },
+  {
+    "title": "Section 8: Incident Response & Disaster Recovery",
+    "questions": [
+      {
+        "id": "8.1",
+        "text": "Describe your organization's incident response plan (IRP)."
+      },
+      {
+        "id": "8.1.1",
+        "text": "How often is the IRP tested, and how are incident response roles defined?"
+      },
+      {
+        "id": "8.1.2",
+        "text": "What processes are in place for detecting and responding to security incidents (e.g., automated alerts, manual reviews)?"
+      },
+      {
+        "id": "8.2",
+        "text": "How are incidents prioritized and escalated within your organization?"
+      },
+      {
+        "id": "8.2.1",
+        "text": "Who is responsible for making decisions about incident escalation?"
+      },
+      {
+        "id": "8.3",
+        "text": "How do you determine the severity of an incident, and what are the timelines for responding to critical incidents?"
+      },
+      {
+        "id": "8.4",
+        "text": "How are post-incident analyses or lessons learned conducted after an incident? Are these findings used to improve your incident response capabilities?"
+      },
+      {
+        "id": "8.5",
+        "text": "How do you ensure communication and coordination during incidents, both internally and with external stakeholders (e.g., customers, vendors)?"
+      },
+      {
+        "id": "8.5.1",
+        "text": "How is the effectiveness of the communication plan tested?"
+      },
+      {
+        "id": "8.6",
+        "text": "Describe how your organization handles data breaches. What processes are in place for containing, investigating, and remediating a breach?"
+      },
+      {
+        "id": "8.7",
+        "text": "What tools or platforms do you use for incident logging and reporting? How are incident timelines and actions documented?"
+      },
+      {
+        "id": "8.8",
+        "text": "Describe your organization’s disaster recovery (DR) strategy. How do you ensure that critical systems can be recovered after a disruptive event?"
+      },
+      {
+        "id": "8.8.1",
+        "text": "What are the recovery time objectives (RTOs) and recovery point objectives (RPOs) for critical systems?"
+      },
+      {
+        "id": "8.9",
+        "text": "How frequently are business continuity and disaster recovery plans tested?"
+      },
+      {
+        "id": "8.9.1",
+        "text": "What types of tests are conducted (e.g., tabletop exercises, live failover)?"
+      },
+      {
+        "id": "8.10",
+        "text": "How do you ensure that backups are secure and available during a disaster recovery scenario? Are backups tested regularly for integrity?"
+      },
+      {
+        "id": "8.11",
+        "text": "Describe your organization’s business continuity plan (BCP). How does it address continuity for critical operations and services?"
+      },
+      {
+        "id": "8.11.1",
+        "text": "How often is the BCP reviewed and updated? Who is responsible for maintaining the BCP?"
+      },
+      {
+        "id": "8.12",
+        "text": "How does your organization ensure that key personnel are available and capable of executing the BCP and DR plans in the event of a crisis?"
+      },
+      {
+        "id": "8.12.1",
+        "text": "Are alternate personnel trained and prepared to assume key roles if primary staff are unavailable?"
+      },
+      {
+        "id": "8.13",
+        "text": "What containment strategies are employed to limit the spread of a security incident within your network or systems?"
+      },
+      {
+        "id": "8.14",
+        "text": "Describe how you handle third-party incidents (e.g., vendor or service provider breaches). What processes are in place for coordination and response?"
+      },
+      {
+        "id": "8.15",
+        "text": "What types of cyber insurance policies do you have in place, and how do they assist in the aftermath of a security breach?"
+      }
+    ]
+  },
+  {
+    "title": "Section 9: Cloud Security",
+    "questions": [
+      {
+        "id": "9.1",
+        "text": "What cloud service providers (CSPs) do you use, and how do you ensure that their security controls align with your organization's requirements?"
+      },
+      {
+        "id": "9.2",
+        "text": "How do you ensure that data stored in the cloud is encrypted both at rest and in transit? What encryption standards are used?"
+      },
+      {
+        "id": "9.3",
+        "text": "How is access to cloud resources controlled? Are cloud identity and access management (IAM) solutions used to enforce policies?"
+      },
+      {
+        "id": "9.4",
+        "text": "How do you monitor cloud environments for potential security threats or vulnerabilities? What tools or services are used for cloud monitoring?"
+      },
+      {
+        "id": "9.5",
+        "text": "What processes are in place to ensure compliance with regulatory requirements (e.g., GDPR, HIPAA) for data stored or processed in the cloud?"
+      },
+      {
+        "id": "9.6",
+        "text": "How are cloud configurations managed and secured? Are automated tools (e.g., cloud security posture management) used to detect misconfigurations?"
+      },
+      {
+        "id": "9.7",
+        "text": "How do you ensure that third-party integrations in the cloud (e.g., APIs, services) are securely managed and monitored?"
+      },
+      {
+        "id": "9.8",
+        "text": "What strategies are in place to handle disaster recovery in cloud environments?"
+      }
+    ]
+  },
+  {
+    "title": "Section 10: Third-Party Vendor Security",
+    "questions": [
+      {
+        "id": "10.1",
+        "text": "How do you evaluate the security posture of third-party vendors before engaging them? What criteria or standards are used for assessment?"
+      },
+      {
+        "id": "10.2",
+        "text": "How are vendors categorized by risk level?"
+      },
+      {
+        "id": "10.3",
+        "text": "Describe your process for performing security assessments on high-risk vendors."
+      },
+      {
+        "id": "10.4",
+        "text": "What contractual obligations do vendors have regarding security practices? Provide examples of key clauses related to data protection, incident response, and access control."
+      },
+      {
+        "id": "10.4.1",
+        "text": "How do you enforce these security clauses? Are there penalties for non-compliance?"
+      },
+      {
+        "id": "10.5",
+        "text": "How do you ensure that vendors follow secure data handling and processing procedures, particularly when dealing with sensitive data?"
+      },
+      {
+        "id": "10.6",
+        "text": "Describe your ongoing vendor management process."
+      },
+      {
+        "id": "10.6.1",
+        "text": "How frequently do you reassess vendors' security postures after the initial evaluation?"
+      },
+      {
+        "id": "10.7",
+        "text": "How do you ensure that data and access rights are securely revoked when the contract ends?"
+      },
+      {
+        "id": "10.7.1",
+        "text": "Are there defined timelines for vendors to securely delete or return your data after termination? How is compliance with this requirement verified?"
+      },
+      {
+        "id": "10.8",
+        "text": "How do you ensure that vendors maintain the same level of security as your organization? Do you provide vendors with your security requirements or guidelines?"
+      },
+      {
+        "id": "10.9",
+        "text": "How do you handle incidents involving third-party vendors? What is the process for coordinating response efforts with vendors during a security breach?"
+      },
+      {
+        "id": "10.10",
+        "text": "How often do you conduct security audits or assessments of high-risk vendors?"
+      },
+      {
+        "id": "10.10.1",
+        "text": "Have you had any vendors fail a security audit in the past year? If so, what corrective actions were taken?"
+      },
+      {
+        "id": "10.11",
+        "text": "How are third-party data transfers monitored? Do you utilize any tools or services to ensure that data exchanges with vendors are encrypted and secure?"
+      }
+    ]
+  },
+  {
+    "title": "Section 11: Security Awareness & Training",
+    "questions": [
+      {
+        "id": "11.1",
+        "text": "How is information security awareness promoted within your organization? What training programs are implemented for employees?"
+      },
+      {
+        "id": "11.1.1",
+        "text": "Are training sessions tailored based on employee roles (e.g., technical staff, non-technical staff, executives)?"
+      },
+      {
+        "id": "11.2",
+        "text": "How frequently do employees receive security awareness training? Are there refresher courses or periodic assessments to measure retention?"
+      },
+      {
+        "id": "11.3",
+        "text": "Do you run phishing simulations or tests, and how are results evaluated?"
+      },
+      {
+        "id": "11.4",
+        "text": "What process is in place for onboarding new employees with regard to security policies and procedures?"
+      },
+      {
+        "id": "11.5",
+        "text": "Do you provide specific training on secure coding practices for development teams? How is this training incorporated into the development process?"
+      },
+      {
+        "id": "11.6",
+        "text": "Are there security champions or key personnel within departments who help promote security awareness and ensure compliance?"
+      }
+    ]
+  },
+  {
+    "title": "Section 12: Vulnerability Management & Patch Management",
+    "questions": [
+      {
+        "id": "12.1",
+        "text": "What tools or processes do you use for vulnerability scanning and management across your IT environment?"
+      },
+      {
+        "id": "12.2",
+        "text": "How frequently are vulnerability scans conducted (e.g., daily, weekly, quarterly)? Are they performed on both internal and external assets?"
+      },
+      {
+        "id": "12.2.1",
+        "text": "How are critical vulnerabilities prioritized for remediation, and what SLAs are in place for fixing them?"
+      },
+      {
+        "id": "12.3",
+        "text": "Describe your patch management process. How do you ensure that critical patches are applied in a timely manner across your infrastructure?"
+      },
+      {
+        "id": "12.3.1",
+        "text": "How do you handle patching for legacy systems or applications that are no longer supported by the vendor?"
+      },
+      {
+        "id": "12.4",
+        "text": "How are vulnerabilities reported by third-party security researchers handled (e.g., bug bounty programs)? What is your disclosure policy?"
+      },
+      {
+        "id": "12.5",
+        "text": "What mechanisms are in place to track and manage known vulnerabilities in third-party software and libraries used in your applications?"
+      },
+      {
+        "id": "12.6",
+        "text": "How are employees and relevant stakeholders notified of critical vulnerabilities or required patches?"
+      },
+      {
+        "id": "12.7",
+        "text": "What is your process for reviewing and assessing the effectiveness of your vulnerability and patch management program? How do you ensure continuous improvement?"
+      }
+    ]
+  },
+  {
+    "title": "Section 13: Logging & Monitoring",
+    "questions": [
+      {
+        "id": "13.1",
+        "text": "What systems are in place for logging and monitoring key security events (e.g., SIEM, IDS/IPS, EDR)?"
+      },
+      {
+        "id": "13.2",
+        "text": "How do you ensure that logging and monitoring are comprehensive and cover all critical systems?"
+      },
+      {
+        "id": "13.3",
+        "text": "How are logs collected and analyzed for signs of suspicious activity? Are there automated tools for real-time analysis and alerting?"
+      },
+      {
+        "id": "13.4",
+        "text": "Describe how you ensure that logs are protected from tampering or unauthorized access. Are logs encrypted at rest?"
+      },
+      {
+        "id": "13.5",
+        "text": "How long are logs retained, and how do you determine the appropriate retention period for different types of logs (e.g., network logs, application logs)?"
+      },
+      {
+        "id": "13.6",
+        "text": "How do you ensure that critical logs are reviewed by relevant personnel in a timely manner? Who is responsible for log reviews?"
+      },
+      {
+        "id": "13.7",
+        "text": "What processes are in place to escalate security alerts generated by your monitoring systems? How are alerts triaged based on severity?"
+      }
+    ]
+  }
+]

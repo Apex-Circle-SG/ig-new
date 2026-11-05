@@ -18,7 +18,9 @@ export type KnowledgeArticle = typeof knowledge[number];
 export async function getKnowledgeArticles(): Promise<KnowledgeArticle[]> {
   try {
     const result = await env.SITE_DB.prepare('SELECT data FROM library_knowledge ORDER BY position').all<{ data: string }>();
-    return result.results.map((row) => JSON.parse(row.data) as KnowledgeArticle);
+    const stored = result.results.map((row) => JSON.parse(row.data) as KnowledgeArticle);
+    const existing = new Set(stored.map((article) => article.slug));
+    return [...stored, ...knowledge.filter((article) => !existing.has(article.slug))];
   } catch {
     // shortcut: use the bundled seed if the knowledge table is unavailable; migrate D1 before editing entries.
     return knowledge;
