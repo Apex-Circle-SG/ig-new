@@ -56,3 +56,8 @@
 .contents li { break-inside: avoid; padding: 3px 10px 3px 0; }
 .contents a { color: #5140b3; }
 @media (max-width: 480px) { .contents ol { columns: 1; } }
+
+.sciencePaths { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 1rem; }
+.sciencePaths > div { padding: 1rem 1.25rem; border: 1px solid #d5e2df; border-radius: 12px; background: #f4f9f7; }
+.scienceFlow { display: flex; flex-wrap: wrap; gap: .65rem; }
+.scienceFlow span { padding: .7rem 1rem; border-radius: 8px; background: #e3f2ee; color: #124b40; font-weight: 700; }

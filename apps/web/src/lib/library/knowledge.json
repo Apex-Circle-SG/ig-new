@@ -737,5 +737,217 @@
         "url": "https://www.nist.gov/cyberframework/faqs"
       }
     ]
+  },
+  {
+    "slug": "quantum-science",
+    "title": "Science and quantum: a starting point",
+    "topic": "Science & Quantum",
+    "group": "Getting started",
+    "summary": "Explore quantum information, cryptography, light, time, gravity and the expanding universe.",
+    "relatedToolCategory": "",
+    "sections": [
+      {
+        "heading": "Two paths to explore",
+        "body": "Quantum technology explores how quantum physics can be used for computation and communication. Physics and the universe looks at light, extremely short times, gravity and cosmic expansion."
+      },
+      {
+        "heading": "Connecting the ideas",
+        "body": "Entanglement is a quantum relationship; quantum key distribution uses quantum states to help establish keys. Post-quantum cryptography uses mathematical algorithms designed for ordinary computers and resistant to attacks involving quantum computers."
+      },
+      {
+        "heading": "What remains uncertain",
+        "body": "Experiments support quantum mechanics and general relativity across many conditions, but researchers continue to investigate how gravity and quantum physics fit together and why cosmic expansion is accelerating."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NIST: quantum computing explained",
+        "url": "https://www.nist.gov/quantum-information-science/quantum-computing-explained"
+      },
+      {
+        "title": "NASA: the universe",
+        "url": "https://science.nasa.gov/universe/overview/"
+      }
+    ]
+  },
+  {
+    "slug": "quantum-entanglement",
+    "title": "Quantum entanglement and key distribution",
+    "topic": "Science & Quantum",
+    "group": "Quantum technology",
+    "summary": "How entangled systems are related and how quantum states can help establish shared keys.",
+    "relatedToolCategory": "",
+    "sections": [
+      {
+        "heading": "Entanglement",
+        "body": "Entangled systems are described by a joint quantum state: measurements can show correlations stronger than classical explanations of a particular kind allow. Outcomes are individually unpredictable, and entanglement cannot be used on its own to send a controllable message faster than light."
+      },
+      {
+        "heading": "Quantum key distribution",
+        "body": "Quantum key distribution (QKD) uses quantum states, often carried by photons, and a classical communication channel to help two parties establish a shared secret key. Some protocols use entanglement; others do not. The key can then be used with conventional encryption."
+      },
+      {
+        "heading": "A simplified flow",
+        "body": "Prepare or share quantum states → measure and compare selected information over an authenticated classical channel → estimate errors → derive a key if the checks succeed. An eavesdropper can disturb states, but noise also causes errors."
+      },
+      {
+        "heading": "Limits in practice",
+        "body": "Security depends on the protocol, authenticated classical communication, devices and implementation assumptions. QKD is a method for key distribution, not a complete security system; range, cost and hardware constraints matter."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nobel Prize: entangled quantum states",
+        "url": "https://www.nobelprize.org/prizes/physics/2022/popular-information/"
+      },
+      {
+        "title": "NIST: quantum cryptography",
+        "url": "https://www.nist.gov/cybersecurity-and-privacy/what-quantum-cryptography"
+      }
+    ]
+  },
+  {
+    "slug": "shors-algorithm",
+    "title": "Shor’s algorithm and quantum computing",
+    "topic": "Science & Quantum",
+    "group": "Quantum technology",
+    "summary": "Why a quantum factoring algorithm matters for public-key cryptography.",
+    "relatedToolCategory": "",
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "Shor’s algorithm uses a quantum computer to find the period of a suitable mathematical function; classical steps use that information to help factor an integer. Related quantum techniques can solve discrete logarithms efficiently."
+      },
+      {
+        "heading": "Why security teams care",
+        "body": "A sufficiently capable, error-corrected quantum computer running Shor’s algorithm could undermine RSA and widely used elliptic-curve public-key schemes. It does not mean all encryption breaks or that today’s machines can break deployed keys at scale."
+      },
+      {
+        "heading": "Prepare for a transition",
+        "body": "Identify systems that depend on vulnerable public-key algorithms and data that must remain confidential for many years. Plan and test migration with maintained implementations and current standards. The timing of a sufficiently capable machine is uncertain."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NIST: quantum computing explained",
+        "url": "https://www.nist.gov/quantum-information-science/quantum-computing-explained"
+      },
+      {
+        "title": "NIST: post-quantum cryptography",
+        "url": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography"
+      }
+    ]
+  },
+  {
+    "slug": "post-quantum-cryptography",
+    "title": "Lattices, ML-KEM and SLH-DSA",
+    "topic": "Science & Quantum",
+    "group": "Quantum technology",
+    "summary": "A guide to lattice mathematics and two post-quantum cryptography standards.",
+    "relatedToolCategory": "",
+    "sections": [
+      {
+        "heading": "Lattices and multiplication",
+        "body": "A lattice is a regular mathematical arrangement of points generated by combining basis vectors with integer coefficients. Matrix and polynomial multiplication are useful building blocks in structured lattice schemes. Their security does not come from multiplication alone: ML-KEM relies on the difficulty of the module learning with errors problem."
+      },
+      {
+        "heading": "ML-KEM: establish a shared key",
+        "body": "Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM), standardized in NIST FIPS 203, lets parties establish shared secret key material over a public channel. A symmetric algorithm can then use derived key material to protect data. A KEM by itself does not authenticate the parties."
+      },
+      {
+        "heading": "SLH-DSA: verify signatures",
+        "body": "Stateless Hash-Based Digital Signature Algorithm (SLH-DSA), standardized in NIST FIPS 205, signs messages so recipients can verify authenticity and integrity. It uses hash-based constructions; stateless means the signer need not maintain a changing state between signatures. It is not a key-encapsulation mechanism."
+      },
+      {
+        "heading": "Security and implementation",
+        "body": "These algorithms are designed to resist known attacks from both classical and quantum computers; no algorithm offers an unconditional guarantee against future discoveries or implementation errors. Use established libraries, suitable parameters and current guidance."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NIST: ML-KEM standard",
+        "url": "https://www.nist.gov/publications/module-lattice-based-key-encapsulation-mechanism-standard"
+      },
+      {
+        "title": "NIST: first post-quantum standards",
+        "url": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards"
+      },
+      {
+        "title": "NIST: post-quantum cryptography",
+        "url": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography"
+      }
+    ]
+  },
+  {
+    "slug": "light-and-attoseconds",
+    "title": "The speed of light and attoseconds",
+    "topic": "Science & Quantum",
+    "group": "Physics and the universe",
+    "summary": "Explore a fundamental speed and a remarkably short unit of time.",
+    "relatedToolCategory": "",
+    "sections": [
+      {
+        "heading": "The speed of light",
+        "body": "In a vacuum light travels at exactly 299,792,458 metres per second, denoted c. Light travels more slowly through materials; the local speed limit for transmitting information in relativity remains c in vacuum."
+      },
+      {
+        "heading": "An attosecond",
+        "body": "One attosecond is 10⁻¹⁸ seconds: one billionth of a billionth of a second. In a vacuum, light travels about 0.3 nanometres in an attosecond—on the scale of atoms."
+      },
+      {
+        "heading": "Why measure such brief intervals?",
+        "body": "Ultrashort light pulses allow scientists to study electron dynamics in matter. The pulses help resolve very fast changes; their existence does not mean that information moves faster than light."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NIST: the speed of light",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?c"
+      },
+      {
+        "title": "Nobel Prize: attosecond physics",
+        "url": "https://www.nobelprize.org/prizes/physics/2023/press-release/"
+      }
+    ]
+  },
+  {
+    "slug": "gravity-and-expanding-universe",
+    "title": "Gravity and the expanding universe",
+    "topic": "Science & Quantum",
+    "group": "Physics and the universe",
+    "summary": "How gravity shapes spacetime and why distant galaxies can recede faster than light.",
+    "relatedToolCategory": "",
+    "sections": [
+      {
+        "heading": "Gravity and spacetime",
+        "body": "Newton’s gravity describes many everyday and astronomical situations well. General relativity describes gravity through the geometry of spacetime, shaped by matter and energy; it successfully predicts effects including gravitational lensing and gravitational waves."
+      },
+      {
+        "heading": "Expanding space",
+        "body": "On large scales, the universe expands: distances between sufficiently distant, roughly comoving galaxies grow as space expands. Bound systems such as galaxies are not simply stretched in the same way."
+      },
+      {
+        "heading": "Faster than light?",
+        "body": "For sufficiently distant galaxies, the rate at which their distance increases due to cosmic expansion can exceed the speed of light. This does not mean a nearby object or a signal travels locally through space faster than light; recession speed depends on how cosmological distance is defined."
+      },
+      {
+        "heading": "Open questions",
+        "body": "Observations indicate accelerating expansion, often modeled using dark energy. Its nature remains uncertain, and different methods of estimating today’s expansion rate give values that are in tension."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NASA: the universe",
+        "url": "https://science.nasa.gov/universe/overview/"
+      },
+      {
+        "title": "NASA: cosmological redshift",
+        "url": "https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-cosmological-redshift/"
+      },
+      {
+        "title": "NASA: expansion rate",
+        "url": "https://science.nasa.gov/blogs/science-news/2026/04/13/international-collaboration-helps-pinpoint-universes-expansion-rate/"
+      }
+    ]
   }
 ]
