@@ -1405,5 +1405,401 @@
         "url": "https://www.cisa.gov/secure-our-world"
       }
     ]
+  },
+  {
+    "slug": "ai-learning-hub",
+    "title": "AI learning hub: from foundations to practice",
+    "topic": "Artificial intelligence",
+    "group": "Start here",
+    "summary": "Choose a path through AI concepts, mathematics, models, deployment and risk.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Start with the foundations",
+        "body": "Understand AI and machine learning, then explore data, probability and the mathematics of a neural network. Follow the paths below in any order that suits your experience."
+      },
+      {
+        "heading": "From models to applications",
+        "body": "Explore neural networks, language models, retrieval and agents. The worked examples use small illustrative numbers so the mechanics are visible; real systems are much larger and varied."
+      },
+      {
+        "heading": "Build responsibly",
+        "body": "Evaluate on representative data, monitor changes, protect information and define what automated systems may do. The source notes preserve the supplied material separately; their claims and illustrations remain unverified until individually reviewed."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Google Machine Learning Crash Course",
+        "url": "https://developers.google.com/machine-learning/crash-course/"
+      },
+      {
+        "title": "NIST AI Risk Management Framework",
+        "url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/"
+      }
+    ]
+  },
+  {
+    "slug": "ai-foundations",
+    "title": "AI and machine learning: foundations",
+    "topic": "Artificial intelligence",
+    "group": "Foundations",
+    "summary": "Learn the basic approaches, terminology and limitations of AI systems.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "AI, machine learning and deep learning",
+        "body": "Artificial intelligence covers computational methods for tasks associated with perception, reasoning, language or decision-making. Machine learning learns patterns from data; deep learning uses multilayer neural networks. These categories overlap rather than forming a strict test of intelligence."
+      },
+      {
+        "heading": "Learning approaches",
+        "body": "Supervised learning uses examples with target labels; unsupervised learning looks for structure without those labels. Reinforcement learning studies decisions and feedback from an environment. Transfer learning adapts previously learned representations to another task."
+      },
+      {
+        "heading": "Common tasks and models",
+        "body": "Classification predicts categories, regression predicts numerical values, clustering groups similar cases, and dimensionality reduction represents data in fewer dimensions. Trees, random forests, linear models, nearest neighbors and neural networks have different assumptions and trade-offs."
+      },
+      {
+        "heading": "A practical roadmap",
+        "body": "Learn basic Python, linear algebra, probability and data handling; build a baseline, evaluate on held-out data, then study neural networks and deployment. Choose topics based on the problem instead of assuming a larger model is always better."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Google Machine Learning Crash Course",
+        "url": "https://developers.google.com/machine-learning/crash-course/"
+      },
+      {
+        "title": "Google: neural networks",
+        "url": "https://developers.google.com/machine-learning/crash-course/neural-networks"
+      }
+    ]
+  },
+  {
+    "slug": "ai-data-lifecycle",
+    "title": "Data and the machine-learning lifecycle",
+    "topic": "Artificial intelligence",
+    "group": "Build and operate",
+    "summary": "From defining a problem to collecting, evaluating and monitoring data and models.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Frame and prepare",
+        "body": "Define the decision, users, success measure and constraints. Inventory data sources and permissions, understand collection and missingness, clean and label data where appropriate, and keep records of transformations."
+      },
+      {
+        "heading": "Split and evaluate",
+        "body": "Separate training, validation and test data in a way that reflects deployment; group or time-based splits can be important. Avoid leakage across splits. Compare against simple baselines and inspect performance for relevant groups and failure cases."
+      },
+      {
+        "heading": "Production and feedback",
+        "body": "Version data, models and code; deploy with appropriate access controls; monitor quality, cost, latency and drift. A change in inputs does not automatically mean model performance has degraded: measure both and investigate."
+      },
+      {
+        "heading": "People and context",
+        "body": "Data engineers, analysts, scientists, ML engineers and domain experts contribute different skills. Role boundaries vary, and a practical project needs both technical and operational ownership."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Google Machine Learning Crash Course",
+        "url": "https://developers.google.com/machine-learning/crash-course/"
+      },
+      {
+        "title": "NIST AI Risk Management Framework",
+        "url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/"
+      }
+    ]
+  },
+  {
+    "slug": "ai-neural-network-math",
+    "title": "Neural networks: a worked example",
+    "topic": "Artificial intelligence",
+    "group": "Math and examples",
+    "summary": "See weights, bias, ReLU, matrix dimensions and parameter counts in context.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "One neuron",
+        "body": "Given x = [2, 1, 3], weights w = [1, −1, 1] and bias b = −5, the weighted sum is 2 − 1 + 3 − 5 = −1. ReLU(z) = max(0, z), so the output is 0. This is a simple illustrative neuron, not a trained model."
+      },
+      {
+        "heading": "Layers and dimensions",
+        "body": "A dense layer with 3 inputs and 4 outputs uses a 4 × 3 weight matrix and 4 biases: 16 parameters. A following dense layer with 4 inputs and 2 outputs adds 8 weights and 2 biases: 10 more, or 26 total. Counts assume each layer includes biases."
+      },
+      {
+        "heading": "Forward and backward passes",
+        "body": "A forward pass computes predictions and a loss. Backpropagation applies the chain rule to calculate gradients; an optimizer uses those gradients and its update rule to adjust parameters. A zero gradient alone does not prove a global optimum."
+      },
+      {
+        "heading": "Other activations and training choices",
+        "body": "Sigmoid maps real numbers to values between 0 and 1; softmax produces a distribution across a set of scores. Dropout and regularization can help generalization, but effects depend on the setting. Batch normalization normally includes numerical stability and learned per-feature scale and shift."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Google: neural networks",
+        "url": "https://developers.google.com/machine-learning/crash-course/neural-networks"
+      },
+      {
+        "title": "Google Machine Learning Crash Course",
+        "url": "https://developers.google.com/machine-learning/crash-course/"
+      }
+    ]
+  },
+  {
+    "slug": "ai-architectures",
+    "title": "Neural-network architectures explained",
+    "topic": "Artificial intelligence",
+    "group": "How models work",
+    "summary": "Compare feed-forward, recurrent, convolutional, graph and generative architectures.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Dense and recurrent networks",
+        "body": "A multilayer perceptron applies learned transformations and nonlinearities. Recurrent networks update a state across a sequence; LSTMs use gates to manage information. State-space models are another sequence-model family with their own design choices."
+      },
+      {
+        "heading": "Images, graphs and residual connections",
+        "body": "Convolutional networks use local filters to process grid-like data; graph neural networks combine information from neighboring nodes. Residual connections add a path around a transformation, helping information and gradients flow in deep networks."
+      },
+      {
+        "heading": "Generative approaches",
+        "body": "Autoencoders learn representations that can reconstruct input. GANs train a generator and discriminator in competition. Diffusion models learn a denoising process; different systems make different architectural and training choices."
+      },
+      {
+        "heading": "Mixture of experts",
+        "body": "A router chooses which expert components process an input or token. Routing and capacity choices influence compute and behavior; examples in the notes are simplified and should not be read as a specification for every model."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Google: neural networks",
+        "url": "https://developers.google.com/machine-learning/crash-course/neural-networks"
+      },
+      {
+        "title": "Diffusion models research",
+        "url": "https://arxiv.org/abs/2006.11239"
+      },
+      {
+        "title": "Switch Transformers research",
+        "url": "https://arxiv.org/abs/2101.03961"
+      }
+    ]
+  },
+  {
+    "slug": "ai-transformers-language",
+    "title": "Transformers, attention and language models",
+    "topic": "Artificial intelligence",
+    "group": "How models work",
+    "summary": "Understand tokens, attention, generation, fine-tuning and multimodal models.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Tokens and embeddings",
+        "body": "A tokenizer maps text to token IDs; tokens need not correspond one-to-one with words. An embedding maps tokens or other inputs into vectors. Model architecture and training determine what those representations capture."
+      },
+      {
+        "heading": "Self-attention",
+        "body": "A transformer computes query, key and value representations. Attention scores compare queries and keys, are scaled and normalized, and weight values to combine information. Masks and context limits determine which positions can interact."
+      },
+      {
+        "heading": "Generating language",
+        "body": "Many language models predict a distribution over a next token given context. A decoding method selects a token and repeats. Sampling, temperature and other settings can change output; fluent text is not proof of accuracy."
+      },
+      {
+        "heading": "Adapting and multimodal learning",
+        "body": "Fine-tuning changes parameters with additional training; prompting changes the input without necessarily changing model weights. Multimodal systems can process combinations such as text and images; encoder and model details vary."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Transformer research paper",
+        "url": "https://arxiv.org/abs/1706.03762"
+      },
+      {
+        "title": "Google Machine Learning Crash Course",
+        "url": "https://developers.google.com/machine-learning/crash-course/"
+      }
+    ]
+  },
+  {
+    "slug": "ai-retrieval-agents",
+    "title": "RAG, vector search and AI agents",
+    "topic": "Artificial intelligence",
+    "group": "Build and operate",
+    "summary": "Connect retrieval, grounding and tools while managing access and reliability.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Retrieval-augmented generation",
+        "body": "A retrieval system finds potentially relevant information and supplies it to a model as context. Embeddings and vector search are one possible retrieval method; keyword and hybrid approaches are also useful. Good retrieval does not guarantee factual output."
+      },
+      {
+        "heading": "From documents to answers",
+        "body": "Prepare and chunk documents, retain metadata and access controls, index content, retrieve and optionally rerank candidates, then evaluate whether answers are supported by the retrieved material. Handle stale, incomplete or malicious content."
+      },
+      {
+        "heading": "Agents and tools",
+        "body": "An agentic system can choose or sequence actions using tools and feedback. Bound tool permissions, validate inputs and outputs, cap resource use, protect credentials, and require appropriate human approval for consequential actions."
+      },
+      {
+        "heading": "Safety and evaluation",
+        "body": "Treat external text as untrusted, including retrieved passages. Test prompt injection and permission boundaries; log only what is necessary under a privacy policy. Evaluate end-to-end outcomes and tool use rather than only model responses."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Retrieval-augmented generation research",
+        "url": "https://arxiv.org/abs/2005.11401"
+      },
+      {
+        "title": "NIST AI Risk Management Framework",
+        "url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/"
+      }
+    ]
+  },
+  {
+    "slug": "ai-math-statistics",
+    "title": "Probability, statistics and optimization for AI",
+    "topic": "Artificial intelligence",
+    "group": "Math and examples",
+    "summary": "A guide to distributions, inference, model metrics and optimization.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Describe and visualize data",
+        "body": "Means, medians, spread, histograms and plots summarize data in different ways. Inspect distributions and outliers; datasets with similar summary statistics can still look very different."
+      },
+      {
+        "heading": "Probability and inference",
+        "body": "Bernoulli and binomial models describe certain binary outcomes, normal distributions describe many continuous approximations, and Poisson models can describe event counts under specified assumptions. A p-value concerns results at least as extreme under a null model; it is not the probability the null is true."
+      },
+      {
+        "heading": "Evaluate predictions",
+        "body": "Classification accuracy, precision and recall answer different questions; confusion matrices show error types. Regression metrics include mean absolute error and root-mean-square error. Compare metrics with the costs of different mistakes."
+      },
+      {
+        "heading": "Optimization and search",
+        "body": "Gradient descent updates parameters using a loss gradient. Evolutionary algorithms, simulated annealing and particle swarms are broader search methods with distinct assumptions. A method’s usefulness depends on the objective, constraints and compute budget."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NIST engineering statistics handbook",
+        "url": "https://www.nist.gov/programs-projects/nistsematech-engineering-statistics-handbook"
+      },
+      {
+        "title": "NIST: p-values",
+        "url": "https://itl.nist.gov/div898/handbook/prc/section1/prc131.htm"
+      }
+    ]
+  },
+  {
+    "slug": "ai-risk-governance",
+    "title": "AI risk, security and governance",
+    "topic": "Artificial intelligence",
+    "group": "Risk and governance",
+    "summary": "Identify failure modes and decide who evaluates, monitors and responds.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Map risks to use",
+        "body": "Consider inaccurate outputs, biased outcomes, privacy exposure, data quality, model drift, availability, cost and downstream consequences. The importance of each risk depends on the application, people affected and deployment context."
+      },
+      {
+        "heading": "Protect agentic systems",
+        "body": "Prompt injection, excessive permissions, insecure tools and uncontrolled loops can turn an incorrect answer into an action. Separate instructions from untrusted data where possible, enforce permissions outside the model, set limits and audit consequential actions."
+      },
+      {
+        "heading": "Govern and respond",
+        "body": "Assign accountable owners; document intended use and limitations; evaluate before and after deployment; define incident response, rollback and human oversight. NIST’s AI RMF organizes activities as Govern, Map, Measure and Manage."
+      },
+      {
+        "heading": "Regulatory claims",
+        "body": "The EU AI Act has different requirements, exceptions and dates for different systems and roles. The original notes contain outdated or overgeneralized claims. Consult the current legislation and qualified advice for a specific use; this guide is not a compliance determination."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NIST AI Risk Management Framework",
+        "url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/"
+      },
+      {
+        "title": "NIST generative AI profile",
+        "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+      },
+      {
+        "title": "EU AI Act: consolidated text",
+        "url": "https://eur-lex.europa.eu/eli/reg/2024/1689"
+      }
+    ]
+  },
+  {
+    "slug": "ai-worked-exercises",
+    "title": "AI worked exercises and source diagrams",
+    "topic": "Artificial intelligence",
+    "group": "Math and examples",
+    "summary": "Explore the supplied exercises on neural networks, attention, generation and more.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "How to use the exercises",
+        "body": "The original formula document uses small hand-worked networks and diagrams. Start with the one-neuron example below, then browse the source exercise sections for matrices, mixture of experts, recurrent models, transformers, attention and other architectures."
+      },
+      {
+        "heading": "One neuron",
+        "body": "Inputs [2, 1, 3], weights [1, −1, 1] and bias −5 produce a weighted sum of −1; ReLU returns 0. The original sketch is reproduced below, with the arithmetic written in text for accessibility."
+      },
+      {
+        "heading": "Exercise limitations",
+        "body": "Many illustrations simplify or approximate calculations, and several source claims, architectures and numerical values have not been independently verified. Treat the diagrams as educational examples, not exact descriptions of every deployed model."
+      },
+      {
+        "heading": "More examples",
+        "body": "The preserved notes also cover batch normalization, GANs, dropout, autoencoders, vector search, text-image embeddings, residual and graph networks, diffusion, mixture of experts and reinforcement learning from human feedback."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Google: neural networks",
+        "url": "https://developers.google.com/machine-learning/crash-course/neural-networks"
+      },
+      {
+        "title": "Transformer research paper",
+        "url": "https://arxiv.org/abs/1706.03762"
+      }
+    ]
+  },
+  {
+    "slug": "ai-source-notes",
+    "title": "AI collection: source notes and diagrams",
+    "topic": "Artificial intelligence",
+    "group": "Source reference",
+    "summary": "Search preserved source passages and illustrations by topic and document.",
+    "relatedToolCategory": "",
+    "sections": [
+      {
+        "heading": "What this reference contains",
+        "body": "This reading view preserves the source passages and embedded illustrations in topic groups. The original documents are retained in the project. Search and categories help locate material that is not yet fully explained in the curated guides."
+      },
+      {
+        "heading": "Read as unverified source material",
+        "body": "The notes contain errors, simplifications, historical forecasts and legal statements that may be outdated. They are shown for traceability, not as verified advice or current legal requirements. Text extraction can lose table structure and equation formatting; image attribution and rights require review."
+      },
+      {
+        "heading": "Use the reviewed guides",
+        "body": "For introductory explanations and links to primary sources, start with the AI learning hub. A source passage’s presence here does not mean it has been individually fact-checked."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NIST AI Risk Management Framework",
+        "url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/"
+      },
+      {
+        "title": "Google Machine Learning Crash Course",
+        "url": "https://developers.google.com/machine-learning/crash-course/"
+      }
+    ]
   }
 ]
