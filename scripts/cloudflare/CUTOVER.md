@@ -9,3 +9,5 @@ Ginie’s credentials and security keys are Worker secrets. Its shared spending 
 The pre-cutover runtime and routing backups are in `artifacts/cloudflare-preview/`. A rollback must preserve the current D1 Ginie budget and aggregate counts before restoring the old provider; otherwise usage can be double-counted or lost. The old server's Datadog provider was intentionally paused before cutover.
 
 Cloudflare Workers Builds is connected to `Apex-Circle-SG/ig-new` and watches all changes on `main`. Its production build runs `prepare.sh` with `IG_CLOUDFLARE_TARGET=production`, then deploys the resulting prebuilt Worker.
+
+GitHub Actions verification runs only when started manually. Run checks appropriate to each change locally before pushing; Cloudflare Workers Builds deploys pushes to `main` independently.
