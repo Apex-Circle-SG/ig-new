@@ -93,7 +93,7 @@ export default function Privacy() {
           reloads to apply it.
         </p>
         <p>
-          Google AdSense may load on eligible public pages. Calculator pages and embeds are ad-free.
+          Google AdSense may load on eligible public pages, including calculator pages. Calculator frames and embeds are ad-free.
           We wait for your choice in the EEA, UK, Switzerland or when your region is unknown;
           otherwise advertising normally loads unless you have declined it. Google may process your
           IP address, browser or device information, page context and cookies to deliver, measure
@@ -107,8 +107,8 @@ export default function Privacy() {
           .
         </p>
         <p>
-          Your calculator runs in a browser sandbox. Calculator pages and embeds do not load
-          advertising or third-party analytics. Only the frame’s size, a request to copy the public
+          Your calculator runs in a separate browser sandbox that does not load advertising or
+          third-party analytics. Advertising can load on the surrounding page. Only the frame’s size, a request to copy the public
           tool link, and general interaction events leave the calculator. Declining advertising does
           not limit the tools or source pages. We request non-personalized ads when a Global Privacy
           Control signal is present, and after an advertising choice in regions where we wait for

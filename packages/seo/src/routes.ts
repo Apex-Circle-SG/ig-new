@@ -61,7 +61,7 @@ export const PUBLIC_INDEXABLE_PATHS = [
   ...DISCOVERY_HUB_PATHS,
 ] as const;
 
-/** Calculator pages are ad-free, including their surrounding public shells. */
+/** Calculator shells and private calculator routes exclude third-party analytics. */
 export function isCalculatorPage(pathname: string) {
   const path = canonicalPathname(pathname);
   return (
@@ -73,9 +73,10 @@ export function isCalculatorPage(pathname: string) {
     path.startsWith('/embed/')
   );
 }
-export const PUBLIC_AD_PATHS = PUBLIC_INDEXABLE_PATHS.filter(
-  (path) => !isCalculatorPage(path) && !['/ask/', '/opportunities/sources/'].includes(path),
-);
+export const PUBLIC_AD_PATHS = [
+  ...PUBLIC_INDEXABLE_PATHS.filter((path) => !['/ask/', '/opportunities/sources/'].includes(path)),
+  '/calculators/expanded/',
+];
 export const DYNAMIC_AD_CRAWLER_PATHS = ['/opportunities/*-*/$', '/ideas/*/$', '/earn/*/$', '/library/knowledge/*/$'];
 export function isKnowledgeContentPath(pathname: string) {
   return /^\/library\/knowledge\/[a-z0-9]+(?:-[a-z0-9]+)*\/$/.test(canonicalPathname(pathname));

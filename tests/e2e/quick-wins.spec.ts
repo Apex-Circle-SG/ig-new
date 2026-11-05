@@ -87,7 +87,7 @@ for (const width of [390, 1280])
     }
   });
 
-test('anonymous sharing stays inside the sandbox and calculator pages reject third-party tracking', async ({
+test('anonymous sharing stays inside the sandbox when public pages show ads', async ({
   page,
   context,
   baseURL,
@@ -97,6 +97,7 @@ test('anonymous sharing stays inside the sandbox and calculator pages reject thi
     { name: 'ig_ga4', value: 'allow', domain: new URL(baseURL!).hostname, path: '/' },
     { name: 'ig_advertising', value: 'allow', domain: new URL(baseURL!).hostname, path: '/' },
   ]);
+  await page.route('**/pagead/js/adsbygoogle.js?*', (route) => route.fulfill({ contentType: 'application/javascript', body: '' }));
   const traffic: string[] = [];
   const messages: string[] = [];
   page.on('request', (request) => traffic.push(request.url() + (request.postData() ?? '')));
@@ -126,15 +127,13 @@ test('anonymous sharing stays inside the sandbox and calculator pages reject thi
     ),
   );
   expect(traffic.join('\n') + messages.join('\n')).not.toMatch(/137[,.]?891|83\.32|91\.91/);
-  await expect(page.locator('#insightginie-adsense,#insightginie-ga4')).toHaveCount(0);
-  expect(
-    traffic.some((url) =>
-      /googlesyndication|google-analytics|googletagmanager|doubleclick/.test(url),
-    ),
-  ).toBe(false);
+  await expect(page.locator('#insightginie-adsense')).toHaveCount(1);
+  await expect(page.locator('#insightginie-ga4')).toHaveCount(0);
+  expect(traffic.some((url) => /google-analytics|googletagmanager/.test(url))).toBe(false);
   for (const tool of FINANCE_TOOLS) {
     await page.goto(`/tools/${tool.id}/`);
-    await expect(page.locator('#insightginie-adsense,#insightginie-ga4')).toHaveCount(0);
+    await expect(page.locator('#insightginie-adsense')).toHaveCount(1);
+    await expect(page.locator('#insightginie-ga4')).toHaveCount(0);
   }
 });
 

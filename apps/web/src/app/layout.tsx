@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { cookies, headers } from 'next/headers';
-import { isCalculatorPage, isKnowledgeContentPath, isOpportunityContentPath } from '@insightginie/seo';
+import { isKnowledgeContentPath, isOpportunityContentPath } from '@insightginie/seo';
 import { catalog, opportunityRecord, type Idea, type EarningMethod } from '../lib/opportunities';
 import {
   AD_PREFERENCE_COOKIE,
@@ -72,7 +72,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
   return (
     <html lang="en-US">
       <head>
-        {enabled && !isCalculatorPage(pathname) && (
+        {enabled && (
           <meta name="google-adsense-account" content={clientId} />
         )}
         {policy.load && (

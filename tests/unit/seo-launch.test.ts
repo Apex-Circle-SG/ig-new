@@ -1,7 +1,6 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import {
   PUBLIC_AD_PATHS,
-  isCalculatorPage,
   DYNAMIC_AD_CRAWLER_PATHS,
   PUBLIC_INDEXABLE_PATHS,
   PUBLIC_EARNING_GUIDE_PATHS,
@@ -55,7 +54,7 @@ describe('reviewed public-page boundaries', () => {
     for (const path of PUBLIC_INDEXABLE_PATHS) {
       expect(isPublicIndexablePath(path)).toBe(true);
       expect(isPublicAdvertisingPath(path)).toBe(
-        !isCalculatorPage(path) && !['/ask/', '/opportunities/sources/'].includes(path),
+        !['/ask/', '/opportunities/sources/'].includes(path),
       );
       if (path !== '/') expect(isPublicIndexablePath(path.slice(0, -1))).toBe(true);
     }

@@ -3,8 +3,22 @@
    whose document does not load globals.css. Do not switch these back to
    var(--...) without also loading globals.css inside that frame. */
 .wrap {
+  width: min(1160px, calc(100% - 80px));
+  margin-inline: auto;
   font-family: Arial, Helvetica, sans-serif;
+  color: #1d2439;
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
+.wrap, .wrap * { box-sizing: border-box; }
+.wrap h1, .wrap h2, .wrap h3, .wrap p { margin: 0; }
+.wrap h1, .wrap h2, .wrap h3 { font-weight: 600; line-height: 1.2; letter-spacing: -.045em; }
+.wrap p { color: #5e687b; }
+.wrap button, .wrap input { font: inherit; }
+.wrap button { cursor: pointer; }
+.wrap :is(a, button, input):focus-visible { outline: 3px solid #7663e8; outline-offset: 3px; }
+@media (max-width: 700px) { .wrap { width: calc(100% - 32px); } }
 
 .controls {
   display: flex;

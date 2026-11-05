@@ -27,14 +27,15 @@ describe('quick wins privacy and discovery', () => {
     expect(incomeBandInsight(output)).toBe('');
   });
   it.each([
-    '/calc/individual-income-percentile/',
-    '/tools/cash-runway/',
-    '/tools/ai-workflow-roi/',
     '/private-tools/business-loan/',
     '/embed/income-distribution/',
   ])('excludes %s from advertising', (path) => {
     expect(isCalculatorPage(path)).toBe(true);
     expect(isPublicAdvertisingPath(path)).toBe(false);
+  });
+  it.each(['/calc/individual-income-percentile/', '/tools/cash-runway/', '/calculators/expanded/'])('allows ads on the public calculator shell %s', (path) => {
+    expect(isCalculatorPage(path)).toBe(true);
+    expect(isPublicAdvertisingPath(path)).toBe(true);
   });
   it('redirects only the two duplicate hubs', async () => {
     expect(await config.redirects?.()).toEqual([
