@@ -1,0 +1,2011 @@
+[
+  {
+    "slug": "sales-process",
+    "title": "Sales process: from first contact to customer success",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Follow a customer-centered sales process, from identifying a possible fit to agreed commitments and ongoing service.",
+    "takeaway": "Progress should reflect the buyer’s needs and agreed actions, not simply the seller’s activity.",
+    "ranges": [
+      {
+        "document": "Sales Management.docx",
+        "start": 0,
+        "end": 20,
+        "heading": "Stages, channels and review"
+      },
+      {
+        "document": "Sales Management.docx",
+        "start": 44,
+        "end": 57,
+        "heading": "Sales fundamentals and productive time"
+      },
+      {
+        "document": "Sales Management.docx",
+        "start": 285,
+        "end": 304,
+        "heading": "Conversations, value stories and SNAP selling"
+      }
+    ],
+    "steps": [
+      "Find fit",
+      "Discover needs",
+      "Demonstrate value",
+      "Agree next steps",
+      "Support the customer"
+    ],
+    "related": [
+      "sales-question-bank",
+      "spin-selling",
+      "sales-qualification",
+      "negotiation-process"
+    ],
+    "notes": [],
+    "collection": "sales-playbook",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "sales-prospecting",
+    "title": "Prospecting and nurturing: earn a useful conversation",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Explore lead sources, introductory messages and the move from vendor to trusted partner.",
+    "takeaway": "Connect outreach to a relevant customer need and respect a decision not to engage.",
+    "ranges": [
+      {
+        "document": "Sales Management.docx",
+        "start": 186,
+        "end": 221,
+        "heading": "Lead development, pitches and contact sources"
+      }
+    ],
+    "steps": [
+      "Identify relevant contacts",
+      "Explain customer value",
+      "Start a conversation",
+      "Nurture with permission"
+    ],
+    "related": [
+      "sales-process",
+      "sales-qualification",
+      "customer-retention"
+    ],
+    "notes": [
+      "The “eight touches” claim has no cited sample or study in these notes. It is retained as an unverified source claim, not an outreach quota.",
+      "Event and hospitality examples are possible contact settings, not evidence that an invitation creates buying intent. “Pick a fight” is retained as a rhetorical source label, not advice to antagonize a prospect."
+    ],
+    "collection": "sales-playbook",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "sales-qualification",
+    "title": "Sales qualification: compare BANT, MEDDIC and related prompts",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Compare the qualification checklists and the questions they raise about fit, urgency, authority and a credible buying process.",
+    "takeaway": "A framework is a reminder to investigate; it is not a score that proves a buyer will purchase.",
+    "ranges": [
+      {
+        "document": "Sales Management.docx",
+        "start": 57,
+        "end": 76,
+        "heading": "Customer value, qualification frameworks and fit questions"
+      },
+      {
+        "document": "Sales.docx",
+        "start": 153,
+        "end": 170,
+        "heading": "MEDDICC: measures, decision-making, pain, champions and competition"
+      }
+    ],
+    "steps": [
+      "Establish the problem",
+      "Understand decision roles",
+      "Check timing and resources",
+      "Compare fit and alternatives"
+    ],
+    "related": [
+      "sales-question-bank",
+      "sales-buyer-roles",
+      "market-sizing"
+    ],
+    "notes": [
+      "The source’s “Identify Plan” heading is followed by a description of pain and later uses “Identify Pain”. The heading is preserved with that discrepancy identified.",
+      "MEDDIC and MEDDICC are kept distinct: this source’s MEDDICC adds Competition. It does not document MEDDPICC or a paper-process component.",
+      "PACT, TAS and WOLFE are supplied as brief acronym lists with no original references or scoring methods."
+    ],
+    "collection": "sales-playbook",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "spin-selling",
+    "title": "SPIN Selling: discover needs before presenting solutions",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Connect situation, problem, implication and need-payoff questions with the stages of a complex sale.",
+    "takeaway": "Use questions to understand the buyer’s explicit needs and agree a useful next action.",
+    "ranges": [
+      {
+        "document": "Spin Selling.docx",
+        "start": 0,
+        "end": 17,
+        "heading": "The four SPIN question types"
+      },
+      {
+        "document": "Sales.docx",
+        "start": 47,
+        "end": 60,
+        "heading": "SPIN in the wider persuasion notes"
+      },
+      {
+        "document": "Spin Selling.docx",
+        "start": 17,
+        "end": 34,
+        "heading": "Reported findings and training claims"
+      },
+      {
+        "document": "Spin Selling.docx",
+        "start": 34,
+        "end": 49,
+        "heading": "Opening, investigating, demonstrating and obtaining commitment"
+      },
+      {
+        "document": "Spin Selling.docx",
+        "start": 49,
+        "end": 61,
+        "heading": "Planning questions and connecting benefits to needs"
+      },
+      {
+        "document": "Spin Selling.docx",
+        "start": 61,
+        "end": 74,
+        "heading": "Personal reflections and attributed quotations"
+      }
+    ],
+    "steps": [
+      "Situation",
+      "Problem",
+      "Implication",
+      "Need-payoff"
+    ],
+    "related": [
+      "sales-question-bank",
+      "sales-qualification",
+      "sales-commitment"
+    ],
+    "notes": [
+      "The 17% performance improvement and 87% training-loss figures lack a study citation and context in this collection. They are preserved as source claims, not verified universal results.",
+      "Claims about senior buyers and the power of particular question types depend on context; they are not absolute rules.",
+      "The suggestions about subconscious rapport are the source author’s reflections, not part of a verified SPIN prescription. Quotations without publication references remain attributed only as supplied.",
+      "The brief sales notes describe need-payoff as offering solutions, while the dedicated SPIN notes describe the buyer articulating the benefits. The overview follows the latter; both supplied descriptions remain accessible."
+    ],
+    "collection": "sales-playbook",
+    "format": "guide",
+    "interpretation": "",
+    "references": [
+      {
+        "title": "Huthwaite International: SPIN Selling",
+        "url": "https://www.huthwaiteinternational.com/sales-training/spin-selling"
+      }
+    ]
+  },
+  {
+    "slug": "sales-question-bank",
+    "title": "Sales question bank: prepare for each buyer conversation",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Browse the complete supplied prompts for pre-discovery, discovery, demonstrations and commercial discussions.",
+    "takeaway": "Choose questions that fill a real information gap; listen and adapt instead of reading a script.",
+    "ranges": [
+      {
+        "document": "Sales.docx",
+        "start": 170,
+        "end": 195,
+        "heading": "Pre-discovery: goals, fit and decision roles"
+      },
+      {
+        "document": "Sales.docx",
+        "start": 195,
+        "end": 226,
+        "heading": "Discovery: workflow, urgency and demonstration preparation"
+      },
+      {
+        "document": "Sales.docx",
+        "start": 226,
+        "end": 272,
+        "heading": "Demonstration: feedback, fit and next steps"
+      },
+      {
+        "document": "Sales.docx",
+        "start": 272,
+        "end": 310,
+        "heading": "Commercial discussions: pricing, review and implementation"
+      }
+    ],
+    "steps": [
+      "Pre-discovery",
+      "Discovery",
+      "Demonstration",
+      "Commercial discussions"
+    ],
+    "related": [
+      "spin-selling",
+      "sales-qualification",
+      "negotiation-principled"
+    ],
+    "notes": [
+      "Bracketed phrases are adaptable placeholders from the source. The buyer is not expected to share confidential information merely because it appears in a question.",
+      "Pricing and legal questions help organize a conversation; they are not contract clauses or legal advice."
+    ],
+    "collection": "sales-playbook",
+    "format": "questions",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "sales-buyer-roles",
+    "title": "Buying groups: distinguish roles from personality labels",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Map decision-makers, influencers, champions, users and other buying participants, while examining the collection’s persona shortcuts.",
+    "takeaway": "Verify a person’s decision role and preferences through conversation; avoid treating a persona label as a diagnosis.",
+    "ranges": [
+      {
+        "document": "Sales Management.docx",
+        "start": 221,
+        "end": 243,
+        "heading": "Attention, BASIC mapping, persona labels and decision roles"
+      }
+    ],
+    "steps": [
+      "Identify participants",
+      "Understand interests",
+      "Verify decision roles",
+      "Adapt respectfully"
+    ],
+    "related": [
+      "sales-qualification",
+      "stakeholder-management",
+      "nlp-preferences"
+    ],
+    "notes": [
+      "Director/analyser/socialiser/consensus and the “power/party/peace/perfection” labels are source heuristics, not validated assessments.",
+      "“Make the gatekeeper your salesperson” is retained as source wording; the useful application is respectful cooperation, not exploiting someone’s role."
+    ],
+    "collection": "sales-playbook",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "sales-objections",
+    "title": "Sales objections: understand the concern and respond",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Separate reasons for hesitation from techniques for listening, clarifying, presenting evidence and agreeing what happens next.",
+    "takeaway": "An objection may reveal missing information or a poor fit. A clear refusal remains a valid outcome.",
+    "ranges": [
+      {
+        "document": "Sales Management.docx",
+        "start": 324,
+        "end": 349,
+        "heading": "Reasons buyers raise concerns"
+      },
+      {
+        "document": "Sales Management.docx",
+        "start": 349,
+        "end": 368,
+        "heading": "Responding with listening, evidence and empathy"
+      }
+    ],
+    "steps": [
+      "Listen",
+      "Clarify",
+      "Acknowledge",
+      "Respond with evidence",
+      "Check understanding"
+    ],
+    "related": [
+      "sales-question-bank",
+      "sales-commitment",
+      "negotiation-principled"
+    ],
+    "notes": [
+      "The “58% more objections” statistic is unreferenced. The statement that walking away always loses a deal is a source opinion; a poor-fit opportunity can reasonably end.",
+      "“No is a guidepost” and repeated closing attempts are examined critically. They do not override a buyer’s refusal or consent."
+    ],
+    "collection": "sales-playbook",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "sales-commitment",
+    "title": "Closing: agree a decision and a concrete next step",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Review direct, trial and conditional closing prompts alongside delivery, follow-up and buyer commitment.",
+    "takeaway": "A useful advance is an explicitly agreed action, not a commitment assumed on the buyer’s behalf.",
+    "ranges": [
+      {
+        "document": "Sales Management.docx",
+        "start": 316,
+        "end": 324,
+        "heading": "Closing prompts and follow-up claims"
+      },
+      {
+        "document": "Sales Management.docx",
+        "start": 368,
+        "end": 373,
+        "heading": "Commitment, trial and delivery"
+      }
+    ],
+    "steps": [
+      "Confirm fit",
+      "Address open concerns",
+      "Ask for an agreed action",
+      "Clarify ownership and timing"
+    ],
+    "related": [
+      "spin-selling",
+      "sales-objections",
+      "negotiation-process"
+    ],
+    "notes": [
+      "The claims that 80% of sales require five follow-up calls and 44% of representatives stop after one have no cited evidence here.",
+      "Assumed shipment dates and “dilute influence” are retained for critical study, not recommended as substitutes for explicit agreement."
+    ],
+    "collection": "sales-playbook",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "customer-retention",
+    "title": "Customer retention, referrals and service quality",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Connect ongoing service, referral conversations, customer-experience design and the five service-quality dimensions.",
+    "takeaway": "Deliver the promised experience and use feedback to improve it before asking for more business.",
+    "ranges": [
+      {
+        "document": "Sales Management.docx",
+        "start": 373,
+        "end": 387,
+        "heading": "Service, referrals and the seven Es"
+      },
+      {
+        "document": "Sales Management.docx",
+        "start": 407,
+        "end": 419,
+        "heading": "Customer experience, service quality and reported statistics"
+      }
+    ],
+    "steps": [
+      "Deliver promises",
+      "Listen to feedback",
+      "Resolve issues",
+      "Ask permission for referrals"
+    ],
+    "related": [
+      "customer-feedback",
+      "customer-systems",
+      "balanced-scorecard"
+    ],
+    "notes": [
+      "The five-times acquisition-cost claim, 86% willingness-to-pay figure and 1% expectations figure lack a traceable study and sample in these notes. They are source claims, not current benchmarks.",
+      "The “four servicing contacts a year” suggestion is not a universal cadence. Agree an appropriate schedule with each customer.",
+      "The NPS sentence ends “recommend a customer”, which appears to be a wording error. Its supplied wording is retained; the related feedback guide supplies the wider context."
+    ],
+    "collection": "sales-playbook",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "customer-systems",
+    "title": "CRM and customer experience: connect insights to service",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Explore the collection’s CRM and CEM functions across marketing, sales, support, collaboration and customer experience.",
+    "takeaway": "A system’s value comes from useful information and coordinated action across the customer journey.",
+    "ranges": [
+      {
+        "document": "Sales Management.docx",
+        "start": 387,
+        "end": 407,
+        "heading": "CRM, social insights, collaboration and CEM"
+      }
+    ],
+    "steps": [
+      "Connect insights",
+      "Coordinate responses",
+      "Support collaboration",
+      "Improve the customer journey"
+    ],
+    "related": [
+      "customer-retention",
+      "customer-feedback",
+      "sales-account-planning"
+    ],
+    "notes": [
+      "This is a functional inventory, not a specification for collecting personal information or an endorsement of any product. “Unpaid armies” is source wording for peer participation, not a recommended description of customers."
+    ],
+    "collection": "sales-playbook",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "sales-revenue-planning",
+    "title": "Sales planning: connect customer value, activity and revenue",
+    "topic": "Business & Management",
+    "group": "Sales leadership & operations",
+    "summary": "Review planning horizons, customer focus, channel choices and the conditions for scaling successful sales work.",
+    "takeaway": "A revenue plan needs customer value, delivery capacity and sustainable economics—not just more sales activity.",
+    "ranges": [
+      {
+        "document": "Sales.docx",
+        "start": 67,
+        "end": 81,
+        "heading": "Planning horizons, customer focus and sales channels"
+      }
+    ],
+    "steps": [
+      "Set the horizon",
+      "Identify customer value",
+      "Align channels and capacity",
+      "Review performance"
+    ],
+    "related": [
+      "sales-forecasting",
+      "sales-coaching",
+      "balanced-scorecard"
+    ],
+    "notes": [],
+    "collection": "sales-playbook",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "sales-account-planning",
+    "title": "Account planning: retain, expand and coordinate",
+    "topic": "Business & Management",
+    "group": "Sales leadership & operations",
+    "summary": "Bring account objectives, retention, expansion, activity planning and complementary sales skills into one working view.",
+    "takeaway": "An account plan should connect a customer’s needs with shared responsibilities and next actions.",
+    "ranges": [
+      {
+        "document": "Sales Management.docx",
+        "start": 76,
+        "end": 91,
+        "heading": "Account planning and sales-team roles"
+      }
+    ],
+    "steps": [
+      "Understand the account",
+      "Map relationships",
+      "Plan retention and expansion",
+      "Coordinate skills"
+    ],
+    "related": [
+      "sales-buyer-roles",
+      "customer-retention",
+      "sales-coaching"
+    ],
+    "notes": [
+      "Hunter, farmer, technician and consultant are role metaphors in the notes, not fixed personality types."
+    ],
+    "collection": "sales-playbook",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "sales-forecasting",
+    "title": "Sales forecasting: methods named in the collection",
+    "topic": "Business & Management",
+    "group": "Sales leadership & operations",
+    "summary": "Distinguish past-sales extrapolation, market-potential estimates and the named market build-up and factor methods.",
+    "takeaway": "Match a forecast method to the available evidence and make its assumptions visible.",
+    "ranges": [
+      {
+        "document": "Sales Management.docx",
+        "start": 91,
+        "end": 96,
+        "heading": "Forecasting approaches"
+      }
+    ],
+    "steps": [
+      "Choose the question",
+      "Inspect the data",
+      "State assumptions",
+      "Review uncertainty"
+    ],
+    "related": [
+      "sales-revenue-planning",
+      "market-sizing",
+      "scenario-planning"
+    ],
+    "notes": [
+      "Only method names are supplied. No formula, example dataset, calculation or claimed forecast accuracy has been invented."
+    ],
+    "collection": "sales-playbook",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "sales-leadership",
+    "title": "Sales leadership: purpose, accountability and team learning",
+    "topic": "Business & Management",
+    "group": "Sales leadership & operations",
+    "summary": "Connect purpose, leading indicators, coaching conditions, pressure, feedback and meeting debriefs.",
+    "takeaway": "Make expectations and support clear, then review outcomes and learn from the work.",
+    "ranges": [
+      {
+        "document": "Sales Management.docx",
+        "start": 28,
+        "end": 44,
+        "heading": "Leading indicators and purpose"
+      },
+      {
+        "document": "Sales Management.docx",
+        "start": 96,
+        "end": 103,
+        "heading": "Assessment labels in the notes"
+      },
+      {
+        "document": "Sales Management.docx",
+        "start": 103,
+        "end": 131,
+        "heading": "Working under pressure, leadership and debriefs"
+      }
+    ],
+    "steps": [
+      "Clarify purpose",
+      "Set shared goals",
+      "Support and practice",
+      "Review accountability",
+      "Learn together"
+    ],
+    "related": [
+      "sales-coaching",
+      "high-performance-teams",
+      "eos-operating-system"
+    ],
+    "notes": [
+      "IQ/AQ/TQ/EQ, DISC and MBTI appear as an inventory of assessment ideas, without validation evidence or a hiring method. The source’s “Emotional Quotation” wording is preserved as an apparent label error."
+    ],
+    "collection": "sales-playbook",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "sales-coaching",
+    "title": "Sales coaching: opportunities, pipeline, skills and territories",
+    "topic": "Business & Management",
+    "group": "Sales leadership & operations",
+    "summary": "Use the collection’s coaching prompts across customer context, opportunity progress, accounts, skills and territory planning.",
+    "takeaway": "Choose a coaching question that improves a specific decision or behavior, then agree an action and review it.",
+    "ranges": [
+      {
+        "document": "Sales Management.docx",
+        "start": 131,
+        "end": 166,
+        "heading": "Five coaching perspectives and a changing buying environment"
+      },
+      {
+        "document": "Sales Management.docx",
+        "start": 166,
+        "end": 186,
+        "heading": "Coaching goals and operational outcomes"
+      }
+    ],
+    "steps": [
+      "Understand context",
+      "Inspect the opportunity",
+      "Coach the skill",
+      "Agree action",
+      "Review outcomes"
+    ],
+    "related": [
+      "sales-leadership",
+      "sales-account-planning",
+      "sales-revenue-planning"
+    ],
+    "notes": [],
+    "collection": "sales-playbook",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "sales-ethics-examples",
+    "title": "Value selling and misleading offers: examine the examples",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Read the collection’s performance-zone labels, dead-donkey story and bundled-offer example as prompts for critical judgment.",
+    "takeaway": "Customer value requires an accurate account of what is being offered, not merely an attractive sales frame.",
+    "ranges": [
+      {
+        "document": "Sales Management.docx",
+        "start": 20,
+        "end": 28,
+        "heading": "Performance labels and questionable selling examples"
+      }
+    ],
+    "steps": [
+      "Describe the offer",
+      "Check what is disclosed",
+      "Assess customer value",
+      "Consider consequences"
+    ],
+    "related": [
+      "sales-process",
+      "persuasion-evidence",
+      "business-responsibility"
+    ],
+    "notes": [
+      "The dead-donkey raffle and Moutai/house/car story have no documented source or outcome. They are preserved as anecdotes, not factual case studies or recommended sales methods.",
+      "The four performance zones are source labels, not an assessment of any individual."
+    ],
+    "collection": "sales-playbook",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "listening-and-rapport",
+    "title": "Listening and rapport: understand before responding",
+    "topic": "Communication & Personal Development",
+    "group": "Communication & influence",
+    "summary": "Explore the Rogerian-style prompts, reflective listening and verbal and nonverbal aspects of a customer conversation.",
+    "takeaway": "Confirm what a person means rather than assuming that a gesture or phrase reveals their intentions.",
+    "ranges": [
+      {
+        "document": "Sales.docx",
+        "start": 0,
+        "end": 13,
+        "heading": "Rogerian-style listening and perspective taking"
+      },
+      {
+        "document": "Sales Management.docx",
+        "start": 243,
+        "end": 262,
+        "heading": "Rapport, voice and physical communication"
+      },
+      {
+        "document": "Sales Management.docx",
+        "start": 311,
+        "end": 316,
+        "heading": "Nonverbal communication prompts"
+      }
+    ],
+    "steps": [
+      "Listen without interrupting",
+      "Reflect meaning",
+      "Ask for clarification",
+      "Adapt respectfully"
+    ],
+    "related": [
+      "clear-communication",
+      "negotiation-principled",
+      "nlp-communication-stances"
+    ],
+    "notes": [
+      "Eye contact, proximity, touch and gestures vary with preference, culture and accessibility. Ask and adapt; they are not universal indicators of rapport."
+    ],
+    "collection": "",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "clear-communication",
+    "title": "Clear communication: the seven Cs and visual presentation",
+    "topic": "Communication & Personal Development",
+    "group": "Communication & influence",
+    "summary": "Connect coherent, clear, concise, correct, complete, courteous and concrete messages with the supplied presentation-design prompts.",
+    "takeaway": "Make the message easy to understand and check whether the audience understood it as intended.",
+    "ranges": [
+      {
+        "document": "Sales.docx",
+        "start": 25,
+        "end": 38,
+        "heading": "The seven Cs"
+      },
+      {
+        "document": "Sales Management.docx",
+        "start": 275,
+        "end": 285,
+        "heading": "Slide hierarchy, whitespace and consistency"
+      }
+    ],
+    "steps": [
+      "Choose one message",
+      "Structure clearly",
+      "Use relevant visuals",
+      "Check understanding"
+    ],
+    "related": [
+      "listening-and-rapport",
+      "persuasion-evidence",
+      "sales-question-bank"
+    ],
+    "notes": [
+      "“Understand a slide within three seconds” and “one idea per slide” are design heuristics from the notes, not measured universal thresholds.",
+      "“Bossification” is named without an explanation. No missing definition is invented."
+    ],
+    "collection": "",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "persuasion-evidence",
+    "title": "Persuasion: credibility, emotion, reasoning and evidence",
+    "topic": "Communication & Personal Development",
+    "group": "Communication & influence",
+    "summary": "Compare ethos, pathos and logos with social proof, benefits and the collection’s more questionable attention tactics.",
+    "takeaway": "Use evidence and relevant benefits transparently; an emotional response does not establish that a claim is true.",
+    "ranges": [
+      {
+        "document": "Sales.docx",
+        "start": 38,
+        "end": 47,
+        "heading": "Credibility, emotion and logic"
+      },
+      {
+        "document": "Sales.docx",
+        "start": 60,
+        "end": 67,
+        "heading": "Testimonials, endorsements and supporting evidence"
+      },
+      {
+        "document": "Sales Management.docx",
+        "start": 262,
+        "end": 275,
+        "heading": "Benefits, influence and attention examples"
+      }
+    ],
+    "steps": [
+      "Establish credibility",
+      "Explain relevant value",
+      "Support claims",
+      "Invite questions"
+    ],
+    "related": [
+      "listening-and-rapport",
+      "sales-ethics-examples",
+      "negotiation-principled"
+    ],
+    "notes": [
+      "The queueing, sexual/threatening stimuli and “winner images” statements are unsourced source claims. They are discussed as influence claims, not endorsed tactics."
+    ],
+    "collection": "",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "needs-and-motivation",
+    "title": "Needs and motivation: use models as questions",
+    "topic": "Communication & Personal Development",
+    "group": "Communication & influence",
+    "summary": "Explore the supplied hierarchy-of-needs notes and distinguish a model’s categories from an individual’s actual priorities.",
+    "takeaway": "Ask what matters to the person rather than assigning a need or motive based on a label.",
+    "ranges": [
+      {
+        "document": "Sales.docx",
+        "start": 13,
+        "end": 25,
+        "heading": "Needs, goals and checking understanding"
+      }
+    ],
+    "steps": [
+      "Ask about goals",
+      "Listen for priorities",
+      "Check your interpretation",
+      "Relate the proposal to stated needs"
+    ],
+    "related": [
+      "nlp-preferences",
+      "listening-and-rapport",
+      "stakeholder-management"
+    ],
+    "notes": [
+      "The notes provide Maslow’s categories but do not establish a fixed order that every person follows."
+    ],
+    "collection": "",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "innovation-pathways",
+    "title": "Innovation: discovery, incubation and acceleration",
+    "topic": "Business & Management",
+    "group": "Growth & innovation",
+    "summary": "Organize the source’s innovation categories, venturing approaches, reinvention motives and transformation prompts.",
+    "takeaway": "Different ideas need different experiments and levels of commitment; define the opportunity before scaling.",
+    "ranges": [
+      {
+        "document": "Sales.docx",
+        "start": 92,
+        "end": 123,
+        "heading": "Innovation categories, DIA, venturing and transformation"
+      }
+    ],
+    "steps": [
+      "Discover",
+      "Incubate",
+      "Accelerate",
+      "Review assumptions"
+    ],
+    "related": [
+      "lean-startup",
+      "growth-horizons",
+      "growth-methods"
+    ],
+    "notes": [
+      "The source’s incremental/breakthrough technology-versus-market labels are simplified and lack a cited model. They remain source classifications, not universal definitions.",
+      "“Blue sky”, “jump shot” and “layups” are metaphors in this collection."
+    ],
+    "collection": "",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "business-model-canvas",
+    "title": "Business model canvas: connect value and economics",
+    "topic": "Business & Management",
+    "group": "Strategy foundations",
+    "summary": "Look across the nine supplied business-model components rather than treating a product as the whole business.",
+    "takeaway": "A model connects who is served, the value delivered, the activities and relationships required, and the economics.",
+    "ranges": [
+      {
+        "document": "Sales.docx",
+        "start": 140,
+        "end": 143,
+        "heading": "Nine components in the supplied notes"
+      }
+    ],
+    "steps": [
+      "Customer segments",
+      "Value proposition",
+      "Delivery system",
+      "Costs and revenue"
+    ],
+    "related": [
+      "value-chain",
+      "market-sizing",
+      "innovation-pathways"
+    ],
+    "notes": [
+      "The source lists the components without a worked canvas. No company-specific canvas has been fabricated."
+    ],
+    "collection": "",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "business-responsibility",
+    "title": "Business responsibility: CSR and the triple bottom line",
+    "topic": "Business & Management",
+    "group": "Leadership & organizational change",
+    "summary": "Compare the supplied economic, legal, ethical and philanthropic responsibilities with people, planet and profit.",
+    "takeaway": "Use the models to examine different dimensions of responsibility rather than reducing the decision to one metric.",
+    "ranges": [
+      {
+        "document": "Sales.docx",
+        "start": 143,
+        "end": 146,
+        "heading": "Carroll’s hierarchy and Elkington’s triple bottom line"
+      }
+    ],
+    "steps": [
+      "Economic",
+      "Legal",
+      "Ethical",
+      "Philanthropic"
+    ],
+    "related": [
+      "stakeholder-management",
+      "strategy-evaluation",
+      "sales-ethics-examples"
+    ],
+    "notes": [
+      "The collection supplies names and category lists, not a compliance checklist or sustainability measurement method."
+    ],
+    "collection": "",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "business-lessons-risk",
+    "title": "Business lessons: flexibility, leverage and profit models",
+    "topic": "Business & Management",
+    "group": "Decisions & execution",
+    "summary": "Read the source’s dot-com lessons, leverage suggestions and profit-model shifts as hypotheses to examine.",
+    "takeaway": "A business lesson needs context, evidence and a view of the downside before it becomes a decision.",
+    "ranges": [
+      {
+        "document": "Sales.docx",
+        "start": 146,
+        "end": 153,
+        "heading": "Lessons, leverage and changing the basis of profit"
+      }
+    ],
+    "steps": [
+      "Identify the claim",
+      "Examine context",
+      "Assess downside",
+      "Test assumptions"
+    ],
+    "related": [
+      "risk-management",
+      "lean-startup",
+      "strategy-evaluation"
+    ],
+    "notes": [
+      "“Gamble small and win big” and “use future’s money” are source slogans, not financing advice or evidence of favorable returns.",
+      "The dot-com lessons are attributed only as a list; the original author and cases are not given."
+    ],
+    "collection": "",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "growth-methods",
+    "appendTo": "growth-methods",
+    "ranges": [
+      {
+        "document": "Sales.docx",
+        "start": 81,
+        "end": 92,
+        "heading": "Additional growth notes: scale, acquisition and partnerships"
+      }
+    ],
+    "related": [
+      "innovation-pathways"
+    ],
+    "notes": [
+      "The source’s “build monopoly” list is retained as a strategy claim, not evidence that any company can secure a monopoly or should disregard competition constraints."
+    ]
+  },
+  {
+    "slug": "resource-base",
+    "appendTo": "resource-base",
+    "ranges": [
+      {
+        "document": "Sales.docx",
+        "start": 123,
+        "end": 126,
+        "heading": "Resource-based view in the sales collection"
+      }
+    ],
+    "related": [],
+    "notes": []
+  },
+  {
+    "slug": "stakeholder-management",
+    "appendTo": "stakeholder-management",
+    "ranges": [
+      {
+        "document": "Sales.docx",
+        "start": 126,
+        "end": 128,
+        "heading": "Mitchell stakeholder categories named in the collection"
+      }
+    ],
+    "related": [],
+    "notes": [
+      "The new source lists stakeholder types without explaining the model’s power, legitimacy and urgency dimensions; those missing explanations are not invented."
+    ]
+  },
+  {
+    "slug": "strategic-management-cycle",
+    "appendTo": "strategic-management-cycle",
+    "ranges": [
+      {
+        "document": "Sales.docx",
+        "start": 128,
+        "end": 140,
+        "heading": "Execution ownership, drift, metrics and reinvestment"
+      }
+    ],
+    "related": [
+      "sales-revenue-planning"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "nlp-perspectives",
+    "title": "NLP perspectives and modeling: what the notes propose",
+    "topic": "Communication & Personal Development",
+    "group": "NLP perspectives & preferences",
+    "summary": "Read the collection’s descriptions of modeling, first- and third-person perspectives and shifts in abstraction.",
+    "takeaway": "Treat perspective exercises as ways to ask different questions, not proof of another person’s internal experience.",
+    "ranges": [
+      {
+        "document": "NLP.docx",
+        "start": 0,
+        "end": 9,
+        "heading": "Modeling and re-imprinting claims"
+      },
+      {
+        "document": "NLP.docx",
+        "start": 111,
+        "end": 122,
+        "heading": "Chunking and matching"
+      },
+      {
+        "document": "NLP.docx",
+        "start": 183,
+        "end": 188,
+        "heading": "Associated and dissociated perspectives"
+      },
+      {
+        "document": "Sales Management.docx",
+        "start": 304,
+        "end": 311,
+        "heading": "NLP rapport and change assumptions in the sales notes"
+      }
+    ],
+    "steps": [
+      "Observe",
+      "Describe the perspective",
+      "Check assumptions",
+      "Compare interpretations"
+    ],
+    "related": [
+      "nlp-language-patterns",
+      "nlp-development-claims",
+      "listening-and-rapport"
+    ],
+    "notes": [
+      "The re-imprinting description claims healing effects but supplies no evidence or procedure. It is retained as a source claim, not a treatment recommendation.",
+      "Modeling another person’s perspective does not establish what that person actually thinks or feels.",
+      "Breathing/body matching, the bell-jar distraction label and the positive-intention assumption are source claims. They do not establish consent, agreement or effectiveness."
+    ],
+    "collection": "nlp-reference",
+    "format": "guide",
+    "interpretation": "",
+    "references": [
+      {
+        "title": "Sturt et al. (2012): systematic review of NLP health outcomes",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3481516/"
+      }
+    ]
+  },
+  {
+    "slug": "nlp-language-patterns",
+    "title": "NLP language patterns: clarify assumptions and missing detail",
+    "topic": "Communication & Personal Development",
+    "group": "NLP language & communication",
+    "summary": "Explore the source’s meta-model terms, examples, clarifying questions, metaphors and indirect-language descriptions.",
+    "takeaway": "A clarifying question can uncover an assumption; it does not prove a psychological theory or grant permission to manipulate someone.",
+    "ranges": [
+      {
+        "document": "NLP.docx",
+        "start": 9,
+        "end": 71,
+        "heading": "Generalization, deletion, distortion and example questions"
+      },
+      {
+        "document": "NLP.docx",
+        "start": 71,
+        "end": 95,
+        "heading": "Indirect language, stories and metaphor"
+      },
+      {
+        "document": "NLP.docx",
+        "start": 403,
+        "end": 407,
+        "heading": "Responding to missing information and changing abstraction"
+      }
+    ],
+    "steps": [
+      "Notice the statement",
+      "Identify missing detail",
+      "Ask a clear question",
+      "Check the response"
+    ],
+    "related": [
+      "clear-communication",
+      "nlp-perspectives",
+      "negotiation-principled"
+    ],
+    "notes": [
+      "“Moral Operator” appears to refer to modal language such as must and should; the original term is retained and the possible terminology error is disclosed.",
+      "Claims about bypassing resistance or influencing the unconscious are source descriptions, not established results."
+    ],
+    "collection": "nlp-reference",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "nlp-communication-stances",
+    "title": "Communication stances: the Satir categories in the notes",
+    "topic": "Communication & Personal Development",
+    "group": "NLP language & communication",
+    "summary": "Combine the overlapping descriptions of blaming, placating, detached reasoning, distraction and congruent communication.",
+    "takeaway": "Use the categories to reflect on a conversation, not to permanently label the person.",
+    "ranges": [
+      {
+        "document": "NLP.docx",
+        "start": 95,
+        "end": 111,
+        "heading": "Five communication stances"
+      },
+      {
+        "document": "NLP.docx",
+        "start": 254,
+        "end": 264,
+        "heading": "The repeated communication model and congruence"
+      }
+    ],
+    "steps": [
+      "Notice behavior",
+      "Consider context",
+      "Express meaning clearly",
+      "Check mutual understanding"
+    ],
+    "related": [
+      "listening-and-rapport",
+      "nlp-preferences",
+      "high-performance-teams"
+    ],
+    "notes": [
+      "Satir’s communication categories are presented as the source’s model descriptions. They are not diagnoses or a validated personality assessment."
+    ],
+    "collection": "nlp-reference",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "nlp-preferences",
+    "title": "Preferences and motivation: an annotated sorting glossary",
+    "topic": "Communication & Personal Development",
+    "group": "NLP perspectives & preferences",
+    "summary": "Browse the collection’s sensory, motivational, social, cognitive and value-based sorting terms with all supplied examples.",
+    "takeaway": "People vary across situations; labels are prompts to ask and observe, not fixed explanations of behavior.",
+    "ranges": [
+      {
+        "document": "NLP.docx",
+        "start": 122,
+        "end": 153,
+        "heading": "Sensory language, evaluation and attention"
+      },
+      {
+        "document": "NLP.docx",
+        "start": 153,
+        "end": 183,
+        "heading": "Purpose, problem orientation, change and reference frames"
+      },
+      {
+        "document": "NLP.docx",
+        "start": 188,
+        "end": 222,
+        "heading": "Decision style, convincing, intensity and motivation"
+      },
+      {
+        "document": "NLP.docx",
+        "start": 222,
+        "end": 254,
+        "heading": "Values, responsibility, trust, social energy and the caution about labels"
+      },
+      {
+        "document": "NLP.docx",
+        "start": 264,
+        "end": 298,
+        "heading": "Cooperation, social participation, information and motivation"
+      },
+      {
+        "document": "NLP.docx",
+        "start": 298,
+        "end": 335,
+        "heading": "Agency, confidence, time, processing and personal values"
+      }
+    ],
+    "steps": [
+      "Read the term",
+      "Notice the example",
+      "Consider context",
+      "Ask rather than assume"
+    ],
+    "related": [
+      "needs-and-motivation",
+      "sales-buyer-roles",
+      "nlp-communication-stances"
+    ],
+    "notes": [
+      "This glossary mixes NLP terminology with broader personality, motivation and psychological concepts. It is not one unified or validated taxonomy.",
+      "Descriptions of sensory preferences are source claims, not evidence that matching sensory words improves communication or that people have fixed learning types.",
+      "The source’s “Beware of All Labels” caution is retained alongside the definitions."
+    ],
+    "collection": "nlp-reference",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "nlp-learning-problem-solving",
+    "title": "Learning and problem solving: terms from the NLP collection",
+    "topic": "Communication & Personal Development",
+    "group": "Learning & personal development",
+    "summary": "Read the brief descriptions of language learning, rhythmic learning, accelerated learning, contrasting ideas and problem definition.",
+    "takeaway": "Define a specific learning or problem-solving task before selecting a method.",
+    "ranges": [
+      {
+        "document": "NLP.docx",
+        "start": 335,
+        "end": 349,
+        "heading": "Learning, problem definition and the D.V.P. label"
+      }
+    ],
+    "steps": [
+      "Define the task",
+      "Break it down",
+      "Try a method",
+      "Review evidence of progress"
+    ],
+    "related": [
+      "personal-productivity",
+      "strategic-thinking",
+      "nlp-language-patterns"
+    ],
+    "notes": [
+      "Several entries are brief generic descriptions without a complete protocol or original reference.",
+      "“D.V.P.” is expanded as deletions, generalizations and distortions in the source, which does not match its initials. No alternative expansion has been invented."
+    ],
+    "collection": "nlp-reference",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "nlp-development-claims",
+    "title": "Personal development and therapeutic claims: a critical reference",
+    "topic": "Communication & Personal Development",
+    "group": "Learning & personal development",
+    "summary": "Retain the collection’s named techniques and descriptions while distinguishing metaphors, reflective prompts and unverified therapeutic claims.",
+    "takeaway": "A named method and a confident description are not evidence of effectiveness or a complete treatment protocol.",
+    "ranges": [
+      {
+        "document": "NLP.docx",
+        "start": 349,
+        "end": 371,
+        "heading": "Confidence, boundaries, attention, somatic and vision claims"
+      },
+      {
+        "document": "NLP.docx",
+        "start": 371,
+        "end": 387,
+        "heading": "Addiction-related claims, inner conflict, beliefs, memory metaphors and values"
+      },
+      {
+        "document": "NLP.docx",
+        "start": 387,
+        "end": 403,
+        "heading": "Trauma-related terms, reprocessing, physiology and timeline claims"
+      }
+    ],
+    "steps": [
+      "Identify the claim",
+      "Check what is actually supplied",
+      "Separate metaphor from evidence",
+      "Consult appropriate evidence"
+    ],
+    "related": [
+      "nlp-perspectives",
+      "nlp-language-patterns",
+      "needs-and-motivation"
+    ],
+    "notes": [
+      "These entries are descriptions from the supplied notes, not instructions for treating trauma, compulsive behavior, eating difficulties or other health conditions. No therapeutic exercises or missing protocols have been generated.",
+      "The 2012 Sturt et al. systematic review found limited evidence for NLP health outcomes and emphasized the small quantity and low quality of the research. This is a dated evidence note, not a claim that every listed concept has been individually evaluated.",
+      "The source mentions EMDR alongside NLP under reprocessing. That juxtaposition does not establish that the methods, evidence or practitioner requirements are equivalent.",
+      "“Binary code of forgetfulness”, “inner hero” and other named patterns may be metaphors or course-specific labels; original manuals and validation are not supplied.",
+      "The “Inner Peace Questionnaire” is named but contains no actual questionnaire items."
+    ],
+    "collection": "nlp-reference",
+    "format": "guide",
+    "interpretation": "",
+    "references": [
+      {
+        "title": "Sturt et al. (2012): systematic review of NLP health outcomes",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3481516/"
+      }
+    ]
+  },
+  {
+    "slug": "creative-thinking-exercises",
+    "title": "Dot exercises: examine the assumptions before solving",
+    "topic": "Communication & Personal Development",
+    "group": "Learning & personal development",
+    "summary": "View the two supplied dot arrangements and distinguish what is visible from the missing exercise instructions.",
+    "takeaway": "A diagram without a question is incomplete; do not infer a required move, line count or solution.",
+    "ranges": [
+      {
+        "document": "Sales Attachment.docx",
+        "start": 0,
+        "end": 2,
+        "heading": "The supplied exercise labels"
+      }
+    ],
+    "steps": [
+      "Observe the arrangement",
+      "Identify missing rules",
+      "Ask what is being tested"
+    ],
+    "related": [
+      "strategic-thinking",
+      "innovation-pathways"
+    ],
+    "notes": [
+      "The source gives a 4×4 arrangement with four filled dots and a 3×3 arrangement of open dots. It does not provide a task, constraints, answers or explanation of the filled dots. No solution is invented."
+    ],
+    "collection": "",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "network-connections",
+    "title": "Network connections: how pairwise links grow",
+    "topic": "Business & Management",
+    "group": "Resources & advantage",
+    "summary": "Explore the supplied three-to-fourteen-person diagrams and the count of possible undirected connections.",
+    "takeaway": "More possible connections increase coordination possibilities and complexity; the count alone does not measure network value.",
+    "ranges": [
+      {
+        "document": "Sales Attachment.docx",
+        "start": 2,
+        "end": 3,
+        "heading": "The source’s network-effect label"
+      }
+    ],
+    "steps": [
+      "Count participants",
+      "Count possible pairs",
+      "Distinguish links from realized value"
+    ],
+    "related": [
+      "high-performance-teams",
+      "growth-methods"
+    ],
+    "notes": [
+      "The image models a complete undirected graph, with one possible link per distinct pair and no self-links. Actual social networks can be incomplete, directed or weighted.",
+      "The “network effect” heading does not demonstrate a business network effect or establish that revenue, utility or company value grows with the number of possible pairs."
+    ],
+    "collection": "",
+    "format": "guide",
+    "interpretation": "",
+    "references": []
+  },
+  {
+    "slug": "art-of-war-planning",
+    "title": "The Art of War: Planning and assessment",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Compare purpose, conditions, leadership, discipline and preparation before committing resources.",
+    "takeaway": "Preparation is comparative: understand your own position and the conditions around you.",
+    "ranges": [
+      {
+        "document": "Art of War.docx",
+        "start": 0,
+        "end": 17,
+        "heading": "Five factors in preparation"
+      },
+      {
+        "document": "Art of War.docx",
+        "start": 17,
+        "end": 29,
+        "heading": "Comparative assessment"
+      },
+      {
+        "document": "Art of War.docx",
+        "start": 29,
+        "end": 38,
+        "heading": "Deception and preparation in the historical text"
+      }
+    ],
+    "steps": [
+      "Read the summary",
+      "Study the chapter",
+      "Consider the reflection"
+    ],
+    "related": [
+      "art-of-war",
+      "strategic-thinking",
+      "strategy-evaluation"
+    ],
+    "notes": [
+      "Historical military writing is retained in the supplied wording. Business reflections are editorial additions, not instructions attributed to Sun Tzu.",
+      "The supplied file does not identify its translation or edition and contains typographical errors and some reordered passages. A separate Lionel Giles edition is linked for comparison; no claim of a verified textual match is made."
+    ],
+    "collection": "art-of-war",
+    "format": "chapter",
+    "interpretation": "For a business decision, write down the assumptions behind the plan and what evidence would change them. This is an editorial reflection, not a claim that commercial relationships are warfare.",
+    "references": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-campaign-costs",
+    "title": "The Art of War: Campaign costs and duration",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Read the supplied discussion of resource strain, supply and the costs of prolonged campaigns.",
+    "takeaway": "Duration and resource commitments are part of a strategy’s consequences.",
+    "ranges": [
+      {
+        "document": "Art of War.docx",
+        "start": 38,
+        "end": 47,
+        "heading": "The strain of prolonged campaigns"
+      },
+      {
+        "document": "Art of War.docx",
+        "start": 47,
+        "end": 58,
+        "heading": "Supply, rewards and the cost of commitment"
+      }
+    ],
+    "steps": [
+      "Read the summary",
+      "Study the chapter",
+      "Consider the reflection"
+    ],
+    "related": [
+      "art-of-war",
+      "strategic-thinking",
+      "strategy-evaluation"
+    ],
+    "notes": [
+      "Historical military writing is retained in the supplied wording. Business reflections are editorial additions, not instructions attributed to Sun Tzu.",
+      "The supplied file does not identify its translation or edition and contains typographical errors and some reordered passages. A separate Lionel Giles edition is linked for comparison; no claim of a verified textual match is made."
+    ],
+    "collection": "art-of-war",
+    "format": "chapter",
+    "interpretation": "Ask how delay affects cash, capacity and the people doing the work. The historical discussion of plunder and military supply is retained as historical text, not transferred into business practice.",
+    "references": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-stratagem",
+    "title": "The Art of War: Strategy before confrontation",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Explore the text’s preference for preserving resources, understanding opponents and choosing when to act.",
+    "takeaway": "Choosing whether to engage can matter as much as executing an engagement.",
+    "ranges": [
+      {
+        "document": "Art of War.docx",
+        "start": 58,
+        "end": 70,
+        "heading": "Preservation, confrontation and relative strength"
+      },
+      {
+        "document": "Art of War.docx",
+        "start": 70,
+        "end": 82,
+        "heading": "Leadership interference and knowing the situation"
+      }
+    ],
+    "steps": [
+      "Read the summary",
+      "Study the chapter",
+      "Consider the reflection"
+    ],
+    "related": [
+      "art-of-war",
+      "strategic-thinking",
+      "strategy-evaluation"
+    ],
+    "notes": [
+      "Historical military writing is retained in the supplied wording. Business reflections are editorial additions, not instructions attributed to Sun Tzu.",
+      "The supplied file does not identify its translation or edition and contains typographical errors and some reordered passages. A separate Lionel Giles edition is linked for comparison; no claim of a verified textual match is made."
+    ],
+    "collection": "art-of-war",
+    "format": "chapter",
+    "interpretation": "Compare alternatives to a costly confrontation, including cooperation or declining a poor-fit opportunity. This is a limited analogy rather than a sales tactic.",
+    "references": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-positioning",
+    "title": "The Art of War: Positioning and preparation",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Read the chapter on defensive preparation, readiness, calculation and favorable conditions.",
+    "takeaway": "Preparation can improve readiness without guaranteeing an outcome.",
+    "ranges": [
+      {
+        "document": "Art of War.docx",
+        "start": 82,
+        "end": 94,
+        "heading": "Preparation and defensive position"
+      },
+      {
+        "document": "Art of War.docx",
+        "start": 94,
+        "end": 105,
+        "heading": "Calculation, readiness and the conditions of success"
+      }
+    ],
+    "steps": [
+      "Read the summary",
+      "Study the chapter",
+      "Consider the reflection"
+    ],
+    "related": [
+      "art-of-war",
+      "strategic-thinking",
+      "strategy-evaluation"
+    ],
+    "notes": [
+      "Historical military writing is retained in the supplied wording. Business reflections are editorial additions, not instructions attributed to Sun Tzu.",
+      "The supplied file does not identify its translation or edition and contains typographical errors and some reordered passages. A separate Lionel Giles edition is linked for comparison; no claim of a verified textual match is made.",
+      "Two pairs of paragraphs repeat verbatim in the source. Each pair is shown once, with both original positions retained in the coverage ledger."
+    ],
+    "collection": "art-of-war",
+    "format": "chapter",
+    "interpretation": "Distinguish factors your team controls from external conditions it cannot guarantee. The duplicated passages in the supplied chapter are displayed once and remain separately mapped in provenance.",
+    "references": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-coordination",
+    "title": "The Art of War: Coordination, energy and timing",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Explore organization, signals, direct and indirect approaches, and the text’s metaphors for coordinated effort.",
+    "takeaway": "Coordinated systems can matter more than isolated individual effort.",
+    "ranges": [
+      {
+        "document": "Art of War.docx",
+        "start": 105,
+        "end": 117,
+        "heading": "Organization and direct and indirect approaches"
+      },
+      {
+        "document": "Art of War.docx",
+        "start": 117,
+        "end": 129,
+        "heading": "Timing, coordination and combined effort"
+      }
+    ],
+    "steps": [
+      "Read the summary",
+      "Study the chapter",
+      "Consider the reflection"
+    ],
+    "related": [
+      "art-of-war",
+      "strategic-thinking",
+      "strategy-evaluation"
+    ],
+    "notes": [
+      "Historical military writing is retained in the supplied wording. Business reflections are editorial additions, not instructions attributed to Sun Tzu.",
+      "The supplied file does not identify its translation or edition and contains typographical errors and some reordered passages. A separate Lionel Giles edition is linked for comparison; no claim of a verified textual match is made."
+    ],
+    "collection": "art-of-war",
+    "format": "chapter",
+    "interpretation": "Clarify roles and communication signals so the team can coordinate. The reading remains historical; claims of military victory are not evidence of business performance.",
+    "references": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-adaptation",
+    "title": "The Art of War: Strengths, weaknesses and adaptation",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Read the discussion of concentration, uncertainty, changing conditions and tactics compared with water.",
+    "takeaway": "A previously successful method may not suit the next situation.",
+    "ranges": [
+      {
+        "document": "Art of War.docx",
+        "start": 129,
+        "end": 146,
+        "heading": "Position, concentration and response"
+      },
+      {
+        "document": "Art of War.docx",
+        "start": 146,
+        "end": 164,
+        "heading": "Uncertainty and adaptation to conditions"
+      }
+    ],
+    "steps": [
+      "Read the summary",
+      "Study the chapter",
+      "Consider the reflection"
+    ],
+    "related": [
+      "art-of-war",
+      "strategic-thinking",
+      "strategy-evaluation"
+    ],
+    "notes": [
+      "Historical military writing is retained in the supplied wording. Business reflections are editorial additions, not instructions attributed to Sun Tzu.",
+      "The supplied file does not identify its translation or edition and contains typographical errors and some reordered passages. A separate Lionel Giles edition is linked for comparison; no claim of a verified textual match is made."
+    ],
+    "collection": "art-of-war",
+    "format": "chapter",
+    "interpretation": "Review a past decision against the current customer, resource and market context. This interpretation does not endorse deception or harm in commercial relationships.",
+    "references": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-maneuvering",
+    "title": "The Art of War: Movement, communication and resource trade-offs",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Explore movement, supplies, group signals, discipline, timing and situational judgment.",
+    "takeaway": "Speed has costs; movement needs resources and coordination.",
+    "ranges": [
+      {
+        "document": "Art of War.docx",
+        "start": 164,
+        "end": 187,
+        "heading": "Movement, speed and supplies"
+      },
+      {
+        "document": "Art of War.docx",
+        "start": 187,
+        "end": 201,
+        "heading": "Signals, morale and situational judgment"
+      }
+    ],
+    "steps": [
+      "Read the summary",
+      "Study the chapter",
+      "Consider the reflection"
+    ],
+    "related": [
+      "art-of-war",
+      "strategic-thinking",
+      "strategy-evaluation"
+    ],
+    "notes": [
+      "Historical military writing is retained in the supplied wording. Business reflections are editorial additions, not instructions attributed to Sun Tzu.",
+      "The supplied file does not identify its translation or edition and contains typographical errors and some reordered passages. A separate Lionel Giles edition is linked for comparison; no claim of a verified textual match is made."
+    ],
+    "collection": "art-of-war",
+    "format": "chapter",
+    "interpretation": "Before accelerating delivery, check dependencies, capacity and communication. This is an editorial analogy, separate from the chapter’s military instructions.",
+    "references": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-judgment",
+    "title": "The Art of War: Flexibility and leadership judgment",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Read the text’s treatment of adapting plans and the five faults it attributes to commanders.",
+    "takeaway": "Good judgment examines both advantages and disadvantages.",
+    "ranges": [
+      {
+        "document": "Art of War.docx",
+        "start": 201,
+        "end": 214,
+        "heading": "Adjusting plans and considering trade-offs"
+      },
+      {
+        "document": "Art of War.docx",
+        "start": 214,
+        "end": 221,
+        "heading": "The five leadership faults in the text"
+      }
+    ],
+    "steps": [
+      "Read the summary",
+      "Study the chapter",
+      "Consider the reflection"
+    ],
+    "related": [
+      "art-of-war",
+      "strategic-thinking",
+      "strategy-evaluation"
+    ],
+    "notes": [
+      "Historical military writing is retained in the supplied wording. Business reflections are editorial additions, not instructions attributed to Sun Tzu.",
+      "The supplied file does not identify its translation or edition and contains typographical errors and some reordered passages. A separate Lionel Giles edition is linked for comparison; no claim of a verified textual match is made."
+    ],
+    "collection": "art-of-war",
+    "format": "chapter",
+    "interpretation": "Use the leadership faults as prompts to examine your own decision-making under pressure, not as a personality test or a definitive assessment of a colleague.",
+    "references": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-observation",
+    "title": "The Art of War: Observation, morale and discipline",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Read the historical discussion of travel conditions, visible signals, morale and leadership.",
+    "takeaway": "Observation needs context; a sign alone may not justify a confident conclusion.",
+    "ranges": [
+      {
+        "document": "Art of War.docx",
+        "start": 221,
+        "end": 239,
+        "heading": "Travel conditions and encampment"
+      },
+      {
+        "document": "Art of War.docx",
+        "start": 239,
+        "end": 261,
+        "heading": "Signs and interpretations in the historical text"
+      },
+      {
+        "document": "Art of War.docx",
+        "start": 261,
+        "end": 267,
+        "heading": "Forethought, trust and discipline"
+      }
+    ],
+    "steps": [
+      "Read the summary",
+      "Study the chapter",
+      "Consider the reflection"
+    ],
+    "related": [
+      "art-of-war",
+      "strategic-thinking",
+      "strategy-evaluation"
+    ],
+    "notes": [
+      "Historical military writing is retained in the supplied wording. Business reflections are editorial additions, not instructions attributed to Sun Tzu.",
+      "The supplied file does not identify its translation or edition and contains typographical errors and some reordered passages. A separate Lionel Giles edition is linked for comparison; no claim of a verified textual match is made."
+    ],
+    "collection": "art-of-war",
+    "format": "chapter",
+    "interpretation": "Separate what you observed from what you inferred. The original military, weather and health claims remain historical source claims rather than modern guidance.",
+    "references": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-terrain",
+    "title": "The Art of War: Terrain, organization and responsibility",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Explore six terrain categories, organizational failures and the responsibilities assigned to leadership.",
+    "takeaway": "The operating context can change what an organization can accomplish.",
+    "ranges": [
+      {
+        "document": "Art of War.docx",
+        "start": 267,
+        "end": 287,
+        "heading": "Six kinds of terrain"
+      },
+      {
+        "document": "Art of War.docx",
+        "start": 287,
+        "end": 300,
+        "heading": "Six organizational calamities"
+      },
+      {
+        "document": "Art of War.docx",
+        "start": 300,
+        "end": 311,
+        "heading": "Leadership responsibility and practical constraints"
+      }
+    ],
+    "steps": [
+      "Read the summary",
+      "Study the chapter",
+      "Consider the reflection"
+    ],
+    "related": [
+      "art-of-war",
+      "strategic-thinking",
+      "strategy-evaluation"
+    ],
+    "notes": [
+      "Historical military writing is retained in the supplied wording. Business reflections are editorial additions, not instructions attributed to Sun Tzu.",
+      "The supplied file does not identify its translation or edition and contains typographical errors and some reordered passages. A separate Lionel Giles edition is linked for comparison; no claim of a verified textual match is made."
+    ],
+    "collection": "art-of-war",
+    "format": "chapter",
+    "interpretation": "Examine practical constraints and role clarity before attributing a setback to individual effort. The terrain categories are historical classifications, not a scored business model.",
+    "references": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-situations",
+    "title": "The Art of War: Nine situations and changing commitments",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Read all nine ground classifications and the chapter’s extended discussion of cohesion, adaptation and commitment.",
+    "takeaway": "Different circumstances call for different judgments; literal military prescriptions do not automatically transfer to organizations.",
+    "ranges": [
+      {
+        "document": "Art of War.docx",
+        "start": 311,
+        "end": 335,
+        "heading": "Nine ground classifications"
+      },
+      {
+        "document": "Art of War.docx",
+        "start": 335,
+        "end": 362,
+        "heading": "Cohesion and commitment in the historical text"
+      },
+      {
+        "document": "Art of War.docx",
+        "start": 362,
+        "end": 389,
+        "heading": "Adapting to situations and the limits of business analogy"
+      }
+    ],
+    "steps": [
+      "Read the summary",
+      "Study the chapter",
+      "Consider the reflection"
+    ],
+    "related": [
+      "art-of-war",
+      "strategic-thinking",
+      "strategy-evaluation"
+    ],
+    "notes": [
+      "Historical military writing is retained in the supplied wording. Business reflections are editorial additions, not instructions attributed to Sun Tzu.",
+      "The supplied file does not identify its translation or edition and contains typographical errors and some reordered passages. A separate Lionel Giles edition is linked for comparison; no claim of a verified textual match is made."
+    ],
+    "collection": "art-of-war",
+    "format": "chapter",
+    "interpretation": "Compare the commitments and exit options in a business plan. Historical commands to conceal information or remove escape routes are retained for study, not endorsed as employee-management methods.",
+    "references": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-fire",
+    "title": "The Art of War: Fire, restraint and irreversible consequences",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Read the supplied historical chapter in context, including its closing argument for caution and restraint.",
+    "takeaway": "Irreversible consequences deserve deliberation beyond the emotion of the moment.",
+    "ranges": [
+      {
+        "document": "Art of War.docx",
+        "start": 389,
+        "end": 404,
+        "heading": "The supplied historical discussion of fire"
+      },
+      {
+        "document": "Art of War.docx",
+        "start": 404,
+        "end": 412,
+        "heading": "Restraint, emotion and irreversible consequences"
+      }
+    ],
+    "steps": [
+      "Read the summary",
+      "Study the chapter",
+      "Consider the reflection"
+    ],
+    "related": [
+      "art-of-war",
+      "strategic-thinking",
+      "strategy-evaluation"
+    ],
+    "notes": [
+      "Historical military writing is retained in the supplied wording. Business reflections are editorial additions, not instructions attributed to Sun Tzu.",
+      "The supplied file does not identify its translation or edition and contains typographical errors and some reordered passages. A separate Lionel Giles edition is linked for comparison; no claim of a verified textual match is made."
+    ],
+    "collection": "art-of-war",
+    "format": "chapter",
+    "interpretation": "Consider which consequences of a decision can be reversed. No modern attack methods or operational extensions are added to this historical text.",
+    "references": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-intelligence",
+    "title": "The Art of War: Intelligence, sources and uncertainty",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Read the historical classification of sources and the text’s emphasis on information before action.",
+    "takeaway": "Information quality matters, and knowing a source does not remove the need to examine its claims.",
+    "ranges": [
+      {
+        "document": "Art of War.docx",
+        "start": 412,
+        "end": 426,
+        "heading": "Foreknowledge and the five source categories"
+      },
+      {
+        "document": "Art of War.docx",
+        "start": 426,
+        "end": 445,
+        "heading": "Source relationships and intelligence in the historical text"
+      }
+    ],
+    "steps": [
+      "Read the summary",
+      "Study the chapter",
+      "Consider the reflection"
+    ],
+    "related": [
+      "art-of-war",
+      "strategic-thinking",
+      "strategy-evaluation"
+    ],
+    "notes": [
+      "Historical military writing is retained in the supplied wording. Business reflections are editorial additions, not instructions attributed to Sun Tzu.",
+      "The supplied file does not identify its translation or edition and contains typographical errors and some reordered passages. A separate Lionel Giles edition is linked for comparison; no claim of a verified textual match is made."
+    ],
+    "collection": "art-of-war",
+    "format": "chapter",
+    "interpretation": "Use legitimate market research and check the credibility of evidence. The original discussion of spies, bribery and coercion is historical material, not a business research playbook.",
+    "references": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "document": "Sales Attachment.docx",
+    "image": "word/media/image1.jpeg",
+    "slug": "creative-thinking-exercises",
+    "title": "The supplied sixteen-dot arrangement",
+    "kind": "dots",
+    "headers": [],
+    "rows": [
+      [
+        "filled",
+        "filled",
+        "open",
+        "open"
+      ],
+      [
+        "open",
+        "open",
+        "open",
+        "open"
+      ],
+      [
+        "filled",
+        "filled",
+        "open",
+        "open"
+      ],
+      [
+        "open",
+        "open",
+        "open",
+        "open"
+      ]
+    ],
+    "note": "Four rows and four columns, with filled dots at row 1 columns 1–2 and row 3 columns 1–2. The source does not state a task or explain the filled dots."
+  },
+  {
+    "document": "Sales Attachment.docx",
+    "image": "word/media/image2.jpeg",
+    "slug": "creative-thinking-exercises",
+    "title": "The supplied nine-dot arrangement",
+    "kind": "dots",
+    "headers": [],
+    "rows": [
+      [
+        "open",
+        "open",
+        "open"
+      ],
+      [
+        "open",
+        "open",
+        "open"
+      ],
+      [
+        "open",
+        "open",
+        "open"
+      ]
+    ],
+    "note": "Three rows and three columns of open dots. No required number of lines, movement rules or answer is supplied."
+  },
+  {
+    "document": "Sales Attachment.docx",
+    "image": "word/media/image3.png",
+    "slug": "network-connections",
+    "title": "Possible pairwise connections",
+    "kind": "network",
+    "headers": [
+      "People",
+      "Possible undirected links"
+    ],
+    "rows": [
+      [
+        "3",
+        "3"
+      ],
+      [
+        "4",
+        "6"
+      ],
+      [
+        "5",
+        "10"
+      ],
+      [
+        "6",
+        "15"
+      ],
+      [
+        "7",
+        "21"
+      ],
+      [
+        "8",
+        "28"
+      ],
+      [
+        "9",
+        "36"
+      ],
+      [
+        "10",
+        "45"
+      ],
+      [
+        "11",
+        "55"
+      ],
+      [
+        "12",
+        "66"
+      ],
+      [
+        "13",
+        "78"
+      ],
+      [
+        "14",
+        "91"
+      ]
+    ],
+    "note": "For n people, a complete undirected network has n × (n − 1) ÷ 2 distinct pairs. The table retains every count in the supplied three-to-fourteen-person diagram. Possible links do not measure realized use or business value."
+  }
+]

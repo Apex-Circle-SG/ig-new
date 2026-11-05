@@ -1,6 +1,6 @@
 # Business & Management library
 
-Status: implemented locally; not pushed.
+Status: original management hub committed and pushed. Its source material remains preserved; the locally implemented sales/communication extension is described in `docs/sales-library-implementation.md`.
 
 ## Source coverage
 
@@ -276,7 +276,7 @@ Selected official further reading was checked for BCG, EOS, Blue Ocean and Kotte
 
 ## Maintenance
 
-Edit `scripts/content-business/plan.json` for semantic classification, framing, source ranges and related links. Edit `figures.json` for manually reviewed visual transcriptions. Run `python3 scripts/content-business/build.py` to regenerate from the retained archive. A replacement archive must be passed explicitly, read and remapped before updating the reviewed archive fingerprint in the generator. The generator rejects unexpected document names and unreviewed embedded charts, files or equations.
+Edit `scripts/content-business/plan.json` for the original management batch’s semantic classification, framing, source ranges and related links. Edit `figures.json` for its reviewed visual transcriptions. Run `python3 scripts/content-business/build.py` to regenerate all retained batches together. New material must be read and mapped before adding its source archive and reviewed fingerprint in `batches.json`; do not replace the management archive. The generator rejects unexpected document names and unreviewed embedded charts, files or equations.
 
 Do not use source ranges as an automated classifier for future material. Read new content and revise its mapping. Source offsets are zero-based indices of nonempty paragraphs in document order.
 

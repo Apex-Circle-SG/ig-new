@@ -1,0 +1,414 @@
+[
+  {
+    "slug": "business-management",
+    "title": "Business & Management: from analysis to action",
+    "topic": "Business & Management",
+    "group": "Start here",
+    "summary": "Explore strategy, competition, leadership, sales, negotiation and productivity through connected guides and detailed collection notes.",
+    "intro": "Start with a decision, browse a business topic, or follow the sales and strategy-classics collections.",
+    "groups": [
+      {
+        "name": "Strategy foundations",
+        "description": "Understand the choices, assumptions and levels of strategy."
+      },
+      {
+        "name": "Markets & competition",
+        "description": "Read the environment, identify rivals and choose a position."
+      },
+      {
+        "name": "Resources & advantage",
+        "description": "Examine the capabilities, networks and activities behind customer value."
+      },
+      {
+        "name": "Growth & innovation",
+        "description": "Explore new products, markets and ways to develop the business."
+      },
+      {
+        "name": "Decisions & execution",
+        "description": "Evaluate options, allocate resources and measure progress."
+      },
+      {
+        "name": "Leadership & organizational change",
+        "description": "Build teams and support the organizational work of change."
+      },
+      {
+        "name": "Sales & customer relationships",
+        "description": "Find fit, discover needs, agree decisions and support customers."
+      },
+      {
+        "name": "Sales leadership & operations",
+        "description": "Plan revenue, coordinate accounts and coach the sales organization."
+      },
+      {
+        "name": "Negotiation",
+        "description": "Prepare, create options and reach workable agreements."
+      },
+      {
+        "name": "Productivity & priorities",
+        "description": "Turn goals into focused work and a manageable workflow."
+      },
+      {
+        "name": "Strategy classics",
+        "description": "Read historical strategy with clearly separated modern reflections."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Understand the situation",
+        "links": [
+          {
+            "slug": "strategic-audit",
+            "label": "Audit the business"
+          },
+          {
+            "slug": "pestle-analysis",
+            "label": "Read the environment"
+          },
+          {
+            "slug": "five-forces",
+            "label": "Assess industry pressures"
+          }
+        ]
+      },
+      {
+        "title": "Choose a direction",
+        "links": [
+          {
+            "slug": "competitive-positioning",
+            "label": "Choose a competitive position"
+          },
+          {
+            "slug": "growth-ansoff",
+            "label": "Explore growth options"
+          },
+          {
+            "slug": "strategy-evaluation",
+            "label": "Evaluate the choices"
+          }
+        ]
+      },
+      {
+        "title": "Make it happen",
+        "links": [
+          {
+            "slug": "sales-playbook",
+            "label": "Explore the sales playbook"
+          },
+          {
+            "slug": "change-kotter",
+            "label": "Build support for change"
+          },
+          {
+            "slug": "balanced-scorecard",
+            "label": "Define measures"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Supplied examples, claims and checklists accompany the summaries. Incomplete entries and uncertain claims are identified on their relevant pages.",
+      "Historical company examples and numerical sales claims are study material, not verified current benchmarks. Original diagrams are rebuilt as readable visuals; unavailable content is disclosed."
+    ],
+    "references": [],
+    "topicRoot": true
+  },
+  {
+    "slug": "communication-personal-development",
+    "title": "Communication & Personal Development",
+    "topic": "Communication & Personal Development",
+    "group": "Start here",
+    "summary": "Explore listening, clear expression, persuasion and the supplied NLP reference material with context and evidence notes.",
+    "intro": "Start with practical communication, then explore the reference collection while distinguishing source claims from established evidence.",
+    "groups": [
+      {
+        "name": "Communication & influence",
+        "description": "Listen, explain and discuss value with clarity and respect."
+      },
+      {
+        "name": "Learning & personal development",
+        "description": "Examine learning and creative-thinking material, including incomplete exercises."
+      },
+      {
+        "name": "NLP reference",
+        "description": "Read the source terminology as an annotated reference, with evidence and scope notes."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Communicate clearly",
+        "links": [
+          {
+            "slug": "listening-and-rapport",
+            "label": "Listen and build rapport"
+          },
+          {
+            "slug": "clear-communication",
+            "label": "Explain a message clearly"
+          }
+        ]
+      },
+      {
+        "title": "Examine influence",
+        "links": [
+          {
+            "slug": "persuasion-evidence",
+            "label": "Compare persuasion and evidence"
+          },
+          {
+            "slug": "needs-and-motivation",
+            "label": "Ask about needs and motivation"
+          }
+        ]
+      },
+      {
+        "title": "Read with context",
+        "links": [
+          {
+            "slug": "nlp-reference",
+            "label": "Explore the NLP reference"
+          },
+          {
+            "slug": "creative-thinking-exercises",
+            "label": "Inspect the dot exercises"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "NLP in this collection means neuro-linguistic programming, distinct from natural language processing in AI.",
+      "Language and personality labels are descriptions from the collection, not diagnoses or fixed categories for judging people. Therapeutic claims are separated and discussed critically."
+    ],
+    "references": [],
+    "topicRoot": true
+  },
+  {
+    "slug": "sales-playbook",
+    "title": "Sales playbook: from prospecting to customer success",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Follow the buyer journey, prepare conversations and explore the work of leading a sales team.",
+    "intro": "Use the journey for a live opportunity or browse the detailed guides for a question you need to answer.",
+    "groups": [
+      {
+        "name": "Sales & customer relationships",
+        "description": "Find fit, prepare questions, address concerns and support the customer."
+      },
+      {
+        "name": "Sales leadership & operations",
+        "description": "Plan, forecast, coordinate accounts and coach the team."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Find and qualify fit",
+        "links": [
+          {
+            "slug": "sales-prospecting",
+            "label": "Prospecting and nurturing"
+          },
+          {
+            "slug": "sales-qualification",
+            "label": "Qualification frameworks"
+          },
+          {
+            "slug": "sales-buyer-roles",
+            "label": "Map the buying group"
+          }
+        ]
+      },
+      {
+        "title": "Understand and demonstrate",
+        "links": [
+          {
+            "slug": "spin-selling",
+            "label": "Use SPIN questions"
+          },
+          {
+            "slug": "sales-question-bank",
+            "label": "Prepare with the question bank"
+          },
+          {
+            "slug": "sales-objections",
+            "label": "Understand objections"
+          }
+        ]
+      },
+      {
+        "title": "Agree and follow through",
+        "links": [
+          {
+            "slug": "sales-commitment",
+            "label": "Agree concrete next steps"
+          },
+          {
+            "slug": "negotiation-principled",
+            "label": "Negotiate interests and options"
+          },
+          {
+            "slug": "customer-retention",
+            "label": "Retain and support customers"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Use the question bank flexibly rather than as a script. Respect a buyer’s refusal, preferences and confidentiality.",
+      "Unreferenced statistics and questionable influence anecdotes are retained with reading notes, not promoted as facts or recommended tactics."
+    ],
+    "references": [],
+    "topicRoot": false
+  },
+  {
+    "slug": "nlp-reference",
+    "title": "Neuro-linguistic programming: an annotated reference",
+    "topic": "Communication & Personal Development",
+    "group": "NLP reference",
+    "summary": "Explore the supplied language patterns, perspectives, sorting terms and development claims without confusing descriptions with validated methods.",
+    "intro": "This reference preserves the collection’s definitions and examples. It distinguishes communication prompts, mixed personality terminology, metaphors and therapeutic claims.",
+    "groups": [
+      {
+        "name": "NLP language & communication",
+        "description": "Read the language-pattern examples and communication stances."
+      },
+      {
+        "name": "NLP perspectives & preferences",
+        "description": "Explore perspectives and sorting terminology without treating labels as fixed traits."
+      },
+      {
+        "name": "Learning & personal development",
+        "description": "Inspect the learning descriptions and the scope of development claims."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Start with language",
+        "links": [
+          {
+            "slug": "nlp-language-patterns",
+            "label": "Clarify assumptions and missing detail"
+          },
+          {
+            "slug": "nlp-communication-stances",
+            "label": "Explore communication stances"
+          }
+        ]
+      },
+      {
+        "title": "Question the labels",
+        "links": [
+          {
+            "slug": "nlp-perspectives",
+            "label": "Read the perspective models"
+          },
+          {
+            "slug": "nlp-preferences",
+            "label": "Browse the sorting glossary"
+          }
+        ]
+      },
+      {
+        "title": "Check the scope",
+        "links": [
+          {
+            "slug": "nlp-learning-problem-solving",
+            "label": "Learning and problem-solving terms"
+          },
+          {
+            "slug": "nlp-development-claims",
+            "label": "Read the evidence and therapeutic-claim notes"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "The collection’s warning against rigid labels remains part of the reading path.",
+      "The 2012 Sturt et al. review reported limited evidence for NLP health outcomes and emphasized the quantity and quality of the research. It is not an evaluation of every term in this glossary.",
+      "The descriptions of trauma, addiction, eating and reprocessing methods are retained as source claims, not supplied as treatment instructions."
+    ],
+    "references": [
+      {
+        "title": "Sturt et al. (2012): systematic review of NLP health outcomes",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3481516/"
+      }
+    ],
+    "topicRoot": false
+  },
+  {
+    "slug": "art-of-war",
+    "title": "The Art of War: a guided reading collection",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Read all thirteen supplied chapters, with concise introductions and clearly separated business reflections.",
+    "intro": "Read in chapter order or choose a theme. The historical text remains accessible in full; the modern reflections are editorial additions, not claims made by the original author.",
+    "groups": [
+      {
+        "name": "Strategy classics",
+        "description": "All thirteen supplied chapters, in reading order."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Prepare and choose",
+        "links": [
+          {
+            "slug": "art-of-war-planning",
+            "label": "Planning and assessment"
+          },
+          {
+            "slug": "art-of-war-campaign-costs",
+            "label": "Costs and duration"
+          },
+          {
+            "slug": "art-of-war-stratagem",
+            "label": "Strategy before confrontation"
+          }
+        ]
+      },
+      {
+        "title": "Coordinate and adapt",
+        "links": [
+          {
+            "slug": "art-of-war-coordination",
+            "label": "Coordination and timing"
+          },
+          {
+            "slug": "art-of-war-adaptation",
+            "label": "Adaptation"
+          },
+          {
+            "slug": "art-of-war-judgment",
+            "label": "Leadership judgment"
+          }
+        ]
+      },
+      {
+        "title": "Read context and consequences",
+        "links": [
+          {
+            "slug": "art-of-war-terrain",
+            "label": "Terrain and responsibility"
+          },
+          {
+            "slug": "art-of-war-fire",
+            "label": "Restraint and irreversible consequences"
+          },
+          {
+            "slug": "art-of-war-intelligence",
+            "label": "Information and uncertainty"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "This is historical military writing. Its descriptions of violence, deception and coercion are retained in context, not turned into business recommendations.",
+      "The supplied document does not name its translation or edition. A separate Lionel Giles edition is linked for comparison. Repeated passages are consolidated without removing unique content, and source positions remain mapped."
+    ],
+    "references": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ],
+    "topicRoot": false
+  }
+]

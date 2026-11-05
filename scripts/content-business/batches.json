@@ -1,0 +1,18 @@
+[
+  {
+    "key": "management",
+    "source": "content/sources/business",
+    "plan": "plan.json",
+    "figures": "figures.json",
+    "ledger": "docs/business-content-coverage.csv",
+    "sha256": "59ac11fd173c3253270e6f645ba2b805e8f0a0c9afdb5d5a53419cddd319a863"
+  },
+  {
+    "key": "sales",
+    "source": "content/sources/business/sales",
+    "plan": "sales-plan.json",
+    "figures": "sales-figures.json",
+    "ledger": "docs/sales-content-coverage.csv",
+    "sha256": "107568fad6dffbdb8fca0442a3029200f709891e797daf3559563f2e6ae45770"
+  }
+]

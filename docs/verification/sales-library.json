@@ -1,0 +1,1968 @@
+{
+  "date": "2026-11-05",
+  "status": "implemented locally; not pushed",
+  "source": {
+    "newArchiveSha256": "107568fad6dffbdb8fca0442a3029200f709891e797daf3559563f2e6ae45770",
+    "archiveMatchesUpload": true,
+    "documents": [
+      {
+        "name": "Art of War.docx",
+        "paragraphs": 445,
+        "images": 0
+      },
+      {
+        "name": "NLP.docx",
+        "paragraphs": 407,
+        "images": 0
+      },
+      {
+        "name": "Sales Attachment.docx",
+        "paragraphs": 3,
+        "images": 3
+      },
+      {
+        "name": "Sales Management.docx",
+        "paragraphs": 419,
+        "images": 0
+      },
+      {
+        "name": "Sales.docx",
+        "paragraphs": 310,
+        "images": 0
+      },
+      {
+        "name": "Spin Selling.docx",
+        "paragraphs": 74,
+        "images": 0
+      }
+    ],
+    "newParagraphs": 1658,
+    "newImages": 3,
+    "newTopicGuidesIncludingChapters": 45,
+    "historicalChapters": 13,
+    "newCollectionIndexes": 3,
+    "newTopicHub": 1,
+    "newUrls": 49,
+    "expandedExistingGuides": [
+      "growth-methods",
+      "resource-base",
+      "stakeholder-management",
+      "strategic-management-cycle"
+    ],
+    "questionPrompts": 82,
+    "questionStages": 4,
+    "combinedParagraphs": 4335,
+    "combinedImages": 23,
+    "combinedGuidesAndCollectionIndexes": 105,
+    "combinedTopicHubs": 2,
+    "unmappedItems": 0,
+    "original57GuideSectionsAndFiguresPreserved": true,
+    "originalInventoryAndLedgerUnchanged": true
+  },
+  "checks": {
+    "sourceGeneration": "pass: fingerprinted archives; complete paragraph/image mappings; all nonstructural display text retained; all question/context text retained; valid slugs, categories, collection links and journeys; exactly 13 chapters",
+    "typecheck": "pass",
+    "lint": "pass: full repository lint after removing temporary build output",
+    "productionBuild": "pass with SITE_INDEXABLE=true and NEXT_PUBLIC_ADS_ENABLED=true",
+    "unitTests": "No content unit tests added or run, per user preference. New interaction behavior checked in browser and source logic uses assert-based checks.",
+    "browser": {
+      "renderChecks": 214,
+      "viewportWidths": [
+        390,
+        1440
+      ],
+      "pagesChecked": 107,
+      "failedStatuses": [],
+      "overflow": [],
+      "pageErrors": [],
+      "brokenAnchors": [],
+      "axeAudits": 26,
+      "axeViolations": [],
+      "brokenInternalLinks": [],
+      "sitemap": {
+        "urlsChecked": 107,
+        "missing": []
+      },
+      "discovery": {
+        "indexMissing": [],
+        "communicationCards": 13,
+        "traumaSearch": [
+          "Personal development and therapeutic claims: a critical reference"
+        ]
+      },
+      "interactionChecks": [
+        {
+          "width": 390,
+          "feature": "question bank",
+          "allPrompts": 82,
+          "discoveryPrompts": 20,
+          "budgetMatches": 2,
+          "emptyState": true
+        },
+        {
+          "width": 390,
+          "feature": "source dot arrangements",
+          "counts": [
+            16,
+            9
+          ],
+          "filledDots": 4
+        },
+        {
+          "width": 390,
+          "feature": "network connections",
+          "checkedPeople": [
+            3,
+            6,
+            14
+          ],
+          "links": [
+            3,
+            15,
+            91
+          ]
+        },
+        {
+          "width": 1440,
+          "feature": "question bank",
+          "allPrompts": 82,
+          "discoveryPrompts": 20,
+          "budgetMatches": 2,
+          "emptyState": true
+        },
+        {
+          "width": 1440,
+          "feature": "source dot arrangements",
+          "counts": [
+            16,
+            9
+          ],
+          "filledDots": 4
+        },
+        {
+          "width": 1440,
+          "feature": "network connections",
+          "checkedPeople": [
+            3,
+            6,
+            14
+          ],
+          "links": [
+            3,
+            15,
+            91
+          ]
+        }
+      ],
+      "finalNote": "A final narrow-table layout improvement and SPIN discrepancy note were added after the broad check; final targeted browser evidence follows.",
+      "finalTargetedCheck": [
+        {
+          "width": 390,
+          "slug": "network-connections",
+          "status": 200,
+          "axeViolations": 0,
+          "overflow": false,
+          "networkAllSourceSizes": true
+        },
+        {
+          "width": 390,
+          "slug": "competitive-positioning",
+          "status": 200,
+          "axeViolations": 0,
+          "overflow": false,
+          "networkAllSourceSizes": false
+        },
+        {
+          "width": 390,
+          "slug": "spin-selling",
+          "status": 200,
+          "axeViolations": 0,
+          "overflow": false,
+          "networkAllSourceSizes": false
+        },
+        {
+          "width": 1440,
+          "slug": "network-connections",
+          "status": 200,
+          "axeViolations": 0,
+          "overflow": false,
+          "networkAllSourceSizes": true
+        },
+        {
+          "width": 1440,
+          "slug": "competitive-positioning",
+          "status": 200,
+          "axeViolations": 0,
+          "overflow": false,
+          "networkAllSourceSizes": false
+        },
+        {
+          "width": 1440,
+          "slug": "spin-selling",
+          "status": 200,
+          "axeViolations": 0,
+          "overflow": false,
+          "networkAllSourceSizes": false
+        }
+      ]
+    },
+    "temporaryPreviewServer": "stopped",
+    "graph": {
+      "sourceFiles": 216,
+      "nodes": 865,
+      "edges": 1580,
+      "mergedDanglingEndpoints": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "note": "Bounded structural graph refreshed. Incremental-only diagnostics may reference unchanged-file nodes; the merged graph has no dangling endpoints."
+    }
+  },
+  "limitations": [
+    "Sales percentages, anecdotes, quotations and assessment labels are retained with context; no certification of those source claims is implied.",
+    "The two dot figures have no supplied instructions or solutions.",
+    "The supplied Art of War translation/edition is unidentified, and some wording is erroneous or reordered. The comparison edition is separately labeled.",
+    "NLP therapeutic descriptions are retained as source claims, not generated treatment protocols; the 2012 review is dated and scoped.",
+    "Image reconstructions and semantic classification were manually reviewed. Automated coverage is not a proof of clinical/factual accuracy.",
+    "No push or production deployment performed."
+  ],
+  "browserResults": [
+    {
+      "width": 390,
+      "slug": "business-management",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "communication-personal-development",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "strategy-foundations",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "strategic-management-cycle",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "strategy-perspectives",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "strategic-thinking",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "strategic-business-units",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "strategic-audit",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "competition-landscape",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "competitive-dynamics",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "competitive-positioning",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "competitive-actions",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "strategic-groups",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "environmental-scanning",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "pestle-analysis",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "five-forces",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "ohmae-three-cs",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "market-sizing",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "resource-base",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "core-competencies",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "vrio-resources",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "dynamic-capabilities",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "critical-success-factors",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "value-chain",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "supply-chain-response",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "growth-ansoff",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "diversification-integration",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "growth-methods",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "blue-ocean",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "lean-startup",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "growth-horizons",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "cage-international",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "portfolio-bcg",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "portfolio-ge",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "gap-analysis",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "risk-management",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "strategy-evaluation",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "scenario-planning",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "swot-analysis",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "tows-options",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "balanced-scorecard",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "eos-operating-system",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "high-performance-teams",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "organizational-alignment",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "change-kotter",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "change-responses",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "promise-integration",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "digital-maturity",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "stakeholder-management",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "customer-feedback",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "negotiation-distributive",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "negotiation-principled",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "negotiation-strategy",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "negotiation-process",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "personal-productivity",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "kanban-workflow",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "okr-goals",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "pareto-priorities",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "prioritization-methods",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "sales-process",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "sales-prospecting",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "sales-qualification",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "spin-selling",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "sales-question-bank",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "sales-buyer-roles",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "sales-objections",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "sales-commitment",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "customer-retention",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "customer-systems",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "sales-revenue-planning",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "sales-account-planning",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "sales-forecasting",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "sales-leadership",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "sales-coaching",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "sales-ethics-examples",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "listening-and-rapport",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "clear-communication",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "persuasion-evidence",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "needs-and-motivation",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "innovation-pathways",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "business-model-canvas",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "business-responsibility",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "business-lessons-risk",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "nlp-perspectives",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "nlp-language-patterns",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "nlp-communication-stances",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "nlp-preferences",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "nlp-learning-problem-solving",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "nlp-development-claims",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "creative-thinking-exercises",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "network-connections",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "art-of-war-planning",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "art-of-war-campaign-costs",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "art-of-war-stratagem",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "art-of-war-positioning",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "art-of-war-coordination",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "art-of-war-adaptation",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "art-of-war-maneuvering",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "art-of-war-judgment",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "art-of-war-observation",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "art-of-war-terrain",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "art-of-war-situations",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "art-of-war-fire",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "art-of-war-intelligence",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "sales-playbook",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "nlp-reference",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "art-of-war",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-management",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "communication-personal-development",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "strategy-foundations",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "strategic-management-cycle",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "strategy-perspectives",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "strategic-thinking",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "strategic-business-units",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "strategic-audit",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "competition-landscape",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "competitive-dynamics",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "competitive-positioning",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "competitive-actions",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "strategic-groups",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "environmental-scanning",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "pestle-analysis",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "five-forces",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "ohmae-three-cs",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "market-sizing",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "resource-base",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "core-competencies",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "vrio-resources",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "dynamic-capabilities",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "critical-success-factors",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "value-chain",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "supply-chain-response",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "growth-ansoff",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "diversification-integration",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "growth-methods",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "blue-ocean",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "lean-startup",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "growth-horizons",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "cage-international",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "portfolio-bcg",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "portfolio-ge",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "gap-analysis",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "risk-management",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "strategy-evaluation",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "scenario-planning",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "swot-analysis",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "tows-options",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "balanced-scorecard",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "eos-operating-system",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "high-performance-teams",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "organizational-alignment",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "change-kotter",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "change-responses",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "promise-integration",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "digital-maturity",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "stakeholder-management",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "customer-feedback",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "negotiation-distributive",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "negotiation-principled",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "negotiation-strategy",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "negotiation-process",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "personal-productivity",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "kanban-workflow",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "okr-goals",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "pareto-priorities",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "prioritization-methods",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "sales-process",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "sales-prospecting",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "sales-qualification",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "spin-selling",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "sales-question-bank",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "sales-buyer-roles",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "sales-objections",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "sales-commitment",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "customer-retention",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "customer-systems",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "sales-revenue-planning",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "sales-account-planning",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "sales-forecasting",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "sales-leadership",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "sales-coaching",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "sales-ethics-examples",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "listening-and-rapport",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "clear-communication",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "persuasion-evidence",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "needs-and-motivation",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "innovation-pathways",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-model-canvas",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-responsibility",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-lessons-risk",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "nlp-perspectives",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "nlp-language-patterns",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "nlp-communication-stances",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "nlp-preferences",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "nlp-learning-problem-solving",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "nlp-development-claims",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "creative-thinking-exercises",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "network-connections",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "art-of-war-planning",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "art-of-war-campaign-costs",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "art-of-war-stratagem",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "art-of-war-positioning",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "art-of-war-coordination",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "art-of-war-adaptation",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "art-of-war-maneuvering",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "art-of-war-judgment",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "art-of-war-observation",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "art-of-war-terrain",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "art-of-war-situations",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "art-of-war-fire",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "art-of-war-intelligence",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "sales-playbook",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "nlp-reference",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "art-of-war",
+      "status": 200,
+      "overflow": false,
+      "brokenAnchors": [],
+      "errors": [],
+      "violations": []
+    }
+  ]
+}

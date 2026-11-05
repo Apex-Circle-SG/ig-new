@@ -7,7 +7,7 @@ import { PaymentDirectory } from './payment-directory';
 import { SystemCommands } from './system-commands';
 import { GamesDirectory } from './games-directory';
 import { AiGuide } from './ai-guide';
-import { BusinessGuide } from './business-guide';
+import { CollectionGuide } from './collection-guide';
 
 export const dynamic = 'force-dynamic';
 
@@ -24,7 +24,7 @@ export default async function KnowledgePage({ params }: Props) {
   const articles = await getKnowledgeArticles();
   const article = articles.find((item) => item.slug === slug);
   if (!article) notFound();
-  if (article.topic === 'Business & Management') return <BusinessGuide article={article} articles={articles} />;
+  if (['Business & Management', 'Communication & Personal Development'].includes(article.topic)) return <CollectionGuide article={article} articles={articles} />;
   if (article.topic === 'Artificial intelligence') return <AiGuide article={article} articles={articles} />;
   const related = articles.filter((item) => item.slug !== slug && item.topic === article.topic && item.group === article.group).slice(0, 3);
   return <article className={`shell ${styles.article}`}>

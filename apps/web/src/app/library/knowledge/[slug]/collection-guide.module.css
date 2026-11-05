@@ -68,3 +68,25 @@
 .srOnly { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 @media (max-width: 800px) { .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); } .layout { grid-template-columns: 1fr; gap: 10px; } .contents { position: static; border-radius: 14px; background: #f8f7fd; padding: 20px; } .contents ol { columns: 2; } .contents li { break-inside: avoid; } .journey { grid-template-columns: 1fr; } }
 @media (max-width: 480px) { .page { padding-top: 20px; } .cards { grid-template-columns: 1fr; } .contents ol { columns: 1; } .definitions > div { grid-template-columns: 1fr; gap: 6px; } .hero { padding: 25px; } }
+.referenceEntry { padding: 18px 22px; margin: 18px 0; border: 1px solid #e6e0f5; border-radius: 12px; background: #fcfbff; }
+.referenceEntry h3 { margin-top: 0; }
+.referenceEntry p { margin-block: 10px; }
+.bankFilters { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-block: 24px; }
+.bankFilters label, .network label { display: flex; flex-direction: column; gap: 8px; font-size: 13px; font-weight: 700; color: #4b3d78; }
+.bankFilters input, .bankFilters select, .network select { width: 100%; border: 1px solid #c9bfdf; border-radius: 8px; padding: 12px; color: #343044; background: white; min-height: 44px; }
+.bankFilters input:focus-visible, .bankFilters select:focus-visible, .network select:focus-visible { outline: 3px solid #9787ef; outline-offset: 3px; }
+.questionGroup { margin-block: 22px; border-left: 3px solid #ddd3f7; padding-left: 18px; }
+.questionGroup li { margin-bottom: 12px; }
+.dots { display: block; width: min(100%, 280px); height: auto; margin-inline: auto; }
+.network { max-width: 440px; margin-inline: auto; }
+.network svg { display: block; width: min(100%, 320px); height: auto; margin: 15px auto; }
+.connectionCount { font-size: 23px; font-weight: 700; color: #5140a1; margin-top: 20px; }
+.chapter p { margin-block: 20px; }
+.reflection { padding: 24px; border-radius: 14px; background: #f2effe; }
+.reflection p { line-height: 1.85; }
+.chapterNav { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; padding-block: 25px; border-bottom: 1px solid #e6e0f5; }
+.chapterNav a { flex: 1 1 220px; font-size: 14px; line-height: 1.6; text-decoration: underline; }
+@media (max-width: 650px) { .bankFilters { grid-template-columns: 1fr; } }
+
+.compactTable table { min-width: 0; table-layout: fixed; }
+.compactTable th, .compactTable td { min-width: 0; }

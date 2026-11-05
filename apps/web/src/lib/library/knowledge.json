@@ -3419,11 +3419,25 @@
     "title": "Business & Management: from analysis to action",
     "topic": "Business & Management",
     "group": "Start here",
-    "summary": "Explore strategy, competition, leadership, negotiation and productivity through connected guides and detailed collection notes.",
+    "summary": "Explore strategy, competition, leadership, sales, negotiation and productivity through connected guides and detailed collection notes.",
     "sections": [
       {
-        "heading": "Choose a business question",
-        "body": "Analyze your situation, choose a direction, build organizational support and turn decisions into action."
+        "heading": "Choose a reading path",
+        "body": "Start with a decision, browse a business topic, or follow the sales and strategy-classics collections."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "communication-personal-development",
+    "title": "Communication & Personal Development",
+    "topic": "Communication & Personal Development",
+    "group": "Start here",
+    "summary": "Explore listening, clear expression, persuasion and the supplied NLP reference material with context and evidence notes.",
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Start with practical communication, then explore the reference collection while distinguishing source claims from established evidence."
       }
     ],
     "sources": []
@@ -3456,6 +3470,10 @@
       {
         "heading": "Questions for position, choices and action",
         "body": "Checklist\nStrategic position\nWhat are the environmental opportunities and threats?\nWhat the organisation’s strengths and weaknesses?\nWhat is the basic purpose of the organisation?\nHow does culture shape strategy?\nDealing with competitors\nStrategic choices\nHow should business units compete?\nWhich businesses to include in the portfolio\nWhere should the organisation compete internationally?\nIs the organisation innovating appropriately?\nShould the organisation buy other companies, ally or go it alone?\nStrategy in action\nWhich strategies are suitable, acceptable and feasible?\nWhat kind of strategy-making process is needed?\nWhat are the required organisation structures and systems?\nHow should the organisation manage necessary changes?\nNegotiate or compete ruthlessly?\nProcess, Content, Context\nStrategy process\nStrategic thinking\nLogic and creativity\nStrategy formation\nDeliberateness and emergence\nStrategic change\nRevolution and evolution\nStrategy content\nBusiness level strategy\nMarkets and resources\nCorporate level strategy\nResponsiveness and synergy\nNetwork level strategy\nCompetition and cooperation\nStrategy context\nIndustry context\nCompliance and choice\nOrganisational context\nControl and chaos\nInternational context\nGlobalisation and localisation\nPurpose\nOrganisational purpose\nProfitability and responsibility"
+      },
+      {
+        "heading": "Execution ownership, drift, metrics and reinvestment",
+        "body": "Strategy Drift Monitoring\nStrategic Thinking Elements\nOrganization-environment fit; long-term irreversible decisions; value creation; resilience from mistakes\nExecution & Metrics\nExecution Framework Elements\nExecution champion, strategic ownership, strategy communication, expertise, individual accountability, dashboards & reviews, executive support, outcome-based consequences\nPlaybook Metrics\nAction items, owners, milestones, leading metrics, status reviews, comments\nTactical vs. Strategic\nExecute today with eye toward tomorrow: balancing tactical excellence with long-range vision, talent planning, marketplace analysis\nReallocate Gains\nInvest saved cost into new projects; streamline innovation processes"
       }
     ],
     "sources": []
@@ -3746,6 +3764,10 @@
       {
         "heading": "Resource categories",
         "body": "Resource Base\nTypes\nTangible\nLand\nBuildings\nMaterials\nMoney\nIntangible\nRelationship Resources\nRelationships\nReputation\nCompetence\nKnowledge\nCapabilities\nAttitude"
+      },
+      {
+        "heading": "Resource-based view in the sales collection",
+        "body": "Strategic Frameworks & Thinking\nResource-Based View\nTangible vs. Intangible assets"
       }
     ],
     "sources": []
@@ -3920,6 +3942,10 @@
       {
         "heading": "Organic development and the strategic choices menu",
         "body": "Organic Development\nOrganic development is where a strategy is pursued by building on and developing an organisation’s own capabilities. This is essentially the ‘do it yourself’ method.\nKnowledge and learning can be enhanced.\nSpreading investment over time – easier to finance.\nNo availability constraints – no need to search for suitable partners or acquisition targets.\nStrategic independence – less need to make compromises or accept strategic constraints.\nStrategic Choices\nBases of competitive strategy\nPrice-based strategies\nNo frills\nLow price\nDifferentiation strategies\nHybrid\nBroad differentiation\nFocused differentiation\nHypercompetitive strategies\nGaming strategies\nStrategy directions\nRationalisation/consolidation\nProduct/service development\nMarket development\nDiversification\nMethods for pursuing strategies\nOrganic development\nAcquisitions and mergers (or disposals)\nAlliances"
+      },
+      {
+        "heading": "Additional growth notes: scale, acquisition and partnerships",
+        "body": "Growth & Expansion Strategies\nOrganic Growth\nScaling successful initiatives (flywheel momentum)\nBuild monopoly via:\nProprietary technology\nNetwork effects\nEconomies of scale\nBranding\nM&A and Partnerships\nStrategic acquisitions (buy customers or companies)\nArm’s-length approach: VC to external"
       }
     ],
     "sources": []
@@ -3944,7 +3970,12 @@
         "body": "Value Innovation\nCost savings - eliminate and reduce competing factors\nBuyer value lifted - raise and create new elements\nValue innovation places equal emphasis on value and innovation.\nValue innovation is a new way of thinking about and executing strategy that results in the creation of a blue ocean.\nThe creation of blue oceans is about driving costs down while simultaneously driving value up for buyers.\nStrategy Canvas"
       }
     ],
-    "sources": []
+    "sources": [
+      {
+        "title": "Blue Ocean Strategy: the four actions framework",
+        "url": "https://www.blueoceanstrategy.com/tools/four-actions-framework/"
+      }
+    ]
   },
   {
     "slug": "lean-startup",
@@ -4008,7 +4039,12 @@
         "body": "Alternatives\nBuild\nNormally suited for those SBUs that have potential to be a Star\nHold\nNormally suited for very successful cash cow\nHarvest\nMost suited for weak cash cows. Can also be used for dogs\nDivest\nNormally suited for Question Marks and Dogs\nAssumptions\nCategorise products or business units into Stars, Cash Cows, Question Marks, and Dogs\nBalance the portfolio for sustained profitability\nAllocate resources based on categorization\nPrioritise investments in 'Stars' and potential 'Question Marks'\nMaximise cash flow from 'Cash Cows'\nDecide on potential divestment or restructuring of 'Dogs'\nRegularly review product portfolio positioning\nFoster innovation in potential high-growth areas\nProfitability is directly determined by relative market share\nSales growth demands cash to finance\nIncrease in market share generally need cash to support\nGrowth slows as the product / business reaches life-cycle maturity > surplus of cash > use to support businesses still in the growth stages\nProblems with matrix approaches\nDifficulty in defining SBUs and measuring market share and growth\nExpensive\nTime consuming\nOnly have top relative market share products\nFocus on current businesses, not future planning\nQuestion of interdependency between products or markets\nMay bring about hasty decisions\nOver simplification\nProblem of classification\nQuestion of balancing cash flow\nThe risk factor\nWhy portfolio analysis?\nAid decision making\nEffective allocation of resources\nIdentify future profit potentials\nMonitor each aspect of the business\nA strategic perspective of management of each major element of the business\nBasic questions\nHow much of our time and money should we spend on our best products / businesses to ensure that they continue to be successful?\nHow much of our time and money should we spend developing new costly products / businesses, most of which will never be successful?"
       }
     ],
-    "sources": []
+    "sources": [
+      {
+        "title": "BCG: the growth–share matrix",
+        "url": "https://www.bcg.com/about/overview/our-history/growth-share-matrix"
+      }
+    ]
   },
   {
     "slug": "portfolio-ge",
@@ -4202,7 +4238,12 @@
         "body": "The Meeting Pulse\nLevel 10 Meetings\nEstablishing consistent meeting schedules.\nTypes of Meetings\nRanging from daily huddles to quarterly sessions.\nPurpose\nEnsuring team alignment and focus.\nProblem-Solving\nAddressing issues systematically.\nAccountability\nMaintaining team responsibility.\nInformation Flow\nKeeping everyone informed and engaged."
       }
     ],
-    "sources": []
+    "sources": [
+      {
+        "title": "EOS Worldwide: the six components",
+        "url": "https://www.eosworldwide.com/eos-model"
+      }
+    ]
   },
   {
     "slug": "high-performance-teams",
@@ -4252,7 +4293,12 @@
         "body": "Kotter's 8-Step Model\nThis model provides opportunities for emerging leaders to develop and showcase their skills, particularly in communication, strategic planning, and coalition building.\nClear Framework: Offers a systematic approach for managing change.\nBuilds Support: Emphasizes creating urgency and coalition for wider engagement.\nSustainable Change: Focuses on long-term integration into organizational culture.\nAdaptable: Flexible to various organizational contexts.\nSteps\nCreate urgency\nForm a powerful coalition\nCreate a vision for change\nCommunicate the vision\nEmpower action\nCreate quick wins\nBuild on the change\nMake it stick"
       }
     ],
-    "sources": []
+    "sources": [
+      {
+        "title": "Kotter: the eight-step process and its evolution",
+        "url": "https://www.kotterinc.com/methodology/8-steps/"
+      }
+    ]
   },
   {
     "slug": "change-responses",
@@ -4330,6 +4376,10 @@
       {
         "heading": "The stakeholder model and its perspectives",
         "body": "Stakeholder Model\nStakeholder: Involves identifying all stakeholders, understanding their interests and power, and strategically managing relationships to align business objectives with stakeholder needs and expectations. It emphasizes ethical considerations and corporate social responsibility in decision-making processes.\nDescriptive\nInstrumental\nNormative"
+      },
+      {
+        "heading": "Mitchell stakeholder categories named in the collection",
+        "body": "Stakeholder Typology (Mitchell)\nDormant, Discretionary, Demanding, Dominant, Dangerous, Dependent, Definitive, Non‑stakeholders"
       }
     ],
     "sources": []
@@ -4517,5 +4567,960 @@
       }
     ],
     "sources": []
+  },
+  {
+    "slug": "sales-process",
+    "title": "Sales process: from first contact to customer success",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Follow a customer-centered sales process, from identifying a possible fit to agreed commitments and ongoing service.",
+    "sections": [
+      {
+        "heading": "Stages, channels and review",
+        "body": "Sales Management\nBasics\nSales stages and process\nIdentify leads & discovery\nConnect & bridging\nExplore and qualify\nOpportunity (prospect)\nProposal and present\nNegotiation and innovate\nBest alternative to a negotiated agreement (BATNA)\nClosing\nQuotation\nWin/lose\nCustomer service & referrals\nMonitor success and new developments\nMethods\nConventional and orderly\nHorizontal marketing system (HMS), cross selling\nVertical marketing systems (VMS), everyone working together\nPeriodic meetings with post-mortem"
+      },
+      {
+        "heading": "Sales fundamentals and productive time",
+        "body": "Fundamentals\nAsk questions: family/friends, occupation, recreation, dream (FORD)\nLearn to walk away from no chance deals\nSales process and structure\nTalents and skills\nMarketing and sales alignment\nLong haul sales vs short haul sales\nComplex sales vs smb sales\nTracking system\nFigures presentation\nSales productivity tools\nDeep understanding of the company, services, products, methods and your prospect\nProductive with client, Indirectly productive like making calls, everything else the salesperson hire to do (PIE time)"
+      },
+      {
+        "heading": "Conversations, value stories and SNAP selling",
+        "body": "Process\nIntroducing: inarticulate to influential, capture the target\nNavigating: shut out to intrepid, engagement and knowledge\nQuestioning: interrogative to relational, probe with intuition\nThe person asking the questions controls and leads the sale\nAsk reflective questions, e.g. have a tight budget so uncertain how to plan to maximise it?\nListening: inattentive to inviting, empathetic\nLinking: fears authority to strategic, understand needs and link appropriate solution\nClient attraction story (CAS)\nWhy me: focus on integrity commitment and follow-through\nGrowth: focus on increased revenue and market share\nEfficiency: increasing profit and saving time and money\nBuy right: making the right decision and offering good advice\nProtection: preventing problems\nSNAP selling\nkeep it Simple\nbe iNvaluable\nAlways align\nraise Priorities"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "sales-prospecting",
+    "title": "Prospecting and nurturing: earn a useful conversation",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Explore lead sources, introductory messages and the move from vendor to trusted partner.",
+    "sections": [
+      {
+        "heading": "Lead development, pitches and contact sources",
+        "body": "Leads generation\nLeads feeding\nLeads scoring and progression\nIt takes an average of 8 touches to get an initial meeting\nFind a common ground to break the ice\nLeads nurturing\nApproved vendor\nPreferred supplier\nSolutions consultant\nStrategic contributor\nTrusted partner\nElevator pitch\nUse analogy\nWhat it does for your customer\nPick a fight\nTell your vision\nLead sources\nHot, warm, lukewarm and close contacts\nPhilanthropic and community services\nCold and canvass\nSocial events\nCelebration\nEducational\nAffinity-group\nNice dinner\nChef's table\nWine and cheese tasting\nChocolate tasting\nCooking class\nSporting events\nGolf outings\nBoat outing\nGaming party\nHobby outing\nNew partnership"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "sales-qualification",
+    "title": "Sales qualification: compare BANT, MEDDIC and related prompts",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Compare the qualification checklists and the questions they raise about fit, urgency, authority and a credible buying process.",
+    "sections": [
+      {
+        "heading": "Customer value, qualification frameworks and fit questions",
+        "body": "Account and customer qualification\nBelow-zero customer\nMost-growable customer\nMost-valuable customer\nBudget, authority, need, timeline (BANT)\nAuthority, need, urgency, money (ANUM)\nPain, authority, consequence, target profile (PACT)\nOpportunity? Compete? Win? Worth? (TAS)\nMetrics, economic buyer, decision criteria, decision process, identifying pain, champion (MEDDIC)\nWindow, opportunity, loyalty, fit, engagement (WOLFE)\nWhy must the customer do this?\nWhy must they do it now?\nStarting points\nMoney constraints\nPersonalities\nWhy must they do this with you?\nQuestions\nTiming\nWhy should you do this with them?"
+      },
+      {
+        "heading": "MEDDICC: measures, decision-making, pain, champions and competition",
+        "body": "MEDDICC\nFor Sales Development Representatives and Account Executive\nMetrics\nUnderstand the quantitative measures of success that matter to the prospect. This could include financial metrics, performance indicators, or other key performance indicators (KPIs) relevant to the prospect's business goals.\nEconomic Buyer\nIdentify and engage with the person or people who have the authority to make the purchasing decision. This is often the individual or group with control over the budget.\nDecision Criteria\nIdentify the specific criteria that the prospect will use to make the final decision. Understanding the factors that weigh into the decision-making process helps tailor the sales approach and address key concerns.\nDecision Process\nUnderstand the steps and processes that the prospect's organisation goes through to make a purchasing decision. This includes knowing who is involved in the decision-making process and what each stakeholder's role is.\nIdentify Plan\nExplore and understand the challenges, problems, or pain points that the prospect is experiencing. Demonstrating how your product or service can alleviate these pains is crucial in making a compelling case.\nIdentify > Indicate > Implicate\nChampion\nIdentify and cultivate a \"champion\" within the prospect's organisation. This is an internal advocate who supports your solution and helps navigate the internal dynamics of the prospect's company.\nCompetition\nUnderstand the competitive landscape and know who else the prospect is considering for the same solution. This helps tailor your messaging and differentiate your offering."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "spin-selling",
+    "title": "SPIN Selling: discover needs before presenting solutions",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Connect situation, problem, implication and need-payoff questions with the stages of a complex sale.",
+    "sections": [
+      {
+        "heading": "The four SPIN question types",
+        "body": "Spin Selling\nCore Framework\nSPIN Component\nPurpose\nDescription\nSituation Questions\nUnderstand context\nFact-based questions about the buyer's existing situation.\nProblem Questions\nIdentify pain points\nExplore difficulties or dissatisfactions, leading to implied needs.\nImplication Questions\nAmplify urgency\nDiscuss the consequences of the problem, increasing buyer motivation.\nNeed-Payoff Questions\nHighlight value\nEncourage the buyer to articulate the benefits of solving the problem (i.e., explicit needs)."
+      },
+      {
+        "heading": "SPIN in the wider persuasion notes",
+        "body": "SPIN Technique\nSituation\nAssess current situation and needs\nProblem\nIdentify pains and problems they have\nImplication\nUnderscore why the pains need solving\nNeed payoff\nOffer solutions with benefits\nDiscusss the current situation and ask situational questions\nIdentify problems and implications of these problems\nDiscuss the benefits of your solution in relation to their needs\nProvide successful examples"
+      },
+      {
+        "heading": "Reported findings and training claims",
+        "body": "Key Findings\nTraining Impact\nStudents trained in SPIN saw a 17% improvement in sales results.\nQuestion Efficiency\nMore Situation Questions = Less Sales Success.\nSenior buyers dislike factual questions—prefer well-informed sellers.\nTop sellers ask fewer Situation Questions because they plan better.\nTiming Matters\nExperienced sellers ask Problem Questions earlier.\nTop sellers delay presenting solutions—they emphasize problem effects first.\nImplication Questions\nMost powerful type of question.\nRequire skill and do not improve automatically with experience.\nShould follow uncovering several problems to avoid narrowing buyer focus.\nSales Training Retention\nWithout reinforcement, 87% of sales training is lost.\nOngoing sales coaching is essential."
+      },
+      {
+        "heading": "Opening, investigating, demonstrating and obtaining commitment",
+        "body": "Sales Strategy & Execution\nThe 4 Stages of a Successful Sale\nOpening\nBuild rapport, gain permission to ask questions.\nInvestigating\nThe most critical stage in complex sales.\nDemonstrating Capability\nShow how your solution meets Explicit Needs.\nObtaining Commitment\nSecure Advances (small agreed actions) rather than just proposals.\nAdvance vs. Continuation\nAdvance\nBuyer agrees to take action moving the sale forward\nContinuation\nNo action agreed upon—stall in the sales process"
+      },
+      {
+        "heading": "Planning questions and connecting benefits to needs",
+        "body": "Key Principles & Techniques\nFocus on Benefits, Not Features\nA Benefit connects your solution directly to a buyer’s Explicit Need.\nSelling Advantages often leads to objections.\nPlanning Problem Questions\nWork backwards from problems your product solves.\nRapport Matters\nRapport is crucial, especially for senior buyers.\nBuilt unconsciously, not mechanically.\nMindset\n“It’s more important to understand than to persuade.”\nEchoes Covey’s 5th Habit: “Seek first to understand, then to be understood.”"
+      },
+      {
+        "heading": "Personal reflections and attributed quotations",
+        "body": "Critiques & Personal Reflections\nRational vs. Emotional Selling\nSPIN Selling is logical and objective, ideal for complex B2B sales.\nHowever, not all sales are based on logic.\nEmotional rapport, subconscious techniques, and phrasing impact effectiveness.\nSuggests integrating emotional intelligence and subconscious rapport-building into the SPIN framework.\nQuestion Quality\nNot all questions are created equal—phrasing greatly affects outcome.\nTiming and rapport can mitigate “dangerous” questions.\nQuotes\n“People buy not because they understand your product, but because they feel you understand their problems.”\n“Effective planning takes you more than halfway to effective execution.”\n“SPIN Selling offers a structured, teachable approach to handling large, complex sales. While it excels in logical planning and buyer-centric questioning, its impact can be magnified by integrating subconscious rapport techniques and emotional intelligence into its rational framework.”"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Huthwaite International: SPIN Selling",
+        "url": "https://www.huthwaiteinternational.com/sales-training/spin-selling"
+      }
+    ]
+  },
+  {
+    "slug": "sales-question-bank",
+    "title": "Sales question bank: prepare for each buyer conversation",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Browse the complete supplied prompts for pre-discovery, discovery, demonstrations and commercial discussions.",
+    "sections": [
+      {
+        "heading": "Pre-discovery: goals, fit and decision roles",
+        "body": "1. Pre-discovery Call\nQualification Questions\nWhat prompted you to engage with us today?\nCan you share a bit about your current challenges or pain points related to [relevant industry/topic]?\nHow would you describe your current [specific process or situation]?\nWhat are your primary goals or objectives for [relevant area]?\nMetrics\nCan you provide insight into the metrics that are important for your team or organisation/that led you to start looking into this kind of solution?\nWhat measurable outcomes are you hoping to achieve by exploring a solution like ours?\nEconomic Buyer\nWho is the primary decision-maker or stakeholders involved in the decision-making process for a solution like ours?\nWho else will be involved with this process?\nDecision Criteria\nWhat factors are most important to you when considering a solution in our space?\nAre there specific features or capabilities that are critical for your team or organisation?\nDo you have any solutions in place that you would require us to integrate with?\nIdentify Pain\nCould you describe the challenges you currently face in [specific area]?\nHow are these challenges impacting your team or organisation?\nChampion\nIs there someone internally who is particularly interested or invested in finding a solution to the challenges you've mentioned?\nWho would be the main point of contact for discussions around implementing a new solution? (Use with caution)\nCompetition\nAre you considering any other solutions or providers in our space?\nWhat factors are influencing your decision-making process when evaluating different options?"
+      },
+      {
+        "heading": "Discovery: workflow, urgency and demonstration preparation",
+        "body": "2. Discovery Call\nReview and clarify qualification\nBased on our previous conversation, I understand [highlight key points from the SDR conversation]. Can you provide any additional context or details?\nIs there anything you'd like to add or clarify regarding your current challenges or goals?\nCurrent Processes and Workflow\nCan you walk me through your current processes or workflow related to [specific area] in more detail?\nWhat tools or systems are you currently using to address these challenges?\nAdditional Pain Points\nSince our last conversation, have there been any new developments or pain points that have emerged?\nHow urgently are you looking to address these challenges?\nDemo Preparation\nIn our upcoming demo, are there specific features or functionalities you're particularly interested in seeing?\nAre there any specific scenarios or use cases you'd like us to focus on during the demo?\nKey Stakeholders and Decision-Making Process:\nHave there been any changes in the key stakeholders involved in the decision-making process?\nCan you provide more insights into the decision-making process and any criteria that are particularly important for your team?\nTimeline and Urgency:\nWhat is your ideal timeline for implementing a solution like ours?\nAre there any time-sensitive factors or milestones we should be aware of?\nIntegration and Compatibility:\nHow important is it for our solution to integrate with your existing systems or tools?\nAre there any specific integration requirements or considerations we should be aware of?\nCompetition Landscape\nHave you gained more insights into other solutions since our last conversation?\nWhat factors are influencing your decision-making process as you compare different options?\nBudget Discussion\nTo ensure we tailor our demo to your needs, can you provide any insights into the budget range you are working within?\nAre there any budgetary constraints or considerations we should be aware of?\nNext Steps and Expectations\nWhat are your expectations for the demo, and are there specific outcomes you're hoping to achieve?\nBased on our discussion today, what would be the ideal next steps from your perspective?"
+      },
+      {
+        "heading": "Demonstration: feedback, fit and next steps",
+        "body": "3. Demo/Tailored Solution\nDuring the Demo\nEngagement Questions\nHow does the functionality demonstrated align with your current needs or challenges?\nIs there anything specific that stands out to you so far?\nCustomisation and Flexibility\nHow well does the demonstrated solution align with your team's specific requirements?\nAre there any particular features or functionalities you'd like to explore further?\nAfter the Demo\nFeedback\nWhat aspects of the demo were most compelling for you?\nAre there any areas where you see potential improvements or customisations?\nRemaining Questions\nDo you have any remaining questions or concerns based on the demo?\nIs there anything you'd like to dive deeper into or explore further?\nDemo Impact on Challenges\nHow do you see the demonstrated solution addressing the challenges we discussed earlier?\nAre there additional insights or considerations that have come up during the demo?\nDecision-Making and Internal Discussion\nDecision-Making Process\nWhat are the next steps in your decision-making process after this demo?\nWho else within your organisation needs to be involved in the decision, and how can we support that process?\nInternal Discussion\nDo you anticipate any challenges or objections from other stakeholders in your organisation?\nHow can we assist you in presenting this solution internally to ensure alignment and understanding?\nTimeline and Implementation\nTimeline Confirmation\nHas the demo provided clarity on the timeline for implementing a solution like ours?\nAre there any specific deadlines or milestones we should be aware of?\nImplementation Support\nWhat level of support or resources will your team need during the implementation phase?\nAre there any potential roadblocks or challenges in the implementation process that we should address?\nTailoring the Solution\nCustomisation Requests\nBased on the demo, are there specific customisations or adjustments you'd like to discuss?\nHow can we tailor the solution further to meet your unique requirements?\nScalability\nHow do you foresee the scalability of our solution to meet your future needs?\nCompetitive Differentiators\nUnique Value Proposition\nHow does our solution compare to others you may be considering?\nAre there specific aspects that stand out as unique or particularly valuable for your team?\nNext Steps and Follow-Up\nFollow-Up Meetings\nWhat additional information or discussions would be helpful for you at this stage?\nAre there specific follow-up meetings or discussions you would like to schedule?"
+      },
+      {
+        "heading": "Commercial discussions: pricing, review and implementation",
+        "body": "4. Pricing & Legal\nPricing Discussions\nInitial Budget Confirmation\nBased on the demo and discussions so far, does the solution align with your budget expectations?\nHave there been any changes or updates to your budget considerations since our last conversation?\nDetailed Pricing Clarifications\nCan you provide more details on your pricing preferences or any specific structures that work best for your organisation?\nAre there any particular pricing models or plans you are leaning towards?\nCustomisation Impact on Pricing\nCustomisation Requests and Pricing Impact\nIf there are specific customisations or additional features requested, how might these impact the pricing structure?\nAre there any cost considerations associated with the customisations you're looking for?\nNegotiation and Flexibility\nNegotiation Parameters\nWithin the budget constraints, are there areas where you have flexibility for negotiation?\nAre there specific terms or conditions that would make the pricing more favorable for your organisation?\nDiscounts and Incentives\nAre there circumstances under which your organisation typically qualifies for discounts or incentives?\nWhat other factors influence the negotiation process within your organisation?\nLegal and Contractual Considerations\nLegal Approval Process\nWhat is the typical process for legal approval within your organisation?\nAre there specific legal considerations or requirements we should be aware of?\nContractual Details\nAre there any specific terms or conditions that are crucial for your legal team to review in the contract?\nHow can we assist in expediting the legal review process?\nImplementation Planning\nImplementation Resource Allocation\nAs we finalise pricing and move toward contract signing, how is your team planning to allocate resources for the implementation phase?\nAre there specific roles or responsibilities we should be aware of for a smooth implementation process?\nTimeline for Contract Signing\nContract Signing Milestones\nWhat is the anticipated timeline for completing the legal and pricing discussions and moving toward contract signing?\nAre there any specific deadlines or milestones we should be mindful of during this phase?\nPost-Contract Support\nPost-Signing Support Planning\nOnce the contract is signed, how is your team planning for post-contract support and communication?\nAre there specific onboarding or training needs that we should address in the post-contract phase?"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "sales-buyer-roles",
+    "title": "Buying groups: distinguish roles from personality labels",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Map decision-makers, influencers, champions, users and other buying participants, while examining the collection’s persona shortcuts.",
+    "sections": [
+      {
+        "heading": "Attention, BASIC mapping, persona labels and decision roles",
+        "body": "Prospect attention\nCursory\nMisleading\nVoluntary\nIntentional\nPersonas\nBuyers, amplifiers, seekers, influencers, coaches (BASIC mapping)\nDirector: craves control, direct, business first, result/action\nAnalyser: data driven, linear thinker, methodical, emotional wall\nSocialiser: outgoing, needs to feel important, intuitive, heart then mind\nConsensus: passive, indecisive, interrogator, listens\nGatekeeper: make him your salesperson\nPower people: everything fast\nParty people: creative\nPeace people: dislike conflict\nPerfection people: avoid risk\nDecision maker\nInfluencer\nChampion\nEnd user\nCustomer\nExternal influencer"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "sales-objections",
+    "title": "Sales objections: understand the concern and respond",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Separate reasons for hesitation from techniques for listening, clarifying, presenting evidence and agreeing what happens next.",
+    "sections": [
+      {
+        "heading": "Reasons buyers raise concerns",
+        "body": "Objections\nOne of the biggest challenges in sales\nLet the customer convince themselves\nSometimes objection are not that bad\nProspects that buy have 58% more objections\nObjection does not means losing the deal, but walking away after the objection is\nDo not fear objection as your responses will get affected, always be prepared\nObjection can be of any form - distraction, yawning, uninterested, interrupting you, etc.\nStop whatever you are saying or doing and do something else\nChange your topic, encourage interaction or apply objection handling technique\nWhy do people object?\nLack of knowledge\nWarranted concern - price not right\nHidden agenda - incentives\nPerception issue\nUnpleasant past with you or your company\nMisunderstood presentation - information unclear\nInadequate explanation of benefits\nMisstep in qualification, unrevealed questions\nReluctant to change\nLingering questions\nAdditional discovery is required\nTiming\nFeatures\nYou are disliked"
+      },
+      {
+        "heading": "Responding with listening, evidence and empathy",
+        "body": "Objection handling\nListen carefully to their objection\nProbe for deeper details\nAcknowledge their point of view\nSearch for the solution\nConfirm your understanding and show empathy\nConfirm if you have answered their questions\nBack it up with proof & customer references\nGet another salesperson to take over, preferably your supervisor\nAnswer them confidently\nShow them the value\nAttempt / reattempt to close\nControl your emotion\nDo not have two person angry\nNever win the battle but lose the war\nEnd argument peacefully\nNo is a guidepost not a stop sign\nShow gratitude to your prospect that they are here and listened to you\nTurnaround: ledge (agree with customers) → disrupt (get a convenient time) → ask (for commitment)"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "sales-commitment",
+    "title": "Closing: agree a decision and a concrete next step",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Review direct, trial and conditional closing prompts alongside delivery, follow-up and buyer commitment.",
+    "sections": [
+      {
+        "heading": "Closing prompts and follow-up claims",
+        "body": "Closing\nPhilosophy\nUrgency\nDirect: how many do you want?\nTrial: if you need, how many?\nProactive: if I can, will you?\nAlternate advance / assume: would you want it shipped by Thursday?\n80% of sales require 5 follow-up calls after the meeting. 44% of sales reps give up after 1 follow-up."
+      },
+      {
+        "heading": "Commitment, trial and delivery",
+        "body": "Successful closing\nCommitment\nTrial\nDelivery\nDilute influence then get micro-commitments"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "customer-retention",
+    "title": "Customer retention, referrals and service quality",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Connect ongoing service, referral conversations, customer-experience design and the five service-quality dimensions.",
+    "sections": [
+      {
+        "heading": "Service, referrals and the seven Es",
+        "body": "Customer service\nServicing\na new customer can cost five times more than retaining an existing customer\nValue discussion, treat request with Importance, Permission to brainstorm, Suggest names & categories (VIPS referral method)\nAt least 4 servicing a year, thank you note & calling\nNet promoter score: an index ranging from -100 to 100 that measures the willingness of customers to recommend a customer\n7 E's to successful customer services\nExpectations with zero tolerance\nExcellence by efforts\nEmployees by going the extra mile\nEmpowerment by leadership\nEducation by training\nEarnings by market\nExecution by hard work"
+      },
+      {
+        "heading": "Customer experience, service quality and reported statistics",
+        "body": "Promised experience: product price/promotion and range; interactivity customer journey fit, flow and data entry; service fulfilment and support\nEmotional values: design visual and style tone; reassurance trust and credibility\nRational values: ease of use on usability, accessibility and standards; relevance content and search, customisation; performance speed and availability\nService quality\nTangibles: physical appearance\nReliability: perform dependably and accurately\nResponsiveness: willingness to help\nAssurance: knowledge and courtesy to trust and confidence\nEmpathy: caring and individualised\nCustomer experience (Brian Solis, Wiley 2015)\n86% of consumers willing to pay more to receive a better customer experience\n1% of customers feel their expectations are met consistently"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "customer-systems",
+    "title": "CRM and customer experience: connect insights to service",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Explore the collection’s CRM and CEM functions across marketing, sales, support, collaboration and customer experience.",
+    "sections": [
+      {
+        "heading": "CRM, social insights, collaboration and CEM",
+        "body": "Customer relationship management (CRM) tool\nSocial customers insights\nSocial marketing insights\nRapid social marketing response\nSocial campaign tracking\nSocial event management\nSocial sales insights\nRapid social sales response\nProactive social lead generation\nSocial support insights\nRapid social response\nPeer-to-peer unpaid armies\nInnovations insights\nCrowdsourced R&D\nCollaboration insights\nEnterprise collaboration\nExtended collaboration\nSeamless customer experience\nVIP experience\nCustomer experience management (CEM) tool"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "sales-revenue-planning",
+    "title": "Sales planning: connect customer value, activity and revenue",
+    "topic": "Business & Management",
+    "group": "Sales leadership & operations",
+    "summary": "Review planning horizons, customer focus, channel choices and the conditions for scaling successful sales work.",
+    "sections": [
+      {
+        "heading": "Planning horizons, customer focus and sales channels",
+        "body": "Revenue Plan\nSales Planning & Operations\nTime-Based Planning\nAnnual, quarterly, monthly, and weekly sales planning\nCustomer Focus\nSpend more time with customers\nSell only what your customer needs\n\"You cannot listen to customers and talk at the same time\"\nTo better meet customer needs\nTo meet more customer needs\nSales Force & Channels\nHire more salespeople\nBuild high-margin products, customers & channels\nScaling: do more of what works (training and talent acquisition)"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "sales-account-planning",
+    "title": "Account planning: retain, expand and coordinate",
+    "topic": "Business & Management",
+    "group": "Sales leadership & operations",
+    "summary": "Bring account objectives, retention, expansion, activity planning and complementary sales skills into one working view.",
+    "sections": [
+      {
+        "heading": "Account planning and sales-team roles",
+        "body": "Accounts management\nAccount planning session\nAccount planning sheet\nAccount expansion\nAccount retention\nSales activities planning\nSalesperson profiling\nHunter\nTechnician\nConsultant: think like a guru\nFarmer\ninterpersonal skills\nComplementary skills\nClient-specific expertise\nCollective intelligence"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "sales-forecasting",
+    "title": "Sales forecasting: methods named in the collection",
+    "topic": "Business & Management",
+    "group": "Sales leadership & operations",
+    "summary": "Distinguish past-sales extrapolation, market-potential estimates and the named market build-up and factor methods.",
+    "sections": [
+      {
+        "heading": "Forecasting approaches",
+        "body": "Sales forecasting\nExtrapolating past sales\nEstimate market potential and market share\nMarket build-up method\nMarket factor method"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "sales-leadership",
+    "title": "Sales leadership: purpose, accountability and team learning",
+    "topic": "Business & Management",
+    "group": "Sales leadership & operations",
+    "summary": "Connect purpose, leading indicators, coaching conditions, pressure, feedback and meeting debriefs.",
+    "sections": [
+      {
+        "heading": "Leading indicators and purpose",
+        "body": "Leader indicator for failing\nExecution misses in technology: create leading metrics for technology projects\nNo consequences for poor performance: individual goal review on a monthly or quarterly basis as well as enterprise-wide talent assessment\nFlawed strategy planning caused by minimal competitive information: apply a data-centric approach to planning collect - marketplace intelligence, competitive analysis, and internal assessment of capabilities\nNo talent pipeline: quarterly talent assessment process and robust talent pipeline\nMotivation\nPurpose\nDrives everything\nIs a path to high performance\nContributes to life well lived\nMoves mountains\nWill hold you steady in a turbulent marketplace\nInjects your brand with a healthy dose of reality\nFosters visionary ideas and meaningful innovation\nRecruits passionate people\nBrings energy and vitality to the work at hand"
+      },
+      {
+        "heading": "Assessment labels in the notes",
+        "body": "Assessment\nInnate Intelligence (IQ)\nAcquired Intelligence (AQ)\nTechnological Intelligence (TQ)\nEmotional Quotation (EQ)\nDominance, influence, steadiness, conscientiousness (DISC)\nMyers–Briggs type indicator (MBTI)"
+      },
+      {
+        "heading": "Working under pressure, leadership and debriefs",
+        "body": "Sales under pressure\nAcknowledge the pressure\nPrioritise client knowledge\nChoose words carefully\nChoose an excellence mindset\nPractise together\nSales leader\nFocus on the goal\nCreate a collaborative climate\nBuild confidence\nSet priorities\nIdentify challenges\nPlan for conflict\nManage performance\nRefine the group's mission\nSet overachieving performance goals\nDemonstrate sufficient technical know-how\nClarify individual and collective work product\nSort through your communication plan\nSeek and objective feedback loop\nDefine accountabilities: a personal choice to rise above one's circumstances and demonstrate the ownership necessary for achieving desired results; to see it, own it, solve it and do it\nRe-group meeting\nKey learning points\nInternal follow-up accountabilities\nClient follow-up accountabilities\nBenchmark the meeting\nAccess the team's performance\nDebrief individual team member performance"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "sales-coaching",
+    "title": "Sales coaching: opportunities, pipeline, skills and territories",
+    "topic": "Business & Management",
+    "group": "Sales leadership & operations",
+    "summary": "Use the collection’s coaching prompts across customer context, opportunity progress, accounts, skills and territory planning.",
+    "sections": [
+      {
+        "heading": "Five coaching perspectives and a changing buying environment",
+        "body": "Current sales issues\nMore buyers involved\nPolitical and business-driven decisions\nLonger sales cycle\nIncreasingly formalised process\nEvolving buyer expectations and needs\nLead and opportunity coaching\nCustomer's business challenges and goals\nCustomer context\nOpportunity objective\nBuying influences\nSituation analysis\nAction planning\nFunnel or pipeline coaching\nValue and staging\nVelocity\nVolume\nShape\nTime horizon\nAction planning\nSkills and behaviours coaching\nAlignment to the customer's path\nDemonstration of value\nDiscovery of needs\nDelivery of key messages\nSales call skills\nAccount coaching\nResearch and analysis\nFocus segments\nRelationship mapping\nMoving forward\nTerritory coaching\nTarget segment analysis\nFocused buyer role\nAction planning"
+      },
+      {
+        "heading": "Coaching goals and operational outcomes",
+        "body": "Coaching goal\nIncrease selling time\nDecrease onboarding time\nReduce sales admin burden\nImprove visibility into buyer intent\nStreamline opportunity management process\nImprove cross-functional collaboration\nIncrease penetration of existing accounts\nIncrease new account acquisition\nReduce cost of sale\nStreamline forecast process\nDecrease content search time\nDecrease client prep time\nIncrease revenues\nIncrease margins\nIncrease forecast deal win rates\nReduce sales force turnover\nReduce customer churn\nIncrease average deal size\nReduce sales cycle length"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "sales-ethics-examples",
+    "title": "Value selling and misleading offers: examine the examples",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Read the collection’s performance-zone labels, dead-donkey story and bundled-offer example as prompts for critical judgment.",
+    "sections": [
+      {
+        "heading": "Performance labels and questionable selling examples",
+        "body": "Classification:\nDead zone: low performer\nComfort zone: no initiative\nPanic zone: anxious and ambitious\nStretch zone: top performer\nWolf in sheep's clothing and the bear pays for it: one man purchased a donkey and came back another day to retrieve it but it was dead. There is no refund, so he put up a lucky draw and let people buy the ticket, whoever won gets a donkey. The one who won gets a dead donkey\nValue selling: solve problems and makes them feel good\nA facade: selling a Moutai at $200,000 but free a house and a car of equivalent value with credit term to pay it off"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "listening-and-rapport",
+    "title": "Listening and rapport: understand before responding",
+    "topic": "Communication & Personal Development",
+    "group": "Communication & influence",
+    "summary": "Explore the Rogerian-style prompts, reflective listening and verbal and nonverbal aspects of a customer conversation.",
+    "sections": [
+      {
+        "heading": "Rogerian-style listening and perspective taking",
+        "body": "Sales\nPersuasion\nRogerian Technique\nAggressive > Empathetic\nCombative > Understanding\nUnyielding > Collaborative\nForceful > Respecful\nListen actively without interrupting\nAcknowledge their feelings and viewpoints\nReflect back their statements to show understanding\nMaintain eye contact\nLean slightly forward and nod occasionally to show engagement\nUse open gestures and facial expressions to convey openness"
+      },
+      {
+        "heading": "Rapport, voice and physical communication",
+        "body": "Presentation\nBuild rapport\nSmile\nSmall talk\nBe likeable\nVerbal link\nNonverbal-tonality\nVolume\nSpeed\nEnunciation\nPhysiology\nA/symmetrical posture\nHeart-to-heart sales talks\nProximity\nTouching\nHandshake\nWalking\nUse humour\nFirst name"
+      },
+      {
+        "heading": "Nonverbal communication prompts",
+        "body": "Nonverbal\nCompelling\nBody language\nTone of urgency\nEnergy"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "clear-communication",
+    "title": "Clear communication: the seven Cs and visual presentation",
+    "topic": "Communication & Personal Development",
+    "group": "Communication & influence",
+    "summary": "Connect coherent, clear, concise, correct, complete, courteous and concrete messages with the supplied presentation-design prompts.",
+    "sections": [
+      {
+        "heading": "The seven Cs",
+        "body": "7 Cs of Communication\nCoherent\nClear\nConcise\nCorrect\nComplete\nCourteous\nConcrete\nBe concise and clear in your language\nEnsure your message is coherent and logically structured\nCheck for understanding and correctness\nAdjust tone and voice for emphasis and audience engagement\nUse charts or images for clearer, memorable communication"
+      },
+      {
+        "heading": "Slide hierarchy, whitespace and consistency",
+        "body": "Bossification\nAudience should understand your slide within first 3 seconds\nUse only 1 idea per slide\nFlow - entire image with only few text\nContrast - blurred background with fore focus\nDon't use the same content over and over again, saying the same thing as everyone else in the market, same self-serving call to action, repost using the same title and link\nWhite space - luxurious\nHierarchy - Picture first → headline → content\nUnity - Consistency slide style\nThe more pitches, the more customers will dislike you"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "persuasion-evidence",
+    "title": "Persuasion: credibility, emotion, reasoning and evidence",
+    "topic": "Communication & Personal Development",
+    "group": "Communication & influence",
+    "summary": "Compare ethos, pathos and logos with social proof, benefits and the collection’s more questionable attention tactics.",
+    "sections": [
+      {
+        "heading": "Credibility, emotion and logic",
+        "body": "Artistotle's Persuasion Modes\nAppeal to emotions and logic\nEthos (Credibility)\nPathos (Emotion)\nLogos (logic)\nEstablish your credibility upfront\nInclude emotional anecdotes or examples\nPresent logical arguments and evidence\nUse personal and hypothetical examples to connect with audience"
+      },
+      {
+        "heading": "Testimonials, endorsements and supporting evidence",
+        "body": "Cialdini's Social Proof\nExternal: share testimonials from satisfied clients or customers\nInternal: Gain backing from colleagues and superiors\nReinforce with social proof and authority\nSpotlight prior successful projects (external/internal)\nShare insights and endorsements from experts (external/internal)\nPresent data and research supporting your claims"
+      },
+      {
+        "heading": "Benefits, influence and attention examples",
+        "body": "Heart of persuasion\nSelling with benefits\nSelling value\nPersuasion\nQueueing example\nToo little money = unattractive\nJust nice = give you overtake\nToo much people will show empathy and give up automatically\nYou can sound sweet and still push your way through\nSex sells, but selectively and shouldn't be done blindly\nSexual and threatening stimuli are often compelling\nWinner images incite winning\nPeople with common points leads to heightened co-operations"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "needs-and-motivation",
+    "title": "Needs and motivation: use models as questions",
+    "topic": "Communication & Personal Development",
+    "group": "Communication & influence",
+    "summary": "Explore the supplied hierarchy-of-needs notes and distinguish a model’s categories from an individual’s actual priorities.",
+    "sections": [
+      {
+        "heading": "Needs, goals and checking understanding",
+        "body": "Maslow's Hierachy of Needs\nPhysiological needs\nSafety needs\nLove and belongingness needs\nEsteem needs\nSelf-actualisation needs\nIdentify which level of needs they are expressing\nAsk questions about their goals and challenges\nRelated their needs to your message or proposal\nRestate their statements for confirmation\nSeek clarity on unclear points\nSummarise to ensure mutual understanding"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "innovation-pathways",
+    "title": "Innovation: discovery, incubation and acceleration",
+    "topic": "Business & Management",
+    "group": "Growth & innovation",
+    "summary": "Organize the source’s innovation categories, venturing approaches, reinvention motives and transformation prompts.",
+    "sections": [
+      {
+        "heading": "Innovation categories, DIA, venturing and transformation",
+        "body": "Innovation & Reinvention\nTypes of Innovation\nIncremental vs. Breakthrough\nIncremental innovation (high technology development)\nBreakthrough innovation (high market development)\nDisruptive Innovation\nBlue Sky & Continuity\nBlue sky: exploratory, underdeveloped interest\nContinuity: sustain existing offerings\nJump Shot & Layups\nJump shot: clear goal with strategic/economic value\nLayups: convert clear opportunities\nInnovation Process & Models\nDIA Model\nDiscovery: opportunity scoping, plant vision\nIncubation: uncertainty reduction, experiments/pivots\nAcceleration: ramp up growth\nOpen & Internal Venturing\nOpen innovation\nIntrapreneurship (create new businesses within)\nInternal venturing: spin-ins/spinouts\nNew Business Creation & Hybrid Approaches\nMotivations & Insights\nReinvention Motivators\nDesperation, Necessity, Opportunity, Addiction\nInnovation Insights Categories:\nFunctional, Emotional, Choice‑based, Interpersonal, Behavioural, Contextual, Experiential, Financial, Operational, Competitiveness, Channel‑based, Portfolio‑based, Technology, Organisational\nTransformation Initiatives\nRespect present reality; forget assumptions; explore unseen questions; varied perspectives; listen beyond words\nInnovation Rules\nBuild at crossroads; focus on clear/simple transformation; start irrelevant, landing matters"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "business-model-canvas",
+    "title": "Business model canvas: connect value and economics",
+    "topic": "Business & Management",
+    "group": "Strategy foundations",
+    "summary": "Look across the nine supplied business-model components rather than treating a product as the whole business.",
+    "sections": [
+      {
+        "heading": "Nine components in the supplied notes",
+        "body": "Business Model & Corporate Responsibility\nBusiness Model Canvas Components:\nPartners, Activities, Resources, Value propositions, Customer segments, Relations, Channels, Cost structure, Revenue stream"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "business-responsibility",
+    "title": "Business responsibility: CSR and the triple bottom line",
+    "topic": "Business & Management",
+    "group": "Leadership & organizational change",
+    "summary": "Compare the supplied economic, legal, ethical and philanthropic responsibilities with people, planet and profit.",
+    "sections": [
+      {
+        "heading": "Carroll’s hierarchy and Elkington’s triple bottom line",
+        "body": "CSR & Sustainability:\nCarroll’s CSR hierarchy: Economic, Legal, Ethical, Philanthropic\nElkington’s Triple Bottom Line: People, Planet, Profits"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "business-lessons-risk",
+    "title": "Business lessons: flexibility, leverage and profit models",
+    "topic": "Business & Management",
+    "group": "Decisions & execution",
+    "summary": "Read the source’s dot-com lessons, leverage suggestions and profit-model shifts as hypotheses to examine.",
+    "sections": [
+      {
+        "heading": "Lessons, leverage and changing the basis of profit",
+        "body": "Lessons Learned & Best Practices\nDot-com Crash Lessons\nLean & flexible, incremental advances, competitive improvements, product focus over sales\nLeverage & Risk Management\nBorrow resources (time, money, expertise) to gamble small and win big; use future’s money\nProfit Model Shifts\nShift profit basis (e.g., per customer vs. per region)"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "nlp-perspectives",
+    "title": "NLP perspectives and modeling: what the notes propose",
+    "topic": "Communication & Personal Development",
+    "group": "NLP perspectives & preferences",
+    "summary": "Read the collection’s descriptions of modeling, first- and third-person perspectives and shifts in abstraction.",
+    "sections": [
+      {
+        "heading": "Modeling and re-imprinting claims",
+        "body": "NLP\nRe-Imprinting\nA technique in NLP used to heal limiting beliefs formed during early life experiences by revisiting the original memory (the “imprint”) and reframing it with adult insight or positive resources.\n2nd Position Intuitive Modeling\nA method where you \"step into another person's shoes\" to understand their experience, behavior, or thought patterns from their perspective—helping to intuitively model their excellence.\nBasic 3rd Position Modeling\nObserving a situation or person from a detached, third-party viewpoint to objectively study and model their skills or behavior, without emotional involvement.\nBasic States of Excellence Modeling\nIdentifying and replicating the mental, emotional, and physiological states (e.g. confidence, focus) that highly successful people enter when performing at their best."
+      },
+      {
+        "heading": "Chunking and matching",
+        "body": "Chunk Up / Chunk Down\nNLP technique for shifting levels of abstraction:\nChunk up = move to a more general category.\nExample: From “car” to “transportation.”\nChunk down = move to more specific detail.\nExample: From “transportation” to “electric scooters.”\nMatch / Mismatch\nA person’s tendency to look for similarities (match) or differences (mismatch) in information or behavior.\nExample:\nMatch: “This plan is like last year’s—it worked well.”\nMismatch: “This is too similar to last year’s—we need something different.”"
+      },
+      {
+        "heading": "Associated and dissociated perspectives",
+        "body": "Associated / Dissociated\nAssociated: The person experiences events from a first-person perspective, inside the memory or situation, feeling the emotions directly.\n“I relived the moment like I was really there.”\nDissociated: The person sees the event from an outside or third-person view, watching themselves, creating emotional distance.\n“I saw myself in that situation.”"
+      },
+      {
+        "heading": "NLP rapport and change assumptions in the sales notes",
+        "body": "Neuro-linguistic programming (NLP)\nCreate rapport by matching client's breathing, body movement and reflect their choice of words\nDeletion - known knowns, known unknowns, unknown knowns, unknown unknowns\nSix levels of change: connectedness and higher purpose (who else), identity and mission (who), beliefs and values (why), capabilities (how), behaviour (what), environment (where and with whom)\nBreaking rapport and mismatching to get your own way\nKey themes: know what you want (goal setting), know whether you are getting what you want (sensory acuity), get the attention of the unconscious mind (rapport), adjust what you are doing accordingly (behavioural flexibility), model excellence, identify limiting beliefs, use the bell jar distraction technique\nAssumptions to live by: the meaning of your communication is the result you get, we are all unique, there is no such thing as failure - only feedback, behaviour speaks louder than words, we cannot not communicate, you have within you all the resources to achieve what you want, behind every behaviour there is always a positive intention"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sturt et al. (2012): systematic review of NLP health outcomes",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3481516/"
+      }
+    ]
+  },
+  {
+    "slug": "nlp-language-patterns",
+    "title": "NLP language patterns: clarify assumptions and missing detail",
+    "topic": "Communication & Personal Development",
+    "group": "NLP language & communication",
+    "summary": "Explore the source’s meta-model terms, examples, clarifying questions, metaphors and indirect-language descriptions.",
+    "sections": [
+      {
+        "heading": "Generalization, deletion, distortion and example questions",
+        "body": "The NLP Meta-Model\nA set of language patterns used to challenge vague or distorted statements, clarify meaning, and uncover deeper thought processes by questioning generalizations, deletions, and distortions in language.\nGeneralisation\nA cognitive process where one experience is applied broadly to other similar situations, which can be useful (e.g., learning) or limiting (e.g., “I failed once, so I always fail”).\nUniversal Quantifiers\nWords like always, never, everyone, or no one that assume something applies in all cases, often leading to limiting beliefs.\nExample: “I always mess things up.”\nLost Performative\nA judgment or opinion stated without revealing who is making the judgment.\nExample: “That’s a bad idea.”\n(Who says so?)\nMoral Operator\nWords like should, must, have to, or ought to that imply obligation, often without clear reasoning.\nExample: “You must work harder.”\n(Says who? Why?)\nDeletions\nWhen part of the information is left out, making the statement vague or incomplete.\nExample: “I’m unhappy.”\n(About what? With whom?)\nLack of Referential Index\nA vague statement with no specific subject or reference point.\nExample: “They say it’s wrong.”\n(Who is they?)\nComparative Deletion\nA comparison is made, but what's being compared to is missing.\nExample: “This is better.”\n(Better than what?)\nDistortions\nWhen reality is misrepresented or reshaped in our language or thoughts—turning assumptions or internal beliefs into “truths.”\n(This is the broad category that includes the rest of the terms below.)\nNominalisations\nTurning processes or actions into static “things,” often abstract and vague.\nExample: “There’s no communication.”\n(‘Communication’ is a process, not a thing.)\nQuestion: “How specifically is someone not communicating?”\nMind Reading\nAssuming you know what someone else is thinking or feeling without evidence.\nExample: “She hates me.”\nQuestion: “How do you know that?”\nCause and Effect Distortion\nAssuming one thing automatically causes another, especially in relationships or emotions.\nExample: “You make me feel bad.”\nQuestion: “How does what I do cause that feeling?”\nPresuppositions\nHidden assumptions embedded in a statement that must be accepted as true for the sentence to make sense.\nExample: “When did you stop procrastinating?”\n(Assumes the person was procrastinating in the first place.)\nQuestion: “What makes you think I was procrastinating?”\nComplex Equivalence\nAssuming two things mean the same, often without logical connection.\nExample: “She didn’t call me back—she doesn’t care.”\nQuestion: “How does not calling mean she doesn’t care?”\nDisjunction\nUsing either/or language that implies limited choices, often creating a false dilemma.\nExample: “Are you going to succeed or give up?”\nImplied Causes\nStatements that suggest a causal relationship without stating it directly.\nExample: “If you cared about me, you’d be on time.”\n(This implies caring causes punctuality.)\nTag Questions\nQuestions added to the end of a statement to encourage agreement or reduce resistance.\nExample: “This is a good idea, isn’t it?”"
+      },
+      {
+        "heading": "Indirect language, stories and metaphor",
+        "body": "Utilisation\nThe NLP technique of using whatever a person presents (emotions, objections, environment) as part of the intervention or communication.\nExample: If someone says, “I’m nervous,” you might respond, “That nervous energy can help you stay alert and focused.”\nNesting\nEmbedding stories, ideas, or suggestions within one another to bypass resistance and engage the unconscious mind.\nExample: A story within a story used to deliver a message or suggestion indirectly.\nExtended Quotes\nAttributing a message or suggestion to someone else to reduce resistance or make it more acceptable.\nExample: “My mentor once told me, ‘You already have everything you need to succeed.’”\nSpell Out Words\nUsing overly detailed or literal explanations of terms or phrases, often to clarify, confuse, or shift focus.\nExample: Instead of saying “success,” you say, “S-U-C-C-E-S-S, that’s what you want, isn’t it?”\nConversational Postulate\nA question that seems to ask for information but is actually a polite command or suggestion, often inviting action.\nExample: “Can you open the window?”\n(The expected response is action, not a yes/no answer.)\nSelectional Restriction Violations\nUsing grammatically correct but semantically odd sentences that violate typical language patterns, often to provoke deeper thinking or a trance state.\nExample: “The chair forgot the meeting.”\n(Chairs can’t forget — this violation grabs attention.)\nMetaphor\nA figure of speech where one thing is described in terms of another to illustrate a point or influence subconsciously.\nExample: “Life is a journey.”\nUsed in NLP to embed suggestions and reframe experience."
+      },
+      {
+        "heading": "Responding to missing information and changing abstraction",
+        "body": "Responding to Deletion\nAn NLP Meta-Model technique where missing information in someone’s language (e.g., “It’s hard”) is explored or questioned to uncover deeper meaning or clarify communication.\nPersuasion by Chunking Up/Down\nInfluencing others by shifting the level of abstraction: chunking up to broader values or principles for alignment, or chunking down to specifics for clarity or proof."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "nlp-communication-stances",
+    "title": "Communication stances: the Satir categories in the notes",
+    "topic": "Communication & Personal Development",
+    "group": "NLP language & communication",
+    "summary": "Combine the overlapping descriptions of blaming, placating, detached reasoning, distraction and congruent communication.",
+    "sections": [
+      {
+        "heading": "Five communication stances",
+        "body": "The Blamer\nOne of Virginia Satir’s communication stances. This person deflects attention from themselves by criticizing others, often to feel more in control.\nExample: “It’s your fault this went wrong!”\nThe Placater\nAnother Satir stance. This person avoids conflict by always agreeing, apologizing, or trying to please, often at the expense of their own needs.\nExample: “It’s okay, I’ll do whatever you want. I just want you to be happy.”\nThe Computer\nOne of Virginia Satir’s communication stances. This person communicates with logic, facts, and calm detachment, often hiding emotions.\nExample: “Statistically, this happens 40% of the time.”\nThey appear rational but disconnected.\nDistracter\nAnother Satir stance. This person avoids the issue entirely by changing the subject or behaving unpredictably, often to avoid discomfort or confrontation.\nExample: Responding to a serious question with a joke or random comment.\nLeveler\nThe healthiest Satir stance. A person who communicates congruently—what they say, feel, and do are aligned.\nExample: “I’m upset because this matters to me, and I’d like to talk about it calmly.”"
+      },
+      {
+        "heading": "The repeated communication model and congruence",
+        "body": "Satir Categories as Communication Model\nA model developed by Virginia Satir that categorizes communication styles:\nPlacater: Seeks to please others, often at the expense of their own needs.\nBlamer: Puts others down to avoid personal responsibility.\nSuper-Reasonable: Detached and logical, often avoiding emotions.\nIrrelevant: Distracts or deflects attention to avoid issues.\nLeveler: Communicates honestly and clearly, acknowledging emotions and facts.\nCongruent / Incongruent\nCongruent: A state where a person’s thoughts, feelings, and behaviors align and are consistent.\nIncongruent: A mismatch between a person’s thoughts, feelings, and behaviors, often leading to confusion or discomfort."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "nlp-preferences",
+    "title": "Preferences and motivation: an annotated sorting glossary",
+    "topic": "Communication & Personal Development",
+    "group": "NLP perspectives & preferences",
+    "summary": "Browse the collection’s sensory, motivational, social, cognitive and value-based sorting terms with all supplied examples.",
+    "sections": [
+      {
+        "heading": "Sensory language, evaluation and attention",
+        "body": "Representational System Sort\nRefers to a person’s preferred sensory system (Visual, Auditory, Kinesthetic, etc.) for processing information.\nExample:\nVisual: “I see what you mean.”\nAuditory: “That sounds right.”\nKinesthetic: “It feels good.”\nAgree / Disagree\nDescribes whether a person tends to seek agreement or challenge what they hear.\nAgree sorters look for common ground.\nDisagree sorters tend to question or contradict by default.\nSensory / Intuitive\nRefers to how a person gathers information:\nSensory types focus on facts, data, and direct experience.\nIntuitive types look for patterns, impressions, and possibilities beyond what's directly observable.\nBlack & White / Continuum\nDescribes how people evaluate things:\nBlack & White thinkers see things as either/or, good/bad, right/wrong.\nContinuum thinkers recognize shades of gray and prefer a spectrum or range.\nPessimist / Optimist\nFocuses on whether a person tends to expect negative or positive outcomes:\nPessimists focus on what could go wrong.\nOptimists focus on what could go right.\nCertainty / Uncertainty\nRefers to a person’s comfort with predictability:\nCertainty sorters seek stability, clarity, and control.\nUncertainty sorters prefer novelty, variety, and flexibility.\nFocus Sorting\nIndicates where a person tends to place their attention:\nSelf-focus is inward (how it affects me).\nOther-focus is outward (how it affects others).\nCan also refer to task-focus vs. relationship-focus in certain contexts."
+      },
+      {
+        "heading": "Purpose, problem orientation, change and reference frames",
+        "body": "Why / How\nWhy people focus on purpose, reasons, and motivations.\n“Why are we doing this?”\nHow people focus on procedures, steps, and methods.\n“How do we do this?”\nOrigin / Solution\nOrigin-oriented individuals focus on the causes or history of a problem.\n“How did this start?”\nSolution-oriented individuals focus on resolving it.\n“What can we do to fix it?”\nStatic / Process\nStatic thinkers view situations or people as fixed, unchanging.\n“He is like that.”\nProcess thinkers see change, development, or evolution over time.\n“He’s learning to be different.”\nAnalog / Digital\nAnalog thinking sees gradations and continuous variables—nuance.\n“It’s somewhere between good and great.”\nDigital thinking sees distinct, clear categories or yes/no states.\n“It’s either good or bad.”\nEmotional Coping\nRefers to how a person deals with emotional experiences:\nConstructive coping involves awareness and regulation.\nDestructive coping might include avoidance, suppression, or projection.\n(This is more psychological than strictly NLP, but relevant for profiling.)\nInternal / External\nInternal frame of reference means the person relies on their own standards and feelings.\n“I know I did well.”\nExternal frame of reference means the person looks to others for validation.\n“Did I do okay? What did you think?”"
+      },
+      {
+        "heading": "Decision style, convincing, intensity and motivation",
+        "body": "Feeling / Thinking\nFeeling types prioritize emotions, values, and personal impact when processing or deciding.\nThinking types rely on logic, structure, and objective reasoning.\n(This mirrors Jungian/MBTI preferences and is widely used in NLP.)\nActive / Reflective / Inactive\nActive: Prefers to take action quickly and learns by doing.\nReflective: Processes internally before acting, tends to analyze or consider options.\nInactive: Hesitant or disengaged—may struggle to commit to action or analysis.\nConvincer\nDescribes how and when a person becomes convinced something is true or believable.\nIt includes:\nMode: What sensory channel convinces them (seeing, hearing, reading, doing).\nTime: How often they need to experience something (once, several times, consistently, always).\nEmotional Directional Sort\nToward: Motivated by goals, rewards, and desires.\n“I want to achieve success.”\nAway From: Motivated by avoiding problems or pain.\n“I don’t want to fail.”\nIntensity\nRefers to how strongly someone experiences or expresses their emotional or sensory states.\nHigh intensity: Feels deeply, reacts strongly.\nLow intensity: More even-keeled or detached emotionally.\nTowards / Away\nTowards: Motivated by goals or positive outcomes.\nAway: Motivated by avoiding problems or negative outcomes.\nPast Assurance / Future Possibility\nPast Assurance: Looks to past experiences for confidence.\nFuture Possibility: Focuses on future opportunities and what could happen.\nOptions / Procedure\nOptions: Prefers exploring multiple choices.\nProcedure: Prefers following specific steps or routines.\nJudging / Perceiving\nJudging: Prefers structure and closure.\nPerceiving: Prefers flexibility and spontaneity."
+      },
+      {
+        "heading": "Values, responsibility, trust, social energy and the caution about labels",
+        "body": "Necessity / Possibility / Impossibility / Desire\nNecessity: Things that must be done.\nPossibility: Things that could happen.\nImpossibility: Things that cannot happen.\nDesire: Things one wants to do.\nPersonal Interest\nHigh: Strong personal involvement.\nLow: Detached or impersonal.\nPerfection / Optimization / Skepticism\nPerfection: Strives for flawlessness and ideal outcomes.\nOptimization: Focuses on improving or making something as effective as possible.\nSkepticism: Doubts or questions information, seeking validation before accepting it.\nValue Buying Sort\nRefers to how a person makes decisions based on perceived value:\nValue buyers prioritize long-term worth and benefits over immediate gratification.\nResponsibility\nRefers to how an individual takes ownership of tasks, outcomes, or decisions:\nHigh responsibility: Takes ownership and accountability for actions.\nLow responsibility: May defer or avoid taking responsibility.\nTrust / Distrust\nTrust: Believes in the reliability or honesty of others.\nDistrust: Tends to doubt or question the reliability or intentions of others.\nIntrovert / Extrovert / Ambivert\nIntrovert: Prefers solitude and internal reflection.\nExtrovert: Energized by social interaction and external stimuli.\nAmbivert: Exhibits traits of both introversion and extroversion, depending on the situation.\nBeware of All Labels\nA caution against overgeneralizing or restricting understanding of people by rigid labels. Labels can limit or distort perception, as they don’t capture the full complexity of an individual.\nIndependent / Team Player / Manager\nIndependent: Prefers working alone and being self-reliant.\nTeam Player: Enjoys collaborating with others and working in groups.\nManager: Focuses on leading and organizing people, often balancing tasks and responsibilities."
+      },
+      {
+        "heading": "Cooperation, social participation, information and motivation",
+        "body": "Competitive / Cooperative / Polarity / Meta\nCompetitive: Focused on winning or outperforming others.\nCooperative: Prefers working with others towards a common goal.\nPolarity: Refers to situations where there are two opposing viewpoints or forces (e.g., good vs. bad).\nMeta: Refers to a higher-level view or abstraction of the situation or issue.\nSocially: Active / Inactive / Both / Reflective\nActive: Engages readily with others and enjoys socializing.\nInactive: Prefers solitude or less social interaction.\nBoth: Moves between social interaction and solitude depending on context.\nReflective: Prefers to think deeply and reflect internally rather than engaging actively in social situations.\nThings / System / People / Information\nCategories for organizing perspectives or focusing attention:\nThings: Focus on objects, tasks, or tangible items.\nSystem: Focus on processes, organization, or structures.\nPeople: Focus on individuals or interpersonal dynamics.\nInformation: Focus on knowledge, facts, or data.\nQuantitative / Qualitative\nQuantitative: Focuses on measurable data, numbers, and statistical analysis.\nQualitative: Focuses on non-measurable aspects like experiences, feelings, and descriptions.\nKnowledge Sort\nRefers to how people categorize or prioritize information:\nKnowledge sort involves organizing or sorting information based on relevance or importance to the individual, often aligning with their interests or goals.\nClosure / Non-Closure\nClosure: Preference for completing tasks or resolving situations quickly and definitively.\nNon-Closure: Tolerates ambiguity or open-ended situations and may delay decision-making or closure.\nSocial Presentation\nRefers to how individuals present themselves socially, either consciously or subconsciously. This can involve choosing how one expresses their identity, personality, and social roles in different contexts.\nPower, Affiliation, and Achievement\nThese are key motivators according to McClelland’s Theory of Needs:\nPower: Desire for influence and control over others.\nAffiliation: Desire for relationships and social connections.\nAchievement: Desire for success, mastery, and accomplishment.\nValue Sort\nRefers to how individuals prioritize their values, often involving a ranking system to determine what matters most to them (e.g., freedom, security, family, wealth)."
+      },
+      {
+        "heading": "Agency, confidence, time, processing and personal values",
+        "body": "Strong-willed / Compliant / Stubborn\nStrong-willed: Determined and resolute, willing to pursue their goals even in the face of obstacles.\nCompliant: Willing to go along with others’ suggestions or authority.\nStubborn: Unyielding, often resistant to change, even when it’s not in their best interest.\nConditional / Unconditional\nConditional: Beliefs or actions dependent on certain conditions being met.\nUnconditional: Beliefs or actions that are not dependent on any conditions or external factors.\nSelf Confidence: High / Low\nHigh Self Confidence: Believes in their own abilities, decisions, and worth.\nLow Self Confidence: Doubts their own abilities, often seeking validation or reassurance from others.\nMind / Emotion / Body / Role\nRefers to the domains through which people interact with the world:\nMind: Cognitive processes, thoughts, and intellect.\nEmotion: Feelings, moods, and emotional responses.\nBody: Physical presence, sensations, and health.\nRole: Social identity or positions in life (e.g., parent, leader, worker).\nSelf-integrity\nRefers to maintaining personal values, consistency, and authenticity, acting in ways that align with one’s principles and beliefs.\nPast / Present / Future\nRefers to the time orientation of a person:\nPast: Focuses on past experiences, memories, and history.\nPresent: Focuses on the here and now, living in the moment.\nFuture: Focuses on goals, plans, and what’s to come.\nIn-Time / Through-Time\nIn-Time: Focuses on the present moment, living in the \"here and now.\" People who are \"in-time\" experience time as a continuous flow.\nThrough-Time: Focuses on a linear view of time, seeing the past, present, and future as distinct and moving \"through\" time. People who are \"through-time\" often reflect on the past and anticipate the future.\nConcrete, Abstract, Random, and Sequential\nThese terms refer to how people organize and process information:\nConcrete: Focus on specific, tangible details or facts.\nAbstract: Focus on general concepts or ideas, often thinking in broad terms.\nRandom: Focus on patterns, connections, or spontaneity without a fixed structure.\nSequential: Focus on logical, step-by-step progression or order.\nEgo / Strength\nEgo: Refers to one’s sense of self, identity, and personal importance.\nStrength: Refers to inner resilience, emotional fortitude, and personal power.\nMorality\nRefers to a person’s understanding of right and wrong, often influenced by cultural, social, or personal values. It relates to ethical principles guiding behavior and decision-making."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "nlp-learning-problem-solving",
+    "title": "Learning and problem solving: terms from the NLP collection",
+    "topic": "Communication & Personal Development",
+    "group": "Learning & personal development",
+    "summary": "Read the brief descriptions of language learning, rhythmic learning, accelerated learning, contrasting ideas and problem definition.",
+    "sections": [
+      {
+        "heading": "Learning, problem definition and the D.V.P. label",
+        "body": "New Language Rapid Learning\nRefers to a quick, adaptive approach to learning a new language, often leveraging intuitive or immersive methods rather than traditional memorization. It emphasizes flexibility and rapid acquisition.\nRhythmic Learning\nRefers to a learning process that aligns with natural rhythms or cycles, such as incorporating patterns, repetition, and flow to facilitate understanding and retention.\nThe (Accelerated) Learning Chain\nA concept in learning theory that describes the process of acquiring new information or skills through an accelerated, structured chain of steps. This method focuses on breaking down complex tasks into smaller, manageable pieces and reinforcing them quickly to speed up the learning process.\nApposition (of Opposite)\nA technique used in communication or problem-solving, where two contrasting or opposite ideas are placed together to highlight the difference, often helping to clarify or resolve conflicts or tensions by understanding both sides.\nProblem Definition\nThe process of clearly identifying and articulating the problem at hand. Effective problem definition includes understanding the underlying issues, constraints, and desired outcomes, providing clarity before attempting to find a solution.\nProblem Solving Strategy\nRefers to the approach or method used to address and resolve a problem. Common strategies include brainstorming, root cause analysis, trial and error, and using logic or creativity to identify solutions.\nThe D.V.P. Pattern\nThis stands for Deletions, Generalizations, and Distortions, which are key concepts in NLP (Neuro-Linguistic Programming). They describe how people filter, generalize, and distort information based on their perceptions. Understanding these patterns can help in clarifying communication and addressing misunderstandings."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "nlp-development-claims",
+    "title": "Personal development and therapeutic claims: a critical reference",
+    "topic": "Communication & Personal Development",
+    "group": "Learning & personal development",
+    "summary": "Retain the collection’s named techniques and descriptions while distinguishing metaphors, reflective prompts and unverified therapeutic claims.",
+    "sections": [
+      {
+        "heading": "Confidence, boundaries, attention, somatic and vision claims",
+        "body": "Self-Esteem Quick Fix\nA technique or intervention aimed at quickly boosting one’s self-esteem or self-worth. This might involve positive affirmations, reframing negative beliefs, or engaging in actions that reinforce one’s value or accomplishments.\nThe Smart Eating Pattern\nRefers to a structured approach to eating that encourages mindful, balanced, and healthy food choices. It may involve planning meals, listening to the body’s hunger cues, and making informed decisions about nutrition.\nBoundaries Installation\nA technique used to help individuals establish and reinforce personal boundaries in their relationships or environments. It helps people define where their limits are, fostering healthier interactions and self-respect.\nThe Inner Hero Pattern\nA concept in personal development where individuals are encouraged to recognize and activate their inner strengths or “heroic” qualities to overcome challenges, improve resilience, and achieve their goals.\nHolding Attention\nA technique for maintaining focus on a specific topic, person, or task. It involves strategies like using engaging language, visual cues, or maintaining a steady pace to keep others interested and attentive.\nNuanced Gesturing\nRefers to the use of subtle or deliberate body movements (such as hand gestures or facial expressions) to communicate additional meaning, emphasize points, or create a deeper connection during communication.\nSymbolic Somatic Priming\nA technique that uses physical gestures, postures, or movements (somatic) to trigger psychological or emotional responses. These gestures can prime individuals to feel certain emotions or think in a particular way based on symbolic associations.\nSomatic Awareness Enhancement\nDeveloping greater sensitivity and awareness of bodily sensations to better understand emotions, stress signals, and internal states. It helps in self-regulation and emotional intelligence.\nEssence Leading\nGuiding others (or oneself) by connecting to and embodying core values, authentic identity, or higher purpose—leading from the \"essence\" rather than roles or appearances.\nSomatic Leading\nInfluencing others through non-verbal physical cues like posture, breathing, or movement to establish rapport or shift emotional/mental states.\nThe Vision Communication Protocol\nA structured method for sharing a compelling future vision clearly and persuasively, often used in leadership or motivational contexts to align and inspire others."
+      },
+      {
+        "heading": "Addiction-related claims, inner conflict, beliefs, memory metaphors and values",
+        "body": "Cyber-Porn Addiction Removal\nInterventions (typically behavioral, cognitive, and somatic) aimed at helping individuals break compulsive patterns related to online pornography use and regain control over focus and energy.\nWinning Over Internal War Zone\nA self-coaching or therapeutic strategy for resolving inner conflict—bringing conflicting parts of the self (e.g., fear vs. desire) into harmony and alignment.\nChanging Belief: The Logical Approach\nA method of transforming limiting beliefs using reasoning, evidence, and structured questioning to shift from unhelpful to empowering thought patterns.\nIdentifying Self-Sabotage Elements\nThe process of uncovering hidden behaviors, thoughts, or emotions that undermine personal goals or success, often operating unconsciously.\nThe Binary Code of Forgetfulness\nA metaphorical concept referring to how the mind stores and suppresses memories or information in a dualistic (on/off, remember/forget) manner, often as a protective mechanism.\nThe Inner Peace Questionnaire\nA tool or set of reflective questions designed to assess a person’s emotional balance, unresolved conflicts, and level of inner harmony.\nMatrixing\nThe act of mapping out mental or emotional patterns—like a mental “matrix”—to identify connections between beliefs, behaviors, and outcomes for deeper insight or change.\nDeconstructing Into Modalities\nBreaking down an experience into its sensory components—visual, auditory, kinesthetic, etc.—to understand how it’s mentally represented and to allow for change or reprogramming."
+      },
+      {
+        "heading": "Trauma-related terms, reprocessing, physiology and timeline claims",
+        "body": "Trauma State\nA heightened emotional and physiological condition triggered by past overwhelming experiences, often marked by fear, dissociation, or shutdown responses.\nReconstructing Into Values\nThe process of transforming limiting beliefs, painful memories, or behaviors by aligning them with core personal values, turning adversity into purpose or clarity.\nFuture Now Dipole\nA technique that links a desired future state with the present moment, creating a psychological tension or motivation that pulls the person toward their goal.\nCommunicating From Vision Down\nSpeaking and acting from a clear, inspiring long-term vision rather than reacting to present limitations—using the future to shape present communication and choices.\nReprocessing\nRevisiting and integrating past experiences (especially traumatic ones) using therapeutic techniques (like NLP, EMDR, etc.) to reduce emotional charge and update meaning.\nThink Physiology\nEmphasizes the role of body posture, breathing, and movement in shaping thoughts, emotions, and mental states—changing how you feel by changing how you move or hold yourself.\nActive Ingredient for Reprocessing\nThe core element (such as a specific technique, belief shift, or sensory change) that triggers meaningful transformation during the reprocessing of emotional or traumatic material.\nTimeline Therapy and Reprocessing\nA technique that helps individuals revisit and reframe events on their internal \"timeline\" to release emotional baggage and update their perception for healing and growth."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sturt et al. (2012): systematic review of NLP health outcomes",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3481516/"
+      }
+    ]
+  },
+  {
+    "slug": "creative-thinking-exercises",
+    "title": "Dot exercises: examine the assumptions before solving",
+    "topic": "Communication & Personal Development",
+    "group": "Learning & personal development",
+    "summary": "View the two supplied dot arrangements and distinguish what is visible from the missing exercise instructions.",
+    "sections": [
+      {
+        "heading": "The supplied exercise labels",
+        "body": "Sales Attachment\nConnect the dots"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "network-connections",
+    "title": "Network connections: how pairwise links grow",
+    "topic": "Business & Management",
+    "group": "Resources & advantage",
+    "summary": "Explore the supplied three-to-fourteen-person diagrams and the count of possible undirected connections.",
+    "sections": [
+      {
+        "heading": "The source’s network-effect label",
+        "body": "Network effect"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "art-of-war-planning",
+    "title": "The Art of War: Planning and assessment",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Compare purpose, conditions, leadership, discipline and preparation before committing resources.",
+    "sections": [
+      {
+        "heading": "Five factors in preparation",
+        "body": "Art of War\nLaying Plans\nSun Tzu said: The art of war is of vital importance to the State.\nIt is a matter of life and death, a road either to safety or to ruin. Hence it is a subject of inquiry which can on no account be neglected.\nThe art of war, then, is governed by five constant factors, to be taken into account in one’s deliberations, when seeking to determine the conditions obtaining in the field.\nThese are:\nThe Moral Law;\nHeaven;\nEarth;\nThe Commander;\nMethod and discipline.\nThe Moral Law causes the people to be in complete accord with their ruler, so that they will follow him regardless of their lives, undismayed by any danger.\nHeaven signifies night and day, cold and heat, times and seasons.\nEarth comprises distances, great and small; danger and security; open ground and narrow passes; the chances of life and death.\nThe Commander stands for the virtues of wisdom, sincerely, benevolence, courage and strictness.\nBy method and discipline are to be understood the marshalling of the army in its proper subdivisions, the graduations of rank among the officers, the maintenance of roads by which supplies may reach the army, and the control of military expenditure.\nThese five heads should be familiar to every general: he who knows them will be victorious; he who knows them not will fail."
+      },
+      {
+        "heading": "Comparative assessment",
+        "body": "Therefore, in your deliberations, when seeking to determine the military conditions, let them be made the basis of a comparison, in this wise:\nWhich of the two sovereigns is imbued with the Moral law?\nWhich of the two generals has the most ability?\nWith whom lie the advantages derived from Heaven and Earth?\nOn which side is discipline most rigorously enforced?\nWhich army is stronger?\nOn which side are officers and men more highly trained?\nIn which army is there the greater consistency both in reward and punishment?\nBy means of these seven considerations I can forecast victory or defeat.\nThe general that hearkens to my counsel and acts upon it, will conquer: let such a one be retained in command! The general that hearkens not to my counsel nor acts upon it, will suffer defeat:—let such a one be dismissed!\nWhile heading the profit of my counsel, avail yourself also of any helpful circumstances over and beyond the ordinary rules.\nAs circumstances are favourable, one should modify one’s plans."
+      },
+      {
+        "heading": "Deception and preparation in the historical text",
+        "body": "All warfare is based on deception.\nHence, when able to attack, we must seem unable; when using our forces, we must seem inactive; when we are near, we must make the enemy believe we are far away; when far away, we must make him believe we are near.\nHold out baits to entice the enemy. Feign disorder, and crush him.\nIf he is secure at all points, be prepared for him. If he is in superior strength, evade him.\nIf he is taking his ease, give him no rest. If his forces are united, separate them.\nIf your opponent is of choleric temper, seek to irritate him. Pretend to be weak, that he may grow arrogant.\nAttack him where he is unprepared, appear where you are not expected.\nThese military devices, leading to victory, must not be divulged beforehand.\nNow the general who wins a battle makes many calculations in his temple where the battle is fought. The general who loses a battle makes a few calculations beforehand. Thus doing many calculations lead to victory, and few calculations to defeat: how much more no calculation at all! It is by attention to this point that I can foresee who is likely to win or lose."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-campaign-costs",
+    "title": "The Art of War: Campaign costs and duration",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Read the supplied discussion of resource strain, supply and the costs of prolonged campaigns.",
+    "sections": [
+      {
+        "heading": "The strain of prolonged campaigns",
+        "body": "Waging War\nSun Tzu said: In the operations of war, where there are in the field a thousand swift chariots, as many heavy chariots, and a hundred thousand mail-clad soldiers, with provisions enough to carry them a thousand li, the expenditure at home and at the front, including entertainment of guests, small items such as glue and paint, and sums spent on chariots and armour, will reach the total of a thousand ounces of silver per day. Such is the cost of raising an army of 100,000 men.\nWhen you engage in actual fighting, if victory is long in coming, then men’s weapons will grow dull and their ardour will be damped. If you lay siege to a town, you will exhaust your strength.\nAgain, if the campaign is protracted, the resources of the State will not be equal to the strain.\nWhen their substance is drained away, the peasantry will be afflicted by heavy exactions.\nNow, when your weapons are dulled, your ardour damped, your strength exhausted and your treasure spent, other chieftains will spring up to take advantage of your extremity. Then no man, however wise, will be able to avert the consequences that must ensue.\nThus, though we have heard of stupid haste in war, cleverness has never been seen associated with long delays.\nThere is no instance of a country having benefited from prolonged warfare.\nIt is only one who is thoroughly acquainted with the evils of war that can thoroughly understand the profitable way of carrying it on."
+      },
+      {
+        "heading": "Supply, rewards and the cost of commitment",
+        "body": "The skilful soldier does not raise a second levy, nor are his supply-wagons loaded more than twice.\nBring war material with you from home, but forage on the enemy. Thus the army will have enough food for its needs.\nPoverty of the State exchequer causes an army to be maintained by contributions from a distance. Contributing to maintaining an army at a distance causes the people to be impoverished.\nOn the other hand, the proximity of an army causes prices to go up; and high prices cause the people’s substance to be drained away.\nWith this loss of substance and exhaustion of strength, the homes of the people will be stripped bare, and three-tenths of their income will be dissipated; while government expenses for broken chariots, worn-out horses, breast-plates and helmets, bows and arrows, spears and shields, protective mantles, draught-oxen and heavy wagons, will amount to four-tenths of its total revenue.\nNow in order to kill the enemy, our men must be roused to anger; that there may be advantages from defeating the enemy, they must have their rewards.\nHence a wise general makes a point of foraging on the enemy. One cartload of the enemy’s provisions is equivalent to twenty of one’s own, and likewise a single picul of his provender is equivalent to twenty from one’s own store.\nTherefore in chariot fighting, when ten or more chariots have been taken, those should be rewarded who took the first. Our own flags should be substituted for those of the enemy, and the chariots mingled and used in conjunction with ours. The captured soldiers should be kindly treated and kept.\nThus it may be known that the leader of armies is the arbiter of the people’s fate, the man on whom it depends whether the nation shall be in peace or in peril.\nThis is called, using the conquered foe to augment one’s own strength.\nIn war, then, let your great object be victory, not lengthy campaigns."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-stratagem",
+    "title": "The Art of War: Strategy before confrontation",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Explore the text’s preference for preserving resources, understanding opponents and choosing when to act.",
+    "sections": [
+      {
+        "heading": "Preservation, confrontation and relative strength",
+        "body": "Attack by Stratagem\nSun Tzu said: In the practical art of war, the best thing of all is to take the enemy’s country whole and intact; to shatter and destroy it is not so good. So, too, it is better to recapture an entire army than to destroy it, to capture a regiment, a detachment or a company entirely rather than to destroy them.\nHence to fight and conquer in all your battles is not supreme excellence; supreme excellence consists in breaking the enemy’s resistance without fighting.\nThus the highest form of generalship is to block the enemy’s plans; the next best is to prevent the junction of the enemy’s forces; the next in order is to attack the enemy’s army in the field; and the worst policy of all is to besiege walled cities.\nThe rule is, not to besiege walled cities if it can possibly be avoided. The preparation of mantlets, movable shelters, and various implements of war, will take up to three whole months; and the piling up of mounds over against the walls will take three months more.\nThe general, unable to control his irritation, will launch his men to the assault like swarming ants, with the result that one-third of his men are slain, while the town still remains untaken. Such are the disastrous effects of a siege.\nTherefore the skilful leader subdues the enemy’s troops without any fighting; he captures their cities without laying siege to them; he overthrows their kingdom without lengthy operations in the field.\nWith his forces intact he will dispute the mastery of the Empire, and thus, without losing a man, his triumph will be complete. This is the method of attacking by stratagem.\nIt is the rule in war, if our forces are ten to the enemy’s one, to surround him; if five to one, to attack him; if twice as numerous, to divide our army into two.\nIf equally matched, we can offer battle; if slightly inferior in numbers, we can avoid the enemy; quite unequal in every way, we can flee from him.\nHence, though an obstinate fight may be made by a small force, in the end it must be captured by the larger force.\nNow the general is the bulwark of the State; if the bulwark is complete at all points; the State will be strong; if the bulwark is defective, the State will be weak."
+      },
+      {
+        "heading": "Leadership interference and knowing the situation",
+        "body": "There are three ways in which a ruler can bring misfortune upon his army:\nBy commanding the army to advance or to retreat, being ignorant of the fact that it cannot obey. This is called hobbling the army.\nBy attempting to govern an army in the same way as he administers a kingdom, being ignorant of the conditions which are obtained in an army. This causes restlessness in the soldier’s minds.\nByemploying the officers of his army without discrimination, through ignorance of the military principle of adaptation to circumstances. This shakes the confidence of the soldiers.\nThus we may know that there are five essentials for victory:\nHe will win who knows when to fight and when not to fight.\nHe will win if he knows how to handle both superior and inferior forces.\nHe will win whose army is animated by the same spirit throughout all its ranks.\nHe will win who, prepared himself, waits to take the enemy unprepared.\nHe will win who has military capacity and is not interfered with by the sovereign.\nBut when the army is restless and distrustful, trouble is sure to come from the other feudal princes. This is simply bringing anarchy into the army, and flinging victory away.\nHence the saying: If you know the enemy and know yourself, you need not fear the result of a hundred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat. If you know neither the enemy nor yourself, you will succumb in every battle."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-positioning",
+    "title": "The Art of War: Positioning and preparation",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Read the chapter on defensive preparation, readiness, calculation and favorable conditions.",
+    "sections": [
+      {
+        "heading": "Preparation and defensive position",
+        "body": "Tactical Dispositions\nSun Tzu said: The good fighters of old first put themselves beyond the possibility of defeat, and then waited for an opportunity of defeating the enemy.\nTo secure ourselves against defeat lies in our own hands, but the opportunity of defeating the enemy is provided by the enemy himself.\nThus the good fighter is able to secure himself against defeat, but cannot make certain of defeating the enemy.\nHence the saying: One may know how to conquer without being able to do it.\nSecurity against defeat implies defensive tactics; ability to defeat the enemy means taking the offensive.\nStanding on the defensive indicates insufficient strength; attacking, a superabundance of strength.\nThe general who is skilled in defence hides in the most secret recesses of the earth; he who is skilled in attack flashes forth from the topmost heights of heaven. Thus on the one hand we have the ability to protect ourselves; on the other, a victory that is complete.\nThe general who is skilled in defence hides in the most secret recesses of the earth; he who is skilled in attack flashes forth from the topmost heights of heaven. Thus on the one hand we have the ability to protect ourselves; on the other, a victory that is complete.\nTo see victory only when it is within the ken of the common herd is not the acme of excellence.\nTo see victory only when it is within the ken of the common herd is not the acme of excellence.\nNeither is it the acme of excellence if you fight and conquer and the whole Empire says, “Well done!”"
+      },
+      {
+        "heading": "Calculation, readiness and the conditions of success",
+        "body": "To lift an autumn hair is no sign of great strength; to see the sun and moon is no sign of sharp sight; to hear the noise of thunder is no sign of a quick ear.\nWhat the ancients called a clever fighter is one who not only wins, but excels in winning with ease.\nHence his victories bring him neither reputation for wisdom nor credit for courage.\nHe wins his battles by making no mistakes. Making no mistakes is what establishes the certainty of victory, for it means conquering an enemy that is already defeated.\nHence the skilful fighter puts himself into a position which makes defeat impossible, and does not miss the moment for defeating the enemy.\nThus it is that in war the victorious strategist only seeks battle after the victory has been won, whereas he who is destined to defeat first fights and afterwards looks for victory.\nThe consummate leader cultivates the moral law, and strictly adheres to method and discipline; thus it is in his power to control success.\nIn respect of military methods, we have, firstly, Measurement; secondly, Estimation of quantity; thirdly, Calculation; fourthly, Balancing of chances; fifthly, Victory.\nMeasurement owes its existence to Earth; Estimation of quantity to Measurement; Calculation to Estimation of quantity; Balancing of chances to Calculation; and Victory to Balancing of chances.\nA victorious army opposed to a routed one, is as a pound’s weight placed in the scale against a single grain.\nThe onrush of a conquering force is like the bursting of pent-up waters into a chasm a thousand fathoms deep."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-coordination",
+    "title": "The Art of War: Coordination, energy and timing",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Explore organization, signals, direct and indirect approaches, and the text’s metaphors for coordinated effort.",
+    "sections": [
+      {
+        "heading": "Organization and direct and indirect approaches",
+        "body": "Energy\nSun Tzu said: The control of a large force is the same principle as the control of a few men: it is merely a question of dividing up their numbers.\nFighting with a large army under your command is noisily different from fighting with a small one: it is merely a question of instituting signs and signals.\nTo ensure that your whole host may withstand the brunt of the enemy’s attack and remain unshaken— this is affected by manoeuvres direct and indirect.\nThat the impact of your army may be like a grindstone dashed against an egg—this is affected by the science of weak points and strong.\nIn all fighting, the direct method may be used for joining battle, but indirect methods will be needed in order to secure victory.\nIndirect tactics, efficienly applied, are inexhaustible as Heaven and Earth, unending as the flow of rivers and streams; like the sun and moon, they end but to begin anew; like the four seasons, they pass away to return once more.\nThere are not more than five musical notes, yet the combinations of these five give rise to more melodies than can ever be heard.\nThere are not more than five primary colours (blue, yellow, red, white, and black), yet in combination they produce more hours than can ever be seen.\nThere are not more than five cardinal tastes (sour, acrid, salt, sweet, bitter), yet combinations of them yield more flavours than can ever be tasted.\nIn battle, there are not more than two methods of attack—the direct and the indirect; yet these two in combination give rise to an endless series of manoeuvres.\nThe direct and the indirect lead on to each other in turn. It is like moving in a circle—you never come to an end. Who can exhaust the possibilities of their combination?"
+      },
+      {
+        "heading": "Timing, coordination and combined effort",
+        "body": "The onset of troops is like the rush of a torrent which will even roll stones along in its course.\nThe quality of decision is like the well-timed swoop of a falcon which enables it to strike and destroy its victim.\nTherefore the good fighter will be terrible in his onset, and prompt in his decision.\nEnergy may be likened to the bending of a crossbow; decision, to the releasing of a trigger.\nAmid the turmoil and tumult of battle, there may be seeking disorder and yet no real disorder at all; amid confusion and chaos, your array may be without head or tail, yet it will be proof against defeat.\nSimulated disorder postulates perfect discipline, simulated fear postulates courage; simulated weakness postulates strength.\nHiding order beneath the cloak of disorder is simply a question of subdivision; concealing courage under a show of timidity presupposes a fund of latent energy; masking strength with weakness is to be affected by tactical dispositions.\nThus one who is skilful at keeping the enemy on the move maintains deceitful appearances, according to which the enemy will act. He sacrifices something, that the enemy may snatch at it.\nBy holding out baits, he keeps him on the march; then with a body of picked men he lies in wait for him.\nThe clever combatant looks to the effect of combined energy, and does not require too much from individuals. Hence his ability to pick out the right men and utilize combined energy.\nWhen he utilises combined energy, his fighting men become as it were like unto rolling logs or stones. For it is the nature of a log or stone to remain motionless on level ground, and to move when on a slope; if four-cornered, to come to a standstill, but if round-shaped, to go rolling down.\nThus the energy developed by good fighting men is as the momentum of a round stone rolled down a mountain thousands of feet in height. So much on the subject of energy."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-adaptation",
+    "title": "The Art of War: Strengths, weaknesses and adaptation",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Read the discussion of concentration, uncertainty, changing conditions and tactics compared with water.",
+    "sections": [
+      {
+        "heading": "Position, concentration and response",
+        "body": "Weak & Strong Points\nSun Tzu said: Whoever is first in the field and awaits the coming of the enemy, will be fresh for the fight; whoever is second in the field and has to hasten to battle will arrive exhausted.\nTherefore the clever combatant imposes his will on the enemy, but does not allow the enemy’s will to be imposed on him.\nBy holding out advantages to him, he can cause the enemy to approach of his own accord; or, by inflicting damage, he can make it impossible for the enemy to draw near.\nIf the enemy is taking his ease, he can harass him; if well supplied with food, he can starve him out; if quietly encamped, he can force him to move.\nAppear at points which the enemy must hasten to defend; march swiftly to places where you are not expected.\nAn army may march great distances without distress, if it marches through a country where the enemy is not.\nYou can be sure of succeeding in your attacks if you only attack places which are undefended. You can ensure the safety of your defence if you only hold positions that cannot be attacked.\nHence that general is skilful in attack whose opponent does not know what to defend; and he is skilful in defence whose opponent does not know what to attack.\nO divine art of subtlety and secrecy! Through you we learn to be invisible, through you inaudible; and hence we can hold the enemy’s fate in our hands.\nYou may advance and be absolutely irresistible, if you make for the enemy’s weak points; you may retire and be safe from pursuit if your movements are more rapid than those of the enemy.\nIf we wish to fight, the enemy can be forced into an engagement even though he is sheltered behind a high rampart and a deep ditch. All we need to do is attack some other place that he will be obliged to relieve.\nIf we do not wish to fight, we can prevent the enemy from engaging us even though the lines of our encampment are merely traced out on the ground. All we need to do is to throw something odd and unaccountable in his way.\nBy discovering the enemy’s dispositions and remaining invisible ourselves, we can keep our forces concentrated, while the enemy’s must be divided.\nWe can form a single united body, while the enemy must split up into fractions. Hence there will be a whole pitted against separate parts of a whole, which means that we shall be many to the enemy’s few.\nAnd if we are able thus to attack an inferior force with a superior one, our opponents will be in dire straits.\nNumerical weakness comes from having to prepare against possible attacks; numerical strength, from compelling our adversary to make these preparations against us."
+      },
+      {
+        "heading": "Uncertainty and adaptation to conditions",
+        "body": "For should the enemy strengthen his van, he will weaken his rear; should he strengthen his rear, he will weaken his van; should he strengthen his left, he will weaken his right; should he strengthen his right, he will weaken his left. If he sends reinforcements everywhere, he will be weak everywhere.\nThe spot where we intend to fight must not be made known; for then the enemy will have to prepare against a possible attack at several different points; and his forces being thus distributed in many directions, the numbers we shall have to face at any given point will be proportionately few.\nBut if neither time nor place be known, then the left wing will be impotent to succor the right, the right equally impotent to succor the left, the van unable to relieve the rear, or the rear to support the van. How much more so if the furthest portions of the army are anything under a hundred LI apart, and even the nearest are separated by several LI!\nKnowing the place and the time of the coming battle, we may concentrate from the greatest distances in order to fight.\nThough according to my estimate the soldiers of Yueh exceed our own in number, that shall advantage them nothing in the matter of victory. I say then that victory can be achieved.\nThough the enemy is stronger in numbers, we may prevent him from fighting. Scheme so as to discover his plans and the likelihood of their success.\nRouse him, and learn the principle of his activity or inactivity. Force him to reveal himself, so as to find out his vulnerable spots.\nCarefully compare the opposing army with your own, so that you may know where strength is superabundant and where it is deficient.\nIn making tactical dispositions, the highest pitch you can attain is to conceal them; conceal your dispositions, and you will be safe from the prying of the subtlest spies, from the machinations of the wisest brains.\nHow victory may be produced for them out of the enemy’s own tactics—that is what the multitude cannot comprehend.\nAll men can see the tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.\nDo not repeat the tactics which have gained you one victory, but let your methods be regulated by the infinite variety of circumstances.\nMilitary tactics are like unto water; for water in its natural course runs away from high places and hastens downwards.\nSo in war, the way is to avoid what is strong and to strike at what is weak.\nWater shapes its course according to the nature of the ground over which it flows; the soldier works out his victory in relation to the foe whom he is facing.\nTherefore, just as water retains no constant shape, so in warfare there are no constant conditions.\nHe who can modify his tactics in relation to his opponent and thereby succeed in winning, may be called a heaven-born captain.\nThe five elements (water, fire, wood, metal, earth) are not always equally predominant; the four seasons make way for each other in turn. There are short days and long; the moon has its periods of waning and waxing."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-maneuvering",
+    "title": "The Art of War: Movement, communication and resource trade-offs",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Explore movement, supplies, group signals, discipline, timing and situational judgment.",
+    "sections": [
+      {
+        "heading": "Movement, speed and supplies",
+        "body": "Manoeuvring\nSun Tzu said: In war, the general receives his commands from the sovereign.\nHaving collected an army and concentrated his forces, he must blend and harmonise the different elements thereof before pitching his camp.\nAfter that, comes tactical manoeuvring, than which there is nothing more difficult. The difficulty of tactical manoeuvring consists in turning the devious into the direct, and misfortune into gain.\nThus, to take a long and circuitous route, after enticing the enemy out of the way, and though starting after him, to contrive to reach the goal before him, shows knowledge of the artifice of deviation.\nManoeuvring with an army is advantageous; with an undisciplined multitude, most dangerous.\nIf you set a fully equipped army in march in order to snatch an advantage, the chances are that you will be too late. On the other hand, to detach a flying column for the purpose involves the sacrifice of its baggage and stores.\nThus, if you order your men to roll up their buff-coats, and make forced marches without halting day or night, covering double the usual distance at a stretch, doing a hundred LI in order to wrest an advantage, the leaders of all your three divisions will fall into the hands of the enemy.\nThe stronger men will be in front, the jaded ones will fall behind, and on this plan only one-tenth of your army will reach its destination.\nIf you march fifty LI in order to outmanoeuvre the enemy, you will lose the leader of your first division, and only half your force will reach the goal.\nWe may take it then that an army without its baggage-train is lost; without provisions it is lost; without bases of supply it is lost.\nIf you march thirty LI with the same object, two-thirds of your army will arrive.\nWe cannot enter into alliances until we are acquainted with the designs of our neighbours.\nWe are not fit to lead an army on the march unless we are familiar with the face of the country - its mountains and forests, its pitfalls and precipices, its marshes and swamps.\nWe shall be unable to turn natural advantage to account unless we make use of local guides.\nIn war, practice dissimulation, and you will succeed.\nWhether to concentrate or to divide your troops, must be decided by circumstances.\nLet your rapidity be that of the wind, your compactness that of the forest.\nIn raiding and plundering be like fire, is immovability like a mountain.\nLet your plans be dark and impenetrable as night, and when you move, fall like a thunderbolt.\nWhen you plunder a countryside, let the spoil be divided amongst your men; when you capture new territory, cut it up into allotments for the benefit of the soldiery.\nPonder and deliberate before you make a move.\nHe will conquer who has learnt the artifice of deviation. Such is the art of manoeuvring."
+      },
+      {
+        "heading": "Signals, morale and situational judgment",
+        "body": "The Book of Army Management says: On the field of battle, the spoken word does not carry far enough: hence the institution of gongs and drums. Nor can ordinary objects be seen clearly enough: hence the institution of banners and flags.\nGongs and drums, banners and flags, are means whereby the ears and eyes of the host may be focused on one particular point.\nThe host thus forming a single united body, is it impossible either for the brave to advance alone, or for the cowardly to retreat alone. This is the art of handling large masses of men.\nIn night-fighting, then, make much use of signal-fires and drums, and in fighting by day, of flags and banners, as a means of influencing the ears and eyes of your army.\nA whole army may be robbed of its spirit; a commander-in-chief may be robbed of his presence of mind.\nNow a soldier’s spirit is keenest in the morning; by noonday it has begun to flag; and in the evening, his mind is bent only on returning to camp.\nA clever general, therefore, avoids an army when its spirit is keen, but attacks it when it is sluggish and inclined to return. This is the art of studying moods.\nDisciplined and calm, to await the appearance of disorder and hubbub amongst the enemy:—this is the art of retaining self-possession.\nTo be near the goal while the enemy is still far from it, to wait at ease while the enemy is toiling and struggling, to be well-fed while the enemy is famished:—this is the art of husbanding one’s strength.\nTo refrain from intercepting an enemy whose banners are in perfect order, to refrain from attacking an army drawn up in a calm and confident array:—this is the art of studying circumstances.\nIt is a military axiom not to advance uphill against the enemy, nor to oppose him when he comes downhill.\nDo not pursue an enemy who simulates flight; do not attack soldiers whose temper is keen.\nDo not swallow bait offered by the enemy. Do not interfere with an army that is returning home.\nWhen you surround an army, leave an outlet free. Do not press a desperate foe too hard."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-judgment",
+    "title": "The Art of War: Flexibility and leadership judgment",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Read the text’s treatment of adapting plans and the five faults it attributes to commanders.",
+    "sections": [
+      {
+        "heading": "Adjusting plans and considering trade-offs",
+        "body": "Variation in Tactics\nSun Tzu said: In war, the general receives his commands from the sovereign, collects his army and concentrates his forces\nWhen in a difficult country, do not encamp. In a country where high roads intersect, join hands with your allies. Do not linger in dangerously isolated positions. In hemmed-in situations, you must resort to stratagem. In a desperate position, you must fight.\nThere are roads which must not be followed, armies which must not be attacked, towns which must be besieged, positions which must not be contested, commands of the sovereign which must not be obeyed.\nThe general who thoroughly understands the advantages that accompany variation of tactics knows how to handle his troops.\nThe general who does not understand these, may be well acquainted with the configuration of the country, yet he will not be able to turn his knowledge to practical account.\nSo, the student of war who is unversed in the art of war of varying his plans, even though he is acquainted with the Five Advantages, will fail to make the best use of his men.\nHence in the wise leader’s plans, considerations of advantage and of disadvantage will be blended together.\nIf our expectation of advantage is tempered in this way, we may succeed in accomplishing the essential part of our schemes.\nIf, on the other hand, in the midst of difficulties we are always ready to seize an advantage, we may extricate ourselves from misfortune.\nReduce the hostile chiefs by inflicting damage on them; and make trouble for them, and keep them constantly engaged; hold out specious allurements, and make them rush to any given point.\nThe art of war teaches us to rely not on the likelihood of the enemy not coming, but on our own readiness to receive him; not on the chance of his not attacking, but rather on the fact that we have made our position unassailable.\nWhen an army is overthrown and its leader slain, the cause will surely be found among these five dangerous faults. Let them be a subject of meditation."
+      },
+      {
+        "heading": "The five leadership faults in the text",
+        "body": "There are five dangerous faults which may affect a general\nRecklessness, which leads to destruction;\nCowardice, which leads to capture;\nA hasty temper, which can be provoked by insults;\nA delicacy of honour which is sensitive to shame;\nOver-solicitude for his men, which exposes him to worry and trouble.\nThese are the five besetting sins of a general, ruinous to the conduct of war."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-observation",
+    "title": "The Art of War: Observation, morale and discipline",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Read the historical discussion of travel conditions, visible signals, morale and leadership.",
+    "sections": [
+      {
+        "heading": "Travel conditions and encampment",
+        "body": "The Army on the March\nSun Tzu said: We come now to the question of encamping the army, and observing signs of the enemy. Pass quickly over mountains, and keep in the neighbourhood of valleys.\nCamp in high places, facing the sun. Do not climb heights in order to fight. So much for mountain warfare.\nWhen an invading force crosses a river in its onward march, do not advance to meet it in mid-stream. It will be best to let half the army get across, and then deliver your attack.\nIf you are anxious to fight, you should not go to meet the invader near a river which he has to cross.\nAfter crossing a river, you should get far away from it.\nMoor your craft higher up than the enemy, and facing the sun. Do not move up-stream to meet the enemy. So much for river warfare.\nIn crossing salt-marshes, your sole concern should be to get over them quickly, without any delay.\nIf forced to fight in a salt-marsh, you should have water and grass near you, and get your back to a clump of trees. So much for operations in salt-marshes.\nIn dry, level country, take up an easily accessible position with rising ground to your right and on your rear, so that the danger may be in front, and safety lies behind. So much for campaigning in a flat country.\nAll armies prefer high ground to low and sunny places to dark.\nThese are the four useful branches of military knowledge which enabled the Yellow Emperor to vanquish four several sovereigns.\nIf you are careful of your men, and camp on hard ground, the army will be free from disease of every kind, and this will spell victory.\nWhen you come to a hill or a bank, occupy the sunny side, with the slope on your right rear. Thus you will at once act for the benefit of your soldiers and utilize the natural advantages of the ground.\nWhen, in consequence of heavy rains up-country, a river which you wish to ford is swollen and flecked with foam, you must wait until it subsides.\nCountries in which there are precipitous cliffs with torrents running between, deep natural hollows, confined places, tangled thickets, quagmires and crevasses, should be left with all possible speed and not approached.\nWhile we keep away from such places, we should get the enemy to approach them; while we face them, we should let the enemy have them on his rear.\nIf in the neighbourhood of your camp there should be any hilly country, ponds surrounded by aquatic grass, hollow basins filled with reeds, or woods with thick undergrowth, they must be carefully routed out and searched; for these are places where men in ambush or insidious spies are likely to be lurking."
+      },
+      {
+        "heading": "Signs and interpretations in the historical text",
+        "body": "When the enemy is close at hand and remains quiet, he is relying on the natural strength of his position.\nWhen he keeps aloof and tries to provoke a battle, he is anxious for the other side to advance.\nMovement amongst the trees of a forest shows that the enemy is advancing. The appearance of a number of screens in the midst of thick grass means that the enemy wants to make us suspicious.\nIf his place of encampment is easy to access, he is tendering a bait.\nThe rising of birds in their flight is the sign of an ambush. Startled beasts indicate that a sudden attack is coming.\nWhen there is dust rising in a high column, it is the sign of chariots advancing; when the dust is low, but spread over a wide area, it betokens the approach of infantry. When it branches out in different directions, it shows that parties have been sent to collect firewood. A few clouds of dust moving to and fro signify that the army is encamping.\nHumble words and increased preparations are signs that the enemy is about to advance. Violent language and driving forward as if to the attack are signs that he will retreat.\nWhen the light chariots come out first and take up a position on the wings, it is a sign that the enemy is forming for battle.\nPeace proposals unaccompanied by a sworn covenant indicate a plot.\nWhen there is much running about and the soldiers fall into rank, it means that the critical moment has come.\nWhen some are seen advancing and some retreating, it is a lure.\nWhen the soldiers stand leaning on their spears, they are faint from want of food.\nIf those who are sent to draw water begin by drinking themselves, the army is suffering from thirst.\nIf the enemy sees an advantage to be gained and makes no effort to secure it, the soldiers are exhausted.\nIf birds gather on any spot, it is unoccupied. Clamour by night betokens nervousness.\nIf there is disturbance in the camp, the general’s authority is weak. If the banners and flags are shifted about, sedition is afoot. If the officers are angry, it means that the men are weary.\nWhen an army feeds its horses with grain and kills its cattle for food, and when the men do not hang their cooking-pots over the camp-fires, showing that they will not return to their tents, you may know that they are determined to fight to the death.\nThe sight of men whispering together in small knots or speaking in subdued tones points to disaffection amongst the rank and file.\nToo frequent rewards signify that the enemy is at the end of his resources; too many punishments betray a condition of dire distress.\nTo begin by bluster, but afterwards to take fright at the enemy’s numbers, shows a supreme lack of intelligence.\nWhen envoys are sent with compliments in their mouths, it is a sign that the enemy wishes for a truce.\nIf the enemy’s troops march up angrily and remain facing ours for a long time without either joining battle or taking themselves off again, the situation is one that demands great vigilance and circumspection."
+      },
+      {
+        "heading": "Forethought, trust and discipline",
+        "body": "If our troops are no more in number than the enemy, that is amply sufficient; it only means that no direct attack can be made. What we can do is simply to concentrate all our available strength, keep a close watch on the enemy, and obtain reinforcements.\nHe who exercises no forethought but makes light of his opponents is sure to be captured by them.\nIf soldiers are punished before they have grown attached to you, they will not prove submissive; and, unless submissive, then will be practically useless. If, when the soldiers have become attached to you, punishments are not enforced, they will still be unless.\nTherefore soldiers must be treated in the first instance with humanity, but kept under control by means of iron discipline. This is a certain road to victory.\nIf in training soldiers commands are habitually enforced, the army will be well-disciplined; if not, its discipline will be bad.\nIf a general shows confidence in his men but always insists on his orders being obeyed, the gain will be mutual."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-terrain",
+    "title": "The Art of War: Terrain, organization and responsibility",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Explore six terrain categories, organizational failures and the responsibilities assigned to leadership.",
+    "sections": [
+      {
+        "heading": "Six kinds of terrain",
+        "body": "Terrain\nSun Tzu said: We may distinguish six kinds of terrain, to wit\nAccessible ground;\nEntangling ground;\nTemporising ground;\nNarrow passes;\nPrecipitous heights;\nPositions at a great distance from the enemy.\nGround which can be freely traversed by both sides is called accessible.\nGround which can be abandoned but is hard to re-occupy is called entangling.\nFrom a position of this sort, if the enemy is unprepared, you may sally forth and defeat him. But if the enemy is prepared for your coming, and you fail to defeat him, then, returning being impossible, disaster will ensue.\nWith regard to ground of this nature, be before the enemy in occupying the raised and sunny spots, and carefully guard your line of supplies. Then you will be able to fight with advantage.\nWhen the position is such that neither side will gain by making the first move, it is called temporising ground.\nIn a position of this sort, even though the enemy should offer us an attractive bait, it will be advisable not to stir forth, but rather to retreat, thus enticing the enemy in his turn; then, when part of his army has come out, we may deliver our attack with advantage.\nWith regard to narrow passes, if you can occupy them first, let them be strongly garrisoned and await the advent of the enemy.\nShould the army forestall you in occupying a pass, do not go after him if the pass is fully garrisoned, but only if it is weakly garrisoned.\nWith regard to precipitous heights, if you are beforehand with your adversary, you should occupy the raised and sunny spots, and wait for him to come up.\nIf the enemy has occupied them before you, do not follow him, but retreat and try to entice him away.\nIf you are situated at a great distance from the enemy, and the strength of the two armies is equal, it is not easy to provoke a battle, and fighting will be to your disadvantage.\nThese six are the principles connected with Earth. The general who has attained a responsible post must be careful to study them."
+      },
+      {
+        "heading": "Six organizational calamities",
+        "body": "Now an army is exposed to six several calamities, not arising from natural causes, but from faults for which the general is responsible. These are:\nFlight;\nInsubordination;\nCollapse;\nRuin;\nDisorganisation;\nRout.\nOther conditions being equal, if one force is hurled against another ten times its size, the result will be the flight of the former.\nWhen the common soldiers are too strong and their officers too weak, the result is insubordination. When the officers are too strong and the common soldiers too weak, the result is collapse.\nWhen the higher officers are angry and insubordinate, and on meeting the enemy give battle on their own account from a feeling of resentment, before the commander-in-chief can tell whether or not he is in a position to fight, the result is ruin.\nWhen the general is weak and without authority; when his orders are not clear and distinct; when there are no fixed duties assigned to officers and men, and the ranks are formed in a slovenly haphazard manner, the result is utter disorganisation.\nWhen a general, unable to estimate the enemy’s strength, allows an inferior force to engage a larger one, or hurls a weak detachment against a powerful one, and neglects to place picked soldiers in the front rank, the result must be rout.\nThese are six ways of courting defeat, which must be carefully noted by the general who has attained a responsible post."
+      },
+      {
+        "heading": "Leadership responsibility and practical constraints",
+        "body": "The natural formation of the country is the soldier’s best ally; but a power of estimating the adversary, of controlling the forces of victory, and of shrewdly calculating difficulties, dangers and distances, constitutes the test of a great general.\nHe who knows these things, and in fighting puts his knowledge into practice, will win his battles. He who knows them not, nor practices them, will surely be defeated.\nIf fighting is sure to result in victory, then you must fight, even though the ruler forbids it; if fighting will not result in victory, then you must not fight even at the ruler’s bidding.\nThe general who advances without coveting fame and retreats without fearing disgrace, whose only thought is to protect his country and do good service for his sovereign, is the jewel of the kingdom.\nRegard your soldiers as your children, and they will follow you into the deepest valleys; look upon them as your own beloved sons, and they will stand by you even unto death.\nIf, however, you are indulgent, but unable to make your authority felt; kind-hearted, but unable to enforce your commands; and incapable, moreover, of quelling disorder: then your soldiers must be likened to spoiled children; they are useless for any practical purpose.\nIf we know that our own men are in a condition to attack, but are unaware that the enemy is not open to attack, we have gone only halfway towards victory.\nIf we know that the enemy is open to attack, but are unaware that our own men are not in a condition to attack, we have gone only halfway towards victory.\nIf we know that the enemy is open to attack, and also know that our men are in a condition to attack, but are unaware that the nature of the ground makes fighting impracticable, we have still gone only halfway towards victory.\nHence the experienced soldier, once in motion, is never bewildered; once he has broken camp, he is never at a loss.\nHence the saying: If you know the enemy and know yourself, your victory will not stand in doubt; if you know Heaven and know Earth, you may make your victory complete."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-situations",
+    "title": "The Art of War: Nine situations and changing commitments",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Read all nine ground classifications and the chapter’s extended discussion of cohesion, adaptation and commitment.",
+    "sections": [
+      {
+        "heading": "Nine ground classifications",
+        "body": "The 9 Situations\nSun Tzu said: The art of war recognises nine varieties of ground:\nDispersive ground;\nFacile ground;\nContentious ground;\nOpen ground;\nGround of intersecting highways;\nSerious ground;\nDifficult ground;\nHemmed-in ground;\nDesperate ground.\nWhen a chieftain is fighting in his own territory, it is dispersive ground.\nWhen he has penetrated into hostile territory, but to no great distance, it is facile ground.\nGround the possession of which imports great advantage to either side, is contentious ground.\nGround on which each side has liberty of movement is open ground.\nGround, which forms the key to three contiguous states, so that whoever occupies it first has most of the Empire at his command, is a ground of intersecting highways.\nWhen an army has penetrated into the heart of a hostile country, leaving a number of fortified cities in its rear, it is serious ground.\nMountain forests, rugged steeps, marshes and fens—all countries that are hard to traverse: this is difficult ground.\nGround which is reached through narrow gorges, and from which we can only retire by tortuous paths, so that a small number of the enemy would suffice to crush a large body of our men: this is hemmed in ground.\nGround on which we can only be saved from destruction by fighting without delay, is a desperate ground.\nOn dispersive ground, therefore, fight not. On facile ground, halt not. On contentious ground, attack not.\nOn open ground, do not try to block the enemy’s way. On the ground of intersecting highways, join hands with your allies.\nOn serious ground, gather in plunder. In difficult ground, keep steadily on the march.\nOn hemmed-in ground, resort to stratagem. On desperate ground, fight."
+      },
+      {
+        "heading": "Cohesion and commitment in the historical text",
+        "body": "Those who were called skilful leaders of old knew how to drive a wedge between the enemy’s front and rear; to prevent co-operation between his large and small divisions; to hinder the good troops from rescuing the bad, the officers from rallying their men.\nWhen the enemy’s men were united, they managed to keep them in disorder.\nWhen it was to their advantage, they made a forward move; when otherwise, they stopped still.\nIf asked how to cope with a great host of the enemy in an orderly array and on the point of marching to the attack, I should say: “Begin by seizing something which your opponent holds dear; then he will be amenable to your will.”\nRapidity is the essence of war: take advantage of the enemy’s unreadiness, make your way by unexpected routes, and attack unguarded spots.\nThe following are the principles to be observed by an invading force: The further you penetrate into a country, the greater will be the solidarity of your troops, and thus the defenders will not prevail against you.\nCarefully study the well-being of your men, and do not overtake them. Concentrate your energy and hoard your strength. Keep your army continually on the move, and devise unfathomable plans.\nMake forays in fertile countries in order to supply your army with food.\nThrow your soldiers into positions whence there is no escape, and they will prefer death to flight. If they will face death, there is nothing they may not achieve. Officers and men alike will put forth their utmost strength.\nProhibit the taking of omens, and do away with superstitious doubts. Then, until death itself comes, no calamity need be feared.\nSoldiers when in desperate straits lose the sense of fear. If there is no place of refuge, they will stand firm. If they are in a hostile country, they will show a stubborn front. If there is no help for it, they will fight hard.\nThus, without waiting to be marshalled, the soldiers will be constantly on the qui vive; without waiting to be asked, they will do your will; without restrictions, they will be faithful; without giving orders, they can be trusted.\nIf our soldiers are not overburdened with money, it is not because they have a distaste for riches; if their lives are not unduly long, it is not because they are disinclined to longevity.\nOn the day they are ordered out to battle, your soldiers may weep, those sitting up beneath their garments, and those lying down letting the tears run down their cheeks. But let them once be brought to bay, and they will display the courage of a Chu or a Kuei.\nThe skillful tactician may be likened to the shuai-jan. Now the shuai-jan is a snake that is found in the ChUng mountains. Strike at its head, and you will be attacked by its tail; strike at its tail, and you will be attacked by its head; strike at its middle, and you will be attacked by head and tail both.\nAsked if an army can be made to imitate the shuai-jan, I should answer, Yes. For the men of Wu and the men of Yueh are enemies; yet if they are crossing a river in the same boat and are caught by a storm, they will come to each other’s assistance just as the left hand helps the right.\nHence it is not enough to put one’s trust in the tethering of horses, and the burying of chariot wheels in the ground\nThe principle on which to manage an army is to set up one standard of courage which all must reach.\nHow to make the best of both strong and weak—that is a question involving the proper use of ground.\nThus the skilful general conducts his army just as though he were leading a single man, willy-nilly, by the hand.\nIt is the business of a general to be quiet and thus ensure secrecy; upright and just, and thus maintain order.\nHe must be able to mystify his officers and men by false reports and appearances, and thus keep them in total ignorance.\nBy altering his arrangements and changing his plans, he keeps the enemy without definite knowledge. By shifting his camp and taking circuitous routes, he prevents the enemy from anticipating his purpose\nAt the critical moment, the leader of an army acts like one who has climbed up a height and then kicks away the ladder behind him. He carries his men deep into hostile territory before he shows his hand.\nHe burns his boats and breaks his cooking-pots; like a shepherd driving a flock of sheep, he drives his men this way and that, and nothing knows whether he is going.\nTo muster his host and bring it into danger:—this may be termed the business of the general.\nThe different measures suited to the nine varieties of ground; the expediency of aggressive or defensive tactics; and the fundamental laws of human nature: these are things that must most certainly be studied."
+      },
+      {
+        "heading": "Adapting to situations and the limits of business analogy",
+        "body": "When invading hostile territory, the general principle is, that penetrating deeply brings cohesion; penetrating but a short way means dispersion.\nWhen you penetrate deeply into a country, it is serious ground. When you penetrate but a little way, it is facile ground.\nWhen you leave your own country behind, and take your army across neighbourhood territory, you find yourself on critical ground. When there are means of communication on all four sides, the ground is one of intersecting highways.\nWhen you have the enemy’s strongholds on your rear, and narrow passes in front, it is hemmed-in ground. When there is no place of refuge at all, it is desperate ground.\nTherefore, on dispersive ground, I would inspire my men with unity of purpose. On facile ground, I would see that there is close connection between all parts of my army.\nOn contentious ground, I would hurry up my rear.\nOn open ground, I would keep a vigilant eye on my defences. On the grounds of intersecting highways, I would consolidate my alliances.\nOn serious ground, I would try to ensure a continuous stream of supplies. On difficult ground, I would keep pushing on along the road.\nOn hemmed-in ground, I would block any way of retreat. On desperate ground, I would proclaim to my soldiers the hopelessness of saving their lives.\nFor it is the soldier’s disposition to offer an obstinate resistance when surrounded, to fight hard when he cannot help himself, and to obey promptly when he has fallen into danger.\nTo be ignored of any one of the following four or five principles does not befit a warlike prince.\nWe cannot enter into alliance with neighbouring princes until we are acquainted with their designs. We are not fit to lead an army on the march unless we are familiar with the face of the country—its mountains and forests, its pitfalls and precipices, its marshes and swamps. We shall be unable to turn natural advantages to account unless we make use of local guides.\nWhen a warlike prince attacks a powerful state, his generalship shows itself in preventing the concentration of the enemy’s forces. He overawes his opponents, and their allies are prevented from joining against him.\nHence he does not strive to ally himself with all and sundry, nor does he foster the power of other states. He carries out his own secret designs, keeping his antagonists in awe. Thus he is able to capture their cities and overthrow their kingdoms.\nBestow rewards without regard to rule, issue orders without regard to previous arrangements; and you will be able to handle a whole army as though you had to do with but a single man.\nConfront your soldiers with the deed itself; never let them know your design. When the outlook is bright, bring it before their eyes; but tell them nothing when the situation is gloomy.\nPlace your army in deadly peril, and it will survive; plunge it into desperate straits, and it will come off in safety.\nFor it is precisely when a force has fallen into harm’s way that is capable of striking a blow for victory.\nSuccess in warfare is gained by carefully accommodating ourselves to the enemy’s purpose.\nBy persistently hanging on the enemy’s flank, we shall succeed in the long run in killing the commander-in-chief.\nThis is called the ability to accomplish a thing by sheer cunning.\nOn the day that you take up your command, block the frontier passes, destroy the official tallies, and stop the passage of all emissaries.\nBe stern in the council-chamber, so that you may control the situation.\nIf the enemy leaves a door open, you must rush in.\nAt first, then, exhibit the coyness of a maiden, until the enemy gives you an opening; afterwards emulate the rapidity of a running hare, and it will be too late for the enemy to oppose you.\nForestall your opponent by seizing what he holds dear, and subtly contrive to time his arrival on the ground.\nWalk in the path defined by rule, and accommodate yourself to the enemy until you can fight a decisive battle."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-fire",
+    "title": "The Art of War: Fire, restraint and irreversible consequences",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Read the supplied historical chapter in context, including its closing argument for caution and restraint.",
+    "sections": [
+      {
+        "heading": "The supplied historical discussion of fire",
+        "body": "The Attack by Fire\nSun Tzu said: There are five ways of attacking with fire. The first is to burn soldiers in their camp; the second is to burn stores; the third is to burn baggage trains; the fourth is to burn arsenals and magazines; the fifth is to hurl dropping fire amongst the enemy.\nIn order to carry out an attack, we must have means available. The material for raising fire should always be kept in readiness.\nThere is a proper season for making attacks with fire, and special days for starting a conflagration.\nThe proper season is when the weather is very dry; the special days are those when the moon is in the constellations of the Sieve, the Wall, the Wing or the Cross-bar; for these four are all days of rising wind.\nIn attacking with fire, one should be prepared to meet five possible developments:\nWhen fire breaks out inside the enemy's camp, respond at once with an attack from without.\nIf there is an outbreak of fire, but the enemy’s soldiers remain quiet, bide your time and do not attack.\nWhen the force of the flames has reached its height, follow it up with an attack, if that is practicable; if not, stay where you are.\nIf it is possible to make an assault with fire from without, do not wait for it to break out within, but deliver your attack at a favourable moment.\nWhen you start a fire, be too windward of it. Do not attack from the leeward.\nA wind that rises in the daytime lasts long, but a night breeze soon falls.\nIn every army, the five developments connected with fire must be known, the movements of the stars calculated, and a watch kept for the proper days.\nHence those who use fire as an aid to the attack show intelligence; those who use water as an aid to the attack gain an accession of strength.\nBy means of water, an enemy may be intercepted, but not robbed of all his belongings."
+      },
+      {
+        "heading": "Restraint, emotion and irreversible consequences",
+        "body": "Unhappy is the fate of one who tries to win his battles and succeed in his attacks without cultivating the spirit of enterprise; for the result is a waste of time and general stagnation.\nHence the saying: The enlightened ruler lays his plans well ahead; the good general cultivates his resources.\nMove not unless you see an advantage; use not your troops unless there is something to be gained; fight not unless the position is critical.\nNo ruler should put troops into the field merely to gratify his own spleen; no general should fight a battle simply out of pique.\nIf it is to your advantage, make a forward move; if not, stay where you are.\nAnger may in time change to gladness; vexation may be succeeded by content.\nBut a kingdom that has once been destroyed can never come again into being; nor can the dead ever be brought back to life.\nHence the enlightened ruler is heedful, and the good general full of caution. This is the way to keep a country at peace and an army intact."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war-intelligence",
+    "title": "The Art of War: Intelligence, sources and uncertainty",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Read the historical classification of sources and the text’s emphasis on information before action.",
+    "sections": [
+      {
+        "heading": "Foreknowledge and the five source categories",
+        "body": "The Use of Spies\nSun Tzu said: Raising a host of a hundred thousand men and marching them great distances entails heavy loss on the people and a drain on the resources of the State. The daily expenditure will amount to a thousand ounces of silver. There will be commotion at home and abroad, and men will drop down exhausted on the highways. As many as seven hundred thousand families will be impeded in their labour.\nHostile armies may face each other for years, striving for the victory which is decided in a single day. This being so, to remain in ignorance of the enemy’s condition simply because one grudges the outlay of a hundred ounces of silver in honours and emoluments, is the height of inhumanity.\nOne who acts thus is no leader of men, no present help to his sovereign, no master of victory.\nThus, what enables the wise sovereign and the good general to strike and conquer, and achieve things beyond the reach of ordinary men, is foreknowledge.\nNow this foreknowledge cannot be elicited from spirits; it cannot be obtained inductively from experience, nor by any deductive calculation.\nKnowledge of the enemy’s dispositions can only be obtained from other men.\nHence the use of spies, of whom there are five classes\nLocal spies;\nInward spies;\nConverted spies;\nDoomed spies;\nSurviving spies.\nWhen these five kinds of spy are all at work, none can discover the secret system. This is called “divine manipulation of the threads.” It is the sovereign’s most precious faculty."
+      },
+      {
+        "heading": "Source relationships and intelligence in the historical text",
+        "body": "Having local spies means employing the services of the inhabitants of a district.\nHaving converted spies, getting hold of the enemy’s spies and using them for our own purposes.\nHaving inward spies, making use of officials of the enemy.\nHaving doomed spies, doing certain things openly for purposes of deception, and allowing our spies to know of them and report them to the enemy.\nSurviving spies, finally, are those who bring back news from the enemy’s camp.\nHence it is that none in the whole army are more intimate relations to be maintained than with spies. None should be more liberally rewarded. In no other business should greater secrecy be preserved.\nSpies cannot be usefully employed without a certain intuitive sagacity.\nThey cannot be properly managed without benevolence and straightforwardness.\nWithout subtle ingenuity of mind, one cannot make certain of the truth of their reports.\nBe subtle! be subtle! and use yur spies for every kind of business.\nIf a secret piece of news is divulged by a spy before the time is ripe, he must be put to death together with the man to whom the secret was told.\nWhether the object is to crush an army, to storm a city, or to assassinate an individual, it is always necessary to begin by finding out the names of the attendants, the aides-de-camp, and door-keepers and sentries of the general in command. Our spies must be commissioned to ascertain these.\nThe enemy’s spies who have come to spy on us must be sought out, tempted with bribes, led away and comfortably housed. Thus they will become converted spies and available for our service.\nIt is through the information brought by the converted spy that we are able to acquire and employ local and inward spies.\nIt is owing to his information, again, that we can cause the doomed spy to carry false tidings to the enemy.\nLastly, it is by his information that the surviving spy can be used on appointed occasions.\nThe end and aim of spying in all its five varieties is knowledge of the enemy; and this knowledge can only be derived, in the first instance, from the converted spy. Hence it is essential that the converted spy be treated with the utmost liberality.\nOf old, the rise of the Yin dynasty was due to I Chih who had served under the Hsia. Likewise, the rise of the Chou dynasty was due to Lu Ya who had served under the Yin.\nHence it is only the enlightened ruler and the wise general who will use the highest intelligence of the army for purposes of spying and thereby achieve great results. Spies are a most important element in water, because they depend on an army’s ability to move."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
+  },
+  {
+    "slug": "sales-playbook",
+    "title": "Sales playbook: from prospecting to customer success",
+    "topic": "Business & Management",
+    "group": "Sales & customer relationships",
+    "summary": "Follow the buyer journey, prepare conversations and explore the work of leading a sales team.",
+    "sections": [],
+    "sources": []
+  },
+  {
+    "slug": "nlp-reference",
+    "title": "Neuro-linguistic programming: an annotated reference",
+    "topic": "Communication & Personal Development",
+    "group": "NLP reference",
+    "summary": "Explore the supplied language patterns, perspectives, sorting terms and development claims without confusing descriptions with validated methods.",
+    "sections": [],
+    "sources": [
+      {
+        "title": "Sturt et al. (2012): systematic review of NLP health outcomes",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3481516/"
+      }
+    ]
+  },
+  {
+    "slug": "art-of-war",
+    "title": "The Art of War: a guided reading collection",
+    "topic": "Business & Management",
+    "group": "Strategy classics",
+    "summary": "Read all thirteen supplied chapters, with concise introductions and clearly separated business reflections.",
+    "sections": [],
+    "sources": [
+      {
+        "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    ]
   }
 ]
