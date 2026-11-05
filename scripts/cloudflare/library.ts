@@ -19,8 +19,12 @@ export async function getKnowledgeArticles(): Promise<KnowledgeArticle[]> {
   try {
     const result = await env.SITE_DB.prepare('SELECT data FROM library_knowledge ORDER BY position').all<{ data: string }>();
     const stored = result.results.map((row) => JSON.parse(row.data) as KnowledgeArticle);
-    const existing = new Set(stored.map((article) => article.slug));
-    return [...stored, ...knowledge.filter((article) => !existing.has(article.slug))];
+    // Curated AI guides are versioned with the application so old D1 imports cannot
+    // replace edited articles or expose the retired source-note reader.
+    const curatedAI = knowledge.filter((article) => article.topic === 'Artificial intelligence');
+    const storedNonAI = stored.filter((article) => article.topic !== 'Artificial intelligence' && !curatedAI.some((guide) => guide.slug === article.slug));
+    const existing = new Set(storedNonAI.map((article) => article.slug));
+    return [...storedNonAI, ...knowledge.filter((article) => article.topic !== 'Artificial intelligence' && !existing.has(article.slug)), ...curatedAI];
   } catch {
     // shortcut: use the bundled seed if the knowledge table is unavailable; migrate D1 before editing entries.
     return knowledge;

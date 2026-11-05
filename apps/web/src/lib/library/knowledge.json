@@ -1408,23 +1408,19 @@
   },
   {
     "slug": "ai-learning-hub",
-    "title": "AI learning hub: from foundations to practice",
+    "title": "AI, made easier to explore",
     "topic": "Artificial intelligence",
     "group": "Start here",
-    "summary": "Choose a path through AI concepts, mathematics, models, deployment and risk.",
+    "summary": "Follow a clear path from the basics to working models, practical systems and responsible use.",
     "relatedToolCategory": "AI",
     "sections": [
       {
-        "heading": "Start with the foundations",
-        "body": "Understand AI and machine learning, then explore data, probability and the mathematics of a neural network. Follow the paths below in any order that suits your experience."
+        "heading": "A useful place to begin",
+        "body": "Artificial intelligence brings together data, mathematics and software to solve problems. Start with the foundations, then follow the topics that match what you want to understand or build."
       },
       {
-        "heading": "From models to applications",
-        "body": "Explore neural networks, language models, retrieval and agents. The worked examples use small illustrative numbers so the mechanics are visible; real systems are much larger and varied."
-      },
-      {
-        "heading": "Build responsibly",
-        "body": "Evaluate on representative data, monitor changes, protect information and define what automated systems may do. The source notes preserve the supplied material separately; their claims and illustrations remain unverified until individually reviewed."
+        "heading": "Learn by following the connections",
+        "body": "A prediction begins with data, passes through a model and is evaluated against an objective. Generative AI systems can add retrieval and tools; their performance and risks depend on the whole system."
       }
     ],
     "sources": [
@@ -1440,10 +1436,10 @@
   },
   {
     "slug": "ai-foundations",
-    "title": "AI and machine learning: foundations",
+    "title": "What is AI? A guide to the basics",
     "topic": "Artificial intelligence",
-    "group": "Foundations",
-    "summary": "Learn the basic approaches, terminology and limitations of AI systems.",
+    "group": "Start here",
+    "summary": "Understand the relationship between AI, machine learning and deep learning, and when each is useful.",
     "relatedToolCategory": "AI",
     "sections": [
       {
@@ -1476,10 +1472,10 @@
   },
   {
     "slug": "ai-data-lifecycle",
-    "title": "Data and the machine-learning lifecycle",
+    "title": "From data to a working model",
     "topic": "Artificial intelligence",
-    "group": "Build and operate",
-    "summary": "From defining a problem to collecting, evaluating and monitoring data and models.",
+    "group": "Working with data",
+    "summary": "Follow the decisions that turn raw data into a useful, maintainable machine-learning system.",
     "relatedToolCategory": "AI",
     "sections": [
       {
@@ -1512,10 +1508,10 @@
   },
   {
     "slug": "ai-neural-network-math",
-    "title": "Neural networks: a worked example",
+    "title": "Inside a neural network: a worked example",
     "topic": "Artificial intelligence",
-    "group": "Math and examples",
-    "summary": "See weights, bias, ReLU, matrix dimensions and parameter counts in context.",
+    "group": "Math and worked examples",
+    "summary": "Follow one calculation from inputs and weights to an output, then count the parameters in a small network.",
     "relatedToolCategory": "AI",
     "sections": [
       {
@@ -1548,10 +1544,10 @@
   },
   {
     "slug": "ai-architectures",
-    "title": "Neural-network architectures explained",
+    "title": "A field guide to neural network architectures",
     "topic": "Artificial intelligence",
     "group": "How models work",
-    "summary": "Compare feed-forward, recurrent, convolutional, graph and generative architectures.",
+    "summary": "Compare the structures used for sequences, images, graphs, generation and more.",
     "relatedToolCategory": "AI",
     "sections": [
       {
@@ -1588,10 +1584,10 @@
   },
   {
     "slug": "ai-transformers-language",
-    "title": "Transformers, attention and language models",
+    "title": "How transformers and language models work",
     "topic": "Artificial intelligence",
     "group": "How models work",
-    "summary": "Understand tokens, attention, generation, fine-tuning and multimodal models.",
+    "summary": "Explore tokens, attention and generation without losing sight of what a model can and cannot tell you.",
     "relatedToolCategory": "AI",
     "sections": [
       {
@@ -1626,8 +1622,8 @@
     "slug": "ai-retrieval-agents",
     "title": "RAG, vector search and AI agents",
     "topic": "Artificial intelligence",
-    "group": "Build and operate",
-    "summary": "Connect retrieval, grounding and tools while managing access and reliability.",
+    "group": "Build AI systems",
+    "summary": "See how language models use external information and tools—and where those systems can fail.",
     "relatedToolCategory": "AI",
     "sections": [
       {
@@ -1660,10 +1656,10 @@
   },
   {
     "slug": "ai-math-statistics",
-    "title": "Probability, statistics and optimization for AI",
+    "title": "Probability and statistics for AI",
     "topic": "Artificial intelligence",
-    "group": "Math and examples",
-    "summary": "A guide to distributions, inference, model metrics and optimization.",
+    "group": "Math and worked examples",
+    "summary": "A practical introduction to uncertainty, distributions, inference and model measurement.",
     "relatedToolCategory": "AI",
     "sections": [
       {
@@ -1696,10 +1692,10 @@
   },
   {
     "slug": "ai-risk-governance",
-    "title": "AI risk, security and governance",
+    "title": "AI risk and governance",
     "topic": "Artificial intelligence",
-    "group": "Risk and governance",
-    "summary": "Identify failure modes and decide who evaluates, monitors and responds.",
+    "group": "Responsible AI",
+    "summary": "Identify failures, assign ownership and design safeguards around the people affected.",
     "relatedToolCategory": "AI",
     "sections": [
       {
@@ -1736,27 +1732,27 @@
   },
   {
     "slug": "ai-worked-exercises",
-    "title": "AI worked exercises and source diagrams",
+    "title": "Neural networks by example",
     "topic": "Artificial intelligence",
-    "group": "Math and examples",
-    "summary": "Explore the supplied exercises on neural networks, attention, generation and more.",
+    "group": "Math and worked examples",
+    "summary": "Work through a neuron, a small network and the training loop, step by step.",
     "relatedToolCategory": "AI",
     "sections": [
       {
-        "heading": "How to use the exercises",
-        "body": "The original formula document uses small hand-worked networks and diagrams. Start with the one-neuron example below, then browse the source exercise sections for matrices, mixture of experts, recurrent models, transformers, attention and other architectures."
+        "heading": "Start with a single neuron",
+        "body": "Take three inputs: 2, 1 and 3. Multiply them by weights 1, −1 and 1; then add a bias of −5. The result is −1. Applying ReLU, which replaces negative values with zero, gives an output of 0."
       },
       {
-        "heading": "One neuron",
-        "body": "Inputs [2, 1, 3], weights [1, −1, 1] and bias −5 produce a weighted sum of −1; ReLU returns 0. The original sketch is reproduced below, with the arithmetic written in text for accessibility."
+        "heading": "Add another layer",
+        "body": "A dense layer with three inputs and four outputs has 12 weights and four biases: 16 parameters. A second layer with four inputs and two outputs adds eight weights and two biases. The complete two-layer network has 26 parameters."
       },
       {
-        "heading": "Exercise limitations",
-        "body": "Many illustrations simplify or approximate calculations, and several source claims, architectures and numerical values have not been independently verified. Treat the diagrams as educational examples, not exact descriptions of every deployed model."
+        "heading": "Follow the training loop",
+        "body": "Compute a prediction in a forward pass, compare it with the target using a loss function, then use backpropagation to calculate how changes in the parameters affect that loss. An optimizer uses those gradients to update the parameters."
       },
       {
-        "heading": "More examples",
-        "body": "The preserved notes also cover batch normalization, GANs, dropout, autoencoders, vector search, text-image embeddings, residual and graph networks, diffusion, mixture of experts and reinforcement learning from human feedback."
+        "heading": "Where the simplification ends",
+        "body": "The example uses a tiny fully connected network and assumes both layers have biases. Real architectures can share weights, use different activations or omit biases. A gradient of zero does not by itself prove that a global optimum has been found."
       }
     ],
     "sources": [
@@ -1772,23 +1768,19 @@
   },
   {
     "slug": "ai-source-notes",
-    "title": "AI collection: source notes and diagrams",
+    "title": "AI concepts: a practical glossary",
     "topic": "Artificial intelligence",
-    "group": "Source reference",
-    "summary": "Search preserved source passages and illustrations by topic and document.",
+    "group": "Reference",
+    "summary": "Find clear definitions and pathways to deeper guides across machine learning, generative AI and statistics.",
     "relatedToolCategory": "",
     "sections": [
       {
-        "heading": "What this reference contains",
-        "body": "This reading view preserves the source passages and embedded illustrations in topic groups. The original documents are retained in the project. Search and categories help locate material that is not yet fully explained in the curated guides."
+        "heading": "How to use this glossary",
+        "body": "Browse the ideas by topic, then follow the links to explanations and worked examples. Related terms are grouped by meaning so that you can find the concept you need without working through a long list."
       },
       {
-        "heading": "Read as unverified source material",
-        "body": "The notes contain errors, simplifications, historical forecasts and legal statements that may be outdated. They are shown for traceability, not as verified advice or current legal requirements. Text extraction can lose table structure and equation formatting; image attribution and rights require review."
-      },
-      {
-        "heading": "Use the reviewed guides",
-        "body": "For introductory explanations and links to primary sources, start with the AI learning hub. A source passage’s presence here does not mean it has been individually fact-checked."
+        "heading": "Definitions in context",
+        "body": "Definitions are starting points. Algorithms, model architectures and evaluation methods have assumptions that change how they should be applied."
       }
     ],
     "sources": [
@@ -1799,6 +1791,450 @@
       {
         "title": "Google Machine Learning Crash Course",
         "url": "https://developers.google.com/machine-learning/crash-course/"
+      }
+    ]
+  },
+  {
+    "slug": "ai-learning-methods",
+    "title": "How machines learn: methods compared",
+    "topic": "Artificial intelligence",
+    "group": "Start here",
+    "summary": "Choose between supervised, unsupervised and reinforcement learning by the problem and feedback available.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Supervised learning",
+        "body": "A model learns from examples with known targets. Classification predicts a category; regression predicts a number. Labels need not be perfect, so review their quality and how they were obtained."
+      },
+      {
+        "heading": "Unsupervised learning",
+        "body": "Clustering looks for structure without target labels; dimensionality reduction represents data using fewer dimensions. A cluster is a mathematical grouping, not automatically a meaningful real-world category."
+      },
+      {
+        "heading": "Reinforcement learning",
+        "body": "An agent takes actions in an environment and receives feedback in the form of rewards. The goal is to learn a policy over time; a reward is a designed signal and can miss the outcome people actually value."
+      },
+      {
+        "heading": "Transfer and pretraining",
+        "body": "A model can learn general representations on one dataset and be adapted to another task. Fine-tuning changes model parameters; using examples in a prompt does not necessarily retrain the model."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Machine Learning Crash Course",
+        "url": "https://developers.google.com/machine-learning/crash-course/"
+      }
+    ]
+  },
+  {
+    "slug": "ai-evaluation",
+    "title": "How to evaluate a machine-learning model",
+    "topic": "Artificial intelligence",
+    "group": "Working with data",
+    "summary": "Choose measures that match the mistakes your application can afford.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Start with a fair comparison",
+        "body": "Set aside representative evaluation data, define a simple baseline and decide what success means before tuning. Prevent the same person, future event or duplicated record from leaking across splits."
+      },
+      {
+        "heading": "Classification",
+        "body": "Accuracy counts all correct predictions. Precision asks how many predicted positives were correct; recall asks how many actual positives were found. A confusion matrix separates false positives and false negatives, which can have very different consequences."
+      },
+      {
+        "heading": "Regression and uncertainty",
+        "body": "Mean absolute error averages the size of errors; root mean squared error gives larger errors more weight. Examine error distributions and subgroups as well as a single score. A model’s reported confidence can itself require calibration."
+      },
+      {
+        "heading": "Generalization and drift",
+        "body": "Overfitting occurs when a model fits training data but performs worse on new data; underfitting misses useful patterns. Monitor both input changes and actual outcomes—data drift alone does not prove performance has degraded."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Classification metrics",
+        "url": "https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall"
+      },
+      {
+        "title": "Machine Learning Crash Course",
+        "url": "https://developers.google.com/machine-learning/crash-course/"
+      }
+    ]
+  },
+  {
+    "slug": "ai-llm-workflow",
+    "title": "From prompt to answer: language models and retrieval",
+    "topic": "Artificial intelligence",
+    "group": "Build AI systems",
+    "summary": "Trace the journey from input tokens through retrieval, generation and verification.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Prompt and tokens",
+        "body": "A tokenizer turns input into token IDs, which a model represents as vectors. Tokens are not always whole words. Context length limits what can be considered in a particular request."
+      },
+      {
+        "heading": "Predict and generate",
+        "body": "Many language models predict a distribution for the next token. A decoding method chooses a token, adds it to the context and repeats. A plausible answer can still contain fabricated or unsupported details."
+      },
+      {
+        "heading": "Bring in external information",
+        "body": "Retrieval-augmented generation finds potentially relevant material and supplies it to the model. Chunking, access permissions, retrieval quality, freshness and citations matter. Retrieval improves access to information but cannot guarantee correctness."
+      },
+      {
+        "heading": "Check the result",
+        "body": "Test whether retrieved evidence supports the answer, including cases with no relevant source. Treat retrieved documents and tool outputs as untrusted input, and enforce data permissions outside the model."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Attention Is All You Need",
+        "url": "https://arxiv.org/abs/1706.03762"
+      },
+      {
+        "title": "Retrieval-augmented generation",
+        "url": "https://arxiv.org/abs/2005.11401"
+      }
+    ]
+  },
+  {
+    "slug": "ai-vision-multimodal",
+    "title": "Computer vision and multimodal AI",
+    "topic": "Artificial intelligence",
+    "group": "How models work",
+    "summary": "Explore how systems work with images, text and other forms of data.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "From pixels to features",
+        "body": "Images can be represented as arrays of pixel values. Computer vision methods use features to support tasks such as classification, object detection and segmentation. Performance depends on the dataset and conditions of use."
+      },
+      {
+        "heading": "Learning shared representations",
+        "body": "A multimodal model can encode text and images into representations that are compared or combined. Contrastive training can bring matching examples closer in a learned space; similarity is not proof that an image or caption is true."
+      },
+      {
+        "heading": "Beyond a single image",
+        "body": "Some systems use video frames, audio or sensor data alongside text. Their architectures vary; a language model with an image input is not necessarily able to perceive the world like a person."
+      },
+      {
+        "heading": "Practical limits",
+        "body": "Evaluate lighting, image quality, accessibility, privacy and performance across relevant populations. A model trained on one setting can fail in another."
+      }
+    ],
+    "sources": [
+      {
+        "title": "CLIP research",
+        "url": "https://arxiv.org/abs/2103.00020"
+      },
+      {
+        "title": "Machine Learning Crash Course",
+        "url": "https://developers.google.com/machine-learning/crash-course/"
+      }
+    ]
+  },
+  {
+    "slug": "ai-generative-models",
+    "title": "How generative models create content",
+    "topic": "Artificial intelligence",
+    "group": "How models work",
+    "summary": "Compare autoregressive models, autoencoders, GANs and diffusion.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Autoregressive generation",
+        "body": "A model predicts one element conditioned on earlier elements. Language models commonly generate tokens this way; the choices made at each step shape the rest of the sequence."
+      },
+      {
+        "heading": "Autoencoders",
+        "body": "An encoder produces a representation from an input and a decoder attempts to reconstruct it. A bottleneck can encourage a compact representation, but reconstruction alone does not guarantee useful or interpretable features."
+      },
+      {
+        "heading": "GANs",
+        "body": "A generator produces samples while a discriminator learns to distinguish real and generated examples. Training balances two objectives; the discriminator’s score should not automatically be treated as a calibrated probability."
+      },
+      {
+        "heading": "Diffusion",
+        "body": "A diffusion model learns to reverse a noise process and can generate a sample through iterative denoising. The steps, conditioning and representation depend on the system. Simplified diagrams do not establish the internals of a proprietary product."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Denoising diffusion research",
+        "url": "https://arxiv.org/abs/2006.11239"
+      },
+      {
+        "title": "Generative adversarial nets",
+        "url": "https://arxiv.org/abs/1406.2661"
+      }
+    ]
+  },
+  {
+    "slug": "ai-statistical-inference",
+    "title": "Statistical inference and uncertainty",
+    "topic": "Artificial intelligence",
+    "group": "Math and worked examples",
+    "summary": "Understand sampling, confidence intervals, hypothesis tests and common interpretation errors.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Samples and populations",
+        "body": "A sample provides incomplete information about a population. Random sampling, stratification and a clear definition of the population can help; neither a large sample nor a complex model automatically removes bias."
+      },
+      {
+        "heading": "Confidence intervals",
+        "body": "A confidence interval is produced by a procedure designed to cover a fixed population parameter at a specified long-run rate under its assumptions. Its width depends on the data, method and confidence level."
+      },
+      {
+        "heading": "Hypothesis tests",
+        "body": "A p-value is the probability, assuming the null model and its assumptions, of results at least as extreme as those observed. It is not the probability that the null hypothesis is true and is not a measure of effect size."
+      },
+      {
+        "heading": "Repeated analysis",
+        "body": "Multiple comparisons, data snooping, missing data and selecting only attractive results can distort conclusions. Report the method, assumptions, uncertainty and practical effect—not only a threshold."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NIST statistics handbook",
+        "url": "https://www.nist.gov/programs-projects/nistsematech-engineering-statistics-handbook"
+      },
+      {
+        "title": "NIST: p-values",
+        "url": "https://itl.nist.gov/div898/handbook/prc/section1/prc131.htm"
+      }
+    ]
+  },
+  {
+    "slug": "ai-optimization-methods",
+    "title": "Optimization: how models improve",
+    "topic": "Artificial intelligence",
+    "group": "Math and worked examples",
+    "summary": "Compare gradient-based learning with broader search methods.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Objective and constraints",
+        "body": "An optimization problem states what to minimize or maximize and what constraints apply. A lower training loss is not always the best real-world outcome; choose an objective aligned with evaluation and risk."
+      },
+      {
+        "heading": "Gradients and updates",
+        "body": "Backpropagation computes gradients using the chain rule. Gradient descent uses an update such as new weight = old weight − learning rate × gradient. Optimizers differ in how they choose and adjust updates."
+      },
+      {
+        "heading": "Beyond gradients",
+        "body": "Evolutionary algorithms, simulated annealing and particle swarm optimization search through candidate solutions in different ways. They are not interchangeable, and no one method is best for every objective."
+      },
+      {
+        "heading": "Trade-offs",
+        "body": "Choose methods based on data, convergence, computational cost and whether derivatives are available. Hyperparameters such as learning rate and batch size need evaluation; a stationary point need not be a global optimum."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Machine Learning Crash Course",
+        "url": "https://developers.google.com/machine-learning/crash-course/"
+      }
+    ]
+  },
+  {
+    "slug": "ai-safety-agents",
+    "title": "Safe AI agents and tool use",
+    "topic": "Artificial intelligence",
+    "group": "Responsible AI",
+    "summary": "Put boundaries around systems that retrieve information and take actions.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Separate language from authority",
+        "body": "An agent may choose tools or sequence tasks, but permissions must be enforced by the surrounding software. Define what actions are allowed, for whom and under what conditions."
+      },
+      {
+        "heading": "Untrusted information",
+        "body": "A retrieved page, file or message may contain instructions intended to redirect an AI system. Treat it as data; validate tool inputs and outputs and restrict access to secrets and external actions."
+      },
+      {
+        "heading": "Operate within limits",
+        "body": "Set time, cost and iteration limits. Use human approval for consequential actions where appropriate, preserve the ability to stop or roll back, and decide how failures should be surfaced."
+      },
+      {
+        "heading": "Evaluate the whole workflow",
+        "body": "Test realistic abuse and failure cases, including tool misuse, stale information and compounded errors across agents. Record enough evidence for investigation while limiting sensitive data collection."
+      }
+    ],
+    "sources": [
+      {
+        "title": "OWASP: prompt injection",
+        "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/"
+      },
+      {
+        "title": "NIST AI risk framework",
+        "url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/"
+      }
+    ]
+  },
+  {
+    "slug": "ai-careers",
+    "title": "AI careers and a learning roadmap",
+    "topic": "Artificial intelligence",
+    "group": "Start here",
+    "summary": "Explore the different roles behind an AI system and choose a practical next step.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Different roles, shared work",
+        "body": "Data engineers build and maintain data pipelines. Data analysts examine and communicate information. Data scientists investigate questions and build models; ML engineers focus on systems that train, deploy and operate models. Titles and responsibilities vary."
+      },
+      {
+        "heading": "Build a foundation",
+        "body": "Develop comfort with programming, data handling, linear algebra and probability. Practice asking a focused question, cleaning data, building a baseline and explaining the result."
+      },
+      {
+        "heading": "Make a small project",
+        "body": "Choose a problem with accessible data. Keep a held-out evaluation set, document limitations and show how a user would act on the result. A clear, reproducible small project can teach more than copying a large model."
+      },
+      {
+        "heading": "Keep learning",
+        "body": "Read primary documentation, revisit assumptions and seek domain expertise. Career outcomes and demand vary by location and over time; the historical forecasts in the source material are not current predictions."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Machine Learning Crash Course",
+        "url": "https://developers.google.com/machine-learning/crash-course/"
+      }
+    ]
+  },
+  {
+    "slug": "ai-classical-models",
+    "title": "A guide to common machine-learning models",
+    "topic": "Artificial intelligence",
+    "group": "How models work",
+    "summary": "Compare regression, trees, nearest neighbors, clustering and dimensionality reduction.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Regression and classification",
+        "body": "Linear regression predicts a numerical response using a combination of features. Logistic regression models a class probability. Both need appropriate features, evaluation and attention to assumptions; correlation does not establish causation."
+      },
+      {
+        "heading": "Trees and ensembles",
+        "body": "A decision tree makes a sequence of splits. Random forests combine multiple trees, often trained on resampled data and subsets of features. Boosting builds an ensemble sequentially to reduce a chosen loss; variants differ in their update rules."
+      },
+      {
+        "heading": "Neighbors and boundaries",
+        "body": "K-nearest neighbors makes a prediction from similar training examples, so its notion of distance and feature scaling matter. A support vector machine finds a separating boundary; kernel methods can represent nonlinear relationships."
+      },
+      {
+        "heading": "Grouping and compression",
+        "body": "K-means assigns points to clusters around centers; the number of clusters and distance measure are choices, not discovered facts. Principal component analysis finds directions of variation and can reduce dimensions, but high variance is not necessarily high predictive value."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Machine Learning Crash Course",
+        "url": "https://developers.google.com/machine-learning/crash-course/"
+      }
+    ]
+  },
+  {
+    "slug": "ai-data-analysis",
+    "title": "Explore data before modeling",
+    "topic": "Artificial intelligence",
+    "group": "Working with data",
+    "summary": "Use visualization, sampling and context to understand a dataset.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Know where the data came from",
+        "body": "Structured data has an organized schema; text, images and other unstructured material may require additional processing. Record how data was collected, who is represented and whether its use is permitted."
+      },
+      {
+        "heading": "Look at the distribution",
+        "body": "Use counts, histograms, boxplots and scatterplots alongside summary statistics. Check missing values, skew, outliers and inconsistent units. Averages can hide differences between groups."
+      },
+      {
+        "heading": "Find patterns carefully",
+        "body": "Correlation measures association, not causation. A trend can change or reverse when groups are combined, as in Simpson’s paradox. Investigate potential confounders, collection changes and plausible alternatives."
+      },
+      {
+        "heading": "Prepare without leaking",
+        "body": "Keep a separate evaluation set and fit preprocessing steps on the appropriate training split. For time series, use past data to predict later outcomes. Review duplicates and data that would not be available at prediction time."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NIST engineering statistics handbook",
+        "url": "https://www.nist.gov/programs-projects/nistsematech-engineering-statistics-handbook"
+      },
+      {
+        "title": "Machine Learning Crash Course",
+        "url": "https://developers.google.com/machine-learning/crash-course/"
+      }
+    ]
+  },
+  {
+    "slug": "ai-training-details",
+    "title": "Training neural networks in practice",
+    "topic": "Artificial intelligence",
+    "group": "Math and worked examples",
+    "summary": "Understand losses, gradients, batches and common training techniques.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Forward pass and loss",
+        "body": "Inputs move through layers to produce an output. A loss measures discrepancy from a target or other objective; mean squared error and cross-entropy suit different tasks and assumptions."
+      },
+      {
+        "heading": "Gradients and optimization",
+        "body": "Backpropagation applies the chain rule to calculate gradients of the loss with respect to parameters. An optimizer uses them to update parameters; the learning rate controls the scale of an update."
+      },
+      {
+        "heading": "Batches and epochs",
+        "body": "A batch is a subset processed together. An epoch is one pass through the training dataset; the number of updates depends on batch size and how the final batch is handled."
+      },
+      {
+        "heading": "Generalization techniques",
+        "body": "Validation data, early stopping, regularization, dropout and normalization can help training or generalization in different ways. A lower training loss or a small gradient alone does not guarantee good performance on unseen cases."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Machine Learning Crash Course",
+        "url": "https://developers.google.com/machine-learning/crash-course/"
+      }
+    ]
+  },
+  {
+    "slug": "ai-multimodal-worked",
+    "title": "From images and words to shared representations",
+    "topic": "Artificial intelligence",
+    "group": "Math and worked examples",
+    "summary": "Follow a simplified contrastive learning workflow for paired text and images.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Prepare pairs",
+        "body": "Start with images and associated text. The pairing quality matters: captions can be incomplete, biased or wrong."
+      },
+      {
+        "heading": "Encode and compare",
+        "body": "Separate image and text encoders produce representations, which can be projected into a shared space. Similarity scores compare each image with candidate text descriptions."
+      },
+      {
+        "heading": "Learn from matches",
+        "body": "A contrastive objective encourages corresponding pairs to score more highly than mismatched pairs. Batch construction and the loss affect what the representations learn."
+      },
+      {
+        "heading": "Use and evaluate",
+        "body": "A system can compare a new image with candidate descriptions. Results are similarity-based predictions, not verified descriptions; test the intended task and relevant populations."
+      }
+    ],
+    "sources": [
+      {
+        "title": "CLIP research",
+        "url": "https://arxiv.org/abs/2103.00020"
       }
     ]
   }

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { getKnowledgeArticles, getLibraryTools } from '../../lib/library';
 import { KnowledgeList } from './knowledge-list';
 import { LibraryDirectory } from './directory';
@@ -26,6 +27,9 @@ export default async function LibraryPage({ searchParams }: { searchParams: Prom
         <div><div className={styles.eyebrow}>EXPLORE THE LIBRARY</div><h2 id="explore-heading">A little something for every curious mind.</h2></div>
         <p>Explore knowledge and practical resources. More topics will join the library as the collection grows.</p>
       </section>
+      <Link href="/library/knowledge/ai-learning-hub/" className={styles.aiFeature}>
+        <div><span className={styles.eyebrow}>FEATURED LEARNING HUB</span><h2>Make sense of AI<span>.</span></h2><p>Explore the ideas, mathematics and practical decisions behind AI, one clear guide at a time.</p><strong>Explore the AI learning hub →</strong></div><div className={styles.aiFeatureMark} aria-hidden="true">✳</div>
+      </Link>
       <KnowledgeList articles={articles} />
       <LibraryDirectory tools={tools} initialCategory={params.tools} />
     </main>

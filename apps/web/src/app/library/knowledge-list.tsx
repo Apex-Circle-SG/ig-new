@@ -11,7 +11,7 @@ export function KnowledgeList({ articles }: { articles: KnowledgeArticle[] }) {
   const topics = Array.from(new Set(articles.map((article) => article.topic)));
   const groups = Array.from(new Set(articles.filter((article) => article.topic === topic).map((article) => article.group)));
   const query = search.trim().toLowerCase();
-  const filtered = articles.filter((article) => (topic === 'All topics' || topic === article.topic) && (group === 'All subtopics' || group === article.group) && [article.title, article.summary, article.topic, article.group, ...article.sections.flatMap((section) => [section.heading, section.body])].join(' ').toLowerCase().includes(query));
+  const filtered = articles.filter((article) => (topic !== 'All topics' || query !== '' || article.topic !== 'Artificial intelligence' || article.slug === 'ai-learning-hub') && (topic === 'All topics' || topic === article.topic) && (group === 'All subtopics' || group === article.group) && [article.title, article.summary, article.topic, article.group, ...article.sections.flatMap((section) => [section.heading, section.body])].join(' ').toLowerCase().includes(query));
   return <section className={styles.directory} aria-labelledby="knowledge-heading">
     <div className={styles.directoryHeader}>
       <div><div className={styles.eyebrow}>IDEAS WORTH KEEPING</div><h2 id="knowledge-heading">Knowledge</h2><p>Explore notes and guides, one topic at a time.</p></div>

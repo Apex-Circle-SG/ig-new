@@ -6,7 +6,7 @@ import { SecurityQuestions } from './security-questions';
 import { PaymentDirectory } from './payment-directory';
 import { SystemCommands } from './system-commands';
 import { GamesDirectory } from './games-directory';
-import { AiSourceReference } from './ai-source-reference';
+import { AiGuide } from './ai-guide';
 
 export const dynamic = 'force-dynamic';
 
@@ -23,6 +23,7 @@ export default async function KnowledgePage({ params }: Props) {
   const articles = await getKnowledgeArticles();
   const article = articles.find((item) => item.slug === slug);
   if (!article) notFound();
+  if (article.topic === 'Artificial intelligence') return <AiGuide article={article} articles={articles} />;
   const related = articles.filter((item) => item.slug !== slug && item.topic === article.topic && item.group === article.group).slice(0, 3);
   return <article className={`shell ${styles.article}`}>
     <a href="/library/" className={styles.back}>← Back to Library</a>
@@ -30,13 +31,6 @@ export default async function KnowledgePage({ params }: Props) {
     <p className={styles.note}>Adapted from the knowledge collection. Educational information; verify changing details before making decisions.</p>
     <nav className={styles.contents} aria-label="On this page"><strong>On this page</strong><ol>{article.sections.map((section, index) => <li key={section.heading}><a href={`#section-${index + 1}`}>{section.heading}</a></li>)}</ol></nav>
     {article.sections.map((section, index) => <section key={section.heading} id={`section-${index + 1}`}><h2>{section.heading}</h2><p>{section.body}</p></section>)}
-    {article.slug === 'ai-learning-hub' && <section><h2>Choose a learning path</h2><div className={styles.sciencePaths}><div><h3>Foundations</h3><ul><li><Link href="/library/knowledge/ai-foundations/">AI and machine learning</Link></li><li><Link href="/library/knowledge/ai-math-statistics/">Probability, statistics and optimization</Link></li><li><Link href="/library/knowledge/ai-neural-network-math/">A neural network worked example</Link></li></ul></div><div><h3>How models work</h3><ul><li><Link href="/library/knowledge/ai-architectures/">Neural network architectures</Link></li><li><Link href="/library/knowledge/ai-transformers-language/">Transformers and language models</Link></li><li><Link href="/library/knowledge/ai-worked-exercises/">Worked exercises and diagrams</Link></li></ul></div><div><h3>Build and operate</h3><ul><li><Link href="/library/knowledge/ai-data-lifecycle/">Data and the model lifecycle</Link></li><li><Link href="/library/knowledge/ai-retrieval-agents/">RAG, vector search and agents</Link></li><li><Link href="/library/knowledge/ai-risk-governance/">Risk, security and governance</Link></li></ul></div><div><h3>Explore the original collection</h3><ul><li><Link href="/library/knowledge/ai-source-notes/">Search source notes and diagrams</Link></li><li><Link href="/library/knowledge/vector-search/">Vector database guide</Link></li><li><Link href="/tools/ai-workflow-roi/">AI workflow ROI calculator</Link></li></ul></div></div></section>}
-    {article.slug === 'ai-neural-network-math' && <section aria-label="Neuron calculation"><h2>From inputs to output</h2><div className={styles.scienceFlow}><span>Inputs: 2, 1, 3</span><span>Weights: 1, −1, 1</span><span>Bias: −5</span><span>Sum: −1</span><span>ReLU: 0</span></div></section>}
-    {article.slug === 'ai-worked-exercises' && <section><h2>Source sketch: one neuron</h2><figure className={styles.aiFigure}><img src="/ai-source/form-image1.png" alt="Hand-drawn neuron: inputs 2, 1 and 3, weights 1, minus 1 and 1, bias minus 5, weighted sum minus 1 and ReLU output zero." /><figcaption>Illustration supplied in AI Formula.docx; original creator and reuse terms were not identified in the document.</figcaption></figure><p><Link href="/library/knowledge/ai-source-notes/">Browse all source diagrams and exercise notes →</Link></p></section>}
-    {article.slug === 'ai-source-notes' && <AiSourceReference />}
-    {article.topic === 'Artificial intelligence' && article.slug !== 'ai-learning-hub' && <p><Link href="/library/knowledge/ai-learning-hub/">Explore the AI learning hub →</Link> · <Link href="/library/knowledge/ai-source-notes/">Source notes and diagrams →</Link></p>}
-    {article.slug === 'ai-retrieval-agents' && <p><Link href="/library/knowledge/vector-search/">Explore vector search →</Link> · <Link href="/library/knowledge/security-controls/">Security controls →</Link></p>}
-    {article.slug === 'ai-risk-governance' && <p><Link href="/library/knowledge/cybersecurity/">Explore the cybersecurity hub →</Link> · <Link href="/tools/ai-workflow-roi/">AI workflow ROI calculator →</Link></p>}
     {article.slug === 'games-source-directory' && <GamesDirectory />}
     {article.slug === 'metaverse-history' && <p><Link href="/library/knowledge/games-source-directory/">Browse the games source directory →</Link> · <Link href="/library/knowledge/blockchain-layers/">Explore blockchain layers →</Link></p>}
     {article.slug === 'games-source-directory' && <p><Link href="/library/knowledge/metaverse-history/">Explore the metaverse timeline →</Link> · <Link href="/calculators/roulette/">Explore roulette probability →</Link></p>}

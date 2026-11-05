@@ -3,6 +3,7 @@ import { FINANCE_TOOLS } from '@insightginie/calculators';
 import { getPublishedContent } from './content';
 import methods from '../../../opportunities/data/methods.json';
 import { discoveryHubs } from './discovery-hubs';
+import libraryKnowledge from './library/knowledge.json';
 
 const names: Record<string, string> = {
   '/': 'Home',
@@ -69,7 +70,13 @@ export function getSiteEntries() {
       methods.find((method) => `/earn/${method.id}/` === path)?.title ?? 'Earning method guide',
     lastModified: undefined,
   }));
-  return [...pages, ...content, ...guides];
+  const aiGuides = libraryKnowledge.filter((article) => article.topic === 'Artificial intelligence').map((article) => ({
+    path: `/library/knowledge/${article.slug}/`,
+    url: canonical(`/library/knowledge/${article.slug}/`),
+    title: article.title,
+    lastModified: undefined,
+  }));
+  return [...pages, ...content, ...guides, ...aiGuides];
 }
 export function sitemapGroup(path: string) {
   return path === '/calculators/' || path.startsWith('/tools/') || path.startsWith('/calc/')
