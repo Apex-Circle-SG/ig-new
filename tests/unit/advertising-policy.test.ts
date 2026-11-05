@@ -4,6 +4,11 @@ import { PUBLIC_AD_PATHS } from '@insightginie/seo';
 
 describe('regional advertising policy', () => {
   const base = { enabled: true, pathname: '/', country: 'US', preference: undefined };
+  it('enables Library ads while respecting consent', () => {
+    expect(advertisingPolicy({ ...base, pathname: '/library/', country: 'US' }).load).toBe(true);
+    expect(advertisingPolicy({ ...base, pathname: '/library/', country: 'GB' }).load).toBe(false);
+  });
+
   it.each(PUBLIC_AD_PATHS)('makes %s eligible without a worldwide opt-in gate', (pathname) => {
     expect(advertisingPolicy({ ...base, pathname }).load).toBe(true);
   });

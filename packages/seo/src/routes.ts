@@ -33,6 +33,7 @@ export const PUBLIC_INDEXABLE_PATHS = [
   '/tools/drawdown-recovery/',
   '/tools/portfolio-concentration/',
   '/insights/',
+  '/library/',
   '/research/',
   '/ask/',
   '/authors/',
