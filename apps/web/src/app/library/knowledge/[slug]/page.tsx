@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { getKnowledgeArticles } from '../../../../lib/library';
 import styles from '../../library.module.css';
 import { SecurityQuestions } from './security-questions';
+import { PaymentDirectory } from './payment-directory';
 
 export const dynamic = 'force-dynamic';
 
@@ -26,6 +27,11 @@ export default async function KnowledgePage({ params }: Props) {
     <p className={styles.note}>Adapted from the knowledge collection. Educational information; verify changing details before making decisions.</p>
     <nav className={styles.contents} aria-label="On this page"><strong>On this page</strong><ol>{article.sections.map((section, index) => <li key={section.heading}><a href={`#section-${index + 1}`}>{section.heading}</a></li>)}</ol></nav>
     {article.sections.map((section, index) => <section key={section.heading} id={`section-${index + 1}`}><h2>{section.heading}</h2><p>{section.body}</p></section>)}
+    {article.slug === 'payments' && <section><h2>Explore payments</h2><div className={styles.sciencePaths}><div><h3>Learn the basics</h3><ul><li><Link href="/library/knowledge/payment-flow/">How a card payment works</Link></li><li><Link href="/library/knowledge/payment-stack/">The payment stack</Link></li></ul></div><div><h3>Compare services</h3><ul><li><Link href="/library/knowledge/payment-providers/">Payment provider directory</Link></li><li><Link href="/library/knowledge/cybersecurity/">Cybersecurity essentials</Link></li></ul></div></div></section>}
+    {article.slug === 'payment-flow' && <section aria-label="Card payment overview"><h2>A card payment at a glance</h2><div className={styles.scienceFlow}><span>Checkout</span><span>Authorization</span><span>Clearing</span><span>Settlement</span><span>Merchant payout</span></div><p>This is a simplified flow; steps and timing vary.</p></section>}
+    {article.slug === 'payment-providers' && <PaymentDirectory />}
+    {article.topic === 'Payments' && article.slug !== 'payments' && <p><Link href="/library/knowledge/payments/">Explore the payments hub →</Link></p>}
+    {article.slug === 'payment-stack' && <p><Link href="/library/knowledge/api-fundamentals/">Explore API fundamentals →</Link> · <Link href="/library/knowledge/security-controls/">Security controls →</Link></p>}
     {article.slug === 'quantum-science' && <section><h2>Choose a path</h2><div className={styles.sciencePaths}><div><h3>Quantum technology and security</h3><ul><li><Link href="/library/knowledge/quantum-entanglement/">Entanglement and key distribution</Link></li><li><Link href="/library/knowledge/shors-algorithm/">Shor’s algorithm</Link></li><li><Link href="/library/knowledge/post-quantum-cryptography/">Lattices, ML-KEM and SLH-DSA</Link></li></ul></div><div><h3>Physics and the universe</h3><ul><li><Link href="/library/knowledge/light-and-attoseconds/">Light and attoseconds</Link></li><li><Link href="/library/knowledge/gravity-and-expanding-universe/">Gravity and cosmic expansion</Link></li></ul></div></div></section>}
     {article.slug === 'quantum-entanglement' && <section aria-label="Key distribution overview"><h2>From quantum states to a key</h2><div className={styles.scienceFlow}><span>Share states</span><span>Measure</span><span>Check errors</span><span>Derive key</span></div><p>Participants also use an authenticated classical channel. The steps vary by protocol.</p></section>}
     {article.slug === 'post-quantum-cryptography' && <section aria-label="Cryptography comparison"><h2>Two different jobs</h2><div className={styles.sciencePaths}><div><h3>ML-KEM</h3><p>Establish shared key material</p></div><div><h3>SLH-DSA</h3><p>Sign and verify messages</p></div></div></section>}

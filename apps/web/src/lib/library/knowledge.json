@@ -949,5 +949,165 @@
         "url": "https://science.nasa.gov/blogs/science-news/2026/04/13/international-collaboration-helps-pinpoint-universes-expansion-rate/"
       }
     ]
+  },
+  {
+    "slug": "payments",
+    "title": "Payments: a starting point",
+    "topic": "Payments",
+    "group": "Payments essentials",
+    "summary": "Understand the payment journey, the companies involved and how to compare providers.",
+    "relatedToolCategory": "",
+    "sections": [
+      {
+        "heading": "Start with the transaction",
+        "body": "Follow a card payment from checkout through authorization, clearing and settlement. Actual flows vary by payment method, market and provider."
+      },
+      {
+        "heading": "Understand the stack",
+        "body": "Gateways, processors, acquirers and other services can be supplied by separate companies or combined in a single platform. Roles and responsibilities depend on the contract and market."
+      },
+      {
+        "heading": "Compare providers",
+        "body": "Explore the directory as a starting point. Check whether a provider supports your country, business type, payment methods, currencies and integration before relying on it."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Visa: how online payments work",
+        "url": "https://verifi.review.visa.com/chargebacks-disputes-faq/how-do-online-payments-work.html"
+      },
+      {
+        "title": "Stripe: authorization and settlement",
+        "url": "https://stripe.com/resources/more/credit-card-payment-authorization-and-transaction-settlement-process"
+      }
+    ]
+  },
+  {
+    "slug": "payment-flow",
+    "title": "How a card payment works",
+    "topic": "Payments",
+    "group": "Payments essentials",
+    "summary": "Follow a simplified card transaction from checkout to payout.",
+    "relatedToolCategory": "",
+    "sections": [
+      {
+        "heading": "Checkout and authorization",
+        "body": "A customer presents a card at checkout. The merchant’s payment services send an authorization request through the relevant payment participants and network to the issuer. The issuer approves or declines; approval is not the same as final settlement."
+      },
+      {
+        "heading": "Capture and clearing",
+        "body": "The merchant or its provider submits eligible transaction details for capture and clearing. The payment network and participants exchange the information needed to calculate obligations. Timing and the exact sequence vary."
+      },
+      {
+        "heading": "Settlement and payout",
+        "body": "Settlement moves funds between participating financial institutions. The merchant’s provider then pays the merchant under its terms, potentially after fees, reserves or adjustments. Payout timing varies."
+      },
+      {
+        "heading": "Disputes and refunds",
+        "body": "A refund is generally initiated by the merchant. A cardholder may instead dispute a transaction with the issuer, potentially starting a chargeback process. Rules, evidence requirements and deadlines depend on the network and circumstances."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Visa: how online payments work",
+        "url": "https://verifi.review.visa.com/chargebacks-disputes-faq/how-do-online-payments-work.html"
+      },
+      {
+        "title": "Stripe: authorization and settlement",
+        "url": "https://stripe.com/resources/more/credit-card-payment-authorization-and-transaction-settlement-process"
+      },
+      {
+        "title": "Visa: dispute resolution",
+        "url": "https://www.visa.com/en-us/support/business/dispute-resolution"
+      }
+    ]
+  },
+  {
+    "slug": "payment-stack",
+    "title": "The payment stack: roles and services",
+    "topic": "Payments",
+    "group": "Payments essentials",
+    "summary": "Compare gateways, processors, facilitators, orchestration and supporting services.",
+    "relatedToolCategory": "",
+    "sections": [
+      {
+        "heading": "Checkout, gateways and terminals",
+        "body": "An independent software vendor (ISV) builds software that can integrate payments. A gateway securely transmits transaction data between checkout and payment services. Terminal management helps deploy, update and monitor payment devices."
+      },
+      {
+        "heading": "Processors, acquirers and networks",
+        "body": "A processor handles payment transaction processing. An acquirer enables merchants to accept card transactions and participates in clearing and settlement; card networks connect participants under their rules. Routing and switching direct transaction messages to appropriate destinations."
+      },
+      {
+        "heading": "PSPs and payment facilitators",
+        "body": "A payment service provider (PSP) offers merchants payment services, often combining multiple functions. A payment facilitator (PayFac) typically onboards and manages sub-merchants under an acquiring relationship. Exact responsibilities and legal arrangements differ."
+      },
+      {
+        "heading": "Orchestration and supporting services",
+        "body": "An orchestration layer coordinates connections and routing across payment providers. Fraud tools help assess risk; dispute services help manage chargebacks; billing and analytics software supports subscription and reporting workflows. One provider may offer several of these functions."
+      },
+      {
+        "heading": "Questions to ask",
+        "body": "Confirm the contracting entity, supported locations, onboarding and underwriting, payment methods, fees, settlement currency and timing, data portability, security responsibilities, dispute handling and support. A listed brand is not a recommendation."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Stripe: payment facilitators",
+        "url": "https://stripe.com/guides/payfacs"
+      },
+      {
+        "title": "Stripe: gateways and processors",
+        "url": "https://stripe.com/en-ca/resources/more/payment-processor-vs-gateway-vs-merchant-account"
+      },
+      {
+        "title": "Adyen: payment orchestration",
+        "url": "https://www.adyen.com/knowledge-hub/payment-orchestration"
+      }
+    ]
+  },
+  {
+    "slug": "payment-providers",
+    "title": "Payment provider directory",
+    "topic": "Payments",
+    "group": "Payments essentials",
+    "summary": "Explore a selection of payment businesses and a separate source list for further review.",
+    "relatedToolCategory": "",
+    "sections": [
+      {
+        "heading": "How to use this directory",
+        "body": "Search names or categories. The reviewed examples link to provider descriptions; their services, eligibility and market coverage can change. A listing is not an endorsement."
+      },
+      {
+        "heading": "More names from the source",
+        "body": "The additional source list is a research starting point. Link availability was checked, but individual services and geographic eligibility were not verified. Some sites block automated checks or have a certificate problem; those are identified rather than assumed safe."
+      },
+      {
+        "heading": "Before choosing",
+        "body": "Compare written terms, relevant licenses, pricing, payout timing, security and support for your own market and business. Verify claims directly with each provider."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Stripe: payments",
+        "url": "https://stripe.com/payments"
+      },
+      {
+        "title": "Adyen: payments",
+        "url": "https://www.adyen.com/payments"
+      },
+      {
+        "title": "Primer: payment orchestration",
+        "url": "https://primer.io/"
+      },
+      {
+        "title": "Verifone: device management",
+        "url": "https://www.verifone.com/vhq-next-gen"
+      },
+      {
+        "title": "Chargebee: billing overview",
+        "url": "https://www.chargebee.com/docs/billing/2.0/getting-started/accessing_chargebee"
+      }
+    ]
   }
 ]

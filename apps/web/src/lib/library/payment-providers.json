@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Stripe",
+    "url": "https://stripe.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "AsiaPay",
+    "url": "https://asiapay.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "PayDollar",
+    "url": "https://paydollar.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "Adyen",
+    "url": "https://adyen.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "Nuvei",
+    "url": "https://nuvei.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "Razorpay",
+    "url": "https://razorpay.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "PayTabs",
+    "url": "https://paytabs.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "Airwallex",
+    "url": "https://airwallex.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "Oceanpayment",
+    "url": "https://oceanpayment.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "PayPal",
+    "url": "https://paypal.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "eWAY",
+    "url": "https://eway.io",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "2C2P",
+    "url": "https://2c2p.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "FOMO Pay",
+    "url": "https://fomopay.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "Akurateco",
+    "url": "https://akurateco.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "Cybersource",
+    "url": "",
+    "status": "Automated access blocked"
+  },
+  {
+    "name": "Global Payments",
+    "url": "",
+    "status": "Automated access blocked"
+  },
+  {
+    "name": "Fiuu",
+    "url": "https://fiuu.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "Paysafe",
+    "url": "https://paysafe.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "PayU",
+    "url": "https://payu.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "Square",
+    "url": "https://squareup.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "NETS",
+    "url": "https://nets.com.sg",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "Opn / Omise",
+    "url": "https://opn.ooo",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "HitPay",
+    "url": "https://hitpayapp.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "Unlimit",
+    "url": "https://unlimit.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "Rapyd",
+    "url": "https://rapyd.net",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "Fiserv",
+    "url": "https://fiserv.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "Authorize.net",
+    "url": "https://authorize.net",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "Allied Wallet",
+    "url": "",
+    "status": "Automated access blocked"
+  },
+  {
+    "name": "PayCly",
+    "url": "https://paycly.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "ShopBack for Business",
+    "url": "https://business.shopback.com/sg",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "Worldpay",
+    "url": "https://worldpay.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "iPay88",
+    "url": "https://ipay88.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "Red Dot Payment",
+    "url": "https://reddotpayment.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "Antom",
+    "url": "https://antom.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "Checkout.com",
+    "url": "https://checkout.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "SmoovPay",
+    "url": "",
+    "status": "TLS certificate check failed"
+  },
+  {
+    "name": "Helcim",
+    "url": "https://helcim.com",
+    "status": "Website reachable; services and markets unverified"
+  },
+  {
+    "name": "Atome",
+    "url": "https://atome.sg",
+    "status": "Website reachable; services and markets unverified"
+  }
+]

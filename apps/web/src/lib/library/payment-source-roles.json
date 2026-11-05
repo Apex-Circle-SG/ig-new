@@ -1,0 +1,158 @@
+[
+  {
+    "role": "Terminal Manager",
+    "names": [
+      "Verifone",
+      "NMI",
+      "Ingenico",
+      "Worldline",
+      "Aevi",
+      "RMX"
+    ]
+  },
+  {
+    "role": "Routing and Switching",
+    "names": [
+      "ACI Worldwide",
+      "Vocalink (Mastercard)",
+      "Euronet"
+    ]
+  },
+  {
+    "role": "Payment Service Provider (PSP)",
+    "names": [
+      "PayPal",
+      "Ayden",
+      "Stripe",
+      "Helcim",
+      "Square",
+      "Toast",
+      "Adyen",
+      "Braintree",
+      "Checkout.com",
+      "Mollie",
+      "Tyro",
+      "Payone",
+      "PayU",
+      "SumUp",
+      "Nuvei"
+    ]
+  },
+  {
+    "role": "PayFac",
+    "names": [
+      "PayPal",
+      "Stripe",
+      "Square",
+      "Toast",
+      "Fawry",
+      "BlueSnap",
+      "Razorpay",
+      "Fortis",
+      "WePay (J.P. Morgan)"
+    ]
+  },
+  {
+    "role": "Payment Gateway",
+    "names": [
+      "PayPal",
+      "Ayden",
+      "Stripe",
+      "Helcim",
+      "Square",
+      "Toast",
+      "CyberSource (Visa)",
+      "Authorize.net (Visa)",
+      "Braintree (PayPal)",
+      "Payoneer",
+      "Mastercard Payment Gateway Services",
+      "Shopify"
+    ]
+  },
+  {
+    "role": "Orchestrator",
+    "names": [
+      "PayPal",
+      "Ayden",
+      "Stripe",
+      "Akurateco",
+      "IXOPAY",
+      "Tribe",
+      "Primer",
+      "Tranzzo",
+      "Juspay",
+      "Paynt",
+      "Spreedly",
+      "IFPOS"
+    ]
+  },
+  {
+    "role": "Independent Software Vendor (ISV)",
+    "names": [
+      "PayPal",
+      "Stripe",
+      "Square",
+      "Toast",
+      "Zettle (PayPal)",
+      "NCR",
+      "Retail Pro",
+      "Shopify",
+      "Vend"
+    ]
+  },
+  {
+    "role": "Processor",
+    "names": [
+      "PayPala",
+      "Ayden",
+      "Stripe",
+      "Helcim",
+      "Square",
+      "Fiserv",
+      "Worldline",
+      "Tietoevry",
+      "Payoneer",
+      "Nexi",
+      "BPC",
+      "Compass Plus",
+      "TSYS",
+      "RS2"
+    ]
+  },
+  {
+    "role": "Fraud Solutions",
+    "names": [
+      "PayPal",
+      "Ayden",
+      "Stripe",
+      "Helcim",
+      "Square",
+      "Toast",
+      "Ravelin",
+      "FICO",
+      "Featurespace",
+      "Feedzai",
+      "Riskified",
+      "Signifyd"
+    ]
+  },
+  {
+    "role": "Chargeback",
+    "names": [
+      "Chargebacks911",
+      "Verifi (Visa)",
+      "Chargeflow",
+      "Ethoca (Mastercard)",
+      "Justt",
+      "Chargeback Gurus"
+    ]
+  },
+  {
+    "role": "Other Services (Billing, Dashboard, Business Intelligence)",
+    "names": [
+      "Chargebee",
+      "Zuora",
+      "ChartMogul"
+    ]
+  }
+]
