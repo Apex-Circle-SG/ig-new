@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-05",
+  "deployment": "Local only; not pushed",
+  "unitTests": {
+    "passed": 464,
+    "failed": 0,
+    "files": 29
+  },
+  "typecheck": "passed",
+  "lint": "passed",
+  "productionBuild": "passed; 67 pages generated",
+  "aiBrowser": {
+    "pages": 57,
+    "renderChecks": 114,
+    "widths": [
+      390,
+      1440
+    ],
+    "overflow": 0,
+    "expandedTablesChecked": true
+  },
+  "casinoBrowser": [
+    {
+      "width": 390,
+      "path": "/calculators/casino/",
+      "status": 200,
+      "overflow": false,
+      "violations": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/calculators/roulette/",
+      "status": 200,
+      "overflow": false,
+      "violations": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/calculators/casino/expected-value/",
+      "status": 200,
+      "overflow": false,
+      "violations": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/calculators/casino/losing-streak/",
+      "status": 200,
+      "overflow": false,
+      "violations": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/calculators/casino/dice/",
+      "status": 200,
+      "overflow": false,
+      "violations": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/content-index/",
+      "status": 200,
+      "overflow": false,
+      "violations": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/calculators/casino/",
+      "status": 200,
+      "overflow": false,
+      "violations": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/calculators/roulette/",
+      "status": 200,
+      "overflow": false,
+      "violations": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/calculators/casino/expected-value/",
+      "status": 200,
+      "overflow": false,
+      "violations": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/calculators/casino/losing-streak/",
+      "status": 200,
+      "overflow": false,
+      "violations": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/calculators/casino/dice/",
+      "status": 200,
+      "overflow": false,
+      "violations": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/content-index/",
+      "status": 200,
+      "overflow": false,
+      "violations": [],
+      "errors": []
+    }
+  ],
+  "graphify": {
+    "timestamp": "2026-11-05T09:38:33.150366+00:00",
+    "mode": "incremental",
+    "source_files": 203,
+    "changed_files": 14,
+    "deleted_files": 0,
+    "nodes": 832,
+    "edges": 1546,
+    "communities": 74,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "semantic_extraction": false
+  },
+  "limits": [
+    "Browser checks ran against local Next.js; Cloudflare production deployment was not exercised.",
+    "Axe checks covered WCAG 2 A/AA rules on the listed casino pages and content index; not a full accessibility audit.",
+    "AI ledger includes editorial routing rather than complete sentence-by-sentence fidelity verification; other broad source ranges need semantic review.",
+    "Casino tools use independent-trial assumptions and standard stated payouts; no bonuses, zero-split/basket bets, ties or game-specific side bets."
+  ]
+}

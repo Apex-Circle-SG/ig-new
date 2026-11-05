@@ -79,9 +79,9 @@ describe('production discovery and preview isolation', () => {
       ...PUBLIC_INDEXABLE_PATHS.map((path) => `https://insightginie.com${path}`),
       ...getPublishedContent().map((record) => `https://insightginie.com${record.path}`),
       ...PUBLIC_EARNING_GUIDE_PATHS.map((path) => `https://insightginie.com${path}`),
-      ...libraryKnowledge
-        .filter((article) => article.topic === 'Artificial intelligence')
-        .map((article) => `https://insightginie.com/library/knowledge/${article.slug}/`),
+      ...libraryKnowledge.map(
+        (article) => `https://insightginie.com/library/knowledge/${article.slug}/`,
+      ),
     ]);
     expect(entries.map((entry) => entry.url)).toContain(
       'https://insightginie.com/library/knowledge/ai-attention-example/',

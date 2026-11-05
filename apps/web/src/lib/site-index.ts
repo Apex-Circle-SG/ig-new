@@ -13,6 +13,11 @@ const names: Record<string, string> = {
   '/platforms/': 'Earning platforms',
   '/earn/': 'Creative ways to earn online',
   ...Object.fromEntries(discoveryHubs.map((hub) => [hub.path, hub.title])),
+  '/calculators/casino/': 'Casino probability calculators',
+  '/calculators/roulette/': 'Roulette odds & simulator',
+  '/calculators/casino/expected-value/': 'Expected value & house edge',
+  '/calculators/casino/losing-streak/': 'Losing-streak probability',
+  '/calculators/casino/dice/': 'Two-dice probability',
   '/calculators/': 'Calculators — Understand where you stand',
   '/calc/individual-income-percentile/': 'Individual income percentile',
   '/insights/': 'Insights',
@@ -38,11 +43,15 @@ const names: Record<string, string> = {
   '/content-index/': 'Content index',
   '/guides/': 'Guides: US income, explained in bands',
   '/guides/what-before-tax-income-means/': 'What does before-tax income mean?',
-  '/guides/how-many-americans-earn-50000-to-100000/': 'How many Americans earn between $50,000 and $100,000?',
+  '/guides/how-many-americans-earn-50000-to-100000/':
+    'How many Americans earn between $50,000 and $100,000?',
   '/guides/why-median-income-is-a-range/': 'Why is the median US income a range, $37,500–$39,999?',
-  '/guides/do-most-americans-earn-more-than-75000/': 'Do most Americans earn more than $75,000 a year?',
-  '/guides/income-above-half-of-americans/': 'How much do you need to earn to be above half of all Americans?',
-  '/guides/what-income-band-are-you-in/': 'What income band are you in? (A 4-question check, not a precise ranking)',
+  '/guides/do-most-americans-earn-more-than-75000/':
+    'Do most Americans earn more than $75,000 a year?',
+  '/guides/income-above-half-of-americans/':
+    'How much do you need to earn to be above half of all Americans?',
+  '/guides/what-income-band-are-you-in/':
+    'What income band are you in? (A 4-question check, not a precise ranking)',
   '/guides/what-percentile-is-60000-a-year/': 'What percentile is $60,000 a year in the US?',
   '/guides/what-is-the-average-salary-in-america/': 'What is the average salary in America?',
   ...Object.fromEntries(FINANCE_TOOLS.map((tool) => [`/tools/${tool.id}/`, tool.title])),
@@ -70,18 +79,20 @@ export function getSiteEntries() {
       methods.find((method) => `/earn/${method.id}/` === path)?.title ?? 'Earning method guide',
     lastModified: undefined,
   }));
-  const aiGuides = libraryKnowledge.filter((article) => article.topic === 'Artificial intelligence').map((article) => ({
+  const knowledgeGuides = libraryKnowledge.map((article) => ({
     path: `/library/knowledge/${article.slug}/`,
     url: canonical(`/library/knowledge/${article.slug}/`),
     title: article.title,
     lastModified: undefined,
   }));
-  return [...pages, ...content, ...guides, ...aiGuides];
+  return [...pages, ...content, ...guides, ...knowledgeGuides];
 }
 export function sitemapGroup(path: string) {
-  return path === '/calculators/' || path.startsWith('/tools/') || path.startsWith('/calc/')
+  return path.startsWith('/calculators/') || path.startsWith('/tools/') || path.startsWith('/calc/')
     ? 'tools'
-    : path.startsWith('/insights/') || path.startsWith('/research/')
+    : path.startsWith('/insights/') ||
+        path.startsWith('/research/') ||
+        path.startsWith('/library/knowledge/')
       ? 'content'
       : 'site';
 }

@@ -13,7 +13,7 @@ export default function ContentIndex() {
     <Document
       title="Find your next useful page."
       eyebrow="CONTENT INDEX"
-      lead="A complete index of the published tools, data and policies. Editorial drafts and migration previews are excluded."
+      lead="A complete index of published knowledge, tools, data and policies. Editorial drafts and migration previews are excluded."
     >
       {(['tools', 'content', 'site'] as const).map((group) => (
         <section key={group}>
@@ -21,7 +21,7 @@ export default function ContentIndex() {
             {group === 'tools'
               ? 'Interactive tools'
               : group === 'content'
-                ? 'Insights and research'
+                ? 'Knowledge, insights and research'
                 : 'Data, methods and site information'}
           </h2>
           <ul>

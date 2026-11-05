@@ -23,3 +23,7 @@ Keep the codebase clean during implementation: refactor meaningful duplication, 
 ## Engineering standards
 
 Apply the installed Matt Pocock and Ponytail skills when relevant to implementation and refactoring. Use Graphify for code relationship queries and refresh its bounded architecture graph after structural changes. Prefer readable code, small useful interfaces, existing patterns and dependencies, and verification of changed behavior. Do not treat fewer lines or archived content as substitutes for completing the requested work.
+
+## Sitemap maintenance
+
+Maintain a complete combined sitemap and human-readable content index. Whenever published content or tools are added, moved, combined or removed, update their sitemap discovery and canonical links in the same change. Library articles are discovered from the published catalogue automatically; register new static tool routes and verify their category and related links.

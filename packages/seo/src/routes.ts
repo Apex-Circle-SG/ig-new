@@ -16,6 +16,10 @@ export const PUBLIC_INDEXABLE_PATHS = [
   '/',
   '/calculators/',
   '/calculators/roulette/',
+  '/calculators/casino/',
+  '/calculators/casino/expected-value/',
+  '/calculators/casino/losing-streak/',
+  '/calculators/casino/dice/',
   '/calc/individual-income-percentile/',
   '/data/',
   '/data/census-cps/',
@@ -69,6 +73,7 @@ export function isCalculatorPage(pathname: string) {
     path.startsWith('/calc/') ||
     path.startsWith('/calculators/expanded/') ||
     path.startsWith('/calculators/roulette/') ||
+    path.startsWith('/calculators/casino/') ||
     path.startsWith('/private-expanded/') ||
     path.startsWith('/tools/') ||
     path.startsWith('/private-tools/') ||
@@ -79,7 +84,12 @@ export const PUBLIC_AD_PATHS = [
   ...PUBLIC_INDEXABLE_PATHS.filter((path) => !['/ask/', '/opportunities/sources/'].includes(path)),
   '/calculators/expanded/',
 ];
-export const DYNAMIC_AD_CRAWLER_PATHS = ['/opportunities/*-*/$', '/ideas/*/$', '/earn/*/$', '/library/knowledge/*/$'];
+export const DYNAMIC_AD_CRAWLER_PATHS = [
+  '/opportunities/*-*/$',
+  '/ideas/*/$',
+  '/earn/*/$',
+  '/library/knowledge/*/$',
+];
 export function isKnowledgeContentPath(pathname: string) {
   return /^\/library\/knowledge\/[a-z0-9]+(?:-[a-z0-9]+)*\/$/.test(canonicalPathname(pathname));
 }

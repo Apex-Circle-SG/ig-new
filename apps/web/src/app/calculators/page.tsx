@@ -38,7 +38,11 @@ export default function Calculators() {
         description: tool.description,
       };
     }),
-    { path: '/calculators/roulette/', title: 'Roulette probability simulator', description: 'Explore virtual spins, betting strategies and house edge.' },
+    {
+      path: '/calculators/casino/',
+      title: 'Casino probability calculators',
+      description: 'Visual roulette, expected value, losing streaks and two-dice probabilities.',
+    },
     {
       path: '/calculators/expanded/',
       title: 'All calculators — 88 more free tools',
@@ -73,10 +77,18 @@ export default function Calculators() {
           never a pinpoint percentile the table cannot support.
         </p>
         <p>
-          <Link href="/guides/what-percentile-is-60000-a-year/">What percentile is $60,000 a year in the US?</Link>
-          {' '}· <Link href="/guides/why-median-income-is-a-range/">Why is the median US income a range, $37,500–$39,999?</Link>
-          {' '}· <Link href="/guides/what-before-tax-income-means/">What does before-tax income mean?</Link>
-          {' '}· <Link href="/guides/">Browse all 8 guides →</Link>
+          <Link href="/guides/what-percentile-is-60000-a-year/">
+            What percentile is $60,000 a year in the US?
+          </Link>{' '}
+          ·{' '}
+          <Link href="/guides/why-median-income-is-a-range/">
+            Why is the median US income a range, $37,500–$39,999?
+          </Link>{' '}
+          ·{' '}
+          <Link href="/guides/what-before-tax-income-means/">
+            What does before-tax income mean?
+          </Link>{' '}
+          · <Link href="/guides/">Browse all 8 guides →</Link>
         </p>
       </section>
       <section className={styles.section}>
