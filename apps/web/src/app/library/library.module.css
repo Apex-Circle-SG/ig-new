@@ -19,14 +19,12 @@
 .filters { display: flex; gap: 8px; flex-wrap: wrap; margin: 32px 0 20px; }
 .filters button { border: 1px solid #e5e5ed; border-radius: 50px; padding: 8px 14px; background: white; color: #555c70; font-size: 13px; }
 .filters button.active { background: #282039; border-color: #282039; color: white; }
+.subcategories { margin: -4px 0 20px; }
+.subcategories button.active { background: #ece8fc; border-color: #d3c9fa; color: #5140b3; }
 .count { font-size: 13px; margin-bottom: 16px; }
 .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
-.card { border: 1px solid #e9e9f0; border-radius: 16px; padding: 22px; min-height: 172px; display: flex; flex-direction: column; transition: border-color .15s, transform .15s; overflow-wrap: anywhere; }
-.card:hover { border-color: #a99cee; transform: translateY(-2px); }
-.cardTop { display: flex; justify-content: space-between; color: #6f5cc9; font-size: 12px; font-weight: 700; }
-.card h3 { font-size: 19px; margin: 17px 0 5px; }
-.card p { font-size: 13px; }
-.visit { color: #5b4ac5; font-size: 12px; font-weight: 700; margin-top: auto; padding-top: 18px; }
+.card { border: 1px solid #e9e9f0; border-radius: 10px; padding: 12px 16px; color: #5140b3; font-weight: 600; overflow-wrap: anywhere; transition: border-color .15s, background .15s; }
+.card:hover { border-color: #a99cee; background: #f8f6ff; }
 .more { display: block; margin: 32px auto 0; border: 1px solid #ded9f4; border-radius: 50px; background: #f6f3ff; color: #5644bd; font-weight: 700; padding: 12px 24px; }
 .empty { padding: 30px 0; }
 @media (max-width: 760px) { .page { padding-top: 20px; } .hero::after { opacity: .4; } .intro { grid-template-columns: 1fr; padding: 50px 0 35px; gap: 15px; } .directoryHeader { align-items: stretch; flex-direction: column; } .search { width: 100%; } .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
