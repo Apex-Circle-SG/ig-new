@@ -1,0 +1,313 @@
+[
+  {
+    "slug": "web3-terms",
+    "title": "Web3 terms and wallets",
+    "topic": "Web3",
+    "group": "Getting started",
+    "summary": "A plain-language guide to wallets, identity, tokens and cryptographic proofs.",
+    "sections": [
+      {
+        "heading": "Wallets and keys",
+        "body": "A wallet helps manage the credentials used to authorize blockchain transactions. A private key can authorize spending; a public address can be shared to receive assets. Protect recovery credentials and check the destination before sending."
+      },
+      {
+        "heading": "Account abstraction",
+        "body": "Account abstraction makes it possible to use smart-contract-based account features such as alternative authentication or recovery. ERC-4337 is one approach; available features depend on the wallet."
+      },
+      {
+        "heading": "Identity and tokens",
+        "body": "Decentralized identifiers (DIDs) are identifiers designed for decentralized identity systems. A soulbound token is a proposed non-transferable token. NFTs represent distinct tokens; fractionalization divides an interest in an NFT into smaller units, subject to the specific arrangement."
+      },
+      {
+        "heading": "Cryptographic proofs",
+        "body": "Multi-party computation (MPC) lets parties jointly compute a result without each disclosing their private inputs. Zero-knowledge proofs can establish that a statement is valid without revealing all underlying information."
+      }
+    ],
+    "sources": [
+      {
+        "title": "How Bitcoin works",
+        "url": "https://bitcoin.org/en/how-it-works"
+      },
+      {
+        "title": "Ethereum documentation",
+        "url": "https://ethereum.org/developers/docs/"
+      }
+    ]
+  },
+  {
+    "slug": "bitcoin",
+    "title": "Bitcoin",
+    "topic": "Web3",
+    "group": "Getting started",
+    "summary": "Bitcoin, its network, wallets, mining and halving.",
+    "sections": [
+      {
+        "heading": "Bitcoin and bitcoin",
+        "body": "Bitcoin is a peer-to-peer network; bitcoin (BTC) is its native asset. Transactions are signed using private keys and recorded on the blockchain."
+      },
+      {
+        "heading": "Mining and proof of work",
+        "body": "Miners compete to add blocks using proof of work. Network participants independently verify the rules. Block times vary, and confirmations are not instantaneous."
+      },
+      {
+        "heading": "Wallets and supply",
+        "body": "A wallet manages the keys needed to authorize transactions rather than holding coins like a physical container. Bitcoin has a maximum supply of 21 million BTC. A satoshi is one hundred-millionth of a bitcoin."
+      },
+      {
+        "heading": "Halving",
+        "body": "The new bitcoin subsidy for miners is reduced by half at predetermined block intervals. Future calendar dates are estimates because block discovery is variable."
+      }
+    ],
+    "sources": [
+      {
+        "title": "How Bitcoin works",
+        "url": "https://bitcoin.org/en/how-it-works"
+      },
+      {
+        "title": "Bitcoin white paper",
+        "url": "https://bitcoin.org/bitcoin.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "ethereum",
+    "title": "Ethereum",
+    "topic": "Web3",
+    "group": "Getting started",
+    "summary": "Accounts, ether, smart contracts, staking and gas.",
+    "sections": [
+      {
+        "heading": "Ethereum and ether",
+        "body": "Ethereum is a blockchain platform for applications and smart contracts. Ether (ETH) is its native asset; tokens can also be issued through contracts on the network."
+      },
+      {
+        "heading": "Accounts and wallets",
+        "body": "Ethereum accounts can be controlled by keys or by smart-contract code. Wallets provide an interface to accounts and applications; their security and recovery features vary."
+      },
+      {
+        "heading": "Proof of stake and gas",
+        "body": "Ethereum uses proof of stake, with validators participating in consensus. Transactions consume gas and incur fees; costs and staking returns change over time."
+      },
+      {
+        "heading": "Token standards",
+        "body": "ERC-20 commonly describes fungible tokens; ERC-721 describes non-fungible tokens; ERC-1155 supports multiple token types in a contract."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ethereum accounts",
+        "url": "https://ethereum.org/developers/docs/accounts/"
+      },
+      {
+        "title": "Ethereum documentation",
+        "url": "https://ethereum.org/developers/docs/"
+      }
+    ]
+  },
+  {
+    "slug": "stablecoins",
+    "title": "Stablecoins and digital money",
+    "topic": "Web3",
+    "group": "Getting started",
+    "summary": "How stablecoins seek to track a reference value and where risks arise.",
+    "sections": [
+      {
+        "heading": "What is a stablecoin?",
+        "body": "A stablecoin aims to track a reference value, often a currency. Designs differ: some use reserves, some use crypto collateral, and some rely on algorithmic mechanisms."
+      },
+      {
+        "heading": "Minting and redemption",
+        "body": "For some reserve-backed stablecoins, authorized participants can create or redeem tokens through an issuer. Individual holders may not have direct redemption rights; check the issuer’s terms."
+      },
+      {
+        "heading": "Risks",
+        "body": "A peg is not guaranteed. Reserves, custody, liquidity, redemption restrictions, smart-contract flaws and issuer failures can affect value. A central-bank digital currency is different: it is a digital form of sovereign money issued by a central bank."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ethereum stablecoins",
+        "url": "https://ethereum.org/stablecoins/"
+      }
+    ]
+  },
+  {
+    "slug": "blockchain-layers",
+    "title": "Blockchain layers and rollups",
+    "topic": "Web3",
+    "group": "How it works",
+    "summary": "Understand base networks, layer 2 and zero-knowledge rollups.",
+    "sections": [
+      {
+        "heading": "Layer 1",
+        "body": "A layer 1 is a base blockchain network with its own rules and consensus mechanism. Bitcoin and Ethereum are examples of distinct base networks."
+      },
+      {
+        "heading": "Layer 2",
+        "body": "A layer 2 system builds on a base network to process activity differently while relying on the base network for aspects of settlement or security. Specific trust and security assumptions vary by system."
+      },
+      {
+        "heading": "Zero-knowledge rollups",
+        "body": "A ZK rollup batches transactions outside Ethereum mainnet and submits data and a validity proof to the base layer. This can reduce the amount of computation performed directly on mainnet."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ethereum layer 2",
+        "url": "https://ethereum.org/layer-2/"
+      },
+      {
+        "title": "Zero-knowledge rollups",
+        "url": "https://ethereum.org/developers/docs/scaling/zk-rollups/"
+      }
+    ]
+  },
+  {
+    "slug": "solidity-concepts",
+    "title": "Solidity and smart-contract concepts",
+    "topic": "Web3",
+    "group": "How it works",
+    "summary": "A reference list of development patterns from the source notes.",
+    "sections": [
+      {
+        "heading": "Contract architecture",
+        "body": "Proxy contracts, UUPS, beacon proxies, contract factories and diamond storage are patterns used to structure or upgrade contracts. Their permissions and storage layout need careful review."
+      },
+      {
+        "heading": "Efficiency and data",
+        "body": "Packed storage, pagination, multicall, large integer arithmetic, Merkle proofs and SSTORE2 are techniques or tools encountered in contract development."
+      },
+      {
+        "heading": "Safety and interaction",
+        "body": "Checks-effects-interactions, reentrancy guards, pauses, commit-and-reveal schemes and permit-based approvals address different interaction and security concerns. No single pattern guarantees safety."
+      },
+      {
+        "heading": "Further concepts",
+        "body": "The notes also mention LP tokens, vaults, meta-transactions, deterministic deployment and proofs of inclusion. Consult implementation-specific documentation before using a pattern."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ethereum documentation",
+        "url": "https://ethereum.org/developers/docs/"
+      },
+      {
+        "title": "Solidity documentation",
+        "url": "https://docs.soliditylang.org/"
+      }
+    ]
+  },
+  {
+    "slug": "real-world-assets",
+    "title": "Real-world assets and real estate",
+    "topic": "Web3",
+    "group": "Applications",
+    "summary": "Explore tokenization and possible uses for property records and transactions.",
+    "sections": [
+      {
+        "heading": "Real-world assets",
+        "body": "Tokenization represents an asset or a claim related to an asset using a digital token. What a holder owns depends on the legal documents, custody arrangements and jurisdiction; a token alone does not establish ownership of the underlying asset."
+      },
+      {
+        "heading": "Property applications",
+        "body": "The source notes explore records, transfers, fractional interests, leases and property management. A blockchain record does not automatically replace a land registry or legal process."
+      },
+      {
+        "heading": "Questions to ask",
+        "body": "Who owns or holds the asset? What legal rights does the token confer? Who maintains the underlying records? What are the costs, privacy implications and dispute procedures?"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ethereum smart contracts",
+        "url": "https://ethereum.org/smart-contracts/"
+      }
+    ]
+  },
+  {
+    "slug": "daos",
+    "title": "DAOs and collective governance",
+    "topic": "Web3",
+    "group": "Applications",
+    "summary": "A starting point for decentralized autonomous organizations.",
+    "sections": [
+      {
+        "heading": "What is a DAO?",
+        "body": "A decentralized autonomous organization coordinates a community around shared rules and decisions, often using smart contracts and proposals. Actual control, participation and legal status vary."
+      },
+      {
+        "heading": "Activities",
+        "body": "The source notes group organizations around media, social communities, protocols, collecting, services, investment and grants. A DAO can use different mechanisms for membership, voting and treasury management."
+      },
+      {
+        "heading": "Due diligence",
+        "body": "Review how decisions are made, who controls funds, what code can be upgraded, and any legal or financial obligations. The source document contains historical project names; inclusion would not establish that a project remains active or trustworthy."
+      },
+      {
+        "heading": "Media DAOs — historical notes",
+        "body": "Forefront, rekt, Disco Dao, Bankless DAO, GCR, Dark Star DAO, Learn DAO. These names are reproduced from the source notes; current status and classifications have not been checked."
+      },
+      {
+        "heading": "DAO Operating System — historical notes",
+        "body": "Aragon, Colony, ElasticDAO, SYNDICATE, DAOhaus, dfdao, DAOstack, Stacker Ventures, CW, deCRED, Orca Protocol, Harmony Validator DAO. These names are reproduced from the source notes; current status and classifications have not been checked."
+      },
+      {
+        "heading": "Social DAOs — historical notes",
+        "body": "FWB, Open DEFI, CabinDAO, Prosper.dao, MINTY, SEED CLUB, ATX DAO, ETHDenver, Meta Gamma Delta, KrausHaus, Klima, TheWIPmeetup.eth, VIARIO.eth, questbook, BAYC, AMPLED, Bright Moments, GiVETH, PROOF OF HUMANITY, Guilds, GeneZis Biohacking, ProsperDAO, FiatLuxDAO, JUMP, SONGCAMP, MetaGame, Retoken, radicle. These names are reproduced from the source notes; current status and classifications have not been checked."
+      },
+      {
+        "heading": "Protocol DAOs — historical notes",
+        "body": "MAKER, Compound, SYNTHETIX, AAVE, yearn.finance, C.R.E.A.M, OpenDAO, SushiSwap, UNISWAP, tornado, OLYMPUS, GITCOIN, MetaFactory, 1Hive, Index, OCP, AUDIUS, Paladin, RARI CAPITAL, Phuture, hDAO, Badger, Rarible, LIDO, Dora Factory, oceanDAO, Curve, pool together, PieDAO, Tally, KeeperDAO, Universe, build_, inversefinance, Aavegotchi, PaperclipDAO, Sarcophagus, SingularityDAO, SYNDICATE, CityDAO, Balancer, INSTA APP, Maple. These names are reproduced from the source notes; current status and classifications have not been checked."
+      },
+      {
+        "heading": "Collector DAOs — historical notes",
+        "body": "FingerprintsDAO, SquiggleDAO, filmmaker DAO, joystream, Jenny, CCS, TileDAO, BeetsDAO, FLAMINGO, MeebitsDAO, MUSE0, BRRDAO, $whale, Gremlins, PleasrDAO, HERSTORY, WE3, Mash DAO. These names are reproduced from the source notes; current status and classifications have not been checked."
+      },
+      {
+        "heading": "Service DAOs — historical notes",
+        "body": "RAID GUILD, YIELD GUILD, Empire DAO, DAOhaus, ALADDIN, Fire Eyes DAO, Eden DAO, MetaFactory, Reverie, VitaDAO, CanuDAO, MetaverseDAO, PrimeDAO, LexDAO, DeepDAO, NeptuneDAO, ShinyDAO, Yam DAO, DoinGud, VectorDAO, HONEY DAO, UniWhales, OPOLIS, SPUTNIK DAO, ShineDAO, DEEP WORK, TRIBUTE, SourceCred, Rarible Protocol, PrimeDAO, Shark DAO, Cedge, DAOists, Myco, llama, DXdao, d0rg, Idle, PARTYDAO. These names are reproduced from the source notes; current status and classifications have not been checked."
+      },
+      {
+        "heading": "Investment DAOs — historical notes",
+        "body": "MetaCartel Ventures, BitDAO, Komorebi, The LAO, UdacityFund, DAOSquare, Free Company, Juicebox, FLAMINGO, KlimaDAO, OWN.FUND, Protein, DuckDAO. These names are reproduced from the source notes; current status and classifications have not been checked."
+      },
+      {
+        "heading": "Grant DAOs — historical notes",
+        "body": "MetaCartel Ventures, Sevens Foundation, Compound Grants, Moloch, MINT FUND, AUDIUS, Aave Grants, Uniswap Grants, Blank.Foundation, FutrDAO. These names are reproduced from the source notes; current status and classifications have not been checked."
+      }
+    ],
+    "sources": [
+      {
+        "title": "What is a DAO?",
+        "url": "https://ethereum.org/dao/"
+      }
+    ]
+  },
+  {
+    "slug": "choosing-web3",
+    "title": "When might Web3 be useful?",
+    "topic": "Web3",
+    "group": "Reference",
+    "summary": "Questions to consider before choosing a blockchain-based approach.",
+    "sections": [
+      {
+        "heading": "Start with the problem",
+        "body": "Identify the users, the workflow and the reason independent parties need to coordinate. Consider whether an ordinary database or existing service already solves the problem."
+      },
+      {
+        "heading": "Consider shared records and transfers",
+        "body": "A blockchain may be relevant when multiple parties need a shared ledger or programmable asset transfer. Compare the benefits against complexity, fees, privacy, governance and recovery requirements."
+      },
+      {
+        "heading": "Test assumptions",
+        "body": "A smart contract cannot by itself verify off-chain facts, guarantee a legal right or make inaccurate data reliable. Prototype the workflow and examine both technical and legal risks."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ethereum smart contracts",
+        "url": "https://ethereum.org/smart-contracts/"
+      }
+    ]
+  }
+]

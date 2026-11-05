@@ -5,3 +5,9 @@ export type LibraryTool = { id: string; title: string; category: string; subcate
 export async function getLibraryTools(): Promise<LibraryTool[]> {
   return tools;
 }
+
+import knowledge from './knowledge.json';
+export type KnowledgeArticle = typeof knowledge[number];
+export async function getKnowledgeArticles(): Promise<KnowledgeArticle[]> {
+  return knowledge;
+}

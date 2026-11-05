@@ -11,3 +11,5 @@ The pre-cutover runtime and routing backups are in `artifacts/cloudflare-preview
 Cloudflare Workers Builds is connected to `Apex-Circle-SG/ig-new` and watches all changes on `main`. Its production build runs `prepare.sh` with `IG_CLOUDFLARE_TARGET=production`, then deploys the resulting prebuilt Worker.
 
 GitHub Actions verification runs only when started manually. Run checks appropriate to each change locally before pushing; Cloudflare Workers Builds deploys pushes to `main` independently.
+
+Library articles live in D1 `library_knowledge` as portable JSON text, with a bundled fallback and an idempotent seed in `knowledge.sql`. Extracted original source text is kept separately in `library_sources` and is not served by the site. Export both tables to migrate the collection; the original Word document and its images are separate files.

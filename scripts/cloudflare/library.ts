@@ -12,3 +12,15 @@ export async function getLibraryTools(): Promise<LibraryTool[]> {
     return tools;
   }
 }
+
+import knowledge from './knowledge.json';
+export type KnowledgeArticle = typeof knowledge[number];
+export async function getKnowledgeArticles(): Promise<KnowledgeArticle[]> {
+  try {
+    const result = await env.SITE_DB.prepare('SELECT data FROM library_knowledge ORDER BY position').all<{ data: string }>();
+    return result.results.map((row) => JSON.parse(row.data) as KnowledgeArticle);
+  } catch {
+    // shortcut: use the bundled seed if the knowledge table is unavailable; migrate D1 before editing entries.
+    return knowledge;
+  }
+}

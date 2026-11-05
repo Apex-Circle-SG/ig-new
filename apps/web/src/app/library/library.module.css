@@ -30,3 +30,22 @@
 .empty { padding: 30px 0; }
 @media (max-width: 760px) { .page { padding-top: 20px; } .hero::after { opacity: .4; } .intro { grid-template-columns: 1fr; padding: 50px 0 35px; gap: 15px; } .directoryHeader { align-items: stretch; flex-direction: column; } .search { width: 100%; } .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 480px) { .grid { grid-template-columns: 1fr; } .hero h1 br { display: none; } }
+.knowledgeCard { border: 1px solid #e9e9f0; border-radius: 14px; padding: 20px; display: flex; flex-direction: column; gap: 10px; }
+.knowledgeCard:hover { border-color: #a99cee; background: #f8f6ff; }
+.knowledgeCard:focus-visible { outline: 3px solid #9787ef; outline-offset: 3px; }
+.knowledgeCard > span { color: #6f5cc9; font-size: 12px; font-weight: 700; }
+.knowledgeCard h3 { font-size: 19px; }
+.knowledgeCard p { font-size: 14px; }
+.knowledgeCard strong { color: #5b4ac5; font-size: 12px; margin-top: auto; }
+.knowledgeCard + .directory { margin-top: 45px; }
+.directory + .directory { margin-top: 60px; }
+.article { padding-top: 50px; padding-bottom: 90px; max-width: 840px; }
+.back { color: #5b4ac5; font-weight: 700; }
+.article header { margin: 50px 0 30px; }
+.article h1 { font-size: clamp(38px, 5vw, 60px); margin: 15px 0; }
+.articleSummary { font-size: 18px; }
+.article section { margin-top: 36px; }
+.article h2 { font-size: 24px; margin-bottom: 12px; }
+.article section p { line-height: 1.8; }
+.article section a { color: #5b4ac5; text-decoration: underline; }
+.note { background: #f2effe; border-radius: 12px; padding: 16px; font-size: 14px; }

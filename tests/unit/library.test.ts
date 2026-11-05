@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { getLibraryTools } from '../../apps/web/src/lib/library';
+import { getKnowledgeArticles, getLibraryTools } from '../../apps/web/src/lib/library';
 
 describe('library directory', () => {
   it('contains uniquely identified, safe web links from the collection', async () => {
@@ -13,4 +13,15 @@ describe('library directory', () => {
       expect(url.hostname).toContain('.');
     }
   });
+  it('provides unique, readable knowledge articles with safe source links', async () => {
+    const articles = await getKnowledgeArticles();
+    expect(articles.length).toBeGreaterThan(0);
+    expect(new Set(articles.map((article) => article.slug)).size).toBe(articles.length);
+    for (const article of articles) {
+      expect(article.sections.length).toBeGreaterThan(0);
+      expect(article.sections.every((section) => section.heading && section.body)).toBe(true);
+      for (const source of article.sources) expect(new URL(source.url).protocol).toBe('https:');
+    }
+  });
+
 });
