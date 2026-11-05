@@ -602,22 +602,40 @@ add_case(
 )
 switch = [[1, -1, 0], [1, 0, -2], [-1, 1, 1]]
 gates = matrix_product(switch, Z)
+expert_parameters = [
+    [[1, 0, -1, 0], [0, 1, 0, 0], [0, 0, -1, 1]],
+    [[0, 0, -1, 0], [1, 0, 0, 0], [1, 1, -1, 1]],
+    [[1, 0, 0, 0], [0, 1, 1, 1], [0, 1, 0, 0]],
+]
+selected_experts = []
+expert_usage = [0, 0, 0]
+routed_columns = []
+for column, scores in enumerate(zip(*gates)):
+    expert = max(range(3), key=lambda index: scores[index])
+    selected_experts.append("ABC"[expert])
+    token = [[row[column]] for row in Z]
+    if expert_usage[expert] >= 2:
+        routed_columns.append([row[0] for row in token])
+    else:
+        expert_usage[expert] += 1
+        transformed = matrix_product(expert_parameters[expert], with_bias(token))
+        routed_columns.append([row[0] for row in transformed])
 add_case(
     24,
     "ai-expert-routing",
     "Route five mixed token vectors",
-    "The displayed top-one gate scores select experts A, C, C, B and C. Expert C has capacity two, so the fifth token follows the exercise’s residual bypass policy.",
+    "The printed router selects A, B, A, B and B when tied scores use the first expert. Each expert can process two tokens; the fifth token bypasses the already-full expert B unchanged.",
     [
         matrix_block("Mixed token features", Z),
         matrix_block("Router weights", switch),
-        matrix_block("Gate scores", gates),
-        {"label": "Selected experts", "rows": [["A", "C", "C", "B", "C"]]},
+        matrix_block("Recomputed gate scores", gates),
+        {"label": "Recomputed selected experts", "rows": [selected_experts]},
         matrix_block(
-            "Exercise output after expert processing",
-            [[10, 6, 7, -1, 5], [2, 8, 7, 7, 3], [0, 6, 4, 10, 1]],
+            "Output after expert processing and overflow bypass",
+            transpose(routed_columns),
         ),
     ],
-    "The original output writes [2,3,4] for the bypassed fifth token, but its input is [5,3,1]. An unchanged bypass must preserve [5,3,1]; the table corrects that inconsistency. Routing scaling omitted by the original is not inferred.",
+    "The handwritten scores for expert C and routes A,C,C,B,C do not follow the printed router weights. The reconstruction follows those printed weights, states its first-expert tie convention, and recalculates capacity and outputs. No expert output activation or routing scale is assumed where the source omits it.",
 )
 add_case(
     25,
@@ -855,6 +873,12 @@ assert next(
     for block in by_image[25]["blocks"]
     if block["label"] == "doc is them recomputed reward"
 ) == [[4]]
+assert selected_experts == ["A", "B", "A", "B", "B"]
+assert transpose(routed_columns) == [
+    [10, -1, 5, -1, 5],
+    [2, 6, 4, 7, 3],
+    [0, 12, -1, 10, 1],
+]
 assert len(cases) == 25
 assert by_image[3]["blocks"][-1]["rows"] == [[0], [3]]
 assert by_image[5]["blocks"][-1]["rows"] == [[-4, -18]]

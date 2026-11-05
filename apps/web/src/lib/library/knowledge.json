@@ -3048,7 +3048,7 @@
       },
       {
         "heading": "Brains as an analogy",
-        "body": "A network’s nodes and weights are mathematical objects. Comparing them with neurons, dendrites and synapses can be a teaching analogy but does not establish biological equivalence. Human working, episodic, semantic and procedural memory do not map one-to-one to an agent’s database tables."
+        "body": "A network’s nodes and weights are mathematical objects. Comparing them with neurons, dendrites and synapses can be a teaching analogy but does not establish biological equivalence. Human working, episodic, semantic and procedural memory do not map one-to-one to an agent’s database tables. Biomimicry borrows ideas from biological systems to solve engineering problems; biological inspiration alone does not demonstrate equivalent cognition."
       },
       {
         "heading": "Tests and intelligence",
@@ -3325,6 +3325,10 @@
       {
         "heading": "Application limits",
         "body": "Healthcare, finance and autonomous systems have different evidence and oversight needs. Demonstrating a model on a benchmark does not establish clinical benefit, trading profit or operational safety. Validate the system where it will actually be used."
+      },
+      {
+        "heading": "Unidentified model name",
+        "body": "The supplied “Text-guided Attention Model” fragment associates images with generated language, but gives no paper, architecture or version. Image captioning and text-conditioned visual attention are useful task descriptions; the fragment is insufficient to identify a particular model."
       }
     ],
     "sources": [

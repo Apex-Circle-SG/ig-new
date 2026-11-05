@@ -12,7 +12,7 @@ The work continues the AI-library overhaul: develop the remaining supplied topic
 
 ## Coverage and honest limits
 
-`docs/ai-item-coverage.csv` maps all 2,641 extracted text passages and all 45 embedded images to reader destinations. The source documents and extracted inventory remain in `content/sources/ai/`. A synthesized passage means its subject has been developed or consolidated; it does not certify every original sentence as true or reproduce every decorative element.
+`docs/ai-item-coverage.csv` maps all 2,641 extracted text passages and all 45 embedded images to reader destinations. The source documents and extracted inventory remain in `content/sources/ai/`. This is an editorial routing ledger, not a completed sentence-by-sentence fidelity audit. Review identified and corrected misroutes in the opening glossary; other broad ranges still need a semantic destination audit. A synthesized passage means its subject has been developed or consolidated; it does not certify every original sentence as true or reproduce every decorative element.
 
 Nineteen ambiguous labels or argument/protocol names lack the original definition or citation; the reader-facing guides identify these uncertainties. Additional unsupported claims are corrected or contextualized, including specific scenario-size rules, old forecasts, financial performance numbers, cloud product diagrams and simplified legal classifications. These are source-evidence limits, not unpublished implementation tasks.
 
@@ -30,3 +30,5 @@ Some sketches identify Prof. Tom Yeh's AI by Hand. The arithmetic reader credits
 ## Validation
 
 Evidence is recorded in `docs/verification/ai-library-refinement.json`. Code checks include navigation behavior, sitemap discovery, type checking, lint and the production build. Browser checks cover AI pages at 390 px and 1440 px and expanded numerical tables. These checks do not establish that every historical source claim is correct or replace a full accessibility audit.
+
+Routing correction: source figure 24 now computes its router scores instead of copying the handwritten expert choices. First-expert tie breaking yields A, B, A, B, B; expert B’s capacity sends the fifth token through unchanged.
