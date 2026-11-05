@@ -1,3 +1,5 @@
+Current implementation and item-level evidence: [AI library completion](ai-library-completion.md) and [coverage ledger](ai-item-coverage.csv). The sections below record the earlier editorial stages; their deferred numerical work is superseded by the completion report.
+
 # AI library editorial and coverage report
 
 The redesigned collection uses seven reader-facing paths: Start here; Working with data; How models work; Math and worked examples; Build AI systems; Responsible AI; and Reference. The library index leads to the AI hub instead of displaying every AI page at once. Existing AI URLs remain available, including the former source-notes URL, which is now a curated glossary.

@@ -1,0 +1,4917 @@
+[
+  {
+    "sourceImage": 1,
+    "slug": "ai-neural-network-math",
+    "title": "The original one-neuron calculation",
+    "explain": "Multiply corresponding inputs and weights, then add the bias. ReLU replaces the negative result with zero.",
+    "blocks": [
+      {
+        "label": "Inputs",
+        "rows": [
+          [
+            2
+          ],
+          [
+            1
+          ],
+          [
+            3
+          ]
+        ]
+      },
+      {
+        "label": "Weights and final bias column",
+        "rows": [
+          [
+            1,
+            -1,
+            1,
+            -5
+          ]
+        ]
+      },
+      {
+        "label": "Weighted sum",
+        "rows": [
+          [
+            -1
+          ]
+        ]
+      },
+      {
+        "label": "ReLU output",
+        "rows": [
+          [
+            0
+          ]
+        ]
+      }
+    ],
+    "correction": ""
+  },
+  {
+    "sourceImage": 2,
+    "slug": "ai-worked-exercises",
+    "title": "Four neurons sharing one input",
+    "explain": "Each row defines a different neuron. The final column is its bias.",
+    "blocks": [
+      {
+        "label": "Weights and bias",
+        "rows": [
+          [
+            1,
+            -1,
+            1,
+            -5
+          ],
+          [
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            1,
+            -2
+          ]
+        ]
+      },
+      {
+        "label": "Input",
+        "rows": [
+          [
+            2
+          ],
+          [
+            1
+          ],
+          [
+            3
+          ]
+        ]
+      },
+      {
+        "label": "Output",
+        "rows": [
+          [
+            0
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    ],
+    "correction": "The handwritten four-node picture writes 4 for the third output. Its printed weights give 0×2 + 1×1 + 1×3 + 1 = 5; the text in the collection also gives 5."
+  },
+  {
+    "sourceImage": 3,
+    "slug": "ai-worked-exercises",
+    "title": "A complete two-layer network",
+    "explain": "The second layer receives four hidden values. Biases are appended as a row of ones for the matrix calculation.",
+    "blocks": [
+      {
+        "label": "Hidden layer",
+        "rows": [
+          [
+            0
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ],
+          [
+            3
+          ]
+        ]
+      },
+      {
+        "label": "Second-layer weights and bias",
+        "rows": [
+          [
+            1,
+            1,
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            -1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Second preactivation",
+        "rows": [
+          [
+            -2
+          ],
+          [
+            3
+          ]
+        ]
+      },
+      {
+        "label": "Final ReLU output",
+        "rows": [
+          [
+            0
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    ],
+    "correction": ""
+  },
+  {
+    "sourceImage": 4,
+    "slug": "ai-matrix-multiplication",
+    "title": "Process three examples together",
+    "explain": "Examples are columns. The same parameters are reused for each example.",
+    "blocks": [
+      {
+        "label": "Input batch",
+        "rows": [
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            3,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Hidden batch",
+        "rows": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            5,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Output batch",
+        "rows": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            3,
+            4
+          ]
+        ]
+      }
+    ],
+    "correction": ""
+  },
+  {
+    "sourceImage": 5,
+    "slug": "ai-worked-exercises",
+    "title": "Follow seven layers",
+    "explain": "The first six layers use ReLU; the final layer stays linear. No biases are shown in this exercise.",
+    "blocks": [
+      {
+        "label": "Two input examples",
+        "rows": [
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            3
+          ]
+        ]
+      },
+      {
+        "label": "Layer 1 weights",
+        "rows": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Layer 1 output",
+        "rows": [
+          [
+            5,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            9,
+            7
+          ]
+        ]
+      },
+      {
+        "label": "Layer 2 weights",
+        "rows": [
+          [
+            1,
+            1,
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            -1
+          ]
+        ]
+      },
+      {
+        "label": "Layer 2 output",
+        "rows": [
+          [
+            6,
+            2
+          ],
+          [
+            1,
+            7
+          ]
+        ]
+      },
+      {
+        "label": "Layer 3 weights",
+        "rows": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      {
+        "label": "Layer 3 output",
+        "rows": [
+          [
+            7,
+            9
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            8,
+            16
+          ]
+        ]
+      },
+      {
+        "label": "Layer 4 weights",
+        "rows": [
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            0,
+            -1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Layer 4 output",
+        "rows": [
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            16
+          ]
+        ]
+      },
+      {
+        "label": "Layer 5 weights",
+        "rows": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Layer 5 output",
+        "rows": [
+          [
+            3,
+            16
+          ],
+          [
+            2,
+            9
+          ]
+        ]
+      },
+      {
+        "label": "Layer 6 weights",
+        "rows": [
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Layer 6 output",
+        "rows": [
+          [
+            1,
+            7
+          ],
+          [
+            5,
+            25
+          ]
+        ]
+      },
+      {
+        "label": "Layer 7 weights",
+        "rows": [
+          [
+            1,
+            -1
+          ]
+        ]
+      },
+      {
+        "label": "Layer 7 output",
+        "rows": [
+          [
+            -4,
+            -18
+          ]
+        ]
+      }
+    ],
+    "correction": "Applying ReLU to the final layer would erase its negative outputs and change the exercise."
+  },
+  {
+    "sourceImage": 6,
+    "slug": "ai-expert-routing",
+    "title": "Route two tokens to different experts",
+    "explain": "Column one selects expert two; column two selects expert one. Expert outputs then pass through ReLU.",
+    "blocks": [
+      {
+        "label": "Tokens",
+        "rows": [
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      {
+        "label": "Router scores",
+        "rows": [
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      },
+      {
+        "label": "Expert one parameters",
+        "rows": [
+          [
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            -1,
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Expert two parameters",
+        "rows": [
+          [
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            -1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Routed output",
+        "rows": [
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            5,
+            0
+          ]
+        ]
+      }
+    ],
+    "correction": ""
+  },
+  {
+    "sourceImage": 7,
+    "slug": "ai-sequence-state-example",
+    "title": "A recurrent network across four inputs",
+    "explain": "The same A, B and C are reused at each step. ReLU is applied to the hidden state.",
+    "blocks": [
+      {
+        "label": "A",
+        "rows": [
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "B",
+        "rows": [
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      },
+      {
+        "label": "C",
+        "rows": [
+          [
+            -1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Inputs",
+        "rows": [
+          [
+            3,
+            4,
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "label": "Hidden states",
+        "rows": [
+          [
+            3,
+            1,
+            0,
+            0
+          ],
+          [
+            6,
+            17,
+            28,
+            40
+          ]
+        ]
+      },
+      {
+        "label": "Outputs",
+        "rows": [
+          [
+            3,
+            16,
+            28,
+            40
+          ]
+        ]
+      }
+    ],
+    "correction": ""
+  },
+  {
+    "sourceImage": 8,
+    "slug": "ai-sequence-state-example",
+    "title": "Input-dependent state updates",
+    "explain": "Here the exercise changes A, B and C between positions. The recurrence has no nonlinear activation.",
+    "blocks": [
+      {
+        "label": "B vectors by time",
+        "rows": [
+          [
+            -1,
+            2
+          ],
+          [
+            -2,
+            -2
+          ],
+          [
+            -3,
+            3
+          ],
+          [
+            -1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "C vectors by time",
+        "rows": [
+          [
+            -2,
+            -3
+          ],
+          [
+            -1,
+            1
+          ],
+          [
+            -5,
+            4
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "A diagonals by time",
+        "rows": [
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            -1,
+            1
+          ],
+          [
+            -1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Hidden states",
+        "rows": [
+          [
+            -3,
+            -11,
+            -4,
+            -2
+          ],
+          [
+            6,
+            -14,
+            1,
+            7
+          ]
+        ]
+      },
+      {
+        "label": "Outputs",
+        "rows": [
+          [
+            -12,
+            -3,
+            24,
+            1
+          ]
+        ]
+      }
+    ],
+    "correction": "This describes the supplied toy recurrence, not a complete Mamba implementation."
+  },
+  {
+    "sourceImage": 9,
+    "slug": "ai-matrix-multiplication",
+    "title": "The original matrix product",
+    "explain": "A 2×2 matrix multiplies a 2×3 matrix to give a 2×3 result.",
+    "blocks": [
+      {
+        "label": "A",
+        "rows": [
+          [
+            1,
+            1
+          ],
+          [
+            -1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "B",
+        "rows": [
+          [
+            1,
+            5,
+            2
+          ],
+          [
+            2,
+            4,
+            2
+          ]
+        ]
+      },
+      {
+        "label": "A × B",
+        "rows": [
+          [
+            3,
+            9,
+            4
+          ],
+          [
+            1,
+            -1,
+            0
+          ]
+        ]
+      }
+    ],
+    "correction": ""
+  },
+  {
+    "sourceImage": 10,
+    "slug": "ai-softmax-sampling",
+    "title": "Sample “how are you” from the original probabilities",
+    "explain": "The drawing accumulates probabilities from the bottom of its vocabulary list. Reversing the order into an ordinary cumulative list preserves its interval convention.",
+    "blocks": [
+      {
+        "label": "Vocabulary in the drawing",
+        "rows": [
+          [
+            "I"
+          ],
+          [
+            "you"
+          ],
+          [
+            "they"
+          ],
+          [
+            "are"
+          ],
+          [
+            "am"
+          ],
+          [
+            "how"
+          ],
+          [
+            "why"
+          ],
+          [
+            "where"
+          ],
+          [
+            "who"
+          ],
+          [
+            "what"
+          ]
+        ]
+      },
+      {
+        "label": "Probabilities, one row per generated position",
+        "rows": [
+          [
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.5,
+            0.1,
+            0.1,
+            0.15,
+            0.1
+          ],
+          [
+            0.01,
+            0.01,
+            0.01,
+            0.4,
+            0.4,
+            0.05,
+            0.05,
+            0.05,
+            0.01,
+            0.01
+          ],
+          [
+            0.03,
+            0.5,
+            0.4,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01
+          ]
+        ]
+      },
+      {
+        "label": "Uniform draws",
+        "rows": [
+          [
+            0.65,
+            0.92,
+            0.52
+          ]
+        ]
+      }
+    ],
+    "correction": "The probabilities are supplied to illustrate sampling; they are not calculated from a real language model in the exercise. Each row sums to one."
+  },
+  {
+    "sourceImage": 11,
+    "slug": "ai-worked-exercises",
+    "title": "A three-layer perceptron with mixed activations",
+    "explain": "The middle layer has no bias; the first and last do. A sigmoid is applied independently to the five final scores.",
+    "blocks": [
+      {
+        "label": "Middle weights",
+        "rows": [
+          [
+            1,
+            -1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            -1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Middle activation",
+        "rows": [
+          [
+            2
+          ],
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Final weights and bias",
+        "rows": [
+          [
+            1,
+            -1,
+            2
+          ],
+          [
+            -1,
+            1,
+            1
+          ],
+          [
+            1,
+            -2,
+            -2
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            -3,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Final scores",
+        "rows": [
+          [
+            3
+          ],
+          [
+            0
+          ],
+          [
+            -2
+          ],
+          [
+            5
+          ],
+          [
+            -5
+          ]
+        ]
+      },
+      {
+        "label": "Sigmoid output",
+        "rows": [
+          [
+            0.95257
+          ],
+          [
+            0.5
+          ],
+          [
+            0.1192
+          ],
+          [
+            0.99331
+          ],
+          [
+            0.00669
+          ]
+        ]
+      }
+    ],
+    "correction": "Independent sigmoid outputs need not sum to one; use softmax when a single categorical distribution is intended."
+  },
+  {
+    "sourceImage": 12,
+    "slug": "ai-backpropagation-example",
+    "title": "Backpropagate through the original three layers",
+    "explain": "Use softmax and cross-entropy with target [0,1,0]. The original sketch rounds the third class probability to zero; these gradients retain it.",
+    "blocks": [
+      {
+        "label": "Second-layer parameters",
+        "rows": [
+          [
+            1,
+            -1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            -1,
+            1,
+            3
+          ]
+        ]
+      },
+      {
+        "label": "Second-layer activation",
+        "rows": [
+          [
+            2
+          ],
+          [
+            4
+          ]
+        ]
+      },
+      {
+        "label": "Third-layer parameters",
+        "rows": [
+          [
+            2,
+            0,
+            -1
+          ],
+          [
+            0,
+            2,
+            -5
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Logits",
+        "rows": [
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "label": "Exact softmax",
+        "rows": [
+          [
+            0.01767
+          ],
+          [
+            0.01767
+          ],
+          [
+            0.96466
+          ]
+        ]
+      },
+      {
+        "label": "Output-logit gradient",
+        "rows": [
+          [
+            0.01767
+          ],
+          [
+            -0.98233
+          ],
+          [
+            0.96466
+          ]
+        ]
+      },
+      {
+        "label": "Final weights and bias gradient",
+        "rows": [
+          [
+            0.03534,
+            0.07067,
+            0.01767
+          ],
+          [
+            -1.96466,
+            -3.92933,
+            -0.98233
+          ],
+          [
+            1.92933,
+            3.85865,
+            0.96466
+          ]
+        ]
+      },
+      {
+        "label": "Second weights and bias gradient",
+        "rows": [
+          [
+            0.0,
+            3.0,
+            5.0,
+            3.0,
+            1.0
+          ],
+          [
+            0.0,
+            -3.0,
+            -5.0,
+            -3.0,
+            -1.0
+          ]
+        ]
+      },
+      {
+        "label": "First weights and bias gradient",
+        "rows": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            -4.0,
+            -2.0,
+            -6.0,
+            -2.0
+          ],
+          [
+            4.0,
+            2.0,
+            6.0,
+            2.0
+          ],
+          [
+            -2.0,
+            -1.0,
+            -3.0,
+            -1.0
+          ]
+        ]
+      }
+    ],
+    "correction": "Rounded [0.5,0.5,0] probabilities are a teaching approximation. The exact logits [3,3,−1] give a small positive third probability; gradients change accordingly."
+  },
+  {
+    "sourceImage": 13,
+    "slug": "ai-attention-example",
+    "title": "A position-wise feed-forward block",
+    "explain": "The exercise supplies an attention mixing matrix, then applies the same feed-forward weights at each position.",
+    "blocks": [
+      {
+        "label": "Input positions",
+        "rows": [
+          [
+            5,
+            6,
+            0,
+            7,
+            0
+          ],
+          [
+            0,
+            2,
+            4,
+            0,
+            3
+          ],
+          [
+            1,
+            0,
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Supplied mixing matrix",
+        "rows": [
+          [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Mixed features",
+        "rows": [
+          [
+            11,
+            6,
+            7,
+            7,
+            5
+          ],
+          [
+            2,
+            6,
+            4,
+            3,
+            3
+          ],
+          [
+            1,
+            1,
+            2,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "First FFN parameters",
+        "rows": [
+          [
+            1,
+            -1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            -1,
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "First activation",
+        "rows": [
+          [
+            10,
+            1,
+            4,
+            5,
+            3
+          ],
+          [
+            13,
+            12,
+            11,
+            10,
+            8
+          ],
+          [
+            4,
+            8,
+            7,
+            5,
+            5
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Second FFN parameters",
+        "rows": [
+          [
+            1,
+            0,
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            -1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "FFN output",
+        "rows": [
+          [
+            10,
+            0,
+            4,
+            5,
+            3
+          ],
+          [
+            17,
+            20,
+            18,
+            15,
+            13
+          ],
+          [
+            5,
+            8,
+            8,
+            6,
+            6
+          ]
+        ]
+      }
+    ],
+    "correction": "The supplied columns sum to two, not one. This is an unnormalized mixing example, not a softmax attention matrix or a full transformer block."
+  },
+  {
+    "sourceImage": 14,
+    "slug": "ai-normalization-dropout",
+    "title": "Normalize the original four-example batch",
+    "explain": "Statistics are computed separately for each feature across the batch. This reconstruction uses population variance plus ε = 0.00001.",
+    "blocks": [
+      {
+        "label": "Inputs",
+        "rows": [
+          [
+            1,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "label": "Linear parameters",
+        "rows": [
+          [
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            -1
+          ],
+          [
+            0,
+            2,
+            -1,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "ReLU activations",
+        "rows": [
+          [
+            3,
+            1,
+            3,
+            2
+          ],
+          [
+            0,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            5,
+            2,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Means",
+        "rows": [
+          [
+            2.25,
+            1.25,
+            1.75
+          ]
+        ]
+      },
+      {
+        "label": "Variances",
+        "rows": [
+          [
+            0.6875,
+            1.6875,
+            4.1875
+          ]
+        ]
+      },
+      {
+        "label": "Normalized features",
+        "rows": [
+          [
+            0.90453,
+            -1.50755,
+            0.90453,
+            -0.30151
+          ],
+          [
+            -0.96225,
+            0.57735,
+            1.34715,
+            -0.96225
+          ],
+          [
+            -0.85519,
+            1.5882,
+            0.12217,
+            -0.85519
+          ]
+        ]
+      },
+      {
+        "label": "Scale and shift (γ, β)",
+        "rows": [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            -1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Scaled and shifted output",
+        "rows": [
+          [
+            1.80905,
+            -3.01509,
+            1.80905,
+            -0.60302
+          ],
+          [
+            -2.88674,
+            1.73205,
+            4.04144,
+            -2.88674
+          ],
+          [
+            1.85519,
+            -0.5882,
+            0.87783,
+            1.85519
+          ]
+        ]
+      }
+    ],
+    "correction": "The drawing rounds means and variances to integers. Exact means are [2.25,1.25,1.75], so its rounded normalization does not produce exactly zero mean and unit variance."
+  },
+  {
+    "sourceImage": 15,
+    "slug": "ai-generative-training-example",
+    "title": "Calculate the original GAN forward pass",
+    "explain": "The generator turns four noise examples into four fake examples. A shared discriminator scores both real and fake examples.",
+    "blocks": [
+      {
+        "label": "Noise",
+        "rows": [
+          [
+            1,
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            1,
+            -1
+          ]
+        ]
+      },
+      {
+        "label": "Generator first layer",
+        "rows": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            -1,
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Generator second layer",
+        "rows": [
+          [
+            -1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Generated examples",
+        "rows": [
+          [
+            1,
+            1,
+            2,
+            1
+          ],
+          [
+            2,
+            1,
+            2,
+            0
+          ],
+          [
+            3,
+            2,
+            4,
+            1
+          ],
+          [
+            1,
+            1,
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Real examples",
+        "rows": [
+          [
+            2,
+            3,
+            3,
+            4
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            3,
+            4,
+            3
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Discriminator hidden parameters",
+        "rows": [
+          [
+            1,
+            0,
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            -1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Discriminator output parameters",
+        "rows": [
+          [
+            1,
+            1,
+            -1,
+            -1
+          ]
+        ]
+      },
+      {
+        "label": "Fake logits",
+        "rows": [
+          [
+            1,
+            0,
+            2,
+            -1
+          ]
+        ]
+      },
+      {
+        "label": "Real logits",
+        "rows": [
+          [
+            1,
+            2,
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "label": "Fake sigmoid scores",
+        "rows": [
+          [
+            0.73106,
+            0.5,
+            0.8808,
+            0.26894
+          ]
+        ]
+      },
+      {
+        "label": "Real sigmoid scores",
+        "rows": [
+          [
+            0.73106,
+            0.8808,
+            0.8808,
+            0.95257
+          ]
+        ]
+      }
+    ],
+    "correction": "For binary cross-entropy the logit gradient is prediction minus target before reduction. Rounded sigmoid values in the drawing are not exact probabilities."
+  },
+  {
+    "sourceImage": 16,
+    "slug": "ai-attention-example",
+    "title": "Exact attention from the four-position exercise",
+    "explain": "Examples are columns here. Normalize each query column of KᵀQ, then multiply V by those weights.",
+    "blocks": [
+      {
+        "label": "Input features",
+        "rows": [
+          [
+            2,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Query weights",
+        "rows": [
+          [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Key weights",
+        "rows": [
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            -1
+          ]
+        ]
+      },
+      {
+        "label": "Value weights",
+        "rows": [
+          [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            10,
+            0,
+            0
+          ],
+          [
+            0,
+            10,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Q",
+        "rows": [
+          [
+            2,
+            1,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            3,
+            2,
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "K",
+        "rows": [
+          [
+            0,
+            2,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            -1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "V",
+        "rows": [
+          [
+            20,
+            0,
+            0,
+            20
+          ],
+          [
+            0,
+            0,
+            10,
+            10
+          ],
+          [
+            0,
+            10,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Unscaled scores",
+        "rows": [
+          [
+            3,
+            2,
+            2,
+            1
+          ],
+          [
+            4,
+            3,
+            1,
+            5
+          ],
+          [
+            -1,
+            -1,
+            -2,
+            1
+          ],
+          [
+            3,
+            2,
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Exact attention weights",
+        "rows": [
+          [
+            0.25769,
+            0.25264,
+            0.37584,
+            0.07652
+          ],
+          [
+            0.45903,
+            0.45003,
+            0.21099,
+            0.77044
+          ],
+          [
+            0.02559,
+            0.0447,
+            0.03733,
+            0.07652
+          ],
+          [
+            0.25769,
+            0.25264,
+            0.37584,
+            0.07652
+          ]
+        ]
+      },
+      {
+        "label": "Weighted values",
+        "rows": [
+          [
+            10.3076,
+            10.10552,
+            15.03361,
+            3.06082
+          ],
+          [
+            2.83284,
+            2.97335,
+            4.13169,
+            1.53041
+          ],
+          [
+            4.59026,
+            4.50027,
+            2.10991,
+            7.70438
+          ]
+        ]
+      }
+    ],
+    "correction": "The source replaces division by √3 with a floor-based shortcut and exp(x) with powers of three, then rounds again. Those approximations can substantially change the output; this table uses the exact stated attention formula."
+  },
+  {
+    "sourceImage": 17,
+    "slug": "ai-normalization-dropout",
+    "title": "Trace two dropout masks",
+    "explain": "The first mask keeps units one and three at p=1/2. The second keeps units one and two at p=1/3. These are fixed sampled masks, not a deterministic rule.",
+    "blocks": [
+      {
+        "label": "Training inputs",
+        "rows": [
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "First linear parameters",
+        "rows": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            -1,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "First activation",
+        "rows": [
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "label": "First masked activation",
+        "rows": [
+          [
+            6,
+            10
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            4
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Second linear parameters",
+        "rows": [
+          [
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            -1,
+            -1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Second activation",
+        "rows": [
+          [
+            6,
+            10
+          ],
+          [
+            10,
+            4
+          ],
+          [
+            0,
+            7
+          ]
+        ]
+      },
+      {
+        "label": "Second masked activation",
+        "rows": [
+          [
+            9.0,
+            15.0
+          ],
+          [
+            15.0,
+            6.0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Final parameters",
+        "rows": [
+          [
+            1,
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            -1,
+            -2
+          ]
+        ]
+      },
+      {
+        "label": "Output",
+        "rows": [
+          [
+            -6.0,
+            9.0
+          ],
+          [
+            13.0,
+            4.0
+          ]
+        ]
+      },
+      {
+        "label": "Target",
+        "rows": [
+          [
+            -4,
+            7
+          ],
+          [
+            10,
+            5
+          ]
+        ]
+      },
+      {
+        "label": "Mean-squared-error gradient over all four entries",
+        "rows": [
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            1.5,
+            -0.5
+          ]
+        ]
+      },
+      {
+        "label": "Evaluation inputs",
+        "rows": [
+          [
+            3,
+            3
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Changed evaluation layer one",
+        "rows": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            -1,
+            1,
+            1
+          ],
+          [
+            1,
+            -1,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Evaluation activation, no dropout",
+        "rows": [
+          [
+            3,
+            3
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      {
+        "label": "Changed evaluation layer two",
+        "rows": [
+          [
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            -1,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Evaluation middle activation",
+        "rows": [
+          [
+            4,
+            5
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      {
+        "label": "Changed evaluation output layer",
+        "rows": [
+          [
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            -1,
+            -1
+          ]
+        ]
+      },
+      {
+        "label": "Evaluation outputs",
+        "rows": [
+          [
+            13,
+            13
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      }
+    ],
+    "correction": "The source uses 2(Y−target), which is the gradient of a sum of squared errors. Mean squared error over four entries divides that by four. Its approximate p=0.33 and scale 1.5 are made exact here by stating p=1/3. The separate evaluation panel uses altered illustrative weights; it is not the result of a calculated optimizer update from the training panel."
+  },
+  {
+    "sourceImage": 18,
+    "slug": "ai-generative-training-example",
+    "title": "Reconstruct four examples with an autoencoder",
+    "explain": "The two-dimensional bottleneck is decoded back into four dimensions. Targets equal the original inputs.",
+    "blocks": [
+      {
+        "label": "Input and target",
+        "rows": [
+          [
+            1,
+            1,
+            2,
+            1
+          ],
+          [
+            2,
+            1,
+            2,
+            0
+          ],
+          [
+            3,
+            2,
+            4,
+            1
+          ],
+          [
+            1,
+            1,
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Encoder layer one",
+        "rows": [
+          [
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            1,
+            0,
+            -1
+          ]
+        ]
+      },
+      {
+        "label": "Encoder layer two",
+        "rows": [
+          [
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            -1,
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Bottleneck",
+        "rows": [
+          [
+            3,
+            2,
+            5,
+            2
+          ],
+          [
+            3,
+            1,
+            2,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Decoder layer one",
+        "rows": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            -1,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Decoder layer two",
+        "rows": [
+          [
+            1,
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            -3
+          ]
+        ]
+      },
+      {
+        "label": "Reconstruction",
+        "rows": [
+          [
+            3,
+            1,
+            2,
+            0
+          ],
+          [
+            -1,
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            4,
+            3
+          ],
+          [
+            1,
+            0,
+            3,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Reconstruction error",
+        "rows": [
+          [
+            2,
+            0,
+            0,
+            -1
+          ],
+          [
+            -3,
+            -1,
+            0,
+            1
+          ],
+          [
+            -2,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            -1,
+            1,
+            -1
+          ]
+        ]
+      },
+      {
+        "label": "MSE gradient over sixteen entries",
+        "rows": [
+          [
+            0.25,
+            0.0,
+            0.0,
+            -0.125
+          ],
+          [
+            -0.375,
+            -0.125,
+            0.0,
+            0.125
+          ],
+          [
+            -0.25,
+            0.0,
+            0.0,
+            0.25
+          ],
+          [
+            0.0,
+            -0.125,
+            0.125,
+            -0.125
+          ]
+        ]
+      }
+    ],
+    "correction": "A drawing of 2(Y−target) represents a sum-of-squares gradient. Averaging over all sixteen entries divides it by sixteen."
+  },
+  {
+    "sourceImage": 19,
+    "slug": "ai-vector-search-example",
+    "title": "Rank the original three sentence vectors",
+    "explain": "After the toy encoder, pooling and projection, rank candidates by raw dot product. These supplied projected vectors are enough to reproduce retrieval.",
+    "blocks": [
+      {
+        "label": "Toy sentence encoder and bias",
+        "rows": [
+          [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            -1
+          ],
+          [
+            1,
+            -1,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Projection",
+        "rows": [
+          [
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "how are you token vectors",
+        "rows": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "how are you encoded tokens",
+        "rows": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "how are you mean",
+        "rows": [
+          [
+            1.0
+          ],
+          [
+            0.66667
+          ],
+          [
+            0.33333
+          ],
+          [
+            0.33333
+          ]
+        ]
+      },
+      {
+        "label": "how are you projected vector",
+        "rows": [
+          [
+            1.66667
+          ],
+          [
+            0.66667
+          ]
+        ]
+      },
+      {
+        "label": "who are you token vectors",
+        "rows": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "who are you encoded tokens",
+        "rows": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "who are you mean",
+        "rows": [
+          [
+            1.0
+          ],
+          [
+            0.66667
+          ],
+          [
+            0.0
+          ],
+          [
+            0.33333
+          ]
+        ]
+      },
+      {
+        "label": "who are you projected vector",
+        "rows": [
+          [
+            1.66667
+          ],
+          [
+            0.33333
+          ]
+        ]
+      },
+      {
+        "label": "who am I token vectors",
+        "rows": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "who am I encoded tokens",
+        "rows": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "who am I mean",
+        "rows": [
+          [
+            1.66667
+          ],
+          [
+            0.66667
+          ],
+          [
+            0.33333
+          ],
+          [
+            0.66667
+          ]
+        ]
+      },
+      {
+        "label": "who am I projected vector",
+        "rows": [
+          [
+            2.33333
+          ],
+          [
+            1.0
+          ]
+        ]
+      },
+      {
+        "label": "am I you token vectors",
+        "rows": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "am I you encoded tokens",
+        "rows": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "am I you mean",
+        "rows": [
+          [
+            1.66667
+          ],
+          [
+            1.0
+          ],
+          [
+            0.33333
+          ],
+          [
+            0.33333
+          ]
+        ]
+      },
+      {
+        "label": "am I you projected vector",
+        "rows": [
+          [
+            2.66667
+          ],
+          [
+            0.66667
+          ]
+        ]
+      },
+      {
+        "label": "Query dot products",
+        "rows": [
+          [
+            4.88889,
+            4.66667,
+            6.88889
+          ]
+        ]
+      }
+    ],
+    "correction": "The result selects “who am I” among the three supplied sentences. Projection is not required by all vector indexes, and raw dot product is not cosine similarity."
+  },
+  {
+    "sourceImage": 20,
+    "slug": "ai-multimodal-worked",
+    "title": "Contrastive scores for three text–image pairs",
+    "explain": "Use the projected vectors shown in the source to compute all nine pairwise similarities. Normalize rows for image-to-text and columns for text-to-image.",
+    "blocks": [
+      {
+        "label": "Text vectors",
+        "rows": [
+          [
+            1,
+            0,
+            -1
+          ],
+          [
+            1,
+            2,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Image vectors",
+        "rows": [
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Image-by-text dot products",
+        "rows": [
+          [
+            2,
+            0,
+            -2
+          ],
+          [
+            1,
+            0,
+            -1
+          ],
+          [
+            3,
+            2,
+            -2
+          ]
+        ]
+      },
+      {
+        "label": "Image-to-text probabilities",
+        "rows": [
+          [
+            0.86681,
+            0.11731,
+            0.01588
+          ],
+          [
+            0.66524,
+            0.24473,
+            0.09003
+          ],
+          [
+            0.72748,
+            0.26762,
+            0.0049
+          ]
+        ]
+      },
+      {
+        "label": "Text-to-image probabilities",
+        "rows": [
+          [
+            0.24473,
+            0.10651,
+            0.21194
+          ],
+          [
+            0.09003,
+            0.10651,
+            0.57612
+          ],
+          [
+            0.66524,
+            0.78699,
+            0.21194
+          ]
+        ]
+      },
+      {
+        "label": "Text encoder and bias",
+        "rows": [
+          [
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            -2
+          ],
+          [
+            1,
+            1,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Image encoder and bias",
+        "rows": [
+          [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            -1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            -1
+          ]
+        ]
+      },
+      {
+        "label": "Text projection and bias",
+        "rows": [
+          [
+            1,
+            1,
+            0,
+            -2
+          ],
+          [
+            0,
+            1,
+            1,
+            -2
+          ]
+        ]
+      },
+      {
+        "label": "Image projection and bias",
+        "rows": [
+          [
+            -1,
+            1,
+            1,
+            0,
+            -1
+          ],
+          [
+            0,
+            0,
+            -1,
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Pair 1 text input",
+        "rows": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Pair 1 image patches",
+        "rows": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Pair 1 exact text mean",
+        "rows": [
+          [
+            1.5
+          ],
+          [
+            0.5
+          ],
+          [
+            2.0
+          ]
+        ]
+      },
+      {
+        "label": "Pair 1 exact image mean",
+        "rows": [
+          [
+            2.0
+          ],
+          [
+            2.5
+          ],
+          [
+            1.0
+          ],
+          [
+            1.0
+          ]
+        ]
+      },
+      {
+        "label": "Pair 2 text input",
+        "rows": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Pair 2 image patches",
+        "rows": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Pair 2 exact text mean",
+        "rows": [
+          [
+            0.5
+          ],
+          [
+            0.5
+          ],
+          [
+            2.0
+          ]
+        ]
+      },
+      {
+        "label": "Pair 2 exact image mean",
+        "rows": [
+          [
+            0.5
+          ],
+          [
+            2.0
+          ],
+          [
+            1.0
+          ],
+          [
+            1.0
+          ]
+        ]
+      },
+      {
+        "label": "Pair 3 text input",
+        "rows": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Pair 3 image patches",
+        "rows": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Pair 3 exact text mean",
+        "rows": [
+          [
+            1.0
+          ],
+          [
+            0.0
+          ],
+          [
+            1.5
+          ]
+        ]
+      },
+      {
+        "label": "Pair 3 exact image mean",
+        "rows": [
+          [
+            1.0
+          ],
+          [
+            2.5
+          ],
+          [
+            1.0
+          ],
+          [
+            1.5
+          ]
+        ]
+      },
+      {
+        "label": "Similarities without rounding pooled features",
+        "rows": [
+          [
+            0.0,
+            -0.5,
+            -0.5
+          ],
+          [
+            0.0,
+            -1.5,
+            -1.5
+          ],
+          [
+            0.25,
+            -1.25,
+            -1.75
+          ]
+        ]
+      }
+    ],
+    "correction": "The source rounds pooling values, substitutes powers of three for exponentials and rounds probabilities. The reconstruction starts from its displayed projected vectors and uses actual exponentials. It does not claim the preceding rounded encoders are exact CLIP."
+  },
+  {
+    "sourceImage": 21,
+    "slug": "ai-residual-graph-example",
+    "title": "The original residual block",
+    "explain": "Apply two affine maps and add the untouched input before the last ReLU.",
+    "blocks": [
+      {
+        "label": "Input",
+        "rows": [
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            0,
+            3,
+            4
+          ],
+          [
+            1,
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "label": "First layer",
+        "rows": [
+          [
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            -1,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            -1
+          ]
+        ]
+      },
+      {
+        "label": "First activation",
+        "rows": [
+          [
+            2,
+            4,
+            4
+          ],
+          [
+            0,
+            3,
+            2
+          ],
+          [
+            2,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Second layer",
+        "rows": [
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            -1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Residual result",
+        "rows": [
+          [
+            4,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Transformer toy input",
+        "rows": [
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            1,
+            3,
+            -2
+          ]
+        ]
+      },
+      {
+        "label": "Transformer supplied mixing",
+        "rows": [
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Attention plus input",
+        "rows": [
+          [
+            4,
+            1,
+            4
+          ],
+          [
+            5,
+            4,
+            -3
+          ]
+        ]
+      },
+      {
+        "label": "FFN first parameters",
+        "rows": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            -1,
+            2
+          ]
+        ]
+      },
+      {
+        "label": "FFN second parameters",
+        "rows": [
+          [
+            0,
+            -1,
+            3
+          ],
+          [
+            -1,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "FFN plus residual with toy ReLU",
+        "rows": [
+          [
+            6,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    ],
+    "correction": "The accompanying transformer drawing omits normalization and uses a supplied unnormalized mixing matrix. Its concept is residual addition; it is not a complete standard encoder."
+  },
+  {
+    "sourceImage": 22,
+    "slug": "ai-residual-graph-example",
+    "title": "Two rounds of graph aggregation",
+    "explain": "Node features are columns; adjacency includes self-loops. Each round transforms node features and sums messages with the displayed adjacency.",
+    "blocks": [
+      {
+        "label": "Input features",
+        "rows": [
+          [
+            2,
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            -1,
+            1,
+            1
+          ],
+          [
+            0,
+            3,
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Adjacency with self-loops",
+        "rows": [
+          [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "First-layer parameters",
+        "rows": [
+          [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            1,
+            -1
+          ]
+        ]
+      },
+      {
+        "label": "First messages",
+        "rows": [
+          [
+            3,
+            1,
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "First aggregation",
+        "rows": [
+          [
+            4,
+            1,
+            5,
+            2,
+            2
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            1,
+            2,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Second-layer parameters",
+        "rows": [
+          [
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            -1,
+            0,
+            -2
+          ],
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Second messages",
+        "rows": [
+          [
+            3,
+            3,
+            3,
+            3,
+            1
+          ],
+          [
+            1,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            4,
+            1,
+            5,
+            2,
+            2
+          ]
+        ]
+      },
+      {
+        "label": "Second aggregation",
+        "rows": [
+          [
+            6,
+            6,
+            7,
+            7,
+            7
+          ],
+          [
+            3,
+            0,
+            3,
+            0,
+            2
+          ],
+          [
+            9,
+            3,
+            11,
+            5,
+            9
+          ]
+        ]
+      },
+      {
+        "label": "Final dense layer one",
+        "rows": [
+          [
+            1,
+            0,
+            0,
+            -2
+          ],
+          [
+            0,
+            1,
+            0,
+            -2
+          ],
+          [
+            0,
+            0,
+            1,
+            -5
+          ],
+          [
+            1,
+            -1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            -1,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Final dense activation",
+        "rows": [
+          [
+            4,
+            4,
+            5,
+            5,
+            5
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            6,
+            0,
+            4
+          ],
+          [
+            3,
+            6,
+            4,
+            7,
+            5
+          ],
+          [
+            0,
+            3,
+            0,
+            2,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Final dense layer two",
+        "rows": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            -9
+          ]
+        ]
+      },
+      {
+        "label": "Final logits",
+        "rows": [
+          [
+            3,
+            4,
+            7,
+            5,
+            5
+          ]
+        ]
+      },
+      {
+        "label": "Exact sigmoid node outputs",
+        "rows": [
+          [
+            0.95257,
+            0.98201,
+            0.99909,
+            0.99331,
+            0.99331
+          ]
+        ]
+      }
+    ],
+    "correction": "This is an unnormalized message-summing example. Normalized graph convolutions use a different operator. The tables are recalculated from the printed parameters rather than trusting handwritten intermediate values."
+  },
+  {
+    "sourceImage": 23,
+    "slug": "ai-generative-training-example",
+    "title": "The diffusion sketch’s noise-prediction calculation",
+    "explain": "The source takes encoded patches, adds supplied noise, applies a conditioning transform and mixes positions before predicting noise.",
+    "blocks": [
+      {
+        "label": "Latent patches",
+        "rows": [
+          [
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            3,
+            2,
+            6,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Supplied noise",
+        "rows": [
+          [
+            0,
+            2,
+            1,
+            -1
+          ],
+          [
+            -1,
+            0,
+            -2,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Noisy latents",
+        "rows": [
+          [
+            1,
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            2,
+            4,
+            2
+          ]
+        ]
+      },
+      {
+        "label": "Conditioned latents",
+        "rows": [
+          [
+            1,
+            3,
+            1,
+            -1
+          ],
+          [
+            3,
+            3,
+            1,
+            3
+          ]
+        ]
+      },
+      {
+        "label": "Position mixing",
+        "rows": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Mixed features",
+        "rows": [
+          [
+            4,
+            4,
+            0,
+            -1
+          ],
+          [
+            6,
+            4,
+            4,
+            3
+          ]
+        ]
+      },
+      {
+        "label": "Predictor weights and bias",
+        "rows": [
+          [
+            -1,
+            1,
+            -2
+          ],
+          [
+            0,
+            1,
+            -5
+          ]
+        ]
+      },
+      {
+        "label": "Predicted noise",
+        "rows": [
+          [
+            0,
+            -2,
+            2,
+            2
+          ],
+          [
+            1,
+            -1,
+            -1,
+            -2
+          ]
+        ]
+      },
+      {
+        "label": "Noise-prediction MSE gradient over eight entries",
+        "rows": [
+          [
+            0.0,
+            -1.0,
+            0.25,
+            0.75
+          ],
+          [
+            0.5,
+            -0.25,
+            0.25,
+            -0.75
+          ]
+        ]
+      },
+      {
+        "label": "Input spacetime patches",
+        "rows": [
+          [
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            4,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Visual encoder",
+        "rows": [
+          [
+            1,
+            0,
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Visual encoder result",
+        "rows": [
+          [
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            3,
+            2,
+            6,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Toy one-step subtraction",
+        "rows": [
+          [
+            1,
+            4,
+            -1,
+            -2
+          ],
+          [
+            1,
+            3,
+            5,
+            4
+          ]
+        ]
+      },
+      {
+        "label": "Visual decoder",
+        "rows": [
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            -1,
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Decoded toy patches",
+        "rows": [
+          [
+            2,
+            5,
+            0,
+            0
+          ],
+          [
+            1,
+            3,
+            5,
+            4
+          ],
+          [
+            2,
+            7,
+            4,
+            2
+          ],
+          [
+            0,
+            0,
+            6,
+            6
+          ]
+        ]
+      }
+    ],
+    "correction": "This toy arithmetic does not reproduce a commercial video system. The source’s one-step subtraction and rounded loss gradients are not a general diffusion sampling algorithm."
+  },
+  {
+    "sourceImage": 24,
+    "slug": "ai-expert-routing",
+    "title": "Route five mixed token vectors",
+    "explain": "The displayed top-one gate scores select experts A, C, C, B and C. Expert C has capacity two, so the fifth token follows the exercise’s residual bypass policy.",
+    "blocks": [
+      {
+        "label": "Mixed token features",
+        "rows": [
+          [
+            11,
+            6,
+            7,
+            7,
+            5
+          ],
+          [
+            2,
+            6,
+            4,
+            3,
+            3
+          ],
+          [
+            1,
+            1,
+            2,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Router weights",
+        "rows": [
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            1,
+            0,
+            -2
+          ],
+          [
+            -1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Gate scores",
+        "rows": [
+          [
+            9,
+            0,
+            3,
+            4,
+            2
+          ],
+          [
+            9,
+            4,
+            3,
+            5,
+            3
+          ],
+          [
+            -8,
+            1,
+            -1,
+            -3,
+            -1
+          ]
+        ]
+      },
+      {
+        "label": "Selected experts",
+        "rows": [
+          [
+            "A",
+            "C",
+            "C",
+            "B",
+            "C"
+          ]
+        ]
+      },
+      {
+        "label": "Exercise output after expert processing",
+        "rows": [
+          [
+            10,
+            6,
+            7,
+            -1,
+            5
+          ],
+          [
+            2,
+            8,
+            7,
+            7,
+            3
+          ],
+          [
+            0,
+            6,
+            4,
+            10,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Expert A",
+        "rows": [
+          [
+            1,
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            -1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Expert B",
+        "rows": [
+          [
+            0,
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            -1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Expert C",
+        "rows": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    ],
+    "correction": "The original output writes [2,3,4] for the bypassed fifth token, but its input is [5,3,1]. An unchanged bypass must preserve [5,3,1]; the table corrects that inconsistency. Routing scaling omitted by the original is not inferred."
+  },
+  {
+    "sourceImage": 25,
+    "slug": "ai-preference-training",
+    "title": "Reproduce the reward gap precisely",
+    "explain": "The reward model assigns scores 3 and 5 to a declared rejected/preferred pair. Learning the comparison is separate from optimizing the language-model policy.",
+    "blocks": [
+      {
+        "label": "Rejected and preferred rewards",
+        "rows": [
+          [
+            3,
+            5
+          ]
+        ]
+      },
+      {
+        "label": "Gap",
+        "rows": [
+          [
+            2
+          ]
+        ]
+      },
+      {
+        "label": "Sigmoid of gap",
+        "rows": [
+          [
+            0.8808
+          ]
+        ]
+      },
+      {
+        "label": "Pairwise loss",
+        "rows": [
+          [
+            0.12693
+          ]
+        ]
+      },
+      {
+        "label": "Derivative with respect to gap",
+        "rows": [
+          [
+            -0.1192
+          ]
+        ]
+      },
+      {
+        "label": "Reward encoder and bias",
+        "rows": [
+          [
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Reward output weights",
+        "rows": [
+          [
+            3,
+            3,
+            3,
+            -3,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "doc is him embeddings",
+        "rows": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "doc is him encoded tokens",
+        "rows": [
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "doc is him mean features",
+        "rows": [
+          [
+            1.0
+          ],
+          [
+            1.0
+          ],
+          [
+            0.33333
+          ],
+          [
+            1.66667
+          ]
+        ]
+      },
+      {
+        "label": "doc is him recomputed reward",
+        "rows": [
+          [
+            3.0
+          ]
+        ]
+      },
+      {
+        "label": "doc is them embeddings",
+        "rows": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "doc is them encoded tokens",
+        "rows": [
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            2,
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "doc is them mean features",
+        "rows": [
+          [
+            1.33333
+          ],
+          [
+            0.66667
+          ],
+          [
+            0.66667
+          ],
+          [
+            1.66667
+          ]
+        ]
+      },
+      {
+        "label": "doc is them recomputed reward",
+        "rows": [
+          [
+            4.0
+          ]
+        ]
+      },
+      {
+        "label": "Language-model toy prompt embeddings",
+        "rows": [
+          [
+            -1,
+            0,
+            1
+          ],
+          [
+            -1,
+            1,
+            1
+          ],
+          [
+            -1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Supplied position-mixing matrix",
+        "rows": [
+          [
+            5,
+            1,
+            0
+          ],
+          [
+            0,
+            4,
+            1
+          ],
+          [
+            0,
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "label": "Mixed prompt features",
+        "rows": [
+          [
+            -5,
+            -1,
+            4
+          ],
+          [
+            -5,
+            3,
+            5
+          ],
+          [
+            -5,
+            3,
+            5
+          ]
+        ]
+      },
+      {
+        "label": "Language-model hidden parameters",
+        "rows": [
+          [
+            1,
+            0,
+            -1,
+            2
+          ],
+          [
+            -1,
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "label": "Language-model hidden activation",
+        "rows": [
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            0,
+            4,
+            1
+          ]
+        ]
+      },
+      {
+        "label": "Language-model vocabulary output parameters",
+        "rows": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            -1,
+            1,
+            1
+          ],
+          [
+            2,
+            0,
+            -2
+          ],
+          [
+            2,
+            0,
+            -1
+          ]
+        ]
+      },
+      {
+        "label": "Vocabulary scores in order: him, her, them, is/are, doc, CEO",
+        "rows": [
+          [
+            2,
+            4,
+            2
+          ],
+          [
+            0,
+            4,
+            1
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            -1,
+            5,
+            1
+          ],
+          [
+            2,
+            -2,
+            0
+          ],
+          [
+            3,
+            -1,
+            1
+          ]
+        ]
+      }
+    ],
+    "correction": "The source’s 0.9 and −0.1 are rounded. A preference label is a judgment under specified criteria, not an objective proof of unbiased language or truth. The printed reward model gives 3 for the rejected pair and 4 for the preferred pair. The preferred first pooled feature is 4/3, but the source writes 5/3, producing its displayed reward of 5. The assumed-score example above uses [3,5]; the recomputed printed model instead has a gap of 1."
+  }
+]

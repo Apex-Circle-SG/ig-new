@@ -1,0 +1,332 @@
+[
+  {
+    "title": "Model behavior",
+    "intro": "Examine accuracy, uncertainty and whether behavior transfers to the intended setting.",
+    "action": "Evaluate representative cases and failure modes, inspect uncertainty and compare with a baseline.",
+    "items": [
+      {
+        "title": "Hallucination",
+        "meaning": "AI generates false or misleading answers."
+      },
+      {
+        "title": "Bias",
+        "meaning": "Systematic errors or skew in data, modeling or measurement can distort outcomes; bias is not always unintentional and is not identical to every fairness concern."
+      },
+      {
+        "title": "Data Drift",
+        "meaning": "Input data changes over time."
+      },
+      {
+        "title": "Model Drift",
+        "meaning": "Model performance or the relationship between inputs and outcomes can change; degradation is not necessarily gradual."
+      },
+      {
+        "title": "Overfitting",
+        "meaning": "Model memorizes instead of generalizing."
+      },
+      {
+        "title": "Underfitting",
+        "meaning": "Model fails to learn useful patterns."
+      },
+      {
+        "title": "Error Propagation",
+        "meaning": "Small errors spread across workflows."
+      },
+      {
+        "title": "Uncertainty",
+        "meaning": "A system may present an answer more confidently than the evidence supports. A numeric score is not automatically a calibrated uncertainty estimate."
+      }
+    ]
+  },
+  {
+    "title": "Data and privacy",
+    "intro": "Protect the quality, permissions and lifecycle of information used by the system.",
+    "action": "Record provenance and permissions, control access and retention, and check data quality and leakage.",
+    "items": [
+      {
+        "title": "Personal Data Exposure",
+        "meaning": "Sensitive user data gets revealed."
+      },
+      {
+        "title": "Source Risk",
+        "meaning": "Unverified sources reduce answer trust."
+      },
+      {
+        "title": "Mislabeling",
+        "meaning": "Wrong labels damage model learning."
+      },
+      {
+        "title": "Duplicate Data",
+        "meaning": "Uncontrolled duplicates can distort sampling and leak information across evaluation splits; deliberate reweighting serves a different purpose."
+      },
+      {
+        "title": "Synthetic Data Risk",
+        "meaning": "Generated data can reproduce errors, omit relevant variation or create feedback effects. Its quality depends on generation and evaluation, rather than being poor simply because it is synthetic."
+      },
+      {
+        "title": "Consent Risk",
+        "meaning": "A dataset may lack required permission or another appropriate basis for the intended use; obligations depend on context."
+      },
+      {
+        "title": "Data Leakage",
+        "meaning": "Information may enter training or evaluation that would be unavailable in real use, or private data may be exposed. Distinguish these two failure modes."
+      },
+      {
+        "title": "Data Quality Loss",
+        "meaning": "Poor data creates unreliable outputs."
+      },
+      {
+        "title": "Memory Risk",
+        "meaning": "Agents store sensitive context."
+      }
+    ]
+  },
+  {
+    "title": "Security and tool authority",
+    "intro": "Treat model inputs as untrusted and enforce permissions in the surrounding software.",
+    "action": "Restrict credentials and tool permissions, validate operations and enforce execution limits outside the model.",
+    "items": [
+      {
+        "title": "Jailbreak Risk",
+        "meaning": "Users bypass AI safety limits."
+      },
+      {
+        "title": "Prompt Injection",
+        "meaning": "Malicious prompts manipulate AI behavior."
+      },
+      {
+        "title": "Adversarial Attack",
+        "meaning": "Inputs are designed to fool models."
+      },
+      {
+        "title": "Data Exfiltration",
+        "meaning": "AI leaks confidential information."
+      },
+      {
+        "title": "API Abuse",
+        "meaning": "Attackers misuse connected AI services."
+      },
+      {
+        "title": "Token Theft",
+        "meaning": "Credentials or keys get exposed."
+      },
+      {
+        "title": "Access Risk",
+        "meaning": "Wrong users access restricted systems."
+      },
+      {
+        "title": "Supply Chain Risk",
+        "meaning": "Third-party tools introduce vulnerabilities."
+      },
+      {
+        "title": "Agent Autonomy Risk",
+        "meaning": "Agents act beyond intended limits."
+      },
+      {
+        "title": "Tool Misuse",
+        "meaning": "Agents use tools incorrectly."
+      },
+      {
+        "title": "Unauthorized Action",
+        "meaning": "Agent performs restricted operations."
+      },
+      {
+        "title": "Delegation Risk",
+        "meaning": "Agents pass tasks without control."
+      }
+    ]
+  },
+  {
+    "title": "Governance and accountability",
+    "intro": "Make ownership, requirements, review and evidence explicit.",
+    "action": "Assign owners, record the applicable requirements, document decisions and create escalation and review paths.",
+    "items": [
+      {
+        "title": "Regulatory Risk",
+        "meaning": "AI violates legal requirements."
+      },
+      {
+        "title": "Audit Gap",
+        "meaning": "Decisions lack proper records."
+      },
+      {
+        "title": "Governance Failure",
+        "meaning": "AI lacks proper oversight."
+      },
+      {
+        "title": "Documentation Gap",
+        "meaning": "Model usage is poorly recorded."
+      },
+      {
+        "title": "Compliance Risk",
+        "meaning": "AI breaks industry standards."
+      },
+      {
+        "title": "Ownership Gap",
+        "meaning": "No clear person owns AI outcomes."
+      },
+      {
+        "title": "Policy Failure",
+        "meaning": "Internal AI rules are unclear."
+      },
+      {
+        "title": "Explainability Gap",
+        "meaning": "People may lack a useful account of how an output was produced, its evidence or its limitations. Explanations must suit the decision and audience."
+      },
+      {
+        "title": "Human-in-the-Loop Gap",
+        "meaning": "Critical decisions lack review."
+      },
+      {
+        "title": "Evaluation Failure",
+        "meaning": "Testing misses real-world issues."
+      },
+      {
+        "title": "Red Teaming Gap",
+        "meaning": "Risks are not stress-tested."
+      },
+      {
+        "title": "Validation Gap",
+        "meaning": "Outputs are not properly checked."
+      },
+      {
+        "title": "Metric Blindness",
+        "meaning": "Teams track the wrong AI metrics."
+      },
+      {
+        "title": "Logging Gap",
+        "meaning": "AI actions are not traceable."
+      }
+    ]
+  },
+  {
+    "title": "Operations and business value",
+    "intro": "Assess reliability, recovery, cost and the value of the whole workflow.",
+    "action": "Measure end-to-end outcomes and costs, set limits and alerts, and test recovery before relying on the workflow.",
+    "items": [
+      {
+        "title": "Scaling Risk",
+        "meaning": "System fails under higher demand."
+      },
+      {
+        "title": "Cost Overrun",
+        "meaning": "AI usage becomes too expensive."
+      },
+      {
+        "title": "Latency Risk",
+        "meaning": "AI responses become too slow."
+      },
+      {
+        "title": "Monitoring Gap",
+        "meaning": "AI issues go unnoticed."
+      },
+      {
+        "title": "Reliability Risk",
+        "meaning": "AI behaves inconsistently in production."
+      },
+      {
+        "title": "Deployment Risk",
+        "meaning": "Poor rollout creates failures."
+      },
+      {
+        "title": "Integration Risk",
+        "meaning": "AI breaks existing workflows."
+      },
+      {
+        "title": "Rollback Gap",
+        "meaning": "Teams cannot safely reverse failures."
+      },
+      {
+        "title": "Strategy Risk",
+        "meaning": "AI adoption lacks clear direction."
+      },
+      {
+        "title": "AI Hype Risk",
+        "meaning": "Expectations exceed real capability."
+      },
+      {
+        "title": "ROI Failure",
+        "meaning": "AI investment brings weak returns."
+      },
+      {
+        "title": "Revenue Risk",
+        "meaning": "AI failures impact business results."
+      },
+      {
+        "title": "Vendor Lock-In",
+        "meaning": "Business depends too much on one provider."
+      },
+      {
+        "title": "Kill Switch Gap",
+        "meaning": "AI cannot be stopped quickly."
+      },
+      {
+        "title": "Feedback Gap",
+        "meaning": "User feedback never improves the system."
+      },
+      {
+        "title": "Alert Failure",
+        "meaning": "Critical issues trigger no alerts."
+      },
+      {
+        "title": "Multi-Agent Failure",
+        "meaning": "One agent’s error affects others."
+      },
+      {
+        "title": "Loop Failure",
+        "meaning": "Agents repeat actions endlessly."
+      },
+      {
+        "title": "Goal Misalignment",
+        "meaning": "Agent pursues the wrong objective."
+      }
+    ]
+  },
+  {
+    "title": "People and social effects",
+    "intro": "Examine how the system changes decisions, trust, work and outcomes for affected people.",
+    "action": "Seek affected-user input, assess group impacts and provide meaningful review, challenge and redress.",
+    "items": [
+      {
+        "title": "Reputation Risk",
+        "meaning": "AI mistakes damage brand trust."
+      },
+      {
+        "title": "Customer Trust Loss",
+        "meaning": "Users stop trusting AI outputs."
+      },
+      {
+        "title": "Fairness Risk",
+        "meaning": "AI treats groups unequally."
+      },
+      {
+        "title": "Trust Gap",
+        "meaning": "People avoid using AI systems."
+      },
+      {
+        "title": "Job Displacement Fear",
+        "meaning": "Teams fear AI replacing roles."
+      },
+      {
+        "title": "Misuse Risk",
+        "meaning": "A system may be used outside its intended or permitted purpose, with consequences for affected people."
+      },
+      {
+        "title": "Automation Bias",
+        "meaning": "Humans trust AI too quickly."
+      },
+      {
+        "title": "Manipulation Risk",
+        "meaning": "AI influences users unfairly."
+      },
+      {
+        "title": "Ethical Risk",
+        "meaning": "AI creates harmful social outcomes."
+      },
+      {
+        "title": "Safety Risk",
+        "meaning": "AI causes real-world harm."
+      }
+    ]
+  }
+]

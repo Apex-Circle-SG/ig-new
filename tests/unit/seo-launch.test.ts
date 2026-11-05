@@ -11,6 +11,7 @@ import {
 import robots from '../../apps/web/src/app/robots';
 import sitemap from '../../apps/web/src/app/sitemap';
 import { getPublishedContent } from '../../apps/web/src/lib/content';
+import libraryKnowledge from '../../apps/web/src/lib/library/knowledge.json';
 
 afterEach(() => {
   vi.unstubAllEnvs();
@@ -78,7 +79,14 @@ describe('production discovery and preview isolation', () => {
       ...PUBLIC_INDEXABLE_PATHS.map((path) => `https://insightginie.com${path}`),
       ...getPublishedContent().map((record) => `https://insightginie.com${record.path}`),
       ...PUBLIC_EARNING_GUIDE_PATHS.map((path) => `https://insightginie.com${path}`),
+      ...libraryKnowledge
+        .filter((article) => article.topic === 'Artificial intelligence')
+        .map((article) => `https://insightginie.com/library/knowledge/${article.slug}/`),
     ]);
+    expect(entries.map((entry) => entry.url)).toContain(
+      'https://insightginie.com/library/knowledge/ai-attention-example/',
+    );
+    expect(entries.every((entry) => !/\.docx|content\/sources|AI-\d/.test(entry.url))).toBe(true);
     expect(entries.find((entry) => entry.url === 'https://insightginie.com/')).not.toHaveProperty(
       'lastModified',
     );

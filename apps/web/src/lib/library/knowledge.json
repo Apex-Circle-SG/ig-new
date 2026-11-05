@@ -1849,6 +1849,10 @@
       {
         "heading": "Generalization and drift",
         "body": "Overfitting occurs when a model fits training data but performs worse on new data; underfitting misses useful patterns. Monitor both input changes and actual outcomes—data drift alone does not prove performance has degraded."
+      },
+      {
+        "heading": "Read the whole evaluation workflow",
+        "body": "The supplied process diagram suggests a 70/30 split, but that is an example rather than a universal rule. Fit feature selection and hyperparameter searches inside the training/validation process, then preserve a final test set. Matthews correlation coefficient combines all four binary confusion-matrix counts: (TP×TN−FP×FN)/√((TP+FP)(TP+FN)(TN+FP)(TN+FN)), with an explicit convention required for a zero denominator."
       }
     ],
     "sources": [
@@ -2097,12 +2101,20 @@
       {
         "heading": "Keep learning",
         "body": "Read primary documentation, revisit assumptions and seek domain expertise. Career outcomes and demand vary by location and over time; the historical forecasts in the source material are not current predictions."
+      },
+      {
+        "heading": "Read old employment forecasts as forecasts",
+        "body": "The World Economic Forum’s 2020 report estimated that a changing division of work between people and machines could displace 85 million jobs by 2025, while 97 million new roles might emerge. These were estimates from a particular historical report, not measured job losses or a current prediction. The underlying scope and assumptions matter."
       }
     ],
     "sources": [
       {
         "title": "Machine Learning Crash Course",
         "url": "https://developers.google.com/machine-learning/crash-course/"
+      },
+      {
+        "title": "WEF Future of Jobs 2020 executive summary",
+        "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2020/in-full/executive-summary/"
       }
     ]
   },
@@ -2731,6 +2743,670 @@
       {
         "title": "NIST statistics handbook",
         "url": "https://www.nist.gov/programs-projects/nistsematech-engineering-statistics-handbook"
+      }
+    ]
+  },
+  {
+    "slug": "ai-clustering-representation",
+    "title": "Clustering, distances and representation learning",
+    "topic": "Artificial intelligence",
+    "group": "Working with data",
+    "summary": "Compare ways to group observations, measure similarity and reduce dimensions.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Distances encode assumptions",
+        "body": "Euclidean distance is √Σ(xᵢ−yᵢ)²; Manhattan distance is Σ|xᵢ−yᵢ|. Hamming distance counts mismatched positions rather than summing signed differences. Feature scaling can change which observations are nearest. Gower-style dissimilarity combines feature-specific comparisons for mixed data; it is not simply min–max scaling."
+      },
+      {
+        "heading": "Hierarchies and mixtures",
+        "body": "Agglomerative clustering merges groups; divisive clustering splits them. A dendrogram records a hierarchy under a chosen distance and linkage. Gaussian mixture models represent data as weighted component distributions and can provide soft assignments. Expectation-maximization alternates estimating latent assignments and updating parameters; convergence need not identify the globally best fit."
+      },
+      {
+        "heading": "Choose complexity",
+        "body": "AIC and BIC balance likelihood with complexity under different criteria. They are not substitutes for checking assumptions or validating a downstream task. Clusters may be useful even when they do not correspond to stable human categories."
+      },
+      {
+        "heading": "Find lower-dimensional structure",
+        "body": "PCA uses orthogonal directions of variance; loadings describe the transformation and a scree plot shows explained variance. SVD factorizes a matrix and underlies many low-rank approximations. Alternating least squares optimizes factor matrices one at a time."
+      },
+      {
+        "heading": "Nonlinear embeddings",
+        "body": "Locally linear embedding, Isomap, multidimensional scaling and t-SNE use different objectives to preserve aspects of structure. A visually separated plot does not establish that true distinct populations exist; neighborhood, scale and parameter choices matter."
+      },
+      {
+        "heading": "Learn representations",
+        "body": "An autoencoder learns an encoding through reconstruction. Contrastive learning learns representations using positive and negative relationships. A self-organizing map moves a winning prototype and nearby map prototypes toward an observation: w′ = w + αh(x−w). Its map topology and distance choices shape the result."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Scikit-learn user guide",
+        "url": "https://scikit-learn.org/stable/user_guide.html"
+      }
+    ]
+  },
+  {
+    "slug": "ai-trees-features",
+    "title": "Trees, ensembles and feature importance",
+    "topic": "Artificial intelligence",
+    "group": "How models work",
+    "summary": "Understand split criteria, pruning, bagging and boosting with an impurity calculation.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "From a split to a prediction",
+        "body": "A tree divides records using feature conditions. Internal nodes choose tests, branches apply outcomes and leaves hold predictions. Recursive partitioning stops under a rule such as minimum leaf size or maximum depth; it need not make every leaf pure."
+      },
+      {
+        "heading": "Calculate impurity",
+        "body": "For class proportions [0.75,0.25], Gini impurity is 1−(0.75²+0.25²)=0.375. Binary entropy in bits is −0.75 log₂(0.75)−0.25 log₂(0.25)≈0.8113. The source omitted the square in its Gini formula; 1−Σp would always be zero for a complete distribution."
+      },
+      {
+        "heading": "Bagging and random forests",
+        "body": "Bagging fits models to bootstrap samples and combines outputs. Random forests add feature randomization when building trees. Averaging can reduce variance, but it does not make biased data representative."
+      },
+      {
+        "heading": "Boosting variants",
+        "body": "AdaBoost changes example weights according to classification errors. Gradient boosting fits successive learners to improve a differentiable loss, often through negative gradients. Stochastic variants sample observations or features. XGBoost is a software system with its own objectives and implementation choices, not a synonym for every boosting method."
+      },
+      {
+        "heading": "Interpret with care",
+        "body": "Impurity-based importance can favor certain features; permutation importance measures the effect of shuffling under a chosen evaluation. Correlated features can share or hide importance. Neither measure alone proves causality."
+      },
+      {
+        "heading": "Select features without leakage",
+        "body": "Forward selection, chi-square-based screening and other selection procedures must be fitted within training folds. Association rules describe co-occurrence: support measures frequency and confidence estimates a conditional proportion; neither establishes causal influence."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Scikit-learn user guide",
+        "url": "https://scikit-learn.org/stable/user_guide.html"
+      }
+    ]
+  },
+  {
+    "slug": "ai-sequences-time-series",
+    "title": "Time series, hidden states and forecasting",
+    "topic": "Artificial intelligence",
+    "group": "Working with data",
+    "summary": "Connect probabilistic sequence models, filtering and time-aware evaluation.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "State and observations",
+        "body": "A Markov model describes a transition law with a stated dependence structure. A hidden Markov model adds unobserved states that emit observations. A Kalman filter estimates a state in a linear Gaussian setting by alternating prediction and observation updates; extensions relax some assumptions."
+      },
+      {
+        "heading": "Smoothing and transformation",
+        "body": "Moving averages and exponential smoothing aggregate past observations using different weight patterns. A random walk is a stochastic model and may be a useful forecasting baseline; it is not itself a general noise-removal algorithm. Fourier and wavelet transforms represent signals in frequency- or scale-related bases."
+      },
+      {
+        "heading": "Dependence and stationarity",
+        "body": "Autocorrelation measures relationships between a series and lagged versions. Ljung–Box and Box–Pierce Q statistics assess collections of autocorrelations under assumptions. Dickey–Fuller tests concern a unit-root null, rather than simply whether financial data changes. A Hurst-exponent estimate depends on method and sample properties."
+      },
+      {
+        "heading": "Validate in time order",
+        "body": "Train on data available at the forecast origin and evaluate on later observations. Repeated random splits can leak future information. Compare with naive or seasonal baselines and examine different horizons and changing regimes."
+      },
+      {
+        "heading": "Financial-model claims",
+        "body": "OHLCV features, technical indicators and neural networks can be inputs to an experiment, but their presence does not establish a profitable strategy. Include costs, slippage, data revisions and multiple-model selection. The supplied return and Sharpe figures lack dates, data, methodology and cost assumptions, so they cannot substantiate performance."
+      },
+      {
+        "heading": "Sampling versus filtering",
+        "body": "Markov chain Monte Carlo constructs a chain for sampling a target distribution. It serves a different purpose from state estimation in a Kalman filter, despite both using probabilistic transitions."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Scikit-learn user guide",
+        "url": "https://scikit-learn.org/stable/user_guide.html"
+      }
+    ]
+  },
+  {
+    "slug": "ai-compute-complexity",
+    "title": "How model complexity affects time and memory",
+    "topic": "Artificial intelligence",
+    "group": "Build AI systems",
+    "summary": "Read complexity expressions with the algorithm, data layout and hardware assumptions attached.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Define the workload",
+        "body": "Let n be observations, p features, T trees, I iterations, k clusters and d tree depth. Training and prediction are different workloads. Big-O describes asymptotic growth under a model of computation, not a benchmark or a latency guarantee."
+      },
+      {
+        "heading": "Linear models and neighbors",
+        "body": "A dense least-squares solve using normal-equation-style operations can cost O(np²+p³); iterative methods have different costs and numerical behavior. Logistic regression needs iterative optimization, so O(np) may describe a pass rather than total training. Brute-force nearest-neighbor prediction scans O(np) values; storing or indexing observations is not literally free training."
+      },
+      {
+        "heading": "Trees and ensembles",
+        "body": "A tree prediction follows a path of depth d. An ensemble of T trees costs roughly O(Td) per example apart from feature access and overhead. Training complexity depends on the split search, sorting, sparsity and tree construction; a fixed O(n log n p) expression is not universal."
+      },
+      {
+        "heading": "Clusters and components",
+        "body": "A straightforward k-means assignment/update run costs roughly O(Inkp). PCA cost depends on whether a full SVD, eigensolve or randomized approximation is used and on the relative dimensions. A reduced projection to m components typically multiplies a p-dimensional input by a p×m matrix."
+      },
+      {
+        "heading": "Neural-network cost",
+        "body": "A dense transformation with p inputs and h outputs performs work proportional to ph per example. Total training additionally depends on layers, examples, update steps, activation storage and optimizer state. A sparse mixture-of-experts model separates total parameters from parameters activated per token."
+      },
+      {
+        "heading": "Measure the actual system",
+        "body": "Report hardware, batch size, sequence length, precision, concurrency, warm-up and memory use. Accelerator utilization, network calls and data loading may dominate a simple operation count."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Scikit-learn user guide",
+        "url": "https://scikit-learn.org/stable/user_guide.html"
+      }
+    ]
+  },
+  {
+    "slug": "ai-activation-architectures",
+    "title": "Activations and less familiar network families",
+    "topic": "Artificial intelligence",
+    "group": "How models work",
+    "summary": "Use correct activation formulas and distinguish network families from named implementations.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Activation formulas",
+        "body": "Sigmoid(z)=1/(1+exp(−z)); tanh(z)=(exp(z)−exp(−z))/(exp(z)+exp(−z)); ReLU(z)=max(0,z). The source expression 1−tanh²(z) is the derivative of tanh, not tanh itself. A threshold maps a score to discrete outcomes; sigmoid alone produces a continuous value."
+      },
+      {
+        "heading": "Variants and learned behavior",
+        "body": "Leaky ReLU uses max(αz,z) for a chosen small positive α; the source mixes α=0.01 and α=0.1, so a value must be stated. ELU uses a negative exponential branch. Maxout selects the maximum of learned affine responses. Softmax normalizes a vector rather than independently squashing each component."
+      },
+      {
+        "heading": "Recurrent families",
+        "body": "LSTMs use cell-state and gate operations; a commonly written output is hₜ=oₜ⊙tanh(cₜ). GRUs blend a candidate and previous hidden state using gates, with conventions differing between descriptions. Elman and Jordan networks feed back different signals; continuous-time RNNs use a continuous-time evolution rule."
+      },
+      {
+        "heading": "Convolutions and other structures",
+        "body": "A convolutional network learns local filters. Max pooling selects maxima while average pooling averages regions. AlexNet, VGG, ResNet, Inception and Xception name architectures, not datasets. CIFAR names datasets. Capsule networks use a different representational design; they are not a universal successor to CNNs."
+      },
+      {
+        "heading": "Specialized architectures",
+        "body": "Radial basis function networks use functions depending on distance to a center, such as exp(−(εr)²). Φ is a function symbol here, not the golden ratio. Modular networks divide processing among parts. Highway networks gate information paths; Network-in-Network uses local learned submodels, and deep supervision adds training objectives at intermediate layers."
+      },
+      {
+        "heading": "Energy and belief models",
+        "body": "Energy-based models assign relative compatibility through an energy function; this does not imply electrical-spike hardware. Restricted Boltzmann machines have visible and hidden units with a restricted connection structure. Contrastive divergence approximates aspects of their training. Deep belief networks and neuromorphic systems are distinct ideas; the source’s expected-signal-propagation label needs its particular reference before further claims are made."
+      }
+    ],
+    "sources": [
+      {
+        "title": "PyTorch neural-network reference",
+        "url": "https://docs.pytorch.org/docs/stable/nn.html"
+      }
+    ]
+  },
+  {
+    "slug": "ai-agent-platforms",
+    "title": "Design an agent platform from tools to operations",
+    "topic": "Artificial intelligence",
+    "group": "Build AI systems",
+    "summary": "Place tools, memory, protocols and execution controls in the parts of a system that own them.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Application and execution",
+        "body": "Assistants, researchers, scheduling agents and content tools are applications. Their execution layer coordinates tasks and tool calls, records state and handles retries. Planning text is not the same as executing an authorized action."
+      },
+      {
+        "heading": "Memory and knowledge",
+        "body": "Working context, conversation history, preferences and durable memories have different lifetimes and privacy implications. Retrieval can use a search index, vector store or knowledge graph. An ontology describes concepts and relationships; storing embeddings alone does not create one. FAISS is a similarity-search library, not a hosted database service."
+      },
+      {
+        "heading": "Tools and protocols",
+        "body": "A tool interface describes an operation, inputs and outputs. Model Context Protocol standardizes aspects of connecting applications with tools and context; A2A addresses agent interoperability. Identity, authorization, validation and isolation still require implementation. The source’s ACP, ANP, AGORA, AGP, TAP, OAP and FCP labels are not assumed to denote unique interoperable standards without the exact specification."
+      },
+      {
+        "heading": "Framework choices",
+        "body": "LangGraph supports stateful graph-based workflows, LangChain offers tools for model-backed applications, CrewAI organizes agent/task workflows, and AutoGen supports agentic applications with its own architecture. Compare the current documentation against required control, state, human review and deployment needs instead of assuming every project needs all four."
+      },
+      {
+        "heading": "Infrastructure and observability",
+        "body": "HTTP, WebSockets, storage, data pipelines, accelerators, load balancers and CDNs support different parts of the system. Track latency, failures, cost and task outcomes across model and tool calls. Logs should expose enough information for diagnosis while minimizing private content."
+      },
+      {
+        "heading": "Operate deliberately",
+        "body": "A registry can record owners, permissions and versions. Quotas and budgets bound resource use. Execution sandboxes and policy enforcement constrain tools. A no-code builder changes how workflows are authored; it does not remove the need to evaluate permissions and failures."
+      }
+    ],
+    "sources": [
+      {
+        "title": "LangGraph documentation",
+        "url": "https://docs.langchain.com/oss/python/langgraph/overview"
+      },
+      {
+        "title": "MCP documentation",
+        "url": "https://modelcontextprotocol.io/docs/getting-started/intro"
+      }
+    ]
+  },
+  {
+    "slug": "ai-model-labels",
+    "title": "Language-model labels: architecture, size and capability",
+    "topic": "Artificial intelligence",
+    "group": "How models work",
+    "summary": "Understand which labels describe a technical structure and which describe a product goal.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Overlapping descriptions",
+        "body": "GPT usually expands to generative pretrained transformer. “Small language model” is a relative size description; “vision-language model” describes modalities. A single system can be small, multimodal and transformer-based at the same time."
+      },
+      {
+        "heading": "Architecture labels",
+        "body": "Mixture of experts describes routing through expert modules. A dense transformer and an MoE transformer can both generate language. These labels do not specify accuracy, source grounding or permission to act."
+      },
+      {
+        "heading": "Reasoning and action",
+        "body": "Reasoning-model and action-model labels describe goals or capabilities more than one universal architecture. Producing a reasoning trace or self-check does not guarantee that the reasoning is faithful or the answer correct. An action-capable system still needs tool permissions and execution controls."
+      },
+      {
+        "heading": "Research-specific models",
+        "body": "Hierarchical Reasoning Model and Large Concept Model refer to particular research designs. Their high/low-level recurrence or concept-embedding generation should be read against the original research, rather than treated as mandatory steps for all language models."
+      },
+      {
+        "heading": "Choose based on a task",
+        "body": "Evaluate the inputs, outputs, quality, latency, compute cost, context handling and permitted uses. A collection of acronyms is not a ranking of model capability."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hierarchical Reasoning Model",
+        "url": "https://arxiv.org/abs/2506.21734"
+      },
+      {
+        "title": "Large Concept Models",
+        "url": "https://arxiv.org/abs/2412.08821"
+      }
+    ]
+  },
+  {
+    "slug": "ai-thinking-symbols",
+    "title": "AI, cognition and symbolic reasoning",
+    "topic": "Artificial intelligence",
+    "group": "Start here",
+    "summary": "Separate useful computational ideas from claims that machines think like people.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Rules and representations",
+        "body": "Symbolic systems represent facts and relations explicitly and apply rules or search. Expert systems combine a knowledge base and inference procedures. Automated reasoning, planning and scheduling solve specified logical or decision problems; they need not learn from examples."
+      },
+      {
+        "heading": "Reason with uncertainty",
+        "body": "Fuzzy logic represents graded membership in a set, which differs from a probability of an event. Probabilistic models represent uncertainty under a specified model. A hybrid system can combine learned representations with explicit rules or constraints."
+      },
+      {
+        "heading": "Brains as an analogy",
+        "body": "A network’s nodes and weights are mathematical objects. Comparing them with neurons, dendrites and synapses can be a teaching analogy but does not establish biological equivalence. Human working, episodic, semantic and procedural memory do not map one-to-one to an agent’s database tables."
+      },
+      {
+        "heading": "Tests and intelligence",
+        "body": "Turing’s imitation-game proposal concerns behavior in an interaction. Lovelace-style tests concern creative output under defined criteria. Psychometric g and proposed multiple-intelligence categories concern theories and measurements of people; they are not interchangeable machine benchmarks."
+      },
+      {
+        "heading": "Arguments and limits",
+        "body": "Speed alone does not establish general intelligence, and humanlike behavior is not the only possible criterion. Computational complexity can make some problems expensive even for capable systems. The supplied “fast-thinking dog” and other named arguments lack enough context to reconstruct their original premises."
+      },
+      {
+        "heading": "Speculation versus evidence",
+        "body": "Quantum hardware does not by itself establish consciousness, human-level reasoning or unlimited intelligence. Claims about sentience, motivation or superintelligence require a definition and evidence; colorful analogies in the source are not scientific findings."
+      },
+      {
+        "heading": "Names whose premises are missing",
+        "body": "The collection lists the fast-thinking dog, anthropocentric, limits-of-intelligence and computational-complexity arguments without their original sources or complete premises. The guide explains speed, human comparisons and computational limits, but cannot reconstruct a specific author’s argument from those names alone."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Computing Machinery and Intelligence",
+        "url": "https://doi.org/10.1093/mind/LIX.236.433"
+      }
+    ]
+  },
+  {
+    "slug": "ai-adoption-operating-model",
+    "title": "Adopting AI: people, value and decision rights",
+    "topic": "Artificial intelligence",
+    "group": "Responsible AI",
+    "summary": "Connect an AI use case to ownership, measurable value and how work changes.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Build a use-case portfolio",
+        "body": "State the expected benefit, affected users, baseline cost and failure consequences. Estimate inference, tool, review, integration and maintenance costs. Automation does not imply zero marginal cost."
+      },
+      {
+        "heading": "Define authority",
+        "body": "Specify which decisions an agent may propose and which it may execute. Assign a human owner and escalation path. “Humans above the loop” is an operating-model phrase, not a reason to remove meaningful oversight."
+      },
+      {
+        "heading": "Support people",
+        "body": "Provide role-specific training and opportunities to practice judging model outputs. Keep routes for challenging automated decisions. Fear of displacement, overtrust, changed responsibilities and loss of apprenticeship can affect adoption."
+      },
+      {
+        "heading": "Use a shared platform deliberately",
+        "body": "Reusable identity, permissions, evaluation, observability and knowledge access can reduce duplicated work. An agent registry or orchestration layer earns its place when it solves an actual coordination need."
+      },
+      {
+        "heading": "Measure outcomes",
+        "body": "Track task completion, quality, user harm, cost and the value produced. A successful demonstration or a high model score does not prove a business return. Revisit assumptions and stop uses whose costs or risks exceed their benefits."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NIST AI Risk Management Framework",
+        "url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/"
+      }
+    ]
+  },
+  {
+    "slug": "ai-governance-frameworks",
+    "title": "AI governance frameworks: law, guidance and standards",
+    "topic": "Artificial intelligence",
+    "group": "Responsible AI",
+    "summary": "Distinguish legal obligations, voluntary risk frameworks and management-system certification.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Start with scope",
+        "body": "Identify the system’s purpose, parties, jurisdictions and deployment context. The source’s single deadline and four-tier summary cannot determine every obligation. Classification, exceptions and application dates must be checked in the applicable law."
+      },
+      {
+        "heading": "EU AI Act",
+        "body": "The Act includes prohibited practices, high-risk-system obligations and transparency provisions under specific conditions. Not every fraud detector or trading model is automatically high risk, and low-risk uses are not exempt from all other laws. Penalties depend on the provision, party and applicable rules; the source’s simplified penalty chart is not a compliance calculator."
+      },
+      {
+        "heading": "NIST AI RMF",
+        "body": "The framework organizes activities as Govern, Map, Measure and Manage. It is voluntary guidance; procurement or contractual requirements may refer to it in particular settings. The source’s claim that it is universally mandatory for enterprise procurement is not established."
+      },
+      {
+        "heading": "ISO/IEC 42001",
+        "body": "This standard concerns an organizational AI management system, including policies, objectives and continual improvement. Certification can provide evidence about the management system within its scope; it does not guarantee every model output or replace legal obligations. Certification timing is organization-specific."
+      },
+      {
+        "heading": "Singapore agentic guidance",
+        "body": "IMDA launched its Model AI Governance Framework for Agentic AI in January 2026. It addresses practices for responsible agent deployment. The source’s claims that every audit trail or autonomy classification is legally mandatory cannot be inferred simply from the existence of this framework."
+      },
+      {
+        "heading": "Turn governance into work",
+        "body": "Inventory systems and tools; assess impacts and permissions; assign owners; record intended uses, limitations and controls; monitor results; and define review and response procedures. Choose review frequency based on risk and change rather than presenting a universal quarterly rule."
+      }
+    ],
+    "sources": [
+      {
+        "title": "EU AI Act",
+        "url": "https://eur-lex.europa.eu/eli/reg/2024/1689"
+      },
+      {
+        "title": "NIST AI RMF",
+        "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+      },
+      {
+        "title": "ISO/IEC 42001",
+        "url": "https://www.iso.org/standard/42001"
+      },
+      {
+        "title": "IMDA agentic framework",
+        "url": "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/press-releases/2026/new-model-ai-governance-framework-for-agentic-ai"
+      }
+    ]
+  },
+  {
+    "slug": "ai-history-evidence",
+    "title": "AI history: milestones and how to read the claims",
+    "topic": "Artificial intelligence",
+    "group": "Start here",
+    "summary": "Distinguish dated milestones from broad claims about invention, intelligence and impact.",
+    "relatedToolCategory": "AI",
+    "sections": [
+      {
+        "heading": "Foundations and research methods",
+        "body": "McCulloch and Pitts’ 1943 work formalized aspects of neural activity; Turing’s 1950 paper proposed an imitation-game discussion. The 1956 Dartmouth project helped establish AI as a named research field. These milestones do not imply a single invention date for every underlying idea."
+      },
+      {
+        "heading": "Programs, products and dates",
+        "body": "The collection also names SNARC, General Problem Solver, ELIZA, Roomba, DeepFace and AlphaZero. They represent research hardware, problem-solving software, conversation, consumer robotics and specialized learning systems. The Computer History Museum dates Weizenbaum’s completed ELIZA to 1966; the source’s 1965 entry and several asserted firsts require that distinction. IBM’s Deep Blue match victory was in 1997 and Watson’s Jeopardy demonstration in 2011. A specialized result does not establish general intelligence."
+      },
+      {
+        "heading": "Learning and evaluation",
+        "body": "Perceptron research explored learned decision rules. Rumelhart, Hinton and Williams’ 1986 paper demonstrated learning internal representations through backpropagation; it was not the first discovery of every form of gradient propagation. Expert systems and periods of reduced funding also form part of the history."
+      },
+      {
+        "heading": "Games and scientific prediction",
+        "body": "DeepMind’s AlphaGo defeated Fan Hui in 2015 and Lee Sedol in March 2016; the source conflates these matches. AlphaFold’s CASP14 result was in 2020, with major published work in 2021. Protein structure prediction does not solve every problem of folding dynamics or biology."
+      },
+      {
+        "heading": "Language models and public debate",
+        "body": "GPT-3 research appeared in 2020. Public controversies over sentience and copyright reflect social, legal and scientific debates; a claim or lawsuit does not establish its underlying allegation. The source’s names, dates and asserted firsts need primary records for more detailed historical treatment."
+      },
+      {
+        "heading": "Claims that need context",
+        "body": "The source’s cat-recognition story attributes a 2012 result to the wrong research group; it should be checked against the original large-scale unsupervised-learning paper. Hardware acquisition prices, specific employment forecasts and an electricity-use infographic are historical or context-dependent facts, not reliable current statistics without their original source and denominator."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Turing paper",
+        "url": "https://doi.org/10.1093/mind/LIX.236.433"
+      },
+      {
+        "title": "Backpropagation paper",
+        "url": "https://doi.org/10.1038/323533a0"
+      },
+      {
+        "title": "AlphaGo matches",
+        "url": "https://deepmind.google/research/alphago/"
+      },
+      {
+        "title": "AlphaFold timeline",
+        "url": "https://deepmind.google/science/alphafold/"
+      },
+      {
+        "title": "Large-scale unsupervised learning",
+        "url": "https://arxiv.org/abs/1112.6209"
+      },
+      {
+        "title": "Computer History Museum AI timeline",
+        "url": "https://www.computerhistory.org/timeline/ai-robotics/"
+      },
+      {
+        "title": "IBM games history",
+        "url": "https://www.ibm.com/history/early-games"
+      }
+    ]
+  },
+  {
+    "slug": "ai-risk-register",
+    "title": "AI risk register: failure modes and controls",
+    "topic": "Artificial intelligence",
+    "group": "Responsible AI",
+    "summary": "Explore model, data, security, operational and human risks, with practical control questions.",
+    "relatedToolCategory": "Security",
+    "sections": [
+      {
+        "heading": "Use the register in context",
+        "body": "Choose the risks relevant to a particular system and affected people, identify an owner and record evidence for the controls. The list is a starting point rather than an exhaustive or legally sufficient assessment."
+      },
+      {
+        "heading": "Prioritize consequences",
+        "body": "Assess likelihood, exposure and the consequence of failure. A small model error can be serious when it triggers an action; a high aggregate score can conceal harmful outcomes for a subgroup."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NIST generative AI profile",
+        "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "ai-preprocessing-missing-data",
+    "title": "Preprocessing, missing data and useful transformations",
+    "topic": "Artificial intelligence",
+    "group": "Working with data",
+    "summary": "Make transformations explicit and distinguish missingness assumptions from convenient fixes.",
+    "relatedToolCategory": "Data",
+    "sections": [
+      {
+        "heading": "Scale for a reason",
+        "body": "Standardization typically subtracts a training mean and divides by a training standard deviation. Min–max scaling uses a defined range; rank transforms replace values with order-related information. Normalization is an overloaded word, so state the exact operation and handle constant features."
+      },
+      {
+        "heading": "Describe missingness",
+        "body": "MCAR means missingness does not depend on observed or unobserved data under the model; MAR allows dependence on observed information; MNAR permits dependence on unobserved values after conditioning on observed data. A spreadsheet alone generally cannot establish which mechanism holds."
+      },
+      {
+        "heading": "Impute within the workflow",
+        "body": "Dropping records, adding missingness indicators and imputing values make different assumptions. Fit imputers using the training portion of each split. Compare sensitivity to plausible missingness mechanisms and avoid presenting imputed values as observed facts."
+      },
+      {
+        "heading": "Transform skew carefully",
+        "body": "Logarithms require positive inputs unless a defined alternative transform is used. Square-root and reciprocal transformations change scale and interpretation. Squaring values or applying a negative logarithm is not a universal cure for negative skew. Choose a transformation for the analysis and check its consequences."
+      },
+      {
+        "heading": "Separate observations from summaries",
+        "body": "A sample statistic summarizes observations; a sampling distribution describes the statistic across repetitions. A z-score standardizes an observation under stated mean and spread. A QQ plot compares quantiles with another distribution and can expose departures hidden by a histogram."
+      },
+      {
+        "heading": "Visualize the question",
+        "body": "A frequency table counts observations in categories or intervals; a histogram displays binned numeric counts, while a density estimate smooths an estimated distribution. Violin plots combine a density view with summaries. Hexagonal binning and contour plots summarize bivariate density; neither is automatically more informative than plotting points."
+      },
+      {
+        "heading": "Evaluate residuals and associations",
+        "body": "Mean error can hide positive and negative cancellation; MAE and RMSE measure error size differently. Pearson correlation concerns linear association and may be undefined for constant variables. Contingency tables summarize categorical counts. Theil’s uncertainty coefficient is an entropy-based association measure; the same name also appears in different forecasting statistics, so specify the definition."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Scikit-learn user guide",
+        "url": "https://scikit-learn.org/stable/user_guide.html"
+      }
+    ]
+  },
+  {
+    "slug": "ai-language-perception",
+    "title": "Language, perception and embodied AI",
+    "topic": "Artificial intelligence",
+    "group": "How models work",
+    "summary": "Connect language tasks, sensory inputs, symbolic knowledge and real-world applications.",
+    "relatedToolCategory": "Data",
+    "sections": [
+      {
+        "heading": "Language tasks",
+        "body": "Text classification assigns labels; named-entity recognition identifies spans such as organization or person names; translation maps between languages; summarization condenses content. Sequence-to-sequence models produce an output sequence from an input sequence, with architecture and training varying by task."
+      },
+      {
+        "heading": "Sentence representations",
+        "body": "Sentence encoders such as the historical skip-thought approach learn representations intended to capture information beyond individual words. Modern embeddings also vary by task and training objective; a vector’s usefulness should be evaluated for the intended retrieval or classification problem."
+      },
+      {
+        "heading": "Speech, sensors and robotics",
+        "body": "Speech recognition converts audio into text or related representations. Robotics combines perception, state estimation, planning and control with physical constraints. Sensor fusion combines information sources; errors and delays can propagate into real-world actions."
+      },
+      {
+        "heading": "Edge, cloud and ubiquitous computing",
+        "body": "Edge computing processes information near its source, while cloud systems use remote infrastructure. Edge AI can reduce communication needs but faces device limits. Internet-of-Things systems connect devices and data; ubiquitous computing concerns computing integrated into everyday environments. These are deployment concepts, not model architectures."
+      },
+      {
+        "heading": "Knowledge and interaction",
+        "body": "Knowledge bases and graphs can encode explicit relationships. Human–computer interaction examines how people use and understand systems. A conversational interface, a symbolic planner and a learned perception model can coexist without being interchangeable."
+      },
+      {
+        "heading": "Application limits",
+        "body": "Healthcare, finance and autonomous systems have different evidence and oversight needs. Demonstrating a model on a benchmark does not establish clinical benefit, trading profit or operational safety. Validate the system where it will actually be used."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Scikit-learn user guide",
+        "url": "https://scikit-learn.org/stable/user_guide.html"
+      }
+    ]
+  },
+  {
+    "slug": "ai-cloud-data-pipelines",
+    "title": "Cloud data pipelines: roles before product names",
+    "topic": "Artificial intelligence",
+    "group": "Build AI systems",
+    "summary": "Read a cloud architecture by what each stage does, and recognize outdated or misplaced service labels.",
+    "relatedToolCategory": "Data",
+    "sections": [
+      {
+        "heading": "A reusable pipeline",
+        "body": "Separate ingestion, durable storage, processing, serving and visualization. An event stream, object archive, relational database and model endpoint have different roles even when one provider supplies all of them."
+      },
+      {
+        "heading": "AWS examples in the collection",
+        "body": "The source names IoT, Lambda, Kinesis streams, S3 and Glacier, EMR, Glue, SageMaker, Redshift, RDS, Elasticsearch, DynamoDB, Athena and QuickSight. These span ingestion, compute, storage, analytics and visualization; the arrows in the drawing are not proof of configured or required integrations. The former Kinesis Data Analytics name must be read against current Managed Service for Apache Flink documentation."
+      },
+      {
+        "heading": "Azure examples in the collection",
+        "body": "IoT Hub, Functions, Event Hubs, Data Lake storage, Data Explorer, Databricks, Stream Analytics, Azure SQL, Cosmos DB, Redis, Azure ML and Power BI occupy different parts of an architecture. Product generations, names and availability need current documentation when implementing a system."
+      },
+      {
+        "heading": "Correct the Google Cloud drawing",
+        "body": "The supplied Google Cloud diagram contains an Azure Data Lake Store label and a Power BI destination; those are not native Google Cloud service names. Its historical Cloud IoT label also needs context: IoT Core was discontinued in August 2023. Pub/Sub, Dataproc, Dataflow, BigQuery, Bigtable, Cloud SQL and other labels should be evaluated for their actual roles rather than copied as a ready-made stack."
+      },
+      {
+        "heading": "Choose an architecture",
+        "body": "Specify data volume, update rate, latency, permissions, durability, regions, recovery and operational ownership. Check whether a simpler managed workflow or existing storage already solves the requirement. Avoid buying every box in a reference diagram."
+      }
+    ],
+    "sources": [
+      {
+        "title": "AWS streaming analytics",
+        "url": "https://docs.aws.amazon.com/managed-flink/"
+      },
+      {
+        "title": "Azure pipeline choices",
+        "url": "https://learn.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/pipeline-orchestration-data-movement"
+      },
+      {
+        "title": "Historical Google Cloud service notice",
+        "url": "https://cloud.google.com/terms/services/index-20230613"
+      }
+    ]
+  },
+  {
+    "slug": "ai-energy-measurement",
+    "title": "Measure AI energy use with context",
+    "topic": "Artificial intelligence",
+    "group": "Responsible AI",
+    "summary": "Distinguish model workloads, data-center electricity and emissions before comparing figures.",
+    "relatedToolCategory": "",
+    "sections": [
+      {
+        "heading": "State the quantity",
+        "body": "Energy is accumulated consumption, commonly measured in kWh; power is a rate, commonly measured in kW. A data-center market’s total electricity consumption does not establish how much was used specifically for AI."
+      },
+      {
+        "heading": "Define the workload",
+        "body": "Training, fine-tuning and inference have different patterns. Report model, hardware, utilization, batch size, sequence length, runtime and system scope. A per-request estimate depends on these assumptions and the method of allocation."
+      },
+      {
+        "heading": "Separate energy from emissions",
+        "body": "Carbon emissions depend on electricity generation and the accounting method as well as consumption. Cooling and other facility overhead may also matter. A figure without a location, period, scope or denominator is difficult to compare responsibly."
+      },
+      {
+        "heading": "Read the source infographic",
+        "body": "The supplied 2024 data-center-market infographic is retained as a historical source image. Its provenance, measurement method and underlying dataset were not provided. Its city values cannot substantiate current AI electricity use, so this guide explains how such a claim should be evaluated instead of reprinting the map as evidence."
+      }
+    ],
+    "sources": [
+      {
+        "title": "IEA: Energy and AI",
+        "url": "https://www.iea.org/reports/energy-and-ai"
       }
     ]
   }

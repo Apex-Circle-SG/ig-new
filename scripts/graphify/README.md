@@ -8,7 +8,7 @@ Run from the repository root with the Python interpreter that has `graphifyy` in
 
 The first run migrates the older web-only graph to repository-relative source paths. Later runs hash the bounded code corpus and extract only changed files. No scheduler is installed for graph refresh; run this command after code changes. This developer graph is separate from the production opportunity-import schedule.
 
-Only source files under `apps/web/src`, `apps/opportunities`, `scripts/opportunities` and `packages/seo/src` are eligible. An explicit suffix allowlist includes code plus public JSON catalogs and SQL migrations. Environment files, secrets, build output, screenshots and artifacts are excluded. Do not expand the roots to private configuration directories.
+Only source files under `apps/web/src`, `apps/opportunities`, `scripts/opportunities`, `packages/seo/src`, `scripts/content-ai` and `scripts/cloudflare` are eligible. An explicit suffix allowlist includes code plus public JSON catalogs and SQL migrations. Environment files, secrets, build output, screenshots and artifacts are excluded. Do not expand the roots to private configuration directories.
 
 Outputs:
 
@@ -29,3 +29,14 @@ graphify reflect --if-stale
 ```
 
 `health.json` can report multiple extracted relationships collapsing onto the same undirected endpoint pair. This is a graph representation limitation, not necessarily a source bug; inspect diagnostic counts before relying on call direction. There is no automatic semantic extraction, credential scan or publication in this command.
+
+Restore the isolated tool environment when the recorded interpreter is unavailable:
+
+```sh
+python3 -m venv /mnt/sdb/ig-new-tools/graphify
+/mnt/sdb/ig-new-tools/graphify/bin/pip install -r scripts/graphify/requirements.txt
+/mnt/sdb/ig-new-tools/graphify/bin/graphify install --platform codex
+/mnt/sdb/ig-new-tools/graphify/bin/python -c "import sys; from pathlib import Path; Path('graphify-out/.graphify_python').write_text(sys.executable)"
+```
+
+Graphify is a local architecture tool, not a production dependency. Keep graph outputs ignored. Its unresolved references and collapsed edges are documented in the health report.
