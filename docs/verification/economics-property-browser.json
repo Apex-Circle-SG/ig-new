@@ -1,0 +1,2486 @@
+{
+  "renders": 104,
+  "accessibilityAudits": 16,
+  "checkedPassages": 1846,
+  "disclosureChecks": 208,
+  "sitemapCatalogueEntries": 521,
+  "httpChecks": 521,
+  "results": [
+    {
+      "width": 390,
+      "slug": "economic-foundations",
+      "status": 200,
+      "title": "Economic foundations: scarcity, work and choices",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "economic-measurement",
+      "status": 200,
+      "title": "Measuring an economy: GDP, inequality and purchasing power",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "money-banking-policy",
+      "status": 200,
+      "title": "Money and banking: policy tools, crises and distribution",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "economic-cycles",
+      "status": 200,
+      "title": "Economic cycles: mechanisms, hypotheses and misleading clocks",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "economic-schools-thinkers",
+      "status": 200,
+      "title": "Economic schools and thinkers: a comparative reading map",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "political-economic-systems",
+      "status": 200,
+      "title": "Political and economic systems: power, ownership and ideology",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "economic-inequality-development",
+      "status": 200,
+      "title": "Trade, development and inequality",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "banking-institutions-history",
+      "status": 200,
+      "title": "Banking institutions and economic history: a dated reading guide",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "economic-production-prices",
+      "status": 200,
+      "title": "Production, prices and the limits of economic “laws”",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "economic-models-evidence",
+      "status": 200,
+      "title": "Economic models and evidence: distributions, regression and assumptions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "intangible-asset-accounting",
+      "status": 200,
+      "title": "Intangible assets: recognition, research and development",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "structured-debt-contracts",
+      "status": 200,
+      "title": "Loan features, structured credit and derivative contracts",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "hr-operating-model",
+      "status": 200,
+      "title": "Designing an HR function around employee experience",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "portfolio-strategies",
+      "status": 200,
+      "title": "Portfolio strategies: neutrality, leverage and weighting",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "investment-risk-measures",
+      "status": 200,
+      "title": "Read investment risk and performance measures",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "investment-concepts-models",
+      "status": 200,
+      "title": "Investment concepts, financial models and incomplete signals",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "investment-behavior-returns",
+      "status": 200,
+      "title": "Investing maxims, decision behavior and compounded returns",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "clear-communication",
+      "status": 200,
+      "title": "Clear communication: the seven Cs and visual presentation",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "business-model-canvas",
+      "status": 200,
+      "title": "Business model canvas: connect value and economics",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "change-problem-types",
+      "status": 200,
+      "title": "Critical, tame and wicked problems: choose a response",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "leadership-behaviors",
+      "status": 200,
+      "title": "Leadership behaviors: values made visible",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "theory-of-constraints",
+      "status": 200,
+      "title": "Theory of Constraints: improve the system’s bottleneck",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "organizational-culture",
+      "status": 200,
+      "title": "Organizational culture: visible practices and deeper assumptions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "critical-thinking-questions",
+      "status": 200,
+      "title": "Critical thinking: principles, writing and 48 questions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "metaphysics-consciousness",
+      "status": 200,
+      "title": "Metaphysics, consciousness and spiritual language",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "personal-productivity",
+      "status": 200,
+      "title": "Personal productivity: capture tasks and build habits",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "technology-scaling-heuristics",
+      "status": 200,
+      "title": "Technology scaling: networks, speed, learning and organization",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property-planning",
+      "status": 200,
+      "title": "Singapore land and planning: identify the site before using a number",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "singapore-land-title",
+      "status": 200,
+      "title": "Singapore title, tenure and property rights",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "singapore-estate-ownership",
+      "status": 200,
+      "title": "Owning property together: trusts, inheritance and decision authority",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "singapore-collective-sales",
+      "status": 200,
+      "title": "Collective sales in Singapore: consent, procedure and disputes",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "singapore-conveyancing",
+      "status": 200,
+      "title": "Buying and selling property: contracts and conveyancing",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property-development",
+      "status": 200,
+      "title": "Developer purchases: licences, payment stages and prescribed terms",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property-tax",
+      "status": 200,
+      "title": "Singapore property tax: annual value and use matter",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property-stamp-duty",
+      "status": 200,
+      "title": "Property stamp duties: purchase, sale, leases and mortgages",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "cpf-housing-retirement",
+      "status": 200,
+      "title": "CPF housing and retirement: lease limits and retirement sums",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "housing-finance-singapore",
+      "status": 200,
+      "title": "Singapore housing finance: LTV, MSR, TDSR and loan terms",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "singapore-strata-management",
+      "status": 200,
+      "title": "Strata living: MCSTs, share values and building responsibilities",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "hdb-buying-eligibility",
+      "status": 200,
+      "title": "Buying an HDB flat: eligibility before options",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "hdb-grants-schemes",
+      "status": 200,
+      "title": "HDB grants and purchase schemes: compare the actual offer",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "hdb-retirement-options",
+      "status": 200,
+      "title": "Housing in retirement: lease buyback and right-sizing",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "hdb-renting-rules",
+      "status": 200,
+      "title": "Renting an HDB flat or bedroom: approval, quotas and occupancy",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "singapore-tenancy",
+      "status": 200,
+      "title": "Tenancy agreements: duties, clauses and changes of party",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "singapore-rental-tax",
+      "status": 200,
+      "title": "Rental income tax and GST: separate the tax bases",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property-agents",
+      "status": 200,
+      "title": "Property agents: authority, conduct and continuing learning",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "singapore-industrial-property",
+      "status": 200,
+      "title": "JTC and industrial property: approved use and dealings",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "property-market-analysis",
+      "status": 200,
+      "title": "Property market analysis: demand, location and evidence",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property-marketing",
+      "status": 200,
+      "title": "Property advertising and outreach: accuracy, identity and consent",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "economics-society",
+      "status": 200,
+      "title": "Economics & Society",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "property-housing",
+      "status": 200,
+      "title": "Property & Housing",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property",
+      "status": 200,
+      "title": "Singapore Property & Housing",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "real-world-assets",
+      "status": 200,
+      "title": "Tokenized assets and property records",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "economic-foundations",
+      "status": 200,
+      "title": "Economic foundations: scarcity, work and choices",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "economic-measurement",
+      "status": 200,
+      "title": "Measuring an economy: GDP, inequality and purchasing power",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "money-banking-policy",
+      "status": 200,
+      "title": "Money and banking: policy tools, crises and distribution",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "economic-cycles",
+      "status": 200,
+      "title": "Economic cycles: mechanisms, hypotheses and misleading clocks",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "economic-schools-thinkers",
+      "status": 200,
+      "title": "Economic schools and thinkers: a comparative reading map",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "political-economic-systems",
+      "status": 200,
+      "title": "Political and economic systems: power, ownership and ideology",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "economic-inequality-development",
+      "status": 200,
+      "title": "Trade, development and inequality",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "banking-institutions-history",
+      "status": 200,
+      "title": "Banking institutions and economic history: a dated reading guide",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "economic-production-prices",
+      "status": 200,
+      "title": "Production, prices and the limits of economic “laws”",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "economic-models-evidence",
+      "status": 200,
+      "title": "Economic models and evidence: distributions, regression and assumptions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "intangible-asset-accounting",
+      "status": 200,
+      "title": "Intangible assets: recognition, research and development",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "structured-debt-contracts",
+      "status": 200,
+      "title": "Loan features, structured credit and derivative contracts",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "hr-operating-model",
+      "status": 200,
+      "title": "Designing an HR function around employee experience",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "portfolio-strategies",
+      "status": 200,
+      "title": "Portfolio strategies: neutrality, leverage and weighting",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "investment-risk-measures",
+      "status": 200,
+      "title": "Read investment risk and performance measures",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "investment-concepts-models",
+      "status": 200,
+      "title": "Investment concepts, financial models and incomplete signals",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "investment-behavior-returns",
+      "status": 200,
+      "title": "Investing maxims, decision behavior and compounded returns",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "clear-communication",
+      "status": 200,
+      "title": "Clear communication: the seven Cs and visual presentation",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-model-canvas",
+      "status": 200,
+      "title": "Business model canvas: connect value and economics",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "change-problem-types",
+      "status": 200,
+      "title": "Critical, tame and wicked problems: choose a response",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "leadership-behaviors",
+      "status": 200,
+      "title": "Leadership behaviors: values made visible",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "theory-of-constraints",
+      "status": 200,
+      "title": "Theory of Constraints: improve the system’s bottleneck",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "organizational-culture",
+      "status": 200,
+      "title": "Organizational culture: visible practices and deeper assumptions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "critical-thinking-questions",
+      "status": 200,
+      "title": "Critical thinking: principles, writing and 48 questions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "metaphysics-consciousness",
+      "status": 200,
+      "title": "Metaphysics, consciousness and spiritual language",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "personal-productivity",
+      "status": 200,
+      "title": "Personal productivity: capture tasks and build habits",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "technology-scaling-heuristics",
+      "status": 200,
+      "title": "Technology scaling: networks, speed, learning and organization",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-planning",
+      "status": 200,
+      "title": "Singapore land and planning: identify the site before using a number",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-land-title",
+      "status": 200,
+      "title": "Singapore title, tenure and property rights",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-estate-ownership",
+      "status": 200,
+      "title": "Owning property together: trusts, inheritance and decision authority",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-collective-sales",
+      "status": 200,
+      "title": "Collective sales in Singapore: consent, procedure and disputes",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-conveyancing",
+      "status": 200,
+      "title": "Buying and selling property: contracts and conveyancing",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-development",
+      "status": 200,
+      "title": "Developer purchases: licences, payment stages and prescribed terms",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-tax",
+      "status": 200,
+      "title": "Singapore property tax: annual value and use matter",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-stamp-duty",
+      "status": 200,
+      "title": "Property stamp duties: purchase, sale, leases and mortgages",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "cpf-housing-retirement",
+      "status": 200,
+      "title": "CPF housing and retirement: lease limits and retirement sums",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "housing-finance-singapore",
+      "status": 200,
+      "title": "Singapore housing finance: LTV, MSR, TDSR and loan terms",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-strata-management",
+      "status": 200,
+      "title": "Strata living: MCSTs, share values and building responsibilities",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "hdb-buying-eligibility",
+      "status": 200,
+      "title": "Buying an HDB flat: eligibility before options",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "hdb-grants-schemes",
+      "status": 200,
+      "title": "HDB grants and purchase schemes: compare the actual offer",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "hdb-retirement-options",
+      "status": 200,
+      "title": "Housing in retirement: lease buyback and right-sizing",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "hdb-renting-rules",
+      "status": 200,
+      "title": "Renting an HDB flat or bedroom: approval, quotas and occupancy",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-tenancy",
+      "status": 200,
+      "title": "Tenancy agreements: duties, clauses and changes of party",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-rental-tax",
+      "status": 200,
+      "title": "Rental income tax and GST: separate the tax bases",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-agents",
+      "status": 200,
+      "title": "Property agents: authority, conduct and continuing learning",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-industrial-property",
+      "status": 200,
+      "title": "JTC and industrial property: approved use and dealings",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "property-market-analysis",
+      "status": 200,
+      "title": "Property market analysis: demand, location and evidence",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-marketing",
+      "status": 200,
+      "title": "Property advertising and outreach: accuracy, identity and consent",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "economics-society",
+      "status": 200,
+      "title": "Economics & Society",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "property-housing",
+      "status": 200,
+      "title": "Property & Housing",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property",
+      "status": 200,
+      "title": "Singapore Property & Housing",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "real-world-assets",
+      "status": 200,
+      "title": "Tokenized assets and property records",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    }
+  ],
+  "audits": [
+    {
+      "width": 390,
+      "slug": "economic-measurement",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property-planning",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property-stamp-duty",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "housing-finance-singapore",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "hdb-renting-rules",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "economics-society",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "property-housing",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "economic-measurement",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-planning",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-stamp-duty",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "housing-finance-singapore",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "hdb-renting-rules",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "economics-society",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "property-housing",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property",
+      "violations": []
+    }
+  ],
+  "disclosures": [
+    {
+      "width": 390,
+      "slug": "economic-foundations",
+      "section": "section-1",
+      "paragraphs": 6
+    },
+    {
+      "width": 390,
+      "slug": "economic-foundations",
+      "section": "section-2",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "economic-foundations",
+      "section": "section-3",
+      "paragraphs": 3
+    },
+    {
+      "width": 390,
+      "slug": "economic-foundations",
+      "section": "section-4",
+      "paragraphs": 3
+    },
+    {
+      "width": 390,
+      "slug": "economic-measurement",
+      "section": "section-1",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "economic-measurement",
+      "section": "section-2",
+      "paragraphs": 8
+    },
+    {
+      "width": 390,
+      "slug": "economic-measurement",
+      "section": "section-3",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "economic-measurement",
+      "section": "section-4",
+      "paragraphs": 4
+    },
+    {
+      "width": 390,
+      "slug": "money-banking-policy",
+      "section": "section-1",
+      "paragraphs": 4
+    },
+    {
+      "width": 390,
+      "slug": "money-banking-policy",
+      "section": "section-2",
+      "paragraphs": 6
+    },
+    {
+      "width": 390,
+      "slug": "money-banking-policy",
+      "section": "section-3",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "money-banking-policy",
+      "section": "section-4",
+      "paragraphs": 4
+    },
+    {
+      "width": 390,
+      "slug": "money-banking-policy",
+      "section": "section-5",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "money-banking-policy",
+      "section": "section-6",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "money-banking-policy",
+      "section": "section-7",
+      "paragraphs": 17
+    },
+    {
+      "width": 390,
+      "slug": "economic-cycles",
+      "section": "section-1",
+      "paragraphs": 12
+    },
+    {
+      "width": 390,
+      "slug": "economic-cycles",
+      "section": "section-2",
+      "paragraphs": 21
+    },
+    {
+      "width": 390,
+      "slug": "economic-cycles",
+      "section": "section-3",
+      "paragraphs": 18
+    },
+    {
+      "width": 390,
+      "slug": "economic-schools-thinkers",
+      "section": "section-1",
+      "paragraphs": 9
+    },
+    {
+      "width": 390,
+      "slug": "economic-schools-thinkers",
+      "section": "section-3",
+      "paragraphs": 19
+    },
+    {
+      "width": 390,
+      "slug": "economic-inequality-development",
+      "section": "section-1",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "economic-inequality-development",
+      "section": "section-3",
+      "paragraphs": 5
+    },
+    {
+      "width": 390,
+      "slug": "economic-inequality-development",
+      "section": "section-4",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "economic-inequality-development",
+      "section": "section-5",
+      "paragraphs": 8
+    },
+    {
+      "width": 390,
+      "slug": "economic-inequality-development",
+      "section": "section-6",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "banking-institutions-history",
+      "section": "section-1",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "banking-institutions-history",
+      "section": "section-2",
+      "paragraphs": 8
+    },
+    {
+      "width": 390,
+      "slug": "banking-institutions-history",
+      "section": "section-3",
+      "paragraphs": 10
+    },
+    {
+      "width": 390,
+      "slug": "economic-production-prices",
+      "section": "section-1",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "economic-production-prices",
+      "section": "section-2",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "economic-production-prices",
+      "section": "section-3",
+      "paragraphs": 4
+    },
+    {
+      "width": 390,
+      "slug": "economic-production-prices",
+      "section": "section-4",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "economic-production-prices",
+      "section": "section-5",
+      "paragraphs": 8
+    },
+    {
+      "width": 390,
+      "slug": "economic-production-prices",
+      "section": "section-6",
+      "paragraphs": 6
+    },
+    {
+      "width": 390,
+      "slug": "economic-models-evidence",
+      "section": "section-1",
+      "paragraphs": 5
+    },
+    {
+      "width": 390,
+      "slug": "economic-models-evidence",
+      "section": "section-2",
+      "paragraphs": 4
+    },
+    {
+      "width": 390,
+      "slug": "economic-models-evidence",
+      "section": "section-3",
+      "paragraphs": 4
+    },
+    {
+      "width": 390,
+      "slug": "economic-models-evidence",
+      "section": "section-4",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "economic-models-evidence",
+      "section": "section-5",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "economic-models-evidence",
+      "section": "section-6",
+      "paragraphs": 5
+    },
+    {
+      "width": 390,
+      "slug": "economic-models-evidence",
+      "section": "section-7",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "intangible-asset-accounting",
+      "section": "section-5",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "structured-debt-contracts",
+      "section": "section-6",
+      "paragraphs": 1
+    },
+    {
+      "width": 390,
+      "slug": "structured-debt-contracts",
+      "section": "section-7",
+      "paragraphs": 3
+    },
+    {
+      "width": 390,
+      "slug": "structured-debt-contracts",
+      "section": "section-8",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "hr-operating-model",
+      "section": "section-3",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "hr-operating-model",
+      "section": "section-4",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "hr-operating-model",
+      "section": "section-5",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "portfolio-strategies",
+      "section": "section-5",
+      "paragraphs": 4
+    },
+    {
+      "width": 390,
+      "slug": "portfolio-strategies",
+      "section": "section-6",
+      "paragraphs": 4
+    },
+    {
+      "width": 390,
+      "slug": "investment-risk-measures",
+      "section": "section-4",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "investment-concepts-models",
+      "section": "section-7",
+      "paragraphs": 4
+    },
+    {
+      "width": 390,
+      "slug": "investment-behavior-returns",
+      "section": "section-4",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "investment-behavior-returns",
+      "section": "section-5",
+      "paragraphs": 12
+    },
+    {
+      "width": 390,
+      "slug": "clear-communication",
+      "section": "section-3",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "clear-communication",
+      "section": "section-4",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "business-model-canvas",
+      "section": "section-2",
+      "paragraphs": 11
+    },
+    {
+      "width": 390,
+      "slug": "change-problem-types",
+      "section": "section-3",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "leadership-behaviors",
+      "section": "section-3",
+      "paragraphs": 4
+    },
+    {
+      "width": 390,
+      "slug": "leadership-behaviors",
+      "section": "section-4",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "theory-of-constraints",
+      "section": "section-2",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "organizational-culture",
+      "section": "section-6",
+      "paragraphs": 4
+    },
+    {
+      "width": 390,
+      "slug": "organizational-culture",
+      "section": "section-7",
+      "paragraphs": 3
+    },
+    {
+      "width": 390,
+      "slug": "critical-thinking-questions",
+      "section": "section-9",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "critical-thinking-questions",
+      "section": "section-10",
+      "paragraphs": 4
+    },
+    {
+      "width": 390,
+      "slug": "critical-thinking-questions",
+      "section": "section-11",
+      "paragraphs": 8
+    },
+    {
+      "width": 390,
+      "slug": "metaphysics-consciousness",
+      "section": "section-9",
+      "paragraphs": 6
+    },
+    {
+      "width": 390,
+      "slug": "personal-productivity",
+      "section": "section-8",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "technology-scaling-heuristics",
+      "section": "section-1",
+      "paragraphs": 8
+    },
+    {
+      "width": 390,
+      "slug": "technology-scaling-heuristics",
+      "section": "section-2",
+      "paragraphs": 16
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property-planning",
+      "section": "section-1",
+      "paragraphs": 7
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property-planning",
+      "section": "section-2",
+      "paragraphs": 12
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property-planning",
+      "section": "section-3",
+      "paragraphs": 7
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property-planning",
+      "section": "section-4",
+      "paragraphs": 8
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property-planning",
+      "section": "section-5",
+      "paragraphs": 14
+    },
+    {
+      "width": 390,
+      "slug": "singapore-land-title",
+      "section": "section-1",
+      "paragraphs": 11
+    },
+    {
+      "width": 390,
+      "slug": "singapore-land-title",
+      "section": "section-2",
+      "paragraphs": 10
+    },
+    {
+      "width": 390,
+      "slug": "singapore-land-title",
+      "section": "section-3",
+      "paragraphs": 3
+    },
+    {
+      "width": 390,
+      "slug": "singapore-estate-ownership",
+      "section": "section-1",
+      "paragraphs": 4
+    },
+    {
+      "width": 390,
+      "slug": "singapore-estate-ownership",
+      "section": "section-2",
+      "paragraphs": 3
+    },
+    {
+      "width": 390,
+      "slug": "singapore-collective-sales",
+      "section": "section-1",
+      "paragraphs": 7
+    },
+    {
+      "width": 390,
+      "slug": "singapore-conveyancing",
+      "section": "section-1",
+      "paragraphs": 9
+    },
+    {
+      "width": 390,
+      "slug": "singapore-conveyancing",
+      "section": "section-2",
+      "paragraphs": 9
+    },
+    {
+      "width": 390,
+      "slug": "singapore-conveyancing",
+      "section": "section-3",
+      "paragraphs": 9
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property-development",
+      "section": "section-1",
+      "paragraphs": 13
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property-tax",
+      "section": "section-1",
+      "paragraphs": 9
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property-stamp-duty",
+      "section": "section-1",
+      "paragraphs": 6
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property-stamp-duty",
+      "section": "section-2",
+      "paragraphs": 5
+    },
+    {
+      "width": 390,
+      "slug": "cpf-housing-retirement",
+      "section": "section-1",
+      "paragraphs": 7
+    },
+    {
+      "width": 390,
+      "slug": "housing-finance-singapore",
+      "section": "section-1",
+      "paragraphs": 7
+    },
+    {
+      "width": 390,
+      "slug": "housing-finance-singapore",
+      "section": "section-2",
+      "paragraphs": 6
+    },
+    {
+      "width": 390,
+      "slug": "singapore-strata-management",
+      "section": "section-1",
+      "paragraphs": 9
+    },
+    {
+      "width": 390,
+      "slug": "hdb-buying-eligibility",
+      "section": "section-1",
+      "paragraphs": 9
+    },
+    {
+      "width": 390,
+      "slug": "hdb-buying-eligibility",
+      "section": "section-2",
+      "paragraphs": 8
+    },
+    {
+      "width": 390,
+      "slug": "hdb-grants-schemes",
+      "section": "section-1",
+      "paragraphs": 12
+    },
+    {
+      "width": 390,
+      "slug": "hdb-retirement-options",
+      "section": "section-1",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "hdb-renting-rules",
+      "section": "section-1",
+      "paragraphs": 4
+    },
+    {
+      "width": 390,
+      "slug": "singapore-tenancy",
+      "section": "section-1",
+      "paragraphs": 9
+    },
+    {
+      "width": 390,
+      "slug": "singapore-rental-tax",
+      "section": "section-1",
+      "paragraphs": 3
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property-agents",
+      "section": "section-1",
+      "paragraphs": 8
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property-agents",
+      "section": "section-2",
+      "paragraphs": 10
+    },
+    {
+      "width": 390,
+      "slug": "singapore-industrial-property",
+      "section": "section-1",
+      "paragraphs": 10
+    },
+    {
+      "width": 390,
+      "slug": "property-market-analysis",
+      "section": "section-1",
+      "paragraphs": 10
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property-marketing",
+      "section": "section-1",
+      "paragraphs": 4
+    },
+    {
+      "width": 1440,
+      "slug": "economic-foundations",
+      "section": "section-1",
+      "paragraphs": 6
+    },
+    {
+      "width": 1440,
+      "slug": "economic-foundations",
+      "section": "section-2",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "economic-foundations",
+      "section": "section-3",
+      "paragraphs": 3
+    },
+    {
+      "width": 1440,
+      "slug": "economic-foundations",
+      "section": "section-4",
+      "paragraphs": 3
+    },
+    {
+      "width": 1440,
+      "slug": "economic-measurement",
+      "section": "section-1",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "economic-measurement",
+      "section": "section-2",
+      "paragraphs": 8
+    },
+    {
+      "width": 1440,
+      "slug": "economic-measurement",
+      "section": "section-3",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "economic-measurement",
+      "section": "section-4",
+      "paragraphs": 4
+    },
+    {
+      "width": 1440,
+      "slug": "money-banking-policy",
+      "section": "section-1",
+      "paragraphs": 4
+    },
+    {
+      "width": 1440,
+      "slug": "money-banking-policy",
+      "section": "section-2",
+      "paragraphs": 6
+    },
+    {
+      "width": 1440,
+      "slug": "money-banking-policy",
+      "section": "section-3",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "money-banking-policy",
+      "section": "section-4",
+      "paragraphs": 4
+    },
+    {
+      "width": 1440,
+      "slug": "money-banking-policy",
+      "section": "section-5",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "money-banking-policy",
+      "section": "section-6",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "money-banking-policy",
+      "section": "section-7",
+      "paragraphs": 17
+    },
+    {
+      "width": 1440,
+      "slug": "economic-cycles",
+      "section": "section-1",
+      "paragraphs": 12
+    },
+    {
+      "width": 1440,
+      "slug": "economic-cycles",
+      "section": "section-2",
+      "paragraphs": 21
+    },
+    {
+      "width": 1440,
+      "slug": "economic-cycles",
+      "section": "section-3",
+      "paragraphs": 18
+    },
+    {
+      "width": 1440,
+      "slug": "economic-schools-thinkers",
+      "section": "section-1",
+      "paragraphs": 9
+    },
+    {
+      "width": 1440,
+      "slug": "economic-schools-thinkers",
+      "section": "section-3",
+      "paragraphs": 19
+    },
+    {
+      "width": 1440,
+      "slug": "economic-inequality-development",
+      "section": "section-1",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "economic-inequality-development",
+      "section": "section-3",
+      "paragraphs": 5
+    },
+    {
+      "width": 1440,
+      "slug": "economic-inequality-development",
+      "section": "section-4",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "economic-inequality-development",
+      "section": "section-5",
+      "paragraphs": 8
+    },
+    {
+      "width": 1440,
+      "slug": "economic-inequality-development",
+      "section": "section-6",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "banking-institutions-history",
+      "section": "section-1",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "banking-institutions-history",
+      "section": "section-2",
+      "paragraphs": 8
+    },
+    {
+      "width": 1440,
+      "slug": "banking-institutions-history",
+      "section": "section-3",
+      "paragraphs": 10
+    },
+    {
+      "width": 1440,
+      "slug": "economic-production-prices",
+      "section": "section-1",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "economic-production-prices",
+      "section": "section-2",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "economic-production-prices",
+      "section": "section-3",
+      "paragraphs": 4
+    },
+    {
+      "width": 1440,
+      "slug": "economic-production-prices",
+      "section": "section-4",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "economic-production-prices",
+      "section": "section-5",
+      "paragraphs": 8
+    },
+    {
+      "width": 1440,
+      "slug": "economic-production-prices",
+      "section": "section-6",
+      "paragraphs": 6
+    },
+    {
+      "width": 1440,
+      "slug": "economic-models-evidence",
+      "section": "section-1",
+      "paragraphs": 5
+    },
+    {
+      "width": 1440,
+      "slug": "economic-models-evidence",
+      "section": "section-2",
+      "paragraphs": 4
+    },
+    {
+      "width": 1440,
+      "slug": "economic-models-evidence",
+      "section": "section-3",
+      "paragraphs": 4
+    },
+    {
+      "width": 1440,
+      "slug": "economic-models-evidence",
+      "section": "section-4",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "economic-models-evidence",
+      "section": "section-5",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "economic-models-evidence",
+      "section": "section-6",
+      "paragraphs": 5
+    },
+    {
+      "width": 1440,
+      "slug": "economic-models-evidence",
+      "section": "section-7",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "intangible-asset-accounting",
+      "section": "section-5",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "structured-debt-contracts",
+      "section": "section-6",
+      "paragraphs": 1
+    },
+    {
+      "width": 1440,
+      "slug": "structured-debt-contracts",
+      "section": "section-7",
+      "paragraphs": 3
+    },
+    {
+      "width": 1440,
+      "slug": "structured-debt-contracts",
+      "section": "section-8",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "hr-operating-model",
+      "section": "section-3",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "hr-operating-model",
+      "section": "section-4",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "hr-operating-model",
+      "section": "section-5",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "portfolio-strategies",
+      "section": "section-5",
+      "paragraphs": 4
+    },
+    {
+      "width": 1440,
+      "slug": "portfolio-strategies",
+      "section": "section-6",
+      "paragraphs": 4
+    },
+    {
+      "width": 1440,
+      "slug": "investment-risk-measures",
+      "section": "section-4",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "investment-concepts-models",
+      "section": "section-7",
+      "paragraphs": 4
+    },
+    {
+      "width": 1440,
+      "slug": "investment-behavior-returns",
+      "section": "section-4",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "investment-behavior-returns",
+      "section": "section-5",
+      "paragraphs": 12
+    },
+    {
+      "width": 1440,
+      "slug": "clear-communication",
+      "section": "section-3",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "clear-communication",
+      "section": "section-4",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "business-model-canvas",
+      "section": "section-2",
+      "paragraphs": 11
+    },
+    {
+      "width": 1440,
+      "slug": "change-problem-types",
+      "section": "section-3",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "leadership-behaviors",
+      "section": "section-3",
+      "paragraphs": 4
+    },
+    {
+      "width": 1440,
+      "slug": "leadership-behaviors",
+      "section": "section-4",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "theory-of-constraints",
+      "section": "section-2",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "organizational-culture",
+      "section": "section-6",
+      "paragraphs": 4
+    },
+    {
+      "width": 1440,
+      "slug": "organizational-culture",
+      "section": "section-7",
+      "paragraphs": 3
+    },
+    {
+      "width": 1440,
+      "slug": "critical-thinking-questions",
+      "section": "section-9",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "critical-thinking-questions",
+      "section": "section-10",
+      "paragraphs": 4
+    },
+    {
+      "width": 1440,
+      "slug": "critical-thinking-questions",
+      "section": "section-11",
+      "paragraphs": 8
+    },
+    {
+      "width": 1440,
+      "slug": "metaphysics-consciousness",
+      "section": "section-9",
+      "paragraphs": 6
+    },
+    {
+      "width": 1440,
+      "slug": "personal-productivity",
+      "section": "section-8",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "technology-scaling-heuristics",
+      "section": "section-1",
+      "paragraphs": 8
+    },
+    {
+      "width": 1440,
+      "slug": "technology-scaling-heuristics",
+      "section": "section-2",
+      "paragraphs": 16
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-planning",
+      "section": "section-1",
+      "paragraphs": 7
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-planning",
+      "section": "section-2",
+      "paragraphs": 12
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-planning",
+      "section": "section-3",
+      "paragraphs": 7
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-planning",
+      "section": "section-4",
+      "paragraphs": 8
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-planning",
+      "section": "section-5",
+      "paragraphs": 14
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-land-title",
+      "section": "section-1",
+      "paragraphs": 11
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-land-title",
+      "section": "section-2",
+      "paragraphs": 10
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-land-title",
+      "section": "section-3",
+      "paragraphs": 3
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-estate-ownership",
+      "section": "section-1",
+      "paragraphs": 4
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-estate-ownership",
+      "section": "section-2",
+      "paragraphs": 3
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-collective-sales",
+      "section": "section-1",
+      "paragraphs": 7
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-conveyancing",
+      "section": "section-1",
+      "paragraphs": 9
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-conveyancing",
+      "section": "section-2",
+      "paragraphs": 9
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-conveyancing",
+      "section": "section-3",
+      "paragraphs": 9
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-development",
+      "section": "section-1",
+      "paragraphs": 13
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-tax",
+      "section": "section-1",
+      "paragraphs": 9
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-stamp-duty",
+      "section": "section-1",
+      "paragraphs": 6
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-stamp-duty",
+      "section": "section-2",
+      "paragraphs": 5
+    },
+    {
+      "width": 1440,
+      "slug": "cpf-housing-retirement",
+      "section": "section-1",
+      "paragraphs": 7
+    },
+    {
+      "width": 1440,
+      "slug": "housing-finance-singapore",
+      "section": "section-1",
+      "paragraphs": 7
+    },
+    {
+      "width": 1440,
+      "slug": "housing-finance-singapore",
+      "section": "section-2",
+      "paragraphs": 6
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-strata-management",
+      "section": "section-1",
+      "paragraphs": 9
+    },
+    {
+      "width": 1440,
+      "slug": "hdb-buying-eligibility",
+      "section": "section-1",
+      "paragraphs": 9
+    },
+    {
+      "width": 1440,
+      "slug": "hdb-buying-eligibility",
+      "section": "section-2",
+      "paragraphs": 8
+    },
+    {
+      "width": 1440,
+      "slug": "hdb-grants-schemes",
+      "section": "section-1",
+      "paragraphs": 12
+    },
+    {
+      "width": 1440,
+      "slug": "hdb-retirement-options",
+      "section": "section-1",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "hdb-renting-rules",
+      "section": "section-1",
+      "paragraphs": 4
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-tenancy",
+      "section": "section-1",
+      "paragraphs": 9
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-rental-tax",
+      "section": "section-1",
+      "paragraphs": 3
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-agents",
+      "section": "section-1",
+      "paragraphs": 8
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-agents",
+      "section": "section-2",
+      "paragraphs": 10
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-industrial-property",
+      "section": "section-1",
+      "paragraphs": 10
+    },
+    {
+      "width": 1440,
+      "slug": "property-market-analysis",
+      "section": "section-1",
+      "paragraphs": 10
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-marketing",
+      "section": "section-1",
+      "paragraphs": 4
+    }
+  ]
+}

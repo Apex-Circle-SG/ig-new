@@ -74,5 +74,13 @@
     "expressions": "investment-expressions.json",
     "ledger": "docs/investment-content-coverage.csv",
     "sha256": "1cee9fd7808edfacc92463150066dd4eeee13149b9a075fea108822c52024615"
+  },
+  {
+    "key": "economics-property",
+    "source": "content/sources/economics-property",
+    "plan": "economics-property-plan.json",
+    "figures": "",
+    "ledger": "docs/economics-property-content-coverage.csv",
+    "sha256": "83f9f109c5d8e9484cf8e75d004fe62719d18b66933902b20b8504c559ef1e77"
   }
 ]

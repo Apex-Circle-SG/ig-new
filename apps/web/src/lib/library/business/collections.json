@@ -2553,5 +2553,299 @@
       "finance-controls-tax"
     ],
     "topicRoot": false
+  },
+  {
+    "slug": "economics-society",
+    "title": "Economics & Society",
+    "topic": "Economics & Society",
+    "group": "Start here",
+    "summary": "Choose the economic question first: what is being measured, what mechanism is proposed, and what evidence could support it?",
+    "intro": "Choose the economic question first: what is being measured, what mechanism is proposed, and what evidence could support it?",
+    "groups": [
+      {
+        "name": "Foundations & measurement",
+        "description": "Resources, production, indicators and the difference between an identity and a causal claim."
+      },
+      {
+        "name": "Money, banking & policy",
+        "description": "Monetary tools, financial intermediation and policy trade-offs."
+      },
+      {
+        "name": "Trade, development & inequality",
+        "description": "Trade models and the distribution of economic change."
+      },
+      {
+        "name": "Ideas, institutions & history",
+        "description": "Competing schools, forms of power and dated historical prompts."
+      },
+      {
+        "name": "Cycles & instability",
+        "description": "Mechanisms and hypotheses rather than fixed forecast clocks."
+      },
+      {
+        "name": "Methods & evidence",
+        "description": "Statistics, models, assumptions and unresolved source labels."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Foundations & measurement",
+        "links": [
+          {
+            "slug": "economic-foundations",
+            "label": "Economic foundations: scarcity, work and choices"
+          },
+          {
+            "slug": "economic-measurement",
+            "label": "Measuring an economy: GDP, inequality and purchasing power"
+          },
+          {
+            "slug": "economic-production-prices",
+            "label": "Production, prices and the limits of economic “laws”"
+          }
+        ]
+      },
+      {
+        "title": "Money, banking & policy",
+        "links": [
+          {
+            "slug": "money-banking-policy",
+            "label": "Money and banking: policy tools, crises and distribution"
+          }
+        ]
+      },
+      {
+        "title": "Trade, development & inequality",
+        "links": [
+          {
+            "slug": "economic-inequality-development",
+            "label": "Trade, development and inequality"
+          }
+        ]
+      },
+      {
+        "title": "Ideas, institutions & history",
+        "links": [
+          {
+            "slug": "economic-schools-thinkers",
+            "label": "Economic schools and thinkers: a comparative reading map"
+          },
+          {
+            "slug": "political-economic-systems",
+            "label": "Political and economic systems: power, ownership and ideology"
+          },
+          {
+            "slug": "banking-institutions-history",
+            "label": "Banking institutions and economic history: a dated reading guide"
+          }
+        ]
+      },
+      {
+        "title": "Cycles & instability",
+        "links": [
+          {
+            "slug": "economic-cycles",
+            "label": "Economic cycles: mechanisms, hypotheses and misleading clocks"
+          }
+        ]
+      },
+      {
+        "title": "Methods & evidence",
+        "links": [
+          {
+            "slug": "economic-models-evidence",
+            "label": "Economic models and evidence: distributions, regression and assumptions"
+          }
+        ]
+      }
+    ],
+    "notes": [],
+    "references": [],
+    "topicRoot": true,
+    "parent": "",
+    "relatedCollections": [
+      "finance-accounting",
+      "property-housing",
+      "problem-solving"
+    ]
+  },
+  {
+    "slug": "property-housing",
+    "title": "Property & Housing",
+    "topic": "Property & Housing",
+    "group": "Start here",
+    "summary": "Start with the jurisdiction and the decision. The current collection covers Singapore; its rules are not universal property advice.",
+    "intro": "Start with the jurisdiction and the decision. The current collection covers Singapore; its rules are not universal property advice.",
+    "groups": [
+      {
+        "name": "Singapore property",
+        "description": "A jurisdiction-specific collection: ownership, purchase, finance, public housing and professional practice."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Singapore property decisions",
+        "links": [
+          {
+            "slug": "singapore-property",
+            "label": "Explore Singapore property and housing"
+          }
+        ]
+      }
+    ],
+    "notes": [],
+    "references": [],
+    "topicRoot": true,
+    "parent": "",
+    "relatedCollections": [
+      "economics-society",
+      "finance-accounting"
+    ]
+  },
+  {
+    "slug": "singapore-property",
+    "title": "Singapore Property & Housing",
+    "topic": "Property & Housing",
+    "group": "Singapore property",
+    "summary": "Choose the transaction or responsibility you are working on. Read the reviewed explanation first; expand original notes for historical figures and unresolved wording.",
+    "intro": "Choose the transaction or responsibility you are working on. Read the reviewed explanation first; expand original notes for historical figures and unresolved wording.",
+    "groups": [
+      {
+        "name": "Land, planning & ownership",
+        "description": "Identify rights, site controls, joint ownership and collective-sale procedure."
+      },
+      {
+        "name": "Buying, selling & development",
+        "description": "Compare resale, developer purchases and industrial dealings."
+      },
+      {
+        "name": "Public housing",
+        "description": "Work through HDB eligibility, grants, retirement and rental requirements."
+      },
+      {
+        "name": "Tax, CPF & finance",
+        "description": "Keep property tax, stamp duties, CPF and lending constraints separate."
+      },
+      {
+        "name": "Tenancy, strata & practice",
+        "description": "Understand leases, condominium management and property-agent duties."
+      },
+      {
+        "name": "Markets & marketing",
+        "description": "Study demand, property attributes and responsible outreach."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Land, planning & ownership",
+        "links": [
+          {
+            "slug": "singapore-property-agencies",
+            "label": "Find the responsible property agency"
+          },
+          {
+            "slug": "singapore-property-planning",
+            "label": "Singapore land and planning: identify the site before using a number"
+          },
+          {
+            "slug": "singapore-land-title",
+            "label": "Singapore title, tenure and property rights"
+          },
+          {
+            "slug": "singapore-estate-ownership",
+            "label": "Owning property together: trusts, inheritance and decision authority"
+          }
+        ]
+      },
+      {
+        "title": "Buying, selling & development",
+        "links": [
+          {
+            "slug": "singapore-conveyancing",
+            "label": "Buying and selling property: contracts and conveyancing"
+          },
+          {
+            "slug": "singapore-property-development",
+            "label": "Developer purchases: licences, payment stages and prescribed terms"
+          },
+          {
+            "slug": "singapore-industrial-property",
+            "label": "JTC and industrial property: approved use and dealings"
+          }
+        ]
+      },
+      {
+        "title": "Public housing",
+        "links": [
+          {
+            "slug": "hdb-buying-eligibility",
+            "label": "Buying an HDB flat: eligibility before options"
+          },
+          {
+            "slug": "hdb-grants-schemes",
+            "label": "HDB grants and purchase schemes: compare the actual offer"
+          },
+          {
+            "slug": "hdb-retirement-options",
+            "label": "Housing in retirement: lease buyback and right-sizing"
+          }
+        ]
+      },
+      {
+        "title": "Tax, CPF & finance",
+        "links": [
+          {
+            "slug": "singapore-property-tax",
+            "label": "Singapore property tax: annual value and use matter"
+          },
+          {
+            "slug": "singapore-property-stamp-duty",
+            "label": "Property stamp duties: purchase, sale, leases and mortgages"
+          },
+          {
+            "slug": "cpf-housing-retirement",
+            "label": "CPF housing and retirement: lease limits and retirement sums"
+          }
+        ]
+      },
+      {
+        "title": "Tenancy, strata & practice",
+        "links": [
+          {
+            "slug": "singapore-strata-management",
+            "label": "Strata living: MCSTs, share values and building responsibilities"
+          },
+          {
+            "slug": "singapore-tenancy",
+            "label": "Tenancy agreements: duties, clauses and changes of party"
+          },
+          {
+            "slug": "singapore-property-agents",
+            "label": "Property agents: authority, conduct and continuing learning"
+          }
+        ]
+      },
+      {
+        "title": "Markets & marketing",
+        "links": [
+          {
+            "slug": "property-market-analysis",
+            "label": "Property market analysis: demand, location and evidence"
+          },
+          {
+            "slug": "singapore-property-marketing",
+            "label": "Property advertising and outreach: accuracy, identity and consent"
+          }
+        ]
+      }
+    ],
+    "notes": [],
+    "references": [],
+    "topicRoot": false,
+    "parent": "property-housing",
+    "relatedCollections": [
+      "economics-society",
+      "investing-portfolio-management"
+    ]
   }
 ]

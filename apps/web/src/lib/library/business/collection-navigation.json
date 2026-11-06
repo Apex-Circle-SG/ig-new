@@ -351,7 +351,8 @@
       "markov-models",
       "model-driven-engineering",
       "constructionist-design",
-      "digital-research-connections"
+      "digital-research-connections",
+      "technology-scaling-heuristics"
     ]
   },
   {
@@ -669,6 +670,63 @@
       "investment-research-checklist",
       "investment-behavior-returns",
       "pension-funds-historical-ranking"
+    ]
+  },
+  {
+    "slug": "economics-society",
+    "title": "Economics & Society",
+    "topic": "Economics & Society",
+    "parent": "",
+    "members": [
+      "economic-foundations",
+      "economic-measurement",
+      "money-banking-policy",
+      "economic-cycles",
+      "economic-schools-thinkers",
+      "political-economic-systems",
+      "economic-inequality-development",
+      "banking-institutions-history",
+      "economic-production-prices",
+      "economic-models-evidence"
+    ]
+  },
+  {
+    "slug": "property-housing",
+    "title": "Property & Housing",
+    "topic": "Property & Housing",
+    "parent": "",
+    "members": [
+      "singapore-property"
+    ]
+  },
+  {
+    "slug": "singapore-property",
+    "title": "Singapore Property & Housing",
+    "topic": "Property & Housing",
+    "parent": "property-housing",
+    "members": [
+      "singapore-property-planning",
+      "singapore-land-title",
+      "singapore-estate-ownership",
+      "singapore-collective-sales",
+      "singapore-conveyancing",
+      "singapore-property-development",
+      "singapore-property-tax",
+      "singapore-property-stamp-duty",
+      "cpf-housing-retirement",
+      "housing-finance-singapore",
+      "singapore-strata-management",
+      "hdb-buying-eligibility",
+      "hdb-grants-schemes",
+      "hdb-retirement-options",
+      "hdb-renting-rules",
+      "singapore-tenancy",
+      "singapore-rental-tax",
+      "singapore-property-agents",
+      "singapore-industrial-property",
+      "property-market-analysis",
+      "singapore-property-marketing",
+      "singapore-property-agencies"
     ]
   }
 ]

@@ -1,0 +1,24 @@
+{
+  "archiveSha256": "83f9f109c5d8e9484cf8e75d004fe62719d18b66933902b20b8504c559ef1e77",
+  "sourceParagraphs": 707,
+  "sourceTableCount": 28,
+  "sourceImages": 0,
+  "unmapped": 0,
+  "retainedSubstantivePassages": 678,
+  "sourceReviewSections": 110,
+  "newGuides": 33,
+  "enrichedGuides": 19,
+  "visuals": 14,
+  "previousCatalogueEntries": 486,
+  "catalogueEntries": 522,
+  "previousGuideSectionsPreserved": true,
+  "previousFiguresPreserved": true,
+  "formulaDirectoryUnchanged": true,
+  "newTopicRoots": [
+    "economics-society",
+    "property-housing"
+  ],
+  "newChildCollections": [
+    "singapore-property"
+  ]
+}

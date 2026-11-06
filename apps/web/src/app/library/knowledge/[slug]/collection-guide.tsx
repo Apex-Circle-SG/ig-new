@@ -23,6 +23,15 @@ export function isCollectionArticle(slug: string) {
 }
 
 function DetailBlock({ block, caption }: { block: Block; caption: string }) {
+  if (block.kind === 'review' && 'review' in block) return <div className={styles.referenceEntry}>
+    <p><strong>{block.review.status}</strong></p>
+    {block.review.paragraphs.map((text, i) => <p key={i}>{text}</p>)}
+    <p className={styles.figureNote}>Editorial review: {block.review.date}. Scope and remaining uncertainties are described above.</p>
+    {block.review.references.length > 0 && <ul>{block.review.references.map((reference) => <li key={reference.url}><a href={reference.url} target="_blank" rel="noopener noreferrer">{reference.title} ↗</a></li>)}</ul>}
+    <div className={styles.formulaOriginal} data-nosnippet><details><summary>Original study notes — includes historical or unverified claims</summary>
+      {block.review.original.map((text, i) => <p key={i}>{text}</p>)}
+    </details></div>
+  </div>;
   if (block.kind === 'metric' || block.kind === 'metric-source-headings') return null;
   if (block.kind === 'formula' && 'formula' in block && block.formula) return <FormulaReference formula={block.formula} />;
   if (block.kind === 'ritual' && 'text' in block && typeof block.text === 'string') {

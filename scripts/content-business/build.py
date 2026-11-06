@@ -42,6 +42,11 @@ def merge_blocks(existing, incoming):
 
 def blocks_for(doc, span, page, formula_reviews=None, formula_references=None, metrics=None, study_reviews=None):
     paragraphs = doc['paragraphs'][span['start']:span['end']]
+    if span.get('review'):
+        review = span['review']
+        assert review['status'] and review['paragraphs'] and review['date'], 'Incomplete source review'
+        return [dict(kind='review', review={**review,
+                     'original': [edited(p['text']) for p in paragraphs]})]
     if metrics is not None:
         return people_blocks(doc, span, metrics)
     if formula_reviews is not None:
@@ -174,6 +179,8 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
                 continue
             article['sections'].append(dict(id=section_id, heading=span['heading'], blocks=blocks))
             lead = [span[key] for key in ('context', 'introduction') if span.get(key)]
+            if span.get('review'):
+                lead += [span['review']['status'], *span['review']['paragraphs']]
             lead += [b['formula']['name'] + '\n' + b['formula']['expression'] for b in blocks if b['kind'] == 'formula']
             search_sections[slug].append(dict(heading=span['heading'], body='\n'.join(lead + [p['text'] if page.get('format') in ('chapter', 'ritual') or doc['name'] == 'NLP.docx' else edited(p['text']) for p in doc['paragraphs'][span['start']:span['end']]])))
             if page.get('format') == 'questions':

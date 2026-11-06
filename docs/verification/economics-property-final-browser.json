@@ -1,0 +1,352 @@
+{
+  "renders": 16,
+  "accessibilityAudits": 6,
+  "checkedPassages": 114,
+  "disclosureChecks": 22,
+  "sitemapCatalogueEntries": 522,
+  "httpChecks": 1,
+  "results": [
+    {
+      "width": 390,
+      "slug": "singapore-property-agencies",
+      "status": 200,
+      "title": "Singapore property agencies: find the right starting point",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property",
+      "status": 200,
+      "title": "Singapore Property & Housing",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "innovation-pathways",
+      "status": 200,
+      "title": "Innovation: discovery, incubation and acceleration",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "technology-scaling-heuristics",
+      "status": 200,
+      "title": "Technology scaling: networks, speed, learning and organization",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "personal-productivity",
+      "status": 200,
+      "title": "Personal productivity: capture tasks and build habits",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "leadership-behaviors",
+      "status": 200,
+      "title": "Leadership behaviors: values made visible",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "investment-assets",
+      "status": 200,
+      "title": "Investment assets: cash, ownership, debt and real assets",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "investment-funds-vehicles",
+      "status": 200,
+      "title": "Funds and investment vehicles: distinguish the wrapper from the exposure",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-agencies",
+      "status": 200,
+      "title": "Singapore property agencies: find the right starting point",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property",
+      "status": 200,
+      "title": "Singapore Property & Housing",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "innovation-pathways",
+      "status": 200,
+      "title": "Innovation: discovery, incubation and acceleration",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "technology-scaling-heuristics",
+      "status": 200,
+      "title": "Technology scaling: networks, speed, learning and organization",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "personal-productivity",
+      "status": 200,
+      "title": "Personal productivity: capture tasks and build habits",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "leadership-behaviors",
+      "status": 200,
+      "title": "Leadership behaviors: values made visible",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "investment-assets",
+      "status": 200,
+      "title": "Investment assets: cash, ownership, debt and real assets",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "investment-funds-vehicles",
+      "status": 200,
+      "title": "Funds and investment vehicles: distinguish the wrapper from the exposure",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    }
+  ],
+  "audits": [
+    {
+      "width": 390,
+      "slug": "singapore-property-agencies",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "singapore-property",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "technology-scaling-heuristics",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-agencies",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "technology-scaling-heuristics",
+      "violations": []
+    }
+  ],
+  "disclosures": [
+    {
+      "width": 390,
+      "slug": "singapore-property-agencies",
+      "section": "section-1",
+      "paragraphs": 3
+    },
+    {
+      "width": 390,
+      "slug": "innovation-pathways",
+      "section": "section-6",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "technology-scaling-heuristics",
+      "section": "section-1",
+      "paragraphs": 6
+    },
+    {
+      "width": 390,
+      "slug": "technology-scaling-heuristics",
+      "section": "section-2",
+      "paragraphs": 8
+    },
+    {
+      "width": 390,
+      "slug": "technology-scaling-heuristics",
+      "section": "section-3",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "personal-productivity",
+      "section": "section-8",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "personal-productivity",
+      "section": "section-9",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "personal-productivity",
+      "section": "section-10",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "leadership-behaviors",
+      "section": "section-3",
+      "paragraphs": 4
+    },
+    {
+      "width": 390,
+      "slug": "leadership-behaviors",
+      "section": "section-4",
+      "paragraphs": 2
+    },
+    {
+      "width": 390,
+      "slug": "leadership-behaviors",
+      "section": "section-5",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "singapore-property-agencies",
+      "section": "section-1",
+      "paragraphs": 3
+    },
+    {
+      "width": 1440,
+      "slug": "innovation-pathways",
+      "section": "section-6",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "technology-scaling-heuristics",
+      "section": "section-1",
+      "paragraphs": 6
+    },
+    {
+      "width": 1440,
+      "slug": "technology-scaling-heuristics",
+      "section": "section-2",
+      "paragraphs": 8
+    },
+    {
+      "width": 1440,
+      "slug": "technology-scaling-heuristics",
+      "section": "section-3",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "personal-productivity",
+      "section": "section-8",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "personal-productivity",
+      "section": "section-9",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "personal-productivity",
+      "section": "section-10",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "leadership-behaviors",
+      "section": "section-3",
+      "paragraphs": 4
+    },
+    {
+      "width": 1440,
+      "slug": "leadership-behaviors",
+      "section": "section-4",
+      "paragraphs": 2
+    },
+    {
+      "width": 1440,
+      "slug": "leadership-behaviors",
+      "section": "section-5",
+      "paragraphs": 2
+    }
+  ]
+}

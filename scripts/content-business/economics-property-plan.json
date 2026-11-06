@@ -1,0 +1,3313 @@
+[
+  {
+    "slug": "economic-foundations",
+    "title": "Economic foundations: scarcity, work and choices",
+    "summary": "Connect scarce resources, economic indicators, employment and choices over time.",
+    "topic": "Economics & Society",
+    "collection": "economics-society",
+    "group": "Foundations & measurement",
+    "takeaway": "Name the scarce resource, the choice and the affected people before comparing headline indicators.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "economic-measurement",
+      "money-banking-policy",
+      "economic-production-prices"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 0,
+        "end": 6,
+        "heading": "Scarcity and the indicators to watch",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Scarcity means choices compete for limited resources. The jigsaw is a coordination metaphor, not evidence that markets always reach a desirable result. Read growth, inflation, unemployment and wages together: a growing total can coexist with falling purchasing power for some households."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 15,
+        "end": 17,
+        "heading": "Jobs, migration and local demand",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Unemployment and underemployment describe different labour-market problems. Migration can increase demand for services and also changes labour supply, skills and capacity; the net result depends on the place, period and institutions. The source gives no dataset for its one-way claim."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 23,
+        "end": 26,
+        "heading": "Partnerships and decisions under uncertainty",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Public-private partnership is a delivery/financing arrangement; it is different from purchasing power parity, which shares the initials PPP. Subjective expected utility weights possible outcomes by the decision maker’s beliefs and utilities, rather than simply estimating an investment return."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 32,
+        "end": 35,
+        "heading": "Receiving value sooner or later",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Time discounting describes preferences over timing. A financial discount rate also incorporates assumptions about risk and financing; do not substitute a psychological preference for an audited valuation model."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "economic-measurement",
+    "title": "Measuring an economy: GDP, inequality and purchasing power",
+    "summary": "Distinguish output, price-level comparisons, investment and broader measures of progress.",
+    "topic": "Economics & Society",
+    "collection": "economics-society",
+    "group": "Foundations & measurement",
+    "takeaway": "Keep stocks, flows, prices and quantities distinct; a convenient equation is not automatically a valid identity.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "economic-foundations",
+      "economic-inequality-development",
+      "economic-models-evidence"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Measure the right object",
+        "headers": [
+          "Object",
+          "Example",
+          "Common confusion"
+        ],
+        "rows": [
+          [
+            "Flow over a period",
+            "GDP, income, GFCF",
+            "Comparing with a stock without a time dimension"
+          ],
+          [
+            "Stock at a date",
+            "Credit outstanding, wealth",
+            "Treating it as annual output"
+          ],
+          [
+            "Price or conversion",
+            "Price index, PPP conversion",
+            "Treating it as a quantity"
+          ],
+          [
+            "Distribution",
+            "Income or wealth Gini",
+            "Assuming a mean describes everyone"
+          ]
+        ],
+        "note": "Define period, population, valuation and unit before comparing measures."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 30,
+        "end": 32,
+        "heading": "Gini: name the distribution",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "A Gini coefficient summarizes inequality in a specified distribution. Income and wealth Ginis are different measures; specify population, date and whether income is before or after taxes and transfers. One number does not identify the causes of inequality."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 211,
+        "end": 219,
+        "heading": "Money identities and the investment ratio",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "The chain “GDP = MV = PT = CV” is not a valid general identity. Nominal GDP counts final domestic production; a transactions aggregate can include transactions outside GDP. Credit outstanding is a stock and cannot simply replace money in an identity using the same velocity.",
+            "With consistently defined aggregates, MV = PY is a nominal-income identity, where Y is real output and P its price level. An identity alone does not prove that money growth causes proportional inflation. GFCF divided by GDP is an investment share when period, currency and valuation are consistent."
+          ],
+          "references": [
+            {
+              "title": "IMF: money, prices and monetarism",
+              "url": "https://www.imf.org/external/pubs/ft/fandd/basics/16_monetarism.htm"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 225,
+        "end": 227,
+        "heading": "Quantity equation versus Fisher interest relationship",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "The source calls a quantity equation the “Fisher identity” and equates transaction volume with GDP. Keep the quantity relationship separate from the Fisher relationship between nominal interest, real interest and expected inflation; the approximate rate relation is i ≈ r + expected inflation, not the money-times-velocity equation."
+          ],
+          "references": [
+            {
+              "title": "IMF: money, prices and monetarism",
+              "url": "https://www.imf.org/external/pubs/ft/fandd/basics/16_monetarism.htm"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 231,
+        "end": 235,
+        "heading": "Progress measures and purchasing power parity",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "GPI supplements or adjusts conventional output accounting; the source supplies no specification or data series. Purchasing power parity compares currencies using the prices of a comparable basket. A PPP conversion differs from a market exchange rate; choose the conversion appropriate to the comparison."
+          ],
+          "references": [
+            {
+              "title": "IMF: purchasing power parity",
+              "url": "https://www.imf.org/external/pubs/ft/fandd/basics/pdf/callen-purchasing-power-parity.pdf"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "money-banking-policy",
+    "title": "Money and banking: policy tools, crises and distribution",
+    "summary": "Follow the differences between creating money, lending liquidity, rescuing institutions and changing incentives.",
+    "topic": "Economics & Society",
+    "collection": "economics-society",
+    "group": "Money, banking & policy",
+    "takeaway": "Liquidity, solvency, asset purchases and fiscal support address different problems.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "banking-institutions-history",
+      "economic-cycles",
+      "housing-finance-singapore"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Which problem does the tool address?",
+        "headers": [
+          "Tool",
+          "Immediate purpose",
+          "Important distinction"
+        ],
+        "rows": [
+          [
+            "Liquidity lending",
+            "Provide funding against eligible terms",
+            "Liquidity does not guarantee solvency"
+          ],
+          [
+            "Asset purchases",
+            "Change central-bank assets and financial conditions",
+            "QE is not every type of money creation"
+          ],
+          [
+            "Bailout support",
+            "Support an institution or sector in distress",
+            "A debt transfer alone is not a rescue"
+          ],
+          [
+            "Corrective tax",
+            "Change incentives around external harm",
+            "A real tax need not equal measured marginal damage"
+          ]
+        ],
+        "note": "Mechanisms are simplified and depend on the institution and programme."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 11,
+        "end": 15,
+        "heading": "Seigniorage and corrective taxation",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Seigniorage concerns the economic benefit from issuing money; “note versus face value” omits production cost, interest and institutional accounting. Pigouvian taxation targets an external cost. A sugar or tobacco tax is not automatically set equal to an accurately measured marginal harm."
+          ],
+          "references": [
+            {
+              "title": "IMF: money, prices and monetarism",
+              "url": "https://www.imf.org/external/pubs/ft/fandd/basics/16_monetarism.htm"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 17,
+        "end": 23,
+        "heading": "Shadow banking, lender of last resort and QE",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Non-bank financial intermediation can create bank-like credit and liquidity risks without being identical to regulated deposit banking. Emergency lending supplies liquidity under particular eligibility, collateral and risk conditions; it does not automatically repair insolvency.",
+            "QE is central-bank asset purchasing that changes balance sheets and financial conditions. It is more specific than “introducing new money.” Negative policy rates do not mean every household pays a negative rate on every deposit."
+          ],
+          "references": [
+            {
+              "title": "ECB: how asset purchases work",
+              "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/show-me/html/app_infographic.en.html"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 26,
+        "end": 28,
+        "heading": "A bailout is not simply a new creditor",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "A bailout supplies support to an institution or sector in distress; it can involve loans, guarantees, capital or other measures. Refinancing or transferring a debt to a new creditor is not by itself a bailout."
+          ],
+          "references": [
+            {
+              "title": "BIS: history of the Basel Committee",
+              "url": "https://www.bis.org/committees/bcbs/history"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 322,
+        "end": 326,
+        "heading": "Say and Gresham: propositions with conditions",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Say’s law is a historical proposition about production, income and demand, not a guarantee that each product will sell. Gresham’s mechanism concerns competing monies under a constrained exchange valuation; avoid applying “bad drives out good” to every market."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 342,
+        "end": 344,
+        "heading": "The Triffin dilemma",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "A reserve-currency issuer can face tension between domestic objectives and international demand for reserve assets. This is a structural dilemma, not a dated exchange-rate forecast."
+          ],
+          "references": [
+            {
+              "title": "IMF: money, prices and monetarism",
+              "url": "https://www.imf.org/external/pubs/ft/fandd/basics/16_monetarism.htm"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 346,
+        "end": 348,
+        "heading": "Who receives new money first?",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "The Cantillon effect names distributional effects associated with how money enters an economy. The incidence depends on transmission channels and behaviour; proximity to a central bank is not a sufficient empirical measure."
+          ],
+          "references": [
+            {
+              "title": "IMF: money, prices and monetarism",
+              "url": "https://www.imf.org/external/pubs/ft/fandd/basics/16_monetarism.htm"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 378,
+        "end": 395,
+        "heading": "Money, regulation and the business cycle",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "The source’s “government law,” “money law” and “banking law” labels are topic headings, not named universal laws. They cover public authority, currency, interest rates, bank regulation, saving and the possible short-run real effects of money.",
+            "Public ownership does not guarantee bank stability. Saving and spending are connected through income and investment rather than an unchanging ideal balance. Business fluctuations need not repeat at fixed intervals. The fused interest-rate sentence is preserved below with the rest of the source wording."
+          ],
+          "references": [
+            {
+              "title": "IMF: money, prices and monetarism",
+              "url": "https://www.imf.org/external/pubs/ft/fandd/basics/16_monetarism.htm"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "economic-cycles",
+    "title": "Economic cycles: mechanisms, hypotheses and misleading clocks",
+    "summary": "Compare credit, investment, innovation and confidence explanations without treating suggested periods as predictions.",
+    "topic": "Economics & Society",
+    "collection": "economics-society",
+    "group": "Cycles & instability",
+    "takeaway": "A plausible feedback mechanism deserves investigation; a named period is not a forecast clock.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "money-banking-policy",
+      "property-market-analysis",
+      "investment-behavior-returns"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "A possible debt-deflation feedback loop",
+        "headers": [
+          "Mechanism",
+          "Effect"
+        ],
+        "rows": [
+          [
+            "Distress selling",
+            "Asset values and collateral can fall"
+          ],
+          [
+            "Falling prices",
+            "A fixed nominal debt becomes harder to repay"
+          ],
+          [
+            "Balance-sheet stress",
+            "Borrowers and lenders cut spending or credit"
+          ],
+          [
+            "Weaker demand",
+            "Output and prices may fall further"
+          ]
+        ],
+        "note": "Conceptual feedback loop, not a forecast or a claim that every downturn follows the same path."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 35,
+        "end": 47,
+        "heading": "Named cycles and their limits",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Kondratieff, Kuznets, Juglar and Kitchin refer to proposed fluctuations at different horizons. The quoted periods are historical labels, not reliable timers. The 18-year property claim is attributed in the notes to Phillip J. Anderson without a citation; no forecast is established. “Humanity” scenarios are an unattributed taxonomy, not measured business-cycle evidence."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 235,
+        "end": 256,
+        "heading": "Ten proposed sources of fluctuations",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Despite its “Microeconomy” heading, this source section discusses economy-wide fluctuations: weather, expectations, sentiment, innovation, saving/investment, construction, excess production, credit, income distribution and profits. These are competing or interacting mechanisms. Weather shocks are not proof of a deterministic sunspot cycle; the final quotation has no source attribution."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 267,
+        "end": 285,
+        "heading": "Debt deflation and a mixed list of outcomes",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "The coherent debt-deflation chain is: distress selling, repayment and contracting credit, falling prices, heavier real debt burdens, weaker balance sheets and output, then worsening confidence. It is a feedback mechanism rather than an inevitable sequence.",
+            "The remaining notes mix bear markets, worker shortages, trading descriptions and political labels. Worker shortages do not follow necessarily from debt deflation; recession does not imply nationalisation or communism. “Vulnerable and buyable” has no valuation method or decision rule."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "economic-schools-thinkers",
+    "title": "Economic schools and thinkers: a comparative reading map",
+    "summary": "Separate schools of explanation from mnemonic labels and incomplete historical attributions.",
+    "topic": "Economics & Society",
+    "collection": "economics-society",
+    "group": "Ideas, institutions & history",
+    "takeaway": "Compare the question and assumptions of each school rather than choosing a slogan as a universal answer.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "economic-production-prices",
+      "political-economic-systems",
+      "economic-models-evidence"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Compare schools by their emphasis",
+        "headers": [
+          "Lens",
+          "Question to explore"
+        ],
+        "rows": [
+          [
+            "Classical / neoclassical",
+            "How do markets coordinate production and choices?"
+          ],
+          [
+            "Marxist / institutionalist",
+            "How do ownership, power and institutions shape outcomes?"
+          ],
+          [
+            "Keynesian",
+            "What stabilizes demand and employment?"
+          ],
+          [
+            "Schumpeterian / developmentalist",
+            "How do innovation and development transform production?"
+          ],
+          [
+            "Austrian / behavioural",
+            "What are the limits of central knowledge or individual rationality?"
+          ]
+        ],
+        "note": "Grouped prompts, not a claim that paired schools agree. Full source definitions remain in the detail."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 67,
+        "end": 76,
+        "heading": "An unattributed philosophical grouping",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "The optimistic/pessimistic and definite/indefinite pairings are preserved as a supplied classification. No author, rationale or primary text is given for assigning these philosophers to the four cells; this is not presented as an established history-of-philosophy taxonomy."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 76,
+        "end": 94,
+        "heading": "Nine schools at a glance",
+        "pairs": true
+      },
+      {
+        "document": "Economics.docx",
+        "start": 166,
+        "end": 185,
+        "heading": "Thinkers: correct the spelling and the attribution",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Read “Thomas Robert Maithus” as Thomas Robert Malthus and “Frederick Hoyak” as Friedrich Hayek. These are editorial identification corrections. The Manifesto was coauthored by Marx and Engels. Nash is central to equilibrium theory, but the prisoner’s dilemma was not originated by Nash. Slogans such as “show me the money” are memory aids, not book titles or quotations. The source’s “Behaviourist” school description is closer to behavioural economics than to the distinct psychology school of behaviourism."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "political-economic-systems",
+    "title": "Political and economic systems: power, ownership and ideology",
+    "summary": "Organize terms by what they describe, rather than treating every label as a form of government.",
+    "topic": "Economics & Society",
+    "collection": "economics-society",
+    "group": "Ideas, institutions & history",
+    "takeaway": "Power, ownership, ideology and conduct are different dimensions of a society.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "economic-schools-thinkers",
+      "economic-inequality-development"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Ask what a label classifies",
+        "headers": [
+          "Question",
+          "Examples"
+        ],
+        "rows": [
+          [
+            "Who exercises power?",
+            "Democracy, oligarchy, aristocracy"
+          ],
+          [
+            "Who owns or coordinates production?",
+            "Capitalism, socialism"
+          ],
+          [
+            "Which political project or tradition?",
+            "Liberalism, nationalism, anarchism"
+          ],
+          [
+            "Which practice or historical pattern?",
+            "Nepotism, cronyism, McCarthyism"
+          ]
+        ],
+        "note": "These dimensions overlap; the table is a reading aid, not a claim that institutions fit into exclusive boxes."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 94,
+        "end": 105,
+        "heading": "Who holds power?",
+        "pairs": true,
+        "skip": 1
+      },
+      {
+        "document": "Economics.docx",
+        "start": 105,
+        "end": 111,
+        "heading": "Ownership and concentrations of influence",
+        "pairs": true
+      },
+      {
+        "document": "Economics.docx",
+        "start": 111,
+        "end": 129,
+        "heading": "Economic systems and political traditions",
+        "pairs": true
+      },
+      {
+        "document": "Economics.docx",
+        "start": 129,
+        "end": 139,
+        "heading": "Philosophy, favouritism and historical repression",
+        "pairs": true
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "Keep the categories distinct",
+        "paragraphs": [
+          "Capitalism and socialism concern ownership and coordination; democracy and oligarchy concern the distribution of political power. An economy can combine institutions from several categories. Meritocracy is an ideal of selection and advancement, not a complete constitution.",
+          "The concise definitions are study prompts. Socialism includes traditions beyond state ownership; communism’s theoretical end state differs from states historically ruled by communist parties. Nihilism is a family of philosophical positions, not one universal denial of every value. Contractarianism concerns justification through agreement, not a guarantee that hypothetical choices are always right. Cronyism and nepotism describe practices; McCarthyism names a historical campaign and its associated methods."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "economic-inequality-development",
+    "title": "Trade, development and inequality",
+    "summary": "Connect cross-border exchange, urban change and competing explanations of unequal outcomes.",
+    "topic": "Economics & Society",
+    "collection": "economics-society",
+    "group": "Trade, development & inequality",
+    "takeaway": "Trade and development change the size and distribution of gains; neither can be read from one aggregate.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "global-market-entry",
+      "global-marketing-adaptation",
+      "economic-measurement"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 8,
+        "end": 10,
+        "heading": "Trade barriers",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Tariffs, quotas and subsidies change prices and incentives in different ways. Identify the affected goods, trading partners and policy objective before calling a measure a barrier or judging its distributional effects."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 139,
+        "end": 166,
+        "heading": "Thirteen processes of social and economic change",
+        "pairs": true,
+        "skip": 1
+      },
+      {
+        "document": "Economics.docx",
+        "start": 285,
+        "end": 290,
+        "heading": "Gravity and factor endowments",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "The gravity model relates bilateral trade to economic size and trade frictions, often proxied partly by distance. Heckscher–Ohlin emphasizes relative factor abundance under model assumptions; neither statement predicts each country’s exports without qualification."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 298,
+        "end": 300,
+        "heading": "The Leontief paradox",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "The historical finding challenged a simple factor-endowment prediction for US trade under the measurement and assumptions used. It is a test of a model in a setting, not proof that endowments never matter."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 304,
+        "end": 312,
+        "heading": "Demand similarity, inequality and mercantilism",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Linder emphasizes overlapping demand as a possible trade explanation. The Kuznets inequality hypothesis is distinct from the Kuznets cycle. Piketty’s r > g relationship is a mechanism to examine, not a sufficient law of inevitable inequality: taxation, saving, institutions and shocks also matter. Mercantilism describes an orientation to trade and state power; a trade surplus alone is not a complete welfare measure."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 370,
+        "end": 372,
+        "heading": "Equality is a question to specify",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "“Equality and inequality law” names a subject, not an established equation. Specify equality of what—income, wealth, opportunity, rights or outcomes—before choosing a measure or evaluating a policy."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "banking-institutions-history",
+    "title": "Banking institutions and economic history: a dated reading guide",
+    "summary": "Put Basel standards, monetary arrangements and crisis episodes in their historical context.",
+    "topic": "Economics & Society",
+    "collection": "economics-society",
+    "group": "Ideas, institutions & history",
+    "takeaway": "Date the institution, framework and episode separately: 1974 is not the date of Basel I.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "money-banking-policy",
+      "economic-schools-thinkers"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 47,
+        "end": 49,
+        "heading": "The Opium Wars and Hong Kong",
+        "review": {
+          "status": "Incomplete historical prompt",
+          "paragraphs": [
+            "The two-line note is an incomplete historical prompt. Trade, coercion and imperial power require a fuller account than “a trade war”; the document supplies no dates, treaty text or citation. The strategic-port statement is retained without pretending this is a complete causal history."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 49,
+        "end": 57,
+        "heading": "Basel standards and European supervision",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "1974 refers to the Basel Committee’s establishment, whereas Basel I was released in 1988. Basel II’s three pillars and Basel III’s post-crisis reforms belong to successive frameworks. The “130 biggest banks” note is historical, not a current count of ECB-supervised institutions."
+          ],
+          "references": [
+            {
+              "title": "BIS: history of the Basel Committee",
+              "url": "https://www.bis.org/committees/bcbs/history"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 57,
+        "end": 67,
+        "heading": "A timeline of policy responses and institutions",
+        "review": {
+          "status": "Historical notes; context incomplete",
+          "paragraphs": [
+            "The Powell memorandum, Roosevelt’s programmes, Hamilton’s debt plan, Bretton Woods and LTCM are distinct historical topics, not one causal sequence. The source gives only memory prompts; its LTCM entry identifies the 1998 crisis. Hamilton’s funding and assumption proposals should not collapse all federal and state obligations into one category. No missing quotations or programme details have been invented."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "economic-production-prices",
+    "title": "Production, prices and the limits of economic “laws”",
+    "summary": "Read output, costs, incentives and coordination as conditional relationships rather than slogans.",
+    "topic": "Economics & Society",
+    "collection": "economics-society",
+    "group": "Foundations & measurement",
+    "takeaway": "Ask what is held fixed and where a relationship applies before calling it a law.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "price-elasticity",
+      "theory-of-constraints",
+      "economic-schools-thinkers"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 209,
+        "end": 211,
+        "heading": "The Laffer curve does not identify a tax rate",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "The curve proposes a relationship between a tax rate and receipts under particular behavioural assumptions. It does not establish the revenue-maximizing rate for a real tax base without evidence."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 328,
+        "end": 330,
+        "heading": "Substitution is not a named universal law",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "The “law of replacement” is an unattributed label. Scarcity or higher relative prices can encourage substitution, but technical constraints, switching costs and preferences can prevent it. No missing theorem is inferred."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 336,
+        "end": 340,
+        "heading": "Trade-offs and the Lindy heuristic",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "The free-lunch observation highlights opportunity costs, not a claim that every free service hides fraud. Lindy is a survival heuristic sometimes applied to non-perishable things; it is not a general lifespan formula for people, firms or products."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 344,
+        "end": 346,
+        "heading": "Diminishing marginal returns",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "This is a conditional production relationship: change one input while relevant others are fixed. It differs from returns to scale, where inputs change together."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 362,
+        "end": 370,
+        "heading": "Sustainability, contribution and profit",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "“Sustainability law” and “profit law” are informal headings. Profit depends on how revenue and costs are defined. Price’s law is a contribution-concentration heuristic, not a universal workforce quota. Wages can reduce profit with everything else fixed, but productivity, demand and prices can also change; wages and profit are not inevitably inversely related."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 372,
+        "end": 378,
+        "heading": "Prices, specialization and calculation",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "The notes summarize an argument for decentralized price coordination. Market power, externalities, public goods and information problems qualify simple efficiency claims. The non-market calculation debate is a debate about information and allocation, not a proved impossibility of every public decision."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "economic-models-evidence",
+    "title": "Economic models and evidence: distributions, regression and assumptions",
+    "summary": "Know what a statistical tool can establish and which source entries are only labels.",
+    "topic": "Economics & Society",
+    "collection": "economics-society",
+    "group": "Methods & evidence",
+    "takeaway": "Identify the model, data-generating assumptions and missing definitions before estimating a result.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "ai-math-statistics",
+      "ai-probability-distributions",
+      "ai-regression-diagnostics",
+      "critical-thinking-questions",
+      "structured-debt-contracts"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "kind": "flow",
+        "title": "A claim-to-evidence reading sequence",
+        "headers": [],
+        "rows": [
+          [
+            "Define the claim and outcome"
+          ],
+          [
+            "Identify the model and assumptions"
+          ],
+          [
+            "Check units, sample and measurement"
+          ],
+          [
+            "Compare alternative explanations"
+          ],
+          [
+            "Report uncertainty and limits"
+          ]
+        ],
+        "note": "A reasoning sequence, not a mechanical guarantee of causal identification."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 187,
+        "end": 192,
+        "heading": "SUR and GLS: identify the estimation problem",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "SUR jointly models multiple regression equations and can exploit correlated errors across equations. GLS accounts for a specified error covariance structure; “estimate unknown parameters” alone does not distinguish it from other estimators. Neither method removes confounding automatically."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 198,
+        "end": 202,
+        "heading": "Tails, normal distributions and missing symbols",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "A long tail describes a distribution with many low-frequency values; it does not imply the distribution is normal. Bell curve and Gaussian normal distribution refer here to the same family. The source omits the parameter symbols: for a normal distribution, μ denotes the mean and σ the standard deviation."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 227,
+        "end": 231,
+        "heading": "DSGE and Arrow–Debreu",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "DSGE models combine dynamic decisions, stochastic shocks and equilibrium conditions. Results depend on specification and identification. Arrow–Debreu’s general-equilibrium framework requires conditions for existence and welfare results; the mere presence of contingent contracts does not ensure every real market is complete or efficient."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 326,
+        "end": 328,
+        "heading": "Large numbers do not cure bad sampling",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "A law of large numbers gives convergence results under specified conditions. More observations do not automatically repair biased collection, dependence or an undefined expectation."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 360,
+        "end": 362,
+        "heading": "Analysis is a practice, not a universal law",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "The “analytics law” entry advocates systematic analysis but supplies no named result or evidence. Use data quality checks, competing explanations and uncertainty estimates instead of treating analysis as a guarantee."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 411,
+        "end": 416,
+        "heading": "A small mathematics index",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "School, applied, pure and abstract mathematics are bare labels in the source. No syllabus, worked examples or additional content is present; the related statistics readings supply a useful next step without fabricating missing lessons."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 204,
+        "end": 206,
+        "heading": "Gaussian and bell-curve terminology",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "The truncated “Gaussian normal distributio” and “Bell curve” labels refer here to the same normal-distribution family, not a separate measurement method."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "intangible-asset-accounting",
+    "appendTo": "intangible-asset-accounting",
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 6,
+        "end": 8,
+        "heading": "Economic properties versus recognition rules",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Scalability, sunk investment, spillovers and synergies describe economic characteristics of intangible investment. Uncertainty and contested ownership affect value. These characteristics alone do not satisfy accounting recognition criteria; use the recognition guidance above."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      }
+    ],
+    "notes": [],
+    "related": [
+      "economic-foundations"
+    ],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "structured-debt-contracts",
+    "appendTo": "structured-debt-contracts",
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 10,
+        "end": 11,
+        "heading": "Interest-rate swaps: evaluate the actual contract",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "A swap exchanges specified cash flows, often fixed and floating rates. It can hedge or add risk depending on exposure, pricing, collateral and terms; the source’s “usually disadvantageous” claim has no supporting comparison."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 206,
+        "end": 209,
+        "heading": "Yield-curve shifts and cash-flow timing",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Non-parallel shifts change yields by different amounts across maturities. Discounted future cash flow is not the same as a time-weighted investment return. “Time-weighted cash flows” has no definition in the supplied note, so its intended measure remains unresolved."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 202,
+        "end": 204,
+        "heading": "Zero-coupon curve",
+        "review": {
+          "status": "Name supplied; no calculation specified",
+          "paragraphs": [
+            "A zero-coupon or spot curve describes rates for single future cash flows at different maturities. The source supplies two names only, with no market observations or curve-construction method."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      }
+    ],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "hr-operating-model",
+    "appendTo": "hr-operating-model",
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 28,
+        "end": 30,
+        "heading": "Taylorism as a historical approach",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Scientific management studies and standardizes work. The source supplies a brief identification, not an endorsement or a complete account of worker effects."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 185,
+        "end": 187,
+        "heading": "Theory Z: commitment and organizational conditions",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Ouchi’s Theory Z is an organizational approach, not an economic equation or a guarantee that advancement motivates every employee. The note emphasizes commitment and opportunity; compare those conditions with the people systems in this guide."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 292,
+        "end": 294,
+        "heading": "Gilbert’s Behaviour Engineering Model",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "The six factors distinguish environmental supports—information, resources and incentives—from individual knowledge, capacity and motivation. Diagnose missing support before blaming motivation; this is distinct from the unrelated “Gilbert’s law” claim in the technology notes."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      }
+    ],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "portfolio-strategies",
+    "appendTo": "portfolio-strategies",
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 192,
+        "end": 196,
+        "heading": "Capitalization weighting and the critical line algorithm",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Capitalization weighting sets component weights in proportion to defined market capitalizations, sometimes free-float adjusted. “WACW” is not established by the source as a standard acronym. The critical line algorithm traces a constrained mean–variance efficient frontier; choosing a maximum-Sharpe portfolio is a further selection problem."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 219,
+        "end": 223,
+        "heading": "Momentum and CAPE need explicit definitions",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Compounding a sequence of simple returns uses product(1 + return) − 1, with returns expressed as decimals. A 12-month signal needs precise dates and any skip period; “higher is better” is not a risk-adjusted recommendation. CAPE compares price with a multi-year average of inflation-adjusted earnings, commonly ten years; it is not restricted to US markets."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      }
+    ],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "investment-risk-measures",
+    "appendTo": "investment-risk-measures",
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 223,
+        "end": 225,
+        "heading": "Convexity and yield curves",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Bond convexity describes curvature in the price–yield relationship. The label alone does not specify a calculation, cash-flow convention or units; it should not be substituted for duration or used as a guaranteed return predictor."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      }
+    ],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "investment-concepts-models",
+    "appendTo": "investment-concepts-models",
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 294,
+        "end": 298,
+        "heading": "Fama–French and Carhart factor models",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "The three-factor model adds size and value factors to market exposure; Carhart adds momentum. These are empirical return models with implementation choices, not a guarantee that every market or period exhibits a positive factor premium."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      }
+    ],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "investment-behavior-returns",
+    "appendTo": "investment-behavior-returns",
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 334,
+        "end": 336,
+        "heading": "The Super Bowl market story",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "This is a spurious-correlation warning, not a forecasting rule. Team identity has no investment mechanism established by the note; data mining and out-of-sample failure must be considered."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 348,
+        "end": 360,
+        "heading": "Calendar and announcement anomalies",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Time-of-day, weekday, month-turn, holiday and late-reporting patterns are hypotheses requiring a defined dataset, period, market, costs and out-of-sample checks. The stated last-two/first-three-day window is source wording, not a current reliable trading signal. “Weekend reporting causes” is stronger than the evidence supplied."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      }
+    ],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "clear-communication",
+    "appendTo": "clear-communication",
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 196,
+        "end": 198,
+        "heading": "The Allen curve and physical distance",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "The note concerns communication frequency among engineers versus distance. Its historical observation should prompt review of team coordination; it is not a universal quantitative law for all remote or hybrid work."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 419,
+        "end": 421,
+        "heading": "The Golden Circle as a communication prompt",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Why, how and what can help organize a message around purpose, method and offer. This is a communication heuristic, not evidence that one speaking order guarantees influence."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      }
+    ],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "business-model-canvas",
+    "appendTo": "business-model-canvas",
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 256,
+        "end": 267,
+        "heading": "Nine digital business-model families",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Merchant/brokerage, community, infomediary, affiliate, advertising, direct manufacturer, subscription, utility and freemium describe different aspects of value delivery and revenue. They can coexist: freemium can acquire users for subscriptions, while an information intermediary may charge fees or sell advertising. The source supplies names, not unit economics or implementation playbooks."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      }
+    ],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "change-problem-types",
+    "appendTo": "change-problem-types",
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 290,
+        "end": 292,
+        "heading": "Cynefin: classify the situation before acting",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "The notes use the older “simple” and “disorder” labels. Treat the framework as a sense-making aid; the distinction between knowable cause-and-effect and emergent complexity matters more than forcing every situation into a permanent box."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      }
+    ],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "leadership-behaviors",
+    "appendTo": "leadership-behaviors",
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 300,
+        "end": 304,
+        "heading": "Stockdale and the paradox of progress",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Stockdale is a leadership framing: confront present difficulties while sustaining commitment. “Paradox of progress” is a broad observation about unintended consequences, not a single identified theorem. Neither entry supplies a measurement instrument."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 340,
+        "end": 342,
+        "heading": "Positive interaction ratios: a disputed claim",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "A universal positivity-ratio threshold is not established by the supplied sentence. Published mathematical criticism challenges the nonlinear-dynamics basis of the famous critical-ratio claim. This does not imply that respectful feedback has no value."
+          ],
+          "references": [
+            {
+              "title": "Brown, Sokal and Friedman: critique of critical positivity ratios",
+              "url": "https://arxiv.org/abs/1307.7006"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 409,
+        "end": 411,
+        "heading": "The Dilbert Principle is satire",
+        "review": {
+          "status": "Source claim placed in context",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The note describes a satirical claim about incompetent employees being promoted. Read it as workplace commentary, not an evidence-based promotion policy, a diagnosis of an individual colleague or a recommendation to reward poor performance."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "theory-of-constraints",
+    "appendTo": "theory-of-constraints",
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 320,
+        "end": 322,
+        "heading": "Liebig’s limiting-factor analogy",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Liebig’s law concerns limiting nutrients in its original context. Applied to organizations it is an analogy for constraints, not evidence that one factor always explains every system’s performance."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      }
+    ],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "organizational-culture",
+    "appendTo": "organizational-culture",
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 330,
+        "end": 334,
+        "heading": "Jante and observation effects",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Jante refers to a cultural/literary framing of conformity and modesty; do not apply it as a stereotype to every member of a society. The Hawthorne effect is an observation-related behaviour-change hypothesis; it is not proof that observation always increases productivity."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 416,
+        "end": 419,
+        "heading": "Onion models: culture beneath visible practice",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Layers distinguish visible expressions from deeper assumptions or values. Several culture models use an onion analogy; the source does not identify an author or a complete layer sequence, so none is invented."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      }
+    ],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "critical-thinking-questions",
+    "appendTo": "critical-thinking-questions",
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 421,
+        "end": 423,
+        "heading": "Occam’s razor: compare assumptions, then evidence",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Prefer an explanation with fewer unnecessary assumptions when explanations account for the evidence comparably well. Simplicity alone does not make an explanation true."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 429,
+        "end": 433,
+        "heading": "Personalization and selective patterns",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "The Barnum/Forer effect concerns accepting general statements as personally specific. The Texas sharpshooter analogy warns against selecting the pattern after seeing the outcomes. Ask what would disconfirm the claim and which observations were omitted."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 435,
+        "end": 443,
+        "heading": "Metaphors, decision restraint and choice time",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Ripple and octopus are metaphors for spreading consequences and influence, with no identified theory in the source. “Falkland’s Law” is an unattributed decision proverb. Hick’s law concerns a conditional relationship between choice information and response time in tasks; it does not mean every additional menu item inevitably causes the same delay."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      }
+    ],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "metaphysics-consciousness",
+    "appendTo": "metaphysics-consciousness",
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 423,
+        "end": 429,
+        "heading": "Vibration, three forces and seven stages",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "These are spiritual or metaphysical propositions in the supplied notes. No author, tradition or evidence is identified, and a literal universal seven-stage process is not established. Physical vibration does not validate every spiritual-frequency claim; do not present these statements as physics."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      }
+    ],
+    "notes": [],
+    "related": [
+      "economic-models-evidence"
+    ],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "personal-productivity",
+    "appendTo": "personal-productivity",
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 433,
+        "end": 435,
+        "heading": "Unfinished tasks and memory",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "The Zeigarnik effect is a context-dependent memory finding, not a guarantee that every unfinished task will be remembered better. External capture is still useful when a task matters."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 403,
+        "end": 405,
+        "heading": "Writing tasks down: an unattributed saying",
+        "review": {
+          "status": "Source claim placed in context",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The “Jidelim Law” label has no author or primary reference in the document. Writing tasks down can support external capture and prioritization, but “half the battle” is a proverb rather than a measured 50% performance claim."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 407,
+        "end": 409,
+        "heading": "Information before money: a proverb without a model",
+        "review": {
+          "status": "Source claim placed in context",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The “Walson’s law” attribution is unverified. Prioritizing useful information can improve decisions, but intelligence alone does not ensure revenue or profit. The source provides no conditions or evidence for a guaranteed monetary result."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "technology-scaling-heuristics",
+    "title": "Technology scaling: networks, speed, learning and organization",
+    "summary": "Compare useful scaling models with loosely attributed “laws” and workplace satire.",
+    "topic": "Technology",
+    "collection": "technology",
+    "group": "Models & software engineering",
+    "takeaway": "Potential connections, transistor counts and parallel speedup measure different things.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "economic-models-evidence",
+      "personal-productivity",
+      "theory-of-constraints"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 314,
+        "end": 320,
+        "heading": "Network-value heuristics",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Sarnoff, Metcalfe and Reed use different proxies for network value—audience, potential pairwise links and possible groups. Counting potential connections does not measure realized economic value; activity, costs and diminishing relevance matter."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 395,
+        "end": 403,
+        "heading": "Hardware, parallelism, learning and organizational design",
+        "review": {
+          "status": "Concept clarified",
+          "paragraphs": [
+            "Moore’s observation concerns transistor scaling; it does not promise a doubling of useful application speed. Amdahl’s model limits speedup when a serial share remains. Wright’s learning relationship concerns unit cost and cumulative production, rather than elapsed time alone. Conway connects communication structures with system design."
+          ],
+          "references": [],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Economics.docx",
+        "start": 405,
+        "end": 407,
+        "heading": "A poorly attributed system-complexity claim",
+        "review": {
+          "status": "Unverified attribution and model",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The source’s inverse-components “Gilbert’s law” claim has no provenance, definition of quality or supporting model. Fewer components can reduce coordination costs but can also hide complexity or remove necessary capability; no universal inverse law is established. This is not Gilbert’s Behaviour Engineering Model."
+          ],
+          "references": []
+        }
+      }
+    ]
+  },
+  {
+    "slug": "singapore-property-planning",
+    "title": "Singapore land and planning: identify the site before using a number",
+    "summary": "Read planning controls, use restrictions, plot ratio and land charges in their proper scope.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Land, planning & ownership",
+    "takeaway": "A plot ratio or property label never replaces the site’s applicable planning conditions.",
+    "steps": [],
+    "notes": [
+      "Singapore scope. Reviewed on 6 November 2026; transaction date, property type, citizenship, tenure and scheme can change the applicable rule. Historical figures and unverified statements are retained in the original-note disclosures, not offered as current instructions."
+    ],
+    "related": [
+      "singapore-land-title",
+      "singapore-property-development",
+      "property-market-analysis",
+      "real-world-assets"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "kind": "flow",
+        "title": "Site checks before design",
+        "headers": [],
+        "rows": [
+          [
+            "Identify the lot, title and tenure"
+          ],
+          [
+            "Check zoning, use and site-specific controls"
+          ],
+          [
+            "Assess GFA, envelope and conservation restrictions"
+          ],
+          [
+            "Identify charges and approval routes"
+          ],
+          [
+            "Confirm permissions before treating a proposal as buildable"
+          ]
+        ],
+        "note": "Planning, land rights and charges are connected but separate approvals."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 0,
+        "end": 7,
+        "heading": "Site identity, property rights and building envelopes",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "The ministry list is a source filing system, not a sequence of approvals. Ownership can involve land, buildings, airspace and subterranean interests, but the title and legislation define the actual rights. The claims about 58 sites and universal 12 m/15.5 m heights are unverified; check the site’s planning controls rather than treating them as general rules."
+          ],
+          "references": [
+            {
+              "title": "URA: residential development control handbooks",
+              "url": "https://www.ura.gov.sg/guidelines/development-control/development-control-handbooks/residential/"
+            },
+            {
+              "title": "SLA: property ownership",
+              "url": "https://www.sla.gov.sg/regulatory/property-ownership/"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Real Estate.docx",
+        "start": 7,
+        "end": 19,
+        "heading": "Housing types and dimensional controls",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "URA distinguishes GCBs, detached, semi-detached, terrace, strata-landed and apartment developments. Its landed controls include plot-size and width conditions: the notes’ 1,400 m²/18.5 m GCB, 400 m²/10 m detached and 200 m²/8 m semi-detached figures have recognizable contexts. They do not validate every coverage, height or property-size claim in this list. Shoebox and SOHO are not universal statutory area classes; Sentosa, strata and redevelopment cases need their own controls."
+          ],
+          "references": [
+            {
+              "title": "URA: residential development control handbooks",
+              "url": "https://www.ura.gov.sg/guidelines/development-control/development-control-handbooks/residential/"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Real Estate.docx",
+        "start": 19,
+        "end": 26,
+        "heading": "Commercial uses, conservation and ancillary facilities",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "Retail aisle widths, home-office fees, clinic/canteen/childcare limits and conservation classifications are preserved as unverified reference notes. Permitted use, fire safety, conservation and ancillary-use rules are separate checks; a stated size is not an automatic permission."
+          ],
+          "references": [
+            {
+              "title": "URA: residential development control handbooks",
+              "url": "https://www.ura.gov.sg/guidelines/development-control/development-control-handbooks/residential/"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Real Estate.docx",
+        "start": 26,
+        "end": 34,
+        "heading": "GFA, redevelopment and land betterment",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "GFA relates to site area and applicable gross plot ratio, subject to the current definition, exclusions and planning approval. Plot ratio is not a guaranteed storey entitlement. Reconstruction/A&A thresholds and loft treatment require the applicable handbook. Land Betterment Charge replaced Development Charge, Differential Premium and Temporary Development Levy from 1 August 2022; the old DP wording is historical. A TOL is not ownership or a guaranteed renewable tenancy."
+          ],
+          "references": [
+            {
+              "title": "URA: residential development control handbooks",
+              "url": "https://www.ura.gov.sg/guidelines/development-control/development-control-handbooks/residential/"
+            },
+            {
+              "title": "SLA: land betterment charge",
+              "url": "https://www.sla.gov.sg/properties/land-betterment-charge/"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Real Estate.docx",
+        "start": 135,
+        "end": 149,
+        "heading": "Plans, price regions and historical development charges",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "URA planning, developer controls and foreign-ownership approval are distinct functions. The Long-Term Plan and statutory Master Plan have different purposes; the old “Concept Plan” terminology and review intervals need their publication context. CCR/RCR/OCR and price indices are market-analysis classifications. The source’s development-charge arithmetic is not a current LBC assessment; check sector, use, baseline, valuation and effective rates."
+          ],
+          "references": [
+            {
+              "title": "URA: residential development control handbooks",
+              "url": "https://www.ura.gov.sg/guidelines/development-control/development-control-handbooks/residential/"
+            },
+            {
+              "title": "SLA: land betterment charge",
+              "url": "https://www.sla.gov.sg/properties/land-betterment-charge/"
+            },
+            {
+              "title": "URA: housing developers and prescribed contracts",
+              "url": "https://www.ura.gov.sg/guidelines/developers/housing-developers/"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "singapore-land-title",
+    "title": "Singapore title, tenure and property rights",
+    "summary": "Separate registered ownership, caveats, easements, mortgages and statutory acquisition.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Land, planning & ownership",
+    "takeaway": "A title, caveat, licence and mortgage create or protect different interests.",
+    "steps": [],
+    "notes": [
+      "Singapore scope. Reviewed on 6 November 2026; transaction date, property type, citizenship, tenure and scheme can change the applicable rule. Historical figures and unverified statements are retained in the original-note disclosures, not offered as current instructions."
+    ],
+    "related": [
+      "singapore-estate-ownership",
+      "singapore-collective-sales",
+      "singapore-conveyancing"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Four different questions about a property",
+        "headers": [
+          "Record or arrangement",
+          "Question"
+        ],
+        "rows": [
+          [
+            "Registered title",
+            "Who holds which registered estate or interest?"
+          ],
+          [
+            "Caveat",
+            "What claimed interest is being protected by notice?"
+          ],
+          [
+            "Lease or licence",
+            "What occupation or use is permitted, for how long?"
+          ],
+          [
+            "Mortgage",
+            "What security supports the debt and on what terms?"
+          ]
+        ],
+        "note": "An explanatory distinction; the actual register, instrument and law control each case."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 34,
+        "end": 45,
+        "heading": "Registration, tenure and acquisition",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "A registered-title system differs from deeds registration. The source conflates caveat rules with a deeds-system definition: a caveat is a notice protecting a claimed interest, not ownership, and its duration and lapsing depend on the Land Titles Act. Mirror/curtain/insurance are explanatory principles rather than a guarantee against every defect. Leasehold, life estates, freehold and accessory lots require the actual register; acquisition compensation is a statutory assessment, not an assured market quote."
+          ],
+          "references": [
+            {
+              "title": "Singapore Statutes Online: Land Titles Act",
+              "url": "https://sso.agc.gov.sg/Act/LTA1993?WholeDoc=1"
+            },
+            {
+              "title": "SLA: property ownership",
+              "url": "https://www.sla.gov.sg/regulatory/property-ownership/"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Real Estate.docx",
+        "start": 52,
+        "end": 62,
+        "heading": "Interests, fixtures and rights over neighbouring land",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "Distinguish legal/equitable interests, reversion, licences and proprietary rights. Fixture questions examine annexation and purpose. Easements and restrictive covenants have different functions; the source’s blanket 20-year/10-year-renewal statement is not verified as a universal rule. Creation, release, merger or court/statutory changes require the actual instrument and law. A statutory declaration does not itself transfer ownership."
+          ],
+          "references": [
+            {
+              "title": "Singapore Statutes Online: Land Titles Act",
+              "url": "https://sso.agc.gov.sg/Act/LTA1993?WholeDoc=1"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Real Estate.docx",
+        "start": 62,
+        "end": 65,
+        "heading": "Bankruptcy and mortgage roles",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "The source confuses a bankruptcy filing debt threshold with the Debt Repayment Scheme. DRS assessment uses a total-debt ceiling of S$150,000 and additional criteria, not “below S$15,000”; it is not automatic admission or discharge. A mortgagor is the borrower/security provider; a mortgagee is the secured lender. Redemption normally concerns the mortgagor’s right to discharge the mortgage. The source’s automatic discharge timeline is not current individualized advice."
+          ],
+          "references": [
+            {
+              "title": "Ministry of Law: Debt Repayment Scheme",
+              "url": "https://io.mlaw.gov.sg/debt-repayment-scheme/information-for-debtors/"
+            },
+            {
+              "title": "Singapore Statutes Online: Land Titles Act",
+              "url": "https://sso.agc.gov.sg/Act/LTA1993?WholeDoc=1"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "singapore-estate-ownership",
+    "title": "Owning property together: trusts, inheritance and decision authority",
+    "summary": "Distinguish co-ownership, estate administration, trusts and powers to act.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Land, planning & ownership",
+    "takeaway": "Who owns, who benefits and who can act are separate legal questions.",
+    "steps": [],
+    "notes": [
+      "Singapore scope. Reviewed on 6 November 2026; transaction date, property type, citizenship, tenure and scheme can change the applicable rule. Historical figures and unverified statements are retained in the original-note disclosures, not offered as current instructions."
+    ],
+    "related": [
+      "singapore-land-title",
+      "investment-funds-vehicles"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 65,
+        "end": 69,
+        "heading": "LPA, trusts and inheritance",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "An LPA concerns authority after loss of mental capacity; it is not a will. Inter vivos and testamentary trusts arise in different circumstances; probate, letters of administration, Public Trustee functions and bankruptcy administration are not interchangeable. Resulting and constructive trusts cannot be reduced to “non-legal holding” or fraud alone. MUIS describes a wasiat generally limited to one-third for non-faraid beneficiaries, subject to the applicable rules; the source’s shorthand is incomplete."
+          ],
+          "references": [
+            {
+              "title": "MoneySense: intestacy and estate planning",
+              "url": "https://www.moneysense.gov.sg/intestacy-what-if-you-don-t-have-an-estate-plan/"
+            },
+            {
+              "title": "MUIS: wasiat and Islamic legacy planning",
+              "url": "https://www.muis.gov.sg/get-help/islamic-legacy-planning/wasiat/"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Real Estate.docx",
+        "start": 69,
+        "end": 72,
+        "heading": "REITs, gifts and co-ownership",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "“REIT is not heterogeneity” has no clear meaning or supporting explanation; it remains unresolved. A REIT is an investment vehicle, so use the related investing guide rather than equating units with direct ownership of a home. Gifts can require formalities and may be contested; “irrevocable” is not a sufficient legal test. Joint tenancy and tenancy-in-common differ, including survivorship and shares; the four unities are not an identical requirement for both."
+          ],
+          "references": [
+            {
+              "title": "Singapore Statutes Online: Land Titles Act",
+              "url": "https://sso.agc.gov.sg/Act/LTA1993?WholeDoc=1"
+            },
+            {
+              "title": "MoneySense: intestacy and estate planning",
+              "url": "https://www.moneysense.gov.sg/intestacy-what-if-you-don-t-have-an-estate-plan/"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "singapore-collective-sales",
+    "title": "Collective sales in Singapore: consent, procedure and disputes",
+    "summary": "Understand why consent thresholds alone do not make an en-bloc sale valid.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Land, planning & ownership",
+    "takeaway": "Consent is one stage of a statutory process, with both share-value and strata-area tests.",
+    "steps": [],
+    "notes": [
+      "Singapore scope. Reviewed on 6 November 2026; transaction date, property type, citizenship, tenure and scheme can change the applicable rule. Historical figures and unverified statements are retained in the original-note disclosures, not offered as current instructions."
+    ],
+    "related": [
+      "singapore-strata-management",
+      "singapore-land-title"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 45,
+        "end": 52,
+        "heading": "Read the whole statutory process",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "The consent threshold is assessed by both share value and strata area, not share value alone. The 90%/80% distinction depends on the statutory development-age test; the notes omit the exact boundary and basis. A one-year consent-collection period is not a universal promise to finish every tender, application and transfer in one year. Committee rules, rescission, repeat attempts and objections have distinct procedures. The supplied quorum, waiting-period and cooling-off numbers are not independently validated here."
+          ],
+          "references": [
+            {
+              "title": "Strata Titles Boards: collective sale applications",
+              "url": "https://www.stratatb.gov.sg/general-proceedings/application/applicant/matters-under-ltsa/"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "singapore-conveyancing",
+    "title": "Buying and selling property: contracts and conveyancing",
+    "summary": "Follow authority, agreement, due diligence, completion and remedies without assuming every contract has the same clauses.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Buying, selling & development",
+    "takeaway": "Confirm authority, formalities, due diligence and completion conditions in the actual agreement.",
+    "steps": [],
+    "notes": [
+      "Singapore scope. Reviewed on 6 November 2026; transaction date, property type, citizenship, tenure and scheme can change the applicable rule. Historical figures and unverified statements are retained in the original-note disclosures, not offered as current instructions."
+    ],
+    "related": [
+      "singapore-property-development",
+      "singapore-property-stamp-duty",
+      "singapore-land-title"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 72,
+        "end": 81,
+        "heading": "From negotiations to completion",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "Offer, acceptance, consideration and intention are starting concepts; property transactions also involve formalities and agreed conditions. “Subject to contract” affects intention but should not replace review of actual communications. Identify the parties, property, price, authority, deposit holder and requisitions. SAL conveyancing money arrangements are not the same as a developer’s project account. The source’s 2012 conditions, 8% rate and 21-day statement require the contract/version; they are not presented as universal current terms."
+          ],
+          "references": [
+            {
+              "title": "Housing Developers Rules: prescribed forms",
+              "url": "https://sso.agc.gov.sg/SL/HDCLA1965-R1?ProvIds=Sc1-"
+            },
+            {
+              "title": "URA: housing developers and prescribed contracts",
+              "url": "https://www.ura.gov.sg/guidelines/developers/housing-developers/"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Real Estate.docx",
+        "start": 81,
+        "end": 90,
+        "heading": "Defects, invalidity, remedies and duties",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "Void and voidable transactions differ, but incapacity, mistake, misrepresentation and negligence require more precise legal tests than the source lists. Performance, frustration and breach are not all forms of successful completion; remedies depend on facts and law. Terms versus representations and conditions versus warranties cannot be decided solely by “official” versus “non-official” or “major” versus “minor.” The tort and waste labels remain study prompts rather than instructions to disclaim all premises liability."
+          ],
+          "references": [
+            {
+              "title": "Singapore Statutes Online: Land Titles Act",
+              "url": "https://sso.agc.gov.sg/Act/LTA1993?WholeDoc=1"
+            },
+            {
+              "title": "Housing Developers Rules: prescribed forms",
+              "url": "https://sso.agc.gov.sg/SL/HDCLA1965-R1?ProvIds=Sc1-"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Real Estate.docx",
+        "start": 90,
+        "end": 99,
+        "heading": "Transport, lawful occupation and fire safety",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "A road-line reserve, lawful immigration status and fire-safety compliance are separate due-diligence checks. CEA provides rental checklists for identity and immigration checks; the source’s fine/jail figures are not verified as current penalties. The notes supply no fire-standard specification or site plan, so none is invented."
+          ],
+          "references": [
+            {
+              "title": "CEA: renting and renting out property",
+              "url": "https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/"
+            },
+            {
+              "title": "URA: residential development control handbooks",
+              "url": "https://www.ura.gov.sg/guidelines/development-control/development-control-handbooks/residential/"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "singapore-property-development",
+    "title": "Developer purchases: licences, payment stages and prescribed terms",
+    "summary": "Separate developer sales from private resale and check the exact prescribed agreement.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Buying, selling & development",
+    "takeaway": "Use the approved developer form and payment schedule for the actual project and transaction.",
+    "steps": [],
+    "notes": [
+      "Singapore scope. Reviewed on 6 November 2026; transaction date, property type, citizenship, tenure and scheme can change the applicable rule. Historical figures and unverified statements are retained in the original-note disclosures, not offered as current instructions."
+    ],
+    "related": [
+      "singapore-conveyancing",
+      "singapore-property-planning"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 149,
+        "end": 162,
+        "heading": "A developer sale is not a standard resale OTP",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "Developer licensing, sale/no-sale licences and prescribed forms are governed by the applicable regime. Compare the approved option and sale-and-purchase agreement, project-account rules, payment milestones, completion dates and defect clauses. A developer project account is not simply an SAL conveyancing account. The 75% booking-fee refund belongs to a specified unexercised prescribed option and conditions; it is not a general right to cancel every purchase. The source’s progressive percentages, 20%/5% “remorse,” 3% shortfall and late-interest figures require the actual form/version and are not independently endorsed."
+          ],
+          "references": [
+            {
+              "title": "URA: housing developers and prescribed contracts",
+              "url": "https://www.ura.gov.sg/guidelines/developers/housing-developers/"
+            },
+            {
+              "title": "Housing Developers Rules: prescribed forms",
+              "url": "https://sso.agc.gov.sg/SL/HDCLA1965-R1?ProvIds=Sc1-"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "singapore-property-tax",
+    "title": "Singapore property tax: annual value and use matter",
+    "summary": "Distinguish recurring property tax from transaction duties and rental income tax.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Tax, CPF & finance",
+    "takeaway": "Annual value, occupation and property class determine the tax framework; sale price is a different measure.",
+    "steps": [],
+    "notes": [
+      "Singapore scope. Reviewed on 6 November 2026; transaction date, property type, citizenship, tenure and scheme can change the applicable rule. Historical figures and unverified statements are retained in the original-note disclosures, not offered as current instructions."
+    ],
+    "related": [
+      "singapore-property-stamp-duty",
+      "singapore-rental-tax"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 99,
+        "end": 108,
+        "heading": "Replace the old residential bands",
+        "review": {
+          "status": "Historical schedule replaced with current context",
+          "paragraphs": [
+            "The residential schedules in the notes are historical. From 2025 the owner-occupied schedule begins with a zero-rated first S$12,000 of annual value; non-owner-occupied residential property follows a separate progressive schedule. Non-residential property generally uses a flat 10% of annual value. The note’s 5%-of-market-value land claim is not verified as a general rule. Annual value is not the sale price. Check the IRAS schedule, reliefs and billing/notification rules applicable to the property."
+          ],
+          "references": [
+            {
+              "title": "IRAS: property tax rates",
+              "url": "https://www.iras.gov.sg/taxes/property-tax/property-owners/property-tax-rates"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "singapore-property-stamp-duty",
+    "title": "Property stamp duties: purchase, sale, leases and mortgages",
+    "summary": "Identify the document, transaction date and buyer profile before choosing a duty schedule.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Tax, CPF & finance",
+    "takeaway": "Choose the relevant instrument and date before looking up a rate or relief.",
+    "steps": [],
+    "notes": [
+      "Singapore scope. Reviewed on 6 November 2026; transaction date, property type, citizenship, tenure and scheme can change the applicable rule. Historical figures and unverified statements are retained in the original-note disclosures, not offered as current instructions."
+    ],
+    "related": [
+      "singapore-property-tax",
+      "housing-finance-singapore",
+      "singapore-conveyancing"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Four different tax questions",
+        "headers": [
+          "Question",
+          "Check"
+        ],
+        "rows": [
+          [
+            "Owning property over a year",
+            "Property tax: annual value and occupation"
+          ],
+          [
+            "Buying or acquiring",
+            "BSD, ABSD and reliefs"
+          ],
+          [
+            "Selling within a chargeable period",
+            "SSD: acquisition date, type and holding period"
+          ],
+          [
+            "Earning rent",
+            "Income tax and, where relevant, GST"
+          ]
+        ],
+        "note": "A distinction between regimes, not a tax calculation. Progressive bands, reliefs and special cases require the official schedule."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 108,
+        "end": 114,
+        "heading": "BSD and ABSD: old rates are unsafe",
+        "review": {
+          "status": "Historical rates corrected; check transaction date",
+          "paragraphs": [
+            "Stamp duty applies to dutiable instruments, with deadlines depending on execution and receipt circumstances; a 14/30-day memory aid needs those conditions. Residential BSD has reached a 6% top marginal rate for acquisitions from 15 February 2023; the source’s 3% top rate is old. ABSD rates also changed: for individuals under the general rates effective 27 April 2023, SC first/second/third-or-later are 0/20/30%, PR 5/30/35%, and foreign buyers generally 60%, subject to rules and reliefs. FTA eligibility is not a blanket nationality exemption: the source incorrectly lists Ireland instead of Iceland, and eligibility depends on the qualifying treaty category."
+          ],
+          "references": [
+            {
+              "title": "IRAS: stamp duty rates",
+              "url": "https://www.iras.gov.sg/quick-links/tax-rates/stamp-duty"
+            },
+            {
+              "title": "IRAS: ABSD remission under free trade agreements",
+              "url": "https://www.iras.gov.sg/taxes/stamp-duty/for-property/appeals-refunds-reliefs-and-remissions/common-stamp-duty-remissions-and-reliefs-for-property/foreigners-eligible-for-absd-remission-under-free-trade-agreements-%28ftas%29"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Real Estate.docx",
+        "start": 114,
+        "end": 119,
+        "heading": "SSD, rental instruments, mortgages and penalties",
+        "review": {
+          "status": "Date-dependent duties; source terminology corrected",
+          "paragraphs": [
+            "Residential SSD depends on acquisition date and holding period. The four-year 16/12/8/4% framework applies to acquisitions from 4 July 2025; the immediately preceding regime used a different holding period. Industrial SSD is a separate regime. Lease duty depends on term and rent, not a universal four-year charge for every lease. Ordinary mortgage duty of 0.4% capped at S$500 is duty on a mortgage instrument, not a bank application fee. For late stamping, the notes’ S$35 figure is wrong: IRAS states S$25 or four times the duty, whichever is greater, for lateness beyond three months; the shorter band also has a greater-of test."
+          ],
+          "references": [
+            {
+              "title": "IRAS: residential Seller’s Stamp Duty by acquisition date",
+              "url": "https://www.iras.gov.sg/taxes/stamp-duty/for-property/selling-or-disposing-property/seller%27s-stamp-duty-%28ssd%29-for-residential-property"
+            },
+            {
+              "title": "Ministry of Finance: stamp duty and holding periods",
+              "url": "https://www.mof.gov.sg/policies/taxes/stamp-duty/"
+            },
+            {
+              "title": "IRAS: stamp duty rates",
+              "url": "https://www.iras.gov.sg/quick-links/tax-rates/stamp-duty"
+            },
+            {
+              "title": "IRAS: mortgage duty",
+              "url": "https://www.iras.gov.sg/taxes/stamp-duty/for-property/buying-or-acquiring-property/mortgage-duty/"
+            },
+            {
+              "title": "IRAS: late stamp duty penalties",
+              "url": "https://www.iras.gov.sg/taxes/stamp-duty/for-shares/paying-stamp-duty/late-payment-or-non-payment-of-stamp-duty"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "cpf-housing-retirement",
+    "title": "CPF housing and retirement: lease limits and retirement sums",
+    "summary": "Keep lease eligibility, withdrawal limits and cohort-specific retirement sums separate.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Tax, CPF & finance",
+    "takeaway": "CPF housing availability is not the same as a bank’s approved loan or a future retirement sum.",
+    "steps": [],
+    "notes": [
+      "Singapore scope. Reviewed on 6 November 2026; transaction date, property type, citizenship, tenure and scheme can change the applicable rule. Historical figures and unverified statements are retained in the original-note disclosures, not offered as current instructions."
+    ],
+    "related": [
+      "housing-finance-singapore",
+      "hdb-retirement-options"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 119,
+        "end": 126,
+        "heading": "A lease test is not an age slogan",
+        "review": {
+          "status": "Historical limits and malformed expression identified",
+          "paragraphs": [
+            "The old 30/80-year shorthand is not the current CPF housing framework. Remaining lease and whether it covers the youngest buyer to age 95 affect eligibility and potential proration; use CPF’s current calculator/rules for exact lease boundaries and limits. CPF LIFE is a retirement-income scheme, not a housing loan. The 2016 Full/Basic Retirement Sum values are historical cohort figures and must not be applied to a buyer reaching 55 in another year. “Weight income” is a malformed formula, apparently intended to refer to income-weighted average age: sum(age × income) / sum(income), with positive total income. That identification is editorial and does not establish lender policy."
+          ],
+          "references": [
+            {
+              "title": "CPF Board: remaining lease and housing withdrawals",
+              "url": "https://www.cpf.gov.sg/service/article/how-much-cpf-savings-can-i-use-to-buy-a-property-if-its-lease-does-not-cover-the-youngest-buyer-to-age-95"
+            },
+            {
+              "title": "CPF Board: property owners and retirement withdrawals",
+              "url": "https://www.cpf.gov.sg/member/retirement-income/retirement-withdrawals/withdrawal-of-cpf-savings-for-property-owners"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "housing-finance-singapore",
+    "title": "Singapore housing finance: LTV, MSR, TDSR and loan terms",
+    "summary": "Distinguish approval limits from affordability and keep old loan tables out of current calculations.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Tax, CPF & finance",
+    "takeaway": "Approval ceilings differ from an affordable household budget; old percentage tables are unsafe inputs.",
+    "steps": [],
+    "notes": [
+      "Singapore scope. Reviewed on 6 November 2026; transaction date, property type, citizenship, tenure and scheme can change the applicable rule. Historical figures and unverified statements are retained in the original-note disclosures, not offered as current instructions."
+    ],
+    "related": [
+      "cpf-housing-retirement",
+      "singapore-property-stamp-duty",
+      "portfolio-allocation"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Housing finance constraints are not interchangeable",
+        "headers": [
+          "Constraint",
+          "What it limits"
+        ],
+        "rows": [
+          [
+            "LTV",
+            "Loan amount relative to the applicable property value"
+          ],
+          [
+            "MSR",
+            "Defined mortgage instalments relative to defined income"
+          ],
+          [
+            "TDSR",
+            "Defined total debt obligations relative to defined income"
+          ],
+          [
+            "CPF rules",
+            "Permitted use of retirement savings and withdrawal limits"
+          ],
+          [
+            "Household budget",
+            "Practical ability to pay, including reserves and future costs"
+          ]
+        ],
+        "note": "A borrower must satisfy applicable constraints together. No old percentage table is used as calculator logic."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 197,
+        "end": 204,
+        "heading": "Use the right lending constraint",
+        "review": {
+          "status": "Old lending limits and benchmark flagged",
+          "paragraphs": [
+            "LTV limits loan principal relative to the applicable property value; MSR and TDSR constrain debt service relative to defined income. MAS’s general TDSR threshold is 55%, not the old 60% in the notes. HDB’s current housing-loan LTV limit is 75%, subject to eligibility and other conditions; the old 90% note is historical. CPF withdrawal and valuation limits are separate constraints. SIBOR ceased at end-2024; identify the offered benchmark, reset schedule, spread, lock-in and fallback terms rather than copying a SIBOR-era example."
+          ],
+          "references": [
+            {
+              "title": "MAS: calculating the TDSR threshold",
+              "url": "https://www.mas.gov.sg/regulation/explainers/tdsr-for-property-loans/calculating-tdsr-thresholds"
+            },
+            {
+              "title": "HDB: credit to finance a flat purchase",
+              "url": "https://www.hdb.gov.sg/buying-a-flat/financial-planning-for-a-flat-purchase/credit-to-finance-a-flat-purchase"
+            },
+            {
+              "title": "CPF Board: remaining lease and housing withdrawals",
+              "url": "https://www.cpf.gov.sg/service/article/how-much-cpf-savings-can-i-use-to-buy-a-property-if-its-lease-does-not-cover-the-youngest-buyer-to-age-95"
+            },
+            {
+              "title": "Association of Banks in Singapore: SIBOR transition",
+              "url": "https://abs.org.sg/docs/library/2023-07-28-sibor-faqs-for-consumers650eae9f299c69658b7dff00006ed795.pdf?sfvrsn=8892c76f_8"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Real Estate.docx",
+        "start": 204,
+        "end": 210,
+        "heading": "Do not reuse the historical loan-percentage table",
+        "review": {
+          "status": "Historical loan table; do not calculate from it",
+          "paragraphs": [
+            "The six source cases distinguish first/subsequent loans and age/tenure, but their 80/60/50/30/40/20 percentages are not a current lending table. Bank LTV, minimum cash, existing loans, income assessment, borrower age and term interact; obtain the applicable MAS/lender assessment. No calculator has been built from these obsolete values.",
+            "MAS’s housing-credit table gives headline LTV limits of 75%, 45% and 35% for first, second and third housing loans, with lower limits for the stated age/tenure conditions. Its MSR limit for financial-institution loans on HDB flats and ECs bought directly from developers is 30%. These are ceilings, not promised approvals or spending targets. Use the IRAS link on the stamp-duty guide for SSD: the MAS overview also contains an older SSD table."
+          ],
+          "references": [
+            {
+              "title": "MAS: housing credit constraints (LTV/MSR sections)",
+              "url": "https://www.mas.gov.sg/publications/macroprudential-policies-in-singapore"
+            },
+            {
+              "title": "MAS: calculating the TDSR threshold",
+              "url": "https://www.mas.gov.sg/regulation/explainers/tdsr-for-property-loans/calculating-tdsr-thresholds"
+            },
+            {
+              "title": "HDB: credit to finance a flat purchase",
+              "url": "https://www.hdb.gov.sg/buying-a-flat/financial-planning-for-a-flat-purchase/credit-to-finance-a-flat-purchase"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "singapore-strata-management",
+    "title": "Strata living: MCSTs, share values and building responsibilities",
+    "summary": "Separate ownership voting, management duties, dispute processes and public safety approvals.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Tenancy, strata & practice",
+    "takeaway": "Voting interests, common-property responsibilities and public approvals have different rules.",
+    "steps": [],
+    "notes": [
+      "Singapore scope. Reviewed on 6 November 2026; transaction date, property type, citizenship, tenure and scheme can change the applicable rule. Historical figures and unverified statements are retained in the original-note disclosures, not offered as current instructions."
+    ],
+    "related": [
+      "singapore-collective-sales",
+      "singapore-land-title"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 126,
+        "end": 135,
+        "heading": "Condo management and building controls",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "MCSTs manage common property through the applicable strata-management framework; subsidiary proprietors have rights and obligations. Share value is not a universal floor-area formula for every building or development class. Refer to BCA and the Strata Titles Boards for the current statutory framework and dispute route. Structural safety and outdoor advertisement approvals are separate matters; the source’s advertising fee bands are unverified historical notes, not a current tariff."
+          ],
+          "references": [
+            {
+              "title": "BCA: management corporations and strata management",
+              "url": "https://www1.bca.gov.sg/home-and-building-owners/condo-strata/mcst-strata-management/"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "hdb-buying-eligibility",
+    "title": "Buying an HDB flat: eligibility before options",
+    "summary": "Start with the HFE assessment, then check flat classification, quotas, ownership history and purchase route.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Public housing",
+    "takeaway": "Establish HFE and scheme eligibility before committing to an option or assuming a grant.",
+    "steps": [],
+    "notes": [
+      "Singapore scope. Reviewed on 6 November 2026; transaction date, property type, citizenship, tenure and scheme can change the applicable rule. Historical figures and unverified statements are retained in the original-note disclosures, not offered as current instructions."
+    ],
+    "related": [
+      "hdb-grants-schemes",
+      "hdb-renting-rules",
+      "housing-finance-singapore"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "kind": "flow",
+        "title": "Before committing to a flat",
+        "headers": [],
+        "rows": [
+          [
+            "Obtain the required HFE assessment"
+          ],
+          [
+            "Confirm household, ownership and scheme eligibility"
+          ],
+          [
+            "Check flat classification, quotas and MOP implications"
+          ],
+          [
+            "Review grant and finance conditions"
+          ],
+          [
+            "Follow the applicable option and resale or purchase process"
+          ]
+        ],
+        "note": "A reading checklist, not a replacement for HDB approval or transaction-specific instructions."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 162,
+        "end": 171,
+        "heading": "Household, quota and occupation requirements",
+        "review": {
+          "status": "Mixed eligibility notes; current framework supplied",
+          "paragraphs": [
+            "HDB rules depend on purchase route, citizenship, household, ownership history and flat classification. EIP, SPR purchase quotas and non-citizen rental quotas are distinct; the source’s “58%” is ambiguous and is not repaired by guessing. Standard flats generally have a five-year MOP while Plus/Prime flats have ten years, subject to the relevant flat and scheme rules. The 30-month/three-year assertions are not universal eligibility tests. Town councils and geographic regions do not determine purchase eligibility on their own."
+          ],
+          "references": [
+            {
+              "title": "HDB: flat eligibility letter",
+              "url": "https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility/application-for-an-hdb-flat-eligibility-hfe-letter"
+            },
+            {
+              "title": "HDB: Standard, Plus and Prime framework",
+              "url": "https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats/finding-a-new-flat/standard-plus-and-prime-housing-framework"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Real Estate.docx",
+        "start": 177,
+        "end": 185,
+        "heading": "Resale workflow and flat types",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "HFE assessment precedes committing under the applicable purchase workflow; the source’s two-appointment resale sequence is historical. Enhanced contra and valuation serve different purposes from financing approval. Studio, 2-room Flexi, resale flats and executive condominiums have different conditions. The source’s income ceilings, room-rental limits and unrestricted EC-rental claim cannot be used as a current eligibility table; check the actual scheme, MOP and approvals."
+          ],
+          "references": [
+            {
+              "title": "HDB: flat eligibility letter",
+              "url": "https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility/application-for-an-hdb-flat-eligibility-hfe-letter"
+            },
+            {
+              "title": "HDB: Standard, Plus and Prime framework",
+              "url": "https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats/finding-a-new-flat/standard-plus-and-prime-housing-framework"
+            },
+            {
+              "title": "HDB: open-market rental regulations",
+              "url": "https://www.hdb.gov.sg/sitecore/content/hdbinfoweb/home/renting-a-flat/renting-from-open-market/regulations"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "hdb-grants-schemes",
+    "title": "HDB grants and purchase schemes: compare the actual offer",
+    "summary": "Read grant eligibility, household status and prior subsidies together instead of reusing an old grant table.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Public housing",
+    "takeaway": "A maximum grant is conditional support, not an entitlement for every buyer.",
+    "steps": [],
+    "notes": [
+      "Singapore scope. Reviewed on 6 November 2026; transaction date, property type, citizenship, tenure and scheme can change the applicable rule. Historical figures and unverified statements are retained in the original-note disclosures, not offered as current instructions."
+    ],
+    "related": [
+      "hdb-buying-eligibility",
+      "cpf-housing-retirement"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 185,
+        "end": 197,
+        "heading": "Grants, priorities and resale levies",
+        "review": {
+          "status": "Historical grant table; current scheme context",
+          "paragraphs": [
+            "The source mixes family/singles schemes, conversion, priority programmes, old SHG/AHG and resale grants, proximity support and levies. These are not one universal set of rates or a blanket “once per lifetime” rule. The Enhanced CPF Housing Grant replaced earlier arrangements and the maximum family EHG increased to S$120,000 from 20 August 2024, subject to eligibility. Do not apply the old S$40,000 entries, 2 km proximity shorthand, flat non-SC deduction, half-for-singles rule or third-purchase levy claim without the current scheme decision. Preserve them as historical study notes."
+          ],
+          "references": [
+            {
+              "title": "HDB: Enhanced CPF Housing Grant for families",
+              "url": "https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility/couples-and-families/enhanced-cpf-housing-grant"
+            },
+            {
+              "title": "HDB: flat eligibility letter",
+              "url": "https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility/application-for-an-hdb-flat-eligibility-hfe-letter"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "hdb-retirement-options",
+    "title": "Housing in retirement: lease buyback and right-sizing",
+    "summary": "Separate retirement schemes from grants for first purchases and routine flat rental.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Public housing",
+    "takeaway": "Compare the housing retained and retirement savings required, not just the advertised cash bonus.",
+    "steps": [],
+    "notes": [
+      "Singapore scope. Reviewed on 6 November 2026; transaction date, property type, citizenship, tenure and scheme can change the applicable rule. Historical figures and unverified statements are retained in the original-note disclosures, not offered as current instructions."
+    ],
+    "related": [
+      "cpf-housing-retirement",
+      "hdb-buying-eligibility"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 175,
+        "end": 177,
+        "heading": "Lease buyback and Silver Housing Bonus",
+        "review": {
+          "status": "Historical scheme figures; individual assessment required",
+          "paragraphs": [
+            "The source’s income, flat-size, retained-lease and payout figures are unverified older scheme notes. Lease Buyback and Silver Housing Bonus address different choices: monetizing a remaining lease versus right-sizing and supporting retirement savings. Eligibility and required CPF top-ups must be checked against the current scheme, age and household; the “S$25k or 50%” sentence is not a current guaranteed payment.",
+            "The enhanced Silver Housing Bonus effective 1 December 2025 offers up to S$40,000 per eligible household, with the required increase in retirement savings and CPF LIFE participation. It is conditional support, not an unconditional cash payment. Scheme pages and older explanatory tools show differing income references, so obtain the current HDB assessment rather than using the source’s S$12,000 ceiling."
+          ],
+          "references": [
+            {
+              "title": "HDB: Lease Buyback Scheme",
+              "url": "https://www.hdb.gov.sg/managing-my-home/retirement-planning/monetising-flat-for-retirement/lease-buyback-scheme-lbs"
+            },
+            {
+              "title": "HDB: Silver Housing Bonus",
+              "url": "https://www.hdb.gov.sg/managing-my-home/retirement-planning/monetising-flat-for-retirement/silver-housing-bonus"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "hdb-renting-rules",
+    "title": "Renting an HDB flat or bedroom: approval, quotas and occupancy",
+    "summary": "Distinguish whole-flat rental from bedroom rental and check the flat’s classification.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Public housing",
+    "takeaway": "Whole-flat rental and bedroom rental have different owner-occupation and approval requirements.",
+    "steps": [],
+    "notes": [
+      "Singapore scope. Reviewed on 6 November 2026; transaction date, property type, citizenship, tenure and scheme can change the applicable rule. Historical figures and unverified statements are retained in the original-note disclosures, not offered as current instructions."
+    ],
+    "related": [
+      "singapore-tenancy",
+      "hdb-buying-eligibility",
+      "singapore-rental-tax"
+    ],
+    "references": [
+      {
+        "title": "HDB: rental occupancy extension through 2028",
+        "url": "https://www.hdb.gov.sg/hdb-pulse/news/2026/extension-of-temporary-relaxation-of-occupancy-cap-for-rental-of-hdb-flats-and-private-residential"
+      }
+    ],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Two rental decisions to keep separate",
+        "headers": [
+          "Question",
+          "Whole-flat rental",
+          "Bedroom rental"
+        ],
+        "rows": [
+          [
+            "Owner occupation",
+            "Check eligibility and approval to let the whole flat",
+            "Owners must satisfy the applicable residence conditions"
+          ],
+          [
+            "Flat classification",
+            "Plus/Prime restrictions can prohibit whole-flat rental",
+            "Check the permitted bedroom arrangement"
+          ],
+          [
+            "Occupancy",
+            "Check the approved total and tenant eligibility",
+            "Include resident owners/occupiers where required"
+          ],
+          [
+            "Permission and changes",
+            "Follow HDB approval and notification requirements",
+            "Follow the applicable registration and notification process"
+          ]
+        ],
+        "note": "Do not transfer a rule from one column to the other; check current HDB terms for the exact flat."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 171,
+        "end": 175,
+        "heading": "Whole-flat and bedroom rental are different",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "MOP, owner eligibility, tenant eligibility, HDB approval and rental period must be checked separately. The source confuses owner occupation for bedroom rental with whole-flat rental; an owner cannot simply rely on “one SC around” as approval for either. Rental quotas are not identical to resale EIP quotas. Plus/Prime flat restrictions differ from Standard flats, including whole-flat rental restrictions. The seven-day notification statement is retained for reference but must be checked against the current process."
+          ],
+          "references": [
+            {
+              "title": "HDB: open-market rental regulations",
+              "url": "https://www.hdb.gov.sg/sitecore/content/hdbinfoweb/home/renting-a-flat/renting-from-open-market/regulations"
+            },
+            {
+              "title": "HDB: Standard, Plus and Prime framework",
+              "url": "https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats/finding-a-new-flat/standard-plus-and-prime-housing-framework"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "Occupancy caps: the newer extension matters",
+        "paragraphs": [
+          "HDB and URA extended the temporary larger-property rental occupancy relaxation through 31 December 2028. Eligible 4-room and larger HDB flats can accommodate up to eight unrelated occupants under the applicable approval and conditions; smaller flats and bedroom rental have their own limits, including counting resident owners where required. The source’s nine-person figure is not a current general cap. Private residential premises have a separate qualifying floor-area requirement and URA process. Do not use older explanations that still end the relaxation in 2026."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "singapore-tenancy",
+    "title": "Tenancy agreements: duties, clauses and changes of party",
+    "summary": "Read the signed lease, distinguish transfer from replacement and use lawful dispute procedures.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Tenancy, strata & practice",
+    "takeaway": "Use the lease and lawful process; labels such as assignment or distress do not authorize a shortcut.",
+    "steps": [],
+    "notes": [
+      "Singapore scope. Reviewed on 6 November 2026; transaction date, property type, citizenship, tenure and scheme can change the applicable rule. Historical figures and unverified statements are retained in the original-note disclosures, not offered as current instructions."
+    ],
+    "related": [
+      "hdb-renting-rules",
+      "singapore-rental-tax",
+      "singapore-property-agents"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "kind": "flow",
+        "title": "Read a lease in five passes",
+        "headers": [],
+        "rows": [
+          [
+            "Identify parties, premises, term and authority"
+          ],
+          [
+            "Check rent, deposit, tax and payment obligations"
+          ],
+          [
+            "Allocate repair, use, access and subletting duties"
+          ],
+          [
+            "Review renewal, termination and transfer clauses"
+          ],
+          [
+            "Agree documentation and lawful dispute procedures"
+          ]
+        ],
+        "note": "A review aid. Statutory duties and enforceability depend on the actual circumstances."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 210,
+        "end": 219,
+        "heading": "Lease terms, remedies and transfer",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "Fixed-term, periodic, at-will and holding-over situations differ; notice and recovery rights depend on the agreement and law. Distress and possession involve legal processes, not a do-it-yourself seizure checklist. Quiet enjoyment, repair, permitted use, subletting, renewal, deposits and diplomatic clauses need the exact wording. Novation replaces contractual obligations with the necessary agreement; assignment transfers rights/interests subject to restrictions. Neither is defined solely by whether a tenant or landlord changes. The source’s three/seven-year formalities and duration statements require their statutory and HDB context."
+          ],
+          "references": [
+            {
+              "title": "CEA: renting and renting out property",
+              "url": "https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/"
+            },
+            {
+              "title": "Singapore Statutes Online: Land Titles Act",
+              "url": "https://sso.agc.gov.sg/Act/LTA1993?WholeDoc=1"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "singapore-rental-tax",
+    "title": "Rental income tax and GST: separate the tax bases",
+    "summary": "Do not use citizenship or a mismatched annual-value formula as a rental tax calculator.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Tax, CPF & finance",
+    "takeaway": "Match the tax, time period and allowable expense method before calculating net rental income.",
+    "steps": [],
+    "notes": [
+      "Singapore scope. Reviewed on 6 November 2026; transaction date, property type, citizenship, tenure and scheme can change the applicable rule. Historical figures and unverified statements are retained in the original-note disclosures, not offered as current instructions."
+    ],
+    "related": [
+      "singapore-property-tax",
+      "singapore-tenancy"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 219,
+        "end": 222,
+        "heading": "Correct the units and identify the taxpayer",
+        "review": {
+          "status": "Malformed tax formula and taxpayer classification flagged",
+          "paragraphs": [
+            "Residential rent, furniture/services and non-residential supplies can have different GST treatment. Where IRAS’s furniture-value method applies, monthly gross rent is compared with annual value divided by 12—not the full annual value—and GST registration and taxable-supply conditions matter. Income tax residence is not identical to citizenship; “non-SC” does not select a flat 15% rate. Qualifying residential landlords may choose deemed expenses of 15% of gross rent plus allowable mortgage interest, or claim actual allowable expenses, subject to the rules. From YA 2022, eligible costs of securing first and subsequent tenants can be deductible; the blanket first-commission exclusion in the source is outdated. Do not count the same cost again when using deemed expenses."
+          ],
+          "references": [
+            {
+              "title": "IRAS: GST for real estate",
+              "url": "https://www.iras.gov.sg/taxes/goods-services-tax-%28gst%29/specific-business-sectors/real-estate"
+            },
+            {
+              "title": "IRAS: property tax rates",
+              "url": "https://www.iras.gov.sg/taxes/property-tax/property-owners/property-tax-rates"
+            },
+            {
+              "title": "IRAS: rental income and allowable expenses",
+              "url": "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/what-is-taxable-what-is-not/income-from-property-rented-out"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "singapore-property-agents",
+    "title": "Property agents: authority, conduct and continuing learning",
+    "summary": "Understand representation, client care and current training without copying old fees or penalties.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Tenancy, strata & practice",
+    "takeaway": "Current competence, authority and client care matter more than memorizing an old fee or penalty.",
+    "steps": [],
+    "notes": [
+      "Singapore scope. Reviewed on 6 November 2026; transaction date, property type, citizenship, tenure and scheme can change the applicable rule. Historical figures and unverified statements are retained in the original-note disclosures, not offered as current instructions."
+    ],
+    "related": [
+      "singapore-conveyancing",
+      "singapore-property-marketing"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 222,
+        "end": 230,
+        "heading": "Representation, registration and CPD",
+        "review": {
+          "status": "2026 CPD framework replaces old hours",
+          "paragraphs": [
+            "Agency agreements, authority and commission entitlement require the applicable agreement and circumstances; “effective cause” is not an automatic commission calculator. The source’s registration fee and entry details are unverified historical notes. From 1 January 2026, CEA’s CPD framework requires 16 hours—12 structured learning and four self-directed—rather than six hours with three core hours. Check current registration requirements for the particular applicant."
+          ],
+          "references": [
+            {
+              "title": "CEA: continuing professional development framework",
+              "url": "https://www.cea.gov.sg/real-estate-professionals/continuing-professional-development/cpd-framework/"
+            },
+            {
+              "title": "CEA: renting and renting out property",
+              "url": "https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      },
+      {
+        "document": "Real Estate.docx",
+        "start": 230,
+        "end": 240,
+        "heading": "Client care, AML and dispute resolution",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "Use the applicable CEA agreement, ethical rules and dispute routes. Dual representation, transaction monies, referral conduct, AML reporting and professional indemnity insurance are separate duties. The source incorrectly calls professional indemnity “personal” indemnity. Its fine/jail, consumer-protection exclusions and committee counts are not validated as a current compliance checklist. Vulnerable clients require understandable communication and appropriate care, not a stereotype or a reduced standard of explanation."
+          ],
+          "references": [
+            {
+              "title": "CEA: renting and renting out property",
+              "url": "https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/"
+            },
+            {
+              "title": "CEA: continuing professional development framework",
+              "url": "https://www.cea.gov.sg/real-estate-professionals/continuing-professional-development/cpd-framework/"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "singapore-industrial-property",
+    "title": "JTC and industrial property: approved use and dealings",
+    "summary": "Treat subletting, assignment and land-premium terms as approval-specific conditions.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Buying, selling & development",
+    "takeaway": "Check the specific industrial lease, permitted use and approvals before transferring or subletting.",
+    "steps": [],
+    "notes": [
+      "Singapore scope. Reviewed on 6 November 2026; transaction date, property type, citizenship, tenure and scheme can change the applicable rule. Historical figures and unverified statements are retained in the original-note disclosures, not offered as current instructions."
+    ],
+    "related": [
+      "singapore-property-planning",
+      "singapore-tenancy"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 240,
+        "end": 250,
+        "heading": "The lease and JTC approval control the transaction",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "JTC subletting rules distinguish leases, tenancies and approved arrangements. “JTC tenants cannot sublet” is too broad as a universal claim: the applicable scheme and prior written approval/exemptions matter. The source’s 50/30% thresholds, upfront premium rule, ROFR, sale-and-leaseback, “Build-and-Leave” wording and two-day religious-use limit need identification and current confirmation; no missing scheme is inferred from the apparent typo."
+          ],
+          "references": [
+            {
+              "title": "JTC: subletting your premises",
+              "url": "https://www.jtc.gov.sg/get-help/managing-your-tenancy-or-lease/subletting-your-premises"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "property-market-analysis",
+    "title": "Property market analysis: demand, location and evidence",
+    "summary": "Separate market drivers, physical obsolescence and transaction methods from a deterministic property clock.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Markets & marketing",
+    "takeaway": "Separate the site’s attributes from the market scenario and test both against evidence.",
+    "steps": [],
+    "notes": [
+      "Singapore scope. Reviewed on 6 November 2026; transaction date, property type, citizenship, tenure and scheme can change the applicable rule. Historical figures and unverified statements are retained in the original-note disclosures, not offered as current instructions."
+    ],
+    "related": [
+      "economic-cycles",
+      "price-elasticity",
+      "singapore-property-marketing"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 250,
+        "end": 260,
+        "heading": "Analyse the property and the market separately",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "Elasticity varies by horizon, market segment and constraint; property demand is not always elastic and supply is not always perfectly inelastic. Distinguish effective demand from speculative interest, macro PEST factors from plot-specific attributes, and physical/functional/economic obsolescence. Upswing/boom/downswing/depression is a descriptive cycle vocabulary, not a reliable timing model. The ranking of private treaty, tender and auction is unsupported by a cited dataset."
+          ],
+          "references": [
+            {
+              "title": "URA: residential development control handbooks",
+              "url": "https://www.ura.gov.sg/guidelines/development-control/development-control-handbooks/residential/"
+            },
+            {
+              "title": "HDB: flat eligibility letter",
+              "url": "https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility/application-for-an-hdb-flat-eligibility-hfe-letter"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "singapore-property-marketing",
+    "title": "Property advertising and outreach: accuracy, identity and consent",
+    "summary": "Check what the message claims, who sends it and whether the outreach is permitted.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Markets & marketing",
+    "takeaway": "Accurate claims and lawful outreach are separate responsibilities; daytime calling is not automatic consent.",
+    "steps": [],
+    "notes": [
+      "Singapore scope. Reviewed on 6 November 2026; transaction date, property type, citizenship, tenure and scheme can change the applicable rule. Historical figures and unverified statements are retained in the original-note disclosures, not offered as current instructions."
+    ],
+    "related": [
+      "singapore-property-agents",
+      "property-market-analysis",
+      "marketing-communications"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 260,
+        "end": 264,
+        "heading": "Advertising particulars, PDPA, DNC and spam",
+        "review": {
+          "status": "Reviewed context; case-specific checks remain",
+          "paragraphs": [
+            "Agent identity and agency particulars support accountability, while listing claims still need verification and authority. PDPA, Do Not Call rules and the Spam Control Act address different obligations and communication channels. The source’s 10 pm–9 am statement is not a blanket definition of the DNC regime; do not infer that daytime marketing is automatically permitted. Check consent, register-screening requirements, identification and applicable exceptions for the actual campaign. The ministry label is a historical filing heading, not evidence of the present regulator’s name or powers."
+          ],
+          "references": [
+            {
+              "title": "PDPC: advisory guidelines on Do Not Call provisions",
+              "url": "https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/advisory-guidelines/advisory-guidelines-on-the-dnc-provisions-1-feb-2021.pdf"
+            },
+            {
+              "title": "CEA: renting and renting out property",
+              "url": "https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/"
+            }
+          ],
+          "date": "2026-11-06"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "singapore-property-agencies",
+    "title": "Singapore property agencies: find the right starting point",
+    "summary": "Match a property question to the responsible function, then open the relevant detailed guide.",
+    "topic": "Property & Housing",
+    "collection": "singapore-property",
+    "group": "Land, planning & ownership",
+    "takeaway": "Land ownership, planning permission, tax, housing eligibility and agent conduct are separate responsibilities.",
+    "steps": [],
+    "notes": [
+      "This is a functional reading directory reviewed on 6 November 2026, not a complete list of approvals or a current ministry reporting chart."
+    ],
+    "related": [
+      "singapore-property-planning",
+      "singapore-land-title",
+      "singapore-property-tax",
+      "cpf-housing-retirement",
+      "hdb-buying-eligibility",
+      "singapore-strata-management",
+      "singapore-property-agents",
+      "singapore-industrial-property"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Start with the question",
+        "headers": [
+          "Agency",
+          "Primary question here",
+          "Detailed reading"
+        ],
+        "rows": [
+          [
+            "SLA",
+            "Title, ownership and land dealings",
+            "Land title and property rights"
+          ],
+          [
+            "URA",
+            "Planning, development controls and developer-sale guidance",
+            "Land and planning; developer purchases"
+          ],
+          [
+            "IRAS",
+            "Property tax, stamp duties and rental tax",
+            "Property tax; stamp duties; rental tax"
+          ],
+          [
+            "CPF Board",
+            "Permitted housing withdrawals and retirement savings",
+            "CPF housing and retirement"
+          ],
+          [
+            "HDB",
+            "Flat eligibility, grants, resale and renting",
+            "Public-housing reading paths"
+          ],
+          [
+            "BCA / Strata Titles Boards",
+            "Building responsibilities and strata-management disputes",
+            "Strata living and collective sales"
+          ],
+          [
+            "CEA",
+            "Property-agent registration, learning and client care",
+            "Property agents and conduct"
+          ],
+          [
+            "JTC",
+            "Industrial tenancy/lease use and approved dealings",
+            "JTC and industrial property"
+          ]
+        ],
+        "note": "Several agencies can be relevant to one transaction. The ownership register is not planning permission, and a tax payment is not an approval to use a property."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Real Estate.docx",
+        "start": 1,
+        "end": 4,
+        "heading": "A functional directory rather than a ministry hierarchy",
+        "review": {
+          "status": "Source filing structure reorganized",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The supplied notes are grouped under historical ministry and agency labels. This directory instead organizes by reader task. Ministry names and reporting structures are not used as eligibility rules, and a contact with one agency does not discharge obligations administered by another. LTA road-line and SCDF fire-safety checks are also discussed in the conveyancing guide; MinLaw’s insolvency and estate-related functions appear in the ownership readings."
+          ],
+          "references": [
+            {
+              "title": "URA: residential development control handbooks",
+              "url": "https://www.ura.gov.sg/guidelines/development-control/development-control-handbooks/residential/"
+            },
+            {
+              "title": "SLA: property ownership",
+              "url": "https://www.sla.gov.sg/regulatory/property-ownership/"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "slug": "investment-assets",
+    "appendTo": "investment-assets",
+    "ranges": [],
+    "notes": [],
+    "related": [
+      "property-housing",
+      "property-market-analysis"
+    ],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "investment-funds-vehicles",
+    "appendTo": "investment-funds-vehicles",
+    "ranges": [],
+    "notes": [],
+    "related": [
+      "singapore-estate-ownership",
+      "property-housing"
+    ],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "innovation-pathways",
+    "appendTo": "innovation-pathways",
+    "ranges": [
+      {
+        "document": "Economics.docx",
+        "start": 312,
+        "end": 314,
+        "heading": "Eroom’s law: examine R&D productivity",
+        "review": {
+          "status": "Source claim placed in context",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The source describes increasing drug-development costs despite technical progress. This is a historical pharmaceutical R&D productivity observation, not a law of computing or proof that each innovation project must cost more. Specify the output, cost base, time period and approval outcomes before applying it to another sector."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": []
+  }
+]

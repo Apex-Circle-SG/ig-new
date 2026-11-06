@@ -199,7 +199,7 @@
   },
   {
     "slug": "real-world-assets",
-    "title": "Real-world assets and real estate",
+    "title": "Tokenized assets and property records",
     "topic": "Web3",
     "group": "Applications",
     "summary": "Explore tokenization and possible uses for property records and transactions.",
@@ -3541,6 +3541,34 @@
     "sources": []
   },
   {
+    "slug": "economics-society",
+    "title": "Economics & Society",
+    "topic": "Economics & Society",
+    "group": "Start here",
+    "summary": "Choose the economic question first: what is being measured, what mechanism is proposed, and what evidence could support it?",
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Choose the economic question first: what is being measured, what mechanism is proposed, and what evidence could support it?"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "property-housing",
+    "title": "Property & Housing",
+    "topic": "Property & Housing",
+    "group": "Start here",
+    "summary": "Start with the jurisdiction and the decision. The current collection covers Singapore; its rules are not universal property advice.",
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Start with the jurisdiction and the decision. The current collection covers Singapore; its rules are not universal property advice."
+      }
+    ],
+    "sources": []
+  },
+  {
     "slug": "strategy-foundations",
     "title": "What strategy does—and who makes it",
     "topic": "Business & Management",
@@ -4702,6 +4730,18 @@
       {
         "heading": "Leadership priorities, focus and the skill/leverage heuristic",
         "body": "Leaders\nCollect all key projects, objectives, and KPIs critical to your organisation. Arrange them in a dashboard. This will help you steer priorities and guide your team.\nWarren Buffetts' 5/25 Methods\nList your top 25 initiatives\nRank them by importance\nSplit the list: top 5 | others\nDo the top 5\nAvoid the others at all cost\nWhen finished with the pervious one, start over\n$10,000/hr Work Value Method\nPrioritise your work by impact & skill required"
+      },
+      {
+        "heading": "Unfinished tasks and memory",
+        "body": "Concept clarified\nThe Zeigarnik effect is a context-dependent memory finding, not a guarantee that every unfinished task will be remembered better. External capture is still useful when a task matters.\nZeigarnik effect\nRemember unfinished tasks better than completed ones."
+      },
+      {
+        "heading": "Writing tasks down: an unattributed saying",
+        "body": "Source claim placed in context\nThe “Jidelim Law” label has no author or primary reference in the document. Writing tasks down can support external capture and prioritization, but “half the battle” is a proverb rather than a measured 50% performance claim.\nJidelim Law\nA time-management principle that states that writing down tasks is half the battle."
+      },
+      {
+        "heading": "Information before money: a proverb without a model",
+        "body": "Source claim placed in context\nThe “Walson’s law” attribution is unverified. Prioritizing useful information can improve decisions, but intelligence alone does not ensure revenue or profit. The source provides no conditions or evidence for a guaranteed monetary result.\nWalson's law\nIf you put information and intelligence first at all times, then the money will come"
       }
     ],
     "sources": []
@@ -5174,6 +5214,14 @@
       {
         "heading": "Slide hierarchy, whitespace and consistency",
         "body": "Bossification\nAudience should understand your slide within first 3 seconds\nUse only 1 idea per slide\nFlow - entire image with only few text\nContrast - blurred background with fore focus\nDon't use the same content over and over again, saying the same thing as everyone else in the market, same self-serving call to action, repost using the same title and link\nWhite space - luxurious\nHierarchy - Picture first → headline → content\nUnity - Consistency slide style\nThe more pitches, the more customers will dislike you"
+      },
+      {
+        "heading": "The Allen curve and physical distance",
+        "body": "Concept clarified\nThe note concerns communication frequency among engineers versus distance. Its historical observation should prompt review of team coordination; it is not a universal quantitative law for all remote or hybrid work.\nAllen curve\nExponential drop in frequency of communication between engineers as the distance between them increases"
+      },
+      {
+        "heading": "The Golden Circle as a communication prompt",
+        "body": "Concept clarified\nWhy, how and what can help organize a message around purpose, method and offer. This is a communication heuristic, not evidence that one speaking order guarantees influence.\nGolden Circle\nFocus on \"why\" they do something, then \"how\" and \"what.\""
       }
     ],
     "sources": []
@@ -5240,6 +5288,10 @@
       {
         "heading": "Four types of innovation: a two-axis source model",
         "body": "4 Types of Innovation"
+      },
+      {
+        "heading": "Eroom’s law: examine R&D productivity",
+        "body": "Source claim placed in context\nThe source describes increasing drug-development costs despite technical progress. This is a historical pharmaceutical R&D productivity observation, not a law of computing or proof that each innovation project must cost more. Specify the output, cost base, time period and approval outcomes before applying it to another sector.\nEroom's law\nThe cost of developing new drugs increases over time, despite advancements in technology."
       }
     ],
     "sources": []
@@ -5254,6 +5306,10 @@
       {
         "heading": "Nine components in the supplied notes",
         "body": "Business Model & Corporate Responsibility\nBusiness Model Canvas Components:\nPartners, Activities, Resources, Value propositions, Customer segments, Relations, Channels, Cost structure, Revenue stream"
+      },
+      {
+        "heading": "Nine digital business-model families",
+        "body": "Concept clarified\nMerchant/brokerage, community, infomediary, affiliate, advertising, direct manufacturer, subscription, utility and freemium describe different aspects of value delivery and revenue. They can coexist: freemium can acquire users for subscriptions, while an information intermediary may charge fees or sell advertising. The source supplies names, not unit economics or implementation playbooks.\nDigital Economy Model\nWeb business model\nMerchant and brokerage model\nCommunity model\nInfomediary model\nAffiliate model\nAdvertising model\nManufacturer’s direct model\nSubscription model\nUtility model\nFreemium model"
       }
     ],
     "sources": []
@@ -7566,6 +7622,10 @@
       {
         "heading": "Metaphysics as a research category",
         "body": "Ask which question is intended: what exists, how mind relates to matter, what a tradition believes, or whether a specific phenomenon can be measured. The category alone does not answer it.\nMetaphysics"
+      },
+      {
+        "heading": "Vibration, three forces and seven stages",
+        "body": "Concept clarified\nThese are spiritual or metaphysical propositions in the supplied notes. No author, tradition or evidence is identified, and a literal universal seven-stage process is not established. Physical vibration does not validate every spiritual-frequency claim; do not present these statements as physics.\nLaw of vibration\nEverything in the universe moves and vibrates at its own unique frequency.\nLaw of 3\nActive, passive, and neutralising forces are needed to create or change anything.\nLaw of 7\nProcesses and events unfold in a sequence of seven stages or steps."
       }
     ],
     "sources": [
@@ -9460,6 +9520,10 @@
       {
         "heading": "Disclosures and development recognition conditions",
         "body": "Useful life or amortisation rate\nAmortisation method\nGross carrying amount\nAccumulated amortisation and impairment losses\nLine items in the income statement in which amortisation is included\nCertain special disclosures about intangible assets acquired by way of government grants\nReconciliation of the carrying amount at the beginning and the end of the period showing all changes, additions, amortisations. disposals, impairments, re-valuation\nDescription and carrying amount of individually material intangible assets\nBasis for determining that an intangible has an indefinite life\nInfo about intangible assets whose title is restricted\nContractual commitments to acquire intangible assets\nIntangible asset arising from development shall be recognized if an entity can demonstrate all of the following:\nThe technical feasibility of completing the intangible asset so that it will be available for use or sale\nThe availability of adequate technical, financial and other resources to complete the development and to use or sell the intangible asset\nIts ability to use or sell the intangible asset how the intangible asset will generate probable future economic benefits\nIts ability to measure reliably the expenditure attributable to the intangible asset during its development\nIts intention to complete the intangible asset and use or sell it"
+      },
+      {
+        "heading": "Economic properties versus recognition rules",
+        "body": "Concept clarified\nScalability, sunk investment, spillovers and synergies describe economic characteristics of intangible investment. Uncertainty and contested ownership affect value. These characteristics alone do not satisfy accounting recognition criteria; use the recognition guidance above.\nIntangible assets\nScalability, cost that will be sunk, generate spillovers and ability to exhibit synergies. Also contain uncertainty and contestedness"
       }
     ],
     "sources": [
@@ -10594,6 +10658,18 @@
       {
         "heading": "Eleven behaviors to reflect on",
         "body": "Purpose\nBe clear on your why and always return to it. Understand the motivations of others and embrace them\nResilience\nBe a pragmatist and accept setbacks are inevitable and are not the end of the world\nIntegrity\nDo the right things and not the easy things and hold to your values at all times good and difficult\nMentoring\nAs well as managing, offer 1-to-1 mentoring and development time to your colleagues. Share experience\nCompassion\nShow acts of kindness when required and always recognise kind gestures from others\nReflective\nGive yourself and colleauges the opportunity to pause and review direction. Press the pause button\nGrowth Mindset\nLook to improve yourself and your environment - look to learn and grow always. Help others too\nPresence\nBe in the moment both physically and mentally. Always be visible and approachable\nHumility\nPut others first and let others take praise. Promote others and shoulder responsibility\nEmpathy\nWalk a mile in others shoes - on three levels - physically, mentally and emotionally\nAuthenticity\nBe real and true to your values, show you are a human being with vulnerabilities and who cares about others"
+      },
+      {
+        "heading": "Stockdale and the paradox of progress",
+        "body": "Concept clarified\nStockdale is a leadership framing: confront present difficulties while sustaining commitment. “Paradox of progress” is a broad observation about unintended consequences, not a single identified theorem. Neither entry supplies a measurement instrument.\nStockdale paradox\nBalancing unwavering faith in success by confronting harsh realities.\nParadox of progress\nAdvancements intended to improve life can sometimes create new problems or stress."
+      },
+      {
+        "heading": "Positive interaction ratios: a disputed claim",
+        "body": "Concept clarified\nA universal positivity-ratio threshold is not established by the supplied sentence. Published mathematical criticism challenges the nonlinear-dynamics basis of the famous critical-ratio claim. This does not imply that respectful feedback has no value.\nLosada effect\nA high ratio of positive to negative interactions leads to better performance and well-being."
+      },
+      {
+        "heading": "The Dilbert Principle is satire",
+        "body": "Source claim placed in context\nThe note describes a satirical claim about incompetent employees being promoted. Read it as workplace commentary, not an evidence-based promotion policy, a diagnosis of an individual colleague or a recommendation to reward poor performance.\nDilbert Principle\nThe most incompetent employees are often promoted to management positions, where they can do the least damage."
       }
     ],
     "sources": []
@@ -10638,6 +10714,14 @@
       {
         "heading": "Deeper culture: values, concepts and assumptions",
         "body": "Deeper Culture\nShared values about\nReligion and politics\nFamily\nModesty\nThe environment\nWork-life balance\nHumour\nConcepts of\nBeauty ideals\nFriendship\nTime\nJustice\nValue\nRoles\nCleanliness\nPersonal space\nAttitude towards\nAuthority\nCompetition\nMoney & wealth\nGenerational differences\nDecision-making\nProblem-solving\nSchool & learning\nWork\nHealth & well-being\nMedical interventions\nOther expectations\nInside knowledge\nUnderlying assumptions\nSpecific ways of doing things (\"The XYZ way\")"
+      },
+      {
+        "heading": "Jante and observation effects",
+        "body": "Concept clarified\nJante refers to a cultural/literary framing of conformity and modesty; do not apply it as a stereotype to every member of a society. The Hawthorne effect is an observation-related behaviour-change hypothesis; it is not proof that observation always increases productivity.\nLaw of Jante\nCultural concepts emphasise humility, discouraging individualism, and promoting collective equality.\nHawthorne effect\nPeople change their behavior because they know they are being observed."
+      },
+      {
+        "heading": "Onion models: culture beneath visible practice",
+        "body": "Concept clarified\nLayers distinguish visible expressions from deeper assumptions or values. Several culture models use an onion analogy; the source does not identify an author or a complete layer sequence, so none is invented.\nOthers\nOnion model\nIllustrates cultural layers, from visible practices to deeper values and assumptions."
       }
     ],
     "sources": []
@@ -10678,6 +10762,10 @@
       {
         "heading": "The source comparison of space, time and problem type",
         "body": "Changes classification\nCommand\nManagement\nLeadership\nSpace\nTactical\nOperational\nStrategic\nTime\nShort-term\nMedium-term\nLong-term\nProblem\nCritical\nTame\nWicked"
+      },
+      {
+        "heading": "Cynefin: classify the situation before acting",
+        "body": "Concept clarified\nThe notes use the older “simple” and “disorder” labels. Treat the framework as a sense-making aid; the distinction between knowable cause-and-effect and emergent complexity matters more than forcing every situation into a permanent box.\nCynefin model\nCategorise problems into five contexts: simple, complicated, complex, chaotic, and disorder, guiding decision-making."
       }
     ],
     "sources": []
@@ -10810,6 +10898,18 @@
       {
         "heading": "People principles and shared responsibility",
         "body": "People Principles\nPeople are, and will remain, the most important factor in the establishment, development and sustainable success of organisations\nPeople, organisations and the environment in which organisations operate are complex\nThe responsibility for people management is distributed throughout organisations and is not the responsibility of a single function\nDue to their responsibility and the complexity they face, leaders and managers require access to high-quality professional people advice and execution"
+      },
+      {
+        "heading": "Taylorism as a historical approach",
+        "body": "Concept clarified\nScientific management studies and standardizes work. The source supplies a brief identification, not an endorsement or a complete account of worker effects.\nTaylorism\nThe principles or practice of scientific management and work efficiency as practised in a system known as the Taylor System"
+      },
+      {
+        "heading": "Theory Z: commitment and organizational conditions",
+        "body": "Concept clarified\nOuchi’s Theory Z is an organizational approach, not an economic equation or a guarantee that advancement motivates every employee. The note emphasizes commitment and opportunity; compare those conditions with the people systems in this guide.\nOuchi’s Z theory\nWorkers motivated by a sense of commitment, opportunity and advancement"
+      },
+      {
+        "heading": "Gilbert’s Behaviour Engineering Model",
+        "body": "Concept clarified\nThe six factors distinguish environmental supports—information, resources and incentives—from individual knowledge, capacity and motivation. Diagnose missing support before blaming motivation; this is distinct from the unrelated “Gilbert’s law” claim in the technology notes.\nGilbert’s Behaviour Engineering Model (BEM)\n6 workplace performance factors: information, resources, incentives, knowledge, capacity, and motivation."
       }
     ],
     "sources": []
@@ -10951,6 +11051,18 @@
       {
         "heading": "How: evidence, safety and change",
         "body": "How ...\nis this similar to _?\ndoes this disrupt things?\ndo we know the truth about this?\nwill we approach this safely?\ndoes this benefit us / others?\ndoes this harm us / others?\ndo we see this in the future?\ncan we change this for our good?"
+      },
+      {
+        "heading": "Occam’s razor: compare assumptions, then evidence",
+        "body": "Concept clarified\nPrefer an explanation with fewer unnecessary assumptions when explanations account for the evidence comparably well. Simplicity alone does not make an explanation true.\nOccam’s Razor\nThe simplest explanation, with the fewest assumptions, is usually the best."
+      },
+      {
+        "heading": "Personalization and selective patterns",
+        "body": "Concept clarified\nThe Barnum/Forer effect concerns accepting general statements as personally specific. The Texas sharpshooter analogy warns against selecting the pattern after seeing the outcomes. Ask what would disconfirm the claim and which observations were omitted.\nBarnum (forer) effect\nPeople believe vague, general statements about personality are specifically tailored to them.\nTexas sharpshooter effect\nSomeone focuses on patterns that match their theory while ignoring data that doesn’t fit."
+      },
+      {
+        "heading": "Metaphors, decision restraint and choice time",
+        "body": "Concept clarified\nRipple and octopus are metaphors for spreading consequences and influence, with no identified theory in the source. “Falkland’s Law” is an unattributed decision proverb. Hick’s law concerns a conditional relationship between choice information and response time in tasks; it does not mean every additional menu item inevitably causes the same delay.\nRock ripple effect\nA small action or event creates a series of larger consequences over time.\nOctopus effect\nTo control or influence many areas at once, like an octopus with multiple arms.\nFalkland's Law\nPeople should not make decisions when they are not necessary.\nHick's Law\nThe time it takes to make a decision increases with the number of choices available."
       }
     ],
     "sources": []
@@ -11167,6 +11279,10 @@
       {
         "heading": "The source’s bottleneck principle",
         "body": "Goldratt's Theory of Constraints\nFix the slowest part of a system to speed up the whole system."
+      },
+      {
+        "heading": "Liebig’s limiting-factor analogy",
+        "body": "Concept clarified\nLiebig’s law concerns limiting nutrients in its original context. Applied to organizations it is an analogy for constraints, not evidence that one factor always explains every system’s performance.\nLiebig’s law\nGrowth is limited by the scarcest resource, not the total resources available."
       }
     ],
     "sources": []
@@ -11507,6 +11623,18 @@
       {
         "heading": "Derivatives, trading strategies and structured credit",
         "body": "Futures\nBinary options\nForex\nContract for difference (CFD)\nEquity Neutral\nFX Carry\nFixed Income Relative Value\nShort Volatility\nDebt\nResidential mortgage-backed securities (RMBS)\nDebt-based security (similar to a bond), backed by the interest paid on loans for residences\nAsset-backed commercial paper (ABCP)\nCommercial paper that is collateralised by other financial assets\nStructured investment vehicle (SIV)\nA pool of investment assets that attempts to profit from credit spreads between short-term debt and long-term structured finance products\nCollateralized debt obligations (CDO)\nRepackage individual loans into a product sold to investors on the secondary market\nCredit default swap (CDS)\nA financial swap agreement that the seller of the CDS will compensate the buyer in the event of a debt default"
+      },
+      {
+        "heading": "Interest-rate swaps: evaluate the actual contract",
+        "body": "Concept clarified\nA swap exchanges specified cash flows, often fixed and floating rates. It can hedge or add risk depending on exposure, pricing, collateral and terms; the source’s “usually disadvantageous” claim has no supporting comparison.\nInterest rate swap which is fixed to float or vice-versa. Subjected to interback rates and usually is disadvantageous"
+      },
+      {
+        "heading": "Yield-curve shifts and cash-flow timing",
+        "body": "Concept clarified\nNon-parallel shifts change yields by different amounts across maturities. Discounted future cash flow is not the same as a time-weighted investment return. “Time-weighted cash flows” has no definition in the supplied note, so its intended measure remains unresolved.\nNon-parallel yield curve\nTime-weighted cash flows\nTime-discount future cash flow"
+      },
+      {
+        "heading": "Zero-coupon curve",
+        "body": "Name supplied; no calculation specified\nA zero-coupon or spot curve describes rates for single future cash flows at different maturities. The source supplies two names only, with no market observations or curve-construction method.\nZero coupon curve\nZero curve"
       }
     ],
     "sources": [
@@ -11575,6 +11703,14 @@
       {
         "heading": "Optimization methods named without an implementation",
         "body": "Optimisation methods: equal weight, naive risk parity, robust risk parity, mean variance"
+      },
+      {
+        "heading": "Capitalization weighting and the critical line algorithm",
+        "body": "Concept clarified\nCapitalization weighting sets component weights in proportion to defined market capitalizations, sometimes free-float adjusted. “WACW” is not established by the source as a standard acronym. The critical line algorithm traces a constrained mean–variance efficient frontier; choosing a maximum-Sharpe portfolio is a further selection problem.\nWeighted average market capitalization (WACW)\nStock market index whose components are weighted according to the total market value of their outstanding shares\nCritical line algorithm (CLA)\nA portfolio optimization routine that uses weights that maximise the Sharpe ratio, but the algorithm produces several sets of weights along the efficient frontier curve"
+      },
+      {
+        "heading": "Momentum and CAPE need explicit definitions",
+        "body": "Concept clarified\nCompounding a sequence of simple returns uses product(1 + return) − 1, with returns expressed as decimals. A 12-month signal needs precise dates and any skip period; “higher is better” is not a risk-adjusted recommendation. CAPE compares price with a multi-year average of inflation-adjusted earnings, commonly ten years; it is not restricted to US markets.\nMomentum\nLook back period of 12 months, convert profit/loss to % and +1, multiply together and -1 (higher the better)\nCyclically-Adjusted P/E (CAPE)\nFor the US market on a 10-year basis"
       }
     ],
     "sources": [
@@ -11633,6 +11769,10 @@
       {
         "heading": "Seven measures and their supplied descriptions",
         "body": "Correlation\nHow similar one investment behaves in relation to another\nMax drawdown\nHow much a security declined from peak to through during a given period\nUp capture and down capture\nPercentage during upside and downside of the investment\nSharpe\nPerformance of an investment compared to a risk-free asset (beta, yield, size, bond beta, alpha)\nSortino ratio\nReturns downside deviation instead of the total standard deviation\nBARRA mode\nMeasure the overall risk associated with a security relative to the market\nInformation ratio (IR)\nPerformance of an investment compared to a benchmark index, after adjusting for its additional risk"
+      },
+      {
+        "heading": "Convexity and yield curves",
+        "body": "Concept clarified\nBond convexity describes curvature in the price–yield relationship. The label alone does not specify a calculation, cash-flow convention or units; it should not be substituted for duration or used as a guaranteed return predictor.\nBond convexity\nBond price vs interest rates"
       }
     ],
     "sources": [
@@ -11672,6 +11812,10 @@
       {
         "heading": "Principal component analysis: a short source reference",
         "body": "Principal component analysis (PCA) is a method of extracting the endogenous, or latent, dynamics that exist in a system"
+      },
+      {
+        "heading": "Fama–French and Carhart factor models",
+        "body": "Concept clarified\nThe three-factor model adds size and value factors to market exposure; Carhart adds momentum. These are empirical return models with implementation choices, not a guarantee that every market or period exhibits a positive factor premium.\nFama and French three factor model\nStock returns based on market risk, company size, and value factors.\nCarhart four-factor model\nExtension to add momentum to the Fama and French three-factor model"
       }
     ],
     "sources": [
@@ -11762,6 +11906,14 @@
       {
         "heading": "Arithmetic average and compounded change",
         "body": "In the source’s illustrative +10% then −10% example, an amount of 100 becomes 110 and then 99. The arithmetic average return is zero, but the cumulative change is −1%. Reversing those two returns also ends at 99 if no money is added or withdrawn. This is an arithmetic illustration, not historical investment performance."
+      },
+      {
+        "heading": "The Super Bowl market story",
+        "body": "Concept clarified\nThis is a spurious-correlation warning, not a forecasting rule. Team identity has no investment mechanism established by the note; data mining and out-of-sample failure must be considered.\nSuper bowl effect\nA Super Bowl win by an NFC team predicts a rise in the stock market for that year."
+      },
+      {
+        "heading": "Calendar and announcement anomalies",
+        "body": "Concept clarified\nTime-of-day, weekday, month-turn, holiday and late-reporting patterns are hypotheses requiring a defined dataset, period, market, costs and out-of-sample checks. The stated last-two/first-three-day window is source wording, not a current reliable trading signal. “Weekend reporting causes” is stronger than the evidence supplied.\nTime-of-the-day effect\nReturns and volatility can vary depending on the time of the trading day.\nDay-of-the-week effect\nWeekend reporting causes bad Friday-to-Monday returns.\nWeek-of-the-month effect\nReturns may vary depending on the specific week within a month.\nTurn-of-the-month effect\nStock prices increased during the last two days and the first three days of each month.\nHoliday Effect\nStock market to gain on the final trading day before an exchange-mandated long weekend.\nLate reporter anomaly\nLate announcements are often negative and cause a price decline."
       }
     ],
     "sources": []
@@ -11872,6 +12024,689 @@
         "url": "https://www.visualcapitalist.com/worlds-100-biggest-pension-funds/"
       }
     ]
+  },
+  {
+    "slug": "economic-foundations",
+    "title": "Economic foundations: scarcity, work and choices",
+    "topic": "Economics & Society",
+    "group": "Foundations & measurement",
+    "summary": "Connect scarce resources, economic indicators, employment and choices over time.",
+    "sections": [
+      {
+        "heading": "Scarcity and the indicators to watch",
+        "body": "Concept clarified\nScarcity means choices compete for limited resources. The jigsaw is a coordination metaphor, not evidence that markets always reach a desirable result. Read growth, inflation, unemployment and wages together: a growing total can coexist with falling purchasing power for some households.\nEconomics\nBasic\nThe scarcity and consumption of resources\nEconomy is like a jigsaw puzzle with billion pieces that miraculously assembles itself\nMain economic indicators\nInflation, growth, unemployment, wages"
+      },
+      {
+        "heading": "Jobs, migration and local demand",
+        "body": "Concept clarified\nUnemployment and underemployment describe different labour-market problems. Migration can increase demand for services and also changes labour supply, skills and capacity; the net result depends on the place, period and institutions. The source gives no dataset for its one-way claim.\nUnemployment ≠ Underemployment\nMore immigrants = more demand for local services"
+      },
+      {
+        "heading": "Partnerships and decisions under uncertainty",
+        "body": "Concept clarified\nPublic-private partnership is a delivery/financing arrangement; it is different from purchasing power parity, which shares the initials PPP. Subjective expected utility weights possible outcomes by the decision maker’s beliefs and utilities, rather than simply estimating an investment return.\nPublic-private partnership (PPP)\nSubjective Expected Utility (SEU)\nEach individual calculates the likelihood of return on investment"
+      },
+      {
+        "heading": "Receiving value sooner or later",
+        "body": "Concept clarified\nTime discounting describes preferences over timing. A financial discount rate also incorporates assumptions about risk and financing; do not substitute a psychological preference for an audited valuation model.\nTime discounting\nThe current relative valuation placed on receiving a good at an earlier date compared with receiving it at a later date\nCycle"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "economic-measurement",
+    "title": "Measuring an economy: GDP, inequality and purchasing power",
+    "topic": "Economics & Society",
+    "group": "Foundations & measurement",
+    "summary": "Distinguish output, price-level comparisons, investment and broader measures of progress.",
+    "sections": [
+      {
+        "heading": "Gini: name the distribution",
+        "body": "Concept clarified\nA Gini coefficient summarizes inequality in a specified distribution. Income and wealth Ginis are different measures; specify population, date and whether income is before or after taxes and transfers. One number does not identify the causes of inequality.\nGini coefficient\nA measure of statistical dispersion intended to represent the income or wealth distribution of a nation's residents, and is the most commonly used measure of inequality"
+      },
+      {
+        "heading": "Money identities and the investment ratio",
+        "body": "Concept clarified\nThe chain “GDP = MV = PT = CV” is not a valid general identity. Nominal GDP counts final domestic production; a transactions aggregate can include transactions outside GDP. Credit outstanding is a stock and cannot simply replace money in an identity using the same velocity.\nWith consistently defined aggregates, MV = PY is a nominal-income identity, where Y is real output and P its price level. An identity alone does not prove that money growth causes proportional inflation. GFCF divided by GDP is an investment share when period, currency and valuation are consistent.\nGDP = MV = PT = CV\nM = Money - average amount of money in circulation in the community during the year\nV = Velocity - average rate of turnover of money\nP = Price level - weighted average of all prices\nT = Trade - volume of trade\nC = Total credit market debt\nInvestment ratio\nGross fixed capital formation (GFCF) / gross domestic product (GDP)"
+      },
+      {
+        "heading": "Quantity equation versus Fisher interest relationship",
+        "body": "Concept clarified\nThe source calls a quantity equation the “Fisher identity” and equates transaction volume with GDP. Keep the quantity relationship separate from the Fisher relationship between nominal interest, real interest and expected inflation; the approximate rate relation is i ≈ r + expected inflation, not the money-times-velocity equation.\nFisher identity\nMoney in circulation x velocity = average transaction price x volume of transaction (GDP)"
+      },
+      {
+        "heading": "Progress measures and purchasing power parity",
+        "body": "Concept clarified\nGPI supplements or adjusts conventional output accounting; the source supplies no specification or data series. Purchasing power parity compares currencies using the prices of a comparable basket. A PPP conversion differs from a market exchange rate; choose the conversion appropriate to the comparison.\nGenuine progress indicator (GPI)\nAlternative view on economic health\nPurchasing power parity (PPP)\nReal economic value under real-world exchange rate that is adjusted GDP"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "money-banking-policy",
+    "title": "Money and banking: policy tools, crises and distribution",
+    "topic": "Economics & Society",
+    "group": "Money, banking & policy",
+    "summary": "Follow the differences between creating money, lending liquidity, rescuing institutions and changing incentives.",
+    "sections": [
+      {
+        "heading": "Seigniorage and corrective taxation",
+        "body": "Concept clarified\nSeigniorage concerns the economic benefit from issuing money; “note versus face value” omits production cost, interest and institutional accounting. Pigouvian taxation targets an external cost. A sugar or tobacco tax is not automatically set equal to an accurately measured marginal harm.\nSeigniorage\nProfit made by the government from the difference between note and face value\nPigouvian taxes\nTaxes match the cost of harm done (e.g. sugar or tobacco)"
+      },
+      {
+        "heading": "Shadow banking, lender of last resort and QE",
+        "body": "Concept clarified\nNon-bank financial intermediation can create bank-like credit and liquidity risks without being identical to regulated deposit banking. Emergency lending supplies liquidity under particular eligibility, collateral and risk conditions; it does not automatically repair insolvency.\nQE is central-bank asset purchasing that changes balance sheets and financial conditions. It is more specific than “introducing new money.” Negative policy rates do not mean every household pays a negative rate on every deposit.\nShadow banking: non-bank financial institutions that operate like banks\nCentral banks could replace lost deposits by providing official loans to a bank experiencing a run\nQuantitative easing\nThe introduction of new money into the money supplied by a central bank\nNegative interest rate policy\nTo encourage spending by having to pay to deposit money in the bank"
+      },
+      {
+        "heading": "A bailout is not simply a new creditor",
+        "body": "Concept clarified\nA bailout supplies support to an institution or sector in distress; it can involve loans, guarantees, capital or other measures. Refinancing or transferring a debt to a new creditor is not by itself a bailout.\nBailout\nTaking over a position and the debtor owes another creditor"
+      },
+      {
+        "heading": "Say and Gresham: propositions with conditions",
+        "body": "Concept clarified\nSay’s law is a historical proposition about production, income and demand, not a guarantee that each product will sell. Gresham’s mechanism concerns competing monies under a constrained exchange valuation; avoid applying “bad drives out good” to every market.\nSay’s law\nSupply creates its own demand, meaning production generates the income needed to purchase goods.\nGresham’s law\n\"Bad money drives out good money,\" meaning people will hoard valuable currency and spend less valuable currency."
+      },
+      {
+        "heading": "The Triffin dilemma",
+        "body": "Concept clarified\nA reserve-currency issuer can face tension between domestic objectives and international demand for reserve assets. This is a structural dilemma, not a dated exchange-rate forecast.\nTriffin dilemma\nThe conflict between a country's short-term economic interests and its long-term role as a global reserve currency provider."
+      },
+      {
+        "heading": "Who receives new money first?",
+        "body": "Concept clarified\nThe Cantillon effect names distributional effects associated with how money enters an economy. The incidence depends on transmission channels and behaviour; proximity to a central bank is not a sufficient empirical measure.\nCantillon effect\nUnequal distribution of wealth and income resulting from changes in the money supply, benefiting those closest to the source of money."
+      },
+      {
+        "heading": "Money, regulation and the business cycle",
+        "body": "Concept clarified\nThe source’s “government law,” “money law” and “banking law” labels are topic headings, not named universal laws. They cover public authority, currency, interest rates, bank regulation, saving and the possible short-run real effects of money.\nPublic ownership does not guarantee bank stability. Saving and spending are connected through income and investment rather than an unchanging ideal balance. Business fluctuations need not repeat at fixed intervals. The fused interest-rate sentence is preserved below with the rest of the source wording.\nGovernment law\nRules and regulations that define the structure, powers, and functions of government institutions and their relationship with citizens.\nMoney law\nGoverns the creation, regulation, and use of money within an economy, including currency, banking, and financial transactions.\nMoney prices law\nThe value of money and prices are influenced by the supply and demand for goods, services, and currency.\nInterest rates lawThe cost of borrowing money (interest rates) is influenced by factors like inflation, central bank policies, and economic conditions.\nBanking law\nGoverns the operations, regulations, and practices of banks, including lending, deposits, and financial services.\nGovernment-controlled banking law\nRegulates banks that are owned or heavily influenced by the government, aiming to stabilise the economy and ensure financial security.\nSpending vs. saving law\nIndividuals or economies must balance expenditure and savings to maintain financial stability and long-term growth.\nNon-Neutrality of money law\nChanges in the money supply can affect real economic variables, such as output and employment, in the short run.\nBusiness cycles and depression law\nEconomies experience periodic fluctuations, with booms followed by recessions or depressions due to factors like investment and consumption changes."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "economic-cycles",
+    "title": "Economic cycles: mechanisms, hypotheses and misleading clocks",
+    "topic": "Economics & Society",
+    "group": "Cycles & instability",
+    "summary": "Compare credit, investment, innovation and confidence explanations without treating suggested periods as predictions.",
+    "sections": [
+      {
+        "heading": "Named cycles and their limits",
+        "body": "Concept clarified\nKondratieff, Kuznets, Juglar and Kitchin refer to proposed fluctuations at different horizons. The quoted periods are historical labels, not reliable timers. The 18-year property claim is attributed in the notes to Phillip J. Anderson without a citation; no forecast is established. “Humanity” scenarios are an unattributed taxonomy, not measured business-cycle evidence.\nKondratieff’s long wave\nHypothesised cycle-like phenomena in the modern world economy\nKuznets swing\nMedium-range economic wave with a period of 15–25 years\nJuglar cycle\nFixed investment cycle of 7 to 11 years\nKitchin cycle\nShort business cycle of about 40 months\nHumanity\nRecurrent collapse, plateau, extinction, takeoff\n18-year real-estate cycle\nPhillip J. Anderson - 14 years and 4 years down"
+      },
+      {
+        "heading": "Ten proposed sources of fluctuations",
+        "body": "Concept clarified\nDespite its “Microeconomy” heading, this source section discusses economy-wide fluctuations: weather, expectations, sentiment, innovation, saving/investment, construction, excess production, credit, income distribution and profits. These are competing or interacting mechanisms. Weather shocks are not proof of a deterministic sunspot cycle; the final quotation has no source attribution.\nMicroeconomy\nThe weather\nWeather patterns and sunspots are held to affect agricultural prices and, thereby, the broader economy.\nUncertainty\nThe business community tends to misjudge future demand and overproduce or underproduce as a result. The need to adjust output to actual demand then sets off the cycle.\nThe emotional factor in business decisions\nMood swings within the business community between excessive optimism and excessive pessimism are thought responsible for the booms and busts of investment.\nInnovation, promotion, progress\nThis theory states that innovations and waves of innovations cause changes in both the supply and demand for products to which the economy must adjust.\nThe process of saving and investments\nOne version of this theory blames the business cycle on a scarcity of capital, while another attributes it to over-saving.\nConstruction work\nThis theory contends that booms and depressions originate in the construction industry and spread out to the rest of the economy.\nGeneral overproduction\nInvestment by the business community sets off a period of prosperity, but then carries on for too long until there is excess production that can’t be sold. At that point, investment is reduced, resulting in depression.\nBanking operations\nCredit expansion causes the boom, but the boom goes into reverse when credit ceases to expand.\nProduction and the flow of money incomes\nProduction expands faster than wages, eventually leading to unsold goods, falling prices and depression.\nThe role played by profit-making\n“The distinguishing characteristic of these theories is that they represent the alternatives of prosperity and depression as arising from profit-making itself”"
+      },
+      {
+        "heading": "Debt deflation and a mixed list of outcomes",
+        "body": "Concept clarified\nThe coherent debt-deflation chain is: distress selling, repayment and contracting credit, falling prices, heavier real debt burdens, weaker balance sheets and output, then worsening confidence. It is a feedback mechanism rather than an inevitable sequence.\nThe remaining notes mix bear markets, worker shortages, trading descriptions and political labels. Worker shortages do not follow necessarily from debt deflation; recession does not imply nationalisation or communism. “Vulnerable and buyable” has no valuation method or decision rule.\nDeflationary\nDebt liquidation leads to distress selling\nContraction of deposit currency, bank loans paid off, circulation slowed down\nFall in level prices = swelling of the dollar\nFall in net worth of business = increase bankruptcies\nFall in profit - Reduction in output = unemployment\nPessimism and loss of confidence\nHoarding and slowing down still more the velocity of circulation\nProlonged bear market\nShortage of workers\nHigher employment cost\nPrices are sold aggressively\nUncertainty and choppy activity\nVulnerable and buyable\nRecession\nDepression\nNationalisation\nCommunism"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "economic-schools-thinkers",
+    "title": "Economic schools and thinkers: a comparative reading map",
+    "topic": "Economics & Society",
+    "group": "Ideas, institutions & history",
+    "summary": "Separate schools of explanation from mnemonic labels and incomplete historical attributions.",
+    "sections": [
+      {
+        "heading": "An unattributed philosophical grouping",
+        "body": "Concept clarified\nThe optimistic/pessimistic and definite/indefinite pairings are preserved as a supplied classification. No author, rationale or primary text is given for assigning these philosophers to the four cells; this is not presented as an established history-of-philosophy taxonomy.\nClass\nDefinite optimistic\nHegel & Marx\nIndefinite optimistic\nNozick & Rawls\nPessimistic definite\nPlato & Aristotle\nPessimistic indefinite\nEpicurus & Lucretius"
+      },
+      {
+        "heading": "Nine schools at a glance",
+        "body": "Classical\nEmphasizes the role of free markets and the self-regulating nature of economic systems.\nNeoclassical\nCenters on individual choice and the mathematical modeling of market behavior.\nMarxist\nEconomic development is driven by material conditions and social relations.\nDevelopmentalist\nConcentrates on the economic strategies of developing countries and how they can achieve sustained growth.\nAustrian\nStresses the importance of individual action and the limitations of government intervention.\nSchumpeterian\nHighlights the role of innovation and entrepreneurship in driving economic growth and transformation.\nKeynesian\nAdvocates for government intervention to stabilize economies and smooth out business cycles.\nInstitutionalist\nExamines the role of institutions and social norms in shaping economic outcomes and behavior.\nBehaviourist\nFocuses on the psychological and cognitive aspects of economic decision-making and challenges the assumption of perfect rationality in traditional economic models."
+      },
+      {
+        "heading": "Thinkers: correct the spelling and the attribution",
+        "body": "Concept clarified\nRead “Thomas Robert Maithus” as Thomas Robert Malthus and “Frederick Hoyak” as Friedrich Hayek. These are editorial identification corrections. The Manifesto was coauthored by Marx and Engels. Nash is central to equilibrium theory, but the prisoner’s dilemma was not originated by Nash. Slogans such as “show me the money” are memory aids, not book titles or quotations. The source’s “Behaviourist” school description is closer to behavioural economics than to the distinct psychology school of behaviourism.\nTheories\nThe wealth of nations\nAdam Smith\nThe dismal outlook by dismal science\nThomas Robert Maithus\nThe communist manifesto\nKarl Marx\nKeynesian; government spending on rescue\nJohn Maynard Keynes\nThe wonders of creative destruction\nJoseph Schumpeter\nSet my market free\nFrederick Hoyak\nPrisoner’s dilemma\nJohn Nash\nLong-term growth as people, capital, and technology\nRobert Solow\nShow me the money\nMilton Friedman"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "political-economic-systems",
+    "title": "Political and economic systems: power, ownership and ideology",
+    "topic": "Economics & Society",
+    "group": "Ideas, institutions & history",
+    "summary": "Organize terms by what they describe, rather than treating every label as a form of government.",
+    "sections": [
+      {
+        "heading": "Who holds power?",
+        "body": "Government\nPlutocracy\nA form of government or society ruled or controlled by the wealthy.\nOligarchy\nA government or organization controlled by a small group of people, often from a specific class or group.\nDemocracy\nA system of government where power is vested in the people, typically through elected representatives.\nMeritocracy\nA system in which advancement and leadership are based on individual ability and talent rather than on wealth or social class.\nAristocracy\nA form of government or social structure in which power is held by the nobility"
+      },
+      {
+        "heading": "Ownership and concentrations of influence",
+        "body": "Capitalism\nAn economic system characterized by private ownership of the means of production and the pursuit of profit.\nKleptocracy\nA government or state in which those in power exploit national resources and steal; rule by corrupt leaders.\nCorporatocracy\nA society or system where corporate interests and corporations have significant control over government policy and decision-making."
+      },
+      {
+        "heading": "Economic systems and political traditions",
+        "body": "Socialism\nAn economic and political system where the means of production are owned and controlled by the state or public.\nCommunism\nA classless, stateless society where all property and resources are communally owned.\nMarxism / Neo Marxism\nA theory developed by Karl Marx, advocating for a classless society through the abolition of capitalism and the establishment of socialism.\nFascism\nA far-right, authoritarian political ideology that emphasizes nationalism, dictatorial power, and the suppression of opposition.\nNationalism\nA political ideology that emphasizes the interests, culture, and value of one's nation, often above those of other nations.\nLeninism\nA form of Marxism developed by Vladimir Lenin that advocates for the establishment of a vanguard party to lead the proletarian revolution and establish a dictatorship of the proletariat.\nMaoism\nA form of Marxism-Leninism developed by Mao Zedong, emphasizing the role of the peasantry in revolution and the importance of continuous class struggle.\nAnarchism\nA political philosophy that advocates for a stateless society where individuals govern themselves without hierarchical authority.\nLiberalism\nA political and economic philosophy emphasizing individual freedoms, democracy, and the protection of civil liberties."
+      },
+      {
+        "heading": "Philosophy, favouritism and historical repression",
+        "body": "Nihilism\nA philosophical belief that life is meaningless and rejects all religious and moral principles.\nCronyism\nFavoritism shown to close friends or associates, especially in political appointments or business dealings.\nNepotism\nFavoritism granted to relatives in various fields, such as employment, business, or politics.\nMcCarthyism\nA period of intense anti-communist suspicion in the United States during the early 1950s, characterized by accusations and investigations.\nContractarianism\nIndividuals make the right choices under a hypothetical social contract"
+      },
+      {
+        "heading": "Keep the categories distinct",
+        "body": "Capitalism and socialism concern ownership and coordination; democracy and oligarchy concern the distribution of political power. An economy can combine institutions from several categories. Meritocracy is an ideal of selection and advancement, not a complete constitution.\nThe concise definitions are study prompts. Socialism includes traditions beyond state ownership; communism’s theoretical end state differs from states historically ruled by communist parties. Nihilism is a family of philosophical positions, not one universal denial of every value. Contractarianism concerns justification through agreement, not a guarantee that hypothetical choices are always right. Cronyism and nepotism describe practices; McCarthyism names a historical campaign and its associated methods."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "economic-inequality-development",
+    "title": "Trade, development and inequality",
+    "topic": "Economics & Society",
+    "group": "Trade, development & inequality",
+    "summary": "Connect cross-border exchange, urban change and competing explanations of unequal outcomes.",
+    "sections": [
+      {
+        "heading": "Trade barriers",
+        "body": "Concept clarified\nTariffs, quotas and subsidies change prices and incentives in different ways. Identify the affected goods, trading partners and policy objective before calling a measure a barrier or judging its distributional effects.\nExternal factors\nBarriers to trade, tariffs, quotas, subsidies"
+      },
+      {
+        "heading": "Thirteen processes of social and economic change",
+        "body": "Socioeconomics\nGlobalisation\nThe process by which businesses, cultures, and societies become integrated and interdependent on a global scale. This includes the flow of goods, services, information, and people across borders. It’s driven by advancements in technology, transportation, and communication.\nGlocalisation\nThe adaptation of global business practices and products to fit local cultures and preferences. It combines global and local considerations to tailor offerings to specific markets.\nUrbanisation\nThe movement of populations from rural to urban areas, leading to the growth of cities and towns. This process is associated with economic development, industrialization, and changes in lifestyle.\nIndustrialization\nThe transformation from an agrarian society to one based on the manufacturing of goods and services. This involves the development of industries and factories, leading to increased production and economic growth.\nLocalisation\nThe emphasis on local production, consumption, and decision-making to preserve local identity and reduce dependency on global networks. It often contrasts with globalization by focusing on strengthening local economies and cultures.\nNationalisation\nThe transfer of private sector assets into public ownership. Governments take control of industries or resources to ensure their management serves the public interest.\nRegionalisation\nThe division or organization of a country or area into smaller regions for administrative, economic, or cultural purposes. It also refers to the cooperation between neighboring regions or countries to promote economic integration and development.\nLiberalisation\nThe process of reducing government regulations and restrictions in the economy to encourage free-market activity. It often involves the deregulation of industries, reduction of tariffs, and opening up to foreign investment.\nImperialism\nThe policy or practice of extending a country's power and influence through colonization, military force, or other means. It often involves the domination and exploitation of weaker territories.\nColonialism\nA form of imperialism where a country establishes settlements and exerts control over the political and economic systems of another territory. It typically involves the exploitation of resources and indigenous populations.\nExpansionism\nThe policy of territorial or economic expansion by a nation. It involves the acquisition of new lands or markets through diplomacy, military conquest, or other means.\nIsolationism\nA national policy of avoiding political or economic entanglements with other countries. It focuses on self-reliance and non-intervention in international affairs.\nFeudalism\nA medieval European social system where land was owned by lords who allowed peasants to live on it in return for labor or military service. It structured society around relationships derived from the holding of land in exchange for service or labor."
+      },
+      {
+        "heading": "Gravity and factor endowments",
+        "body": "Concept clarified\nThe gravity model relates bilateral trade to economic size and trade frictions, often proxied partly by distance. Heckscher–Ohlin emphasizes relative factor abundance under model assumptions; neither statement predicts each country’s exports without qualification.\nLaws\nGravity model\nPredicts trade flow between two countries based on their economic sizes and the distance between them.\nHeckscher-Ohlin model\nCountries export goods requiring abundant resources and import goods needing scarce resources."
+      },
+      {
+        "heading": "The Leontief paradox",
+        "body": "Concept clarified\nThe historical finding challenged a simple factor-endowment prediction for US trade under the measurement and assumptions used. It is a test of a model in a setting, not proof that endowments never matter.\nLeontief paradox\nExported labor-intensive goods contradicting the Heckscher-Ohlin model."
+      },
+      {
+        "heading": "Demand similarity, inequality and mercantilism",
+        "body": "Concept clarified\nLinder emphasizes overlapping demand as a possible trade explanation. The Kuznets inequality hypothesis is distinct from the Kuznets cycle. Piketty’s r > g relationship is a mechanism to examine, not a sufficient law of inevitable inequality: taxation, saving, institutions and shocks also matter. Mercantilism describes an orientation to trade and state power; a trade surplus alone is not a complete welfare measure.\nLinder hypothesis\nCountries with similar demand patterns are more likely to trade with each other.\nKuznets hypothesis\nAs an economy develops, income inequality first increases and then decreases over time.\nPiketty’s r > g hypothesis\nReturn on capital (r) exceeds economic growth (g), wealth inequality increases.\nMercantilism & neomercantilism\nMaximising exports and minimising imports to accumulate wealth."
+      },
+      {
+        "heading": "Equality is a question to specify",
+        "body": "Concept clarified\n“Equality and inequality law” names a subject, not an established equation. Specify equality of what—income, wealth, opportunity, rights or outcomes—before choosing a measure or evaluating a policy.\nEquality and inequality law\nThe balance or imbalance in the distribution of resources, rights, and opportunities within a society."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "banking-institutions-history",
+    "title": "Banking institutions and economic history: a dated reading guide",
+    "topic": "Economics & Society",
+    "group": "Ideas, institutions & history",
+    "summary": "Put Basel standards, monetary arrangements and crisis episodes in their historical context.",
+    "sections": [
+      {
+        "heading": "The Opium Wars and Hong Kong",
+        "body": "Incomplete historical prompt\nThe two-line note is an incomplete historical prompt. Trade, coercion and imperial power require a fuller account than “a trade war”; the document supplies no dates, treaty text or citation. The strategic-port statement is retained without pretending this is a complete causal history.\nOpium war\nDue to the trade war, HK was a strategic port"
+      },
+      {
+        "heading": "Basel standards and European supervision",
+        "body": "Concept clarified\n1974 refers to the Basel Committee’s establishment, whereas Basel I was released in 1988. Basel II’s three pillars and Basel III’s post-crisis reforms belong to successive frameworks. The “130 biggest banks” note is historical, not a current count of ECB-supervised institutions.\nNotable History\nEuropean central bank (ECB) directly supervised eurozone 130 biggest banks\nBasel I\nThe BCBS was founded in 1974 as an international forum where members could cooperate on banking supervision matters.\nBasel II\nMinimum capital requirements, regulatory supervision and market discipline\nBasel III\nArt of the continuous effort to enhance the banking regulatory framework. It builds on the Basel I and Basel II documents, and seeks to improve the banking sector's ability to deal with financial stress, improve risk management, and strengthen the banks’ transparency."
+      },
+      {
+        "heading": "A timeline of policy responses and institutions",
+        "body": "Historical notes; context incomplete\nThe Powell memorandum, Roosevelt’s programmes, Hamilton’s debt plan, Bretton Woods and LTCM are distinct historical topics, not one causal sequence. The source gives only memory prompts; its LTCM entry identifies the 1998 crisis. Hamilton’s funding and assumption proposals should not collapse all federal and state obligations into one category. No missing quotations or programme details have been invented.\nThe Powell memo\nA call-to-arms for USA corporations\nFranklin D. Roosevelt (FDR)\nPromoting programs to combat the economic crisis besetting the USA\nHamilton's financial plan\nThe federal government should pay off all Confederation (state) debts at full value\nBretton Woods system\nRequired a currency peg to the U.S. dollar which was in turn pegged to the price of gold.\nLong Term Capital Management (LTCM)\nHedge fund blew up in 1998"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "economic-production-prices",
+    "title": "Production, prices and the limits of economic “laws”",
+    "topic": "Economics & Society",
+    "group": "Foundations & measurement",
+    "summary": "Read output, costs, incentives and coordination as conditional relationships rather than slogans.",
+    "sections": [
+      {
+        "heading": "The Laffer curve does not identify a tax rate",
+        "body": "Concept clarified\nThe curve proposes a relationship between a tax rate and receipts under particular behavioural assumptions. It does not establish the revenue-maximizing rate for a real tax base without evidence.\nLaffer curve\nTheoretical relationship between rates of taxation and the resulting levels of the government's tax revenue"
+      },
+      {
+        "heading": "Substitution is not a named universal law",
+        "body": "Concept clarified\nThe “law of replacement” is an unattributed label. Scarcity or higher relative prices can encourage substitution, but technical constraints, switching costs and preferences can prevent it. No missing theorem is inferred.\nLaw of replacement\nResources or goods will be replaced or substituted when they become scarce or too expensive."
+      },
+      {
+        "heading": "Trade-offs and the Lindy heuristic",
+        "body": "Concept clarified\nThe free-lunch observation highlights opportunity costs, not a claim that every free service hides fraud. Lindy is a survival heuristic sometimes applied to non-perishable things; it is not a general lifespan formula for people, firms or products.\nFree lunch effect\nSomething appears to be free or beneficial, but often has hidden costs or trade-offs.\nLindy effect\nThe longer something has existed, the longer it is likely to continue existing."
+      },
+      {
+        "heading": "Diminishing marginal returns",
+        "body": "Concept clarified\nThis is a conditional production relationship: change one input while relevant others are fixed. It differs from returns to scale, where inputs change together.\nLaw of diminishing marginal returns\nAdding more of one input, while keeping others constant, will eventually yield smaller increases in output."
+      },
+      {
+        "heading": "Sustainability, contribution and profit",
+        "body": "Concept clarified\n“Sustainability law” and “profit law” are informal headings. Profit depends on how revenue and costs are defined. Price’s law is a contribution-concentration heuristic, not a universal workforce quota. Wages can reduce profit with everything else fixed, but productivity, demand and prices can also change; wages and profit are not inevitably inversely related.\nSustainability law\nBalancing environmental, social, and economic needs for long-term development without depleting resources.\nPrice's law\nA small percentage of contributors typically produce the majority of results in any field.\nProfit law\nProfit is the difference between total revenue and total costs in business operations.\nThe profits and wages law\nAn inverse relationship where higher wages can reduce profits and vice versa."
+      },
+      {
+        "heading": "Prices, specialization and calculation",
+        "body": "Concept clarified\nThe notes summarize an argument for decentralized price coordination. Market power, externalities, public goods and information problems qualify simple efficiency claims. The non-market calculation debate is a debate about information and allocation, not a proved impossibility of every public decision.\nDivision of labour within the free price system law\nA free price system, the division of labour is guided by market prices, which allocate resources efficiently based on supply and demand.\nEconomic calculation law\nEfficient resource allocation requires a pricing system in a competitive market to guide decisions.\nEconomic calculation outside business law\nResource allocation without market prices, such as in government or communal systems, faces efficiency challenges."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "economic-models-evidence",
+    "title": "Economic models and evidence: distributions, regression and assumptions",
+    "topic": "Economics & Society",
+    "group": "Methods & evidence",
+    "summary": "Know what a statistical tool can establish and which source entries are only labels.",
+    "sections": [
+      {
+        "heading": "SUR and GLS: identify the estimation problem",
+        "body": "Concept clarified\nSUR jointly models multiple regression equations and can exploit correlated errors across equations. GLS accounts for a specified error covariance structure; “estimate unknown parameters” alone does not distinguish it from other estimators. Neither method removes confounding automatically.\nMeasurement\nSeemingly unrelated regression (SUR)\nLinear regression model that consists of several regression equations\nGeneralised least squares (GLS)\nEstimate the unknown parameters"
+      },
+      {
+        "heading": "Tails, normal distributions and missing symbols",
+        "body": "Concept clarified\nA long tail describes a distribution with many low-frequency values; it does not imply the distribution is normal. Bell curve and Gaussian normal distribution refer here to the same family. The source omits the parameter symbols: for a normal distribution, μ denotes the mean and σ the standard deviation.\nLong tail\nMany occurrences far from the \"head\" or central part of the distribution\nBell curve\nThe parameter is the mean or expectation of the distribution; and is its standard deviation"
+      },
+      {
+        "heading": "DSGE and Arrow–Debreu",
+        "body": "Concept clarified\nDSGE models combine dynamic decisions, stochastic shocks and equilibrium conditions. Results depend on specification and identification. Arrow–Debreu’s general-equilibrium framework requires conditions for existence and welfare results; the mere presence of contingent contracts does not ensure every real market is complete or efficient.\nDynamic Stochastic General Equilibrium (DSGE)\nAggregate economic phenomena, such as growth, business cycles, and policy effects, through the interaction of microeconomic agents under uncertainty over time.\nArrow-Debreu\nGeneral equilibrium in economics, demonstrating how markets for goods and securities can clear through the presence of a complete set of contingent contracts, thereby ensuring efficient allocation of resources."
+      },
+      {
+        "heading": "Large numbers do not cure bad sampling",
+        "body": "Concept clarified\nA law of large numbers gives convergence results under specified conditions. More observations do not automatically repair biased collection, dependence or an undefined expectation.\nLaw of large numbers\nAs the number of trials or observations increases, the average result will get closer to the expected value."
+      },
+      {
+        "heading": "Analysis is a practice, not a universal law",
+        "body": "Concept clarified\nThe “analytics law” entry advocates systematic analysis but supplies no named result or evidence. Use data quality checks, competing explanations and uncertainty estimates instead of treating analysis as a guarantee.\nAnalytics law\nDecisions come from systematically analysing data rather than relying on intuition alone."
+      },
+      {
+        "heading": "A small mathematics index",
+        "body": "Concept clarified\nSchool, applied, pure and abstract mathematics are bare labels in the source. No syllabus, worked examples or additional content is present; the related statistics readings supply a useful next step without fabricating missing lessons.\nMathematics\nSchool math\nApplied math\nPure math\nAbstract math"
+      },
+      {
+        "heading": "Gaussian and bell-curve terminology",
+        "body": "Concept clarified\nThe truncated “Gaussian normal distributio” and “Bell curve” labels refer here to the same normal-distribution family, not a separate measurement method.\nGaussian normal distributio\nBell curve"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "technology-scaling-heuristics",
+    "title": "Technology scaling: networks, speed, learning and organization",
+    "topic": "Technology",
+    "group": "Models & software engineering",
+    "summary": "Compare useful scaling models with loosely attributed “laws” and workplace satire.",
+    "sections": [
+      {
+        "heading": "Network-value heuristics",
+        "body": "Concept clarified\nSarnoff, Metcalfe and Reed use different proxies for network value—audience, potential pairwise links and possible groups. Counting potential connections does not measure realized economic value; activity, costs and diminishing relevance matter.\nSarnoff’s law\nThe value of a broadcast network is proportional to the number of viewers.\nMetcalfe’s law\nThe value of a network increases as the square of the number of its users grows.\nReed’s law\nThe value of a network grows exponentially as the number of possible subgroups or connections within the network increases."
+      },
+      {
+        "heading": "Hardware, parallelism, learning and organizational design",
+        "body": "Concept clarified\nMoore’s observation concerns transistor scaling; it does not promise a doubling of useful application speed. Amdahl’s model limits speedup when a serial share remains. Wright’s learning relationship concerns unit cost and cumulative production, rather than elapsed time alone. Conway connects communication structures with system design.\nMoore's law\nThe number of transistors on a microchip doubles approximately every two years, leading to increased computing power.\nAmdahl's Law\nThe maximum improvement in performance of a system when only part of it is improved, highlighting diminishing returns for parallel processing.\nWright's law (learning curve)\nAs production increases, the cost per unit decreases due to efficiencies gained from experience.\nConway’s law\nOrganisations design systems that mirror their own communication structure."
+      },
+      {
+        "heading": "A poorly attributed system-complexity claim",
+        "body": "Unverified attribution and model\nThe source’s inverse-components “Gilbert’s law” claim has no provenance, definition of quality or supporting model. Fewer components can reduce coordination costs but can also hide complexity or remove necessary capability; no universal inverse law is established. This is not Gilbert’s Behaviour Engineering Model.\nGilbert's law\nIn system design,it states that the quality of a system is inversely proportional to the number of components in it."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "singapore-property-planning",
+    "title": "Singapore land and planning: identify the site before using a number",
+    "topic": "Property & Housing",
+    "group": "Land, planning & ownership",
+    "summary": "Read planning controls, use restrictions, plot ratio and land charges in their proper scope.",
+    "sections": [
+      {
+        "heading": "Site identity, property rights and building envelopes",
+        "body": "Reviewed context; case-specific checks remain\nThe ministry list is a source filing system, not a sequence of approvals. Ownership can involve land, buildings, airspace and subterranean interests, but the title and legislation define the actual rights. The claims about 58 sites and universal 12 m/15.5 m heights are unverified; check the site’s planning controls rather than treating them as general rules.\nReal Estate\nSingapore Ministries\nMinistry of Law (Minlaw)\nSingapore Land Authority (SLA)\nLanded areas have 58 sites without plot ratio\nConsist of: land, air space, real property, subterranean, incorporeal hereditaments, corporeal hereditaments\n2 storey height: 12m, 3 storey height: 15.5m"
+      },
+      {
+        "heading": "Housing types and dimensional controls",
+        "body": "Reviewed context; case-specific checks remain\nURA distinguishes GCBs, detached, semi-detached, terrace, strata-landed and apartment developments. Its landed controls include plot-size and width conditions: the notes’ 1,400 m²/18.5 m GCB, 400 m²/10 m detached and 200 m²/8 m semi-detached figures have recognizable contexts. They do not validate every coverage, height or property-size claim in this list. Shoebox and SOHO are not universal statutory area classes; Sentosa, strata and redevelopment cases need their own controls.\nGood Class Bungalow, 1400m², 39 areas, 35% plot size and 18.5m width\nBungalow, 400m², 40% plot size and 10m width\nSemi-Detach, 200m² and 8m width\nTerrace House, 80m² and 6m width\nStrata housing, townhouse, cluster housing. 40% plot size\nCondominium, 4000m² and 40% plot size\nHigh-rise apartment, 1000m² and more than 5 storey\nLow-rise apartment, 1000m² and less than 6 storey\nService apartment\nSentosa Cove, 18,000 sf\nShoebox apartment, 70m²\nShop house is identified as multiple units"
+      },
+      {
+        "heading": "Commercial uses, conservation and ancillary facilities",
+        "body": "Reviewed context; case-specific checks remain\nRetail aisle widths, home-office fees, clinic/canteen/childcare limits and conservation classifications are preserved as unverified reference notes. Permitted use, fire safety, conservation and ancillary-use rules are separate checks; a stated size is not an automatic permission.\nRetail unit, 50m². Single loaded, 2.0m-2.4m. Double loaded 2.4m-3.0m\nConservation areas: Little India, Boat Quay, Chinatown & Kampong Glam\nResidential conservation areas: Blair Plain, Emerald Hill & Cairnhill\nSmall Office Home Office (SOHO) require home office permit, one-time $20\nClinics, 3000m², 20% GFA\nIndustrial canteen, 700m², 5% GFA\nChildcare in Place of worship, 500m², 10% GFA"
+      },
+      {
+        "heading": "GFA, redevelopment and land betterment",
+        "body": "Reviewed context; case-specific checks remain\nGFA relates to site area and applicable gross plot ratio, subject to the current definition, exclusions and planning approval. Plot ratio is not a guaranteed storey entitlement. Reconstruction/A&A thresholds and loft treatment require the applicable handbook. Land Betterment Charge replaced Development Charge, Differential Premium and Temporary Development Levy from 1 August 2022; the old DP wording is historical. A TOL is not ownership or a guaranteed renewable tenancy.\nGross Floor Area (GFA) = plot ratio x site area\nPlot ratio. 1.4: 5 sty, 1.6: 12 sty, 2.1: 24 sty, 2.8: 36 sty, >2.8: >36 sty\nLoft = void area on ceiling\nRedevelopment: 100%, reconstruction: >50%, alteration & addition: <50%\nGovernment Land Sales Programme\nLand Dealings (Approval) Unit, In-Principle Approval\nUses Differential premium\nAble to issue Temporary Occupation License (TOL), bare, revocable, estoppel, coupled with grant & contractual"
+      },
+      {
+        "heading": "Plans, price regions and historical development charges",
+        "body": "Reviewed context; case-specific checks remain\nURA planning, developer controls and foreign-ownership approval are distinct functions. The Long-Term Plan and statutory Master Plan have different purposes; the old “Concept Plan” terminology and review intervals need their publication context. CCR/RCR/OCR and price indices are market-analysis classifications. The source’s development-charge arithmetic is not a current LBC assessment; check sector, use, baseline, valuation and effective rates.\nUrban Redevelopment Authority (URA)\nHousing and Developing Act\nSales of Commercial Properties Act\nResidential Property Act\nQualifying Certificate, 5 years to Certificate of Statutory Completion (CSC), 2 years to sell the units, 8% tax increment yearly\nPlanning Act\nConcept plan, 10 year revision, 40-50 years plan\nMaster plan, 5 years revision, 10-15 years plan\nDevelopment charge = development ceiling - development baseline\nDevelopment charge table of rates, revise every March and September\nCadastral map to show Lot based system, 30 Town-subdivision, 34 Mukim\nProperty Price Index (PPI)\nCore Central Region (CCR), Rest of Central Region (RCR) & Outside Core Region (OCR)\nStreet block plan (e.g. setback)"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "singapore-land-title",
+    "title": "Singapore title, tenure and property rights",
+    "topic": "Property & Housing",
+    "group": "Land, planning & ownership",
+    "summary": "Separate registered ownership, caveats, easements, mortgages and statutory acquisition.",
+    "sections": [
+      {
+        "heading": "Registration, tenure and acquisition",
+        "body": "Reviewed context; case-specific checks remain\nA registered-title system differs from deeds registration. The source conflates caveat rules with a deeds-system definition: a caveat is a notice protecting a claimed interest, not ownership, and its duration and lapsing depend on the Land Titles Act. Mirror/curtain/insurance are explanatory principles rather than a guarantee against every defect. Leasehold, life estates, freehold and accessory lots require the actual register; acquisition compensation is a statutory assessment, not an assured market quote.\nInformation in Singapore Land Registry\nState Land Act, chief valuer, commissioner of land\nState Land Encroachment Act\nLand Title Act\nLand Title System have mirror, curtain and insurance principle\nRegistration of Deed Act, defeasible if there is caution or encumbrances e.g. caveat and have 5 years expiry\nDeed system e.g. Will\nTenure: mode, estate: period\nLeasehold, Life Estate, Freehold (Estate in Fee Simple or Estate in Perpetuity, Statutory Land Grant)\nAccessory Lot (e.g. TS13-A12345K)\nLand Acquisition Board, market value base on date of acquisition"
+      },
+      {
+        "heading": "Interests, fixtures and rights over neighbouring land",
+        "body": "Reviewed context; case-specific checks remain\nDistinguish legal/equitable interests, reversion, licences and proprietary rights. Fixture questions examine annexation and purpose. Easements and restrictive covenants have different functions; the source’s blanket 20-year/10-year-renewal statement is not verified as a universal rule. Creation, release, merger or court/statutory changes require the actual instrument and law. A statutory declaration does not itself transfer ownership.\nProperty Law\nCommon law, statutory law, equity\nLegal interest, equitable interest, reversionary interest\nRights: possess, exclude, transfer, rent, collateral\nProprietary rights: binding / personal rights: license\nFixtures, fittings, chattels, trade chattels : measure by degree of annexation, purpose of annexation\nEasement is for dominant tenement, restrictive covenant is for servient tenement and last for 20 years; renewable every 10 years\nEasement creation: statutory law, right of water/electricity/light/way/support, express/implied, reservation, necessity, prescription\nEasement removal: statutory, express release, implied, unification, court order\nOaths and Declaration Act, statutory declaration by the commissioner of oath"
+      },
+      {
+        "heading": "Bankruptcy and mortgage roles",
+        "body": "Reviewed context; case-specific checks remain\nThe source confuses a bankruptcy filing debt threshold with the Debt Repayment Scheme. DRS assessment uses a total-debt ceiling of S$150,000 and additional criteria, not “below S$15,000”; it is not automatic admission or discharge. A mortgagor is the borrower/security provider; a mortgagee is the secured lender. Redemption normally concerns the mortgagor’s right to discharge the mortgage. The source’s automatic discharge timeline is not current individualized advice.\nBankruptcy Act, 15k min, <15k Debt Repayment Scheme (DRS), discharge 5 years, -2 years if paid, +2 for re lodge / repeat\nMoneylenders Act\nMortgagor (borrower), mortgagee (have to rights to sell / redeem)"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "singapore-estate-ownership",
+    "title": "Owning property together: trusts, inheritance and decision authority",
+    "topic": "Property & Housing",
+    "group": "Land, planning & ownership",
+    "summary": "Distinguish co-ownership, estate administration, trusts and powers to act.",
+    "sections": [
+      {
+        "heading": "LPA, trusts and inheritance",
+        "body": "Reviewed context; case-specific checks remain\nAn LPA concerns authority after loss of mental capacity; it is not a will. Inter vivos and testamentary trusts arise in different circumstances; probate, letters of administration, Public Trustee functions and bankruptcy administration are not interchangeable. Resulting and constructive trusts cannot be reduced to “non-legal holding” or fraud alone. MUIS describes a wasiat generally limited to one-third for non-faraid beneficiaries, subject to the applicable rules; the source’s shorthand is incomplete.\n(Lasting) Power of Attorney\nTrust, trustee, trustor / settlor (Syriah law only allow 1/3 of asset to be willed)\nIntervivo trust: during the person is alive, testamentary trust: dead/testate (grant of probate by executor), public trust: intestate or bankrupt (letter of administration by administrator)\nResulting trust: non legal holding, constructive trust: fraud, unregistered trust: temporary holding"
+      },
+      {
+        "heading": "REITs, gifts and co-ownership",
+        "body": "Reviewed context; case-specific checks remain\n“REIT is not heterogeneity” has no clear meaning or supporting explanation; it remains unresolved. A REIT is an investment vehicle, so use the related investing guide rather than equating units with direct ownership of a home. Gifts can require formalities and may be contested; “irrevocable” is not a sufficient legal test. Joint tenancy and tenancy-in-common differ, including survivorship and shares; the four unities are not an identical requirement for both.\nReal Estate Investment Trusts (REITs) is not heterogeneity\nGift is voluntary, irrevocable and without consideration\nJoint tenancy / tenancy-in-common (alienation, partitioning, court order): unity of possession, interest, title, time"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "singapore-collective-sales",
+    "title": "Collective sales in Singapore: consent, procedure and disputes",
+    "topic": "Property & Housing",
+    "group": "Land, planning & ownership",
+    "summary": "Understand why consent thresholds alone do not make an en-bloc sale valid.",
+    "sections": [
+      {
+        "heading": "Read the whole statutory process",
+        "body": "Reviewed context; case-specific checks remain\nThe consent threshold is assessed by both share value and strata area, not share value alone. The 90%/80% distinction depends on the statutory development-age test; the notes omit the exact boundary and basis. A one-year consent-collection period is not a universal promise to finish every tender, application and transfer in one year. Committee rules, rescission, repeat attempts and objections have distinct procedures. The supplied quorum, waiting-period and cooling-off numbers are not independently validated here.\nLand Title (Strata) Act\nCollective sales (en-bloc), max. 1 year to complete through tender or auction\n<10 years old 90% share value, >10 years old 80% of share value\nSales committee: 3-14 people, 30% of SV present, 20% to vote\n5 days cooling off period\nIf you fail, wait 2 years. 1st attempt within 2 years 50% of SV, 2nd attempt 80% of SV\nAppeal to Strata Title Board"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "singapore-conveyancing",
+    "title": "Buying and selling property: contracts and conveyancing",
+    "topic": "Property & Housing",
+    "group": "Buying, selling & development",
+    "summary": "Follow authority, agreement, due diligence, completion and remedies without assuming every contract has the same clauses.",
+    "sections": [
+      {
+        "heading": "From negotiations to completion",
+        "body": "Reviewed context; case-specific checks remain\nOffer, acceptance, consideration and intention are starting concepts; property transactions also involve formalities and agreed conditions. “Subject to contract” affects intention but should not replace review of actual communications. Identify the parties, property, price, authority, deposit holder and requisitions. SAL conveyancing money arrangements are not the same as a developer’s project account. The source’s 2012 conditions, 8% rate and 21-day statement require the contract/version; they are not presented as universal current terms.\nContract Law\nSubject to Contract will only bind in final agreement\nOffer > acceptance > consideration > intention\nAgreement must have property address, party name, price\nCan be terminated by revocation, lapsed, counter offer, death, rejection\nStakeholder clause: conveyancing (CVY) account under Singapore Academy of Law\nRequisitions with satisfactory replies from IRAS, PUB, BCA, URA, SMRT, LTA\nThe Law Society of Singapore's Condition of Sale 2012\nLate completion interest: 8% p.a for both buyer and seller. Max. allowance is 21 days"
+      },
+      {
+        "heading": "Defects, invalidity, remedies and duties",
+        "body": "Reviewed context; case-specific checks remain\nVoid and voidable transactions differ, but incapacity, mistake, misrepresentation and negligence require more precise legal tests than the source lists. Performance, frustration and breach are not all forms of successful completion; remedies depend on facts and law. Terms versus representations and conditions versus warranties cannot be decided solely by “official” versus “non-official” or “major” versus “minor.” The tort and waste labels remain study prompts rather than instructions to disclaim all premises liability.\nVitiating (void) factors: incapacity, mistake, illegality\nVoidable: duress, undue influence, misrepresentation (innocent / contributory negligence, negligent, fraudulent / professional negligence)\nCompleted: performing, agreement, frustration, non-performance, seller bankrupt, Act of God, impossibility\nRemedies: liquidated / unliquidated damages, specific performance, injunction\nCaveat emptor, latent and patent defects\nTorts of vicarious liability, negligence, defective of dangerous premises (disclaimer), waste (permissive, voluntary, equitable, ameliorating)\nPrivity of contract / estate\nConditions is major, warranty is minor\nExpressed / implied terms is official, representation is non-official"
+      },
+      {
+        "heading": "Transport, lawful occupation and fire safety",
+        "body": "Reviewed context; case-specific checks remain\nA road-line reserve, lawful immigration status and fire-safety compliance are separate due-diligence checks. CEA provides rental checklists for identity and immigration checks; the source’s fine/jail figures are not verified as current penalties. The notes supply no fire-standard specification or site plan, so none is invented.\nMinistry of Transport\nLand Transport Authority (LTA)\nRoad Line Plan (reserve)\nMinistry of Home Affair (MHA)\nImmigration Act\nAgent supposed to check passes, passport and validate\nAnti-harbouring, max. fine 6k, jail 24 months\nSingapore Civil Defence Force (SCDF)\nFire and safety standards"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "singapore-property-development",
+    "title": "Developer purchases: licences, payment stages and prescribed terms",
+    "topic": "Property & Housing",
+    "group": "Buying, selling & development",
+    "summary": "Separate developer sales from private resale and check the exact prescribed agreement.",
+    "sections": [
+      {
+        "heading": "A developer sale is not a standard resale OTP",
+        "body": "Reviewed context; case-specific checks remain\nDeveloper licensing, sale/no-sale licences and prescribed forms are governed by the applicable regime. Compare the approved option and sale-and-purchase agreement, project-account rules, payment milestones, completion dates and defect clauses. A developer project account is not simply an SAL conveyancing account. The 75% booking-fee refund belongs to a specified unexercised prescribed option and conditions; it is not a general right to cancel every purchase. The source’s progressive percentages, 20%/5% “remorse,” 3% shortfall and late-interest figures require the actual form/version and are not independently endorsed.\nHousing Developers (Control and Licensing) Act\n>4 Units, same as commercial development\nSale-license, 1-4m paid up, require building plan approval\nUncompleted sale: booking fee 5% > exercise 15% > progressive 10,10,5,5,5,5,25% > 2% title transfer > 8% CSC > 5% after 1 year defect\nNo-sale license, only can sell after TOP\nC2C selling: seller decides price > 1% OTP > exercise 4% or 9% > buyer stamp duty > requisitions & caveat\nProject account under Singapore Academy of Law, can only withdraw for construction usage\nBuyer fail to exercise: refund 75% of booking fee\nRemorse buyer: refund 20% deposit, EC refund 5% of deposit\nShortfall compensation by developer: 3% allowance\nLate completion by developer: 10% p.a. on instalment paid\nBuyer late payment: 2% p.a. + prime rate\nAdvertising requires: track record, consent to change layout, name, license no., tenure, encumbrances, vacant possession, legal completion, lot base no."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "singapore-property-tax",
+    "title": "Singapore property tax: annual value and use matter",
+    "topic": "Property & Housing",
+    "group": "Tax, CPF & finance",
+    "summary": "Distinguish recurring property tax from transaction duties and rental income tax.",
+    "sections": [
+      {
+        "heading": "Replace the old residential bands",
+        "body": "Historical schedule replaced with current context\nThe residential schedules in the notes are historical. From 2025 the owner-occupied schedule begins with a zero-rated first S$12,000 of annual value; non-owner-occupied residential property follows a separate progressive schedule. Non-residential property generally uses a flat 10% of annual value. The note’s 5%-of-market-value land claim is not verified as a general rule. Annual value is not the sale price. Check the IRAS schedule, reliefs and billing/notification rules applicable to the property.\nMinistry of Finance (MOF)\nInland Revenue Authority of Singapore (IRAS)\nProperty Tax Act\nProperty tax to be prepaid by 31st January\nOwner-occupied rate. 8k: 0%, 47k: 4%, every 15k +2% till 130k\nNon-owner occupied rate. 30k: 10%, every 5k +2% till 90k\nNone residential property tax: 10% tax rate x annual value\nLand/development tax: 5 % tax rate and market value\nNotification: sales 1 month, succession 1 year, others 15 days"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "singapore-property-stamp-duty",
+    "title": "Property stamp duties: purchase, sale, leases and mortgages",
+    "topic": "Property & Housing",
+    "group": "Tax, CPF & finance",
+    "summary": "Identify the document, transaction date and buyer profile before choosing a duty schedule.",
+    "sections": [
+      {
+        "heading": "BSD and ABSD: old rates are unsafe",
+        "body": "Historical rates corrected; check transaction date\nStamp duty applies to dutiable instruments, with deadlines depending on execution and receipt circumstances; a 14/30-day memory aid needs those conditions. Residential BSD has reached a 6% top marginal rate for acquisitions from 15 February 2023; the source’s 3% top rate is old. ABSD rates also changed: for individuals under the general rates effective 27 April 2023, SC first/second/third-or-later are 0/20/30%, PR 5/30/35%, and foreign buyers generally 60%, subject to rules and reliefs. FTA eligibility is not a blanket nationality exemption: the source incorrectly lists Ireland instead of Iceland, and eligibility depends on the qualifying treaty category.\nStamp Duty Act\nStamp duty is to stamp for documents only\n14 days to stamp in SG, 30 days if not in SG\nBuyer stamp duty. <180k: 1%, <360k 2% -1.8k, >360k, 3% - 5.4k\nAdditional buyer stamp duty (ABSD). SC: 0%, 7%, 10%+. SPR: 5%, 10%+. Others: 15%+\nRemission: sell current property within 6 months or if you are from Switzerland, USA, Lichtenstein, Ireland, Norway"
+      },
+      {
+        "heading": "SSD, rental instruments, mortgages and penalties",
+        "body": "Date-dependent duties; source terminology corrected\nResidential SSD depends on acquisition date and holding period. The four-year 16/12/8/4% framework applies to acquisitions from 4 July 2025; the immediately preceding regime used a different holding period. Industrial SSD is a separate regime. Lease duty depends on term and rent, not a universal four-year charge for every lease. Ordinary mortgage duty of 0.4% capped at S$500 is duty on a mortgage instrument, not a bank application fee. For late stamping, the notes’ S$35 figure is wrong: IRAS states S$25 or four times the duty, whichever is greater, for lateness beyond three months; the shorter band also has a greater-of test.\nSeller stamp duty: 16%, 12%, 8%, 4%\nIndustrial seller stamp duty: 15%, 10%, 5%\nTenancy agreement stamp duty: 4 years average total rent x 0.4%\nMortgage application: 0.4% x amount or 500 whichever lower\nLate stamp duty charge. <3 months: $10, >3 months: $35 or 4x whichever higher"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "cpf-housing-retirement",
+    "title": "CPF housing and retirement: lease limits and retirement sums",
+    "topic": "Property & Housing",
+    "group": "Tax, CPF & finance",
+    "summary": "Keep lease eligibility, withdrawal limits and cohort-specific retirement sums separate.",
+    "sections": [
+      {
+        "heading": "A lease test is not an age slogan",
+        "body": "Historical limits and malformed expression identified\nThe old 30/80-year shorthand is not the current CPF housing framework. Remaining lease and whether it covers the youngest buyer to age 95 affect eligibility and potential proration; use CPF’s current calculator/rules for exact lease boundaries and limits. CPF LIFE is a retirement-income scheme, not a housing loan. The 2016 Full/Basic Retirement Sum values are historical cohort figures and must not be applied to a buyer reaching 55 in another year. “Weight income” is a malformed formula, apparently intended to refer to income-weighted average age: sum(age × income) / sum(income), with positive total income. That identification is editorial and does not establish lender policy.\nMinistry of Manpower (MOM)\nCentral Provident Fund (CPF) Board\nCPF Life\nHousing Loans\nCPF cannot be used when <30 years of lease / <80 years of balance lease\n2016: 161k full retirement sum, 80.5k basic retirement sum\nWeight income: (age A + income A + age B x income B) / total income"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "housing-finance-singapore",
+    "title": "Singapore housing finance: LTV, MSR, TDSR and loan terms",
+    "topic": "Property & Housing",
+    "group": "Tax, CPF & finance",
+    "summary": "Distinguish approval limits from affordability and keep old loan tables out of current calculations.",
+    "sections": [
+      {
+        "heading": "Use the right lending constraint",
+        "body": "Old lending limits and benchmark flagged\nLTV limits loan principal relative to the applicable property value; MSR and TDSR constrain debt service relative to defined income. MAS’s general TDSR threshold is 55%, not the old 60% in the notes. HDB’s current housing-loan LTV limit is 75%, subject to eligibility and other conditions; the old 90% note is historical. CPF withdrawal and valuation limits are separate constraints. SIBOR ceased at end-2024; identify the offered benchmark, reset schedule, spread, lock-in and fallback terms rather than copying a SIBOR-era example.\nLoan-to-value (LTV) limit\nValuation-Limit (LV)\nMortgage Servicing Ratio (MSR), HDB\nTotal Debt Servicing Ratio (TDSR), private banks, 30% hair cut for self-employed\nHousing withdrawal limit from CPF: 120%\nHDB loan (only twice in a lifetime), <12k income, exhaust all CPF, up to 90% loan, 2.6% p.a, 25 years, 30% MSR\nPrivate loan, 5% cash, 15% CPF, 80% loan, Singapore InterBank Offer Rate (SIBOR), 60% TDSR, 30 years"
+      },
+      {
+        "heading": "Do not reuse the historical loan-percentage table",
+        "body": "Historical loan table; do not calculate from it\nThe six source cases distinguish first/subsequent loans and age/tenure, but their 80/60/50/30/40/20 percentages are not a current lending table. Bank LTV, minimum cash, existing loans, income assessment, borrower age and term interact; obtain the applicable MAS/lender assessment. No calculator has been built from these obsolete values.\nMAS’s housing-credit table gives headline LTV limits of 75%, 45% and 35% for first, second and third housing loans, with lower limits for the stated age/tenure conditions. Its MSR limit for financial-institution loans on HDB flats and ECs bought directly from developers is 30%. These are ceilings, not promised approvals or spending targets. Use the IRAS link on the stamp-duty guide for SSD: the MAS overview also contains an older SSD table.\n1st loan, 30 years / <65 years old. Loan: 80% Cash 5%\n1st loan, >30 years / >65 years old. Loan: 60% Cash 10%\n2nd loan, 30 years / <65 years old. Loan: 50% Cash 25%\n2nd loan, >30 years / >65 years old. Loan: 30% Cash 25%\n3rd+ loan, 30 years / <65 years old. Loan: 40% Cash 25%\n3rd+ loan, >30 years / >65 years old. Loan: 20% Cash 25%"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "singapore-strata-management",
+    "title": "Strata living: MCSTs, share values and building responsibilities",
+    "topic": "Property & Housing",
+    "group": "Tenancy, strata & practice",
+    "summary": "Separate ownership voting, management duties, dispute processes and public safety approvals.",
+    "sections": [
+      {
+        "heading": "Condo management and building controls",
+        "body": "Reviewed context; case-specific checks remain\nMCSTs manage common property through the applicable strata-management framework; subsidiary proprietors have rights and obligations. Share value is not a universal floor-area formula for every building or development class. Refer to BCA and the Strata Titles Boards for the current statutory framework and dispute route. Structural safety and outdoor advertisement approvals are separate matters; the source’s advertising fee bands are unverified historical notes, not a current tariff.\nMinistry of National Development (MND)\nBuilding and Construction Authority (BCA)\nBuilding Maintenance and Strata Management Act\nManagement Corporation Strata Title (MCST), pass resolution & by-laws\nSubsidiary Proprietors (SP)\nShare Value (SV), every 50m² +1 sv, starts from 5 sv min.\nStrata Title Board: resolve SP dispute\nBuilding structural safety standard\nAdvertising. 1m²: $20, <5m²: $90, <10m²: $140, >10m²: $20/m²"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "hdb-buying-eligibility",
+    "title": "Buying an HDB flat: eligibility before options",
+    "topic": "Property & Housing",
+    "group": "Public housing",
+    "summary": "Start with the HFE assessment, then check flat classification, quotas, ownership history and purchase route.",
+    "sections": [
+      {
+        "heading": "Household, quota and occupation requirements",
+        "body": "Mixed eligibility notes; current framework supplied\nHDB rules depend on purchase route, citizenship, household, ownership history and flat classification. EIP, SPR purchase quotas and non-citizen rental quotas are distinct; the source’s “58%” is ambiguous and is not repaired by guessing. Standard flats generally have a five-year MOP while Plus/Prime flats have ten years, subject to the relevant flat and scheme rules. The 30-month/three-year assertions are not universal eligibility tests. Town councils and geographic regions do not determine purchase eligibility on their own.\nHousing Development Board (HDB)\nTo provide affordable, qualify home that is vibrant and community focused\nBlock ethnic. Malay: 25%, Chinese: 87%, Indian: 15%, Non-SC: 8%\nNeighbour ethnic. Malay: 22%, Chinese: 84%, Indian: 12%, Non-SC:58%\nPrivate owner direct purchase need to wait 30 months, buy from resale market need to dispose private property within 6 months\nMinimum Occupation Period (MOP) is 5 years\nSPR and divorce couple need to wait for 3 years to buy from direct market\nTown Council Act, conservancy\nRegions: Northern, North-Eastern, Eastern, Western, Central"
+      },
+      {
+        "heading": "Resale workflow and flat types",
+        "body": "Reviewed context; case-specific checks remain\nHFE assessment precedes committing under the applicable purchase workflow; the source’s two-appointment resale sequence is historical. Enhanced contra and valuation serve different purposes from financing approval. Studio, 2-room Flexi, resale flats and executive condominiums have different conditions. The source’s income ceilings, room-rental limits and unrestricted EC-rental claim cannot be used as a current eligibility table; check the actual scheme, MOP and approvals.\nEnhanced contra facility: reduce transfer procedures between HDB\nResale Price Index (RPI)\nResale procedure: seller & buyer check eligibility > complete seller/buyer checklist > 7 days cooling period / viewing > decide resale price / OTP max 1k > submit valuation request / loan valuer to inspect within 4 days > 21 calendar days to exercise 4k & submission > 1st appointment, terminate GIRO, pay S&C > final inspection, fire insurance, 2nd appointment\nOnly 2-room & above can resale, no income ceiling, min. 1 SC or 2 PRs\nStudio Apartment, cannot lease, <6k income\n2-room, max. rental 1 room with 6 people, <6k income if 99 years lease / <12k income if 15-45 years lease\n3-room / 4-room / 5-room / Executive Apartment, max. rental 2 rooms with 9 people, <12k income\nExecutive Condominium, rental no restriction, <14k income, privatise after 10 years"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "hdb-grants-schemes",
+    "title": "HDB grants and purchase schemes: compare the actual offer",
+    "topic": "Property & Housing",
+    "group": "Public housing",
+    "summary": "Read grant eligibility, household status and prior subsidies together instead of reusing an old grant table.",
+    "sections": [
+      {
+        "heading": "Grants, priorities and resale levies",
+        "body": "Historical grant table; current scheme context\nThe source mixes family/singles schemes, conversion, priority programmes, old SHG/AHG and resale grants, proximity support and levies. These are not one universal set of rates or a blanket “once per lifetime” rule. The Enhanced CPF Housing Grant replaced earlier arrangements and the maximum family EHG increased to S$120,000 from 20 August 2024, subject to eligibility. Do not apply the old S$40,000 entries, 2 km proximity shorthand, flat non-SC deduction, half-for-singles rule or third-purchase levy claim without the current scheme decision. Preserve them as historical study notes.\nPublic Scheme / Fiance-Fiancee Scheme / Orphan Scheme, 2 SCs min. 21 years old\nSingle SC / Non-SC Spouse / Joint Single, min. 35 years old, only 2 rooms non-mature estate, need to top up 15k premium\nConversion Scheme, combine 2 3-room or smaller unit\nPriority sequence: multi-generation > married with child > third-child > divorce/widowed parents > tenants > senior\nGrant only issue 1 per lifetime\nSpecial housing grant (direct purchase), <8.5k = 40k\nFamily grant (resale), <12k = 30k\nAdditional housing grant (all), <5k = 40k\nProximity grant (resale), <2km = 20k\nNon-SC = -10k for all grants\nSingle SC = grants / 2\nLevy is chargeable for the 3rd direct purchase HDB. 2-room: 15k, 3-room: 30k, 4-room: 40k, 5-room 45k, EA: 50k, EC (after 9 Dec 13): 55k"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "hdb-retirement-options",
+    "title": "Housing in retirement: lease buyback and right-sizing",
+    "topic": "Property & Housing",
+    "group": "Public housing",
+    "summary": "Separate retirement schemes from grants for first purchases and routine flat rental.",
+    "sections": [
+      {
+        "heading": "Lease buyback and Silver Housing Bonus",
+        "body": "Historical scheme figures; individual assessment required\nThe source’s income, flat-size, retained-lease and payout figures are unverified older scheme notes. Lease Buyback and Silver Housing Bonus address different choices: monetizing a remaining lease versus right-sizing and supporting retirement savings. Eligibility and required CPF top-ups must be checked against the current scheme, age and household; the “S$25k or 50%” sentence is not a current guaranteed payment.\nThe enhanced Silver Housing Bonus effective 1 December 2025 offers up to S$40,000 per eligible household, with the required increase in retirement savings and CPF LIFE participation. It is conditional support, not an unconditional cash payment. Scheme pages and older explanatory tools show differing income references, so obtain the current HDB assessment rather than using the source’s S$12,000 ceiling.\nLease buyback scheme: <12k income, <4-room unit with min. 20 year leave, no other property\nRight sizing policy (silver housing): seller receive 25k or 50% whichever higher"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "hdb-renting-rules",
+    "title": "Renting an HDB flat or bedroom: approval, quotas and occupancy",
+    "topic": "Property & Housing",
+    "group": "Public housing",
+    "summary": "Distinguish whole-flat rental from bedroom rental and check the flat’s classification.",
+    "sections": [
+      {
+        "heading": "Whole-flat and bedroom rental are different",
+        "body": "Reviewed context; case-specific checks remain\nMOP, owner eligibility, tenant eligibility, HDB approval and rental period must be checked separately. The source confuses owner occupation for bedroom rental with whole-flat rental; an owner cannot simply rely on “one SC around” as approval for either. Rental quotas are not identical to resale EIP quotas. Plus/Prime flat restrictions differ from Standard flats, including whole-flat rental restrictions. The seven-day notification statement is retained for reference but must be checked against the current process.\nCan only lease after MOP\nMinimum 1 SC to be around when leasing whole unit\nTenant to fulfil quota as resale ethnic\n7 days to inform HDB of new tenant"
+      },
+      {
+        "heading": "Occupancy caps: the newer extension matters",
+        "body": "HDB and URA extended the temporary larger-property rental occupancy relaxation through 31 December 2028. Eligible 4-room and larger HDB flats can accommodate up to eight unrelated occupants under the applicable approval and conditions; smaller flats and bedroom rental have their own limits, including counting resident owners where required. The source’s nine-person figure is not a current general cap. Private residential premises have a separate qualifying floor-area requirement and URA process. Do not use older explanations that still end the relaxation in 2026."
+      }
+    ],
+    "sources": [
+      {
+        "title": "HDB: rental occupancy extension through 2028",
+        "url": "https://www.hdb.gov.sg/hdb-pulse/news/2026/extension-of-temporary-relaxation-of-occupancy-cap-for-rental-of-hdb-flats-and-private-residential"
+      }
+    ]
+  },
+  {
+    "slug": "singapore-tenancy",
+    "title": "Tenancy agreements: duties, clauses and changes of party",
+    "topic": "Property & Housing",
+    "group": "Tenancy, strata & practice",
+    "summary": "Read the signed lease, distinguish transfer from replacement and use lawful dispute procedures.",
+    "sections": [
+      {
+        "heading": "Lease terms, remedies and transfer",
+        "body": "Reviewed context; case-specific checks remain\nFixed-term, periodic, at-will and holding-over situations differ; notice and recovery rights depend on the agreement and law. Distress and possession involve legal processes, not a do-it-yourself seizure checklist. Quiet enjoyment, repair, permitted use, subletting, renewal, deposits and diplomatic clauses need the exact wording. Novation replaces contractual obligations with the necessary agreement; assignment transfers rights/interests subject to restrictions. Neither is defined solely by whether a tenant or landlord changes. The source’s three/seven-year formalities and duration statements require their statutory and HDB context.\nLease with more than 3 years must be in written agreement, >7 years can be registered, HDB cannot lease or more than 3 years\nFixed term, tenancy at will, periodic lease (notice to quit anytime)\nTenant at sufferance > notice of distress > seizure > sheriff\nPremises, habendum, reddendum\nLandlord implied covenants: quiet enjoyment, fit for human habitation, liable to all taxes, external & structural repairs, not to derogate\nTenant implied covenants: rent, not for sublet, landlord enter for repair, no alteration, permitted purpose only, fair wear and tear\nClauses: subletting, non-disturbance, minor repair, diplomatic, en bloc, option to renew, forfeiture, escalation, deposit\nNovation: change of tenant\nAssignment: change of landlord"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "singapore-rental-tax",
+    "title": "Rental income tax and GST: separate the tax bases",
+    "topic": "Property & Housing",
+    "group": "Tax, CPF & finance",
+    "summary": "Do not use citizenship or a mismatched annual-value formula as a rental tax calculator.",
+    "sections": [
+      {
+        "heading": "Correct the units and identify the taxpayer",
+        "body": "Malformed tax formula and taxpayer classification flagged\nResidential rent, furniture/services and non-residential supplies can have different GST treatment. Where IRAS’s furniture-value method applies, monthly gross rent is compared with annual value divided by 12—not the full annual value—and GST registration and taxable-supply conditions matter. Income tax residence is not identical to citizenship; “non-SC” does not select a flat 15% rate. Qualifying residential landlords may choose deemed expenses of 15% of gross rent plus allowable mortgage interest, or claim actual allowable expenses, subject to the rules. From YA 2022, eligible costs of securing first and subsequent tenants can be deductible; the blanket first-commission exclusion in the source is outdated. Do not count the same cost again when using deemed expenses.\nGST in rental: (gross rental - annual value) x 9%\nIncome tax (non-SC): 15% prevailing or 20% director fee\nRental expenses can use a gross 15% to offset, agent 1st year commission is not deductible"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "singapore-property-agents",
+    "title": "Property agents: authority, conduct and continuing learning",
+    "topic": "Property & Housing",
+    "group": "Tenancy, strata & practice",
+    "summary": "Understand representation, client care and current training without copying old fees or penalties.",
+    "sections": [
+      {
+        "heading": "Representation, registration and CPD",
+        "body": "2026 CPD framework replaces old hours\nAgency agreements, authority and commission entitlement require the applicable agreement and circumstances; “effective cause” is not an automatic commission calculator. The source’s registration fee and entry details are unverified historical notes. From 1 January 2026, CEA’s CPD framework requires 16 hours—12 structured learning and four self-directed—rather than six hours with three core hours. Check current registration requirements for the particular applicant.\nCouncil for Estate Agencies (CEA)\nAgency agreement (exclusive, non-exclusive, sole agency) is bilateral and can be form by agreement, ratification, estoppel\nA deal is only done by the agent if he has effectively instrumented it\nActual authority, apparent authority, breach of warranty\nCEA has 16 members inclusive of 1 president\nYearly renewal is $230 + $53.50\nYearly require 6 hours of Continuing Professional Development (CPD), 3 hours have to be core subject\nEntry is 4 'o's, WPML level 5, discharge bankrupt"
+      },
+      {
+        "heading": "Client care, AML and dispute resolution",
+        "body": "Reviewed context; case-specific checks remain\nUse the applicable CEA agreement, ethical rules and dispute routes. Dual representation, transaction monies, referral conduct, AML reporting and professional indemnity insurance are separate duties. The source incorrectly calls professional indemnity “personal” indemnity. Its fine/jail, consumer-protection exclusions and committee counts are not validated as a current compliance checklist. Vulnerable clients require understandable communication and appropriate care, not a stereotype or a reduced standard of explanation.\nNegotiation > mediation > arbitration / tribunal > litigation, CASE / SISV / SMC\n25k fine, 12 months jail: dual representation, money lending referral\n10k fine, 6 months jail: collect cash for HDB, use CEA symbol, fail to display agent card\nHave to purchase personal indemnity insurance\nTerrorism (Suppression of Financing) Act, report to Suspicious Transactions Report Office (STRO) from Commercial Affairs Department (CAD)\nConsumer Protection (Fair Trading) Act, 20 practises, max. fine 30k but exclude properties and employment contract\nCode of Ethic and Professional Client Care\nOwe fiduciary duties\nHigher case standard for handicapped and illiterate\nDisciplinary committees: 3 - 20 people"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "singapore-industrial-property",
+    "title": "JTC and industrial property: approved use and dealings",
+    "topic": "Property & Housing",
+    "group": "Buying, selling & development",
+    "summary": "Treat subletting, assignment and land-premium terms as approval-specific conditions.",
+    "sections": [
+      {
+        "heading": "The lease and JTC approval control the transaction",
+        "body": "Reviewed context; case-specific checks remain\nJTC subletting rules distinguish leases, tenancies and approved arrangements. “JTC tenants cannot sublet” is too broad as a universal claim: the applicable scheme and prior written approval/exemptions matter. The source’s 50/30% thresholds, upfront premium rule, ROFR, sale-and-leaseback, “Build-and-Leave” wording and two-day religious-use limit need identification and current confirmation; no missing scheme is inferred from the apparent typo.\nMinistry of Trade\nJurong Town Corporation (JTC)\nEnd-user lessees, 50% tenant for <5 years and 30% tenant >5 years\nThird-party facility provider\nJTC Tenant cannot sublet\nPay full upfront land premium when making purchase\nRight of First Refusal (ROFR)\nSales-and-leaseback scheme\nThird Party Build-and-Leave scheme\nReligious activity can only use premises up to 2 days per week"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "property-market-analysis",
+    "title": "Property market analysis: demand, location and evidence",
+    "topic": "Property & Housing",
+    "group": "Markets & marketing",
+    "summary": "Separate market drivers, physical obsolescence and transaction methods from a deterministic property clock.",
+    "sections": [
+      {
+        "heading": "Analyse the property and the market separately",
+        "body": "Reviewed context; case-specific checks remain\nElasticity varies by horizon, market segment and constraint; property demand is not always elastic and supply is not always perfectly inelastic. Distinguish effective demand from speculative interest, macro PEST factors from plot-specific attributes, and physical/functional/economic obsolescence. Upswing/boom/downswing/depression is a descriptive cycle vocabulary, not a reliable timing model. The ranking of private treaty, tender and auction is unsupported by a cited dataset.\nMinistry of Communication and Information (MCI)\nMarketing\nDemand is elastic, supply is non-elastic\nEffective / speculative\nMacro factors: political, social, economic, technology\nMicro factors: condition, location, shape, size, frontage\nObsolescence: Economic, functional, physical\nCyclical: upswing, boom, downswing, depression\nDue diligence to be done by agent: ownership, bankruptcy, tenancy\nRank of most common transaction type: private treaty, tender, auction"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "singapore-property-marketing",
+    "title": "Property advertising and outreach: accuracy, identity and consent",
+    "topic": "Property & Housing",
+    "group": "Markets & marketing",
+    "summary": "Check what the message claims, who sends it and whether the outreach is permitted.",
+    "sections": [
+      {
+        "heading": "Advertising particulars, PDPA, DNC and spam",
+        "body": "Reviewed context; case-specific checks remain\nAgent identity and agency particulars support accountability, while listing claims still need verification and authority. PDPA, Do Not Call rules and the Spam Control Act address different obligations and communication channels. The source’s 10 pm–9 am statement is not a blanket definition of the DNC regime; do not infer that daytime marketing is automatically permitted. Check consent, register-screening requirements, identification and applicable exceptions for the actual campaign. The ministry label is a historical filing heading, not evidence of the present regulator’s name or powers.\nAdvertising: name, mobile no., reg. no. agency name, agency no.\nPersonal Data Protection Act (PDPA) by personal data protection commission (PDPC)\nDo-not- call register and 10pm - 9am is restricted from calling\nSpam Control Act to governed consent, purpose and reasonableness"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "singapore-property-agencies",
+    "title": "Singapore property agencies: find the right starting point",
+    "topic": "Property & Housing",
+    "group": "Land, planning & ownership",
+    "summary": "Match a property question to the responsible function, then open the relevant detailed guide.",
+    "sections": [
+      {
+        "heading": "A functional directory rather than a ministry hierarchy",
+        "body": "Source filing structure reorganized\nThe supplied notes are grouped under historical ministry and agency labels. This directory instead organizes by reader task. Ministry names and reporting structures are not used as eligibility rules, and a contact with one agency does not discharge obligations administered by another. LTA road-line and SCDF fire-safety checks are also discussed in the conveyancing guide; MinLaw’s insolvency and estate-related functions appear in the ownership readings.\nSingapore Ministries\nMinistry of Law (Minlaw)\nSingapore Land Authority (SLA)"
+      }
+    ],
+    "sources": []
   },
   {
     "slug": "strategy-growth",
@@ -12110,6 +12945,15 @@
     "topic": "Finance & Accounting",
     "group": "Explore finance",
     "summary": "Understand assets and vehicles, portfolio methods, performance evidence, private capital and institutional investors.",
+    "sections": [],
+    "sources": []
+  },
+  {
+    "slug": "singapore-property",
+    "title": "Singapore Property & Housing",
+    "topic": "Property & Housing",
+    "group": "Singapore property",
+    "summary": "Choose the transaction or responsibility you are working on. Read the reviewed explanation first; expand original notes for historical figures and unresolved wording.",
     "sections": [],
     "sources": []
   }
