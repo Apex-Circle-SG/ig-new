@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-06",
+  "status": "implemented locally; not pushed or deployed",
+  "source": {
+    "archiveSha256": "9e9a7d7373f1232435099bb2797b8f883d7c6126460a4fb1ee1566b16a5a1fd7",
+    "documents": [
+      {
+        "name": "Freemasonry.docx",
+        "paragraphs": 1036,
+        "images": 0
+      },
+      {
+        "name": "Metaphysics.docx",
+        "paragraphs": 132,
+        "images": 8
+      }
+    ],
+    "newParagraphs": 1168,
+    "fullRitualParagraphsInExactOrder": 1036,
+    "classifiedResearchParagraphs": 132,
+    "sourceImages": 8,
+    "creatorAttributionsIdentified": 7,
+    "unresolvedImageAttributions": [
+      "Annotated Tree of Life; original image creator, edition and colored annotations"
+    ],
+    "guides": 32,
+    "ritualReadings": 13,
+    "supportingRitualGuides": 2,
+    "newCollectionIndexes": [
+      "freemasonry"
+    ],
+    "newHubs": [
+      "beliefs-mysteries",
+      "science-and-quantum"
+    ],
+    "newUrls": 35,
+    "previous173GuidesUnchanged": true,
+    "previous276CatalogueEntriesUnchanged": true,
+    "combinedSourceParagraphs": 7712,
+    "combinedSourceImages": 40
+  },
+  "checks": {
+    "generator": "pass: reviewed archive, complete item/text coverage, image hash and destination checks, slugs, categories and links",
+    "typecheck": "pass",
+    "productionBuild": "pass",
+    "lint": "pass: full repository ESLint, zero warnings",
+    "browserRenderChecks": 86,
+    "accessibilityAudits": 16,
+    "imagePanelsChecked": 16,
+    "normalizedRitualParagraphChecks": 2072,
+    "sitemapAndContentIndexSlugs": 41,
+    "all8FullSizeImagesHTTP200": true,
+    "fullSizeImagePixelsExactlyMatchSuppliedPNGs": true,
+    "previewBytes": 366804,
+    "fullImageBytes": 14041274,
+    "fullImagesRequestedOnlyOnExplicitOpen": true,
+    "allCreatorPublicationLinksHTTP200": true,
+    "evidenceLinkTimeouts": [
+      "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/miracle-mineral-solution-mms-0"
+    ],
+    "contentUnitTests": "not added, per user preference",
+    "previewServer": "stopped",
+    "graphify": {
+      "nodes": 880,
+      "edges": 1588,
+      "danglingEndpoints": 0,
+      "llmTokens": 0
+    }
+  },
+  "limitations": [
+    "The exact original/annotator of the Kabbalah image remains unknown. Context links are not misrepresented as its image source.",
+    "Exact historical file matches and dates are qualified where only artwork family attribution is verified. Later creator editions are not substituted for uploaded ones.",
+    "The source research outline does not provide completed theories, experiments, clinical evidence or the two unavailable website entries. Ambiguous terms are identified.",
+    "Charts are attributed source artifacts, not verified causal diagrams or treatment guidance. Not every fine-print allegation has been independently fact-checked.",
+    "Live deployment is outside this local commit."
+  ]
+}

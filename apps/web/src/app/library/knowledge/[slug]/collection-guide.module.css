@@ -92,4 +92,17 @@
 .compactTable th, .compactTable td { min-width: 0; }
 
 .tableHint { display: none; }
+.detail .ritualLine { margin-block: 15px; }
+.ritualLine strong { color: #5140a1; }
+.detail .stageDirection { margin-block: 18px; padding: 15px 18px; border-left: 3px solid #d9d1ed; border-radius: 0 8px 8px 0; background: #f8f7fb; font-size: 14px; color: #535c70; }
+.sourceImage > p { font-size: 14px; line-height: 1.8; color: #404b5f; margin-block: 16px; }
+.sourceImage .sourceCaution { border-left: 3px solid #7a6431; background: #fffaf0; padding: 15px; border-radius: 0 8px 8px 0; color: #59471e; }
+.imageDisclosure { margin-block: 20px; border: 1px solid #d5cdec; border-radius: 10px; padding: 16px; background: white; }
+.imageDisclosure summary { cursor: pointer; font-weight: 700; font-size: 14px; color: #5140a1; line-height: 1.7; }
+.imageDisclosure summary:focus-visible { outline: 3px solid #9787ef; outline-offset: 4px; }
+.sourcePreview { display: block; width: auto; height: auto; max-width: 100%; max-height: 420px; object-fit: contain; margin: 20px auto; }
+.imageDisclosure p, .imageSources { font-size: 13px; line-height: 1.8; }
+.imageSources a { text-decoration: underline; }
+.imageSources ul { padding-left: 20px; }
+.imageSources li { margin-block: 10px; }
 @media (max-width: 760px) { .tableHint { display: block; font-size: 12px; color: #535c70; margin-bottom: 8px; } }

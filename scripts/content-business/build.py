@@ -25,6 +25,12 @@ def save(path, value):
 
 def blocks_for(doc, span, page):
     paragraphs = doc['paragraphs'][span['start']:span['end']]
+    if page.get('format') == 'ritual':
+        return [dict(kind='ritual', text=p['text']) for p in paragraphs]
+    if span.get('context'):
+        return [dict(kind='paragraph', text=span['context']),
+                dict(kind='heading', text='Supplied research prompt'),
+                dict(kind='list', items=[p['text'] for p in paragraphs])]
     if page.get('format') == 'chapter':
         # Repeated source verses share a displayed paragraph; every original index stays mapped.
         seen = set()
@@ -79,7 +85,7 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
             article['visuals'].extend(page.get('visuals', []))
         else:
             assert slug not in articles, f'Duplicate slug: {slug}'
-            article = {k:v for k,v in page.items() if k != 'ranges'}
+            article = {k:v for k,v in page.items() if k not in ('ranges', 'editorialSections')}
             article.update(topic=page.get('topic', TOPIC), format=page.get('format', 'guide'), collection=page.get('collection', ''),
                            interpretation=page.get('interpretation', ''), references=page.get('references', []), sections=[], figures=[], visuals=page.get('visuals', []), questionStages=[])
             articles[slug] = article
@@ -102,12 +108,12 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
                 if p.get('equation'):
                     assert p['equation'] in rendered, f'Lost equation: {doc["name"]}:{i}'
                 if p['index'] != 0 and p['style'] not in ('1', '2', '6', '7', '5'):
-                    value = p['text'] if page.get('format') == 'chapter' or doc['name'] == 'NLP.docx' else edited(p['text'])
+                    value = p['text'] if page.get('format') in ('chapter', 'ritual') or span.get('context') or doc['name'] == 'NLP.docx' else edited(p['text'])
                     assert json.dumps(value, ensure_ascii=False)[1:-1] in rendered, f'Lost passage: {doc["name"]}:{i}'
             if reuse:
                 continue
             article['sections'].append(dict(id=section_id, heading=span['heading'], blocks=blocks))
-            search_sections[slug].append(dict(heading=span['heading'], body='\n'.join(p['text'] if page.get('format') == 'chapter' or doc['name'] == 'NLP.docx' else edited(p['text']) for p in doc['paragraphs'][span['start']:span['end']])))
+            search_sections[slug].append(dict(heading=span['heading'], body='\n'.join(([span['context']] if span.get('context') else []) + [p['text'] if page.get('format') in ('chapter', 'ritual') or doc['name'] == 'NLP.docx' else edited(p['text']) for p in doc['paragraphs'][span['start']:span['end']]])))
             if page.get('format') == 'questions':
                 groups = []
                 labels = []
@@ -128,12 +134,27 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
                         assert json.dumps(p['text'],ensure_ascii=False)[1:-1] in json.dumps(stage,ensure_ascii=False), 'Missing question/context'
                 article['questionStages'].append(stage)
         article['figures'].extend(f for f in figures if f['slug'] == slug)
+        for section in page.get('editorialSections', []):
+            assert section['heading'] and section['paragraphs'], 'Empty editorial section'
+            section_id = f'section-{len(article["sections"]) + 1}'
+            article['sections'].append(dict(id=section_id, heading=section['heading'], blocks=[dict(kind='paragraph', text=t) for t in section['paragraphs']]))
+            search_sections[slug].append(dict(heading=section['heading'], body='\n'.join(section['paragraphs'])))
     assert all(coverage.values()), f'Unmapped passages: {[k for k,v in coverage.items() if not v]}'
     image_coverage = {(f['document'], f['image']):f for f in figures}
     assert len(image_coverage) == len(figures), 'Duplicate image mapping'
     assert set(image_coverage) == {(name, m['path']) for name, d in documents.items() for m in d['images']}, 'Unreviewed images'
     assert all(f['slug'] in articles for f in figures), 'Unknown image destination'
     for f in figures:
+        if f.get('sourceImage'):
+            image = f['sourceImage']
+            assert image['creator'] and image['provenance'] and image['limitations'] and image['summary']
+            assert image['width'] > 0 and image['height'] > 0
+            assert image['id'] and image['alt'] and image['publications']
+            for key in ('preview', 'full'):
+                asset = ROOT / 'apps/web/public' / image[key].lstrip('/')
+                assert asset.is_file() and asset.resolve().is_relative_to((ROOT / 'apps/web/public/library/beliefs').resolve())
+                assert hashlib.sha256(asset.read_bytes()).hexdigest() == image[key + 'Sha256'], 'Changed reviewed image asset'
+            assert all(p['url'].startswith('https://') and p['title'] for p in image['publications'])
         if f['kind'] == 'network':
             assert f['rows'] == [[str(n), str(n * (n - 1) // 2)] for n in range(3, 15)]
         if f['kind'] == 'dots':
@@ -206,7 +227,10 @@ for batch, documents, coverage, image_coverage in outputs:
                 writer.writerow([name,f'paragraph-{i}',documents[name]['paragraphs'][i]['text'],f'/library/knowledge/{slug}/',section,'retained; structural headings may be consolidated'])
         for (name, image), figure in image_coverage.items():
             media = next(m for m in documents[name]['images'] if m['path'] == image)
-            writer.writerow([name,image,media['sha256'],f'/library/knowledge/{figure["slug"]}/',figure['title'],'unrecoverable source rendering error; disclosed' if figure['kind'] == 'missing' else 'reviewed and reconstructed as accessible text/visual'])
+            disposition = ('retained as optimized source image; attribution and evidence limits displayed' if figure.get('sourceImage')
+                           else 'unrecoverable source rendering error; disclosed' if figure['kind'] == 'missing'
+                           else 'reviewed and reconstructed as accessible text/visual')
+            writer.writerow([name,image,media['sha256'],f'/library/knowledge/{figure["slug"]}/',figure['title'],disposition])
         for name, document in documents.items():
             for equation in document.get('equations', []):
                 for slug, section in coverage[(name, equation['afterParagraph'])]:

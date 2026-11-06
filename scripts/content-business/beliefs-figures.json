@@ -1,0 +1,362 @@
+[
+  {
+    "document": "Metaphysics.docx",
+    "image": "word/media/image1.png",
+    "slug": "kabbalah-tree-of-life",
+    "title": "The supplied annotated Tree of Life",
+    "kind": "cards",
+    "headers": [],
+    "rows": [
+      [
+        "Themes for close reading",
+        "Ten nodes, Twenty-two paths, Unexplained arrows"
+      ]
+    ],
+    "note": "Source artwork, retained for contextual study. Creator attribution does not verify its claims.",
+    "sourceImage": {
+      "id": "tree-of-life",
+      "preview": "/library/beliefs/tree-of-life-preview.webp",
+      "full": "/library/beliefs/tree-of-life.webp",
+      "width": 622,
+      "height": 981,
+      "previewWidth": 266,
+      "previewHeight": 420,
+      "creator": "Original image creator and annotator unresolved",
+      "version": "Undated supplied image",
+      "provenance": "Unknown exact image source. The linked society page explains the tradition; it is not claimed as this image’s origin.",
+      "summary": "Ten named nodes and twenty-two Hebrew-letter paths, with additional colored arrows near Malkhut.",
+      "limitations": "The arrow annotations have no supplied legend. The creator, date and exact tradition-specific source remain unresolved.",
+      "publications": [
+        {
+          "title": "Context: International Kabbalah Society, Tree of Life",
+          "url": "https://www.kabbalahsociety.org/wp/the-tree-of-life/"
+        }
+      ],
+      "alt": "The supplied annotated Tree of Life. Ten named nodes and twenty-two Hebrew-letter paths, with additional colored arrows near Malkhut.",
+      "previewSha256": "af3f2223616dcc742991b87ddfa80d5aa16b4921f8927ce4d6297fc8dcad3a86",
+      "fullSha256": "8b927e5d63f2da8bb1a0eff6dba2821462f5c05868e785dedd257fab5111995e",
+      "previewBytes": 16518,
+      "fullBytes": 105940,
+      "checked": "2026-11-06"
+    }
+  },
+  {
+    "document": "Metaphysics.docx",
+    "image": "word/media/image2.png",
+    "slug": "deep-state-maps",
+    "title": "Key to the Q-Web: uploaded color edition",
+    "kind": "cards",
+    "headers": [],
+    "rows": [
+      [
+        "Themes for close reading",
+        "Historical references, Political allegations, Extraterrestrial narratives, QAnon-era claims"
+      ]
+    ],
+    "note": "Source artwork, retained for contextual study. Creator attribution does not verify its claims.",
+    "sourceImage": {
+      "id": "q-key-2018",
+      "preview": "/library/beliefs/q-key-2018-preview.webp",
+      "full": "/library/beliefs/q-key-2018.webp",
+      "width": 1583,
+      "height": 2048,
+      "previewWidth": 325,
+      "previewHeight": 420,
+      "creator": "Dylan Louis Monroe / Deep State Mapping Project",
+      "version": "Visible footer: V.11.17.2018",
+      "provenance": "Creator identifies the color key as a variant of the Q-Web. The uploaded historical version is retained; the linked page also contains newer editions.",
+      "summary": "A densely connected chart with nine color-coded areas: Antiquity, Premodern, ETs, Fascism, MKUltra, Depopulation, False Flags, Weather War and Trump Era.",
+      "limitations": "The colored regions organize the artist’s narrative; they do not establish the alleged causal relationships. The chart includes antisemitic motifs and unsupported allegations about named people and groups.",
+      "publications": [
+        {
+          "title": "Dylan Louis Monroe: Q-Web and Key to the Q-Web",
+          "url": "https://www.dylanlouismonroe.com/q-web.html"
+        },
+        {
+          "title": "DSMP: creator catalogue and editions",
+          "url": "https://deepstatemappingproject.weebly.com/free-downloads.html"
+        }
+      ],
+      "alt": "Key to the Q-Web: uploaded color edition. A densely connected chart with nine color-coded areas: Antiquity, Premodern, ETs, Fascism, MKUltra, Depopulation, False Flags, Weather War and Trump Era.",
+      "previewSha256": "1752e7c3b08ed10602ec24134dbbe1abee46849c9c28d7599dcfe2e2b4f8afcd",
+      "fullSha256": "04035cc1bd684acde921fb300036846dac75c68b48c1bea0564b3db189fe95d5",
+      "previewBytes": 47178,
+      "fullBytes": 4112676,
+      "checked": "2026-11-06"
+    }
+  },
+  {
+    "document": "Metaphysics.docx",
+    "image": "word/media/image3.png",
+    "slug": "deep-state-maps",
+    "title": "Q-Web: uploaded black-and-white edition",
+    "kind": "cards",
+    "headers": [],
+    "rows": [
+      [
+        "Themes for close reading",
+        "Named organizations, Historical events, Symbolic associations, Unsupported connections"
+      ]
+    ],
+    "note": "Source artwork, retained for contextual study. Creator attribution does not verify its claims.",
+    "sourceImage": {
+      "id": "q-web-2018",
+      "preview": "/library/beliefs/q-web-2018-preview.webp",
+      "full": "/library/beliefs/q-web-2018.webp",
+      "width": 960,
+      "height": 960,
+      "previewWidth": 420,
+      "previewHeight": 420,
+      "creator": "Dylan Louis Monroe / Deep State Mapping Project",
+      "version": "Visible footer: V.6.25.2018",
+      "provenance": "The creator’s Q-Web page confirms the artwork family and early development. An exact historical download-file match has not been established.",
+      "summary": "A compact black-and-white web connecting historical events, institutions, symbols and extraordinary claims.",
+      "limitations": "This is related to the color key, not an independent source corroborating its allegations. Recognizable names and real events do not authenticate the connecting claims.",
+      "publications": [
+        {
+          "title": "Dylan Louis Monroe: Q-Web and Key to the Q-Web",
+          "url": "https://www.dylanlouismonroe.com/q-web.html"
+        },
+        {
+          "title": "DSMP: creator catalogue and editions",
+          "url": "https://deepstatemappingproject.weebly.com/free-downloads.html"
+        }
+      ],
+      "alt": "Q-Web: uploaded black-and-white edition. A compact black-and-white web connecting historical events, institutions, symbols and extraordinary claims.",
+      "previewSha256": "f60b261a4823e319c7de56406d3b6a52ab5e0943e98822a2d31a70a034b0a9b7",
+      "fullSha256": "04f0a8a2c68aa469f913b4d5521c464bba8ba9b24e83f5959b6b9b099a15b298",
+      "previewBytes": 64564,
+      "fullBytes": 472934,
+      "checked": "2026-11-06"
+    }
+  },
+  {
+    "document": "Metaphysics.docx",
+    "image": "word/media/image4.png",
+    "slug": "deep-state-maps",
+    "title": "Cult of Baal: uploaded historical chart",
+    "kind": "cards",
+    "headers": [],
+    "rows": [
+      [
+        "Themes for close reading",
+        "Symbolic chronology, Religious comparisons, Proposed institutional lineage"
+      ]
+    ],
+    "note": "Source artwork, retained for contextual study. Creator attribution does not verify its claims.",
+    "sourceImage": {
+      "id": "cult-of-baal",
+      "preview": "/library/beliefs/cult-of-baal-preview.webp",
+      "full": "/library/beliefs/cult-of-baal.webp",
+      "width": 616,
+      "height": 797,
+      "previewWidth": 325,
+      "previewHeight": 420,
+      "creator": "Dylan Louis Monroe / Deep State Mapping Project",
+      "version": "Supplied raster: no reliably readable edition date",
+      "provenance": "Creator and artwork identified from the artist’s dedicated publication. The exact uploaded edition remains uncertain.",
+      "summary": "A symbolic chronology with religious and institutional names arranged around a Tree-of-Life-like structure and deity comparisons.",
+      "limitations": "The creator’s claim of one continuous controlling cult is not established by this image. Its mixing of Jewish, Christian and other religious symbols does not demonstrate collective guilt or secret control.",
+      "publications": [
+        {
+          "title": "Dylan Louis Monroe: Cult of Baal",
+          "url": "https://www.dylanlouismonroe.com/cult-of-baal.html"
+        }
+      ],
+      "alt": "Cult of Baal: uploaded historical chart. A symbolic chronology with religious and institutional names arranged around a Tree-of-Life-like structure and deity comparisons.",
+      "previewSha256": "fe7d3ed24e7628df837ffb1f80366ccc6d82219db394ad59867b468a9f2a9272",
+      "fullSha256": "36e18e046a91dd7b487180bc13e9dc64592799ed8dee3d68cc720edc2fe9d88b",
+      "previewBytes": 41276,
+      "fullBytes": 285348,
+      "checked": "2026-11-06"
+    }
+  },
+  {
+    "document": "Metaphysics.docx",
+    "image": "word/media/image5.png",
+    "slug": "great-awakening-map",
+    "title": "Great Awakening Map: uploaded edition",
+    "kind": "cards",
+    "headers": [],
+    "rows": [
+      [
+        "Themes for close reading",
+        "Spiritual ascent, Consciousness, Secret-space narratives, Political narratives"
+      ]
+    ],
+    "note": "Source artwork, retained for contextual study. Creator attribution does not verify its claims.",
+    "sourceImage": {
+      "id": "great-awakening",
+      "preview": "/library/beliefs/great-awakening-preview.webp",
+      "full": "/library/beliefs/great-awakening.webp",
+      "width": 1500,
+      "height": 1910,
+      "previewWidth": 330,
+      "previewHeight": 420,
+      "creator": "Parinya Champ / Art House",
+      "version": "Undated supplied edition; includes a 2019–2023/24 prediction",
+      "provenance": "The artist’s 2018 publications identify this as the Great Awakening Map and distinguish it from Dylan Louis Monroe’s separate project. The exact uploaded revision is unconfirmed.",
+      "summary": "A worldview combining spiritual liberation, consciousness, extraordinary technology, extraterrestrial and political narratives.",
+      "limitations": "Spiritual teachings, physical claims and political allegations require different evidence. The historical solar-flash prediction is not a current forecast or a confirmed event.",
+      "publications": [
+        {
+          "title": "Parinya Champ / Art House: original project publications",
+          "url": "https://arthousecontemporary.com/disclosure"
+        },
+        {
+          "title": "Creator’s official map shop (redirected from GreatAwakeningMap.co)",
+          "url": "https://www.awakening5d.co/"
+        }
+      ],
+      "alt": "Great Awakening Map: uploaded edition. A worldview combining spiritual liberation, consciousness, extraordinary technology, extraterrestrial and political narratives.",
+      "previewSha256": "699526a3461426abd136bc911c4893dae1a1a8a88e4e14c936431db8eb201c69",
+      "fullSha256": "27b161b09b3f143d1a38689975b10189384473c0ec7c4e957fc7ffb0cf314160",
+      "previewBytes": 40152,
+      "fullBytes": 2443138,
+      "checked": "2026-11-06"
+    }
+  },
+  {
+    "document": "Metaphysics.docx",
+    "image": "word/media/image6.png",
+    "slug": "health-claims-charts",
+    "title": "The Healing Web: uploaded 2019 edition",
+    "kind": "cards",
+    "headers": [],
+    "rows": [
+      [
+        "Themes for close reading",
+        "Medical/alternative comparison, Disease-treatment links, Historical and speculative claims"
+      ]
+    ],
+    "note": "Source artwork, retained for contextual study. Creator attribution does not verify its claims.",
+    "sourceImage": {
+      "id": "healing-web-2019",
+      "preview": "/library/beliefs/healing-web-2019-preview.webp",
+      "full": "/library/beliefs/healing-web-2019.webp",
+      "width": 2500,
+      "height": 1932,
+      "previewWidth": 520,
+      "previewHeight": 402,
+      "creator": "Dylan Louis Monroe / Deep State Mapping Project",
+      "version": "Visible footer: V.4.11.2019",
+      "provenance": "The creator’s own product publication confirms authorship and the artwork. Current catalogue editions differ from this uploaded 2019 version.",
+      "summary": "A two-sided chart comparing medical and alternative approaches around a central list of illnesses and conditions.",
+      "limitations": "This is not a validated treatment guide. It contains unsupported and potentially dangerous remedy claims. The linked creator page establishes provenance, not clinical effectiveness; read the evidence notes before viewing.",
+      "publications": [
+        {
+          "title": "DSMP: Healing Web creator publication",
+          "url": "https://dsmp.io/product/healing-web-poster-24-x-36%E2%80%B3-us/"
+        },
+        {
+          "title": "DSMP: creator catalogue and editions",
+          "url": "https://deepstatemappingproject.weebly.com/free-downloads.html"
+        },
+        {
+          "title": "Evidence context: NCCIH terminology",
+          "url": "https://www.nccih.nih.gov/health/complementary-alternative-or-integrative-health-whats-in-a-name"
+        },
+        {
+          "title": "Evidence context: TGA on MMS claims",
+          "url": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/miracle-mineral-solution-mms-0"
+        }
+      ],
+      "alt": "The Healing Web: uploaded 2019 edition. A two-sided chart comparing medical and alternative approaches around a central list of illnesses and conditions.",
+      "previewSha256": "9d9f3b15fb0c93d617448b7a335760c604b150f74dc5fa626ab768c257d7d15b",
+      "fullSha256": "c941e990c6d8cf29bfe5ffcc109d408fbe2ff145c45a0951182cd22dcced7e4a",
+      "previewBytes": 72108,
+      "fullBytes": 5181246,
+      "checked": "2026-11-06"
+    }
+  },
+  {
+    "document": "Metaphysics.docx",
+    "image": "word/media/image7.png",
+    "slug": "deep-state-maps",
+    "title": "The World Government: Bureau d’Études, 2005",
+    "kind": "cards",
+    "headers": [],
+    "rows": [
+      [
+        "Themes for close reading",
+        "Institutional relationships, Ownership/affiliation legend, Historical political mapping"
+      ]
+    ],
+    "note": "Source artwork, retained for contextual study. Creator attribution does not verify its claims.",
+    "sourceImage": {
+      "id": "world-government-2005",
+      "preview": "/library/beliefs/world-government-2005-preview.webp",
+      "full": "/library/beliefs/world-government-2005.webp",
+      "width": 2500,
+      "height": 2993,
+      "previewWidth": 351,
+      "previewHeight": 420,
+      "creator": "Bureau d’Études",
+      "version": "2005; creator page dated 19 January 2005",
+      "provenance": "The creator’s 2005 publication and original English PDF identify this work. It is a separate source from the Deep State Mapping Project.",
+      "summary": "A political-art mapping of institutional, financial and intelligence relationships, with a legend distinguishing types of connections.",
+      "limitations": "This historical map is an authored interpretation, not a current organizational roster. Dates, source quality and the meaning of each relationship must be checked independently.",
+      "publications": [
+        {
+          "title": "Bureau d’Études: World Government, 2005",
+          "url": "https://bureaudetudes.org/2005/01/19/gouvernement-mondial-bureau-detudes-2005/"
+        },
+        {
+          "title": "Bureau d’Études: original 2005 PDF",
+          "url": "https://bureaudetudes.org/wp-content/uploads/2010/01/wordlgov2005.pdf"
+        }
+      ],
+      "alt": "The World Government: Bureau d’Études, 2005. A political-art mapping of institutional, financial and intelligence relationships, with a legend distinguishing types of connections.",
+      "previewSha256": "296fe2f61bf95e645ac959770519345a8e41b890bfaae8cf403084240ab6a599",
+      "fullSha256": "02f30c04e7d01aee072ea5b246588e10c9d8edfa84cb58bfbdc7c697258bc2e2",
+      "previewBytes": 41532,
+      "fullBytes": 600986,
+      "checked": "2026-11-06"
+    }
+  },
+  {
+    "document": "Metaphysics.docx",
+    "image": "word/media/image8.png",
+    "slug": "health-claims-charts",
+    "title": "COVID-5G: uploaded 2020 edition",
+    "kind": "cards",
+    "headers": [],
+    "rows": [
+      [
+        "Themes for close reading",
+        "COVID-19 allegations, Telecommunications claims, Political scenarios"
+      ]
+    ],
+    "note": "Source artwork, retained for contextual study. Creator attribution does not verify its claims.",
+    "sourceImage": {
+      "id": "covid-5g-2020",
+      "preview": "/library/beliefs/covid-5g-2020-preview.webp",
+      "full": "/library/beliefs/covid-5g-2020.webp",
+      "width": 1280,
+      "height": 1656,
+      "previewWidth": 325,
+      "previewHeight": 420,
+      "creator": "Dylan Louis Monroe / Deep State Mapping Project",
+      "version": "Visible footer: V.7.03.20A",
+      "provenance": "The DSMP creator catalogue identifies the COVID-5G artwork family. It lists later revisions; an exact historical download-file match is not claimed.",
+      "summary": "A 2020 chart linking pandemic, telecommunications, health and political narratives into alternative future scenarios.",
+      "limitations": "The proposed 5G/COVID causal link is false, not an equally supported alternative explanation. Other allegations in the image are not verified by identifying its creator.",
+      "publications": [
+        {
+          "title": "DSMP: creator catalogue and editions",
+          "url": "https://deepstatemappingproject.weebly.com/free-downloads.html"
+        },
+        {
+          "title": "Evidence context: UK government, 5G and coronavirus",
+          "url": "https://www.gov.uk/guidance/5g-and-coronavirus-covid-19"
+        }
+      ],
+      "alt": "COVID-5G: uploaded 2020 edition. A 2020 chart linking pandemic, telecommunications, health and political narratives into alternative future scenarios.",
+      "previewSha256": "5a84367d410186178ccbcdd2991d1819bcf870fa5f7ebf4f7d5525c2fe5a86ce",
+      "fullSha256": "b5b22d1db68b5336f3225e11ee04320e0bb83c2f1fff3d33eb65f17a0b0902b2",
+      "previewBytes": 43476,
+      "fullBytes": 839006,
+      "checked": "2026-11-06"
+    }
+  }
+]

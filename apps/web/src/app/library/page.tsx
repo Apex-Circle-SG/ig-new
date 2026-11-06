@@ -45,6 +45,9 @@ export default async function LibraryPage({ searchParams }: { searchParams: Prom
       <Link href="/library/knowledge/problem-solving/" className={styles.hubFeature}>
         <div><span className={styles.eyebrow}>PROBLEM SOLVING &amp; DECISION MAKING</span><h2>Ask a clearer question<span>.</span></h2><p>Frame problems, structure analysis and explore creative approaches before choosing a solution.</p><strong>Explore Problem Solving →</strong></div><div className={styles.hubFeatureMark} aria-hidden="true">?</div>
       </Link>
+      <Link href="/library/knowledge/beliefs-mysteries/" className={styles.hubFeature}>
+        <div><span className={styles.eyebrow}>BELIEFS, SYMBOLS &amp; MYSTERIES</span><h2>Explore ideas with context<span>.</span></h2><p>Read the complete supplied Freemasonry rituals, explore metaphysical questions and trace extraordinary claims to their sources.</p><strong>Explore beliefs, symbols and mysteries →</strong></div><div className={styles.hubFeatureMark} aria-hidden="true">◇</div>
+      </Link>
       <KnowledgeList articles={articles} />
       <LibraryDirectory tools={tools} initialCategory={params.tools} />
     </main>

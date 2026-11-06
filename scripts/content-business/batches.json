@@ -31,5 +31,13 @@
     "equations": "project-core-equations.json",
     "ledger": "docs/project-core-content-coverage.csv",
     "sha256": "1fece58eaabc5f311ba51df26faea5fd8903ff95990dcc3e389d6b7ec94d3970"
+  },
+  {
+    "key": "beliefs",
+    "source": "content/sources/beliefs",
+    "plan": "beliefs-plan.json",
+    "figures": "beliefs-figures.json",
+    "ledger": "docs/beliefs-content-coverage.csv",
+    "sha256": "9e9a7d7373f1232435099bb2797b8f883d7c6126460a4fb1ee1566b16a5a1fd7"
   }
 ]

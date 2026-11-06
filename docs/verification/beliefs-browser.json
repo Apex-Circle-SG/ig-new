@@ -1,0 +1,1272 @@
+{
+  "date": "2026-11-06",
+  "renderChecks": 86,
+  "accessibilityChecks": 16,
+  "sourceImageChecks": 16,
+  "ritualParagraphChecks": 2072,
+  "sitemapAndContentIndexSlugs": 41,
+  "results": [
+    {
+      "width": 390,
+      "path": "/library/",
+      "status": 200,
+      "title": "Good ideas deservea place to grow.",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/content-index/",
+      "status": 200,
+      "title": "Find your next useful page.",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/freemasonry-entered-apprentice-opening/",
+      "status": 200,
+      "title": "Entered Apprentice: opening the lodge",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/freemasonry-entered-apprentice-initiation/",
+      "status": 200,
+      "title": "Entered Apprentice: the initiation ceremony",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/freemasonry-entered-apprentice-charge/",
+      "status": 200,
+      "title": "Entered Apprentice: charity, tools and the charge",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/freemasonry-entered-apprentice-closing/",
+      "status": 200,
+      "title": "Entered Apprentice: closing the lodge",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/freemasonry-fellow-craft-preparation/",
+      "status": 200,
+      "title": "Fellow Craft: preparation and first-degree questions",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/freemasonry-fellow-craft-passing/",
+      "status": 200,
+      "title": "Fellow Craft: opening and passing",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/freemasonry-fellow-craft-tools/",
+      "status": 200,
+      "title": "Fellow Craft: investiture and working tools",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/freemasonry-fellow-craft-closing/",
+      "status": 200,
+      "title": "Fellow Craft: refreshment, return and closing",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/freemasonry-master-mason-preparation/",
+      "status": 200,
+      "title": "Master Mason: preparation and opening",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/freemasonry-master-mason-raising/",
+      "status": 200,
+      "title": "Master Mason: obligation and the raising narrative",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/freemasonry-master-mason-tools/",
+      "status": 200,
+      "title": "Master Mason: signs, fellowship and tools",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/freemasonry-master-mason-traditional-history/",
+      "status": 200,
+      "title": "Master Mason: traditional history and concluding signs",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/freemasonry-master-mason-closing/",
+      "status": 200,
+      "title": "Master Mason: closing and return to the first degree",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/freemasonry-reader-guide/",
+      "status": 200,
+      "title": "Freemasonry: how to read the supplied rituals",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/freemasonry-symbols-tools/",
+      "status": 200,
+      "title": "Freemasonry: tools, light and moral symbolism",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/metaphysics-consciousness/",
+      "status": 200,
+      "title": "Metaphysics, consciousness and spiritual language",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/religion-symbolic-reading/",
+      "status": 200,
+      "title": "Religion and symbolism: reading claims in context",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/ancient-mysteries/",
+      "status": 200,
+      "title": "Ancient places, legends and claims of hidden worlds",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/ufo-secret-space-claims/",
+      "status": 200,
+      "title": "UFO reports and secret-space-program narratives",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/power-secrecy-claims/",
+      "status": 200,
+      "title": "Power and secrecy: documents, institutions and allegations",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/health-claims-charts/",
+      "status": 200,
+      "title": "Health claims in the supplied charts: an evidence guide",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/alchemy-transmutation/",
+      "status": 200,
+      "title": "Alchemy and nuclear transmutation: separate the questions",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/research-testing-prompts/",
+      "status": 200,
+      "title": "Extraordinary mechanisms: what would a test need?",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/source-research-gaps/",
+      "status": 200,
+      "title": "Unresolved source terms and missing material",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/digital-research-connections/",
+      "status": 200,
+      "title": "Digital topics: privacy, cryptocurrency and internet myths",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/nuclei-transmutation/",
+      "status": 200,
+      "title": "Atoms and transmutation: chemistry versus nuclear change",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/science-research-connections/",
+      "status": 200,
+      "title": "Space, life and climate: separate observations from claims",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/environment-extraordinary-claims/",
+      "status": 200,
+      "title": "Chemtrails and environmental-control allegations",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/kabbalah-tree-of-life/",
+      "status": 200,
+      "title": "The Tree of Life: labels, paths and an annotated source image",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/research-evidence-guide/",
+      "status": 200,
+      "title": "Read a claim: source, interpretation and evidence",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/deep-state-maps/",
+      "status": 200,
+      "title": "Deep State charts: creators, editions and claims",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/great-awakening-map/",
+      "status": 200,
+      "title": "The Great Awakening Map: spiritual and disclosure narratives",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/beliefs-mysteries/",
+      "status": 200,
+      "title": "Beliefs, symbols & mysteries",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/freemasonry/",
+      "status": 200,
+      "title": "Freemasonry: the supplied three-degree rituals",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/science-and-quantum/",
+      "status": 200,
+      "title": "Science & Quantum",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-management/",
+      "status": 200,
+      "title": "Project Management: plan, deliver and improve",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/process-improvement/",
+      "status": 200,
+      "title": "Process Improvement",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/portfolio-bcg/",
+      "status": 200,
+      "title": "BCG matrix: balance growth and relative share",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/sales-question-bank/",
+      "status": 200,
+      "title": "Sales question bank: prepare for each buyer conversation",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/network-connections/",
+      "status": 200,
+      "title": "Network connections: how pairwise links grow",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/nlp-reference/",
+      "status": 200,
+      "title": "Neuro-linguistic programming: an annotated reference",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/",
+      "status": 200,
+      "title": "Good ideas deservea place to grow.",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/content-index/",
+      "status": 200,
+      "title": "Find your next useful page.",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/freemasonry-entered-apprentice-opening/",
+      "status": 200,
+      "title": "Entered Apprentice: opening the lodge",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/freemasonry-entered-apprentice-initiation/",
+      "status": 200,
+      "title": "Entered Apprentice: the initiation ceremony",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/freemasonry-entered-apprentice-charge/",
+      "status": 200,
+      "title": "Entered Apprentice: charity, tools and the charge",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/freemasonry-entered-apprentice-closing/",
+      "status": 200,
+      "title": "Entered Apprentice: closing the lodge",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/freemasonry-fellow-craft-preparation/",
+      "status": 200,
+      "title": "Fellow Craft: preparation and first-degree questions",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/freemasonry-fellow-craft-passing/",
+      "status": 200,
+      "title": "Fellow Craft: opening and passing",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/freemasonry-fellow-craft-tools/",
+      "status": 200,
+      "title": "Fellow Craft: investiture and working tools",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/freemasonry-fellow-craft-closing/",
+      "status": 200,
+      "title": "Fellow Craft: refreshment, return and closing",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/freemasonry-master-mason-preparation/",
+      "status": 200,
+      "title": "Master Mason: preparation and opening",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/freemasonry-master-mason-raising/",
+      "status": 200,
+      "title": "Master Mason: obligation and the raising narrative",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/freemasonry-master-mason-tools/",
+      "status": 200,
+      "title": "Master Mason: signs, fellowship and tools",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/freemasonry-master-mason-traditional-history/",
+      "status": 200,
+      "title": "Master Mason: traditional history and concluding signs",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/freemasonry-master-mason-closing/",
+      "status": 200,
+      "title": "Master Mason: closing and return to the first degree",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/freemasonry-reader-guide/",
+      "status": 200,
+      "title": "Freemasonry: how to read the supplied rituals",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/freemasonry-symbols-tools/",
+      "status": 200,
+      "title": "Freemasonry: tools, light and moral symbolism",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/metaphysics-consciousness/",
+      "status": 200,
+      "title": "Metaphysics, consciousness and spiritual language",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/religion-symbolic-reading/",
+      "status": 200,
+      "title": "Religion and symbolism: reading claims in context",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/ancient-mysteries/",
+      "status": 200,
+      "title": "Ancient places, legends and claims of hidden worlds",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/ufo-secret-space-claims/",
+      "status": 200,
+      "title": "UFO reports and secret-space-program narratives",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/power-secrecy-claims/",
+      "status": 200,
+      "title": "Power and secrecy: documents, institutions and allegations",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/health-claims-charts/",
+      "status": 200,
+      "title": "Health claims in the supplied charts: an evidence guide",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/alchemy-transmutation/",
+      "status": 200,
+      "title": "Alchemy and nuclear transmutation: separate the questions",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/research-testing-prompts/",
+      "status": 200,
+      "title": "Extraordinary mechanisms: what would a test need?",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/source-research-gaps/",
+      "status": 200,
+      "title": "Unresolved source terms and missing material",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/digital-research-connections/",
+      "status": 200,
+      "title": "Digital topics: privacy, cryptocurrency and internet myths",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/nuclei-transmutation/",
+      "status": 200,
+      "title": "Atoms and transmutation: chemistry versus nuclear change",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/science-research-connections/",
+      "status": 200,
+      "title": "Space, life and climate: separate observations from claims",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/environment-extraordinary-claims/",
+      "status": 200,
+      "title": "Chemtrails and environmental-control allegations",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/kabbalah-tree-of-life/",
+      "status": 200,
+      "title": "The Tree of Life: labels, paths and an annotated source image",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/research-evidence-guide/",
+      "status": 200,
+      "title": "Read a claim: source, interpretation and evidence",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/deep-state-maps/",
+      "status": 200,
+      "title": "Deep State charts: creators, editions and claims",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/great-awakening-map/",
+      "status": 200,
+      "title": "The Great Awakening Map: spiritual and disclosure narratives",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/beliefs-mysteries/",
+      "status": 200,
+      "title": "Beliefs, symbols & mysteries",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/freemasonry/",
+      "status": 200,
+      "title": "Freemasonry: the supplied three-degree rituals",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/science-and-quantum/",
+      "status": 200,
+      "title": "Science & Quantum",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-management/",
+      "status": 200,
+      "title": "Project Management: plan, deliver and improve",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/process-improvement/",
+      "status": 200,
+      "title": "Process Improvement",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/portfolio-bcg/",
+      "status": 200,
+      "title": "BCG matrix: balance growth and relative share",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/sales-question-bank/",
+      "status": 200,
+      "title": "Sales question bank: prepare for each buyer conversation",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/network-connections/",
+      "status": 200,
+      "title": "Network connections: how pairwise links grow",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/nlp-reference/",
+      "status": 200,
+      "title": "Neuro-linguistic programming: an annotated reference",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    }
+  ],
+  "audits": [
+    {
+      "width": 390,
+      "path": "/library/knowledge/freemasonry-entered-apprentice-initiation/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/health-claims-charts/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/nuclei-transmutation/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/kabbalah-tree-of-life/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/deep-state-maps/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/great-awakening-map/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/beliefs-mysteries/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/freemasonry/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/freemasonry-entered-apprentice-initiation/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/health-claims-charts/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/nuclei-transmutation/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/kabbalah-tree-of-life/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/deep-state-maps/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/great-awakening-map/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/beliefs-mysteries/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/freemasonry/",
+      "violations": []
+    }
+  ],
+  "images": [
+    {
+      "width": 281.984375,
+      "id": "healing-web-2019",
+      "height": 218,
+      "naturalWidth": 520,
+      "alt": "The Healing Web: uploaded 2019 edition. A two-sided chart comparing medical and alternative approaches around a central list of illnesses and conditions.",
+      "loaded": true,
+      "fullLazy": true,
+      "citations": 4
+    },
+    {
+      "width": 281.984375,
+      "id": "covid-5g-2020",
+      "height": 364.421875,
+      "naturalWidth": 325,
+      "alt": "COVID-5G: uploaded 2020 edition. A 2020 chart linking pandemic, telecommunications, health and political narratives into alternative future scenarios.",
+      "loaded": true,
+      "fullLazy": true,
+      "citations": 2
+    },
+    {
+      "width": 266,
+      "id": "tree-of-life",
+      "height": 420,
+      "naturalWidth": 266,
+      "alt": "The supplied annotated Tree of Life. Ten named nodes and twenty-two Hebrew-letter paths, with additional colored arrows near Malkhut.",
+      "loaded": true,
+      "fullLazy": true,
+      "citations": 1
+    },
+    {
+      "width": 281.984375,
+      "id": "q-key-2018",
+      "height": 364.421875,
+      "naturalWidth": 325,
+      "alt": "Key to the Q-Web: uploaded color edition. A densely connected chart with nine color-coded areas: Antiquity, Premodern, ETs, Fascism, MKUltra, Depopulation, False Flags, Weather War and Trump Era.",
+      "loaded": true,
+      "fullLazy": true,
+      "citations": 2
+    },
+    {
+      "width": 282,
+      "id": "q-web-2018",
+      "height": 282,
+      "naturalWidth": 420,
+      "alt": "Q-Web: uploaded black-and-white edition. A compact black-and-white web connecting historical events, institutions, symbols and extraordinary claims.",
+      "loaded": true,
+      "fullLazy": true,
+      "citations": 2
+    },
+    {
+      "width": 281.984375,
+      "id": "cult-of-baal",
+      "height": 364.421875,
+      "naturalWidth": 325,
+      "alt": "Cult of Baal: uploaded historical chart. A symbolic chronology with religious and institutional names arranged around a Tree-of-Life-like structure and deity comparisons.",
+      "loaded": true,
+      "fullLazy": true,
+      "citations": 1
+    },
+    {
+      "width": 281.984375,
+      "id": "world-government-2005",
+      "height": 337.421875,
+      "naturalWidth": 351,
+      "alt": "The World Government: Bureau d’Études, 2005. A political-art mapping of institutional, financial and intelligence relationships, with a legend distinguishing types of connections.",
+      "loaded": true,
+      "fullLazy": true,
+      "citations": 2
+    },
+    {
+      "width": 281.984375,
+      "id": "great-awakening",
+      "height": 358.90625,
+      "naturalWidth": 330,
+      "alt": "Great Awakening Map: uploaded edition. A worldview combining spiritual liberation, consciousness, extraordinary technology, extraterrestrial and political narratives.",
+      "loaded": true,
+      "fullLazy": true,
+      "citations": 2
+    },
+    {
+      "width": 520,
+      "id": "healing-web-2019",
+      "height": 402,
+      "naturalWidth": 520,
+      "alt": "The Healing Web: uploaded 2019 edition. A two-sided chart comparing medical and alternative approaches around a central list of illnesses and conditions.",
+      "loaded": true,
+      "fullLazy": true,
+      "citations": 4
+    },
+    {
+      "width": 325,
+      "id": "covid-5g-2020",
+      "height": 420,
+      "naturalWidth": 325,
+      "alt": "COVID-5G: uploaded 2020 edition. A 2020 chart linking pandemic, telecommunications, health and political narratives into alternative future scenarios.",
+      "loaded": true,
+      "fullLazy": true,
+      "citations": 2
+    },
+    {
+      "width": 266,
+      "id": "tree-of-life",
+      "height": 420,
+      "naturalWidth": 266,
+      "alt": "The supplied annotated Tree of Life. Ten named nodes and twenty-two Hebrew-letter paths, with additional colored arrows near Malkhut.",
+      "loaded": true,
+      "fullLazy": true,
+      "citations": 1
+    },
+    {
+      "width": 325,
+      "id": "q-key-2018",
+      "height": 420,
+      "naturalWidth": 325,
+      "alt": "Key to the Q-Web: uploaded color edition. A densely connected chart with nine color-coded areas: Antiquity, Premodern, ETs, Fascism, MKUltra, Depopulation, False Flags, Weather War and Trump Era.",
+      "loaded": true,
+      "fullLazy": true,
+      "citations": 2
+    },
+    {
+      "width": 420,
+      "id": "q-web-2018",
+      "height": 420,
+      "naturalWidth": 420,
+      "alt": "Q-Web: uploaded black-and-white edition. A compact black-and-white web connecting historical events, institutions, symbols and extraordinary claims.",
+      "loaded": true,
+      "fullLazy": true,
+      "citations": 2
+    },
+    {
+      "width": 325,
+      "id": "cult-of-baal",
+      "height": 420,
+      "naturalWidth": 325,
+      "alt": "Cult of Baal: uploaded historical chart. A symbolic chronology with religious and institutional names arranged around a Tree-of-Life-like structure and deity comparisons.",
+      "loaded": true,
+      "fullLazy": true,
+      "citations": 1
+    },
+    {
+      "width": 351,
+      "id": "world-government-2005",
+      "height": 420,
+      "naturalWidth": 351,
+      "alt": "The World Government: Bureau d’Études, 2005. A political-art mapping of institutional, financial and intelligence relationships, with a legend distinguishing types of connections.",
+      "loaded": true,
+      "fullLazy": true,
+      "citations": 2
+    },
+    {
+      "width": 330,
+      "id": "great-awakening",
+      "height": 420,
+      "naturalWidth": 330,
+      "alt": "Great Awakening Map: uploaded edition. A worldview combining spiritual liberation, consciousness, extraordinary technology, extraterrestrial and political narratives.",
+      "loaded": true,
+      "fullLazy": true,
+      "citations": 2
+    }
+  ],
+  "transcripts": [
+    {
+      "width": 390,
+      "slug": "freemasonry-entered-apprentice-opening",
+      "paragraphs": 72,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 390,
+      "slug": "freemasonry-entered-apprentice-initiation",
+      "paragraphs": 137,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 390,
+      "slug": "freemasonry-entered-apprentice-charge",
+      "paragraphs": 76,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 390,
+      "slug": "freemasonry-entered-apprentice-closing",
+      "paragraphs": 27,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 390,
+      "slug": "freemasonry-fellow-craft-preparation",
+      "paragraphs": 122,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 390,
+      "slug": "freemasonry-fellow-craft-passing",
+      "paragraphs": 165,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 390,
+      "slug": "freemasonry-fellow-craft-tools",
+      "paragraphs": 27,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 390,
+      "slug": "freemasonry-fellow-craft-closing",
+      "paragraphs": 77,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 390,
+      "slug": "freemasonry-master-mason-preparation",
+      "paragraphs": 91,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 390,
+      "slug": "freemasonry-master-mason-raising",
+      "paragraphs": 102,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 390,
+      "slug": "freemasonry-master-mason-tools",
+      "paragraphs": 46,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 390,
+      "slug": "freemasonry-master-mason-traditional-history",
+      "paragraphs": 49,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 390,
+      "slug": "freemasonry-master-mason-closing",
+      "paragraphs": 45,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 1440,
+      "slug": "freemasonry-entered-apprentice-opening",
+      "paragraphs": 72,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 1440,
+      "slug": "freemasonry-entered-apprentice-initiation",
+      "paragraphs": 137,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 1440,
+      "slug": "freemasonry-entered-apprentice-charge",
+      "paragraphs": 76,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 1440,
+      "slug": "freemasonry-entered-apprentice-closing",
+      "paragraphs": 27,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 1440,
+      "slug": "freemasonry-fellow-craft-preparation",
+      "paragraphs": 122,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 1440,
+      "slug": "freemasonry-fellow-craft-passing",
+      "paragraphs": 165,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 1440,
+      "slug": "freemasonry-fellow-craft-tools",
+      "paragraphs": 27,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 1440,
+      "slug": "freemasonry-fellow-craft-closing",
+      "paragraphs": 77,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 1440,
+      "slug": "freemasonry-master-mason-preparation",
+      "paragraphs": 91,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 1440,
+      "slug": "freemasonry-master-mason-raising",
+      "paragraphs": 102,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 1440,
+      "slug": "freemasonry-master-mason-tools",
+      "paragraphs": 46,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 1440,
+      "slug": "freemasonry-master-mason-traditional-history",
+      "paragraphs": 49,
+      "exactNormalizedMatch": true
+    },
+    {
+      "width": 1440,
+      "slug": "freemasonry-master-mason-closing",
+      "paragraphs": 45,
+      "exactNormalizedMatch": true
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "checked": "2026-11-06",
+  "method": "Direct HTTP retrieval; publisher blocking is recorded separately from creator attribution checked through web sources.",
+  "results": [
+    {
+      "url": "https://www.kabbalahsociety.org/wp/the-tree-of-life/",
+      "title": "Context: International Kabbalah Society, Tree of Life",
+      "status": 200,
+      "finalUrl": "https://www.kabbalahsociety.org/wp/the-tree-of-life/"
+    },
+    {
+      "url": "https://www.dylanlouismonroe.com/q-web.html",
+      "title": "Dylan Louis Monroe: Q-Web and Key to the Q-Web",
+      "status": 200,
+      "finalUrl": "https://www.dylanlouismonroe.com/q-web.html"
+    },
+    {
+      "url": "https://deepstatemappingproject.weebly.com/free-downloads.html",
+      "title": "DSMP: creator catalogue and editions",
+      "status": 200,
+      "finalUrl": "https://deepstatemappingproject.weebly.com/free-downloads.html"
+    },
+    {
+      "url": "https://www.dylanlouismonroe.com/cult-of-baal.html",
+      "title": "Dylan Louis Monroe: Cult of Baal",
+      "status": 200,
+      "finalUrl": "https://www.dylanlouismonroe.com/cult-of-baal.html"
+    },
+    {
+      "url": "https://arthousecontemporary.com/disclosure",
+      "title": "Parinya Champ / Art House: original project publications",
+      "status": 200,
+      "finalUrl": "https://arthousecontemporary.com/disclosure"
+    },
+    {
+      "url": "https://www.awakening5d.co/",
+      "title": "Creator\u2019s official map shop (redirected from GreatAwakeningMap.co)",
+      "status": 200,
+      "finalUrl": "https://www.awakening5d.co/"
+    },
+    {
+      "url": "https://dsmp.io/product/healing-web-poster-24-x-36%E2%80%B3-us/",
+      "title": "DSMP: Healing Web creator publication",
+      "status": 200,
+      "finalUrl": "https://dsmp.io/product/healing-web-poster-24-x-36%E2%80%B3-us/"
+    },
+    {
+      "url": "https://www.nccih.nih.gov/health/complementary-alternative-or-integrative-health-whats-in-a-name",
+      "title": "Evidence context: NCCIH terminology",
+      "status": 200,
+      "finalUrl": "https://www.nccih.nih.gov/health/complementary-alternative-or-integrative-health-whats-in-a-name"
+    },
+    {
+      "url": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/miracle-mineral-solution-mms-0",
+      "title": "Evidence context: TGA on MMS claims",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://bureaudetudes.org/2005/01/19/gouvernement-mondial-bureau-detudes-2005/",
+      "title": "Bureau d\u2019\u00c9tudes: World Government, 2005",
+      "status": 200,
+      "finalUrl": "https://bureaudetudes.org/2005/01/19/gouvernement-mondial-bureau-detudes-2005/"
+    },
+    {
+      "url": "https://bureaudetudes.org/wp-content/uploads/2010/01/wordlgov2005.pdf",
+      "title": "Bureau d\u2019\u00c9tudes: original 2005 PDF",
+      "status": 200,
+      "finalUrl": "https://bureaudetudes.org/wp-content/uploads/2010/01/wordlgov2005.pdf"
+    },
+    {
+      "url": "https://www.gov.uk/guidance/5g-and-coronavirus-covid-19",
+      "title": "Evidence context: UK government, 5G and coronavirus",
+      "status": 200,
+      "finalUrl": "https://www.gov.uk/guidance/5g-and-coronavirus-covid-19"
+    }
+  ]
+}

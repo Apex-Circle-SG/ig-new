@@ -794,5 +794,233 @@
     ],
     "references": [],
     "topicRoot": true
+  },
+  {
+    "slug": "beliefs-mysteries",
+    "title": "Beliefs, symbols & mysteries",
+    "topic": "Beliefs & Mysteries",
+    "group": "Start here",
+    "summary": "Explore religious symbolism, metaphysical questions, historical rituals and extraordinary claims with source context and evidence notes.",
+    "intro": "Explore religious symbolism, metaphysical questions, historical rituals and extraordinary claims with source context and evidence notes.",
+    "groups": [
+      {
+        "name": "Freemasonry & symbolism",
+        "description": "Read the complete supplied ritual collection and its supporting guides."
+      },
+      {
+        "name": "Metaphysics & spiritual traditions",
+        "description": "Separate philosophical and spiritual meanings from proposed physical mechanisms."
+      },
+      {
+        "name": "Religion & symbolic interpretation",
+        "description": "Read religious and esoteric references in context."
+      },
+      {
+        "name": "Ancient mysteries & extraordinary claims",
+        "description": "Distinguish real places, legends, observations and proposed explanations."
+      },
+      {
+        "name": "Power & conspiracy narratives",
+        "description": "Examine records and allegations one claim at a time."
+      },
+      {
+        "name": "Health claims & evidence",
+        "description": "Study the historical charts without treating them as medical guidance."
+      },
+      {
+        "name": "Source charts & provenance",
+        "description": "Find creator credits, source links, evidence distinctions and unresolved material."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Read a tradition",
+        "links": [
+          {
+            "slug": "freemasonry",
+            "label": "Browse the complete ritual collection"
+          },
+          {
+            "slug": "kabbalah-tree-of-life",
+            "label": "Read the Tree of Life image"
+          }
+        ]
+      },
+      {
+        "title": "Explore a question",
+        "links": [
+          {
+            "slug": "metaphysics-consciousness",
+            "label": "Clarify metaphysical language"
+          },
+          {
+            "slug": "ancient-mysteries",
+            "label": "Separate places from legends"
+          }
+        ]
+      },
+      {
+        "title": "Examine a claim",
+        "links": [
+          {
+            "slug": "research-evidence-guide",
+            "label": "Use the evidence guide"
+          },
+          {
+            "slug": "deep-state-maps",
+            "label": "Trace the source charts"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "The raw research list is not a completed theory. Source prompts are retained with editorial context; gaps are identified rather than invented.",
+      "Scientific and computing topics have their own destinations under Science & Quantum and Technology. Chart attribution is distinguished from verification of its claims."
+    ],
+    "references": [],
+    "topicRoot": true
+  },
+  {
+    "slug": "freemasonry",
+    "title": "Freemasonry: the supplied three-degree rituals",
+    "topic": "Beliefs & Mysteries",
+    "group": "Freemasonry & symbolism",
+    "summary": "Read every supplied ceremony in thirteen linked readings, with speaker labels, stage directions, supporting explanations and source limitations.",
+    "intro": "Read every supplied ceremony in thirteen linked readings, with speaker labels, stage directions, supporting explanations and source limitations.",
+    "groups": [
+      {
+        "name": "Reading aids",
+        "description": "Start with the setting, abbreviations and symbolism."
+      },
+      {
+        "name": "Entered Apprentice",
+        "description": "Opening, initiation, charge, working tools and closing."
+      },
+      {
+        "name": "Fellow Craft",
+        "description": "Preparatory questions, passing, working tools, refreshment and closing."
+      },
+      {
+        "name": "Master Mason",
+        "description": "Preparation, raising, fellowship, traditional history and closing."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Start here",
+        "links": [
+          {
+            "slug": "freemasonry-reader-guide",
+            "label": "Understand the source"
+          },
+          {
+            "slug": "freemasonry-symbols-tools",
+            "label": "Compare symbols and tools"
+          }
+        ]
+      },
+      {
+        "title": "Read the first two degrees",
+        "links": [
+          {
+            "slug": "freemasonry-entered-apprentice-opening",
+            "label": "Begin Entered Apprentice"
+          },
+          {
+            "slug": "freemasonry-fellow-craft-preparation",
+            "label": "Begin Fellow Craft"
+          }
+        ]
+      },
+      {
+        "title": "Read the third degree",
+        "links": [
+          {
+            "slug": "freemasonry-master-mason-preparation",
+            "label": "Begin Master Mason"
+          },
+          {
+            "slug": "freemasonry-master-mason-traditional-history",
+            "label": "Read the traditional history"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "All supplied ritual paragraphs remain readable, including repeated openings/closings, dotted blanks and stage directions. No missing words or additional degrees have been invented.",
+      "The text is an undated supplied version with Centenary Lodge references, not an authenticated universal ritual or a complete account of all Freemasonry. Narrative and symbolic penalties are read as ritual material, not proof of actual practices or ancient events."
+    ],
+    "references": [],
+    "topicRoot": false
+  },
+  {
+    "slug": "science-and-quantum",
+    "title": "Science & Quantum",
+    "topic": "Science & Quantum",
+    "group": "Start here",
+    "summary": "Explore the existing quantum and universe guides alongside new references separating scientific topics from extraordinary claims.",
+    "intro": "Explore the existing quantum and universe guides alongside new references separating scientific topics from extraordinary claims.",
+    "groups": [
+      {
+        "name": "Getting started",
+        "description": "Explore the existing science reading."
+      },
+      {
+        "name": "Quantum technology",
+        "description": "Explore the existing science reading."
+      },
+      {
+        "name": "Physics and the universe",
+        "description": "Explore the existing science reading."
+      },
+      {
+        "name": "Scientific foundations",
+        "description": "Understand nuclei, scientific vocabulary and the evidence needed for a physical claim."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Start with established subjects",
+        "links": [
+          {
+            "slug": "quantum-science",
+            "label": "Browse the original science starting point"
+          },
+          {
+            "slug": "light-and-attoseconds",
+            "label": "Explore light and time"
+          }
+        ]
+      },
+      {
+        "title": "Explore matter and the universe",
+        "links": [
+          {
+            "slug": "nuclei-transmutation",
+            "label": "Distinguish chemical and nuclear change"
+          },
+          {
+            "slug": "gravity-and-expanding-universe",
+            "label": "Explore gravity and expansion"
+          }
+        ]
+      },
+      {
+        "title": "Connect the questions",
+        "links": [
+          {
+            "slug": "science-research-connections",
+            "label": "Classify the research prompts"
+          },
+          {
+            "slug": "research-evidence-guide",
+            "label": "Separate a source from its claims"
+          }
+        ]
+      }
+    ],
+    "notes": [],
+    "references": [],
+    "topicRoot": true
   }
 ]
