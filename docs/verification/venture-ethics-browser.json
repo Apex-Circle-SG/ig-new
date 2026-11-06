@@ -1,0 +1,2331 @@
+{
+  "renders": 126,
+  "accessibilityAudits": 24,
+  "checkedPassages": 2504,
+  "disclosureChecks": 64,
+  "sourceFigureChecks": 14,
+  "routeChecks": 542,
+  "sitemapCatalogueEntries": 542,
+  "results": [
+    {
+      "width": 390,
+      "slug": "business-plan-reading-path",
+      "status": 200,
+      "title": "Build and review a business plan: evidence before commitment",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "venture-validation",
+      "status": 200,
+      "title": "Validate a venture: from problem evidence to market learning",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "poc-prototype-mvp",
+      "status": 200,
+      "title": "PoC, prototype or MVP: choose the uncertainty to reduce",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "venture-pitch",
+      "status": 200,
+      "title": "Pitch a venture: connect the story to evidence",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "founder-funding-readiness",
+      "status": 200,
+      "title": "Funding readiness: the need, evidence and investor fit",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "founder-investment-terms",
+      "status": 200,
+      "title": "Founder investment terms: economics, control and exit",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "business-financing-routes",
+      "status": 200,
+      "title": "Business financing routes: match the source to the need",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "business-analysis-evidence",
+      "status": 200,
+      "title": "Business analysis: turn questions into supported recommendations",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "organization-design-mintzberg",
+      "status": 200,
+      "title": "Organization design: parts, coordination and decision rights",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "corporate-parenting",
+      "status": 200,
+      "title": "Corporate parenting: how a centre adds or destroys value",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "business-model-renewal",
+      "status": 200,
+      "title": "Business-model renewal: balance current performance and exploration",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "business-ethical-lenses",
+      "status": 200,
+      "title": "Business ethics: compare the reasons for a decision",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "business-purpose-stakeholders",
+      "status": 200,
+      "title": "Business purpose: shareholders, stakeholders and governance",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "corporate-social-responsibility",
+      "status": 200,
+      "title": "Corporate social responsibility: commitments, stances and trade-offs",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "responsible-business-practice",
+      "status": 200,
+      "title": "Responsible business practice: people, products, suppliers and power",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "ethical-business-decisions",
+      "status": 200,
+      "title": "Make an ethical business decision: question, document and escalate",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "business-ethics-cases",
+      "status": 200,
+      "title": "Business ethics cases: distinguish findings from shorthand",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "purpose-to-performance",
+      "status": 200,
+      "title": "From purpose to priorities, projects, people and performance",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "okr-goals",
+      "status": 200,
+      "title": "OKRs and SMART goals: connect ambition to outcomes",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "value-proposition-design",
+      "status": 200,
+      "title": "Value propositions: connect customer jobs with the offer",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "process-architecture",
+      "status": 200,
+      "title": "Process architecture: connect inputs, activities and customers",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "cost-drivers",
+      "status": 200,
+      "title": "Cost drivers: connect spending with activity and design",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "supply-chain-response",
+      "status": 200,
+      "title": "Supply-chain response: mobilize to operate",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "organizational-design-change",
+      "status": 200,
+      "title": "Organizational design and culture change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "organizational-development",
+      "status": 200,
+      "title": "Organization development: building the capacity to change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "human-development-life-stages",
+      "status": 200,
+      "title": "Human development: Erikson’s eight-stage study outline",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "organizational-culture",
+      "status": 200,
+      "title": "Organizational culture: visible practices and deeper assumptions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "hr-operating-model",
+      "status": 200,
+      "title": "Designing an HR function around employee experience",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "new-product-development",
+      "status": 200,
+      "title": "New product development: from ideas to a launch decision",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "change-approaches",
+      "status": 200,
+      "title": "Choosing a change approach: pace, scope and uncertainty",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "operating-process-types",
+      "status": 200,
+      "title": "Operating process types: volume, variety, flow and constraints",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "project-foundations",
+      "status": 200,
+      "title": "Projects: purpose, outcomes and success",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "project-lifecycle",
+      "status": 200,
+      "title": "Project lifecycle: from concept to handover",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "project-monitoring-control",
+      "status": 200,
+      "title": "Project control: milestones, evidence and action",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "project-leadership",
+      "status": 200,
+      "title": "Project managers, PMOs and champions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "project-scheduling",
+      "status": 200,
+      "title": "Project schedules: dependencies, float and critical paths",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "organizational-structures",
+      "status": 200,
+      "title": "Organizational structures: fit the work and the strategy",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "leadership-behaviors",
+      "status": 200,
+      "title": "Leadership behaviors: values made visible",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "risk-management",
+      "status": 200,
+      "title": "Risk management: prioritize uncertainty and response",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "budget-preparation-control",
+      "status": 200,
+      "title": "Prepare a budget and build a useful control cycle",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "strategic-audit",
+      "status": 200,
+      "title": "Strategic audit: establish where the business stands",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "market-sizing",
+      "status": 200,
+      "title": "TAM, SAM and SOM: define the market you can serve",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "market-segmentation",
+      "status": 200,
+      "title": "Market segmentation: find meaningful differences",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "five-forces",
+      "status": 200,
+      "title": "Porter’s Five Forces: assess industry pressure",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "customer-systems",
+      "status": 200,
+      "title": "CRM and customer experience: connect insights to service",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "cash-burn-runway",
+      "status": 200,
+      "title": "Cash burn and runway: signs, periods and survival estimates",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "critical-thinking-questions",
+      "status": 200,
+      "title": "Critical thinking: principles, writing and 48 questions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "cmmi-capability",
+      "status": 200,
+      "title": "CMMI: capability, maturity and institutionalized improvement",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "innovation-pathways",
+      "status": 200,
+      "title": "Innovation: discovery, incubation and acceleration",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "art-of-war-planning",
+      "status": 200,
+      "title": "The Art of War: Planning and assessment",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "business-model-canvas",
+      "status": 200,
+      "title": "Business model canvas: connect value and economics",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "global-market-entry",
+      "status": 200,
+      "title": "International marketing: assess markets and choose an entry route",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "economic-inequality-development",
+      "status": 200,
+      "title": "Trade, development and inequality",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "stakeholder-management",
+      "status": 200,
+      "title": "Stakeholders: interests, influence and responsibility",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "lean-ux-learning",
+      "status": 200,
+      "title": "Lean UX: think, make and check",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "private-capital-stages",
+      "status": 200,
+      "title": "Private capital: strategies, stages, exits and source expectations",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "structured-debt-contracts",
+      "status": 200,
+      "title": "Loan features, structured credit and derivative contracts",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "market-targeting",
+      "status": 200,
+      "title": "Target markets: broad, differentiated, focused or individual",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "business-ethics-governance",
+      "status": 200,
+      "title": "Business Ethics & Governance",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "business-management",
+      "status": 200,
+      "title": "Business & Management: choose your next decision",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "strategy-growth",
+      "status": 200,
+      "title": "Strategy & Growth",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "leadership-change",
+      "status": 200,
+      "title": "Leadership, People & Change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "valuation-transactions",
+      "status": 200,
+      "title": "Valuation & Transactions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-plan-reading-path",
+      "status": 200,
+      "title": "Build and review a business plan: evidence before commitment",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "venture-validation",
+      "status": 200,
+      "title": "Validate a venture: from problem evidence to market learning",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "poc-prototype-mvp",
+      "status": 200,
+      "title": "PoC, prototype or MVP: choose the uncertainty to reduce",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "venture-pitch",
+      "status": 200,
+      "title": "Pitch a venture: connect the story to evidence",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "founder-funding-readiness",
+      "status": 200,
+      "title": "Funding readiness: the need, evidence and investor fit",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "founder-investment-terms",
+      "status": 200,
+      "title": "Founder investment terms: economics, control and exit",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-financing-routes",
+      "status": 200,
+      "title": "Business financing routes: match the source to the need",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-analysis-evidence",
+      "status": 200,
+      "title": "Business analysis: turn questions into supported recommendations",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "organization-design-mintzberg",
+      "status": 200,
+      "title": "Organization design: parts, coordination and decision rights",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "corporate-parenting",
+      "status": 200,
+      "title": "Corporate parenting: how a centre adds or destroys value",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-model-renewal",
+      "status": 200,
+      "title": "Business-model renewal: balance current performance and exploration",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-ethical-lenses",
+      "status": 200,
+      "title": "Business ethics: compare the reasons for a decision",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-purpose-stakeholders",
+      "status": 200,
+      "title": "Business purpose: shareholders, stakeholders and governance",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "corporate-social-responsibility",
+      "status": 200,
+      "title": "Corporate social responsibility: commitments, stances and trade-offs",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "responsible-business-practice",
+      "status": 200,
+      "title": "Responsible business practice: people, products, suppliers and power",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "ethical-business-decisions",
+      "status": 200,
+      "title": "Make an ethical business decision: question, document and escalate",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-ethics-cases",
+      "status": 200,
+      "title": "Business ethics cases: distinguish findings from shorthand",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "purpose-to-performance",
+      "status": 200,
+      "title": "From purpose to priorities, projects, people and performance",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "okr-goals",
+      "status": 200,
+      "title": "OKRs and SMART goals: connect ambition to outcomes",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "value-proposition-design",
+      "status": 200,
+      "title": "Value propositions: connect customer jobs with the offer",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "process-architecture",
+      "status": 200,
+      "title": "Process architecture: connect inputs, activities and customers",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "cost-drivers",
+      "status": 200,
+      "title": "Cost drivers: connect spending with activity and design",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "supply-chain-response",
+      "status": 200,
+      "title": "Supply-chain response: mobilize to operate",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "organizational-design-change",
+      "status": 200,
+      "title": "Organizational design and culture change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "organizational-development",
+      "status": 200,
+      "title": "Organization development: building the capacity to change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "human-development-life-stages",
+      "status": 200,
+      "title": "Human development: Erikson’s eight-stage study outline",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "organizational-culture",
+      "status": 200,
+      "title": "Organizational culture: visible practices and deeper assumptions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "hr-operating-model",
+      "status": 200,
+      "title": "Designing an HR function around employee experience",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "new-product-development",
+      "status": 200,
+      "title": "New product development: from ideas to a launch decision",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "change-approaches",
+      "status": 200,
+      "title": "Choosing a change approach: pace, scope and uncertainty",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "operating-process-types",
+      "status": 200,
+      "title": "Operating process types: volume, variety, flow and constraints",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "project-foundations",
+      "status": 200,
+      "title": "Projects: purpose, outcomes and success",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "project-lifecycle",
+      "status": 200,
+      "title": "Project lifecycle: from concept to handover",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "project-monitoring-control",
+      "status": 200,
+      "title": "Project control: milestones, evidence and action",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "project-leadership",
+      "status": 200,
+      "title": "Project managers, PMOs and champions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "project-scheduling",
+      "status": 200,
+      "title": "Project schedules: dependencies, float and critical paths",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "organizational-structures",
+      "status": 200,
+      "title": "Organizational structures: fit the work and the strategy",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "leadership-behaviors",
+      "status": 200,
+      "title": "Leadership behaviors: values made visible",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "risk-management",
+      "status": 200,
+      "title": "Risk management: prioritize uncertainty and response",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "budget-preparation-control",
+      "status": 200,
+      "title": "Prepare a budget and build a useful control cycle",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "strategic-audit",
+      "status": 200,
+      "title": "Strategic audit: establish where the business stands",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "market-sizing",
+      "status": 200,
+      "title": "TAM, SAM and SOM: define the market you can serve",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "market-segmentation",
+      "status": 200,
+      "title": "Market segmentation: find meaningful differences",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "five-forces",
+      "status": 200,
+      "title": "Porter’s Five Forces: assess industry pressure",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "customer-systems",
+      "status": 200,
+      "title": "CRM and customer experience: connect insights to service",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "cash-burn-runway",
+      "status": 200,
+      "title": "Cash burn and runway: signs, periods and survival estimates",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "critical-thinking-questions",
+      "status": 200,
+      "title": "Critical thinking: principles, writing and 48 questions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "cmmi-capability",
+      "status": 200,
+      "title": "CMMI: capability, maturity and institutionalized improvement",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "innovation-pathways",
+      "status": 200,
+      "title": "Innovation: discovery, incubation and acceleration",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "art-of-war-planning",
+      "status": 200,
+      "title": "The Art of War: Planning and assessment",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-model-canvas",
+      "status": 200,
+      "title": "Business model canvas: connect value and economics",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "global-market-entry",
+      "status": 200,
+      "title": "International marketing: assess markets and choose an entry route",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "economic-inequality-development",
+      "status": 200,
+      "title": "Trade, development and inequality",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "stakeholder-management",
+      "status": 200,
+      "title": "Stakeholders: interests, influence and responsibility",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "lean-ux-learning",
+      "status": 200,
+      "title": "Lean UX: think, make and check",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "private-capital-stages",
+      "status": 200,
+      "title": "Private capital: strategies, stages, exits and source expectations",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "structured-debt-contracts",
+      "status": 200,
+      "title": "Loan features, structured credit and derivative contracts",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "market-targeting",
+      "status": 200,
+      "title": "Target markets: broad, differentiated, focused or individual",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-ethics-governance",
+      "status": 200,
+      "title": "Business Ethics & Governance",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-management",
+      "status": 200,
+      "title": "Business & Management: choose your next decision",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "strategy-growth",
+      "status": 200,
+      "title": "Strategy & Growth",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "leadership-change",
+      "status": 200,
+      "title": "Leadership, People & Change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "valuation-transactions",
+      "status": 200,
+      "title": "Valuation & Transactions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    }
+  ],
+  "audits": [
+    {
+      "width": 390,
+      "slug": "business-plan-reading-path",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "venture-validation",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "poc-prototype-mvp",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "founder-investment-terms",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "organization-design-mintzberg",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "business-model-renewal",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "corporate-social-responsibility",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "ethical-business-decisions",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "business-model-canvas",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "stakeholder-management",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "market-targeting",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "business-ethics-governance",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-plan-reading-path",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "venture-validation",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "poc-prototype-mvp",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "founder-investment-terms",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "organization-design-mintzberg",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-model-renewal",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "corporate-social-responsibility",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "ethical-business-decisions",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-model-canvas",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "stakeholder-management",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "market-targeting",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-ethics-governance",
+      "violations": []
+    }
+  ],
+  "sourceChecks": [
+    {
+      "width": 390,
+      "slug": "business-plan-reading-path",
+      "sections": 9,
+      "passages": 74
+    },
+    {
+      "width": 390,
+      "slug": "venture-validation",
+      "sections": 4,
+      "passages": 78
+    },
+    {
+      "width": 390,
+      "slug": "poc-prototype-mvp",
+      "sections": 1,
+      "passages": 47
+    },
+    {
+      "width": 390,
+      "slug": "venture-pitch",
+      "sections": 2,
+      "passages": 30
+    },
+    {
+      "width": 390,
+      "slug": "founder-funding-readiness",
+      "sections": 3,
+      "passages": 27
+    },
+    {
+      "width": 390,
+      "slug": "founder-investment-terms",
+      "sections": 2,
+      "passages": 28
+    },
+    {
+      "width": 390,
+      "slug": "business-financing-routes",
+      "sections": 2,
+      "passages": 45
+    },
+    {
+      "width": 390,
+      "slug": "business-analysis-evidence",
+      "sections": 2,
+      "passages": 21
+    },
+    {
+      "width": 390,
+      "slug": "organization-design-mintzberg",
+      "sections": 2,
+      "passages": 59
+    },
+    {
+      "width": 390,
+      "slug": "corporate-parenting",
+      "sections": 2,
+      "passages": 60
+    },
+    {
+      "width": 390,
+      "slug": "business-model-renewal",
+      "sections": 1,
+      "passages": 6
+    },
+    {
+      "width": 390,
+      "slug": "business-ethical-lenses",
+      "sections": 3,
+      "passages": 33
+    },
+    {
+      "width": 390,
+      "slug": "business-purpose-stakeholders",
+      "sections": 3,
+      "passages": 97
+    },
+    {
+      "width": 390,
+      "slug": "corporate-social-responsibility",
+      "sections": 3,
+      "passages": 44
+    },
+    {
+      "width": 390,
+      "slug": "responsible-business-practice",
+      "sections": 2,
+      "passages": 34
+    },
+    {
+      "width": 390,
+      "slug": "ethical-business-decisions",
+      "sections": 1,
+      "passages": 15
+    },
+    {
+      "width": 390,
+      "slug": "business-ethics-cases",
+      "sections": 5,
+      "passages": 5
+    },
+    {
+      "width": 390,
+      "slug": "purpose-to-performance",
+      "sections": 2,
+      "passages": 18
+    },
+    {
+      "width": 390,
+      "slug": "okr-goals",
+      "sections": 2,
+      "passages": 21
+    },
+    {
+      "width": 390,
+      "slug": "value-proposition-design",
+      "sections": 1,
+      "passages": 10
+    },
+    {
+      "width": 390,
+      "slug": "process-architecture",
+      "sections": 4,
+      "passages": 48
+    },
+    {
+      "width": 390,
+      "slug": "cost-drivers",
+      "sections": 1,
+      "passages": 18
+    },
+    {
+      "width": 390,
+      "slug": "supply-chain-response",
+      "sections": 2,
+      "passages": 21
+    },
+    {
+      "width": 390,
+      "slug": "organizational-design-change",
+      "sections": 1,
+      "passages": 25
+    },
+    {
+      "width": 390,
+      "slug": "organizational-development",
+      "sections": 1,
+      "passages": 12
+    },
+    {
+      "width": 390,
+      "slug": "human-development-life-stages",
+      "sections": 1,
+      "passages": 10
+    },
+    {
+      "width": 390,
+      "slug": "organizational-culture",
+      "sections": 1,
+      "passages": 5
+    },
+    {
+      "width": 390,
+      "slug": "hr-operating-model",
+      "sections": 2,
+      "passages": 18
+    },
+    {
+      "width": 390,
+      "slug": "new-product-development",
+      "sections": 1,
+      "passages": 19
+    },
+    {
+      "width": 390,
+      "slug": "change-approaches",
+      "sections": 1,
+      "passages": 19
+    },
+    {
+      "width": 390,
+      "slug": "operating-process-types",
+      "sections": 3,
+      "passages": 19
+    },
+    {
+      "width": 390,
+      "slug": "project-foundations",
+      "sections": 1,
+      "passages": 8
+    },
+    {
+      "width": 390,
+      "slug": "project-lifecycle",
+      "sections": 2,
+      "passages": 20
+    },
+    {
+      "width": 390,
+      "slug": "project-monitoring-control",
+      "sections": 1,
+      "passages": 15
+    },
+    {
+      "width": 390,
+      "slug": "project-leadership",
+      "sections": 1,
+      "passages": 6
+    },
+    {
+      "width": 390,
+      "slug": "project-scheduling",
+      "sections": 1,
+      "passages": 4
+    },
+    {
+      "width": 390,
+      "slug": "organizational-structures",
+      "sections": 1,
+      "passages": 2
+    },
+    {
+      "width": 390,
+      "slug": "leadership-behaviors",
+      "sections": 1,
+      "passages": 9
+    },
+    {
+      "width": 390,
+      "slug": "risk-management",
+      "sections": 3,
+      "passages": 44
+    },
+    {
+      "width": 390,
+      "slug": "budget-preparation-control",
+      "sections": 1,
+      "passages": 4
+    },
+    {
+      "width": 390,
+      "slug": "strategic-audit",
+      "sections": 1,
+      "passages": 8
+    },
+    {
+      "width": 390,
+      "slug": "market-sizing",
+      "sections": 1,
+      "passages": 10
+    },
+    {
+      "width": 390,
+      "slug": "market-segmentation",
+      "sections": 1,
+      "passages": 9
+    },
+    {
+      "width": 390,
+      "slug": "five-forces",
+      "sections": 2,
+      "passages": 20
+    },
+    {
+      "width": 390,
+      "slug": "customer-systems",
+      "sections": 1,
+      "passages": 2
+    },
+    {
+      "width": 390,
+      "slug": "cash-burn-runway",
+      "sections": 1,
+      "passages": 9
+    },
+    {
+      "width": 390,
+      "slug": "critical-thinking-questions",
+      "sections": 1,
+      "passages": 4
+    },
+    {
+      "width": 390,
+      "slug": "cmmi-capability",
+      "sections": 1,
+      "passages": 5
+    },
+    {
+      "width": 390,
+      "slug": "innovation-pathways",
+      "sections": 1,
+      "passages": 5
+    },
+    {
+      "width": 390,
+      "slug": "art-of-war-planning",
+      "sections": 1,
+      "passages": 3
+    },
+    {
+      "width": 390,
+      "slug": "business-model-canvas",
+      "sections": 2,
+      "passages": 28
+    },
+    {
+      "width": 390,
+      "slug": "global-market-entry",
+      "sections": 1,
+      "passages": 45
+    },
+    {
+      "width": 390,
+      "slug": "economic-inequality-development",
+      "sections": 1,
+      "passages": 4
+    },
+    {
+      "width": 390,
+      "slug": "stakeholder-management",
+      "sections": 2,
+      "passages": 22
+    },
+    {
+      "width": 390,
+      "slug": "lean-ux-learning",
+      "sections": 0,
+      "passages": 0
+    },
+    {
+      "width": 390,
+      "slug": "private-capital-stages",
+      "sections": 0,
+      "passages": 0
+    },
+    {
+      "width": 390,
+      "slug": "structured-debt-contracts",
+      "sections": 0,
+      "passages": 0
+    },
+    {
+      "width": 390,
+      "slug": "market-targeting",
+      "sections": 0,
+      "passages": 0
+    },
+    {
+      "width": 1440,
+      "slug": "business-plan-reading-path",
+      "sections": 9,
+      "passages": 74
+    },
+    {
+      "width": 1440,
+      "slug": "venture-validation",
+      "sections": 4,
+      "passages": 78
+    },
+    {
+      "width": 1440,
+      "slug": "poc-prototype-mvp",
+      "sections": 1,
+      "passages": 47
+    },
+    {
+      "width": 1440,
+      "slug": "venture-pitch",
+      "sections": 2,
+      "passages": 30
+    },
+    {
+      "width": 1440,
+      "slug": "founder-funding-readiness",
+      "sections": 3,
+      "passages": 27
+    },
+    {
+      "width": 1440,
+      "slug": "founder-investment-terms",
+      "sections": 2,
+      "passages": 28
+    },
+    {
+      "width": 1440,
+      "slug": "business-financing-routes",
+      "sections": 2,
+      "passages": 45
+    },
+    {
+      "width": 1440,
+      "slug": "business-analysis-evidence",
+      "sections": 2,
+      "passages": 21
+    },
+    {
+      "width": 1440,
+      "slug": "organization-design-mintzberg",
+      "sections": 2,
+      "passages": 59
+    },
+    {
+      "width": 1440,
+      "slug": "corporate-parenting",
+      "sections": 2,
+      "passages": 60
+    },
+    {
+      "width": 1440,
+      "slug": "business-model-renewal",
+      "sections": 1,
+      "passages": 6
+    },
+    {
+      "width": 1440,
+      "slug": "business-ethical-lenses",
+      "sections": 3,
+      "passages": 33
+    },
+    {
+      "width": 1440,
+      "slug": "business-purpose-stakeholders",
+      "sections": 3,
+      "passages": 97
+    },
+    {
+      "width": 1440,
+      "slug": "corporate-social-responsibility",
+      "sections": 3,
+      "passages": 44
+    },
+    {
+      "width": 1440,
+      "slug": "responsible-business-practice",
+      "sections": 2,
+      "passages": 34
+    },
+    {
+      "width": 1440,
+      "slug": "ethical-business-decisions",
+      "sections": 1,
+      "passages": 15
+    },
+    {
+      "width": 1440,
+      "slug": "business-ethics-cases",
+      "sections": 5,
+      "passages": 5
+    },
+    {
+      "width": 1440,
+      "slug": "purpose-to-performance",
+      "sections": 2,
+      "passages": 18
+    },
+    {
+      "width": 1440,
+      "slug": "okr-goals",
+      "sections": 2,
+      "passages": 21
+    },
+    {
+      "width": 1440,
+      "slug": "value-proposition-design",
+      "sections": 1,
+      "passages": 10
+    },
+    {
+      "width": 1440,
+      "slug": "process-architecture",
+      "sections": 4,
+      "passages": 48
+    },
+    {
+      "width": 1440,
+      "slug": "cost-drivers",
+      "sections": 1,
+      "passages": 18
+    },
+    {
+      "width": 1440,
+      "slug": "supply-chain-response",
+      "sections": 2,
+      "passages": 21
+    },
+    {
+      "width": 1440,
+      "slug": "organizational-design-change",
+      "sections": 1,
+      "passages": 25
+    },
+    {
+      "width": 1440,
+      "slug": "organizational-development",
+      "sections": 1,
+      "passages": 12
+    },
+    {
+      "width": 1440,
+      "slug": "human-development-life-stages",
+      "sections": 1,
+      "passages": 10
+    },
+    {
+      "width": 1440,
+      "slug": "organizational-culture",
+      "sections": 1,
+      "passages": 5
+    },
+    {
+      "width": 1440,
+      "slug": "hr-operating-model",
+      "sections": 2,
+      "passages": 18
+    },
+    {
+      "width": 1440,
+      "slug": "new-product-development",
+      "sections": 1,
+      "passages": 19
+    },
+    {
+      "width": 1440,
+      "slug": "change-approaches",
+      "sections": 1,
+      "passages": 19
+    },
+    {
+      "width": 1440,
+      "slug": "operating-process-types",
+      "sections": 3,
+      "passages": 19
+    },
+    {
+      "width": 1440,
+      "slug": "project-foundations",
+      "sections": 1,
+      "passages": 8
+    },
+    {
+      "width": 1440,
+      "slug": "project-lifecycle",
+      "sections": 2,
+      "passages": 20
+    },
+    {
+      "width": 1440,
+      "slug": "project-monitoring-control",
+      "sections": 1,
+      "passages": 15
+    },
+    {
+      "width": 1440,
+      "slug": "project-leadership",
+      "sections": 1,
+      "passages": 6
+    },
+    {
+      "width": 1440,
+      "slug": "project-scheduling",
+      "sections": 1,
+      "passages": 4
+    },
+    {
+      "width": 1440,
+      "slug": "organizational-structures",
+      "sections": 1,
+      "passages": 2
+    },
+    {
+      "width": 1440,
+      "slug": "leadership-behaviors",
+      "sections": 1,
+      "passages": 9
+    },
+    {
+      "width": 1440,
+      "slug": "risk-management",
+      "sections": 3,
+      "passages": 44
+    },
+    {
+      "width": 1440,
+      "slug": "budget-preparation-control",
+      "sections": 1,
+      "passages": 4
+    },
+    {
+      "width": 1440,
+      "slug": "strategic-audit",
+      "sections": 1,
+      "passages": 8
+    },
+    {
+      "width": 1440,
+      "slug": "market-sizing",
+      "sections": 1,
+      "passages": 10
+    },
+    {
+      "width": 1440,
+      "slug": "market-segmentation",
+      "sections": 1,
+      "passages": 9
+    },
+    {
+      "width": 1440,
+      "slug": "five-forces",
+      "sections": 2,
+      "passages": 20
+    },
+    {
+      "width": 1440,
+      "slug": "customer-systems",
+      "sections": 1,
+      "passages": 2
+    },
+    {
+      "width": 1440,
+      "slug": "cash-burn-runway",
+      "sections": 1,
+      "passages": 9
+    },
+    {
+      "width": 1440,
+      "slug": "critical-thinking-questions",
+      "sections": 1,
+      "passages": 4
+    },
+    {
+      "width": 1440,
+      "slug": "cmmi-capability",
+      "sections": 1,
+      "passages": 5
+    },
+    {
+      "width": 1440,
+      "slug": "innovation-pathways",
+      "sections": 1,
+      "passages": 5
+    },
+    {
+      "width": 1440,
+      "slug": "art-of-war-planning",
+      "sections": 1,
+      "passages": 3
+    },
+    {
+      "width": 1440,
+      "slug": "business-model-canvas",
+      "sections": 2,
+      "passages": 28
+    },
+    {
+      "width": 1440,
+      "slug": "global-market-entry",
+      "sections": 1,
+      "passages": 45
+    },
+    {
+      "width": 1440,
+      "slug": "economic-inequality-development",
+      "sections": 1,
+      "passages": 4
+    },
+    {
+      "width": 1440,
+      "slug": "stakeholder-management",
+      "sections": 2,
+      "passages": 22
+    },
+    {
+      "width": 1440,
+      "slug": "lean-ux-learning",
+      "sections": 0,
+      "passages": 0
+    },
+    {
+      "width": 1440,
+      "slug": "private-capital-stages",
+      "sections": 0,
+      "passages": 0
+    },
+    {
+      "width": 1440,
+      "slug": "structured-debt-contracts",
+      "sections": 0,
+      "passages": 0
+    },
+    {
+      "width": 1440,
+      "slug": "market-targeting",
+      "sections": 0,
+      "passages": 0
+    }
+  ],
+  "visuals": [
+    {
+      "width": 390,
+      "title": "Five parts of an organization",
+      "nodes": 5,
+      "connections": 0,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 390,
+      "title": "Structure, culture and power: the source system view",
+      "nodes": 4,
+      "connections": 4,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 390,
+      "title": "Renewal and exploration: a signed feedback model",
+      "nodes": 12,
+      "connections": 13,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 390,
+      "title": "Carroll’s responsibilities: four connected layers",
+      "nodes": 4,
+      "connections": 0,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 390,
+      "title": "Resources, activities and offerings connect to markets",
+      "nodes": 4,
+      "connections": 3,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 390,
+      "title": "Stakeholder power and interest",
+      "nodes": 4,
+      "connections": 0,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 390,
+      "title": "Four ways to focus products and segments",
+      "nodes": 4,
+      "connections": 0,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 1440,
+      "title": "Five parts of an organization",
+      "nodes": 5,
+      "connections": 0,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 1440,
+      "title": "Structure, culture and power: the source system view",
+      "nodes": 4,
+      "connections": 4,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 1440,
+      "title": "Renewal and exploration: a signed feedback model",
+      "nodes": 12,
+      "connections": 13,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 1440,
+      "title": "Carroll’s responsibilities: four connected layers",
+      "nodes": 4,
+      "connections": 0,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 1440,
+      "title": "Resources, activities and offerings connect to markets",
+      "nodes": 4,
+      "connections": 3,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 1440,
+      "title": "Stakeholder power and interest",
+      "nodes": 4,
+      "connections": 0,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 1440,
+      "title": "Four ways to focus products and segments",
+      "nodes": 4,
+      "connections": 0,
+      "labelsFit": true,
+      "scrollWorks": true
+    }
+  ]
+}

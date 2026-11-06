@@ -57,6 +57,9 @@
       "tows-options",
       "business-model-canvas",
       "network-connections",
+      "business-plan-reading-path",
+      "venture-pitch",
+      "corporate-parenting",
       "art-of-war"
     ]
   },
@@ -157,7 +160,10 @@
       "design-sprints",
       "kano-feature-priorities",
       "lean-ux-learning",
-      "pitch-deck-foundations"
+      "pitch-deck-foundations",
+      "venture-validation",
+      "poc-prototype-mvp",
+      "business-model-renewal"
     ]
   },
   {
@@ -172,7 +178,8 @@
       "negotiation-process",
       "leadership-culture",
       "organizational-change",
-      "people-employee-experience"
+      "people-employee-experience",
+      "business-ethics-governance"
     ]
   },
   {
@@ -192,7 +199,8 @@
       "business-lessons-risk",
       "marketing-logistics",
       "purpose-to-performance",
-      "executive-kpi-reference"
+      "executive-kpi-reference",
+      "operating-process-types"
     ]
   },
   {
@@ -214,6 +222,7 @@
       "workplace-conflict",
       "feedback-awareness",
       "workplace-energy-reflection",
+      "human-development-life-stages",
       "nlp-reference",
       "personality-narratives"
     ]
@@ -378,7 +387,8 @@
       "triz-contradictions",
       "change-problem-types",
       "six-thinking-hats",
-      "critical-thinking-questions"
+      "critical-thinking-questions",
+      "business-analysis-evidence"
     ]
   },
   {
@@ -538,7 +548,10 @@
       "cost-of-capital-returns",
       "market-valuation-measures",
       "purchase-price-allocation",
-      "capital-investment-appraisal"
+      "capital-investment-appraisal",
+      "founder-funding-readiness",
+      "founder-investment-terms",
+      "business-financing-routes"
     ]
   },
   {
@@ -594,7 +607,8 @@
       "leadership-behaviors",
       "leadership-principles",
       "organizational-culture",
-      "organizational-power"
+      "organizational-power",
+      "organization-design-mintzberg"
     ]
   },
   {
@@ -727,6 +741,20 @@
       "property-market-analysis",
       "singapore-property-marketing",
       "singapore-property-agencies"
+    ]
+  },
+  {
+    "slug": "business-ethics-governance",
+    "title": "Business Ethics & Governance",
+    "topic": "Business & Management",
+    "parent": "leadership-change",
+    "members": [
+      "business-ethical-lenses",
+      "business-purpose-stakeholders",
+      "corporate-social-responsibility",
+      "responsible-business-practice",
+      "ethical-business-decisions",
+      "business-ethics-cases"
     ]
   }
 ]

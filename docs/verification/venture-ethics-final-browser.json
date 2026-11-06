@@ -1,0 +1,449 @@
+{
+  "renders": 16,
+  "accessibilityAudits": 12,
+  "checkedPassages": 324,
+  "disclosureChecks": 6,
+  "sourceFigureChecks": 14,
+  "routeChecks": 8,
+  "sitemapCatalogueEntries": 542,
+  "results": [
+    {
+      "width": 390,
+      "slug": "organization-design-mintzberg",
+      "status": 200,
+      "title": "Organization design: parts, coordination and decision rights",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "business-model-renewal",
+      "status": 200,
+      "title": "Business-model renewal: balance current performance and exploration",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "business-model-canvas",
+      "status": 200,
+      "title": "Business model canvas: connect value and economics",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "market-targeting",
+      "status": 200,
+      "title": "Target markets: broad, differentiated, focused or individual",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "stakeholder-management",
+      "status": 200,
+      "title": "Stakeholders: interests, influence and responsibility",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "corporate-social-responsibility",
+      "status": 200,
+      "title": "Corporate social responsibility: commitments, stances and trade-offs",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "strategy-foundations",
+      "status": 200,
+      "title": "What strategy does—and who makes it",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "art-of-war-planning",
+      "status": 200,
+      "title": "The Art of War: Planning and assessment",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "organization-design-mintzberg",
+      "status": 200,
+      "title": "Organization design: parts, coordination and decision rights",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-model-renewal",
+      "status": 200,
+      "title": "Business-model renewal: balance current performance and exploration",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-model-canvas",
+      "status": 200,
+      "title": "Business model canvas: connect value and economics",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "market-targeting",
+      "status": 200,
+      "title": "Target markets: broad, differentiated, focused or individual",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "stakeholder-management",
+      "status": 200,
+      "title": "Stakeholders: interests, influence and responsibility",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "corporate-social-responsibility",
+      "status": 200,
+      "title": "Corporate social responsibility: commitments, stances and trade-offs",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "strategy-foundations",
+      "status": 200,
+      "title": "What strategy does—and who makes it",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "art-of-war-planning",
+      "status": 200,
+      "title": "The Art of War: Planning and assessment",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    }
+  ],
+  "audits": [
+    {
+      "width": 390,
+      "slug": "organization-design-mintzberg",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "business-model-renewal",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "business-model-canvas",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "market-targeting",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "stakeholder-management",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "corporate-social-responsibility",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "organization-design-mintzberg",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-model-renewal",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-model-canvas",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "market-targeting",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "stakeholder-management",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "corporate-social-responsibility",
+      "violations": []
+    }
+  ],
+  "sourceChecks": [
+    {
+      "width": 390,
+      "slug": "organization-design-mintzberg",
+      "sections": 2,
+      "passages": 59
+    },
+    {
+      "width": 390,
+      "slug": "business-model-renewal",
+      "sections": 1,
+      "passages": 6
+    },
+    {
+      "width": 390,
+      "slug": "business-model-canvas",
+      "sections": 2,
+      "passages": 28
+    },
+    {
+      "width": 390,
+      "slug": "market-targeting",
+      "sections": 0,
+      "passages": 0
+    },
+    {
+      "width": 390,
+      "slug": "stakeholder-management",
+      "sections": 2,
+      "passages": 22
+    },
+    {
+      "width": 390,
+      "slug": "corporate-social-responsibility",
+      "sections": 3,
+      "passages": 44
+    },
+    {
+      "width": 390,
+      "slug": "strategy-foundations",
+      "sections": 1,
+      "passages": 3
+    },
+    {
+      "width": 1440,
+      "slug": "organization-design-mintzberg",
+      "sections": 2,
+      "passages": 59
+    },
+    {
+      "width": 1440,
+      "slug": "business-model-renewal",
+      "sections": 1,
+      "passages": 6
+    },
+    {
+      "width": 1440,
+      "slug": "business-model-canvas",
+      "sections": 2,
+      "passages": 28
+    },
+    {
+      "width": 1440,
+      "slug": "market-targeting",
+      "sections": 0,
+      "passages": 0
+    },
+    {
+      "width": 1440,
+      "slug": "stakeholder-management",
+      "sections": 2,
+      "passages": 22
+    },
+    {
+      "width": 1440,
+      "slug": "corporate-social-responsibility",
+      "sections": 3,
+      "passages": 44
+    },
+    {
+      "width": 1440,
+      "slug": "strategy-foundations",
+      "sections": 1,
+      "passages": 3
+    }
+  ],
+  "visuals": [
+    {
+      "width": 390,
+      "title": "Five parts of an organization",
+      "nodes": 5,
+      "connections": 0,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 390,
+      "title": "Structure, culture and power: the source system view",
+      "nodes": 4,
+      "connections": 4,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 390,
+      "title": "Renewal and exploration: a signed feedback model",
+      "nodes": 12,
+      "connections": 13,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 390,
+      "title": "Resources, activities and offerings connect to markets",
+      "nodes": 4,
+      "connections": 3,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 390,
+      "title": "Four ways to focus products and segments",
+      "nodes": 4,
+      "connections": 0,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 390,
+      "title": "Stakeholder power and interest",
+      "nodes": 4,
+      "connections": 0,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 390,
+      "title": "Carroll’s responsibilities: four connected layers",
+      "nodes": 4,
+      "connections": 0,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 1440,
+      "title": "Five parts of an organization",
+      "nodes": 5,
+      "connections": 0,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 1440,
+      "title": "Structure, culture and power: the source system view",
+      "nodes": 4,
+      "connections": 4,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 1440,
+      "title": "Renewal and exploration: a signed feedback model",
+      "nodes": 12,
+      "connections": 13,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 1440,
+      "title": "Resources, activities and offerings connect to markets",
+      "nodes": 4,
+      "connections": 3,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 1440,
+      "title": "Four ways to focus products and segments",
+      "nodes": 4,
+      "connections": 0,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 1440,
+      "title": "Stakeholder power and interest",
+      "nodes": 4,
+      "connections": 0,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 1440,
+      "title": "Carroll’s responsibilities: four connected layers",
+      "nodes": 4,
+      "connections": 0,
+      "labelsFit": true,
+      "scrollWorks": true
+    }
+  ]
+}

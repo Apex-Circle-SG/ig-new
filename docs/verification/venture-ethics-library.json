@@ -1,0 +1,25 @@
+{
+  "archiveSha256": "2ec3d061109bcd5318a048b62ffd2a459699d369f0724dae7b8cf5768161b072",
+  "sourceParagraphs": 1112,
+  "sourceWords": 4977,
+  "sourceTables": 34,
+  "sourceImages": 7,
+  "unmappedParagraphs": 0,
+  "retainedSubstantiveOccurrences": 1063,
+  "newGuides": 19,
+  "enrichedGuides": 39,
+  "newCollections": [
+    "business-ethics-governance"
+  ],
+  "priorCatalogueEntries": 522,
+  "catalogueEntries": 542,
+  "sourceReviewSections": 32,
+  "sourceDiagramsRebuilt": 7,
+  "diagramNodes": 37,
+  "diagramConnections": 20,
+  "feedbackNodes": 12,
+  "feedbackConnections": 13,
+  "diagramTextSearchable": true,
+  "previousSectionsAndFiguresPreserved": true,
+  "formulaDirectoryUnchanged": true
+}

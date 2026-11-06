@@ -1,0 +1,949 @@
+[
+  {
+    "document": "Business.docx",
+    "image": "word/media/image1.jpeg",
+    "slug": "organization-design-mintzberg",
+    "title": "Five parts of an organization",
+    "kind": "matrix",
+    "headers": [
+      "Source diagram label",
+      "Function in the model"
+    ],
+    "rows": [
+      [
+        "Strategic Apex",
+        "Overall direction and authority"
+      ],
+      [
+        "Technostructure",
+        "Analysis and standardization"
+      ],
+      [
+        "Middle Line",
+        "Connects senior direction with the operating work"
+      ],
+      [
+        "Support Staff",
+        "Provides indirect support services"
+      ],
+      [
+        "Operative Core",
+        "Performs the work; often termed the operating core in the theory"
+      ]
+    ],
+    "note": "Rebuilt from the supplied five-part diagram. The central/side placement distinguishes functions; it is not a complete reporting chart.",
+    "diagram": {
+      "id": "venture-business-1",
+      "width": 760,
+      "height": 320,
+      "nodes": [
+        {
+          "id": "apex",
+          "label": "Strategic Apex",
+          "lines": [
+            "Strategic Apex"
+          ],
+          "x": 250,
+          "y": 15,
+          "width": 260,
+          "height": 65
+        },
+        {
+          "id": "tech",
+          "label": "Technostructure",
+          "lines": [
+            "Technostructure"
+          ],
+          "x": 20,
+          "y": 110,
+          "width": 220,
+          "height": 80
+        },
+        {
+          "id": "middle",
+          "label": "Middle Line",
+          "lines": [
+            "Middle Line"
+          ],
+          "x": 270,
+          "y": 110,
+          "width": 220,
+          "height": 80
+        },
+        {
+          "id": "support",
+          "label": "Support Staff",
+          "lines": [
+            "Support Staff"
+          ],
+          "x": 520,
+          "y": 110,
+          "width": 220,
+          "height": 80
+        },
+        {
+          "id": "core",
+          "label": "Operative Core",
+          "lines": [
+            "Operative Core"
+          ],
+          "x": 120,
+          "y": 230,
+          "width": 520,
+          "height": 70
+        }
+      ],
+      "edges": []
+    }
+  },
+  {
+    "document": "Business.docx",
+    "image": "word/media/image2.jpeg",
+    "slug": "organization-design-mintzberg",
+    "title": "Structure, culture and power: the source system view",
+    "kind": "matrix",
+    "headers": [
+      "Element or relationship",
+      "Source detail"
+    ],
+    "rows": [
+      [
+        "Structure",
+        "All formal rules: organisation chart, job descriptions, work organisation, bodies, HR rules and systems, procedures, regulations…; Formal / visible"
+      ],
+      [
+        "Culture and social cohesion",
+        "Professional identities, business practices and cultures, forms and dynamics of learning, values, shared norms, rituals; Information / deep"
+      ],
+      [
+        "Power / politics",
+        "Forms of regulation and strategic play between the different actors, power relations"
+      ],
+      [
+        "E",
+        "An isolated E box connects to Structure; its meaning is unspecified"
+      ],
+      [
+        "Legitimation",
+        "Source link between Structure and Culture/social cohesion"
+      ],
+      [
+        "Organisation",
+        "Source link between Structure and Power/politics"
+      ],
+      [
+        "Socialisation",
+        "Source link between Culture/social cohesion and Power/politics"
+      ]
+    ],
+    "note": "All three boxes and all three named links are retained. The image has line links without clear arrowheads. “Information / deep” and “E” are unclear source labels, not silently expanded or corrected.",
+    "diagram": {
+      "id": "venture-business-2",
+      "width": 760,
+      "height": 400,
+      "nodes": [
+        {
+          "id": "structure",
+          "label": "Structure",
+          "lines": [
+            "Structure"
+          ],
+          "x": 270,
+          "y": 20,
+          "width": 280,
+          "height": 100
+        },
+        {
+          "id": "culture",
+          "label": "Culture and social cohesion",
+          "lines": [
+            "Culture and social cohesion"
+          ],
+          "x": 20,
+          "y": 250,
+          "width": 320,
+          "height": 120
+        },
+        {
+          "id": "power",
+          "label": "Power / politics",
+          "lines": [
+            "Power / politics"
+          ],
+          "x": 420,
+          "y": 250,
+          "width": 320,
+          "height": 120
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "lines": [
+            "E"
+          ],
+          "x": 100,
+          "y": 45,
+          "width": 70,
+          "height": 65
+        }
+      ],
+      "edges": [
+        {
+          "from": "e",
+          "to": "structure",
+          "path": "M170 77 H270",
+          "label": "",
+          "labelX": 0,
+          "labelY": 0,
+          "arrow": "none"
+        },
+        {
+          "from": "structure",
+          "to": "culture",
+          "path": "M300 120 L185 250",
+          "label": "Legitimation",
+          "labelX": 170,
+          "labelY": 185,
+          "arrow": "none"
+        },
+        {
+          "from": "structure",
+          "to": "power",
+          "path": "M520 120 L580 250",
+          "label": "Organisation",
+          "labelX": 640,
+          "labelY": 185,
+          "arrow": "none"
+        },
+        {
+          "from": "culture",
+          "to": "power",
+          "path": "M340 310 H420",
+          "label": "Socialisation",
+          "labelX": 380,
+          "labelY": 235,
+          "arrow": "none"
+        }
+      ]
+    }
+  },
+  {
+    "document": "Business.docx",
+    "image": "word/media/image3.jpeg",
+    "slug": "business-model-canvas",
+    "title": "Resources, activities and offerings connect to markets",
+    "kind": "matrix",
+    "headers": [
+      "Element",
+      "Source meaning"
+    ],
+    "rows": [
+      [
+        "Resource Base",
+        "Stock of Assets"
+      ],
+      [
+        "Activity System",
+        "Value Chain"
+      ],
+      [
+        "Product Offering",
+        "Value proposition"
+      ],
+      [
+        "Markets",
+        "Outside the source’s dashed business-model boundary"
+      ],
+      [
+        "Two-way relationships",
+        "Resource Base ↔ Activity System ↔ Product Offering ↔ Markets"
+      ],
+      [
+        "Model boundary",
+        "The dashed source outline contains the first three elements; the market sits outside it"
+      ]
+    ],
+    "note": "Rebuilt as labelled elements with all three two-way connections. The original dashed model boundary is described explicitly in the table.",
+    "diagram": {
+      "id": "venture-business-3",
+      "width": 900,
+      "height": 175,
+      "nodes": [
+        {
+          "id": "resource",
+          "label": "Resource Base",
+          "lines": [
+            "Resource Base"
+          ],
+          "x": 10,
+          "y": 35,
+          "width": 190,
+          "height": 105
+        },
+        {
+          "id": "activity",
+          "label": "Activity System",
+          "lines": [
+            "Activity System"
+          ],
+          "x": 240,
+          "y": 35,
+          "width": 190,
+          "height": 105
+        },
+        {
+          "id": "offering",
+          "label": "Product Offering",
+          "lines": [
+            "Product Offering"
+          ],
+          "x": 470,
+          "y": 35,
+          "width": 190,
+          "height": 105
+        },
+        {
+          "id": "market",
+          "label": "Markets",
+          "lines": [
+            "Markets"
+          ],
+          "x": 700,
+          "y": 35,
+          "width": 190,
+          "height": 105
+        }
+      ],
+      "edges": [
+        {
+          "from": "resource",
+          "to": "activity",
+          "path": "M200 88 H240",
+          "label": "",
+          "labelX": 0,
+          "labelY": 0,
+          "arrow": "both"
+        },
+        {
+          "from": "activity",
+          "to": "offering",
+          "path": "M430 88 H470",
+          "label": "",
+          "labelX": 0,
+          "labelY": 0,
+          "arrow": "both"
+        },
+        {
+          "from": "offering",
+          "to": "market",
+          "path": "M660 88 H700",
+          "label": "",
+          "labelX": 0,
+          "labelY": 0,
+          "arrow": "both"
+        }
+      ]
+    }
+  },
+  {
+    "document": "Business.docx",
+    "image": "word/media/image4.jpeg",
+    "slug": "market-targeting",
+    "title": "Four ways to focus products and segments",
+    "kind": "matrix",
+    "headers": [
+      "Focus",
+      "Source grid coverage",
+      "Meaning"
+    ],
+    "rows": [
+      [
+        "Niche Focus",
+        "Product 1; segments E–F",
+        "Narrow offering/market coverage illustrated in the source"
+      ],
+      [
+        "Product Focus",
+        "Product 2; segments A–F",
+        "One offering across several market segments"
+      ],
+      [
+        "Segment Focus",
+        "Products 1–6; segment B",
+        "Several offerings for one market segment"
+      ],
+      [
+        "Broad Focus",
+        "Products 4–6; segments D–F",
+        "Several offerings across several segments"
+      ],
+      [
+        "Axes",
+        "Product Offerings; Market Segments",
+        "Six illustrative products and six illustrative segments, not actual business data"
+      ]
+    ],
+    "note": "The six-by-six source grid is rebuilt as four readable focus cards, with the exact illustrated product/segment scopes retained in the table. Arrows indicate scope, not causal effects or measured sales.",
+    "diagram": {
+      "id": "venture-business-4",
+      "width": 760,
+      "height": 310,
+      "nodes": [
+        {
+          "id": "niche",
+          "label": "Niche Focus",
+          "lines": [
+            "Niche Focus"
+          ],
+          "x": 20,
+          "y": 20,
+          "width": 340,
+          "height": 110
+        },
+        {
+          "id": "product",
+          "label": "Product Focus",
+          "lines": [
+            "Product Focus"
+          ],
+          "x": 400,
+          "y": 20,
+          "width": 340,
+          "height": 110
+        },
+        {
+          "id": "segment",
+          "label": "Segment Focus",
+          "lines": [
+            "Segment Focus"
+          ],
+          "x": 20,
+          "y": 170,
+          "width": 340,
+          "height": 110
+        },
+        {
+          "id": "broad",
+          "label": "Broad Focus",
+          "lines": [
+            "Broad Focus"
+          ],
+          "x": 400,
+          "y": 170,
+          "width": 340,
+          "height": 110
+        }
+      ],
+      "edges": []
+    }
+  },
+  {
+    "document": "Business.docx",
+    "image": "word/media/image5.jpeg",
+    "slug": "business-model-renewal",
+    "title": "Renewal and exploration: a signed feedback model",
+    "kind": "matrix",
+    "headers": [
+      "Source element",
+      "Outgoing influences shown"
+    ],
+    "rows": [
+      [
+        "Capability to respond to radical innovation",
+        "No outgoing connection is shown in the source"
+      ],
+      [
+        "New revenue stream",
+        "No outgoing connection is shown in the source"
+      ],
+      [
+        "Functional role in the current business model",
+        "+ → Performance gains"
+      ],
+      [
+        "New business model generation",
+        "+ → Capability to respond to radical innovation; + → New revenue stream"
+      ],
+      [
+        "Performance gains",
+        "+ → Importance of the innovation unit to the business health"
+      ],
+      [
+        "Focus on current BM renewal",
+        "− → Functional role in the current business model"
+      ],
+      [
+        "Exploratory behaviour and experimentation",
+        "+ → New business model generation; + → Significant time delay to generate impactful results"
+      ],
+      [
+        "Significant time delay to generate impactful results",
+        "− → Focus on searching new business models"
+      ],
+      [
+        "Importance of the innovation unit to the business health",
+        "+ → Focus on current BM renewal; + → Buffer"
+      ],
+      [
+        "Resources commitment",
+        "+ → Exploratory behaviour and experimentation"
+      ],
+      [
+        "Focus on searching new business models",
+        "+ → Resources commitment"
+      ],
+      [
+        "Buffer",
+        "+ → Focus on searching new business models"
+      ]
+    ],
+    "note": "All 12 source elements and 13 connections are retained. “+” means a same-direction influence and “−” an opposite-direction influence in this conceptual model; neither is a measured coefficient or a moral rating. The time-delay node and its negative link are preserved. No resource definition is invented for the buffer.",
+    "diagram": {
+      "id": "venture-business-5",
+      "width": 1040,
+      "height": 720,
+      "nodes": [
+        {
+          "id": "capability",
+          "label": "Capability to respond to radical innovation",
+          "lines": [
+            "Capability to respond to",
+            "radical innovation"
+          ],
+          "x": 10,
+          "y": 10,
+          "width": 255,
+          "height": 105
+        },
+        {
+          "id": "revenue",
+          "label": "New revenue stream",
+          "lines": [
+            "New revenue stream"
+          ],
+          "x": 300,
+          "y": 10,
+          "width": 220,
+          "height": 85
+        },
+        {
+          "id": "role",
+          "label": "Functional role in the current business model",
+          "lines": [
+            "Functional role in the",
+            "current business model"
+          ],
+          "x": 760,
+          "y": 10,
+          "width": 265,
+          "height": 105
+        },
+        {
+          "id": "generation",
+          "label": "New business model generation",
+          "lines": [
+            "New business model",
+            "generation"
+          ],
+          "x": 140,
+          "y": 155,
+          "width": 265,
+          "height": 105
+        },
+        {
+          "id": "performance",
+          "label": "Performance gains",
+          "lines": [
+            "Performance gains"
+          ],
+          "x": 540,
+          "y": 155,
+          "width": 240,
+          "height": 85
+        },
+        {
+          "id": "renewal",
+          "label": "Focus on current BM renewal",
+          "lines": [
+            "Focus on current BM",
+            "renewal"
+          ],
+          "x": 805,
+          "y": 295,
+          "width": 220,
+          "height": 105
+        },
+        {
+          "id": "exploration",
+          "label": "Exploratory behaviour and experimentation",
+          "lines": [
+            "Exploratory behaviour",
+            "and experimentation"
+          ],
+          "x": 10,
+          "y": 350,
+          "width": 240,
+          "height": 105
+        },
+        {
+          "id": "delay",
+          "label": "Significant time delay to generate impactful results",
+          "lines": [
+            "Significant time delay to",
+            "generate impactful results"
+          ],
+          "x": 300,
+          "y": 350,
+          "width": 260,
+          "height": 128
+        },
+        {
+          "id": "importance",
+          "label": "Importance of the innovation unit to the business health",
+          "lines": [
+            "Importance of",
+            "the innovation",
+            "unit to the",
+            "business health"
+          ],
+          "x": 620,
+          "y": 350,
+          "width": 160,
+          "height": 190
+        },
+        {
+          "id": "resources",
+          "label": "Resources commitment",
+          "lines": [
+            "Resources commitment"
+          ],
+          "x": 10,
+          "y": 595,
+          "width": 240,
+          "height": 80
+        },
+        {
+          "id": "search",
+          "label": "Focus on searching new business models",
+          "lines": [
+            "Focus on searching new",
+            "business models"
+          ],
+          "x": 300,
+          "y": 595,
+          "width": 260,
+          "height": 105
+        },
+        {
+          "id": "buffer",
+          "label": "Buffer",
+          "lines": [
+            "Buffer"
+          ],
+          "x": 700,
+          "y": 595,
+          "width": 225,
+          "height": 80
+        }
+      ],
+      "edges": [
+        {
+          "from": "resources",
+          "to": "exploration",
+          "path": "M130 595 V455",
+          "label": "+",
+          "labelX": 110,
+          "labelY": 530,
+          "arrow": "end"
+        },
+        {
+          "from": "exploration",
+          "to": "generation",
+          "path": "M130 350 C130 290 190 315 230 260",
+          "label": "+",
+          "labelX": 150,
+          "labelY": 310,
+          "arrow": "end"
+        },
+        {
+          "from": "generation",
+          "to": "capability",
+          "path": "M200 155 L165 115",
+          "label": "+",
+          "labelX": 160,
+          "labelY": 145,
+          "arrow": "end"
+        },
+        {
+          "from": "generation",
+          "to": "revenue",
+          "path": "M370 155 L400 95",
+          "label": "+",
+          "labelX": 400,
+          "labelY": 135,
+          "arrow": "end"
+        },
+        {
+          "from": "exploration",
+          "to": "delay",
+          "path": "M250 405 H300",
+          "label": "+",
+          "labelX": 275,
+          "labelY": 390,
+          "arrow": "end"
+        },
+        {
+          "from": "delay",
+          "to": "search",
+          "path": "M430 478 V595",
+          "label": "−",
+          "labelX": 450,
+          "labelY": 540,
+          "arrow": "end"
+        },
+        {
+          "from": "search",
+          "to": "resources",
+          "path": "M300 645 H250",
+          "label": "+",
+          "labelX": 275,
+          "labelY": 630,
+          "arrow": "end"
+        },
+        {
+          "from": "role",
+          "to": "performance",
+          "path": "M760 75 C670 75 660 100 660 155",
+          "label": "+",
+          "labelX": 690,
+          "labelY": 115,
+          "arrow": "end"
+        },
+        {
+          "from": "performance",
+          "to": "importance",
+          "path": "M660 240 V350",
+          "label": "+",
+          "labelX": 680,
+          "labelY": 300,
+          "arrow": "end"
+        },
+        {
+          "from": "importance",
+          "to": "renewal",
+          "path": "M780 400 L805 350",
+          "label": "+",
+          "labelX": 795,
+          "labelY": 390,
+          "arrow": "end"
+        },
+        {
+          "from": "renewal",
+          "to": "role",
+          "path": "M915 295 V115",
+          "label": "−",
+          "labelX": 935,
+          "labelY": 205,
+          "arrow": "end"
+        },
+        {
+          "from": "importance",
+          "to": "buffer",
+          "path": "M740 540 L790 595",
+          "label": "+",
+          "labelX": 780,
+          "labelY": 570,
+          "arrow": "end"
+        },
+        {
+          "from": "buffer",
+          "to": "search",
+          "path": "M700 635 H560",
+          "label": "+",
+          "labelX": 630,
+          "labelY": 620,
+          "arrow": "end"
+        }
+      ]
+    }
+  },
+  {
+    "document": "Ethics.docx",
+    "image": "word/media/image1.jpeg",
+    "slug": "stakeholder-management",
+    "title": "Stakeholder power and interest",
+    "kind": "matrix",
+    "headers": [
+      "Source quadrant",
+      "Power",
+      "Interest",
+      "Source approach"
+    ],
+    "rows": [
+      [
+        "A · Minimal effort",
+        "Low",
+        "Low",
+        "Minimal effort"
+      ],
+      [
+        "B · Keep informed",
+        "Low",
+        "High",
+        "Keep informed"
+      ],
+      [
+        "C · Keep satisfied",
+        "High",
+        "Low",
+        "Keep satisfied"
+      ],
+      [
+        "D · Key players",
+        "High",
+        "High",
+        "Key players"
+      ]
+    ],
+    "note": "The source increases interest left-to-right and power top-to-bottom. Rebuilt in the same arrangement. Engagement priority is not a ranking of rights or moral worth.",
+    "diagram": {
+      "id": "venture-ethics-1",
+      "width": 760,
+      "height": 340,
+      "nodes": [
+        {
+          "id": "a",
+          "label": "A · Minimal effort",
+          "lines": [
+            "A · Minimal effort"
+          ],
+          "x": 20,
+          "y": 20,
+          "width": 340,
+          "height": 120
+        },
+        {
+          "id": "b",
+          "label": "B · Keep informed",
+          "lines": [
+            "B · Keep informed"
+          ],
+          "x": 400,
+          "y": 20,
+          "width": 340,
+          "height": 120
+        },
+        {
+          "id": "c",
+          "label": "C · Keep satisfied",
+          "lines": [
+            "C · Keep satisfied"
+          ],
+          "x": 20,
+          "y": 190,
+          "width": 340,
+          "height": 120
+        },
+        {
+          "id": "d",
+          "label": "D · Key players",
+          "lines": [
+            "D · Key players"
+          ],
+          "x": 400,
+          "y": 190,
+          "width": 340,
+          "height": 120
+        }
+      ],
+      "edges": []
+    }
+  },
+  {
+    "document": "Ethics.docx",
+    "image": "word/media/image2.jpeg",
+    "slug": "corporate-social-responsibility",
+    "title": "Carroll’s responsibilities: four connected layers",
+    "kind": "matrix",
+    "headers": [
+      "Responsibility",
+      "Source action",
+      "Source expectation"
+    ],
+    "rows": [
+      [
+        "Philanthropic responsibility",
+        "Be a good global citizen",
+        "Do what is desired by global stakeholders"
+      ],
+      [
+        "Ethical responsibility",
+        "Be ethical",
+        "Do what is expected by global stakeholders"
+      ],
+      [
+        "Legal responsibility",
+        "Obey the law",
+        "Do what is required by global stakeholders"
+      ],
+      [
+        "Economic responsibility",
+        "Be profitable",
+        "Do what is required by global capitalism"
+      ]
+    ],
+    "note": "Rebuilt as four layers widening toward the economic base, with every side caption retained in the table. The pyramid is a conceptual framework, not permission to postpone ethics until profits are achieved.",
+    "diagram": {
+      "id": "venture-ethics-2",
+      "width": 760,
+      "height": 425,
+      "nodes": [
+        {
+          "id": "philanthropic",
+          "label": "Philanthropic responsibility",
+          "lines": [
+            "Philanthropic responsibility"
+          ],
+          "x": 215,
+          "y": 15,
+          "width": 330,
+          "height": 85
+        },
+        {
+          "id": "ethical",
+          "label": "Ethical responsibility",
+          "lines": [
+            "Ethical responsibility"
+          ],
+          "x": 150,
+          "y": 120,
+          "width": 460,
+          "height": 80
+        },
+        {
+          "id": "legal",
+          "label": "Legal responsibility",
+          "lines": [
+            "Legal responsibility"
+          ],
+          "x": 85,
+          "y": 220,
+          "width": 590,
+          "height": 80
+        },
+        {
+          "id": "economic",
+          "label": "Economic responsibility",
+          "lines": [
+            "Economic responsibility"
+          ],
+          "x": 20,
+          "y": 320,
+          "width": 720,
+          "height": 80
+        }
+      ],
+      "edges": []
+    }
+  }
+]

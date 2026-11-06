@@ -206,13 +206,17 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
         for section in page.get('editorialSections', []):
             assert section['heading'] and section['paragraphs'], 'Empty editorial section'
             section_id = f'section-{len(article["sections"]) + 1}'
-            article['sections'].append(dict(id=section_id, heading=section['heading'], blocks=[dict(kind='paragraph', text=t) for t in section['paragraphs']]))
+            blocks = [dict(kind='paragraph', text=t) for t in section['paragraphs']]
+            if section.get('links'):
+                blocks.append(dict(kind='reading-links', links=section['links']))
+            article['sections'].append(dict(id=section_id, heading=section['heading'], blocks=blocks))
             search_sections[slug].append(dict(heading=section['heading'], body='\n'.join(section['paragraphs'])))
     assert all(coverage.values()), f'Unmapped passages: {[k for k,v in coverage.items() if not v]}'
     image_coverage = {(f['document'], f['image']):f for f in figures}
     assert len(image_coverage) == len(figures), 'Duplicate image mapping'
     assert set(image_coverage) == {(name, m['path']) for name, d in documents.items() for m in d['images']}, 'Unreviewed images'
     assert all(f['slug'] in articles for f in figures), 'Unknown image destination'
+    assert all(articles[f['slug']]['figures'].count(f) == 1 for f in figures), 'Source figure not attached exactly once'
     for f in figures:
         if f.get('sourceImage'):
             image = f['sourceImage']
@@ -235,6 +239,18 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
             plot = f['plot']
             assert plot['xLabel'] and plot['yLabel'] and 1 <= len(plot['lines']) <= 2
             assert all(line['label'] and line['path'].startswith('M') for line in plot['lines']), 'Incomplete conceptual curve'
+        if f.get('diagram'):
+            diagram = f['diagram']
+            nodes = {node['id']: node for node in diagram['nodes']}
+            assert diagram['id'] and len(nodes) == len(diagram['nodes']) and nodes, 'Incomplete diagram nodes'
+            assert diagram['width'] > 0 and diagram['height'] > 0
+            for node in nodes.values():
+                assert ' '.join(node['lines']) == node['label'], 'Lost diagram label'
+                assert node['label'] in json.dumps(f['rows'], ensure_ascii=False), 'Missing accessible diagram label'
+                assert 0 <= node['x'] < node['x'] + node['width'] <= diagram['width']
+                assert 0 <= node['y'] < node['y'] + node['height'] <= diagram['height']
+            assert all(edge['from'] in nodes and edge['to'] in nodes and edge['path'].startswith('M')
+                       and edge['arrow'] in ('end', 'both', 'none') for edge in diagram['edges']), 'Broken diagram relationship'
         if f.get('grid'):
             grid = f['grid']
             assert grid['xLabel'] and grid['yLabel']
@@ -274,10 +290,14 @@ for collection in collections:
     if collection['topicRoot']:
         knowledge.append(dict(slug=collection['slug'],title=collection['title'],topic=collection['topic'],group='Start here',summary=collection['summary'],sections=[dict(heading='Choose a reading path',body=collection['intro'])],sources=collection['references']))
 for article in articles.values():
-    knowledge.append(dict(slug=article['slug'],title=article['title'],topic=article['topic'],group=article['group'],summary=article['summary'],sections=search_sections[article['slug']],sources=article['references']))
+    diagram_sections = [dict(heading=f['title'], body='\n'.join([*f['headers'], *[cell for row in f['rows'] for cell in row], f['note']]))
+                        for f in article['figures'] if f.get('diagram')]
+    knowledge.append(dict(slug=article['slug'],title=article['title'],topic=article['topic'],group=article['group'],summary=article['summary'],sections=search_sections[article['slug']] + diagram_sections,sources=article['references']))
 slugs = {a['slug'] for a in knowledge}
 assert len(slugs) == len(knowledge), 'Duplicate catalogue slug'
 assert all(slug in slugs for a in articles.values() for slug in a['related']), 'Broken related link'
+assert all(link['slug'] in slugs and link['label'] for a in articles.values() for section in a['sections']
+           for block in section['blocks'] if block['kind'] == 'reading-links' for link in block['links']), 'Broken reading-path link'
 metric_entries = [block['metric'] for article in articles.values() for section in article['sections']
                   for block in section['blocks'] if block['kind'] == 'metric']
 assert sum(len(entry['sources']) for entry in metric_entries) == 314, 'Lost executive role associations'

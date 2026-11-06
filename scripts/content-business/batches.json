@@ -82,5 +82,13 @@
     "figures": "",
     "ledger": "docs/economics-property-content-coverage.csv",
     "sha256": "83f9f109c5d8e9484cf8e75d004fe62719d18b66933902b20b8504c559ef1e77"
+  },
+  {
+    "key": "venture-ethics",
+    "source": "content/sources/business/venture-ethics",
+    "plan": "venture-ethics-plan.json",
+    "figures": "venture-ethics-figures.json",
+    "ledger": "docs/venture-ethics-content-coverage.csv",
+    "sha256": "2ec3d061109bcd5318a048b62ffd2a459699d369f0724dae7b8cf5768161b072"
   }
 ]

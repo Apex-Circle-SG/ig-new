@@ -103,9 +103,26 @@
       {
         "name": "Strategy classics",
         "description": "Read historical strategy with clearly separated modern reflections."
+      },
+      {
+        "name": "Venture planning",
+        "description": "Connect a business plan to customer evidence, a credible pitch and the next commitment."
       }
     ],
     "journey": [
+      {
+        "title": "Build or review a venture",
+        "links": [
+          {
+            "slug": "business-plan-reading-path",
+            "label": "Follow the business-planning reading path"
+          },
+          {
+            "slug": "venture-validation",
+            "label": "Test customer and market assumptions"
+          }
+        ]
+      },
       {
         "title": "Diagnose the situation",
         "links": [
@@ -556,7 +573,7 @@
     "groups": [
       {
         "name": "Explore leadership, people & change",
-        "description": "Three focused collections connect everyday leadership, employee experience and organizational change."
+        "description": "Four focused collections connect leadership, employee experience, organizational change and ethical responsibility."
       },
       {
         "name": "Negotiation",
@@ -588,6 +605,15 @@
           {
             "slug": "organizational-change",
             "label": "Diagnose, lead and sustain change"
+          }
+        ]
+      },
+      {
+        "title": "Make responsible decisions",
+        "links": [
+          {
+            "slug": "business-ethics-governance",
+            "label": "Explore business ethics and governance"
           }
         ]
       }
@@ -1590,7 +1616,7 @@
     "groups": [
       {
         "name": "Explore finance",
-        "description": "Eight focused collections, with a shared formula directory and related business tools."
+        "description": "Focused collections connect statements, performance, cash, planning, valuation, investment and related responsibilities."
       }
     ],
     "journey": [
@@ -1924,6 +1950,10 @@
       {
         "name": "Transactions & market value",
         "description": "Distinguish market claims, acquisition values, identifiable assets and goodwill."
+      },
+      {
+        "name": "Funding & founder transactions",
+        "description": "Match funding needs to routes, investor expectations and economic/control terms."
       }
     ],
     "journey": [
@@ -1950,6 +1980,23 @@
           {
             "slug": "market-valuation-measures",
             "label": "Market valuation measures: equity value, enterprise value and multiples"
+          }
+        ]
+      },
+      {
+        "title": "Finance a business",
+        "links": [
+          {
+            "slug": "founder-funding-readiness",
+            "label": "Check funding readiness"
+          },
+          {
+            "slug": "business-financing-routes",
+            "label": "Compare financing routes"
+          },
+          {
+            "slug": "founder-investment-terms",
+            "label": "Review investment terms"
           }
         ]
       }
@@ -2846,6 +2893,81 @@
     "relatedCollections": [
       "economics-society",
       "investing-portfolio-management"
+    ]
+  },
+  {
+    "slug": "business-ethics-governance",
+    "title": "Business Ethics & Governance",
+    "topic": "Business & Management",
+    "group": "Explore leadership, people & change",
+    "summary": "Examine purpose, affected people, ethical reasoning and responsible conduct through focused reading paths.",
+    "intro": "Start with the decision and who it affects. Compare ethical reasons, governance expectations, practical responsibilities and the evidence behind historical examples.",
+    "groups": [
+      {
+        "name": "Ethical reasoning",
+        "description": "Compare reasons and use a documented decision/escalation process."
+      },
+      {
+        "name": "Purpose & governance",
+        "description": "Distinguish ownership, accountability and the interests a business serves."
+      },
+      {
+        "name": "Responsibility in practice",
+        "description": "Connect CSR, conduct and case-specific evidence without treating corporate labels as proof."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Understand the reasons",
+        "links": [
+          {
+            "slug": "business-ethical-lenses",
+            "label": "Compare ethical lenses"
+          },
+          {
+            "slug": "business-purpose-stakeholders",
+            "label": "Examine purpose and stakeholders"
+          }
+        ]
+      },
+      {
+        "title": "Connect responsibility to conduct",
+        "links": [
+          {
+            "slug": "corporate-social-responsibility",
+            "label": "Read CSR models"
+          },
+          {
+            "slug": "responsible-business-practice",
+            "label": "Review internal and external decisions"
+          }
+        ]
+      },
+      {
+        "title": "Decide with evidence",
+        "links": [
+          {
+            "slug": "ethical-business-decisions",
+            "label": "Question, document and escalate"
+          },
+          {
+            "slug": "business-ethics-cases",
+            "label": "Read dated official case records"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Source comparisons are study perspectives, not proven rankings of returns or ethical maturity. Historical examples identify their evidential limits; unspecific allegations are not adopted as current findings."
+    ],
+    "references": [],
+    "topicRoot": false,
+    "parent": "leadership-change",
+    "relatedCollections": [
+      "leadership-culture",
+      "people-employee-experience",
+      "integrated-sustainability-reporting",
+      "strategy-growth"
     ]
   }
 ]

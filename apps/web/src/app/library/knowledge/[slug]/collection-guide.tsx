@@ -10,6 +10,7 @@ import { MetricDirectory } from './metric-directory';
 import { SalesQuestionBank } from './sales-question-bank';
 import { NetworkConnections } from './network-connections';
 import { SourceImage, type SourceImageRecord } from './source-image';
+import { RelationshipDiagram, type RelationshipDiagramData } from './relationship-diagram';
 import styles from './collection-guide.module.css';
 
 type Guide = typeof guides[number];
@@ -23,6 +24,7 @@ export function isCollectionArticle(slug: string) {
 }
 
 function DetailBlock({ block, caption }: { block: Block; caption: string }) {
+  if (block.kind === 'reading-links' && 'links' in block && block.links) return <ul>{block.links.map((link) => <li key={link.slug}><Link href={guidePath(link.slug)}>{link.label} →</Link></li>)}</ul>;
   if (block.kind === 'review' && 'review' in block) return <div className={styles.referenceEntry}>
     <p><strong>{block.review.status}</strong></p>
     {block.review.paragraphs.map((text, i) => <p key={i}>{text}</p>)}
@@ -57,17 +59,22 @@ function DetailBlock({ block, caption }: { block: Block; caption: string }) {
 
 type Visual = Pick<Guide['figures'][number], 'title' | 'kind' | 'headers' | 'rows' | 'note'> & {
   sourceImage?: SourceImageRecord;
+  diagram?: RelationshipDiagramData;
   plot?: { xLabel: string; yLabel: string; lines: { label: string; path: string }[] };
   grid?: { xLabel: string; yLabel: string; points: { x: number; y: number; label: string }[] };
 };
 
 function Comparison({ figure }: { figure: Visual }) {
-  return <><p className={styles.tableHint}>Scroll sideways if needed to see every column.</p><div className={`${styles.tableScroll} ${figure.headers.length === 2 ? styles.compactTable : ''}`} tabIndex={0} role="region" aria-label={`${figure.title}: scrollable comparison`}><table><caption className={styles.srOnly}>{figure.title}</caption><thead><tr>{figure.headers.map((h) => <th scope="col" key={h}>{h}</th>)}</tr></thead><tbody>{figure.rows.map((row, i) => <tr key={i}>{row.map((cell, j) => j === 0 ? <th scope="row" key={j}>{cell}</th> : <td key={j}>{cell}</td>)}</tr>)}</tbody></table></div></>;
+  const table = <><p className={styles.tableHint}>Scroll sideways if needed to see every column.</p><div className={`${styles.tableScroll} ${figure.headers.length === 2 ? styles.compactTable : ''}`} tabIndex={0} role="region" aria-label={`${figure.title}: scrollable comparison`}><table><caption className={styles.srOnly}>{figure.title}</caption><thead><tr>{figure.headers.map((h) => <th scope="col" key={h}>{h}</th>)}</tr></thead><tbody>{figure.rows.map((row, i) => <tr key={i}>{row.map((cell, j) => j === 0 ? <th scope="row" key={j}>{cell}</th> : <td key={j}>{cell}</td>)}</tr>)}</tbody></table></div></>;
+  return figure.diagram && figure.rows.length > 6
+    ? <details className={styles.imageDisclosure}><summary>Read all diagram labels and relationships</summary>{table}</details>
+    : table;
 }
 
 function Figure({ figure }: { figure: Visual }) {
   return <figure className={styles.figure}>
     <figcaption>{figure.title}</figcaption>
+    {figure.diagram && <><p className={styles.figureNote}>Scroll sideways if needed to explore the diagram. The comparison below contains its full text and relationships.</p><RelationshipDiagram diagram={figure.diagram} title={figure.title} /></>}
     {figure.grid && <svg className={styles.managementGrid} viewBox="0 0 360 330" role="img" aria-label={`${figure.title}. Horizontal axis: ${figure.grid.xLabel}; vertical axis: ${figure.grid.yLabel}. Both run from 1 to 9. The five positions and their descriptions follow in the table.`}>
       {Array.from({ length: 10 }, (_, i) => <path key={i} d={`M${65 + i * 28} 25 V277 M65 ${25 + i * 28} H317`} fill="none" stroke="#d3caed" />)}
       {figure.grid.points.map((point) => <g key={point.label}>
@@ -140,7 +147,7 @@ export function CollectionGuide({ article, articles }: { article: KnowledgeArtic
       {isGateway && <ReadingNotes notes={collection.notes} />}
       <footer className={styles.provenance}><h2>Continue exploring</h2>{parentCollection && <p><Link href={guidePath(parentCollection.slug)}>Back to {parentCollection.title} →</Link></p>}{relatedCollections.map((item) => <p key={item.slug}><Link href={guidePath(item.slug)}>Explore {item.title} →</Link></p>)}{collection.references.map((reference) => <p key={reference.url}><a href={reference.url} target="_blank" rel="noopener noreferrer">{reference.title} ↗</a></p>)}</footer>
     </> : guide && <>
-      {!isChapter && <section className={styles.overview} aria-labelledby="overview-heading"><h2 id="overview-heading">At a glance</h2><ol className={styles.flow}>{guide.steps.map((step, i) => <li key={step}><span aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>{step}</li>)}</ol><p className={styles.meta}>An editorial reading sequence; individual frameworks are explained in the detailed notes below.</p></section>}
+      {!isChapter && guide.steps.length > 0 && <section className={styles.overview} aria-labelledby="overview-heading"><h2 id="overview-heading">At a glance</h2><ol className={styles.flow}>{guide.steps.map((step, i) => <li key={step}><span aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>{step}</li>)}</ol><p className={styles.meta}>An editorial reading sequence; individual frameworks are explained in the detailed notes below.</p></section>}
       <div className={styles.layout}>
         <nav className={styles.contents} aria-label="On this page"><strong>On this page</strong><ol>{guide.format === 'formula-index' && <li><a href="#formula-reference">Formula reference</a></li>}{guide.format === 'metric-index' && <li><a href="#metric-reference">Executive measures</a></li>}{visuals.length > 0 && <li><a href="#visual-explanations">{visualHeading}</a></li>}{guide.notes.length > 0 && <li><a href="#reading-notes">Reading notes &amp; limitations</a></li>}{guide.format === 'questions' ? <li><a href="#question-bank">Browse questions by stage</a></li> : guide.sections.map((s) => <li key={s.id}><a href={`#${s.id}`}>{s.heading}</a></li>)}{guide.interpretation && <li><a href="#reflection">Business reflection</a></li>}<li><a href="#related">Continue exploring</a></li></ol></nav>
         <div className={styles.body}>
