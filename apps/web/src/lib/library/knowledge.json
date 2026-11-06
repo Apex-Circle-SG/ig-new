@@ -3583,6 +3583,33 @@
     "sources": []
   },
   {
+    "slug": "trading-market-analysis",
+    "title": "Trading & Market Analysis",
+    "topic": "Trading & Market Analysis",
+    "group": "Start here",
+    "summary": "Study chart structure, setups, risk, execution, psychology and quantitative trading methods in a connected learning path.",
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Start with realistic objectives and loss/execution assumptions, then explore chart references and individual setup ideas. Use the strategy lab to distinguish a complete rule from shorthand and evaluate evidence before drawing conclusions."
+      }
+    ],
+    "sources": [
+      {
+        "title": "CFTC: risks of retail OTC forex",
+        "url": "https://www.cftc.gov/sites/default/files/2022-08/Must%20Know_Forex_FINAL%20%28002%29.pdf"
+      },
+      {
+        "title": "Investor.gov: market, limit and stop orders",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/types-orders"
+      },
+      {
+        "title": "Fidelity: technical analysis and its limitations",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/what-is-technical-analysis"
+      }
+    ]
+  },
+  {
     "slug": "strategy-foundations",
     "title": "What strategy does—and who makes it",
     "topic": "Business & Management",
@@ -12058,12 +12085,20 @@
       {
         "heading": "Convexity and yield curves",
         "body": "Concept clarified\nBond convexity describes curvature in the price–yield relationship. The label alone does not specify a calculation, cash-flow convention or units; it should not be substituted for duration or used as a guaranteed return predictor.\nBond convexity\nBond price vs interest rates"
+      },
+      {
+        "heading": "Trading-specific exposure and model risk",
+        "body": "Short-horizon trading adds execution, leverage, model and behavioral questions to portfolio-level analysis. These guides connect the supplied training to the existing investment material."
       }
     ],
     "sources": [
       {
         "title": "William Sharpe: The Sharpe Ratio, 1994",
         "url": "https://web.stanford.edu/~wfsharpe/art/sr/sr.htm"
+      },
+      {
+        "title": "CFTC: risks of retail OTC forex",
+        "url": "https://www.cftc.gov/sites/default/files/2022-08/Must%20Know_Forex_FINAL%20%28002%29.pdf"
       }
     ]
   },
@@ -12199,9 +12234,18 @@
       {
         "heading": "Calendar and announcement anomalies",
         "body": "Concept clarified\nTime-of-day, weekday, month-turn, holiday and late-reporting patterns are hypotheses requiring a defined dataset, period, market, costs and out-of-sample checks. The stated last-two/first-three-day window is source wording, not a current reliable trading signal. “Weekend reporting causes” is stronger than the evidence supplied.\nTime-of-the-day effect\nReturns and volatility can vary depending on the time of the trading day.\nDay-of-the-week effect\nWeekend reporting causes bad Friday-to-Monday returns.\nWeek-of-the-month effect\nReturns may vary depending on the specific week within a month.\nTurn-of-the-month effect\nStock prices increased during the last two days and the first three days of each month.\nHoliday Effect\nStock market to gain on the final trading day before an exchange-mandated long weekend.\nLate reporter anomaly\nLate announcements are often negative and cause a price decline."
+      },
+      {
+        "heading": "Continue with trading decision behavior",
+        "body": "Short-horizon trading adds execution, leverage, model and behavioral questions to portfolio-level analysis. These guides connect the supplied training to the existing investment material."
       }
     ],
-    "sources": []
+    "sources": [
+      {
+        "title": "CFTC: risks of retail OTC forex",
+        "url": "https://www.cftc.gov/sites/default/files/2022-08/Must%20Know_Forex_FINAL%20%28002%29.pdf"
+      }
+    ]
   },
   {
     "slug": "pitch-deck-foundations",
@@ -14008,6 +14052,550 @@
       }
     ],
     "sources": []
+  },
+  {
+    "slug": "trading-foundations",
+    "title": "Trading foundations: evidence, objectives and realistic expectations",
+    "topic": "Trading & Market Analysis",
+    "group": "Start with a plan",
+    "summary": "Understand the roles of technical and fundamental analysis before treating an idea as a repeatable trading process.",
+    "sections": [
+      {
+        "heading": "What this training collection offers",
+        "body": "Reviewed explanation; original training notes retained\nThese notes connect chart vocabulary, setups, risk, psychology and quantitative methods. Start with risk and validation, then study a particular setup. The supplied material contains no trade ledger, dataset or independently verified track record.\nTrading"
+      },
+      {
+        "heading": "Compare return horizons fairly",
+        "body": "Reviewed explanation; original training notes retained\nThe source contrasts 5% annually from investing with 5% monthly from trading. Neither return is established here. A hypothetical 5% each month compounds to about 79.6% over twelve months before costs, not 5% per year. An account size alone does not determine return, and a repeated monthly outcome cannot be assumed.\nIntroduction\nA $10k investment portfolio will only give you 5% annually while trading gives you 5% a month"
+      },
+      {
+        "heading": "Technical and fundamental questions",
+        "body": "Technical analysis organizes past price/volume observations; fundamental analysis considers economic and business context. Neither observes the future. Bulls and bears describe opposing positions or pressure, not two literal groups controlling every price.\nTechnical analysis\nPrice and volume data to plot chart\nPredict price trends and momentum\nFind opportunities, possible paths and key levels for prices\nFundamental analysis\nThe big picture is why prices are moving in a certain way\nHow strong this country is, major global events, economic data announcements\nBear and Bull control the market"
+      },
+      {
+        "heading": "Three analysis lenses",
+        "body": "Price action, classical formations and technical indicators can overlap. Multiple indicators built from the same prices are not independent evidence.\nTypes of analysis\nPrice action\nClassical charting\nTechnical indicator"
+      },
+      {
+        "heading": "Price action in context",
+        "body": "Reviewed explanation; original training notes retained\nPrice action is a family of chart-reading approaches. Compare the described shape, the decision rule and actual trading results separately.\nPrice action"
+      }
+    ],
+    "sources": [
+      {
+        "title": "CFTC: risks of retail OTC forex",
+        "url": "https://www.cftc.gov/sites/default/files/2022-08/Must%20Know_Forex_FINAL%20%28002%29.pdf"
+      },
+      {
+        "title": "Fidelity: technical analysis and its limitations",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/what-is-technical-analysis"
+      }
+    ]
+  },
+  {
+    "slug": "market-structure-levels",
+    "title": "Read market structure: swings, levels, volume and relative strength",
+    "topic": "Trading & Market Analysis",
+    "group": "Chart reading",
+    "summary": "Connect highs and lows, support and resistance, timeframes, volume and currency comparisons.",
+    "sections": [
+      {
+        "heading": "Trend structure across three horizons",
+        "body": "Separate swing descriptions from claims about accumulation or distribution. EMA-200/50/20 and the one-day main timeframe are source examples, not universal horizon definitions.\nMarket movements\nUptrend: higher highs, higher lows\nDowntrend: lower highs, lower lows\nSideways: mixture of highs and lows\nDistribution zone\nAccumulation zone\nLong term trend structure\n+1 period time frame (big patterns, swing counts)\nEMA-200\nTrend-following indicators\nIntermediate term trend structure\nMain trading time frame (1-day)\nPrice pattern\nEMA-50\nOscillator-based indicators\nShort term trend structure.\n-1 period time frame (optional)\nCandlestick patterns, price bar patterns\nEMA-20"
+      },
+      {
+        "heading": "Relative strength and the volume feed",
+        "body": "Reviewed explanation; original training notes retained\nThe source compares currency pairs to infer relative movement. A currency is always quoted against another; normalize periods and direction before comparing strength. The source pair groupings elsewhere are not verified correlations.\nExchange trade volume, broker tick counts and third-party estimates measure different things. A retail spot-FX chart is not a consolidated record of all global currency trading. High volume does not by itself prove buying pressure or a turning point.\nRelative strength\nUse different pairs to compare the movement of a certain currency and see which pair has more movement\nVolume\nTrends will be affected by volume as it represents how much buying and selling is\nLow, high volume & climatic volume"
+      },
+      {
+        "heading": "Drawing levels consistently",
+        "body": "Reviewed explanation; original training notes retained\nA line chart can make closes easier to compare, but discards intrabar extremes. The three-point/five-point suggestions are drawing conventions; more retrospective touches do not establish predictive accuracy. Choose the line rule before evaluating the later move.\nTips\nChange the line chart to draw the lines easier\nAt least 3 points should meet, good ones will be with 5 or more points"
+      },
+      {
+        "heading": "Support, resistance and possible order interest",
+        "body": "Reviewed explanation; original training notes retained\nSupport/resistance are candidate zones associated with prior price reactions. A break can fail; a former support does not automatically become resistance, and price need not reach the next marked zone. Claims about waiting buyers, sellers or an imbalance are interpretations unless supported by suitable order/transaction data.\nSupport zone\nBuyers step in to support prices\nA support breaks it becomes a resistance\nResistance zone\nSellers step in to sell down prices\nA resistance breaks it becomes support\nWhen one zone is broken, price will head to the next zone\nOpportunities\nAreas where buyers/sellers waiting on the sidelines are likely to step in\nAreas where existing buyers/sellers could be waiting to get out\nImbalance creates an “edge” to trade"
+      },
+      {
+        "heading": "Higher highs, higher lows and their opposites",
+        "body": "Define swing identification consistently. Higher highs/lows, mixed swings and lower lows/highs describe the observed sequence, not its next direction.\nTrends\nUptrend: higher highs (HH) and higher lows (HL)\nSideway: mixture (HH, HL, LL, LH)\nDowntrend: lower lows (LL) and lower highs (LH)\nTrade with the trend, do not chase the price and know when the trend is changing"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Fidelity: technical analysis and its limitations",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/what-is-technical-analysis"
+      }
+    ]
+  },
+  {
+    "slug": "candlestick-pattern-atlas",
+    "title": "Candlestick atlas: read bodies, wicks and sequences",
+    "topic": "Trading & Market Analysis",
+    "group": "Chart reading",
+    "summary": "Compare all 68 named candle illustrations in compact, themed groups with the original reference available.",
+    "sections": [
+      {
+        "heading": "How to read a candle",
+        "body": "Reviewed explanation; original training notes retained\nA candle records open, high, low and close for a chosen bar period. Its body connects open and close; wicks show the extremes. Filled purple bodies in the recreated illustrations close above their open, outlined bodies below it. A doji has similar open/close values. Apparent gaps and shapes depend on the market session, data feed and bar construction.\nCandlestick"
+      },
+      {
+        "heading": "Candlestick atlas: bodies, wicks and multi-candle relationships",
+        "body": "Pattern or source element\nReading description\nLong Green Candle\nLong upward body with wicks.\nLong Red Candle\nLong downward body with wicks.\nShort Green Candle\nShort upward body.\nShort Red Candle\nShort downward body.\nGreen Marubozu\nUpward body with no visible wicks.\nRed Marubozu\nDownward body with no visible wicks.\nBullish Closing Marubozu\nUpward body closes at its high; lower wick remains.\nBearish Closing Marubozu\nDownward body closes at its low; upper wick remains.\nBullish Opening Marubozu\nUpward body opens at its low; upper wick remains.\nBearish Opening Marubozu\nDownward body opens at its high; lower wick remains.\nBullish Spinning Top\nSmall upward body between visible wicks.\nBearish Spinning Top\nSmall downward body between visible wicks.\nBullish Doji\nNearly equal open and close; bullish is the source label, not a direction guaranteed by this shape.\nBearish Doji\nNearly equal open and close; bearish is the source label and needs context.\nBullish Long Legged Doji\nNearly equal open/close with long upper and lower wicks; context determines interpretation.\nBearish Long Legged Doji\nThe same long-wick family shown with the opposite contextual label.\nCross Doji\nCross near the top of a long lower wick.\nInverted Cross Doji\nCross near the bottom of a long upper wick.\nDragonfly Doji\nOpen/close at the upper extreme with a long lower wick.\nGravestone Doji\nOpen/close at the lower extreme with a long upper wick.\nHammer\nSmall upper body and long lower wick; the source shows a downward approach and upward departure.\nHanging man\nHammer-like geometry after an upward approach; the source indicates a downward departure.\nInverted Hammer\nSmall lower body and long upper wick, shown after a downward approach.\nShooting Star\nSmall lower body with a long upper wick, shown after an upward approach.\nBullish Engulfing\nAn upward body envelops the preceding downward body; wick overlap is a separate question.\nBearish Engulfing\nA downward body envelops the preceding upward body.\nBullish Kicker\nOpposite bodies are separated by an upward gap in the schematic.\nBearish Kicker\nOpposite bodies are separated by a downward gap.\nBullish Meeting Line\nThe second upward body closes near the first downward close.\nBearish Meeting Line\nThe second downward body closes near the first upward close.\nBullish Separating Lines\nOpposite bodies share a similar opening level; the second moves upward.\nBearish Separating Lines\nOpposite bodies share a similar opening level; the second moves downward.\nPiercing Pattern\nThe second body opens below and closes back into the preceding downward body.\nDark Cloud Cover\nThe second body opens above and closes into the preceding upward body.\nMorning Star\nA long decline, small lower body, and upward recovery form three stages.\nEvening Star\nA long rise, small upper body, and downward recovery form three stages.\nBullish Abandoned Baby\nA separated lower doji lies between a decline and recovery.\nBearish Abandoned Baby\nA separated upper doji lies between a rise and decline.\nBearish Tri Star\nThree doji-like bodies with the middle one higher in the source.\nBullish Tri Star\nThree doji-like bodies with the middle one lower.\nUpside Gap Two Crows\nA strong rise is followed by two upper downward bodies; inspect gap and overlap.\nTwo Crows\nThe third downward body extends back into the initial upward body.\nThree Inside Up\nAn inside upward body is followed by further upward movement.\nThree Inside Down\nAn inside downward body is followed by further downward movement.\nThree Outside Up\nAn engulfing upward body is followed by another upward body.\nThree Outside Down\nAn engulfing downward body is followed by another downward body.\nBullish Harami\nA small upward body sits inside the preceding downward body.\nBearish Harami\nA small downward body sits inside the preceding upward body.\nBullish Belthold\nLong upward body opens at its lower extreme; the source includes trend-context arrows.\nBearish Belthold\nLong downward body opens at its upper extreme.\nThree Stars In The South\nSuccessive lower candles contract in range; the source title is retained without asserting a reversal rate.\nAdvance Block\nThree rising bodies shorten while upper wicks become prominent.\nBullish Stick Sandwich\nTwo downward closes share a lower level around an intervening upward body.\nBearish Stick Sandwich\nTwo upward closes share an upper level around an intervening downward body.\nMatching Low\nTwo downward bodies end near the same close.\nMatching High\nTwo upward bodies end near the same close.\nBullish Breakaway\nA separated downward sequence is followed by a larger upward return.\nBearish Breakaway\nA separated upward sequence is followed by a larger downward return.\nThree White Soldiers\nThree upward bodies progress higher.\nThree Black Crows\nThree downward bodies progress lower.\nUpside Tasuki Gap\nAn upward gap is partially retraced by an opposite body.\nDownside Tasuki Gap\nA downward gap is partially retraced by an opposite body.\nBullish Side By Side White Lines\nTwo similar upward bodies stand side by side above a prior body.\nBearish Side By Side White Lines\nTwo similar upward bodies stand below a prior decline; bearish is the source contextual label.\nTweezer Bottom\nOpposite bodies share similar low wicks.\nTweezer Top\nOpposite bodies share similar high wicks.\nRising Three Methods\nA large upward body contains three smaller counter-move bodies before upward continuation. Source label: Raising Three Method.\nFalling Three Methods\nA large downward body contains three smaller counter-move bodies before downward continuation. Source label: Falling Three Method.\nAll 68 named source illustrations are represented. Bullish/bearish labels and arrows describe the source interpretation, not a measured probability or trade instruction. OHLC geometry is schematic; preceding trend, gaps, instrument and bar construction matter."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Fidelity: technical analysis and its limitations",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/what-is-technical-analysis"
+      }
+    ]
+  },
+  {
+    "slug": "harmonic-pattern-atlas",
+    "title": "Harmonic patterns: legs, ratios and source inconsistencies",
+    "topic": "Trading & Market Analysis",
+    "group": "Chart reading",
+    "summary": "Compare ten harmonic families and both orientations while keeping the original ratio labels visible.",
+    "sections": [
+      {
+        "heading": "Read the harmonic reference critically",
+        "body": "Reviewed explanation; original training notes retained\nThe source image contains 20 panels: AB=CD, Bat, Three Drives, Alt Bat, Gartley, Crab, Butterfly, Deep Crab, Cypher and Shark in two orientations. The sketches below identify their leg structure; use the detailed source image for the original placement of ratio labels.\nThe extracted numeric table has eight columns whose associations with individual patterns/legs are not recoverable from the text alone. Values including 1.168, 1.271, 3.168 and 0.089 are preserved rather than normalized to more familiar ratios. Do not treat those detached numbers as a verified ratio specification. The source also labels the bullish counterpart to Deep Crab simply Bullish Crab, and its Cypher annotations differ between orientations.\nA reproducible harmonic study needs pivot selection, leg definitions, acceptable ratio tolerances, completion/invalidation, entry timing, exits and costs. None of the drawings proves profitable prediction.\nHarmonics\nX\n0.786\n0.786\n0.886\n0.886\n1.130\n1.168\n1.168\n1.270\nD\n0.786\n0.786\n0.886\n1.130\n1.130\n1.168\n1.168\n1.410\nX\n1.270\n0.382\n0.618\n0.382\n0.382\n0.382\n0.886\n0.786\nB\n1.618\n0.618\n0.618\n0.500\n0.382\n0.618\n0.886\n0.786\nB\n1.130\n1.270\n1.271\n1.130\n1.618\n1.618\n2.000\n2.618\n2.000\n1.168\nD\n2.618\n1.618\n2.000\n1.168\n2.618\n2.240\n3.168\n3.618\n3.168\n2.240\nA\n0.382\n1.130\n0.382\n0.382\n1.130\n0.382\n0.382\n0.382\n0.382\nC\n0.886\n1.410\n0.886\n0.886\n1.618\n0.886\n0.886\n0.886\n0.089"
+      },
+      {
+        "heading": "Harmonic atlas: compare legs, orientation and printed ratios",
+        "body": "Pattern or source element\nReading description\nBearish AB=CD\nBearish AB=CD source geometry; printed ratio labels: 0.382, 0.886, 1.13, 2.618. Ratios refer to different legs/projections, not an unordered set of entry prices.\nBullish AB=CD\nBullish AB=CD source geometry; printed ratio labels: 0.382, 0.886, 1.13, 2.618. Ratios refer to different legs/projections, not an unordered set of entry prices.\nBearish Bat\nBearish Bat source geometry; printed ratio labels: 0.382, 0.5, 0.886, 1.618, 2.618. Ratios refer to different legs/projections, not an unordered set of entry prices.\nBullish Bat\nBullish Bat source geometry; printed ratio labels: 0.382, 0.5, 0.886, 1.618, 2.618. Ratios refer to different legs/projections, not an unordered set of entry prices.\nBearish Three Drives\nBearish Three Drives source geometry; printed ratio labels: 1.27, 1.618. Ratios refer to different legs/projections, not an unordered set of entry prices.\nBullish Three Drives\nBullish Three Drives source geometry; printed ratio labels: 1.27, 1.618. Ratios refer to different legs/projections, not an unordered set of entry prices.\nBearish Alt Bat\nBearish Alt Bat source geometry; printed ratio labels: 0.382, 0.886, 1.13, 2.0, 3.168. Ratios refer to different legs/projections, not an unordered set of entry prices.\nBullish Alt Bat\nBullish Alt Bat source geometry; printed ratio labels: 0.382, 0.886, 1.13, 2.0, 3.168. Ratios refer to different legs/projections, not an unordered set of entry prices.\nBearish Gartley\nBearish Gartley source geometry; printed ratio labels: 0.618, 0.382, 0.886, 0.786, 1.13, 1.168. Ratios refer to different legs/projections, not an unordered set of entry prices.\nBullish Gartley\nBullish Gartley source geometry; printed ratio labels: 0.618, 0.382, 0.886, 0.786, 1.13, 1.168. Ratios refer to different legs/projections, not an unordered set of entry prices.\nBearish Crab\nBearish Crab source geometry; printed ratio labels: 0.382, 0.618, 0.886, 1.618, 2.618, 3.618. Ratios refer to different legs/projections, not an unordered set of entry prices.\nBullish Crab\nBullish Crab source geometry; printed ratio labels: 0.382, 0.618, 0.886, 1.618, 2.618, 3.618. Ratios refer to different legs/projections, not an unordered set of entry prices.\nBearish Butterfly\nBearish Butterfly source geometry; printed ratio labels: 0.786, 0.382, 0.886, 1.27–1.41, 1.168–2.24. Ratios refer to different legs/projections, not an unordered set of entry prices.\nBullish Butterfly\nBullish Butterfly source geometry; printed ratio labels: 0.786, 0.382, 0.886, 1.27–1.41, 1.168–2.24. Ratios refer to different legs/projections, not an unordered set of entry prices.\nBearish Deep Crab\nBearish Deep Crab source geometry; printed ratio labels: 0.886, 0.382, 0.886, 1.618, 2.0, 3.618. Ratios refer to different legs/projections, not an unordered set of entry prices.\nBullish Deep Crab\nBullish Deep Crab source geometry; printed ratio labels: 0.886, 0.382, 0.886, 1.618, 2.0, 3.618. Ratios refer to different legs/projections, not an unordered set of entry prices. The final source panel is labelled Bullish Crab although paired with Bearish Deep Crab; that inconsistency is retained here.\nBearish Cypher\nBearish Cypher source geometry; printed ratio labels: 0.382–0.618, 0.786, 1.271–2.0, 1.13–1.141. Ratios refer to different legs/projections, not an unordered set of entry prices.\nBullish Cypher\nBullish Cypher source geometry; printed ratio labels: 0.382–0.618, 0.786, 1.271–2.0, 1.13–1.141. Ratios refer to different legs/projections, not an unordered set of entry prices. Bullish panel prints 1.13–1.41 and 1.272–2.0; the paired bearish panel prints 1.13–1.141 and 1.271–2.0.\nBearish Shark\nBearish Shark source geometry; printed ratio labels: 0.886–1.13, 1.618–2.24, 1.13, 1.618. Ratios refer to different legs/projections, not an unordered set of entry prices.\nBullish Shark\nBullish Shark source geometry; printed ratio labels: 0.886–1.13, 1.618–2.24, 1.13, 1.618. Ratios refer to different legs/projections, not an unordered set of entry prices.\nAll 20 panels and ten families are retained as conceptual leg sketches. Printed ratios are preserved in text; the geometry is not to scale and does not validate those ratios. The separate source numeric table loses its leg-to-column association and is retained for comparison, not converted into a trading rule."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Fidelity: technical analysis and its limitations",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/what-is-technical-analysis"
+      }
+    ]
+  },
+  {
+    "slug": "classical-chart-patterns",
+    "title": "Chart-pattern atlas: reversals, ranges, channels and wave studies",
+    "topic": "Trading & Market Analysis",
+    "group": "Chart reading",
+    "summary": "Explore labelled formations, all 48 unlabelled geometry studies, and the Wolfe Wave and Adam & Eve sketches.",
+    "sections": [
+      {
+        "heading": "Use the three chart-study sheets",
+        "body": "Reviewed explanation; original training notes retained\nThe references combine named formations, unlabelled trendline/wave sketches and two specialist patterns. Native diagrams provide compact conceptual comparisons; the supplied originals preserve exact line placement and fine annotations. Descriptive headings on unlabelled panels are editorial observations, not invented pattern names or authenticated strategy definitions.\nPatterns\nOthers"
+      },
+      {
+        "heading": "Classical formations: reversal and consolidation vocabulary",
+        "body": "Pattern or source element\nReading description\nDouble Top (Traditional)\nCompare the two extremes, intervening swing and horizontal reference. The source variant names describe its sketches; the name alone does not define a confirmed reversal.\nDouble Top (Corrective)\nCompare the two extremes, intervening swing and horizontal reference. The source variant names describe its sketches; the name alone does not define a confirmed reversal.\nDouble Top (Overbalance)\nCompare the two extremes, intervening swing and horizontal reference. The source variant names describe its sketches; the name alone does not define a confirmed reversal.\nDouble Top (Running)\nCompare the two extremes, intervening swing and horizontal reference. The source variant names describe its sketches; the name alone does not define a confirmed reversal.\nDouble Bottom (Traditional)\nCompare the two extremes, intervening swing and horizontal reference. The source variant names describe its sketches; the name alone does not define a confirmed reversal.\nDouble Bottom (Corrective)\nCompare the two extremes, intervening swing and horizontal reference. The source variant names describe its sketches; the name alone does not define a confirmed reversal.\nDouble Bottom (Overbalance)\nCompare the two extremes, intervening swing and horizontal reference. The source variant names describe its sketches; the name alone does not define a confirmed reversal.\nDouble Bottom (Running)\nCompare the two extremes, intervening swing and horizontal reference. The source variant names describe its sketches; the name alone does not define a confirmed reversal.\nHead and Shoulders\nThree peaks with a higher middle head and a neckline; the source says price is unable to surpass the prior high or low.\nInverted Head and Shoulders\nThree troughs with a lower middle head.\nExpanding Triangle\nSwings diverge between expanding boundaries; source caption: Diverge and destabilise.\nCup and Handle\nRounded consolidation and a smaller handle. The source associates long consolidation with powerful moves; that outcome is not assured.\nPennant\nSmall converging consolidation after a strong move; the source also shows the bearish mirror.\nFlag\nA sloping consolidation after a strong move; bullish and bearish examples are shown in the source.\nRising Wedge\nRising, converging boundaries with a possible downward departure; source calls wedges weakening of the current trend.\nFalling Wedge\nFalling, converging boundaries with a possible upward departure.\nRectangle\nRepeated horizontal limits; source caption combines accumulation, trend pullback and breakout.\nSymmetrical Triangle\nBoth boundaries converge as swings compress over time.\nAscending Triangle\nRepeated upper resistance with rising lows; breakout is conditional.\nDescending Triangle\nRepeated lower support with falling highs; breakout is conditional.\nAll 20 labelled source panels are represented. These are descriptions of shapes and source interpretations; confirmation, false breaks, execution and testing remain separate questions."
+      },
+      {
+        "heading": "Unlabelled chart studies: levels, trendlines, channels and wave counts",
+        "body": "Pattern or source element\nReading description\nExpanding swings\nAlternating swings widen between diverging guides. This panel has no printed pattern title; the heading describes visible geometry only.\nNarrow reversal box\nA steep drop and return sit inside a narrow vertical box. This panel has no printed pattern title; the heading describes visible geometry only.\nRepeated upper tests\nRepeated peaks test one upper level. This panel has no printed pattern title; the heading describes visible geometry only.\nLower horizontal level\nA horizontal line spans the lower swing zone. This panel has no printed pattern title; the heading describes visible geometry only.\nSeparated swing levels\nShort horizontal marks highlight separate swing extremes. This panel has no printed pattern title; the heading describes visible geometry only.\nEqual trough zone\nTwo lows are joined by a horizontal guide. This panel has no printed pattern title; the heading describes visible geometry only.\nRange extension 1.382\nRange is extended upward to a printed 1.382 level. This panel has no printed pattern title; the heading describes visible geometry only.\nTwo horizontal levels\nTwo guides bound a swing range. This panel has no printed pattern title; the heading describes visible geometry only.\nBreak above repeated resistance\nA rising approach tests and passes a horizontal level. This panel has no printed pattern title; the heading describes visible geometry only.\nRising support under a decline\nA rising guide lies beneath a pullback in a wider falling path. This panel has no printed pattern title; the heading describes visible geometry only.\nConverging boundaries\nA swing sequence narrows between sloping upper and lower guides. This panel has no printed pattern title; the heading describes visible geometry only.\nDescending parallel channel\nHorizontal swing marks sit inside a falling channel. This panel has no printed pattern title; the heading describes visible geometry only.\nRange height bracket\nA vertical bracket records the height of a rectangular zone. This panel has no printed pattern title; the heading describes visible geometry only.\nHorizontal breakout shelf\nAn upper shelf is marked over lower swings. This panel has no printed pattern title; the heading describes visible geometry only.\nProjected move 1.618\nA vertical 1.618 projection accompanies a measured swing. This panel has no printed pattern title; the heading describes visible geometry only.\nShallow rising lower guide\nRising lows approach a second rising guide. This panel has no printed pattern title; the heading describes visible geometry only.\nDescending resistance\nPrice falls and later crosses a descending resistance line. This panel has no printed pattern title; the heading describes visible geometry only.\nSteep descending resistance\nA steeper falling reference meets a recovery. This panel has no printed pattern title; the heading describes visible geometry only.\nDowntrend then break\nA descending guide joins lower highs before an upward departure. This panel has no printed pattern title; the heading describes visible geometry only.\nDowntrend guide extended\nA falling line is extended through a longer lower-high sequence. This panel has no printed pattern title; the heading describes visible geometry only.\nNine alternating pivots\nA descending sequence is numbered 1 through 9. This panel has no printed pattern title; the heading describes visible geometry only.\nResistance and retest\nA descending reference meets a rebound and pullback. This panel has no printed pattern title; the heading describes visible geometry only.\nConverging descending guides\nTwo descending resistance guides converge. This panel has no printed pattern title; the heading describes visible geometry only.\nDescending fan\nA steeper and shallower descending guide share an origin. This panel has no printed pattern title; the heading describes visible geometry only.\nRising support\nHigher lows follow a rising guide. This panel has no printed pattern title; the heading describes visible geometry only.\nFive rising contacts\nA rising support line carries numbered contacts. This panel has no printed pattern title; the heading describes visible geometry only.\nSteep rising support\nA steep rising guide underlies a rapid advance. This panel has no printed pattern title; the heading describes visible geometry only.\nShallow rising support\nA shallower rising guide supports wider swings. This panel has no printed pattern title; the heading describes visible geometry only.\nRising three-ray fan\nThree guides rise from a common low. This panel has no printed pattern title; the heading describes visible geometry only.\nRising fan after pullback\nSeveral rising guide angles organize a sequence of swings. This panel has no printed pattern title; the heading describes visible geometry only.\nThree numbered rising rays\nThree rays carry source labels 1, 2 and 3. This panel has no printed pattern title; the heading describes visible geometry only.\nAccelerating support\nA rising guide steepens as swings advance. This panel has no printed pattern title; the heading describes visible geometry only.\nBreakout across two levels\nAn upward move leaves a lower range and crosses an upper level. This panel has no printed pattern title; the heading describes visible geometry only.\nRepeated resistance with rising lows\nA horizontal ceiling meets higher troughs. This panel has no printed pattern title; the heading describes visible geometry only.\nRising parallel channel\nA price path rises between two parallel guides. This panel has no printed pattern title; the heading describes visible geometry only.\nAscending lower channel\nParallel rising lines bound successive higher swings. This panel has no printed pattern title; the heading describes visible geometry only.\nWidening rising guides\nAn upward path widens between two rising guides. This panel has no printed pattern title; the heading describes visible geometry only.\nRising guide and lower return\nA rising lower line extends beyond a pullback. This panel has no printed pattern title; the heading describes visible geometry only.\nConverging upward lines\nA rising price path is compressed by converging guides. This panel has no printed pattern title; the heading describes visible geometry only.\nFive-ray rising fan\nFive numbered rising guides share a lower origin. This panel has no printed pattern title; the heading describes visible geometry only.\nFive-wave advance\nA rising five-wave sequence is numbered (1) through (5). This panel has no printed pattern title; the heading describes visible geometry only.\nFive-wave rise in a channel\nA rising numbered sequence lies within two guides. This panel has no printed pattern title; the heading describes visible geometry only.\nFive waves and a-b-c correction\nAn upward numbered sequence is followed by three lettered swings. This panel has no printed pattern title; the heading describes visible geometry only.\nFive-wave rise with zero origin\nAn upward five-wave count starts at 0. This panel has no printed pattern title; the heading describes visible geometry only.\nFive-wave decline with zero origin\nA downward five-wave count starts at 0. This panel has no printed pattern title; the heading describes visible geometry only.\nHorizontal range compression\nSwings narrow and test a horizontal upper boundary. This panel has no printed pattern title; the heading describes visible geometry only.\nFive-wave falling channel\nA numbered falling path is framed by parallel guides. This panel has no printed pattern title; the heading describes visible geometry only.\nFive-wave rising channel\nA numbered rising path is framed by parallel guides. This panel has no printed pattern title; the heading describes visible geometry only.\nAll 48 source placements are retained separately. Descriptive titles are editorial, not newly attributed system names. Numeric annotations 1.382 and 1.618 and the numbered/lettered wave studies are preserved. Schematics do not establish a predictive edge."
+      },
+      {
+        "heading": "Wolfe Wave and Adam & Eve: specialist source sketches",
+        "body": "Pattern or source element\nReading description\nWolfe Wave\nFive numbered turning points lie around two converging guides. The source labels Entry beyond point 5 and Target on the extended 1-to-4 line; this is a depicted projection, not an assured target.\nAdam & Eve\nA sharp V-shaped Adam low is followed by a rounded Eve low. The source has no parameters, entry conditions or measured performance.\nBoth source illustrations, all five Wolfe turning-point numbers, Entry/Target labels and Adam/Eve labels are preserved. Curves and scale are illustrative."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Fidelity: technical analysis and its limitations",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/what-is-technical-analysis"
+      }
+    ]
+  },
+  {
+    "slug": "smc-price-action",
+    "title": "SMC, ICT and institutional price-action vocabulary",
+    "topic": "Trading & Market Analysis",
+    "group": "Price action & setups",
+    "summary": "Find the source terms for structure, liquidity, imbalances and blocks alongside the complete study-sheet reference.",
+    "sections": [
+      {
+        "heading": "The supplied vocabulary",
+        "body": "Terminology varies between authors and scripts. These are the exact supplied expansions; a name alone does not define detection rules or a validated signal.\nSMC / ICT / Price Action\nFair value gap (FVG)\nInversion fair value gap (IFVG)\nInducement (IDM)\nBuy-side imbalance sell side inefficiency (BISI)\nSell-side imbalance buy side inefficiency (SIBI)\nOrder block (OB)\nBreaker block (BB)\nMitigation block (MB)\nMarket Structural Block (MSB)\nRejection block (RB)\nReturn to order block (RTO)\nVolume imbalance block (VIB)\nOptimal trade entry (OTE)\nBalanced price range (BPR)\nBreak of structure (BOS) / (BMS)\nMarket structural shift (MSS) / Shift in Market Structure (SMS)\nChange of character (CHoCH)\nMarket maker buy/sell model (MMXM)\nPremium and discount array (PDA)\nBuy side liquidity (BSL)\nSell side liquidity (SSL)\nInternal range liquidity (IRL)\nExternal range liquidity (ERL)\nLiquidity Grab (LG)\nLiquidity Sweep (LS)\nNew Week Opening Gap (NWOG)"
+      },
+      {
+        "heading": "Combined block and imbalance labels",
+        "body": "These four labels name combinations but supply no diagrams, code or precise detection conditions. Inverse volume imbalance is not silently redefined as an inversion fair value gap.\nBPR on breaker block\nFVG on breaker block\nInverse volume imbalance\nVolume imbalance"
+      },
+      {
+        "heading": "Institutional price-action study sheet: named patterns and both orientations",
+        "body": "Pattern or source element\nReading description\nQM Quick Retest — downward mirror\nQML; H; L; HH; LL. A neckline-like level is revisited soon after a higher-high/lower-low sequence. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nQM Quick Retest — upward mirror\nQML; H; L; HH; LL. A neckline-like level is revisited soon after a higher-high/lower-low sequence. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nQM Late Retest — downward mirror\nQML; H; L; HH; LL. The level is revisited after additional intervening swings. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nQM Late Retest — upward mirror\nQML; H; L; HH; LL. The level is revisited after additional intervening swings. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nDM Shadow — downward mirror\nQML; HH; LL. The source marks a candle-shadow/zone context around the same swing structure; DM is not expanded in the source. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nDM Shadow — upward mirror\nQML; HH; LL. The source marks a candle-shadow/zone context around the same swing structure; DM is not expanded in the source. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nQM Re-Entry — downward mirror\nMain QML; Entry at small QML. The source distinguishes a larger level and a smaller re-entry level. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nQM Re-Entry — upward mirror\nMain QML; Entry at small QML. The source distinguishes a larger level and a smaller re-entry level. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nContinuation QM — downward mirror\nContinue Downtrend; Continue Uptrend. The paired sequences are placed within continuing directional swings. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nContinuation QM — upward mirror\nContinue Downtrend; Continue Uptrend. The paired sequences are placed within continuing directional swings. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nIgnored QM (IQM) / QMTR — downward mirror\nIQML; HH / R; LL / S; Wait for Fakeout. A prior QM level is passed before a later fakeout context. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nIgnored QM (IQM) / QMTR — upward mirror\nIQML; HH / R; LL / S; Wait for Fakeout. A prior QM level is passed before a later fakeout context. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\n2R/2S fakeout — downward mirror\nR and S identify repeated resistance/support tests before a false break. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\n2R/2S fakeout — upward mirror\nR and S identify repeated resistance/support tests before a false break. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nRuler (Pembaris) — downward mirror\nR; S; contacts 1, 2, 3, 3, 4, 5. The source depicts repeated horizontal tests and a final departure; its numbering is retained as supplied. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nRuler (Pembaris) — upward mirror\nR; S; contacts 1, 2, 3, 3, 4, 5. The source depicts repeated horizontal tests and a final departure; its numbering is retained as supplied. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nV Twin — downward mirror\nR; S; paired sharp returns at a common reference line. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nV Twin — upward mirror\nR; S; paired sharp returns at a common reference line. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nMPL — downward mirror\nR; S; Stop hunt / Supply; Stop hunt / Demand; Engulf previous Low; Engulf previous High. The abbreviation MPL has no supplied expansion. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nMPL — upward mirror\nR; S; Stop hunt / Supply; Stop hunt / Demand; Engulf previous Low; Engulf previous High. The abbreviation MPL has no supplied expansion. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nFlag B — downward mirror\nFlag B; Flag Limit / Supply; Flag Limit / Demand; R1; R2; S1; S2; Engulf previous low; Engulf previous high. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nFlag B — upward mirror\nFlag B; Flag Limit / Supply; Flag Limit / Demand; R1; R2; S1; S2; Engulf previous low; Engulf previous high. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nFlag A + Flag B — downward mirror\nFlag A; Flag B; Flag Limit / Supply; Flag Limit / Demand; R1; R2; S1; S2; Engulf / LL; Engulf / HH. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nFlag A + Flag B — upward mirror\nFlag A; Flag B; Flag Limit / Supply; Flag Limit / Demand; R1; R2; S1; S2; Engulf / LL; Engulf / HH. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nFakeout V1 (Default) — downward mirror\nR1; R2; S1; S2. A move beyond a marked zone returns through the earlier swing structure. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nFakeout V1 (Default) — upward mirror\nR1; R2; S1; S2. A move beyond a marked zone returns through the earlier swing structure. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nFakeout V2 (SR flip) — downward mirror\nSR Flip; RS Flip. The sheet contrasts support-to-resistance and resistance-to-support contexts. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nFakeout V2 (SR flip) — upward mirror\nSR Flip; RS Flip. The sheet contrasts support-to-resistance and resistance-to-support contexts. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nFakeout V3 (Diamond) — downward mirror\nR1; R2; S1; S2; LL. Source note: Head of QM is at same level as previous R1/R2 or S1/S2. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nFakeout V3 (Diamond) — upward mirror\nR1; R2; S1; S2; LL. Source note: Head of QM is at same level as previous R1/R2 or S1/S2. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nFakeout V3 (Diamond SBR) — downward mirror\nR1; R2; S1; S2; repeated zone tests and a later false break. The source title uses Diamond SBR. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nFakeout V3 (Diamond SBR) — upward mirror\nR1; R2; S1; S2; repeated zone tests and a later false break. The source title uses Diamond SBR. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nDouble SSR — downward mirror\nR and S mark repeated step-like support/resistance relationships; SSR is not expanded in the source. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nDouble SSR — upward mirror\nR and S mark repeated step-like support/resistance relationships; SSR is not expanded in the source. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nCompression (CP) — downward mirror\nSupply Clear; Demand Clear. Successively closer swings approach a sloping boundary and zone. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nCompression (CP) — upward mirror\nSupply Clear; Demand Clear. Successively closer swings approach a sloping boundary and zone. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\n3 Drive — downward mirror\n1 drive; 2 drive; 3 drive. Three successive pushes approach or pass the marked reference. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\n3 Drive — upward mirror\n1 drive; 2 drive; 3 drive. Three successive pushes approach or pass the marked reference. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nCompression Liquidity (CPLQ) — downward mirror\nLQ. A narrowing set of swings approaches a liquidity-labelled boundary. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nCompression Liquidity (CPLQ) — upward mirror\nLQ. A narrowing set of swings approaches a liquidity-labelled boundary. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nCan-Can — downward mirror\nR; S. A series of oscillations around or inside the source horizontal zone. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nCan-Can — upward mirror\nR; S. A series of oscillations around or inside the source horizontal zone. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nCan-Can + Fakeout — downward mirror\nLQ; Fake Supply; Fake Demand. An oscillating structure reaches a liquidity-labelled false zone. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nCan-Can + Fakeout — upward mirror\nLQ; Fake Supply; Fake Demand. An oscillating structure reaches a liquidity-labelled false zone. The complete supplied sheet preserves both orientations and their exact annotated geometry. Labels such as stop hunt express the source interpretation and do not identify actual institutional orders.\nSource attribution\nInstitutional Price Action - Cheat Sheet; Adapted from ReadTheMarket.com / Mansor Sapari aka CMS.\nSource legend\nS = Support; R = Resistance; L = Line; H = High; LL = Lower Low; HH = Higher High; LQ = Liquidity; QM = Quasimodo; Supply Zone; Demand Zone.\nAll 22 named groups and 44 orientations are represented. The source credits “Adapted from ReadTheMarket.com / Mansor Sapari aka CMS”; this is an attribution printed on the supplied sheet, not independently authenticated authorship or institutional evidence. Public source attribution could not be authenticated. H/L denote high/low, HH higher high, LL lower low, R resistance, S support, L line, LQ liquidity and QM Quasimodo. Unexpanded abbreviations are not guessed. No trade rules or success rates are supplied."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Fidelity: technical analysis and its limitations",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/what-is-technical-analysis"
+      }
+    ]
+  },
+  {
+    "slug": "trading-analysis-checklist",
+    "title": "A trading checklist: context, levels, trigger and exit assumptions",
+    "topic": "Trading & Market Analysis",
+    "group": "Price action & setups",
+    "summary": "Turn a long list of chart checks into a repeatable review sequence without mistaking confluence for independent evidence.",
+    "sections": [
+      {
+        "heading": "The source chart-check inventory",
+        "body": "Keep the full inventory, but choose which observations answer your setup question. Similar moving averages, oscillators and patterns can repeat the same price information.\nChecks\nSupport / resistance\nTrendline\nChannel line\nW, M, N, head & shoulder\nSymmetric triangle\nRight-angle triangle\nTriangle (others)\nWedge\n200 EMA\n100 EMA\n50 EMA\n21 EMA\nBollinger Band\nParabolic SAR\nDeMark\nStochastic exits\nRSI exits\nDivergence\nImpulse & MACD meets\nGann Fan\nFibonacci retracement\nCandle\nHarmonics\nNew candle\nWhole number\nFraction\nGap"
+      },
+      {
+        "heading": "The source multi-timeframe workflow",
+        "body": "Reviewed explanation; original training notes retained\nThe sequence starts with daily/4H bias, marks 1H/15M highs/lows and a 15M range, then liquidity references, OB/FVG zones, a claimed manipulation event, volume and a Fibonacci OTE entry. Define these terms and timing before a test; a chart alone does not establish manipulative intent.\nThe stated exits take 50% at −0.27 and another 25% at −0.62, then move a stop to break-even. Negative extension labels depend on the Fibonacci drawing direction and anchor convention. Record what happens to the remaining 25%; the source does not specify it here. Moving the stop to entry does not remove spread, commissions, slippage or gap risk.\nConfirm daily bias\nConfirm 4H bias\nMark highs and lows on 1H\nMark highs and lows on 15M\nIdentify horizontal range on 15M\nMark buy-side and sell-side liquidity\nMark OBs and FVGs\nWait for manipulation to occur\nConfirm using volume\nMark OTE on Fibonacci tool\nEnter on discount Fibonacci level\nTake 50% profit at -0.27 extension and move SL to BE\nTake additional 25% profit at -0.62 Extension"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "trading-styles-sessions",
+    "title": "Trading styles, timeframes, currency pairs and session clocks",
+    "topic": "Trading & Market Analysis",
+    "group": "Start with a plan",
+    "summary": "Compare holding horizons and the supplied currency lists, then interpret session times with date-aware clocks.",
+    "sections": [
+      {
+        "heading": "Style and timeframe examples",
+        "body": "Reviewed explanation; original training notes retained\nThe source associates day trading with M5/M15/H1, swing trading with H1/H4/D1, and position trading with D1/W1/M1. The final M1 notation is ambiguous: platforms often use M1 for one minute and MN/MN1 for one month. It is not silently interpreted as a monthly bar. Timeframes can overlap across styles; holding period and overnight exposure need separate definitions.\nSetups\nTrading style\nDay-trading (short-term)\nSwing trading (medium-term)\nPosition trading (long-term)\nTimeframe\nDay-trading (M5, M15, H1))\nSwing trading (H1, H4, D1)\nPosition trading (D1, W1, M1)"
+      },
+      {
+        "heading": "Currency-pair groupings as supplied",
+        "body": "Reviewed explanation; original training notes retained\nThe seven rows connect major pairs to other pairs with an unexplained letter r. No correlation window, sign, normalization or measurement is supplied. Retain the rows as a study list, not proof that the pairs are interchangeable or diversify one another.\nTrading product\nEUR/USD r EUR/CAD, EUR/AUD & NZD/USD\nGBP/USD r GBP/NZD, GBP/CAD & GBP/AUD\nUSD/JPY r NZD/JPY, CAD/JPY & EUR/JPY\nUSD/CHF r USD/SGD, AUD/CHF & USD/TRY\nUSD/CAD r USD/SGD, AUD/CHF & USD/TRY\nAUD/USD r AUD/CAD, AUD/CHF & GBP/USD\nNZD/USD r EUR/USD, NZD/JPY & AUD/JPY"
+      },
+      {
+        "heading": "Scalping and the listed time windows",
+        "body": "Reviewed explanation; original training notes retained\nScalping describes short holding periods; high trading volume is neither guaranteed nor a definition of every scalping strategy. The six time windows in the source are study notes, not confirmed exchange hours or an official announcement schedule. In particular, 2:22 PM on an FOMC day is not presented here as the time of a Federal Reserve announcement.\nFor fixed EST (UTC−5), UTC+8 is 13 hours ahead; for EDT (UTC−4), it is 12 hours ahead. The printed EST conversions follow the 13-hour difference, with the relevant next-day rollover. Use a date-aware America/New_York clock for an actual session rather than treating EST as year-round Eastern local time.\nScalping\nHold position for just a few seconds or minutes\nHigh trading volume\n7:00 AM – 9:00 AM EST → 8:00 PM – 10:00 PM GMT+8\n11:11 AM EST → 12:11 AM GMT+8\n11:00 AM – 1:00 PM EST →12:00 AM – 2:00 AM GMT+8\n2:22 PM EST (FOMC day) → 3:22 AM GMT+8\n7:00 PM – 8:30 PM EST → 8:00 AM – 9:30 AM GMT+8\n1:00 AM – 3:00 AM EST → 2:00 PM – 4:00 PM GMT+8"
+      }
+    ],
+    "sources": [
+      {
+        "title": "US Naval Observatory: Eastern standard and daylight time",
+        "url": "https://aa.usno.navy.mil/faq/us_tzones"
+      }
+    ]
+  },
+  {
+    "slug": "trading-risk-position-sizing",
+    "title": "Trading risk: position size, correlated exposure and loss limits",
+    "topic": "Trading & Market Analysis",
+    "group": "Risk & execution",
+    "summary": "Connect a loss budget to stop distance, contract value, costs and total open exposure.",
+    "sections": [
+      {
+        "heading": "The source risk-budget examples",
+        "body": "Reviewed explanation; original training notes retained\nThe notes propose 1–2% per trade, 5% open risk and a 10% monthly limit. These are supplied examples, not universal safe levels. Define whether each percentage uses starting equity, current equity or another base, how losses/exposure are measured, and what action follows a breach.\nCorrelated positions and shared currencies can concentrate risk even when separate trade limits are respected. Margin, leverage, gaps and execution constraints can produce losses beyond a stop-based estimate. ASL and TSL appear to concern initial/trailing stops in context, but ASL is not expanded by the source. The wording trading lost size is retained as an apparent reference to lot/position sizing.\nRisk management\n1-2% per trade\nOpen risk 5%: how many trades at the same time\nMonthly limit 10%\nUpon entry, limit your initial risk using the ASL\nAs the market moves, manage your subsequent risk using the TSL\nCalculate your reward versus risk ratio\nCalculate your trading lost size"
+      },
+      {
+        "heading": "Stop distance follows the invalidation question",
+        "body": "Reviewed explanation; original training notes retained\nThe source suggests wider stops for reversals and smaller stops for trends. Neither relationship is universal. If a wider stop is justified by the setup, sizing must be reconsidered within the same loss budget; do not increase quantity or stop distance merely to recover a loss.\nStop loss\nTrend reversal to put a larger stop loss as it is riskier\nAlready on trend can put a smaller stop loss"
+      },
+      {
+        "heading": "Hit rate, reward-to-risk and entry timing",
+        "body": "Reviewed explanation; original training notes retained\nA high win rate can coexist with negative expectancy, and a large planned reward-to-risk ratio can coexist with frequent losses. Approximate net expectancy is win probability × average win − loss probability × average loss − average costs. A later entry changes both distance to invalidation and remaining target distance; neither risk direction nor profitability follows from early/late alone.\nTrade-off\nA balance achieved between 2 desirable but incompatible features; a compromise\nHit rate vs. reward-to-risk ratio (RRR)\nEarly entry vs. profit potential\nEntering later may have a higher risk as the stop loss is further"
+      },
+      {
+        "heading": "Sizing from a stated loss budget",
+        "body": "For a simple linear instrument, divide a hypothetical cash risk budget by estimated loss per unit at the stop, including a defensible allowance for per-unit costs. Then round down to the permitted quantity and check contract, tick/pip and account-currency conversions. Nonlinear instruments require scenario-based valuation instead.\nArithmetic example only: a 50-unit cash budget and 12-unit estimated loss per contract allow at most four whole contracts under those assumptions. A worse fill, changed conversion rate or gap can exceed that estimate. Margin required to open a position is a separate number."
+      }
+    ],
+    "sources": [
+      {
+        "title": "CFTC: risks of retail OTC forex",
+        "url": "https://www.cftc.gov/sites/default/files/2022-08/Must%20Know_Forex_FINAL%20%28002%29.pdf"
+      },
+      {
+        "title": "Investor.gov: market, limit and stop orders",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/types-orders"
+      }
+    ]
+  },
+  {
+    "slug": "trading-orders-execution",
+    "title": "Orders and exits: triggers, fills, stops and partial profits",
+    "topic": "Trading & Market Analysis",
+    "group": "Risk & execution",
+    "summary": "Distinguish order mechanics from setup labels and make exit assumptions explicit.",
+    "sections": [
+      {
+        "heading": "Market, limit and stop entries",
+        "body": "Reviewed explanation; original training notes retained\nA market order prioritizes execution rather than a guaranteed price. A limit specifies a price constraint and may not fill. A stop triggers when a threshold is reached and can then execute at a different price, depending on the order/product. The source associates limits with reversals and stops with breakouts; those are strategy examples, not the definitions of the orders. Waiting for a bar close changes timing but does not prove a signal.\nTrade entry\nMarket order: buy/sell immediately\nLimit order: queue to buy at lower or sell at higher (reversal)\nStop order: queue to buy at higher or sell at lower (breakout)\nPlace a trade only after a bar closes (to confirm the bullish or bearish candle)"
+      },
+      {
+        "heading": "Initial stops and trailing decisions",
+        "body": "Reviewed explanation; original training notes retained\nThe notes place stops near prior swings, zones or signal bars and suggest trailing after higher highs/lower lows. These are setup conventions requiring precise definitions. Moving a stop farther away increases the planned loss at fixed size; a protective order does not guarantee its stop price. A trailing rule must also specify update timing and treatment of gaps.\nStop loss\nNever shift it to increase your risk\nPlace slightly above or below the previous swing\nPlace slightly above or below a key support/resistance zone\nPlace slightly above or below signal bars\nTrailing stop.\nTrail only when the price hits the higher high or lower low."
+      },
+      {
+        "heading": "Targets and measured moves",
+        "body": "Reviewed explanation; original training notes retained\nNext-level targets, measured moves and pattern projections describe possible scenarios. A strong first leg does not ensure a matching second leg. Define the projection anchor, invalidation and treatment of partial fills rather than treating the drawing as a price obligation.\nTarget price\nTarget the next major support/resistance zone\nMeasure move (MM): if the 1st leg is strong, the 2nd leg is likely to follow\nPrice pattern projections: based on common chart patterns like flags, pennants, rectangles, triangles, double top/bottom, head and shoulders, cup and handle"
+      },
+      {
+        "heading": "News and the proposal to widen a stop",
+        "body": "Reviewed explanation; original training notes retained\nThe isolated source instruction liquidate your position or set the stop loss much further has no sufficient conditions or risk limit. Widening a stop at unchanged size increases planned exposure and conflicts with the source rule not to increase risk. Event exposure needs a prewritten decision about holding, reducing or closing, broker mechanics and permitted risk; no blanket instruction is inferred.\nLiquidate your position or set the stop loss much further\nFundamentals (news)"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Investor.gov: market, limit and stop orders",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/types-orders"
+      }
+    ]
+  },
+  {
+    "slug": "trading-regimes-setups",
+    "title": "Market regimes and the swing, turn, bounce and break playbook",
+    "topic": "Trading & Market Analysis",
+    "group": "Price action & setups",
+    "summary": "Compare trend/volatility regimes and the full source setup conditions, including choppy conditions to avoid.",
+    "sections": [
+      {
+        "heading": "Four source regime types",
+        "body": "Reviewed explanation; original training notes retained\nThe source crosses high/low trend with high/low volatility. Its Type 1/2 descriptions emphasize downtrends but the categories need not be one-directional. EMA-bW 20 is unclear; KC-20 appears to refer to a Keltner-channel setting, but the band formula is absent. The Type 3 target of five times a breakout level has no defined distance or unit and is not a usable target specification.\nType 1\nHigh trend, low volatility\nSteady downtrend swings\nSmall counter-trend swings\nCan use EMA-bW 20 to check for pullback\nType 2\nHigh trend, high volatility\nErratic downtrend swings\nLarge counter-trend swings\nCan add KC-20 to see price boundary.\nType 3\nLow trend, low volatility\nWait for breakouts\nTP can be set with 5x the level of the breakout\nOscillators like RSI and Stochastic may work here\nType 4\nLow trend, high volatility\nBuy low, sell high"
+      },
+      {
+        "heading": "Swing: pullbacks within a trend",
+        "body": "The source checklist looks for a prior trend, EMA-20 pullback, small bars/volume, confluence, early tests and unobstructed space. These are proposed conditions to operationalize; angle, relative volume and terms such as clear skies need definitions.\nSwing\nTrend to range, controlled\nStrong prior trend\nEMA sloping nicely\nMost bars on one side of EMA\nSeries of strong trend bars with little overlap\nPast 10-20 bars have not touched EMA\nWeak pullback to EMA-20\nSmall bars and low volume\nConfluence with trendline or S/R zone\nTrend still relatively new\nFirst 1-2 tests\nNo major support and resistance zones ahead\nClear skies territory\nAvoid pullbacks after a spike\nIf the angle of trend is too sharp, possible exhaustion moves\nFlags and pennants can be used here\nTrade within channel and trend"
+      },
+      {
+        "heading": "Turn: reversal, neckline and retest",
+        "body": "Reviewed explanation; original training notes retained\nThe source describes a large pullback breaking a trendline/EMA, a weak attempt to resume, changed swings, and double-top/bottom or head-and-shoulders retests. Its 45-degree trendline depends on chart scaling; it is not invariant evidence.\nThe phrase lower high (bearish) or higher lower (bearish) is inconsistent. A lower high can describe weakening upward structure; higher low is normally the contrasting upward-structure description. The intended second label is not certain. A head-to-neckline target and the Type 1,2,3/4,1 sequence are teaching hypotheses, not established universal transitions.\nTurn\nRange to trend, reversal\nCriterias to trade\nStart with large pullback which breaks the major trendline (45 degree)\nTrendline is significant: prior failed tests\nLate stage trend\nEMA-20 will also be broken\nCreates a neckline (key level)\nStrong price action and volume.\nAttempt to resume the trend is weak\nLower volume and weaker bars\nForms a lower high (bearish) or higher lower (bearish)\nEarly signs of trend changing\nChange in trending swings\nEMA changes direction and bars switch sides\nHigh volume at major turning points\nDouble top (M) / double bottom (W)\nDo not enter immediately at the top of the reversal\nEnter after the breakout pullback (neckline)\nBest to enter after the retest\nHead and shoulder / inverted head and shoulder\nEnter also after retesting the neckline\nTP can be the length from head to neckline\nWhen a trend has gone far enough, it prepares to reverse and run in the opposite direction\nUsual sequence: type 1, 2, 3/4, 1\nTrade out of the channel or trend"
+      },
+      {
+        "heading": "Bounce, break and barbwire",
+        "body": "Reviewed explanation; original training notes retained\nBounce is described as leaving and re-entering a channel/trend; Break as range-to-trend continuation. The notes mention Type 3 height, triangles, cup depth and waiting for a pullback. Barbwire refers to overlapping shadows, quickly closed gaps and a sideways EMA. The source advises avoiding it, but supplies no performance evidence. The printed sequence Type 1,3,1,3/,1 is incomplete and retained without guessing its missing character.\nBounce\nTrend to range, climatic\nTrade out of the channel or trend but re-enters the channel or trend\nBreak\nRange to trend, continuation\nUsing support and resistance.\nType 3 key resistance zone: TP can be the height of the type 3 price movement.\nDescending (bearish) and ascending (bullish) triangle shows break.\nCup and handle\nTP can be the depth of the cup.\nWait for pullback before placing a trade.\nBarbwire (breaks in between): do not trade!\nMany common gaps which close quickly with no follow-through.\nEMA sideways with no clear direction or setups.\nMany shadows with overlapping price bars.\nUsual sequence: type 1, 3, 1, 3/, 1"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "trading-indicators-reference",
+    "title": "Trading indicators: purpose, data and implementation details",
+    "topic": "Trading & Market Analysis",
+    "group": "Signals & validation",
+    "summary": "Sort trend, momentum, volatility, volume-profile and community-script names by the question they address.",
+    "sections": [
+      {
+        "heading": "Moving averages, bands, channels and volatility",
+        "body": "SMA, EMA and WMA smooth with different weighting. Bollinger bands, Keltner channels (source spelling Kelter) and Donchian channels use different constructions. Fibonacci is a drawing/ratio convention, not the same class of estimator. VIX concerns a particular options-implied volatility benchmark and is not the volatility of every traded asset.\nIndicators\nSimple moving average (SMA)\nExponential moving average (EMA)\nWeighted moving average (WMA)\nFibonacci\nBollinger Band\nKelter channel\nDonchian channel\nVIX"
+      },
+      {
+        "heading": "Profiles, scripts and named chart tools",
+        "body": "All source names are retained. Named community scripts, vendor labels and version numbers identify reading leads only; no source code, parameter export, licensing review, current availability or repainting audit was supplied. QQE and ASI are not silently expanded from guessed implementations.\nHindenburg Omen\nDeath cross\nSVP HD - Session Volume\nAuto Anchored Volume Profile\nSmart Money Concepts [LuxAlgo]\nImbalance Finder\nICT Killzones & Pivots [TFO]\nLiquidity Swings [LuxAlgo]\nICT Silver Bullet [LuxAlgo]\nBuyside & Sellside Liquidity [LuxAlgo]\nChart Champions_PVWAP\nElliott Wave [LuxAlgo]\nWilliams Alligator\nBreaker Blocks with Signals [LuxAlgo]\nVWAP with period\nTime Price Opportunity\nVolume Profile\nMoney Flow Profile [LuxAlgo]\nCumulative Volume Delta\nAccumulation Swing Index (ASI)\nMarket Structural Block & Order Block (MSB-OB)\nQQE Cross Indicator Alert v2.0 by JustUncleL\nQQE Weighted Oscillator [LuxAlgo]"
+      },
+      {
+        "heading": "Before using a plotted signal",
+        "body": "Record symbol/feed, timezone/session, chart type, indicator author/version, every setting and whether the value uses an unfinished bar. Check if historical values are revised or future information leaks into the display. Visual agreement between price-derived tools is not automatically independent confirmation."
+      }
+    ],
+    "sources": [
+      {
+        "title": "TradingView: MACD definition and scale",
+        "url": "https://www.tradingview.com/support/solutions/43000502344-moving-average-convergence-divergence-macd-indicator/"
+      },
+      {
+        "title": "TradingView: Stochastic RSI",
+        "url": "https://www.tradingview.com/support/solutions/43000502333-stochastic-rsi-stoch-rsi/"
+      }
+    ]
+  },
+  {
+    "slug": "trading-quantitative-finance",
+    "title": "Quantitative finance: models, forecasts, portfolios and trading frictions",
+    "topic": "Trading & Market Analysis",
+    "group": "Quantitative methods",
+    "summary": "Explore all 24 quantitative-finance topics plus VAR, VARMA, BVAR and Avellaneda–Stoikov in their proper roles.",
+    "sections": [
+      {
+        "heading": "VAR, VARMA, BVAR and ARIMA are models, not chart overlays",
+        "body": "Reviewed explanation; original training notes retained\nVAR models interdependencies among lagged multivariate series. VARMA adds moving-average error dynamics; it does not automatically remove overfitting. BVAR uses Bayesian priors, whose choice matters. ARIMA models differencing/autoregressive/moving-average structure. Select complexity and assess stability and forecast performance using time-respecting validation.\nVector autoregression (VAR)\nStochastic process model used to capture the linear interdependencies among multiple time series\nVector autoregression moving-average (VARMA)\nOvercome the overfitting problem inherent in VAR\nBayesian vector autoregression (BVAR)\nUses Bayesian methods to estimate a VAR\nAutoregressive integrated moving average (ARIMA)\nBetter understand the data set or to predict future trends"
+      },
+      {
+        "heading": "Avellaneda–Stoikov: market making and inventory",
+        "body": "Reviewed explanation; original training notes retained\nThe name refers to a limit-order-book market-making model associated with inventory-sensitive quotes. It is not a generic directional indicator. The underlying assumptions and estimated order arrival/fill behavior matter; a reference to the model supplies neither a runnable strategy nor a profit guarantee.\nAvellaneda stoikov"
+      },
+      {
+        "heading": "Price processes, option pricing, allocation and volatility",
+        "body": "GBM is a continuous-path model and does not include jumps by construction. BSM concerns model-based European-option valuation, not a promise of the actual market price. Mean–variance allocation depends on unstable estimated inputs and constraints. GARCH describes conditional variance dynamics, not certainty about future volatility.\nQuantitative Finance\nGeometric Brownian Motion (GBM)\nModels an asset price as continuous growth plus random market fluctuations.\nBlack–Scholes–Merton Model (BSM)\nEstimates the theoretical fair value of European-style options.\nMarkowitz Mean–Variance Optimization\nSelects portfolio weights to balance expected return against portfolio risk.\nGARCH Volatility Model\nForecasts changing market volatility using past volatility and return shocks."
+      },
+      {
+        "heading": "Dependence, hidden states, dimensions and growth",
+        "body": "Cointegration concerns stationary combinations under a specified model, not guaranteed profitable convergence. HMM state labels are model interpretations. PCA is an unsupervised transformation, not evidence of economic causality. Kelly sizing depends critically on the assumed outcome distribution and can produce substantial drawdowns.\nCointegration and Statistical Arbitrage\nIdentifies assets with a stable long-term relationship and trades temporary price divergences.\nHidden Markov Model (HMM)\nInfers hidden market regimes—such as bullish, bearish, or volatile—from observable market data.\nPrincipal Component Analysis (PCA)\nReduces many correlated market variables into a smaller set of dominant risk factors.\nKelly Criterion\nCalculates a theoretically optimal position size to maximize long-term compounded growth."
+      },
+      {
+        "heading": "Tail dependence, learning, regression and simulation",
+        "body": "Copulas separate dependence modelling from marginal distributions; tail behavior requires evidence. Neural networks and regressions need leakage controls and unseen-data evaluation. Monte Carlo produces scenarios from its chosen model, not all possible market paths. Factor and Kalman models depend on definitions and state/noise assumptions.\nCopula Tail-Dependence Modelling\nModels complex asset relationships, especially the likelihood of joint extreme losses or gains.\nHigh-Dimensional Neural Networks\nLearn complex nonlinear patterns from large sets of market features for prediction or signal generation.\nLinear Regression\nModels how one or more variables are associated with a continuous outcome, such as an asset’s future return.\nLogistic Regression\nEstimates the probability of a categorical outcome, such as whether an asset’s price will rise or fall.\nARIMA\nForecasts a time series using its past values, trends, and previous forecast errors.\nMonte Carlo Simulation\nSimulates many possible market scenarios to estimate potential returns, prices, and risks.\nFactor Models\nExplain asset returns using shared drivers such as market, value, momentum, size, or interest-rate factors.\nKalman Filter\nContinuously estimates changing hidden variables, such as a hedge ratio or underlying trend, from noisy market data."
+      },
+      {
+        "heading": "Hypothesis tests and stationarity",
+        "body": "Reviewed explanation; original training notes retained\nA hypothesis test assesses compatibility with a specified null model; it does not determine that a trading pattern is real or exclude luck. Multiple trials, dependence and strategy selection change interpretation. A stationarity test cannot certify that a market process will stay stable; distinguish null hypotheses, deterministic terms, power and structural changes.\nHypothesis Testing\nDetermines whether an observed trading pattern is statistically meaningful rather than likely due to chance.\nStationarity Tests\nCheck whether a time series has stable statistical properties required by many forecasting and mean-reversion models."
+      },
+      {
+        "heading": "Constraints, VaR and expected shortfall",
+        "body": "Reviewed explanation; original training notes retained\nPortfolio constraints limit stated exposures under the model; they do not eliminate losses. VaR is a model/distribution quantile for a specified horizon, confidence and position definition, and can be exceeded. Expected shortfall describes average loss in the worst specified tail; for continuous distributions it can be expressed as a conditional tail average. Neither is a guaranteed maximum loss, and discrete tail definitions need care.\nPortfolio Optimization and Risk Constraints\nSelect portfolio weights while controlling limits such as volatility, exposure, leverage, and concentration.\nValue at Risk (VaR)\nEstimates a loss threshold that should not be exceeded at a specified confidence level and holding period.\nExpected Shortfall (ES)\nEstimates the average loss when losses exceed the selected Value-at-Risk threshold."
+      },
+      {
+        "heading": "Transaction costs, impact and performance",
+        "body": "Distinguish fixed commissions, spreads, financing, slippage and size-dependent impact. Market impact is one component of trading friction and should not be double-counted. Compare net returns, drawdowns and uncertainty under a reproducible accounting convention.\nTransaction-Cost Models\nEstimate trading expenses such as commissions, bid–ask spreads, slippage, and market impact.\nMarket-Impact Models\nEstimate how placing an order may move the market price against the trader.\nPerformance Statistics\nMeasure a strategy’s return, risk, drawdowns, consistency, and risk-adjusted performance."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Forecasting: Principles and Practice — vector autoregressions",
+        "url": "https://otexts.com/fpp3/advanced.html#vector-autoregressions"
+      },
+      {
+        "title": "Avellaneda and Stoikov: High-frequency trading in a limit order book",
+        "url": "https://math.nyu.edu/inmemoriam/avellaneda/HighFrequencyTrading.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "trading-mindset-journal",
+    "title": "Trading discipline: planning, practice and an evidence-based journal",
+    "topic": "Trading & Market Analysis",
+    "group": "Psychology & review",
+    "summary": "Connect the training notes on consistency, mistakes, greed and collaboration to decisions you can review.",
+    "sections": [
+      {
+        "heading": "Mindset, money and method",
+        "body": "Reviewed explanation; original training notes retained\nThe source assigns mindset 60%, money 30% and method 10%. No measurement or study supports those weights here. Small-account results may not scale because liquidity, impact, leverage, operations and behavior change. The cautions about chasing, revenge trading, averaging down and premature exits belong in a defined plan; neither feeling committed nor following a plan guarantees a favorable outcome.\nDo not overtrade but with a significant amount to have skin in the game\nSuccessful trading priority\nMindset (60%)\nConsistency = repeatability = scalability = $$$\nIf you can make profit on a small account, you can make profit on a big account\nDo not chase a missed trade as good entry = easy risk management\nAvoid impulsive trading (too frequently) and revenge trading (ego trading)\nDo not average down and hope to breakeven\nStick to a plan and do not exit prematurely\nTrade objectively based on the market and not what you think\nMoney (30%)\nMethod (10%)"
+      },
+      {
+        "heading": "Five mistake themes",
+        "body": "Keep the five source themes: weak planning, inadequate practice, psychology, greed/complacency and isolation. Collaboration can reveal errors but can also spread groupthink; practice and gradual scaling still need outcome evidence.\nMistakes to avoid\nNo solid trading plan\nPlanning vs. execution\nPlan for every possible outcome\nDo not plan while trading\nLack of practice\nTake baby steps before running\nKnow how to use your tools\nPractice makes perfect\nWrong psychology\nKnow when to cut losses\nDo not overtrade\nAvoid revenge trading\nBeing greedy\nRole of luck vs. skill\nDo not be complacent\nScale up your account gradually\nLone wolf mentality\nWolves hunt in packs\nDo not hoard trading ideas\nThink in abundance"
+      },
+      {
+        "heading": "A journal that separates process from outcome",
+        "body": "Before a trade or simulation, record the rule version, context, trigger, invalidation, planned size and exits. Afterward, record actual fills, costs, changes and rule deviations. Review winning rule violations and losing compliant trades separately so a lucky outcome does not certify the decision.\nEvaluate a series of observations with uncertainty and market context. A single loss does not automatically invalidate a rule, and a short winning run does not establish skill."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "trading-behavioral-biases",
+    "title": "Behavioral biases: 41 prompts for reviewing trading decisions",
+    "topic": "Trading & Market Analysis",
+    "group": "Psychology & review",
+    "summary": "Explore the full source bias list, with clarified meanings and practical review questions.",
+    "sections": [
+      {
+        "heading": "Read the original bias prompts with care",
+        "body": "Reviewed explanation; original training notes retained\nThe source mixes cognitive biases, statistical selection effects, an optical illusion, credibility judgments and prospect theory. Several brief definitions are incomplete or misleading. The grouped tables clarify the distinctions and retain every original term/prompt in this disclosure. The review questions are editorial aids, not validated psychological tests.\nBehavioural biases\nOverconfidence bias\nHow can I ever be wrong\nEndowment bias\nDo you really “own” a trading position\nConservatism bias\nAre you afraid of change\nRegret aversion bias\nWould you rather be right, or avoid being wrong\nLoss Aversion bias\nWhy a loss has twice the psychological impact\nCognitive Dissonance bias\nThis can’t be true\nRepresentativeness bias\nThe dangers of a small sample size\nConfirmation bias\nI see only what I want to see\nHindsight bias\nWhen people say “I knew it all along”\nSelf-attribution bias\nDon’t confuse brains with a bull market\nOptimism bias\nWhy do most people think they can beat the market\nHerd instinct bias\nDriven by fear, flight-to-safety reaction\nHometown bias\nOnly promote what they know\nRecency bias\nLet recent events weigh in heavily\nSurvivorship bias\nSuccessful subgroup visible to entire group\nBackfill bias\nInconsistent performance inflates performance\nAnchoring bias\nOverrely on early information\nAvailability bias\nOverrely on immediate information\nAction bias\nFavours actions over inaction\nOmission bias\nFavour inaction over action\nSelf-serving bias\nTo maintain and enhance self-esteem\nSelf-selection bias\nChoose to join a group instead of being classified\nAssociation bias\nInfluenced by association\nIn-group Out-group bias\nFavours people within the same group\nInformation bias\nNot considering any other criteria\nObserver bias\nSystematic divergence from accurate facts\nStatus-quo bias\nPrefer to maintain one's state\nLiking bias\nPrefer to say yes to people we know or like\nBlind-spot bias\nThe judgement of others\nNarrative fallacy\nProcess logical order more easily\nGambler's fallacy\nChance will be higher after many losses\nConjunction fallacy\nA conjoint set is likelier\nSunk cost fallacy\nFollow through something heavily invested\nPlanning fallacy\nToo optimistic about one's estimates\nIllusion of control\nOverestimate their ability to control events\nMuller-Lyer illusion\nSame length but viewed differently\nSource credibility\nTrust what others said\nRepetition effect\nMore occurrence makes it more credible\nProspect theory\nDecision affected by more options\nGroupthink\nReach a consensus without critical reasoning\nPareidolia\nPerceiving a familiar pattern where none exists"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nobel Prize: scientific background on decision making under uncertainty",
+        "url": "https://www.nobelprize.org/uploads/2018/06/advanced-economicsciences2002-3.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "trading-strategy-lab",
+    "title": "Forex strategy notes: specifications, ambiguities and test design",
+    "topic": "Trading & Market Analysis",
+    "group": "Signals & validation",
+    "summary": "Keep every supplied strategy setting and rule while separating usable specifications from unresolved shorthand.",
+    "sections": [
+      {
+        "heading": "Bollinger EMA-20, standard deviation 3",
+        "body": "Reviewed explanation; original training notes retained\nThe source proposes buying at the lower band and selling at the upper band. Define the band basis and deviation calculation, touch condition, closed-bar timing, entry, stop, exit, event filter and costs. A band touch does not establish that price will return toward the center.\nForex Strategies\nBollinger band EMA-20, StdDev-3\nBuy when the candle touches the lower line\nSell when the candle touches the upper line"
+      },
+      {
+        "heading": "Bollinger EMA-30, deviation 2, and RSI EMA-13",
+        "body": "Reviewed explanation; original training notes retained\nThe note combines a band touch with RSI 30/70, avoids a Type 3 breakout and describes a second touch/divergent wide condition. RSI EMA-13 is ambiguous: it could refer to the RSI length, an EMA of RSI, or custom smoothing. The exact divergent/second-touch condition and order of events are missing; no single algorithm is inferred.\nBollinger band: EMA-30. StdDev-2 + RSI: EMA-13\nEnter trade when the line touches candle along with RSI touching 30/70\nDo not trade during a type-3 breakout\nEnter trade in a divergent (nice and wide): the 2nd time candle touches line after, candle touches line + RSI touching limit"
+      },
+      {
+        "heading": "Stochastic RSI with EMA-200",
+        "body": "Reviewed explanation; original training notes retained\nThe supplied rules buy when EMA-200 lies below price and Stochastic RSI crosses above 80, and sell when the reverse trend condition accompanies a cross below 20. This resembles a momentum-oriented threshold rule, not necessarily a typo to reverse. Define which lines cross what, whether the display scale is 0–1 or 0–100, and the unfinished-bar policy.\nStochastic RSI: default + EMA-200\nBuy when EMA-200 is below the chart and Stochastic RSI lines cross above 80%\nSell when EMA-200 is above the chart and Stochastic RSI lines cross below 20%"
+      },
+      {
+        "heading": "Fibonacci retracement",
+        "body": "Reviewed explanation; original training notes retained\nThe source asks for high/low anchors and a bounce from a retracement. It does not specify swing selection, ratio, bounce threshold or invalidation. Those missing choices materially change a test.\nFibonacci retracement\nFibonacci lines at top and bottom, wait for retracement to bounce before placing trade"
+      },
+      {
+        "heading": "MACD and the unclear 50% histogram rule",
+        "body": "Reviewed explanation; original training notes retained\nStandard MACD is an unbounded difference between moving averages with a histogram around zero, not an oscillator with a standard 50% level. The supplied under/above 50% histogram rule is unresolved; it is not silently translated into a zero-line or signal-line crossover.\nMACD\nBuy when the line crosses under 50% histogram + price above EMA-200\nSell when the line crosses above the 50% histogram + price below the EMA-200"
+      },
+      {
+        "heading": "Ichimoku weak/strong labels",
+        "body": "Reviewed explanation; original training notes retained\nThe source combines cloud above/below and line above/below with weak/strong buy/sell labels. It does not identify which line, its reference, the cloud component or displacement. Keep the rule as incomplete rather than inventing an Ichimoku implementation.\nIchimoku cloud\nCloud above or line above: weak sell / cloud below or line below: weak buy\nCloud above and line above: strong sell / cloud below and line below: strong buy"
+      },
+      {
+        "heading": "Daily strategy: H4 direction and M15 setup",
+        "body": "Reviewed explanation; original training notes retained\nThe source uses H4 direction, M15 setup/stop and H4 targets, with double-low/double-high candles, clean left, structure taps and optional partial exits. These terms need detection rules. The example takes 50% at 1:1, 20% at 1:2 and leaves 30% as a runner; results depend on the runner and stop policy. A stop slightly above the M15 candle needs direction-specific interpretation, especially for a buy.\nDaily strategy\nH4 level determines trading trend, M15 to determine the setup\nA double low if selling or double high candle if buying\nA clean left or, in some circumstances, a break in structure, structure taps\nSL to be placed a little bit above the M15 candle. TP is determined through H4\nSecuring profit is up to you, whichever way you are comfortable\nCan be 1:1 take 50%, then 1:2 take 20% and the rest leave runner - Check stop loss range as well"
+      },
+      {
+        "heading": "Tekan Seja: Stochastic and MA 5/15",
+        "body": "Reviewed explanation; original training notes retained\nThe source lists Stochastic 20,1,1 (hidden), levels 10/20/50/80/90, and MA 5/15 crossing 20/80 for sell/buy. It does not say whether the moving averages are applied to price or oscillator output, their averaging type, or the exact crossing order. The name and all settings are retained, but a runnable rule cannot be reconstructed confidently.\nTekan Seja\nStochastic\n20, 1, 1 - hidden\nLines - 10, 20 (sell), 50, 80 (buy), 90\nMA 5 & 15\nBoth MAs crosses 20 or 80 sell and buy respectively"
+      },
+      {
+        "heading": "A minimum reproducible strategy specification",
+        "body": "Specify instrument/feed, timezone, bar construction, calculation/settings, entry timing, invalidation, quantity, costs and exit conditions. Record which ambiguities remain. Keep parameter development separate from evaluation on later or otherwise genuinely unseen data.\nPaper/replay results are conditional simulations. Check look-ahead, survivorship, repeated strategy/parameter trials, data revisions, financing, bid–ask execution, slippage and missed/partial fills. Report net outcomes, drawdowns and uncertainty rather than only the best chart examples."
+      }
+    ],
+    "sources": [
+      {
+        "title": "TradingView: MACD definition and scale",
+        "url": "https://www.tradingview.com/support/solutions/43000502344-moving-average-convergence-divergence-macd-indicator/"
+      },
+      {
+        "title": "TradingView: Stochastic RSI",
+        "url": "https://www.tradingview.com/support/solutions/43000502333-stochastic-rsi-stoch-rsi/"
+      }
+    ]
+  },
+  {
+    "slug": "trading-tools-validation",
+    "title": "Trading resources, backtesting limits and missing material",
+    "topic": "Trading & Market Analysis",
+    "group": "Signals & validation",
+    "summary": "Find the five linked resources, distinguish their purposes, and check what this upload does and does not contain.",
+    "sections": [
+      {
+        "heading": "Charting, execution, tracking and linked resources",
+        "body": "The source names TradingView, MetaTrader and Myfxbook, then five external resources. Links were checked on 6 November 2026 for their stated page purpose. Availability, pricing and features can change; no endorsement or full tool audit is implied.\nTools\nTradingView: charting\nMetaTrader: trading\nMyFxBook: tracing\nCalculator: https://www.myfxbook.com/en/forex-calculators/position-size\nEconomic calendar: https://www.forexfactory.com/calendar\nTimezone: https://everytimezone.com/\nCurrency strength: https://www.fxblue.com/market-data/currency-strength\nPortfolio backtester: https://www.portfoliovisualizer.com/backtest-portfolio"
+      },
+      {
+        "heading": "An unclear timing reminder",
+        "body": "Reviewed explanation; original training notes retained\nThe instruction do not trade 5 to 15 minutes after the trade is internally unclear. It may concern an event or prior trade, but no missing word or universal waiting period is invented.\nDo not trade 5 to 15 minutes after the trade, wait for the trend to establish first"
+      },
+      {
+        "heading": "Referenced book not supplied",
+        "body": "Reviewed explanation; original training notes retained\nThe document names Beyond The Markets - OrientFX.pdf, but that PDF is absent from the archive. This entry is a reading lead only: no book text, contents, author, edition or licensed source can be reconstructed from the filename.\nBooks\n[Beyond The Markets - OrientFX.pdf]"
+      },
+      {
+        "heading": "Resource purposes and boundaries",
+        "body": "A position-size calculator needs contract/account inputs; an event calendar needs date/timezone and confirmation against the issuing body. Currency-strength views depend on normalization and lookback. A portfolio allocation backtest is not a tick-level execution simulator for a short-term FX strategy. These are external pages, not embedded services or synchronized live market data."
+      },
+      {
+        "heading": "Material still needed for stronger evaluation",
+        "body": "No supplied dataset, annotated trade log, complete script settings, audited performance, brokerage contract specifications, original seminar recording or underlying book PDF accompanies the notes. The images provide study sketches, not a measured backtest. Missing material is identified rather than fabricated."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Myfxbook: supplied position-size calculator",
+        "url": "https://www.myfxbook.com/en/forex-calculators/position-size"
+      },
+      {
+        "title": "Forex Factory: supplied economic calendar",
+        "url": "https://www.forexfactory.com/calendar"
+      },
+      {
+        "title": "Every Time Zone: supplied time-zone comparison",
+        "url": "https://everytimezone.com/"
+      },
+      {
+        "title": "FX Blue: supplied currency-strength view",
+        "url": "https://www.fxblue.com/market-data/currency-strength"
+      },
+      {
+        "title": "Portfolio Visualizer: supplied portfolio backtester",
+        "url": "https://www.portfoliovisualizer.com/backtest-portfolio"
+      }
+    ]
   },
   {
     "slug": "strategy-growth",

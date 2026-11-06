@@ -14,6 +14,7 @@ import { RelationshipDiagram, type RelationshipDiagramData } from './relationshi
 import { AcademicReadingList } from './academic-reading-list';
 import { AcademicReferenceDirectory } from './academic-reference-directory';
 import academicReferences from '../../../../lib/library/business/academic-references.json';
+import { PricePatternGallery, type PricePanel } from './price-pattern-gallery';
 import styles from './collection-guide.module.css';
 
 type Guide = typeof guides[number];
@@ -64,13 +65,14 @@ function DetailBlock({ block, caption }: { block: Block; caption: string }) {
 type Visual = Pick<Guide['figures'][number], 'title' | 'kind' | 'headers' | 'rows' | 'note'> & {
   sourceImage?: SourceImageRecord;
   diagram?: RelationshipDiagramData;
+  gallery?: PricePanel[];
   plot?: { xLabel: string; yLabel: string; lines: { label: string; path: string }[] };
   grid?: { xLabel: string; yLabel: string; points: { x: number; y: number; label: string }[] };
 };
 
 function Comparison({ figure }: { figure: Visual }) {
   const table = <><p className={styles.tableHint}>Scroll sideways if needed to see every column.</p><div className={`${styles.tableScroll} ${figure.headers.length === 2 ? styles.compactTable : ''}`} tabIndex={0} role="region" aria-label={`${figure.title}: scrollable comparison`}><table><caption className={styles.srOnly}>{figure.title}</caption><thead><tr>{figure.headers.map((h) => <th scope="col" key={h}>{h}</th>)}</tr></thead><tbody>{figure.rows.map((row, i) => <tr key={i}>{row.map((cell, j) => j === 0 ? <th scope="row" key={j}>{cell}</th> : <td key={j}>{cell}</td>)}</tr>)}</tbody></table></div></>;
-  return figure.diagram && figure.rows.length > 6
+  return (figure.diagram || figure.gallery) && figure.rows.length > 6
     ? <details className={styles.imageDisclosure}><summary>Read all diagram labels and relationships</summary>{table}</details>
     : table;
 }
@@ -78,6 +80,7 @@ function Comparison({ figure }: { figure: Visual }) {
 function Figure({ figure }: { figure: Visual }) {
   return <figure className={styles.figure}>
     <figcaption>{figure.title}</figcaption>
+    {figure.gallery && <PricePatternGallery panels={figure.gallery} />}
     {figure.diagram && <><p className={styles.figureNote}>Scroll sideways if needed to explore the diagram. The comparison below contains its full text and relationships.</p><RelationshipDiagram diagram={figure.diagram} title={figure.title} /></>}
     {figure.grid && <svg className={styles.managementGrid} viewBox="0 0 360 330" role="img" aria-label={`${figure.title}. Horizontal axis: ${figure.grid.xLabel}; vertical axis: ${figure.grid.yLabel}. Both run from 1 to 9. The five positions and their descriptions follow in the table.`}>
       {Array.from({ length: 10 }, (_, i) => <path key={i} d={`M${65 + i * 28} 25 V277 M65 ${25 + i * 28} H317`} fill="none" stroke="#d3caed" />)}

@@ -104,6 +104,7 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
     plan = json.loads((HERE / batch['plan']).read_text())
     figures = json.loads((HERE / batch['figures']).read_text()) if batch['figures'] else []
     equations = json.loads((HERE / batch['equations']).read_text()) if batch.get('equations') else {}
+    reviewed_links = json.loads((HERE / batch['links']).read_text()) if batch.get('links') else {}
     formula_reviews = json.loads((HERE / batch['formulas']).read_text()) if batch.get('formulas') else None
     formula_references = json.loads((HERE / 'accounting-references.json').read_text()) if formula_reviews is not None else None
     with zipfile.ZipFile(archive) as zipped:
@@ -113,11 +114,12 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
         if bibliography:
             expected_names.add(bibliography['document'])
         assert set(zipped.namelist()) == expected_names, 'Unexpected archive contents; review first'
-        documents = {name: read_document(name, zipped.read(name), equations.get(name, ())) for name in zipped.namelist() if name.endswith('.docx')}
+        documents = {name: read_document(name, zipped.read(name), equations.get(name, ()), reviewed_links.get(name, ())) for name in zipped.namelist() if name.endswith('.docx')}
         if bibliography:
             workbook = read_workbook(bibliography['document'], zipped.read(bibliography['document']))
             academic_entries.extend(reference_catalogue(workbook, json.loads((HERE / bibliography['reviews']).read_text())))
         assert set(equations) <= set(documents), 'Unknown equation document'
+        assert set(reviewed_links) <= set(documents), 'Unknown linked document'
     if formula_reviews is not None:
         formula_reviews = {review['index']: review for review in formula_reviews}
         expected = {p['index'] for p in documents['Management Accounting.docx']['paragraphs'] if '=' in p['text']}
@@ -236,7 +238,7 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
             assert image['id'] and image['alt'] and image['publications']
             for key in ('preview', 'full'):
                 asset = ROOT / 'apps/web/public' / image[key].lstrip('/')
-                assert asset.is_file() and asset.resolve().is_relative_to((ROOT / 'apps/web/public/library/beliefs').resolve())
+                assert asset.is_file() and asset.resolve().is_relative_to((ROOT / 'apps/web/public/library').resolve())
                 assert hashlib.sha256(asset.read_bytes()).hexdigest() == image[key + 'Sha256'], 'Changed reviewed image asset'
             assert all(p['url'].startswith('https://') and p['title'] for p in image['publications'])
         if f['kind'] == 'network':
@@ -250,6 +252,17 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
             plot = f['plot']
             assert plot['xLabel'] and plot['yLabel'] and 1 <= len(plot['lines']) <= 2
             assert all(line['label'] and line['path'].startswith('M') for line in plot['lines']), 'Incomplete conceptual curve'
+        if f.get('gallery'):
+            panels = f['gallery']
+            assert len({p['sourcePosition'] for p in panels}) == len(panels), 'Duplicate pattern placement'
+            for panel in panels:
+                assert panel['title'] and panel['description'] and panel['group'], 'Incomplete pattern explanation'
+                assert panel['title'] in json.dumps(f['rows'], ensure_ascii=False), 'Unmapped pattern title'
+                assert panel['paths'] or panel['candles'] or f.get('sourceImage'), 'Pattern needs a sketch or complete source reference'
+                assert all(path['d'].startswith('M') and path['role'] in ('price', 'guide') for path in panel['paths'])
+                assert all(0 <= c['high'] <= min(c['open'], c['close']) <= max(c['open'], c['close']) <= c['low'] <= 160
+                           and 6 <= c['x'] <= 234 for c in panel['candles']), 'Invalid candle geometry'
+                assert all(5 <= label['x'] <= 235 and 10 <= label['y'] <= 150 for label in panel['labels']), 'Clipped pattern annotation'
         if f.get('diagram'):
             diagram = f['diagram']
             nodes = {node['id']: node for node in diagram['nodes']}
@@ -303,7 +316,7 @@ for collection in collections:
 reference_by_id = {entry['id']: entry for entry in academic_entries}
 for article in articles.values():
     diagram_sections = [dict(heading=f['title'], body='\n'.join([*f['headers'], *[cell for row in f['rows'] for cell in row], f['note']]))
-                        for f in article['figures'] if f.get('diagram')]
+                        for f in article['figures'] if f.get('diagram') or f.get('gallery')]
     reading_ids = [identifier for section in article['sections'] for block in section['blocks']
                    if block['kind'] == 'academic-readings' for identifier in block['referenceIds']]
     if article['format'] == 'reference-index':

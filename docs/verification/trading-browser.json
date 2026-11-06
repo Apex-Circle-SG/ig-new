@@ -1,0 +1,861 @@
+{
+  "renders": 40,
+  "accessibilityAudits": 16,
+  "checkedPassages": 1432,
+  "disclosureChecks": 78,
+  "sourceFigureChecks": 12,
+  "routeChecks": 582,
+  "sitemapCatalogueEntries": 582,
+  "results": [
+    {
+      "width": 390,
+      "slug": "trading-foundations",
+      "status": 200,
+      "title": "Trading foundations: evidence, objectives and realistic expectations",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "market-structure-levels",
+      "status": 200,
+      "title": "Read market structure: swings, levels, volume and relative strength",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "candlestick-pattern-atlas",
+      "status": 200,
+      "title": "Candlestick atlas: read bodies, wicks and sequences",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "harmonic-pattern-atlas",
+      "status": 200,
+      "title": "Harmonic patterns: legs, ratios and source inconsistencies",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "classical-chart-patterns",
+      "status": 200,
+      "title": "Chart-pattern atlas: reversals, ranges, channels and wave studies",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "smc-price-action",
+      "status": 200,
+      "title": "SMC, ICT and institutional price-action vocabulary",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "trading-analysis-checklist",
+      "status": 200,
+      "title": "A trading checklist: context, levels, trigger and exit assumptions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "trading-styles-sessions",
+      "status": 200,
+      "title": "Trading styles, timeframes, currency pairs and session clocks",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "trading-risk-position-sizing",
+      "status": 200,
+      "title": "Trading risk: position size, correlated exposure and loss limits",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "trading-orders-execution",
+      "status": 200,
+      "title": "Orders and exits: triggers, fills, stops and partial profits",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "trading-regimes-setups",
+      "status": 200,
+      "title": "Market regimes and the swing, turn, bounce and break playbook",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "trading-indicators-reference",
+      "status": 200,
+      "title": "Trading indicators: purpose, data and implementation details",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "trading-quantitative-finance",
+      "status": 200,
+      "title": "Quantitative finance: models, forecasts, portfolios and trading frictions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "trading-mindset-journal",
+      "status": 200,
+      "title": "Trading discipline: planning, practice and an evidence-based journal",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "trading-behavioral-biases",
+      "status": 200,
+      "title": "Behavioral biases: 41 prompts for reviewing trading decisions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "trading-strategy-lab",
+      "status": 200,
+      "title": "Forex strategy notes: specifications, ambiguities and test design",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "trading-tools-validation",
+      "status": 200,
+      "title": "Trading resources, backtesting limits and missing material",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "investment-behavior-returns",
+      "status": 200,
+      "title": "Investing maxims, decision behavior and compounded returns",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "investment-risk-measures",
+      "status": 200,
+      "title": "Read investment risk and performance measures",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "trading-market-analysis",
+      "status": 200,
+      "title": "Trading & Market Analysis",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "trading-foundations",
+      "status": 200,
+      "title": "Trading foundations: evidence, objectives and realistic expectations",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "market-structure-levels",
+      "status": 200,
+      "title": "Read market structure: swings, levels, volume and relative strength",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "candlestick-pattern-atlas",
+      "status": 200,
+      "title": "Candlestick atlas: read bodies, wicks and sequences",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "harmonic-pattern-atlas",
+      "status": 200,
+      "title": "Harmonic patterns: legs, ratios and source inconsistencies",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "classical-chart-patterns",
+      "status": 200,
+      "title": "Chart-pattern atlas: reversals, ranges, channels and wave studies",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "smc-price-action",
+      "status": 200,
+      "title": "SMC, ICT and institutional price-action vocabulary",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "trading-analysis-checklist",
+      "status": 200,
+      "title": "A trading checklist: context, levels, trigger and exit assumptions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "trading-styles-sessions",
+      "status": 200,
+      "title": "Trading styles, timeframes, currency pairs and session clocks",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "trading-risk-position-sizing",
+      "status": 200,
+      "title": "Trading risk: position size, correlated exposure and loss limits",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "trading-orders-execution",
+      "status": 200,
+      "title": "Orders and exits: triggers, fills, stops and partial profits",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "trading-regimes-setups",
+      "status": 200,
+      "title": "Market regimes and the swing, turn, bounce and break playbook",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "trading-indicators-reference",
+      "status": 200,
+      "title": "Trading indicators: purpose, data and implementation details",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "trading-quantitative-finance",
+      "status": 200,
+      "title": "Quantitative finance: models, forecasts, portfolios and trading frictions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "trading-mindset-journal",
+      "status": 200,
+      "title": "Trading discipline: planning, practice and an evidence-based journal",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "trading-behavioral-biases",
+      "status": 200,
+      "title": "Behavioral biases: 41 prompts for reviewing trading decisions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "trading-strategy-lab",
+      "status": 200,
+      "title": "Forex strategy notes: specifications, ambiguities and test design",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "trading-tools-validation",
+      "status": 200,
+      "title": "Trading resources, backtesting limits and missing material",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "investment-behavior-returns",
+      "status": 200,
+      "title": "Investing maxims, decision behavior and compounded returns",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "investment-risk-measures",
+      "status": 200,
+      "title": "Read investment risk and performance measures",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "trading-market-analysis",
+      "status": 200,
+      "title": "Trading & Market Analysis",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    }
+  ],
+  "audits": [
+    {
+      "width": 390,
+      "slug": "candlestick-pattern-atlas",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "harmonic-pattern-atlas",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "classical-chart-patterns",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "smc-price-action",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "trading-risk-position-sizing",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "trading-behavioral-biases",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "trading-strategy-lab",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "trading-market-analysis",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "candlestick-pattern-atlas",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "harmonic-pattern-atlas",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "classical-chart-patterns",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "smc-price-action",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "trading-risk-position-sizing",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "trading-behavioral-biases",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "trading-strategy-lab",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "trading-market-analysis",
+      "violations": []
+    }
+  ],
+  "sourceChecks": [
+    {
+      "width": 390,
+      "slug": "trading-foundations",
+      "sections": 5,
+      "passages": 24
+    },
+    {
+      "width": 390,
+      "slug": "market-structure-levels",
+      "sections": 5,
+      "passages": 52
+    },
+    {
+      "width": 390,
+      "slug": "candlestick-pattern-atlas",
+      "sections": 1,
+      "passages": 3
+    },
+    {
+      "width": 390,
+      "slug": "harmonic-pattern-atlas",
+      "sections": 1,
+      "passages": 83
+    },
+    {
+      "width": 390,
+      "slug": "classical-chart-patterns",
+      "sections": 1,
+      "passages": 4
+    },
+    {
+      "width": 390,
+      "slug": "smc-price-action",
+      "sections": 2,
+      "passages": 33
+    },
+    {
+      "width": 390,
+      "slug": "trading-analysis-checklist",
+      "sections": 2,
+      "passages": 45
+    },
+    {
+      "width": 390,
+      "slug": "trading-styles-sessions",
+      "sections": 3,
+      "passages": 33
+    },
+    {
+      "width": 390,
+      "slug": "trading-risk-position-sizing",
+      "sections": 4,
+      "passages": 25
+    },
+    {
+      "width": 390,
+      "slug": "trading-orders-execution",
+      "sections": 4,
+      "passages": 26
+    },
+    {
+      "width": 390,
+      "slug": "trading-regimes-setups",
+      "sections": 4,
+      "passages": 86
+    },
+    {
+      "width": 390,
+      "slug": "trading-indicators-reference",
+      "sections": 3,
+      "passages": 34
+    },
+    {
+      "width": 390,
+      "slug": "trading-quantitative-finance",
+      "sections": 8,
+      "passages": 69
+    },
+    {
+      "width": 390,
+      "slug": "trading-mindset-journal",
+      "sections": 3,
+      "passages": 39
+    },
+    {
+      "width": 390,
+      "slug": "trading-behavioral-biases",
+      "sections": 1,
+      "passages": 85
+    },
+    {
+      "width": 390,
+      "slug": "trading-strategy-lab",
+      "sections": 9,
+      "passages": 50
+    },
+    {
+      "width": 390,
+      "slug": "trading-tools-validation",
+      "sections": 5,
+      "passages": 19
+    },
+    {
+      "width": 390,
+      "slug": "investment-behavior-returns",
+      "sections": 1,
+      "passages": 3
+    },
+    {
+      "width": 390,
+      "slug": "investment-risk-measures",
+      "sections": 1,
+      "passages": 3
+    },
+    {
+      "width": 1440,
+      "slug": "trading-foundations",
+      "sections": 5,
+      "passages": 24
+    },
+    {
+      "width": 1440,
+      "slug": "market-structure-levels",
+      "sections": 5,
+      "passages": 52
+    },
+    {
+      "width": 1440,
+      "slug": "candlestick-pattern-atlas",
+      "sections": 1,
+      "passages": 3
+    },
+    {
+      "width": 1440,
+      "slug": "harmonic-pattern-atlas",
+      "sections": 1,
+      "passages": 83
+    },
+    {
+      "width": 1440,
+      "slug": "classical-chart-patterns",
+      "sections": 1,
+      "passages": 4
+    },
+    {
+      "width": 1440,
+      "slug": "smc-price-action",
+      "sections": 2,
+      "passages": 33
+    },
+    {
+      "width": 1440,
+      "slug": "trading-analysis-checklist",
+      "sections": 2,
+      "passages": 45
+    },
+    {
+      "width": 1440,
+      "slug": "trading-styles-sessions",
+      "sections": 3,
+      "passages": 33
+    },
+    {
+      "width": 1440,
+      "slug": "trading-risk-position-sizing",
+      "sections": 4,
+      "passages": 25
+    },
+    {
+      "width": 1440,
+      "slug": "trading-orders-execution",
+      "sections": 4,
+      "passages": 26
+    },
+    {
+      "width": 1440,
+      "slug": "trading-regimes-setups",
+      "sections": 4,
+      "passages": 86
+    },
+    {
+      "width": 1440,
+      "slug": "trading-indicators-reference",
+      "sections": 3,
+      "passages": 34
+    },
+    {
+      "width": 1440,
+      "slug": "trading-quantitative-finance",
+      "sections": 8,
+      "passages": 69
+    },
+    {
+      "width": 1440,
+      "slug": "trading-mindset-journal",
+      "sections": 3,
+      "passages": 39
+    },
+    {
+      "width": 1440,
+      "slug": "trading-behavioral-biases",
+      "sections": 1,
+      "passages": 85
+    },
+    {
+      "width": 1440,
+      "slug": "trading-strategy-lab",
+      "sections": 9,
+      "passages": 50
+    },
+    {
+      "width": 1440,
+      "slug": "trading-tools-validation",
+      "sections": 5,
+      "passages": 19
+    },
+    {
+      "width": 1440,
+      "slug": "investment-behavior-returns",
+      "sections": 1,
+      "passages": 3
+    },
+    {
+      "width": 1440,
+      "slug": "investment-risk-measures",
+      "sections": 1,
+      "passages": 3
+    }
+  ],
+  "visuals": [
+    {
+      "width": 390,
+      "title": "Candlestick atlas: bodies, wicks and multi-candle relationships",
+      "panels": 68,
+      "labelsFit": true,
+      "sourcePreviewBounded": true,
+      "fullSourceAccessible": true
+    },
+    {
+      "width": 390,
+      "title": "Harmonic atlas: compare legs, orientation and printed ratios",
+      "panels": 20,
+      "labelsFit": true,
+      "sourcePreviewBounded": true,
+      "fullSourceAccessible": true
+    },
+    {
+      "width": 390,
+      "title": "Classical formations: reversal and consolidation vocabulary",
+      "panels": 20,
+      "labelsFit": true,
+      "sourcePreviewBounded": true,
+      "fullSourceAccessible": true
+    },
+    {
+      "width": 390,
+      "title": "Unlabelled chart studies: levels, trendlines, channels and wave counts",
+      "panels": 48,
+      "labelsFit": true,
+      "sourcePreviewBounded": true,
+      "fullSourceAccessible": true
+    },
+    {
+      "width": 390,
+      "title": "Wolfe Wave and Adam & Eve: specialist source sketches",
+      "panels": 2,
+      "labelsFit": true,
+      "sourcePreviewBounded": true,
+      "fullSourceAccessible": true
+    },
+    {
+      "width": 390,
+      "title": "Institutional price-action study sheet: named patterns and both orientations",
+      "panels": 44,
+      "labelsFit": true,
+      "sourcePreviewBounded": true,
+      "fullSourceAccessible": true
+    },
+    {
+      "width": 1440,
+      "title": "Candlestick atlas: bodies, wicks and multi-candle relationships",
+      "panels": 68,
+      "labelsFit": true,
+      "sourcePreviewBounded": true,
+      "fullSourceAccessible": true
+    },
+    {
+      "width": 1440,
+      "title": "Harmonic atlas: compare legs, orientation and printed ratios",
+      "panels": 20,
+      "labelsFit": true,
+      "sourcePreviewBounded": true,
+      "fullSourceAccessible": true
+    },
+    {
+      "width": 1440,
+      "title": "Classical formations: reversal and consolidation vocabulary",
+      "panels": 20,
+      "labelsFit": true,
+      "sourcePreviewBounded": true,
+      "fullSourceAccessible": true
+    },
+    {
+      "width": 1440,
+      "title": "Unlabelled chart studies: levels, trendlines, channels and wave counts",
+      "panels": 48,
+      "labelsFit": true,
+      "sourcePreviewBounded": true,
+      "fullSourceAccessible": true
+    },
+    {
+      "width": 1440,
+      "title": "Wolfe Wave and Adam & Eve: specialist source sketches",
+      "panels": 2,
+      "labelsFit": true,
+      "sourcePreviewBounded": true,
+      "fullSourceAccessible": true
+    },
+    {
+      "width": 1440,
+      "title": "Institutional price-action study sheet: named patterns and both orientations",
+      "panels": 44,
+      "labelsFit": true,
+      "sourcePreviewBounded": true,
+      "fullSourceAccessible": true
+    }
+  ]
+}

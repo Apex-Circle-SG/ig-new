@@ -1,0 +1,7917 @@
+{
+  "archiveSha256": "f6545d6d1b79ff6bde6347edab290704d874547cdc0d0336fa93d4b29229543d",
+  "documents": [
+    {
+      "name": "Trading.docx",
+      "sha256": "b762a8dabcac2428b4dc8c75a4c848c7a26e48c7f948c01429e283c8dbb10832",
+      "paragraphs": [
+        {
+          "index": 0,
+          "text": "Trading",
+          "style": "",
+          "bullet": false,
+          "cell": null
+        },
+        {
+          "index": 1,
+          "text": "Candlestick",
+          "style": "2",
+          "bullet": false,
+          "cell": null
+        },
+        {
+          "index": 2,
+          "text": "Harmonics",
+          "style": "2",
+          "bullet": false,
+          "cell": null
+        },
+        {
+          "index": 3,
+          "text": "X",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 4,
+          "text": "0.786",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 5,
+          "text": "0.786",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 6,
+          "text": "0.886",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 7,
+          "text": "0.886",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 8,
+          "text": "1.130",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 9,
+          "text": "1.168",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 10,
+          "text": "1.168",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 11,
+          "text": "1.270",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 12,
+          "text": "D",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 13,
+          "text": "0.786",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 14,
+          "text": "0.786",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 15,
+          "text": "0.886",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 16,
+          "text": "1.130",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 17,
+          "text": "1.130",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 18,
+          "text": "1.168",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 19,
+          "text": "1.168",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 20,
+          "text": "1.410",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 21,
+          "text": "X",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 22,
+          "text": "1.270",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 23,
+          "text": "0.382",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 24,
+          "text": "0.618",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 25,
+          "text": "0.382",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 26,
+          "text": "0.382",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 27,
+          "text": "0.382",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 28,
+          "text": "0.886",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 29,
+          "text": "0.786",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 30,
+          "text": "B",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 31,
+          "text": "1.618",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 32,
+          "text": "0.618",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 33,
+          "text": "0.618",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 34,
+          "text": "0.500",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 35,
+          "text": "0.382",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 36,
+          "text": "0.618",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 37,
+          "text": "0.886",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 38,
+          "text": "0.786",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 39,
+          "text": "B",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            4
+          ]
+        },
+        {
+          "index": 40,
+          "text": "1.130",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            4
+          ]
+        },
+        {
+          "index": 41,
+          "text": "1.270",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            4
+          ]
+        },
+        {
+          "index": 42,
+          "text": "1.271",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            4
+          ]
+        },
+        {
+          "index": 43,
+          "text": "1.130",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            4
+          ]
+        },
+        {
+          "index": 44,
+          "text": "1.618",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            4
+          ]
+        },
+        {
+          "index": 45,
+          "text": "1.618",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            4
+          ]
+        },
+        {
+          "index": 46,
+          "text": "2.000",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            4
+          ]
+        },
+        {
+          "index": 47,
+          "text": "2.618",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            4
+          ]
+        },
+        {
+          "index": 48,
+          "text": "2.000",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            4
+          ]
+        },
+        {
+          "index": 49,
+          "text": "1.168",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            4
+          ]
+        },
+        {
+          "index": 50,
+          "text": "D",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "index": 51,
+          "text": "2.618",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "index": 52,
+          "text": "1.618",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "index": 53,
+          "text": "2.000",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "index": 54,
+          "text": "1.168",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "index": 55,
+          "text": "2.618",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "index": 56,
+          "text": "2.240",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "index": 57,
+          "text": "3.168",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "index": 58,
+          "text": "3.618",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "index": 59,
+          "text": "3.168",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "index": 60,
+          "text": "2.240",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "index": 61,
+          "text": "A",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            6
+          ]
+        },
+        {
+          "index": 62,
+          "text": "0.382",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            6
+          ]
+        },
+        {
+          "index": 63,
+          "text": "1.130",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            6
+          ]
+        },
+        {
+          "index": 64,
+          "text": "0.382",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            6
+          ]
+        },
+        {
+          "index": 65,
+          "text": "0.382",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            6
+          ]
+        },
+        {
+          "index": 66,
+          "text": "1.130",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            6
+          ]
+        },
+        {
+          "index": 67,
+          "text": "0.382",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            6
+          ]
+        },
+        {
+          "index": 68,
+          "text": "0.382",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            6
+          ]
+        },
+        {
+          "index": 69,
+          "text": "0.382",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            6
+          ]
+        },
+        {
+          "index": 70,
+          "text": "0.382",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            6
+          ]
+        },
+        {
+          "index": 71,
+          "text": "C",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "index": 72,
+          "text": "0.886",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "index": 73,
+          "text": "1.410",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "index": 74,
+          "text": "0.886",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "index": 75,
+          "text": "0.886",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "index": 76,
+          "text": "1.618",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "index": 77,
+          "text": "0.886",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "index": 78,
+          "text": "0.886",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "index": 79,
+          "text": "0.886",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "index": 80,
+          "text": "0.089",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "index": 81,
+          "text": "Patterns",
+          "style": "2",
+          "bullet": false,
+          "cell": null
+        },
+        {
+          "index": 82,
+          "text": "Others",
+          "style": "6",
+          "bullet": false,
+          "cell": null
+        },
+        {
+          "index": 83,
+          "text": "SMC / ICT / Price Action",
+          "style": "2",
+          "bullet": false,
+          "cell": null
+        },
+        {
+          "index": 84,
+          "text": "Fair value gap (FVG)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 85,
+          "text": "Inversion fair value gap (IFVG)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 86,
+          "text": "Inducement (IDM)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 87,
+          "text": "Buy-side imbalance sell side inefficiency (BISI)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 88,
+          "text": "Sell-side imbalance buy side inefficiency (SIBI)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 89,
+          "text": "Order block (OB)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 90,
+          "text": "Breaker block (BB)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "index": 91,
+          "text": "Mitigation block (MB)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "index": 92,
+          "text": "Market Structural Block (MSB)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "index": 93,
+          "text": "Rejection block (RB)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "index": 94,
+          "text": "Return to order block (RTO)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "index": 95,
+          "text": "Volume imbalance block (VIB)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "index": 96,
+          "text": "Optimal trade entry (OTE)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 97,
+          "text": "Balanced price range (BPR)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 98,
+          "text": "Break of structure (BOS) / (BMS)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "index": 99,
+          "text": "Market structural shift (MSS) / Shift in Market Structure (SMS)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "index": 100,
+          "text": "Change of character (CHoCH)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            4,
+            0
+          ]
+        },
+        {
+          "index": 101,
+          "text": "Market maker buy/sell model (MMXM)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            4,
+            1
+          ]
+        },
+        {
+          "index": 102,
+          "text": "Premium and discount array (PDA)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            4,
+            2
+          ]
+        },
+        {
+          "index": 103,
+          "text": "Buy side liquidity (BSL)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            4,
+            3
+          ]
+        },
+        {
+          "index": 104,
+          "text": "Sell side liquidity (SSL)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            5,
+            0
+          ]
+        },
+        {
+          "index": 105,
+          "text": "Internal range liquidity (IRL)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            5,
+            1
+          ]
+        },
+        {
+          "index": 106,
+          "text": "External range liquidity (ERL)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            5,
+            2
+          ]
+        },
+        {
+          "index": 107,
+          "text": "Liquidity Grab (LG)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            5,
+            3
+          ]
+        },
+        {
+          "index": 108,
+          "text": "Liquidity Sweep (LS)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            6,
+            0
+          ]
+        },
+        {
+          "index": 109,
+          "text": "New Week Opening Gap (NWOG)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            1,
+            6,
+            1
+          ]
+        },
+        {
+          "index": 110,
+          "text": "Checks",
+          "style": "2",
+          "bullet": false,
+          "cell": null
+        },
+        {
+          "index": 111,
+          "text": "Support / resistance",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 112,
+          "text": "Trendline",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 113,
+          "text": "Channel line",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 114,
+          "text": "W, M, N, head & shoulder",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 115,
+          "text": "Symmetric triangle",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            0,
+            4
+          ]
+        },
+        {
+          "index": 116,
+          "text": "Right-angle triangle",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            0,
+            5
+          ]
+        },
+        {
+          "index": 117,
+          "text": "Triangle (others)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            0,
+            6
+          ]
+        },
+        {
+          "index": 118,
+          "text": "Wedge",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            0,
+            7
+          ]
+        },
+        {
+          "index": 119,
+          "text": "200 EMA",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 120,
+          "text": "100 EMA",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 121,
+          "text": "50 EMA",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            1,
+            2
+          ]
+        },
+        {
+          "index": 122,
+          "text": "21 EMA",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "index": 123,
+          "text": "Bollinger Band",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            1,
+            4
+          ]
+        },
+        {
+          "index": 124,
+          "text": "Parabolic SAR",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            1,
+            5
+          ]
+        },
+        {
+          "index": 125,
+          "text": "DeMark",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            1,
+            6
+          ]
+        },
+        {
+          "index": 126,
+          "text": "Stochastic exits",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            1,
+            7
+          ]
+        },
+        {
+          "index": 127,
+          "text": "RSI exits",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            2,
+            0
+          ]
+        },
+        {
+          "index": 128,
+          "text": "Divergence",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            2,
+            1
+          ]
+        },
+        {
+          "index": 129,
+          "text": "Impulse & MACD meets",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "index": 130,
+          "text": "Gann Fan",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            2,
+            3
+          ]
+        },
+        {
+          "index": 131,
+          "text": "Fibonacci retracement",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            2,
+            4
+          ]
+        },
+        {
+          "index": 132,
+          "text": "Candle",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            2,
+            5
+          ]
+        },
+        {
+          "index": 133,
+          "text": "Harmonics",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            2,
+            6
+          ]
+        },
+        {
+          "index": 134,
+          "text": "New candle",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            2,
+            7
+          ]
+        },
+        {
+          "index": 135,
+          "text": "Whole number",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 136,
+          "text": "Fraction",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 137,
+          "text": "Gap",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            3,
+            2
+          ]
+        },
+        {
+          "index": 138,
+          "text": "Confirm daily bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            5,
+            0
+          ]
+        },
+        {
+          "index": 139,
+          "text": "Confirm 4H bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            5,
+            1
+          ]
+        },
+        {
+          "index": 140,
+          "text": "Mark highs and lows on 1H",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            5,
+            2
+          ]
+        },
+        {
+          "index": 141,
+          "text": "Mark highs and lows on 15M",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            5,
+            3
+          ]
+        },
+        {
+          "index": 142,
+          "text": "Identify horizontal range on 15M",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            5,
+            4
+          ]
+        },
+        {
+          "index": 143,
+          "text": "Mark buy-side and sell-side liquidity",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            5,
+            5
+          ]
+        },
+        {
+          "index": 144,
+          "text": "Mark OBs and FVGs",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            5,
+            6
+          ]
+        },
+        {
+          "index": 145,
+          "text": "Wait for manipulation to occur",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            5,
+            7
+          ]
+        },
+        {
+          "index": 146,
+          "text": "Confirm using volume",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            6,
+            0
+          ]
+        },
+        {
+          "index": 147,
+          "text": "Mark OTE on Fibonacci tool",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            6,
+            1
+          ]
+        },
+        {
+          "index": 148,
+          "text": "Enter on discount Fibonacci level",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            6,
+            2
+          ]
+        },
+        {
+          "index": 149,
+          "text": "Take 50% profit at -0.27 extension and move SL to BE",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            6,
+            3
+          ]
+        },
+        {
+          "index": 150,
+          "text": "Take additional 25% profit at -0.62 Extension",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            2,
+            6,
+            4
+          ]
+        },
+        {
+          "index": 151,
+          "text": "Setups",
+          "style": "2",
+          "bullet": false,
+          "cell": null
+        },
+        {
+          "index": 152,
+          "text": "Trading style",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 153,
+          "text": "Day-trading (short-term)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 154,
+          "text": "Swing trading (medium-term)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 155,
+          "text": "Position trading (long-term)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 156,
+          "text": "Timeframe",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 157,
+          "text": "Day-trading (M5, M15, H1))",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 158,
+          "text": "Swing trading (H1, H4, D1)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 159,
+          "text": "Position trading (D1, W1, M1)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 160,
+          "text": "Trading product",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 161,
+          "text": "EUR/USD r EUR/CAD, EUR/AUD & NZD/USD",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 162,
+          "text": "GBP/USD r GBP/NZD, GBP/CAD & GBP/AUD",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 163,
+          "text": "USD/JPY r NZD/JPY, CAD/JPY & EUR/JPY",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 164,
+          "text": "USD/CHF r USD/SGD, AUD/CHF & USD/TRY",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 165,
+          "text": "USD/CAD r USD/SGD, AUD/CHF & USD/TRY",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 166,
+          "text": "AUD/USD r AUD/CAD, AUD/CHF & GBP/USD",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 167,
+          "text": "NZD/USD r EUR/USD, NZD/JPY & AUD/JPY",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 168,
+          "text": "Risk management",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 169,
+          "text": "1-2% per trade",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 170,
+          "text": "Open risk 5%: how many trades at the same time",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 171,
+          "text": "Monthly limit 10%",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 172,
+          "text": "Upon entry, limit your initial risk using the ASL",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 173,
+          "text": "As the market moves, manage your subsequent risk using the TSL",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 174,
+          "text": "Calculate your reward versus risk ratio",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 175,
+          "text": "Calculate your trading lost size",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 176,
+          "text": "Types of analysis",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 177,
+          "text": "Price action",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 178,
+          "text": "Classical charting",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 179,
+          "text": "Technical indicator",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 180,
+          "text": "Trade entry",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 181,
+          "text": "Market order: buy/sell immediately",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 182,
+          "text": "Limit order: queue to buy at lower or sell at higher (reversal)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 183,
+          "text": "Stop order: queue to buy at higher or sell at lower (breakout)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 184,
+          "text": "Place a trade only after a bar closes (to confirm the bullish or bearish candle)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 185,
+          "text": "Stop loss",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 186,
+          "text": "Never shift it to increase your risk",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 187,
+          "text": "Place slightly above or below the previous swing",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 188,
+          "text": "Place slightly above or below a key support/resistance zone",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 189,
+          "text": "Place slightly above or below signal bars",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 190,
+          "text": "Trailing stop.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "index": 191,
+          "text": "Trail only when the price hits the higher high or lower low.",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "index": 192,
+          "text": "Target price",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "index": 193,
+          "text": "Target the next major support/resistance zone",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "index": 194,
+          "text": "Measure move (MM): if the 1st leg is strong, the 2nd leg is likely to follow",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "index": 195,
+          "text": "Price pattern projections: based on common chart patterns like flags, pennants, rectangles, triangles, double top/bottom, head and shoulders, cup and handle",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "index": 196,
+          "text": "Type 1",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "index": 197,
+          "text": "High trend, low volatility",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "index": 198,
+          "text": "Steady downtrend swings",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "index": 199,
+          "text": "Small counter-trend swings",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "index": 200,
+          "text": "Can use EMA-bW 20 to check for pullback",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "index": 201,
+          "text": "Type 2",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "index": 202,
+          "text": "High trend, high volatility",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "index": 203,
+          "text": "Erratic downtrend swings",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "index": 204,
+          "text": "Large counter-trend swings",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "index": 205,
+          "text": "Can add KC-20 to see price boundary.",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "index": 206,
+          "text": "Type 3",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            2,
+            2
+          ]
+        },
+        {
+          "index": 207,
+          "text": "Low trend, low volatility",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            2,
+            2
+          ]
+        },
+        {
+          "index": 208,
+          "text": "Wait for breakouts",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            2,
+            2
+          ]
+        },
+        {
+          "index": 209,
+          "text": "TP can be set with 5x the level of the breakout",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            2,
+            2
+          ]
+        },
+        {
+          "index": 210,
+          "text": "Oscillators like RSI and Stochastic may work here",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            2,
+            2
+          ]
+        },
+        {
+          "index": 211,
+          "text": "Type 4",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            2,
+            3
+          ]
+        },
+        {
+          "index": 212,
+          "text": "Low trend, high volatility",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            2,
+            3
+          ]
+        },
+        {
+          "index": 213,
+          "text": "Buy low, sell high",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            2,
+            3
+          ]
+        },
+        {
+          "index": 214,
+          "text": "Swing",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 215,
+          "text": "Trend to range, controlled",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 216,
+          "text": "Strong prior trend",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 217,
+          "text": "EMA sloping nicely",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 218,
+          "text": "Most bars on one side of EMA",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 219,
+          "text": "Series of strong trend bars with little overlap",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 220,
+          "text": "Past 10-20 bars have not touched EMA",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 221,
+          "text": "Weak pullback to EMA-20",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 222,
+          "text": "Small bars and low volume",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 223,
+          "text": "Confluence with trendline or S/R zone",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 224,
+          "text": "Trend still relatively new",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 225,
+          "text": "First 1-2 tests",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 226,
+          "text": "No major support and resistance zones ahead",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 227,
+          "text": "Clear skies territory",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 228,
+          "text": "Avoid pullbacks after a spike",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 229,
+          "text": "If the angle of trend is too sharp, possible exhaustion moves",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 230,
+          "text": "Flags and pennants can be used here",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 231,
+          "text": "Trade within channel and trend",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 232,
+          "text": "Turn",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 233,
+          "text": "Range to trend, reversal",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 234,
+          "text": "Criterias to trade",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 235,
+          "text": "Start with large pullback which breaks the major trendline (45 degree)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 236,
+          "text": "Trendline is significant: prior failed tests",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 237,
+          "text": "Late stage trend",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 238,
+          "text": "EMA-20 will also be broken",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 239,
+          "text": "Creates a neckline (key level)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 240,
+          "text": "Strong price action and volume.",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 241,
+          "text": "Attempt to resume the trend is weak",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 242,
+          "text": "Lower volume and weaker bars",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 243,
+          "text": "Forms a lower high (bearish) or higher lower (bearish)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 244,
+          "text": "Early signs of trend changing",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 245,
+          "text": "Change in trending swings",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 246,
+          "text": "EMA changes direction and bars switch sides",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 247,
+          "text": "High volume at major turning points",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 248,
+          "text": "Double top (M) / double bottom (W)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 249,
+          "text": "Do not enter immediately at the top of the reversal",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 250,
+          "text": "Enter after the breakout pullback (neckline)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 251,
+          "text": "Best to enter after the retest",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 252,
+          "text": "Head and shoulder / inverted head and shoulder",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 253,
+          "text": "Enter also after retesting the neckline",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 254,
+          "text": "TP can be the length from head to neckline",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 255,
+          "text": "When a trend has gone far enough, it prepares to reverse and run in the opposite direction",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 256,
+          "text": "Usual sequence: type 1, 2, 3/4, 1",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 257,
+          "text": "Trade out of the channel or trend",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 258,
+          "text": "Bounce",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            3,
+            2
+          ]
+        },
+        {
+          "index": 259,
+          "text": "Trend to range, climatic",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            3,
+            2
+          ]
+        },
+        {
+          "index": 260,
+          "text": "Trade out of the channel or trend but re-enters the channel or trend",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            2
+          ]
+        },
+        {
+          "index": 261,
+          "text": "Break",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "index": 262,
+          "text": "Range to trend, continuation",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "index": 263,
+          "text": "Using support and resistance.",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "index": 264,
+          "text": "Type 3 key resistance zone: TP can be the height of the type 3 price movement.",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "index": 265,
+          "text": "Descending (bearish) and ascending (bullish) triangle shows break.",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "index": 266,
+          "text": "Cup and handle",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "index": 267,
+          "text": "TP can be the depth of the cup.",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "index": 268,
+          "text": "Wait for pullback before placing a trade.",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "index": 269,
+          "text": "Barbwire (breaks in between): do not trade!",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "index": 270,
+          "text": "Many common gaps which close quickly with no follow-through.",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "index": 271,
+          "text": "EMA sideways with no clear direction or setups.",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "index": 272,
+          "text": "Many shadows with overlapping price bars.",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "index": 273,
+          "text": "Usual sequence: type 1, 3, 1, 3/, 1",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "index": 274,
+          "text": "Market movements",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            4,
+            0
+          ]
+        },
+        {
+          "index": 275,
+          "text": "Uptrend: higher highs, higher lows",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            4,
+            0
+          ]
+        },
+        {
+          "index": 276,
+          "text": "Downtrend: lower highs, lower lows",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            4,
+            0
+          ]
+        },
+        {
+          "index": 277,
+          "text": "Sideways: mixture of highs and lows",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            4,
+            0
+          ]
+        },
+        {
+          "index": 278,
+          "text": "Distribution zone",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            4,
+            0
+          ]
+        },
+        {
+          "index": 279,
+          "text": "Accumulation zone",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            4,
+            0
+          ]
+        },
+        {
+          "index": 280,
+          "text": "Long term trend structure",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            4,
+            1
+          ]
+        },
+        {
+          "index": 281,
+          "text": "+1 period time frame (big patterns, swing counts)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            4,
+            1
+          ]
+        },
+        {
+          "index": 282,
+          "text": "EMA-200",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            4,
+            1
+          ]
+        },
+        {
+          "index": 283,
+          "text": "Trend-following indicators",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            4,
+            1
+          ]
+        },
+        {
+          "index": 284,
+          "text": "Intermediate term trend structure",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            4,
+            2
+          ]
+        },
+        {
+          "index": 285,
+          "text": "Main trading time frame (1-day)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            4,
+            2
+          ]
+        },
+        {
+          "index": 286,
+          "text": "Price pattern",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            4,
+            2
+          ]
+        },
+        {
+          "index": 287,
+          "text": "EMA-50",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            4,
+            2
+          ]
+        },
+        {
+          "index": 288,
+          "text": "Oscillator-based indicators",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            4,
+            2
+          ]
+        },
+        {
+          "index": 289,
+          "text": "Short term trend structure.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            4,
+            3
+          ]
+        },
+        {
+          "index": 290,
+          "text": "-1 period time frame (optional)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            4,
+            3
+          ]
+        },
+        {
+          "index": 291,
+          "text": "Candlestick patterns, price bar patterns",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            4,
+            3
+          ]
+        },
+        {
+          "index": 292,
+          "text": "EMA-20",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            3,
+            4,
+            3
+          ]
+        },
+        {
+          "index": 293,
+          "text": "BPR on breaker block",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            5,
+            0
+          ]
+        },
+        {
+          "index": 294,
+          "text": "FVG on breaker block",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            5,
+            1
+          ]
+        },
+        {
+          "index": 295,
+          "text": "Inverse volume imbalance",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            5,
+            2
+          ]
+        },
+        {
+          "index": 296,
+          "text": "Volume imbalance",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            3,
+            5,
+            3
+          ]
+        },
+        {
+          "index": 297,
+          "text": "Indicators",
+          "style": "2",
+          "bullet": false,
+          "cell": null
+        },
+        {
+          "index": 298,
+          "text": "Simple moving average (SMA)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 299,
+          "text": "Exponential moving average (EMA)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 300,
+          "text": "Weighted moving average (WMA)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 301,
+          "text": "Fibonacci",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 302,
+          "text": "Bollinger Band",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 303,
+          "text": "Kelter channel",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 304,
+          "text": "Donchian channel",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            1,
+            2
+          ]
+        },
+        {
+          "index": 305,
+          "text": "VIX",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            1,
+            3
+          ]
+        },
+        {
+          "index": 306,
+          "text": "Vector autoregression (VAR)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            2,
+            0
+          ]
+        },
+        {
+          "index": 307,
+          "text": "Stochastic process model used to capture the linear interdependencies among multiple time series",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            2,
+            0
+          ]
+        },
+        {
+          "index": 308,
+          "text": "Vector autoregression moving-average (VARMA)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            2,
+            1
+          ]
+        },
+        {
+          "index": 309,
+          "text": "Overcome the overfitting problem inherent in VAR",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            2,
+            1
+          ]
+        },
+        {
+          "index": 310,
+          "text": "Bayesian vector autoregression (BVAR)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            2,
+            2
+          ]
+        },
+        {
+          "index": 311,
+          "text": "Uses Bayesian methods to estimate a VAR",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            2,
+            2
+          ]
+        },
+        {
+          "index": 312,
+          "text": "Autoregressive integrated moving average (ARIMA)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            2,
+            3
+          ]
+        },
+        {
+          "index": 313,
+          "text": "Better understand the data set or to predict future trends",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            2,
+            3
+          ]
+        },
+        {
+          "index": 314,
+          "text": "Hindenburg Omen",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 315,
+          "text": "Death cross",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 316,
+          "text": "SVP HD - Session Volume",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            3,
+            2
+          ]
+        },
+        {
+          "index": 317,
+          "text": "Auto Anchored Volume Profile",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            3,
+            3
+          ]
+        },
+        {
+          "index": 318,
+          "text": "Smart Money Concepts [LuxAlgo]",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            4,
+            0
+          ]
+        },
+        {
+          "index": 319,
+          "text": "Imbalance Finder",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            4,
+            1
+          ]
+        },
+        {
+          "index": 320,
+          "text": "ICT Killzones & Pivots [TFO]",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            4,
+            2
+          ]
+        },
+        {
+          "index": 321,
+          "text": "Liquidity Swings [LuxAlgo]",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            4,
+            3
+          ]
+        },
+        {
+          "index": 322,
+          "text": "ICT Silver Bullet [LuxAlgo]",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            5,
+            0
+          ]
+        },
+        {
+          "index": 323,
+          "text": "Buyside & Sellside Liquidity [LuxAlgo]",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            5,
+            1
+          ]
+        },
+        {
+          "index": 324,
+          "text": "Chart Champions_PVWAP",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            5,
+            2
+          ]
+        },
+        {
+          "index": 325,
+          "text": "Elliott Wave [LuxAlgo]",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            5,
+            3
+          ]
+        },
+        {
+          "index": 326,
+          "text": "Williams Alligator",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            6,
+            0
+          ]
+        },
+        {
+          "index": 327,
+          "text": "Breaker Blocks with Signals [LuxAlgo]",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            6,
+            1
+          ]
+        },
+        {
+          "index": 328,
+          "text": "VWAP with period",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            6,
+            2
+          ]
+        },
+        {
+          "index": 329,
+          "text": "Time Price Opportunity",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            6,
+            3
+          ]
+        },
+        {
+          "index": 330,
+          "text": "Volume Profile",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            7,
+            0
+          ]
+        },
+        {
+          "index": 331,
+          "text": "Money Flow Profile [LuxAlgo]",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            7,
+            1
+          ]
+        },
+        {
+          "index": 332,
+          "text": "Cumulative Volume Delta",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            7,
+            2
+          ]
+        },
+        {
+          "index": 333,
+          "text": "Accumulation Swing Index (ASI)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            7,
+            3
+          ]
+        },
+        {
+          "index": 334,
+          "text": "Market Structural Block & Order Block (MSB-OB)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            8,
+            0
+          ]
+        },
+        {
+          "index": 335,
+          "text": "QQE Cross Indicator Alert v2.0 by JustUncleL",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            8,
+            1
+          ]
+        },
+        {
+          "index": 336,
+          "text": "QQE Weighted Oscillator [LuxAlgo]",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            8,
+            2
+          ]
+        },
+        {
+          "index": 337,
+          "text": "Avellaneda stoikov",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            4,
+            8,
+            3
+          ]
+        },
+        {
+          "index": 338,
+          "text": "Introduction",
+          "style": "2",
+          "bullet": false,
+          "cell": null
+        },
+        {
+          "index": 339,
+          "text": "A $10k investment portfolio will only give you 5% annually while trading gives you 5% a month",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 340,
+          "text": "Do not overtrade but with a significant amount to have skin in the game",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 341,
+          "text": "Successful trading priority",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 342,
+          "text": "Mindset (60%)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 343,
+          "text": "Consistency = repeatability = scalability = $$$",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 344,
+          "text": "If you can make profit on a small account, you can make profit on a big account",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 345,
+          "text": "Do not chase a missed trade as good entry = easy risk management",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 346,
+          "text": "Avoid impulsive trading (too frequently) and revenge trading (ego trading)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 347,
+          "text": "Do not average down and hope to breakeven",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 348,
+          "text": "Stick to a plan and do not exit prematurely",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 349,
+          "text": "Trade objectively based on the market and not what you think",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 350,
+          "text": "Money (30%)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 351,
+          "text": "Method (10%)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 352,
+          "text": "Technical analysis",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 353,
+          "text": "Price and volume data to plot chart",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 354,
+          "text": "Predict price trends and momentum",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 355,
+          "text": "Find opportunities, possible paths and key levels for prices",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 356,
+          "text": "Fundamental analysis",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 357,
+          "text": "The big picture is why prices are moving in a certain way",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 358,
+          "text": "How strong this country is, major global events, economic data announcements",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 359,
+          "text": "Bear and Bull control the market",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 360,
+          "text": "Liquidate your position or set the stop loss much further",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            2,
+            0
+          ]
+        },
+        {
+          "index": 361,
+          "text": "Fundamentals (news)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            2,
+            1
+          ]
+        },
+        {
+          "index": 362,
+          "text": "Relative strength",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 363,
+          "text": "Use different pairs to compare the movement of a certain currency and see which pair has more movement",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 364,
+          "text": "Volume",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 365,
+          "text": "Trends will be affected by volume as it represents how much buying and selling is",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 366,
+          "text": "Low, high volume & climatic volume",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 367,
+          "text": "Tools",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            3,
+            2
+          ]
+        },
+        {
+          "index": 368,
+          "text": "TradingView: charting",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            3,
+            2
+          ]
+        },
+        {
+          "index": 369,
+          "text": "MetaTrader: trading",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            3,
+            2
+          ]
+        },
+        {
+          "index": 370,
+          "text": "MyFxBook: tracing",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            3,
+            2
+          ]
+        },
+        {
+          "index": 371,
+          "text": "Calculator: https://www.myfxbook.com/en/forex-calculators/position-size",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            3,
+            2
+          ]
+        },
+        {
+          "index": 372,
+          "text": "Economic calendar: https://www.forexfactory.com/calendar",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            3,
+            2
+          ]
+        },
+        {
+          "index": 373,
+          "text": "Timezone: https://everytimezone.com/",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            3,
+            2
+          ]
+        },
+        {
+          "index": 374,
+          "text": "Currency strength: https://www.fxblue.com/market-data/currency-strength",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            3,
+            2
+          ]
+        },
+        {
+          "index": 375,
+          "text": "Portfolio backtester: https://www.portfoliovisualizer.com/backtest-portfolio",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            3,
+            2
+          ]
+        },
+        {
+          "index": 376,
+          "text": "Tips",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            4,
+            0
+          ]
+        },
+        {
+          "index": 377,
+          "text": "Change the line chart to draw the lines easier",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            4,
+            0
+          ]
+        },
+        {
+          "index": 378,
+          "text": "At least 3 points should meet, good ones will be with 5 or more points",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            4,
+            0
+          ]
+        },
+        {
+          "index": 379,
+          "text": "Do not trade 5 to 15 minutes after the trade, wait for the trend to establish first",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            4,
+            1
+          ]
+        },
+        {
+          "index": 380,
+          "text": "Trade-off",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            5,
+            0
+          ]
+        },
+        {
+          "index": 381,
+          "text": "A balance achieved between 2 desirable but incompatible features; a compromise",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            5,
+            0
+          ]
+        },
+        {
+          "index": 382,
+          "text": "Hit rate vs. reward-to-risk ratio (RRR)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            5,
+            0
+          ]
+        },
+        {
+          "index": 383,
+          "text": "Early entry vs. profit potential",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            5,
+            0
+          ]
+        },
+        {
+          "index": 384,
+          "text": "Entering later may have a higher risk as the stop loss is further",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            5,
+            0
+          ]
+        },
+        {
+          "index": 385,
+          "text": "Support zone",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            5,
+            2
+          ]
+        },
+        {
+          "index": 386,
+          "text": "Buyers step in to support prices",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            5,
+            2
+          ]
+        },
+        {
+          "index": 387,
+          "text": "A support breaks it becomes a resistance",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            5,
+            2
+          ]
+        },
+        {
+          "index": 388,
+          "text": "Resistance zone",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            5,
+            3
+          ]
+        },
+        {
+          "index": 389,
+          "text": "Sellers step in to sell down prices",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            5,
+            3
+          ]
+        },
+        {
+          "index": 390,
+          "text": "A resistance breaks it becomes support",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            5,
+            3
+          ]
+        },
+        {
+          "index": 391,
+          "text": "When one zone is broken, price will head to the next zone",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            6,
+            0
+          ]
+        },
+        {
+          "index": 392,
+          "text": "Opportunities",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            6,
+            1
+          ]
+        },
+        {
+          "index": 393,
+          "text": "Areas where buyers/sellers waiting on the sidelines are likely to step in",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            6,
+            1
+          ]
+        },
+        {
+          "index": 394,
+          "text": "Areas where existing buyers/sellers could be waiting to get out",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            6,
+            1
+          ]
+        },
+        {
+          "index": 395,
+          "text": "Imbalance creates an “edge” to trade",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            6,
+            1
+          ]
+        },
+        {
+          "index": 396,
+          "text": "Stop loss",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            6,
+            2
+          ]
+        },
+        {
+          "index": 397,
+          "text": "Trend reversal to put a larger stop loss as it is riskier",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            6,
+            2
+          ]
+        },
+        {
+          "index": 398,
+          "text": "Already on trend can put a smaller stop loss",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            6,
+            2
+          ]
+        },
+        {
+          "index": 399,
+          "text": "Trends",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            6,
+            3
+          ]
+        },
+        {
+          "index": 400,
+          "text": "Uptrend: higher highs (HH) and higher lows (HL)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            6,
+            3
+          ]
+        },
+        {
+          "index": 401,
+          "text": "Sideway: mixture (HH, HL, LL, LH)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            6,
+            3
+          ]
+        },
+        {
+          "index": 402,
+          "text": "Downtrend: lower lows (LL) and lower highs (LH)",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            6,
+            3
+          ]
+        },
+        {
+          "index": 403,
+          "text": "Trade with the trend, do not chase the price and know when the trend is changing",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            5,
+            6,
+            3
+          ]
+        },
+        {
+          "index": 404,
+          "text": "Price action",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            7,
+            0
+          ]
+        },
+        {
+          "index": 405,
+          "text": "Scalping",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            8,
+            0
+          ]
+        },
+        {
+          "index": 406,
+          "text": "Hold position for just a few seconds or minutes",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            8,
+            0
+          ]
+        },
+        {
+          "index": 407,
+          "text": "High trading volume",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            9,
+            0
+          ]
+        },
+        {
+          "index": 408,
+          "text": "7:00 AM – 9:00 AM EST → 8:00 PM – 10:00 PM GMT+8",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            10,
+            0
+          ]
+        },
+        {
+          "index": 409,
+          "text": "11:11 AM EST → 12:11 AM GMT+8",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            10,
+            1
+          ]
+        },
+        {
+          "index": 410,
+          "text": "11:00 AM – 1:00 PM EST →12:00 AM – 2:00 AM GMT+8",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            10,
+            2
+          ]
+        },
+        {
+          "index": 411,
+          "text": "2:22 PM EST (FOMC day) → 3:22 AM GMT+8",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            10,
+            3
+          ]
+        },
+        {
+          "index": 412,
+          "text": "7:00 PM – 8:30 PM EST → 8:00 AM – 9:30 AM GMT+8",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            11,
+            0
+          ]
+        },
+        {
+          "index": 413,
+          "text": "1:00 AM – 3:00 AM EST → 2:00 PM – 4:00 PM GMT+8",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            5,
+            11,
+            1
+          ]
+        },
+        {
+          "index": 414,
+          "text": "Mistakes to avoid",
+          "style": "2",
+          "bullet": false,
+          "cell": null
+        },
+        {
+          "index": 415,
+          "text": "No solid trading plan",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            6,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 416,
+          "text": "Planning vs. execution",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            6,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 417,
+          "text": "Plan for every possible outcome",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            6,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 418,
+          "text": "Do not plan while trading",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            6,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 419,
+          "text": "Lack of practice",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            6,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 420,
+          "text": "Take baby steps before running",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            6,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 421,
+          "text": "Know how to use your tools",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            6,
+            1,
+            2
+          ]
+        },
+        {
+          "index": 422,
+          "text": "Practice makes perfect",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            6,
+            1,
+            3
+          ]
+        },
+        {
+          "index": 423,
+          "text": "Wrong psychology",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            6,
+            2,
+            0
+          ]
+        },
+        {
+          "index": 424,
+          "text": "Know when to cut losses",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            6,
+            2,
+            1
+          ]
+        },
+        {
+          "index": 425,
+          "text": "Do not overtrade",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            6,
+            2,
+            2
+          ]
+        },
+        {
+          "index": 426,
+          "text": "Avoid revenge trading",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            6,
+            2,
+            3
+          ]
+        },
+        {
+          "index": 427,
+          "text": "Being greedy",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            6,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 428,
+          "text": "Role of luck vs. skill",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            6,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 429,
+          "text": "Do not be complacent",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            6,
+            3,
+            2
+          ]
+        },
+        {
+          "index": 430,
+          "text": "Scale up your account gradually",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            6,
+            3,
+            3
+          ]
+        },
+        {
+          "index": 431,
+          "text": "Lone wolf mentality",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            6,
+            4,
+            0
+          ]
+        },
+        {
+          "index": 432,
+          "text": "Wolves hunt in packs",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            6,
+            4,
+            1
+          ]
+        },
+        {
+          "index": 433,
+          "text": "Do not hoard trading ideas",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            6,
+            4,
+            2
+          ]
+        },
+        {
+          "index": 434,
+          "text": "Think in abundance",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            6,
+            4,
+            3
+          ]
+        },
+        {
+          "index": 435,
+          "text": "Behavioural biases",
+          "style": "2",
+          "bullet": false,
+          "cell": null
+        },
+        {
+          "index": 436,
+          "text": "Overconfidence bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 437,
+          "text": "How can I ever be wrong",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 438,
+          "text": "Endowment bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 439,
+          "text": "Do you really “own” a trading position",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 440,
+          "text": "Conservatism bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 441,
+          "text": "Are you afraid of change",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 442,
+          "text": "Regret aversion bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 443,
+          "text": "Would you rather be right, or avoid being wrong",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 444,
+          "text": "Loss Aversion bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 445,
+          "text": "Why a loss has twice the psychological impact",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 446,
+          "text": "Cognitive Dissonance bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 447,
+          "text": "This can’t be true",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 448,
+          "text": "Representativeness bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            1,
+            2
+          ]
+        },
+        {
+          "index": 449,
+          "text": "The dangers of a small sample size",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            1,
+            2
+          ]
+        },
+        {
+          "index": 450,
+          "text": "Confirmation bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            1,
+            3
+          ]
+        },
+        {
+          "index": 451,
+          "text": "I see only what I want to see",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            1,
+            3
+          ]
+        },
+        {
+          "index": 452,
+          "text": "Hindsight bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            2,
+            0
+          ]
+        },
+        {
+          "index": 453,
+          "text": "When people say “I knew it all along”",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            2,
+            0
+          ]
+        },
+        {
+          "index": 454,
+          "text": "Self-attribution bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            2,
+            1
+          ]
+        },
+        {
+          "index": 455,
+          "text": "Don’t confuse brains with a bull market",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            2,
+            1
+          ]
+        },
+        {
+          "index": 456,
+          "text": "Optimism bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            2,
+            2
+          ]
+        },
+        {
+          "index": 457,
+          "text": "Why do most people think they can beat the market",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            2,
+            2
+          ]
+        },
+        {
+          "index": 458,
+          "text": "Herd instinct bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            2,
+            3
+          ]
+        },
+        {
+          "index": 459,
+          "text": "Driven by fear, flight-to-safety reaction",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            2,
+            3
+          ]
+        },
+        {
+          "index": 460,
+          "text": "Hometown bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 461,
+          "text": "Only promote what they know",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 462,
+          "text": "Recency bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 463,
+          "text": "Let recent events weigh in heavily",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 464,
+          "text": "Survivorship bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            3,
+            2
+          ]
+        },
+        {
+          "index": 465,
+          "text": "Successful subgroup visible to entire group",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            3,
+            2
+          ]
+        },
+        {
+          "index": 466,
+          "text": "Backfill bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            3,
+            3
+          ]
+        },
+        {
+          "index": 467,
+          "text": "Inconsistent performance inflates performance",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            3,
+            3
+          ]
+        },
+        {
+          "index": 468,
+          "text": "Anchoring bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            4,
+            0
+          ]
+        },
+        {
+          "index": 469,
+          "text": "Overrely on early information",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            4,
+            0
+          ]
+        },
+        {
+          "index": 470,
+          "text": "Availability bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            4,
+            1
+          ]
+        },
+        {
+          "index": 471,
+          "text": "Overrely on immediate information",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            4,
+            1
+          ]
+        },
+        {
+          "index": 472,
+          "text": "Action bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            4,
+            2
+          ]
+        },
+        {
+          "index": 473,
+          "text": "Favours actions over inaction",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            4,
+            2
+          ]
+        },
+        {
+          "index": 474,
+          "text": "Omission bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            4,
+            3
+          ]
+        },
+        {
+          "index": 475,
+          "text": "Favour inaction over action",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            4,
+            3
+          ]
+        },
+        {
+          "index": 476,
+          "text": "Self-serving bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            5,
+            0
+          ]
+        },
+        {
+          "index": 477,
+          "text": "To maintain and enhance self-esteem",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            5,
+            0
+          ]
+        },
+        {
+          "index": 478,
+          "text": "Self-selection bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            5,
+            1
+          ]
+        },
+        {
+          "index": 479,
+          "text": "Choose to join a group instead of being classified",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            5,
+            1
+          ]
+        },
+        {
+          "index": 480,
+          "text": "Association bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            5,
+            2
+          ]
+        },
+        {
+          "index": 481,
+          "text": "Influenced by association",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            5,
+            2
+          ]
+        },
+        {
+          "index": 482,
+          "text": "In-group Out-group bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            5,
+            3
+          ]
+        },
+        {
+          "index": 483,
+          "text": "Favours people within the same group",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            5,
+            3
+          ]
+        },
+        {
+          "index": 484,
+          "text": "Information bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            6,
+            0
+          ]
+        },
+        {
+          "index": 485,
+          "text": "Not considering any other criteria",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            6,
+            0
+          ]
+        },
+        {
+          "index": 486,
+          "text": "Observer bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            6,
+            1
+          ]
+        },
+        {
+          "index": 487,
+          "text": "Systematic divergence from accurate facts",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            6,
+            1
+          ]
+        },
+        {
+          "index": 488,
+          "text": "Status-quo bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            6,
+            2
+          ]
+        },
+        {
+          "index": 489,
+          "text": "Prefer to maintain one's state",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            6,
+            2
+          ]
+        },
+        {
+          "index": 490,
+          "text": "Liking bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            6,
+            3
+          ]
+        },
+        {
+          "index": 491,
+          "text": "Prefer to say yes to people we know or like",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            6,
+            3
+          ]
+        },
+        {
+          "index": 492,
+          "text": "Blind-spot bias",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            7,
+            0
+          ]
+        },
+        {
+          "index": 493,
+          "text": "The judgement of others",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            7,
+            0
+          ]
+        },
+        {
+          "index": 494,
+          "text": "Narrative fallacy",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            7,
+            1
+          ]
+        },
+        {
+          "index": 495,
+          "text": "Process logical order more easily",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            7,
+            1
+          ]
+        },
+        {
+          "index": 496,
+          "text": "Gambler's fallacy",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            7,
+            2
+          ]
+        },
+        {
+          "index": 497,
+          "text": "Chance will be higher after many losses",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            7,
+            2
+          ]
+        },
+        {
+          "index": 498,
+          "text": "Conjunction fallacy",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            7,
+            3
+          ]
+        },
+        {
+          "index": 499,
+          "text": "A conjoint set is likelier",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            7,
+            3
+          ]
+        },
+        {
+          "index": 500,
+          "text": "Sunk cost fallacy",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            8,
+            0
+          ]
+        },
+        {
+          "index": 501,
+          "text": "Follow through something heavily invested",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            8,
+            0
+          ]
+        },
+        {
+          "index": 502,
+          "text": "Planning fallacy",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            8,
+            1
+          ]
+        },
+        {
+          "index": 503,
+          "text": "Too optimistic about one's estimates",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            8,
+            1
+          ]
+        },
+        {
+          "index": 504,
+          "text": "Illusion of control",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            8,
+            2
+          ]
+        },
+        {
+          "index": 505,
+          "text": "Overestimate their ability to control events",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            8,
+            2
+          ]
+        },
+        {
+          "index": 506,
+          "text": "Muller-Lyer illusion",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            8,
+            3
+          ]
+        },
+        {
+          "index": 507,
+          "text": "Same length but viewed differently",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            8,
+            3
+          ]
+        },
+        {
+          "index": 508,
+          "text": "Source credibility",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            9,
+            0
+          ]
+        },
+        {
+          "index": 509,
+          "text": "Trust what others said",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            9,
+            0
+          ]
+        },
+        {
+          "index": 510,
+          "text": "Repetition effect",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            9,
+            1
+          ]
+        },
+        {
+          "index": 511,
+          "text": "More occurrence makes it more credible",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            9,
+            1
+          ]
+        },
+        {
+          "index": 512,
+          "text": "Prospect theory",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            9,
+            2
+          ]
+        },
+        {
+          "index": 513,
+          "text": "Decision affected by more options",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            9,
+            2
+          ]
+        },
+        {
+          "index": 514,
+          "text": "Groupthink",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            9,
+            3
+          ]
+        },
+        {
+          "index": 515,
+          "text": "Reach a consensus without critical reasoning",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            9,
+            3
+          ]
+        },
+        {
+          "index": 516,
+          "text": "Pareidolia",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            10,
+            0
+          ]
+        },
+        {
+          "index": 517,
+          "text": "Perceiving a familiar pattern where none exists",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            7,
+            10,
+            0
+          ]
+        },
+        {
+          "index": 518,
+          "text": "Forex Strategies",
+          "style": "2",
+          "bullet": false,
+          "cell": null
+        },
+        {
+          "index": 519,
+          "text": "Bollinger band EMA-20, StdDev-3",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            8,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 520,
+          "text": "Buy when the candle touches the lower line",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 521,
+          "text": "Sell when the candle touches the upper line",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 522,
+          "text": "Bollinger band: EMA-30. StdDev-2 + RSI: EMA-13",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            8,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 523,
+          "text": "Enter trade when the line touches candle along with RSI touching 30/70",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 524,
+          "text": "Do not trade during a type-3 breakout",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 525,
+          "text": "Enter trade in a divergent (nice and wide): the 2nd time candle touches line after, candle touches line + RSI touching limit",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 526,
+          "text": "Stochastic RSI: default + EMA-200",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            8,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 527,
+          "text": "Buy when EMA-200 is below the chart and Stochastic RSI lines cross above 80%",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 528,
+          "text": "Sell when EMA-200 is above the chart and Stochastic RSI lines cross below 20%",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 529,
+          "text": "Fibonacci retracement",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            8,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 530,
+          "text": "Fibonacci lines at top and bottom, wait for retracement to bounce before placing trade",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 531,
+          "text": "MACD",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            8,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 532,
+          "text": "Buy when the line crosses under 50% histogram + price above EMA-200",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 533,
+          "text": "Sell when the line crosses above the 50% histogram + price below the EMA-200",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 534,
+          "text": "Ichimoku cloud",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            8,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 535,
+          "text": "Cloud above or line above: weak sell / cloud below or line below: weak buy",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 536,
+          "text": "Cloud above and line above: strong sell / cloud below and line below: strong buy",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 537,
+          "text": "Daily strategy",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            8,
+            1,
+            2
+          ]
+        },
+        {
+          "index": 538,
+          "text": "H4 level determines trading trend, M15 to determine the setup",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            1,
+            2
+          ]
+        },
+        {
+          "index": 539,
+          "text": "A double low if selling or double high candle if buying",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            1,
+            2
+          ]
+        },
+        {
+          "index": 540,
+          "text": "A clean left or, in some circumstances, a break in structure, structure taps",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            1,
+            2
+          ]
+        },
+        {
+          "index": 541,
+          "text": "SL to be placed a little bit above the M15 candle. TP is determined through H4",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            1,
+            2
+          ]
+        },
+        {
+          "index": 542,
+          "text": "Securing profit is up to you, whichever way you are comfortable",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            1,
+            2
+          ]
+        },
+        {
+          "index": 543,
+          "text": "Can be 1:1 take 50%, then 1:2 take 20% and the rest leave runner - Check stop loss range as well",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            1,
+            2
+          ]
+        },
+        {
+          "index": 544,
+          "text": "Tekan Seja",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            8,
+            1,
+            3
+          ]
+        },
+        {
+          "index": 545,
+          "text": "Stochastic",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            1,
+            3
+          ]
+        },
+        {
+          "index": 546,
+          "text": "20, 1, 1 - hidden",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            1,
+            3
+          ]
+        },
+        {
+          "index": 547,
+          "text": "Lines - 10, 20 (sell), 50, 80 (buy), 90",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            1,
+            3
+          ]
+        },
+        {
+          "index": 548,
+          "text": "MA 5 & 15",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            1,
+            3
+          ]
+        },
+        {
+          "index": 549,
+          "text": "Both MAs crosses 20 or 80 sell and buy respectively",
+          "style": "",
+          "bullet": true,
+          "cell": [
+            8,
+            1,
+            3
+          ]
+        },
+        {
+          "index": 550,
+          "text": "Books",
+          "style": "2",
+          "bullet": false,
+          "cell": null
+        },
+        {
+          "index": 551,
+          "text": "[Beyond The Markets - OrientFX.pdf]",
+          "style": "",
+          "bullet": false,
+          "cell": null
+        },
+        {
+          "index": 552,
+          "text": "Quantitative Finance",
+          "style": "2",
+          "bullet": false,
+          "cell": null
+        },
+        {
+          "index": 553,
+          "text": "Geometric Brownian Motion (GBM)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 554,
+          "text": "Models an asset price as continuous growth plus random market fluctuations.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 555,
+          "text": "Black–Scholes–Merton Model (BSM)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 556,
+          "text": "Estimates the theoretical fair value of European-style options.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 557,
+          "text": "Markowitz Mean–Variance Optimization",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 558,
+          "text": "Selects portfolio weights to balance expected return against portfolio risk.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            0,
+            2
+          ]
+        },
+        {
+          "index": 559,
+          "text": "GARCH Volatility Model",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 560,
+          "text": "Forecasts changing market volatility using past volatility and return shocks.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            0,
+            3
+          ]
+        },
+        {
+          "index": 561,
+          "text": "Cointegration and Statistical Arbitrage",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 562,
+          "text": "Identifies assets with a stable long-term relationship and trades temporary price divergences.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 563,
+          "text": "Hidden Markov Model (HMM)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 564,
+          "text": "Infers hidden market regimes—such as bullish, bearish, or volatile—from observable market data.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 565,
+          "text": "Principal Component Analysis (PCA)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            1,
+            2
+          ]
+        },
+        {
+          "index": 566,
+          "text": "Reduces many correlated market variables into a smaller set of dominant risk factors.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            1,
+            2
+          ]
+        },
+        {
+          "index": 567,
+          "text": "Kelly Criterion",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            1,
+            3
+          ]
+        },
+        {
+          "index": 568,
+          "text": "Calculates a theoretically optimal position size to maximize long-term compounded growth.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            1,
+            3
+          ]
+        },
+        {
+          "index": 569,
+          "text": "Copula Tail-Dependence Modelling",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            2,
+            0
+          ]
+        },
+        {
+          "index": 570,
+          "text": "Models complex asset relationships, especially the likelihood of joint extreme losses or gains.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            2,
+            0
+          ]
+        },
+        {
+          "index": 571,
+          "text": "High-Dimensional Neural Networks",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            2,
+            1
+          ]
+        },
+        {
+          "index": 572,
+          "text": "Learn complex nonlinear patterns from large sets of market features for prediction or signal generation.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            2,
+            1
+          ]
+        },
+        {
+          "index": 573,
+          "text": "Linear Regression",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            2,
+            2
+          ]
+        },
+        {
+          "index": 574,
+          "text": "Models how one or more variables are associated with a continuous outcome, such as an asset’s future return.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            2,
+            2
+          ]
+        },
+        {
+          "index": 575,
+          "text": "Logistic Regression",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            2,
+            3
+          ]
+        },
+        {
+          "index": 576,
+          "text": "Estimates the probability of a categorical outcome, such as whether an asset’s price will rise or fall.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            2,
+            3
+          ]
+        },
+        {
+          "index": 577,
+          "text": "ARIMA",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 578,
+          "text": "Forecasts a time series using its past values, trends, and previous forecast errors.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            3,
+            0
+          ]
+        },
+        {
+          "index": 579,
+          "text": "Monte Carlo Simulation",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 580,
+          "text": "Simulates many possible market scenarios to estimate potential returns, prices, and risks.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            3,
+            1
+          ]
+        },
+        {
+          "index": 581,
+          "text": "Factor Models",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            3,
+            2
+          ]
+        },
+        {
+          "index": 582,
+          "text": "Explain asset returns using shared drivers such as market, value, momentum, size, or interest-rate factors.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            3,
+            2
+          ]
+        },
+        {
+          "index": 583,
+          "text": "Kalman Filter",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            3,
+            3
+          ]
+        },
+        {
+          "index": 584,
+          "text": "Continuously estimates changing hidden variables, such as a hedge ratio or underlying trend, from noisy market data.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            3,
+            3
+          ]
+        },
+        {
+          "index": 585,
+          "text": "Hypothesis Testing",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            4,
+            0
+          ]
+        },
+        {
+          "index": 586,
+          "text": "Determines whether an observed trading pattern is statistically meaningful rather than likely due to chance.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            4,
+            0
+          ]
+        },
+        {
+          "index": 587,
+          "text": "Stationarity Tests",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            4,
+            1
+          ]
+        },
+        {
+          "index": 588,
+          "text": "Check whether a time series has stable statistical properties required by many forecasting and mean-reversion models.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            4,
+            1
+          ]
+        },
+        {
+          "index": 589,
+          "text": "Portfolio Optimization and Risk Constraints",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            4,
+            2
+          ]
+        },
+        {
+          "index": 590,
+          "text": "Select portfolio weights while controlling limits such as volatility, exposure, leverage, and concentration.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            4,
+            2
+          ]
+        },
+        {
+          "index": 591,
+          "text": "Value at Risk (VaR)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            4,
+            3
+          ]
+        },
+        {
+          "index": 592,
+          "text": "Estimates a loss threshold that should not be exceeded at a specified confidence level and holding period.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            4,
+            3
+          ]
+        },
+        {
+          "index": 593,
+          "text": "Expected Shortfall (ES)",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            5,
+            0
+          ]
+        },
+        {
+          "index": 594,
+          "text": "Estimates the average loss when losses exceed the selected Value-at-Risk threshold.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            5,
+            0
+          ]
+        },
+        {
+          "index": 595,
+          "text": "Transaction-Cost Models",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            5,
+            1
+          ]
+        },
+        {
+          "index": 596,
+          "text": "Estimate trading expenses such as commissions, bid–ask spreads, slippage, and market impact.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            5,
+            1
+          ]
+        },
+        {
+          "index": 597,
+          "text": "Market-Impact Models",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            5,
+            2
+          ]
+        },
+        {
+          "index": 598,
+          "text": "Estimate how placing an order may move the market price against the trader.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            5,
+            2
+          ]
+        },
+        {
+          "index": 599,
+          "text": "Performance Statistics",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            5,
+            3
+          ]
+        },
+        {
+          "index": 600,
+          "text": "Measure a strategy’s return, risk, drawdowns, consistency, and risk-adjusted performance.",
+          "style": "",
+          "bullet": false,
+          "cell": [
+            9,
+            5,
+            3
+          ]
+        }
+      ],
+      "tables": [
+        [
+          [
+            [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            [
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ],
+            [
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29
+            ],
+            [
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38
+            ],
+            [
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49
+            ],
+            [
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60
+            ],
+            [
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ],
+            [
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              84
+            ],
+            [
+              85
+            ],
+            [
+              86
+            ],
+            [
+              87
+            ]
+          ],
+          [
+            [
+              88
+            ],
+            [
+              89
+            ],
+            [
+              90
+            ],
+            [
+              91
+            ]
+          ],
+          [
+            [
+              92
+            ],
+            [
+              93
+            ],
+            [
+              94
+            ],
+            [
+              95
+            ]
+          ],
+          [
+            [
+              96
+            ],
+            [
+              97
+            ],
+            [
+              98
+            ],
+            [
+              99
+            ]
+          ],
+          [
+            [
+              100
+            ],
+            [
+              101
+            ],
+            [
+              102
+            ],
+            [
+              103
+            ]
+          ],
+          [
+            [
+              104
+            ],
+            [
+              105
+            ],
+            [
+              106
+            ],
+            [
+              107
+            ]
+          ],
+          [
+            [
+              108
+            ],
+            [
+              109
+            ],
+            [],
+            []
+          ]
+        ],
+        [
+          [
+            [
+              111
+            ],
+            [
+              112
+            ],
+            [
+              113
+            ],
+            [
+              114
+            ],
+            [
+              115
+            ],
+            [
+              116
+            ],
+            [
+              117
+            ],
+            [
+              118
+            ]
+          ],
+          [
+            [
+              119
+            ],
+            [
+              120
+            ],
+            [
+              121
+            ],
+            [
+              122
+            ],
+            [
+              123
+            ],
+            [
+              124
+            ],
+            [
+              125
+            ],
+            [
+              126
+            ]
+          ],
+          [
+            [
+              127
+            ],
+            [
+              128
+            ],
+            [
+              129
+            ],
+            [
+              130
+            ],
+            [
+              131
+            ],
+            [
+              132
+            ],
+            [
+              133
+            ],
+            [
+              134
+            ]
+          ],
+          [
+            [
+              135
+            ],
+            [
+              136
+            ],
+            [
+              137
+            ],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          [
+            [
+              138
+            ],
+            [
+              139
+            ],
+            [
+              140
+            ],
+            [
+              141
+            ],
+            [
+              142
+            ],
+            [
+              143
+            ],
+            [
+              144
+            ],
+            [
+              145
+            ]
+          ],
+          [
+            [
+              146
+            ],
+            [
+              147
+            ],
+            [
+              148
+            ],
+            [
+              149
+            ],
+            [
+              150
+            ],
+            [],
+            [],
+            []
+          ]
+        ],
+        [
+          [
+            [
+              152,
+              153,
+              154,
+              155,
+              156,
+              157,
+              158,
+              159
+            ],
+            [
+              160,
+              161,
+              162,
+              163,
+              164,
+              165,
+              166,
+              167
+            ],
+            [
+              168,
+              169,
+              170,
+              171,
+              172,
+              173,
+              174,
+              175
+            ],
+            [
+              176,
+              177,
+              178,
+              179
+            ]
+          ],
+          [
+            [
+              180,
+              181,
+              182,
+              183,
+              184
+            ],
+            [
+              185,
+              186,
+              187,
+              188,
+              189
+            ],
+            [
+              190,
+              191
+            ],
+            [
+              192,
+              193,
+              194,
+              195
+            ]
+          ],
+          [
+            [
+              196,
+              197,
+              198,
+              199,
+              200
+            ],
+            [
+              201,
+              202,
+              203,
+              204,
+              205
+            ],
+            [
+              206,
+              207,
+              208,
+              209,
+              210
+            ],
+            [
+              211,
+              212,
+              213
+            ]
+          ],
+          [
+            [
+              214,
+              215,
+              216,
+              217,
+              218,
+              219,
+              220,
+              221,
+              222,
+              223,
+              224,
+              225,
+              226,
+              227,
+              228,
+              229,
+              230,
+              231
+            ],
+            [
+              232,
+              233,
+              234,
+              235,
+              236,
+              237,
+              238,
+              239,
+              240,
+              241,
+              242,
+              243,
+              244,
+              245,
+              246,
+              247,
+              248,
+              249,
+              250,
+              251,
+              252,
+              253,
+              254,
+              255,
+              256,
+              257
+            ],
+            [
+              258,
+              259,
+              260
+            ],
+            [
+              261,
+              262,
+              263,
+              264,
+              265,
+              266,
+              267,
+              268,
+              269,
+              270,
+              271,
+              272,
+              273
+            ]
+          ],
+          [
+            [
+              274,
+              275,
+              276,
+              277,
+              278,
+              279
+            ],
+            [
+              280,
+              281,
+              282,
+              283
+            ],
+            [
+              284,
+              285,
+              286,
+              287,
+              288
+            ],
+            [
+              289,
+              290,
+              291,
+              292
+            ]
+          ],
+          [
+            [
+              293
+            ],
+            [
+              294
+            ],
+            [
+              295
+            ],
+            [
+              296
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              298
+            ],
+            [
+              299
+            ],
+            [
+              300
+            ],
+            [
+              301
+            ]
+          ],
+          [
+            [
+              302
+            ],
+            [
+              303
+            ],
+            [
+              304
+            ],
+            [
+              305
+            ]
+          ],
+          [
+            [
+              306,
+              307
+            ],
+            [
+              308,
+              309
+            ],
+            [
+              310,
+              311
+            ],
+            [
+              312,
+              313
+            ]
+          ],
+          [
+            [
+              314
+            ],
+            [
+              315
+            ],
+            [
+              316
+            ],
+            [
+              317
+            ]
+          ],
+          [
+            [
+              318
+            ],
+            [
+              319
+            ],
+            [
+              320
+            ],
+            [
+              321
+            ]
+          ],
+          [
+            [
+              322
+            ],
+            [
+              323
+            ],
+            [
+              324
+            ],
+            [
+              325
+            ]
+          ],
+          [
+            [
+              326
+            ],
+            [
+              327
+            ],
+            [
+              328
+            ],
+            [
+              329
+            ]
+          ],
+          [
+            [
+              330
+            ],
+            [
+              331
+            ],
+            [
+              332
+            ],
+            [
+              333
+            ]
+          ],
+          [
+            [
+              334
+            ],
+            [
+              335
+            ],
+            [
+              336
+            ],
+            [
+              337
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              339
+            ],
+            [
+              340
+            ],
+            [
+              341,
+              342,
+              343,
+              344,
+              345,
+              346,
+              347,
+              348,
+              349,
+              350,
+              351
+            ],
+            []
+          ],
+          [
+            [
+              352,
+              353,
+              354,
+              355
+            ],
+            [
+              356,
+              357,
+              358,
+              359
+            ],
+            [],
+            []
+          ],
+          [
+            [
+              360
+            ],
+            [
+              361
+            ],
+            [],
+            []
+          ],
+          [
+            [
+              362,
+              363
+            ],
+            [
+              364,
+              365,
+              366
+            ],
+            [
+              367,
+              368,
+              369,
+              370,
+              371,
+              372,
+              373,
+              374,
+              375
+            ],
+            []
+          ],
+          [
+            [
+              376,
+              377,
+              378
+            ],
+            [
+              379
+            ],
+            [],
+            []
+          ],
+          [
+            [
+              380,
+              381,
+              382,
+              383,
+              384
+            ],
+            [],
+            [
+              385,
+              386,
+              387
+            ],
+            [
+              388,
+              389,
+              390
+            ]
+          ],
+          [
+            [
+              391
+            ],
+            [
+              392,
+              393,
+              394,
+              395
+            ],
+            [
+              396,
+              397,
+              398
+            ],
+            [
+              399,
+              400,
+              401,
+              402,
+              403
+            ]
+          ],
+          [
+            [
+              404
+            ],
+            [],
+            [],
+            []
+          ],
+          [
+            [
+              405,
+              406
+            ],
+            [],
+            [],
+            []
+          ],
+          [
+            [
+              407
+            ],
+            [],
+            [],
+            []
+          ],
+          [
+            [
+              408
+            ],
+            [
+              409
+            ],
+            [
+              410
+            ],
+            [
+              411
+            ]
+          ],
+          [
+            [
+              412
+            ],
+            [
+              413
+            ],
+            [],
+            []
+          ]
+        ],
+        [
+          [
+            [
+              415
+            ],
+            [
+              416
+            ],
+            [
+              417
+            ],
+            [
+              418
+            ]
+          ],
+          [
+            [
+              419
+            ],
+            [
+              420
+            ],
+            [
+              421
+            ],
+            [
+              422
+            ]
+          ],
+          [
+            [
+              423
+            ],
+            [
+              424
+            ],
+            [
+              425
+            ],
+            [
+              426
+            ]
+          ],
+          [
+            [
+              427
+            ],
+            [
+              428
+            ],
+            [
+              429
+            ],
+            [
+              430
+            ]
+          ],
+          [
+            [
+              431
+            ],
+            [
+              432
+            ],
+            [
+              433
+            ],
+            [
+              434
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              436,
+              437
+            ],
+            [
+              438,
+              439
+            ],
+            [
+              440,
+              441
+            ],
+            [
+              442,
+              443
+            ]
+          ],
+          [
+            [
+              444,
+              445
+            ],
+            [
+              446,
+              447
+            ],
+            [
+              448,
+              449
+            ],
+            [
+              450,
+              451
+            ]
+          ],
+          [
+            [
+              452,
+              453
+            ],
+            [
+              454,
+              455
+            ],
+            [
+              456,
+              457
+            ],
+            [
+              458,
+              459
+            ]
+          ],
+          [
+            [
+              460,
+              461
+            ],
+            [
+              462,
+              463
+            ],
+            [
+              464,
+              465
+            ],
+            [
+              466,
+              467
+            ]
+          ],
+          [
+            [
+              468,
+              469
+            ],
+            [
+              470,
+              471
+            ],
+            [
+              472,
+              473
+            ],
+            [
+              474,
+              475
+            ]
+          ],
+          [
+            [
+              476,
+              477
+            ],
+            [
+              478,
+              479
+            ],
+            [
+              480,
+              481
+            ],
+            [
+              482,
+              483
+            ]
+          ],
+          [
+            [
+              484,
+              485
+            ],
+            [
+              486,
+              487
+            ],
+            [
+              488,
+              489
+            ],
+            [
+              490,
+              491
+            ]
+          ],
+          [
+            [
+              492,
+              493
+            ],
+            [
+              494,
+              495
+            ],
+            [
+              496,
+              497
+            ],
+            [
+              498,
+              499
+            ]
+          ],
+          [
+            [
+              500,
+              501
+            ],
+            [
+              502,
+              503
+            ],
+            [
+              504,
+              505
+            ],
+            [
+              506,
+              507
+            ]
+          ],
+          [
+            [
+              508,
+              509
+            ],
+            [
+              510,
+              511
+            ],
+            [
+              512,
+              513
+            ],
+            [
+              514,
+              515
+            ]
+          ],
+          [
+            [
+              516,
+              517
+            ],
+            [],
+            [],
+            []
+          ]
+        ],
+        [
+          [
+            [
+              519,
+              520,
+              521
+            ],
+            [
+              522,
+              523,
+              524,
+              525
+            ],
+            [
+              526,
+              527,
+              528
+            ],
+            [
+              529,
+              530
+            ]
+          ],
+          [
+            [
+              531,
+              532,
+              533
+            ],
+            [
+              534,
+              535,
+              536
+            ],
+            [
+              537,
+              538,
+              539,
+              540,
+              541,
+              542,
+              543
+            ],
+            [
+              544,
+              545,
+              546,
+              547,
+              548,
+              549
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              553,
+              554
+            ],
+            [
+              555,
+              556
+            ],
+            [
+              557,
+              558
+            ],
+            [
+              559,
+              560
+            ]
+          ],
+          [
+            [
+              561,
+              562
+            ],
+            [
+              563,
+              564
+            ],
+            [
+              565,
+              566
+            ],
+            [
+              567,
+              568
+            ]
+          ],
+          [
+            [
+              569,
+              570
+            ],
+            [
+              571,
+              572
+            ],
+            [
+              573,
+              574
+            ],
+            [
+              575,
+              576
+            ]
+          ],
+          [
+            [
+              577,
+              578
+            ],
+            [
+              579,
+              580
+            ],
+            [
+              581,
+              582
+            ],
+            [
+              583,
+              584
+            ]
+          ],
+          [
+            [
+              585,
+              586
+            ],
+            [
+              587,
+              588
+            ],
+            [
+              589,
+              590
+            ],
+            [
+              591,
+              592
+            ]
+          ],
+          [
+            [
+              593,
+              594
+            ],
+            [
+              595,
+              596
+            ],
+            [
+              597,
+              598
+            ],
+            [
+              599,
+              600
+            ]
+          ]
+        ]
+      ],
+      "images": [
+        {
+          "path": "word/media/image1.jpeg",
+          "sha256": "81160a98d8adc534d2a5d44dca24fe666a20f3c7f2d3ce863e8555c95753dc03",
+          "bytes": 308366
+        },
+        {
+          "path": "word/media/image2.jpeg",
+          "sha256": "e4bf26a17fee945fe6347084b23d3199f7cfc488c0fd5ad651be4bcd019be951",
+          "bytes": 442523
+        },
+        {
+          "path": "word/media/image3.jpeg",
+          "sha256": "186b10893c00ff5ba8735094449b74799224f764fa0395459e9ec8ccb0b84d41",
+          "bytes": 308488
+        },
+        {
+          "path": "word/media/image4.jpeg",
+          "sha256": "2dd44821d1b754de74611d8f439a09f4ac887950a1f10353e4a444d2e4d65725",
+          "bytes": 215146
+        },
+        {
+          "path": "word/media/image5.png",
+          "sha256": "d5991886351e3ca4ee2acab9201c59ad478e89fa0e73d74e44abf03230d146a8",
+          "bytes": 505482
+        },
+        {
+          "path": "word/media/image6.jpeg",
+          "sha256": "e5bf64e6704caf531f0dbc0b3983dda3fe75f5414adb94e740e3f1cb1a9b8022",
+          "bytes": 59458
+        }
+      ],
+      "externalLinks": [
+        {
+          "id": "rId11",
+          "url": "https://www.myfxbook.com/en/forex-calculators/position-size",
+          "paragraphs": [
+            371
+          ]
+        },
+        {
+          "id": "rId12",
+          "url": "https://www.forexfactory.com/calendar",
+          "paragraphs": [
+            372
+          ]
+        },
+        {
+          "id": "rId13",
+          "url": "https://everytimezone.com/",
+          "paragraphs": [
+            373
+          ]
+        },
+        {
+          "id": "rId14",
+          "url": "https://www.fxblue.com/market-data/currency-strength",
+          "paragraphs": [
+            374
+          ]
+        },
+        {
+          "id": "rId15",
+          "url": "https://www.portfoliovisualizer.com/backtest-portfolio",
+          "paragraphs": [
+            375
+          ]
+        }
+      ]
+    }
+  ]
+}

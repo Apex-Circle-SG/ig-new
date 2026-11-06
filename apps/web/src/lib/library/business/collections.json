@@ -1678,7 +1678,8 @@
     "relatedCollections": [
       "business-management",
       "operations-performance",
-      "strategy-growth"
+      "strategy-growth",
+      "trading-market-analysis"
     ]
   },
   {
@@ -2597,7 +2598,8 @@
       "valuation-transactions",
       "financial-performance",
       "costing-management-accounting",
-      "finance-controls-tax"
+      "finance-controls-tax",
+      "trading-market-analysis"
     ],
     "topicRoot": false
   },
@@ -3060,6 +3062,123 @@
       "finance-accounting",
       "leadership-change",
       "project-management"
+    ]
+  },
+  {
+    "slug": "trading-market-analysis",
+    "title": "Trading & Market Analysis",
+    "topic": "Trading & Market Analysis",
+    "group": "Start here",
+    "summary": "Study chart structure, setups, risk, execution, psychology and quantitative trading methods in a connected learning path.",
+    "intro": "Start with realistic objectives and loss/execution assumptions, then explore chart references and individual setup ideas. Use the strategy lab to distinguish a complete rule from shorthand and evaluate evidence before drawing conclusions.",
+    "groups": [
+      {
+        "name": "Start with a plan",
+        "description": "Set objectives, distinguish styles and read session clocks."
+      },
+      {
+        "name": "Chart reading",
+        "description": "Compare candles, harmonic legs, formations, levels and volume."
+      },
+      {
+        "name": "Price action & setups",
+        "description": "Organize structure vocabulary, regime hypotheses and checklists."
+      },
+      {
+        "name": "Risk & execution",
+        "description": "Connect quantity, exposure, order behavior and exits."
+      },
+      {
+        "name": "Psychology & review",
+        "description": "Review discipline and the full behavioral reference."
+      },
+      {
+        "name": "Signals & validation",
+        "description": "Classify indicators, test rules and find external resources."
+      },
+      {
+        "name": "Quantitative methods",
+        "description": "Connect models, forecasts, allocations, frictions and uncertainty."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Build the foundation",
+        "links": [
+          {
+            "slug": "trading-foundations",
+            "label": "Set realistic expectations"
+          },
+          {
+            "slug": "trading-risk-position-sizing",
+            "label": "Understand loss budgets and exposure"
+          },
+          {
+            "slug": "trading-orders-execution",
+            "label": "Understand order and fill behavior"
+          }
+        ]
+      },
+      {
+        "title": "Explore the training references",
+        "links": [
+          {
+            "slug": "candlestick-pattern-atlas",
+            "label": "Compare candle formations"
+          },
+          {
+            "slug": "classical-chart-patterns",
+            "label": "Explore patterns and trendline studies"
+          },
+          {
+            "slug": "trading-regimes-setups",
+            "label": "Read the setup playbook"
+          }
+        ]
+      },
+      {
+        "title": "Evaluate a method",
+        "links": [
+          {
+            "slug": "trading-strategy-lab",
+            "label": "Resolve the strategy specification"
+          },
+          {
+            "slug": "trading-mindset-journal",
+            "label": "Record decisions and execution"
+          },
+          {
+            "slug": "trading-quantitative-finance",
+            "label": "Explore models and their assumptions"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "The supplied notes and drawings are educational material, not verified profitable strategies, individualized advice or live signals. Original source wording and images remain accessible beside editorial explanations.",
+      "One named book PDF is missing. No trade ledger, dataset, full script configuration or verified performance record was supplied."
+    ],
+    "references": [
+      {
+        "title": "CFTC: risks of retail OTC forex",
+        "url": "https://www.cftc.gov/sites/default/files/2022-08/Must%20Know_Forex_FINAL%20%28002%29.pdf"
+      },
+      {
+        "title": "Investor.gov: market, limit and stop orders",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/types-orders"
+      },
+      {
+        "title": "Fidelity: technical analysis and its limitations",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/what-is-technical-analysis"
+      }
+    ],
+    "topicRoot": true,
+    "parent": "",
+    "relatedCollections": [
+      "investing-portfolio-management",
+      "finance-accounting",
+      "research-methods-academic-skills",
+      "technology"
     ]
   }
 ]

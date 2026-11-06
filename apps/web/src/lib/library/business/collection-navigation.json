@@ -785,5 +785,30 @@
       "reading-map-project-management",
       "reading-map-strategic-hr"
     ]
+  },
+  {
+    "slug": "trading-market-analysis",
+    "title": "Trading & Market Analysis",
+    "topic": "Trading & Market Analysis",
+    "parent": "",
+    "members": [
+      "trading-foundations",
+      "market-structure-levels",
+      "candlestick-pattern-atlas",
+      "harmonic-pattern-atlas",
+      "classical-chart-patterns",
+      "smc-price-action",
+      "trading-analysis-checklist",
+      "trading-styles-sessions",
+      "trading-risk-position-sizing",
+      "trading-orders-execution",
+      "trading-regimes-setups",
+      "trading-indicators-reference",
+      "trading-quantitative-finance",
+      "trading-mindset-journal",
+      "trading-behavioral-biases",
+      "trading-strategy-lab",
+      "trading-tools-validation"
+    ]
   }
 ]

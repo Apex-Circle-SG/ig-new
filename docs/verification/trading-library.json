@@ -1,0 +1,40 @@
+{
+  "archiveSha256": "f6545d6d1b79ff6bde6347edab290704d874547cdc0d0336fa93d4b29229543d",
+  "sourceParagraphs": 601,
+  "sourceWords": 2903,
+  "sourceTables": 10,
+  "sourceImages": 6,
+  "unmappedParagraphs": 0,
+  "retainedSubstantiveOccurrences": 586,
+  "newGuides": 17,
+  "enrichedGuides": 2,
+  "newCollections": [
+    "trading-market-analysis"
+  ],
+  "priorCatalogueEntries": 564,
+  "catalogueEntries": 582,
+  "sourceReviewSections": 39,
+  "sourceImagePanels": {
+    "candlesticks": 68,
+    "harmonics": 20,
+    "classical": 20,
+    "unlabelled": 48,
+    "institutional": 44,
+    "specialist": 2
+  },
+  "referencePanelTotal": 202,
+  "nativeSketchTotal": 158,
+  "sourceOnlyStudyCards": 44,
+  "exactSourceImagesAccessible": true,
+  "originalImagesPreservedInArchive": true,
+  "optimizedAssetBytes": 1417536,
+  "externalLinks": 5,
+  "sourceBehavioralPrompts": 41,
+  "quantitativeFinanceTopics": 24,
+  "missingBookPDF": 1,
+  "previousSectionsAndFiguresPreserved": true,
+  "formulaDirectoryUnchanged": true,
+  "academicReferenceCatalogueUnchanged": true,
+  "parserRejectsUnreviewedOrChangedLinks": true,
+  "returnHorizonArithmeticChecked": true
+}

@@ -21,7 +21,7 @@ COMPARISONS = {
 def text(p):
     return ''.join(t.text or '' for t in p.iter(W + 't')).strip()
 
-def read_document(name, data, reviewed_equations=()):
+def read_document(name, data, reviewed_equations=(), reviewed_links=()):
     with zipfile.ZipFile(io.BytesIO(data)) as doc:
         root = ET.fromstring(doc.read('word/document.xml'))
         paragraphs = [p for p in root.iter(W + 'p') if text(p)]
@@ -55,9 +55,19 @@ def read_document(name, data, reviewed_equations=()):
         for part in doc.namelist():
             if part.startswith('word/') and any(label in part for label in ('header', 'footer', 'footnote', 'endnote', 'comment')) and part.endswith('.xml'):
                 assert not any(text(p) for p in ET.fromstring(doc.read(part)).iter(W + 'p')), f'Review auxiliary text: {name}/{part}'
+        external_links = []
         if 'word/_rels/document.xml.rels' in doc.namelist():
             relationships = ET.fromstring(doc.read('word/_rels/document.xml.rels'))
-            assert not any(r.get('TargetMode') == 'External' for r in relationships), f'Review external links: {name}'
+            for relationship in relationships:
+                if relationship.get('TargetMode') != 'External':
+                    continue
+                assert relationship.get('Type').endswith('/hyperlink'), f'Review external object: {name}'
+                target = relationship.get('Target', '')
+                assert target.startswith('https://'), f'Unsafe source link: {name}'
+                anchors = [i for i, p in enumerate(paragraphs) for link in p.iter(W + 'hyperlink')
+                           if link.get('{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id') == relationship.get('Id')]
+                external_links.append(dict(id=relationship.get('Id'), url=target, paragraphs=anchors))
+            assert external_links == list(reviewed_links), f'Review external links: {name}'
         assert not any(e.get('descr') or e.get('title') for e in root.iter() if e.tag.endswith('docPr')), f'Review image alternate text: {name}'
         equations = []
         for p in root.iter(W + 'p'):
@@ -72,6 +82,8 @@ def read_document(name, data, reviewed_equations=()):
         document = dict(name=name, sha256=hashlib.sha256(data).hexdigest(), paragraphs=result, tables=tables, images=media)
         if equations:
             document['equations'] = equations
+        if external_links:
+            document['externalLinks'] = external_links
         return document
 
 LABELS = {

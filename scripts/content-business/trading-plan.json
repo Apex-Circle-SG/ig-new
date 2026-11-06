@@ -1,0 +1,2248 @@
+[
+  {
+    "slug": "trading-foundations",
+    "title": "Trading foundations: evidence, objectives and realistic expectations",
+    "topic": "Trading & Market Analysis",
+    "collection": "trading-market-analysis",
+    "group": "Start with a plan",
+    "summary": "Understand the roles of technical and fundamental analysis before treating an idea as a repeatable trading process.",
+    "takeaway": "An appealing chart or return target is a hypothesis to test, not evidence of a profitable strategy.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "trading-risk-position-sizing",
+      "trading-tools-validation",
+      "trading-styles-sessions",
+      "investment-behavior-returns"
+    ],
+    "references": [
+      {
+        "title": "CFTC: risks of retail OTC forex",
+        "url": "https://www.cftc.gov/sites/default/files/2022-08/Must%20Know_Forex_FINAL%20%28002%29.pdf"
+      },
+      {
+        "title": "Fidelity: technical analysis and its limitations",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/what-is-technical-analysis"
+      }
+    ],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "From observation to evaluation",
+        "headers": [
+          "Stage",
+          "Question"
+        ],
+        "rows": [
+          [
+            "Observe",
+            "What instrument, session, feed and timeframe produced this chart?"
+          ],
+          [
+            "Specify",
+            "What exact conditions, entry, invalidation and exits define the idea?"
+          ],
+          [
+            "Evaluate",
+            "Does it survive realistic costs, unseen data and alternative explanations?"
+          ],
+          [
+            "Review",
+            "What changed in risk, execution, discipline or the market setting?"
+          ]
+        ],
+        "note": "Editorial comparison for study; definitions, conditions and original source notes remain available below."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Trading.docx",
+        "start": 0,
+        "end": 1,
+        "heading": "What this training collection offers",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "These notes connect chart vocabulary, setups, risk, psychology and quantitative methods. Start with risk and validation, then study a particular setup. The supplied material contains no trade ledger, dataset or independently verified track record."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 338,
+        "end": 340,
+        "heading": "Compare return horizons fairly",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The source contrasts 5% annually from investing with 5% monthly from trading. Neither return is established here. A hypothetical 5% each month compounds to about 79.6% over twelve months before costs, not 5% per year. An account size alone does not determine return, and a repeated monthly outcome cannot be assumed."
+          ],
+          "references": [
+            {
+              "title": "CFTC: risks of retail OTC forex",
+              "url": "https://www.cftc.gov/sites/default/files/2022-08/Must%20Know_Forex_FINAL%20%28002%29.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 352,
+        "end": 360,
+        "heading": "Technical and fundamental questions",
+        "introduction": "Technical analysis organizes past price/volume observations; fundamental analysis considers economic and business context. Neither observes the future. Bulls and bears describe opposing positions or pressure, not two literal groups controlling every price.",
+        "subheadings": [
+          352,
+          356
+        ]
+      },
+      {
+        "document": "Trading.docx",
+        "start": 176,
+        "end": 180,
+        "heading": "Three analysis lenses",
+        "introduction": "Price action, classical formations and technical indicators can overlap. Multiple indicators built from the same prices are not independent evidence."
+      },
+      {
+        "document": "Trading.docx",
+        "start": 404,
+        "end": 405,
+        "heading": "Price action in context",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Price action is a family of chart-reading approaches. Compare the described shape, the decision rule and actual trading results separately."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "editorialSections": [],
+    "format": "guide"
+  },
+  {
+    "slug": "market-structure-levels",
+    "title": "Read market structure: swings, levels, volume and relative strength",
+    "topic": "Trading & Market Analysis",
+    "collection": "trading-market-analysis",
+    "group": "Chart reading",
+    "summary": "Connect highs and lows, support and resistance, timeframes, volume and currency comparisons.",
+    "takeaway": "A level marks an area to investigate; it does not require price to reverse or travel to the next level.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "classical-chart-patterns",
+      "trading-regimes-setups",
+      "trading-indicators-reference",
+      "smc-price-action"
+    ],
+    "references": [
+      {
+        "title": "Fidelity: technical analysis and its limitations",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/what-is-technical-analysis"
+      }
+    ],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Separate a chart observation from an explanation",
+        "headers": [
+          "Observation",
+          "What still needs evidence"
+        ],
+        "rows": [
+          [
+            "Higher highs and higher lows",
+            "Whether the sequence persists after costs and under a fixed swing rule"
+          ],
+          [
+            "Price returns to an old level",
+            "Whether a retest rule has useful out-of-sample performance"
+          ],
+          [
+            "A volume spike",
+            "What the feed measures and whether the context supports the interpretation"
+          ],
+          [
+            "Several pairs move together",
+            "Whether exposure is duplicated, and how correlation changes over the chosen horizon"
+          ]
+        ],
+        "note": "Editorial comparison for study; definitions, conditions and original source notes remain available below."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Trading.docx",
+        "start": 274,
+        "end": 293,
+        "heading": "Trend structure across three horizons",
+        "introduction": "Separate swing descriptions from claims about accumulation or distribution. EMA-200/50/20 and the one-day main timeframe are source examples, not universal horizon definitions.",
+        "subheadings": [
+          274,
+          280,
+          284,
+          289
+        ]
+      },
+      {
+        "document": "Trading.docx",
+        "start": 362,
+        "end": 367,
+        "heading": "Relative strength and the volume feed",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The source compares currency pairs to infer relative movement. A currency is always quoted against another; normalize periods and direction before comparing strength. The source pair groupings elsewhere are not verified correlations.",
+            "Exchange trade volume, broker tick counts and third-party estimates measure different things. A retail spot-FX chart is not a consolidated record of all global currency trading. High volume does not by itself prove buying pressure or a turning point."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 376,
+        "end": 379,
+        "heading": "Drawing levels consistently",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "A line chart can make closes easier to compare, but discards intrabar extremes. The three-point/five-point suggestions are drawing conventions; more retrospective touches do not establish predictive accuracy. Choose the line rule before evaluating the later move."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 385,
+        "end": 396,
+        "heading": "Support, resistance and possible order interest",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Support/resistance are candidate zones associated with prior price reactions. A break can fail; a former support does not automatically become resistance, and price need not reach the next marked zone. Claims about waiting buyers, sellers or an imbalance are interpretations unless supported by suitable order/transaction data."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 399,
+        "end": 404,
+        "heading": "Higher highs, higher lows and their opposites",
+        "introduction": "Define swing identification consistently. Higher highs/lows, mixed swings and lower lows/highs describe the observed sequence, not its next direction."
+      }
+    ],
+    "editorialSections": [],
+    "format": "guide"
+  },
+  {
+    "slug": "candlestick-pattern-atlas",
+    "title": "Candlestick atlas: read bodies, wicks and sequences",
+    "topic": "Trading & Market Analysis",
+    "collection": "trading-market-analysis",
+    "group": "Chart reading",
+    "summary": "Compare all 68 named candle illustrations in compact, themed groups with the original reference available.",
+    "takeaway": "Candle names describe geometry and context; they do not supply a success rate or a complete entry rule.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "classical-chart-patterns",
+      "trading-analysis-checklist",
+      "trading-strategy-lab"
+    ],
+    "references": [
+      {
+        "title": "Fidelity: technical analysis and its limitations",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/what-is-technical-analysis"
+      }
+    ],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Trading.docx",
+        "start": 1,
+        "end": 2,
+        "heading": "How to read a candle",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "A candle records open, high, low and close for a chosen bar period. Its body connects open and close; wicks show the extremes. Filled purple bodies in the recreated illustrations close above their open, outlined bodies below it. A doji has similar open/close values. Apparent gaps and shapes depend on the market session, data feed and bar construction."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "editorialSections": [],
+    "format": "guide"
+  },
+  {
+    "slug": "harmonic-pattern-atlas",
+    "title": "Harmonic patterns: legs, ratios and source inconsistencies",
+    "topic": "Trading & Market Analysis",
+    "collection": "trading-market-analysis",
+    "group": "Chart reading",
+    "summary": "Compare ten harmonic families and both orientations while keeping the original ratio labels visible.",
+    "takeaway": "Specify which leg and reference distance a ratio measures before turning a drawing into a testable rule.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "classical-chart-patterns",
+      "trading-strategy-lab",
+      "trading-risk-position-sizing"
+    ],
+    "references": [
+      {
+        "title": "Fidelity: technical analysis and its limitations",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/what-is-technical-analysis"
+      }
+    ],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Trading.docx",
+        "start": 2,
+        "end": 81,
+        "heading": "Read the harmonic reference critically",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The source image contains 20 panels: AB=CD, Bat, Three Drives, Alt Bat, Gartley, Crab, Butterfly, Deep Crab, Cypher and Shark in two orientations. The sketches below identify their leg structure; use the detailed source image for the original placement of ratio labels.",
+            "The extracted numeric table has eight columns whose associations with individual patterns/legs are not recoverable from the text alone. Values including 1.168, 1.271, 3.168 and 0.089 are preserved rather than normalized to more familiar ratios. Do not treat those detached numbers as a verified ratio specification. The source also labels the bullish counterpart to Deep Crab simply Bullish Crab, and its Cypher annotations differ between orientations.",
+            "A reproducible harmonic study needs pivot selection, leg definitions, acceptable ratio tolerances, completion/invalidation, entry timing, exits and costs. None of the drawings proves profitable prediction."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "editorialSections": [],
+    "format": "guide"
+  },
+  {
+    "slug": "classical-chart-patterns",
+    "title": "Chart-pattern atlas: reversals, ranges, channels and wave studies",
+    "topic": "Trading & Market Analysis",
+    "collection": "trading-market-analysis",
+    "group": "Chart reading",
+    "summary": "Explore labelled formations, all 48 unlabelled geometry studies, and the Wolfe Wave and Adam & Eve sketches.",
+    "takeaway": "Keep the observed formation, proposed projection and actual outcome separate.",
+    "steps": [],
+    "notes": [
+      "Measured moves, neckline projections and breakout arrows are source hypotheses. A chart pattern can fail, and the source provides no dataset or measured performance for these examples."
+    ],
+    "related": [
+      "market-structure-levels",
+      "trading-regimes-setups",
+      "harmonic-pattern-atlas",
+      "trading-strategy-lab"
+    ],
+    "references": [
+      {
+        "title": "Fidelity: technical analysis and its limitations",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/what-is-technical-analysis"
+      }
+    ],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Trading.docx",
+        "start": 81,
+        "end": 83,
+        "heading": "Use the three chart-study sheets",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The references combine named formations, unlabelled trendline/wave sketches and two specialist patterns. Native diagrams provide compact conceptual comparisons; the supplied originals preserve exact line placement and fine annotations. Descriptive headings on unlabelled panels are editorial observations, not invented pattern names or authenticated strategy definitions."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "editorialSections": [],
+    "format": "guide"
+  },
+  {
+    "slug": "smc-price-action",
+    "title": "SMC, ICT and institutional price-action vocabulary",
+    "topic": "Trading & Market Analysis",
+    "collection": "trading-market-analysis",
+    "group": "Price action & setups",
+    "summary": "Find the source terms for structure, liquidity, imbalances and blocks alongside the complete study-sheet reference.",
+    "takeaway": "A term such as liquidity sweep or order block does not itself identify institutional orders or prove manipulation.",
+    "steps": [],
+    "notes": [
+      "The institutional sheet prints an adaptation credit, but original authorship was not independently authenticated. Its complete labels and all 44 orientations remain accessible."
+    ],
+    "related": [
+      "market-structure-levels",
+      "trading-analysis-checklist",
+      "trading-indicators-reference",
+      "trading-strategy-lab"
+    ],
+    "references": [
+      {
+        "title": "Fidelity: technical analysis and its limitations",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/what-is-technical-analysis"
+      }
+    ],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Read the vocabulary by purpose",
+        "headers": [
+          "Family",
+          "Terms and distinctions"
+        ],
+        "rows": [
+          [
+            "Structure",
+            "BOS/BMS, MSS/SMS and CHoCH describe claimed changes in a chosen swing structure; define the swing rule first."
+          ],
+          [
+            "Liquidity references",
+            "BSL, SSL, IRL, ERL, LG and LS label areas or events interpreted as liquidity-related; chart highs/lows alone do not reveal all resting orders."
+          ],
+          [
+            "Imbalances and ranges",
+            "FVG, IFVG, BISI, SIBI, VIB, BPR and NWOG require explicit candle/range definitions."
+          ],
+          [
+            "Zones and execution models",
+            "OB, BB, MB, MSB, RB, RTO, OTE, PDA and MMXM are source vocabulary, not standardized exchange order types."
+          ]
+        ],
+        "note": "Editorial comparison for study; definitions, conditions and original source notes remain available below."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Trading.docx",
+        "start": 83,
+        "end": 110,
+        "heading": "The supplied vocabulary",
+        "introduction": "Terminology varies between authors and scripts. These are the exact supplied expansions; a name alone does not define detection rules or a validated signal.",
+        "table": {
+          "headers": [
+            "Supplied term"
+          ],
+          "rows": [
+            [
+              [
+                84
+              ]
+            ],
+            [
+              [
+                85
+              ]
+            ],
+            [
+              [
+                86
+              ]
+            ],
+            [
+              [
+                87
+              ]
+            ],
+            [
+              [
+                88
+              ]
+            ],
+            [
+              [
+                89
+              ]
+            ],
+            [
+              [
+                90
+              ]
+            ],
+            [
+              [
+                91
+              ]
+            ],
+            [
+              [
+                92
+              ]
+            ],
+            [
+              [
+                93
+              ]
+            ],
+            [
+              [
+                94
+              ]
+            ],
+            [
+              [
+                95
+              ]
+            ],
+            [
+              [
+                96
+              ]
+            ],
+            [
+              [
+                97
+              ]
+            ],
+            [
+              [
+                98
+              ]
+            ],
+            [
+              [
+                99
+              ]
+            ],
+            [
+              [
+                100
+              ]
+            ],
+            [
+              [
+                101
+              ]
+            ],
+            [
+              [
+                102
+              ]
+            ],
+            [
+              [
+                103
+              ]
+            ],
+            [
+              [
+                104
+              ]
+            ],
+            [
+              [
+                105
+              ]
+            ],
+            [
+              [
+                106
+              ]
+            ],
+            [
+              [
+                107
+              ]
+            ],
+            [
+              [
+                108
+              ]
+            ],
+            [
+              [
+                109
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 293,
+        "end": 297,
+        "heading": "Combined block and imbalance labels",
+        "introduction": "These four labels name combinations but supply no diagrams, code or precise detection conditions. Inverse volume imbalance is not silently redefined as an inversion fair value gap."
+      }
+    ],
+    "editorialSections": [],
+    "format": "guide"
+  },
+  {
+    "slug": "trading-analysis-checklist",
+    "title": "A trading checklist: context, levels, trigger and exit assumptions",
+    "topic": "Trading & Market Analysis",
+    "collection": "trading-market-analysis",
+    "group": "Price action & setups",
+    "summary": "Turn a long list of chart checks into a repeatable review sequence without mistaking confluence for independent evidence.",
+    "takeaway": "A checklist records what you checked; it cannot turn an unspecified strategy into a demonstrated edge.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "smc-price-action",
+      "trading-regimes-setups",
+      "trading-orders-execution",
+      "trading-strategy-lab"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "kind": "flow",
+        "title": "A usable review sequence",
+        "headers": [
+          "Stage"
+        ],
+        "rows": [
+          [
+            "Context: instrument, date, session and data feed"
+          ],
+          [
+            "Structure: define the range, swings and relevant levels"
+          ],
+          [
+            "Trigger: record the exact conditions and invalidation"
+          ],
+          [
+            "Risk and execution: size, exposure, order and friction"
+          ],
+          [
+            "Exit and review: partials, residual position and journal evidence"
+          ]
+        ],
+        "note": "This is an editorial organization of the supplied checklist, not an automated signal or completed strategy."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Trading.docx",
+        "start": 110,
+        "end": 138,
+        "heading": "The source chart-check inventory",
+        "introduction": "Keep the full inventory, but choose which observations answer your setup question. Similar moving averages, oscillators and patterns can repeat the same price information.",
+        "table": {
+          "headers": [
+            "Check from the source"
+          ],
+          "rows": [
+            [
+              [
+                111
+              ]
+            ],
+            [
+              [
+                112
+              ]
+            ],
+            [
+              [
+                113
+              ]
+            ],
+            [
+              [
+                114
+              ]
+            ],
+            [
+              [
+                115
+              ]
+            ],
+            [
+              [
+                116
+              ]
+            ],
+            [
+              [
+                117
+              ]
+            ],
+            [
+              [
+                118
+              ]
+            ],
+            [
+              [
+                119
+              ]
+            ],
+            [
+              [
+                120
+              ]
+            ],
+            [
+              [
+                121
+              ]
+            ],
+            [
+              [
+                122
+              ]
+            ],
+            [
+              [
+                123
+              ]
+            ],
+            [
+              [
+                124
+              ]
+            ],
+            [
+              [
+                125
+              ]
+            ],
+            [
+              [
+                126
+              ]
+            ],
+            [
+              [
+                127
+              ]
+            ],
+            [
+              [
+                128
+              ]
+            ],
+            [
+              [
+                129
+              ]
+            ],
+            [
+              [
+                130
+              ]
+            ],
+            [
+              [
+                131
+              ]
+            ],
+            [
+              [
+                132
+              ]
+            ],
+            [
+              [
+                133
+              ]
+            ],
+            [
+              [
+                134
+              ]
+            ],
+            [
+              [
+                135
+              ]
+            ],
+            [
+              [
+                136
+              ]
+            ],
+            [
+              [
+                137
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 138,
+        "end": 151,
+        "heading": "The source multi-timeframe workflow",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The sequence starts with daily/4H bias, marks 1H/15M highs/lows and a 15M range, then liquidity references, OB/FVG zones, a claimed manipulation event, volume and a Fibonacci OTE entry. Define these terms and timing before a test; a chart alone does not establish manipulative intent.",
+            "The stated exits take 50% at −0.27 and another 25% at −0.62, then move a stop to break-even. Negative extension labels depend on the Fibonacci drawing direction and anchor convention. Record what happens to the remaining 25%; the source does not specify it here. Moving the stop to entry does not remove spread, commissions, slippage or gap risk."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "editorialSections": [],
+    "format": "guide"
+  },
+  {
+    "slug": "trading-styles-sessions",
+    "title": "Trading styles, timeframes, currency pairs and session clocks",
+    "topic": "Trading & Market Analysis",
+    "collection": "trading-market-analysis",
+    "group": "Start with a plan",
+    "summary": "Compare holding horizons and the supplied currency lists, then interpret session times with date-aware clocks.",
+    "takeaway": "A chart timeframe, holding period and market session are different choices.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "trading-risk-position-sizing",
+      "trading-tools-validation",
+      "market-structure-levels"
+    ],
+    "references": [
+      {
+        "title": "US Naval Observatory: Eastern standard and daylight time",
+        "url": "https://aa.usno.navy.mil/faq/us_tzones"
+      }
+    ],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Three clocks to record",
+        "headers": [
+          "Clock",
+          "Record"
+        ],
+        "rows": [
+          [
+            "Chart bar period",
+            "The aggregation interval, timezone and whether bars include a particular session"
+          ],
+          [
+            "Holding period",
+            "Expected duration, overnight exposure and financing"
+          ],
+          [
+            "Event/session time",
+            "Date, named time zone, daylight saving status and official source"
+          ]
+        ],
+        "note": "Editorial comparison for study; definitions, conditions and original source notes remain available below."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Trading.docx",
+        "start": 151,
+        "end": 160,
+        "heading": "Style and timeframe examples",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The source associates day trading with M5/M15/H1, swing trading with H1/H4/D1, and position trading with D1/W1/M1. The final M1 notation is ambiguous: platforms often use M1 for one minute and MN/MN1 for one month. It is not silently interpreted as a monthly bar. Timeframes can overlap across styles; holding period and overnight exposure need separate definitions."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 160,
+        "end": 168,
+        "heading": "Currency-pair groupings as supplied",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The seven rows connect major pairs to other pairs with an unexplained letter r. No correlation window, sign, normalization or measurement is supplied. Retain the rows as a study list, not proof that the pairs are interchangeable or diversify one another."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 405,
+        "end": 414,
+        "heading": "Scalping and the listed time windows",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Scalping describes short holding periods; high trading volume is neither guaranteed nor a definition of every scalping strategy. The six time windows in the source are study notes, not confirmed exchange hours or an official announcement schedule. In particular, 2:22 PM on an FOMC day is not presented here as the time of a Federal Reserve announcement.",
+            "For fixed EST (UTC−5), UTC+8 is 13 hours ahead; for EDT (UTC−4), it is 12 hours ahead. The printed EST conversions follow the 13-hour difference, with the relevant next-day rollover. Use a date-aware America/New_York clock for an actual session rather than treating EST as year-round Eastern local time."
+          ],
+          "references": [
+            {
+              "title": "US Naval Observatory: Eastern standard and daylight time",
+              "url": "https://aa.usno.navy.mil/faq/us_tzones"
+            }
+          ]
+        }
+      }
+    ],
+    "editorialSections": [],
+    "format": "guide"
+  },
+  {
+    "slug": "trading-risk-position-sizing",
+    "title": "Trading risk: position size, correlated exposure and loss limits",
+    "topic": "Trading & Market Analysis",
+    "collection": "trading-market-analysis",
+    "group": "Risk & execution",
+    "summary": "Connect a loss budget to stop distance, contract value, costs and total open exposure.",
+    "takeaway": "A stop-based loss estimate is a plan, not a guarantee of the worst possible loss.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "trading-orders-execution",
+      "trading-mindset-journal",
+      "investment-risk-measures",
+      "trading-quantitative-finance"
+    ],
+    "references": [
+      {
+        "title": "CFTC: risks of retail OTC forex",
+        "url": "https://www.cftc.gov/sites/default/files/2022-08/Must%20Know_Forex_FINAL%20%28002%29.pdf"
+      },
+      {
+        "title": "Investor.gov: market, limit and stop orders",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/types-orders"
+      }
+    ],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Risk controls answer different questions",
+        "headers": [
+          "Control",
+          "Question"
+        ],
+        "rows": [
+          [
+            "Position budget",
+            "How much loss does this planned quantity imply under the stated stop/cost assumptions?"
+          ],
+          [
+            "Total open exposure",
+            "What happens if related positions move against the account together?"
+          ],
+          [
+            "Period loss limit",
+            "How is a breach detected and what pause/review rule is applied?"
+          ],
+          [
+            "Margin and liquidity",
+            "Can a position be maintained or closed under adverse conditions?"
+          ]
+        ],
+        "note": "Editorial comparison for study; definitions, conditions and original source notes remain available below."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Trading.docx",
+        "start": 168,
+        "end": 176,
+        "heading": "The source risk-budget examples",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The notes propose 1–2% per trade, 5% open risk and a 10% monthly limit. These are supplied examples, not universal safe levels. Define whether each percentage uses starting equity, current equity or another base, how losses/exposure are measured, and what action follows a breach.",
+            "Correlated positions and shared currencies can concentrate risk even when separate trade limits are respected. Margin, leverage, gaps and execution constraints can produce losses beyond a stop-based estimate. ASL and TSL appear to concern initial/trailing stops in context, but ASL is not expanded by the source. The wording trading lost size is retained as an apparent reference to lot/position sizing."
+          ],
+          "references": [
+            {
+              "title": "CFTC: risks of retail OTC forex",
+              "url": "https://www.cftc.gov/sites/default/files/2022-08/Must%20Know_Forex_FINAL%20%28002%29.pdf"
+            },
+            {
+              "title": "Investor.gov: market, limit and stop orders",
+              "url": "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/types-orders"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 396,
+        "end": 399,
+        "heading": "Stop distance follows the invalidation question",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The source suggests wider stops for reversals and smaller stops for trends. Neither relationship is universal. If a wider stop is justified by the setup, sizing must be reconsidered within the same loss budget; do not increase quantity or stop distance merely to recover a loss."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 380,
+        "end": 385,
+        "heading": "Hit rate, reward-to-risk and entry timing",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "A high win rate can coexist with negative expectancy, and a large planned reward-to-risk ratio can coexist with frequent losses. Approximate net expectancy is win probability × average win − loss probability × average loss − average costs. A later entry changes both distance to invalidation and remaining target distance; neither risk direction nor profitability follows from early/late alone."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "Sizing from a stated loss budget",
+        "paragraphs": [
+          "For a simple linear instrument, divide a hypothetical cash risk budget by estimated loss per unit at the stop, including a defensible allowance for per-unit costs. Then round down to the permitted quantity and check contract, tick/pip and account-currency conversions. Nonlinear instruments require scenario-based valuation instead.",
+          "Arithmetic example only: a 50-unit cash budget and 12-unit estimated loss per contract allow at most four whole contracts under those assumptions. A worse fill, changed conversion rate or gap can exceed that estimate. Margin required to open a position is a separate number."
+        ],
+        "links": []
+      }
+    ],
+    "format": "guide"
+  },
+  {
+    "slug": "trading-orders-execution",
+    "title": "Orders and exits: triggers, fills, stops and partial profits",
+    "topic": "Trading & Market Analysis",
+    "collection": "trading-market-analysis",
+    "group": "Risk & execution",
+    "summary": "Distinguish order mechanics from setup labels and make exit assumptions explicit.",
+    "takeaway": "Triggering an order and receiving the intended fill are different events.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "trading-risk-position-sizing",
+      "trading-strategy-lab",
+      "trading-analysis-checklist"
+    ],
+    "references": [
+      {
+        "title": "Investor.gov: market, limit and stop orders",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/types-orders"
+      }
+    ],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Trading.docx",
+        "start": 180,
+        "end": 185,
+        "heading": "Market, limit and stop entries",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "A market order prioritizes execution rather than a guaranteed price. A limit specifies a price constraint and may not fill. A stop triggers when a threshold is reached and can then execute at a different price, depending on the order/product. The source associates limits with reversals and stops with breakouts; those are strategy examples, not the definitions of the orders. Waiting for a bar close changes timing but does not prove a signal."
+          ],
+          "references": [
+            {
+              "title": "Investor.gov: market, limit and stop orders",
+              "url": "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/types-orders"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 185,
+        "end": 192,
+        "heading": "Initial stops and trailing decisions",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The notes place stops near prior swings, zones or signal bars and suggest trailing after higher highs/lower lows. These are setup conventions requiring precise definitions. Moving a stop farther away increases the planned loss at fixed size; a protective order does not guarantee its stop price. A trailing rule must also specify update timing and treatment of gaps."
+          ],
+          "references": [
+            {
+              "title": "Investor.gov: market, limit and stop orders",
+              "url": "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/types-orders"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 192,
+        "end": 196,
+        "heading": "Targets and measured moves",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Next-level targets, measured moves and pattern projections describe possible scenarios. A strong first leg does not ensure a matching second leg. Define the projection anchor, invalidation and treatment of partial fills rather than treating the drawing as a price obligation."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 360,
+        "end": 362,
+        "heading": "News and the proposal to widen a stop",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The isolated source instruction liquidate your position or set the stop loss much further has no sufficient conditions or risk limit. Widening a stop at unchanged size increases planned exposure and conflicts with the source rule not to increase risk. Event exposure needs a prewritten decision about holding, reducing or closing, broker mechanics and permitted risk; no blanket instruction is inferred."
+          ],
+          "references": [
+            {
+              "title": "Investor.gov: market, limit and stop orders",
+              "url": "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/types-orders"
+            }
+          ]
+        }
+      }
+    ],
+    "editorialSections": [],
+    "format": "guide"
+  },
+  {
+    "slug": "trading-regimes-setups",
+    "title": "Market regimes and the swing, turn, bounce and break playbook",
+    "topic": "Trading & Market Analysis",
+    "collection": "trading-market-analysis",
+    "group": "Price action & setups",
+    "summary": "Compare trend/volatility regimes and the full source setup conditions, including choppy conditions to avoid.",
+    "takeaway": "Classify the observed setting with fixed rules before assessing whether a setup works there.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "market-structure-levels",
+      "classical-chart-patterns",
+      "trading-analysis-checklist",
+      "trading-strategy-lab"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "The trend × volatility map",
+        "headers": [
+          "Setting",
+          "Source idea",
+          "What to define"
+        ],
+        "rows": [
+          [
+            "High trend / low volatility",
+            "Type 1: relatively orderly trend pullback",
+            "Trend metric, pullback boundary, invalidation"
+          ],
+          [
+            "High trend / high volatility",
+            "Type 2: larger, less orderly swings",
+            "Volatility measure and fill assumptions"
+          ],
+          [
+            "Low trend / low volatility",
+            "Type 3: compression or range",
+            "Breakout distance, false breaks, costs"
+          ],
+          [
+            "Low trend / high volatility",
+            "Type 4: wide range swings",
+            "Range boundary, event exposure, stop logic"
+          ]
+        ],
+        "note": "Editorial comparison for study; definitions, conditions and original source notes remain available below."
+      },
+      {
+        "kind": "matrix",
+        "title": "Four setup intentions",
+        "headers": [
+          "Setup",
+          "Source transition"
+        ],
+        "rows": [
+          [
+            "Swing",
+            "Trend to controlled pullback/range, while trading within the broader trend"
+          ],
+          [
+            "Turn",
+            "Late trend toward reversal, with neckline/retest context"
+          ],
+          [
+            "Bounce",
+            "Climactic departure and re-entry into the prior channel/trend"
+          ],
+          [
+            "Break",
+            "Range toward continuation, with choppy barbwire treated separately"
+          ]
+        ],
+        "note": "Editorial comparison for study; definitions, conditions and original source notes remain available below."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Trading.docx",
+        "start": 196,
+        "end": 214,
+        "heading": "Four source regime types",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The source crosses high/low trend with high/low volatility. Its Type 1/2 descriptions emphasize downtrends but the categories need not be one-directional. EMA-bW 20 is unclear; KC-20 appears to refer to a Keltner-channel setting, but the band formula is absent. The Type 3 target of five times a breakout level has no defined distance or unit and is not a usable target specification."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 214,
+        "end": 232,
+        "heading": "Swing: pullbacks within a trend",
+        "introduction": "The source checklist looks for a prior trend, EMA-20 pullback, small bars/volume, confluence, early tests and unobstructed space. These are proposed conditions to operationalize; angle, relative volume and terms such as clear skies need definitions.",
+        "subheadings": [
+          214,
+          216,
+          221,
+          224,
+          228
+        ]
+      },
+      {
+        "document": "Trading.docx",
+        "start": 232,
+        "end": 258,
+        "heading": "Turn: reversal, neckline and retest",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The source describes a large pullback breaking a trendline/EMA, a weak attempt to resume, changed swings, and double-top/bottom or head-and-shoulders retests. Its 45-degree trendline depends on chart scaling; it is not invariant evidence.",
+            "The phrase lower high (bearish) or higher lower (bearish) is inconsistent. A lower high can describe weakening upward structure; higher low is normally the contrasting upward-structure description. The intended second label is not certain. A head-to-neckline target and the Type 1,2,3/4,1 sequence are teaching hypotheses, not established universal transitions."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 258,
+        "end": 274,
+        "heading": "Bounce, break and barbwire",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Bounce is described as leaving and re-entering a channel/trend; Break as range-to-trend continuation. The notes mention Type 3 height, triangles, cup depth and waiting for a pullback. Barbwire refers to overlapping shadows, quickly closed gaps and a sideways EMA. The source advises avoiding it, but supplies no performance evidence. The printed sequence Type 1,3,1,3/,1 is incomplete and retained without guessing its missing character."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "editorialSections": [],
+    "format": "guide"
+  },
+  {
+    "slug": "trading-indicators-reference",
+    "title": "Trading indicators: purpose, data and implementation details",
+    "topic": "Trading & Market Analysis",
+    "collection": "trading-market-analysis",
+    "group": "Signals & validation",
+    "summary": "Sort trend, momentum, volatility, volume-profile and community-script names by the question they address.",
+    "takeaway": "An indicator label is not enough to reproduce its calculation, settings or historical signals.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "market-structure-levels",
+      "smc-price-action",
+      "trading-strategy-lab",
+      "trading-quantitative-finance"
+    ],
+    "references": [
+      {
+        "title": "TradingView: MACD definition and scale",
+        "url": "https://www.tradingview.com/support/solutions/43000502344-moving-average-convergence-divergence-macd-indicator/"
+      },
+      {
+        "title": "TradingView: Stochastic RSI",
+        "url": "https://www.tradingview.com/support/solutions/43000502333-stochastic-rsi-stoch-rsi/"
+      }
+    ],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Classify by intended observation",
+        "headers": [
+          "Family",
+          "Source names and implementation checks"
+        ],
+        "rows": [
+          [
+            "Trend and channels",
+            "Moving averages, death cross, Bollinger/Keltner/Donchian, Williams Alligator: formula, lookback and lag"
+          ],
+          [
+            "Momentum and oscillators",
+            "RSI, Stochastic/Stochastic RSI, MACD, QQE and ASI: scale, smoothing and crossing convention"
+          ],
+          [
+            "Volume and market profiles",
+            "SVP HD, anchored profile, VWAP/PVWAP, TPO, Volume/Money Flow Profile, cumulative delta: feed, session, reset and aggregation"
+          ],
+          [
+            "Structure and scripts",
+            "SMC, Imbalance Finder, Killzones & Pivots, Liquidity Swings, Silver Bullet, BSL/SSL, Elliott Wave, Breaker Blocks and MSB-OB: author, version and detection rules"
+          ],
+          [
+            "Breadth and volatility",
+            "Hindenburg Omen and VIX: market universe and intended statistic"
+          ]
+        ],
+        "note": "Editorial comparison for study; definitions, conditions and original source notes remain available below."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Trading.docx",
+        "start": 297,
+        "end": 306,
+        "heading": "Moving averages, bands, channels and volatility",
+        "introduction": "SMA, EMA and WMA smooth with different weighting. Bollinger bands, Keltner channels (source spelling Kelter) and Donchian channels use different constructions. Fibonacci is a drawing/ratio convention, not the same class of estimator. VIX concerns a particular options-implied volatility benchmark and is not the volatility of every traded asset."
+      },
+      {
+        "document": "Trading.docx",
+        "start": 314,
+        "end": 337,
+        "heading": "Profiles, scripts and named chart tools",
+        "introduction": "All source names are retained. Named community scripts, vendor labels and version numbers identify reading leads only; no source code, parameter export, licensing review, current availability or repainting audit was supplied. QQE and ASI are not silently expanded from guessed implementations."
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "Before using a plotted signal",
+        "paragraphs": [
+          "Record symbol/feed, timezone/session, chart type, indicator author/version, every setting and whether the value uses an unfinished bar. Check if historical values are revised or future information leaks into the display. Visual agreement between price-derived tools is not automatically independent confirmation."
+        ],
+        "links": []
+      }
+    ],
+    "format": "guide"
+  },
+  {
+    "slug": "trading-quantitative-finance",
+    "title": "Quantitative finance: models, forecasts, portfolios and trading frictions",
+    "topic": "Trading & Market Analysis",
+    "collection": "trading-market-analysis",
+    "group": "Quantitative methods",
+    "summary": "Explore all 24 quantitative-finance topics plus VAR, VARMA, BVAR and Avellaneda–Stoikov in their proper roles.",
+    "takeaway": "A model is conditional on data, assumptions and estimation; fitting one does not establish a tradable advantage.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "ai-sequences-time-series",
+      "ai-regression-diagnostics",
+      "statistical-hypotheses",
+      "portfolio-allocation",
+      "investment-risk-measures",
+      "trading-tools-validation"
+    ],
+    "references": [
+      {
+        "title": "Forecasting: Principles and Practice — vector autoregressions",
+        "url": "https://otexts.com/fpp3/advanced.html#vector-autoregressions"
+      },
+      {
+        "title": "Avellaneda and Stoikov: High-frequency trading in a limit order book",
+        "url": "https://math.nyu.edu/inmemoriam/avellaneda/HighFrequencyTrading.pdf"
+      }
+    ],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Match the method to the question",
+        "headers": [
+          "Question",
+          "Models in the collection"
+        ],
+        "rows": [
+          [
+            "Describe/price conditional processes",
+            "GBM, BSM, GARCH"
+          ],
+          [
+            "Forecast or infer hidden structure",
+            "VAR/VARMA/BVAR, ARIMA, HMM, regressions, neural networks, Kalman filter"
+          ],
+          [
+            "Model dependence and exposures",
+            "Cointegration, PCA, copulas, factor models"
+          ],
+          [
+            "Choose allocations under assumptions",
+            "Mean–variance, Kelly, constrained portfolio optimization"
+          ],
+          [
+            "Evaluate losses, frictions and uncertainty",
+            "Monte Carlo, VaR, ES, hypothesis/stationarity tests, costs, impact and performance statistics"
+          ]
+        ],
+        "note": "Editorial comparison for study; definitions, conditions and original source notes remain available below."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Trading.docx",
+        "start": 306,
+        "end": 314,
+        "heading": "VAR, VARMA, BVAR and ARIMA are models, not chart overlays",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "VAR models interdependencies among lagged multivariate series. VARMA adds moving-average error dynamics; it does not automatically remove overfitting. BVAR uses Bayesian priors, whose choice matters. ARIMA models differencing/autoregressive/moving-average structure. Select complexity and assess stability and forecast performance using time-respecting validation."
+          ],
+          "references": [
+            {
+              "title": "Forecasting: Principles and Practice — vector autoregressions",
+              "url": "https://otexts.com/fpp3/advanced.html#vector-autoregressions"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 337,
+        "end": 338,
+        "heading": "Avellaneda–Stoikov: market making and inventory",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The name refers to a limit-order-book market-making model associated with inventory-sensitive quotes. It is not a generic directional indicator. The underlying assumptions and estimated order arrival/fill behavior matter; a reference to the model supplies neither a runnable strategy nor a profit guarantee."
+          ],
+          "references": [
+            {
+              "title": "Avellaneda and Stoikov: High-frequency trading in a limit order book",
+              "url": "https://math.nyu.edu/inmemoriam/avellaneda/HighFrequencyTrading.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 552,
+        "end": 561,
+        "heading": "Price processes, option pricing, allocation and volatility",
+        "introduction": "GBM is a continuous-path model and does not include jumps by construction. BSM concerns model-based European-option valuation, not a promise of the actual market price. Mean–variance allocation depends on unstable estimated inputs and constraints. GARCH describes conditional variance dynamics, not certainty about future volatility.",
+        "pairs": true,
+        "skip": 1
+      },
+      {
+        "document": "Trading.docx",
+        "start": 561,
+        "end": 569,
+        "heading": "Dependence, hidden states, dimensions and growth",
+        "introduction": "Cointegration concerns stationary combinations under a specified model, not guaranteed profitable convergence. HMM state labels are model interpretations. PCA is an unsupervised transformation, not evidence of economic causality. Kelly sizing depends critically on the assumed outcome distribution and can produce substantial drawdowns.",
+        "pairs": true
+      },
+      {
+        "document": "Trading.docx",
+        "start": 569,
+        "end": 585,
+        "heading": "Tail dependence, learning, regression and simulation",
+        "introduction": "Copulas separate dependence modelling from marginal distributions; tail behavior requires evidence. Neural networks and regressions need leakage controls and unseen-data evaluation. Monte Carlo produces scenarios from its chosen model, not all possible market paths. Factor and Kalman models depend on definitions and state/noise assumptions.",
+        "pairs": true
+      },
+      {
+        "document": "Trading.docx",
+        "start": 585,
+        "end": 589,
+        "heading": "Hypothesis tests and stationarity",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "A hypothesis test assesses compatibility with a specified null model; it does not determine that a trading pattern is real or exclude luck. Multiple trials, dependence and strategy selection change interpretation. A stationarity test cannot certify that a market process will stay stable; distinguish null hypotheses, deterministic terms, power and structural changes."
+          ],
+          "references": [
+            {
+              "title": "Forecasting: Principles and Practice — vector autoregressions",
+              "url": "https://otexts.com/fpp3/advanced.html#vector-autoregressions"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 589,
+        "end": 595,
+        "heading": "Constraints, VaR and expected shortfall",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Portfolio constraints limit stated exposures under the model; they do not eliminate losses. VaR is a model/distribution quantile for a specified horizon, confidence and position definition, and can be exceeded. Expected shortfall describes average loss in the worst specified tail; for continuous distributions it can be expressed as a conditional tail average. Neither is a guaranteed maximum loss, and discrete tail definitions need care."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 595,
+        "end": 601,
+        "heading": "Transaction costs, impact and performance",
+        "introduction": "Distinguish fixed commissions, spreads, financing, slippage and size-dependent impact. Market impact is one component of trading friction and should not be double-counted. Compare net returns, drawdowns and uncertainty under a reproducible accounting convention.",
+        "pairs": true
+      }
+    ],
+    "editorialSections": [],
+    "format": "guide"
+  },
+  {
+    "slug": "trading-mindset-journal",
+    "title": "Trading discipline: planning, practice and an evidence-based journal",
+    "topic": "Trading & Market Analysis",
+    "collection": "trading-market-analysis",
+    "group": "Psychology & review",
+    "summary": "Connect the training notes on consistency, mistakes, greed and collaboration to decisions you can review.",
+    "takeaway": "A disciplined process makes behavior reviewable; repeatability alone does not make an unprofitable rule profitable.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "trading-behavioral-biases",
+      "trading-risk-position-sizing",
+      "trading-strategy-lab"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Trading.docx",
+        "start": 340,
+        "end": 352,
+        "heading": "Mindset, money and method",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The source assigns mindset 60%, money 30% and method 10%. No measurement or study supports those weights here. Small-account results may not scale because liquidity, impact, leverage, operations and behavior change. The cautions about chasing, revenge trading, averaging down and premature exits belong in a defined plan; neither feeling committed nor following a plan guarantees a favorable outcome."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 414,
+        "end": 435,
+        "heading": "Five mistake themes",
+        "introduction": "Keep the five source themes: weak planning, inadequate practice, psychology, greed/complacency and isolation. Collaboration can reveal errors but can also spread groupthink; practice and gradual scaling still need outcome evidence.",
+        "table": {
+          "headers": [
+            "Theme",
+            "Source reminders"
+          ],
+          "rows": [
+            [
+              [
+                415
+              ],
+              [
+                416,
+                417,
+                418
+              ]
+            ],
+            [
+              [
+                419
+              ],
+              [
+                420,
+                421,
+                422
+              ]
+            ],
+            [
+              [
+                423
+              ],
+              [
+                424,
+                425,
+                426
+              ]
+            ],
+            [
+              [
+                427
+              ],
+              [
+                428,
+                429,
+                430
+              ]
+            ],
+            [
+              [
+                431
+              ],
+              [
+                432,
+                433,
+                434
+              ]
+            ]
+          ]
+        }
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "A journal that separates process from outcome",
+        "paragraphs": [
+          "Before a trade or simulation, record the rule version, context, trigger, invalidation, planned size and exits. Afterward, record actual fills, costs, changes and rule deviations. Review winning rule violations and losing compliant trades separately so a lucky outcome does not certify the decision.",
+          "Evaluate a series of observations with uncertainty and market context. A single loss does not automatically invalidate a rule, and a short winning run does not establish skill."
+        ],
+        "links": []
+      }
+    ],
+    "format": "guide"
+  },
+  {
+    "slug": "trading-behavioral-biases",
+    "title": "Behavioral biases: 41 prompts for reviewing trading decisions",
+    "topic": "Trading & Market Analysis",
+    "collection": "trading-market-analysis",
+    "group": "Psychology & review",
+    "summary": "Explore the full source bias list, with clarified meanings and practical review questions.",
+    "takeaway": "Use these concepts to examine a decision process, not to diagnose a person or explain every market move after the fact.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "trading-mindset-journal",
+      "investment-behavior-returns",
+      "research-measurement-quality",
+      "statistical-hypotheses"
+    ],
+    "references": [
+      {
+        "title": "Nobel Prize: scientific background on decision making under uncertainty",
+        "url": "https://www.nobelprize.org/uploads/2018/06/advanced-economicsciences2002-3.pdf"
+      }
+    ],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Beliefs, ownership and updating",
+        "headers": [
+          "Concept",
+          "Meaning and distinction",
+          "Review question"
+        ],
+        "rows": [
+          [
+            "Overconfidence bias",
+            "Overstate the accuracy of a judgement or estimate.",
+            "Record uncertainty and compare forecasts with outcomes."
+          ],
+          [
+            "Endowment bias",
+            "Value something more because you hold or regard it as yours.",
+            "Reassess the position using the same criteria as a fresh decision."
+          ],
+          [
+            "Conservatism bias",
+            "Update beliefs too little when relevant evidence changes.",
+            "State what evidence would change the view."
+          ],
+          [
+            "Regret aversion bias",
+            "Avoid a decision because of anticipated regret.",
+            "Assess alternatives and their risks, including doing nothing."
+          ],
+          [
+            "Loss aversion bias",
+            "Evaluate losses and equivalent gains asymmetrically relative to a reference point; a fixed twice-as-large effect is not universal.",
+            "Inspect how the reference point changes the choice."
+          ],
+          [
+            "Cognitive dissonance bias",
+            "Discomfort from conflicting beliefs/actions may encourage rationalization.",
+            "Write down disconfirming evidence before explaining it away."
+          ],
+          [
+            "Representativeness bias",
+            "Judge by resemblance while neglecting base rates or sample size.",
+            "Compare base rates and the amount of evidence."
+          ],
+          [
+            "Confirmation bias",
+            "Favor evidence consistent with an existing view.",
+            "Search for an observation that would contradict it."
+          ],
+          [
+            "Hindsight bias",
+            "Treat an observed outcome as having been more predictable than it was.",
+            "Preserve timestamped reasoning before the result."
+          ],
+          [
+            "Self-attribution bias",
+            "Attribute favorable outcomes to skill and unfavorable ones to external causes.",
+            "Apply the same attribution criteria to wins and losses."
+          ],
+          [
+            "Optimism bias",
+            "Underestimate adverse outcomes or overestimate favorable ones.",
+            "Use adverse scenarios as well as the preferred case."
+          ]
+        ],
+        "note": "Concepts overlap; their presence does not by itself establish the cause of a particular outcome."
+      },
+      {
+        "kind": "matrix",
+        "title": "Groups, samples and accessible information",
+        "headers": [
+          "Concept",
+          "Meaning and distinction",
+          "Review question"
+        ],
+        "rows": [
+          [
+            "Herd instinct bias",
+            "Follow a group rather than independently assess the evidence; it is not limited to fear.",
+            "Separate observed consensus from reasons."
+          ],
+          [
+            "Hometown bias",
+            "Prefer familiar or local exposures; the source label is kept distinct from a precise measured home-bias statistic.",
+            "Check concentration and omitted alternatives."
+          ],
+          [
+            "Recency bias",
+            "Give disproportionate weight to recent observations.",
+            "Compare the recent window with a justified longer sample."
+          ],
+          [
+            "Survivorship bias",
+            "Assess only entities/strategies that remain visible or survive.",
+            "Include failures, delistings and discarded trials where relevant."
+          ],
+          [
+            "Backfill bias",
+            "Historical performance added after selection may favor successful records.",
+            "Distinguish contemporaneously available data from later additions."
+          ],
+          [
+            "Anchoring bias",
+            "Let an initial value influence later judgement too strongly.",
+            "Re-estimate from current evidence without the original number."
+          ],
+          [
+            "Availability bias",
+            "Overweight information that is easy to recall or imagine.",
+            "Compare vivid examples with representative data."
+          ],
+          [
+            "Action bias",
+            "Favor taking action even when inaction may be appropriate.",
+            "Require an explicit decision condition."
+          ],
+          [
+            "Omission bias",
+            "Judge harmful inaction differently from an equivalent harmful action.",
+            "Evaluate consequences of both action and inaction."
+          ],
+          [
+            "Self-serving bias",
+            "Interpret events in ways favorable to oneself; overlaps with self-attribution.",
+            "Use consistent external review criteria."
+          ],
+          [
+            "Self-selection bias",
+            "People who opt into a sample may differ systematically from those who do not.",
+            "Inspect recruitment and missing participants."
+          ],
+          [
+            "Association bias",
+            "A broad source label for influence through association; no precise mechanism is supplied.",
+            "Separate association, evidence and causal explanation."
+          ],
+          [
+            "In-group Out-group bias",
+            "Evaluate people or ideas differently according to perceived group membership.",
+            "Apply the same evidential criteria across sources."
+          ]
+        ],
+        "note": "Concepts overlap; their presence does not by itself establish the cause of a particular outcome."
+      },
+      {
+        "kind": "matrix",
+        "title": "Observation, defaults and probability",
+        "headers": [
+          "Concept",
+          "Meaning and distinction",
+          "Review question"
+        ],
+        "rows": [
+          [
+            "Information bias",
+            "The source wording is ambiguous; in decision-making it can mean seeking information that does not improve the decision, while research uses the term differently.",
+            "Ask which decision-relevant uncertainty the information resolves."
+          ],
+          [
+            "Observer bias",
+            "Expectations can influence what is recorded or interpreted.",
+            "Define observations consistently and check independent records."
+          ],
+          [
+            "Status-quo bias",
+            "Prefer the current/default state because it is the status quo.",
+            "Compare the default with alternatives on equal terms."
+          ],
+          [
+            "Liking bias",
+            "Favor a person or proposal because of personal liking.",
+            "Evaluate the claim separately from the person."
+          ],
+          [
+            "Blind-spot bias",
+            "Notice biases in others while overlooking one’s own.",
+            "Apply the same checklist to your own reasoning."
+          ],
+          [
+            "Narrative fallacy",
+            "Prefer a coherent story over an adequate account of uncertainty and alternatives.",
+            "Record competing explanations and omitted evidence."
+          ],
+          [
+            "Gambler’s fallacy",
+            "Assume a run changes the next outcome probability when trials are independent.",
+            "State the dependence model; past losses do not create a debt owed by chance."
+          ],
+          [
+            "Conjunction fallacy",
+            "Judge a combined event more likely than one of its component events.",
+            "Check that an intersection cannot exceed either component probability."
+          ],
+          [
+            "Sunk cost fallacy",
+            "Let irrecoverable past costs justify a future commitment.",
+            "Compare future costs and benefits from the current point."
+          ],
+          [
+            "Planning fallacy",
+            "Underestimate time, effort or cost despite relevant past experience.",
+            "Compare with outcomes from similar prior tasks."
+          ]
+        ],
+        "note": "Concepts overlap; their presence does not by itself establish the cause of a particular outcome."
+      },
+      {
+        "kind": "matrix",
+        "title": "Control, perception and social explanation",
+        "headers": [
+          "Concept",
+          "Meaning and distinction",
+          "Review question"
+        ],
+        "rows": [
+          [
+            "Illusion of control",
+            "Overestimate personal influence over an outcome.",
+            "Separate controllable actions from market outcomes."
+          ],
+          [
+            "Müller–Lyer illusion",
+            "An optical length illusion, not a trading-performance mechanism.",
+            "Measure rather than infer length from surrounding shapes."
+          ],
+          [
+            "Source credibility",
+            "Judgements about expertise and trustworthiness; this is not automatically a bias.",
+            "Check the underlying evidence, incentives and domain expertise."
+          ],
+          [
+            "Repetition effect",
+            "Repeated exposure may increase familiarity or perceived truth without new evidence.",
+            "Count independent evidence rather than repeated copies."
+          ],
+          [
+            "Prospect theory",
+            "A framework for reference-dependent choice under risk, including nonlinear probability weighting and gain/loss valuation; not simply having more options.",
+            "Inspect framing, reference points and how probabilities are weighted."
+          ],
+          [
+            "Groupthink",
+            "Pressure for agreement can suppress critical assessment or dissent.",
+            "Invite an independent alternative explanation."
+          ],
+          [
+            "Pareidolia",
+            "Perceive a familiar pattern in ambiguous or random input.",
+            "Specify recognition criteria before assessing later outcomes."
+          ]
+        ],
+        "note": "Concepts overlap; their presence does not by itself establish the cause of a particular outcome."
+      }
+    ],
+    "ranges": [
+      {
+        "document": "Trading.docx",
+        "start": 435,
+        "end": 518,
+        "heading": "Read the original bias prompts with care",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The source mixes cognitive biases, statistical selection effects, an optical illusion, credibility judgments and prospect theory. Several brief definitions are incomplete or misleading. The grouped tables clarify the distinctions and retain every original term/prompt in this disclosure. The review questions are editorial aids, not validated psychological tests."
+          ],
+          "references": [
+            {
+              "title": "Nobel Prize: scientific background on decision making under uncertainty",
+              "url": "https://www.nobelprize.org/uploads/2018/06/advanced-economicsciences2002-3.pdf"
+            }
+          ]
+        }
+      }
+    ],
+    "editorialSections": [],
+    "format": "guide"
+  },
+  {
+    "slug": "trading-strategy-lab",
+    "title": "Forex strategy notes: specifications, ambiguities and test design",
+    "topic": "Trading & Market Analysis",
+    "collection": "trading-market-analysis",
+    "group": "Signals & validation",
+    "summary": "Keep every supplied strategy setting and rule while separating usable specifications from unresolved shorthand.",
+    "takeaway": "These are unvalidated strategy notes; precise rules and realistic evaluation are required before interpreting any result.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "trading-tools-validation",
+      "trading-indicators-reference",
+      "trading-risk-position-sizing",
+      "trading-analysis-checklist"
+    ],
+    "references": [
+      {
+        "title": "TradingView: MACD definition and scale",
+        "url": "https://www.tradingview.com/support/solutions/43000502344-moving-average-convergence-divergence-macd-indicator/"
+      },
+      {
+        "title": "TradingView: Stochastic RSI",
+        "url": "https://www.tradingview.com/support/solutions/43000502333-stochastic-rsi-stoch-rsi/"
+      }
+    ],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Trading.docx",
+        "start": 518,
+        "end": 522,
+        "heading": "Bollinger EMA-20, standard deviation 3",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The source proposes buying at the lower band and selling at the upper band. Define the band basis and deviation calculation, touch condition, closed-bar timing, entry, stop, exit, event filter and costs. A band touch does not establish that price will return toward the center."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 522,
+        "end": 526,
+        "heading": "Bollinger EMA-30, deviation 2, and RSI EMA-13",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The note combines a band touch with RSI 30/70, avoids a Type 3 breakout and describes a second touch/divergent wide condition. RSI EMA-13 is ambiguous: it could refer to the RSI length, an EMA of RSI, or custom smoothing. The exact divergent/second-touch condition and order of events are missing; no single algorithm is inferred."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 526,
+        "end": 529,
+        "heading": "Stochastic RSI with EMA-200",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The supplied rules buy when EMA-200 lies below price and Stochastic RSI crosses above 80, and sell when the reverse trend condition accompanies a cross below 20. This resembles a momentum-oriented threshold rule, not necessarily a typo to reverse. Define which lines cross what, whether the display scale is 0–1 or 0–100, and the unfinished-bar policy."
+          ],
+          "references": [
+            {
+              "title": "TradingView: Stochastic RSI",
+              "url": "https://www.tradingview.com/support/solutions/43000502333-stochastic-rsi-stoch-rsi/"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 529,
+        "end": 531,
+        "heading": "Fibonacci retracement",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The source asks for high/low anchors and a bounce from a retracement. It does not specify swing selection, ratio, bounce threshold or invalidation. Those missing choices materially change a test."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 531,
+        "end": 534,
+        "heading": "MACD and the unclear 50% histogram rule",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Standard MACD is an unbounded difference between moving averages with a histogram around zero, not an oscillator with a standard 50% level. The supplied under/above 50% histogram rule is unresolved; it is not silently translated into a zero-line or signal-line crossover."
+          ],
+          "references": [
+            {
+              "title": "TradingView: MACD definition and scale",
+              "url": "https://www.tradingview.com/support/solutions/43000502344-moving-average-convergence-divergence-macd-indicator/"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 534,
+        "end": 537,
+        "heading": "Ichimoku weak/strong labels",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The source combines cloud above/below and line above/below with weak/strong buy/sell labels. It does not identify which line, its reference, the cloud component or displacement. Keep the rule as incomplete rather than inventing an Ichimoku implementation."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 537,
+        "end": 544,
+        "heading": "Daily strategy: H4 direction and M15 setup",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The source uses H4 direction, M15 setup/stop and H4 targets, with double-low/double-high candles, clean left, structure taps and optional partial exits. These terms need detection rules. The example takes 50% at 1:1, 20% at 1:2 and leaves 30% as a runner; results depend on the runner and stop policy. A stop slightly above the M15 candle needs direction-specific interpretation, especially for a buy."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 544,
+        "end": 550,
+        "heading": "Tekan Seja: Stochastic and MA 5/15",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The source lists Stochastic 20,1,1 (hidden), levels 10/20/50/80/90, and MA 5/15 crossing 20/80 for sell/buy. It does not say whether the moving averages are applied to price or oscillator output, their averaging type, or the exact crossing order. The name and all settings are retained, but a runnable rule cannot be reconstructed confidently."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "A minimum reproducible strategy specification",
+        "paragraphs": [
+          "Specify instrument/feed, timezone, bar construction, calculation/settings, entry timing, invalidation, quantity, costs and exit conditions. Record which ambiguities remain. Keep parameter development separate from evaluation on later or otherwise genuinely unseen data.",
+          "Paper/replay results are conditional simulations. Check look-ahead, survivorship, repeated strategy/parameter trials, data revisions, financing, bid–ask execution, slippage and missed/partial fills. Report net outcomes, drawdowns and uncertainty rather than only the best chart examples."
+        ],
+        "links": []
+      }
+    ],
+    "format": "guide"
+  },
+  {
+    "slug": "trading-tools-validation",
+    "title": "Trading resources, backtesting limits and missing material",
+    "topic": "Trading & Market Analysis",
+    "collection": "trading-market-analysis",
+    "group": "Signals & validation",
+    "summary": "Find the five linked resources, distinguish their purposes, and check what this upload does and does not contain.",
+    "takeaway": "A tool can help carry out a calculation or comparison; it does not independently validate the trading idea.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "trading-strategy-lab",
+      "trading-quantitative-finance",
+      "trading-mindset-journal",
+      "research-evidence-claims"
+    ],
+    "references": [
+      {
+        "title": "Myfxbook: supplied position-size calculator",
+        "url": "https://www.myfxbook.com/en/forex-calculators/position-size"
+      },
+      {
+        "title": "Forex Factory: supplied economic calendar",
+        "url": "https://www.forexfactory.com/calendar"
+      },
+      {
+        "title": "Every Time Zone: supplied time-zone comparison",
+        "url": "https://everytimezone.com/"
+      },
+      {
+        "title": "FX Blue: supplied currency-strength view",
+        "url": "https://www.fxblue.com/market-data/currency-strength"
+      },
+      {
+        "title": "Portfolio Visualizer: supplied portfolio backtester",
+        "url": "https://www.portfoliovisualizer.com/backtest-portfolio"
+      }
+    ],
+    "visuals": [],
+    "ranges": [
+      {
+        "document": "Trading.docx",
+        "start": 367,
+        "end": 376,
+        "heading": "Charting, execution, tracking and linked resources",
+        "introduction": "The source names TradingView, MetaTrader and Myfxbook, then five external resources. Links were checked on 6 November 2026 for their stated page purpose. Availability, pricing and features can change; no endorsement or full tool audit is implied."
+      },
+      {
+        "document": "Trading.docx",
+        "start": 379,
+        "end": 380,
+        "heading": "An unclear timing reminder",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The instruction do not trade 5 to 15 minutes after the trade is internally unclear. It may concern an event or prior trade, but no missing word or universal waiting period is invented."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Trading.docx",
+        "start": 550,
+        "end": 552,
+        "heading": "Referenced book not supplied",
+        "review": {
+          "status": "Reviewed explanation; original training notes retained",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The document names Beyond The Markets - OrientFX.pdf, but that PDF is absent from the archive. This entry is a reading lead only: no book text, contents, author, edition or licensed source can be reconstructed from the filename."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "Resource purposes and boundaries",
+        "paragraphs": [
+          "A position-size calculator needs contract/account inputs; an event calendar needs date/timezone and confirmation against the issuing body. Currency-strength views depend on normalization and lookback. A portfolio allocation backtest is not a tick-level execution simulator for a short-term FX strategy. These are external pages, not embedded services or synchronized live market data."
+        ],
+        "links": []
+      },
+      {
+        "heading": "Material still needed for stronger evaluation",
+        "paragraphs": [
+          "No supplied dataset, annotated trade log, complete script settings, audited performance, brokerage contract specifications, original seminar recording or underlying book PDF accompanies the notes. The images provide study sketches, not a measured backtest. Missing material is identified rather than fabricated."
+        ],
+        "links": []
+      }
+    ],
+    "format": "guide"
+  },
+  {
+    "slug": "investment-behavior-returns",
+    "appendTo": "investment-behavior-returns",
+    "ranges": [],
+    "notes": [],
+    "related": [
+      "trading-behavioral-biases",
+      "trading-mindset-journal"
+    ],
+    "references": [
+      {
+        "title": "CFTC: risks of retail OTC forex",
+        "url": "https://www.cftc.gov/sites/default/files/2022-08/Must%20Know_Forex_FINAL%20%28002%29.pdf"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": [
+      {
+        "heading": "Continue with trading decision behavior",
+        "paragraphs": [
+          "Short-horizon trading adds execution, leverage, model and behavioral questions to portfolio-level analysis. These guides connect the supplied training to the existing investment material."
+        ],
+        "links": [
+          {
+            "slug": "trading-behavioral-biases",
+            "label": "Study the full behavioral reference"
+          },
+          {
+            "slug": "trading-mindset-journal",
+            "label": "Review discipline and journaling"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "investment-risk-measures",
+    "appendTo": "investment-risk-measures",
+    "ranges": [],
+    "notes": [],
+    "related": [
+      "trading-risk-position-sizing",
+      "trading-quantitative-finance"
+    ],
+    "references": [
+      {
+        "title": "CFTC: risks of retail OTC forex",
+        "url": "https://www.cftc.gov/sites/default/files/2022-08/Must%20Know_Forex_FINAL%20%28002%29.pdf"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": [
+      {
+        "heading": "Trading-specific exposure and model risk",
+        "paragraphs": [
+          "Short-horizon trading adds execution, leverage, model and behavioral questions to portfolio-level analysis. These guides connect the supplied training to the existing investment material."
+        ],
+        "links": [
+          {
+            "slug": "trading-risk-position-sizing",
+            "label": "Distinguish stop budgets from total exposure"
+          },
+          {
+            "slug": "trading-quantitative-finance",
+            "label": "Explore VaR, tail risk and model assumptions"
+          }
+        ]
+      }
+    ]
+  }
+]
