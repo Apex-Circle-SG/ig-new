@@ -756,5 +756,34 @@
       "ethical-business-decisions",
       "business-ethics-cases"
     ]
+  },
+  {
+    "slug": "research-methods-academic-skills",
+    "title": "Research Methods & Academic Skills",
+    "topic": "Research Methods & Academic Skills",
+    "parent": "",
+    "members": [
+      "research-foundations",
+      "research-question-proposal",
+      "research-design-philosophy",
+      "research-measurement-quality",
+      "research-data-collection",
+      "research-evidence-claims",
+      "literature-review-synthesis",
+      "academic-writing-reporting",
+      "academic-referencing",
+      "research-consultancy-action",
+      "research-sampling-surveys",
+      "research-measurement-questionnaires",
+      "statistical-test-selection",
+      "spss-analysis-workflow",
+      "statistical-hypotheses",
+      "academic-reference-catalogue",
+      "reading-map-financial-performance",
+      "reading-map-marketing",
+      "reading-map-change-leadership",
+      "reading-map-project-management",
+      "reading-map-strategic-hr"
+    ]
   }
 ]

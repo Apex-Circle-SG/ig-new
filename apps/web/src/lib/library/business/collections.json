@@ -2969,5 +2969,97 @@
       "integrated-sustainability-reporting",
       "strategy-growth"
     ]
+  },
+  {
+    "slug": "research-methods-academic-skills",
+    "title": "Research Methods & Academic Skills",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Start here",
+    "summary": "Plan research, assess evidence, write clearly and find the academic sources relevant to a question.",
+    "intro": "Choose whether you need to design a study, interpret evidence, write a review or find a source. Supplied notes, editorial corrections, missing material and citation-verification states remain distinct.",
+    "groups": [
+      {
+        "name": "Getting started",
+        "description": "Build an answerable question and a justified proposal."
+      },
+      {
+        "name": "Design & data",
+        "description": "Connect reasoning, concepts, collection, sampling and participant responsibilities."
+      },
+      {
+        "name": "Analysis & inference",
+        "description": "Choose analyses conditionally and interpret uncertainty with care."
+      },
+      {
+        "name": "Literature & writing",
+        "description": "Search, synthesize, report and attribute ideas accurately."
+      },
+      {
+        "name": "Evidence & practice",
+        "description": "Evaluate claims and connect observation or intervention to useful recommendations."
+      },
+      {
+        "name": "Academic reading",
+        "description": "Find complete reference records and focused reading maps across five subjects."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Plan a study",
+        "links": [
+          {
+            "slug": "research-question-proposal",
+            "label": "Develop the question and proposal"
+          },
+          {
+            "slug": "research-design-philosophy",
+            "label": "Compare research approaches"
+          }
+        ]
+      },
+      {
+        "title": "Evaluate and report evidence",
+        "links": [
+          {
+            "slug": "statistical-test-selection",
+            "label": "Choose an analysis with its assumptions"
+          },
+          {
+            "slug": "literature-review-synthesis",
+            "label": "Build a literature synthesis"
+          },
+          {
+            "slug": "academic-referencing",
+            "label": "Attribute ideas and quotations"
+          }
+        ]
+      },
+      {
+        "title": "Find the source",
+        "links": [
+          {
+            "slug": "academic-reference-catalogue",
+            "label": "Search the complete supplied bibliography"
+          },
+          {
+            "slug": "research-evidence-claims",
+            "label": "Inspect incomplete citations and missing items"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "The notes contain teaching simplifications and incomplete citations. Reviewed explanations qualify them; original wording remains accessible.",
+      "Metadata verification identifies publications; it does not mean all papers were read or every attributed claim was verified. Four unavailable-content placeholders remain unresolved."
+    ],
+    "references": [],
+    "topicRoot": true,
+    "parent": "",
+    "relatedCollections": [
+      "problem-solving",
+      "finance-accounting",
+      "leadership-change",
+      "project-management"
+    ]
   }
 ]

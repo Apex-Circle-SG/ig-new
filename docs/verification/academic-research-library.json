@@ -1,0 +1,38 @@
+{
+  "archiveSha256": "0cae02431186b7e87516c8d03a9b43583bd4881caf5e2d455944efdea323fbaf",
+  "sourceParagraphs": 723,
+  "sourceWords": 4658,
+  "sourceTables": 14,
+  "sourceImages": 1,
+  "unmappedParagraphs": 0,
+  "retainedSubstantiveOccurrences": 708,
+  "newGuides": 21,
+  "enrichedGuides": 9,
+  "newCollections": [
+    "research-methods-academic-skills"
+  ],
+  "priorCatalogueEntries": 542,
+  "catalogueEntries": 564,
+  "sourceReviewSections": 24,
+  "sourceDiagramsRebuilt": 1,
+  "diagramNodes": 7,
+  "diagramConnections": 6,
+  "previousSectionsAndFiguresPreserved": true,
+  "formulaDirectoryUnchanged": true,
+  "workbookCells": 344,
+  "referenceRecords": 342,
+  "sourceMappingOccurrences": 345,
+  "metadataStatuses": {
+    "Metadata checked": 176,
+    "Needs verification": 160,
+    "Journal suggestion": 5,
+    "Incomplete reference": 1
+  },
+  "readingStatuses": {
+    "Not read": 338,
+    "Abstract reviewed": 4
+  },
+  "claimLevelVerified": 0,
+  "sourceMissingPlaceholders": 4,
+  "parserRejectsUnknownAndUncoveredCells": true
+}

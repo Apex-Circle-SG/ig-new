@@ -1,0 +1,1135 @@
+{
+  "renders": 62,
+  "accessibilityAudits": 12,
+  "checkedPassages": 1660,
+  "disclosureChecks": 48,
+  "sourceFigureChecks": 2,
+  "routeChecks": 564,
+  "sitemapCatalogueEntries": 564,
+  "results": [
+    {
+      "width": 390,
+      "slug": "research-foundations",
+      "status": 200,
+      "title": "Research foundations: inquiry, contribution and justified claims",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "research-question-proposal",
+      "status": 200,
+      "title": "Develop a research question and a workable proposal",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "research-design-philosophy",
+      "status": 200,
+      "title": "Research design: philosophies, reasoning and mixed methods",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "research-measurement-quality",
+      "status": 200,
+      "title": "Measurement quality: validity, reliability and the limits of inference",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "research-data-collection",
+      "status": 200,
+      "title": "Collect research evidence: documents, observations and interviews",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "research-evidence-claims",
+      "status": 200,
+      "title": "Evaluate research claims and incomplete citations",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "literature-review-synthesis",
+      "status": 200,
+      "title": "Literature reviews: search, compare and build an argument",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "academic-writing-reporting",
+      "status": 200,
+      "title": "Report a research project: argument, methods, results and limitations",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "academic-referencing",
+      "status": 200,
+      "title": "Academic referencing: attribute ideas and identify the exact work",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "research-consultancy-action",
+      "status": 200,
+      "title": "Research and consultancy: observation, intervention and useful recommendations",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "research-sampling-surveys",
+      "status": 200,
+      "title": "Sampling and survey quality: target, frame, recruitment and error",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "research-measurement-questionnaires",
+      "status": 200,
+      "title": "Measurement scales and questionnaire design",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "statistical-test-selection",
+      "status": 200,
+      "title": "Choose a statistical analysis: question, design and assumptions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "spss-analysis-workflow",
+      "status": 200,
+      "title": "SPSS analysis workflow: describe, check, model and document",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "statistical-hypotheses",
+      "status": 200,
+      "title": "Hypotheses and uncertainty: avoid proof-by-p-value",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "academic-reference-catalogue",
+      "status": 200,
+      "title": "Academic reference catalogue: find and check a source",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "reading-map-financial-performance",
+      "status": 200,
+      "title": "Read financial-performance research: measures, reporting and interpretation",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "reading-map-marketing",
+      "status": 200,
+      "title": "Read marketing research: theory, positioning and plans",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "reading-map-change-leadership",
+      "status": 200,
+      "title": "Read change and leadership research: culture, power and practice",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "reading-map-project-management",
+      "status": 200,
+      "title": "Read project research: governance, stakeholders, risk and delivery",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "reading-map-strategic-hr",
+      "status": 200,
+      "title": "Read strategic HR research: performance, partnering and competing explanations",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "balanced-scorecard",
+      "status": 200,
+      "title": "Balanced scorecard: connect strategy to measures",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "integrated-reporting-purpose",
+      "status": 200,
+      "title": "Integrated reporting: explain value creation over time",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "hr-operating-model",
+      "status": 200,
+      "title": "Designing an HR function around employee experience",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "vrio-resources",
+      "status": 200,
+      "title": "VRIO and VRIN: evaluate resources and advantage",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "project-stakeholders",
+      "status": 200,
+      "title": "Project stakeholders: interests, influence and engagement",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "organizational-culture",
+      "status": 200,
+      "title": "Organizational culture: visible practices and deeper assumptions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "marketing-planning",
+      "status": 200,
+      "title": "Marketing plans: turn analysis into accountable action",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "business-analysis-evidence",
+      "status": 200,
+      "title": "Business analysis: turn questions into supported recommendations",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "economic-models-evidence",
+      "status": 200,
+      "title": "Economic models and evidence: distributions, regression and assumptions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "research-methods-academic-skills",
+      "status": 200,
+      "title": "Research Methods & Academic Skills",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "research-foundations",
+      "status": 200,
+      "title": "Research foundations: inquiry, contribution and justified claims",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "research-question-proposal",
+      "status": 200,
+      "title": "Develop a research question and a workable proposal",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "research-design-philosophy",
+      "status": 200,
+      "title": "Research design: philosophies, reasoning and mixed methods",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "research-measurement-quality",
+      "status": 200,
+      "title": "Measurement quality: validity, reliability and the limits of inference",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "research-data-collection",
+      "status": 200,
+      "title": "Collect research evidence: documents, observations and interviews",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "research-evidence-claims",
+      "status": 200,
+      "title": "Evaluate research claims and incomplete citations",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "literature-review-synthesis",
+      "status": 200,
+      "title": "Literature reviews: search, compare and build an argument",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "academic-writing-reporting",
+      "status": 200,
+      "title": "Report a research project: argument, methods, results and limitations",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "academic-referencing",
+      "status": 200,
+      "title": "Academic referencing: attribute ideas and identify the exact work",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "research-consultancy-action",
+      "status": 200,
+      "title": "Research and consultancy: observation, intervention and useful recommendations",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "research-sampling-surveys",
+      "status": 200,
+      "title": "Sampling and survey quality: target, frame, recruitment and error",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "research-measurement-questionnaires",
+      "status": 200,
+      "title": "Measurement scales and questionnaire design",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "statistical-test-selection",
+      "status": 200,
+      "title": "Choose a statistical analysis: question, design and assumptions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "spss-analysis-workflow",
+      "status": 200,
+      "title": "SPSS analysis workflow: describe, check, model and document",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "statistical-hypotheses",
+      "status": 200,
+      "title": "Hypotheses and uncertainty: avoid proof-by-p-value",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "academic-reference-catalogue",
+      "status": 200,
+      "title": "Academic reference catalogue: find and check a source",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "reading-map-financial-performance",
+      "status": 200,
+      "title": "Read financial-performance research: measures, reporting and interpretation",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "reading-map-marketing",
+      "status": 200,
+      "title": "Read marketing research: theory, positioning and plans",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "reading-map-change-leadership",
+      "status": 200,
+      "title": "Read change and leadership research: culture, power and practice",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "reading-map-project-management",
+      "status": 200,
+      "title": "Read project research: governance, stakeholders, risk and delivery",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "reading-map-strategic-hr",
+      "status": 200,
+      "title": "Read strategic HR research: performance, partnering and competing explanations",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "balanced-scorecard",
+      "status": 200,
+      "title": "Balanced scorecard: connect strategy to measures",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "integrated-reporting-purpose",
+      "status": 200,
+      "title": "Integrated reporting: explain value creation over time",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "hr-operating-model",
+      "status": 200,
+      "title": "Designing an HR function around employee experience",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "vrio-resources",
+      "status": 200,
+      "title": "VRIO and VRIN: evaluate resources and advantage",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "project-stakeholders",
+      "status": 200,
+      "title": "Project stakeholders: interests, influence and engagement",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "organizational-culture",
+      "status": 200,
+      "title": "Organizational culture: visible practices and deeper assumptions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "marketing-planning",
+      "status": 200,
+      "title": "Marketing plans: turn analysis into accountable action",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "business-analysis-evidence",
+      "status": 200,
+      "title": "Business analysis: turn questions into supported recommendations",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "economic-models-evidence",
+      "status": 200,
+      "title": "Economic models and evidence: distributions, regression and assumptions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "slug": "research-methods-academic-skills",
+      "status": 200,
+      "title": "Research Methods & Academic Skills",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    }
+  ],
+  "audits": [
+    {
+      "width": 390,
+      "slug": "research-design-philosophy",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "statistical-test-selection",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "spss-analysis-workflow",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "academic-reference-catalogue",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "reading-map-strategic-hr",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "slug": "research-methods-academic-skills",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "research-design-philosophy",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "statistical-test-selection",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "spss-analysis-workflow",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "academic-reference-catalogue",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "reading-map-strategic-hr",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "slug": "research-methods-academic-skills",
+      "violations": []
+    }
+  ],
+  "sourceChecks": [
+    {
+      "width": 390,
+      "slug": "research-foundations",
+      "sections": 3,
+      "passages": 47
+    },
+    {
+      "width": 390,
+      "slug": "research-question-proposal",
+      "sections": 3,
+      "passages": 46
+    },
+    {
+      "width": 390,
+      "slug": "research-design-philosophy",
+      "sections": 5,
+      "passages": 90
+    },
+    {
+      "width": 390,
+      "slug": "research-measurement-quality",
+      "sections": 3,
+      "passages": 23
+    },
+    {
+      "width": 390,
+      "slug": "research-data-collection",
+      "sections": 4,
+      "passages": 79
+    },
+    {
+      "width": 390,
+      "slug": "research-evidence-claims",
+      "sections": 4,
+      "passages": 61
+    },
+    {
+      "width": 390,
+      "slug": "literature-review-synthesis",
+      "sections": 3,
+      "passages": 51
+    },
+    {
+      "width": 390,
+      "slug": "academic-writing-reporting",
+      "sections": 4,
+      "passages": 77
+    },
+    {
+      "width": 390,
+      "slug": "academic-referencing",
+      "sections": 4,
+      "passages": 61
+    },
+    {
+      "width": 390,
+      "slug": "research-consultancy-action",
+      "sections": 3,
+      "passages": 48
+    },
+    {
+      "width": 390,
+      "slug": "research-sampling-surveys",
+      "sections": 5,
+      "passages": 83
+    },
+    {
+      "width": 390,
+      "slug": "research-measurement-questionnaires",
+      "sections": 3,
+      "passages": 37
+    },
+    {
+      "width": 390,
+      "slug": "statistical-test-selection",
+      "sections": 3,
+      "passages": 47
+    },
+    {
+      "width": 390,
+      "slug": "spss-analysis-workflow",
+      "sections": 2,
+      "passages": 32
+    },
+    {
+      "width": 390,
+      "slug": "statistical-hypotheses",
+      "sections": 2,
+      "passages": 20
+    },
+    {
+      "width": 390,
+      "slug": "academic-reference-catalogue",
+      "sections": 3,
+      "passages": 3
+    },
+    {
+      "width": 390,
+      "slug": "reading-map-financial-performance",
+      "sections": 3,
+      "passages": 3
+    },
+    {
+      "width": 390,
+      "slug": "reading-map-marketing",
+      "sections": 3,
+      "passages": 3
+    },
+    {
+      "width": 390,
+      "slug": "reading-map-change-leadership",
+      "sections": 3,
+      "passages": 3
+    },
+    {
+      "width": 390,
+      "slug": "reading-map-project-management",
+      "sections": 3,
+      "passages": 3
+    },
+    {
+      "width": 390,
+      "slug": "reading-map-strategic-hr",
+      "sections": 4,
+      "passages": 4
+    },
+    {
+      "width": 390,
+      "slug": "balanced-scorecard",
+      "sections": 1,
+      "passages": 1
+    },
+    {
+      "width": 390,
+      "slug": "integrated-reporting-purpose",
+      "sections": 1,
+      "passages": 1
+    },
+    {
+      "width": 390,
+      "slug": "hr-operating-model",
+      "sections": 1,
+      "passages": 1
+    },
+    {
+      "width": 390,
+      "slug": "vrio-resources",
+      "sections": 1,
+      "passages": 1
+    },
+    {
+      "width": 390,
+      "slug": "project-stakeholders",
+      "sections": 1,
+      "passages": 1
+    },
+    {
+      "width": 390,
+      "slug": "organizational-culture",
+      "sections": 1,
+      "passages": 1
+    },
+    {
+      "width": 390,
+      "slug": "marketing-planning",
+      "sections": 1,
+      "passages": 1
+    },
+    {
+      "width": 390,
+      "slug": "business-analysis-evidence",
+      "sections": 1,
+      "passages": 1
+    },
+    {
+      "width": 390,
+      "slug": "economic-models-evidence",
+      "sections": 1,
+      "passages": 1
+    },
+    {
+      "width": 1440,
+      "slug": "research-foundations",
+      "sections": 3,
+      "passages": 47
+    },
+    {
+      "width": 1440,
+      "slug": "research-question-proposal",
+      "sections": 3,
+      "passages": 46
+    },
+    {
+      "width": 1440,
+      "slug": "research-design-philosophy",
+      "sections": 5,
+      "passages": 90
+    },
+    {
+      "width": 1440,
+      "slug": "research-measurement-quality",
+      "sections": 3,
+      "passages": 23
+    },
+    {
+      "width": 1440,
+      "slug": "research-data-collection",
+      "sections": 4,
+      "passages": 79
+    },
+    {
+      "width": 1440,
+      "slug": "research-evidence-claims",
+      "sections": 4,
+      "passages": 61
+    },
+    {
+      "width": 1440,
+      "slug": "literature-review-synthesis",
+      "sections": 3,
+      "passages": 51
+    },
+    {
+      "width": 1440,
+      "slug": "academic-writing-reporting",
+      "sections": 4,
+      "passages": 77
+    },
+    {
+      "width": 1440,
+      "slug": "academic-referencing",
+      "sections": 4,
+      "passages": 61
+    },
+    {
+      "width": 1440,
+      "slug": "research-consultancy-action",
+      "sections": 3,
+      "passages": 48
+    },
+    {
+      "width": 1440,
+      "slug": "research-sampling-surveys",
+      "sections": 5,
+      "passages": 83
+    },
+    {
+      "width": 1440,
+      "slug": "research-measurement-questionnaires",
+      "sections": 3,
+      "passages": 37
+    },
+    {
+      "width": 1440,
+      "slug": "statistical-test-selection",
+      "sections": 3,
+      "passages": 47
+    },
+    {
+      "width": 1440,
+      "slug": "spss-analysis-workflow",
+      "sections": 2,
+      "passages": 32
+    },
+    {
+      "width": 1440,
+      "slug": "statistical-hypotheses",
+      "sections": 2,
+      "passages": 20
+    },
+    {
+      "width": 1440,
+      "slug": "academic-reference-catalogue",
+      "sections": 3,
+      "passages": 3
+    },
+    {
+      "width": 1440,
+      "slug": "reading-map-financial-performance",
+      "sections": 3,
+      "passages": 3
+    },
+    {
+      "width": 1440,
+      "slug": "reading-map-marketing",
+      "sections": 3,
+      "passages": 3
+    },
+    {
+      "width": 1440,
+      "slug": "reading-map-change-leadership",
+      "sections": 3,
+      "passages": 3
+    },
+    {
+      "width": 1440,
+      "slug": "reading-map-project-management",
+      "sections": 3,
+      "passages": 3
+    },
+    {
+      "width": 1440,
+      "slug": "reading-map-strategic-hr",
+      "sections": 4,
+      "passages": 4
+    },
+    {
+      "width": 1440,
+      "slug": "balanced-scorecard",
+      "sections": 1,
+      "passages": 1
+    },
+    {
+      "width": 1440,
+      "slug": "integrated-reporting-purpose",
+      "sections": 1,
+      "passages": 1
+    },
+    {
+      "width": 1440,
+      "slug": "hr-operating-model",
+      "sections": 1,
+      "passages": 1
+    },
+    {
+      "width": 1440,
+      "slug": "vrio-resources",
+      "sections": 1,
+      "passages": 1
+    },
+    {
+      "width": 1440,
+      "slug": "project-stakeholders",
+      "sections": 1,
+      "passages": 1
+    },
+    {
+      "width": 1440,
+      "slug": "organizational-culture",
+      "sections": 1,
+      "passages": 1
+    },
+    {
+      "width": 1440,
+      "slug": "marketing-planning",
+      "sections": 1,
+      "passages": 1
+    },
+    {
+      "width": 1440,
+      "slug": "business-analysis-evidence",
+      "sections": 1,
+      "passages": 1
+    },
+    {
+      "width": 1440,
+      "slug": "economic-models-evidence",
+      "sections": 1,
+      "passages": 1
+    }
+  ],
+  "visuals": [
+    {
+      "width": 390,
+      "title": "The supplied research-reasoning heuristic",
+      "nodes": 7,
+      "connections": 6,
+      "labelsFit": true,
+      "scrollWorks": true
+    },
+    {
+      "width": 1440,
+      "title": "The supplied research-reasoning heuristic",
+      "nodes": 7,
+      "connections": 6,
+      "labelsFit": true,
+      "scrollWorks": true
+    }
+  ]
+}

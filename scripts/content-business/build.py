@@ -13,6 +13,7 @@ import zipfile
 from source import edited, read_document, section_blocks, reviewed_blocks
 from accounting import accounting_blocks, accounting_text
 from people import metric_directory, people_blocks
+from references import read_workbook, reference_catalogue
 
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
@@ -95,6 +96,7 @@ def blocks_for(doc, span, page, formula_reviews=None, formula_references=None, m
 articles = {}
 outputs = []
 search_sections = {}
+academic_entries = []
 for batch in json.loads((HERE / 'batches.json').read_text()):
     source = ROOT / batch['source']
     archive = source / 'collection.zip'
@@ -106,8 +108,15 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
     formula_references = json.loads((HERE / 'accounting-references.json').read_text()) if formula_reviews is not None else None
     with zipfile.ZipFile(archive) as zipped:
         expected_names = {r['document'] for p in plan for r in p['ranges']}
+        bibliography = batch.get('bibliography')
+        workbook = None
+        if bibliography:
+            expected_names.add(bibliography['document'])
         assert set(zipped.namelist()) == expected_names, 'Unexpected archive contents; review first'
-        documents = {name: read_document(name, zipped.read(name), equations.get(name, ())) for name in zipped.namelist()}
+        documents = {name: read_document(name, zipped.read(name), equations.get(name, ())) for name in zipped.namelist() if name.endswith('.docx')}
+        if bibliography:
+            workbook = read_workbook(bibliography['document'], zipped.read(bibliography['document']))
+            academic_entries.extend(reference_catalogue(workbook, json.loads((HERE / bibliography['reviews']).read_text())))
         assert set(equations) <= set(documents), 'Unknown equation document'
     if formula_reviews is not None:
         formula_reviews = {review['index']: review for review in formula_reviews}
@@ -209,6 +218,8 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
             blocks = [dict(kind='paragraph', text=t) for t in section['paragraphs']]
             if section.get('links'):
                 blocks.append(dict(kind='reading-links', links=section['links']))
+            if section.get('referenceIds'):
+                blocks.append(dict(kind='academic-readings', referenceIds=section['referenceIds']))
             article['sections'].append(dict(id=section_id, heading=section['heading'], blocks=blocks))
             search_sections[slug].append(dict(heading=section['heading'], body='\n'.join(section['paragraphs'])))
     assert all(coverage.values()), f'Unmapped passages: {[k for k,v in coverage.items() if not v]}'
@@ -259,7 +270,7 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
             assert [int(row[0].split()[0]) for row in f['rows']] == list(range(1, 101)), 'Incomplete pension ranking'
             assert all(row[1] and row[2] and row[3].startswith('$') for row in f['rows']), 'Incomplete pension data'
             assert 'bubble says 90' in f['rows'][90][0], 'Lost source-rank discrepancy'
-    outputs.append((batch, documents, coverage, image_coverage))
+    outputs.append((batch, documents, coverage, image_coverage, workbook))
 
 collections = json.loads((HERE / 'collections.json').read_text())
 for collection in collections:
@@ -268,7 +279,7 @@ for collection in collections:
     assert collection['slug'] not in articles
     articles[collection['slug']] = dict(slug=collection['slug'],title=collection['title'],topic=collection['topic'],group=collection['group'],
         summary=collection['summary'],takeaway='',steps=[],notes=collection['notes'],related=[],sections=[],figures=[],collection=collection['parent'],format='collection',interpretation='',references=collection['references'],visuals=[],questionStages=[])
-    search_sections[collection['slug']] = []
+    search_sections[collection['slug']] = [dict(heading='Choose a reading path', body=collection['intro'])]
 
 # Retain the original guides' official references when rebuilding.
 references = {
@@ -289,11 +300,21 @@ knowledge = [a for a in json.loads(knowledge_path.read_text()) if a['slug'] not 
 for collection in collections:
     if collection['topicRoot']:
         knowledge.append(dict(slug=collection['slug'],title=collection['title'],topic=collection['topic'],group='Start here',summary=collection['summary'],sections=[dict(heading='Choose a reading path',body=collection['intro'])],sources=collection['references']))
+reference_by_id = {entry['id']: entry for entry in academic_entries}
 for article in articles.values():
     diagram_sections = [dict(heading=f['title'], body='\n'.join([*f['headers'], *[cell for row in f['rows'] for cell in row], f['note']]))
                         for f in article['figures'] if f.get('diagram')]
-    knowledge.append(dict(slug=article['slug'],title=article['title'],topic=article['topic'],group=article['group'],summary=article['summary'],sections=search_sections[article['slug']] + diagram_sections,sources=article['references']))
+    reading_ids = [identifier for section in article['sections'] for block in section['blocks']
+                   if block['kind'] == 'academic-readings' for identifier in block['referenceIds']]
+    if article['format'] == 'reference-index':
+        reading_ids = list(reference_by_id)
+    reading_sections = [dict(heading='Academic reading references', body='\n'.join(reference_by_id[key]['citation'] for key in reading_ids))] if reading_ids else []
+    knowledge.append(dict(slug=article['slug'],title=article['title'],topic=article['topic'],group=article['group'],summary=article['summary'],sections=(search_sections[article['slug']] or [dict(heading=article['title'], body=article['summary'])]) + diagram_sections + reading_sections,sources=article['references']))
 slugs = {a['slug'] for a in knowledge}
+reference_ids = {entry['id'] for entry in academic_entries}
+assert len(reference_ids) == len(academic_entries), 'Duplicate academic reference anchor'
+assert all(set(block['referenceIds']) <= reference_ids for a in articles.values() for section in a['sections']
+           for block in section['blocks'] if block['kind'] == 'academic-readings'), 'Unknown academic reading'
 assert len(slugs) == len(knowledge), 'Duplicate catalogue slug'
 assert all(slug in slugs for a in articles.values() for slug in a['related']), 'Broken related link'
 assert all(link['slug'] in slugs and link['label'] for a in articles.values() for section in a['sections']
@@ -376,8 +397,21 @@ assert len({f['id'] for f in formula_directory}) == len(formula_directory), 'Dup
 assert all(f['name'] and f['units'] and f['inputs'] and f['scope'] and f['original'] for f in formula_directory)
 
 # Write only after all batches, destinations and discovery paths have passed checks.
-for batch, documents, coverage, image_coverage in outputs:
-    save(ROOT / batch['source'] / 'editorial/inventory.json', dict(archiveSha256=batch['sha256'], documents=list(documents.values())))
+for batch, documents, coverage, image_coverage, workbook in outputs:
+    inventory = dict(archiveSha256=batch['sha256'], documents=list(documents.values()))
+    if workbook:
+        inventory['workbooks'] = [workbook]
+        with (ROOT / batch['bibliography']['ledger']).open('w', newline='') as out:
+            writer = csv.writer(out, lineterminator='\n')
+            writer.writerow(['source_document', 'sheet', 'cell', 'original_reference', 'reference_id', 'destination', 'metadata_status', 'reading_status'])
+            for sheet in workbook['sheets']:
+                for cell in sheet['cells']:
+                    matches = [entry for entry in academic_entries if any(s['sheet'] == sheet['name'] and s['cell'] == cell['address'] for s in entry['sources'])]
+                    assert matches, 'Unmapped reference cell'
+                    for entry in matches:
+                        writer.writerow([workbook['name'], sheet['name'], cell['address'], cell['text'], entry['id'],
+                                         f'/library/knowledge/academic-reference-catalogue/?reference={entry["id"]}#{entry["id"]}', entry['metadataStatus'], entry['readingStatus']])
+    save(ROOT / batch['source'] / 'editorial/inventory.json', inventory)
     with (ROOT / batch['ledger']).open('w', newline='') as out:
         writer = csv.writer(out, lineterminator='\n')
         writer.writerow(['source_document','source_item','source_text_or_hash','destination','section_or_figure','disposition'])
@@ -399,6 +433,8 @@ save(DEST / 'guides.json', list(articles.values()))
 save(DEST / 'collections.json', collections)
 save(DEST / 'collection-navigation.json', navigation)
 save(DEST / 'accounting-formulas.json', formula_directory)
+if academic_entries:
+    save(DEST / 'academic-references.json', academic_entries)
 with (ROOT / 'docs/accounting-formula-review.csv').open('w', newline='') as out:
     writer = csv.writer(out, lineterminator='\n')
     writer.writerow(['source_document', 'source_paragraph', 'measure', 'review_state', 'review_detail', 'expression', 'units', 'destination', 'original_wording'])

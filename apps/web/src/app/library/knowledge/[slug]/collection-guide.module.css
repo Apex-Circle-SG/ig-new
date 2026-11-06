@@ -133,3 +133,6 @@
 .diagramScroll { overflow-x: auto; max-width: 100%; border-radius: 10px; margin-block: 20px; }
 .diagramScroll svg { display: block; width: 100%; min-width: 680px; height: auto; font-size: 20px; }
 .diagramScroll:focus-visible { outline: 3px solid #9787ef; outline-offset: 4px; }
+.referenceCitation { padding: 16px; background: #f2effe; border-radius: 10px; line-height: 1.8; overflow-wrap: anywhere; user-select: text; }
+.academicReadings li { margin-block: 18px; }
+.academicReadings li p { font-size: 13px; margin-block: 4px; }

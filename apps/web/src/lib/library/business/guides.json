@@ -4166,7 +4166,9 @@
     ],
     "related": [
       "core-competencies",
-      "value-chain"
+      "value-chain",
+      "research-methods-academic-skills",
+      "academic-reference-catalogue"
     ],
     "notes": [
       "The source mixes VRIO with VRIN: non-substitutability is retained as a related criterion, not relabeled as the O in VRIO."
@@ -4295,6 +4297,24 @@
           {
             "kind": "paragraph",
             "text": "Google is organized to capture value from this capability. The IT department has the skills to collect and maintain the data, while HR and team leaders are trained on how to use the data to hire, promote, manage, and improve performance of employees."
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Academic reading: resource-based arguments",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Read the theoretical argument and its assumptions rather than citing a source solely because its title mentions resources. These links support further study, not a newly asserted empirical outcome."
+          },
+          {
+            "kind": "academic-readings",
+            "referenceIds": [
+              "ref-f9bb004bd724",
+              "ref-bcdb41fb6450",
+              "ref-bb9e4db8687a"
+            ]
           }
         ]
       }
@@ -7745,7 +7765,9 @@
       "okr-goals",
       "customer-feedback",
       "strategy-evaluation",
-      "strategy-deployment"
+      "strategy-deployment",
+      "research-methods-academic-skills",
+      "academic-reference-catalogue"
     ],
     "notes": [
       "The retail example proposes replacing staff as a learning-and-growth goal. This is retained as a source example, not endorsed as a development measure."
@@ -7982,6 +8004,24 @@
               "Customer: easier to do business with, faster service, self-service order & pay",
               "Internal processes: reduce work, improved order management process, improved lead generation, online payment capability",
               "Learning & growth: trained staff on lean six sigma, invested in new ERP system, new website"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-7",
+        "heading": "Academic reading: scorecard interpretation",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Compare conceptual foundations with research about presentation and use. These are further-reading references, not evidence that a scorecard guarantees better performance."
+          },
+          {
+            "kind": "academic-readings",
+            "referenceIds": [
+              "ref-7b665e4afecc",
+              "ref-0a01a63f786f",
+              "ref-123da51a919e"
             ]
           }
         ]
@@ -24792,7 +24832,9 @@
     "related": [
       "project-charter",
       "project-communication",
-      "rasci-responsibilities"
+      "rasci-responsibilities",
+      "research-methods-academic-skills",
+      "academic-reference-catalogue"
     ],
     "notes": [],
     "collection": "",
@@ -24832,6 +24874,23 @@
               "Parent organisation",
               "External environment",
               "Project team"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Academic reading: stakeholders and governance",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The supplied bibliography includes stakeholder-landscape research and a governance framework. Their publication records are distinct from reading or verifying a specific claim about your project."
+          },
+          {
+            "kind": "academic-readings",
+            "referenceIds": [
+              "ref-3e7b76390cb7",
+              "ref-f68e9f5ff604"
             ]
           }
         ]
@@ -41361,7 +41420,9 @@
       "marketing-customer-value",
       "marketing-communications",
       "project-action-reporting",
-      "marketing-race-planning"
+      "marketing-race-planning",
+      "research-methods-academic-skills",
+      "academic-reference-catalogue"
     ],
     "notes": [
       "The source provides headings and a conceptual control flow, not a populated marketing plan, budget or return-on-investment calculation."
@@ -41478,6 +41539,24 @@
           {
             "kind": "heading",
             "text": "Implementation Plan"
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Academic reading: planning and digital strategy",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The supplied reading list connects planning texts with strategic marketing. These are reading leads; no current effectiveness result is inferred from the book titles."
+          },
+          {
+            "kind": "academic-readings",
+            "referenceIds": [
+              "ref-783222c215fe",
+              "ref-032bd3432ea1",
+              "ref-a42a7f1393c2"
+            ]
           }
         ]
       }
@@ -56447,7 +56526,9 @@
     "related": [
       "six-capitals-value-creation",
       "sustainability-reporting-context",
-      "business-responsibility"
+      "business-responsibility",
+      "research-methods-academic-skills",
+      "academic-reference-catalogue"
     ],
     "notes": [
       "The source cites IIRC’s 2013 framework and institutional history. The framework was revised in 2021 and is now maintained under the IFRS Foundation; the historical wording is retained with that context. Benefits are possible outcomes, not guaranteed results."
@@ -56530,6 +56611,24 @@
               "Critical for investor confidence",
               "Influences perceptions of the company’s customers, vendors, and employees",
               "Shapes how a company sees itself"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Academic reading: integrated-reporting research",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Keep a dated reporting framework distinct from studies of reporting quality and its associations. Read the actual setting and design before making a causal claim."
+          },
+          {
+            "kind": "academic-readings",
+            "referenceIds": [
+              "ref-12b358953c73",
+              "ref-24fa5e56568e",
+              "ref-899fe033a915"
             ]
           }
         ]
@@ -58017,7 +58116,9 @@
     "related": [
       "organizational-design-change",
       "organizational-development",
-      "high-performance-teams"
+      "high-performance-teams",
+      "research-methods-academic-skills",
+      "academic-reference-catalogue"
     ],
     "references": [],
     "visuals": [
@@ -58350,6 +58451,24 @@
               "Artefacts: uniforms and branding",
               "Espoused: shared beliefs by employees",
               "Basic assumption: deeply held values in subconscious"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-9",
+        "heading": "Academic reading: culture and change",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Compare conceptual perspectives and the practical change context. The cited source editions and their unresolved details remain visible in the reference records."
+          },
+          {
+            "kind": "academic-readings",
+            "referenceIds": [
+              "ref-e08ce1e330a4",
+              "ref-c9b55aa401a6",
+              "ref-4daeddddf749"
             ]
           }
         ]
@@ -59732,7 +59851,9 @@
     "related": [
       "talent-lifecycle",
       "employee-engagement",
-      "organizational-design-change"
+      "organizational-design-change",
+      "research-methods-academic-skills",
+      "academic-reference-catalogue"
     ],
     "references": [],
     "visuals": [],
@@ -59913,6 +60034,25 @@
                 "Analyse → design → develop → implement → evaluate (ADDIE)"
               ]
             }
+          }
+        ]
+      },
+      {
+        "id": "section-8",
+        "heading": "Academic reading: HR roles and relationships",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The HR list includes role change, business partnering and employee perspectives. Use the reading map to compare research with practitioner recommendations; metadata checks do not establish which operating model is best."
+          },
+          {
+            "kind": "academic-readings",
+            "referenceIds": [
+              "ref-01c5c5120070",
+              "ref-a5eabffc4e4b",
+              "ref-8c7dcdcd07d1",
+              "ref-828fffcbf48e"
+            ]
           }
         ]
       }
@@ -75676,7 +75816,9 @@
       "ai-probability-distributions",
       "ai-regression-diagnostics",
       "critical-thinking-questions",
-      "structured-debt-contracts"
+      "structured-debt-contracts",
+      "research-methods-academic-skills",
+      "academic-reference-catalogue"
     ],
     "references": [],
     "visuals": [
@@ -75861,6 +76003,16 @@
                 "Bell curve"
               ]
             }
+          }
+        ]
+      },
+      {
+        "id": "section-8",
+        "heading": "Methods beyond economic models",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Use the general research-methods area for design, sampling, measurement, inference and referencing. Software names and numerical outputs do not themselves establish causal identification."
           }
         ]
       }
@@ -79261,7 +79413,9 @@
       "critical-thinking-questions",
       "scenario-planning",
       "business-plan-reading-path",
-      "economic-models-evidence"
+      "economic-models-evidence",
+      "research-methods-academic-skills",
+      "academic-reference-catalogue"
     ],
     "references": [],
     "visuals": [
@@ -79370,6 +79524,16 @@
           {
             "kind": "heading",
             "text": "Recommendations: actionable, based on key insights, supported by detailed findings"
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Academic research and source verification",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "A decision-oriented analysis workflow can benefit from explicit research design, measurement and source appraisal. The academic area separates these concerns and distinguishes metadata checks from claim verification."
           }
         ]
       }
@@ -81583,6 +81747,3420 @@
               "Service shop: customisation with limit",
               "Mass: no customisation"
             ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "research-foundations",
+    "title": "Research foundations: inquiry, contribution and justified claims",
+    "topic": "Research Methods & Academic Skills",
+    "collection": "research-methods-academic-skills",
+    "group": "Getting started",
+    "summary": "Distinguish a research question from a summary, a technique and an unsupported assertion.",
+    "takeaway": "A systematic process needs reasons, evidence and explicit limits; novelty is assessed against the relevant literature.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "research-question-proposal",
+      "research-design-philosophy",
+      "research-evidence-claims"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Research is more than collecting quotations",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "The notes define research through systematic inquiry, novelty, reliable knowledge and practical significance. Their Tuckman and Popper references are incomplete edition-level citations, not authenticated quotations here. Falsifiability and criticism concern how claims can be challenged; no research method guarantees final true statements. The reference to the UK REF is a contextual example, not a universal requirement for every project."
+              ],
+              "references": [],
+              "original": [
+                "Business Research",
+                "Research",
+                "Systematic means of problem solving: obtaining, analyzing and confirming new and reliable knowledge (Bruce W. Tuckman, B. W. 1978 Conducting Educational Research)",
+                "Research includes \"search\", it asks for the analysis of yet unstructured material. It is not a write-up of selected sources or a summary of what we already know",
+                "Novelty of both, the problem and the knowledge that will be generated",
+                "Systematic approach – So there is an important element of justification why, how and what you inquire",
+                "Reliable inquiry",
+                "According to Popper, the scientist’s role is to produce true statements (cf. Popper, K. 1935/1959/1992 The Logic of Scientific Discovery). This inter alia requires evidence for each statement and falsification",
+                "Modern times also require Impact 🡺 see UK REF exercise",
+                "True statements but business scholars' second question may be \"so what?\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Basic, applied and discipline-specific contributions",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Basic and applied objectives can overlap. Discovering something unknown to you does not alone show it is new to the field. Novel data, combinations, methods or applications need an argument for what they add. The history-of-universities comments are supplied context, not independently established historical findings."
+          },
+          {
+            "kind": "heading",
+            "text": "Basic Research"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "To expand current basis of theoretical, scientific knowledge",
+              "Developing \"true statements\" in terms of generalisation and logics / pushing the research frontier"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Applied research"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Solve practical problems",
+              "Providing not necessarily radically new knowledge but new techniques or practices"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Novelty"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Novelty can only be judged within project context: Journals exist to debate new problems that have arisen from theory thought or business practice and have not yet been addressed with dedicated articles and/or data sets"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Unknown does not equal new. If a concept is known to e.g. a psychologist but not know to a business researcher, it is not “new” but unknown to our discipline"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Research requires the researcher to make a novel contribution",
+              "Novel combination of logics / Grounded theory",
+              "Generating novel data and meaningful analysis",
+              "Novel application of theory or statistical assumptions to an important practice or policy making case, yielding to surprising results"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Unique features of business research"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Audience: Research needs to be meaningful for academic debate on businesses, economy, management functions, business policy etc.",
+              "Implicit instrumental dimension?",
+              "Multi-methods discipline without scientific origin.",
+              "\"Universitas\" initially where places where scientists and philosophers met, rather than tradesmen. Community of \"Masters\" and their \"Scholars\""
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "New knowledge objective can be abstract, empirical explorative or quite applied – hence continuum of scientific and social science approaches borrowed from various disciplines"
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Systematic does not automatically mean unbiased",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "A documented design makes choices open to scrutiny. Induction/deduction, evidence and philosophical argument can contribute in different ways; generalization is not necessarily statistical. Replicability requires sufficiently documented procedures and materials where appropriate. Reflect on researcher involvement, assumptions, sampling and instrument wording rather than treating an orderly process as proof of objectivity."
+              ],
+              "references": [],
+              "original": [
+                "Systematic",
+                "Following a well-defined process and findings robust against objection",
+                "Process that assures qualities of outcomes:",
+                "Induction/deduction 🡺 Logical arguments",
+                "Methods of philosophic debate or Empirical evidence 🡺 Evidence-based arguments",
+                "Systematic reduction of findings 🡺 Generalisation",
+                "Well documented process and outcomes 🡺 Replicable",
+                "A \"research method\" does specify how such qualities will be achieved and assured from the processes of inquiry and analysis",
+                "Tensions in business research: Where does research end and action or practice begin. New knowledge? (Too) applied knowledge? Consultancy?",
+                "A systematic process may still not be objective, researchers have to reflect upon",
+                "Biases",
+                "Involvement with the object of study",
+                "Philosophical assumptions and limitations from research design, especially sampling and wording/items of the instrument"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "research-question-proposal",
+    "title": "Develop a research question and a workable proposal",
+    "topic": "Research Methods & Academic Skills",
+    "collection": "research-methods-academic-skills",
+    "group": "Getting started",
+    "summary": "Connect the debate, contribution, design, access and milestones before committing to data collection.",
+    "takeaway": "A proposal should explain why the question matters and how the proposed evidence could answer it.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "research-foundations",
+      "literature-review-synthesis",
+      "research-sampling-surveys",
+      "academic-writing-reporting"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "kind": "flow",
+        "title": "From topic to feasible inquiry",
+        "headers": [],
+        "rows": [
+          [
+            "Choose a debate or practical problem"
+          ],
+          [
+            "Review what is already known"
+          ],
+          [
+            "Formulate an answerable question"
+          ],
+          [
+            "Justify design, access and analysis"
+          ],
+          [
+            "Plan ethics, milestones and contingencies"
+          ]
+        ],
+        "note": "The sequence is iterative; feasibility problems may require revising the question."
+      }
+    ],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "A research cycle and a practical start",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The supplied cycle links a field/debate, literature, question, design, data, interpretation and impact. Begin early enough to obtain access, receive feedback and change direction when evidence requires it."
+          },
+          {
+            "kind": "heading",
+            "text": "Research process circle"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Identify well-defined field/debate",
+              "Review available literature",
+              "Formulate question",
+              "Select appropriate research design (method, instrument)",
+              "Collect relevant data or generate novel data set",
+              "Interpret and publish findings",
+              "Generate recommendations and impact"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Getting started"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "An intense experience and can be difficult as well as exciting at the same time",
+              "Don't panic",
+              "To be organized, to make progress and the work will unfold differently than planned eventually",
+              "Get started and seek feedback, structure will unfold in the process initially",
+              "Don't wait till time becomes scarce for fieldwork and write up"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Proposal components: purpose before paperwork",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The source’s first rows use item/element/purpose labels. Later measurement and analysis prompts do not fit that grid perfectly; their wording is retained rather than silently rewritten as a required institutional template."
+          },
+          {
+            "kind": "paragraph",
+            "text": "Research proposal · Item of research project · Element · Purpose"
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Project element",
+              "What to specify",
+              "Question it should answer"
+            ],
+            "rows": [
+              [
+                [
+                  "Topic"
+                ],
+                [
+                  "Topic title"
+                ],
+                [
+                  "Can an expert sense what questions you might approach?"
+                ]
+              ],
+              [
+                [
+                  "Topic"
+                ],
+                [
+                  "Research questions (and objectives)"
+                ],
+                [
+                  "What are you trying to find out and which concepts does this relate to?"
+                ]
+              ],
+              [
+                [
+                  "Justification"
+                ],
+                [
+                  "Significance (background and relevance)"
+                ],
+                [
+                  "Why important?"
+                ]
+              ],
+              [
+                [
+                  "Justification, Instrument"
+                ],
+                [
+                  "Object of study: selection criteria, sampling design"
+                ],
+                [
+                  "What data will be collected, how and why? Is the method robust?"
+                ]
+              ],
+              [
+                [
+                  "Instrument"
+                ],
+                [
+                  "Research approach (in detail)"
+                ],
+                [
+                  "Credible approach? Established and accepted within discipline?"
+                ]
+              ],
+              [
+                [
+                  "Variables, guiding questions or Hypotheses"
+                ],
+                [],
+                [
+                  "What measurements and operationalisation will be made?"
+                ]
+              ],
+              [
+                [
+                  "Analytic approach, complimentary secondary information and its context, software"
+                ],
+                [],
+                [
+                  "How will the findings be derived systematically and be used for rigour analysis?"
+                ]
+              ],
+              [
+                [
+                  "Project management"
+                ],
+                [
+                  "Time frame, milestones"
+                ],
+                [
+                  "To judge whether the project in on track and making progress"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "A proposal review checklist",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "State the question, the relevant concepts, the gap or practical need, the evidence required, access and recruitment, analysis, limitations, participant responsibilities and milestones. Requirements differ by institution and type of project."
+          },
+          {
+            "kind": "reading-links",
+            "links": [
+              {
+                "slug": "literature-review-synthesis",
+                "label": "Map the debate"
+              },
+              {
+                "slug": "research-measurement-quality",
+                "label": "Define the concepts and evidence"
+              },
+              {
+                "slug": "research-consultancy-action",
+                "label": "Distinguish inquiry and intervention"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "research-design-philosophy",
+    "title": "Research design: philosophies, reasoning and mixed methods",
+    "topic": "Research Methods & Academic Skills",
+    "collection": "research-methods-academic-skills",
+    "group": "Design & data",
+    "summary": "Compare quantitative, qualitative and mixed approaches without confusing data form with rigor or philosophy.",
+    "takeaway": "Choose a design for the question and warranted inference; no philosophical label mechanically selects the method.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "research-foundations",
+      "research-data-collection",
+      "research-evidence-claims",
+      "statistical-test-selection"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Keep four choices separate",
+        "headers": [
+          "Choice",
+          "Question"
+        ],
+        "rows": [
+          [
+            "Research question",
+            "What do you want to understand, describe, compare or explain?"
+          ],
+          [
+            "Philosophy and reasoning",
+            "Which assumptions and forms of inference are you using?"
+          ],
+          [
+            "Design and evidence",
+            "What observations could answer the question, and with what limitations?"
+          ],
+          [
+            "Analysis and reporting",
+            "How will you produce a transparent, justified interpretation?"
+          ]
+        ],
+        "note": "These choices interact. The supplied decision diagram is retained as a simplified teaching heuristic, with its unclear label disclosed."
+      }
+    ],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Quantitative design: common patterns, not guarantees",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "Quantitative work often uses numerical measurements and specified models, but it is not automatically deductive, objective, random or generalizable. The source’s minimum of 80 per subgroup is not a universal reliability requirement. Sample justification must address design, precision or power, effects, variation, analysis and feasibility. The five stages are useful prompts, not a guarantee that a research question is already a statistical hypothesis."
+              ],
+              "references": [],
+              "original": [
+                "Quantitative Research",
+                "Deductive",
+                "Objective",
+                "Generalisable",
+                "Numbers",
+                "Measures attributes and dimensions already established",
+                "Analyses and compares response by sub-group",
+                "Requires minimum sample size per sub-group eg 80 for statistical reliability",
+                "Output is numerical and statistical",
+                "Five Key Stages",
+                "Decide theoretical framework",
+                "Devise RQ=hypotheses from your literature",
+                "Select research methods, measures of concepts, source/s of data, & research subjects",
+                "Collect & analyze data & develop findings by applying your measures to analyze your data",
+                "Implications of your findings for your chosen literature & managerial practice"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Distance, structure and numeric data",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "Researcher distance, predetermined structure, random samples and numerical data are tendencies in this teaching contrast, not necessary properties of every quantitative study. Reliability is a property to assess, not something implied by numbers or described as “hard” data."
+              ],
+              "references": [],
+              "original": [
+                "Focus",
+                "Quantity, frequency and magnitude",
+                "Researcher’s point of view",
+                "Researcher is distant",
+                "Goals",
+                "Predict, control, confirm or test in an artificial setting/environment",
+                "Generalisation",
+                "Design characteristic",
+                "Structured, predetermined",
+                "Sampling",
+                "Large, random",
+                "Data collection",
+                "External instruments such as questionnaires",
+                "Type of data",
+                "Hard, reliable numeric data"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Qualitative design and the scope of interpretation",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "Qualitative inquiry can be inductive, deductive or combine reasoning. It does not have a universal maximum participant count. Purposive depth and contextual understanding differ from statistical population estimation; transferability or analytic generalization needs its own argument. The source’s small-sample-to-wider-sample statement is too broad. One research question can help focus a project, but is not a universal rule."
+              ],
+              "references": [],
+              "original": [
+                "Qualitative Research",
+                "Inductive",
+                "Subjective",
+                "Non-generalisable",
+                "Words",
+                "Develops understanding, identifies and explores different dimensions and attributes",
+                "Establishes the potential range of behaviours and emotional responses, regardless of how prevalent",
+                "Requires a maximum size of participants to allow for in-depth exploration and analysis",
+                "Output is verbal and diagrammatic",
+                "Five Key Stages",
+                "Research Question (ONE will do)",
+                "Literature framework: How is your work positioned relative to other people’s work in your topic?",
+                "Select suitable research context & research method/s (\"research hook\") for your RQ",
+                "Collect & analyze data by applying your research hook to produce a personal interpretation of your data",
+                "Conclusion: Generalize from your interpretation of your (typically small ample to a wider sample in other contexts"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "section-4",
+        "heading": "Philosophical assumptions and forms of evidence",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "Words, images, records and observations can be qualitative material, but data format alone does not define the research design. Ontology, epistemology and methodology address different questions. Social construction and researcher involvement describe some perspectives; they do not exhaust phenomenology or all qualitative traditions. Flexible design still needs justified choices and systematic analysis."
+              ],
+              "references": [],
+              "original": [
+                "Focus",
+                "Quality of meaning and experience",
+                "Participants’ points of view",
+                "Researcher is close",
+                "Goals",
+                "Describe and explore in a natural setting/environment",
+                "Contextual understanding",
+                "Design characteristic",
+                "Flexible, evolving and emergent",
+                "Sampling",
+                "Small, purposive",
+                "Data collection",
+                "Researcher is the ‘living’ instrument",
+                "Type of data",
+                "Rich, deep data",
+                "Philosophy of phenomenology",
+                "Ontological (theory of being)",
+                "Belief that the world is socially constructed and subjective",
+                "Epistemological (theory of knowing)",
+                "Belief that phenomena are observable through human interaction",
+                "Methodological (theory of discovery)",
+                "Belief that discovering new knowledge involves the researcher as part of the observed",
+                "Approaches",
+                "Attempts to discover new phenomena, logics and structures, and conceptualising those",
+                "Any research that doesn’t involve numerical data",
+                "Words, pictures, photos, videos, audio recordings. Field notes. Peoples’ own words",
+                "Tends to start with a broad open question rather than a specific hypothesis, explores under-researched phenomenon typically rather than testing a theory",
+                "Often Inductive rather than deductive: Develop new conceptions"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "section-5",
+        "heading": "Mixed methods: connect the strands",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Exploratory work can inform a survey, while survey results can guide follow-up interviews. Explain how and why the strands are integrated; simply collecting two types of data does not make their inferences coherent. Induction/deduction are reasoning approaches, not synonyms for qualitative/quantitative data."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Combination of qualitative and quantitative research: rich explanations vs statistical/numerical evidence.",
+              "Example A: Before gathering data in a large survey, qualitative data is collected to develop a model."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Example B: After seeing the results of a large survey, a certain group of people (with particularly interesting answers) are chosen to be interviewed or to take part in a focus group discussion."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Can be the best or worst of both worlds!"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "What is your personal ontology?",
+            "text": "What are your skills and preferences?"
+          },
+          {
+            "kind": "definition",
+            "term": "What is your research topic?",
+            "text": "What are your research objective(s) and research question(s)?"
+          }
+        ]
+      }
+    ],
+    "figures": [
+      {
+        "document": "Business Research.docx",
+        "image": "word/media/image1.jpeg",
+        "slug": "research-design-philosophy",
+        "title": "The supplied research-reasoning heuristic",
+        "kind": "matrix",
+        "headers": [
+          "Source prompt or result",
+          "Branches and interpretation"
+        ],
+        "rows": [
+          [
+            "Does relevant theory exist?",
+            "Yes → Are you a positivist?; No → Inductive research"
+          ],
+          [
+            "Are you a positivist?",
+            "Yes → Deductive research; No → Are you an upgrade realist or pragmatist?"
+          ],
+          [
+            "Are you an upgrade realist or pragmatist?",
+            "Yes → Inductive/Deductive research; No → Inductive research"
+          ],
+          [
+            "Inductive research",
+            "Two separate source paths end with this result"
+          ],
+          [
+            "Deductive research",
+            "Source result from the positivist Yes branch"
+          ],
+          [
+            "Inductive/Deductive research",
+            "Source combined-reasoning result, not automatically a mixed-methods design"
+          ]
+        ],
+        "note": "All six source branches and seven displayed elements are retained. “Upgrade realist” is unclear original wording and is not silently replaced with an assumed school. This is a simplified teaching heuristic, not a rule that philosophy or the absence of a particular theory mechanically determines a method.",
+        "diagram": {
+          "id": "academic-research-reasoning",
+          "width": 1040,
+          "height": 425,
+          "nodes": [
+            {
+              "id": "theory",
+              "label": "Does relevant theory exist?",
+              "lines": [
+                "Does relevant theory",
+                "exist?"
+              ],
+              "x": 10,
+              "y": 20,
+              "width": 230,
+              "height": 110
+            },
+            {
+              "id": "positivist",
+              "label": "Are you a positivist?",
+              "lines": [
+                "Are you a",
+                "positivist?"
+              ],
+              "x": 280,
+              "y": 20,
+              "width": 220,
+              "height": 110
+            },
+            {
+              "id": "realist",
+              "label": "Are you an upgrade realist or pragmatist?",
+              "lines": [
+                "Are you an upgrade",
+                "realist or",
+                "pragmatist?"
+              ],
+              "x": 550,
+              "y": 20,
+              "width": 230,
+              "height": 145
+            },
+            {
+              "id": "inductive-right",
+              "label": "Inductive research",
+              "lines": [
+                "Inductive research"
+              ],
+              "x": 820,
+              "y": 20,
+              "width": 210,
+              "height": 110
+            },
+            {
+              "id": "inductive-left",
+              "label": "Inductive research",
+              "lines": [
+                "Inductive research"
+              ],
+              "x": 10,
+              "y": 290,
+              "width": 230,
+              "height": 90
+            },
+            {
+              "id": "deductive",
+              "label": "Deductive research",
+              "lines": [
+                "Deductive research"
+              ],
+              "x": 280,
+              "y": 290,
+              "width": 220,
+              "height": 90
+            },
+            {
+              "id": "combined",
+              "label": "Inductive/Deductive research",
+              "lines": [
+                "Inductive/Deductive",
+                "research"
+              ],
+              "x": 550,
+              "y": 290,
+              "width": 230,
+              "height": 110
+            }
+          ],
+          "edges": [
+            {
+              "from": "theory",
+              "to": "positivist",
+              "path": "M240 75 H280",
+              "arrow": "end",
+              "label": "Yes",
+              "labelX": 260,
+              "labelY": 60
+            },
+            {
+              "from": "theory",
+              "to": "inductive-left",
+              "path": "M125 130 V290",
+              "arrow": "end",
+              "label": "No",
+              "labelX": 145,
+              "labelY": 220
+            },
+            {
+              "from": "positivist",
+              "to": "realist",
+              "path": "M500 75 H550",
+              "arrow": "end",
+              "label": "No",
+              "labelX": 525,
+              "labelY": 60
+            },
+            {
+              "from": "positivist",
+              "to": "deductive",
+              "path": "M390 130 V290",
+              "arrow": "end",
+              "label": "Yes",
+              "labelX": 410,
+              "labelY": 220
+            },
+            {
+              "from": "realist",
+              "to": "inductive-right",
+              "path": "M780 75 H820",
+              "arrow": "end",
+              "label": "No",
+              "labelX": 800,
+              "labelY": 60
+            },
+            {
+              "from": "realist",
+              "to": "combined",
+              "path": "M665 165 V290",
+              "arrow": "end",
+              "label": "Yes",
+              "labelX": 685,
+              "labelY": 240
+            }
+          ]
+        }
+      }
+    ],
+    "questionStages": []
+  },
+  {
+    "slug": "research-measurement-quality",
+    "title": "Measurement quality: validity, reliability and the limits of inference",
+    "topic": "Research Methods & Academic Skills",
+    "collection": "research-methods-academic-skills",
+    "group": "Design & data",
+    "summary": "Translate concepts into observations and distinguish consistency from meaning, causality and scope.",
+    "takeaway": "A consistent measurement can still miss the intended concept; a reliable design alone does not establish causality.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "research-measurement-questionnaires",
+      "research-sampling-surveys",
+      "research-data-collection",
+      "statistical-hypotheses"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Four concerns that must not be collapsed",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "Operationalization connects a concept with indicators or observations. Reliability concerns consistency under specified conditions; validity concerns the interpretation and use of the evidence. The notes imply greater reliability resolves causal interpretation, but causal identification also needs a defensible design and assumptions. Population inference depends on the target, sampling and response process; random sampling alone does not guarantee generalizability. Replication needs transparent materials and procedures, not identical results promised in advance."
+              ],
+              "references": [],
+              "original": [
+                "Measurement",
+                "How do we measure a concept (broken down into variables, indicators, and/or factors)? How valid and reliable is/are our measurement/s? Devise and use indicators to measure a concept - say, if you want to measure job satisfaction - where you cannot identify direct measures.",
+                "Causality",
+                "How may we explain the phenomenon? Which is the cause and which is the effect? Again, how reliable is/are our causal inferences? The greater the reliability of the research design, the less the potential variability (“subjectivity”) in interpreting the research findings and therefore the higher the quality of the research, as perceived by quantitative researchers.",
+                "Generalizability",
+                "How may the research findings be generalized beyond a particular research context? Results can be inferred to a wider sample depending on the representativeness of the researched sample (“probability [random] sampling”).",
+                "Replicability",
+                "How may research biases be reduced? How may research methods be replicated and similar results obtained by other independent researchers?"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Qualitative credibility and reflexive practice",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The source lists external audit, peer debriefing, bias clarification, engagement, rich description, triangulation, member checking and discrepant information. These can serve different purposes; not all are mandatory or suitable in every interpretive tradition. Explain what each contributes and how disagreement is treated."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Validity",
+              "External auditor",
+              "Peer debriefing",
+              "Clarifying researcher bias",
+              "Prolonged engagement",
+              "Rich description",
+              "Triangulation",
+              "Member checking",
+              "Discrepant information"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Choose observations before choosing a score",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Document the concept, indicator, population, period, instrument and intended interpretation. Piloting may reveal unclear wording or missing categories, but does not by itself establish every kind of validity. Include consent, confidentiality, conflicts and a proportionate data-management plan where people are involved; these are editorial additions to the handout."
+          },
+          {
+            "kind": "reading-links",
+            "links": [
+              {
+                "slug": "research-data-collection",
+                "label": "Plan collection and interpretation"
+              },
+              {
+                "slug": "business-ethics-governance",
+                "label": "Explore responsibilities and ethical reasoning"
+              }
+            ]
+          },
+          {
+            "kind": "academic-readings",
+            "referenceIds": [
+              "ref-67121038753f"
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "research-data-collection",
+    "title": "Collect research evidence: documents, observations and interviews",
+    "topic": "Research Methods & Academic Skills",
+    "collection": "research-methods-academic-skills",
+    "group": "Design & data",
+    "summary": "Match the source and collection method to the question, context and participant responsibilities.",
+    "takeaway": "A rich source still needs an assessment of its origin, selection, meaning and the influence of collection.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "research-measurement-quality",
+      "research-measurement-questionnaires",
+      "research-consultancy-action",
+      "literature-review-synthesis"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Observations, notes and documentary sources",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The notes identify observation, diaries, interviews, field-note forms and secondary records. Assess authenticity, credibility, representativeness and meaning. Public availability is not proof of accuracy; private access is not unrestricted permission to publish."
+          },
+          {
+            "kind": "heading",
+            "text": "Methods"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Observations",
+              "Secondary data",
+              "Diary study",
+              "Interviews"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Field notes"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Mental notes",
+              "Jotted notes",
+              "Full field notes"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Secondary data"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Can be read",
+              "Produced by someone else",
+              "Are preserved",
+              "Relevant to your interests"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Criteria"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Authenticity",
+              "Credibility",
+              "Representativeness",
+              "Meaning"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Types of documents available for study"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Personal",
+              "Public",
+              "Organisational",
+              "Mass media output",
+              "Visual outputs"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Public domain"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Annual reports",
+              "Mission statements",
+              "Reports to shareholders",
+              "Transcripts of chief executivies' speeches",
+              "Press releases & advertisements",
+              "Public relations material"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Private domain"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Company newsletters",
+              "Organisational charts",
+              "External consultancy reports",
+              "Minutes of meetings",
+              "Memos",
+              "Internal & external correspondence",
+              "Manuals for new recruits",
+              "Policy statements",
+              "Company regulations"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Interview prompts and wording pitfalls",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Basic, explanatory, focused and silent probes can elicit different information. Drawing out, mirroring and laddering need care: offering ideas can lead an answer. Avoid ambiguity, double questions, leading language and unexplained terms; sometimes a defined technical term is needed, rather than banned altogether."
+          },
+          {
+            "kind": "heading",
+            "text": "Interviews"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Basic probe",
+              "Explanatory probe",
+              "Focused probe",
+              "Silent probe",
+              "Drawing out",
+              "Giving ideas or suggestions",
+              "Mirroring or reflecting",
+              "Laddering"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Avoid"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Ambiguous terms",
+              "Long questions",
+              "Double-barrelled questions",
+              "Very general questions",
+              "Leading questions",
+              "Asking two questions in one",
+              "Negative terms",
+              "Technical terms"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Qualitative strategies and data sources",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Case study, grounded theory, ethnography, action research, observation, focus groups, interviews, diaries and historical/archive work operate at different levels of design and collection. Choose a coherent combination rather than treating every list item as an interchangeable method."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Research methods"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Explorative Case Studies",
+            "text": "Semi-structured interview guide"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Single case study / in-depth case study / Grounded theory",
+              "Unstructured interview guide",
+              "Observation (of group)",
+              "Focus groups",
+              "Observation (of individual)",
+              "Recorded (video/audio)"
+            ]
+          },
+          {
+            "kind": "definition",
+            "term": "Ethnography",
+            "text": "Use of Diaries, self-reporting, written accounts of past events"
+          },
+          {
+            "kind": "definition",
+            "term": "Action research",
+            "text": "Participation in events and communications and documentation of such via diaries, memos and/or recordings"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Historic account",
+              "Archive data"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-4",
+        "heading": "Separate observation from interpretation",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Record when, where, how and from whom material was obtained. Distinguish the participant’s words, the observer’s notes and the researcher’s analytic interpretation. Consider who is absent, how access shaped the evidence and whether re-identification is possible when reporting quotations."
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "research-evidence-claims",
+    "title": "Evaluate research claims and incomplete citations",
+    "topic": "Research Methods & Academic Skills",
+    "collection": "research-methods-academic-skills",
+    "group": "Evidence & practice",
+    "summary": "Compare the benefits and limits of research methods, assess citations and recognize gaps in the evidence.",
+    "takeaway": "A citation-shaped label is not enough to establish a claim or identify the work that supports it.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "research-design-philosophy",
+      "academic-reference-catalogue",
+      "academic-referencing",
+      "research-measurement-quality"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Quantitative pros and cons: preserve the claims, assess the conditions",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "These claims mix study design, cost, response, objectivity, generalization, anonymity and software convenience. None follows simply from choosing quantitative data. The assertion that subjects are not influenced by observation conflicts with common measurement/reactivity problems; software does not guarantee validity or rapid analysis. A structured interview can include follow-up questions.",
+                "Several in-text references are incomplete or identify web/practitioner material rather than a specified scholarly article. Names such as “LG,” “Natasha,” a journal title/year, or a misspelled author/year cannot be reliably matched by guessing. The catalogue covers the supplied workbook; these handout citations remain visible here with their original claims until their actual sources are identified."
+              ],
+              "references": [],
+              "original": [
+                "Pros",
+                "Subjects not influenced by observations of experiments (Querios et al, 2017)",
+                "“What-if” questions can be tested and affirmed (Querios et al, 2017)",
+                "Low development time and cost effective (Querios et al, 2017)",
+                "Quantitative studies use mathematical models and statistics for analysis, providing numerical results that are considered more objective (Fahmeena Odetta Moore, 2016)",
+                "Controlled Results are valid and reliable (Dr. Mary Dowd, 2018)",
+                "Data analysis is less time consuming as it uses the statistical software such as SPSS (Connolly, 2007)",
+                "Data collection occurs rapidly with quantitative research. (LG, No date) (Fernando & Faria,2017)",
+                "The samples of quantitative research are randomized. (Oppong, 2013)",
+                "It offers reliable and repeatable information. (Evid Base Nurs, 2015)",
+                "You can generalize your findings with quantitative research. (Apuke, 2017)",
+                "The research is anonymous. (Blackstone, 2012)",
+                "You can perform the research remotely. (Male, Trevor, 2015 ; Jason Mander, 2017)",
+                "Information from a larger sample is used with quantitative research. (Destiny Apuke,2017)",
+                "Cons",
+                "Difficult to replicate the same conditions of study (Querios et al, 2017)",
+                "Difficult to control variables (Querios et al, 2017)",
+                "Arising opportunities of ethical issues (Querios et al, 2017)",
+                "Response time / response rate (Healey at el 2002)",
+                "Less data, artificiality. limitation (Dpimm 1994)",
+                "There are cases where the hypotheses are not detailed. (Fahmeena Odetta Moore, 2016)",
+                "Lack of isomorphism between its measures and \"reality\" (CLAUDIA KRENZ 1986)",
+                "You cannot follow-up on any answers in quantitative research. (Alshenqeeti, 2014)",
+                "The characteristics of the participants may not apply to the general population. (Natasha, 2019)",
+                "You cannot determine if answers are true or not. (Evid Base Nurs, 2015)",
+                "It creates the potential for an unnatural environment. ( Jason Mander, 2017)"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Qualitative pros and cons: distinguish interpretation from stereotypes",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "The list includes plausible concerns about skill, context and sampling, but also misfiled claims about large samples/objectivity and statistical assumptions. Qualitative findings are not merely unconstrained “gut feel.” Conversely, a detailed account is not automatically causal evidence or statistically representative. Preserve the source attributions, but do not use a blog-style advantages list or an incomplete author/year as proof of universal methodological superiority."
+              ],
+              "references": [],
+              "original": [
+                "Pros",
+                "Not bound by limitations of figures (Poppulo, 2019)",
+                "Flexible and oriented to knowledge discovery (Poppulo, 2019)",
+                "Suitable to for exploring new lines of research (Querios et al, 2017)",
+                "Simplifying and managing data without destroying complexity and context (numbers / statistics) (Ochiend Pamela 2009)",
+                "Larger sample size, objective and accuracy - pros qualitative (PF.Liu; debatin 1998)",
+                "Produces the thick (detailed) description of participants’ feelings, opinions, and experiences; and interprets the meanings of their actions (Denzin, 1989).",
+                "More cost effective and easier to consolidate (Jason Mander, 2017)",
+                "Can capture changing attitudes within a target (Bradon, 2019)",
+                "It provides more content that is useful for practical application. (Bradon, 2019)",
+                "More speculative about what areas they choose to investigate, allows data capture to be prompted by a researcher’s instinctive or ‘gut feel’ for where good information will be found. (Yauch and Steudel, 2003)",
+                "Cons",
+                "Heavily dependent on individual skills and impartiality of researcher (Anderson, 2010)",
+                "Difficult to get concise and precise conclusions (Querios et al, 2017)",
+                "Difficult to establish cause and effect connections (Querios et al, 2017)",
+                "Statistical data could be based on assumptions and inaccurate (Ochiend Pamela 2009)",
+                "Requires skills and commitment to gather or the results will not be useful (Ochiend Pamela 2009)",
+                "Positivism cannot account for how the social reality is shaped and maintained, or how people interpret their actions and others (Blaikie, 2017)",
+                "Sample size can be a big issue. (Oppong, 2013)",
+                "Sample bias (Tuckett, A, 2004).",
+                "It does not offer statistical representation. (Brandon, 2019)"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Four missing source items",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "The source contains four unavailable-download placeholders. No underlying text, image or attachment identifies what they contained. They are mapped and retained as missing material, not counted as successfully recovered knowledge. No replacement content is invented."
+              ],
+              "references": [],
+              "original": [
+                "[This type of content is unavailable for download at the moment.]",
+                "[This type of content is unavailable for download at the moment.]",
+                "[This type of content is unavailable for download at the moment.]",
+                "[This type of content is unavailable for download at the moment.]"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "section-4",
+        "heading": "How to judge a supporting reference",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Identify the exact work, distinguish scholarly from professional or popular material, read the relevant passage and examine its method and scope. A correct DOI or library record validates identification, not the truth of every statement attributed to it."
+          },
+          {
+            "kind": "reading-links",
+            "links": [
+              {
+                "slug": "academic-reference-catalogue",
+                "label": "Inspect supplied and checked reference records"
+              },
+              {
+                "slug": "literature-review-synthesis",
+                "label": "Compare methods and explanations"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "literature-review-synthesis",
+    "title": "Literature reviews: search, compare and build an argument",
+    "topic": "Research Methods & Academic Skills",
+    "collection": "research-methods-academic-skills",
+    "group": "Literature & writing",
+    "summary": "Move from a topic and collection of papers to a documented synthesis of a debate.",
+    "takeaway": "A literature review should connect evidence and disagreements, not merely list summaries or select supportive quotations.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "research-question-proposal",
+      "research-evidence-claims",
+      "academic-referencing",
+      "academic-reference-catalogue"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "A useful literature matrix",
+        "headers": [
+          "Record",
+          "What to capture"
+        ],
+        "rows": [
+          [
+            "Identification",
+            "Verified citation, version and access location"
+          ],
+          [
+            "Question and concepts",
+            "What the work asks and how its terms are defined"
+          ],
+          [
+            "Design and evidence",
+            "Context, data, sample, measures and analysis"
+          ],
+          [
+            "Findings and limits",
+            "What was actually reported, with locators and qualifications"
+          ],
+          [
+            "Relationship to the debate",
+            "Agreement, contradiction, gaps and relevance to your question"
+          ]
+        ],
+        "note": "Editorial template. Do not fill the findings column from the title alone."
+      }
+    ],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Question, access and the meaning of theory",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The source asks about a debate, available evidence and access, then gives several senses of theory. Specify which concepts, explanations or propositions the project actually uses; do not treat a dictionary-like list as a complete account of scientific theory."
+          },
+          {
+            "kind": "heading",
+            "text": "Literature Review"
+          },
+          {
+            "kind": "heading",
+            "text": "Guidelines"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Does my research question hint at searching for something novel?",
+              "Is my research question connected to something journals or scholars have been debating recently?",
+              "Are there reasonable rich data and reports publicly available for my topic and for the chosen case example?",
+              "Is this research question accessible for data collection? Will there be any business organisation that is likely to support me?"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Theory"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "A plausible or scientifically acceptable general principle or body of principles offered to explain phenomena.",
+              "A hypothetical set of facts, principles, or circumstances.",
+              "A body of theorems presenting a concise systematic view of a subject",
+              "The general or abstract principles of a body of fact.",
+              "The analysis of a set of facts in their relation to one another."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Dissertation and consultancy expectations vary",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "The contrast between theory and practice is useful, but the source overstates universal requirements. Not every dissertation must collect new data from businesses; conceptual, secondary-data and other designs can be legitimate when the programme and question allow them. Start from a problem and relevant debate, refine scope through reading and assess access before committing. Novelty cannot be established merely by avoiding a frequently studied topic."
+              ],
+              "references": [],
+              "original": [
+                "Applied Thesis",
+                "Time and Word count is limited – so you can’t ‘have it all’",
+                "Dissertation sets merely emphasis on theory contribution",
+                "Consultancy Report sets merely emphasis on novel practices / impact upon the professions",
+                "Dissertation still needs empirical analysis, i.e. data collection from real businesses",
+                "Consultancy Reports still needs a conceptual grounding, hence a certain extent of review of academic literature",
+                "Problem Research",
+                "Start with your argument= your personal view of your research problem",
+                "Then relate your argument with a mainstream business discipline (marketing, accounting, business strategy, HRM, etc.)",
+                "Refine your related discipline by focusing on a specific topic or theme of research within your chosen discipline (e.g. discipline= business strategy, topic= small business growth & development)",
+                "Identifying",
+                "Reflect upon the discipline of your interest (i.e. ‘Marketing’) and start readings top journals.",
+                "Try to find debates / communities / themes that seem to interest you most (i.e. Consumer Behaviour as a Marketing topic).",
+                "Develop a research question.",
+                "Search literature specifically for your question, using key words and following guidance by review articles and research discipline’s handbooks.",
+                "Refine your research question, to eliminate aspects that have already been too much covered by publications.",
+                "Reflect how, when and via what resources you will be able to a) collect data or b) create a novel dataset from public sources.",
+                "If you can’t, refine your research question once more."
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Collect, analyse, arrange and synthesize",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Map the field, extract concepts/arguments/methods into a literature matrix, critique the evidence and write the synthesis. The source repeats the planning-the-review line; the original positions remain mapped. “Incomplete, incommensurable, inadequate” are critique prompts, not conclusions to assign without explanation."
+          },
+          {
+            "kind": "heading",
+            "text": "Writing Process"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Collect",
+              "Analyse",
+              "Arrange",
+              "Summarise"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Phases"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Planning the review – mapping the field of study (see e.g.s of Venn diagrams, trees & mind maps)",
+              "Extracting & synthesising data – use tables to summarise the arguments and methodologies",
+              "Critiquing the methods used in prior studies – try to find a good example of the method you will use",
+              "Reporting – writing up your literature review"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Tools for mapping existing knowledge"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Family tree of a discourse",
+              "Mindmap"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Critiquing"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Incomplete",
+              "Incommensurable",
+              "Inadequate"
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "academic-writing-reporting",
+    "title": "Report a research project: argument, methods, results and limitations",
+    "topic": "Research Methods & Academic Skills",
+    "collection": "research-methods-academic-skills",
+    "group": "Literature & writing",
+    "summary": "Structure quantitative and qualitative reports so readers can follow the argument, methods, findings and limitations.",
+    "takeaway": "Make it possible to distinguish what was planned, observed, inferred and recommended.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "literature-review-synthesis",
+      "statistical-hypotheses",
+      "academic-referencing",
+      "research-consultancy-action"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "A quantitative-oriented reporting outline",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The source connects positioning and argument, literature, model/hypotheses, design and measurement, results, interpretation and limitations. Attitude, subjective norm, perceived control and intention are named as a short conceptual example without an attributed model or dataset; no empirical results are supplied."
+          },
+          {
+            "kind": "heading",
+            "text": "Introduction"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Positioning"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Purpose"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Argument",
+              "Organizing"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Literature Review"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Conceptual scope",
+              "Definitions",
+              "Existing explanations",
+              "Critique",
+              "Your focus"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Hypotheses"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Summary of argument",
+              "Overview of model",
+              "List of hypotheses"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Method"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Logic of research design",
+              "Description of data – context, units of analysis, site, sample, appropriateness",
+              "Description of measurement &/or observation procedures",
+              "Validity & reliability tests",
+              "Analytical procedures"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Results"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Descriptive",
+              "Statistical or qualitative patterns",
+              "Inferences & implications"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Discussion"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Summary & interpretation of results",
+              "Implications for your literature",
+              "Implications for your practice & limitations of your project",
+              "Future research & conclusion"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Intention"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Attitude",
+              "Subjective norm",
+              "Perceived Behaviour Control"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "A qualitative-oriented reporting outline",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The source emphasizes question/literature, context and observation procedures, qualitative patterns, interpretation, practice, propositions and future inquiry. This is a possible structure, not an institution-wide required format."
+          },
+          {
+            "kind": "heading",
+            "text": "Introduction"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Positioning"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Purpose"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Argument",
+              "Organizing"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Literature Review"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Conceptual scope",
+              "Definitions",
+              "Existing explanations",
+              "Critique",
+              "Open questions = current focus"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Method"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Logic of research design",
+              "Description of data: Context, units of analysis, site, sample & suitability",
+              "Description of observation procedures",
+              "Analytical procedures"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Results"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Descriptive & Qualitative patterns",
+              "Inferences and implications"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Discussion"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Summary of results & relation to literature",
+              "Implications for your practice & Limitations of the project",
+              "Propositions & Implications for your literature",
+              "Future research",
+              "Conclusions"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Theory, implementation and practice prompts",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The TIP list suggests possible paper contexts—change, crisis/continuity, digital transformation, work ethics, upgrading and lived cases. These are topic prompts, not developed research findings or separate complete subjects to publish as new lessons."
+          },
+          {
+            "kind": "heading",
+            "text": "Paper"
+          },
+          {
+            "kind": "heading",
+            "text": "TIP"
+          },
+          {
+            "kind": "heading",
+            "text": "Theory"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Change management",
+              "Crisis management",
+              "Business continuity"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Implementation"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Digitalisation transformation",
+              "Change work ethics",
+              "Upgrading"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Practical"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Example",
+              "Live experience",
+              "Case / situation / industry"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-4",
+        "heading": "A transparent reporting sequence",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "State the question and context; explain design, access, measures and analysis; present observations/results; distinguish interpretation and alternatives; report limitations, ethics and conflicts; and show how recommendations follow. Explain deviations from the original plan and distinguish exploratory from prespecified analyses."
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "academic-referencing",
+    "title": "Academic referencing: attribute ideas and identify the exact work",
+    "topic": "Research Methods & Academic Skills",
+    "collection": "research-methods-academic-skills",
+    "group": "Literature & writing",
+    "summary": "Distinguish paraphrase, quotation, source types and reference lists while keeping incomplete records visible.",
+    "takeaway": "Citation formatting cannot replace identifying the actual work or checking the passage used.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "academic-reference-catalogue",
+      "research-evidence-claims",
+      "literature-review-synthesis"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Paraphrase and quotation: attribution plus accurate locators",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "Paraphrased ideas still need attribution; exact quotations need accurate wording and a page or other locator where available. The Robson/Robson, Burn/Brunt and CIPD examples are supplied teaching examples whose exact publications and quotations have not been authenticated. Single versus double quotation marks and page syntax depend on the required style; they are not universal rules."
+              ],
+              "references": [],
+              "original": [
+                "Referencing",
+                "Citation (Paraphrasing)",
+                "When you include the arguments, ideas, or theories of anyone other than yourself in your work and put them into your own words, this is called paraphrasing. Whenever you paraphrase you need to acknowledge the source you obtained the information from.",
+                "E.g. Robson and Robson (2015) showed in their research that individual variables were more important than organisational ones.",
+                "Book with author(s)Journal articleOnline journal article",
+                "(Surname(s), year)E.g. Burn and Brunt (2016)",
+                "Website",
+                "(Surname/Corporate author, Year) E.g. CIPD (2016)",
+                "Citation (Quoting)",
+                "You may be more familiar with this element of referencing. When you include the exact words of someone else’s work in your essay you are quoting. You must indicate that the words you are using are not your own. To do this, use ‘single inverted commas’ around the words you are quoting (“speech marks” are usually used for quoting direct speech).",
+                "E.g. Robson and Robson (2015: 10) concluded \"Predictors of continuation intention in this UK public context display much greater concentration on the individual\"",
+                "Book with author(s)Journal articleOnline journal article",
+                "(Surname(s), Year: Page no)E.g. Burn and Brunt (2016:18)",
+                "Website",
+                "(Surname/Corporate author, Year:Page - if available)E.g. CIPD (2016)"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Reference-list and bibliography templates",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The source distinguishes works cited from a broader bibliography and gives book, article, online-article and website templates. Keep versions, dates, authors, pages and DOI/URLs identifiable. Publisher location and access-date conventions vary across styles; do not silently present one old template as every institution’s rule."
+          },
+          {
+            "kind": "heading",
+            "text": "Bibliography/Cited Works/Reference ListA bibliography or cited works/reference list is a list at the end of your work that provides full details of each source you have used in your essay in alphabetical order. A bibliography contains all the sources you have consulted for your work, even if you have not made direct mention to them in the text. A cited works/reference list contains only the sources you have cited in the text of your work."
+          },
+          {
+            "kind": "heading",
+            "text": "Books"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Author (Year) Title of Book. (Edition - if not first edition.) Place of Publication: Publisher.",
+              "E.g. Gatrell, C. (2005) Managing part-time study: A guide for undergraduates and postgraduates. Milton Keynes: Open University Press"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Journal article"
+          },
+          {
+            "kind": "definition",
+            "term": "Author (Year) Title of article. Title of Journal. Volume(Issue) Pages.",
+            "text": "E.g. Siew, Chen, S. & Vinayan, G. (2016) Recruitment process outsourcing: A case study in Malaysia. Personnel Review. 45(5) pp. 1029-1046."
+          },
+          {
+            "kind": "heading",
+            "text": "Online journal article"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Author (Year) Title of article. Title of Journal. Volume(Issue) Pages. Available at: URL (Accessed: dd/mm/yy)."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "E.g. Siew, Chen, S. & Vinayan, G. (2016) Recruitment process outsourcing: A case study in Malaysia. Personnel Review. 45(5) pp. 1029-1046. Available at: http://www.emeraldinsight.com/doi/pdfplus/10.1108/PR-10-2012-0172 (Accessed 04/09/16)."
+          },
+          {
+            "kind": "heading",
+            "text": "Website"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Author/Corporate author (Year) Title of Webpage. Available at: URL (Accessed: dd/mm/yy)."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "E.g. CIPD (2015) Absence measurement and management factsheet. Available at: http://www.cipd.co.uk/hr-resources/factsheets/absence-measurement-management.aspx# (Accessed: 04/09/16)"
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Choose sources by evidence, not domain suffix",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "Scholarly, professional, government and popular material serve different purposes. A .edu/.ac/.gov/.org address is not by itself proof that a particular claim is reliable; neither does a commercial domain disqualify a journal publisher. Wikipedia can help discover leads but is not a substitute for the underlying work. Google Scholar indexes material; it is not the author or publisher of everything it finds. Distinguish databases, search services, journal platforms and the works retrieved."
+              ],
+              "references": [],
+              "original": [
+                "Sources",
+                "Scholarly literature",
+                "Addressed to a specialized audience (experts in the field) e.g. American Economic Review, Journal of Economic Literature, Academy of Management Review, etc.",
+                "Can be books or peer-reviewed journals",
+                "Popular literature",
+                "Addressed to a general audience (e.g. Financial Times, Guardian, Wall Street Journal, Economist)",
+                "Internet",
+                "Electronic databases (e.g. Google scholar)",
+                "Government reports and white papers",
+                "Professional journals/magazines such",
+                "The Marketer (CIM)",
+                "Management Today (CMI)",
+                "People Management (CIPD)",
+                "Use reliable Websites",
+                "Not Wikipedia (anyone can contribute and there is no professional body to authenticate the source)",
+                ".ac, .edu (educational)",
+                ".gov, .dwp, (governmental)",
+                ".nhs (National Health Service),",
+                ".co, .com (company)",
+                ".org (mostly associated with non-profit organisations)",
+                "Search Engines",
+                "Academic Search Premier",
+                "Business Source Premier",
+                "Emerald",
+                "JSTOR",
+                "ScienceDirect",
+                "Google Scholar"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "section-4",
+        "heading": "Use the catalogue without overstating it",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Copyable catalogue citations use normalized registration metadata where checked, and the supplied wording where it remains unverified. Check your required citation style and edition before submitting academic work. Metadata status, reading status and claim-level verification are separate; the catalogue does not claim all papers have been read."
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "research-consultancy-action",
+    "title": "Research and consultancy: observation, intervention and useful recommendations",
+    "topic": "Research Methods & Academic Skills",
+    "collection": "research-methods-academic-skills",
+    "group": "Evidence & practice",
+    "summary": "Compare case-study and action-oriented inquiry while keeping the contribution, involvement and impact explicit.",
+    "takeaway": "Intervening changes the research relationship; a useful recommendation still needs a defensible evidence trail.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "business-analysis-evidence",
+      "research-question-proposal",
+      "research-data-collection",
+      "project-management"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Consultancy purposes and applied inquiry",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Strategic and operational consultancy can use research, benchmarking and existing knowledge in different ways. The source’s statements about what every applied study “needs” and the history of MBA strategy modules are supplied assertions, not universal requirements or independently verified history."
+          },
+          {
+            "kind": "heading",
+            "text": "Consultancy"
+          },
+          {
+            "kind": "heading",
+            "text": "Strategic Consultancy examples"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Digital business model for traditional industry sector",
+              "Novel way of organising a global corporation",
+              "Novel innovation process design"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Operative Consultancy examples"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Cost cutting across sites",
+              "Implementation of new (not novel) management system",
+              "Implementation of recommendations from Strategic Consultancy Project"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Applied Research"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Based on latest academic research and thought leaders philosophies",
+              "Developed after having benchmarked practices with other organisations",
+              "Based on systematic application of existing knowledge and well-designed analysis of current practices of the Client",
+              "Needs to generate novel best practices, techniques or tools",
+              "Needs to add value for practitioners in business, policy etc."
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "To formalise Best Practice"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "To generalise practices found across organisations"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "First corporative strategy modules where introduced in MBA programmes because of the desire to analyse best practice from comparing leading organisations in an industry or country"
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Case study and action research: a useful but simplified contrast",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "The source contrasts observing/reporting with intervening/learning. A case study need not always involve total researcher independence or only external knowledge contributions; action research requires systematic reflection on participation, intervention and evidence, not simply taking action. Explain boundaries, influence, ethical responsibilities and the risk that an intervention fails."
+              ],
+              "references": [],
+              "original": [
+                "Case Study",
+                "Objective to observe",
+                "No intention to influence",
+                "Researcher is independent",
+                "Report observations",
+                "Contribution to external (published) knowledge only",
+                "Risk of overly-descriptive results",
+                "Action Research",
+                "Objective to change",
+                "Intervention",
+                "Researcher is a participant",
+                "Find and test solutions",
+                "Contribute to internal (organisational) learning as well as external knowledge",
+                "Limitations of research design due to involvement / blurred boundaries with research object",
+                "Risk of failure of chosen action"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Make the recommendation traceable",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Connect what/why/how/when, intended effects, priorities, milestones, ownership and implementation resources to the evidence. A promised improvement in profit, speed, retention or wellbeing remains a proposition to assess, not a guaranteed consequence of the research."
+          },
+          {
+            "kind": "heading",
+            "text": "Making Recommendation"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Outline WHAT, WHY, HOW, WHEN needs to be changed in the Client’s organisation"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Explain how it will positively impact upon key outputs (i.e. profit, time-to- market, throughput time, global market share / coverage of markets, well-being, staff retention)"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Rank recommendations (more/less important, more/less urgent)",
+              "Provide milestones and techniques for implementation",
+              "Provide timeline",
+              "Suggest process ownership and project management plan"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Intentions"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "What are the current challenges in a specific industry?",
+              "What concepts have other consultancies already developed?",
+              "Who and why will implement my recommendations?"
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "research-sampling-surveys",
+    "title": "Sampling and survey quality: target, frame, recruitment and error",
+    "topic": "Research Methods & Academic Skills",
+    "collection": "research-methods-academic-skills",
+    "group": "Design & data",
+    "summary": "Compare probability and non-probability designs and explain what the resulting sample can support.",
+    "takeaway": "A large sample cannot automatically repair a poor frame, selective response or unsuitable measurement.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "research-measurement-quality",
+      "research-measurement-questionnaires",
+      "statistical-test-selection"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Target population, frame and random selection",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Distinguish whom you want to describe, whom you can reach, the sampling frame and the actual participants. Random sampling concerns selection; random assignment concerns treatment allocation and supports different arguments."
+          },
+          {
+            "kind": "heading",
+            "text": "Sample"
+          },
+          {
+            "kind": "heading",
+            "text": "Who do you want to generalise to?"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "What population can you get access to?",
+              "How can you get access to them?",
+              "Who is in your study?"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "The theoretical population"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "The study population",
+              "The sampling frame",
+              "The sample"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Probability"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Non-probability"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Simple random"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Select the sample at random from the sampling frame using 1) random number tables 2) a computer 3) online random number generator",
+              "1. number each of the cases in your sampling frame -0,1,...and so on",
+              "• 2. select cases using random numbers until your actual sample size is reached."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Systematic and stratified sampling",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "For a simple equal-probability systematic design, sampling fraction f = n/N and selection interval k = N/n are different quantities. Use a justified random start and handle non-integer intervals and frame periodicity appropriately rather than following the source’s fraction wording literally. Stratification divides the frame into relevant groups before selection; document allocation and weights where needed."
+              ],
+              "references": [],
+              "original": [
+                "Systematic",
+                "Select sample at regular intervals from sampling frame",
+                "1. number each of the cases in your sampling frame -0,1,...and so on",
+                "2. select the first case using a random number",
+                "3. calculate the sampling fraction (actual sample size/total population)",
+                "4. select subsequent cases systematically using the sampling fraction to determine the frequency of selection.",
+                "Stratified",
+                "Modification of random sampling –divide the population into two or more relevant strata",
+                "1. choose the stratification variable or variables",
+                "2. divide the sampling frame into the discrete strata",
+                "3. Number each of the cases within each stratum",
+                "4. select your sampling using either random or systematic sampling."
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Quota, convenience, purposive and network recruitment",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Quota sampling can match selected proportions without random within-quota selection. Convenience selects accessibility; purposive sampling selects for an analytic purpose and should not be collapsed into the same definition. Snowball recruitment can aid access but depends on starting points and networks; the Bryman example has only an abbreviated reference."
+          },
+          {
+            "kind": "heading",
+            "text": "Quota"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Used in market research and opinion polls",
+              "Relatively cheap, quick & easily manageable",
+              "Proportionately representative of a population’s social categories (strata)",
+              "But non-random sampling of each stratum’s units"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Convenience/purposive"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Easily accessible individuals",
+              "Useful when piloting a survey instrument",
+              "A chance to collect data that is too good to miss"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Snowball"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Researcher makes initial contact with a small group",
+              "Respondents introduce others in their network (e.g. Social Media)",
+              "Bryman’s (1999) sample of British visitors to Disney theme parks",
+              "Useful for hard to find populations e.g. young widowers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-4",
+        "heading": "Justify sample size for the design",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "Time, cost, precision/power, heterogeneity, response and intended analysis matter. The n=1000 example is not a universal stopping point, and the Hazelrigg reference is incomplete. Random or nominally representative selection does not automatically permit an arbitrarily small sample. Complex models and small cells need design-specific assessment rather than a blanket rule."
+              ],
+              "references": [],
+              "original": [
+                "Factors affecting sample size",
+                "Time and cost",
+                "After a certain point (e.g. n=1000), increasing sample size produces less noticeable gains in precision",
+                "Very large samples are decreasingly cost-efficient (Hazelrigg, 2004)",
+                "Non-response",
+                "Response rate = % of sample who agree to participate (or % who provide usable data)",
+                "Responders and non-responders may differ on a crucial variable",
+                "Some respondents might become disenchanted by a controversial item on your scale (pilot study can identify key issues in your measurement instruments)",
+                "Heterogeneity of the population",
+                "The more varied the population is, the larger the sample should be",
+                "Types of analysis to be carried out",
+                "Some techniques require large sample (e.g. contingency table; inferential statistics, CFA/SEM)",
+                "May depend on sampling method chosen",
+                "Can be relatively small if random/representative"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "section-5",
+        "heading": "Survey errors and practical limitations",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Distinguish random sampling error, coverage/non-response, instrument/collection and processing errors. Wording, fatigue, missing data, literacy/access and uncertainty about who responded can affect findings. Some listed limitations apply to a particular self-administered questionnaire, not every survey design."
+          },
+          {
+            "kind": "heading",
+            "text": "Errors in Survey Research"
+          },
+          {
+            "kind": "heading",
+            "text": "Sampling error"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Unavoidable difference between sample and population"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Sampling-related error"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Inadequate sampling frame; non-response",
+              "Makes it difficult to generalize findings"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Data collection error"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Implementation of survey instrument",
+              "e.g. poor question wording. Piloting the survey instrument will test face/content validity and help you identify problematic items."
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Data processing error"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Faulty management of data e.g. coding errors"
+            ]
+          },
+          {
+            "kind": "heading",
+            "text": "Potential disadvantages"
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Cannot probe or ask impromptu questions",
+              "Can only ask specific questions",
+              "Few open-ended or complex questions",
+              "Respondent can see the whole questionnaire before answering",
+              "Cannot always ensure that the ‘right’ person answers",
+              "Respondent fatigue if too many questions",
+              "Excludes people with limited literacy skills",
+              "Risk of missing data",
+              "Lower response rates"
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "research-measurement-questionnaires",
+    "title": "Measurement scales and questionnaire design",
+    "topic": "Research Methods & Academic Skills",
+    "collection": "research-methods-academic-skills",
+    "group": "Design & data",
+    "summary": "Connect variable meaning, coding, question format and respondent experience before selecting a test.",
+    "takeaway": "A numeric code does not make a category a quantity, and a questionnaire format does not establish a measurement scale.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "research-measurement-quality",
+      "research-sampling-surveys",
+      "statistical-test-selection"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Separate coding from measurement",
+        "headers": [
+          "Example",
+          "Question to ask"
+        ],
+        "rows": [
+          [
+            "Category codes",
+            "Do the numbers label categories rather than measure an amount?"
+          ],
+          [
+            "Ranks or ordered categories",
+            "Is only order warranted, or is equal spacing justified?"
+          ],
+          [
+            "Equal-interval units",
+            "Are differences meaningful, and what does zero mean?"
+          ],
+          [
+            "Counts or ratio quantities",
+            "Is the unit and meaningful zero defined?"
+          ],
+          [
+            "Composite score",
+            "Which items, coding, missing-data rules and validation support it?"
+          ]
+        ],
+        "note": "Illustrative distinctions. Software settings do not establish measurement validity."
+      }
+    ],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Nominal, ordinal, interval and ratio",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "Nominal variables label categories; counts are summaries of observations in those categories, not the definition of nominal measurement. Ordinal values express order without guaranteed equal spacing. Interval scales support meaningful equal differences; ratio scales also have a meaningful zero. Height and counts are typically ratio examples, so the source’s “interval” list conflates them with the software’s broad Scale classification."
+              ],
+              "references": [],
+              "original": [
+                "Interval data",
+                "Numbers on a regular interval scale e.g. heart rate, height, no. pints drunk per week. In SPSS, ‘Scale data’.",
+                "Ordinal data",
+                "Numbers indicate rank order and nothing more e.g. 1st, 2nd, 3rd place in a race",
+                "Nominal data",
+                "Counts of individuals / objects in different categories e.g. numbers of students living on campus and off campus"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Discrete/continuous and level of measurement are different",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "Discrete/continuous describes possible values or measurement practice; nominal/ordinal/interval/ratio concerns meaning and permitted comparisons. Celsius versus Kelvin temperature illustrates why the unit matters. Income, age, IQ and education need operational definitions and context. Gender and religion categories should suit the question and participants rather than assume one universal coding scheme."
+              ],
+              "references": [],
+              "original": [
+                "Scale of Measurement",
+                "Discrete",
+                "Nominal",
+                "Gender",
+                "Religious",
+                "Ordinal",
+                "Education",
+                "Continuous",
+                "Interval",
+                "Temperature",
+                "IQ",
+                "Ratio",
+                "Income",
+                "Age"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Question formats and scales",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Open/closed, dichotomous/multiple-category, frequency, ranking, Likert, graphical, semantic differential and nonverbal formats offer different response tasks. A single Likert item and a justified multi-item scale are not automatically interchangeable. “Seminar activities” has no supplied exercise or dataset."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Open-ended",
+              "Closed-ended",
+              "Dichotomous",
+              "Multichotomous",
+              "Frequency scale",
+              "The list",
+              "Ranking",
+              "Likert scale",
+              "Graphical rating scale",
+              "Semantic differential",
+              "Non-verbal scale",
+              "Seminar activities"
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "statistical-test-selection",
+    "title": "Choose a statistical analysis: question, design and assumptions",
+    "topic": "Research Methods & Academic Skills",
+    "collection": "research-methods-academic-skills",
+    "group": "Analysis & inference",
+    "summary": "Match an analysis to your question, variables, study design and assumptions.",
+    "takeaway": "Choose the estimand and design first; passing a distribution check does not select a test by itself.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "research-measurement-questionnaires",
+      "research-sampling-surveys",
+      "statistical-hypotheses",
+      "spss-analysis-workflow",
+      "ai-regression-diagnostics"
+    ],
+    "references": [
+      {
+        "title": "IBM SPSS Statistics 30: GLM and its assumptions",
+        "url": "https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=statistics-glm-multivariate-analysis"
+      },
+      {
+        "title": "IBM SPSS Statistics 30: independent-samples nonparametric tests",
+        "url": "https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=tests-choose-independent-samples-nonparametric"
+      },
+      {
+        "title": "IBM SPSS Statistics 30: related-samples tests",
+        "url": "https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=nptests-related-subcommand-command"
+      },
+      {
+        "title": "IBM SPSS Statistics 30: analysis of variance and covariates",
+        "url": "https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=anova-overview-command"
+      }
+    ],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Start with the design",
+        "headers": [
+          "Question/design",
+          "Possible family",
+          "Checks before interpretation"
+        ],
+        "rows": [
+          [
+            "Association of measured quantities",
+            "Correlation or a specified regression model",
+            "Scale, functional form, dependence, outliers and model assumptions"
+          ],
+          [
+            "Two paired measurements",
+            "Difference-based or suitable paired rank/sign methods",
+            "Pairing, difference distribution and the target contrast"
+          ],
+          [
+            "Several repeated measurements",
+            "Repeated/mixed models or suitable rank methods",
+            "Within-unit dependence, covariance structure and design"
+          ],
+          [
+            "Independent-group comparison",
+            "Mean/model-based or suitable rank approaches",
+            "Outcome, factors, covariates, variance and sampling/design"
+          ],
+          [
+            "Categorical association",
+            "Contingency-table or appropriate categorical models",
+            "Counts, expected frequencies, dependence and sampling"
+          ]
+        ],
+        "note": "A study aid, not an automated test recommendation or a substitute for a justified analysis plan."
+      }
+    ],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Association is more than “describing a relationship”",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "Pearson correlation describes linear association under appropriate measurement and inferential conditions; Spearman uses ranks to assess monotonic association. Regression models a specified outcome given predictors and assumptions. All describe relationships in different senses; the source’s distinction is not valid. Identify dependence, outliers and the intended estimand before choosing."
+              ],
+              "references": [
+                {
+                  "title": "IBM SPSS Statistics 30: GLM and its assumptions",
+                  "url": "https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=statistics-glm-multivariate-analysis"
+                }
+              ],
+              "original": [
+                "SPSS",
+                "Data parametric?",
+                "Additional criteria",
+                "Type to use",
+                "Relationship",
+                "Yes",
+                "Describe relationship",
+                "Single/multi regression",
+                "Yes",
+                "Doesn't describe relationship",
+                "Pearson's",
+                "No",
+                "Spearman's"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Repeated or paired measurements",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "Paired t analysis concerns within-pair differences under its conditions; repeated-measures ANOVA models a specified repeated design and additional covariance/sphericity considerations. A paired sign test is not an independent two-sample test; Friedman is a related-samples rank procedure for suitable designs. These are possible tools, not every analysis of two versus three measurements."
+              ],
+              "references": [
+                {
+                  "title": "IBM SPSS Statistics 30: related-samples tests",
+                  "url": "https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=nptests-related-subcommand-command"
+                }
+              ],
+              "original": [
+                "Difference (dependent [paired] samples)",
+                "Yes",
+                "2 groups",
+                "Paired T",
+                "Yes",
+                "3+ groups",
+                "Repeated measures ANOVA",
+                "No",
+                "2 groups",
+                "Two-sample sign-test",
+                "No",
+                "3+ groups",
+                "Friedman"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Independent groups, factors, covariates and counts",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "A two-group mean comparison needs assumptions and an appropriate variance approach; do not assume a pooled-variance Student test is always suitable. One-way versus factorial ANOVA depends on the number of factors and design, not merely the number of groups. Ordinary ANCOVA is a model with covariates, not a nonparametric fallback alongside Mann–Whitney. Rank tests do not remove independence or design requirements; Mann–Whitney does not universally test a difference in medians without further conditions. Chi-square procedures concern appropriate categorical counts with expected-frequency/design conditions."
+              ],
+              "references": [
+                {
+                  "title": "IBM SPSS Statistics 30: independent-samples nonparametric tests",
+                  "url": "https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=tests-choose-independent-samples-nonparametric"
+                },
+                {
+                  "title": "IBM SPSS Statistics 30: analysis of variance and covariates",
+                  "url": "https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=anova-overview-command"
+                },
+                {
+                  "title": "IBM SPSS Statistics 30: GLM and its assumptions",
+                  "url": "https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=statistics-glm-multivariate-analysis"
+                }
+              ],
+              "original": [
+                "Difference (independent [unpaired] samples)",
+                "Yes",
+                "2 groups",
+                "Student's T",
+                "Yes",
+                "3+ groups",
+                "1-way/2-way ANOVA",
+                "No",
+                "2 groups",
+                "ANCOVA & Mann-Whitney",
+                "No",
+                "3+ groups",
+                "Kruskal-Wallis",
+                "Association",
+                "Chi-square"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "spss-analysis-workflow",
+    "title": "SPSS analysis workflow: describe, check, model and document",
+    "topic": "Research Methods & Academic Skills",
+    "collection": "research-methods-academic-skills",
+    "group": "Analysis & inference",
+    "summary": "Follow a practical sequence for checking data, choosing an analysis, interpreting output and documenting decisions.",
+    "takeaway": "Software output needs a valid design, appropriate model and reproducible interpretation; no dataset or worked output was supplied.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "statistical-test-selection",
+      "statistical-hypotheses",
+      "research-measurement-questionnaires",
+      "academic-writing-reporting"
+    ],
+    "references": [
+      {
+        "title": "IBM SPSS Statistics 30: GLM and its assumptions",
+        "url": "https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=statistics-glm-multivariate-analysis"
+      },
+      {
+        "title": "ASA: statistical significance and p-values",
+        "url": "https://www.amstat.org/asa/files/pdfs/P-valuestatement.pdf"
+      }
+    ],
+    "visuals": [
+      {
+        "kind": "flow",
+        "title": "An explicit analysis record",
+        "headers": [],
+        "rows": [
+          [
+            "Define the question, variables and study design"
+          ],
+          [
+            "Inspect coding, missingness and descriptive distributions"
+          ],
+          [
+            "Select a model/test and check relevant assumptions"
+          ],
+          [
+            "Record syntax, versions, exclusions and sensitivity choices"
+          ],
+          [
+            "Report estimates, uncertainty, limitations and reproducible outputs"
+          ]
+        ],
+        "note": "Editorial workflow. References use IBM SPSS Statistics 30 documentation as a labelled version context, not a claim that it is the latest release."
+      }
+    ],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "What the output families can and cannot tell you",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "Frequencies, descriptive summaries, crosstabs, correlations, mean comparisons and regression answer different questions. A significance test does not establish a probability that a relationship exists, and regression is more than “correlation plus a constant.” Assess assumptions, estimates, uncertainty and the design. The menu terminology is an undated study note, not verified instructions for an installed version."
+              ],
+              "references": [
+                {
+                  "title": "ASA: statistical significance and p-values",
+                  "url": "https://www.amstat.org/asa/files/pdfs/P-valuestatement.pdf"
+                },
+                {
+                  "title": "IBM SPSS Statistics 30: GLM and its assumptions",
+                  "url": "https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=statistics-glm-multivariate-analysis"
+                }
+              ],
+              "original": [
+                "Descriptions",
+                "Frequency Distributions (ordinal and nominal variables)",
+                "Count of the occurrences of values within a particular group or interval",
+                "Descriptive statistics (scale variables)",
+                "Help describe and understand the features of a specific data set, by giving short summaries about the sample and measures of the data e.g. mean, median, mode",
+                "Cross Tabulations",
+                "Allows you analyse the relationship between two variables",
+                "Correlations",
+                "Show whether and how strongly pairs of variables are related",
+                "Chi-Square Tests",
+                "Establishes how confident we are that there exists a relationship between two variables in a population",
+                "Comparing means (t-tests)",
+                "Allows you to test whether a variable’s mean is equal to a particular value or is different to that of another variable in a population",
+                "Tests of Correlation",
+                "Provides information about likelihood that variables are statistically associated in a population",
+                "Correlation and Significance",
+                "How confident can you be about a relationship between two variables?",
+                "Comparing Means",
+                "There are various statistical tests under the Compare Means function from the Analyze drop down menu",
+                "Regression Analysis",
+                "Similar to correlation but also gives you a coefficient attached to a constant"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Summaries before inferential claims",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Counts, percentages, missingness, central tendency and dispersion provide context. Record coding, the denominator and the population/sample each table describes; a crosstab alone does not establish causation."
+          },
+          {
+            "kind": "definition",
+            "term": "Frequency Distributions (ordinal and nominal variables)",
+            "text": "SPSS provides a range of output e.g. cell count, percentages (%) total, as well information on missing cases"
+          },
+          {
+            "kind": "definition",
+            "term": "Descriptive statistics (scale variables)",
+            "text": "Measures of central tendency and dispersion e.g. min, max, mean, and standard deviation."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Descriptive Analysis",
+              "Cross tabulation",
+              "Descriptive analysis by category",
+              "Correlations"
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "statistical-hypotheses",
+    "title": "Hypotheses and uncertainty: avoid proof-by-p-value",
+    "topic": "Research Methods & Academic Skills",
+    "collection": "research-methods-academic-skills",
+    "group": "Analysis & inference",
+    "summary": "Distinguish null/alternative specifications, prespecified directions and evidence under an analysis model.",
+    "takeaway": "Rejecting or not rejecting a model-based null is not proof that a scientific explanation is true or false.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "statistical-test-selection",
+      "academic-writing-reporting",
+      "research-evidence-claims",
+      "ai-statistical-inference"
+    ],
+    "references": [
+      {
+        "title": "ASA: statistical significance and p-values",
+        "url": "https://www.amstat.org/asa/files/pdfs/P-valuestatement.pdf"
+      }
+    ],
+    "visuals": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Null, alternative and the question actually tested",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "A null is a specified hypothesis within a test/model; it is not necessarily a status quo held until proven false. The alternative must correspond to the estimand and design. The attendance example shifts from association to a positive causal effect; observational association alone does not justify that causal wording. Report estimates and uncertainty as well as a decision threshold."
+              ],
+              "references": [
+                {
+                  "title": "ASA: statistical significance and p-values",
+                  "url": "https://www.amstat.org/asa/files/pdfs/P-valuestatement.pdf"
+                }
+              ],
+              "original": [
+                "What is hypothesis",
+                "Null hypothesis (H0)",
+                "The status quo that is adopted until it is proven false i.e. effect is absent, there is no association, difference or relationship.",
+                "“There is no relationship between students’ attendance and their academic performance”",
+                "Alternative hypothesis (Ha)",
+                "Converse of null hypothesis which represents the theory that we will adopt when there is corroborative evidence i.e. effect is present, there is an association, difference or relationship",
+                "“Class attendance has a positive effect on students’ academic performance”"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Directional and nondirectional alternatives",
+        "blocks": [
+          {
+            "kind": "review",
+            "review": {
+              "status": "Reviewed explanation; original notes retained",
+              "date": "2026-11-06",
+              "paragraphs": [
+                "Specify direction and analysis before observing results when using confirmatory tests. A directional scientific claim is different from choosing a test tail after seeing the data. Whether a statistic has a one-sided rejection region does not automatically make the scientific alternative directional; the source’s “one side impossible” shortcut is insufficient. The wage and promotional-email examples are teaching hypotheses, not supplied findings."
+              ],
+              "references": [
+                {
+                  "title": "ASA: statistical significance and p-values",
+                  "url": "https://www.amstat.org/asa/files/pdfs/P-valuestatement.pdf"
+                }
+              ],
+              "original": [
+                "Single-tailed test: directional (X > Y or X < Y)",
+                "Predicts the nature of the difference",
+                "\"Female managers earn less than their male counterparts\"",
+                "\"An increase in the number of promotional emails sent to customers will increase customer complaints\"",
+                "Can also be a default when one of the sides is impossible",
+                "Two-tailed test: non-directional (X ≠ Y)",
+                "Does not predict the nature of the difference. You are interested in values above or below the hypothesised value (no specific direction)",
+                "\"There is a difference in the wages earned between employees working in London and the South East\"",
+                "May be you know that both outcomes are possible or you are not sure"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "academic-reference-catalogue",
+    "title": "Academic reference catalogue: find and check a source",
+    "topic": "Research Methods & Academic Skills",
+    "collection": "research-methods-academic-skills",
+    "group": "Academic reading",
+    "summary": "Search the supplied readings by subject, theme, author, year, publication type and verification state.",
+    "takeaway": "A correct publication record identifies a work; it does not establish that a paper was read or supports a particular claim.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "academic-referencing",
+      "research-evidence-claims",
+      "reading-map-financial-performance",
+      "reading-map-marketing",
+      "reading-map-change-leadership",
+      "reading-map-project-management",
+      "reading-map-strategic-hr"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "reference-index",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "What this catalogue contains",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The workbook supplies five reading lists. Multiple works in a cell are separated, exact duplicates share a record, and reconciled fragments retain all original positions. Journal suggestions remain distinct from individual publications; unsupported journal star ratings are preserved only in original-source disclosures."
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "What the status labels mean",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Metadata checked means registration or publisher/institutional bibliographic details were checked, with a linked record and date. It is separate from reading status and claim-level verification. Incomplete or unresolved records stay searchable and retain the supplied citation. Check the required style, edition and passage before academic use."
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Limits of coverage",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The catalogue covers the supplied workbook. Incomplete author/year references in the research handouts remain on the research-evidence guide and are not silently matched to similarly named publications. Four unavailable-download placeholders and the absence of datasets/output are documented on their relevant pages."
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "reading-map-financial-performance",
+    "title": "Read financial-performance research: measures, reporting and interpretation",
+    "topic": "Research Methods & Academic Skills",
+    "collection": "research-methods-academic-skills",
+    "group": "Academic reading",
+    "summary": "Read scorecards and integrated reporting as research questions about measurement, use and consequences.",
+    "takeaway": "Compare purpose, setting and design before treating a reporting association as a causal effect.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "academic-reference-catalogue",
+      "balanced-scorecard",
+      "integrated-reporting-purpose",
+      "financial-ratio-analysis"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Begin with measurement and use",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Kaplan’s conceptual account provides a starting point for the scorecard’s development. Compare it with work on the organization/presentation of financial and non-financial information and the way scorecards are used. These are different questions; none is a universal instruction to maximize the number of measures."
+          },
+          {
+            "kind": "academic-readings",
+            "referenceIds": [
+              "ref-7b665e4afecc",
+              "ref-0a01a63f786f",
+              "ref-936cbdc12d15"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Review reporting evidence and its limits",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Integrated-reporting studies and reviews address different settings and outcomes. Read the actual design, definitions and version of the reporting framework before applying an association to another jurisdiction or claiming a financial benefit."
+          },
+          {
+            "kind": "academic-readings",
+            "referenceIds": [
+              "ref-12b358953c73",
+              "ref-24fa5e56568e",
+              "ref-123da51a919e",
+              "ref-899fe033a915"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Read with context",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The starting selection is deliberately limited. The complete supplied bibliography remains accessible in the catalogue, including incomplete records. Publication type, metadata status and reading/claim status are displayed separately. A title-based reading lead is not a claim that every work has been read or endorsed."
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "reading-map-marketing",
+    "title": "Read marketing research: theory, positioning and plans",
+    "topic": "Research Methods & Academic Skills",
+    "collection": "research-methods-academic-skills",
+    "group": "Academic reading",
+    "summary": "Find a starting route through marketing concepts, strategic choices, planning and digital channels.",
+    "takeaway": "A textbook, journal suggestion and empirical article serve different purposes; keep the source and edition visible.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "academic-reference-catalogue",
+      "marketing-planning",
+      "market-segmentation",
+      "market-positioning",
+      "marketing-digital-channels"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Build the conceptual map",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The supplied textbooks connect general principles with strategy, competitive positioning and cases. Use the cited edition as a specific source rather than replacing its year with the newest edition by assumption. Read which market, customer and evidence the argument concerns."
+          },
+          {
+            "kind": "academic-readings",
+            "referenceIds": [
+              "ref-dc30a9aabb49",
+              "ref-783222c215fe",
+              "ref-8bddbbd1b4ea",
+              "ref-5f50ce8f304a"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Move from plans to digital decisions",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The combined workbook cell contains two books: marketing plans and digital marketing strategy. Their practical guidance should be assessed against the question and historical context. Journal suggestions help locate research but are not themselves article citations or verified current rankings."
+          },
+          {
+            "kind": "academic-readings",
+            "referenceIds": [
+              "ref-032bd3432ea1",
+              "ref-a42a7f1393c2",
+              "ref-1dc930d1502d",
+              "ref-710844d383ee"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Read with context",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The starting selection is deliberately limited. The complete supplied bibliography remains accessible in the catalogue, including incomplete records. Publication type, metadata status and reading/claim status are displayed separately. A title-based reading lead is not a claim that every work has been read or endorsed."
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "reading-map-change-leadership",
+    "title": "Read change and leadership research: culture, power and practice",
+    "topic": "Research Methods & Academic Skills",
+    "collection": "research-methods-academic-skills",
+    "group": "Academic reading",
+    "summary": "Connect organizational change with competing perspectives on culture, leadership, justice and learning.",
+    "takeaway": "Compare what a study examines with the change decision at hand; a named model is not a universal prescription.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "academic-reference-catalogue",
+      "organizational-culture",
+      "organizational-power",
+      "organizational-development",
+      "employee-engagement",
+      "business-ethics-governance"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Culture and change are contested concepts",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Use cultural perspectives alongside organizational-development and change-management discussions. Compare assumptions, units of analysis, context and forms of evidence, rather than ranking all approaches on a single maturity scale."
+          },
+          {
+            "kind": "academic-readings",
+            "referenceIds": [
+              "ref-e08ce1e330a4",
+              "ref-c9b55aa401a6",
+              "ref-d61c33d2c38a",
+              "ref-4604a20081ce"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Examine leadership, ethics and participation",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The supplied readings include ethical clarity, employee justice perceptions, leadership research, learning and communities of practice. Treat each as a reading lead until its specific argument and evidence have been examined; metadata verification is not evidence of effectiveness."
+          },
+          {
+            "kind": "academic-readings",
+            "referenceIds": [
+              "ref-ee8332c44b00",
+              "ref-c49f61975896",
+              "ref-d29342f1d4a4",
+              "ref-4daeddddf749",
+              "ref-2f6c394555e5"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Read with context",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The starting selection is deliberately limited. The complete supplied bibliography remains accessible in the catalogue, including incomplete records. Publication type, metadata status and reading/claim status are displayed separately. A title-based reading lead is not a claim that every work has been read or endorsed."
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "reading-map-project-management",
+    "title": "Read project research: governance, stakeholders, risk and delivery",
+    "topic": "Research Methods & Academic Skills",
+    "collection": "research-methods-academic-skills",
+    "group": "Academic reading",
+    "summary": "Distinguish governance and project-management methods from empirical questions about outcomes and context.",
+    "takeaway": "A method label or isolated case does not establish that one approach succeeds in every governance setting.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "academic-reference-catalogue",
+      "project-management",
+      "project-stakeholders",
+      "project-risk-planning",
+      "project-monitoring-control"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Start with governance and the stakeholder landscape",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Read the distinction between governance, sponsorship, portfolio choice and delivery support, then compare how stakeholder landscapes and collaborative tensions are studied. Corrected citation metadata does not remove the need to read the underlying design."
+          },
+          {
+            "kind": "academic-readings",
+            "referenceIds": [
+              "ref-f68e9f5ff604",
+              "ref-3e7b76390cb7",
+              "ref-ee1d3f9b5fa6"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Compare risk, methods and international context",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Risk-appraisal cases, methods comparisons and distributed/cross-cultural projects examine different settings. Check how success is defined, which observations were collected and what the design can support before generalizing to another project."
+          },
+          {
+            "kind": "academic-readings",
+            "referenceIds": [
+              "ref-1c2284b85061",
+              "ref-b2462515c2dd",
+              "ref-4a1eb9cb8a75",
+              "ref-24c8868275b8",
+              "ref-3378955bcad6"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Read with context",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The starting selection is deliberately limited. The complete supplied bibliography remains accessible in the catalogue, including incomplete records. Publication type, metadata status and reading/claim status are displayed separately. A title-based reading lead is not a claim that every work has been read or endorsed."
+          }
+        ]
+      }
+    ],
+    "figures": [],
+    "questionStages": []
+  },
+  {
+    "slug": "reading-map-strategic-hr",
+    "title": "Read strategic HR research: performance, partnering and competing explanations",
+    "topic": "Research Methods & Academic Skills",
+    "collection": "research-methods-academic-skills",
+    "group": "Academic reading",
+    "summary": "Navigate the large HR list through strategy, operating roles, measurement, power and employee perspectives.",
+    "takeaway": "The HR–performance debate needs methodological scrutiny, not a list of positive associations presented as causal proof.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "academic-reference-catalogue",
+      "hr-operating-model",
+      "employee-engagement",
+      "organizational-power",
+      "vrio-resources",
+      "executive-kpi-reference"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "interpretation": "",
+    "sections": [
+      {
+        "id": "section-1",
+        "heading": "Compare strategic explanations",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Resource-based, fit/flexibility and strategic-HRM perspectives propose different explanations. Identify the theory, organizational level and contribution rather than treating every strategic label as the same model."
+          },
+          {
+            "kind": "academic-readings",
+            "referenceIds": [
+              "ref-f9bb004bd724",
+              "ref-bcdb41fb6450",
+              "ref-7f68911858e1",
+              "ref-537f78ae2f14",
+              "ref-bb9e4db8687a"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "heading": "Read the performance debate critically",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Performance studies, reviews and critiques differ in measurement and design. Read them together and ask about timing, alternative explanations, error and the distinction between a reported association and a causal conclusion."
+          },
+          {
+            "kind": "academic-readings",
+            "referenceIds": [
+              "ref-8787ccbb9915",
+              "ref-696a7642145b",
+              "ref-1b47958e1e77",
+              "ref-f37f1194a469"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "heading": "Roles, influence and the employee perspective",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The supplied readings extend beyond performance: business partnering, line relationships, power, legitimacy, trust, capabilities and employee perspectives. Use the catalogue’s themes to reach the complete list, including research-method references whose original sheet happened to be HR."
+          },
+          {
+            "kind": "academic-readings",
+            "referenceIds": [
+              "ref-01c5c5120070",
+              "ref-a5eabffc4e4b",
+              "ref-8c7dcdcd07d1",
+              "ref-828fffcbf48e",
+              "ref-1ea631a57258",
+              "ref-67121038753f"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-4",
+        "heading": "Read with context",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The starting selection is deliberately limited. The complete supplied bibliography remains accessible in the catalogue, including incomplete records. Publication type, metadata status and reading/claim status are displayed separately. A title-based reading lead is not a claim that every work has been read or endorsed."
           }
         ]
       }

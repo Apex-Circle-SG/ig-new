@@ -11,6 +11,9 @@ import { SalesQuestionBank } from './sales-question-bank';
 import { NetworkConnections } from './network-connections';
 import { SourceImage, type SourceImageRecord } from './source-image';
 import { RelationshipDiagram, type RelationshipDiagramData } from './relationship-diagram';
+import { AcademicReadingList } from './academic-reading-list';
+import { AcademicReferenceDirectory } from './academic-reference-directory';
+import academicReferences from '../../../../lib/library/business/academic-references.json';
 import styles from './collection-guide.module.css';
 
 type Guide = typeof guides[number];
@@ -24,6 +27,7 @@ export function isCollectionArticle(slug: string) {
 }
 
 function DetailBlock({ block, caption }: { block: Block; caption: string }) {
+  if (block.kind === 'academic-readings' && 'referenceIds' in block && block.referenceIds) return <AcademicReadingList ids={block.referenceIds} />;
   if (block.kind === 'reading-links' && 'links' in block && block.links) return <ul>{block.links.map((link) => <li key={link.slug}><Link href={guidePath(link.slug)}>{link.label} →</Link></li>)}</ul>;
   if (block.kind === 'review' && 'review' in block) return <div className={styles.referenceEntry}>
     <p><strong>{block.review.status}</strong></p>
@@ -105,7 +109,7 @@ function ReadingNotes({ notes }: { notes: string[] }) {
   return notes.length > 0 && <aside className={styles.editorial} id="reading-notes"><h2>Reading notes &amp; limitations</h2><ul>{notes.map((note) => <li key={note}>{note}</li>)}</ul></aside>;
 }
 
-export function CollectionGuide({ article, articles }: { article: KnowledgeArticle; articles: KnowledgeArticle[] }) {
+export function CollectionGuide({ article, articles, referenceId }: { article: KnowledgeArticle; articles: KnowledgeArticle[]; referenceId?: string }) {
   const collection = collectionBySlug.get(article.slug);
   const topicHub = collections.find((item) => item.topicRoot && item.topic === article.topic);
   const guide = guideBySlug.get(article.slug);
@@ -149,10 +153,11 @@ export function CollectionGuide({ article, articles }: { article: KnowledgeArtic
     </> : guide && <>
       {!isChapter && guide.steps.length > 0 && <section className={styles.overview} aria-labelledby="overview-heading"><h2 id="overview-heading">At a glance</h2><ol className={styles.flow}>{guide.steps.map((step, i) => <li key={step}><span aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>{step}</li>)}</ol><p className={styles.meta}>An editorial reading sequence; individual frameworks are explained in the detailed notes below.</p></section>}
       <div className={styles.layout}>
-        <nav className={styles.contents} aria-label="On this page"><strong>On this page</strong><ol>{guide.format === 'formula-index' && <li><a href="#formula-reference">Formula reference</a></li>}{guide.format === 'metric-index' && <li><a href="#metric-reference">Executive measures</a></li>}{visuals.length > 0 && <li><a href="#visual-explanations">{visualHeading}</a></li>}{guide.notes.length > 0 && <li><a href="#reading-notes">Reading notes &amp; limitations</a></li>}{guide.format === 'questions' ? <li><a href="#question-bank">Browse questions by stage</a></li> : guide.sections.map((s) => <li key={s.id}><a href={`#${s.id}`}>{s.heading}</a></li>)}{guide.interpretation && <li><a href="#reflection">Business reflection</a></li>}<li><a href="#related">Continue exploring</a></li></ol></nav>
+        <nav className={styles.contents} aria-label="On this page"><strong>On this page</strong><ol>{guide.format === 'formula-index' && <li><a href="#formula-reference">Formula reference</a></li>}{guide.format === 'metric-index' && <li><a href="#metric-reference">Executive measures</a></li>}{visuals.length > 0 && <li><a href="#visual-explanations">{visualHeading}</a></li>}{guide.notes.length > 0 && <li><a href="#reading-notes">Reading notes &amp; limitations</a></li>}{guide.format === 'reference-index' && <li><a href="#academic-references">Find an academic reference</a></li>}{guide.format === 'questions' ? <li><a href="#question-bank">Browse questions by stage</a></li> : guide.sections.map((s) => <li key={s.id}><a href={`#${s.id}`}>{s.heading}</a></li>)}{guide.interpretation && <li><a href="#reflection">Business reflection</a></li>}<li><a href="#related">Continue exploring</a></li></ol></nav>
         <div className={styles.body}>
           <ReadingNotes notes={guide.notes} />
           {guide.format === 'formula-index' && <FormulaDirectory entries={formulaEntries} />}
+          {guide.format === 'reference-index' && <AcademicReferenceDirectory key={referenceId ?? 'catalogue'} entries={academicReferences} referenceId={referenceId} />}
           {guide.format === 'metric-index' && <MetricDirectory entries={metrics} readings={metricReadings} />}
           {visuals.length > 0 && <section id="visual-explanations"><h2>{visualHeading}</h2>{visuals.map((f) => <Figure key={f.title} figure={f} />)}</section>}
           {guide.format === 'questions' ? <section id="question-bank"><h2>Questions for each conversation</h2><SalesQuestionBank stages={guide.questionStages} /></section> : guide.sections.map((s) => <section className={`${styles.detail} ${isChapter ? styles.chapter : ''}`} id={s.id} key={s.id}><h2>{s.heading}</h2>{s.blocks.map((block, i) => <DetailBlock key={i} block={block} caption={s.heading} />)}</section>)}

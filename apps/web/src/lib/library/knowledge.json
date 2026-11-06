@@ -3569,6 +3569,20 @@
     "sources": []
   },
   {
+    "slug": "research-methods-academic-skills",
+    "title": "Research Methods & Academic Skills",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Start here",
+    "summary": "Plan research, assess evidence, write clearly and find the academic sources relevant to a question.",
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Choose whether you need to design a study, interpret evidence, write a review or find a source. Supplied notes, editorial corrections, missing material and citation-verification states remain distinct."
+      }
+    ],
+    "sources": []
+  },
+  {
     "slug": "strategy-foundations",
     "title": "What strategy does—and who makes it",
     "topic": "Business & Management",
@@ -4002,6 +4016,14 @@
       {
         "heading": "Sustainable advantage and the related VRIN criteria",
         "body": "Criteria of sustainable advantage\nValuable\nResources are valuable when they enable a firm to conceive of or implement strategies that improve its efficiency and effectiveness.\nValuable Capabilities help a firm neutralize threats or exploit opportunities.\nCoca-Cola exploits worldwide distribution network effectively for entering global markets.\nRare\nIf a particular valuable firm resource is possessed by large numbers of firms, then each of these firms have the capability of exploiting that resource in the same way and that gives no firm a competitive advantage.\nRare capabilities are not possessed by many others\nMcDonald’s ability to prepare hot meal quickly\nCostly of imitate\nValuable and rare resources can only be a source of competitive advantage if the firms that do not possess these resources cannot conceive or implement them.\nCostly to Imitate Capabilities include a unique & a valuable organizational culture or brand name\nOthers have tried to imitate Google’s business model, with some success. But hard to imitate the Google’s culture.\nNon-substitutable\nFor a firm resource to be a source of sustained competitive advantage, it is necessary that there are no strategically equivalent valuable resources which are themselves either not rare or imitable.\nGoogle is organized to capture value from this capability. The IT department has the skills to collect and maintain the data, while HR and team leaders are trained on how to use the data to hire, promote, manage, and improve performance of employees."
+      },
+      {
+        "heading": "Academic reading: resource-based arguments",
+        "body": "Read the theoretical argument and its assumptions rather than citing a source solely because its title mentions resources. These links support further study, not a newly asserted empirical outcome."
+      },
+      {
+        "heading": "Academic reading references",
+        "body": "Barney, J. (1991). Firm Resources and Sustained Competitive Advantage. Journal of Management, 17(1), 99-120. https://doi.org/10.1177/014920639101700108\nWernerfelt, B. (1984). A resource‐based view of the firm. Strategic Management Journal, 5(2), 171-180. https://doi.org/10.1002/smj.4250050207\nWright, P. M.; Dunford, B. B.; Snell, S. A. (2001). Human resources and the resource based view of the firm. Journal of Management, 27(6), 701-721. https://doi.org/10.1177/014920630102700607"
       }
     ],
     "sources": []
@@ -4436,6 +4458,14 @@
       {
         "heading": "Strategy-map examples from the Six Sigma collection",
         "body": "Strategy map\nFinancial: increased revenue, reduced costs, earlier payments\nCustomer: easier to do business with, faster service, self-service order & pay\nInternal processes: reduce work, improved order management process, improved lead generation, online payment capability\nLearning & growth: trained staff on lean six sigma, invested in new ERP system, new website"
+      },
+      {
+        "heading": "Academic reading: scorecard interpretation",
+        "body": "Compare conceptual foundations with research about presentation and use. These are further-reading references, not evidence that a scorecard guarantees better performance."
+      },
+      {
+        "heading": "Academic reading references",
+        "body": "Kaplan, R. S. (2010). Conceptual Foundations of the Balanced Scorecard. Harvard Business School Working Paper 10-074. https://www.hbs.edu/ris/download.aspx?name=10-074.pdf\nCardinaels, E.; van Veen-Dirks, P. M. G. (2010). Financial versus non-financial information: The impact of information organization and presentation in a Balanced Scorecard. Accounting, Organizations and Society, 35(6), 565-578. https://doi.org/10.1016/j.aos.2010.05.003\nHoque, Z. (2014). 20 years of studies on the balanced scorecard: Trends, accomplishments, gaps and opportunities for future research. The British Accounting Review, 46(1), 33-59. https://doi.org/10.1016/j.bar.2013.10.003"
       }
     ],
     "sources": []
@@ -6134,7 +6164,12 @@
     "topic": "Project Management",
     "group": "Delivery approaches",
     "summary": "Use a reading map to compare sequential, iterative, risk-driven and adaptive approaches in this collection.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Software delivery approaches: compare assumptions and feedback",
+        "body": "Use a reading map to compare sequential, iterative, risk-driven and adaptive approaches in this collection."
+      }
+    ],
     "sources": []
   },
   {
@@ -6494,7 +6529,12 @@
     "topic": "Project Management",
     "group": "Risk & assurance",
     "summary": "Compare the questions addressed by preliminary analysis, HAZOP, software FMEA, fault trees, cause–consequence analysis and MORT.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a hazard-analysis question before choosing a tool",
+        "body": "Compare the questions addressed by preliminary analysis, HAZOP, software FMEA, fault trees, cause–consequence analysis and MORT."
+      }
+    ],
     "sources": [
       {
         "title": "OSHA Technical Manual: process hazard analysis context",
@@ -6871,6 +6911,14 @@
       {
         "heading": "Stakeholders, analysis and supplied examples",
         "body": "Stakeholders\nProject Stakeholders\nall individuals or groups who have an active stake in the project and can potentially impact, either positively or negatively, its development.\nStakeholder Analysis\nUseful tool for demonstrating some of the seemingly irresolvable conflicts that occur through the planned creation and introduction of new projects.\nInternal stakeholders\nTop management\nAccountant\nOther functional managers\nProject team members\nExternal stakeholders\nClients\nCompetitors\nSuppliers\nEnvironmental, political, consumer, and other intervenor groups\nStakeholders example\nParent organisation\nExternal environment\nTop management\nProject team\nAccountant\nClients\nOther functional managers"
+      },
+      {
+        "heading": "Academic reading: stakeholders and governance",
+        "body": "The supplied bibliography includes stakeholder-landscape research and a governance framework. Their publication records are distinct from reading or verifying a specific claim about your project."
+      },
+      {
+        "heading": "Academic reading references",
+        "body": "Aaltonen, K.; Kujala, J. (2016). Towards an improved understanding of project stakeholder landscapes. International Journal of Project Management, 34(8), 1537-1552. https://doi.org/10.1016/j.ijproman.2016.08.009\nToo, E. G.; Weaver, P. (2014). The management of project management: A conceptual framework for project governance. International Journal of Project Management, 32(8), 1382-1394. https://doi.org/10.1016/j.ijproman.2013.07.006"
       }
     ],
     "sources": []
@@ -8963,6 +9011,14 @@
       {
         "heading": "Positioning proforma and implementation illustration",
         "body": "Positioning Proforma\nSummary Positioning Statement\nWhat this is and what it is offering this target consumer?\nProduct/service characteristics\nDescription of the service?\nTarget market\nWho is it aimed at?\nCompetitive edge\nHow is it different and better?\nEmotional needs met?\nFunctional needs met?\nProposition\nWhat is the overarching benefit it offers its target customer?\nStyle and tone guidelines\nWhat mood does it create / what is the imagery?\nImplementation Plan"
+      },
+      {
+        "heading": "Academic reading: planning and digital strategy",
+        "body": "The supplied reading list connects planning texts with strategic marketing. These are reading leads; no current effectiveness result is inferred from the book titles."
+      },
+      {
+        "heading": "Academic reading references",
+        "body": "Brennan, R.; Baines, P.; Garneau, P.; Vos, L. (2008). Contemporary Strategic Marketing. https://doi.org/10.1007/978-0-230-37404-1\nMcDonald, M., Wilson, H. and ebrary, Inc (2011) Marketing plans: how to prepare them, how to use them. 7th ed. Chichester, West Sussex, U.K.: Wiley.\nKingsnorth, S. (2016) Digital Marketing Strategy: An integrated approach to online marketing. London: Kogan Page."
       }
     ],
     "sources": []
@@ -10628,6 +10684,14 @@
       {
         "heading": "Purpose, benefits, costs and reporting decisions",
         "body": "Integrated Reporting\nA new form of corporate reporting aimed primarily at providers of capital\nIt tells a organisation’s value creation story\nIt is much more than bringing together financial and sustainability reporting\nIt does not replace either financial or sustainability reporting – both need to be in place for integrated reporting\nThe International Integrated Reporting Council (IIRC) defines integrated reporting as ‘a process founded on integrated thinking that results in a periodic integrated report by an organization about value creation over time and related communications regarding aspects of value creation’ (IIRC, 2013)\nThe IIRC, set up at the end of 2010, aims to create the globally accepted integrated reporting framework\nBenefits of IR\nGreater clarity abotu the relationship between financial and nonfinancial performance and how this affects value creation\nDeeper engagement and improved relationships with shareholders and stakeholders\nImproved measurement and control systems for nonfinancialB information\nBetter internal decision making for a sustainable strategy\nLower reputation risk\nGreater employee engagement\nMore committed customers who care about sustainability\nCosts of IR\nNew processes and control systems\nPeople with analytics skills\nAssurance from third parties\nPreparation costs related to the collection and analysis of new data\nInfrastructure investments in new information systems and data sets\nPotential proprietary disclosure costs and revelation of competitive information\nImportance of reporting\nInfluences decisions and actions of management\nAn essential element of corporate governance\nInfluences decisions and actions of shareholders and other stakeholders\nAffects resource allocation (financial, natural and human resources) in society\nCritical for investor confidence\nInfluences perceptions of the company’s customers, vendors, and employees\nShapes how a company sees itself"
+      },
+      {
+        "heading": "Academic reading: integrated-reporting research",
+        "body": "Keep a dated reporting framework distinct from studies of reporting quality and its associations. Read the actual setting and design before making a causal claim."
+      },
+      {
+        "heading": "Academic reading references",
+        "body": "Barth, M. E.; Cahan, S. F.; Chen, L.; Venter, E. R. (2017). The economic consequences associated with integrated report quality: Capital market and real effects. Accounting, Organizations and Society, 62, 43-64. https://doi.org/10.1016/j.aos.2017.08.005\nde Villiers, C.; Rinaldi, L.; Unerman, J. (2014). Integrated Reporting: Insights, gaps and an agenda for future research. Accounting, Auditing &amp; Accountability Journal, 27(7), 1042-1067. https://doi.org/10.1108/aaaj-06-2014-1736\nInternational Integrated Reporting Council (2013). International <IR> Framework (2013). International Integrated Reporting Council. https://www.ifrs.org/issued-standards/integrated-reporting/framework/"
       }
     ],
     "sources": [
@@ -10726,7 +10790,12 @@
     "topic": "Finance & Accounting",
     "group": "Formula reference",
     "summary": "Search reviewed formulas and source conventions by name, expression, input, unit or limitation.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Accounting and finance formula reference",
+        "body": "Search reviewed formulas and source conventions by name, expression, input, unit or limitation."
+      }
+    ],
     "sources": []
   },
   {
@@ -10882,6 +10951,14 @@
       {
         "heading": "Visible artifacts, espoused beliefs and assumptions",
         "body": "Use these layers as questions about shared meanings; do not infer someone’s unconscious beliefs solely from uniforms or branding.\nOrganisation level\nArtefacts: uniforms and branding\nEspoused: shared beliefs by employees\nBasic assumption: deeply held values in subconscious"
+      },
+      {
+        "heading": "Academic reading: culture and change",
+        "body": "Compare conceptual perspectives and the practical change context. The cited source editions and their unresolved details remain visible in the reference records."
+      },
+      {
+        "heading": "Academic reading references",
+        "body": "Alvesson, M.; Sveningsson, S. (2015). Changing Organizational Culture: Cultural change work in progress. https://doi.org/10.4324/9781315688404\nSmircich, L. (1983). Concepts of Culture and Organizational Analysis. Administrative Science Quarterly, 28(3), 339. https://doi.org/10.2307/2392246\nWenger, E. (2000). Communities of Practice and Social Learning Systems. Organization, 7(2), 225-246. https://doi.org/10.1177/135050840072002"
       }
     ],
     "sources": []
@@ -11090,6 +11167,14 @@
       {
         "heading": "ADDIE as a learning-design sequence",
         "body": "Editorial clarification\nAnalysis, design, development, implementation and evaluation describe a design cycle often used in learning contexts. The source provides the sequence only; it does not establish an automatic learning result.\nAnalyse → design → develop → implement → evaluate (ADDIE)"
+      },
+      {
+        "heading": "Academic reading: HR roles and relationships",
+        "body": "The HR list includes role change, business partnering and employee perspectives. Use the reading map to compare research with practitioner recommendations; metadata checks do not establish which operating model is best."
+      },
+      {
+        "heading": "Academic reading references",
+        "body": "Caldwell, R. (2001). Champions, adapters, consultants and synergists: the new change agents in HRM. Human Resource Management Journal, 11(3), 39-52. https://doi.org/10.1111/j.1748-8583.2001.tb00044.x\nFrancis, H.; Keegan, A. (2006). The changing face of HRM: in search of balance. Human Resource Management Journal, 16(3), 231-249. https://doi.org/10.1111/j.1748-8583.2006.00016.x\nGraham, M. E.; Tarbell, L. M. (2006). The importance of the employee perspective in the competency development of human resource professionals. Human Resource Management, 45(3), 337-355. https://doi.org/10.1002/hrm.20116\nMcCracken, M.; O'Kane, P.; Brown, T. C.; McCrory, M. (2017). Human resource business partner lifecycle model: exploring how the relationship between HRBPs and their line manager partners evolves. Human Resource Management Journal, 27(1), 58-74. https://doi.org/10.1111/1748-8583.12125"
       }
     ],
     "sources": []
@@ -12517,6 +12602,10 @@
       {
         "heading": "Gaussian and bell-curve terminology",
         "body": "Concept clarified\nThe truncated “Gaussian normal distributio” and “Bell curve” labels refer here to the same normal-distribution family, not a separate measurement method.\nGaussian normal distributio\nBell curve"
+      },
+      {
+        "heading": "Methods beyond economic models",
+        "body": "Use the general research-methods area for design, sampling, measurement, inference and referencing. Software names and numerical outputs do not themselves establish causal identification."
       }
     ],
     "sources": []
@@ -13097,6 +13186,10 @@
       {
         "heading": "BADIR: a workflow for a business question",
         "body": "Keep Business question, Analysis plan, Data collection, Insights and Recommendations connected. Specify population, period, granularity, validation and alternative explanations. An 80/20 cut or “shunting long tail” may discard important cases; document that choice and test its effect.\nBADIR decision making\nBusiness questions: what happened, why are you interested, what is the problem, when did it take place, where did it happen, who is impacted, what might have caused this, what do you think drive this\nAnalysis plan: analysis goal → hypotheses (criteria to prove or disprove) → methodology → data spec (determine level of granularity, assign unique ID, aggregate it) → project plan → kick-off meeting\nData collection: Data pull (define time period, shunting long tail: 80/20) > data cleansing and validation (univariate, cardinality, ratio and total, triangulation)\nInsights: review pattern (is this a real problem, test vs control) > prove or disprove hypothesis (relationship between business question and hypothesis variable) > findings\nRecommendations: actionable, based on key insights, supported by detailed findings"
+      },
+      {
+        "heading": "Academic research and source verification",
+        "body": "A decision-oriented analysis workflow can benefit from explicit research design, measurement and source appraisal. The academic area separates these concerns and distinguishes metadata checks from claim verification."
       }
     ],
     "sources": []
@@ -13364,12 +13457,570 @@
     ]
   },
   {
+    "slug": "research-foundations",
+    "title": "Research foundations: inquiry, contribution and justified claims",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Getting started",
+    "summary": "Distinguish a research question from a summary, a technique and an unsupported assertion.",
+    "sections": [
+      {
+        "heading": "Research is more than collecting quotations",
+        "body": "Reviewed explanation; original notes retained\nThe notes define research through systematic inquiry, novelty, reliable knowledge and practical significance. Their Tuckman and Popper references are incomplete edition-level citations, not authenticated quotations here. Falsifiability and criticism concern how claims can be challenged; no research method guarantees final true statements. The reference to the UK REF is a contextual example, not a universal requirement for every project.\nBusiness Research\nResearch\nSystematic means of problem solving: obtaining, analyzing and confirming new and reliable knowledge (Bruce W. Tuckman, B. W. 1978 Conducting Educational Research)\nResearch includes \"search\", it asks for the analysis of yet unstructured material. It is not a write-up of selected sources or a summary of what we already know\nNovelty of both, the problem and the knowledge that will be generated\nSystematic approach – So there is an important element of justification why, how and what you inquire\nReliable inquiry\nAccording to Popper, the scientist’s role is to produce true statements (cf. Popper, K. 1935/1959/1992 The Logic of Scientific Discovery). This inter alia requires evidence for each statement and falsification\nModern times also require Impact 🡺 see UK REF exercise\nTrue statements but business scholars' second question may be \"so what?\""
+      },
+      {
+        "heading": "Basic, applied and discipline-specific contributions",
+        "body": "Basic and applied objectives can overlap. Discovering something unknown to you does not alone show it is new to the field. Novel data, combinations, methods or applications need an argument for what they add. The history-of-universities comments are supplied context, not independently established historical findings.\nBasic Research\nTo expand current basis of theoretical, scientific knowledge\nDeveloping \"true statements\" in terms of generalisation and logics / pushing the research frontier\nApplied research\nSolve practical problems\nProviding not necessarily radically new knowledge but new techniques or practices\nNovelty\nNovelty can only be judged within project context: Journals exist to debate new problems that have arisen from theory thought or business practice and have not yet been addressed with dedicated articles and/or data sets\nUnknown does not equal new. If a concept is known to e.g. a psychologist but not know to a business researcher, it is not “new” but unknown to our discipline\nResearch requires the researcher to make a novel contribution\nNovel combination of logics / Grounded theory\nGenerating novel data and meaningful analysis\nNovel application of theory or statistical assumptions to an important practice or policy making case, yielding to surprising results\nUnique features of business research\nAudience: Research needs to be meaningful for academic debate on businesses, economy, management functions, business policy etc.\nImplicit instrumental dimension?\nMulti-methods discipline without scientific origin.\n\"Universitas\" initially where places where scientists and philosophers met, rather than tradesmen. Community of \"Masters\" and their \"Scholars\"\nNew knowledge objective can be abstract, empirical explorative or quite applied – hence continuum of scientific and social science approaches borrowed from various disciplines"
+      },
+      {
+        "heading": "Systematic does not automatically mean unbiased",
+        "body": "Reviewed explanation; original notes retained\nA documented design makes choices open to scrutiny. Induction/deduction, evidence and philosophical argument can contribute in different ways; generalization is not necessarily statistical. Replicability requires sufficiently documented procedures and materials where appropriate. Reflect on researcher involvement, assumptions, sampling and instrument wording rather than treating an orderly process as proof of objectivity.\nSystematic\nFollowing a well-defined process and findings robust against objection\nProcess that assures qualities of outcomes:\nInduction/deduction 🡺 Logical arguments\nMethods of philosophic debate or Empirical evidence 🡺 Evidence-based arguments\nSystematic reduction of findings 🡺 Generalisation\nWell documented process and outcomes 🡺 Replicable\nA \"research method\" does specify how such qualities will be achieved and assured from the processes of inquiry and analysis\nTensions in business research: Where does research end and action or practice begin. New knowledge? (Too) applied knowledge? Consultancy?\nA systematic process may still not be objective, researchers have to reflect upon\nBiases\nInvolvement with the object of study\nPhilosophical assumptions and limitations from research design, especially sampling and wording/items of the instrument"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "research-question-proposal",
+    "title": "Develop a research question and a workable proposal",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Getting started",
+    "summary": "Connect the debate, contribution, design, access and milestones before committing to data collection.",
+    "sections": [
+      {
+        "heading": "A research cycle and a practical start",
+        "body": "The supplied cycle links a field/debate, literature, question, design, data, interpretation and impact. Begin early enough to obtain access, receive feedback and change direction when evidence requires it.\nResearch process circle\nIdentify well-defined field/debate\nReview available literature\nFormulate question\nSelect appropriate research design (method, instrument)\nCollect relevant data or generate novel data set\nInterpret and publish findings\nGenerate recommendations and impact\nGetting started\nAn intense experience and can be difficult as well as exciting at the same time\nDon't panic\nTo be organized, to make progress and the work will unfold differently than planned eventually\nGet started and seek feedback, structure will unfold in the process initially\nDon't wait till time becomes scarce for fieldwork and write up"
+      },
+      {
+        "heading": "Proposal components: purpose before paperwork",
+        "body": "The source’s first rows use item/element/purpose labels. Later measurement and analysis prompts do not fit that grid perfectly; their wording is retained rather than silently rewritten as a required institutional template.\nResearch proposal\nItem of research project\nElement\nPurpose\nTopic\nTopic title\nCan an expert sense what questions you might approach?\nTopic\nResearch questions (and objectives)\nWhat are you trying to find out and which concepts does this relate to?\nJustification\nSignificance (background and relevance)\nWhy important?\nJustification, Instrument\nObject of study: selection criteria, sampling design\nWhat data will be collected, how and why? Is the method robust?\nInstrument\nResearch approach (in detail)\nCredible approach? Established and accepted within discipline?\nVariables, guiding questions or Hypotheses\nWhat measurements and operationalisation will be made?\nAnalytic approach, complimentary secondary information and its context, software\nHow will the findings be derived systematically and be used for rigour analysis?\nProject management\nTime frame, milestones\nTo judge whether the project in on track and making progress"
+      },
+      {
+        "heading": "A proposal review checklist",
+        "body": "State the question, the relevant concepts, the gap or practical need, the evidence required, access and recruitment, analysis, limitations, participant responsibilities and milestones. Requirements differ by institution and type of project."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "research-design-philosophy",
+    "title": "Research design: philosophies, reasoning and mixed methods",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Design & data",
+    "summary": "Compare quantitative, qualitative and mixed approaches without confusing data form with rigor or philosophy.",
+    "sections": [
+      {
+        "heading": "Quantitative design: common patterns, not guarantees",
+        "body": "Reviewed explanation; original notes retained\nQuantitative work often uses numerical measurements and specified models, but it is not automatically deductive, objective, random or generalizable. The source’s minimum of 80 per subgroup is not a universal reliability requirement. Sample justification must address design, precision or power, effects, variation, analysis and feasibility. The five stages are useful prompts, not a guarantee that a research question is already a statistical hypothesis.\nQuantitative Research\nDeductive\nObjective\nGeneralisable\nNumbers\nMeasures attributes and dimensions already established\nAnalyses and compares response by sub-group\nRequires minimum sample size per sub-group eg 80 for statistical reliability\nOutput is numerical and statistical\nFive Key Stages\nDecide theoretical framework\nDevise RQ=hypotheses from your literature\nSelect research methods, measures of concepts, source/s of data, & research subjects\nCollect & analyze data & develop findings by applying your measures to analyze your data\nImplications of your findings for your chosen literature & managerial practice"
+      },
+      {
+        "heading": "Distance, structure and numeric data",
+        "body": "Reviewed explanation; original notes retained\nResearcher distance, predetermined structure, random samples and numerical data are tendencies in this teaching contrast, not necessary properties of every quantitative study. Reliability is a property to assess, not something implied by numbers or described as “hard” data.\nFocus\nQuantity, frequency and magnitude\nResearcher’s point of view\nResearcher is distant\nGoals\nPredict, control, confirm or test in an artificial setting/environment\nGeneralisation\nDesign characteristic\nStructured, predetermined\nSampling\nLarge, random\nData collection\nExternal instruments such as questionnaires\nType of data\nHard, reliable numeric data"
+      },
+      {
+        "heading": "Qualitative design and the scope of interpretation",
+        "body": "Reviewed explanation; original notes retained\nQualitative inquiry can be inductive, deductive or combine reasoning. It does not have a universal maximum participant count. Purposive depth and contextual understanding differ from statistical population estimation; transferability or analytic generalization needs its own argument. The source’s small-sample-to-wider-sample statement is too broad. One research question can help focus a project, but is not a universal rule.\nQualitative Research\nInductive\nSubjective\nNon-generalisable\nWords\nDevelops understanding, identifies and explores different dimensions and attributes\nEstablishes the potential range of behaviours and emotional responses, regardless of how prevalent\nRequires a maximum size of participants to allow for in-depth exploration and analysis\nOutput is verbal and diagrammatic\nFive Key Stages\nResearch Question (ONE will do)\nLiterature framework: How is your work positioned relative to other people’s work in your topic?\nSelect suitable research context & research method/s (\"research hook\") for your RQ\nCollect & analyze data by applying your research hook to produce a personal interpretation of your data\nConclusion: Generalize from your interpretation of your (typically small ample to a wider sample in other contexts"
+      },
+      {
+        "heading": "Philosophical assumptions and forms of evidence",
+        "body": "Reviewed explanation; original notes retained\nWords, images, records and observations can be qualitative material, but data format alone does not define the research design. Ontology, epistemology and methodology address different questions. Social construction and researcher involvement describe some perspectives; they do not exhaust phenomenology or all qualitative traditions. Flexible design still needs justified choices and systematic analysis.\nFocus\nQuality of meaning and experience\nParticipants’ points of view\nResearcher is close\nGoals\nDescribe and explore in a natural setting/environment\nContextual understanding\nDesign characteristic\nFlexible, evolving and emergent\nSampling\nSmall, purposive\nData collection\nResearcher is the ‘living’ instrument\nType of data\nRich, deep data\nPhilosophy of phenomenology\nOntological (theory of being)\nBelief that the world is socially constructed and subjective\nEpistemological (theory of knowing)\nBelief that phenomena are observable through human interaction\nMethodological (theory of discovery)\nBelief that discovering new knowledge involves the researcher as part of the observed\nApproaches\nAttempts to discover new phenomena, logics and structures, and conceptualising those\nAny research that doesn’t involve numerical data\nWords, pictures, photos, videos, audio recordings. Field notes. Peoples’ own words\nTends to start with a broad open question rather than a specific hypothesis, explores under-researched phenomenon typically rather than testing a theory\nOften Inductive rather than deductive: Develop new conceptions"
+      },
+      {
+        "heading": "Mixed methods: connect the strands",
+        "body": "Exploratory work can inform a survey, while survey results can guide follow-up interviews. Explain how and why the strands are integrated; simply collecting two types of data does not make their inferences coherent. Induction/deduction are reasoning approaches, not synonyms for qualitative/quantitative data.\nMixed Researched\nCombination of qualitative and quantitative research: rich explanations vs statistical/numerical evidence.\nExample A: Before gathering data in a large survey, qualitative data is collected to develop a model.\nExample B: After seeing the results of a large survey, a certain group of people (with particularly interesting answers) are chosen to be interviewed or to take part in a focus group discussion.\nCan be the best or worst of both worlds!\nWhat is your personal ontology?\nWhat are your skills and preferences?\nWhat is your research topic?\nWhat are your research objective(s) and research question(s)?"
+      },
+      {
+        "heading": "The supplied research-reasoning heuristic",
+        "body": "Source prompt or result\nBranches and interpretation\nDoes relevant theory exist?\nYes → Are you a positivist?; No → Inductive research\nAre you a positivist?\nYes → Deductive research; No → Are you an upgrade realist or pragmatist?\nAre you an upgrade realist or pragmatist?\nYes → Inductive/Deductive research; No → Inductive research\nInductive research\nTwo separate source paths end with this result\nDeductive research\nSource result from the positivist Yes branch\nInductive/Deductive research\nSource combined-reasoning result, not automatically a mixed-methods design\nAll six source branches and seven displayed elements are retained. “Upgrade realist” is unclear original wording and is not silently replaced with an assumed school. This is a simplified teaching heuristic, not a rule that philosophy or the absence of a particular theory mechanically determines a method."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "research-measurement-quality",
+    "title": "Measurement quality: validity, reliability and the limits of inference",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Design & data",
+    "summary": "Translate concepts into observations and distinguish consistency from meaning, causality and scope.",
+    "sections": [
+      {
+        "heading": "Four concerns that must not be collapsed",
+        "body": "Reviewed explanation; original notes retained\nOperationalization connects a concept with indicators or observations. Reliability concerns consistency under specified conditions; validity concerns the interpretation and use of the evidence. The notes imply greater reliability resolves causal interpretation, but causal identification also needs a defensible design and assumptions. Population inference depends on the target, sampling and response process; random sampling alone does not guarantee generalizability. Replication needs transparent materials and procedures, not identical results promised in advance.\nMeasurement\nHow do we measure a concept (broken down into variables, indicators, and/or factors)? How valid and reliable is/are our measurement/s? Devise and use indicators to measure a concept - say, if you want to measure job satisfaction - where you cannot identify direct measures.\nCausality\nHow may we explain the phenomenon? Which is the cause and which is the effect? Again, how reliable is/are our causal inferences? The greater the reliability of the research design, the less the potential variability (“subjectivity”) in interpreting the research findings and therefore the higher the quality of the research, as perceived by quantitative researchers.\nGeneralizability\nHow may the research findings be generalized beyond a particular research context? Results can be inferred to a wider sample depending on the representativeness of the researched sample (“probability [random] sampling”).\nReplicability\nHow may research biases be reduced? How may research methods be replicated and similar results obtained by other independent researchers?"
+      },
+      {
+        "heading": "Qualitative credibility and reflexive practice",
+        "body": "The source lists external audit, peer debriefing, bias clarification, engagement, rich description, triangulation, member checking and discrepant information. These can serve different purposes; not all are mandatory or suitable in every interpretive tradition. Explain what each contributes and how disagreement is treated.\nValidity\nExternal auditor\nPeer debriefing\nClarifying researcher bias\nProlonged engagement\nRich description\nTriangulation\nMember checking\nDiscrepant information"
+      },
+      {
+        "heading": "Choose observations before choosing a score",
+        "body": "Document the concept, indicator, population, period, instrument and intended interpretation. Piloting may reveal unclear wording or missing categories, but does not by itself establish every kind of validity. Include consent, confidentiality, conflicts and a proportionate data-management plan where people are involved; these are editorial additions to the handout."
+      },
+      {
+        "heading": "Academic reading references",
+        "body": "Cutcliffe, J. R.; McKenna, H. P. (2002). When do we know that we know? Considering the truth of research findings and the craft of qualitative research. International Journal of Nursing Studies, 39(6), 611-618. https://doi.org/10.1016/s0020-7489(01)00063-3"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "research-data-collection",
+    "title": "Collect research evidence: documents, observations and interviews",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Design & data",
+    "summary": "Match the source and collection method to the question, context and participant responsibilities.",
+    "sections": [
+      {
+        "heading": "Observations, notes and documentary sources",
+        "body": "The notes identify observation, diaries, interviews, field-note forms and secondary records. Assess authenticity, credibility, representativeness and meaning. Public availability is not proof of accuracy; private access is not unrestricted permission to publish.\nMethods\nObservations\nSecondary data\nDiary study\nInterviews\nField notes\nMental notes\nJotted notes\nFull field notes\nSecondary data\nCan be read\nProduced by someone else\nAre preserved\nRelevant to your interests\nCriteria\nAuthenticity\nCredibility\nRepresentativeness\nMeaning\nTypes of documents available for study\nPersonal\nPublic\nOrganisational\nMass media output\nVisual outputs\nPublic domain\nAnnual reports\nMission statements\nReports to shareholders\nTranscripts of chief executivies' speeches\nPress releases & advertisements\nPublic relations material\nPrivate domain\nCompany newsletters\nOrganisational charts\nExternal consultancy reports\nMinutes of meetings\nMemos\nInternal & external correspondence\nManuals for new recruits\nPolicy statements\nCompany regulations"
+      },
+      {
+        "heading": "Interview prompts and wording pitfalls",
+        "body": "Basic, explanatory, focused and silent probes can elicit different information. Drawing out, mirroring and laddering need care: offering ideas can lead an answer. Avoid ambiguity, double questions, leading language and unexplained terms; sometimes a defined technical term is needed, rather than banned altogether.\nInterviews\nBasic probe\nExplanatory probe\nFocused probe\nSilent probe\nDrawing out\nGiving ideas or suggestions\nMirroring or reflecting\nLaddering\nAvoid\nAmbiguous terms\nLong questions\nDouble-barrelled questions\nVery general questions\nLeading questions\nAsking two questions in one\nNegative terms\nTechnical terms"
+      },
+      {
+        "heading": "Qualitative strategies and data sources",
+        "body": "Case study, grounded theory, ethnography, action research, observation, focus groups, interviews, diaries and historical/archive work operate at different levels of design and collection. Choose a coherent combination rather than treating every list item as an interchangeable method.\nResearch methods\nExplorative Case Studies\nSemi-structured interview guide\nSingle case study / in-depth case study / Grounded theory\nUnstructured interview guide\nObservation (of group)\nFocus groups\nObservation (of individual)\nRecorded (video/audio)\nEthnography\nUse of Diaries, self-reporting, written accounts of past events\nAction research\nParticipation in events and communications and documentation of such via diaries, memos and/or recordings\nHistoric account\nArchive data"
+      },
+      {
+        "heading": "Separate observation from interpretation",
+        "body": "Record when, where, how and from whom material was obtained. Distinguish the participant’s words, the observer’s notes and the researcher’s analytic interpretation. Consider who is absent, how access shaped the evidence and whether re-identification is possible when reporting quotations."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "research-evidence-claims",
+    "title": "Evaluate research claims and incomplete citations",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Evidence & practice",
+    "summary": "Compare the benefits and limits of research methods, assess citations and recognize gaps in the evidence.",
+    "sections": [
+      {
+        "heading": "Quantitative pros and cons: preserve the claims, assess the conditions",
+        "body": "Reviewed explanation; original notes retained\nThese claims mix study design, cost, response, objectivity, generalization, anonymity and software convenience. None follows simply from choosing quantitative data. The assertion that subjects are not influenced by observation conflicts with common measurement/reactivity problems; software does not guarantee validity or rapid analysis. A structured interview can include follow-up questions.\nSeveral in-text references are incomplete or identify web/practitioner material rather than a specified scholarly article. Names such as “LG,” “Natasha,” a journal title/year, or a misspelled author/year cannot be reliably matched by guessing. The catalogue covers the supplied workbook; these handout citations remain visible here with their original claims until their actual sources are identified.\nPros\nSubjects not influenced by observations of experiments (Querios et al, 2017)\n“What-if” questions can be tested and affirmed (Querios et al, 2017)\nLow development time and cost effective (Querios et al, 2017)\nQuantitative studies use mathematical models and statistics for analysis, providing numerical results that are considered more objective (Fahmeena Odetta Moore, 2016)\nControlled Results are valid and reliable (Dr. Mary Dowd, 2018)\nData analysis is less time consuming as it uses the statistical software such as SPSS (Connolly, 2007)\nData collection occurs rapidly with quantitative research. (LG, No date) (Fernando & Faria,2017)\nThe samples of quantitative research are randomized. (Oppong, 2013)\nIt offers reliable and repeatable information. (Evid Base Nurs, 2015)\nYou can generalize your findings with quantitative research. (Apuke, 2017)\nThe research is anonymous. (Blackstone, 2012)\nYou can perform the research remotely. (Male, Trevor, 2015 ; Jason Mander, 2017)\nInformation from a larger sample is used with quantitative research. (Destiny Apuke,2017)\nCons\nDifficult to replicate the same conditions of study (Querios et al, 2017)\nDifficult to control variables (Querios et al, 2017)\nArising opportunities of ethical issues (Querios et al, 2017)\nResponse time / response rate (Healey at el 2002)\nLess data, artificiality. limitation (Dpimm 1994)\nThere are cases where the hypotheses are not detailed. (Fahmeena Odetta Moore, 2016)\nLack of isomorphism between its measures and \"reality\" (CLAUDIA KRENZ 1986)\nYou cannot follow-up on any answers in quantitative research. (Alshenqeeti, 2014)\nThe characteristics of the participants may not apply to the general population. (Natasha, 2019)\nYou cannot determine if answers are true or not. (Evid Base Nurs, 2015)\nIt creates the potential for an unnatural environment. ( Jason Mander, 2017)"
+      },
+      {
+        "heading": "Qualitative pros and cons: distinguish interpretation from stereotypes",
+        "body": "Reviewed explanation; original notes retained\nThe list includes plausible concerns about skill, context and sampling, but also misfiled claims about large samples/objectivity and statistical assumptions. Qualitative findings are not merely unconstrained “gut feel.” Conversely, a detailed account is not automatically causal evidence or statistically representative. Preserve the source attributions, but do not use a blog-style advantages list or an incomplete author/year as proof of universal methodological superiority.\nPros\nNot bound by limitations of figures (Poppulo, 2019)\nFlexible and oriented to knowledge discovery (Poppulo, 2019)\nSuitable to for exploring new lines of research (Querios et al, 2017)\nSimplifying and managing data without destroying complexity and context (numbers / statistics) (Ochiend Pamela 2009)\nLarger sample size, objective and accuracy - pros qualitative (PF.Liu; debatin 1998)\nProduces the thick (detailed) description of participants’ feelings, opinions, and experiences; and interprets the meanings of their actions (Denzin, 1989).\nMore cost effective and easier to consolidate (Jason Mander, 2017)\nCan capture changing attitudes within a target (Bradon, 2019)\nIt provides more content that is useful for practical application. (Bradon, 2019)\nMore speculative about what areas they choose to investigate, allows data capture to be prompted by a researcher’s instinctive or ‘gut feel’ for where good information will be found. (Yauch and Steudel, 2003)\nCons\nHeavily dependent on individual skills and impartiality of researcher (Anderson, 2010)\nDifficult to get concise and precise conclusions (Querios et al, 2017)\nDifficult to establish cause and effect connections (Querios et al, 2017)\nStatistical data could be based on assumptions and inaccurate (Ochiend Pamela 2009)\nRequires skills and commitment to gather or the results will not be useful (Ochiend Pamela 2009)\nPositivism cannot account for how the social reality is shaped and maintained, or how people interpret their actions and others (Blaikie, 2017)\nSample size can be a big issue. (Oppong, 2013)\nSample bias (Tuckett, A, 2004).\nIt does not offer statistical representation. (Brandon, 2019)"
+      },
+      {
+        "heading": "Four missing source items",
+        "body": "Reviewed explanation; original notes retained\nThe source contains four unavailable-download placeholders. No underlying text, image or attachment identifies what they contained. They are mapped and retained as missing material, not counted as successfully recovered knowledge. No replacement content is invented.\n[This type of content is unavailable for download at the moment.]\n[This type of content is unavailable for download at the moment.]\n[This type of content is unavailable for download at the moment.]\n[This type of content is unavailable for download at the moment.]"
+      },
+      {
+        "heading": "How to judge a supporting reference",
+        "body": "Identify the exact work, distinguish scholarly from professional or popular material, read the relevant passage and examine its method and scope. A correct DOI or library record validates identification, not the truth of every statement attributed to it."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "literature-review-synthesis",
+    "title": "Literature reviews: search, compare and build an argument",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Literature & writing",
+    "summary": "Move from a topic and collection of papers to a documented synthesis of a debate.",
+    "sections": [
+      {
+        "heading": "Question, access and the meaning of theory",
+        "body": "The source asks about a debate, available evidence and access, then gives several senses of theory. Specify which concepts, explanations or propositions the project actually uses; do not treat a dictionary-like list as a complete account of scientific theory.\nLiterature Review\nGuidelines\nDoes my research question hint at searching for something novel?\nIs my research question connected to something journals or scholars have been debating recently?\nAre there reasonable rich data and reports publicly available for my topic and for the chosen case example?\nIs this research question accessible for data collection? Will there be any business organisation that is likely to support me?\nTheory\nA plausible or scientifically acceptable general principle or body of principles offered to explain phenomena.\nA hypothetical set of facts, principles, or circumstances.\nA body of theorems presenting a concise systematic view of a subject\nThe general or abstract principles of a body of fact.\nThe analysis of a set of facts in their relation to one another."
+      },
+      {
+        "heading": "Dissertation and consultancy expectations vary",
+        "body": "Reviewed explanation; original notes retained\nThe contrast between theory and practice is useful, but the source overstates universal requirements. Not every dissertation must collect new data from businesses; conceptual, secondary-data and other designs can be legitimate when the programme and question allow them. Start from a problem and relevant debate, refine scope through reading and assess access before committing. Novelty cannot be established merely by avoiding a frequently studied topic.\nApplied Thesis\nTime and Word count is limited – so you can’t ‘have it all’\nDissertation sets merely emphasis on theory contribution\nConsultancy Report sets merely emphasis on novel practices / impact upon the professions\nDissertation still needs empirical analysis, i.e. data collection from real businesses\nConsultancy Reports still needs a conceptual grounding, hence a certain extent of review of academic literature\nProblem Research\nStart with your argument= your personal view of your research problem\nThen relate your argument with a mainstream business discipline (marketing, accounting, business strategy, HRM, etc.)\nRefine your related discipline by focusing on a specific topic or theme of research within your chosen discipline (e.g. discipline= business strategy, topic= small business growth & development)\nIdentifying\nReflect upon the discipline of your interest (i.e. ‘Marketing’) and start readings top journals.\nTry to find debates / communities / themes that seem to interest you most (i.e. Consumer Behaviour as a Marketing topic).\nDevelop a research question.\nSearch literature specifically for your question, using key words and following guidance by review articles and research discipline’s handbooks.\nRefine your research question, to eliminate aspects that have already been too much covered by publications.\nReflect how, when and via what resources you will be able to a) collect data or b) create a novel dataset from public sources.\nIf you can’t, refine your research question once more."
+      },
+      {
+        "heading": "Collect, analyse, arrange and synthesize",
+        "body": "Map the field, extract concepts/arguments/methods into a literature matrix, critique the evidence and write the synthesis. The source repeats the planning-the-review line; the original positions remain mapped. “Incomplete, incommensurable, inadequate” are critique prompts, not conclusions to assign without explanation.\nWriting Process\nCollect\nAnalyse\nArrange\nSummarise\nPhases\nPlanning the review – mapping the field of study (see e.g.s of Venn diagrams, trees & mind maps)\nPlanning the review – mapping the field of study (see e.g.s of Venn diagrams, trees & mind maps)\nExtracting & synthesising data – use tables to summarise the arguments and methodologies\nCritiquing the methods used in prior studies – try to find a good example of the method you will use\nReporting – writing up your literature review\nTools for mapping existing knowledge\nFamily tree of a discourse\nMindmap\nCritiquing\nIncomplete\nIncommensurable\nInadequate"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "academic-writing-reporting",
+    "title": "Report a research project: argument, methods, results and limitations",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Literature & writing",
+    "summary": "Structure quantitative and qualitative reports so readers can follow the argument, methods, findings and limitations.",
+    "sections": [
+      {
+        "heading": "A quantitative-oriented reporting outline",
+        "body": "The source connects positioning and argument, literature, model/hypotheses, design and measurement, results, interpretation and limitations. Attitude, subjective norm, perceived control and intention are named as a short conceptual example without an attributed model or dataset; no empirical results are supplied.\nIntroduction\nPositioning\nPurpose\nArgument\nOrganizing\nLiterature Review\nConceptual scope\nDefinitions\nExisting explanations\nCritique\nYour focus\nHypotheses\nSummary of argument\nOverview of model\nList of hypotheses\nMethod\nLogic of research design\nDescription of data – context, units of analysis, site, sample, appropriateness\nDescription of measurement &/or observation procedures\nValidity & reliability tests\nAnalytical procedures\nResults\nDescriptive\nStatistical or qualitative patterns\nInferences & implications\nDiscussion\nSummary & interpretation of results\nImplications for your literature\nImplications for your practice & limitations of your project\nFuture research & conclusion\nIntention\nAttitude\nSubjective norm\nPerceived Behaviour Control"
+      },
+      {
+        "heading": "A qualitative-oriented reporting outline",
+        "body": "The source emphasizes question/literature, context and observation procedures, qualitative patterns, interpretation, practice, propositions and future inquiry. This is a possible structure, not an institution-wide required format.\nIntroduction\nPositioning\nPurpose\nArgument\nOrganizing\nLiterature Review\nConceptual scope\nDefinitions\nExisting explanations\nCritique\nOpen questions = current focus\nMethod\nLogic of research design\nDescription of data: Context, units of analysis, site, sample & suitability\nDescription of observation procedures\nAnalytical procedures\nResults\nDescriptive & Qualitative patterns\nInferences and implications\nDiscussion\nSummary of results & relation to literature\nImplications for your practice & Limitations of the project\nPropositions & Implications for your literature\nFuture research\nConclusions"
+      },
+      {
+        "heading": "Theory, implementation and practice prompts",
+        "body": "The TIP list suggests possible paper contexts—change, crisis/continuity, digital transformation, work ethics, upgrading and lived cases. These are topic prompts, not developed research findings or separate complete subjects to publish as new lessons.\nPaper\nTIP\nTheory\nChange management\nCrisis management\nBusiness continuity\nImplementation\nDigitalisation transformation\nChange work ethics\nUpgrading\nPractical\nExample\nLive experience\nCase / situation / industry"
+      },
+      {
+        "heading": "A transparent reporting sequence",
+        "body": "State the question and context; explain design, access, measures and analysis; present observations/results; distinguish interpretation and alternatives; report limitations, ethics and conflicts; and show how recommendations follow. Explain deviations from the original plan and distinguish exploratory from prespecified analyses."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "academic-referencing",
+    "title": "Academic referencing: attribute ideas and identify the exact work",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Literature & writing",
+    "summary": "Distinguish paraphrase, quotation, source types and reference lists while keeping incomplete records visible.",
+    "sections": [
+      {
+        "heading": "Paraphrase and quotation: attribution plus accurate locators",
+        "body": "Reviewed explanation; original notes retained\nParaphrased ideas still need attribution; exact quotations need accurate wording and a page or other locator where available. The Robson/Robson, Burn/Brunt and CIPD examples are supplied teaching examples whose exact publications and quotations have not been authenticated. Single versus double quotation marks and page syntax depend on the required style; they are not universal rules.\nReferencing\nCitation (Paraphrasing)\nWhen you include the arguments, ideas, or theories of anyone other than yourself in your work and put them into your own words, this is called paraphrasing. Whenever you paraphrase you need to acknowledge the source you obtained the information from.\nE.g. Robson and Robson (2015) showed in their research that individual variables were more important than organisational ones.\nBook with author(s)Journal articleOnline journal article\n(Surname(s), year)E.g. Burn and Brunt (2016)\nWebsite\n(Surname/Corporate author, Year) E.g. CIPD (2016)\nCitation (Quoting)\nYou may be more familiar with this element of referencing. When you include the exact words of someone else’s work in your essay you are quoting. You must indicate that the words you are using are not your own. To do this, use ‘single inverted commas’ around the words you are quoting (“speech marks” are usually used for quoting direct speech).\nE.g. Robson and Robson (2015: 10) concluded \"Predictors of continuation intention in this UK public context display much greater concentration on the individual\"\nBook with author(s)Journal articleOnline journal article\n(Surname(s), Year: Page no)E.g. Burn and Brunt (2016:18)\nWebsite\n(Surname/Corporate author, Year:Page - if available)E.g. CIPD (2016)"
+      },
+      {
+        "heading": "Reference-list and bibliography templates",
+        "body": "The source distinguishes works cited from a broader bibliography and gives book, article, online-article and website templates. Keep versions, dates, authors, pages and DOI/URLs identifiable. Publisher location and access-date conventions vary across styles; do not silently present one old template as every institution’s rule.\nBibliography/Cited Works/Reference ListA bibliography or cited works/reference list is a list at the end of your work that provides full details of each source you have used in your essay in alphabetical order. A bibliography contains all the sources you have consulted for your work, even if you have not made direct mention to them in the text. A cited works/reference list contains only the sources you have cited in the text of your work.\nBooks\nAuthor (Year) Title of Book. (Edition - if not first edition.) Place of Publication: Publisher.\nE.g. Gatrell, C. (2005) Managing part-time study: A guide for undergraduates and postgraduates. Milton Keynes: Open University Press\nJournal article\nAuthor (Year) Title of article. Title of Journal. Volume(Issue) Pages.\nE.g. Siew, Chen, S. & Vinayan, G. (2016) Recruitment process outsourcing: A case study in Malaysia. Personnel Review. 45(5) pp. 1029-1046.\nOnline journal article\nAuthor (Year) Title of article. Title of Journal. Volume(Issue) Pages. Available at: URL (Accessed: dd/mm/yy).\nE.g. Siew, Chen, S. & Vinayan, G. (2016) Recruitment process outsourcing: A case study in Malaysia. Personnel Review. 45(5) pp. 1029-1046. Available at: http://www.emeraldinsight.com/doi/pdfplus/10.1108/PR-10-2012-0172 (Accessed 04/09/16).\nWebsite\nAuthor/Corporate author (Year) Title of Webpage. Available at: URL (Accessed: dd/mm/yy).\nE.g. CIPD (2015) Absence measurement and management factsheet. Available at: http://www.cipd.co.uk/hr-resources/factsheets/absence-measurement-management.aspx# (Accessed: 04/09/16)"
+      },
+      {
+        "heading": "Choose sources by evidence, not domain suffix",
+        "body": "Reviewed explanation; original notes retained\nScholarly, professional, government and popular material serve different purposes. A .edu/.ac/.gov/.org address is not by itself proof that a particular claim is reliable; neither does a commercial domain disqualify a journal publisher. Wikipedia can help discover leads but is not a substitute for the underlying work. Google Scholar indexes material; it is not the author or publisher of everything it finds. Distinguish databases, search services, journal platforms and the works retrieved.\nSources\nScholarly literature\nAddressed to a specialized audience (experts in the field) e.g. American Economic Review, Journal of Economic Literature, Academy of Management Review, etc.\nCan be books or peer-reviewed journals\nPopular literature\nAddressed to a general audience (e.g. Financial Times, Guardian, Wall Street Journal, Economist)\nInternet\nElectronic databases (e.g. Google scholar)\nGovernment reports and white papers\nProfessional journals/magazines such\nThe Marketer (CIM)\nManagement Today (CMI)\nPeople Management (CIPD)\nUse reliable Websites\nNot Wikipedia (anyone can contribute and there is no professional body to authenticate the source)\n.ac, .edu (educational)\n.gov, .dwp, (governmental)\n.nhs (National Health Service),\n.co, .com (company)\n.org (mostly associated with non-profit organisations)\nSearch Engines\nAcademic Search Premier\nBusiness Source Premier\nEmerald\nJSTOR\nScienceDirect\nGoogle Scholar"
+      },
+      {
+        "heading": "Use the catalogue without overstating it",
+        "body": "Copyable catalogue citations use normalized registration metadata where checked, and the supplied wording where it remains unverified. Check your required citation style and edition before submitting academic work. Metadata status, reading status and claim-level verification are separate; the catalogue does not claim all papers have been read."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "research-consultancy-action",
+    "title": "Research and consultancy: observation, intervention and useful recommendations",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Evidence & practice",
+    "summary": "Compare case-study and action-oriented inquiry while keeping the contribution, involvement and impact explicit.",
+    "sections": [
+      {
+        "heading": "Consultancy purposes and applied inquiry",
+        "body": "Strategic and operational consultancy can use research, benchmarking and existing knowledge in different ways. The source’s statements about what every applied study “needs” and the history of MBA strategy modules are supplied assertions, not universal requirements or independently verified history.\nConsultancy\nStrategic Consultancy examples\nDigital business model for traditional industry sector\nNovel way of organising a global corporation\nNovel innovation process design\nOperative Consultancy examples\nCost cutting across sites\nImplementation of new (not novel) management system\nImplementation of recommendations from Strategic Consultancy Project\nApplied Research\nBased on latest academic research and thought leaders philosophies\nDeveloped after having benchmarked practices with other organisations\nBased on systematic application of existing knowledge and well-designed analysis of current practices of the Client\nNeeds to generate novel best practices, techniques or tools\nNeeds to add value for practitioners in business, policy etc.\nTo formalise Best Practice\nTo generalise practices found across organisations\nFirst corporative strategy modules where introduced in MBA programmes because of the desire to analyse best practice from comparing leading organisations in an industry or country"
+      },
+      {
+        "heading": "Case study and action research: a useful but simplified contrast",
+        "body": "Reviewed explanation; original notes retained\nThe source contrasts observing/reporting with intervening/learning. A case study need not always involve total researcher independence or only external knowledge contributions; action research requires systematic reflection on participation, intervention and evidence, not simply taking action. Explain boundaries, influence, ethical responsibilities and the risk that an intervention fails.\nCase Study\nObjective to observe\nNo intention to influence\nResearcher is independent\nReport observations\nContribution to external (published) knowledge only\nRisk of overly-descriptive results\nAction Research\nObjective to change\nIntervention\nResearcher is a participant\nFind and test solutions\nContribute to internal (organisational) learning as well as external knowledge\nLimitations of research design due to involvement / blurred boundaries with research object\nRisk of failure of chosen action"
+      },
+      {
+        "heading": "Make the recommendation traceable",
+        "body": "Connect what/why/how/when, intended effects, priorities, milestones, ownership and implementation resources to the evidence. A promised improvement in profit, speed, retention or wellbeing remains a proposition to assess, not a guaranteed consequence of the research.\nMaking Recommendation\nOutline WHAT, WHY, HOW, WHEN needs to be changed in the Client’s organisation\nExplain how it will positively impact upon key outputs (i.e. profit, time-to- market, throughput time, global market share / coverage of markets, well-being, staff retention)\nRank recommendations (more/less important, more/less urgent)\nProvide milestones and techniques for implementation\nProvide timeline\nSuggest process ownership and project management plan\nIntentions\nWhat are the current challenges in a specific industry?\nWhat concepts have other consultancies already developed?\nWho and why will implement my recommendations?"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "research-sampling-surveys",
+    "title": "Sampling and survey quality: target, frame, recruitment and error",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Design & data",
+    "summary": "Compare probability and non-probability designs and explain what the resulting sample can support.",
+    "sections": [
+      {
+        "heading": "Target population, frame and random selection",
+        "body": "Distinguish whom you want to describe, whom you can reach, the sampling frame and the actual participants. Random sampling concerns selection; random assignment concerns treatment allocation and supports different arguments.\nSample\nWho do you want to generalise to?\nWhat population can you get access to?\nHow can you get access to them?\nWho is in your study?\nThe theoretical population\nThe study population\nThe sampling frame\nThe sample\nProbability\nNon-probability\nSimple random\nSelect the sample at random from the sampling frame using 1) random number tables 2) a computer 3) online random number generator\n1. number each of the cases in your sampling frame -0,1,...and so on\n• 2. select cases using random numbers until your actual sample size is reached."
+      },
+      {
+        "heading": "Systematic and stratified sampling",
+        "body": "Reviewed explanation; original notes retained\nFor a simple equal-probability systematic design, sampling fraction f = n/N and selection interval k = N/n are different quantities. Use a justified random start and handle non-integer intervals and frame periodicity appropriately rather than following the source’s fraction wording literally. Stratification divides the frame into relevant groups before selection; document allocation and weights where needed.\nSystematic\nSelect sample at regular intervals from sampling frame\n1. number each of the cases in your sampling frame -0,1,...and so on\n2. select the first case using a random number\n3. calculate the sampling fraction (actual sample size/total population)\n4. select subsequent cases systematically using the sampling fraction to determine the frequency of selection.\nStratified\nModification of random sampling –divide the population into two or more relevant strata\n1. choose the stratification variable or variables\n2. divide the sampling frame into the discrete strata\n3. Number each of the cases within each stratum\n4. select your sampling using either random or systematic sampling."
+      },
+      {
+        "heading": "Quota, convenience, purposive and network recruitment",
+        "body": "Quota sampling can match selected proportions without random within-quota selection. Convenience selects accessibility; purposive sampling selects for an analytic purpose and should not be collapsed into the same definition. Snowball recruitment can aid access but depends on starting points and networks; the Bryman example has only an abbreviated reference.\nQuota\nUsed in market research and opinion polls\nRelatively cheap, quick & easily manageable\nProportionately representative of a population’s social categories (strata)\nBut non-random sampling of each stratum’s units\nConvenience/purposive\nEasily accessible individuals\nUseful when piloting a survey instrument\nA chance to collect data that is too good to miss\nSnowball\nResearcher makes initial contact with a small group\nRespondents introduce others in their network (e.g. Social Media)\nBryman’s (1999) sample of British visitors to Disney theme parks\nUseful for hard to find populations e.g. young widowers"
+      },
+      {
+        "heading": "Justify sample size for the design",
+        "body": "Reviewed explanation; original notes retained\nTime, cost, precision/power, heterogeneity, response and intended analysis matter. The n=1000 example is not a universal stopping point, and the Hazelrigg reference is incomplete. Random or nominally representative selection does not automatically permit an arbitrarily small sample. Complex models and small cells need design-specific assessment rather than a blanket rule.\nFactors affecting sample size\nTime and cost\nAfter a certain point (e.g. n=1000), increasing sample size produces less noticeable gains in precision\nVery large samples are decreasingly cost-efficient (Hazelrigg, 2004)\nNon-response\nResponse rate = % of sample who agree to participate (or % who provide usable data)\nResponders and non-responders may differ on a crucial variable\nSome respondents might become disenchanted by a controversial item on your scale (pilot study can identify key issues in your measurement instruments)\nHeterogeneity of the population\nThe more varied the population is, the larger the sample should be\nTypes of analysis to be carried out\nSome techniques require large sample (e.g. contingency table; inferential statistics, CFA/SEM)\nMay depend on sampling method chosen\nCan be relatively small if random/representative"
+      },
+      {
+        "heading": "Survey errors and practical limitations",
+        "body": "Distinguish random sampling error, coverage/non-response, instrument/collection and processing errors. Wording, fatigue, missing data, literacy/access and uncertainty about who responded can affect findings. Some listed limitations apply to a particular self-administered questionnaire, not every survey design.\nErrors in Survey Research\nSampling error\nUnavoidable difference between sample and population\nSampling-related error\nInadequate sampling frame; non-response\nMakes it difficult to generalize findings\nData collection error\nImplementation of survey instrument\ne.g. poor question wording. Piloting the survey instrument will test face/content validity and help you identify problematic items.\nData processing error\nFaulty management of data e.g. coding errors\nPotential disadvantages\nCannot probe or ask impromptu questions\nCan only ask specific questions\nFew open-ended or complex questions\nRespondent can see the whole questionnaire before answering\nCannot always ensure that the ‘right’ person answers\nRespondent fatigue if too many questions\nExcludes people with limited literacy skills\nRisk of missing data\nLower response rates"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "research-measurement-questionnaires",
+    "title": "Measurement scales and questionnaire design",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Design & data",
+    "summary": "Connect variable meaning, coding, question format and respondent experience before selecting a test.",
+    "sections": [
+      {
+        "heading": "Nominal, ordinal, interval and ratio",
+        "body": "Reviewed explanation; original notes retained\nNominal variables label categories; counts are summaries of observations in those categories, not the definition of nominal measurement. Ordinal values express order without guaranteed equal spacing. Interval scales support meaningful equal differences; ratio scales also have a meaningful zero. Height and counts are typically ratio examples, so the source’s “interval” list conflates them with the software’s broad Scale classification.\nInterval data\nNumbers on a regular interval scale e.g. heart rate, height, no. pints drunk per week. In SPSS, ‘Scale data’.\nOrdinal data\nNumbers indicate rank order and nothing more e.g. 1st, 2nd, 3rd place in a race\nNominal data\nCounts of individuals / objects in different categories e.g. numbers of students living on campus and off campus"
+      },
+      {
+        "heading": "Discrete/continuous and level of measurement are different",
+        "body": "Reviewed explanation; original notes retained\nDiscrete/continuous describes possible values or measurement practice; nominal/ordinal/interval/ratio concerns meaning and permitted comparisons. Celsius versus Kelvin temperature illustrates why the unit matters. Income, age, IQ and education need operational definitions and context. Gender and religion categories should suit the question and participants rather than assume one universal coding scheme.\nScale of Measurement\nDiscrete\nNominal\nGender\nReligious\nOrdinal\nEducation\nContinuous\nInterval\nTemperature\nIQ\nRatio\nIncome\nAge"
+      },
+      {
+        "heading": "Question formats and scales",
+        "body": "Open/closed, dichotomous/multiple-category, frequency, ranking, Likert, graphical, semantic differential and nonverbal formats offer different response tasks. A single Likert item and a justified multi-item scale are not automatically interchangeable. “Seminar activities” has no supplied exercise or dataset.\nTypes of Questions\nOpen-ended\nClosed-ended\nDichotomous\nMultichotomous\nFrequency scale\nThe list\nRanking\nLikert scale\nGraphical rating scale\nSemantic differential\nNon-verbal scale\nSeminar activities"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "statistical-test-selection",
+    "title": "Choose a statistical analysis: question, design and assumptions",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Analysis & inference",
+    "summary": "Match an analysis to your question, variables, study design and assumptions.",
+    "sections": [
+      {
+        "heading": "Association is more than “describing a relationship”",
+        "body": "Reviewed explanation; original notes retained\nPearson correlation describes linear association under appropriate measurement and inferential conditions; Spearman uses ranks to assess monotonic association. Regression models a specified outcome given predictors and assumptions. All describe relationships in different senses; the source’s distinction is not valid. Identify dependence, outliers and the intended estimand before choosing.\nSPSS\nData parametric?\nAdditional criteria\nType to use\nRelationship\nYes\nDescribe relationship\nSingle/multi regression\nYes\nDoesn't describe relationship\nPearson's\nNo\nSpearman's"
+      },
+      {
+        "heading": "Repeated or paired measurements",
+        "body": "Reviewed explanation; original notes retained\nPaired t analysis concerns within-pair differences under its conditions; repeated-measures ANOVA models a specified repeated design and additional covariance/sphericity considerations. A paired sign test is not an independent two-sample test; Friedman is a related-samples rank procedure for suitable designs. These are possible tools, not every analysis of two versus three measurements.\nDifference (dependent [paired] samples)\nYes\n2 groups\nPaired T\nYes\n3+ groups\nRepeated measures ANOVA\nNo\n2 groups\nTwo-sample sign-test\nNo\n3+ groups\nFriedman"
+      },
+      {
+        "heading": "Independent groups, factors, covariates and counts",
+        "body": "Reviewed explanation; original notes retained\nA two-group mean comparison needs assumptions and an appropriate variance approach; do not assume a pooled-variance Student test is always suitable. One-way versus factorial ANOVA depends on the number of factors and design, not merely the number of groups. Ordinary ANCOVA is a model with covariates, not a nonparametric fallback alongside Mann–Whitney. Rank tests do not remove independence or design requirements; Mann–Whitney does not universally test a difference in medians without further conditions. Chi-square procedures concern appropriate categorical counts with expected-frequency/design conditions.\nDifference (independent [unpaired] samples)\nYes\n2 groups\nStudent's T\nYes\n3+ groups\n1-way/2-way ANOVA\nNo\n2 groups\nANCOVA & Mann-Whitney\nNo\n3+ groups\nKruskal-Wallis\nAssociation\nChi-square"
+      }
+    ],
+    "sources": [
+      {
+        "title": "IBM SPSS Statistics 30: GLM and its assumptions",
+        "url": "https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=statistics-glm-multivariate-analysis"
+      },
+      {
+        "title": "IBM SPSS Statistics 30: independent-samples nonparametric tests",
+        "url": "https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=tests-choose-independent-samples-nonparametric"
+      },
+      {
+        "title": "IBM SPSS Statistics 30: related-samples tests",
+        "url": "https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=nptests-related-subcommand-command"
+      },
+      {
+        "title": "IBM SPSS Statistics 30: analysis of variance and covariates",
+        "url": "https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=anova-overview-command"
+      }
+    ]
+  },
+  {
+    "slug": "spss-analysis-workflow",
+    "title": "SPSS analysis workflow: describe, check, model and document",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Analysis & inference",
+    "summary": "Follow a practical sequence for checking data, choosing an analysis, interpreting output and documenting decisions.",
+    "sections": [
+      {
+        "heading": "What the output families can and cannot tell you",
+        "body": "Reviewed explanation; original notes retained\nFrequencies, descriptive summaries, crosstabs, correlations, mean comparisons and regression answer different questions. A significance test does not establish a probability that a relationship exists, and regression is more than “correlation plus a constant.” Assess assumptions, estimates, uncertainty and the design. The menu terminology is an undated study note, not verified instructions for an installed version.\nDescriptions\nFrequency Distributions (ordinal and nominal variables)\nCount of the occurrences of values within a particular group or interval\nDescriptive statistics (scale variables)\nHelp describe and understand the features of a specific data set, by giving short summaries about the sample and measures of the data e.g. mean, median, mode\nCross Tabulations\nAllows you analyse the relationship between two variables\nCorrelations\nShow whether and how strongly pairs of variables are related\nChi-Square Tests\nEstablishes how confident we are that there exists a relationship between two variables in a population\nComparing means (t-tests)\nAllows you to test whether a variable’s mean is equal to a particular value or is different to that of another variable in a population\nTests of Correlation\nProvides information about likelihood that variables are statistically associated in a population\nCorrelation and Significance\nHow confident can you be about a relationship between two variables?\nComparing Means\nThere are various statistical tests under the Compare Means function from the Analyze drop down menu\nRegression Analysis\nSimilar to correlation but also gives you a coefficient attached to a constant"
+      },
+      {
+        "heading": "Summaries before inferential claims",
+        "body": "Counts, percentages, missingness, central tendency and dispersion provide context. Record coding, the denominator and the population/sample each table describes; a crosstab alone does not establish causation.\nHypothesis\nFrequency Distributions (ordinal and nominal variables)\nSPSS provides a range of output e.g. cell count, percentages (%) total, as well information on missing cases\nDescriptive statistics (scale variables)\nMeasures of central tendency and dispersion e.g. min, max, mean, and standard deviation.\nDescriptive Analysis\nCross tabulation\nDescriptive analysis by category\nCorrelations"
+      }
+    ],
+    "sources": [
+      {
+        "title": "IBM SPSS Statistics 30: GLM and its assumptions",
+        "url": "https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=statistics-glm-multivariate-analysis"
+      },
+      {
+        "title": "ASA: statistical significance and p-values",
+        "url": "https://www.amstat.org/asa/files/pdfs/P-valuestatement.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "statistical-hypotheses",
+    "title": "Hypotheses and uncertainty: avoid proof-by-p-value",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Analysis & inference",
+    "summary": "Distinguish null/alternative specifications, prespecified directions and evidence under an analysis model.",
+    "sections": [
+      {
+        "heading": "Null, alternative and the question actually tested",
+        "body": "Reviewed explanation; original notes retained\nA null is a specified hypothesis within a test/model; it is not necessarily a status quo held until proven false. The alternative must correspond to the estimand and design. The attendance example shifts from association to a positive causal effect; observational association alone does not justify that causal wording. Report estimates and uncertainty as well as a decision threshold.\nWhat is hypothesis\nNull hypothesis (H0)\nThe status quo that is adopted until it is proven false i.e. effect is absent, there is no association, difference or relationship.\n“There is no relationship between students’ attendance and their academic performance”\nAlternative hypothesis (Ha)\nConverse of null hypothesis which represents the theory that we will adopt when there is corroborative evidence i.e. effect is present, there is an association, difference or relationship\n“Class attendance has a positive effect on students’ academic performance”"
+      },
+      {
+        "heading": "Directional and nondirectional alternatives",
+        "body": "Reviewed explanation; original notes retained\nSpecify direction and analysis before observing results when using confirmatory tests. A directional scientific claim is different from choosing a test tail after seeing the data. Whether a statistic has a one-sided rejection region does not automatically make the scientific alternative directional; the source’s “one side impossible” shortcut is insufficient. The wage and promotional-email examples are teaching hypotheses, not supplied findings.\nSingle-tailed test: directional (X > Y or X < Y)\nPredicts the nature of the difference\n\"Female managers earn less than their male counterparts\"\n\"An increase in the number of promotional emails sent to customers will increase customer complaints\"\nCan also be a default when one of the sides is impossible\nTwo-tailed test: non-directional (X ≠ Y)\nDoes not predict the nature of the difference. You are interested in values above or below the hypothesised value (no specific direction)\n\"There is a difference in the wages earned between employees working in London and the South East\"\nMay be you know that both outcomes are possible or you are not sure"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ASA: statistical significance and p-values",
+        "url": "https://www.amstat.org/asa/files/pdfs/P-valuestatement.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "academic-reference-catalogue",
+    "title": "Academic reference catalogue: find and check a source",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Academic reading",
+    "summary": "Search the supplied readings by subject, theme, author, year, publication type and verification state.",
+    "sections": [
+      {
+        "heading": "What this catalogue contains",
+        "body": "The workbook supplies five reading lists. Multiple works in a cell are separated, exact duplicates share a record, and reconciled fragments retain all original positions. Journal suggestions remain distinct from individual publications; unsupported journal star ratings are preserved only in original-source disclosures."
+      },
+      {
+        "heading": "What the status labels mean",
+        "body": "Metadata checked means registration or publisher/institutional bibliographic details were checked, with a linked record and date. It is separate from reading status and claim-level verification. Incomplete or unresolved records stay searchable and retain the supplied citation. Check the required style, edition and passage before academic use."
+      },
+      {
+        "heading": "Limits of coverage",
+        "body": "The catalogue covers the supplied workbook. Incomplete author/year references in the research handouts remain on the research-evidence guide and are not silently matched to similarly named publications. Four unavailable-download placeholders and the absence of datasets/output are documented on their relevant pages."
+      },
+      {
+        "heading": "Academic reading references",
+        "body": "Aaltonen, K.; Kujala, J. (2016). Towards an improved understanding of project stakeholder landscapes. International Journal of Project Management, 34(8), 1537-1552. https://doi.org/10.1016/j.ijproman.2016.08.009\nAdler, P. S.; Mandelbaum, A.; Nguyen, V.; Schwerer, E. (1995). From Project to Process Management: An Empirically-Based Framework for Analyzing Product Development Time. Management Science, 41(3), 458-484. https://doi.org/10.1287/mnsc.41.3.458\nAgrawal, V, Manyika, JM, and Richards, JE (2003) ‘Matching people and jobs’, The McKinsey Quarterly, Number Two: Organisation, http://premium.mckinseyquarterly.com\nAlarcón, L. F.; Ashley, D. B.; de Hanily, A. S.; Molenaar, K. R.; Ungo, R. (2011). Risk Planning and Management for the Panama Canal Expansion Program. Journal of Construction Engineering and Management, 137(10), 762-771. https://doi.org/10.1061/(asce)co.1943-7862.0000317\nAldrich, P (2008) The role and influence of human resource management in the capital markets and investment banking sector. Doctoral thesis, Durham University.\nAldrich, P. and Dietz, G. and Clark, T. and Hamilton, P. (2015) 'Establishing HR professionals’ influence and credibility: lessons from the capital markets and investment banking sector.', Human resource management., 54 (1). pp. 105-130\nAldrich, P. and Pullman, A. (2019) Building and Outstanding Workforce: Developing People to Drive Individual and Organizational Success. London: Kogan Page\nAlnsour, B. H. (2014). The Use of Virtual Project Teams for Project Management in Jordanian Corporations. Eurasian Journal of Business and Management, 50-60. https://doi.org/10.15604/ejbm.2014.02.02.004\nAlvesson, M. (2013) Understanding Organizational Culture. London: Sage.\nAlvesson, M.; Sveningsson, S. (2015). Changing Organizational Culture: Cultural change work in progress. https://doi.org/10.4324/9781315688404\nAmmeter, A. P.; Douglas, C.; Ferris, G. R.; Goka, H. (2004). A social relationship conceptualization of trust and accountability in organizations. Human Resource Management Review, 14(1), 47-65. https://doi.org/10.1016/j.hrmr.2004.02.003\nAnbari, F., Khilkhanova, E., Romanova, M., Ruggia, M., Tsay, H-H., & Umpleby, S. (2009) Managing Cross-Cultural Differences in Projects. Paper presented at PMI Global Congress, 2009, Orlando.\nAnderson, D. L. (2016) Organization Development: The Process of Leading Organizational Change. Sage: Publications.\nAnderson, V (2013). Research Methods in Human Resource Management: Investigating a Business Issue. London: Kogan Page\nAntila, EM and Kakkonen, A (2008) ‘Factors affecting the role of HR managers in international mergers and acquisitions: A multiple case study’, Personnel Review, Vol. 37, No. 3\nArmstrong, M, and Long, P (1994) ‘The Reality of Strategic HRM’, London, Institute of Personnel and Development\nAtkinson, P. (2015) OD strategies: installing a lean and continuous improvement culture. Management Services 58(4) pp. 12–17.\nAtrill, P., & McLaney, E.J. (2019). Management Accounting for Decision Makers. Pearson Education.\nAxelrod, R. H.; Axelrod, E. M. (2017). The Scholar-Practitioner Mindset: How Texts and Experience Influence Organizational Change Practice. Academy of Management Review, 42(3), 561-571. https://doi.org/10.5465/amr.2016.0224\nAycan, Z.; Kanungo, R.; Mendonca, M.; Yu, K.; Deller, J.; Stahl, G.; Kurshid, A. (2000). Impact of Culture on Human Resource Management Practices: A 10‐Country Comparison. Applied Psychology, 49(1), 192-221. https://doi.org/10.1111/1464-0597.00010\nBaines, P., Fill C., and Rosengren, S. (2016), Marketing - Paperback - Oxford University Press\nBaker, M., & Saren, M. (Eds.). (2016). Marketing Theory: A Student Text (Third ed.). London: Sage.\nBakker, R. M.; Cambré, B.; Korlaar, L.; Raab, J. (2011). Managing the project learning paradox: A set-theoretic approach toward project knowledge transfer. International Journal of Project Management, 29(5), 494-503. https://doi.org/10.1016/j.ijproman.2010.06.002\nBarber, F, and Strack, R (2005) ‘The Surprising Economics of a People Business’, Harvard Business Review, June: 81-80\nBarney, J. (1991). Firm Resources and Sustained Competitive Advantage. Journal of Management, 17(1), 99-120. https://doi.org/10.1177/014920639101700108\nBarney, J. B.; Wright, P. M. (1998). On becoming a strategic partner: The role of human resources in gaining competitive advantage. Human Resource Management, 37(1), 31-46. https://doi.org/10.1002/(sici)1099-050x(199821)37:1%3C31::aid-hrm4%3E3.0.co;2-w\nBarth, M. E.; Cahan, S. F.; Chen, L.; Venter, E. R. (2017). The economic consequences associated with integrated report quality: Capital market and real effects. Accounting, Organizations and Society, 62, 43-64. https://doi.org/10.1016/j.aos.2017.08.005\nBassi, L and McMurrer, D (2007) ‘Maximising your return on people’, Harvard Business Review, March, 115-123\nBecker BE, Huselid, MA, and Ulrich, D (2001) ‘The HR Scorecard: Linking People, Strategy and Performance’, Boston, MA, Harvard Business School Press\nBecker, B. E.; Huselid, M. A.; Pickus, P. S.; Spratt, M. F. (1997). HR as a source of shareholder value: Research and recommendations. Human Resource Management, 36(1), 39-47. https://doi.org/10.1002/(sici)1099-050x(199721)36:1%3C39::aid-hrm8%3E3.0.co;2-x\nBecker, B. E.; Huselid, M. A. (2006). Strategic Human Resources Management: Where Do We Go From Here?. Journal of Management, 32(6), 898-925. https://doi.org/10.1177/0149206306293668\nBecker, BE and Gerhart, B (1996) ‘The impact of human resource management on organizational performance:progress and practice’, Academy of Management Journal, Vol. 39, No. 4: 779-801\nBecker, BE and Huselid, MA (1998) ‘High performance work systems and firm performance: A synthesis of research and managerial implications. In Rowland KM & Ferris GR (Eds.), Research in personnel and human resource management, Greenwich, CT, JAI Press: 53-101\nBeer, M and Spector, B (1985) ‘Corporate-wide transformations in HR management’ in Walton, RE and Lawrence, PR (EDs.) Human Resource Management: HRM Trends and Challenges, Boston, MA, Harvard Business School Press: 219-54\nBeer, M. (1997). The transformation of the human resource function: Resolving the tension between a traditional administrative and a new strategic role. Human Resource Management, 36(1), 49-56. https://doi.org/10.1002/(sici)1099-050x(199721)36:1%3C49::aid-hrm9%3E3.0.co;2-w\nBender, M.B. (2010) A Manager’s Guide to Project Management: Learn How To Apply Best Practices. Upper Saddle River: FT Press.\nBerk, J., & DeMarzo, P. (2015). Corporate Finance (3rd ed.). Harlow: Pearson.\nBlyton, P.; Heery, E.; Turnbull, P. (2011). Reassessing the Employment Relationship. https://doi.org/10.1007/978-0-230-36595-7\nBoselie, P and Pauwee, J (2004) ‘Human resource function competencies in European companies’, Personnel Review, Vol. 34 No. 5: 550-566\nBoudreau, JW and Ramstad, PM (2003) ‘Strategic HRM measurement in the 21st century: From justifying HR to strategic talent leadership’. In Goldsmith, M, Gandossy, RP & Efron, MS (Eds.), ‘HRM in the 21st Century’, New York, Wiley\nBowen, D. E.; Ostroff, C. (2004). Understanding HRM-Firm Performance Linkages: The Role of the \"Strength\" of the HRM System. The Academy of Management Review, 29(2), 203. https://doi.org/10.2307/20159029\nBoxall, P.; Purcell, J. (2000). Strategic human resource management: where have we come from and where should we be going?. International Journal of Management Reviews, 2(2), 183-203. https://doi.org/10.1111/1468-2370.00037\nBoxall, P.; Steeneveld, M. (1999). Human Resource Strategy and Competitive Advantage: A Longitudinal Study of Engineering Consultancies. Journal of Management Studies, 36(4), 443-463. https://doi.org/10.1111/1467-6486.00144\nBoxall, P. F. (1993). The significance of human resource management: a reconsideration of the evidence. The International Journal of Human Resource Management, 4(3), 645-664. https://doi.org/10.1080/09585199300000041\nBrandl, J.; Pohler, D. (2010). The human resource department's role and conditions that affect its development: Explanations from Austrian CEOs. Human Resource Management, 49(6), 1025-1046. https://doi.org/10.1002/hrm.20392\nBrennan, R.; Baines, P.; Garneau, P.; Vos, L. (2008). Contemporary Strategic Marketing. https://doi.org/10.1007/978-0-230-37404-1\nBrockbank, W and Ulrich, D (2003) Competencies for the new HR, University of Michigan Business School, Ann Arbor, MI\nBrockbank, W and Ulrich, D (2005) The HR Value Proposition, Boston, MA, Harvard Business School Publishing\nBrown, D, Caldwell, R, White, K, Atkinson, H, Tansley, T, Goodge, P, Emmott, M (2004) ‘Business partnering: A new direction for HR, London, Chartered Institute of Personnel and Development\nBuchanan, D.; Badham, R. (2008). Power, Politics, and Organizational Change: Winning the Turf Game. https://doi.org/10.4135/9781446280300\nBuchanan, D. A. (2008). You Stab My Back, I'll Stab Yours: Management Experience and Perceptions of Organization Political Behaviour. British Journal of Management, 19(1), 49-64. https://doi.org/10.1111/j.1467-8551.2007.00533.x\nBudhwar, P. S. (2000). Evaluating levels of strategic integration and devolvement of human resource management in the UK. Personnel Review, 29(2), 141-157. https://doi.org/10.1108/00483480010295952\nBuller, PF (1988) ‘Successful partnerships: HR and strategic planning at eight top firms’, Organizational Dynamics, Autumn: 27-43\nBurack, E (1986) ‘Corporate business and human resource planning practices: strategic issues and concerns’, Organizational Dynamics, Vol. 15, No. 1: 73-87\nBurnes, B.; By, R. T. (2012). Leadership and Change: The Case for Greater Ethical Clarity. Journal of Business Ethics, 108(2), 239-252. https://doi.org/10.1007/s10551-011-1088-2\nBusco, C.; Quattrone, P. (2015). Exploring How the Balanced Scorecard Engages and Unfolds: Articulating the Visual Power of Accounting Inscriptions. Contemporary Accounting Research, 32(3), 1236-1262. https://doi.org/10.1111/1911-3846.12105\nBusco, C.; Frigo, M. L.; Riccaboni, A.; Quattrone, P. (2013). Integrated Reporting: Concepts and Cases that Redefine Corporate Accountability. https://doi.org/10.1007/978-3-319-02168-3\nBusco, C.; Malafronte, I.; Pereira, J.; Starita, M. G. (2019). The determinants of companies’ levels of integration: Does one size fit all?. The British Accounting Review, 51(3), 277-298. https://doi.org/10.1016/j.bar.2019.01.002\nBusco, C., Frigo, M.L., Quattrone, P., & Riccaboni, A. (2013). Redefining corporate accountability through integrated reporting. Strategic Finance, 8, 33-41.\nBusco, C., Granà, F., & Quattrone, P. (2017). Integrated thinking. CIMA Research Executive Summary, 13(3), 1-26.\nButler, JE, Ferris, GR and Napier, NK (1991) ‘Strategy and human resources management’ Cincinnati: South-Western\nBuyens, D.; De Vos, A. (2001). Perceptions of the value of the HR function. Human Resource Management Journal, 11(3), 70-89. https://doi.org/10.1111/j.1748-8583.2001.tb00046.x\nCaldwell, R. (2010) Are HR Business Partner Competency Models Effective? Applied HRM Research. Vol 12, No 1. Pp40-58\nCaldwell, R. (2001). Champions, adapters, consultants and synergists: the new change agents in HRM. Human Resource Management Journal, 11(3), 39-52. https://doi.org/10.1111/j.1748-8583.2001.tb00044.x\nCaldwell, R. (2003). The Changing Roles of Personnel Managers: Old Ambiguities, New Uncertainties. Journal of Management Studies, 40(4), 983-1004. https://doi.org/10.1111/1467-6486.00367\nCardinaels, E.; van Veen-Dirks, P. M. G. (2010). Financial versus non-financial information: The impact of information organization and presentation in a Balanced Scorecard. Accounting, Organizations and Society, 35(6), 565-578. https://doi.org/10.1016/j.aos.2010.05.003\nCarnell, C. & Todnem, R. (2014) Managing Change in Organisations. (6th ed.) Harlow: Prentice Hall.\nCaroll, SJ (1991) ‘The new HRM roles, responsibilities and structures’. In Schuler, RS (Ed.), Managing Human Resources in the Information Age, Bureau of National Affairs, Washington, DC, 204-226\nCarroll, B., Ford, J., & Taylor, S. (eds.) (2015) Leadership: Contemporary Critical Perspectives. London: Sage.\nCFO Research Services and Mercer Human Resource Consulting (2003) ‘Human Capital Management: The CFO’s Perspective’, New York, CFO Publishing Corp\nCharon, R, Barton, D, Carey, D (2018) ‘Talent Wins: The New Playbook for Putting People First’. Harvard Business Review Press, Boston, Massachusetts\nChin, C.; Spowage, A.; Yap, E. (2012). Project Management Methodologies: A Comparative Analysis. Journal for the Advancement of Performance Information and Value, 4(1), 106. https://doi.org/10.37265/japiv.v4i1.102\nCIPD, (2007a) ‘The changing HR function’, London, Chartered Institute for Personnel and Development\nCIPD, (2007b) ‘HR business partnering’, www.cipd.co.uk/subjects’corpstrategy/general/hrbusptnr\nCIPD. (2015) Changing HR operating models: a collection of thought pieces. London: CIPD.\nCiutiene, R.; Meiliene, E. (2014). Influence of Cultural Differences on Implementation of International Projects: Sample of International Educational Projects. Journal of Advanced Management Science, 254-259. https://doi.org/10.12720/joams.2.3.254-259\nClegg, S.; Courpasson, D.; Phillips, N. (2006). Power and Organizations. https://doi.org/10.4135/9781446215715\nColbert, B. A. (2004). The Complex Resource-Based View: Implications for Theory and Practice in Strategic Human Resource Management. The Academy of Management Review, 29(3), 341. https://doi.org/10.2307/20159047\nCollins, CJ and Smith, KG (2006) ‘Knowledge exchange and combination: The role of human resource practices in the performance of high-technology firms’, Academy of Management Journal, Vol. 49, No. 3: 544-560\nColman, R (2004) ‘HR transforming to make a bottom line impact’, CMA Management, February, http://www.managementmag.com/index.cfm/ci_id/1331/la_id/1.htm\nCuellar, M. (2010) Assessing project Success: Moving beyond the triple constraint, International Research Workshop on IT Project Management, 2010.13. http://aisel.aisnet.org/irwitpm2010/13\nCummings, T. & Worley, C. (2015) Organizational Development and Change (10th ed.). Mason: Thomson South-Western.\nCunningham, I.; Hyman, J. (1995). Transforming the HRM vision into reality: The role of line managers and supervisors in implementing change. Employee Relations, 17(8), 5-20. https://doi.org/10.1108/01425459510103451\nCunningham, I.; Hyman, J. (1999). Devolving human resource responsibilities to the line: Beginning of the end or a new beginning for personnel?. Personnel Review, 28(1/2), 9-27. https://doi.org/10.1108/00483489910248947\nCurrie, G.; Procter, S. (2001). Exploring the relationship between HR and middle managers. Human Resource Management Journal, 11(3), 53-69. https://doi.org/10.1111/j.1748-8583.2001.tb00045.x\nCutcliffe, J. R.; McKenna, H. P. (2002). When do we know that we know? Considering the truth of research findings and the craft of qualitative research. International Journal of Nursing Studies, 39(6), 611-618. https://doi.org/10.1016/s0020-7489(01)00063-3\nDalziel, S., Strange, J. and Walters, M. (2006) HR business partnering. Toolkit. London: Chartered Institute of Personnel and Development\nDavison, B. (2003). Reviewing corporate financials shows how HR measures up. Employment Relations Today, 30(1), 7-17. https://doi.org/10.1002/ert.10070\nde Villiers, C.; Rinaldi, L.; Unerman, J. (2014). Integrated Reporting: Insights, gaps and an agenda for future research. Accounting, Auditing &amp; Accountability Journal, 27(7), 1042-1067. https://doi.org/10.1108/aaaj-06-2014-1736\nDELANEY, J. T.; HUSELID, M. A. (1996). The impact of human resource management practices on perceptions of organizational performance. Academy of Management Journal, 39(4), 949-969. https://doi.org/10.2307/256718\nDELERY, J. E.; DOTY, D. H. (1996). Modes of Theorizing in Strategic Human Resource Management: Tests of Universalistic, Contingency, and Configurational Performance Predictions. Academy of Management Journal, 39(4), 802-835. https://doi.org/10.2307/256713\nDeloitte (2018). The rise of the social enterprise: 2018 Global Human Capital Trends. Deloitte Insights. https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends/2018/introduction.html\nDevanna, MA, Fombrun, CJ, and Tichy, MN (1984) ‘A framework for strategic human resource management’, In Fombrun, CJ, Tichy, MN, Devanna, MA, (Eds) Strategic Human Resource Management, New York, J Wiley & Sons\nDey, P. K. (2012). Project risk management using multiple criteria decision-making technique and decision tree analysis: a case study of Indian oil refinery. Production Planning &amp; Control, 23(12), 903-921. https://doi.org/10.1080/09537287.2011.586379\nDIDRAGA, O. (2013). The Role and the Effects of Risk Management in IT Projects Success. Informatica Economica, 17(1/2013), 86-98. https://doi.org/10.12948/issn14531305/17.1.2013.08\nDietz, G.; Den Hartog, D. N. (2006). Measuring trust inside organisations. Personnel Review, 35(5), 557-588. https://doi.org/10.1108/00483480610682299\nDinh, J. E.; Lord, R. G.; Gardner, W. L.; Meuser, J. D.; Liden, R. C.; Hu, J. (2014). Leadership theory and research in the new millennium: Current theoretical trends and changing perspectives. The Leadership Quarterly, 25(1), 36-62. https://doi.org/10.1016/j.leaqua.2013.11.005\nDonald, WJ, and Donald, EK (1929) ‘Trends in Personnel Administration’, Harvard Business Review, Vol. 7, No. 2: 143-155\nDumay, J.; Bernardi, C.; Guthrie, J.; Demartini, P. (2016). Integrated reporting: A structured literature review. Accounting Forum, 40(3), 166-185. https://doi.org/10.1016/j.accfor.2016.06.001\nDundon, T. & Rollinson, D. (2011) Understanding Employee Relations, London: McGraw Hill.\nDyer, L (1984a) ‘Linking human resources and business strategies’, Human Resource Planning, Vol. 7, No. 2: 79-84\nDyer, L (1985) ‘Strategic human resource management and planning’. In K Rowland & G Ferris (Eds.), Research in personnel and human resource management, Greenwich CT, JAI Press: 3:1-30.\nDyer, L, and Holder, G (1988) ‘A strategic perspective of human resource management’. In Dyer, L (Ed.) Human Resource Management: Evolving Roles and Responsibilities, Washington, DC: Bureau of National Affairs, 1-46\nDYER, L. (1984). Studying Human Resource Strategy: An Approach and an Agenda. Industrial Relations: A Journal of Economy and Society, 23(2), 156-169. https://doi.org/10.1111/j.1468-232x.1984.tb00894.x\nDyer, L.; Reeves, T. (1995). Human resource strategies and firm performance: what do we know and where do we need to go?. The International Journal of Human Resource Management, 6(3), 656-670. https://doi.org/10.1080/09585199500000041\nDyer, W. G. (1999). Training human resource champions for the twenty-first century. Human Resource Management, 38(2), 119-124. https://doi.org/10.1002/(sici)1099-050x(199922)38:2%3C119::aid-hrm6%3E3.0.co;2-l\nElliott, C.; Stead, V. (2008). Learning from Leading Women's Experience: Towards a Sociological Understanding. Leadership, 4(2), 159-180. https://doi.org/10.1177/1742715008089636\nEly, R. J.; Ibarra, H.; Kolb, D. M. (2011). Taking Gender Into Account: Theory and Design for Women's Leadership Development Programs. Academy of Management Learning &amp; Education, 10(3), 474-493. https://doi.org/10.5465/amle.2010.0046\nEmmott, M. (2015). Employment relations over the last 50 years: confrontation, consensus or neglect?. Employee Relations, 37(6), 658-669. https://doi.org/10.1108/er-07-2015-0140\nEuropean Journal of Marketing (3*)\nEvaristo, R. (2003). The Management of Distributed Projects Across Cultures. Journal of Global Information Management, 11(4), 58-70. https://doi.org/10.4018/jgim.2003100104\nFerris, G. R.; Judge, T. A. (1991). Personnel/Human Resources Management: A Political Influence Perspective. Journal of Management, 17(2), 447-488. https://doi.org/10.1177/014920639101700208\nFerris, G. R.; Arthur, M. M.; Berkson, H. M.; Kaplan, D. M.; Harrell-Cook, G.; Frink, D. D. (1998). Toward a social context theory of the human resource management-organization effectiveness relationship. Human Resource Management Review, 8(3), 235-264. https://doi.org/10.1016/s1053-4822(98)90004-3\nFerris, G. R.; Fedor, D. B.; King, T. R. (1994). A political conceptualization of managerial behavior. Human Resource Management Review, 4(1), 1-34. https://doi.org/10.1016/1053-4822(94)90002-7\nFerris, G. R.; Hochwarter, W. A.; Buckley, M. R.; Harrell-Cook, G.; Frink, D. D. (1999). Human Resources Management: Some New Directions. Journal of Management, 25(3), 385-415. https://doi.org/10.1177/014920639902500306\nFerris, GR, Galang, MC, Thornton, ML and Wayne, S (1995) ‘A power and politics perspective on human resource management’. In GR Ferris, SD, Rosen & DT, Barnum (Eds) ‘Handbook of human resource management’, 13: 100-114, Oxford, Blackwell\nFischer, H.; Mittorp, K. D. (2002). How HR measures support risk management: The Deutsche bank example. Human Resource Management, 41(4), 477-490. https://doi.org/10.1002/hrm.10055\nFisher, C.; Dowling, P. J. (1999). Support for an HR Approach in Australia: The Perspective of Senior HR Managers. Asia Pacific Journal of Human Resources, 37(1), 1-19. https://doi.org/10.1177/103841119903700102\nFisher, C. D. (1989). Current and Recurrent Challenges in HRM. Journal of Management, 15(2), 157-180. https://doi.org/10.1177/014920638901500203\nFitz-enz, J (2002) ‘How to Measure Human Resources Management’, New York, McGraw Hill\nFombrun CJ, Tichy, NM, and Devanna, MA (1984) ‘Strategic Human Resource and Business Management’, New York, Wiley\nFrancis, H.; Keegan, A. (2006). The changing face of HRM: in search of balance. Human Resource Management Journal, 16(3), 231-249. https://doi.org/10.1111/j.1748-8583.2006.00016.x\nGalang, M. C.; Ferris, G. R. (1997). Human Resource Department Power and Influence Through Symbolic Action. Human Relations, 50(11), 1403-1426. https://doi.org/10.1177/001872679705001104\nGanesan, S.; Hess, R. (1997). Dimensions and Levels of Trust: Implications for Commitment to a Relationship. Marketing Letters, 8(4), 439-448. https://doi.org/10.1023/a:1007955514781\nGary, L (2003) ‘The new ROI: Return on individuals’, Harvard Business School Working Knowledge, http://www.hbswk.hbs.edu\nGennard, J.; Kelly, J. (1994). Human Resource Management: the Views of Personnel Directors. Human Resource Management Journal, 5(1), 15-30. https://doi.org/10.1111/j.1748-8583.1994.tb00357.x\nGennard, J. & Judge, G. (2010) Managing Employment Relationships. London: CIPD.\nGeorgalis, J.; Samaratunge, R.; Kimberley, N.; Lu, Y. (2015). Change process characteristics and resistance to organisational change: The role of employee perceptions of justice. Australian Journal of Management, 40(1), 89-113. https://doi.org/10.1177/0312896214526212\nGerhart, B.; Milkovich, G. T. (1990). Organizational differences in managerial compensation and financial performance. Academy of Management Journal, 33(4), 663-691. https://doi.org/10.2307/256286\nGitzendanner, C, Misa, K, and Stein T (1983) ‘’Management’s involvement in the strategic utilization of the human resource’ Management Review, Vol. 72, No.10: 13-17\nGlenn, R.W & Guerrero, L. (2016) Cases in Leadership. (4th ed.). London: Sage.\nGolden, K. A.; Ramanujam, V. (1985). Between a dream and a nightmare: On the integration of the human resource management and strategic business planning processes. Human Resource Management, 24(4), 429-452. https://doi.org/10.1002/hrm.3930240405\nGoodge, P (2004) ‘Partnering journeys’ In Brown, D, Caldwell, R, White, K, Atkinson, H, Tansley, T, Goodge, P, Emmott, M, (Eds.) ‘Business partnering: A new direction for HR’, London, Chartered Institute of Personnel Directors\nGraham, M. E.; Tarbell, L. M. (2006). The importance of the employee perspective in the competency development of human resource professionals. Human Resource Management, 45(3), 337-355. https://doi.org/10.1002/hrm.20116\nGraham, N. (2008) PRINCE2 for Dummies. Chichester: Wiley.\nGreatbanks, R.; Tapp, D. (2007). The impact of balanced scorecards in a public sector environment: Empirical evidence from Dunedin City Council, New Zealand. International Journal of Operations &amp; Production Management, 27(8), 846-873. https://doi.org/10.1108/01443570710763804\nGriffin, E., Finney, L., Hennessey, J. and Boury, D. (2009) Maximising the value of HR business partnering: a practical research-based guide. Horsham: Roffey Park Institute.\nGroysberg. B, Nanda, A, and Nohria, N (2004) ‘The Risky Business of Hiring Stars’, Harvard Business Review, May:Reprint R0405F:1-9\nGrundy, T, and Brown, L (2003) ‘Value-based Human Resource Strategy: developing your consultancy role’, Oxford, Butterworth Heinemann\nGuenole, N, Ferrar, J, Feinzig, S (2017) ‘The Power of People’ Cisco Press, Indianapolis\nGuest, D, Peccei, R, and Dewe, P (2002) ‘Human resource management and organizational performance: a test of the universalistic and contingency-based configurational arguments’, Management Centre Research Paper, Kings College London, April\nGuest, D.; King, Z. (2004). Power, Innovation and Problem‐Solving: The Personnel Managers’ Three Steps to Heaven?. Journal of Management Studies, 41(3), 401-423. https://doi.org/10.1111/j.1467-6486.2004.00438.x\nGuest, D. E. (2001). Human resource management: when research confronts theory. The International Journal of Human Resource Management, 12(7), 1092-1106. https://doi.org/10.1080/09585190110067837\nGuest, D. E. (1990). Human resource management and the American dream. Journal of Management Studies, 27(4), 377-397. https://doi.org/10.1111/j.1467-6486.1990.tb00253.x\nGuest, D. E. (1997). Human resource management and performance: a review and research agenda. The International Journal of Human Resource Management, 8(3), 263-276. https://doi.org/10.1080/095851997341630\nGuest, D. E.; Michie, J.; Conway, N.; Sheehan, M. (2003). Human Resource Management and Corporate Performance in the UK. British Journal of Industrial Relations, 41(2), 291-314. https://doi.org/10.1111/1467-8543.00273\nGuest, DE (1989a) ‘Human resource management: its implications for industrial relations and trade unions’. In Storey, J (Ed.), New perspectives on Human Resource Management, London, Routledge: 41-55\nGuest, DE (1989b) ‘Personnel and HRM: Can you tell the difference ?’, Personnel Management, Vol. 21:48-51\nGuthridge, M, Komm, AB, Lawson, E (2008) ‘Making talent a strategic priority’, The McKinsey Quarterly, August:49-59\nHall, L and Torrington, D (1998) The Human Resource Function: the Dynamics of Change and Development, London, Pittman Publishing, Financial Times\nHandy, L.; Barham, K.; Panter, S.; Winhard, A. (1989). Beyond the Personnel Function: The Strategic Management of Human Resources. Journal of European Industrial Training, 13(1). https://doi.org/10.1108/eum0000000000182\nHarris, E. (2009) Strategic Project Risk Appraisal and Management. Farnham: Gower.\nHarvard Business Review (3*)\nHaung, MP, Cheng, BS and Chou, LF (2005) ‘Fitting in organisational values- the mediating role of person-organization fit between CEO charismatic leadership and employee outcomes’, International Journal of Manpower, Vol. 26, No. 1: 35-49\nHegarty, W. H.; Hoffman, R. C. (1987). Who influences strategic decisions?. Long Range Planning, 20(2), 76-85. https://doi.org/10.1016/0024-6301(87)90009-4\nHendry, C.; Pettigrew, A. (1990). Human resource management: an agenda for the 1990s. The International Journal of Human Resource Management, 1(1), 17-43. https://doi.org/10.1080/09585199000000038\nHODGSON, D. (2002). Disciplining the professional: the case of project management. Journal of Management Studies, 39(6), 803-821. https://doi.org/10.1111/1467-6486.00312\nHolt Larsen, H.; Brewster, C. (2003). Line management responsibility for HRM: what is happening in Europe?. Employee Relations, 25(3), 228-244. https://doi.org/10.1108/01425450310475838\nHooley, G. J., Piercy, N. and Nicoulaud, B. (2017) Marketing strategy & competitive positioning. 6th ed. Harlow: Financial Times Prentice Hall.\nHope-Hailey, V,Gratton, L and McGovern, P (1997) ‘A chameleon function ? HRM in the ‘90s’, Human Resource Management Journal, Vol. 7, No. 3: 5-18\nHoque, Z. (2014). 20 years of studies on the balanced scorecard: Trends, accomplishments, gaps and opportunities for future research. The British Accounting Review, 46(1), 33-59. https://doi.org/10.1016/j.bar.2013.10.003\nHuczynski, A. & Buchanan, D. Organizational Behaviour, Pearson, pp. 765-766\nHughes, M. (2010) Managing Change. A Critical Perspective. London: CIPD.\nHunter, I., Saunders, J., Boroughs, A. and Constance, S. (2006) HR Business Partners, Aldershot: Gower.\nHUSELID, M. A. (1995). The impact of human resource management practices on turnover, productivity, and corporate financial performance. Academy of Management Journal, 38(3), 635-672. https://doi.org/10.2307/256741\nHUSELID, M. A.; BECKER, B. E. (1996). Methodological Issues in Cross‐Sectional and Panel Estimates of the Human Resource‐Firm Performance Link. Industrial Relations: A Journal of Economy and Society, 35(3), 400-422. https://doi.org/10.1111/j.1468-232x.1996.tb00413.x\nHUSELID, M. A.; JACKSON, S. E.; SCHULER, R. S. (1997). Technical and strategic human resources management effectiveness as determinants of firm performance. Academy of Management Journal, 40(1), 171-188. https://doi.org/10.2307/257025\nIchniowski, C, Shaw, K, and Prennushi, G (1997) ‘The effects of human resource management practices on productivity: a study of steel finishing lines’, American Economic Review, Vol. 87: 291-334\nICHNIOWSKI, C.; KOCHAN, T. A.; LEVINE, D.; OLSON, C.; STRAUSS, G. (1996). What Works at Work: Overview and Assessment. Industrial Relations: A Journal of Economy and Society, 35(3), 299-333. https://doi.org/10.1111/j.1468-232x.1996.tb00409.x\nInternational Integrated Reporting Council (2013). International <IR> Framework (2013). International Integrated Reporting Council. https://www.ifrs.org/issued-standards/integrated-reporting/framework/\nJackson, B. & Parry, K. (2011) A Very Short, Fairly Interesting and Reasonably Cheap Book about Studying Leadership. London: Sage\nJackson, S. E.; Schuler, R. S. (1995). Understanding Human Resource Management in the Context of Organizations and their Environments. Annual Review of Psychology, 46(1), 237-264. https://doi.org/10.1146/annurev.ps.46.020195.001321\nJACKSON, S. E.; SCHULER, R. S.; RIVERO, J. C. (1989). Organizational characteristics as predictors of personnel practices. Personnel Psychology, 42(4), 727-786. https://doi.org/10.1111/j.1744-6570.1989.tb00674.x\nJobber, D. and Ellis-Chadwick, F. (2016) Principles and practice of marketing. Eighth edition. London: McGraw-Hill Education.\nJones, GR, and Wright, PM (1992) ‘An economic approach to conceptualizing the utility of human resource management practices’. In Rowland, K and Ferris, G (Eds.) Research in personnel and human resources management, Vol. 10: 271-299\nJoslin, R. & Muller, R. (2015) Relationships between a project management methodology and project success in different project governance contexts. International Journal of Project Management 33(6) pp 1377–1392.\nJournal of Marketing (4*)\nJournal of Marketing Management (2*)\nJournal of Strategic Marketing (2*)\nKaliba, C.; Muya, M.; Mumba, K. (2009). Cost escalation and schedule delays in road construction projects in Zambia. International Journal of Project Management, 27(5), 522-531. https://doi.org/10.1016/j.ijproman.2008.07.003\nKane, B.; Palmer, I. (1995). Strategic HRM or managing the employment relationship?. International Journal of Manpower, 16(5/6), 6-21. https://doi.org/10.1108/01437729510095917\nKane, B.; Crawford, J.; Grant, D. (1999). Barriers to effective HRM. International Journal of Manpower, 20(8), 494-516. https://doi.org/10.1108/01437729910302705\nKaplan, R. S. (2010). Conceptual Foundations of the Balanced Scorecard. Harvard Business School Working Paper 10-074. https://www.hbs.edu/ris/download.aspx?name=10-074.pdf\nKaplan, R.S., & Norton, D.P. (2007). Using the balanced scorecard as a strategic management System. Harvard Business Review. July/August.\nKeenoy, T (1997) ‘Review Article: HRMism and the languages of re-presentation’, Journal of Management Studies, Vol. 34, No. 5: 825-841\nKeenoy, T. (1999). HRM as Hologram: A Polemic. Journal of Management Studies, 36(1), 1-23. https://doi.org/10.1111/1467-6486.00123\nKelly, J and Gennard, J (2001) Power in the boardroom, New York, NY, Routledge\nKelly, J. (2001). The role of the personnel/HR function in multinational companies. Employee Relations, 23(6), 536-557. https://doi.org/10.1108/eum0000000006267\nKelly, J.; Gennard, J. (1996). The role of personnel directors on the board of directors. Personnel Review, 25(1), 7-24. https://doi.org/10.1108/00483489610147825\nKelly, J.; Gennard, J. (2007). Business strategic decision making: the role and influence of directors. Human Resource Management Journal, 17(2), 99-117. https://doi.org/10.1111/j.1748-8583.2007.00038.x\nKenton, B.; Yarnall, J. (2010). HR - The Business Partner. https://doi.org/10.4324/9780080478395\nKerin, R. A. and Peterson, R. A. (2013) Strategic marketing problems: cases and comments. Thirteenth edition. Harlow, Essex: Pearson Education Limited\nKerr, J. L.; Jackofsky, E. F. (1989). Aligning managers with strategies: Management development versus selection. Strategic Management Journal, 10(S1), 157-170. https://doi.org/10.1002/smj.4250100712\nKerzner, H. (2010) Project Management Best Practices: Achieving Global Excellence. (2nd ed.) Hoboken: Wiley & Sons.\nKingsnorth, S. (2016) Digital Marketing Strategy: An integrated approach to online marketing. London: Kogan Page.\nKotler, P., Armstrong, G, and Opresnik, M. O. (2018) Principles of Marketing . 17th Global edn. Harlow, Essex, England: Pearson.\nKrackardt, D, and Hanson, JR (1993) ‘Informal networks: The company behind the chart’, Harvard Business Review, July-August: 104-111\nLawler, E (1995) ‘Strategic human resource management: an idea whose time has come’. In Downie, B, and Coates, M (Eds.), Managing Human Resources in the 1990s and Beyond, IRC Press, Kingston, 46-70\nLawler, EE (2017) ‘Reinventing Talent Management: Principles and Practices for the New World of Work’. Berrett-Koehler Publishers, Oakland.\nLawler, EE and Mohrman, SA (2003) ‘HR as a strategic partner: What does it take to make it happen ?’, Human Resource Planning, Vol. 26, No. 5: 15\nLawler, EE, Levenson, A, Boudreau, JW (2004), ‘HR metrics and analytics: use and impact’, Human Resource Planning, Vol. 27, No. 4: 27-35\nLawson, E, Mueller-Oerlinghausen, J, and Shearn, JA (2005) ‘A dearth of HR talent’, McKinsey Quarterly, 2, McKinsey & Company, www.mckinseyquarterly.com: 13-14\nLegge, K (1978) Power, Innovation and Problem Solving in Personnel Management, London, McGraw Hill\nLegge, K. (2005). Human Resource Management: Rhetorics and Realities. https://doi.org/10.1007/978-1-137-03601-8\nLengnick-Hall, C. A.; Lengnick-Hall, M. L. (1988). Strategic Human Resources Management: A Review of the Literature and a Proposed Typology. The Academy of Management Review, 13(3), 454. https://doi.org/10.2307/258092\nLengnick-Hall, CA, and Lengnick-Hall, ML (1990) Interactive human resource management and strategic planning, New York, Quorum Books.\nLepak, D. P.; Snell, S. A. (1999). The Human Resource Architecture: Toward a Theory of Human Capital Allocation and Development. The Academy of Management Review, 24(1), 31. https://doi.org/10.2307/259035\nLepak, D. P.; Marrone, J. A.; Takeuchi, R. (2004). The relativity of HR systems: conceptualising the impact of desired employee contributions and HR philosophy. International Journal of Technology Management, 27(6/7), 639. https://doi.org/10.1504/ijtm.2004.004907\nLientz, P.B. & Ria, P.K. (2011) Project Management for the 21st Century. (3rd ed.) Routledge.\nLoo, S. C.; Abdul-Rahman, H.; Wang, C. (2013). Managing External Risks for International Architectural, Engineering, and Construction (AEC) Firms Operating in Gulf Cooperation Council (GCC) States. Project Management Journal, 44(5), 70-88. https://doi.org/10.1002/pmj.21365\nLorsch, JW and Tierney, TJ (2002) ‘Aligning the Stars: How to Succeed when Professionals Drive Results’, Boston, MA, Harvard Business School Press\nLosey, M. R. (1999). Mastering the competencies of HR management. Human Resource Management, 38(2), 99-102. https://doi.org/10.1002/(sici)1099-050x(199922)38:2%3C99::aid-hrm3%3E3.0.co;2-t\nMacduffie, J. P. (1995). Human Resource Bundles and Manufacturing Performance: Organizational Logic and Flexible Production Systems in the World Auto Industry. Industrial and Labor Relations Review, 48(2), 197. https://doi.org/10.2307/2524483\nMarchington, M.; Grugulis, I. (2000). 'Best practice' human resource management: perfect opportunity or dangerous illusion?. The International Journal of Human Resource Management, 11(6), 1104-1124. https://doi.org/10.1080/09585190050177184\nMarchington, M. & Wilkinson, A. (2012) Employee involvement and participation: Creating engagement and voice in the workplace. In: Marchington, M. & Wilkinson, A. (eds.) Human Resource Management at Work. (5th ed.) CIPD. pp. 344–370.\nMarkel, K. S.; Barclay, L. A. (2007). The intersection of risk management and human resources: an illustration using genetic mapping. International Journal of Risk Assessment and Management, 7(3), 326. https://doi.org/10.1504/ijram.2007.011986\nMartell, K.; Carroll, S. J. (1995). How strategic is HRM?. Human Resource Management, 34(2), 253-267. https://doi.org/10.1002/hrm.3930340203\nMatos, S.; Lopes, E. (2013). Prince2 or PMBOK – A Question of Choice. Procedia Technology, 9, 787-794. https://doi.org/10.1016/j.protcy.2013.12.087\nMaxwell, G.; Farquharson, L. (2008). Senior managers' perceptions of the practice of human resource management. Employee Relations, 30(3), 304-322. https://doi.org/10.1108/01425450810866550\nMaylor, H. (2010) Project Management. (4th ed.) Harlow: Prentice Hall.\nMayo, A (2001) ‘The Human Value of The Enterprise’; London, Nicholas Brealy Publishing\nMcCracken, M.; O'Kane, P.; Brown, T. C.; McCrory, M. (2017). Human resource business partner lifecycle model: exploring how the relationship between HRBPs and their line manager partners evolves. Human Resource Management Journal, 27(1), 58-74. https://doi.org/10.1111/1748-8583.12125\nMcDonald, M., Wilson, H. and ebrary, Inc (2011) Marketing plans: how to prepare them, how to use them. 7th ed. Chichester, West Sussex, U.K.: Wiley.\nMcGovern, P (1999) ‘HRM policies and management practices’. In Gratton, L, Hope Hailey, V, Stiles, P, and Truss, C, (Eds.) Strategic Human Resource Management, New York, NY, Oxford University Press: 133-152\nMEYER, A. D.; TSUI, A. S.; HININGS, C. R. (1993). Configurational approaches to organizational analysis. Academy of Management Journal, 36(6), 1175-1195. https://doi.org/10.2307/256809\nMeyer, H (1976) ‘Personnel directors are the new corporate heroes’, Fortune, Vol. 93: 84-88\nMeyer, J. W.; Rowan, B. (1977). Institutionalized Organizations: Formal Structure as Myth and Ceremony. American Journal of Sociology, 83(2), 340-363. https://doi.org/10.1086/226550\nMichael, E, Handfield-Jones, H, and Axelrod, B (2001) ‘The War for Talent’, Boston, MA, Harvard Business School Press\nMichie, J.; Sheehan, M. (2005). Business strategy, human resources, labour market flexibility and competitive advantage. The International Journal of Human Resource Management, 16(3), 445-464. https://doi.org/10.1080/0958519042000339598\nMiles, R. E.; Snow, C. C. (1984). Designing strategic human resources systems. Organizational Dynamics, 13(1), 36-52. https://doi.org/10.1016/0090-2616(84)90030-5\nMilkovich, GT (1988) ‘A strategic perspective on compensation management’. In G Ferris & K Rowland (Eds.), Research in personnel and human resource management, Greenwich, CT, JAI Press: 6: 263-288\nMiller, P (1989), ‘Strategic human resource management: what it is and what it isn't’ Personnel Management, Vol. 10: 46-51.\nMilliman, J.; von Glinow, M. A.; Nathan, M. (1991). Organizational Life Cycles and Strategic International Human Resource Management in Multinational Companies: Implications for Congruence Theory. The Academy of Management Review, 16(2), 318. https://doi.org/10.2307/258864\nMinavand, H.; Farahmandian, S.; Minaei, V. (2013). HR Challenges of Project Managers. IOSR Journal of Business and Management, 11(5), 40-45. https://doi.org/10.9790/487x-1154045\nMohrman, SA, Lawler, LE, McMahan, GC (1996) New directions for the human resources organization, New York, Human Resource Planning Society\nNalbantian HR, Guzzo, RA, Kieffer, D and Doherty, J (2003) ‘Play to Your Strengths: Managing Your Internal Labor Markets for lasting Competitive Advantage’, New York, NY, McGraw Hill\nNewton, R. (2009). The Practice and Theory of Project Management. https://doi.org/10.1007/978-1-137-14314-3\nNininger, JR (1980) Human resources and strategic planning: a vital link’ Optimum, Vol. 11, No. 4: 33-46\nNorthouse, P.G. (2010) Leadership: Theory and Practice. Thousand Oaks: Sage.\nNørreklit, H.; Mitchell, F. (2014). Contemporary issues on the balance scorecard. Journal of Accounting &amp; Organizational Change, 10(4). https://doi.org/10.1108/jaoc-04-2014-0026\nOchieng, E.G. & Price, A.D.F. (2009) Addressing cultural issues when managing multicultural construction project teams. Association of Researchers in Construction Management pp. 1273–1282.\nPapadkis, VM and Barwise, P (2002), ‘How much do CEOs and top managers matter in strategic decision making’ British Journal of Management, Vol. 13, No. 1: 83-95\nPatterson, M, West, M, Lawthom, R, and Nickell, S (1997) ‘Impact of people management practices on business performance’, Issues in People Management No. 22, London: IPD\nPettigrew, AM (1973) The politics of organizational decision making, London, Tavistock\nPfeffer, J (1994) Competitive Advantage Through People, Boston, MA, Harvard Business School Press\nPfeffer, J (2002) Managing with Power, Politics and Influence in Orgainizations, Boston, MA, Harvard Business School Press\nPfeffer, J. (2001). Fighting the war for talent is hazardous to your organization’s health. Organizational Dynamics, 29(4), 248-259. https://doi.org/10.1016/s0090-2616(01)00031-6\nPhelps, R (2004) ‘Measurement: Why HR must seize the opportunity’, Strategic HR Review, Vol. 3, No. 2: 16-17\nPinto, J. K. (2016) Project Management: Achieving Competitive Advantage. (4th ed.) Pearson.\nPoole, M.; Jenkins, G. (1997). Responsibilities for human resource management practices in the modern enterprise: Evidence from Britain. Personnel Review, 26(5), 333-356. https://doi.org/10.1108/00483489710176039\nPritchard, K. (2010). Becoming an HR strategic partner: tales of transition. Human Resource Management Journal, 20(2), 175-188. https://doi.org/10.1111/j.1748-8583.2009.00107.x\nPurcell, J and Ahlstrand, B (1994) Human Resource Management in the Multi divisional Company, Oxford, Oxford University Press 22, No. 2: 179-205\nRaelin, J. A. (2016). Leadership-as-Practice: Theory and Application. https://doi.org/10.4324/9781315684123\nReilly, P. (2015) HR business partners: yes please or no thanks? A paper from HR in a disordered world: IES Perspectives on HR 2015. Brighton: Institute for Employment Studies.\nRichard, O. C.; Johnson, N. B. (2001). Strategic human resource management effectiveness and firm performance. The International Journal of Human Resource Management, 12(2), 299-310. https://doi.org/10.1080/09585190121674\nRitzer, G, and Trice, HM (1969) An Occupation in Conflict, New York: Cornell University Press\nRodrigues, I.; Sbragia, R. (2013). The Cultural Challenges of Managing Global Project Teams: A Study of Brazilian Multinationals. Journal of technology management &amp; innovation, 8, 7-8. https://doi.org/10.4067/s0718-27242013000300004\nRuss, G. S.; Galang, M. C.; Ferris, G. R. (1998). Power and influence of the human resources function through boundary spanning and information management. Human Resource Management Review, 8(2), 125-148. https://doi.org/10.1016/s1053-4822(98)80001-6\nSalterio, S. (2012). Balancing the scorecard through academic accounting research: opportunity lost?. Journal of Accounting &amp; Organizational Change, 8(4), 458-474. https://doi.org/10.1108/18325911211273473\nSarkar, S. & Kovid, R.K. (2015) Framework of risk factors and financing implications for road projects in India: Study of selected cases. Pacific Business Review International 8(2) pp. 110–122.\nSaá-Pérez, P. D.; GarcÍa-FalcÓn, J. M. (2002). A resource-based view of human resource management and organizational capabilities development. The International Journal of Human Resource Management, 13(1), 123-140. https://doi.org/10.1080/09585190110092848\nSchein, H.E. (2004) Organizational Culture and Leadership (3rd edition). San Francisco: Jossey-Bass.\nSchuler, R. S. (1990). Repositioning the Human Resource Function: Transformation or Demise?. Academy of Management Perspectives, 4(3), 49-60. https://doi.org/10.5465/ame.1990.4274667\nSchuler, R. S.; MacMillan, I. C. (1984). Gaining competitive advantage through human resource management practices. Human Resource Management, 23(3), 241-255. https://doi.org/10.1002/hrm.3930230304\nSchuler, R. S.; Budhwar, P. S.; Florkowski, G. W. (2002). International Human Resource Management: Review and Critique. International Journal of Management Reviews, 4(1), 41-70. https://doi.org/10.1111/1468-2370.00076\nSchuler, R. S.; Dowling, P. J.; Cieri, H. D. (1993). An integrative framework of strategic international human resource management. The International Journal of Human Resource Management, 4(4), 717-764. https://doi.org/10.1080/09585199300000056\nSchuler, RS, and Jackson, SE (1987a) ‘Linking competitive strategies with human resource management practices’, Academy of Management Executive, Vol. 1, No. 3: 207-219\nSchuler, RS, and Jackson, SE (1987b) ‘Gaining competitive advantage through human resource management practices’, Human Resource Planning, Vol. 10, No. 3: 125-141\nSchuler, RS, and Jackson, SE (1988) ‘Linking remuneration practices to innovation as a competitive strategy’, Human Resource Management Australia, Vol. 10: 6-21\nSchwalbe, K. (2016) Information Technology Project Management. (8th ed.) Boston: Cengage.\nSenior, B. & Swailes, S. (2016) Organizational Change (5th ed.). Harlow: Pearson.\nSheehan, C. (2005). A model for HRM strategic integration. Personnel Review, 34(2), 192-209. https://doi.org/10.1108/00483480510579420\nSheehan, C.; Cooper, B.; Holland, P.; Cieri, H. D. (2007). The relationship between HRM avenues of political influence and perceived organizational performance. Human Resource Management, 46(4), 611-629. https://doi.org/10.1002/hrm.20184\nShipton, J.; McAuley, J. (1993). Issues of Power and Marginality In Personnel. Human Resource Management Journal, 4(1), 1-13. https://doi.org/10.1111/j.1748-8583.1993.tb00327.x\nSmircich, L. (1983). Concepts of Culture and Organizational Analysis. Administrative Science Quarterly, 28(3), 339. https://doi.org/10.2307/2392246\nSnell, SA (2002) ‘Social capital and strategic HRM: it's who you know’, Human Resource Planning, Vol. 22 No.1:62-65\nSnell, SA, Youndt, MA, and Wright, PM (1996) ‘Establishing a framework for research in human resource management: Merging resource theory and organisational learning’, Research in Personnel and Human Resource Management, Vol. 14: 61-90\nSnow, CC and Snell, SA (1993) ‘Staffing as strategy’. In N. Schmitt, WC Borman, & Associates (Eds.), Personnel Selection in Organizations, San Francisco, CA, Jossey Bass\nSparrow, PR and Marchington, M (1998) Human Resource Management: The New Agenda, London, Pittman Publishing\nStead, V.; Elliott, C. (2013). Women’s leadership learning: A reflexive review of representations and leadership teaching. Management Learning, 44(4), 373-394. https://doi.org/10.1177/1350507612449504\nStephens, C. (2015) Are HR business partners a dying breed?People Management. February. pp36-37.\nStewart, J (2006) Cross Culture Project Management. Paper presented at PMI® Global Congress 2006—North America, Seattle, WA. Newtown Square, PA: Project Management Institute.\nStorey, J (1987) ‘Developments in the management of human resources: an interim report’, Warwick Papers in Industrial Relations, 17, IRRU, School of Industrial and Business Studies, University of Warwick (November)\nStorey, J (1992) Developments in the Management of Human Resources, Oxford, Blackwell\nStrauss, G. (2001). HRM in the USA: correcting some British impressions. The International Journal of Human Resource Management, 12(6), 873-897. https://doi.org/10.1080/09585190122941\nStraw, G. (2015) Understanding Project Management: Skills and Insight for Successful Project Delivery. Kogan Page: London.\nSuchman, M. C. (1995). Managing Legitimacy: Strategic and Institutional Approaches. The Academy of Management Review, 20(3), 571. https://doi.org/10.2307/258788\nSundaram, A. K.; Black, J. S. (1992). The Environment and Internal Organization of Multinational Enterprises. The Academy of Management Review, 17(4), 729. https://doi.org/10.2307/258806\nSvoboda, M.; Schröder, S. (2001). Transforming Human Resources in the New Economy: Developing the Next Generation of Global HR Managers at Deutsche Bank AG. Human Resource Management, 40(3), 261-273. https://doi.org/10.1002/hrm.1016\nTERPSTRA, D. E.; ROZELL, E. J. (1993). The relationship of staffing practices to organizational level measures of performance. Personnel Psychology, 46(1), 27-48. https://doi.org/10.1111/j.1744-6570.1993.tb00866.x\nToo, E. G.; Weaver, P. (2014). The management of project management: A conceptual framework for project governance. International Journal of Project Management, 32(8), 1382-1394. https://doi.org/10.1016/j.ijproman.2013.07.006\nTorrington, D and Hall, L (1991) Personnel Management: A new approach, London, Prentice Hall\nToulson, P. K.; Dewe, P. (2004). HR accounting as a measurement tool. Human Resource Management Journal, 14(2), 75-90. https://doi.org/10.1111/j.1748-8583.2004.tb00120.x\nTownley, B (1994) ‘ Reframing Human Resources Management’, London, Sage\nTruss, C (2003) Strategic HRM: enablers and constraints in the NHS’, The International Journal of Public Sector Management, Vol 16, No. 1: 48-60\nTruss, C.; Gratton, L.; Hope‐Hailey, V.; Stiles, P.; Zaleska, J. (2002). Paying the piper: choice and constraint in changing HR functional roles. Human Resource Management Journal, 12(2), 39-63. https://doi.org/10.1111/j.1748-8583.2002.tb00063.x\nTurner, J.; Mavin, S. (2008). What can we learn from senior leader narratives? The strutting and fretting of becoming a leader. Leadership &amp; Organization Development Journal, 29(4), 376-391. https://doi.org/10.1108/01437730810876168\nTyson, S (1987) ‘The management of the personnel function’, Journal of Management Studies, 24(5), 523-532\nTyson, S and Fell, A (1986) Evaluating the Personnel Function, London: Hutchison\nUlrich, D (1997) Human Resource Champions, Boston, MA, Harvard Business School Press\nUlrich, D (2008) Challenges and opportunities for HR: How HR can and should deliver, London, Conference paper, HR Leadership Council, November\nUlrich, D, and Brockbank, W (2005) ‘HR’s New Mandate: Be a Strategic Player’, Harvard Business School: Working Knowledge, June 20th, http://workingknowledge.hbs.edu\nUlrich, D, Brockbank, W, Younger, J, Ulrich, M (2013) Global HR Competencies: Mastering Competitive Value from the Outside-In. McGraw-Hill, USA\nUlrich, D., Brockbank, W., Johnson, D., Sandholtz, K. and Younger, J. (2008). ‘HR Competencies: Mastery at the Intersection of People and Business’. Alexandria, VA: Society of Human Resource Management.\nUlrich, D., Younger, J. and Brockbank, W. (2012) HR from the outside in: six competencies for the future of human resources. New York: McGraw Hill.\nvan Marrewijk, A.; Ybema, S.; Smits, K.; Clegg, S.; Pitsis, T. (2016). Clash of the Titans: Temporal Organizing and Collaborative Dynamics in the Panama Canal Megaproject. Organization Studies, 37(12), 1745-1769. https://doi.org/10.1177/0170840616655489\nvan Nistelrooij, A.; Sminia, H. (2010). Organization Development: What's Actually Happening?. Journal of Change Management, 10(4), 407-420. https://doi.org/10.1080/14697017.2010.516487\nVogel, T.; Wanke, M. (2016). Attitudes and Attitude Change. https://doi.org/10.4324/9781315754185\nWalker, J (1978) ‘Linking human resource planning and strategic planning’, Human Resource Planning, Vol 1: 1-18\nWall, T. D.; Wood, S. J. (2005). The romance of human resource management and business performance, and the case for big science. Human Relations, 58(4), 429-462. https://doi.org/10.1177/0018726705055032\nWatson, A and Woolridge, B (2005) ‘Business unit manager influence on corporate level strategy formulation, Journal of Managerial Issues, Vol 17, No. 2: 147-161\nWatson, G. & Reissner, S. (2010) Developing Skills for Business Leadership. London: CIPD.\nWatson, S, Maxwell, G and Farquharson, L (2007) ‘Line manager’s views on adopting human resource roles: the case of Hilton (UK) hotels’, Employee Relations, Vol. 27, No’s 1-2: 30-49\nWatson, T. J. (2003). Strategists and Strategy‐making: Strategic Exchange and the Shaping of Individual Lives and Organizational Futures. Journal of Management Studies, 40(5), 1305-1323. https://doi.org/10.1111/1467-6486.00381\nWatson, T. J. (2004). HRM and Critical Social Science Analysis. Journal of Management Studies, 41(3), 447-467. https://doi.org/10.1111/j.1467-6486.2004.00440.x\nWatson, TJ (1977) ‘The Personnel Managers: A Study in the Sociology of Work and Employment’, London, Routledge\nWatson, TJ (2002) ‘Organising and Managing Work: Organisational, Managerial and Strategic Behaviour in Theory and Practice’, Harlow, FT Prentice-Hall\nWeiss, DS (2000) ‘High performance HR: Leveraging human resources for competitive advantage’ Toronto, John Wiley & Sons\nWeiss, DS and Finn, R (2005) ‘HR metrics that count: Aligning human capital management to business results’, Human Resource Planning, Vol. 28, No. 1: 33-38\nWenger, E. (2000). Communities of Practice and Social Learning Systems. Organization, 7(2), 225-246. https://doi.org/10.1177/135050840072002\nWernerfelt, B. (1984). A resource‐based view of the firm. Strategic Management Journal, 5(2), 171-180. https://doi.org/10.1002/smj.4250050207\nWhitmore, J (2017) ‘Coaching for Performance’. Nicholas Brealey Publishing. London\nWood, S. (1995). The Four Pillars of HRM: Are They Connected?. Human Resource Management Journal, 5(5), 49-59. https://doi.org/10.1111/j.1748-8583.1995.tb00389.x\nWood, S.; Albanese, M. T. (1995). Can we speak of a high commitment management on the shop floor?. Journal of Management Studies, 32(2), 215-247. https://doi.org/10.1111/j.1467-6486.1995.tb00341.x\nWood, S.; de Menezes, L. (1998). High Commitment Management in the U.K.: Evidence from the Workplace Industrial Relations Survey, and Employers' Manpower and Skills Practices Survey. Human Relations, 51(4), 485-515. https://doi.org/10.1177/001872679805100403\nWorren, N. A. M.; Ruddle, K.; Moore, K. (1999). From Organizational Development to Change Management: The Emergence of a New Profession. The Journal of Applied Behavioral Science, 35(3), 273-286. https://doi.org/10.1177/0021886399353002\nWright, L. (2015). HR in the Boardroom. https://doi.org/10.1057/9781137450913\nWright, P. M.; McMahan, G. C. (1992). Theoretical Perspectives for Strategic Human Resource Management. Journal of Management, 18(2), 295-320. https://doi.org/10.1177/014920639201800205\nWright, P. M.; Snell, S. A. (1991). Toward an integrative view of strategic human resource management. Human Resource Management Review, 1(3), 203-225. https://doi.org/10.1016/1053-4822(91)90015-5\nWright, P. M.; Snell, S. A. (1998). Toward a Unifying Framework for Exploring Fit and Flexibility in Strategic Human Resource Management. The Academy of Management Review, 23(4), 756. https://doi.org/10.2307/259061\nWright, P. M.; Dunford, B. B.; Snell, S. A. (2001). Human resources and the resource based view of the firm. Journal of Management, 27(6), 701-721. https://doi.org/10.1177/014920630102700607\nWRIGHT, P. M.; GARDNER, T. M.; MOYNIHAN, L. M.; PARK, H. J.; GERHART, B.; DELERY, J. E. (2001). Measurement error in research on human resources and firm performance: additional data and suggestions for future research. Personnel Psychology, 54(4), 875-901. https://doi.org/10.1111/j.1744-6570.2001.tb00235.x\nWright, P. M.; Mccormick, B.; Sherman, W. S.; Mcmahan, G. C. (1999). The role of human resource practices in petro-chemical refinery performance. The International Journal of Human Resource Management, 10(4), 551-571. https://doi.org/10.1080/095851999340260\nWright, P. M.; McMahan, G. C.; McWilliams, A. (1994). Human resources and sustained competitive advantage: a resource-based perspective. The International Journal of Human Resource Management, 5(2), 301-326. https://doi.org/10.1080/09585199400000020\nWright, P. M.; McMahan, G. C.; McCormick, B.; Sherman, W. S. (1998). Strategy, core competence, and HR involvement as determinants of HR effectiveness and refinery performance. Human Resource Management, 37(1), 17-29. https://doi.org/10.1002/(sici)1099-050x(199821)37:1%3C17::aid-hrm3%3E3.0.co;2-y\nWright, P. M.; McMahan, G. C.; Snell, S. A.; Gerhart, B. (2001). Comparing Line and HR Executives' Perceptions of HR Effectiveness: Services, Roles, and Contributions. Human Resource Management, 40(2), 111-123. https://doi.org/10.1002/hrm.1002\nWright, PM (1998) ‘Strategy-HR fit: Does it really matter ?, Human Resource Planning, Vol. 21, No. 4: 56-57\nWright, PM, and Snell, SA (1999) ‘Social capital and strategic HRM: It's who you know’, Human Resource Planning, Vol. 22: 62-65.\nYOUNDT, M. A.; SNELL, S. A.; DEAN, JR., J. W.; LEPAK, D. P. (1996). Human resource management, manufacturing strategy, and firm performance. Academy of Management Journal, 39(4), 836-866. https://doi.org/10.2307/256714\nYoungdahl, W.; Moran, R. T. (2008). Leading Global Projects. https://doi.org/10.4324/9780080887975\nYounger, J.; Younger, A.; Thompson, N. (2011). Developing the skills of HR business partnership: consulting and change management. Strategic HR Review, 10(1), 6-14. https://doi.org/10.1108/14754391111091751\nZhu, W.; Chew, I. K. H.; Spangler, W. D. (2005). CEO transformational leadership and organizational outcomes: The mediating role of human–capital-enhancing human resource management. The Leadership Quarterly, 16(1), 39-52. https://doi.org/10.1016/j.leaqua.2004.06.001"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "reading-map-financial-performance",
+    "title": "Read financial-performance research: measures, reporting and interpretation",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Academic reading",
+    "summary": "Read scorecards and integrated reporting as research questions about measurement, use and consequences.",
+    "sections": [
+      {
+        "heading": "Begin with measurement and use",
+        "body": "Kaplan’s conceptual account provides a starting point for the scorecard’s development. Compare it with work on the organization/presentation of financial and non-financial information and the way scorecards are used. These are different questions; none is a universal instruction to maximize the number of measures."
+      },
+      {
+        "heading": "Review reporting evidence and its limits",
+        "body": "Integrated-reporting studies and reviews address different settings and outcomes. Read the actual design, definitions and version of the reporting framework before applying an association to another jurisdiction or claiming a financial benefit."
+      },
+      {
+        "heading": "Read with context",
+        "body": "The starting selection is deliberately limited. The complete supplied bibliography remains accessible in the catalogue, including incomplete records. Publication type, metadata status and reading/claim status are displayed separately. A title-based reading lead is not a claim that every work has been read or endorsed."
+      },
+      {
+        "heading": "Academic reading references",
+        "body": "Kaplan, R. S. (2010). Conceptual Foundations of the Balanced Scorecard. Harvard Business School Working Paper 10-074. https://www.hbs.edu/ris/download.aspx?name=10-074.pdf\nCardinaels, E.; van Veen-Dirks, P. M. G. (2010). Financial versus non-financial information: The impact of information organization and presentation in a Balanced Scorecard. Accounting, Organizations and Society, 35(6), 565-578. https://doi.org/10.1016/j.aos.2010.05.003\nBusco, C.; Quattrone, P. (2015). Exploring How the Balanced Scorecard Engages and Unfolds: Articulating the Visual Power of Accounting Inscriptions. Contemporary Accounting Research, 32(3), 1236-1262. https://doi.org/10.1111/1911-3846.12105\nBarth, M. E.; Cahan, S. F.; Chen, L.; Venter, E. R. (2017). The economic consequences associated with integrated report quality: Capital market and real effects. Accounting, Organizations and Society, 62, 43-64. https://doi.org/10.1016/j.aos.2017.08.005\nde Villiers, C.; Rinaldi, L.; Unerman, J. (2014). Integrated Reporting: Insights, gaps and an agenda for future research. Accounting, Auditing &amp; Accountability Journal, 27(7), 1042-1067. https://doi.org/10.1108/aaaj-06-2014-1736\nHoque, Z. (2014). 20 years of studies on the balanced scorecard: Trends, accomplishments, gaps and opportunities for future research. The British Accounting Review, 46(1), 33-59. https://doi.org/10.1016/j.bar.2013.10.003\nInternational Integrated Reporting Council (2013). International <IR> Framework (2013). International Integrated Reporting Council. https://www.ifrs.org/issued-standards/integrated-reporting/framework/"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "reading-map-marketing",
+    "title": "Read marketing research: theory, positioning and plans",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Academic reading",
+    "summary": "Find a starting route through marketing concepts, strategic choices, planning and digital channels.",
+    "sections": [
+      {
+        "heading": "Build the conceptual map",
+        "body": "The supplied textbooks connect general principles with strategy, competitive positioning and cases. Use the cited edition as a specific source rather than replacing its year with the newest edition by assumption. Read which market, customer and evidence the argument concerns."
+      },
+      {
+        "heading": "Move from plans to digital decisions",
+        "body": "The combined workbook cell contains two books: marketing plans and digital marketing strategy. Their practical guidance should be assessed against the question and historical context. Journal suggestions help locate research but are not themselves article citations or verified current rankings."
+      },
+      {
+        "heading": "Read with context",
+        "body": "The starting selection is deliberately limited. The complete supplied bibliography remains accessible in the catalogue, including incomplete records. Publication type, metadata status and reading/claim status are displayed separately. A title-based reading lead is not a claim that every work has been read or endorsed."
+      },
+      {
+        "heading": "Academic reading references",
+        "body": "Baker, M., & Saren, M. (Eds.). (2016). Marketing Theory: A Student Text (Third ed.). London: Sage.\nBrennan, R.; Baines, P.; Garneau, P.; Vos, L. (2008). Contemporary Strategic Marketing. https://doi.org/10.1007/978-0-230-37404-1\nHooley, G. J., Piercy, N. and Nicoulaud, B. (2017) Marketing strategy & competitive positioning. 6th ed. Harlow: Financial Times Prentice Hall.\nKotler, P., Armstrong, G, and Opresnik, M. O. (2018) Principles of Marketing . 17th Global edn. Harlow, Essex, England: Pearson.\nMcDonald, M., Wilson, H. and ebrary, Inc (2011) Marketing plans: how to prepare them, how to use them. 7th ed. Chichester, West Sussex, U.K.: Wiley.\nKingsnorth, S. (2016) Digital Marketing Strategy: An integrated approach to online marketing. London: Kogan Page.\nJobber, D. and Ellis-Chadwick, F. (2016) Principles and practice of marketing. Eighth edition. London: McGraw-Hill Education.\nJournal of Marketing (4*)"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "reading-map-change-leadership",
+    "title": "Read change and leadership research: culture, power and practice",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Academic reading",
+    "summary": "Connect organizational change with competing perspectives on culture, leadership, justice and learning.",
+    "sections": [
+      {
+        "heading": "Culture and change are contested concepts",
+        "body": "Use cultural perspectives alongside organizational-development and change-management discussions. Compare assumptions, units of analysis, context and forms of evidence, rather than ranking all approaches on a single maturity scale."
+      },
+      {
+        "heading": "Examine leadership, ethics and participation",
+        "body": "The supplied readings include ethical clarity, employee justice perceptions, leadership research, learning and communities of practice. Treat each as a reading lead until its specific argument and evidence have been examined; metadata verification is not evidence of effectiveness."
+      },
+      {
+        "heading": "Read with context",
+        "body": "The starting selection is deliberately limited. The complete supplied bibliography remains accessible in the catalogue, including incomplete records. Publication type, metadata status and reading/claim status are displayed separately. A title-based reading lead is not a claim that every work has been read or endorsed."
+      },
+      {
+        "heading": "Academic reading references",
+        "body": "Alvesson, M.; Sveningsson, S. (2015). Changing Organizational Culture: Cultural change work in progress. https://doi.org/10.4324/9781315688404\nSmircich, L. (1983). Concepts of Culture and Organizational Analysis. Administrative Science Quarterly, 28(3), 339. https://doi.org/10.2307/2392246\nWorren, N. A. M.; Ruddle, K.; Moore, K. (1999). From Organizational Development to Change Management: The Emergence of a New Profession. The Journal of Applied Behavioral Science, 35(3), 273-286. https://doi.org/10.1177/0021886399353002\nvan Nistelrooij, A.; Sminia, H. (2010). Organization Development: What's Actually Happening?. Journal of Change Management, 10(4), 407-420. https://doi.org/10.1080/14697017.2010.516487\nBurnes, B.; By, R. T. (2012). Leadership and Change: The Case for Greater Ethical Clarity. Journal of Business Ethics, 108(2), 239-252. https://doi.org/10.1007/s10551-011-1088-2\nGeorgalis, J.; Samaratunge, R.; Kimberley, N.; Lu, Y. (2015). Change process characteristics and resistance to organisational change: The role of employee perceptions of justice. Australian Journal of Management, 40(1), 89-113. https://doi.org/10.1177/0312896214526212\nDinh, J. E.; Lord, R. G.; Gardner, W. L.; Meuser, J. D.; Liden, R. C.; Hu, J. (2014). Leadership theory and research in the new millennium: Current theoretical trends and changing perspectives. The Leadership Quarterly, 25(1), 36-62. https://doi.org/10.1016/j.leaqua.2013.11.005\nWenger, E. (2000). Communities of Practice and Social Learning Systems. Organization, 7(2), 225-246. https://doi.org/10.1177/135050840072002\nAxelrod, R. H.; Axelrod, E. M. (2017). The Scholar-Practitioner Mindset: How Texts and Experience Influence Organizational Change Practice. Academy of Management Review, 42(3), 561-571. https://doi.org/10.5465/amr.2016.0224"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "reading-map-project-management",
+    "title": "Read project research: governance, stakeholders, risk and delivery",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Academic reading",
+    "summary": "Distinguish governance and project-management methods from empirical questions about outcomes and context.",
+    "sections": [
+      {
+        "heading": "Start with governance and the stakeholder landscape",
+        "body": "Read the distinction between governance, sponsorship, portfolio choice and delivery support, then compare how stakeholder landscapes and collaborative tensions are studied. Corrected citation metadata does not remove the need to read the underlying design."
+      },
+      {
+        "heading": "Compare risk, methods and international context",
+        "body": "Risk-appraisal cases, methods comparisons and distributed/cross-cultural projects examine different settings. Check how success is defined, which observations were collected and what the design can support before generalizing to another project."
+      },
+      {
+        "heading": "Read with context",
+        "body": "The starting selection is deliberately limited. The complete supplied bibliography remains accessible in the catalogue, including incomplete records. Publication type, metadata status and reading/claim status are displayed separately. A title-based reading lead is not a claim that every work has been read or endorsed."
+      },
+      {
+        "heading": "Academic reading references",
+        "body": "Too, E. G.; Weaver, P. (2014). The management of project management: A conceptual framework for project governance. International Journal of Project Management, 32(8), 1382-1394. https://doi.org/10.1016/j.ijproman.2013.07.006\nAaltonen, K.; Kujala, J. (2016). Towards an improved understanding of project stakeholder landscapes. International Journal of Project Management, 34(8), 1537-1552. https://doi.org/10.1016/j.ijproman.2016.08.009\nvan Marrewijk, A.; Ybema, S.; Smits, K.; Clegg, S.; Pitsis, T. (2016). Clash of the Titans: Temporal Organizing and Collaborative Dynamics in the Panama Canal Megaproject. Organization Studies, 37(12), 1745-1769. https://doi.org/10.1177/0170840616655489\nAlarcón, L. F.; Ashley, D. B.; de Hanily, A. S.; Molenaar, K. R.; Ungo, R. (2011). Risk Planning and Management for the Panama Canal Expansion Program. Journal of Construction Engineering and Management, 137(10), 762-771. https://doi.org/10.1061/(asce)co.1943-7862.0000317\nChin, C.; Spowage, A.; Yap, E. (2012). Project Management Methodologies: A Comparative Analysis. Journal for the Advancement of Performance Information and Value, 4(1), 106. https://doi.org/10.37265/japiv.v4i1.102\nDey, P. K. (2012). Project risk management using multiple criteria decision-making technique and decision tree analysis: a case study of Indian oil refinery. Production Planning &amp; Control, 23(12), 903-921. https://doi.org/10.1080/09537287.2011.586379\nEvaristo, R. (2003). The Management of Distributed Projects Across Cultures. Journal of Global Information Management, 11(4), 58-70. https://doi.org/10.4018/jgim.2003100104\nRodrigues, I.; Sbragia, R. (2013). The Cultural Challenges of Managing Global Project Teams: A Study of Brazilian Multinationals. Journal of technology management &amp; innovation, 8, 7-8. https://doi.org/10.4067/s0718-27242013000300004"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "reading-map-strategic-hr",
+    "title": "Read strategic HR research: performance, partnering and competing explanations",
+    "topic": "Research Methods & Academic Skills",
+    "group": "Academic reading",
+    "summary": "Navigate the large HR list through strategy, operating roles, measurement, power and employee perspectives.",
+    "sections": [
+      {
+        "heading": "Compare strategic explanations",
+        "body": "Resource-based, fit/flexibility and strategic-HRM perspectives propose different explanations. Identify the theory, organizational level and contribution rather than treating every strategic label as the same model."
+      },
+      {
+        "heading": "Read the performance debate critically",
+        "body": "Performance studies, reviews and critiques differ in measurement and design. Read them together and ask about timing, alternative explanations, error and the distinction between a reported association and a causal conclusion."
+      },
+      {
+        "heading": "Roles, influence and the employee perspective",
+        "body": "The supplied readings extend beyond performance: business partnering, line relationships, power, legitimacy, trust, capabilities and employee perspectives. Use the catalogue’s themes to reach the complete list, including research-method references whose original sheet happened to be HR."
+      },
+      {
+        "heading": "Read with context",
+        "body": "The starting selection is deliberately limited. The complete supplied bibliography remains accessible in the catalogue, including incomplete records. Publication type, metadata status and reading/claim status are displayed separately. A title-based reading lead is not a claim that every work has been read or endorsed."
+      },
+      {
+        "heading": "Academic reading references",
+        "body": "Barney, J. (1991). Firm Resources and Sustained Competitive Advantage. Journal of Management, 17(1), 99-120. https://doi.org/10.1177/014920639101700108\nWernerfelt, B. (1984). A resource‐based view of the firm. Strategic Management Journal, 5(2), 171-180. https://doi.org/10.1002/smj.4250050207\nWright, P. M.; McMahan, G. C. (1992). Theoretical Perspectives for Strategic Human Resource Management. Journal of Management, 18(2), 295-320. https://doi.org/10.1177/014920639201800205\nWright, P. M.; Snell, S. A. (1998). Toward a Unifying Framework for Exploring Fit and Flexibility in Strategic Human Resource Management. The Academy of Management Review, 23(4), 756. https://doi.org/10.2307/259061\nWright, P. M.; Dunford, B. B.; Snell, S. A. (2001). Human resources and the resource based view of the firm. Journal of Management, 27(6), 701-721. https://doi.org/10.1177/014920630102700607\nHUSELID, M. A. (1995). The impact of human resource management practices on turnover, productivity, and corporate financial performance. Academy of Management Journal, 38(3), 635-672. https://doi.org/10.2307/256741\nGuest, D. E. (1997). Human resource management and performance: a review and research agenda. The International Journal of Human Resource Management, 8(3), 263-276. https://doi.org/10.1080/095851997341630\nWall, T. D.; Wood, S. J. (2005). The romance of human resource management and business performance, and the case for big science. Human Relations, 58(4), 429-462. https://doi.org/10.1177/0018726705055032\nWRIGHT, P. M.; GARDNER, T. M.; MOYNIHAN, L. M.; PARK, H. J.; GERHART, B.; DELERY, J. E. (2001). Measurement error in research on human resources and firm performance: additional data and suggestions for future research. Personnel Psychology, 54(4), 875-901. https://doi.org/10.1111/j.1744-6570.2001.tb00235.x\nCaldwell, R. (2001). Champions, adapters, consultants and synergists: the new change agents in HRM. Human Resource Management Journal, 11(3), 39-52. https://doi.org/10.1111/j.1748-8583.2001.tb00044.x\nFrancis, H.; Keegan, A. (2006). The changing face of HRM: in search of balance. Human Resource Management Journal, 16(3), 231-249. https://doi.org/10.1111/j.1748-8583.2006.00016.x\nGraham, M. E.; Tarbell, L. M. (2006). The importance of the employee perspective in the competency development of human resource professionals. Human Resource Management, 45(3), 337-355. https://doi.org/10.1002/hrm.20116\nMcCracken, M.; O'Kane, P.; Brown, T. C.; McCrory, M. (2017). Human resource business partner lifecycle model: exploring how the relationship between HRBPs and their line manager partners evolves. Human Resource Management Journal, 27(1), 58-74. https://doi.org/10.1111/1748-8583.12125\nSuchman, M. C. (1995). Managing Legitimacy: Strategic and Institutional Approaches. The Academy of Management Review, 20(3), 571. https://doi.org/10.2307/258788\nCutcliffe, J. R.; McKenna, H. P. (2002). When do we know that we know? Considering the truth of research findings and the craft of qualitative research. International Journal of Nursing Studies, 39(6), 611-618. https://doi.org/10.1016/s0020-7489(01)00063-3"
+      }
+    ],
+    "sources": []
+  },
+  {
     "slug": "strategy-growth",
     "title": "Strategy & Growth",
     "topic": "Business & Management",
     "group": "Explore business",
     "summary": "Understand the situation, choose a direction and assess the resources and trade-offs behind growth.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Understand the situation, choose a direction and assess the resources and trade-offs behind growth."
+      }
+    ],
     "sources": []
   },
   {
@@ -13378,7 +14029,12 @@
     "topic": "Business & Management",
     "group": "Explore business",
     "summary": "Understand the customer, choose a market position, coordinate the offer and measure execution.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Understand the customer, choose a market position, coordinate the offer and measure execution."
+      }
+    ],
     "sources": []
   },
   {
@@ -13387,7 +14043,12 @@
     "topic": "Business & Management",
     "group": "Explore business",
     "summary": "Connect identity and customer meaning with communication, experience, equity and portfolio decisions.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Connect identity and customer meaning with communication, experience, equity and portfolio decisions."
+      }
+    ],
     "sources": []
   },
   {
@@ -13396,7 +14057,12 @@
     "topic": "Business & Management",
     "group": "Explore business",
     "summary": "Find suitable customers, support buying decisions and improve the ongoing customer experience.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Find suitable customers, support buying decisions and improve the ongoing customer experience."
+      }
+    ],
     "sources": []
   },
   {
@@ -13405,7 +14071,12 @@
     "topic": "Business & Management",
     "group": "Explore business",
     "summary": "Define the offer, test concepts, develop products and learn through design and market feedback.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Define the offer, test concepts, develop products and learn through design and market feedback."
+      }
+    ],
     "sources": []
   },
   {
@@ -13414,7 +14085,12 @@
     "topic": "Business & Management",
     "group": "Explore business",
     "summary": "Lead teams, understand culture, develop people and navigate organizational change.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Choose a focused path through leadership and culture, people systems or organizational change. Negotiation connects the paths when interests differ."
+      }
+    ],
     "sources": []
   },
   {
@@ -13423,7 +14099,12 @@
     "topic": "Business & Management",
     "group": "Explore business",
     "summary": "Coordinate everyday delivery, manage operating risk and turn performance measures into improvements.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Coordinate everyday delivery, manage operating risk and turn performance measures into improvements."
+      }
+    ],
     "sources": []
   },
   {
@@ -13432,7 +14113,12 @@
     "topic": "Communication & Personal Development",
     "group": "NLP reference",
     "summary": "Explore the supplied language patterns, perspectives, sorting terms and development claims without confusing descriptions with validated methods.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "This reference preserves the collection’s definitions and examples. It distinguishes communication prompts, mixed personality terminology, metaphors and therapeutic claims."
+      }
+    ],
     "sources": [
       {
         "title": "Sturt et al. (2012): systematic review of NLP health outcomes",
@@ -13446,7 +14132,12 @@
     "topic": "Business & Management",
     "group": "Strategy classics",
     "summary": "Read all thirteen supplied chapters, with concise introductions and clearly separated business reflections.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Read in chapter order or choose a theme. The historical text remains accessible in full; the modern reflections are editorial additions, not claims made by the original author."
+      }
+    ],
     "sources": [
       {
         "title": "Project Gutenberg: Lionel Giles translation (comparison edition)",
@@ -13460,7 +14151,12 @@
     "topic": "Process Improvement",
     "group": "Six Sigma & process improvement",
     "summary": "Explore variation, Lean, DMAIC/DMADV, robust design and quality methods within Process Improvement.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Use this focused collection for Six Sigma and quality improvement. Explore the parent Process Improvement hub for organizational maturity and capability."
+      }
+    ],
     "sources": [
       {
         "title": "ASQ: Six Sigma overview",
@@ -13474,7 +14170,12 @@
     "topic": "Beliefs & Mysteries",
     "group": "Freemasonry & symbolism",
     "summary": "Read every supplied ceremony in thirteen linked readings, with speaker labels, stage directions, supporting explanations and source limitations.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Read every supplied ceremony in thirteen linked readings, with speaker labels, stage directions, supporting explanations and source limitations."
+      }
+    ],
     "sources": []
   },
   {
@@ -13483,7 +14184,12 @@
     "topic": "Finance & Accounting",
     "group": "Explore finance",
     "summary": "Understand statements, recognition, measurement and the accounting terms behind the numbers.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Understand statements, recognition, measurement and the accounting terms behind the numbers."
+      }
+    ],
     "sources": []
   },
   {
@@ -13492,7 +14198,12 @@
     "topic": "Finance & Accounting",
     "group": "Explore finance",
     "summary": "Interpret liquidity, leverage, profitability, earnings and commercial metrics with their assumptions.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Interpret liquidity, leverage, profitability, earnings and commercial metrics with their assumptions."
+      }
+    ],
     "sources": []
   },
   {
@@ -13501,7 +14212,12 @@
     "topic": "Finance & Accounting",
     "group": "Explore finance",
     "summary": "Follow cash movements, liquidity buffers and the operating cash cycle.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Follow cash movements, liquidity buffers and the operating cash cycle."
+      }
+    ],
     "sources": []
   },
   {
@@ -13510,7 +14226,12 @@
     "topic": "Finance & Accounting",
     "group": "Explore finance",
     "summary": "Connect reliable information, planning, forecasting and decision-focused reporting.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Connect reliable information, planning, forecasting and decision-focused reporting."
+      }
+    ],
     "sources": []
   },
   {
@@ -13519,7 +14240,12 @@
     "topic": "Finance & Accounting",
     "group": "Explore finance",
     "summary": "Examine discounting, capital, investment and acquisition-accounting assumptions.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Examine discounting, capital, investment and acquisition-accounting assumptions."
+      }
+    ],
     "sources": []
   },
   {
@@ -13528,7 +14254,12 @@
     "topic": "Finance & Accounting",
     "group": "Explore finance",
     "summary": "Explore payment controls, reporting risks and the distinct transfer-pricing questions.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Explore payment controls, reporting risks and the distinct transfer-pricing questions."
+      }
+    ],
     "sources": []
   },
   {
@@ -13537,7 +14268,12 @@
     "topic": "Finance & Accounting",
     "group": "Explore finance",
     "summary": "Connect value creation, capitals and reporting context without confusing historical rules with current obligations.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Connect value creation, capitals and reporting context without confusing historical rules with current obligations."
+      }
+    ],
     "sources": []
   },
   {
@@ -13546,7 +14282,12 @@
     "topic": "Finance & Accounting",
     "group": "Explore finance",
     "summary": "Understand finance responsibilities and plan relevant technical and interpersonal development.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Understand finance responsibilities and plan relevant technical and interpersonal development."
+      }
+    ],
     "sources": []
   },
   {
@@ -13555,7 +14296,12 @@
     "topic": "Business & Management",
     "group": "Explore leadership, people & change",
     "summary": "Compare leadership practices, understand organizational culture and connect teams, structure, responsibility and influence.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Compare leadership practices, understand organizational culture and connect teams, structure, responsibility and influence."
+      }
+    ],
     "sources": []
   },
   {
@@ -13564,7 +14310,12 @@
     "topic": "Business & Management",
     "group": "Explore leadership, people & change",
     "summary": "Diagnose the situation, choose an approach and develop the organization’s capacity to carry change through.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Diagnose the situation, choose an approach and develop the organization’s capacity to carry change through."
+      }
+    ],
     "sources": []
   },
   {
@@ -13573,7 +14324,12 @@
     "topic": "Business & Management",
     "group": "Explore leadership, people & change",
     "summary": "Connect an HR operating model and talent practices with fair treatment, employee voice, engagement and healthy working conditions.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Connect an HR operating model and talent practices with fair treatment, employee voice, engagement and healthy working conditions."
+      }
+    ],
     "sources": []
   },
   {
@@ -13582,7 +14338,12 @@
     "topic": "Communication & Personal Development",
     "group": "Personality narratives & metaphors",
     "summary": "Read humorous profiles and workplace caricatures with clear distinctions between stories, reflection and validated assessment.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Read humorous profiles and workplace caricatures with clear distinctions between stories, reflection and validated assessment."
+      }
+    ],
     "sources": []
   },
   {
@@ -13591,7 +14352,12 @@
     "topic": "Finance & Accounting",
     "group": "Explore finance",
     "summary": "Understand cost behavior, allocation, activity drivers and the difference between gross profit and contribution.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Understand cost behavior, allocation, activity drivers and the difference between gross profit and contribution."
+      }
+    ],
     "sources": []
   },
   {
@@ -13600,7 +14366,12 @@
     "topic": "Finance & Accounting",
     "group": "Explore finance",
     "summary": "Understand assets and vehicles, portfolio methods, performance evidence, private capital and institutional investors.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Understand assets and vehicles, portfolio methods, performance evidence, private capital and institutional investors."
+      }
+    ],
     "sources": []
   },
   {
@@ -13609,7 +14380,12 @@
     "topic": "Property & Housing",
     "group": "Singapore property",
     "summary": "Choose the transaction or responsibility you are working on. Read the reviewed explanation first; expand original notes for historical figures and unresolved wording.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Choose the transaction or responsibility you are working on. Read the reviewed explanation first; expand original notes for historical figures and unresolved wording."
+      }
+    ],
     "sources": []
   },
   {
@@ -13618,7 +14394,12 @@
     "topic": "Business & Management",
     "group": "Explore leadership, people & change",
     "summary": "Examine purpose, affected people, ethical reasoning and responsible conduct through focused reading paths.",
-    "sections": [],
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Start with the decision and who it affects. Compare ethical reasons, governance expectations, practical responsibilities and the evidence behind historical examples."
+      }
+    ],
     "sources": []
   }
 ]

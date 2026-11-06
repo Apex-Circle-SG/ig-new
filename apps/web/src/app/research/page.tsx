@@ -172,6 +172,11 @@ export default async function Research() {
           </div>
         </div>
       </section>
+      <section className={styles.section}>
+        <h2>Learn how research works</h2>
+        <p>Plan a study, evaluate evidence, choose statistical methods and find academic reading.</p>
+        <Link href="/library/knowledge/research-methods-academic-skills/">Explore Research Methods &amp; Academic Skills →</Link>
+      </section>
       <FinanceTrust
         updatedAt="2026-09-13"
         formulaVersion="cps-income-overview-v1"

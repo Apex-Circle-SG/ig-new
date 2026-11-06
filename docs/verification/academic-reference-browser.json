@@ -1,0 +1,84 @@
+{
+  "checks": [
+    {
+      "width": 390,
+      "filter": "Subject",
+      "values": 7
+    },
+    {
+      "width": 390,
+      "filter": "Theme",
+      "values": 16
+    },
+    {
+      "width": 390,
+      "filter": "Publication type",
+      "values": 10
+    },
+    {
+      "width": 390,
+      "filter": "Publication year",
+      "values": 44
+    },
+    {
+      "width": 390,
+      "filter": "Metadata status",
+      "values": 4
+    },
+    {
+      "width": 390,
+      "filter": "Reading status",
+      "values": 2
+    },
+    {
+      "width": 390,
+      "allReferences": 342,
+      "provenanceOccurrences": 345,
+      "clipboard": true,
+      "directLastRecord": true,
+      "readingMapLink": true,
+      "globalSearch": true,
+      "topicBrowse": true
+    },
+    {
+      "width": 1440,
+      "filter": "Subject",
+      "values": 7
+    },
+    {
+      "width": 1440,
+      "filter": "Theme",
+      "values": 16
+    },
+    {
+      "width": 1440,
+      "filter": "Publication type",
+      "values": 10
+    },
+    {
+      "width": 1440,
+      "filter": "Publication year",
+      "values": 44
+    },
+    {
+      "width": 1440,
+      "filter": "Metadata status",
+      "values": 4
+    },
+    {
+      "width": 1440,
+      "filter": "Reading status",
+      "values": 2
+    },
+    {
+      "width": 1440,
+      "allReferences": 342,
+      "provenanceOccurrences": 345,
+      "clipboard": true,
+      "directLastRecord": true,
+      "readingMapLink": true,
+      "globalSearch": true,
+      "topicBrowse": true
+    }
+  ]
+}

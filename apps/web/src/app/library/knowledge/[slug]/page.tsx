@@ -11,7 +11,7 @@ import { CollectionGuide, isCollectionArticle } from './collection-guide';
 
 export const dynamic = 'force-dynamic';
 
-type Props = { params: Promise<{ slug: string }> };
+type Props = { params: Promise<{ slug: string }>; searchParams?: Promise<Record<string, string | string[] | undefined>> };
 
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
@@ -19,12 +19,15 @@ export async function generateMetadata({ params }: Props) {
   return article ? { title: article.title, description: article.summary, alternates: { canonical: `/library/knowledge/${article.slug}/` } } : {};
 }
 
-export default async function KnowledgePage({ params }: Props) {
+export default async function KnowledgePage({ params, searchParams }: Props) {
   const { slug } = await params;
   const articles = await getKnowledgeArticles();
   const article = articles.find((item) => item.slug === slug);
   if (!article) notFound();
-  if (isCollectionArticle(article.slug)) return <CollectionGuide article={article} articles={articles} />;
+  if (isCollectionArticle(article.slug)) {
+    const query = article.slug === 'academic-reference-catalogue' ? await searchParams : undefined;
+    return <CollectionGuide article={article} articles={articles} referenceId={typeof query?.reference === 'string' ? query.reference : undefined} />;
+  }
   if (article.topic === 'Artificial intelligence') return <AiGuide article={article} articles={articles} />;
   const related = articles.filter((item) => item.slug !== slug && item.topic === article.topic && item.group === article.group).slice(0, 3);
   return <article className={`shell ${styles.article}`}>

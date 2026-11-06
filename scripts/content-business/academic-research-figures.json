@@ -1,0 +1,185 @@
+[
+  {
+    "document": "Business Research.docx",
+    "image": "word/media/image1.jpeg",
+    "slug": "research-design-philosophy",
+    "title": "The supplied research-reasoning heuristic",
+    "kind": "matrix",
+    "headers": [
+      "Source prompt or result",
+      "Branches and interpretation"
+    ],
+    "rows": [
+      [
+        "Does relevant theory exist?",
+        "Yes → Are you a positivist?; No → Inductive research"
+      ],
+      [
+        "Are you a positivist?",
+        "Yes → Deductive research; No → Are you an upgrade realist or pragmatist?"
+      ],
+      [
+        "Are you an upgrade realist or pragmatist?",
+        "Yes → Inductive/Deductive research; No → Inductive research"
+      ],
+      [
+        "Inductive research",
+        "Two separate source paths end with this result"
+      ],
+      [
+        "Deductive research",
+        "Source result from the positivist Yes branch"
+      ],
+      [
+        "Inductive/Deductive research",
+        "Source combined-reasoning result, not automatically a mixed-methods design"
+      ]
+    ],
+    "note": "All six source branches and seven displayed elements are retained. “Upgrade realist” is unclear original wording and is not silently replaced with an assumed school. This is a simplified teaching heuristic, not a rule that philosophy or the absence of a particular theory mechanically determines a method.",
+    "diagram": {
+      "id": "academic-research-reasoning",
+      "width": 1040,
+      "height": 425,
+      "nodes": [
+        {
+          "id": "theory",
+          "label": "Does relevant theory exist?",
+          "lines": [
+            "Does relevant theory",
+            "exist?"
+          ],
+          "x": 10,
+          "y": 20,
+          "width": 230,
+          "height": 110
+        },
+        {
+          "id": "positivist",
+          "label": "Are you a positivist?",
+          "lines": [
+            "Are you a",
+            "positivist?"
+          ],
+          "x": 280,
+          "y": 20,
+          "width": 220,
+          "height": 110
+        },
+        {
+          "id": "realist",
+          "label": "Are you an upgrade realist or pragmatist?",
+          "lines": [
+            "Are you an upgrade",
+            "realist or",
+            "pragmatist?"
+          ],
+          "x": 550,
+          "y": 20,
+          "width": 230,
+          "height": 145
+        },
+        {
+          "id": "inductive-right",
+          "label": "Inductive research",
+          "lines": [
+            "Inductive research"
+          ],
+          "x": 820,
+          "y": 20,
+          "width": 210,
+          "height": 110
+        },
+        {
+          "id": "inductive-left",
+          "label": "Inductive research",
+          "lines": [
+            "Inductive research"
+          ],
+          "x": 10,
+          "y": 290,
+          "width": 230,
+          "height": 90
+        },
+        {
+          "id": "deductive",
+          "label": "Deductive research",
+          "lines": [
+            "Deductive research"
+          ],
+          "x": 280,
+          "y": 290,
+          "width": 220,
+          "height": 90
+        },
+        {
+          "id": "combined",
+          "label": "Inductive/Deductive research",
+          "lines": [
+            "Inductive/Deductive",
+            "research"
+          ],
+          "x": 550,
+          "y": 290,
+          "width": 230,
+          "height": 110
+        }
+      ],
+      "edges": [
+        {
+          "from": "theory",
+          "to": "positivist",
+          "path": "M240 75 H280",
+          "arrow": "end",
+          "label": "Yes",
+          "labelX": 260,
+          "labelY": 60
+        },
+        {
+          "from": "theory",
+          "to": "inductive-left",
+          "path": "M125 130 V290",
+          "arrow": "end",
+          "label": "No",
+          "labelX": 145,
+          "labelY": 220
+        },
+        {
+          "from": "positivist",
+          "to": "realist",
+          "path": "M500 75 H550",
+          "arrow": "end",
+          "label": "No",
+          "labelX": 525,
+          "labelY": 60
+        },
+        {
+          "from": "positivist",
+          "to": "deductive",
+          "path": "M390 130 V290",
+          "arrow": "end",
+          "label": "Yes",
+          "labelX": 410,
+          "labelY": 220
+        },
+        {
+          "from": "realist",
+          "to": "inductive-right",
+          "path": "M780 75 H820",
+          "arrow": "end",
+          "label": "No",
+          "labelX": 800,
+          "labelY": 60
+        },
+        {
+          "from": "realist",
+          "to": "combined",
+          "path": "M665 165 V290",
+          "arrow": "end",
+          "label": "Yes",
+          "labelX": 685,
+          "labelY": 240
+        }
+      ]
+    }
+  }
+]
