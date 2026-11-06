@@ -67,4 +67,10 @@ export const GUIDES = [
     summary:
       'The 90% line falls somewhere inside the wide $100,000–$149,999 band (83.32%–91.91%) — the table cannot give a single threshold figure.',
   },
+  {
+    href: '/guides/household-vs-individual-income/',
+    title: 'Household income vs. individual income: why the two figures differ',
+    summary:
+      'Household income adds every earner in a home together; individual income is one person. On the individual basis, 83.3% earn under $100,000 — a household total must not be read off the individual bands.',
+  },
 ];
