@@ -122,3 +122,11 @@
 .formulaList .card { overflow-wrap: anywhere; }
 .formulaMore { border: 1px solid #ded7f2; border-radius: 24px; padding: 12px 20px; margin-block: 20px; background: #f2effe; color: #5140b3; font: inherit; cursor: pointer; }
 .formulaFilters input:focus-visible, .formulaFilters select:focus-visible, .formulaMore:focus-visible, .formulaOriginal summary:focus-visible { outline: 3px solid #9787ef; outline-offset: 4px; }
+.metricList { display: grid; gap: 16px; }
+.metric { border: 1px solid #e2dcf5; border-radius: 14px; padding: 20px; background: #fcfbff; scroll-margin-top: 100px; }
+.metric h3 { color: #40345f; font-size: 20px; line-height: 1.5; margin: 0 0 8px; }
+.metric li { font-size: 14px; line-height: 1.8; margin-block: 12px; }
+.metric li p { color: #535c70; margin-block: 6px; }
+.metricLinks { display: flex; flex-wrap: wrap; gap: 12px; font-size: 13px; line-height: 1.7; }
+.metricLinks a { text-decoration: underline; }
+.managementGrid { display: block; width: min(100%, 360px); height: auto; margin-inline: auto; font-size: 12px; color: #40345f; }

@@ -12,6 +12,7 @@ import zipfile
 
 from source import edited, read_document, section_blocks
 from accounting import accounting_blocks, accounting_text
+from people import metric_directory, people_blocks
 
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
@@ -39,8 +40,10 @@ def merge_blocks(existing, incoming):
             existing.append(block)
 
 
-def blocks_for(doc, span, page, formula_reviews=None, formula_references=None):
+def blocks_for(doc, span, page, formula_reviews=None, formula_references=None, metrics=None):
     paragraphs = doc['paragraphs'][span['start']:span['end']]
+    if metrics is not None:
+        return people_blocks(doc, span, metrics)
     if formula_reviews is not None:
         return accounting_blocks(doc, span, formula_reviews, formula_references)
     if page.get('format') == 'ritual':
@@ -101,14 +104,17 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
         formula_reviews = {review['index']: review for review in formula_reviews}
         expected = {p['index'] for p in documents['Management Accounting.docx']['paragraphs'] if '=' in p['text']}
         assert set(formula_reviews) == expected and len(formula_reviews) == 135, 'Unreviewed accounting expression'
+    metrics = metric_directory(documents['Management.docx'], json.loads((HERE / batch['metrics']).read_text())) if batch.get('metrics') else None
     coverage = {(name, p['index']): [] for name, doc in documents.items() for p in doc['paragraphs']}
     for page in plan:
         slug = page['slug']
         if page.get('appendTo'):
             assert page['appendTo'] == slug and slug in articles, f'Unknown append destination: {slug}'
             article = articles[slug]
-            for key in ('notes', 'related'):
-                article[key] = list(dict.fromkeys(article[key] + page.get(key, [])))
+            for key in ('notes', 'related', 'references'):
+                for value in page.get(key, []):
+                    if value not in article[key]:
+                        article[key].append(value)
             article['visuals'].extend(page.get('visuals', []))
         else:
             assert slug not in articles, f'Duplicate slug: {slug}'
@@ -127,9 +133,9 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
                 assert existing, f'Unknown reused section: {slug}/{reuse}'
                 blocks = existing['blocks']
                 if span.get('mergeSection'):
-                    merge_blocks(blocks, blocks_for(doc, span, page, formula_reviews, formula_references))
+                    merge_blocks(blocks, blocks_for(doc, span, page, formula_reviews, formula_references, metrics))
             else:
-                blocks = blocks_for(doc, span, page, formula_reviews, formula_references)
+                blocks = blocks_for(doc, span, page, formula_reviews, formula_references, metrics)
             rendered = json.dumps(blocks, ensure_ascii=False)
             for i in range(span['start'], span['end']):
                 p = doc['paragraphs'][i]
@@ -203,6 +209,10 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
             plot = f['plot']
             assert plot['xLabel'] and plot['yLabel'] and 1 <= len(plot['lines']) <= 2
             assert all(line['label'] and line['path'].startswith('M') for line in plot['lines']), 'Incomplete conceptual curve'
+        if f.get('grid'):
+            grid = f['grid']
+            assert grid['xLabel'] and grid['yLabel']
+            assert {(p['x'], p['y']) for p in grid['points']} == {(1, 1), (1, 9), (9, 1), (5, 5), (9, 9)}, 'Incomplete managerial grid'
     outputs.append((batch, documents, coverage, image_coverage))
 
 collections = json.loads((HERE / 'collections.json').read_text())
@@ -238,6 +248,13 @@ for article in articles.values():
 slugs = {a['slug'] for a in knowledge}
 assert len(slugs) == len(knowledge), 'Duplicate catalogue slug'
 assert all(slug in slugs for a in articles.values() for slug in a['related']), 'Broken related link'
+metric_entries = [block['metric'] for article in articles.values() for section in article['sections']
+                  for block in section['blocks'] if block['kind'] == 'metric']
+assert sum(len(entry['sources']) for entry in metric_entries) == 314, 'Lost executive role associations'
+assert all(slug in slugs for entry in metric_entries for slug in entry['related']), 'Broken metric reference'
+assert len({entry['id'] for entry in metric_entries}) == len(metric_entries), 'Duplicate metric anchor'
+for role, count in [('CEO', 57), ('CFO', 54), ('COO', 57), ('Revenue leadership (CRO)', 48), ('People / HR leadership', 55), ('CMO', 43)]:
+    assert sum(source['role'] == role for entry in metric_entries for source in entry['sources']) == count, 'Lost role metric'
 assert len([a for a in articles.values() if a['format'] == 'chapter']) == 13, 'Missing historical chapter'
 for a in articles.values():
     assert not a['collection'] or any(c['slug'] == a['collection'] for c in collections), 'Unknown collection'

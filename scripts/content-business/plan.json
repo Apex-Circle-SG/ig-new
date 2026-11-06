@@ -1527,7 +1527,7 @@
     "notes": [
       "The quotations and their attributions are preserved as supplied; original publication references were not provided."
     ],
-    "collection": "leadership-change"
+    "collection": "leadership-culture"
   },
   {
     "slug": "organizational-alignment",
@@ -1554,7 +1554,7 @@
       "promise-integration"
     ],
     "notes": [],
-    "collection": "leadership-change"
+    "collection": "leadership-culture"
   },
   {
     "slug": "change-kotter",
@@ -1587,7 +1587,7 @@
     "notes": [
       "This page retains the traditional eight-step wording supplied in the notes. The official methodology has evolved; the further-reading link explains its current presentation."
     ],
-    "collection": "leadership-change"
+    "collection": "organizational-change"
   },
   {
     "slug": "change-responses",
@@ -1616,7 +1616,7 @@
     "notes": [
       "The PwC attribution and the connection between SARAH and the sustainability prompts are not established by the source. They are kept separate in the presentation."
     ],
-    "collection": "leadership-change"
+    "collection": "organizational-change"
   },
   {
     "slug": "promise-integration",
@@ -1681,7 +1681,7 @@
     "notes": [
       "The notes do not identify an original author or publication for this PROMISE framework. It is presented as the collection’s integration checklist."
     ],
-    "collection": "leadership-change"
+    "collection": "organizational-change"
   },
   {
     "slug": "digital-maturity",
@@ -1711,7 +1711,7 @@
     "notes": [
       "The notes attribute the model to Deloitte but provide no scoring rubric, maturity levels or source edition; no assessment score has been invented."
     ],
-    "collection": "leadership-change"
+    "collection": "organizational-change"
   },
   {
     "slug": "stakeholder-management",
@@ -1741,7 +1741,7 @@
     "notes": [
       "The three perspectives are named but not developed in the source. This short guide identifies that limit."
     ],
-    "collection": "leadership-change"
+    "collection": "leadership-culture"
   },
   {
     "slug": "customer-feedback",

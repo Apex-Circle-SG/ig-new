@@ -548,19 +548,15 @@
   },
   {
     "slug": "leadership-change",
-    "title": "Leadership & Organizational Change",
+    "title": "Leadership, People & Change",
     "topic": "Business & Management",
     "group": "Explore business",
-    "summary": "Build effective teams, align the organization and navigate change and negotiation.",
-    "intro": "Build effective teams, align the organization and navigate change and negotiation.",
+    "summary": "Lead teams, understand culture, develop people and navigate organizational change.",
+    "intro": "Choose a focused path through leadership and culture, people systems or organizational change. Negotiation connects the paths when interests differ.",
     "groups": [
       {
-        "name": "Teams & organizational alignment",
-        "description": "Connect people, culture, structure and responsibility."
-      },
-      {
-        "name": "Leading change",
-        "description": "Understand change, organizational maturity and integration."
+        "name": "Explore leadership, people & change",
+        "description": "Three focused collections connect everyday leadership, employee experience and organizational change."
       },
       {
         "name": "Negotiation",
@@ -569,49 +565,29 @@
     ],
     "journey": [
       {
-        "title": "Understand the organization",
+        "title": "Understand leadership and culture",
         "links": [
           {
-            "slug": "high-performance-teams",
-            "label": "Build effective teams"
-          },
-          {
-            "slug": "organizational-alignment",
-            "label": "Check alignment"
-          },
-          {
-            "slug": "stakeholder-management",
-            "label": "Understand stakeholder responsibility"
+            "slug": "leadership-culture",
+            "label": "Explore leadership practice and organizational culture"
           }
         ]
       },
       {
-        "title": "Lead change",
+        "title": "Develop people and employee experience",
         "links": [
           {
-            "slug": "change-kotter",
-            "label": "Build support for change"
-          },
-          {
-            "slug": "change-responses",
-            "label": "Support people through change"
-          },
-          {
-            "slug": "promise-integration",
-            "label": "Examine integration and culture"
+            "slug": "people-employee-experience",
+            "label": "Explore HR, talent, engagement and wellbeing"
           }
         ]
       },
       {
-        "title": "Reach an agreement",
+        "title": "Navigate organizational change",
         "links": [
           {
-            "slug": "negotiation-principled",
-            "label": "Work with interests and BATNA"
-          },
-          {
-            "slug": "negotiation-process",
-            "label": "Prepare and follow through"
+            "slug": "organizational-change",
+            "label": "Diagnose, lead and sustain change"
           }
         ]
       }
@@ -626,7 +602,8 @@
       "communication-personal-development",
       "sales-playbook",
       "project-management",
-      "operations-performance"
+      "operations-performance",
+      "problem-solving"
     ]
   },
   {
@@ -740,6 +717,10 @@
       {
         "name": "Personal productivity & priorities",
         "description": "Build a manageable task system and choose a prioritisation method that fits the question."
+      },
+      {
+        "name": "Personality narratives & metaphors",
+        "description": "Humor and cultural narratives, explicitly distinguished from professional or clinical assessments."
       }
     ],
     "journey": [
@@ -792,6 +773,15 @@
           {
             "slug": "prioritization-methods",
             "label": "Compare prioritisation methods"
+          }
+        ]
+      },
+      {
+        "title": "Read personality narratives critically",
+        "links": [
+          {
+            "slug": "personality-narratives",
+            "label": "Explore stories and workplace metaphors"
           }
         ]
       }
@@ -2112,6 +2102,289 @@
     "parent": "finance-accounting",
     "relatedCollections": [
       "business-management"
+    ]
+  },
+  {
+    "slug": "leadership-culture",
+    "title": "Leadership & Organizational Culture",
+    "topic": "Business & Management",
+    "parent": "leadership-change",
+    "group": "Explore leadership, people & change",
+    "summary": "Compare leadership practices, understand organizational culture and connect teams, structure, responsibility and influence.",
+    "intro": "Compare leadership practices, understand organizational culture and connect teams, structure, responsibility and influence.",
+    "groups": [
+      {
+        "name": "Leadership practice",
+        "description": "Compare models, observe behaviors and examine authored leadership principles."
+      },
+      {
+        "name": "Culture & identity",
+        "description": "Understand shared meanings, structures, power and organizational responsibilities."
+      },
+      {
+        "name": "Teams & organizational alignment",
+        "description": "Connect shared goals, working relationships and stakeholders."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Compare leadership models",
+        "links": [
+          {
+            "slug": "leadership-management",
+            "label": "Direction and delivery"
+          },
+          {
+            "slug": "situational-leadership",
+            "label": "Direction and support"
+          },
+          {
+            "slug": "managerial-grid",
+            "label": "People and production"
+          }
+        ]
+      },
+      {
+        "title": "Understand the organization",
+        "links": [
+          {
+            "slug": "organizational-culture",
+            "label": "Culture and shared meanings"
+          },
+          {
+            "slug": "organizational-power",
+            "label": "Power and relationships"
+          }
+        ]
+      },
+      {
+        "title": "Put values into practice",
+        "links": [
+          {
+            "slug": "leadership-behaviors",
+            "label": "Observable leadership behaviors"
+          },
+          {
+            "slug": "high-performance-teams",
+            "label": "Team conditions and practices"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Introductions and visual summaries are editorial additions. Detailed supplied statements are retained with source limitations; missing information is identified on the relevant readings."
+    ],
+    "references": [],
+    "topicRoot": false,
+    "relatedCollections": [
+      "people-employee-experience",
+      "organizational-change",
+      "strategy-growth"
+    ]
+  },
+  {
+    "slug": "organizational-change",
+    "title": "Organizational Change & Development",
+    "topic": "Business & Management",
+    "parent": "leadership-change",
+    "group": "Explore leadership, people & change",
+    "summary": "Diagnose the situation, choose an approach and develop the organization’s capacity to carry change through.",
+    "intro": "Diagnose the situation, choose an approach and develop the organization’s capacity to carry change through.",
+    "groups": [
+      {
+        "name": "Diagnose & design change",
+        "description": "Examine uncertainty, structure, culture and systemic capacity."
+      },
+      {
+        "name": "Lead & sustain change",
+        "description": "Connect motivation, communication, leadership and implementation."
+      },
+      {
+        "name": "Leading change",
+        "description": "Continue established readings on response, maturity and integration."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Diagnose the situation",
+        "links": [
+          {
+            "slug": "change-approaches",
+            "label": "Pace, scope and uncertainty"
+          },
+          {
+            "slug": "organizational-design-change",
+            "label": "Structure and culture"
+          }
+        ]
+      },
+      {
+        "title": "Lead implementation",
+        "links": [
+          {
+            "slug": "change-kotter",
+            "label": "Kotter with examples and limitations"
+          },
+          {
+            "slug": "change-delta",
+            "label": "Four connected delivery responsibilities"
+          }
+        ]
+      },
+      {
+        "title": "Sustain capacity",
+        "links": [
+          {
+            "slug": "organizational-development",
+            "label": "Participation and systems thinking"
+          },
+          {
+            "slug": "change-motivation",
+            "label": "Purpose and ownership"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Introductions and visual summaries are editorial additions. Detailed supplied statements are retained with source limitations; missing information is identified on the relevant readings."
+    ],
+    "references": [],
+    "topicRoot": false,
+    "relatedCollections": [
+      "leadership-culture",
+      "people-employee-experience",
+      "project-management"
+    ]
+  },
+  {
+    "slug": "people-employee-experience",
+    "title": "People & Employee Experience",
+    "topic": "Business & Management",
+    "parent": "leadership-change",
+    "group": "Explore leadership, people & change",
+    "summary": "Connect an HR operating model and talent practices with fair treatment, employee voice, engagement and healthy working conditions.",
+    "intro": "Connect an HR operating model and talent practices with fair treatment, employee voice, engagement and healthy working conditions.",
+    "groups": [
+      {
+        "name": "People systems & talent",
+        "description": "Design the HR function and examine the talent lifecycle."
+      },
+      {
+        "name": "Employee experience & voice",
+        "description": "Consider engagement, participation, fairness and workplace wellbeing."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Design people systems",
+        "links": [
+          {
+            "slug": "hr-operating-model",
+            "label": "HR around employee experience"
+          },
+          {
+            "slug": "talent-lifecycle",
+            "label": "Talent through change"
+          }
+        ]
+      },
+      {
+        "title": "Listen and act fairly",
+        "links": [
+          {
+            "slug": "employee-engagement",
+            "label": "Employee voice and participation"
+          },
+          {
+            "slug": "workplace-wellbeing",
+            "label": "Wellbeing and organizational justice"
+          }
+        ]
+      },
+      {
+        "title": "Choose meaningful measures",
+        "links": [
+          {
+            "slug": "executive-kpi-reference",
+            "label": "People metrics and other executive measures"
+          },
+          {
+            "slug": "feedback-awareness",
+            "label": "Feedback and reflection"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Introductions and visual summaries are editorial additions. Detailed supplied statements are retained with source limitations; missing information is identified on the relevant readings."
+    ],
+    "references": [],
+    "topicRoot": false,
+    "relatedCollections": [
+      "leadership-culture",
+      "organizational-change",
+      "communication-personal-development"
+    ]
+  },
+  {
+    "slug": "personality-narratives",
+    "title": "Personality Narratives & Workplace Metaphors",
+    "topic": "Communication & Personal Development",
+    "parent": "communication-personal-development",
+    "group": "Personality narratives & metaphors",
+    "summary": "Read humorous profiles and workplace caricatures with clear distinctions between stories, reflection and validated assessment.",
+    "intro": "Read humorous profiles and workplace caricatures with clear distinctions between stories, reflection and validated assessment.",
+    "groups": [
+      {
+        "name": "Workplace metaphors",
+        "description": "Examine meeting caricatures and performance/commitment metaphors without reducing people to labels."
+      },
+      {
+        "name": "Humorous profiles",
+        "description": "Browse the complete supplied profile narratives as entertainment and cultural commentary."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Read the metaphors",
+        "links": [
+          {
+            "slug": "workplace-animal-metaphors",
+            "label": "Workplace animal models and their limits"
+          }
+        ]
+      },
+      {
+        "title": "Browse the narratives",
+        "links": [
+          {
+            "slug": "sbti-personality-narratives",
+            "label": "All 26 supplied SBTI profiles"
+          }
+        ]
+      },
+      {
+        "title": "Use more constructive questions",
+        "links": [
+          {
+            "slug": "feedback-awareness",
+            "label": "Awareness and feedback"
+          },
+          {
+            "slug": "six-thinking-hats",
+            "label": "Thinking modes rather than personality labels"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Introductions and visual summaries are editorial additions. Detailed supplied statements are retained with source limitations; missing information is identified on the relevant readings."
+    ],
+    "references": [],
+    "topicRoot": false,
+    "relatedCollections": [
+      "communication-personal-development",
+      "problem-solving"
     ]
   }
 ]

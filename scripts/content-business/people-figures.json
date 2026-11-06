@@ -1,0 +1,325 @@
+[
+  {
+    "document": "Change Management.docx",
+    "image": "word/media/image1.jpeg",
+    "slug": "change-responses",
+    "title": "An illustrative change-response curve",
+    "kind": "matrix",
+    "headers": [
+      "Source stage",
+      "Description"
+    ],
+    "rows": [
+      [
+        "Shock",
+        "Surprise or shock felt due to the event"
+      ],
+      [
+        "Denial",
+        "Not believing it is true; trying to disprove it"
+      ],
+      [
+        "Frustration",
+        "Angry and aware that things are changing"
+      ],
+      [
+        "Depression: source label",
+        "Sadness and low energy in the diagram"
+      ],
+      [
+        "Experiment",
+        "Thinking about how to adjust to the new situation"
+      ],
+      [
+        "Decision",
+        "Slowly adapting to new changes; a more positive outlook"
+      ],
+      [
+        "Integration",
+        "Adjusted to changes and feeling renewed"
+      ]
+    ],
+    "note": "Reconstructed from an unscaled source image. Vertical axis: morale and competence; horizontal axis: time passed. Reactions can overlap, recur or differ from this sequence. “Depression” is a source label, not a clinical assessment. Graphic creator and edition were not supplied.",
+    "plot": {
+      "xLabel": "Time passed",
+      "yLabel": "Morale and competence",
+      "lines": [
+        {
+          "label": "Illustrative source trajectory",
+          "path": "M45 100 C90 70 115 70 135 90 S175 200 235 200 S305 155 330 100 S370 40 450 40"
+        }
+      ]
+    }
+  },
+  {
+    "document": "Change Management.docx",
+    "image": "word/media/image2.jpeg",
+    "slug": "organizational-design-change",
+    "title": "Grid/group perspectives: rules, roles and group orientation",
+    "kind": "matrix",
+    "headers": [
+      "Source perspective",
+      "Position on the axes",
+      "Illustrative response in the source"
+    ],
+    "rows": [
+      [
+        "Fatalists",
+        "High rules/roles; low group orientation",
+        "There is nothing that can be done; people are selfish; we are all doomed"
+      ],
+      [
+        "Hierarchists",
+        "High rules/roles; high group orientation",
+        "Rules are inadequately enforced; put a disciplinarian in charge to sort out climate-change treaties"
+      ],
+      [
+        "Individualists",
+        "Low rules/roles; low group orientation",
+        "Facilitate individualism and creative competition; technological innovation and market forces will solve the problem"
+      ],
+      [
+        "Egalitarianism",
+        "Low rules/roles; high group orientation",
+        "Rethink consumption; shift to decentralized, self-sustaining communities"
+      ]
+    ],
+    "note": "The supplied image illustrates worldviews with climate-change responses. Its vertical axis is rules and roles (low to high), and horizontal axis is group orientation (low to high). The captions are attributed source perspectives, not endorsements or fixed employee types. This grid/group framing is distinct from the managerial grid; the image does not identify its original creator."
+  },
+  {
+    "document": "Leadership & Culture.docx",
+    "image": "word/media/image1.jpeg",
+    "slug": "situational-leadership",
+    "title": "Four styles: task direction and relationship support",
+    "kind": "matrix",
+    "headers": [
+      "Style",
+      "Task / relationship emphasis",
+      "Source action"
+    ],
+    "rows": [
+      [
+        "S1 · Telling",
+        "High task; low relationship",
+        "Provide specific instructions and closely supervise performance"
+      ],
+      [
+        "S2 · Selling",
+        "High task; high relationship",
+        "Explain the decision and provide an opportunity for clarification"
+      ],
+      [
+        "S3 · Participating",
+        "Low task; high relationship",
+        "Share ideas and facilitate decision making"
+      ],
+      [
+        "S4 · Delegating",
+        "Low task; low relationship",
+        "Turn over responsibility for decisions and implementation"
+      ]
+    ],
+    "note": "The source combines leader-behavior quadrants with ambiguous outer labels: “Competence / Ability — Amount of Guidance Required” (high at left, low at right) and “Commitment / Willingness — Amount of Support Required” (high at bottom, low at top). Ability is not the same quantity as guidance, nor commitment as support. The original curve has no numeric calibration. The reconstruction separates the four task/relationship styles and preserves the outer-axis wording here rather than implying a measured relationship or substituting another model version."
+  },
+  {
+    "document": "Leadership & Culture.docx",
+    "image": "word/media/image2.jpeg",
+    "slug": "prioritization-methods",
+    "title": "Eisenhower matrix: urgency and importance",
+    "kind": "matrix",
+    "headers": [
+      "Importance",
+      "Urgent",
+      "Non-urgent"
+    ],
+    "rows": [
+      [
+        "Important",
+        "Do: do it right away",
+        "Decide: block time for it"
+      ],
+      [
+        "Less important",
+        "Delegate: assign it out",
+        "Delete: take it off the list"
+      ]
+    ],
+    "note": "Vertical distinction: importance; horizontal distinction: urgency. Recreated from the supplied figure. Delegation requires responsibility and capacity; urgency alone does not establish value."
+  },
+  {
+    "document": "Leadership & Culture.docx",
+    "image": "word/media/image3.jpeg",
+    "slug": "personal-productivity",
+    "title": "Skill and leverage: an illustrative work-value matrix",
+    "kind": "matrix",
+    "headers": [
+      "Leverage",
+      "Lower skill",
+      "Higher skill"
+    ],
+    "rows": [
+      [
+        "High leverage",
+        "$100 / hour",
+        "$10k / hour"
+      ],
+      [
+        "Low leverage",
+        "$10 / hour",
+        "$1k / hour"
+      ]
+    ],
+    "note": "Vertical axis: leverage, low to high. Horizontal axis: skill, low to high. Dollar amounts are the source’s heuristic labels, not wage data, market estimates or earnings promises. No measurement method, author or dataset is supplied."
+  },
+  {
+    "document": "Leadership & Culture.docx",
+    "image": "word/media/image4.jpeg",
+    "slug": "theory-of-constraints",
+    "title": "A repeating bottleneck-improvement cycle",
+    "kind": "flow",
+    "headers": [],
+    "rows": [
+      [
+        "Identify the bottleneck"
+      ],
+      [
+        "Optimize the bottleneck"
+      ],
+      [
+        "Synchronize pace with the bottleneck"
+      ],
+      [
+        "Improve the bottleneck"
+      ],
+      [
+        "Repeat regularly"
+      ]
+    ],
+    "note": "Recreated from the supplied circular diagram. Return to identification after improvement: the limiting constraint may move. These are the image’s paraphrased labels, not an exact quotation of Goldratt’s formal method."
+  },
+  {
+    "document": "Leadership & Culture.docx",
+    "image": "word/media/image5.jpeg",
+    "slug": "innovation-pathways",
+    "title": "Four innovation types: outward/inward and operational/strategic",
+    "kind": "matrix",
+    "headers": [
+      "Orientation",
+      "Operational emphasis",
+      "Strategic emphasis"
+    ],
+    "rows": [
+      [
+        "Outward",
+        "Product innovation: change, improve or renew products/services, or create new ones",
+        "Business-model innovation: change how the organization creates and captures value, often through new revenue models"
+      ],
+      [
+        "Inward",
+        "Process innovation: improve daily work, often driven by efficiency and quality; any process can be involved",
+        "Management innovation: change how the organization is organized, managed and led; the source often associates this with decentralization"
+      ]
+    ],
+    "note": "Vertical distinction: outward versus inward. Horizontal distinction: operational versus strategic. The original calls product innovation the most well-known type, business-model innovation a new type, and management innovation less commonly known but critical. These are source characterizations, not dated research findings or an exhaustive taxonomy."
+  },
+  {
+    "document": "Leadership & Culture.docx",
+    "image": "word/media/image6.jpeg",
+    "slug": "workplace-energy-reflection",
+    "title": "Energy quadrants: a workplace reflection metaphor",
+    "kind": "matrix",
+    "headers": [
+      "Source quadrant",
+      "Descriptive words",
+      "Source explanation and scope"
+    ],
+    "rows": [
+      [
+        "High energy / negative · Survival",
+        "Anxious, fearful, worried, self-critical",
+        "The source describes a reactive state after too much performance effort without renewal; anxiety, anger and irritability; a “fight or flight” state appropriate when survival is literally at stake."
+      ],
+      [
+        "High energy / positive · Performance",
+        "Upbeat, invigorated, optimistic, confident, enthusiastic",
+        "The source describes pursuing a clearly defined goal and performing at one’s best with high positive energy."
+      ],
+      [
+        "Low energy / negative · Burnout",
+        "Exhausted, empty, depressed, sad, helpless",
+        "The source describes forced recovery after running out of energy, a warning that something is wrong, and a state it associates with grieving. These descriptions do not establish a diagnosis or prescribe a correct way to grieve."
+      ],
+      [
+        "Low energy / positive · Renewal",
+        "Tranquil, serene, mellow, carefree, peaceful",
+        "The source describes renewing and refuelling depleted energy and suggests briefly entering this zone every 90 minutes at work; that interval is supplied advice without a supporting study."
+      ]
+    ],
+    "note": "Vertical axis: energy (low to high); horizontal axis: negative to positive experience. All four quadrants and their explanatory claims are retained in text. The original creator is not identified. “Burnout”, “depressed” and “fight or flight” are source labels here, not clinical conclusions. This metaphor is separate from Hawkins’s spiritual hierarchy."
+  },
+  {
+    "document": "Management.docx",
+    "image": "word/media/image1.jpeg",
+    "slug": "managerial-grid",
+    "title": "The managerial grid: five illustrated positions",
+    "kind": "matrix",
+    "headers": [
+      "Position and style",
+      "Description in the supplied figure"
+    ],
+    "rows": [
+      [
+        "1,1 · Impoverished",
+        "Minimum effort to get required work done is described as sufficient to sustain membership"
+      ],
+      [
+        "1,9 · Country club",
+        "Thoughtful attention to needs and satisfying relationships creates a comfortable, friendly atmosphere and work tempo"
+      ],
+      [
+        "9,1 · Task",
+        "Efficiency through arranging work conditions so human elements interfere to a minimum degree"
+      ],
+      [
+        "5,5 · Middle of the road",
+        "Adequate organizational performance through balancing work requirements with satisfactory morale"
+      ],
+      [
+        "9,9 · Team",
+        "Work accomplished through committed people; interdependence through a common stake in purpose supports trust and respect"
+      ]
+    ],
+    "note": "Recreated from the supplied Blake–Mouton diagram. Both axes run from 1 to 9; the first coordinate is concern for production and the second concern for people. The descriptions express the source model, not a scored assessment or proof of a universally best management response.",
+    "grid": {
+      "xLabel": "Concern for production",
+      "yLabel": "Concern for people",
+      "points": [
+        {
+          "x": 1,
+          "y": 1,
+          "label": "1,1"
+        },
+        {
+          "x": 1,
+          "y": 9,
+          "label": "1,9"
+        },
+        {
+          "x": 9,
+          "y": 1,
+          "label": "9,1"
+        },
+        {
+          "x": 5,
+          "y": 5,
+          "label": "5,5"
+        },
+        {
+          "x": 9,
+          "y": 9,
+          "label": "9,9"
+        }
+      ]
+    }
+  }
+]

@@ -56,5 +56,14 @@
     "formulas": "accounting-formulas.json",
     "ledger": "docs/accounting-content-coverage.csv",
     "sha256": "21bfbe2ba7db3cfd302363f2326b94e27c7f5db928980dc01d447c05e67448e9"
+  },
+  {
+    "key": "people",
+    "source": "content/sources/business/people",
+    "plan": "people-plan.json",
+    "figures": "people-figures.json",
+    "metrics": "people-metrics.json",
+    "ledger": "docs/people-content-coverage.csv",
+    "sha256": "4e3fd4f581ee5f1d34b5cbf11166151aa547e34dcf88ae6314a89a526e2c2a13"
   }
 ]

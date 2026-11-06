@@ -6,6 +6,7 @@ import { collectionPath, primaryCollection } from '../../../../lib/library/colle
 import formulaEntries from '../../../../lib/library/business/accounting-formulas.json';
 import { FormulaReference } from './formula-reference';
 import { FormulaDirectory } from './formula-directory';
+import { MetricDirectory } from './metric-directory';
 import { SalesQuestionBank } from './sales-question-bank';
 import { NetworkConnections } from './network-connections';
 import { SourceImage, type SourceImageRecord } from './source-image';
@@ -22,6 +23,7 @@ export function isCollectionArticle(slug: string) {
 }
 
 function DetailBlock({ block, caption }: { block: Block; caption: string }) {
+  if (block.kind === 'metric' || block.kind === 'metric-source-headings') return null;
   if (block.kind === 'formula' && 'formula' in block && block.formula) return <FormulaReference formula={block.formula} />;
   if (block.kind === 'ritual' && 'text' in block && typeof block.text === 'string') {
     const separator = block.text.indexOf(' - ');
@@ -47,6 +49,7 @@ function DetailBlock({ block, caption }: { block: Block; caption: string }) {
 type Visual = Pick<Guide['figures'][number], 'title' | 'kind' | 'headers' | 'rows' | 'note'> & {
   sourceImage?: SourceImageRecord;
   plot?: { xLabel: string; yLabel: string; lines: { label: string; path: string }[] };
+  grid?: { xLabel: string; yLabel: string; points: { x: number; y: number; label: string }[] };
 };
 
 function Comparison({ figure }: { figure: Visual }) {
@@ -56,6 +59,15 @@ function Comparison({ figure }: { figure: Visual }) {
 function Figure({ figure }: { figure: Visual }) {
   return <figure className={styles.figure}>
     <figcaption>{figure.title}</figcaption>
+    {figure.grid && <svg className={styles.managementGrid} viewBox="0 0 360 330" role="img" aria-label={`${figure.title}. Horizontal axis: ${figure.grid.xLabel}; vertical axis: ${figure.grid.yLabel}. Both run from 1 to 9. The five positions and their descriptions follow in the table.`}>
+      {Array.from({ length: 10 }, (_, i) => <path key={i} d={`M${65 + i * 28} 25 V277 M65 ${25 + i * 28} H317`} fill="none" stroke="#d3caed" />)}
+      {figure.grid.points.map((point) => <g key={point.label}>
+        <circle cx={65 + (point.x - 0.5) * 28} cy={25 + (9.5 - point.y) * 28} r="13" fill="#eee9fc" stroke="#6551b8" />
+        <text x={65 + (point.x - 0.5) * 28} y={29 + (9.5 - point.y) * 28} textAnchor="middle" fill="#40345f" fontSize="10">{point.label}</text>
+      </g>)}
+      <text x="191" y="308" textAnchor="middle">{figure.grid.xLabel} →</text>
+      <text x="20" y="151" transform="rotate(-90 20 151)" textAnchor="middle">{figure.grid.yLabel} →</text>
+    </svg>}
     {figure.plot && <>
       <svg className={styles.conceptualPlot} viewBox="0 0 500 220" role="img" aria-label={`${figure.title}. Conceptual, unscaled curves: ${figure.plot.lines.map((line) => line.label).join('; ')}. ${figure.plot.yLabel} against ${figure.plot.xLabel}.`}>
         <path d="M40 25 V205 H465" fill="none" stroke="currentColor" />
@@ -93,6 +105,8 @@ export function CollectionGuide({ article, articles }: { article: KnowledgeArtic
     ? collections.filter((item) => collection.relatedCollections.some((slug) => slug === item.slug))
     : collections.filter((item) => item.topicRoot && item.slug !== collection?.slug);
   const visuals = guide ? [...guide.figures, ...guide.visuals] : [];
+  const metrics = guide?.sections.flatMap((section) => section.blocks.flatMap((block) => 'metric' in block && block.metric ? [block.metric] : [])) ?? [];
+  const metricReadings = articles.filter((item) => metrics.some((metric) => metric.related.includes(item.slug))).map(({ slug, title }) => ({ slug, title }));
   const visualHeading = visuals.some((visual) => 'sourceImage' in visual) ? 'Source images & attribution' : 'Visual explanations';
   const isRitual = guide?.format === 'ritual';
   const chapters = guides.filter((item) => item.collection === (isRitual ? 'freemasonry' : 'art-of-war') && item.format === (isRitual ? 'ritual' : 'chapter'));
@@ -119,10 +133,11 @@ export function CollectionGuide({ article, articles }: { article: KnowledgeArtic
     </> : guide && <>
       {!isChapter && <section className={styles.overview} aria-labelledby="overview-heading"><h2 id="overview-heading">At a glance</h2><ol className={styles.flow}>{guide.steps.map((step, i) => <li key={step}><span aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>{step}</li>)}</ol><p className={styles.meta}>An editorial reading sequence; individual frameworks are explained in the detailed notes below.</p></section>}
       <div className={styles.layout}>
-        <nav className={styles.contents} aria-label="On this page"><strong>On this page</strong><ol>{guide.format === 'formula-index' && <li><a href="#formula-reference">Formula reference</a></li>}{visuals.length > 0 && <li><a href="#visual-explanations">{visualHeading}</a></li>}{guide.notes.length > 0 && <li><a href="#reading-notes">Reading notes &amp; limitations</a></li>}{guide.format === 'questions' ? <li><a href="#question-bank">Browse questions by stage</a></li> : guide.sections.map((s) => <li key={s.id}><a href={`#${s.id}`}>{s.heading}</a></li>)}{guide.interpretation && <li><a href="#reflection">Business reflection</a></li>}<li><a href="#related">Continue exploring</a></li></ol></nav>
+        <nav className={styles.contents} aria-label="On this page"><strong>On this page</strong><ol>{guide.format === 'formula-index' && <li><a href="#formula-reference">Formula reference</a></li>}{guide.format === 'metric-index' && <li><a href="#metric-reference">Executive measures</a></li>}{visuals.length > 0 && <li><a href="#visual-explanations">{visualHeading}</a></li>}{guide.notes.length > 0 && <li><a href="#reading-notes">Reading notes &amp; limitations</a></li>}{guide.format === 'questions' ? <li><a href="#question-bank">Browse questions by stage</a></li> : guide.sections.map((s) => <li key={s.id}><a href={`#${s.id}`}>{s.heading}</a></li>)}{guide.interpretation && <li><a href="#reflection">Business reflection</a></li>}<li><a href="#related">Continue exploring</a></li></ol></nav>
         <div className={styles.body}>
           <ReadingNotes notes={guide.notes} />
           {guide.format === 'formula-index' && <FormulaDirectory entries={formulaEntries} />}
+          {guide.format === 'metric-index' && <MetricDirectory entries={metrics} readings={metricReadings} />}
           {visuals.length > 0 && <section id="visual-explanations"><h2>{visualHeading}</h2>{visuals.map((f) => <Figure key={f.title} figure={f} />)}</section>}
           {guide.format === 'questions' ? <section id="question-bank"><h2>Questions for each conversation</h2><SalesQuestionBank stages={guide.questionStages} /></section> : guide.sections.map((s) => <section className={`${styles.detail} ${isChapter ? styles.chapter : ''}`} id={s.id} key={s.id}><h2>{s.heading}</h2>{s.blocks.map((block, i) => <DetailBlock key={i} block={block} caption={s.heading} />)}</section>)}
           {guide.interpretation && <aside id="reflection" className={styles.reflection}><p className={styles.eyebrow}>EDITORIAL INTERPRETATION</p><h2>A business reflection</h2><p>{guide.interpretation}</p></aside>}

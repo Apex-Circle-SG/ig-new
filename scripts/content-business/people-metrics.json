@@ -1,0 +1,3770 @@
+[
+  {
+    "index": 14,
+    "name": "Revenue Growth Rate",
+    "domain": "Finance & returns",
+    "role": "CEO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 15,
+    "name": "Net Profit Margin",
+    "domain": "Finance & returns",
+    "role": "CEO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "profit-margins-returns",
+      "returns-asset-efficiency"
+    ]
+  },
+  {
+    "index": 16,
+    "name": "Gross Margin",
+    "domain": "Finance & returns",
+    "role": "CEO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "profit-margins-returns",
+      "returns-asset-efficiency"
+    ]
+  },
+  {
+    "index": 17,
+    "name": "Operating Cash Flow",
+    "domain": "Finance & returns",
+    "role": "CEO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "cash-flow-statements",
+      "cash-flow-coverage"
+    ]
+  },
+  {
+    "index": 18,
+    "name": "Return on Investment (ROI)",
+    "domain": "Finance & returns",
+    "role": "CEO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "returns-asset-efficiency",
+      "capital-project-cash-flows"
+    ]
+  },
+  {
+    "index": 19,
+    "name": "Economic Value Added (EVA)",
+    "domain": "Finance & returns",
+    "role": "CEO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "cost-of-capital-returns",
+      "discounted-cash-flow"
+    ]
+  },
+  {
+    "index": 20,
+    "name": "Debt-to-Equity Ratio",
+    "domain": "Finance & returns",
+    "role": "CEO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "liquidity-leverage-ratios",
+      "financial-ratio-analysis"
+    ]
+  },
+  {
+    "index": 21,
+    "name": "Current Ratio (liquidity)",
+    "domain": "Finance & returns",
+    "role": "CEO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "liquidity-leverage-ratios",
+      "financial-ratio-analysis"
+    ]
+  },
+  {
+    "index": 22,
+    "name": "Operating Expense Ratio",
+    "domain": "Finance & returns",
+    "role": "CEO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 23,
+    "name": "EBITDA",
+    "domain": "Finance & returns",
+    "role": "CEO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "understanding-ebitda",
+      "debt-earnings-coverage"
+    ]
+  },
+  {
+    "index": 24,
+    "name": "Price/Earnings (P/E) Ratio",
+    "domain": "Finance & returns",
+    "role": "CEO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "market-valuation-measures",
+      "financial-ratio-analysis"
+    ]
+  },
+  {
+    "index": 25,
+    "name": "Total Shareholder Return",
+    "domain": "Finance & returns",
+    "role": "CEO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "market-valuation-measures",
+      "financial-ratio-analysis"
+    ]
+  },
+  {
+    "index": 26,
+    "name": "Market Capitalization",
+    "domain": "Finance & returns",
+    "role": "CEO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "market-valuation-measures",
+      "financial-ratio-analysis"
+    ]
+  },
+  {
+    "index": 27,
+    "name": "Return on Assets (ROA)",
+    "domain": "Finance & returns",
+    "role": "CEO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "returns-asset-efficiency",
+      "capital-project-cash-flows"
+    ]
+  },
+  {
+    "index": 28,
+    "name": "Dividend Payout Ratio",
+    "domain": "Finance & returns",
+    "role": "CEO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "market-valuation-measures",
+      "financial-ratio-analysis"
+    ]
+  },
+  {
+    "index": 30,
+    "name": "Employee Engagement Score",
+    "domain": "People & capability",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 31,
+    "name": "Employee Turnover Rate",
+    "domain": "People & capability",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 32,
+    "name": "Net Promoter Score (NPS)",
+    "domain": "Customer & revenue",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "customer-feedback",
+      "brand-experience"
+    ]
+  },
+  {
+    "index": 33,
+    "name": "Customer Acquisition Cost",
+    "domain": "Customer & revenue",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "commercial-unit-economics",
+      "sales-account-planning"
+    ]
+  },
+  {
+    "index": 34,
+    "name": "Customer Retention Rate",
+    "domain": "Customer & revenue",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "commercial-unit-economics",
+      "sales-account-planning"
+    ]
+  },
+  {
+    "index": 35,
+    "name": "Customer Satisfaction Index",
+    "domain": "Customer & revenue",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "customer-feedback",
+      "brand-experience"
+    ]
+  },
+  {
+    "index": 36,
+    "name": "Customer Lifetime Value",
+    "domain": "Customer & revenue",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "commercial-unit-economics",
+      "sales-account-planning"
+    ]
+  },
+  {
+    "index": 37,
+    "name": "Brand Equity Score",
+    "domain": "Marketing & brand",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "brand-equity",
+      "brand-financial-value"
+    ]
+  },
+  {
+    "index": 38,
+    "name": "Public Sentiment Score",
+    "domain": "Marketing & brand",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "brand-awareness-image",
+      "brand-communications"
+    ]
+  },
+  {
+    "index": 39,
+    "name": "Number of Successful Acquisitions",
+    "domain": "Strategy & innovation",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "strategy-growth",
+      "purpose-to-performance"
+    ]
+  },
+  {
+    "index": 40,
+    "name": "Synergy Value from M&As",
+    "domain": "Finance & returns",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 41,
+    "name": "Covenant Compliance Ratio",
+    "domain": "Risk & governance",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "debt-earnings-coverage",
+      "financial-data-controls"
+    ]
+  },
+  {
+    "index": 42,
+    "name": "Number of Non-Compliance Issues",
+    "domain": "Risk & governance",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 43,
+    "name": "Regulatory Fines Incurred",
+    "domain": "Risk & governance",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 44,
+    "name": "Stakeholder Satisfaction Score",
+    "domain": "Risk & governance",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 45,
+    "name": "Percentage of Strategic Goals Achieved",
+    "domain": "Strategy & innovation",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "strategy-growth",
+      "purpose-to-performance"
+    ]
+  },
+  {
+    "index": 46,
+    "name": "Number of Identified Risks Mitigated",
+    "domain": "Risk & governance",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 47,
+    "name": "R&D Spend as a Percentage of Revenue",
+    "domain": "Strategy & innovation",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "strategy-growth",
+      "purpose-to-performance"
+    ]
+  },
+  {
+    "index": 48,
+    "name": "Business Continuity Plan Coverage Ratio",
+    "domain": "Risk & governance",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 49,
+    "name": "ESG Score",
+    "domain": "Sustainability",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sustainability-reporting-context",
+      "six-capitals-value-creation"
+    ]
+  },
+  {
+    "index": 50,
+    "name": "Energy Efficiency Rate",
+    "domain": "Sustainability",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sustainability-reporting-context",
+      "six-capitals-value-creation"
+    ]
+  },
+  {
+    "index": 51,
+    "name": "Technology Adoption Rate",
+    "domain": "Operations & delivery",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "process-improvement"
+    ]
+  },
+  {
+    "index": 52,
+    "name": "Market Share",
+    "domain": "Marketing & brand",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-planning",
+      "marketing-race-planning"
+    ]
+  },
+  {
+    "index": 53,
+    "name": "Succession Planning Score",
+    "domain": "People & capability",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 54,
+    "name": "Frequency of Stakeholder Meetings",
+    "domain": "Risk & governance",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 55,
+    "name": "Strategy Execution Efficiency Rate",
+    "domain": "Strategy & innovation",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "strategy-growth",
+      "purpose-to-performance"
+    ]
+  },
+  {
+    "index": 56,
+    "name": "Carbon Footprint",
+    "domain": "Sustainability",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sustainability-reporting-context",
+      "six-capitals-value-creation"
+    ]
+  },
+  {
+    "index": 57,
+    "name": "Number of Succession Roles Identified and Ready",
+    "domain": "People & capability",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "The source ends “identified and Randy”; “ready” is an inferred transcription repair, not a supplied readiness definition.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 58,
+    "name": "Percentage of Women in Leadership Roles",
+    "domain": "People & capability",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 59,
+    "name": "Employee Net Promoter Score (eNPS)",
+    "domain": "People & capability",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 60,
+    "name": "Percentage of Employees Undergoing Training",
+    "domain": "People & capability",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 61,
+    "name": "Leadership Diversity Rate",
+    "domain": "People & capability",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 62,
+    "name": "Time to Hire",
+    "domain": "People & capability",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 63,
+    "name": "Social Media Engagement Rate",
+    "domain": "Marketing & brand",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-race-planning",
+      "marketing-communications"
+    ]
+  },
+  {
+    "index": 64,
+    "name": "SEO Rank for Important Keywords",
+    "domain": "Marketing & brand",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-race-planning",
+      "marketing-communications"
+    ]
+  },
+  {
+    "index": 65,
+    "name": "Customer Churn Rate",
+    "domain": "Customer & revenue",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "commercial-unit-economics",
+      "sales-account-planning"
+    ]
+  },
+  {
+    "index": 66,
+    "name": "Capacity Utilisation Rate",
+    "domain": "Operations & delivery",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "process-improvement"
+    ]
+  },
+  {
+    "index": 67,
+    "name": "Frequency of Safety Incidents",
+    "domain": "Risk & governance",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 68,
+    "name": "Workplace Happiness Score",
+    "domain": "People & capability",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 69,
+    "name": "Diversity and Inclusion Index",
+    "domain": "People & capability",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 70,
+    "name": "Total Cost of Workforce",
+    "domain": "People & capability",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 71,
+    "name": "Average Employee Tenure",
+    "domain": "People & capability",
+    "role": "CEO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 84,
+    "name": "Revenue Growth Rate",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 85,
+    "name": "Net Profit Margin",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "profit-margins-returns",
+      "returns-asset-efficiency"
+    ]
+  },
+  {
+    "index": 86,
+    "name": "Gross Margin",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "profit-margins-returns",
+      "returns-asset-efficiency"
+    ]
+  },
+  {
+    "index": 87,
+    "name": "Operating Cash Flow Margin (OCF)",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "cash-flow-statements",
+      "cash-flow-coverage"
+    ]
+  },
+  {
+    "index": 88,
+    "name": "Free Cash Flow Margin (FCF)",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "free-cash-flow",
+      "cash-flow-coverage"
+    ]
+  },
+  {
+    "index": 89,
+    "name": "Number of Successful Acquisitions",
+    "domain": "Strategy & innovation",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "strategy-growth",
+      "purpose-to-performance"
+    ]
+  },
+  {
+    "index": 90,
+    "name": "Return on Investment (ROI)",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "returns-asset-efficiency",
+      "capital-project-cash-flows"
+    ]
+  },
+  {
+    "index": 91,
+    "name": "Economic Value Added (EVA)",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "cost-of-capital-returns",
+      "discounted-cash-flow"
+    ]
+  },
+  {
+    "index": 92,
+    "name": "Debt-to-Equity Ratio",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "liquidity-leverage-ratios",
+      "financial-ratio-analysis"
+    ]
+  },
+  {
+    "index": 93,
+    "name": "Current Ratio (liquidity)",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "liquidity-leverage-ratios",
+      "financial-ratio-analysis"
+    ]
+  },
+  {
+    "index": 94,
+    "name": "Operating Expense Ratio",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 95,
+    "name": "EBIT Margin",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "understanding-ebit",
+      "profit-margins-returns"
+    ]
+  },
+  {
+    "index": 96,
+    "name": "EBITDA Margin",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "understanding-ebitda",
+      "debt-earnings-coverage"
+    ]
+  },
+  {
+    "index": 97,
+    "name": "Price/Earnings (P/E) Ratio",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "market-valuation-measures",
+      "financial-ratio-analysis"
+    ]
+  },
+  {
+    "index": 98,
+    "name": "Return on Equity (ROE)",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "profit-margins-returns",
+      "returns-asset-efficiency"
+    ]
+  },
+  {
+    "index": 99,
+    "name": "Market Capitalization",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "market-valuation-measures",
+      "financial-ratio-analysis"
+    ]
+  },
+  {
+    "index": 100,
+    "name": "Return on Assets (ROA)",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "returns-asset-efficiency",
+      "capital-project-cash-flows"
+    ]
+  },
+  {
+    "index": 101,
+    "name": "Dividend Payout Ratio",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "market-valuation-measures",
+      "financial-ratio-analysis"
+    ]
+  },
+  {
+    "index": 102,
+    "name": "ROI of Strategic Initiatives",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 103,
+    "name": "Budget variance (actual vs. budget)",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "budgeting-methods",
+      "fpa-business-partnering"
+    ]
+  },
+  {
+    "index": 104,
+    "name": "Overall budget accuracy",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "budgeting-methods",
+      "fpa-business-partnering"
+    ]
+  },
+  {
+    "index": 105,
+    "name": "Rolling forecast accuracy",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "financial-forecasting",
+      "fpa-business-partnering"
+    ]
+  },
+  {
+    "index": 106,
+    "name": "Accuracy of earnings guidance",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "financial-forecasting",
+      "fpa-business-partnering"
+    ]
+  },
+  {
+    "index": 107,
+    "name": "Free Cash Flow to Equity Margin (FCFE)",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "free-cash-flow",
+      "cash-flow-coverage"
+    ]
+  },
+  {
+    "index": 108,
+    "name": "Weighted Average Cost of Capital (WACC)",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "cost-of-capital-returns",
+      "discounted-cash-flow"
+    ]
+  },
+  {
+    "index": 109,
+    "name": "Cost reduction as a % of total costs",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 110,
+    "name": "Post-acquisition performance against targets",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 111,
+    "name": "Synergy realisation (% of expected synergies that have been realised)",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 113,
+    "name": "Completion rate of planned strategic initiatives",
+    "domain": "Strategy & innovation",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "strategy-growth",
+      "purpose-to-performance"
+    ]
+  },
+  {
+    "index": 114,
+    "name": "Degree of alignment between financial strategy and business strategy",
+    "domain": "Strategy & innovation",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "strategy-growth",
+      "purpose-to-performance"
+    ]
+  },
+  {
+    "index": 115,
+    "name": "No. of identified risks",
+    "domain": "Risk & governance",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 116,
+    "name": "Severity of identified risks",
+    "domain": "Risk & governance",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 117,
+    "name": "Timeliness of financial reporting",
+    "domain": "Risk & governance",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "financial-data-controls",
+      "financial-report-storytelling"
+    ]
+  },
+  {
+    "index": 118,
+    "name": "Covenant Compliance Rate",
+    "domain": "Risk & governance",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "debt-earnings-coverage",
+      "financial-data-controls"
+    ]
+  },
+  {
+    "index": 119,
+    "name": "Number of Non-Compliance Issues",
+    "domain": "Risk & governance",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 120,
+    "name": "Severity of non-compliance issues",
+    "domain": "Risk & governance",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 121,
+    "name": "Time to resolve compliance issues",
+    "domain": "Risk & governance",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 122,
+    "name": "Time to resolve risks",
+    "domain": "Risk & governance",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 123,
+    "name": "Number of shareholder inquiries",
+    "domain": "Risk & governance",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 124,
+    "name": "Investor satisfaction score",
+    "domain": "Risk & governance",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 125,
+    "name": "Number of governance issues",
+    "domain": "Risk & governance",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 126,
+    "name": "Time to resolve governance issues",
+    "domain": "Risk & governance",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 127,
+    "name": "Degree of financial reporting transparency",
+    "domain": "Risk & governance",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "financial-data-controls",
+      "financial-report-storytelling"
+    ]
+  },
+  {
+    "index": 128,
+    "name": "Employee Satisfaction Score within the Finance Department",
+    "domain": "People & capability",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 129,
+    "name": "Employee turnover rate within the finance department",
+    "domain": "People & capability",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 130,
+    "name": "Number of leadership training hours",
+    "domain": "People & capability",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 131,
+    "name": "Total cost savings from negotiation",
+    "domain": "Finance & returns",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 132,
+    "name": "Number of contracts renegotiated",
+    "domain": "Risk & governance",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 133,
+    "name": "Innovation success rate",
+    "domain": "Strategy & innovation",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "strategy-growth",
+      "purpose-to-performance"
+    ]
+  },
+  {
+    "index": 134,
+    "name": "Frequency of communication with stakeholders",
+    "domain": "Risk & governance",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 135,
+    "name": "Number of Errors in Reported Financial Information",
+    "domain": "Risk & governance",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "The source ends “reported financial”; “information” is an editorial clarification of incomplete wording.",
+    "related": [
+      "financial-data-controls",
+      "financial-report-storytelling"
+    ]
+  },
+  {
+    "index": 136,
+    "name": "Effectiveness of cross-functional communication",
+    "domain": "Risk & governance",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 137,
+    "name": "Number of strategic initiatives proposed and accepted",
+    "domain": "Strategy & innovation",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "strategy-growth",
+      "purpose-to-performance"
+    ]
+  },
+  {
+    "index": 138,
+    "name": "Impact of Strategic Initiatives on Company Performance",
+    "domain": "Strategy & innovation",
+    "role": "CFO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "strategy-growth",
+      "purpose-to-performance"
+    ]
+  },
+  {
+    "index": 152,
+    "name": "Revenue Growth Rate",
+    "domain": "Finance & returns",
+    "role": "COO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 153,
+    "name": "ROI of Strategic Initiatives",
+    "domain": "Finance & returns",
+    "role": "COO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 154,
+    "name": "Operational cost per unit",
+    "domain": "Finance & returns",
+    "role": "COO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 155,
+    "name": "Cost reduction as a percentage of sales",
+    "domain": "Finance & returns",
+    "role": "COO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 156,
+    "name": "Profit margins on new business contracts",
+    "domain": "Finance & returns",
+    "role": "COO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 157,
+    "name": "Cost savings from strategic initiatives",
+    "domain": "Finance & returns",
+    "role": "COO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 158,
+    "name": "Savings from technology driven process improvements",
+    "domain": "Finance & returns",
+    "role": "COO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 159,
+    "name": "Inventory carrying costs",
+    "domain": "Finance & returns",
+    "role": "COO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "working-capital-cycle",
+      "marketing-logistics"
+    ]
+  },
+  {
+    "index": 160,
+    "name": "Cost of Goods Sold (COGS)",
+    "domain": "Finance & returns",
+    "role": "COO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 161,
+    "name": "Technology ROI",
+    "domain": "Finance & returns",
+    "role": "COO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 162,
+    "name": "Project ROI",
+    "domain": "Finance & returns",
+    "role": "COO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 163,
+    "name": "Cost variance (CV) for projects",
+    "domain": "Finance & returns",
+    "role": "COO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 164,
+    "name": "Costs associated with non-compliance",
+    "domain": "Risk & governance",
+    "role": "COO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 165,
+    "name": "Fines paid for regulatory breaches",
+    "domain": "Risk & governance",
+    "role": "COO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 166,
+    "name": "Total cost of ownership for key assets",
+    "domain": "Finance & returns",
+    "role": "COO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 167,
+    "name": "Total overhead costs",
+    "domain": "Finance & returns",
+    "role": "COO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 168,
+    "name": "EBITDA",
+    "domain": "Finance & returns",
+    "role": "COO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "understanding-ebitda",
+      "debt-earnings-coverage"
+    ]
+  },
+  {
+    "index": 170,
+    "name": "Operational process efficiency",
+    "domain": "Operations & delivery",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "process-improvement"
+    ]
+  },
+  {
+    "index": 171,
+    "name": "% of strategic initiatives completed on time",
+    "domain": "Strategy & innovation",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "strategy-growth",
+      "purpose-to-performance"
+    ]
+  },
+  {
+    "index": 172,
+    "name": "Number of strategic objectives achieved",
+    "domain": "Strategy & innovation",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "strategy-growth",
+      "purpose-to-performance"
+    ]
+  },
+  {
+    "index": 173,
+    "name": "Percentage reduction in waste/errors",
+    "domain": "Operations & delivery",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "process-improvement"
+    ]
+  },
+  {
+    "index": 174,
+    "name": "Utilisation rate of resources",
+    "domain": "Operations & delivery",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "process-improvement"
+    ]
+  },
+  {
+    "index": 175,
+    "name": "Employee satisfaction score",
+    "domain": "People & capability",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 176,
+    "name": "Leadership Readiness Index",
+    "domain": "People & capability",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "“Londorship” is interpreted as “Leadership”; the index and its scoring method are not defined.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 177,
+    "name": "Employee retention rate",
+    "domain": "People & capability",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 178,
+    "name": "Employee skill improvements",
+    "domain": "People & capability",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 179,
+    "name": "Supplier defect rate",
+    "domain": "Operations & delivery",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "process-improvement"
+    ]
+  },
+  {
+    "index": 180,
+    "name": "On-time delivery rate by suppliers",
+    "domain": "Operations & delivery",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "process-improvement"
+    ]
+  },
+  {
+    "index": 181,
+    "name": "Inventory turnover ratio",
+    "domain": "Operations & delivery",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "working-capital-cycle",
+      "marketing-logistics"
+    ]
+  },
+  {
+    "index": 182,
+    "name": "Order fill rate",
+    "domain": "Operations & delivery",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "working-capital-cycle",
+      "marketing-logistics"
+    ]
+  },
+  {
+    "index": 183,
+    "name": "Defect rate",
+    "domain": "Operations & delivery",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "process-improvement"
+    ]
+  },
+  {
+    "index": 184,
+    "name": "New Customer Acquisition Rate",
+    "domain": "Customer & revenue",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 185,
+    "name": "Number of New Markets Entered",
+    "domain": "Strategy & innovation",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "strategy-growth",
+      "purpose-to-performance"
+    ]
+  },
+  {
+    "index": 186,
+    "name": "Customer Churn Rate",
+    "domain": "Customer & revenue",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "commercial-unit-economics",
+      "sales-account-planning"
+    ]
+  },
+  {
+    "index": 187,
+    "name": "Quality score from internal/external audits",
+    "domain": "Operations & delivery",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "process-improvement"
+    ]
+  },
+  {
+    "index": 188,
+    "name": "Percentage of Products/Services Meeting Quality Standards",
+    "domain": "Operations & delivery",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "process-improvement"
+    ]
+  },
+  {
+    "index": 189,
+    "name": "Number of Quality Certifications Achieved",
+    "domain": "Operations & delivery",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "process-improvement"
+    ]
+  },
+  {
+    "index": 190,
+    "name": "Number of strategic partnerships formed",
+    "domain": "Strategy & innovation",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "strategy-growth",
+      "purpose-to-performance"
+    ]
+  },
+  {
+    "index": 191,
+    "name": "Risk severity score",
+    "domain": "Risk & governance",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 192,
+    "name": "Time to resolve risk incidents",
+    "domain": "Risk & governance",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 193,
+    "name": "Number of Identified Risks Mitigated",
+    "domain": "Risk & governance",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 194,
+    "name": "Downtime in operations",
+    "domain": "Operations & delivery",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "process-improvement"
+    ]
+  },
+  {
+    "index": 195,
+    "name": "OEE (Overall Equipment Effectiveness)",
+    "domain": "Operations & delivery",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "The source says “Overall Equipment Efficiency”. The standard expansion is “Overall Equipment Effectiveness”; no calculation inputs are supplied here.",
+    "related": [
+      "operations-performance",
+      "process-improvement"
+    ]
+  },
+  {
+    "index": 196,
+    "name": "Net Promoter Score (NPS)",
+    "domain": "Customer & revenue",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "customer-feedback",
+      "brand-experience"
+    ]
+  },
+  {
+    "index": 197,
+    "name": "Customer Satisfaction Score (CSAT)",
+    "domain": "Customer & revenue",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "customer-feedback",
+      "brand-experience"
+    ]
+  },
+  {
+    "index": 198,
+    "name": "Number of repeat customers",
+    "domain": "Customer & revenue",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-account-planning",
+      "commercial-unit-economics"
+    ]
+  },
+  {
+    "index": 199,
+    "name": "Cycle time of key operational processes",
+    "domain": "Operations & delivery",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "process-improvement"
+    ]
+  },
+  {
+    "index": 200,
+    "name": "Time to implement new technologies",
+    "domain": "Operations & delivery",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "process-improvement"
+    ]
+  },
+  {
+    "index": 201,
+    "name": "Percentage of Projects Completed on Time and on Budget",
+    "domain": "Operations & delivery",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "process-improvement"
+    ]
+  },
+  {
+    "index": 202,
+    "name": "Number of Compliance Issues or Violations",
+    "domain": "Risk & governance",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 203,
+    "name": "Number of Processes Improved",
+    "domain": "Operations & delivery",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "The source says “processors improved”; “processes” is inferred from the surrounding operational measures.",
+    "related": [
+      "operations-performance",
+      "process-improvement"
+    ]
+  },
+  {
+    "index": 204,
+    "name": "Process efficiency gains",
+    "domain": "Operations & delivery",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "process-improvement"
+    ]
+  },
+  {
+    "index": 205,
+    "name": "Adoption Rate of New Technologies",
+    "domain": "Operations & delivery",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "process-improvement"
+    ]
+  },
+  {
+    "index": 206,
+    "name": "Downtime due to technology issues",
+    "domain": "Operations & delivery",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "process-improvement"
+    ]
+  },
+  {
+    "index": 207,
+    "name": "Stakeholder satisfaction rate",
+    "domain": "Risk & governance",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 208,
+    "name": "Time to resolve compliance issues",
+    "domain": "Risk & governance",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 209,
+    "name": "Number of successful audits passed",
+    "domain": "Risk & governance",
+    "role": "COO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "operations-performance",
+      "stakeholder-management"
+    ]
+  },
+  {
+    "index": 212,
+    "name": "Revenue Growth Rate",
+    "domain": "Finance & returns",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "accounting-formula-directory",
+      "finance-accounting"
+    ]
+  },
+  {
+    "index": 213,
+    "name": "Customer Acquisition Cost",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "commercial-unit-economics",
+      "sales-account-planning"
+    ]
+  },
+  {
+    "index": 214,
+    "name": "Customer Lifetime Value",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "commercial-unit-economics",
+      "sales-account-planning"
+    ]
+  },
+  {
+    "index": 215,
+    "name": "Sales Conversion Rate",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "marketing-race-planning",
+      "marketing-communications"
+    ]
+  },
+  {
+    "index": 216,
+    "name": "Sales Pipeline Value",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "sales-forecasting",
+      "sales-qualification"
+    ]
+  },
+  {
+    "index": 217,
+    "name": "Average Deal Size",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 218,
+    "name": "Gross Profit Margin",
+    "domain": "Finance & returns",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "profit-margins-returns",
+      "returns-asset-efficiency"
+    ]
+  },
+  {
+    "index": 219,
+    "name": "Revenue by Product/Service",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 220,
+    "name": "Revenue by Market Segment",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 221,
+    "name": "Revenue Forecast Accuracy",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "sales-forecasting",
+      "financial-forecasting"
+    ]
+  },
+  {
+    "index": 222,
+    "name": "Customer Churn Rate",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "commercial-unit-economics",
+      "sales-account-planning"
+    ]
+  },
+  {
+    "index": 223,
+    "name": "Revenue from Existing Customers",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 224,
+    "name": "Upsell/Cross-sell Rate",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "sales-account-planning",
+      "commercial-unit-economics"
+    ]
+  },
+  {
+    "index": 225,
+    "name": "Retention Rate",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 226,
+    "name": "Revenue from Strategic Accounts",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "sales-account-planning",
+      "commercial-unit-economics"
+    ]
+  },
+  {
+    "index": 227,
+    "name": "Revenue from Key Accounts",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "sales-account-planning",
+      "commercial-unit-economics"
+    ]
+  },
+  {
+    "index": 228,
+    "name": "Customer Lifetime Revenue",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "commercial-unit-economics",
+      "sales-account-planning"
+    ]
+  },
+  {
+    "index": 229,
+    "name": "Revenue from Marketing Campaign",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 230,
+    "name": "Sales Forecast Accuracy",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "sales-forecasting",
+      "financial-forecasting"
+    ]
+  },
+  {
+    "index": 231,
+    "name": "Sales Forecast Variance",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "sales-forecasting",
+      "financial-forecasting"
+    ]
+  },
+  {
+    "index": 232,
+    "name": "Revenue from New Product Launches",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 234,
+    "name": "Revenue from Upselling/Cross-selling",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-account-planning",
+      "commercial-unit-economics"
+    ]
+  },
+  {
+    "index": 235,
+    "name": "Sales Cycle Length",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 236,
+    "name": "Customer Satisfaction Score (CSAT)",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "customer-feedback",
+      "brand-experience"
+    ]
+  },
+  {
+    "index": 237,
+    "name": "Net Promoter Score (NPS)",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "customer-feedback",
+      "brand-experience"
+    ]
+  },
+  {
+    "index": 238,
+    "name": "Sales Team Quota Attainment",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 239,
+    "name": "Sales Team Productivity",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 240,
+    "name": "Sales Training Effectiveness",
+    "domain": "People & capability",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 241,
+    "name": "Customer Onboarding Time",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 242,
+    "name": "Deal Renewal Ratio",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-account-planning",
+      "commercial-unit-economics"
+    ]
+  },
+  {
+    "index": 243,
+    "name": "Sales Win Rate",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 244,
+    "name": "Deal Upsell/Cross-sell Ratio",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-account-planning",
+      "commercial-unit-economics"
+    ]
+  },
+  {
+    "index": 245,
+    "name": "Customer Referral Rate",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-account-planning",
+      "commercial-unit-economics"
+    ]
+  },
+  {
+    "index": 246,
+    "name": "Market Share Growth",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 247,
+    "name": "Customer Expansion Ratio",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-account-planning",
+      "commercial-unit-economics"
+    ]
+  },
+  {
+    "index": 248,
+    "name": "Win/Loss Ratio",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 249,
+    "name": "Sales Team Turnover Ratio",
+    "domain": "People & capability",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 250,
+    "name": "Sales Compensation Effectiveness",
+    "domain": "People & capability",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 251,
+    "name": "Sales Activity Volume",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 252,
+    "name": "Sales Funnel Conversion Rate",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-race-planning",
+      "marketing-communications"
+    ]
+  },
+  {
+    "index": 253,
+    "name": "Competitive Win Rate",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 254,
+    "name": "Lead-to-Customer Conversion Rate",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-race-planning",
+      "marketing-communications"
+    ]
+  },
+  {
+    "index": 255,
+    "name": "Sales Response Time",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 256,
+    "name": "Sales Target Achievement",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 257,
+    "name": "Channel Partner Performance",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 258,
+    "name": "Customer Retention Rate",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "commercial-unit-economics",
+      "sales-account-planning"
+    ]
+  },
+  {
+    "index": 259,
+    "name": "Revenue by Customer Size",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 260,
+    "name": "Deal Velocity",
+    "domain": "Customer & revenue",
+    "role": "Revenue leadership (CRO)",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 263,
+    "name": "Cost per Hire",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 264,
+    "name": "Compensation Expense Ratio",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 265,
+    "name": "Benefits Cost per Employee",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 266,
+    "name": "HR Operating Expense Ratio",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 267,
+    "name": "Return on Training Investment",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 268,
+    "name": "Absence Cost Rate",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 269,
+    "name": "Employee Turnover Cost",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 270,
+    "name": "HR Efficiency Ratio",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 271,
+    "name": "Diversity and Inclusion Index",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 272,
+    "name": "Total Rewards Cost Ratio",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 273,
+    "name": "Return on Employee Investment",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 274,
+    "name": "Employee Productivity Ratio",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 275,
+    "name": "HR Technology Expense Ratio",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 276,
+    "name": "HR Budget Variance",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 277,
+    "name": "Training and Development Spend per Employee",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 279,
+    "name": "Employee Engagement Score",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 280,
+    "name": "Employee satisfaction score",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 281,
+    "name": "Employee retention rate",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 282,
+    "name": "Training Effectiveness Score",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 283,
+    "name": "Average Days to Fill a Vacancy",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 284,
+    "name": "Employee Promotions Rate",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 285,
+    "name": "Employee Satisfaction with Benefits",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 286,
+    "name": "Employee Performance Rating Distribution",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 287,
+    "name": "Leadership Development Program ROI",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 288,
+    "name": "Employee Training Hours per Employee",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 289,
+    "name": "Succession Planning Readiness Score",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 290,
+    "name": "Employee Performance Management Completion Rate",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 291,
+    "name": "Employee Learning and Development Participation Rate",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 292,
+    "name": "Employee Wellness Program Participation Rate",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 293,
+    "name": "Employee Recognition and Rewards Score",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 294,
+    "name": "Employee Onboarding Satisfaction Score",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 295,
+    "name": "Employee Performance Improvement Rate",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 296,
+    "name": "Employee Satisfaction with Performance Management Process",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 297,
+    "name": "Diversity and Inclusion Training Completion Rate",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 298,
+    "name": "Employee Feedback Response Rate",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 299,
+    "name": "Employee Well-being index",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 300,
+    "name": "HR Policy Compliance Rate",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 301,
+    "name": "Employee Absenteeism Rate",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 302,
+    "name": "Employee Skills Gap Analysis",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 303,
+    "name": "Employee Career Progression Rate",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures. The source says “Career Progression Raw”; “Rate” is an inferred transcription repair. The actual rate definition is missing.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 304,
+    "name": "HR Effectiveness Index",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 305,
+    "name": "Employee Morale Index",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 306,
+    "name": "Employee Internal Mobility Rate",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 307,
+    "name": "Employee Job Satisfaction Score",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 308,
+    "name": "Employee Feedback Action Rate",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 309,
+    "name": "Employee Recognition Program ROI",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 310,
+    "name": "HR Technology Adoption Rate",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 311,
+    "name": "HR Process Automation Rate",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 312,
+    "name": "Employee Benefits Enrollment Rate",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 313,
+    "name": "Employee Diversity index",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 314,
+    "name": "Employee Development ROI",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 315,
+    "name": "Employee Self-Service Adoption Rate",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 316,
+    "name": "Employee Engagement Survey Participation Rate",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 317,
+    "name": "Employee Performance Improvement Plan Success Rate",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 318,
+    "name": "Employee Exit Survey Response Rate",
+    "domain": "People & capability",
+    "role": "People / HR leadership",
+    "sourceClass": "Non-financial",
+    "note": "Source role heading: “CRO KPIs”. HR destination is inferred from the listed measures.",
+    "related": [
+      "people-employee-experience",
+      "employee-engagement"
+    ]
+  },
+  {
+    "index": 321,
+    "name": "Marketing ROI",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "marketing-planning",
+      "marketing-race-planning"
+    ]
+  },
+  {
+    "index": 322,
+    "name": "Customer Acquisition Cost",
+    "domain": "Customer & revenue",
+    "role": "CMO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "commercial-unit-economics",
+      "sales-account-planning"
+    ]
+  },
+  {
+    "index": 323,
+    "name": "Customer Lifetime Value",
+    "domain": "Customer & revenue",
+    "role": "CMO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "commercial-unit-economics",
+      "sales-account-planning"
+    ]
+  },
+  {
+    "index": 324,
+    "name": "Marketing Budget Ratio",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "marketing-planning",
+      "marketing-race-planning"
+    ]
+  },
+  {
+    "index": 325,
+    "name": "Marketing Cost per Lead",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "marketing-planning",
+      "marketing-race-planning"
+    ]
+  },
+  {
+    "index": 326,
+    "name": "Revenue per Marketing Channel",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "marketing-channels",
+      "marketing-channel-management"
+    ]
+  },
+  {
+    "index": 327,
+    "name": "Marketing Contribution to Pipeline",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "sales-forecasting",
+      "sales-qualification"
+    ]
+  },
+  {
+    "index": 328,
+    "name": "Customer Churn Rate",
+    "domain": "Customer & revenue",
+    "role": "CMO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "commercial-unit-economics",
+      "sales-account-planning"
+    ]
+  },
+  {
+    "index": 329,
+    "name": "Return on Ad Spend (ROAS)",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "marketing-planning",
+      "marketing-race-planning"
+    ]
+  },
+  {
+    "index": 330,
+    "name": "Marketing Influenced Customer",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Financial",
+    "note": "“Marketing Influenced Customer” is ambiguous: the source gives no unit, attribution model or counting rule.",
+    "related": [
+      "marketing-planning",
+      "marketing-race-planning"
+    ]
+  },
+  {
+    "index": 331,
+    "name": "Conversion Rate",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "marketing-race-planning",
+      "marketing-communications"
+    ]
+  },
+  {
+    "index": 332,
+    "name": "Marketing-Generated Revenue",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "marketing-planning",
+      "marketing-race-planning"
+    ]
+  },
+  {
+    "index": 333,
+    "name": "Sales Growth Rate",
+    "domain": "Customer & revenue",
+    "role": "CMO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "sales-revenue-planning",
+      "sales-playbook"
+    ]
+  },
+  {
+    "index": 334,
+    "name": "Marketing-Sourced Pipeline Value",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "sales-forecasting",
+      "sales-qualification"
+    ]
+  },
+  {
+    "index": 335,
+    "name": "Marketing-Sourced Revenue",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Financial",
+    "note": "",
+    "related": [
+      "marketing-planning",
+      "marketing-race-planning"
+    ]
+  },
+  {
+    "index": 337,
+    "name": "Customer Engagement Score",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-planning",
+      "marketing-race-planning"
+    ]
+  },
+  {
+    "index": 338,
+    "name": "Customer Satisfaction Score (CSAT)",
+    "domain": "Customer & revenue",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "customer-feedback",
+      "brand-experience"
+    ]
+  },
+  {
+    "index": 339,
+    "name": "Net Promoter Score (NPS)",
+    "domain": "Customer & revenue",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "customer-feedback",
+      "brand-experience"
+    ]
+  },
+  {
+    "index": 340,
+    "name": "Brand Awareness",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "brand-awareness-image",
+      "brand-communications"
+    ]
+  },
+  {
+    "index": 341,
+    "name": "Social Media Engagement Rate",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-race-planning",
+      "marketing-communications"
+    ]
+  },
+  {
+    "index": 342,
+    "name": "Website Traffic",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-race-planning",
+      "marketing-communications"
+    ]
+  },
+  {
+    "index": 343,
+    "name": "Organic Search Traffic",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-race-planning",
+      "marketing-communications"
+    ]
+  },
+  {
+    "index": 344,
+    "name": "Conversion Rate",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-race-planning",
+      "marketing-communications"
+    ]
+  },
+  {
+    "index": 345,
+    "name": "Email Open Rate",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-race-planning",
+      "marketing-communications"
+    ]
+  },
+  {
+    "index": 346,
+    "name": "Customer Retention Rate",
+    "domain": "Customer & revenue",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "commercial-unit-economics",
+      "sales-account-planning"
+    ]
+  },
+  {
+    "index": 347,
+    "name": "Content Engagement",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-race-planning",
+      "marketing-communications"
+    ]
+  },
+  {
+    "index": 348,
+    "name": "Customer Lifetime Revenue",
+    "domain": "Customer & revenue",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "commercial-unit-economics",
+      "sales-account-planning"
+    ]
+  },
+  {
+    "index": 349,
+    "name": "Social Media Reach",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-race-planning",
+      "marketing-communications"
+    ]
+  },
+  {
+    "index": 350,
+    "name": "Influencer Engagement Rate",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-influencers",
+      "brand-secondary-associations"
+    ]
+  },
+  {
+    "index": 351,
+    "name": "Customer Referral Rate",
+    "domain": "Customer & revenue",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "sales-account-planning",
+      "commercial-unit-economics"
+    ]
+  },
+  {
+    "index": 352,
+    "name": "Brand Equity Index",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "brand-equity",
+      "brand-financial-value"
+    ]
+  },
+  {
+    "index": 353,
+    "name": "Customer Loyalty index",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-planning",
+      "marketing-race-planning"
+    ]
+  },
+  {
+    "index": 354,
+    "name": "Customer Feedback Response Rate",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-planning",
+      "marketing-race-planning"
+    ]
+  },
+  {
+    "index": 355,
+    "name": "Marketing Campaign Reach",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-race-planning",
+      "marketing-communications"
+    ]
+  },
+  {
+    "index": 356,
+    "name": "Customer Lifetime Engagement",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-planning",
+      "marketing-race-planning"
+    ]
+  },
+  {
+    "index": 357,
+    "name": "Customer Satisfaction with Marketing Efforts",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "customer-feedback",
+      "brand-experience"
+    ]
+  },
+  {
+    "index": 358,
+    "name": "Marketing Campaign Conversion Rate",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-race-planning",
+      "marketing-communications"
+    ]
+  },
+  {
+    "index": 359,
+    "name": "Customer Advocate Score",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-planning",
+      "marketing-race-planning"
+    ]
+  },
+  {
+    "index": 360,
+    "name": "Marketing Channel Effectiveness",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-channels",
+      "marketing-channel-management"
+    ]
+  },
+  {
+    "index": 361,
+    "name": "Customer Journey Conversion Rate",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-race-planning",
+      "marketing-communications"
+    ]
+  },
+  {
+    "index": 362,
+    "name": "Marketing Collateral Usage Rate",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-planning",
+      "marketing-race-planning"
+    ]
+  },
+  {
+    "index": 363,
+    "name": "Marketing Channel ROI",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-channels",
+      "marketing-channel-management"
+    ]
+  },
+  {
+    "index": 364,
+    "name": "Marketing Campaign Response Rate",
+    "domain": "Marketing & brand",
+    "role": "CMO",
+    "sourceClass": "Non-financial",
+    "note": "",
+    "related": [
+      "marketing-race-planning",
+      "marketing-communications"
+    ]
+  }
+]

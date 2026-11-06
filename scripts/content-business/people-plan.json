@@ -1,0 +1,3247 @@
+[
+  {
+    "slug": "leadership-management",
+    "title": "Leadership and management: direction, delivery and responsibility",
+    "collection": "leadership-culture",
+    "group": "Leadership practice",
+    "topic": "Business & Management",
+    "summary": "Compare the work of setting direction with organizing delivery, then examine the behaviors and conditions that support both.",
+    "takeaway": "People can lead and manage in the same role; the comparison is a lens for discussing work, not a ranking of people.",
+    "ranges": [
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 0,
+        "end": 8,
+        "heading": "Leadership, influence and the limits of simple definitions"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 8,
+        "end": 26,
+        "heading": "Direction and delivery: complementary responsibilities",
+        "table": {
+          "headers": [
+            "Management emphasis",
+            "Leadership emphasis"
+          ],
+          "rows": [
+            [
+              [
+                8
+              ],
+              [
+                17
+              ]
+            ],
+            [
+              [
+                9
+              ],
+              [
+                18
+              ]
+            ],
+            [
+              [
+                10
+              ],
+              [
+                19
+              ]
+            ],
+            [
+              [
+                11
+              ],
+              [
+                20
+              ]
+            ],
+            [
+              [
+                12
+              ],
+              [
+                21
+              ]
+            ],
+            [
+              [
+                13
+              ],
+              [
+                22
+              ]
+            ],
+            [
+              [
+                14
+              ],
+              [
+                23
+              ]
+            ],
+            [
+              [
+                15
+              ],
+              [
+                24
+              ]
+            ],
+            [
+              [
+                16
+              ],
+              [
+                25
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 26,
+        "end": 53,
+        "heading": "How the source contrasts leaders and managers",
+        "table": {
+          "headers": [
+            "Leadership description in the source",
+            "Management description in the source"
+          ],
+          "rows": [
+            [
+              [
+                31
+              ],
+              [
+                32
+              ]
+            ],
+            [
+              [
+                33
+              ],
+              [
+                34
+              ]
+            ],
+            [
+              [
+                35
+              ],
+              [
+                36
+              ]
+            ],
+            [
+              [
+                37
+              ],
+              [
+                38
+              ]
+            ],
+            [
+              [
+                39
+              ],
+              [
+                40
+              ]
+            ],
+            [
+              [
+                41
+              ],
+              [
+                42
+              ]
+            ],
+            [
+              [
+                43
+              ],
+              [
+                44
+              ]
+            ],
+            [
+              [
+                45
+              ],
+              [
+                46
+              ]
+            ],
+            [
+              [
+                47
+              ],
+              [
+                48
+              ]
+            ],
+            [
+              [
+                49
+              ],
+              [
+                50
+              ]
+            ],
+            [
+              [
+                51
+              ],
+              [
+                52
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 53,
+        "end": 66,
+        "heading": "Individual behaviors and organizational support",
+        "table": {
+          "headers": [
+            "Individual factors",
+            "Organizational factors"
+          ],
+          "rows": [
+            [
+              [
+                55
+              ],
+              [
+                57
+              ]
+            ],
+            [
+              [
+                58
+              ],
+              [
+                59
+              ]
+            ],
+            [
+              [
+                60
+              ],
+              [
+                61
+              ]
+            ],
+            [
+              [
+                62
+              ],
+              [
+                63
+              ]
+            ],
+            [
+              [
+                64
+              ],
+              [
+                65
+              ]
+            ]
+          ]
+        }
+      }
+    ],
+    "steps": [
+      "Leadership, influence and the limits of simple definitions",
+      "Direction and delivery: complementary responsibilities",
+      "How the source contrasts leaders and managers",
+      "Individual behaviors and organizational support"
+    ],
+    "notes": [
+      "The leader/manager oppositions are source generalizations. Innovation, trust, control and sound administration can be necessary parts of either role. The Lao-Tzu quotation is supplied without a verified translation or edition."
+    ],
+    "related": [
+      "situational-leadership",
+      "leadership-behaviors",
+      "organizational-alignment"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "situational-leadership",
+    "title": "Situational leadership: adjust direction and support",
+    "collection": "leadership-culture",
+    "group": "Leadership practice",
+    "topic": "Business & Management",
+    "summary": "Use four task-and-relationship styles to discuss how much direction and support a particular task requires.",
+    "takeaway": "Discuss readiness for a specific task; avoid assigning someone a permanent leadership or follower type.",
+    "ranges": [
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 66,
+        "end": 67,
+        "heading": "Read the four-style diagram"
+      }
+    ],
+    "steps": [
+      "Read the four-style diagram"
+    ],
+    "notes": [
+      "The supplied image uses Telling, Selling, Participating and Delegating. Its outer axes combine competence/ability with guidance and commitment/willingness with support, while inner quadrants use task and relationship behavior. Those are distinct ideas, not one calibrated scale. The reconstruction keeps the four style combinations and explicitly records the ambiguous outer labels. It does not silently substitute SLII development levels."
+    ],
+    "related": [
+      "leadership-management",
+      "managerial-grid",
+      "talent-lifecycle"
+    ],
+    "references": [
+      {
+        "title": "Center for Leadership Studies: Situational Leadership",
+        "url": "https://situational.com/situational-leadership/"
+      }
+    ],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": [
+      {
+        "heading": "Use the model in a conversation",
+        "paragraphs": [
+          "Name the task and ask what the person can already do, what decisions they can make and what help they want. Agree direction, support and a review point. This is an editorial application of the model; no readiness questionnaire or diagnostic scoring is supplied."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "managerial-grid",
+    "title": "The managerial grid: people and production",
+    "collection": "leadership-culture",
+    "group": "Leadership practice",
+    "topic": "Business & Management",
+    "summary": "Compare five management styles using concern for people and concern for production, with the original descriptions retained.",
+    "takeaway": "The grid makes priorities discussable; a coordinate is not a validated score for a person or a universal prescription.",
+    "ranges": [
+      {
+        "document": "Management.docx",
+        "start": 424,
+        "end": 425,
+        "heading": "Two axes and five named styles"
+      }
+    ],
+    "steps": [
+      "Two axes and five named styles"
+    ],
+    "notes": [
+      "The source image is the Blake–Mouton managerial grid. It labels five styles on axes from 1 to 9 but provides no assessment instrument. Team management at 9,9 is the model’s ideal, not proof that one response works in every situation. Original graphic creator/edition is not identified."
+    ],
+    "related": [
+      "leadership-management",
+      "situational-leadership",
+      "high-performance-teams"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": [
+      {
+        "heading": "Read the coordinates",
+        "paragraphs": [
+          "The first coordinate is concern for production, from low at 1 to high at 9. The second is concern for people, also from 1 to 9. The comparison below retains the five illustrated positions and their source descriptions."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "leadership-behaviors",
+    "title": "Leadership behaviors: values made visible",
+    "collection": "leadership-culture",
+    "group": "Leadership practice",
+    "topic": "Business & Management",
+    "summary": "Turn purpose, integrity, empathy and growth into observable everyday leadership behaviors.",
+    "takeaway": "Consistent actions make stated values credible; use the prompts to discuss specific examples.",
+    "ranges": [
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 166,
+        "end": 175,
+        "heading": "Results and relationships the source associates with leadership"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 175,
+        "end": 197,
+        "heading": "Eleven behaviors to reflect on",
+        "pairs": true
+      }
+    ],
+    "steps": [
+      "Results and relationships the source associates with leadership",
+      "Eleven behaviors to reflect on"
+    ],
+    "notes": [],
+    "related": [
+      "leadership-principles",
+      "employee-engagement",
+      "purpose-to-performance"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "leadership-principles",
+    "title": "Maxwell’s 21 leadership principles: an annotated reading",
+    "collection": "leadership-culture",
+    "group": "Leadership practice",
+    "topic": "Business & Management",
+    "summary": "Read the supplied summaries of John Maxwell’s leadership laws, from influence and trust to succession.",
+    "takeaway": "Treat these as an author’s leadership principles to question and apply, not scientific laws.",
+    "ranges": [
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 246,
+        "end": 289,
+        "heading": "The 21 principles and their supplied summaries",
+        "pairs": true,
+        "skip": 1
+      }
+    ],
+    "steps": [
+      "The 21 principles and their supplied summaries"
+    ],
+    "notes": [
+      "The source attributes these principles to John Maxwell but gives no edition or page references. The final legacy sentence ends “measuredby successionwe”; its intended wording is uncertain, and the original is retained rather than silently completed."
+    ],
+    "related": [
+      "leadership-behaviors",
+      "leadership-management",
+      "talent-lifecycle"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "organizational-culture",
+    "title": "Organizational culture: visible practices and deeper assumptions",
+    "collection": "leadership-culture",
+    "group": "Culture & identity",
+    "topic": "Business & Management",
+    "summary": "Explore culture through artifacts, shared meanings, risk and feedback, occupational identity and the culture-iceberg metaphor.",
+    "takeaway": "Visible practices offer clues; ask people about their meanings before inferring their underlying values.",
+    "ranges": [
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 67,
+        "end": 84,
+        "heading": "Culture, shared meanings and everyday ingredients",
+        "subheadings": [
+          74
+        ]
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 84,
+        "end": 89,
+        "heading": "Deal and Kennedy: risk and feedback",
+        "subheadings": []
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 89,
+        "end": 101,
+        "heading": "Occupational identity and communities of practice"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 571,
+        "end": 584,
+        "heading": "Surface culture: what people can observe"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 584,
+        "end": 616,
+        "heading": "Deeper culture: values, concepts and assumptions",
+        "subheadings": [
+          585,
+          592,
+          601,
+          612
+        ]
+      }
+    ],
+    "steps": [
+      "Culture, shared meanings and everyday ingredients",
+      "Deal and Kennedy: risk and feedback",
+      "Occupational identity and communities of practice",
+      "Surface culture: what people can observe",
+      "Deeper culture: values, concepts and assumptions"
+    ],
+    "notes": [
+      "The source’s industry examples are historical illustrations, not descriptions of every organization in that industry. An iceberg is a metaphor, not a method for diagnosing hidden beliefs from appearance or nationality."
+    ],
+    "related": [
+      "organizational-design-change",
+      "organizational-development",
+      "high-performance-teams"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "title": "Culture: observe, ask, interpret",
+        "kind": "cards",
+        "headers": [],
+        "rows": [
+          [
+            "Visible practices",
+            "Logos, language, rituals, spaces and stories"
+          ],
+          [
+            "Shared meanings",
+            "Ask how people explain routines and expectations"
+          ],
+          [
+            "Underlying assumptions",
+            "Explore what is taken for granted; compare accounts rather than guessing"
+          ]
+        ],
+        "note": "Editorial reading aid connecting the source definitions and iceberg metaphor."
+      }
+    ],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "organizational-power",
+    "title": "Power and politics during organizational change",
+    "collection": "leadership-culture",
+    "group": "Culture & identity",
+    "topic": "Business & Management",
+    "summary": "Recognize formal and informal sources of influence, stakeholder responses and changes in access to resources.",
+    "takeaway": "Power depends on relationships and context; map whose interests and resources change before choosing an influence strategy.",
+    "ranges": [
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 106,
+        "end": 124,
+        "heading": "Power, relationships and political behavior"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 124,
+        "end": 142,
+        "heading": "How change redistributes influence",
+        "subheadings": [
+          134
+        ]
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 142,
+        "end": 166,
+        "heading": "Sources and indicators inside and outside the organization",
+        "table": {
+          "headers": [
+            "Perspective",
+            "Sources of power",
+            "Indicators of power"
+          ],
+          "rows": [
+            [
+              [
+                144
+              ],
+              [
+                148,
+                149,
+                150,
+                151,
+                152,
+                153
+              ],
+              [
+                158,
+                159,
+                160,
+                161
+              ]
+            ],
+            [
+              [
+                145
+              ],
+              [
+                154,
+                155,
+                156,
+                157
+              ],
+              [
+                162,
+                163,
+                164,
+                165
+              ]
+            ]
+          ]
+        }
+      }
+    ],
+    "steps": [
+      "Power, relationships and political behavior",
+      "How change redistributes influence",
+      "Sources and indicators inside and outside the organization"
+    ],
+    "notes": [
+      "Describing coercion, rule bending and self-promotion does not recommend them. Consider legitimacy, employee voice and the consequences for trust. The supplied research summaries do not include full bibliographic details."
+    ],
+    "related": [
+      "stakeholder-management",
+      "negotiation-principled",
+      "change-approaches"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "change-problem-types",
+    "title": "Critical, tame and wicked problems: choose a response",
+    "collection": "problem-solving",
+    "group": "Problem framing & analysis",
+    "topic": "Problem Solving & Decision Making",
+    "summary": "Compare crisis command, repeatable problem solving and collaborative leadership when the problem itself is contested.",
+    "takeaway": "First examine urgency, uncertainty and disagreement; calling something a crisis does not remove the need for accountability.",
+    "ranges": [
+      {
+        "document": "Change Management.docx",
+        "start": 41,
+        "end": 64,
+        "heading": "Three problem framings",
+        "subheadings": [
+          42,
+          49,
+          53
+        ]
+      },
+      {
+        "document": "Change Management.docx",
+        "start": 64,
+        "end": 80,
+        "heading": "The source comparison of space, time and problem type",
+        "table": {
+          "headers": [
+            "Dimension",
+            "Command",
+            "Management",
+            "Leadership"
+          ],
+          "rows": [
+            [
+              [
+                68
+              ],
+              [
+                69
+              ],
+              [
+                70
+              ],
+              [
+                71
+              ]
+            ],
+            [
+              [
+                72
+              ],
+              [
+                73
+              ],
+              [
+                74
+              ],
+              [
+                75
+              ]
+            ],
+            [
+              [
+                76
+              ],
+              [
+                77
+              ],
+              [
+                78
+              ],
+              [
+                79
+              ]
+            ]
+          ]
+        }
+      }
+    ],
+    "steps": [
+      "Three problem framings",
+      "The source comparison of space, time and problem type"
+    ],
+    "notes": [
+      "The source’s heart-surgery and product-launch examples simplify context. Either can include novel or contested issues. Its comments about coercion describe a framing of crisis power, not blanket permission to suppress discussion."
+    ],
+    "related": [
+      "change-approaches",
+      "critical-thinking-questions",
+      "organizational-power"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "change-approaches",
+    "title": "Choosing a change approach: pace, scope and uncertainty",
+    "collection": "organizational-change",
+    "group": "Diagnose & design change",
+    "topic": "Business & Management",
+    "summary": "Diagnose a change situation using environmental turbulence, VUCA, episodic versus continuous change and the scale of the intended shift.",
+    "takeaway": "A useful approach fits the situation and can change as evidence, constraints and people’s responses change.",
+    "ranges": [
+      {
+        "document": "Change Management.docx",
+        "start": 80,
+        "end": 85,
+        "heading": "Diagnose pace, scope, content and unintended outcomes"
+      },
+      {
+        "document": "Change Management.docx",
+        "start": 85,
+        "end": 98,
+        "heading": "Environmental turbulence and VUCA",
+        "subheadings": [
+          86
+        ]
+      },
+      {
+        "document": "Change Management.docx",
+        "start": 98,
+        "end": 102,
+        "heading": "The diagnosis restated in the supplied notes",
+        "mergeSection": "section-1"
+      },
+      {
+        "document": "Change Management.docx",
+        "start": 102,
+        "end": 106,
+        "heading": "Why structure and context do not have one universal fit"
+      },
+      {
+        "document": "Change Management.docx",
+        "start": 106,
+        "end": 125,
+        "heading": "Episodic and continuous change",
+        "table": {
+          "headers": [
+            "Dimension",
+            "Episodic emphasis",
+            "Continuous emphasis"
+          ],
+          "rows": [
+            [
+              [
+                107
+              ],
+              [
+                108
+              ],
+              [
+                109
+              ]
+            ],
+            [
+              [
+                110
+              ],
+              [
+                111
+              ],
+              [
+                112
+              ]
+            ],
+            [
+              [
+                113
+              ],
+              [
+                114
+              ],
+              [
+                115
+              ]
+            ],
+            [
+              [
+                116
+              ],
+              [
+                117
+              ],
+              [
+                118
+              ]
+            ],
+            [
+              [
+                119
+              ],
+              [
+                120
+              ],
+              [
+                121
+              ]
+            ],
+            [
+              [
+                122
+              ],
+              [
+                123
+              ],
+              [
+                124
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "document": "Change Management.docx",
+        "start": 172,
+        "end": 182,
+        "heading": "Change scale: transformation and realignment",
+        "table": {
+          "headers": [
+            "Nature of change",
+            "Transformation",
+            "Realignment"
+          ],
+          "rows": [
+            [
+              [
+                176
+              ],
+              [
+                177
+              ],
+              [
+                178
+              ]
+            ],
+            [
+              [
+                179
+              ],
+              [
+                180
+              ],
+              [
+                181
+              ]
+            ]
+          ]
+        }
+      }
+    ],
+    "steps": [
+      "Diagnose pace, scope, content and unintended outcomes",
+      "Environmental turbulence and VUCA",
+      "The diagnosis restated in the supplied notes",
+      "Why structure and context do not have one universal fit",
+      "Episodic and continuous change",
+      "Change scale: transformation and realignment"
+    ],
+    "notes": [
+      "The statements that theories are “less valid” and that conditions are unique are supplied viewpoints, not results established by this upload. Ansoff/McDonnell and Oswick are source attributions without complete references. Repeated wording shares a reading destination; distinct spellings remain traceable."
+    ],
+    "related": [
+      "change-problem-types",
+      "organizational-design-change",
+      "change-kotter"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "organizational-design-change",
+    "title": "Organizational design and culture change",
+    "collection": "organizational-change",
+    "group": "Diagnose & design change",
+    "topic": "Business & Management",
+    "summary": "Connect contingency factors, five structural configurations and the practical work of changing structures, practices and culture.",
+    "takeaway": "Design choices interact with age, size, technology, environment and power; changing the chart alone rarely explains the whole change.",
+    "ranges": [
+      {
+        "document": "Change Management.docx",
+        "start": 125,
+        "end": 135,
+        "heading": "Congruence, contingencies and organizational responses",
+        "subheadings": [
+          128,
+          130
+        ]
+      },
+      {
+        "document": "Change Management.docx",
+        "start": 135,
+        "end": 159,
+        "heading": "Five structural configurations",
+        "table": {
+          "headers": [
+            "Structural configuration",
+            "Age, size and power",
+            "Technical system",
+            "Environment"
+          ],
+          "rows": [
+            [
+              [
+                139
+              ],
+              [
+                140
+              ],
+              [
+                141
+              ],
+              [
+                142
+              ]
+            ],
+            [
+              [
+                143
+              ],
+              [
+                144
+              ],
+              [
+                145
+              ],
+              [
+                146
+              ]
+            ],
+            [
+              [
+                147
+              ],
+              [
+                148
+              ],
+              [
+                149
+              ],
+              [
+                150
+              ]
+            ],
+            [
+              [
+                151
+              ],
+              [
+                152
+              ],
+              [
+                153
+              ],
+              [
+                154
+              ]
+            ],
+            [
+              [
+                155
+              ],
+              [
+                156
+              ],
+              [
+                157
+              ],
+              [
+                158
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "document": "Change Management.docx",
+        "start": 159,
+        "end": 172,
+        "heading": "Types of change and the culture-change task",
+        "subheadings": [
+          166
+        ]
+      },
+      {
+        "document": "Change Management.docx",
+        "start": 189,
+        "end": 190,
+        "heading": "Grid/group perspectives on responses to change"
+      }
+    ],
+    "steps": [
+      "Congruence, contingencies and organizational responses",
+      "Five structural configurations",
+      "Types of change and the culture-change task",
+      "Grid/group perspectives on responses to change"
+    ],
+    "notes": [
+      "The structural comparison is attributed in the notes to Lawrence/Lorsch and Mintzberg; it is a contingency framework, not a universal recipe. TUPE is named as a type of transfer without legal scope or instructions. The grid/group image uses climate-change examples and does not identify its creator; its worldview labels must not be treated as fixed employee types."
+    ],
+    "related": [
+      "organizational-culture",
+      "organizational-alignment",
+      "organizational-development"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "change-motivation",
+    "title": "Motivation and ownership during change",
+    "collection": "organizational-change",
+    "group": "Lead & sustain change",
+    "topic": "Business & Management",
+    "summary": "Compare intrinsic and extrinsic motivation, then consider autonomy, mastery, purpose and five people-centered change factors.",
+    "takeaway": "Explain the purpose, make room for meaningful participation and align leadership behavior with the change.",
+    "ranges": [
+      {
+        "document": "Change Management.docx",
+        "start": 33,
+        "end": 41,
+        "heading": "Intrinsic motivation: autonomy, mastery and purpose",
+        "subheadings": [
+          34
+        ]
+      },
+      {
+        "document": "Change Management.docx",
+        "start": 182,
+        "end": 189,
+        "heading": "Five factors for making change stick"
+      }
+    ],
+    "steps": [
+      "Intrinsic motivation: autonomy, mastery and purpose",
+      "Five factors for making change stick"
+    ],
+    "notes": [
+      "The notes attribute autonomy, mastery and purpose to Daniel Pink and the five success factors to Harshak, Aguirre and Brown. They do not establish that incentives are always ineffective."
+    ],
+    "related": [
+      "employee-engagement",
+      "leadership-behaviors",
+      "change-kotter"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "change-delta",
+    "title": "Change Delta: governance, execution, leaders and engagement",
+    "collection": "organizational-change",
+    "group": "Lead & sustain change",
+    "topic": "Business & Management",
+    "summary": "Read the supplied four-part BCG change framework as a set of connected implementation responsibilities.",
+    "takeaway": "A PMO cannot substitute for accountable leaders or an organization equipped to make the change.",
+    "ranges": [
+      {
+        "document": "Change Management.docx",
+        "start": 250,
+        "end": 267,
+        "heading": "Four connected parts of change delivery",
+        "subheadings": [
+          251,
+          254,
+          258,
+          262
+        ]
+      }
+    ],
+    "steps": [
+      "Four connected parts of change delivery"
+    ],
+    "notes": [
+      "The supplied notes attribute this framework to Boston Consulting Group but do not identify the publication or edition. Governance/PMO, executional certainty, enabled leaders and engaged organization are retained as supplied; current BCG methodology is not inferred."
+    ],
+    "related": [
+      "change-kotter",
+      "purpose-to-performance",
+      "change-communication-planning"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "title": "Four responsibilities to connect",
+        "kind": "cards",
+        "headers": [],
+        "rows": [
+          [
+            "Governance & PMO",
+            "Roles, processes, decision rights and coordination"
+          ],
+          [
+            "Executional certainty",
+            "Portfolio visibility, rigorous methods and early issue signals"
+          ],
+          [
+            "Enabled leaders",
+            "Accountable sponsors with capability and alignment"
+          ],
+          [
+            "Engaged organization",
+            "Understanding, stakeholder involvement and reinforcement"
+          ]
+        ],
+        "note": "Editorial summary of the four source components; attribution remains incomplete."
+      }
+    ],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "organizational-development",
+    "title": "Organization development: building the capacity to change",
+    "collection": "organizational-change",
+    "group": "Diagnose & design change",
+    "topic": "Business & Management",
+    "summary": "Study participative, systemic change through its origins, shared features, diagnosis, commitment, action planning and limitations.",
+    "takeaway": "Develop the organization’s ability to learn and change, alongside the immediate project outcome.",
+    "ranges": [
+      {
+        "document": "Change Management.docx",
+        "start": 267,
+        "end": 283,
+        "heading": "Origins, participation and systems thinking"
+      },
+      {
+        "document": "Change Management.docx",
+        "start": 283,
+        "end": 291,
+        "heading": "Common features of organization development"
+      },
+      {
+        "document": "Change Management.docx",
+        "start": 291,
+        "end": 303,
+        "heading": "Diagnosis, commitment and an action plan",
+        "subheadings": [
+          292,
+          296,
+          299
+        ]
+      },
+      {
+        "document": "Change Management.docx",
+        "start": 303,
+        "end": 308,
+        "heading": "Limitations and constrained change"
+      }
+    ],
+    "steps": [
+      "Origins, participation and systems thinking",
+      "Common features of organization development",
+      "Diagnosis, commitment and an action plan",
+      "Limitations and constrained change"
+    ],
+    "notes": [
+      "The source’s statement about national cultures is an unqualified generalization. Assess context, participation, power and constraints rather than assuming a national group cannot use organization development. The source supplies no completed diagnostic instrument or case dataset."
+    ],
+    "related": [
+      "organizational-design-change",
+      "organizational-culture",
+      "change-approaches"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "hr-operating-model",
+    "title": "Designing an HR function around employee experience",
+    "collection": "people-employee-experience",
+    "group": "People systems & talent",
+    "topic": "Business & Management",
+    "summary": "Use employee experience, technology, team-based work and professional people advice to think through an HR operating model.",
+    "takeaway": "People management is shared across the organization; the HR function connects specialist knowledge with everyday work.",
+    "ranges": [
+      {
+        "document": "Human Resource.docx",
+        "start": 0,
+        "end": 9,
+        "heading": "Seven operating-model priorities and an incomplete final excerpt"
+      },
+      {
+        "document": "Human Resource.docx",
+        "start": 9,
+        "end": 14,
+        "heading": "People principles and shared responsibility"
+      }
+    ],
+    "steps": [
+      "Seven operating-model priorities and an incomplete final excerpt",
+      "People principles and shared responsibility"
+    ],
+    "notes": [
+      "The final operating-model paragraph stops at “research, and visits to peer”. The continuation is missing. Claims about HR leading transformation and traditional hierarchies are the source’s recommendations, not universal findings."
+    ],
+    "related": [
+      "talent-lifecycle",
+      "employee-engagement",
+      "organizational-design-change"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "talent-lifecycle",
+    "title": "Talent management through organizational change",
+    "collection": "people-employee-experience",
+    "group": "People systems & talent",
+    "topic": "Business & Management",
+    "summary": "Follow attraction, recruitment, onboarding, development, performance and retention, with change questions for each stage.",
+    "takeaway": "Review how the employee proposition, required capabilities and performance expectations change together.",
+    "ranges": [
+      {
+        "document": "Change Management.docx",
+        "start": 190,
+        "end": 209,
+        "heading": "Six stages: actions and change questions",
+        "table": {
+          "headers": [
+            "Stage",
+            "Supplied practice",
+            "Question during change"
+          ],
+          "rows": [
+            [
+              [
+                191
+              ],
+              [
+                192
+              ],
+              [
+                193
+              ]
+            ],
+            [
+              [
+                194
+              ],
+              [
+                195
+              ],
+              [
+                196
+              ]
+            ],
+            [
+              [
+                197
+              ],
+              [
+                198
+              ],
+              [
+                199
+              ]
+            ],
+            [
+              [
+                200
+              ],
+              [
+                201
+              ],
+              [
+                202
+              ]
+            ],
+            [
+              [
+                203
+              ],
+              [
+                204
+              ],
+              [
+                205
+              ]
+            ],
+            [
+              [
+                206
+              ],
+              [
+                207
+              ],
+              [
+                208
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "document": "Change Management.docx",
+        "start": 209,
+        "end": 215,
+        "heading": "Dated and unsourced workplace outlook notes"
+      }
+    ],
+    "steps": [
+      "Six stages: actions and change questions",
+      "Dated and unsourced workplace outlook notes"
+    ],
+    "notes": [
+      "The future-workforce figures and percentages have no adequate source date, population or methodology. They are retained as unverified source notes, not current forecasts. “Cultural fit” should not mean hiring only people who resemble the existing team; define relevant capabilities and fair criteria."
+    ],
+    "related": [
+      "hr-operating-model",
+      "executive-kpi-reference",
+      "change-motivation"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "workplace-wellbeing",
+    "title": "Workplace wellbeing and fairness during change",
+    "collection": "people-employee-experience",
+    "group": "Employee experience & voice",
+    "topic": "Business & Management",
+    "summary": "Examine the work conditions behind wellbeing and distinguish four forms of organizational justice.",
+    "takeaway": "Address work design and fair treatment alongside individual wellbeing activities.",
+    "ranges": [
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 302,
+        "end": 313,
+        "heading": "Conditions, leadership and the design of work"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 313,
+        "end": 319,
+        "heading": "Distributive, procedural, interpersonal and informational justice",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Conditions, leadership and the design of work",
+      "Distributive, procedural, interpersonal and informational justice"
+    ],
+    "notes": [
+      "The source’s claims linking health to profits and productivity are broad study statements without a supplied evaluation dataset. Individual reflection scores cannot diagnose workforce health or replace attention to workload and working conditions."
+    ],
+    "related": [
+      "employee-engagement",
+      "workplace-energy-reflection",
+      "change-responses"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "employee-engagement",
+    "title": "Employee engagement: voice, participation and integrity",
+    "collection": "people-employee-experience",
+    "group": "Employee experience & voice",
+    "topic": "Business & Management",
+    "summary": "Distinguish satisfaction, motivation, commitment and engagement, then examine participation and four enabling conditions.",
+    "takeaway": "Listen to employees and act consistently; engagement is broader than a survey score or willingness to work extra hours.",
+    "ranges": [
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 319,
+        "end": 336,
+        "heading": "Four concepts the source compares",
+        "subheadings": [
+          320,
+          323,
+          327,
+          332
+        ]
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 336,
+        "end": 343,
+        "heading": "Intellectual, affective and social engagement",
+        "pairs": true,
+        "skip": 1
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 343,
+        "end": 353,
+        "heading": "Participation and four enabling conditions",
+        "subheadings": [
+          348
+        ]
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 616,
+        "end": 622,
+        "heading": "Quiet quitting: five possible contributing conditions"
+      }
+    ],
+    "steps": [
+      "Four concepts the source compares",
+      "Intellectual, affective and social engagement",
+      "Participation and four enabling conditions",
+      "Quiet quitting: five possible contributing conditions"
+    ],
+    "notes": [
+      "The dates 1960, 1980 and 2000 in the source are an illustrative timeline, not verified dates when these concepts began. “Withholding criticism” must not displace safe employee voice. Quiet quitting is used here as a workplace label, not a diagnosis or an exhaustive explanation. The source spells the four-enabler attribution “McLeod”; full provenance remains unresolved."
+    ],
+    "related": [
+      "hr-operating-model",
+      "workplace-wellbeing",
+      "feedback-awareness",
+      "executive-kpi-reference"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "purpose-to-performance",
+    "title": "From purpose to priorities, projects, people and performance",
+    "collection": "operations-performance",
+    "group": "Goals & performance",
+    "topic": "Business & Management",
+    "summary": "Use five connected questions to align organizational intent, project choices, responsibilities and measures.",
+    "takeaway": "Choose projects and measures that make the purpose concrete; activity alone is not evidence of value.",
+    "ranges": [
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 471,
+        "end": 485,
+        "heading": "Five questions that connect direction with delivery",
+        "subheadings": [
+          473,
+          476,
+          478,
+          481,
+          483
+        ]
+      }
+    ],
+    "steps": [
+      "Five questions that connect direction with delivery"
+    ],
+    "notes": [],
+    "related": [
+      "okr-goals",
+      "executive-kpi-reference",
+      "project-management"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "title": "Five connected decisions",
+        "kind": "flow",
+        "headers": [],
+        "rows": [
+          [
+            "Purpose: why the organization exists"
+          ],
+          [
+            "Priorities: what matters now and later"
+          ],
+          [
+            "Projects: which initiatives serve those priorities"
+          ],
+          [
+            "People: who can carry out the work"
+          ],
+          [
+            "Performance: which targets show value"
+          ]
+        ],
+        "note": "Reading sequence recreated from the supplied hierarchy; review earlier decisions when outcomes challenge assumptions."
+      }
+    ],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "six-thinking-hats",
+    "title": "Six Thinking Hats: separate facts, feelings and possibilities",
+    "collection": "problem-solving",
+    "group": "Creative problem solving",
+    "topic": "Problem Solving & Decision Making",
+    "summary": "Explore six thinking modes for examining a question from different directions without turning disagreement into personal conflict.",
+    "takeaway": "Change the mode of thinking deliberately; a hat is a temporary role, not a personality label.",
+    "ranges": [
+      {
+        "document": "Human Resource.docx",
+        "start": 14,
+        "end": 16,
+        "heading": "What the source proposes"
+      },
+      {
+        "document": "Human Resource.docx",
+        "start": 16,
+        "end": 28,
+        "heading": "The six thinking modes",
+        "pairs": true
+      }
+    ],
+    "steps": [
+      "What the source proposes",
+      "The six thinking modes"
+    ],
+    "notes": [
+      "The source describes potential benefits but supplies no evaluation data. Define the question and process before a discussion; do not use the hats to assign fixed types to colleagues."
+    ],
+    "related": [
+      "critical-thinking-questions",
+      "change-problem-types"
+    ],
+    "references": [
+      {
+        "title": "de Bono: Six Thinking Hats summary",
+        "url": "https://www.debono.com/six-thinking-hats-summary"
+      }
+    ],
+    "visuals": [
+      {
+        "title": "Six lenses for one question",
+        "kind": "cards",
+        "headers": [],
+        "rows": [
+          [
+            "White",
+            "Facts and information gaps"
+          ],
+          [
+            "Red",
+            "Feelings and intuition"
+          ],
+          [
+            "Black",
+            "Risks and difficulties"
+          ],
+          [
+            "Yellow",
+            "Benefits and value"
+          ],
+          [
+            "Green",
+            "Ideas and alternatives"
+          ],
+          [
+            "Blue",
+            "Process and next steps"
+          ]
+        ],
+        "note": "Editorial summary of the source roles; everyone can use different thinking modes."
+      }
+    ],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "critical-thinking-questions",
+    "title": "Critical thinking: principles, writing and 48 questions",
+    "collection": "problem-solving",
+    "group": "Problem framing & analysis",
+    "topic": "Problem Solving & Decision Making",
+    "summary": "Question evidence, compare arguments and improve writing with six sets of prompts about people, alternatives, context, timing, reasons and methods.",
+    "takeaway": "Ask what would support or challenge a claim, whose perspective is missing and how you would know an action worked.",
+    "ranges": [
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 485,
+        "end": 509,
+        "heading": "Critical thinking and habits of inquiry",
+        "subheadings": [
+          488,
+          493
+        ]
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 509,
+        "end": 517,
+        "heading": "A checklist for critical writing"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 517,
+        "end": 526,
+        "heading": "Who: people, power and consequences"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 526,
+        "end": 535,
+        "heading": "What: alternatives, strengths and obstacles"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 535,
+        "end": 544,
+        "heading": "Where: context, support and evidence"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 544,
+        "end": 553,
+        "heading": "When: timing, history and success"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 553,
+        "end": 562,
+        "heading": "Why: relevance, influence and assumptions"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 562,
+        "end": 571,
+        "heading": "How: evidence, safety and change"
+      }
+    ],
+    "steps": [
+      "Critical thinking and habits of inquiry",
+      "A checklist for critical writing",
+      "Who: people, power and consequences",
+      "What: alternatives, strengths and obstacles",
+      "Where: context, support and evidence",
+      "When: timing, history and success",
+      "Why: relevance, influence and assumptions",
+      "How: evidence, safety and change"
+    ],
+    "notes": [
+      "The 48 source prompts are organized for reference, not a scored test. Adapt the fragments to the question you are investigating. The archive gives short attributions to Cottrell and Criticalthinking.org without full source citations."
+    ],
+    "related": [
+      "six-thinking-hats",
+      "change-problem-types",
+      "strategic-thinking"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "workplace-emotions",
+    "title": "Emotions at work: change, emotional labour and awareness",
+    "collection": "communication-personal-development",
+    "group": "Communication & influence",
+    "topic": "Communication & Personal Development",
+    "summary": "Read how change can evoke mixed emotions, how display expectations create emotional labour and how the notes describe emotional intelligence.",
+    "takeaway": "Acknowledge emotions and their context; do not equate visible positivity with commitment or competence.",
+    "ranges": [
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 353,
+        "end": 363,
+        "heading": "Mixed and changing emotional responses",
+        "subheadings": [
+          358
+        ]
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 363,
+        "end": 370,
+        "heading": "Emotional display, suppression and emotional labour"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 370,
+        "end": 375,
+        "heading": "Emotional intelligence and self-awareness"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 101,
+        "end": 106,
+        "heading": "Four prompts for reflecting on anger"
+      }
+    ],
+    "steps": [
+      "Mixed and changing emotional responses",
+      "Emotional display, suppression and emotional labour",
+      "Emotional intelligence and self-awareness",
+      "Four prompts for reflecting on anger"
+    ],
+    "notes": [
+      "These are workplace study notes and general reflection prompts, not psychological assessment or treatment. The source’s positive/negative labels simplify emotions: disagreement or concern can carry useful information. Its company example and research summaries are not independently authenticated here."
+    ],
+    "related": [
+      "workplace-relationships",
+      "change-responses",
+      "workplace-wellbeing"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "workplace-relationships",
+    "title": "Workplace relationships: trust, boundaries and reciprocity",
+    "collection": "communication-personal-development",
+    "group": "Communication & influence",
+    "topic": "Communication & Personal Development",
+    "summary": "Build useful working relationships through listening, thoughtful help, respectful boundaries and constructive disagreement.",
+    "takeaway": "Support others without relying on approval or saying yes to every request.",
+    "ranges": [
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 375,
+        "end": 389,
+        "heading": "Trust, reciprocity and boundaries",
+        "subheadings": [
+          377,
+          382
+        ]
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 389,
+        "end": 410,
+        "heading": "Misunderstandings, authenticity and everyday manners",
+        "subheadings": [
+          393,
+          398,
+          402,
+          407
+        ]
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 410,
+        "end": 421,
+        "heading": "What relationships can offer",
+        "pairs": true,
+        "skip": 1
+      }
+    ],
+    "steps": [
+      "Trust, reciprocity and boundaries",
+      "Misunderstandings, authenticity and everyday manners",
+      "What relationships can offer"
+    ],
+    "notes": [
+      "The Zora Neale Hurston quotation is supplied without an edition or source location. Statements such as never declining without an explanation and only connecting online with real-life friends are source preferences, not universal obligations."
+    ],
+    "related": [
+      "workplace-conflict",
+      "interpersonal-influence",
+      "feedback-awareness"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "interpersonal-influence",
+    "title": "Everyday influence: interest, appreciation and listening",
+    "collection": "communication-personal-development",
+    "group": "Communication & influence",
+    "topic": "Communication & Personal Development",
+    "summary": "Read six interpersonal practices associated in the notes with winning friends and influencing people.",
+    "takeaway": "Make interest and appreciation sincere; respectful listening is more useful than performing friendliness.",
+    "ranges": [
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 289,
+        "end": 302,
+        "heading": "Six practices and their supplied explanations",
+        "pairs": true,
+        "skip": 1
+      }
+    ],
+    "steps": [
+      "Six practices and their supplied explanations"
+    ],
+    "notes": [
+      "The heading evokes Dale Carnegie, but the upload does not supply edition or page references. Several phrases appear as modern paraphrases or uncertain quotations; this page does not authenticate them as verbatim Carnegie text."
+    ],
+    "related": [
+      "workplace-relationships",
+      "negotiation-principled",
+      "workplace-emotions"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "workplace-conflict",
+    "title": "Workplace conflict: diagnose the issue and choose a response",
+    "collection": "communication-personal-development",
+    "group": "Communication & influence",
+    "topic": "Communication & Personal Development",
+    "summary": "Separate goal, administrative and interpersonal conflict, then consider organizational causes and available responses.",
+    "takeaway": "Identify the concern and conditions before selecting a response; conflict is not always productive or safe.",
+    "ranges": [
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 622,
+        "end": 641,
+        "heading": "Categories, perspectives and possible causes",
+        "subheadings": [
+          624,
+          628,
+          632,
+          637
+        ]
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 641,
+        "end": 653,
+        "heading": "Responses named in the source",
+        "table": {
+          "headers": [
+            "Response",
+            "Associated source phrase"
+          ],
+          "rows": [
+            [
+              [
+                643
+              ],
+              [
+                644
+              ]
+            ],
+            [
+              [
+                645
+              ],
+              [
+                646
+              ]
+            ],
+            [
+              [
+                647
+              ],
+              [
+                648
+              ]
+            ],
+            [
+              [
+                649
+              ],
+              [
+                650
+              ]
+            ],
+            [
+              [
+                651
+              ],
+              [
+                652
+              ]
+            ]
+          ]
+        }
+      }
+    ],
+    "steps": [
+      "Categories, perspectives and possible causes",
+      "Responses named in the source"
+    ],
+    "notes": [
+      "The short response pairings are source labels, not a complete resolution procedure. “Eliminate / transfer” does not justify retaliating against a person, and acceptance is not appropriate for every conflict. The source does not explain when mediation, arbitration or other formal processes apply."
+    ],
+    "related": [
+      "workplace-relationships",
+      "negotiation-principled",
+      "organizational-power"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "feedback-awareness",
+    "title": "Feedback and awareness: a supplied reflection matrix",
+    "collection": "communication-personal-development",
+    "group": "Communication & influence",
+    "topic": "Communication & Personal Development",
+    "summary": "Explore a two-by-two comparison of what you and other people know, with the source’s feedback labels and additional reflection words.",
+    "takeaway": "Use the matrix to ask questions about awareness; the supplied labels do not amount to a complete feedback method.",
+    "ranges": [
+      {
+        "document": "Human Resource.docx",
+        "start": 237,
+        "end": 246,
+        "heading": "What I know and what others know",
+        "table": {
+          "headers": [
+            "Awareness",
+            "I know",
+            "I do not know"
+          ],
+          "rows": [
+            [
+              [
+                240
+              ],
+              [
+                241
+              ],
+              [
+                242
+              ]
+            ],
+            [
+              [
+                243
+              ],
+              [
+                244
+              ],
+              [
+                245
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "document": "Human Resource.docx",
+        "start": 246,
+        "end": 251,
+        "heading": "Additional reflection words supplied without instructions"
+      }
+    ],
+    "steps": [
+      "What I know and what others know",
+      "Additional reflection words supplied without instructions"
+    ],
+    "notes": [
+      "The matrix is Johari-like but the supplied labels are Feedback operation, acceptance, sharing and transformation. It is not silently relabelled as the canonical Johari Window. Feeling, Awaken, Enlighten, Forego and Transform have no accompanying definitions or sequence instructions."
+    ],
+    "related": [
+      "employee-engagement",
+      "workplace-relationships",
+      "critical-thinking-questions"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "workplace-energy-reflection",
+    "title": "Workplace energy: a 20-prompt reflection checklist",
+    "collection": "communication-personal-development",
+    "group": "Learning & personal development",
+    "topic": "Communication & Personal Development",
+    "summary": "Reflect on physical, emotional, mental and purpose-related habits, then read the supplied score bands and energy-quadrant metaphor.",
+    "takeaway": "Use the checklist to notice patterns and choose a conversation or small change; its score is not a diagnosis.",
+    "ranges": [
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 421,
+        "end": 428,
+        "heading": "Physical habits: five prompts"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 428,
+        "end": 434,
+        "heading": "Emotional habits: five prompts"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 434,
+        "end": 440,
+        "heading": "Mental habits: five prompts"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 440,
+        "end": 446,
+        "heading": "Purpose and values: five prompts"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 446,
+        "end": 468,
+        "heading": "Original score bands: category and overall totals",
+        "table": {
+          "headers": [
+            "Category count",
+            "Source label",
+            "Overall count",
+            "Source label"
+          ],
+          "rows": [
+            [
+              [
+                448
+              ],
+              [
+                449
+              ],
+              [
+                450
+              ],
+              [
+                451
+              ]
+            ],
+            [
+              [
+                452
+              ],
+              [
+                453
+              ],
+              [
+                454
+              ],
+              [
+                455
+              ]
+            ],
+            [
+              [
+                456
+              ],
+              [
+                457
+              ],
+              [
+                458
+              ],
+              [
+                459
+              ]
+            ],
+            [
+              [
+                460
+              ],
+              [
+                461
+              ],
+              [
+                462
+              ],
+              [
+                463
+              ]
+            ],
+            [
+              [
+                464
+              ],
+              [
+                465
+              ],
+              [
+                466
+              ],
+              [
+                467
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 468,
+        "end": 471,
+        "heading": "Reflect on patterns and read the energy quadrants"
+      }
+    ],
+    "steps": [
+      "Physical habits: five prompts",
+      "Emotional habits: five prompts",
+      "Mental habits: five prompts",
+      "Purpose and values: five prompts",
+      "Original score bands: category and overall totals",
+      "Reflect on patterns and read the energy quadrants"
+    ],
+    "notes": [
+      "The source’s “Spiritual” column concerns purpose and values here; it is unrelated to Hawkins’s numbered spiritual hierarchy. The checklist has no supplied validation or clinical interpretation. Source score labels such as “Burned out” and diagram labels such as “Depression” do not diagnose burnout or depression. Exercise, sleep and renewal statements are source habits, not an individualized prescription. The diagram’s “every 90 minutes” suggestion is not established as a universal interval."
+    ],
+    "related": [
+      "workplace-wellbeing",
+      "personal-productivity",
+      "workplace-emotions"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "workplace-animal-metaphors",
+    "title": "Workplace animal metaphors: satire and its limits",
+    "collection": "personality-narratives",
+    "group": "Workplace metaphors",
+    "topic": "Communication & Personal Development",
+    "summary": "Read ten meeting caricatures and a four-animal performance/commitment model as metaphors, with their assumptions made explicit.",
+    "takeaway": "Describe observable behavior and support needs; do not reduce a colleague’s worth to an animal label.",
+    "ranges": [
+      {
+        "document": "Human Resource.docx",
+        "start": 28,
+        "end": 49,
+        "heading": "Ten meeting caricatures and their meanings",
+        "pairs": true,
+        "skip": 1
+      },
+      {
+        "document": "Human Resource.docx",
+        "start": 49,
+        "end": 70,
+        "heading": "Performance and commitment: the supplied animal model",
+        "table": {
+          "headers": [
+            "Performance",
+            "Higher commitment",
+            "Lower commitment"
+          ],
+          "rows": [
+            [
+              [
+                52
+              ],
+              [
+                53,
+                54,
+                55,
+                56
+              ],
+              [
+                57,
+                58,
+                59,
+                60
+              ]
+            ],
+            [
+              [
+                61
+              ],
+              [
+                62,
+                63,
+                64,
+                65
+              ],
+              [
+                66,
+                67,
+                68,
+                69
+              ]
+            ]
+          ]
+        }
+      }
+    ],
+    "steps": [
+      "Ten meeting caricatures and their meanings",
+      "Performance and commitment: the supplied animal model"
+    ],
+    "notes": [
+      "These animal labels are satire or unvalidated workplace heuristics, not personality diagnoses. The source’s “exit strategy” recommendation is retained as source wording, not endorsed as a staffing rule. Examine expectations, resources, skills, support and fair process rather than assuming motives or loyalty from a quadrant."
+    ],
+    "related": [
+      "sbti-personality-narratives",
+      "six-thinking-hats",
+      "employee-engagement"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "sbti-personality-narratives",
+    "title": "SBTI personality narratives: all 26 supplied profiles",
+    "collection": "personality-narratives",
+    "group": "Humorous profiles",
+    "topic": "Communication & Personal Development",
+    "summary": "Browse the complete supplied set of exaggerated personality sketches as entertainment and cultural commentary.",
+    "takeaway": "These are humorous narratives, not a validated assessment, hiring tool or clinical description.",
+    "ranges": [
+      {
+        "document": "Human Resource.docx",
+        "start": 182,
+        "end": 185,
+        "heading": "Missing source attachments"
+      },
+      {
+        "document": "Human Resource.docx",
+        "start": 185,
+        "end": 197,
+        "heading": "Order, responsibility and outlook",
+        "pairs": true
+      },
+      {
+        "document": "Human Resource.docx",
+        "start": 197,
+        "end": 209,
+        "heading": "Action, affection and social presentation",
+        "pairs": true
+      },
+      {
+        "document": "Human Resource.docx",
+        "start": 209,
+        "end": 221,
+        "heading": "Chaos, humor, analysis and deadlines",
+        "pairs": true
+      },
+      {
+        "document": "Human Resource.docx",
+        "start": 221,
+        "end": 237,
+        "heading": "Focus, solitude, intensity and other narratives",
+        "pairs": true
+      }
+    ],
+    "steps": [
+      "Missing source attachments",
+      "Order, responsibility and outlook",
+      "Action, affection and social presentation",
+      "Chaos, humor, analysis and deadlines",
+      "Focus, solitude, intensity and other narratives"
+    ],
+    "notes": [
+      "Two unavailable-download placeholders appear before the profiles. The underlying attachments are not embedded in the archive. All 26 supplied descriptions are retained, including profanity and exaggerated characterizations. Authorship, translation and original publication are unverified. A profile mentions 15 dimensions and a 60% threshold, but no complete questionnaire or scoring rules are supplied; no quiz is invented."
+    ],
+    "related": [
+      "workplace-animal-metaphors",
+      "feedback-awareness"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": [
+      {
+        "heading": "How to read the profiles",
+        "paragraphs": [
+          "Treat the sketches as stories that may prompt discussion, not evidence about a person. Original profile names and codes are retained because they belong to the supplied typology; the page title and navigation describe what readers will find."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "hawkins-consciousness-map",
+    "title": "Hawkins’s Map of Consciousness: a spiritual framework",
+    "collection": "beliefs-mysteries",
+    "group": "Metaphysics & spiritual traditions",
+    "topic": "Beliefs & Mysteries",
+    "summary": "Read the complete 17-level supplied table, including its spiritual groupings, emotions, worldviews and numerical labels.",
+    "takeaway": "The numbers are part of the author’s spiritual framework; this source does not establish physical frequencies or scientific scores of human value.",
+    "ranges": [
+      {
+        "document": "Human Resource.docx",
+        "start": 70,
+        "end": 182,
+        "heading": "The complete supplied table",
+        "table": {
+          "headers": [
+            "Paradigm",
+            "Level of consciousness",
+            "Energy log: source label",
+            "Emotional state",
+            "Life view",
+            "God view",
+            "Process"
+          ],
+          "rows": [
+            [
+              [
+                77
+              ],
+              [
+                78
+              ],
+              [
+                79
+              ],
+              [
+                80
+              ],
+              [
+                81
+              ],
+              [
+                82
+              ],
+              [
+                83
+              ]
+            ],
+            [
+              [],
+              [
+                84
+              ],
+              [
+                85
+              ],
+              [
+                86
+              ],
+              [
+                87
+              ],
+              [
+                88
+              ],
+              [
+                89
+              ]
+            ],
+            [
+              [],
+              [
+                90
+              ],
+              [
+                91
+              ],
+              [
+                92
+              ],
+              [
+                93
+              ],
+              [
+                94
+              ],
+              [
+                95
+              ]
+            ],
+            [
+              [],
+              [
+                96
+              ],
+              [
+                97
+              ],
+              [
+                98
+              ],
+              [
+                99
+              ],
+              [
+                100
+              ],
+              [
+                101
+              ]
+            ],
+            [
+              [
+                102
+              ],
+              [
+                103
+              ],
+              [
+                104
+              ],
+              [
+                105
+              ],
+              [
+                106
+              ],
+              [
+                107
+              ],
+              [
+                108
+              ]
+            ],
+            [
+              [],
+              [
+                109
+              ],
+              [
+                110
+              ],
+              [
+                111
+              ],
+              [
+                112
+              ],
+              [
+                113
+              ],
+              [
+                114
+              ]
+            ],
+            [
+              [],
+              [
+                115
+              ],
+              [
+                116
+              ],
+              [
+                117
+              ],
+              [
+                118
+              ],
+              [
+                119
+              ],
+              [
+                120
+              ]
+            ],
+            [
+              [],
+              [
+                121
+              ],
+              [
+                122
+              ],
+              [
+                123
+              ],
+              [
+                124
+              ],
+              [
+                125
+              ],
+              [
+                126
+              ]
+            ],
+            [
+              [],
+              [
+                127
+              ],
+              [
+                128
+              ],
+              [
+                129
+              ],
+              [
+                130
+              ],
+              [
+                131
+              ],
+              [
+                132
+              ]
+            ],
+            [
+              [
+                133
+              ],
+              [
+                134
+              ],
+              [
+                135
+              ],
+              [
+                136
+              ],
+              [
+                137
+              ],
+              [
+                138
+              ],
+              [
+                139
+              ]
+            ],
+            [
+              [],
+              [
+                140
+              ],
+              [
+                141
+              ],
+              [
+                142
+              ],
+              [
+                143
+              ],
+              [
+                144
+              ],
+              [
+                145
+              ]
+            ],
+            [
+              [],
+              [
+                146
+              ],
+              [
+                147
+              ],
+              [
+                148
+              ],
+              [
+                149
+              ],
+              [
+                150
+              ],
+              [
+                151
+              ]
+            ],
+            [
+              [],
+              [
+                152
+              ],
+              [
+                153
+              ],
+              [
+                154
+              ],
+              [
+                155
+              ],
+              [
+                156
+              ],
+              [
+                157
+              ]
+            ],
+            [
+              [],
+              [
+                158
+              ],
+              [
+                159
+              ],
+              [
+                160
+              ],
+              [
+                161
+              ],
+              [
+                162
+              ],
+              [
+                163
+              ]
+            ],
+            [
+              [],
+              [
+                164
+              ],
+              [
+                165
+              ],
+              [
+                166
+              ],
+              [
+                167
+              ],
+              [
+                168
+              ],
+              [
+                169
+              ]
+            ],
+            [
+              [],
+              [
+                170
+              ],
+              [
+                171
+              ],
+              [
+                172
+              ],
+              [
+                173
+              ],
+              [
+                174
+              ],
+              [
+                175
+              ]
+            ],
+            [
+              [],
+              [
+                176
+              ],
+              [
+                177
+              ],
+              [
+                178
+              ],
+              [
+                179
+              ],
+              [
+                180
+              ],
+              [
+                181
+              ]
+            ]
+          ]
+        }
+      }
+    ],
+    "steps": [
+      "The complete supplied table"
+    ],
+    "notes": [
+      "The upload attributes the table to David R. Hawkins without a specific edition or page. Its “Energy Log” values have no supplied physical units, measurement protocol or empirical validation. They should not be described as hertz, used to diagnose mental health, or used to rank employees or people’s worth. Spiritual and theological labels are reproduced for study, not presented as established facts."
+    ],
+    "related": [
+      "workplace-energy-reflection",
+      "metaphysics-consciousness"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": [
+      {
+        "heading": "Distinguish the framework from measurement",
+        "paragraphs": [
+          "The table associates 17 levels with numerical values and spiritual or emotional descriptions. Preserving those associations does not show that the numbers measure a physical quantity. Read the table as an attributed belief framework and keep questions about evidence separate from questions about its personal or spiritual meaning."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "change-communication-planning",
+    "appendTo": "change-communication-planning",
+    "ranges": [
+      {
+        "document": "Change Management.docx",
+        "start": 0,
+        "end": 19,
+        "heading": "Communicating before, during and after change",
+        "subheadings": [
+          7,
+          12,
+          15
+        ]
+      }
+    ],
+    "related": [
+      "change-kotter",
+      "change-motivation"
+    ]
+  },
+  {
+    "slug": "change-responses",
+    "appendTo": "change-responses",
+    "ranges": [
+      {
+        "document": "Change Management.docx",
+        "start": 19,
+        "end": 33,
+        "heading": "Supporting people through uncertainty",
+        "pairs": true,
+        "skip": 2
+      }
+    ],
+    "notes": [
+      "The reconstructed change curve is an illustrative teaching model, not a universal emotional sequence. Its “Depression” label refers to the diagram’s low-morale description, not a clinical diagnosis."
+    ],
+    "related": [
+      "workplace-emotions",
+      "workplace-wellbeing"
+    ]
+  },
+  {
+    "slug": "change-kotter",
+    "appendTo": "change-kotter",
+    "ranges": [
+      {
+        "document": "Change Management.docx",
+        "start": 215,
+        "end": 232,
+        "heading": "Eight steps with implementation examples",
+        "pairs": true,
+        "skip": 1
+      },
+      {
+        "document": "Change Management.docx",
+        "start": 232,
+        "end": 241,
+        "heading": "Strengths and weaknesses in the supplied notes",
+        "subheadings": [
+          232,
+          237
+        ]
+      },
+      {
+        "document": "Change Management.docx",
+        "start": 241,
+        "end": 250,
+        "heading": "Challenges of local implementation"
+      }
+    ],
+    "related": [
+      "change-approaches",
+      "change-motivation",
+      "change-delta"
+    ]
+  },
+  {
+    "slug": "personal-productivity",
+    "appendTo": "personal-productivity",
+    "ranges": [
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 197,
+        "end": 201,
+        "heading": "Start with goals and capture the work"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 202,
+        "end": 208,
+        "heading": "Ivy Lee: six tasks for tomorrow"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 232,
+        "end": 243,
+        "heading": "Leadership priorities, focus and the skill/leverage heuristic",
+        "subheadings": [
+          234,
+          241
+        ]
+      }
+    ],
+    "notes": [
+      "The 5/25 list is attributed in the notes to Warren Buffett without a verifiable original source; treat it as a focus heuristic with uncertain attribution. Dollar-per-hour quadrants are illustrative labels, not measured pay or promised earnings."
+    ],
+    "related": [
+      "purpose-to-performance",
+      "workplace-energy-reflection"
+    ]
+  },
+  {
+    "slug": "prioritization-methods",
+    "appendTo": "prioritization-methods",
+    "ranges": [
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 201,
+        "end": 202,
+        "heading": "Eisenhower: the urgency/importance figure"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 208,
+        "end": 225,
+        "heading": "Team priorities: MoSCoW and RICE",
+        "subheadings": [
+          210,
+          220
+        ]
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 225,
+        "end": 232,
+        "heading": "ABCDE: consequences, delegation and elimination"
+      }
+    ],
+    "notes": [
+      "RICE combines estimates, not certainty. Keep the time period and effort units consistent and explain how reach, impact and confidence were estimated. The source concatenates its R/I/C/E definitions in one line; the visual explanation separates them."
+    ],
+    "references": [
+      {
+        "title": "Intercom: the RICE prioritization framework",
+        "url": "https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/"
+      }
+    ],
+    "visuals": [
+      {
+        "title": "RICE: four estimates, one comparison",
+        "kind": "cards",
+        "headers": [],
+        "rows": [
+          [
+            "Reach",
+            "How many people or events in a defined period?"
+          ],
+          [
+            "Impact",
+            "How much benefit per person or event?"
+          ],
+          [
+            "Confidence",
+            "How reliable are the estimates?"
+          ],
+          [
+            "Effort",
+            "How much work in a consistent unit?"
+          ]
+        ],
+        "note": "Score = Reach × Impact × Confidence ÷ Effort. A higher estimate informs discussion; dependencies and constraints still matter."
+      }
+    ],
+    "related": []
+  },
+  {
+    "slug": "theory-of-constraints",
+    "title": "Theory of Constraints: improve the system’s bottleneck",
+    "collection": "process-improvement",
+    "group": "Six Sigma & process improvement",
+    "topic": "Process Improvement",
+    "summary": "Follow the supplied five-stage bottleneck cycle and distinguish it from a general instruction to make every activity faster.",
+    "takeaway": "Improve the limiting part of the system and coordinate the rest; review again when the constraint moves.",
+    "ranges": [
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 243,
+        "end": 245,
+        "heading": "The source’s bottleneck principle"
+      }
+    ],
+    "steps": [
+      "The source’s bottleneck principle"
+    ],
+    "notes": [
+      "The diagram paraphrases Goldratt’s Theory of Constraints as identify, optimize, synchronize pace, improve and repeat. It does not provide a worked throughput example or the full method. Those short labels are retained rather than presented as an exact quotation of the formal five focusing steps."
+    ],
+    "related": [
+      "process-improvement",
+      "operations-performance",
+      "purpose-to-performance"
+    ],
+    "references": [],
+    "visuals": [],
+    "format": "guide",
+    "editorialSections": []
+  },
+  {
+    "slug": "innovation-pathways",
+    "appendTo": "innovation-pathways",
+    "ranges": [
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 245,
+        "end": 246,
+        "heading": "Four types of innovation: a two-axis source model"
+      }
+    ],
+    "notes": [
+      "The four-type figure compares operational/strategic and outward/inward emphases. It is a supplied teaching taxonomy, not a universal or exhaustive definition of innovation."
+    ],
+    "related": [
+      "organizational-design-change"
+    ]
+  },
+  {
+    "slug": "negotiation-principled",
+    "appendTo": "negotiation-principled",
+    "ranges": [
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 653,
+        "end": 664,
+        "heading": "Influence, preparation and principled negotiation"
+      },
+      {
+        "document": "Leadership & Culture.docx",
+        "start": 664,
+        "end": 675,
+        "heading": "Negotiating behaviors: the source’s style metaphors",
+        "pairs": true,
+        "skip": 1
+      }
+    ],
+    "notes": [
+      "The supplied style labels include “bully”, “wimp” and other stereotypes. Treat their descriptions as behaviors to examine, not fixed personalities or validated negotiator types."
+    ],
+    "related": [
+      "workplace-conflict",
+      "organizational-power"
+    ]
+  },
+  {
+    "slug": "okr-goals",
+    "appendTo": "okr-goals",
+    "ranges": [
+      {
+        "document": "Management.docx",
+        "start": 365,
+        "end": 387,
+        "heading": "Supplied goal-setting notes: mixed examples and source wording",
+        "table": {
+          "headers": [
+            "Dimension",
+            "OKR notes as supplied",
+            "KPI notes as supplied",
+            "CFR notes as supplied"
+          ],
+          "rows": [
+            [
+              [
+                369
+              ],
+              [
+                370,
+                371
+              ],
+              [
+                372,
+                373
+              ],
+              []
+            ],
+            [
+              [
+                374
+              ],
+              [
+                375,
+                376,
+                377,
+                378
+              ],
+              [
+                379,
+                380,
+                381
+              ],
+              []
+            ],
+            [
+              [
+                382
+              ],
+              [
+                383,
+                384
+              ],
+              [
+                385,
+                386
+              ],
+              []
+            ]
+          ]
+        }
+      },
+      {
+        "document": "Management.docx",
+        "start": 387,
+        "end": 424,
+        "heading": "OKR, KPI and CFR comparison",
+        "table": {
+          "headers": [
+            "Dimension",
+            "OKRs",
+            "KPIs",
+            "CFRs"
+          ],
+          "rows": [
+            [
+              [
+                387
+              ],
+              [
+                388
+              ],
+              [
+                389
+              ],
+              [
+                390
+              ]
+            ],
+            [
+              [
+                391
+              ],
+              [
+                392
+              ],
+              [
+                393
+              ],
+              [
+                394
+              ]
+            ],
+            [
+              [
+                395
+              ],
+              [
+                396,
+                397
+              ],
+              [
+                398,
+                399,
+                400
+              ],
+              [
+                401,
+                402,
+                403
+              ]
+            ],
+            [
+              [
+                404
+              ],
+              [
+                405
+              ],
+              [
+                406
+              ],
+              [
+                407
+              ]
+            ],
+            [
+              [
+                408
+              ],
+              [
+                409
+              ],
+              [
+                410
+              ],
+              [
+                411
+              ]
+            ],
+            [
+              [
+                412
+              ],
+              [
+                413
+              ],
+              [
+                414
+              ],
+              [
+                415
+              ]
+            ],
+            [
+              [
+                416
+              ],
+              [
+                417
+              ],
+              [
+                418
+              ],
+              [
+                419
+              ]
+            ],
+            [
+              [
+                420
+              ],
+              [
+                421
+              ],
+              [
+                422
+              ],
+              [
+                423
+              ]
+            ]
+          ]
+        }
+      }
+    ],
+    "notes": [
+      "Key results are measurable outcomes, not the actions used to achieve them. The source describes key results as “how” and mixes target examples and initiatives across columns; those original notes are retained for traceability. Raising traffic, conversion or open rates by a stated amount can be a key result; A/B tests and targeting changes are initiatives. Review cadence depends on context rather than a strict short-term/long-term split."
+    ],
+    "related": [
+      "executive-kpi-reference",
+      "employee-engagement",
+      "purpose-to-performance"
+    ],
+    "visuals": [
+      {
+        "title": "Goals, measures and conversations",
+        "kind": "matrix",
+        "headers": [
+          "Element",
+          "What it describes",
+          "Example"
+        ],
+        "rows": [
+          [
+            "OKR",
+            "A desired outcome and measurable key results",
+            "Example from the source: improve paid media performance; increase ad conversion rate by 10% in Q3"
+          ],
+          [
+            "KPI",
+            "A measure tracked consistently over time",
+            "Example: conversion rate; distinguish the measure from a target for changing it"
+          ],
+          [
+            "CFR",
+            "Conversations, feedback and recognition",
+            "Examples: one-to-ones, performance feedback and recognition"
+          ],
+          [
+            "Initiative",
+            "An action intended to influence an outcome",
+            "Examples: A/B test creatives, refine targeting and optimize spend"
+          ]
+        ],
+        "note": "Editorial clarification of the source examples. Percentage increases need a baseline and a relative-versus-percentage-point definition. No starting dataset is supplied."
+      }
+    ]
+  },
+  {
+    "slug": "executive-kpi-reference",
+    "title": "Executive KPIs: find measures by role and subject",
+    "collection": "operations-performance",
+    "group": "Goals & performance",
+    "topic": "Business & Management",
+    "summary": "Explore the supplied executive measures across company direction, finance, operations, revenue, people and marketing, with repeated names combined and original role associations retained.",
+    "takeaway": "Choose a measure for a decision, then define its method, period, population and owner before using it as a target.",
+    "ranges": [
+      {
+        "document": "Management.docx",
+        "start": 0,
+        "end": 365,
+        "heading": "Executive role responsibilities",
+        "layout": "metrics"
+      }
+    ],
+    "steps": [
+      "Executive role responsibilities"
+    ],
+    "notes": [
+      "The source supplies 314 metric occurrences, mostly names rather than formulas or definitions. Identical normalized names share one entry; role-specific variants remain separate. Domain tags are editorial classifications and replace the inconsistent source financial/nonfinancial bins for browsing.",
+      "The first CRO list concerns revenue. The second CRO list contains HR measures and is labelled “People / HR leadership” here as an inferred destination; its original CRO heading is preserved in the source context. It is not a Chief Risk Officer list.",
+      "Clear transcription errors are normalized in display names. Original wording and source classification remain available under each entry. Ambiguous entries are explicitly flagged. Linked guides explain related concepts; a link does not establish an exact formula for every metric. No benchmarks, questionnaire scores or calculator inputs are invented."
+    ],
+    "related": [
+      "accounting-formula-directory",
+      "okr-goals",
+      "employee-engagement",
+      "sales-playbook",
+      "marketing-strategy"
+    ],
+    "references": [
+      {
+        "title": "OEE: overall equipment effectiveness",
+        "url": "https://www.oee.com/"
+      }
+    ],
+    "visuals": [],
+    "format": "metric-index",
+    "editorialSections": [
+      {
+        "heading": "Define a metric before using it",
+        "paragraphs": [
+          "Agree what decision it informs, its population and reporting period, the unit, data source, owner and calculation or rating method. Specify inclusions, exclusions and how to interpret a change. A score or index name does not supply an assessment instrument.",
+          "For measures with financial meanings, follow the accounting reference and check its scope. For people, customer and brand indices, obtain the actual survey or scoring protocol before comparing teams or reporting a trend."
+        ]
+      }
+    ]
+  }
+]

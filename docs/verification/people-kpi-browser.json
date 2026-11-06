@@ -1,0 +1,170 @@
+{
+  "renderChecks": 2,
+  "accessibilityAudits": 2,
+  "metricCanonicalEntries": 272,
+  "metricOccurrences": 314,
+  "targetedRelatedGuideRoutes": 51,
+  "metricContextLinks": 544,
+  "rows": [
+    {
+      "width": 390,
+      "path": "/library/knowledge/executive-kpi-reference/",
+      "status": 200,
+      "title": "Executive KPIs: find measures by role and subject",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/executive-kpi-reference/",
+      "status": 200,
+      "title": "Executive KPIs: find measures by role and subject",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    }
+  ],
+  "audits": [
+    {
+      "width": 390,
+      "path": "/library/knowledge/executive-kpi-reference/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/executive-kpi-reference/",
+      "violations": []
+    }
+  ],
+  "filterChecks": [
+    {
+      "width": 390,
+      "role": "CEO",
+      "sourceEntries": 57
+    },
+    {
+      "width": 390,
+      "role": "CFO",
+      "sourceEntries": 54
+    },
+    {
+      "width": 390,
+      "role": "COO",
+      "sourceEntries": 57
+    },
+    {
+      "width": 390,
+      "role": "Revenue leadership (CRO)",
+      "sourceEntries": 48
+    },
+    {
+      "width": 390,
+      "role": "People / HR leadership",
+      "sourceEntries": 55
+    },
+    {
+      "width": 390,
+      "role": "CMO",
+      "sourceEntries": 43
+    },
+    {
+      "width": 390,
+      "domain": "Strategy & innovation"
+    },
+    {
+      "width": 390,
+      "domain": "People & capability"
+    },
+    {
+      "width": 390,
+      "domain": "Finance & returns"
+    },
+    {
+      "width": 390,
+      "domain": "Operations & delivery"
+    },
+    {
+      "width": 390,
+      "domain": "Customer & revenue"
+    },
+    {
+      "width": 390,
+      "domain": "Marketing & brand"
+    },
+    {
+      "width": 390,
+      "domain": "Risk & governance"
+    },
+    {
+      "width": 390,
+      "domain": "Sustainability"
+    },
+    {
+      "width": 1440,
+      "role": "CEO",
+      "sourceEntries": 57
+    },
+    {
+      "width": 1440,
+      "role": "CFO",
+      "sourceEntries": 54
+    },
+    {
+      "width": 1440,
+      "role": "COO",
+      "sourceEntries": 57
+    },
+    {
+      "width": 1440,
+      "role": "Revenue leadership (CRO)",
+      "sourceEntries": 48
+    },
+    {
+      "width": 1440,
+      "role": "People / HR leadership",
+      "sourceEntries": 55
+    },
+    {
+      "width": 1440,
+      "role": "CMO",
+      "sourceEntries": 43
+    },
+    {
+      "width": 1440,
+      "domain": "Strategy & innovation"
+    },
+    {
+      "width": 1440,
+      "domain": "People & capability"
+    },
+    {
+      "width": 1440,
+      "domain": "Finance & returns"
+    },
+    {
+      "width": 1440,
+      "domain": "Operations & delivery"
+    },
+    {
+      "width": 1440,
+      "domain": "Customer & revenue"
+    },
+    {
+      "width": 1440,
+      "domain": "Marketing & brand"
+    },
+    {
+      "width": 1440,
+      "domain": "Risk & governance"
+    },
+    {
+      "width": 1440,
+      "domain": "Sustainability"
+    }
+  ]
+}

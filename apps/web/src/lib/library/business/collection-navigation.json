@@ -161,22 +161,17 @@
   },
   {
     "slug": "leadership-change",
-    "title": "Leadership & Organizational Change",
+    "title": "Leadership, People & Change",
     "topic": "Business & Management",
     "parent": "business-management",
     "members": [
-      "high-performance-teams",
-      "organizational-alignment",
-      "change-kotter",
-      "change-responses",
-      "promise-integration",
-      "digital-maturity",
-      "stakeholder-management",
       "negotiation-distributive",
       "negotiation-principled",
       "negotiation-strategy",
       "negotiation-process",
-      "business-responsibility"
+      "leadership-culture",
+      "organizational-change",
+      "people-employee-experience"
     ]
   },
   {
@@ -194,7 +189,9 @@
       "pareto-priorities",
       "feedback-learning-loops",
       "business-lessons-risk",
-      "marketing-logistics"
+      "marketing-logistics",
+      "purpose-to-performance",
+      "executive-kpi-reference"
     ]
   },
   {
@@ -210,7 +207,14 @@
       "persuasion-evidence",
       "needs-and-motivation",
       "creative-thinking-exercises",
-      "nlp-reference"
+      "workplace-emotions",
+      "workplace-relationships",
+      "interpersonal-influence",
+      "workplace-conflict",
+      "feedback-awareness",
+      "workplace-energy-reflection",
+      "nlp-reference",
+      "personality-narratives"
     ]
   },
   {
@@ -357,6 +361,7 @@
     "members": [
       "project-maturity",
       "cmmi-capability",
+      "theory-of-constraints",
       "six-sigma-improvement"
     ]
   },
@@ -368,7 +373,10 @@
     "members": [
       "problem-solving-toolkit",
       "structured-problem-solving",
-      "triz-contradictions"
+      "triz-contradictions",
+      "change-problem-types",
+      "six-thinking-hats",
+      "critical-thinking-questions"
     ]
   },
   {
@@ -391,6 +399,7 @@
       "research-evidence-guide",
       "deep-state-maps",
       "great-awakening-map",
+      "hawkins-consciousness-map",
       "freemasonry"
     ]
   },
@@ -558,6 +567,64 @@
       "finance-functions-roles",
       "finance-certifications",
       "finance-skills-development"
+    ]
+  },
+  {
+    "slug": "leadership-culture",
+    "title": "Leadership & Organizational Culture",
+    "topic": "Business & Management",
+    "parent": "leadership-change",
+    "members": [
+      "high-performance-teams",
+      "organizational-alignment",
+      "stakeholder-management",
+      "business-responsibility",
+      "leadership-management",
+      "situational-leadership",
+      "managerial-grid",
+      "leadership-behaviors",
+      "leadership-principles",
+      "organizational-culture",
+      "organizational-power"
+    ]
+  },
+  {
+    "slug": "organizational-change",
+    "title": "Organizational Change & Development",
+    "topic": "Business & Management",
+    "parent": "leadership-change",
+    "members": [
+      "change-kotter",
+      "change-responses",
+      "promise-integration",
+      "digital-maturity",
+      "change-approaches",
+      "organizational-design-change",
+      "change-motivation",
+      "change-delta",
+      "organizational-development"
+    ]
+  },
+  {
+    "slug": "people-employee-experience",
+    "title": "People & Employee Experience",
+    "topic": "Business & Management",
+    "parent": "leadership-change",
+    "members": [
+      "hr-operating-model",
+      "talent-lifecycle",
+      "workplace-wellbeing",
+      "employee-engagement"
+    ]
+  },
+  {
+    "slug": "personality-narratives",
+    "title": "Personality Narratives & Workplace Metaphors",
+    "topic": "Communication & Personal Development",
+    "parent": "communication-personal-development",
+    "members": [
+      "workplace-animal-metaphors",
+      "sbti-personality-narratives"
     ]
   }
 ]

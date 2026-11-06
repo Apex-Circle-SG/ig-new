@@ -1,0 +1,1950 @@
+{
+  "renderChecks": 106,
+  "accessibilityAudits": 22,
+  "visualChecks": 18,
+  "visibleSourcePassages": 3082,
+  "metricSourceOccurrences": 314,
+  "metricCanonicalEntries": 272,
+  "routeChecks": 458,
+  "sitemapAndContentIndexEntries": 458,
+  "rows": [
+    {
+      "width": 390,
+      "path": "/library/",
+      "status": 200,
+      "title": "Good ideas deservea place to grow.",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/content-index/",
+      "status": 200,
+      "title": "Find your next useful page.",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/leadership-management/",
+      "status": 200,
+      "title": "Leadership and management: direction, delivery and responsibility",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/situational-leadership/",
+      "status": 200,
+      "title": "Situational leadership: adjust direction and support",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/managerial-grid/",
+      "status": 200,
+      "title": "The managerial grid: people and production",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/leadership-behaviors/",
+      "status": 200,
+      "title": "Leadership behaviors: values made visible",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/leadership-principles/",
+      "status": 200,
+      "title": "Maxwell’s 21 leadership principles: an annotated reading",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/organizational-culture/",
+      "status": 200,
+      "title": "Organizational culture: visible practices and deeper assumptions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/organizational-power/",
+      "status": 200,
+      "title": "Power and politics during organizational change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/change-problem-types/",
+      "status": 200,
+      "title": "Critical, tame and wicked problems: choose a response",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/change-approaches/",
+      "status": 200,
+      "title": "Choosing a change approach: pace, scope and uncertainty",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/organizational-design-change/",
+      "status": 200,
+      "title": "Organizational design and culture change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/change-motivation/",
+      "status": 200,
+      "title": "Motivation and ownership during change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/change-delta/",
+      "status": 200,
+      "title": "Change Delta: governance, execution, leaders and engagement",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/organizational-development/",
+      "status": 200,
+      "title": "Organization development: building the capacity to change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/hr-operating-model/",
+      "status": 200,
+      "title": "Designing an HR function around employee experience",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/talent-lifecycle/",
+      "status": 200,
+      "title": "Talent management through organizational change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/workplace-wellbeing/",
+      "status": 200,
+      "title": "Workplace wellbeing and fairness during change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/employee-engagement/",
+      "status": 200,
+      "title": "Employee engagement: voice, participation and integrity",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/purpose-to-performance/",
+      "status": 200,
+      "title": "From purpose to priorities, projects, people and performance",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/six-thinking-hats/",
+      "status": 200,
+      "title": "Six Thinking Hats: separate facts, feelings and possibilities",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/critical-thinking-questions/",
+      "status": 200,
+      "title": "Critical thinking: principles, writing and 48 questions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/workplace-emotions/",
+      "status": 200,
+      "title": "Emotions at work: change, emotional labour and awareness",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/workplace-relationships/",
+      "status": 200,
+      "title": "Workplace relationships: trust, boundaries and reciprocity",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/interpersonal-influence/",
+      "status": 200,
+      "title": "Everyday influence: interest, appreciation and listening",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/workplace-conflict/",
+      "status": 200,
+      "title": "Workplace conflict: diagnose the issue and choose a response",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/feedback-awareness/",
+      "status": 200,
+      "title": "Feedback and awareness: a supplied reflection matrix",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/workplace-energy-reflection/",
+      "status": 200,
+      "title": "Workplace energy: a 20-prompt reflection checklist",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/workplace-animal-metaphors/",
+      "status": 200,
+      "title": "Workplace animal metaphors: satire and its limits",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/sbti-personality-narratives/",
+      "status": 200,
+      "title": "SBTI personality narratives: all 26 supplied profiles",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/hawkins-consciousness-map/",
+      "status": 200,
+      "title": "Hawkins’s Map of Consciousness: a spiritual framework",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/change-communication-planning/",
+      "status": 200,
+      "title": "Change communication: connect stakeholders, messages and review",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/change-responses/",
+      "status": 200,
+      "title": "Responding to change: emotion, engagement and support",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/change-kotter/",
+      "status": 200,
+      "title": "Kotter: build support and sustain change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/personal-productivity/",
+      "status": 200,
+      "title": "Personal productivity: capture tasks and build habits",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/prioritization-methods/",
+      "status": 200,
+      "title": "Prioritization: urgency, scope, value and complexity",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/theory-of-constraints/",
+      "status": 200,
+      "title": "Theory of Constraints: improve the system’s bottleneck",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/innovation-pathways/",
+      "status": 200,
+      "title": "Innovation: discovery, incubation and acceleration",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/negotiation-principled/",
+      "status": 200,
+      "title": "Principled negotiation: interests, options and BATNA",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/okr-goals/",
+      "status": 200,
+      "title": "OKRs and SMART goals: connect ambition to outcomes",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/executive-kpi-reference/",
+      "status": 200,
+      "title": "Executive KPIs: find measures by role and subject",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/business-management/",
+      "status": 200,
+      "title": "Business & Management: choose your next decision",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/leadership-change/",
+      "status": 200,
+      "title": "Leadership, People & Change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/leadership-culture/",
+      "status": 200,
+      "title": "Leadership & Organizational Culture",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/organizational-change/",
+      "status": 200,
+      "title": "Organizational Change & Development",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/people-employee-experience/",
+      "status": 200,
+      "title": "People & Employee Experience",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/personality-narratives/",
+      "status": 200,
+      "title": "Personality Narratives & Workplace Metaphors",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/operations-performance/",
+      "status": 200,
+      "title": "Operations & Performance",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/problem-solving/",
+      "status": 200,
+      "title": "Problem Solving & Decision Making",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/communication-personal-development/",
+      "status": 200,
+      "title": "Communication & Personal Development",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/beliefs-mysteries/",
+      "status": 200,
+      "title": "Beliefs, symbols & mysteries",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/product-innovation/",
+      "status": 200,
+      "title": "Product Development & Innovation",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/process-improvement/",
+      "status": 200,
+      "title": "Process Improvement",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/",
+      "status": 200,
+      "title": "Good ideas deservea place to grow.",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/content-index/",
+      "status": 200,
+      "title": "Find your next useful page.",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/leadership-management/",
+      "status": 200,
+      "title": "Leadership and management: direction, delivery and responsibility",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/situational-leadership/",
+      "status": 200,
+      "title": "Situational leadership: adjust direction and support",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/managerial-grid/",
+      "status": 200,
+      "title": "The managerial grid: people and production",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/leadership-behaviors/",
+      "status": 200,
+      "title": "Leadership behaviors: values made visible",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/leadership-principles/",
+      "status": 200,
+      "title": "Maxwell’s 21 leadership principles: an annotated reading",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/organizational-culture/",
+      "status": 200,
+      "title": "Organizational culture: visible practices and deeper assumptions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/organizational-power/",
+      "status": 200,
+      "title": "Power and politics during organizational change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/change-problem-types/",
+      "status": 200,
+      "title": "Critical, tame and wicked problems: choose a response",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/change-approaches/",
+      "status": 200,
+      "title": "Choosing a change approach: pace, scope and uncertainty",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/organizational-design-change/",
+      "status": 200,
+      "title": "Organizational design and culture change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/change-motivation/",
+      "status": 200,
+      "title": "Motivation and ownership during change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/change-delta/",
+      "status": 200,
+      "title": "Change Delta: governance, execution, leaders and engagement",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/organizational-development/",
+      "status": 200,
+      "title": "Organization development: building the capacity to change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/hr-operating-model/",
+      "status": 200,
+      "title": "Designing an HR function around employee experience",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/talent-lifecycle/",
+      "status": 200,
+      "title": "Talent management through organizational change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/workplace-wellbeing/",
+      "status": 200,
+      "title": "Workplace wellbeing and fairness during change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/employee-engagement/",
+      "status": 200,
+      "title": "Employee engagement: voice, participation and integrity",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/purpose-to-performance/",
+      "status": 200,
+      "title": "From purpose to priorities, projects, people and performance",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/six-thinking-hats/",
+      "status": 200,
+      "title": "Six Thinking Hats: separate facts, feelings and possibilities",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/critical-thinking-questions/",
+      "status": 200,
+      "title": "Critical thinking: principles, writing and 48 questions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/workplace-emotions/",
+      "status": 200,
+      "title": "Emotions at work: change, emotional labour and awareness",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/workplace-relationships/",
+      "status": 200,
+      "title": "Workplace relationships: trust, boundaries and reciprocity",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/interpersonal-influence/",
+      "status": 200,
+      "title": "Everyday influence: interest, appreciation and listening",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/workplace-conflict/",
+      "status": 200,
+      "title": "Workplace conflict: diagnose the issue and choose a response",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/feedback-awareness/",
+      "status": 200,
+      "title": "Feedback and awareness: a supplied reflection matrix",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/workplace-energy-reflection/",
+      "status": 200,
+      "title": "Workplace energy: a 20-prompt reflection checklist",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/workplace-animal-metaphors/",
+      "status": 200,
+      "title": "Workplace animal metaphors: satire and its limits",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/sbti-personality-narratives/",
+      "status": 200,
+      "title": "SBTI personality narratives: all 26 supplied profiles",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/hawkins-consciousness-map/",
+      "status": 200,
+      "title": "Hawkins’s Map of Consciousness: a spiritual framework",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/change-communication-planning/",
+      "status": 200,
+      "title": "Change communication: connect stakeholders, messages and review",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/change-responses/",
+      "status": 200,
+      "title": "Responding to change: emotion, engagement and support",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/change-kotter/",
+      "status": 200,
+      "title": "Kotter: build support and sustain change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/personal-productivity/",
+      "status": 200,
+      "title": "Personal productivity: capture tasks and build habits",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/prioritization-methods/",
+      "status": 200,
+      "title": "Prioritization: urgency, scope, value and complexity",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/theory-of-constraints/",
+      "status": 200,
+      "title": "Theory of Constraints: improve the system’s bottleneck",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/innovation-pathways/",
+      "status": 200,
+      "title": "Innovation: discovery, incubation and acceleration",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/negotiation-principled/",
+      "status": 200,
+      "title": "Principled negotiation: interests, options and BATNA",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/okr-goals/",
+      "status": 200,
+      "title": "OKRs and SMART goals: connect ambition to outcomes",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/executive-kpi-reference/",
+      "status": 200,
+      "title": "Executive KPIs: find measures by role and subject",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/business-management/",
+      "status": 200,
+      "title": "Business & Management: choose your next decision",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/leadership-change/",
+      "status": 200,
+      "title": "Leadership, People & Change",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/leadership-culture/",
+      "status": 200,
+      "title": "Leadership & Organizational Culture",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/organizational-change/",
+      "status": 200,
+      "title": "Organizational Change & Development",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/people-employee-experience/",
+      "status": 200,
+      "title": "People & Employee Experience",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/personality-narratives/",
+      "status": 200,
+      "title": "Personality Narratives & Workplace Metaphors",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/operations-performance/",
+      "status": 200,
+      "title": "Operations & Performance",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/problem-solving/",
+      "status": 200,
+      "title": "Problem Solving & Decision Making",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/communication-personal-development/",
+      "status": 200,
+      "title": "Communication & Personal Development",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/beliefs-mysteries/",
+      "status": 200,
+      "title": "Beliefs, symbols & mysteries",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/product-innovation/",
+      "status": 200,
+      "title": "Product Development & Innovation",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/process-improvement/",
+      "status": 200,
+      "title": "Process Improvement",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    }
+  ],
+  "audits": [
+    {
+      "width": 390,
+      "path": "/library/knowledge/managerial-grid/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/critical-thinking-questions/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/workplace-energy-reflection/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/sbti-personality-narratives/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/hawkins-consciousness-map/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/executive-kpi-reference/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/leadership-change/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/leadership-culture/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/organizational-change/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/people-employee-experience/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/personality-narratives/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/managerial-grid/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/critical-thinking-questions/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/workplace-energy-reflection/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/sbti-personality-narratives/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/hawkins-consciousness-map/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/executive-kpi-reference/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/leadership-change/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/leadership-culture/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/organizational-change/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/people-employee-experience/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/personality-narratives/",
+      "violations": []
+    }
+  ],
+  "filterChecks": [
+    {
+      "width": 390,
+      "role": "CEO",
+      "sourceEntries": 57
+    },
+    {
+      "width": 390,
+      "role": "CFO",
+      "sourceEntries": 54
+    },
+    {
+      "width": 390,
+      "role": "COO",
+      "sourceEntries": 57
+    },
+    {
+      "width": 390,
+      "role": "Revenue leadership (CRO)",
+      "sourceEntries": 48
+    },
+    {
+      "width": 390,
+      "role": "People / HR leadership",
+      "sourceEntries": 55
+    },
+    {
+      "width": 390,
+      "role": "CMO",
+      "sourceEntries": 43
+    },
+    {
+      "width": 390,
+      "domain": "Strategy & innovation"
+    },
+    {
+      "width": 390,
+      "domain": "People & capability"
+    },
+    {
+      "width": 390,
+      "domain": "Finance & returns"
+    },
+    {
+      "width": 390,
+      "domain": "Operations & delivery"
+    },
+    {
+      "width": 390,
+      "domain": "Customer & revenue"
+    },
+    {
+      "width": 390,
+      "domain": "Marketing & brand"
+    },
+    {
+      "width": 390,
+      "domain": "Risk & governance"
+    },
+    {
+      "width": 390,
+      "domain": "Sustainability"
+    },
+    {
+      "width": 1440,
+      "role": "CEO",
+      "sourceEntries": 57
+    },
+    {
+      "width": 1440,
+      "role": "CFO",
+      "sourceEntries": 54
+    },
+    {
+      "width": 1440,
+      "role": "COO",
+      "sourceEntries": 57
+    },
+    {
+      "width": 1440,
+      "role": "Revenue leadership (CRO)",
+      "sourceEntries": 48
+    },
+    {
+      "width": 1440,
+      "role": "People / HR leadership",
+      "sourceEntries": 55
+    },
+    {
+      "width": 1440,
+      "role": "CMO",
+      "sourceEntries": 43
+    },
+    {
+      "width": 1440,
+      "domain": "Strategy & innovation"
+    },
+    {
+      "width": 1440,
+      "domain": "People & capability"
+    },
+    {
+      "width": 1440,
+      "domain": "Finance & returns"
+    },
+    {
+      "width": 1440,
+      "domain": "Operations & delivery"
+    },
+    {
+      "width": 1440,
+      "domain": "Customer & revenue"
+    },
+    {
+      "width": 1440,
+      "domain": "Marketing & brand"
+    },
+    {
+      "width": 1440,
+      "domain": "Risk & governance"
+    },
+    {
+      "width": 1440,
+      "domain": "Sustainability"
+    }
+  ],
+  "visuals": [
+    {
+      "width": 350,
+      "title": "Four styles: task direction and relationship support",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 350,
+      "title": "The managerial grid: five illustrated positions",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 350,
+      "title": "Grid/group perspectives: rules, roles and group orientation",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 350,
+      "title": "Energy quadrants: a workplace reflection metaphor",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 350,
+      "title": "An illustrative change-response curve",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 350,
+      "title": "Skill and leverage: an illustrative work-value matrix",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 350,
+      "title": "Eisenhower matrix: urgency and importance",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 350,
+      "title": "A repeating bottleneck-improvement cycle",
+      "images": 0,
+      "scrollRegions": []
+    },
+    {
+      "width": 350,
+      "title": "Four innovation types: outward/inward and operational/strategic",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 760,
+      "title": "Four styles: task direction and relationship support",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 760,
+      "title": "The managerial grid: five illustrated positions",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 760,
+      "title": "Grid/group perspectives: rules, roles and group orientation",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 760,
+      "title": "Energy quadrants: a workplace reflection metaphor",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 760,
+      "title": "An illustrative change-response curve",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 760,
+      "title": "Skill and leverage: an illustrative work-value matrix",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 760,
+      "title": "Eisenhower matrix: urgency and importance",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 760,
+      "title": "A repeating bottleneck-improvement cycle",
+      "images": 0,
+      "scrollRegions": []
+    },
+    {
+      "width": 760,
+      "title": "Four innovation types: outward/inward and operational/strategic",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    }
+  ],
+  "details": [
+    {
+      "width": 390,
+      "slug": "leadership-management",
+      "passages": 64
+    },
+    {
+      "width": 390,
+      "slug": "situational-leadership",
+      "passages": 1
+    },
+    {
+      "width": 390,
+      "slug": "managerial-grid",
+      "passages": 1
+    },
+    {
+      "width": 390,
+      "slug": "leadership-behaviors",
+      "passages": 30
+    },
+    {
+      "width": 390,
+      "slug": "leadership-principles",
+      "passages": 42
+    },
+    {
+      "width": 390,
+      "slug": "organizational-culture",
+      "passages": 77
+    },
+    {
+      "width": 390,
+      "slug": "organizational-power",
+      "passages": 59
+    },
+    {
+      "width": 390,
+      "slug": "change-problem-types",
+      "passages": 39
+    },
+    {
+      "width": 390,
+      "slug": "change-approaches",
+      "passages": 54
+    },
+    {
+      "width": 390,
+      "slug": "organizational-design-change",
+      "passages": 48
+    },
+    {
+      "width": 390,
+      "slug": "change-motivation",
+      "passages": 13
+    },
+    {
+      "width": 390,
+      "slug": "change-delta",
+      "passages": 16
+    },
+    {
+      "width": 390,
+      "slug": "organizational-development",
+      "passages": 40
+    },
+    {
+      "width": 390,
+      "slug": "hr-operating-model",
+      "passages": 13
+    },
+    {
+      "width": 390,
+      "slug": "talent-lifecycle",
+      "passages": 27
+    },
+    {
+      "width": 390,
+      "slug": "workplace-wellbeing",
+      "passages": 16
+    },
+    {
+      "width": 390,
+      "slug": "employee-engagement",
+      "passages": 38
+    },
+    {
+      "width": 390,
+      "slug": "purpose-to-performance",
+      "passages": 13
+    },
+    {
+      "width": 390,
+      "slug": "six-thinking-hats",
+      "passages": 13
+    },
+    {
+      "width": 390,
+      "slug": "critical-thinking-questions",
+      "passages": 85
+    },
+    {
+      "width": 390,
+      "slug": "workplace-emotions",
+      "passages": 25
+    },
+    {
+      "width": 390,
+      "slug": "workplace-relationships",
+      "passages": 45
+    },
+    {
+      "width": 390,
+      "slug": "interpersonal-influence",
+      "passages": 12
+    },
+    {
+      "width": 390,
+      "slug": "workplace-conflict",
+      "passages": 31
+    },
+    {
+      "width": 390,
+      "slug": "feedback-awareness",
+      "passages": 15
+    },
+    {
+      "width": 390,
+      "slug": "workplace-energy-reflection",
+      "passages": 52
+    },
+    {
+      "width": 390,
+      "slug": "workplace-animal-metaphors",
+      "passages": 42
+    },
+    {
+      "width": 390,
+      "slug": "sbti-personality-narratives",
+      "passages": 54
+    },
+    {
+      "width": 390,
+      "slug": "hawkins-consciousness-map",
+      "passages": 114
+    },
+    {
+      "width": 390,
+      "slug": "change-communication-planning",
+      "passages": 25
+    },
+    {
+      "width": 390,
+      "slug": "change-responses",
+      "passages": 34
+    },
+    {
+      "width": 390,
+      "slug": "change-kotter",
+      "passages": 57
+    },
+    {
+      "width": 390,
+      "slug": "personal-productivity",
+      "passages": 39
+    },
+    {
+      "width": 390,
+      "slug": "prioritization-methods",
+      "passages": 52
+    },
+    {
+      "width": 390,
+      "slug": "theory-of-constraints",
+      "passages": 1
+    },
+    {
+      "width": 390,
+      "slug": "innovation-pathways",
+      "passages": 90
+    },
+    {
+      "width": 390,
+      "slug": "negotiation-principled",
+      "passages": 45
+    },
+    {
+      "width": 390,
+      "slug": "okr-goals",
+      "passages": 83
+    },
+    {
+      "width": 390,
+      "slug": "executive-kpi-reference",
+      "passages": 36
+    },
+    {
+      "width": 1440,
+      "slug": "leadership-management",
+      "passages": 64
+    },
+    {
+      "width": 1440,
+      "slug": "situational-leadership",
+      "passages": 1
+    },
+    {
+      "width": 1440,
+      "slug": "managerial-grid",
+      "passages": 1
+    },
+    {
+      "width": 1440,
+      "slug": "leadership-behaviors",
+      "passages": 30
+    },
+    {
+      "width": 1440,
+      "slug": "leadership-principles",
+      "passages": 42
+    },
+    {
+      "width": 1440,
+      "slug": "organizational-culture",
+      "passages": 77
+    },
+    {
+      "width": 1440,
+      "slug": "organizational-power",
+      "passages": 59
+    },
+    {
+      "width": 1440,
+      "slug": "change-problem-types",
+      "passages": 39
+    },
+    {
+      "width": 1440,
+      "slug": "change-approaches",
+      "passages": 54
+    },
+    {
+      "width": 1440,
+      "slug": "organizational-design-change",
+      "passages": 48
+    },
+    {
+      "width": 1440,
+      "slug": "change-motivation",
+      "passages": 13
+    },
+    {
+      "width": 1440,
+      "slug": "change-delta",
+      "passages": 16
+    },
+    {
+      "width": 1440,
+      "slug": "organizational-development",
+      "passages": 40
+    },
+    {
+      "width": 1440,
+      "slug": "hr-operating-model",
+      "passages": 13
+    },
+    {
+      "width": 1440,
+      "slug": "talent-lifecycle",
+      "passages": 27
+    },
+    {
+      "width": 1440,
+      "slug": "workplace-wellbeing",
+      "passages": 16
+    },
+    {
+      "width": 1440,
+      "slug": "employee-engagement",
+      "passages": 38
+    },
+    {
+      "width": 1440,
+      "slug": "purpose-to-performance",
+      "passages": 13
+    },
+    {
+      "width": 1440,
+      "slug": "six-thinking-hats",
+      "passages": 13
+    },
+    {
+      "width": 1440,
+      "slug": "critical-thinking-questions",
+      "passages": 85
+    },
+    {
+      "width": 1440,
+      "slug": "workplace-emotions",
+      "passages": 25
+    },
+    {
+      "width": 1440,
+      "slug": "workplace-relationships",
+      "passages": 45
+    },
+    {
+      "width": 1440,
+      "slug": "interpersonal-influence",
+      "passages": 12
+    },
+    {
+      "width": 1440,
+      "slug": "workplace-conflict",
+      "passages": 31
+    },
+    {
+      "width": 1440,
+      "slug": "feedback-awareness",
+      "passages": 15
+    },
+    {
+      "width": 1440,
+      "slug": "workplace-energy-reflection",
+      "passages": 52
+    },
+    {
+      "width": 1440,
+      "slug": "workplace-animal-metaphors",
+      "passages": 42
+    },
+    {
+      "width": 1440,
+      "slug": "sbti-personality-narratives",
+      "passages": 54
+    },
+    {
+      "width": 1440,
+      "slug": "hawkins-consciousness-map",
+      "passages": 114
+    },
+    {
+      "width": 1440,
+      "slug": "change-communication-planning",
+      "passages": 25
+    },
+    {
+      "width": 1440,
+      "slug": "change-responses",
+      "passages": 34
+    },
+    {
+      "width": 1440,
+      "slug": "change-kotter",
+      "passages": 57
+    },
+    {
+      "width": 1440,
+      "slug": "personal-productivity",
+      "passages": 39
+    },
+    {
+      "width": 1440,
+      "slug": "prioritization-methods",
+      "passages": 52
+    },
+    {
+      "width": 1440,
+      "slug": "theory-of-constraints",
+      "passages": 1
+    },
+    {
+      "width": 1440,
+      "slug": "innovation-pathways",
+      "passages": 90
+    },
+    {
+      "width": 1440,
+      "slug": "negotiation-principled",
+      "passages": 45
+    },
+    {
+      "width": 1440,
+      "slug": "okr-goals",
+      "passages": 83
+    },
+    {
+      "width": 1440,
+      "slug": "executive-kpi-reference",
+      "passages": 36
+    }
+  ]
+}
