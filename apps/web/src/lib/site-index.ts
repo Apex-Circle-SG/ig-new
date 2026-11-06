@@ -54,6 +54,7 @@ const names: Record<string, string> = {
     'What income band are you in? (A 4-question check, not a precise ranking)',
   '/guides/what-percentile-is-60000-a-year/': 'What percentile is $60,000 a year in the US?',
   '/guides/what-is-the-average-salary-in-america/': 'What is the average salary in America?',
+  '/guides/household-vs-individual-income/': 'Household income vs. individual income: why the two figures differ',
   ...Object.fromEntries(FINANCE_TOOLS.map((tool) => [`/tools/${tool.id}/`, tool.title])),
 };
 export function getSiteEntries() {

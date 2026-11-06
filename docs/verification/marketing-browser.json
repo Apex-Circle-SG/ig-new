@@ -1,0 +1,2473 @@
+{
+  "date": "2026-11-06",
+  "renderChecks": 136,
+  "accessibilityChecks": 16,
+  "visualChecks": 32,
+  "sourcePassagesVisible": 5662,
+  "sitemapAndContentIndexSlugs": 64,
+  "remoteGuideDiscovery": true,
+  "results": [
+    {
+      "width": 390,
+      "path": "/library/",
+      "status": 200,
+      "title": "Good ideas deservea place to grow.",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/content-index/",
+      "status": 200,
+      "title": "Find your next useful page.",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/guides/",
+      "status": 200,
+      "title": "Guides: US income, explained in bands",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/guides/household-vs-individual-income/",
+      "status": 200,
+      "title": "Household income vs. individual income: why the two figures differ",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-customer-value/",
+      "status": 200,
+      "title": "Marketing: create, deliver and capture customer value",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/market-segmentation/",
+      "status": 200,
+      "title": "Market segmentation: find meaningful differences",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/b2b-segmentation/",
+      "status": 200,
+      "title": "B2B segmentation: buying context, capability and relationships",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/market-targeting/",
+      "status": 200,
+      "title": "Target markets: broad, differentiated, focused or individual",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/market-positioning/",
+      "status": 200,
+      "title": "Positioning: category, customer and meaningful difference",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/value-proposition-design/",
+      "status": 200,
+      "title": "Value propositions: connect customer jobs with the offer",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-mix/",
+      "status": 200,
+      "title": "The marketing mix: coordinate the four Ps and service extensions",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/service-design-quality/",
+      "status": 200,
+      "title": "Services: expectations, experience and perceived quality",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-channels/",
+      "status": 200,
+      "title": "Distribution channels: intermediaries, coverage and demand",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-channel-management/",
+      "status": 200,
+      "title": "Channel management: coordinate partners and resolve conflict",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-logistics/",
+      "status": 200,
+      "title": "Marketing logistics: stock, movement and information",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-pricing-methods/",
+      "status": 200,
+      "title": "Pricing methods: costs, competitors and perceived value",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-pricing-strategies/",
+      "status": 200,
+      "title": "Pricing strategies: launch, bundles and product relationships",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/price-elasticity/",
+      "status": 200,
+      "title": "Price and demand: responsiveness and the limits of a simple curve",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-communications/",
+      "status": 200,
+      "title": "Marketing communications: message, mix, budget and evaluation",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-digital-channels/",
+      "status": 200,
+      "title": "Digital channels: communities, reviews, buzz and emerging formats",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-influencers/",
+      "status": 200,
+      "title": "Influencer marketing: fit, objectives and a clear brief",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-race-planning/",
+      "status": 200,
+      "title": "RACE: plan, reach, act, convert and engage",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-value-disciplines/",
+      "status": 200,
+      "title": "Value disciplines and market roles: choose where to compete",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-planning/",
+      "status": 200,
+      "title": "Marketing plans: turn analysis into accountable action",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/global-market-entry/",
+      "status": 200,
+      "title": "International marketing: assess markets and choose an entry route",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/global-marketing-adaptation/",
+      "status": 200,
+      "title": "Global marketing: standardize, adapt or develop something new",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/product-levels-types/",
+      "status": 200,
+      "title": "Products: benefits, layers and buying situations",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/new-product-development/",
+      "status": 200,
+      "title": "New product development: from ideas to a launch decision",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/product-concept-testing/",
+      "status": 200,
+      "title": "Concept and market testing: learn before scaling",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/product-lifecycle/",
+      "status": 200,
+      "title": "Product lifecycles: introduction, growth, maturity and decline",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/innovation-adoption/",
+      "status": 200,
+      "title": "Innovation adoption: audiences across a diffusion model",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/product-offering-tradeoffs/",
+      "status": 200,
+      "title": "Product offerings: specialization, variety and competitive value",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/design-sprints/",
+      "status": 200,
+      "title": "Design sprints: explore, decide, prototype and learn",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/kano-feature-priorities/",
+      "status": 200,
+      "title": "Kano: basic expectations, performance and delight",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/lean-ux-learning/",
+      "status": 200,
+      "title": "Lean UX: think, make and check",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/brand-foundations/",
+      "status": 200,
+      "title": "Brands: identity, associations and customer meaning",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/brand-awareness-image/",
+      "status": 200,
+      "title": "Brand awareness and image: recognition, recall and associations",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/brand-equity/",
+      "status": 200,
+      "title": "Brand equity: compare Aaker and Keller without mixing valuation",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/brand-financial-value/",
+      "status": 200,
+      "title": "Brand valuation: earnings, brand contribution and risk",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/employee-brand-equity/",
+      "status": 200,
+      "title": "Employee-based brand equity: align the internal promise",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/brand-identity/",
+      "status": 200,
+      "title": "Brand identity: values, mantra and the identity prism",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/brand-naming-packaging/",
+      "status": 200,
+      "title": "Brand elements: names, packaging and recognizable cues",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/brand-communications/",
+      "status": 200,
+      "title": "Brand communications: coverage, consistency and contribution",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/brand-secondary-associations/",
+      "status": 200,
+      "title": "Borrowed brand meaning: partners, endorsers and sponsorship",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/brand-personality/",
+      "status": 200,
+      "title": "Brand personality: compare research frameworks with care",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/brand-relationships/",
+      "status": 200,
+      "title": "Brand relationships: attachment, deterioration and response",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/brand-experience/",
+      "status": 200,
+      "title": "Brand experience: touchpoints, satisfaction and loyalty",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/corporate-branding/",
+      "status": 200,
+      "title": "Corporate branding: align vision, culture and stakeholder images",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/brand-architecture/",
+      "status": 200,
+      "title": "Brand architecture: portfolios, hierarchy and naming relationships",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/cause-environmental-marketing/",
+      "status": 200,
+      "title": "Cause and environmental marketing: make the claim specific",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/brand-extension/",
+      "status": 200,
+      "title": "Brand extensions: fit, benefits and feedback to the parent",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-channel-experiments/",
+      "status": 200,
+      "title": "Choose marketing channels with a Bullseye shortlist",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-direct-response/",
+      "status": 200,
+      "title": "Direct marketing: mail, telephone, response ads and mobile",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-strategy/",
+      "status": 200,
+      "title": "Marketing Strategy & Execution",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/brand-strategy/",
+      "status": 200,
+      "title": "Brand Strategy & Experience",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/product-innovation/",
+      "status": 200,
+      "title": "Product Development & Innovation",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/competition-landscape/",
+      "status": 200,
+      "title": "Understanding your competitive landscape",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/competitive-positioning/",
+      "status": 200,
+      "title": "Cost, differentiation and focused strategies",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/customer-feedback/",
+      "status": 200,
+      "title": "Customer feedback: NPS and learning loops",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/customer-systems/",
+      "status": 200,
+      "title": "CRM and customer experience: connect insights to service",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/innovation-pathways/",
+      "status": 200,
+      "title": "Innovation: discovery, incubation and acceleration",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/strategic-business-units/",
+      "status": 200,
+      "title": "Strategic business units and accountability",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/strategic-management-cycle/",
+      "status": 200,
+      "title": "Strategic management: analysis to action",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/strategic-thinking/",
+      "status": 200,
+      "title": "Strategic thinking: logic, creativity and competing demands",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/value-chain/",
+      "status": 200,
+      "title": "Value chains, networks and outsourcing",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/business-management/",
+      "status": 200,
+      "title": "Business & Management: from analysis to action",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/deep-state-maps/",
+      "status": 200,
+      "title": "Deep State charts: creators, editions and claims",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-stakeholders/",
+      "status": 200,
+      "title": "Project stakeholders: interests, influence and engagement",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/",
+      "status": 200,
+      "title": "Good ideas deservea place to grow.",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/content-index/",
+      "status": 200,
+      "title": "Find your next useful page.",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/guides/",
+      "status": 200,
+      "title": "Guides: US income, explained in bands",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/guides/household-vs-individual-income/",
+      "status": 200,
+      "title": "Household income vs. individual income: why the two figures differ",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-customer-value/",
+      "status": 200,
+      "title": "Marketing: create, deliver and capture customer value",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/market-segmentation/",
+      "status": 200,
+      "title": "Market segmentation: find meaningful differences",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/b2b-segmentation/",
+      "status": 200,
+      "title": "B2B segmentation: buying context, capability and relationships",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/market-targeting/",
+      "status": 200,
+      "title": "Target markets: broad, differentiated, focused or individual",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/market-positioning/",
+      "status": 200,
+      "title": "Positioning: category, customer and meaningful difference",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/value-proposition-design/",
+      "status": 200,
+      "title": "Value propositions: connect customer jobs with the offer",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-mix/",
+      "status": 200,
+      "title": "The marketing mix: coordinate the four Ps and service extensions",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/service-design-quality/",
+      "status": 200,
+      "title": "Services: expectations, experience and perceived quality",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-channels/",
+      "status": 200,
+      "title": "Distribution channels: intermediaries, coverage and demand",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-channel-management/",
+      "status": 200,
+      "title": "Channel management: coordinate partners and resolve conflict",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-logistics/",
+      "status": 200,
+      "title": "Marketing logistics: stock, movement and information",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-pricing-methods/",
+      "status": 200,
+      "title": "Pricing methods: costs, competitors and perceived value",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-pricing-strategies/",
+      "status": 200,
+      "title": "Pricing strategies: launch, bundles and product relationships",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/price-elasticity/",
+      "status": 200,
+      "title": "Price and demand: responsiveness and the limits of a simple curve",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-communications/",
+      "status": 200,
+      "title": "Marketing communications: message, mix, budget and evaluation",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-digital-channels/",
+      "status": 200,
+      "title": "Digital channels: communities, reviews, buzz and emerging formats",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-influencers/",
+      "status": 200,
+      "title": "Influencer marketing: fit, objectives and a clear brief",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-race-planning/",
+      "status": 200,
+      "title": "RACE: plan, reach, act, convert and engage",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-value-disciplines/",
+      "status": 200,
+      "title": "Value disciplines and market roles: choose where to compete",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-planning/",
+      "status": 200,
+      "title": "Marketing plans: turn analysis into accountable action",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/global-market-entry/",
+      "status": 200,
+      "title": "International marketing: assess markets and choose an entry route",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/global-marketing-adaptation/",
+      "status": 200,
+      "title": "Global marketing: standardize, adapt or develop something new",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/product-levels-types/",
+      "status": 200,
+      "title": "Products: benefits, layers and buying situations",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/new-product-development/",
+      "status": 200,
+      "title": "New product development: from ideas to a launch decision",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/product-concept-testing/",
+      "status": 200,
+      "title": "Concept and market testing: learn before scaling",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/product-lifecycle/",
+      "status": 200,
+      "title": "Product lifecycles: introduction, growth, maturity and decline",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/innovation-adoption/",
+      "status": 200,
+      "title": "Innovation adoption: audiences across a diffusion model",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/product-offering-tradeoffs/",
+      "status": 200,
+      "title": "Product offerings: specialization, variety and competitive value",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/design-sprints/",
+      "status": 200,
+      "title": "Design sprints: explore, decide, prototype and learn",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/kano-feature-priorities/",
+      "status": 200,
+      "title": "Kano: basic expectations, performance and delight",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/lean-ux-learning/",
+      "status": 200,
+      "title": "Lean UX: think, make and check",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/brand-foundations/",
+      "status": 200,
+      "title": "Brands: identity, associations and customer meaning",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/brand-awareness-image/",
+      "status": 200,
+      "title": "Brand awareness and image: recognition, recall and associations",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/brand-equity/",
+      "status": 200,
+      "title": "Brand equity: compare Aaker and Keller without mixing valuation",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/brand-financial-value/",
+      "status": 200,
+      "title": "Brand valuation: earnings, brand contribution and risk",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/employee-brand-equity/",
+      "status": 200,
+      "title": "Employee-based brand equity: align the internal promise",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/brand-identity/",
+      "status": 200,
+      "title": "Brand identity: values, mantra and the identity prism",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/brand-naming-packaging/",
+      "status": 200,
+      "title": "Brand elements: names, packaging and recognizable cues",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/brand-communications/",
+      "status": 200,
+      "title": "Brand communications: coverage, consistency and contribution",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/brand-secondary-associations/",
+      "status": 200,
+      "title": "Borrowed brand meaning: partners, endorsers and sponsorship",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/brand-personality/",
+      "status": 200,
+      "title": "Brand personality: compare research frameworks with care",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/brand-relationships/",
+      "status": 200,
+      "title": "Brand relationships: attachment, deterioration and response",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/brand-experience/",
+      "status": 200,
+      "title": "Brand experience: touchpoints, satisfaction and loyalty",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/corporate-branding/",
+      "status": 200,
+      "title": "Corporate branding: align vision, culture and stakeholder images",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/brand-architecture/",
+      "status": 200,
+      "title": "Brand architecture: portfolios, hierarchy and naming relationships",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/cause-environmental-marketing/",
+      "status": 200,
+      "title": "Cause and environmental marketing: make the claim specific",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/brand-extension/",
+      "status": 200,
+      "title": "Brand extensions: fit, benefits and feedback to the parent",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-channel-experiments/",
+      "status": 200,
+      "title": "Choose marketing channels with a Bullseye shortlist",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-direct-response/",
+      "status": 200,
+      "title": "Direct marketing: mail, telephone, response ads and mobile",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-strategy/",
+      "status": 200,
+      "title": "Marketing Strategy & Execution",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/brand-strategy/",
+      "status": 200,
+      "title": "Brand Strategy & Experience",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/product-innovation/",
+      "status": 200,
+      "title": "Product Development & Innovation",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/competition-landscape/",
+      "status": 200,
+      "title": "Understanding your competitive landscape",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/competitive-positioning/",
+      "status": 200,
+      "title": "Cost, differentiation and focused strategies",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/customer-feedback/",
+      "status": 200,
+      "title": "Customer feedback: NPS and learning loops",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/customer-systems/",
+      "status": 200,
+      "title": "CRM and customer experience: connect insights to service",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/innovation-pathways/",
+      "status": 200,
+      "title": "Innovation: discovery, incubation and acceleration",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/strategic-business-units/",
+      "status": 200,
+      "title": "Strategic business units and accountability",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/strategic-management-cycle/",
+      "status": 200,
+      "title": "Strategic management: analysis to action",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/strategic-thinking/",
+      "status": 200,
+      "title": "Strategic thinking: logic, creativity and competing demands",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/value-chain/",
+      "status": 200,
+      "title": "Value chains, networks and outsourcing",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/business-management/",
+      "status": 200,
+      "title": "Business & Management: from analysis to action",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/deep-state-maps/",
+      "status": 200,
+      "title": "Deep State charts: creators, editions and claims",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-stakeholders/",
+      "status": 200,
+      "title": "Project stakeholders: interests, influence and engagement",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "errors": []
+    }
+  ],
+  "audits": [
+    {
+      "width": 390,
+      "path": "/library/knowledge/market-targeting/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/product-lifecycle/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/brand-experience/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-channel-experiments/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-direct-response/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-strategy/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/brand-strategy/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/product-innovation/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/market-targeting/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/product-lifecycle/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/brand-experience/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-channel-experiments/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-direct-response/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-strategy/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/brand-strategy/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/product-innovation/",
+      "violations": []
+    }
+  ],
+  "visuals": [
+    {
+      "width": 350,
+      "title": "STP: move from segmentation to a usable marketing mix",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": true,
+          "canScroll": true,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 350,
+      "title": "Read a perceptual map without inventing its key",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": true,
+          "canScroll": true,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 350,
+      "title": "Price–benefit positions in the supplied value grid",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": true,
+          "canScroll": true,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 350,
+      "title": "Value Proposition Canvas: the supplied Tesla exercise",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": true,
+          "canScroll": true,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 350,
+      "title": "Communication objectives and source tactics",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 350,
+      "title": "Customer and competitor focus: four orientations",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": true,
+          "canScroll": true,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 350,
+      "title": "From analysis to execution, control and feedback",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 350,
+      "title": "Environmental sensitivity and product adaptation",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": true,
+          "canScroll": true,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 350,
+      "title": "Lifecycle stages: what the management task changes",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": true,
+          "canScroll": true,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": [
+        {
+          "width": 316,
+          "label": "Lifecycle stages: what the management task changes. Conceptual, unscaled curves: Sales (conceptual); Profit (conceptual). Relative level against Time · introduction → growth → maturity → decline."
+        }
+      ]
+    },
+    {
+      "width": 350,
+      "title": "Development costs and alternative lifecycle patterns",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 350,
+      "title": "Diffusion groups: the source’s population shares",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": [
+        {
+          "width": 316,
+          "label": "Diffusion groups: the source’s population shares. Conceptual, unscaled curves: Conceptual adoption distribution. Relative number adopting against Adoption sequence · innovators → laggards."
+        }
+      ]
+    },
+    {
+      "width": 350,
+      "title": "How the supplied valuation diagram connects the inputs",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": true,
+          "canScroll": true,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 350,
+      "title": "What may sustain a consumer–brand relationship",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 350,
+      "title": "Six possible relationship trajectories",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": true,
+          "canScroll": true,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 350,
+      "title": "Experience, personality, satisfaction and loyalty: the supplied model",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 350,
+      "title": "Bullseye channel inventory and the unfilled shortlist",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 760,
+      "title": "STP: move from segmentation to a usable marketing mix",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 760,
+      "title": "Read a perceptual map without inventing its key",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 760,
+      "title": "Price–benefit positions in the supplied value grid",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 760,
+      "title": "Value Proposition Canvas: the supplied Tesla exercise",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 760,
+      "title": "Communication objectives and source tactics",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 760,
+      "title": "Customer and competitor focus: four orientations",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 760,
+      "title": "From analysis to execution, control and feedback",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 760,
+      "title": "Environmental sensitivity and product adaptation",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 760,
+      "title": "Lifecycle stages: what the management task changes",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": [
+        {
+          "width": 600,
+          "label": "Lifecycle stages: what the management task changes. Conceptual, unscaled curves: Sales (conceptual); Profit (conceptual). Relative level against Time · introduction → growth → maturity → decline."
+        }
+      ]
+    },
+    {
+      "width": 760,
+      "title": "Development costs and alternative lifecycle patterns",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 760,
+      "title": "Diffusion groups: the source’s population shares",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": [
+        {
+          "width": 600,
+          "label": "Diffusion groups: the source’s population shares. Conceptual, unscaled curves: Conceptual adoption distribution. Relative number adopting against Adoption sequence · innovators → laggards."
+        }
+      ]
+    },
+    {
+      "width": 760,
+      "title": "How the supplied valuation diagram connects the inputs",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 760,
+      "title": "What may sustain a consumer–brand relationship",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 760,
+      "title": "Six possible relationship trajectories",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 760,
+      "title": "Experience, personality, satisfaction and loyalty: the supplied model",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    },
+    {
+      "width": 760,
+      "title": "Bullseye channel inventory and the unfilled shortlist",
+      "images": 0,
+      "tables": [
+        {
+          "overflows": false,
+          "canScroll": false,
+          "keyboardAccessible": true
+        }
+      ],
+      "plots": []
+    }
+  ],
+  "detailChecks": [
+    {
+      "width": 390,
+      "slug": "marketing-customer-value",
+      "visiblePassages": 81
+    },
+    {
+      "width": 390,
+      "slug": "market-segmentation",
+      "visiblePassages": 111
+    },
+    {
+      "width": 390,
+      "slug": "b2b-segmentation",
+      "visiblePassages": 23
+    },
+    {
+      "width": 390,
+      "slug": "market-targeting",
+      "visiblePassages": 41
+    },
+    {
+      "width": 390,
+      "slug": "market-positioning",
+      "visiblePassages": 73
+    },
+    {
+      "width": 390,
+      "slug": "value-proposition-design",
+      "visiblePassages": 1
+    },
+    {
+      "width": 390,
+      "slug": "marketing-mix",
+      "visiblePassages": 28
+    },
+    {
+      "width": 390,
+      "slug": "service-design-quality",
+      "visiblePassages": 33
+    },
+    {
+      "width": 390,
+      "slug": "marketing-channels",
+      "visiblePassages": 74
+    },
+    {
+      "width": 390,
+      "slug": "marketing-channel-management",
+      "visiblePassages": 66
+    },
+    {
+      "width": 390,
+      "slug": "marketing-logistics",
+      "visiblePassages": 41
+    },
+    {
+      "width": 390,
+      "slug": "marketing-pricing-methods",
+      "visiblePassages": 49
+    },
+    {
+      "width": 390,
+      "slug": "marketing-pricing-strategies",
+      "visiblePassages": 26
+    },
+    {
+      "width": 390,
+      "slug": "price-elasticity",
+      "visiblePassages": 7
+    },
+    {
+      "width": 390,
+      "slug": "marketing-communications",
+      "visiblePassages": 151
+    },
+    {
+      "width": 390,
+      "slug": "marketing-digital-channels",
+      "visiblePassages": 50
+    },
+    {
+      "width": 390,
+      "slug": "marketing-influencers",
+      "visiblePassages": 10
+    },
+    {
+      "width": 390,
+      "slug": "marketing-race-planning",
+      "visiblePassages": 27
+    },
+    {
+      "width": 390,
+      "slug": "marketing-value-disciplines",
+      "visiblePassages": 51
+    },
+    {
+      "width": 390,
+      "slug": "marketing-planning",
+      "visiblePassages": 29
+    },
+    {
+      "width": 390,
+      "slug": "global-market-entry",
+      "visiblePassages": 103
+    },
+    {
+      "width": 390,
+      "slug": "global-marketing-adaptation",
+      "visiblePassages": 31
+    },
+    {
+      "width": 390,
+      "slug": "product-levels-types",
+      "visiblePassages": 78
+    },
+    {
+      "width": 390,
+      "slug": "new-product-development",
+      "visiblePassages": 62
+    },
+    {
+      "width": 390,
+      "slug": "product-concept-testing",
+      "visiblePassages": 23
+    },
+    {
+      "width": 390,
+      "slug": "product-lifecycle",
+      "visiblePassages": 32
+    },
+    {
+      "width": 390,
+      "slug": "innovation-adoption",
+      "visiblePassages": 1
+    },
+    {
+      "width": 390,
+      "slug": "product-offering-tradeoffs",
+      "visiblePassages": 28
+    },
+    {
+      "width": 390,
+      "slug": "design-sprints",
+      "visiblePassages": 20
+    },
+    {
+      "width": 390,
+      "slug": "kano-feature-priorities",
+      "visiblePassages": 6
+    },
+    {
+      "width": 390,
+      "slug": "lean-ux-learning",
+      "visiblePassages": 22
+    },
+    {
+      "width": 390,
+      "slug": "brand-foundations",
+      "visiblePassages": 70
+    },
+    {
+      "width": 390,
+      "slug": "brand-awareness-image",
+      "visiblePassages": 48
+    },
+    {
+      "width": 390,
+      "slug": "brand-equity",
+      "visiblePassages": 60
+    },
+    {
+      "width": 390,
+      "slug": "brand-financial-value",
+      "visiblePassages": 40
+    },
+    {
+      "width": 390,
+      "slug": "employee-brand-equity",
+      "visiblePassages": 13
+    },
+    {
+      "width": 390,
+      "slug": "brand-identity",
+      "visiblePassages": 41
+    },
+    {
+      "width": 390,
+      "slug": "brand-naming-packaging",
+      "visiblePassages": 43
+    },
+    {
+      "width": 390,
+      "slug": "brand-communications",
+      "visiblePassages": 69
+    },
+    {
+      "width": 390,
+      "slug": "brand-secondary-associations",
+      "visiblePassages": 28
+    },
+    {
+      "width": 390,
+      "slug": "brand-personality",
+      "visiblePassages": 75
+    },
+    {
+      "width": 390,
+      "slug": "brand-relationships",
+      "visiblePassages": 48
+    },
+    {
+      "width": 390,
+      "slug": "brand-experience",
+      "visiblePassages": 28
+    },
+    {
+      "width": 390,
+      "slug": "corporate-branding",
+      "visiblePassages": 38
+    },
+    {
+      "width": 390,
+      "slug": "brand-architecture",
+      "visiblePassages": 95
+    },
+    {
+      "width": 390,
+      "slug": "cause-environmental-marketing",
+      "visiblePassages": 5
+    },
+    {
+      "width": 390,
+      "slug": "brand-extension",
+      "visiblePassages": 89
+    },
+    {
+      "width": 390,
+      "slug": "marketing-channel-experiments",
+      "visiblePassages": 4
+    },
+    {
+      "width": 390,
+      "slug": "marketing-direct-response",
+      "visiblePassages": 29
+    },
+    {
+      "width": 390,
+      "slug": "competition-landscape",
+      "visiblePassages": 91
+    },
+    {
+      "width": 390,
+      "slug": "competitive-positioning",
+      "visiblePassages": 113
+    },
+    {
+      "width": 390,
+      "slug": "customer-feedback",
+      "visiblePassages": 43
+    },
+    {
+      "width": 390,
+      "slug": "customer-systems",
+      "visiblePassages": 28
+    },
+    {
+      "width": 390,
+      "slug": "innovation-pathways",
+      "visiblePassages": 90
+    },
+    {
+      "width": 390,
+      "slug": "strategic-business-units",
+      "visiblePassages": 34
+    },
+    {
+      "width": 390,
+      "slug": "strategic-management-cycle",
+      "visiblePassages": 108
+    },
+    {
+      "width": 390,
+      "slug": "strategic-thinking",
+      "visiblePassages": 66
+    },
+    {
+      "width": 390,
+      "slug": "value-chain",
+      "visiblePassages": 57
+    },
+    {
+      "width": 1440,
+      "slug": "marketing-customer-value",
+      "visiblePassages": 81
+    },
+    {
+      "width": 1440,
+      "slug": "market-segmentation",
+      "visiblePassages": 111
+    },
+    {
+      "width": 1440,
+      "slug": "b2b-segmentation",
+      "visiblePassages": 23
+    },
+    {
+      "width": 1440,
+      "slug": "market-targeting",
+      "visiblePassages": 41
+    },
+    {
+      "width": 1440,
+      "slug": "market-positioning",
+      "visiblePassages": 73
+    },
+    {
+      "width": 1440,
+      "slug": "value-proposition-design",
+      "visiblePassages": 1
+    },
+    {
+      "width": 1440,
+      "slug": "marketing-mix",
+      "visiblePassages": 28
+    },
+    {
+      "width": 1440,
+      "slug": "service-design-quality",
+      "visiblePassages": 33
+    },
+    {
+      "width": 1440,
+      "slug": "marketing-channels",
+      "visiblePassages": 74
+    },
+    {
+      "width": 1440,
+      "slug": "marketing-channel-management",
+      "visiblePassages": 66
+    },
+    {
+      "width": 1440,
+      "slug": "marketing-logistics",
+      "visiblePassages": 41
+    },
+    {
+      "width": 1440,
+      "slug": "marketing-pricing-methods",
+      "visiblePassages": 49
+    },
+    {
+      "width": 1440,
+      "slug": "marketing-pricing-strategies",
+      "visiblePassages": 26
+    },
+    {
+      "width": 1440,
+      "slug": "price-elasticity",
+      "visiblePassages": 7
+    },
+    {
+      "width": 1440,
+      "slug": "marketing-communications",
+      "visiblePassages": 151
+    },
+    {
+      "width": 1440,
+      "slug": "marketing-digital-channels",
+      "visiblePassages": 50
+    },
+    {
+      "width": 1440,
+      "slug": "marketing-influencers",
+      "visiblePassages": 10
+    },
+    {
+      "width": 1440,
+      "slug": "marketing-race-planning",
+      "visiblePassages": 27
+    },
+    {
+      "width": 1440,
+      "slug": "marketing-value-disciplines",
+      "visiblePassages": 51
+    },
+    {
+      "width": 1440,
+      "slug": "marketing-planning",
+      "visiblePassages": 29
+    },
+    {
+      "width": 1440,
+      "slug": "global-market-entry",
+      "visiblePassages": 103
+    },
+    {
+      "width": 1440,
+      "slug": "global-marketing-adaptation",
+      "visiblePassages": 31
+    },
+    {
+      "width": 1440,
+      "slug": "product-levels-types",
+      "visiblePassages": 78
+    },
+    {
+      "width": 1440,
+      "slug": "new-product-development",
+      "visiblePassages": 62
+    },
+    {
+      "width": 1440,
+      "slug": "product-concept-testing",
+      "visiblePassages": 23
+    },
+    {
+      "width": 1440,
+      "slug": "product-lifecycle",
+      "visiblePassages": 32
+    },
+    {
+      "width": 1440,
+      "slug": "innovation-adoption",
+      "visiblePassages": 1
+    },
+    {
+      "width": 1440,
+      "slug": "product-offering-tradeoffs",
+      "visiblePassages": 28
+    },
+    {
+      "width": 1440,
+      "slug": "design-sprints",
+      "visiblePassages": 20
+    },
+    {
+      "width": 1440,
+      "slug": "kano-feature-priorities",
+      "visiblePassages": 6
+    },
+    {
+      "width": 1440,
+      "slug": "lean-ux-learning",
+      "visiblePassages": 22
+    },
+    {
+      "width": 1440,
+      "slug": "brand-foundations",
+      "visiblePassages": 70
+    },
+    {
+      "width": 1440,
+      "slug": "brand-awareness-image",
+      "visiblePassages": 48
+    },
+    {
+      "width": 1440,
+      "slug": "brand-equity",
+      "visiblePassages": 60
+    },
+    {
+      "width": 1440,
+      "slug": "brand-financial-value",
+      "visiblePassages": 40
+    },
+    {
+      "width": 1440,
+      "slug": "employee-brand-equity",
+      "visiblePassages": 13
+    },
+    {
+      "width": 1440,
+      "slug": "brand-identity",
+      "visiblePassages": 41
+    },
+    {
+      "width": 1440,
+      "slug": "brand-naming-packaging",
+      "visiblePassages": 43
+    },
+    {
+      "width": 1440,
+      "slug": "brand-communications",
+      "visiblePassages": 69
+    },
+    {
+      "width": 1440,
+      "slug": "brand-secondary-associations",
+      "visiblePassages": 28
+    },
+    {
+      "width": 1440,
+      "slug": "brand-personality",
+      "visiblePassages": 75
+    },
+    {
+      "width": 1440,
+      "slug": "brand-relationships",
+      "visiblePassages": 48
+    },
+    {
+      "width": 1440,
+      "slug": "brand-experience",
+      "visiblePassages": 28
+    },
+    {
+      "width": 1440,
+      "slug": "corporate-branding",
+      "visiblePassages": 38
+    },
+    {
+      "width": 1440,
+      "slug": "brand-architecture",
+      "visiblePassages": 95
+    },
+    {
+      "width": 1440,
+      "slug": "cause-environmental-marketing",
+      "visiblePassages": 5
+    },
+    {
+      "width": 1440,
+      "slug": "brand-extension",
+      "visiblePassages": 89
+    },
+    {
+      "width": 1440,
+      "slug": "marketing-channel-experiments",
+      "visiblePassages": 4
+    },
+    {
+      "width": 1440,
+      "slug": "marketing-direct-response",
+      "visiblePassages": 29
+    },
+    {
+      "width": 1440,
+      "slug": "competition-landscape",
+      "visiblePassages": 91
+    },
+    {
+      "width": 1440,
+      "slug": "competitive-positioning",
+      "visiblePassages": 113
+    },
+    {
+      "width": 1440,
+      "slug": "customer-feedback",
+      "visiblePassages": 43
+    },
+    {
+      "width": 1440,
+      "slug": "customer-systems",
+      "visiblePassages": 28
+    },
+    {
+      "width": 1440,
+      "slug": "innovation-pathways",
+      "visiblePassages": 90
+    },
+    {
+      "width": 1440,
+      "slug": "strategic-business-units",
+      "visiblePassages": 34
+    },
+    {
+      "width": 1440,
+      "slug": "strategic-management-cycle",
+      "visiblePassages": 108
+    },
+    {
+      "width": 1440,
+      "slug": "strategic-thinking",
+      "visiblePassages": 66
+    },
+    {
+      "width": 1440,
+      "slug": "value-chain",
+      "visiblePassages": 57
+    }
+  ]
+}

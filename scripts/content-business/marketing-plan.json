@@ -1,0 +1,3522 @@
+[
+  {
+    "slug": "marketing-customer-value",
+    "title": "Marketing: create, deliver and capture customer value",
+    "topic": "Business & Management",
+    "group": "Marketing foundations",
+    "collection": "marketing-strategy",
+    "summary": "Connect customer needs, the market offering and organizational goals before choosing promotional tactics.",
+    "takeaway": "Marketing starts with the customer problem and the value delivered, not only advertising.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 0,
+        "end": 51,
+        "heading": "Needs, wants, demand and value",
+        "subheadings": [
+          21,
+          25,
+          26,
+          31,
+          33,
+          35,
+          37,
+          39,
+          43,
+          46
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 114,
+        "end": 134,
+        "heading": "Management orientations and the integrated programme",
+        "subheadings": [
+          116,
+          118,
+          120,
+          122,
+          124
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 139,
+        "end": 151,
+        "heading": "The source’s changing-landscape outline",
+        "subheadings": [
+          143,
+          147
+        ]
+      }
+    ],
+    "steps": [
+      "Understand needs",
+      "Choose whom to serve",
+      "Deliver value",
+      "Learn from customers"
+    ],
+    "related": [
+      "market-segmentation",
+      "value-proposition-design",
+      "marketing-mix",
+      "customer-systems"
+    ],
+    "notes": [
+      "Statements about acquisition versus retention cost are context-dependent source generalizations, not universal ratios.",
+      "The landscape and Lush example are undated study notes, not a current assessment of a company or platform."
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "title": "From a customer question to a marketing programme",
+        "kind": "matrix",
+        "headers": [
+          "Question",
+          "Reading focus"
+        ],
+        "rows": [
+          [
+            "Who needs help?",
+            "Research the customer and the context."
+          ],
+          [
+            "What matters?",
+            "Choose the benefits and costs that define value."
+          ],
+          [
+            "How will value arrive?",
+            "Coordinate product, price, channels and communication."
+          ],
+          [
+            "How will we learn?",
+            "Measure customer and business outcomes."
+          ]
+        ],
+        "note": "Editorial summary of the supplied material. It is a decision aid, not a measured result or a guarantee."
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "customer-feedback",
+    "appendTo": "customer-feedback",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 51,
+        "end": 84,
+        "heading": "A three-quarter service scorecard example"
+      }
+    ],
+    "notes": [
+      "The seven-item scorecard is an illustrative source table with no company, sample size, question wording or survey method. Do not treat its percentages as population benchmarks."
+    ],
+    "related": [
+      "service-design-quality",
+      "marketing-planning"
+    ],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "competition-landscape",
+    "appendTo": "competition-landscape",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 84,
+        "end": 109,
+        "heading": "Distinctive-competency company examples"
+      }
+    ],
+    "notes": [
+      "Coca-Cola, Apple, Southwest, Amazon and Starbucks shares/rankings lack dates, market definitions and sources. They are retained as historical claims rather than current statistics."
+    ],
+    "related": [
+      "market-positioning"
+    ],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "value-chain",
+    "appendTo": "value-chain",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 109,
+        "end": 114,
+        "heading": "Value-proposition development and delivery"
+      }
+    ],
+    "notes": [],
+    "related": [
+      "value-proposition-design",
+      "marketing-channel-management"
+    ],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "customer-systems",
+    "appendTo": "customer-systems",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 134,
+        "end": 139,
+        "heading": "CRM and the source’s lifetime-value definition",
+        "subheadings": [
+          136,
+          137
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 1204,
+        "end": 1207,
+        "heading": "Digital customer-experience wording"
+      }
+    ],
+    "notes": [
+      "The source describes lifetime value as a stream of purchases. A financial CLV model must specify revenue versus contribution, costs, timing and any discounting; gross lifetime purchases are not automatically customer profit.",
+      "The source lists physical store/branch/outdoor touchpoints as “online” in one sentence; these are offline touchpoints within the broader experience."
+    ],
+    "related": [
+      "brand-experience",
+      "marketing-race-planning"
+    ],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "market-segmentation",
+    "title": "Market segmentation: find meaningful differences",
+    "topic": "Business & Management",
+    "group": "Customers & positioning",
+    "collection": "marketing-strategy",
+    "summary": "Compare geographic, demographic, behavioral and needs-based ways to understand customer groups.",
+    "takeaway": "A segment is useful when it changes what you can understand, deliver or measure.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 151,
+        "end": 241,
+        "heading": "Segmentation bases, situations and benefits",
+        "subheadings": [
+          152,
+          153,
+          155,
+          157,
+          159,
+          161,
+          162,
+          170,
+          177,
+          181,
+          186,
+          192,
+          198,
+          200,
+          202,
+          204,
+          206,
+          208,
+          215,
+          219,
+          223,
+          226,
+          229,
+          233,
+          235
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 241,
+        "end": 247,
+        "heading": "Five tests of a useful segment"
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 374,
+        "end": 375,
+        "heading": "The supplied STP process illustration",
+        "mergeSection": "section-1"
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 379,
+        "end": 396,
+        "heading": "The source’s luxury-customer categories",
+        "subheadings": [
+          380,
+          384,
+          388,
+          392
+        ]
+      }
+    ],
+    "steps": [
+      "Choose a question",
+      "Identify differences",
+      "Test useful segments",
+      "Review assumptions"
+    ],
+    "related": [
+      "market-targeting",
+      "b2b-segmentation",
+      "market-positioning",
+      "sales-buyer-roles"
+    ],
+    "notes": [
+      "Demographic and geographical patterns are hypotheses to investigate, not fixed facts about every person. The source’s gender binary and “birds of a feather” wording are simplified historical descriptions.",
+      "The luxury categories have no identified study, scoring method or representative sample; retain them as a source typology, not a validated customer classification."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "b2b-segmentation",
+    "title": "B2B segmentation: buying context, capability and relationships",
+    "topic": "Business & Management",
+    "group": "Customers & positioning",
+    "collection": "marketing-strategy",
+    "summary": "Assess business customers through operating variables, purchasing processes, situations and relationships.",
+    "takeaway": "Company size alone does not explain how a business buys.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 247,
+        "end": 270,
+        "heading": "Operating variables, purchase approaches and situational factors",
+        "subheadings": [
+          252,
+          259,
+          265
+        ]
+      }
+    ],
+    "steps": [
+      "Understand operations",
+      "Map purchasing",
+      "Identify the situation",
+      "Check relationship fit"
+    ],
+    "related": [
+      "market-segmentation",
+      "sales-buyer-roles",
+      "sales-qualification"
+    ],
+    "notes": [],
+    "references": [],
+    "visuals": [
+      {
+        "title": "Four B2B questions",
+        "kind": "matrix",
+        "headers": [
+          "Question",
+          "Reading focus"
+        ],
+        "rows": [
+          [
+            "Operating variables",
+            "Which technology, capabilities and supply-chain fit matter?"
+          ],
+          [
+            "Purchasing approach",
+            "Who decides, under which policy and criteria?"
+          ],
+          [
+            "Situation",
+            "What urgency, application and order size shape the purchase?"
+          ],
+          [
+            "Relationship",
+            "How do loyalty, risk and interaction affect the decision?"
+          ]
+        ],
+        "note": "Editorial summary of the supplied material. It is a decision aid, not a measured result or a guarantee."
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "market-targeting",
+    "title": "Target markets: broad, differentiated, focused or individual",
+    "topic": "Business & Management",
+    "group": "Customers & positioning",
+    "collection": "marketing-strategy",
+    "summary": "Compare targeting choices while correcting the source’s conflicting strategy labels.",
+    "takeaway": "Choose coverage based on resources, meaningful differences and the ability to serve the market.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 270,
+        "end": 300,
+        "heading": "Targeting strategies and the source’s label conflicts",
+        "subheadings": [
+          271,
+          276,
+          281,
+          286,
+          290,
+          295
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 300,
+        "end": 311,
+        "heading": "Choosing a strategy and evaluating target segments",
+        "subheadings": [
+          306
+        ]
+      }
+    ],
+    "steps": [
+      "Evaluate segments",
+      "Check capabilities",
+      "Choose coverage",
+      "Review results"
+    ],
+    "related": [
+      "market-segmentation",
+      "market-positioning",
+      "competitive-positioning"
+    ],
+    "notes": [
+      "The entry labelled “Concentration” repeats mass-marketing descriptions, while “Undifferentied” describes serving several segments with separate offers. Those source labels are inconsistent.",
+      "The corrected comparison distinguishes undifferentiated (one broad offer), differentiated (different offers for several segments), concentrated (focus on a selected segment) and micromarketing (local/individual tailoring)."
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "title": "A corrected targeting comparison",
+        "kind": "matrix",
+        "headers": [
+          "Strategy",
+          "Coverage choice"
+        ],
+        "rows": [
+          [
+            "Undifferentiated",
+            "One broad offer across the market."
+          ],
+          [
+            "Differentiated",
+            "Separate offers for several segments."
+          ],
+          [
+            "Concentrated",
+            "Focus resources on a selected segment or niche."
+          ],
+          [
+            "Micromarketing",
+            "Tailor to local groups or individual customers."
+          ]
+        ],
+        "note": "Editorial summary of the supplied material. It is a decision aid, not a measured result or a guarantee."
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "market-positioning",
+    "title": "Positioning: category, customer and meaningful difference",
+    "topic": "Business & Management",
+    "group": "Customers & positioning",
+    "collection": "marketing-strategy",
+    "summary": "Combine the marketing and branding notes into one guide to positioning, points of parity and difference.",
+    "takeaway": "Make the category clear, then explain a relevant difference you can actually deliver.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 311,
+        "end": 347,
+        "heading": "Perceptions, positioning decisions and the statement",
+        "subheadings": [
+          314,
+          316,
+          318,
+          323,
+          328,
+          330,
+          336,
+          344
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 347,
+        "end": 360,
+        "heading": "Positioning approaches and common errors",
+        "subheadings": [
+          355
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 375,
+        "end": 377,
+        "heading": "The unlabeled-brand perceptual map"
+      },
+      {
+        "document": "Brand.docx",
+        "start": 236,
+        "end": 260,
+        "heading": "Competitive frame, parity, difference and feasibility",
+        "subheadings": [
+          243,
+          245,
+          247,
+          252,
+          256
+        ]
+      }
+    ],
+    "steps": [
+      "Name the customer",
+      "Define the category",
+      "Choose the difference",
+      "Deliver the promise"
+    ],
+    "related": [
+      "value-proposition-design",
+      "brand-identity",
+      "competitive-positioning",
+      "market-targeting"
+    ],
+    "notes": [
+      "“Perpetual Positioning” appears to mean perceptual positioning. The original wording is retained with this explanation.",
+      "The perceptual-map bubbles are numbered 1, 2, 3, 4, 5 and 7 with no brand key or sampling method. No identities, market shares or measured bubble-size meanings are invented."
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "title": "A positioning statement to interrogate",
+        "kind": "matrix",
+        "headers": [
+          "Question",
+          "Reading focus"
+        ],
+        "rows": [
+          [
+            "Target",
+            "Who is the customer and what need matters?"
+          ],
+          [
+            "Category",
+            "What kind of offer is this?"
+          ],
+          [
+            "Difference",
+            "Why choose it over relevant alternatives?"
+          ],
+          [
+            "Delivery",
+            "Can the organization credibly provide that benefit?"
+          ]
+        ],
+        "note": "Editorial summary of the supplied material. It is a decision aid, not a measured result or a guarantee."
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "competitive-positioning",
+    "appendTo": "competitive-positioning",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 360,
+        "end": 374,
+        "heading": "Sources of differentiation in the marketing notes",
+        "subheadings": [
+          366
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 1093,
+        "end": 1111,
+        "heading": "Porter-style choices and source generalizations",
+        "subheadings": [
+          1094,
+          1096,
+          1098,
+          1100,
+          1104
+        ]
+      }
+    ],
+    "notes": [
+      "A clear strategy does not guarantee superior performance, and combining activities does not automatically imply failure. The source’s absolute “would/would not succeed” wording is a simplification."
+    ],
+    "related": [
+      "market-positioning"
+    ],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "value-proposition-design",
+    "title": "Value propositions: connect customer jobs with the offer",
+    "topic": "Business & Management",
+    "group": "Customers & positioning",
+    "collection": "marketing-strategy",
+    "summary": "Read the benefits-versus-price comparison and the supplied customer-profile/value-map example.",
+    "takeaway": "Specify which jobs, pains and gains the offer addresses, then test the assumed fit.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 377,
+        "end": 379,
+        "heading": "The value-proposition diagrams",
+        "introduction": "A value proposition explains why a chosen customer should prefer an offer. Use the price–benefit grid above to describe the trade-off, then the canvas to connect specific products, gain creators and pain relievers with customer jobs, gains and pains. Treat both as hypotheses to test with customers rather than evidence of fit."
+      }
+    ],
+    "steps": [
+      "Describe the customer",
+      "Prioritize jobs and needs",
+      "Map the offer",
+      "Test the fit"
+    ],
+    "related": [
+      "business-model-canvas",
+      "market-positioning",
+      "product-concept-testing",
+      "marketing-pricing-methods"
+    ],
+    "notes": [
+      "The Tesla Model X canvas is a teaching example, not verified current specifications, warranty terms, safety performance or autonomous-driving capability.",
+      "The five green value positions summarize possible offers; they do not prove commercial success, costs or customer preference."
+    ],
+    "references": [
+      {
+        "title": "Strategyzer: Value Proposition Canvas",
+        "url": "https://www.strategyzer.com/library/the-value-proposition-canvas"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "strategic-management-cycle",
+    "appendTo": "strategic-management-cycle",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 396,
+        "end": 418,
+        "heading": "A market-oriented mission and marketing objectives",
+        "subheadings": [
+          397,
+          399,
+          401,
+          404,
+          405,
+          409
+        ]
+      }
+    ],
+    "notes": [
+      "The Apple mission quotation is an undated source example. It is not represented as a verified current corporate statement."
+    ],
+    "related": [
+      "marketing-planning"
+    ],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "strategic-business-units",
+    "appendTo": "strategic-business-units",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 418,
+        "end": 431,
+        "heading": "Portfolio analysis in the marketing notes",
+        "subheadings": [
+          419,
+          421,
+          423,
+          427
+        ]
+      }
+    ],
+    "notes": [],
+    "related": [
+      "portfolio-bcg",
+      "product-innovation"
+    ],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "marketing-mix",
+    "title": "The marketing mix: coordinate the four Ps and service extensions",
+    "topic": "Business & Management",
+    "group": "Marketing foundations",
+    "collection": "marketing-strategy",
+    "summary": "Connect product, price, place and promotion with people, process and physical evidence.",
+    "takeaway": "The elements of the offer should reinforce the same customer promise.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 431,
+        "end": 442,
+        "heading": "The four-P framework and product topic outline",
+        "subheadings": [
+          434,
+          436,
+          438,
+          439,
+          440,
+          441
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 729,
+        "end": 747,
+        "heading": "People, process and physical evidence",
+        "subheadings": [
+          730,
+          731,
+          737,
+          739,
+          743,
+          745
+        ]
+      }
+    ],
+    "steps": [
+      "Define the offer",
+      "Coordinate the mix",
+      "Support delivery",
+      "Check consistency"
+    ],
+    "related": [
+      "product-levels-types",
+      "marketing-pricing-methods",
+      "marketing-channels",
+      "marketing-communications",
+      "service-design-quality"
+    ],
+    "notes": [
+      "The three service extensions are organizing categories, not additional independent guarantees of satisfaction. The physical-evidence section in the source is brief and partly describes interactions."
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "title": "Seven connected delivery questions",
+        "kind": "matrix",
+        "headers": [
+          "Question",
+          "Reading focus"
+        ],
+        "rows": [
+          [
+            "Product",
+            "What outcome and offer are provided?"
+          ],
+          [
+            "Price",
+            "What does the customer give up?"
+          ],
+          [
+            "Place",
+            "How does the offer reach the customer?"
+          ],
+          [
+            "Promotion",
+            "How is the promise communicated?"
+          ],
+          [
+            "People",
+            "Who shapes the experience?"
+          ],
+          [
+            "Process",
+            "How is delivery organized?"
+          ],
+          [
+            "Physical evidence",
+            "What observable cues support trust?"
+          ]
+        ],
+        "note": "Editorial summary of the supplied material. It is a decision aid, not a measured result or a guarantee."
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "service-design-quality",
+    "title": "Services: expectations, experience and perceived quality",
+    "topic": "Business & Management",
+    "group": "Products & services",
+    "collection": "product-innovation",
+    "summary": "Compare service characteristics, search/experience/credence properties and the SERVQUAL dimensions.",
+    "takeaway": "Identify what customers can evaluate and where service delivery needs dependable evidence.",
+    "ranges": [
+      {
+        "document": "Product.docx",
+        "start": 35,
+        "end": 41,
+        "heading": "Service characteristics in the product notes"
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 442,
+        "end": 459,
+        "heading": "Services and evaluation before or after use",
+        "subheadings": [
+          443,
+          445,
+          447,
+          449,
+          451,
+          452,
+          454,
+          457
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 504,
+        "end": 515,
+        "heading": "SERVQUAL: expected and perceived service",
+        "subheadings": [
+          505,
+          507,
+          509,
+          511,
+          513
+        ]
+      }
+    ],
+    "steps": [
+      "Understand expectations",
+      "Map delivery",
+      "Observe experience",
+      "Review quality gaps"
+    ],
+    "related": [
+      "customer-retention",
+      "customer-feedback",
+      "process-architecture",
+      "brand-experience"
+    ],
+    "notes": [
+      "The notes list SERVQUAL’s reliability, responsiveness, assurance, empathy and tangibles but supply no completed questionnaire, validated scale application or measurement dataset.",
+      "Inseparability and lack of ownership are broad service-characteristic descriptions; modern service models can vary."
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "title": "Five questions for service quality",
+        "kind": "matrix",
+        "headers": [
+          "Question",
+          "Reading focus"
+        ],
+        "rows": [
+          [
+            "Reliability",
+            "Is delivery accurate and dependable?"
+          ],
+          [
+            "Responsiveness",
+            "Is help prompt and willing?"
+          ],
+          [
+            "Assurance",
+            "Do competence and conduct support confidence?"
+          ],
+          [
+            "Empathy",
+            "Does the customer receive appropriate individual attention?"
+          ],
+          [
+            "Tangibles",
+            "What do facilities, equipment and communication communicate?"
+          ]
+        ],
+        "note": "Editorial summary of the supplied material. It is a decision aid, not a measured result or a guarantee."
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "marketing-channels",
+    "title": "Distribution channels: intermediaries, coverage and demand",
+    "topic": "Business & Management",
+    "group": "Channels & pricing",
+    "collection": "marketing-strategy",
+    "summary": "Compare direct and intermediary routes, distribution intensity, and push/pull approaches.",
+    "takeaway": "Choose a route that meets customer needs and makes responsibilities clear.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 515,
+        "end": 565,
+        "heading": "Channel members, routes and functions",
+        "subheadings": [
+          516,
+          520,
+          527,
+          528,
+          530,
+          532,
+          534,
+          535,
+          538,
+          542,
+          547,
+          553,
+          554,
+          558,
+          562
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 565,
+        "end": 589,
+        "heading": "Intensive, selective and exclusive coverage; push and pull",
+        "subheadings": [
+          567,
+          571,
+          575,
+          579,
+          584
+        ]
+      }
+    ],
+    "steps": [
+      "Map the route",
+      "Choose intermediaries",
+      "Set coverage",
+      "Align demand creation"
+    ],
+    "related": [
+      "marketing-channel-management",
+      "marketing-logistics",
+      "marketing-communications"
+    ],
+    "notes": [],
+    "references": [],
+    "visuals": [
+      {
+        "title": "Different distribution questions",
+        "kind": "matrix",
+        "headers": [
+          "Decision",
+          "Alternatives"
+        ],
+        "rows": [
+          [
+            "Route",
+            "Direct, retailer, wholesaler, or agent/broker route?"
+          ],
+          [
+            "Coverage",
+            "Intensive, selective or exclusive?"
+          ],
+          [
+            "Demand",
+            "Promote through channel members (push) or to customers (pull)?"
+          ]
+        ],
+        "note": "Editorial summary of the supplied material. It is a decision aid, not a measured result or a guarantee."
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "marketing-channel-management",
+    "title": "Channel management: coordinate partners and resolve conflict",
+    "topic": "Business & Management",
+    "group": "Channels & pricing",
+    "collection": "marketing-strategy",
+    "summary": "Understand vertical/horizontal arrangements, hybrid channels, disintermediation and channel-design choices.",
+    "takeaway": "Evaluate economics, control and adaptability rather than assuming one channel structure fits every market.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 748,
+        "end": 770,
+        "heading": "Supply and demand chains, partners and conflict",
+        "subheadings": [
+          749,
+          750,
+          752,
+          754,
+          756,
+          758,
+          760,
+          763,
+          764,
+          766
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 770,
+        "end": 794,
+        "heading": "Conventional, vertical, horizontal and multichannel systems",
+        "subheadings": [
+          772,
+          777,
+          779,
+          784,
+          786,
+          788,
+          790,
+          792
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 794,
+        "end": 815,
+        "heading": "Design and evaluate channel alternatives",
+        "subheadings": [
+          795,
+          800,
+          807,
+          812
+        ]
+      }
+    ],
+    "steps": [
+      "Start with customer needs",
+      "Compare structures",
+      "Agree responsibilities",
+      "Review trade-offs"
+    ],
+    "related": [
+      "marketing-channels",
+      "marketing-logistics",
+      "value-chain",
+      "global-market-entry"
+    ],
+    "notes": [],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "marketing-logistics",
+    "title": "Marketing logistics: stock, movement and information",
+    "topic": "Business & Management",
+    "group": "Channels & pricing",
+    "collection": "marketing-strategy",
+    "summary": "Connect warehousing, inventory, transport, data and outsourcing to customer service.",
+    "takeaway": "Physical delivery and information flow both shape the customer promise.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 815,
+        "end": 828,
+        "heading": "Commercial arrangements and physical distribution",
+        "subheadings": [
+          816,
+          818,
+          820,
+          822,
+          824,
+          826
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 828,
+        "end": 856,
+        "heading": "Warehousing, transport, information and 3PLs",
+        "subheadings": [
+          832,
+          834,
+          840,
+          848,
+          850,
+          851,
+          852,
+          854
+        ]
+      }
+    ],
+    "steps": [
+      "Define service levels",
+      "Coordinate stock",
+      "Move goods and information",
+      "Review total performance"
+    ],
+    "related": [
+      "marketing-channel-management",
+      "lean-supply",
+      "value-chain"
+    ],
+    "notes": [
+      "Exclusive dealing, territorial and tying arrangements are named, not assessed for legality. Applicable competition rules depend on the jurisdiction and facts.",
+      "The source lists the Internet among transport modes; distinguish delivery of digital products/information from physical freight. RFID and smart-shelf benefits depend on an implemented system."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "marketing-pricing-methods",
+    "title": "Pricing methods: costs, competitors and perceived value",
+    "topic": "Business & Management",
+    "group": "Channels & pricing",
+    "collection": "marketing-strategy",
+    "summary": "Compare the evidence and assumptions behind cost-, competition- and customer-value-based pricing.",
+    "takeaway": "A price needs a clear value proposition and an explicit view of costs and demand.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 589,
+        "end": 638,
+        "heading": "Pricing objectives, costs, markups and value approaches",
+        "subheadings": [
+          592,
+          593,
+          598,
+          599,
+          601,
+          607,
+          611,
+          613,
+          615,
+          619,
+          621,
+          624,
+          626,
+          630,
+          632,
+          634,
+          636
+        ]
+      }
+    ],
+    "steps": [
+      "Define the objective",
+      "Understand costs",
+      "Assess alternatives",
+      "Test customer value"
+    ],
+    "related": [
+      "marketing-pricing-strategies",
+      "price-elasticity",
+      "value-proposition-design"
+    ],
+    "notes": [
+      "The source’s statement that price below cost means no profit omits the cost definition, time horizon and broader economics. Contribution, total profit and cash flow are different measures.",
+      "Cost-plus pricing does not establish that customers will accept the price or that similar industry prices are fair; those are source generalizations."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "marketing-pricing-strategies",
+    "title": "Pricing strategies: launch, bundles and product relationships",
+    "topic": "Business & Management",
+    "group": "Channels & pricing",
+    "collection": "marketing-strategy",
+    "summary": "Distinguish skimming, penetration, dynamic pricing, auctions and product-mix approaches.",
+    "takeaway": "Choose a pricing structure that matches the offer, market conditions and economics.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 638,
+        "end": 664,
+        "heading": "Launch strategies, adjustments and product-mix pricing",
+        "subheadings": [
+          639,
+          645,
+          650,
+          652,
+          654,
+          656,
+          658,
+          660,
+          662
+        ]
+      }
+    ],
+    "steps": [
+      "Identify the context",
+      "Choose a structure",
+      "Check economics",
+      "Monitor effects"
+    ],
+    "related": [
+      "marketing-pricing-methods",
+      "price-elasticity",
+      "product-lifecycle"
+    ],
+    "notes": [],
+    "references": [],
+    "visuals": [
+      {
+        "title": "Pricing choices solve different problems",
+        "kind": "matrix",
+        "headers": [
+          "Question",
+          "Reading focus"
+        ],
+        "rows": [
+          [
+            "Skimming / penetration",
+            "How should a new offer enter its market?"
+          ],
+          [
+            "Dynamic / auction",
+            "How is price determined or adjusted?"
+          ],
+          [
+            "Line / optional / captive / bundle / by-product",
+            "How are related products priced together?"
+          ]
+        ],
+        "note": "Editorial summary of the supplied material. It is a decision aid, not a measured result or a guarantee."
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "price-elasticity",
+    "title": "Price and demand: responsiveness and the limits of a simple curve",
+    "topic": "Business & Management",
+    "group": "Channels & pricing",
+    "collection": "marketing-strategy",
+    "summary": "Read elastic and inelastic demand and the source’s prestige-price observation.",
+    "takeaway": "A price change’s effect depends on customer behavior and context, not a universal slogan.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 1364,
+        "end": 1372,
+        "heading": "Demand, supply heading and price responsiveness"
+      }
+    ],
+    "steps": [
+      "Define the market",
+      "Observe response",
+      "Separate influences",
+      "Review economics"
+    ],
+    "related": [
+      "marketing-pricing-methods",
+      "market-segmentation",
+      "marketing-pricing-strategies"
+    ],
+    "notes": [
+      "No demand dataset, elasticity calculation or supply analysis is supplied despite the “Demand and supply” heading.",
+      "Higher price does not universally increase luxury demand. A perceived-quality or status mechanism is a contextual possibility, not a guaranteed reversal of demand."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "marketing-communications",
+    "title": "Marketing communications: message, mix, budget and evaluation",
+    "topic": "Business & Management",
+    "group": "Communications & digital",
+    "collection": "marketing-strategy",
+    "summary": "Coordinate communication objectives, tools, audiences, budgets and measurement.",
+    "takeaway": "Choose channels to serve a clear objective and evaluate their contribution with realistic attribution limits.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 664,
+        "end": 729,
+        "heading": "Objectives, appeals and the promotion mix",
+        "subheadings": [
+          665,
+          669,
+          676,
+          681,
+          683,
+          684,
+          693,
+          702,
+          711,
+          716,
+          722
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 856,
+        "end": 883,
+        "heading": "Integrated, mass and personal communication",
+        "subheadings": [
+          860,
+          865,
+          869,
+          875
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 883,
+        "end": 937,
+        "heading": "Plan audiences, budgets, messages and evaluation",
+        "subheadings": [
+          884,
+          892,
+          895,
+          912,
+          915,
+          917,
+          922,
+          927,
+          928,
+          932
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 937,
+        "end": 943,
+        "heading": "Advertising and historical media examples"
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 1016,
+        "end": 1017,
+        "heading": "The supplied hierarchy-of-effects illustration",
+        "mergeSection": "section-1"
+      }
+    ],
+    "steps": [
+      "Identify audiences",
+      "Set objectives",
+      "Allocate the budget",
+      "Evaluate effects"
+    ],
+    "related": [
+      "marketing-digital-channels",
+      "marketing-race-planning",
+      "brand-communications",
+      "marketing-planning"
+    ],
+    "notes": [
+      "The hierarchy-of-effects illustration is a teaching sequence, not proof that every customer follows one fixed path to loyalty.",
+      "“Mass communication remains the best way” and historic media descriptions depend on audience, objective and date. Lagged sales effects do not make awareness surveys causal proof of campaign impact."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "marketing-digital-channels",
+    "title": "Digital channels: communities, reviews, buzz and emerging formats",
+    "topic": "Business & Management",
+    "group": "Communications & digital",
+    "collection": "marketing-strategy",
+    "summary": "Compare communities, reviews, mobile formats and viral messages to choose channels that fit the audience and objective.",
+    "takeaway": "Choose a channel around customer behavior and a measurable objective, not its novelty.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 943,
+        "end": 957,
+        "heading": "Many-to-many communication, platforms and communities",
+        "subheadings": [
+          948,
+          951,
+          955
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 960,
+        "end": 974,
+        "heading": "Virtual worlds, guerrilla promotions and reviews",
+        "subheadings": [
+          965,
+          967,
+          971
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 974,
+        "end": 987,
+        "heading": "Buzz, mobile/location examples, viral messages and IoT",
+        "subheadings": [
+          978,
+          982,
+          985
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 1192,
+        "end": 1204,
+        "heading": "Repeated digital-communication wording",
+        "mergeSection": "section-1",
+        "subheadings": [
+          1193,
+          1199
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 1207,
+        "end": 1211,
+        "heading": "Repeated mobile/location wording",
+        "mergeSection": "section-3"
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 1211,
+        "end": 1214,
+        "heading": "Repeated review-site wording",
+        "mergeSection": "section-2"
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 1214,
+        "end": 1219,
+        "heading": "Personalization, communities and viral wording",
+        "mergeSection": "section-3",
+        "subheadings": [
+          1216
+        ]
+      }
+    ],
+    "steps": [
+      "Understand the audience",
+      "Choose a format",
+      "Design participation",
+      "Measure useful outcomes"
+    ],
+    "related": [
+      "marketing-influencers",
+      "marketing-race-planning",
+      "metaverse-history",
+      "customer-systems"
+    ],
+    "notes": [
+      "Exact repeated passages share one displayed treatment; distinct wording remains accessible and every original location is mapped.",
+      "Platform names, the $11-billion virtual-goods figure, Second Life/Club Penguin examples and the “short-lived” Pokémon Go characterization are undated source material, not current market statistics or recommendations.",
+      "Location, personalization and remarketing ideas require appropriate consent/privacy design. The notes do not authorize collecting personal data or contacting people."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "marketing-influencers",
+    "title": "Influencer marketing: fit, objectives and a clear brief",
+    "topic": "Business & Management",
+    "group": "Communications & digital",
+    "collection": "marketing-strategy",
+    "summary": "Connect the source’s influencer planning steps with brand fit and the risks of borrowed associations.",
+    "takeaway": "Reach is useful only when audience, message, credibility and objectives fit.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 1219,
+        "end": 1229,
+        "heading": "Influencer objectives, research, budget and pitch"
+      }
+    ],
+    "steps": [
+      "Set objectives",
+      "Define audience fit",
+      "Research partners",
+      "Write the brief"
+    ],
+    "related": [
+      "brand-secondary-associations",
+      "marketing-communications",
+      "marketing-digital-channels"
+    ],
+    "notes": [
+      "Claims that social media is a brand’s “best opportunity” for a generation are broad source generalizations. No campaign results or current audience data are supplied."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "marketing-race-planning",
+    "title": "RACE: plan, reach, act, convert and engage",
+    "topic": "Business & Management",
+    "group": "Communications & digital",
+    "collection": "marketing-strategy",
+    "summary": "Connect the supplied Smart Insights sequence with customer journeys and stage-specific measures.",
+    "takeaway": "Use measures that match the stage, while distinguishing activity, conversion, revenue and retention.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 1018,
+        "end": 1046,
+        "heading": "The supplied Smart Insights planning framework",
+        "subheadings": [
+          1020,
+          1022,
+          1028,
+          1034,
+          1040
+        ]
+      }
+    ],
+    "steps": [
+      "Plan",
+      "Reach and act",
+      "Convert",
+      "Engage"
+    ],
+    "related": [
+      "marketing-communications",
+      "marketing-planning",
+      "customer-retention"
+    ],
+    "notes": [
+      "This is an attributed Smart Insights framework, not an InsightGinie invention. The source is an outline, not a completed strategy or benchmark dataset.",
+      "Repeat purchase, lifetime value, satisfaction and advocacy are different measures even when listed together."
+    ],
+    "references": [
+      {
+        "title": "Smart Insights: RACE planning guide",
+        "url": "https://www.smartinsights.com/wp-content/uploads/2022/10/RACE-growth-system-planning-guide-smart-insights.pdf"
+      }
+    ],
+    "visuals": [
+      {
+        "title": "Connect the stage to its question",
+        "kind": "matrix",
+        "headers": [
+          "Question",
+          "Reading focus"
+        ],
+        "rows": [
+          [
+            "Plan",
+            "What is the objective and customer proposition?"
+          ],
+          [
+            "Reach",
+            "Who discovers the offer?"
+          ],
+          [
+            "Act",
+            "Who interacts or becomes a lead?"
+          ],
+          [
+            "Convert",
+            "Who buys, through which journey and economics?"
+          ],
+          [
+            "Engage",
+            "Who returns, remains satisfied or advocates?"
+          ]
+        ],
+        "note": "Editorial summary of the supplied material. It is a decision aid, not a measured result or a guarantee."
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "competition-landscape",
+    "appendTo": "competition-landscape",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 1046,
+        "end": 1085,
+        "heading": "Competitor analysis and an intelligence workflow",
+        "subheadings": [
+          1049,
+          1051,
+          1055,
+          1056,
+          1058,
+          1060,
+          1061,
+          1063,
+          1069,
+          1078
+        ]
+      }
+    ],
+    "notes": [
+      "“Blue ocean” is a strategy framing, not a promise that no competitor or substitute will exist."
+    ],
+    "related": [
+      "blue-ocean",
+      "market-positioning"
+    ],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "strategic-thinking",
+    "appendTo": "strategic-thinking",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 1085,
+        "end": 1093,
+        "heading": "Entrepreneurial, formulated and intrapreneurial marketing",
+        "subheadings": [
+          1086,
+          1087,
+          1089,
+          1091
+        ]
+      }
+    ],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "marketing-value-disciplines",
+    "title": "Value disciplines and market roles: choose where to compete",
+    "topic": "Business & Management",
+    "group": "Marketing foundations",
+    "collection": "marketing-strategy",
+    "summary": "Compare operational excellence, customer intimacy and product leadership alongside leader/challenger/follower/niche roles.",
+    "takeaway": "A value proposition and a market-share role describe different dimensions of strategy.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 1111,
+        "end": 1135,
+        "heading": "Value disciplines and competitive roles",
+        "subheadings": [
+          1112,
+          1114,
+          1116,
+          1118,
+          1119,
+          1121,
+          1125,
+          1131
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 1135,
+        "end": 1162,
+        "heading": "Leader responses and market-centred orientation",
+        "subheadings": [
+          1136,
+          1140,
+          1145,
+          1150,
+          1152,
+          1156,
+          1159
+        ]
+      }
+    ],
+    "steps": [
+      "Choose the value focus",
+      "Understand the market role",
+      "Balance signals",
+      "Review customer outcomes"
+    ],
+    "related": [
+      "competitive-positioning",
+      "ohmae-three-cs",
+      "market-targeting",
+      "innovation-pathways"
+    ],
+    "notes": [
+      "Market-role descriptions are general frameworks, not automatic predictions of behavior or success. The source supplies no current market-share dataset."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "marketing-planning",
+    "title": "Marketing plans: turn analysis into accountable action",
+    "topic": "Business & Management",
+    "group": "Planning & international markets",
+    "collection": "marketing-strategy",
+    "summary": "Use the supplied plan outline, positioning proforma and implementation/control diagram together.",
+    "takeaway": "A useful plan links a customer promise to actions, ownership, budget and review.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 1162,
+        "end": 1176,
+        "heading": "Plan contents and marketing organization",
+        "subheadings": [
+          1171
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 1176,
+        "end": 1192,
+        "heading": "Positioning proforma and implementation illustration",
+        "subheadings": [
+          1177,
+          1179,
+          1181,
+          1183,
+          1187,
+          1189
+        ]
+      }
+    ],
+    "steps": [
+      "Diagnose the situation",
+      "Set objectives",
+      "Assign action and resources",
+      "Review and adapt"
+    ],
+    "related": [
+      "marketing-customer-value",
+      "marketing-communications",
+      "project-action-reporting",
+      "marketing-race-planning"
+    ],
+    "notes": [
+      "The source provides headings and a conceptual control flow, not a populated marketing plan, budget or return-on-investment calculation."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "global-market-entry",
+    "title": "International marketing: assess markets and choose an entry route",
+    "topic": "Business & Management",
+    "group": "Planning & international markets",
+    "collection": "marketing-strategy",
+    "summary": "Connect market drivers, economic/political context, capability and entry-mode choices.",
+    "takeaway": "Evaluate an actual market and entry arrangement rather than treating every country as the same opportunity.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 1229,
+        "end": 1246,
+        "heading": "Internationalization drivers and cultural factors",
+        "subheadings": [
+          1231,
+          1239
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 1246,
+        "end": 1270,
+        "heading": "The source’s country-etiquette examples"
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 1270,
+        "end": 1309,
+        "heading": "Economic, legal, technology and capability considerations",
+        "subheadings": [
+          1277,
+          1278,
+          1280,
+          1282,
+          1284,
+          1286,
+          1290,
+          1293,
+          1297,
+          1298,
+          1304
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 1309,
+        "end": 1333,
+        "heading": "Exporting, cooperation, investment and EPRG orientations",
+        "subheadings": [
+          1310,
+          1311,
+          1316,
+          1320,
+          1323,
+          1326
+        ]
+      }
+    ],
+    "steps": [
+      "Assess the market",
+      "Understand the context",
+      "Compare entry routes",
+      "Check capabilities"
+    ],
+    "related": [
+      "global-marketing-adaptation",
+      "growth-methods",
+      "pestle-analysis",
+      "marketing-channel-management"
+    ],
+    "notes": [
+      "Country-etiquette statements are unsourced generalizations, not universal rules for individuals or current travel advice. Local context and individual preferences matter.",
+      "Tariffs, exchange controls and other trade rules are named conceptually; no current rates, jurisdiction-specific advice or legal conclusions are supplied.",
+      "EPRG normally distinguishes ethnocentric, polycentric, regiocentric and geocentric orientations; the source combines the final two."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "global-marketing-adaptation",
+    "title": "Global marketing: standardize, adapt or develop something new",
+    "topic": "Business & Management",
+    "group": "Planning & international markets",
+    "collection": "marketing-strategy",
+    "summary": "Compare shared efficiencies with local needs and the source’s product-adaptation matrix.",
+    "takeaway": "Choose what can be shared and what must respond to the market; neither extreme is automatically superior.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 1333,
+        "end": 1364,
+        "heading": "Standardization arguments, product choices and adaptation matrix",
+        "subheadings": [
+          1334,
+          1336,
+          1340,
+          1350,
+          1354,
+          1355,
+          1357,
+          1359
+        ]
+      }
+    ],
+    "steps": [
+      "Identify common needs",
+      "Identify local differences",
+      "Choose adaptations",
+      "Review the mix"
+    ],
+    "related": [
+      "global-market-entry",
+      "product-levels-types",
+      "brand-architecture"
+    ],
+    "notes": [
+      "The standardization quotation and product-sensitivity examples are undated teaching material, not evidence that price removes cultural or regulatory differences.",
+      "The matrix is conceptual and has no calibrated scores; no exact product-adaptation requirement is inferred."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "product-levels-types",
+    "title": "Products: benefits, layers and buying situations",
+    "topic": "Business & Management",
+    "group": "Products & services",
+    "collection": "product-innovation",
+    "summary": "Compare five product levels, the three-layer marketing view, consumer buying types and business products.",
+    "takeaway": "Describe the customer benefit before choosing the features and support that deliver it.",
+    "ranges": [
+      {
+        "document": "Product.docx",
+        "start": 0,
+        "end": 35,
+        "heading": "Five levels, consumer products and business products",
+        "subheadings": [
+          2,
+          5,
+          6,
+          9,
+          12,
+          15,
+          18,
+          21,
+          28
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 459,
+        "end": 504,
+        "heading": "The three-layer view and consumer buying types",
+        "subheadings": [
+          467,
+          468,
+          470,
+          477,
+          484,
+          485,
+          491,
+          496,
+          501
+        ]
+      }
+    ],
+    "steps": [
+      "Identify the benefit",
+      "Define expectations",
+      "Choose augmentation",
+      "Understand buying behavior"
+    ],
+    "related": [
+      "service-design-quality",
+      "product-concept-testing",
+      "brand-identity"
+    ],
+    "notes": [
+      "The five-level and three-layer models are different simplifications, not a contradictory requirement to choose one count.",
+      "The air-conditioner example is historical: its R-22 reference is not a current product recommendation. The linked EPA material explains the US phaseout context."
+    ],
+    "references": [
+      {
+        "title": "US EPA: historical R-22 phaseout context",
+        "url": "https://www.epa.gov/sites/production/files/2020-03/documents/residential_air_conditioning_and_the_phaseout_of_hcfc-22_what_you_need_to_know_final_508.pdf"
+      }
+    ],
+    "visuals": [
+      {
+        "title": "Five levels in the source",
+        "kind": "matrix",
+        "headers": [
+          "Question",
+          "Reading focus"
+        ],
+        "rows": [
+          [
+            "Core benefit",
+            "The underlying need."
+          ],
+          [
+            "Generic product",
+            "Minimum functioning offer."
+          ],
+          [
+            "Expected product",
+            "Attributes normally expected."
+          ],
+          [
+            "Augmented product",
+            "Additional distinguishing benefits/support."
+          ],
+          [
+            "Potential product",
+            "Possible future transformations."
+          ]
+        ],
+        "note": "Editorial summary of the supplied material. It is a decision aid, not a measured result or a guarantee."
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "new-product-development",
+    "title": "New product development: from ideas to a launch decision",
+    "topic": "Business & Management",
+    "group": "Development & validation",
+    "collection": "product-innovation",
+    "summary": "Follow the supplied development stages and understand customer-centred, sequential, team-based and systematic approaches.",
+    "takeaway": "Each stage should reduce an important uncertainty before greater commitment.",
+    "ranges": [
+      {
+        "document": "Product.docx",
+        "start": 41,
+        "end": 59,
+        "heading": "Acquire or develop; generate and screen ideas",
+        "subheadings": [
+          42,
+          47,
+          48,
+          53
+        ]
+      },
+      {
+        "document": "Product.docx",
+        "start": 64,
+        "end": 76,
+        "heading": "Marketing strategy, business analysis and product development",
+        "subheadings": [
+          66,
+          70,
+          72
+        ]
+      },
+      {
+        "document": "Product.docx",
+        "start": 94,
+        "end": 111,
+        "heading": "Commercialization and ways to organize development",
+        "subheadings": [
+          99,
+          100,
+          102,
+          105,
+          107
+        ]
+      },
+      {
+        "document": "Product.docx",
+        "start": 143,
+        "end": 159,
+        "heading": "Failure reasons and historical company claims",
+        "subheadings": [
+          152
+        ]
+      }
+    ],
+    "steps": [
+      "Generate and screen",
+      "Test the concept",
+      "Assess feasibility",
+      "Plan commercialization"
+    ],
+    "related": [
+      "product-concept-testing",
+      "product-lifecycle",
+      "innovation-pathways",
+      "project-charter"
+    ],
+    "notes": [
+      "The 90%/66% failure figures have no full study reference, scope or date. Google market-share, advertising, planning-horizon and employee-time claims are historical source claims, not current benchmarks.",
+      "A staged outline does not mean development must be a rigid one-way handoff; the source itself describes overlapping and iterative work."
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "title": "The supplied development sequence",
+        "kind": "flow",
+        "headers": [],
+        "rows": [
+          [
+            "Idea generation"
+          ],
+          [
+            "Screening: real, win, worth doing?"
+          ],
+          [
+            "Concept development and testing"
+          ],
+          [
+            "Marketing strategy and business analysis"
+          ],
+          [
+            "Product development"
+          ],
+          [
+            "Test marketing"
+          ],
+          [
+            "Commercialization"
+          ]
+        ],
+        "note": "Editorial summary of the supplied material. It is a decision aid, not a measured result or a guarantee."
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "product-concept-testing",
+    "title": "Concept and market testing: learn before scaling",
+    "topic": "Business & Management",
+    "group": "Development & validation",
+    "collection": "product-innovation",
+    "summary": "Distinguish a product idea, concept, image, prototype and market test, and examine when different tests are useful.",
+    "takeaway": "A favorable reaction to an idea is not the same as evidence that the whole offer will succeed.",
+    "ranges": [
+      {
+        "document": "Product.docx",
+        "start": 59,
+        "end": 64,
+        "heading": "Idea, concept, image and consumer testing"
+      },
+      {
+        "document": "Product.docx",
+        "start": 76,
+        "end": 94,
+        "heading": "Test marketing and source decision criteria",
+        "subheadings": [
+          79,
+          80,
+          81,
+          86,
+          89
+        ]
+      }
+    ],
+    "steps": [
+      "State assumptions",
+      "Choose a realistic test",
+      "Observe behavior",
+      "Decide what to change"
+    ],
+    "related": [
+      "new-product-development",
+      "value-proposition-design",
+      "design-sprints",
+      "lean-ux-learning"
+    ],
+    "notes": [
+      "Standard, controlled and simulated market tests are named; no protocol, sample, analysis or result is supplied.",
+      "Management confidence, low costs or a line extension do not by themselves remove the need to examine relevant risks."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "product-lifecycle",
+    "title": "Product lifecycles: introduction, growth, maturity and decline",
+    "topic": "Business & Management",
+    "group": "Lifecycle & adoption",
+    "collection": "product-innovation",
+    "summary": "Read the source’s sales/profit curves, stage responses and style/fashion/fad distinctions.",
+    "takeaway": "Use lifecycle models as questions about the market, not a timetable every product must follow.",
+    "ranges": [
+      {
+        "document": "Product.docx",
+        "start": 111,
+        "end": 143,
+        "heading": "Lifecycle stages and management responses",
+        "subheadings": [
+          112,
+          114,
+          119,
+          127,
+          134,
+          138
+        ]
+      },
+      {
+        "document": "Product.docx",
+        "start": 159,
+        "end": 160,
+        "heading": "The two lifecycle illustrations",
+        "mergeSection": "section-1"
+      }
+    ],
+    "steps": [
+      "Observe the market",
+      "Check stage assumptions",
+      "Choose a response",
+      "Review alternatives"
+    ],
+    "related": [
+      "innovation-adoption",
+      "marketing-pricing-strategies",
+      "brand-extension"
+    ],
+    "notes": [
+      "The curves are unscaled conceptual illustrations. Their shapes do not forecast a particular product’s sales, profit or lifespan.",
+      "Stage labels depend on how the product category and market are defined; styles, fashions and fads do not all follow one curve."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "innovation-adoption",
+    "title": "Innovation adoption: audiences across a diffusion model",
+    "topic": "Business & Management",
+    "group": "Lifecycle & adoption",
+    "collection": "product-innovation",
+    "summary": "Read the supplied adopter categories and distinguish a teaching distribution from measured demand.",
+    "takeaway": "Adopter categories can guide research questions; they do not predict an automatic market share.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 747,
+        "end": 748,
+        "heading": "The diffusion-of-innovation illustration",
+        "introduction": "The visual groups adopters by their relative place in an adoption sequence. Use it to ask which customers might try an offer first and what later customers may need to see. The percentages describe the supplied conceptual distribution; they are not measured demand for your product or a timetable for launch."
+      }
+    ],
+    "steps": [
+      "Identify the audience",
+      "Understand adoption barriers",
+      "Observe behavior",
+      "Review assumptions"
+    ],
+    "related": [
+      "product-lifecycle",
+      "market-segmentation",
+      "innovation-pathways"
+    ],
+    "notes": [
+      "The 2.5%, 13.5%, 34%, 34% and 16% shares belong to the conventional conceptual illustration. No observed population, time series or market forecast is supplied.",
+      "The “critical mass” label is not a calibrated threshold or a guaranteed tipping point for a product."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "innovation-pathways",
+    "appendTo": "innovation-pathways",
+    "ranges": [
+      {
+        "document": "Product.docx",
+        "start": 189,
+        "end": 215,
+        "heading": "Invention, innovation, strategic change and platform examples",
+        "subheadings": [
+          191,
+          195,
+          202,
+          206
+        ]
+      },
+      {
+        "document": "Product.docx",
+        "start": 215,
+        "end": 230,
+        "heading": "Open/closed innovation and problem choice",
+        "subheadings": [
+          219,
+          221,
+          223,
+          226,
+          228
+        ]
+      },
+      {
+        "document": "Product.docx",
+        "start": 230,
+        "end": 248,
+        "heading": "Post-it chronology and the Samsung example",
+        "subheadings": [
+          233,
+          236,
+          238,
+          241,
+          242,
+          244,
+          246
+        ]
+      },
+      {
+        "document": "Product.docx",
+        "start": 248,
+        "end": 250,
+        "heading": "Repeated acquisitions wording",
+        "mergeSection": "section-4"
+      }
+    ],
+    "notes": [
+      "“Converts cash to ideas / ideas to cash” is a teaching shorthand, not a complete definition or a guarantee of commercialization.",
+      "Uber, Facebook, Alibaba and Airbnb superlatives and asset-ownership descriptions are dated slogans, not verified current corporate facts. Open and closed innovation are not mutually exclusive fixed company identities.",
+      "Samsung’s acquisitions explanation repeats the accelerator wording. The repeated passage is retained once; no missing acquisitions explanation is invented. The Post-it dates and claims remain source case notes pending a complete reference."
+    ],
+    "related": [
+      "new-product-development",
+      "product-innovation"
+    ],
+    "references": [],
+    "visuals": []
+  },
+  {
+    "slug": "product-offering-tradeoffs",
+    "title": "Product offerings: specialization, variety and competitive value",
+    "topic": "Business & Management",
+    "group": "Products & services",
+    "collection": "product-innovation",
+    "summary": "Examine portfolio breadth risks and ways to differentiate an offer through price, features, quality, channels, image and relationships.",
+    "takeaway": "More variety can create value and complexity at the same time.",
+    "ranges": [
+      {
+        "document": "Product.docx",
+        "start": 160,
+        "end": 189,
+        "heading": "Offering breadth risks and competitive bases",
+        "subheadings": [
+          161,
+          174,
+          175,
+          177,
+          179,
+          181,
+          183,
+          185,
+          187
+        ]
+      }
+    ],
+    "steps": [
+      "Define the customer value",
+      "Check resource fit",
+      "Assess complexity",
+      "Review trade-offs"
+    ],
+    "related": [
+      "resource-base",
+      "brand-architecture",
+      "competitive-positioning"
+    ],
+    "notes": [
+      "Statements that specialization always lowers complexity or that broad firms cannot be distinctive are source generalizations, not universal conclusions."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "design-sprints",
+    "title": "Design sprints: explore, decide, prototype and learn",
+    "topic": "Business & Management",
+    "group": "Development & validation",
+    "collection": "product-innovation",
+    "summary": "Read the supplied five-phase design-sprint outline and distinguish it from Google’s six-phase Sprint Kit.",
+    "takeaway": "A prototype is a learning instrument; a short test does not validate every business assumption.",
+    "ranges": [
+      {
+        "document": "Product.docx",
+        "start": 250,
+        "end": 272,
+        "heading": "The source’s design-sprint steps",
+        "subheadings": [
+          253,
+          259,
+          263,
+          266,
+          269
+        ]
+      }
+    ],
+    "steps": [
+      "Understand the question",
+      "Explore and decide",
+      "Build a prototype",
+      "Learn from users"
+    ],
+    "related": [
+      "lean-ux-learning",
+      "product-concept-testing",
+      "delivery-approaches"
+    ],
+    "notes": [
+      "The source labels its five phases “by Google”: Understand, Diverge, Decide, Prototype and Validate. Google’s Sprint Kit currently uses Understand, Define, Sketch, Decide, Prototype and Validate. The variants are identified rather than silently merged.",
+      "“Choose the best idea” and “validate” are shorthand; prototype tests provide evidence with limits, not proof of product-market fit."
+    ],
+    "references": [
+      {
+        "title": "Google Design Sprint Kit: six-phase methodology",
+        "url": "https://designsprintkit.withgoogle.com/methodology"
+      }
+    ],
+    "visuals": [
+      {
+        "title": "Two identified sprint outlines",
+        "kind": "matrix",
+        "headers": [
+          "Version",
+          "Phases"
+        ],
+        "rows": [
+          [
+            "Supplied five-phase outline",
+            "Understand → Diverge → Decide → Prototype → Validate"
+          ],
+          [
+            "Google Sprint Kit",
+            "Understand → Define → Sketch → Decide → Prototype → Validate"
+          ]
+        ],
+        "note": "The source sequence is retained. The linked Google methodology supplies the separately attributed current six-phase outline."
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "kano-feature-priorities",
+    "title": "Kano: basic expectations, performance and delight",
+    "topic": "Business & Management",
+    "group": "Development & validation",
+    "collection": "product-innovation",
+    "summary": "Use the source’s brief Kano outline to distinguish types of customer satisfaction responses.",
+    "takeaway": "Address basic expectations before assuming that a delighter compensates for missing essentials.",
+    "ranges": [
+      {
+        "document": "Product.docx",
+        "start": 272,
+        "end": 279,
+        "heading": "The supplied feature-prioritization outline"
+      }
+    ],
+    "steps": [
+      "Identify needs",
+      "Distinguish responses",
+      "Check priorities",
+      "Test with customers"
+    ],
+    "related": [
+      "product-levels-types",
+      "product-concept-testing",
+      "lean-ux-learning"
+    ],
+    "notes": [
+      "The upload provides a short summary only: no Kano questionnaire, classification table, satisfaction coefficients or completed analysis is supplied. No numerical feature ranking is invented."
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "title": "Three different customer questions",
+        "kind": "matrix",
+        "headers": [
+          "Question",
+          "Reading focus"
+        ],
+        "rows": [
+          [
+            "Basic expectation",
+            "What would cause dissatisfaction if absent?"
+          ],
+          [
+            "Performance",
+            "Where does better performance increase satisfaction?"
+          ],
+          [
+            "Delight",
+            "What useful unexpected benefit could add value?"
+          ]
+        ],
+        "note": "Editorial summary of the supplied material. It is a decision aid, not a measured result or a guarantee."
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "lean-ux-learning",
+    "title": "Lean UX: think, make and check",
+    "topic": "Business & Management",
+    "group": "Development & validation",
+    "collection": "product-innovation",
+    "summary": "Connect the supplied research, prototyping and measurement activities in a learning cycle.",
+    "takeaway": "Choose the smallest useful learning activity for an explicit assumption.",
+    "ranges": [
+      {
+        "document": "Product.docx",
+        "start": 279,
+        "end": 302,
+        "heading": "Think, Make and Check activities",
+        "subheadings": [
+          281,
+          288,
+          296
+        ]
+      }
+    ],
+    "steps": [
+      "Think",
+      "Make",
+      "Check",
+      "Revise"
+    ],
+    "related": [
+      "design-sprints",
+      "product-concept-testing",
+      "agile-foundations",
+      "marketing-race-planning"
+    ],
+    "notes": [
+      "The list is not a complete experiment specification. A/B testing, analytics and sign-ups require defined measures and appropriate comparisons before supporting a conclusion."
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "title": "A learning loop, not a one-time handoff",
+        "kind": "cards",
+        "headers": [
+          "Question",
+          "Reading focus"
+        ],
+        "rows": [
+          [
+            "Think",
+            "Research, ideas, mental/behavior models, previous tests and competition."
+          ],
+          [
+            "Make",
+            "Prototype, wireframe, value proposition, landing page, hypothesis, comps or code."
+          ],
+          [
+            "Check",
+            "A/B tests, analytics, usability, funnel behavior and sign-ups."
+          ]
+        ],
+        "note": "Editorial summary of the supplied material. It is a decision aid, not a measured result or a guarantee."
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "brand-foundations",
+    "title": "Brands: identity, associations and customer meaning",
+    "topic": "Business & Management",
+    "group": "Brand foundations",
+    "collection": "brand-strategy",
+    "summary": "Distinguish names, marks, products and brands and understand their role for customers and organizations.",
+    "takeaway": "A brand includes what people associate with the offer, not only its logo.",
+    "ranges": [
+      {
+        "document": "Brand.docx",
+        "start": 0,
+        "end": 44,
+        "heading": "Brand terminology, roles and challenges",
+        "subheadings": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          13,
+          21,
+          28,
+          37
+        ]
+      },
+      {
+        "document": "Brand.docx",
+        "start": 44,
+        "end": 72,
+        "heading": "Equity, management and historical approaches",
+        "subheadings": [
+          48,
+          51,
+          56
+        ]
+      }
+    ],
+    "steps": [
+      "Identify the promise",
+      "Understand associations",
+      "Coordinate delivery",
+      "Review customer meaning"
+    ],
+    "related": [
+      "brand-awareness-image",
+      "brand-equity",
+      "brand-identity",
+      "market-positioning"
+    ],
+    "notes": [
+      "Trade names and trademarks have jurisdiction-specific meanings; the short terminology list is not a legal registration guide.",
+      "The historical paradigm/approach outline is not a mandatory timeline followed by every brand."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "brand-awareness-image",
+    "title": "Brand awareness and image: recognition, recall and associations",
+    "topic": "Business & Management",
+    "group": "Brand foundations",
+    "collection": "brand-strategy",
+    "summary": "Distinguish recognizing a brand from recalling it and explore how associations can be measured.",
+    "takeaway": "Awareness and a favorable image answer different research questions.",
+    "ranges": [
+      {
+        "document": "Brand.docx",
+        "start": 72,
+        "end": 120,
+        "heading": "Awareness, recall, image and association criteria",
+        "subheadings": [
+          74,
+          80,
+          85,
+          88,
+          93,
+          97,
+          109
+        ]
+      }
+    ],
+    "steps": [
+      "Define the question",
+      "Choose the measure",
+      "Compare associations",
+      "Track change"
+    ],
+    "related": [
+      "brand-equity",
+      "market-positioning",
+      "brand-communications"
+    ],
+    "notes": [],
+    "references": [],
+    "visuals": [
+      {
+        "title": "Different things to measure",
+        "kind": "matrix",
+        "headers": [
+          "Question",
+          "Reading focus"
+        ],
+        "rows": [
+          [
+            "Recognition",
+            "Can the person identify a brand when it is presented?"
+          ],
+          [
+            "Recall",
+            "Can the person retrieve it from an appropriate cue?"
+          ],
+          [
+            "Image",
+            "Which associations do they hold, and how strong, favorable or unique are they?"
+          ],
+          [
+            "Response",
+            "How do those meanings relate to attitudes and behavior?"
+          ]
+        ],
+        "note": "Editorial summary of the supplied material. It is a decision aid, not a measured result or a guarantee."
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "brand-equity",
+    "title": "Brand equity: compare Aaker and Keller without mixing valuation",
+    "topic": "Business & Management",
+    "group": "Equity & measurement",
+    "collection": "brand-strategy",
+    "summary": "Read the supplied equity frameworks and separate customer response from a financial valuation.",
+    "takeaway": "A stronger customer association is not automatically a recognized balance-sheet asset.",
+    "ranges": [
+      {
+        "document": "Brand.docx",
+        "start": 120,
+        "end": 154,
+        "heading": "Customer-based equity and the source’s financial simplification"
+      },
+      {
+        "document": "Brand.docx",
+        "start": 154,
+        "end": 181,
+        "heading": "Aaker’s assets and Keller’s identity-to-resonance sequence",
+        "subheadings": [
+          164
+        ]
+      }
+    ],
+    "steps": [
+      "Clarify the construct",
+      "Choose a framework",
+      "Define measures",
+      "Separate financial questions"
+    ],
+    "related": [
+      "brand-awareness-image",
+      "brand-financial-value",
+      "brand-experience"
+    ],
+    "notes": [
+      "The source’s statement that brand value is simply the asset recorded on a balance sheet is incorrect as a general rule. IAS 38 does not recognize internally generated brands as intangible assets; valuation and accounting recognition are separate questions.",
+      "Aaker’s asset categories and Keller’s customer-based sequence are distinct frameworks. The upload does not provide a validated measurement instrument or a completed appraisal."
+    ],
+    "references": [
+      {
+        "title": "Kevin Lane Keller (2001): customer-based brand equity",
+        "url": "https://msi.org/working-paper/building-customerbased-brand-equity-a-blueprint-for-creating-strong-brands/"
+      },
+      {
+        "title": "IFRS Foundation: IAS 38 and internally generated brands",
+        "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-38-intangible-assets/"
+      }
+    ],
+    "visuals": [
+      {
+        "title": "Keller sequence in the supplied notes",
+        "kind": "matrix",
+        "headers": [
+          "Stage",
+          "Question"
+        ],
+        "rows": [
+          [
+            "Identity",
+            "Who are you? Salience and awareness."
+          ],
+          [
+            "Meaning",
+            "What are you? Performance and imagery."
+          ],
+          [
+            "Response",
+            "What about you? Judgments and feelings."
+          ],
+          [
+            "Relationship",
+            "What about you and me? Resonance and engagement."
+          ]
+        ],
+        "note": "Editorial summary of the supplied material. It is a decision aid, not a measured result or a guarantee."
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "brand-financial-value",
+    "title": "Brand valuation: earnings, brand contribution and risk",
+    "topic": "Business & Management",
+    "group": "Equity & measurement",
+    "collection": "brand-strategy",
+    "summary": "Read the historical strength weights, valuation applications and Interbrand-style process diagram.",
+    "takeaway": "A valuation needs explicit inputs, method and purpose; a framework picture is not a valuation result.",
+    "ranges": [
+      {
+        "document": "Brand.docx",
+        "start": 181,
+        "end": 222,
+        "heading": "Historical weights, applications and valuation illustration",
+        "subheadings": [
+          189
+        ]
+      }
+    ],
+    "steps": [
+      "Define the purpose",
+      "Identify relevant earnings",
+      "Assess contribution and risk",
+      "Review assumptions"
+    ],
+    "related": [
+      "brand-equity",
+      "brand-architecture",
+      "strategy-evaluation"
+    ],
+    "notes": [
+      "The leadership/stability/internationality weighting schedule is an undated historical outline, not asserted as Interbrand’s current scoring system.",
+      "The diagram supplies financial performance, role-of-brand and brand-strength concepts, but no cash-flow forecast, discount rate, model parameters or calculated value.",
+      "Accounting recognition, financial valuation and customer equity are separate questions; the page does not provide investment, tax or transaction advice."
+    ],
+    "references": [
+      {
+        "title": "Interbrand: valuation methodology",
+        "url": "https://www.interbrand.com/thinking/interbrand-best-global-brands-methodology/"
+      },
+      {
+        "title": "IFRS Foundation: IAS 38 and internally generated brands",
+        "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-38-intangible-assets/"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "employee-brand-equity",
+    "title": "Employee-based brand equity: align the internal promise",
+    "topic": "Business & Management",
+    "group": "Identity & corporate branding",
+    "collection": "brand-strategy",
+    "summary": "Connect employee understanding, brand-consistent behavior and internal brand management.",
+    "takeaway": "Employees need an achievable promise and supporting working conditions, not only brand messaging.",
+    "ranges": [
+      {
+        "document": "Brand.docx",
+        "start": 222,
+        "end": 236,
+        "heading": "Internal brand equity, components and claimed benefits",
+        "subheadings": [
+          226,
+          230
+        ]
+      }
+    ],
+    "steps": [
+      "Explain the promise",
+      "Support delivery",
+      "Listen to employees",
+      "Review consistency"
+    ],
+    "related": [
+      "corporate-branding",
+      "brand-experience",
+      "organizational-alignment"
+    ],
+    "notes": [
+      "“Willing to accept lower pay” is retained as a source claim about possible outcomes, not an employment objective or recommendation. The source supplies no study or causal evidence."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "brand-identity",
+    "title": "Brand identity: values, mantra and the identity prism",
+    "topic": "Business & Management",
+    "group": "Identity & corporate branding",
+    "collection": "brand-strategy",
+    "summary": "Clarify internal values and positioning language without confusing them with financial brand value.",
+    "takeaway": "Describe what should remain consistent and what can change across the brand’s expressions.",
+    "ranges": [
+      {
+        "document": "Brand.docx",
+        "start": 260,
+        "end": 285,
+        "heading": "Core values and the historical MTV example",
+        "subheadings": [
+          264
+        ]
+      },
+      {
+        "document": "Brand.docx",
+        "start": 285,
+        "end": 302,
+        "heading": "Mantra, identity and six prism dimensions",
+        "subheadings": [
+          291,
+          295
+        ]
+      }
+    ],
+    "steps": [
+      "Clarify purpose and values",
+      "Define the promise",
+      "Choose a concise expression",
+      "Check coherence"
+    ],
+    "related": [
+      "market-positioning",
+      "corporate-branding",
+      "brand-naming-packaging"
+    ],
+    "notes": [
+      "This section uses “Brand Value” for core associations and values, a different meaning from monetary valuation. The distinction is explicit.",
+      "MTV examples are historical source associations, not a current identity audit. The source’s three-to-five-word mantra rule is guidance, not a universal restriction."
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "title": "Six identity-prism dimensions in the source",
+        "kind": "matrix",
+        "headers": [
+          "Question",
+          "Reading focus"
+        ],
+        "rows": [
+          [
+            "Physique",
+            "Recognizable physical/expression cues."
+          ],
+          [
+            "Personality",
+            "The character communicated."
+          ],
+          [
+            "Culture",
+            "Values and context."
+          ],
+          [
+            "Relationship",
+            "The kind of interaction proposed."
+          ],
+          [
+            "Reflection",
+            "The represented user image."
+          ],
+          [
+            "Self-image",
+            "How the user may see themselves."
+          ]
+        ],
+        "note": "Editorial orientation to the six supplied labels. No completed brand audit is supplied."
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "brand-naming-packaging",
+    "title": "Brand elements: names, packaging and recognizable cues",
+    "topic": "Business & Management",
+    "group": "Identity & corporate branding",
+    "collection": "brand-strategy",
+    "summary": "Choose and evaluate brand elements while understanding naming categories and packaging functions.",
+    "takeaway": "A memorable name and a protectable mark are different requirements.",
+    "ranges": [
+      {
+        "document": "Brand.docx",
+        "start": 302,
+        "end": 339,
+        "heading": "Packaging, elements, selection criteria and name types",
+        "subheadings": [
+          312,
+          319,
+          326
+        ]
+      },
+      {
+        "document": "Brand.docx",
+        "start": 339,
+        "end": 346,
+        "heading": "A naming procedure"
+      }
+    ],
+    "steps": [
+      "Define objectives",
+      "Generate and screen",
+      "Research candidates",
+      "Check practical fit"
+    ],
+    "related": [
+      "brand-identity",
+      "brand-secondary-associations",
+      "product-levels-types"
+    ],
+    "notes": [
+      "The naming taxonomy is a source outline, not a trademark clearance result. The categorical claim that descriptive names are unregistrable is too broad; legal protection depends on distinctiveness, use, jurisdiction and other facts.",
+      "Brand names, compound words and legal trademark categories are not interchangeable classifications."
+    ],
+    "references": [
+      {
+        "title": "USPTO: trademark distinctiveness",
+        "url": "https://www.uspto.gov/trademarks/basics/strong-trademarks"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "brand-communications",
+    "title": "Brand communications: coverage, consistency and contribution",
+    "topic": "Business & Management",
+    "group": "Expression & relationships",
+    "collection": "brand-strategy",
+    "summary": "Compare communication options and evaluate how they work together to build brand meaning.",
+    "takeaway": "Reach alone does not establish a useful or coherent brand association.",
+    "ranges": [
+      {
+        "document": "Brand.docx",
+        "start": 346,
+        "end": 366,
+        "heading": "Communication options and evaluation criteria",
+        "subheadings": [
+          353
+        ]
+      },
+      {
+        "document": "Brand.docx",
+        "start": 394,
+        "end": 444,
+        "heading": "Elements, programmes, secondary associations and potential benefits"
+      }
+    ],
+    "steps": [
+      "Choose objectives",
+      "Compare options",
+      "Coordinate meanings",
+      "Evaluate contribution"
+    ],
+    "related": [
+      "marketing-communications",
+      "brand-secondary-associations",
+      "brand-awareness-image"
+    ],
+    "notes": [
+      "The source’s benefits such as loyalty, margins and reduced vulnerability are possible outcomes, not guaranteed effects for every brand.",
+      "Repeated equity/association labels are retained in their source context; no survey scores or quantified causal effects are inferred."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "brand-secondary-associations",
+    "title": "Borrowed brand meaning: partners, endorsers and sponsorship",
+    "topic": "Business & Management",
+    "group": "Expression & relationships",
+    "collection": "brand-strategy",
+    "summary": "Assess how third-party associations can transfer to a brand and where fit or reputation creates risk.",
+    "takeaway": "Ask what association transfers, whether it fits, and what happens if the partner’s reputation changes.",
+    "ranges": [
+      {
+        "document": "Brand.docx",
+        "start": 366,
+        "end": 394,
+        "heading": "Secondary associations, celebrity risks and event sponsorship",
+        "subheadings": [
+          375,
+          381
+        ]
+      }
+    ],
+    "steps": [
+      "Identify the association",
+      "Check audience knowledge",
+      "Assess fit and risk",
+      "Review outcomes"
+    ],
+    "related": [
+      "marketing-influencers",
+      "brand-communications",
+      "brand-relationships"
+    ],
+    "notes": [
+      "Statements that sponsorship does not convey information or cannot stand alone are source generalizations. The outcome depends on the actual event, audience and communication."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "brand-personality",
+    "title": "Brand personality: compare research frameworks with care",
+    "topic": "Business & Management",
+    "group": "Expression & relationships",
+    "collection": "brand-strategy",
+    "summary": "Distinguish human personality terminology from Aaker, Geuens-labelled and Grohmann brand-perception frameworks.",
+    "takeaway": "Research labels describe attributed perceptions; they are not diagnoses or fixed truths about customers.",
+    "ranges": [
+      {
+        "document": "Brand.docx",
+        "start": 444,
+        "end": 466,
+        "heading": "Personality, symbolic expression and human-trait terms",
+        "subheadings": [
+          452,
+          454
+        ]
+      },
+      {
+        "document": "Brand.docx",
+        "start": 466,
+        "end": 487,
+        "heading": "Aaker dimensions and traits",
+        "subheadings": [
+          467,
+          472,
+          477,
+          481,
+          484
+        ]
+      },
+      {
+        "document": "Brand.docx",
+        "start": 487,
+        "end": 505,
+        "heading": "The source’s “Geunes” framework",
+        "subheadings": [
+          488,
+          492,
+          496,
+          499,
+          502
+        ]
+      },
+      {
+        "document": "Brand.docx",
+        "start": 505,
+        "end": 520,
+        "heading": "The source’s gendered brand-perception labels",
+        "subheadings": [
+          506,
+          513
+        ]
+      }
+    ],
+    "steps": [
+      "Identify the framework",
+      "Define the context",
+      "Ask about perceptions",
+      "Avoid stereotyping"
+    ],
+    "related": [
+      "brand-identity",
+      "brand-experience",
+      "market-segmentation"
+    ],
+    "notes": [
+      "The human Big Five, Aaker’s brand dimensions and the later listed frameworks measure different constructs and should not be merged into one personality test.",
+      "“Geunes” appears to refer to Geuens; “Staple” may be a transcription error. Those uncertainties are identified rather than silently invented into a validated scale.",
+      "The masculine/feminine trait lists are historical research labels, not universal statements about gender or a basis for judging individuals. No scored questionnaire is supplied."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "brand-relationships",
+    "title": "Brand relationships: attachment, deterioration and response",
+    "topic": "Business & Management",
+    "group": "Expression & relationships",
+    "collection": "brand-strategy",
+    "summary": "Explore relationship dimensions, sudden versus gradual deterioration, brand hate and stability patterns.",
+    "takeaway": "A relationship metaphor can organize customer research, but it does not turn a brand into a human partner.",
+    "ranges": [
+      {
+        "document": "Brand.docx",
+        "start": 520,
+        "end": 540,
+        "heading": "Relationship dimensions and quality",
+        "subheadings": [
+          525,
+          529
+        ]
+      },
+      {
+        "document": "Brand.docx",
+        "start": 540,
+        "end": 565,
+        "heading": "Deterioration, brand hate and the two illustrations",
+        "subheadings": [
+          543,
+          546,
+          547,
+          550,
+          555
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 957,
+        "end": 960,
+        "heading": "Public relations and crisis-management context"
+      }
+    ],
+    "steps": [
+      "Understand the bond",
+      "Watch for changes",
+      "Investigate causes",
+      "Respond responsibly"
+    ],
+    "related": [
+      "brand-experience",
+      "customer-retention",
+      "brand-communications"
+    ],
+    "notes": [
+      "The relationship curves are conceptual patterns with anecdotal consumer examples, not predictive customer-level models.",
+      "The brand-hate list mixes emotions, possible causes and behaviors. The page keeps those distinct rather than reading the list as a single causal chain.",
+      "Calling crisis management the most important PR function is the source’s emphasis, not a universal ranking."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "brand-experience",
+    "title": "Brand experience: touchpoints, satisfaction and loyalty",
+    "topic": "Business & Management",
+    "group": "Equity & measurement",
+    "collection": "brand-strategy",
+    "summary": "Read the experience definitions and the source’s research diagram without turning coefficients into universal predictions.",
+    "takeaway": "Experience, satisfaction, personality and loyalty are related but distinct concepts.",
+    "ranges": [
+      {
+        "document": "Brand.docx",
+        "start": 565,
+        "end": 594,
+        "heading": "Experience claims, dimensions and loyalty illustration",
+        "subheadings": [
+          572,
+          575,
+          583,
+          587
+        ]
+      }
+    ],
+    "steps": [
+      "Map touchpoints",
+      "Define the experience",
+      "Measure distinct outcomes",
+      "Interpret evidence carefully"
+    ],
+    "related": [
+      "customer-systems",
+      "brand-relationships",
+      "service-design-quality"
+    ],
+    "notes": [
+      "The 44%, 60% and 62% survey statements lack sample, date, sponsor and method. They are source claims, not current population benchmarks.",
+      "The supplied model has coefficients and significance marks without its study context or estimation details. They are retained as diagram labels, not ready-to-use causal effects or a loyalty calculator.",
+      "The linked 2009 research supplies relevant context; an exact original figure/source match is not claimed merely from similar construct names."
+    ],
+    "references": [
+      {
+        "title": "Brakus, Schmitt and Zarantonello (2009): brand experience",
+        "url": "https://journals.sagepub.com/doi/10.1509/jmkg.73.3.052"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "corporate-branding",
+    "title": "Corporate branding: align vision, culture and stakeholder images",
+    "topic": "Business & Management",
+    "group": "Identity & corporate branding",
+    "collection": "brand-strategy",
+    "summary": "Compare product and corporate brands and read the supplied VCI alignment model.",
+    "takeaway": "An enterprise-wide brand needs alignment between what leaders intend, employees experience and stakeholders perceive.",
+    "ranges": [
+      {
+        "document": "Brand.docx",
+        "start": 594,
+        "end": 617,
+        "heading": "Corporate versus product branding",
+        "subheadings": [
+          596,
+          601
+        ]
+      },
+      {
+        "document": "Brand.docx",
+        "start": 617,
+        "end": 630,
+        "heading": "Vision, culture, images and brand questions",
+        "subheadings": [
+          622,
+          626
+        ]
+      }
+    ],
+    "steps": [
+      "Clarify the vision",
+      "Understand the culture",
+      "Listen to stakeholders",
+      "Address gaps"
+    ],
+    "related": [
+      "employee-brand-equity",
+      "brand-identity",
+      "brand-architecture",
+      "organizational-alignment"
+    ],
+    "notes": [
+      "Corporate values do not become timeless or consistent just because the source describes them that way; actual alignment requires evidence."
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "title": "Three perspectives to compare",
+        "kind": "matrix",
+        "headers": [
+          "Question",
+          "Reading focus"
+        ],
+        "rows": [
+          [
+            "Vision",
+            "What does leadership want the organization to become?"
+          ],
+          [
+            "Culture",
+            "What do people within it know, believe and do?"
+          ],
+          [
+            "Images",
+            "What do external stakeholders expect and perceive?"
+          ]
+        ],
+        "note": "Editorial summary of the supplied material. It is a decision aid, not a measured result or a guarantee."
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "brand-architecture",
+    "title": "Brand architecture: portfolios, hierarchy and naming relationships",
+    "topic": "Business & Management",
+    "group": "Architecture & growth",
+    "collection": "brand-strategy",
+    "summary": "Connect portfolio roles, hierarchy principles and the branded-house/house-of-brands spectrum.",
+    "takeaway": "Choose how much meaning and reputation to share across offers, and where separate identities serve a purpose.",
+    "ranges": [
+      {
+        "document": "Brand.docx",
+        "start": 630,
+        "end": 659,
+        "heading": "Strategy breadth/depth and portfolio roles",
+        "subheadings": [
+          637,
+          642,
+          645,
+          647,
+          650,
+          651,
+          653,
+          655,
+          657
+        ]
+      },
+      {
+        "document": "Brand.docx",
+        "start": 659,
+        "end": 682,
+        "heading": "Hierarchy levels and design principles",
+        "subheadings": [
+          662,
+          671
+        ]
+      },
+      {
+        "document": "Brand.docx",
+        "start": 682,
+        "end": 726,
+        "heading": "Corporate image, campaign aims and relationship spectrum",
+        "subheadings": [
+          695,
+          702
+        ]
+      }
+    ],
+    "steps": [
+      "Map the portfolio",
+      "Define brand roles",
+      "Choose relationships",
+      "Check overlap and fit"
+    ],
+    "related": [
+      "brand-extension",
+      "corporate-branding",
+      "strategic-business-units",
+      "product-offering-tradeoffs"
+    ],
+    "notes": [
+      "The Colgate hierarchy is a source example, not a verified current product taxonomy. “High-end entry level” is the source’s wording for a prestige role, not a universally used label."
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "title": "Four brand-relationship choices",
+        "kind": "matrix",
+        "headers": [
+          "Structure",
+          "Role in the supplied model"
+        ],
+        "rows": [
+          [
+            "Branded house",
+            "Master brand is the dominant driver."
+          ],
+          [
+            "Sub-brands",
+            "Master brand shares the driver role."
+          ],
+          [
+            "Endorsed brands",
+            "Master brand endorses; the offer has more independent identity."
+          ],
+          [
+            "House of brands",
+            "Individual brands drive their own propositions."
+          ]
+        ],
+        "note": "Editorial summary of the supplied material. It is a decision aid, not a measured result or a guarantee."
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "cause-environmental-marketing",
+    "title": "Cause and environmental marketing: make the claim specific",
+    "topic": "Business & Management",
+    "group": "Architecture & growth",
+    "collection": "brand-strategy",
+    "summary": "Read the source’s cause-related marketing definition and distinguish its environmental-marketing fragment.",
+    "takeaway": "Explain the contribution, conditions and evidence rather than relying on a broad positive association.",
+    "ranges": [
+      {
+        "document": "Brand.docx",
+        "start": 726,
+        "end": 731,
+        "heading": "Cause marketing and the mislabeled environmental fragment",
+        "subheadings": [
+          728
+        ]
+      }
+    ],
+    "steps": [
+      "Define the cause",
+      "State the contribution",
+      "Make conditions clear",
+      "Check the claim"
+    ],
+    "related": [
+      "brand-secondary-associations",
+      "brand-communications",
+      "marketing-customer-value"
+    ],
+    "notes": [
+      "The “Brand relationship spectrum” heading before the environmental definition is misplaced; it appears to introduce a green-marketing fragment. The intended full section is not supplied.",
+      "No campaign agreement, donation result or substantiated environmental claim is supplied."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "brand-extension",
+    "title": "Brand extensions: fit, benefits and feedback to the parent",
+    "topic": "Business & Management",
+    "group": "Architecture & growth",
+    "collection": "brand-strategy",
+    "summary": "Compare line/category extensions, fit, benefit transfer, launch evaluation and risks to the parent brand.",
+    "takeaway": "A familiar name can help or harm an extension; test the actual fit and feedback effects.",
+    "ranges": [
+      {
+        "document": "Brand.docx",
+        "start": 731,
+        "end": 746,
+        "heading": "Extension types and Tauber’s category routes",
+        "subheadings": [
+          735,
+          738
+        ]
+      },
+      {
+        "document": "Brand.docx",
+        "start": 746,
+        "end": 781,
+        "heading": "Knowledge, fit, leverage and launch evaluation",
+        "subheadings": [
+          747,
+          754,
+          759,
+          762,
+          766
+        ]
+      },
+      {
+        "document": "Brand.docx",
+        "start": 781,
+        "end": 806,
+        "heading": "Potential advantages and disadvantages",
+        "subheadings": [
+          797
+        ]
+      },
+      {
+        "document": "Brand.docx",
+        "start": 806,
+        "end": 821,
+        "heading": "Guidelines and their limits"
+      }
+    ],
+    "steps": [
+      "Map parent associations",
+      "Assess fit",
+      "Test the extension",
+      "Evaluate parent feedback"
+    ],
+    "related": [
+      "brand-architecture",
+      "product-concept-testing",
+      "new-product-development"
+    ],
+    "notes": [
+      "The source’s rules about when failure harms a parent, or when high-quality brands stretch further, are conditional research generalizations, not universal promises.",
+      "A line extension does not always require a sub-brand, and an extension’s new name is not automatically a sub-brand. Distinguish product/category extension from the naming relationship."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "marketing-channel-experiments",
+    "title": "Choose marketing channels with a Bullseye shortlist",
+    "topic": "Business & Management",
+    "group": "Communications & digital",
+    "collection": "marketing-strategy",
+    "summary": "Use the supplied channel inventory to compare possible routes to customers, then narrow a shortlist with evidence.",
+    "takeaway": "A channel list is a starting point: choose experiments around your audience and measured results.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 1017,
+        "end": 1018,
+        "heading": "The supplied Bullseye outline",
+        "subheadings": [],
+        "introduction": "The outer ring is an inventory of possible channels. The empty middle and inner rings invite narrowing that inventory; they do not contain selected winners. Use the experiment sequence below to make and document your own choices rather than reading the numbered slots as a ranking."
+      }
+    ],
+    "steps": [
+      "Inventory possible channels",
+      "Choose a small shortlist",
+      "Run comparable experiments",
+      "Review what works"
+    ],
+    "related": [
+      "marketing-digital-channels",
+      "marketing-communications",
+      "marketing-planning"
+    ],
+    "notes": [
+      "The supplied diagram names 17 channels. Its middle ring contains six numbered but unlabelled slots and its inner ring three unlabelled slots. It supplies no selected channels, rankings, budgets or test results. The reading sequence above is an editorial application, not a completed source experiment."
+    ],
+    "references": [],
+    "editorialSections": [
+      {
+        "heading": "Turn the outline into a useful decision",
+        "paragraphs": [
+          "Start with the audience and the outcome you want: awareness, qualified enquiries, purchases or repeat use. Shortlist channels that can plausibly reach that audience and record the assumptions behind each choice.",
+          "For each shortlisted channel, define a small experiment, its budget and time window, and the same decision metric where comparison is meaningful. Keep the evidence with the decision; reach and clicks alone do not establish profitable acquisition.",
+          "Review results before committing more resources. A channel that works for one audience, offer or stage may fail for another; the source does not prescribe universal winners."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "marketing-direct-response",
+    "title": "Direct marketing: mail, telephone, response ads and mobile",
+    "topic": "Business & Management",
+    "group": "Communications & digital",
+    "collection": "marketing-strategy",
+    "summary": "Compare direct-response channels, their purpose and the relationship between a response and a useful customer conversation.",
+    "takeaway": "Define the response you want and respect the customer’s permission and channel preferences.",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 987,
+        "end": 1012,
+        "heading": "Direct-response formats and the source’s reflection question",
+        "subheadings": [
+          987,
+          990,
+          993,
+          997,
+          1001,
+          1005
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 1012,
+        "end": 1016,
+        "heading": "Personal selling and customer feedback",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Define the response",
+      "Choose the channel",
+      "Make the next step clear",
+      "Listen and measure"
+    ],
+    "related": [
+      "marketing-communications",
+      "marketing-digital-channels",
+      "sales-process",
+      "customer-systems"
+    ],
+    "notes": [
+      "The source’s FTC and Do Not Call Registry references describe a US context, not a complete or current legal guide for any jurisdiction. Confirm applicable permission and contact requirements before running a campaign.",
+      "The source’s claim that telemarketing is profitable for small B2B clients is contextual, not a guaranteed result. Its infomercial question is a reflection prompt, not research evidence."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  }
+]

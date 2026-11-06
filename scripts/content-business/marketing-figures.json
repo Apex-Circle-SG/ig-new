@@ -1,0 +1,603 @@
+[
+  {
+    "document": "Product.docx",
+    "image": "word/media/image1.jpeg",
+    "slug": "product-lifecycle",
+    "title": "Lifecycle stages: what the management task changes",
+    "kind": "matrix",
+    "headers": [
+      "Stage",
+      "Source observations",
+      "Management focus"
+    ],
+    "rows": [
+      [
+        "Introduction",
+        "High costs and low sales; high risk of product failure",
+        "Gain distribution"
+      ],
+      [
+        "Growth",
+        "Sales rise and competition increases",
+        "Competitive promotion"
+      ],
+      [
+        "Maturity",
+        "Sales growth slows and margins fall",
+        "Give an extra reason to buy through improvements or promotion"
+      ],
+      [
+        "Decline",
+        "Sales fall",
+        "Consider deletion and control costs"
+      ]
+    ],
+    "note": "Recreated from an unscaled teaching diagram. Stage duration and sales or profit levels are not forecasts.",
+    "plot": {
+      "xLabel": "Time · introduction → growth → maturity → decline",
+      "yLabel": "Relative level",
+      "lines": [
+        {
+          "label": "Sales (conceptual)",
+          "path": "M45 175 C110 175 140 160 180 115 S260 45 310 50 S400 80 450 135"
+        },
+        {
+          "label": "Profit (conceptual)",
+          "path": "M45 185 C100 200 155 155 195 135 S280 110 325 125 S405 170 450 185"
+        }
+      ]
+    }
+  },
+  {
+    "document": "Product.docx",
+    "image": "word/media/image2.jpeg",
+    "slug": "product-lifecycle",
+    "title": "Development costs and alternative lifecycle patterns",
+    "kind": "matrix",
+    "headers": [
+      "Pattern",
+      "Meaning in the source"
+    ],
+    "rows": [
+      [
+        "Product development",
+        "Investment and losses precede sales; introduction, growth, maturity and decline follow"
+      ],
+      [
+        "Sales and profit",
+        "The source separates sales from profit; a sales peak does not imply the same profit peak"
+      ],
+      [
+        "Style",
+        "A cyclical pattern can return repeatedly"
+      ],
+      [
+        "Fashion",
+        "Acceptance rises and later falls"
+      ],
+      [
+        "Fad",
+        "A temporary period of unusually high sales driven by enthusiasm and immediate product or brand popularity; Pet Rock is the source example"
+      ]
+    ],
+    "note": "These are qualitative patterns, not measured curves or a rule that every product follows the same path."
+  },
+  {
+    "document": "Brand.docx",
+    "image": "word/media/image1.jpeg",
+    "slug": "brand-financial-value",
+    "title": "How the supplied valuation diagram connects the inputs",
+    "kind": "matrix",
+    "headers": [
+      "Input / branch",
+      "Intermediate result",
+      "Destination"
+    ],
+    "rows": [
+      [
+        "Financial analysis",
+        "Economic profit",
+        "Combined with the role of brand to estimate brand earnings"
+      ],
+      [
+        "Demand analysis",
+        "Role of Brand Index (RBI)",
+        "Combined with economic profit to estimate brand earnings"
+      ],
+      [
+        "Competitive analysis",
+        "Brand Strength Score (BSS)",
+        "Brand risk / discount rate"
+      ],
+      [
+        "Brand earnings and brand risk",
+        "Discounted future brand earnings",
+        "Brand value: net present value of brand earnings"
+      ]
+    ],
+    "note": "A conceptual reconstruction of the supplied Interbrand-labelled diagram, not a valuation calculator. The document’s historical weights are not presented as current methodology. Financial brand value and accounting recognition are different questions."
+  },
+  {
+    "document": "Brand.docx",
+    "image": "word/media/image2.jpeg",
+    "slug": "brand-relationships",
+    "title": "What may sustain a consumer–brand relationship",
+    "kind": "matrix",
+    "headers": [
+      "Part of the model",
+      "Source detail"
+    ],
+    "rows": [
+      [
+        "Meaning creation, elaboration and reinforcement",
+        "Brand behaviour and consumer behaviour interact"
+      ],
+      [
+        "Relationship quality and partner quality",
+        "Brand relationship quality and brand partner quality interact"
+      ],
+      [
+        "Relationship dimensions",
+        "Interdependence; self-connection; love / passion; intimacy; commitment"
+      ],
+      [
+        "Maintenance mechanisms",
+        "Accommodation; tolerance / forgiveness; biased partner perceptions; devaluation of alternatives; attribution biases"
+      ],
+      [
+        "Outcome",
+        "Relationship stability / durability"
+      ]
+    ],
+    "note": "Recreated as a reading map. The supplied model does not establish that every relationship follows this path or that every maintenance bias is desirable."
+  },
+  {
+    "document": "Brand.docx",
+    "image": "word/media/image3.jpeg",
+    "slug": "brand-relationships",
+    "title": "Six possible relationship trajectories",
+    "kind": "matrix",
+    "headers": [
+      "Trajectory",
+      "Source example",
+      "Qualitative pattern"
+    ],
+    "rows": [
+      [
+        "Biological life cycle",
+        "Vicki and Tetley tea",
+        "Rise and fall"
+      ],
+      [
+        "Growth–decline–plateau",
+        "Karen and Tide",
+        "Rise, decline, then settle"
+      ],
+      [
+        "Passing fling",
+        "Vicki and various shampoos",
+        "Short-lived peak"
+      ],
+      [
+        "Approach–avoidance",
+        "Jean and Skippy",
+        "Repeated movement toward and away"
+      ],
+      [
+        "Cyclical resurgence",
+        "Karen and Lender’s, Eggo, Cheerios and Kix",
+        "Interest returns periodically"
+      ],
+      [
+        "Stable maturity",
+        "Jean and her sauce-making brands; Karen and Gatorade",
+        "A sustained mature relationship"
+      ]
+    ],
+    "note": "The original plots are unscaled illustrations. Named consumers and brands are source examples, not current research findings or predictions."
+  },
+  {
+    "document": "Brand.docx",
+    "image": "word/media/image4.jpeg",
+    "slug": "brand-experience",
+    "title": "Experience, personality, satisfaction and loyalty: the supplied model",
+    "kind": "matrix",
+    "headers": [
+      "Printed path",
+      "Printed coefficient"
+    ],
+    "rows": [
+      [
+        "Brand personality → Ruggedness",
+        ".53*"
+      ],
+      [
+        "Brand personality → Sophistication",
+        ".79*"
+      ],
+      [
+        "Brand personality → Competence",
+        ".83*"
+      ],
+      [
+        "Brand personality → Excitement",
+        ".82*"
+      ],
+      [
+        "Brand personality → Sincerity",
+        ".62*"
+      ],
+      [
+        "Brand experience → Sensory",
+        ".86*"
+      ],
+      [
+        "Brand experience → Affective",
+        ".81*"
+      ],
+      [
+        "Brand experience → Intellectual",
+        ".81*"
+      ],
+      [
+        "Brand experience → Behavioural",
+        ".60*"
+      ],
+      [
+        "Brand experience → Brand personality",
+        ".69*"
+      ],
+      [
+        "Brand experience → Satisfaction",
+        ".15**"
+      ],
+      [
+        "Brand personality → Satisfaction",
+        ".67*"
+      ],
+      [
+        "Satisfaction → Loyalty",
+        ".59*"
+      ],
+      [
+        "Brand personality → Loyalty",
+        ".13**"
+      ],
+      [
+        "Brand experience → Loyalty",
+        ".24*"
+      ]
+    ],
+    "note": "All 15 printed paths are retained. The source supplies no sample, estimation context or significance-key definition for * and **. These coefficients are not universal effects, causal proof or inputs for a loyalty calculator. The further reading provides context without authenticating this exact figure."
+  },
+  {
+    "document": "Marketing.docx",
+    "image": "word/media/image1.jpeg",
+    "slug": "market-segmentation",
+    "title": "STP: move from segmentation to a usable marketing mix",
+    "kind": "matrix",
+    "headers": [
+      "Stage",
+      "First task",
+      "Second task"
+    ],
+    "rows": [
+      [
+        "Segmentation",
+        "Identify bases for segmenting the market",
+        "Develop profiles of the resulting segments"
+      ],
+      [
+        "Targeting",
+        "Develop measures of segment attractiveness",
+        "Select target segments"
+      ],
+      [
+        "Positioning",
+        "Develop positioning for each target",
+        "Develop a marketing mix for each target"
+      ]
+    ],
+    "note": "The six tasks are retained from the supplied diagram; positioning and the mix should be specific to the chosen audience."
+  },
+  {
+    "document": "Marketing.docx",
+    "image": "word/media/image2.jpeg",
+    "slug": "market-positioning",
+    "title": "Read a perceptual map without inventing its key",
+    "kind": "matrix",
+    "headers": [
+      "Source element",
+      "What it shows",
+      "What remains unknown"
+    ],
+    "rows": [
+      [
+        "Horizontal axis",
+        "Orientation: luxury → performance",
+        "How orientation was measured"
+      ],
+      [
+        "Vertical axis",
+        "Price, thousands of dollars; ticks 45, 55, 65, 75 and 85",
+        "Market, date and product definitions"
+      ],
+      [
+        "Bubbles 1, 2, 3, 4, 5 and 7",
+        "1: higher price, luxury side; 2 and 3: lower price, left of centre; 4: middle orientation and price; 5: performance side, above 4; 7: performance side, high price",
+        "No brand key is supplied; no bubble labelled 6 is visible"
+      ],
+      [
+        "Bubble size",
+        "The circles have different sizes, with 4 the largest",
+        "No size legend; do not assume market share"
+      ]
+    ],
+    "note": "This preserves the visible map’s meaning without assigning brands, exact coordinates or a meaning to circle size. It is not current market-price data."
+  },
+  {
+    "document": "Marketing.docx",
+    "image": "word/media/image3.jpeg",
+    "slug": "value-proposition-design",
+    "title": "Price–benefit positions in the supplied value grid",
+    "kind": "matrix",
+    "headers": [
+      "Benefits / price",
+      "Higher price",
+      "Same price",
+      "Lower price"
+    ],
+    "rows": [
+      [
+        "More benefits",
+        "More for more · favourable in the source",
+        "More for the same · favourable",
+        "More for less · favourable"
+      ],
+      [
+        "Same benefits",
+        "Unfavourable",
+        "Neutral",
+        "The same for less · favourable"
+      ],
+      [
+        "Fewer benefits",
+        "Unfavourable",
+        "Unfavourable",
+        "Less for much less · favourable"
+      ]
+    ],
+    "note": "The source highlights five winning positions, three losing positions and a neutral centre. These are positioning ideas, not evidence that an offer will be profitable or sustainable."
+  },
+  {
+    "document": "Marketing.docx",
+    "image": "word/media/image4.jpeg",
+    "slug": "value-proposition-design",
+    "title": "Value Proposition Canvas: the supplied Tesla exercise",
+    "kind": "matrix",
+    "headers": [
+      "Value map",
+      "Source example",
+      "Customer profile",
+      "Source example"
+    ],
+    "rows": [
+      [
+        "Products / services",
+        "Tesla Model X; eight-year warranty",
+        "Jobs",
+        "Be different from others; effortless commute"
+      ],
+      [
+        "Gain creators",
+        "Self-driving car; 17-inch touchscreen",
+        "Gains",
+        "Friends’ compliments; high safety rating"
+      ],
+      [
+        "Pain relievers",
+        "Charging network; 5+2 seats",
+        "Pains",
+        "Accident and harm; frequent charging"
+      ]
+    ],
+    "note": "An undated teaching exercise, not verified current Tesla features, warranty terms, availability or safety claims. The exercise matches customer jobs, pains and gains to the offering; consult Strategyzer for the underlying canvas."
+  },
+  {
+    "document": "Marketing.docx",
+    "image": "word/media/image5.jpeg",
+    "slug": "innovation-adoption",
+    "title": "Diffusion groups: the source’s population shares",
+    "kind": "matrix",
+    "headers": [
+      "Group",
+      "Share"
+    ],
+    "rows": [
+      [
+        "Innovators",
+        "2.5%"
+      ],
+      [
+        "Early adopters",
+        "13.5%"
+      ],
+      [
+        "Early majority",
+        "34%"
+      ],
+      [
+        "Late majority",
+        "34%"
+      ],
+      [
+        "Laggards",
+        "16%"
+      ]
+    ],
+    "note": "The five source shares sum to 100%. The original labels “critical mass” without a calibrated threshold. This conceptual distribution does not forecast the timing or speed of a particular launch.",
+    "plot": {
+      "xLabel": "Adoption sequence · innovators → laggards",
+      "yLabel": "Relative number adopting",
+      "lines": [
+        {
+          "label": "Conceptual adoption distribution",
+          "path": "M45 185 C110 185 140 170 190 95 S245 15 285 80 S365 185 450 185"
+        }
+      ]
+    }
+  },
+  {
+    "document": "Marketing.docx",
+    "image": "word/media/image6.jpeg",
+    "slug": "marketing-communications",
+    "title": "Communication objectives and source tactics",
+    "kind": "matrix",
+    "headers": [
+      "Objective",
+      "Tactics in the supplied diagram"
+    ],
+    "rows": [
+      [
+        "Awareness",
+        "Repetitive advertising; slogans and jingles; publicity stunts"
+      ],
+      [
+        "Knowledge",
+        "Descriptive copy; brochures; infomercials; public relations; personal selling; website"
+      ],
+      [
+        "Desire",
+        "Status appeals; sex appeals; celebrity endorsements"
+      ],
+      [
+        "Purchase",
+        "Point-of-purchase displays; coupons; contests; samples"
+      ],
+      [
+        "Loyalty",
+        "Mailing to users; licensed merchandise; product placement"
+      ]
+    ],
+    "note": "Awareness → knowledge → desire → purchase → loyalty is a teaching sequence, not a guaranteed linear customer journey. Tactics are retained as historical examples, not blanket recommendations."
+  },
+  {
+    "document": "Marketing.docx",
+    "image": "word/media/image7.jpeg",
+    "slug": "marketing-channel-experiments",
+    "title": "Bullseye channel inventory and the unfilled shortlist",
+    "kind": "matrix",
+    "headers": [
+      "Ring / source element",
+      "Contents"
+    ],
+    "rows": [
+      [
+        "Outer ring: possible channels",
+        "Buy smaller sites; offline ads; event creation; sales; existing platforms; open source; speaking engagements; trade shows; viral; community building; your blog; target-market blog; business development; non-SEM online ads; SEM; non-traditional PR; traditional PR"
+      ],
+      [
+        "Middle ring",
+        "Six numbered slots (1–6), with no channels assigned"
+      ],
+      [
+        "Inner ring",
+        "Three numbered slots (1–3), with no channels assigned"
+      ]
+    ],
+    "note": "All 17 outer-ring labels are retained. The source leaves the shortlist and final choices blank; no winners, experiment results or channel ranking have been inferred."
+  },
+  {
+    "document": "Marketing.docx",
+    "image": "word/media/image8.jpeg",
+    "slug": "marketing-value-disciplines",
+    "title": "Customer and competitor focus: four orientations",
+    "kind": "matrix",
+    "headers": [
+      "Competitor focus",
+      "Low customer focus",
+      "High customer focus"
+    ],
+    "rows": [
+      [
+        "Low",
+        "Product orientation",
+        "Customer orientation"
+      ],
+      [
+        "High",
+        "Competitor orientation",
+        "Market orientation"
+      ]
+    ],
+    "note": "The accompanying source text describes market-centred organizations as understanding both customers and competitors and building profitable relationships by delivering greater value. The axes are qualitative, not a scored diagnostic."
+  },
+  {
+    "document": "Marketing.docx",
+    "image": "word/media/image9.jpeg",
+    "slug": "marketing-planning",
+    "title": "From analysis to execution, control and feedback",
+    "kind": "matrix",
+    "headers": [
+      "Part of the loop",
+      "Source meaning"
+    ],
+    "rows": [
+      [
+        "Analysis",
+        "Informs planning, implementation and control throughout"
+      ],
+      [
+        "Planning",
+        "Develop strategic plans, then marketing plans"
+      ],
+      [
+        "Implementation",
+        "Turn plans into marketing actions to achieve strategic objectives; align people, organizational structure, decision and reward systems, and company culture into a cohesive action plan"
+      ],
+      [
+        "Operating / strategic control",
+        "Measure results → evaluate results → take corrective action"
+      ],
+      [
+        "Feedback",
+        "Corrective action informs planning and implementation"
+      ],
+      [
+        "Marketing ROI",
+        "Net return from a marketing investment divided by its costs; the source describes profits generated by marketing investments"
+      ]
+    ],
+    "note": "The diagram supplies no budgets, attribution assumptions or profit data. ROI needs a defined return, full costs and an attribution method; activity counts alone are not ROI."
+  },
+  {
+    "document": "Marketing.docx",
+    "image": "word/media/image10.jpeg",
+    "slug": "global-marketing-adaptation",
+    "title": "Environmental sensitivity and product adaptation",
+    "kind": "matrix",
+    "headers": [
+      "Source example",
+      "Environmental sensitivity",
+      "Product adaptation"
+    ],
+    "rows": [
+      [
+        "Integrated circuits",
+        "Low",
+        "Low"
+      ],
+      [
+        "Computers",
+        "Intermediate",
+        "Intermediate"
+      ],
+      [
+        "Food",
+        "High",
+        "High"
+      ]
+    ],
+    "note": "The source shows relative positions on low-to-high axes, without measured scores. These examples illustrate adaptation decisions and are not universal requirements for every product, country or customer."
+  }
+]

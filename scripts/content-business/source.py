@@ -158,8 +158,8 @@ def prose(items):
         if p.get('equation'):
             t += ' ' + p['equation']
         # The section already names its topic. Keep source title provenance without repeating it visually.
-        if p['style'] in ('1', '2', '6', '7', '5'):
-            if not blocks:
+        if p['style'] in ('1', '2', '6', '7', '5', 'reviewed-heading'):
+            if not blocks and p['style'] != 'reviewed-heading':
                 continue
             blocks.append(dict(kind='heading', text=t))
         elif p['text'] in LABELS:
@@ -175,8 +175,25 @@ def prose(items):
             blocks.append(dict(kind='paragraph', text=t))
     return blocks
 
-def section_blocks(document, start, end):
-    ps = document['paragraphs'][start:end]
+def section_blocks(document, start, end, headings=()):
+    assert all(start <= i < end for i in headings), 'Subheading outside reviewed span'
+    ps = [{**p, 'style': 'reviewed-heading'} if p['index'] in headings else p for p in document['paragraphs'][start:end]]
+    if document['name'] == 'Marketing.docx' and (start, end) in ((51, 84), (84, 109)):
+        if start == 51:
+            columns = [ps[2:9], ps[10:17], ps[18:25], ps[26:33]]
+            headers = [ps[i]['text'] for i in (1, 9, 17, 25)]
+        else:
+            columns = [ps[2:7], ps[8:13], ps[14:19], ps[20:25]]
+            headers = [ps[i]['text'] for i in (1, 7, 13, 19)]
+        assert len({len(column) for column in columns}) == 1, 'Reviewed column lengths changed'
+        return [dict(kind='heading', text=edited(ps[0]['text'])),
+                dict(kind='table', headers=[edited(h) for h in headers],
+                     rows=[[[edited(cell['text'])] for cell in row] for row in zip(*columns)])]
+    if document['name'] == 'Brand.docx' and (start, end) == (594, 617):
+        comparisons = ps[8:]
+        assert len(comparisons) == 15, 'Reviewed corporate/product comparison changed'
+        return prose(ps[:7]) + [dict(kind='heading', text=edited(ps[7]['text'])), dict(kind='table', headers=['Dimension', 'Product brand', 'Corporate brand'],
+                rows=[[[edited(p['text'])] for p in comparisons[i:i + 3]] for i in range(0, 15, 3)])]
     if document['name'] == 'Project Management.docx':
         # These reviewed spans are tables inside the document's larger layout table.
         layouts = {

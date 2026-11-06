@@ -4,8 +4,8 @@
     "title": "Business & Management: from analysis to action",
     "topic": "Business & Management",
     "group": "Start here",
-    "summary": "Explore strategy, competition, leadership, sales, negotiation and productivity through connected guides and detailed collection notes.",
-    "intro": "Start with a decision, browse a business topic, or follow the sales and strategy-classics collections.",
+    "summary": "Explore strategy, marketing, branding, product innovation, sales, leadership and practical business decisions through connected collections.",
+    "intro": "Start with a business decision, or follow the marketing, brand, product-development, sales and strategy-classics collections.",
     "groups": [
       {
         "name": "Strategy foundations",
@@ -50,6 +50,18 @@
       {
         "name": "Strategy classics",
         "description": "Read historical strategy with clearly separated modern reflections."
+      },
+      {
+        "name": "Marketing strategy & execution",
+        "description": "Understand customers, choose a position and coordinate delivery."
+      },
+      {
+        "name": "Brand strategy & experience",
+        "description": "Build meaning, measure equity and organize brand portfolios."
+      },
+      {
+        "name": "Product development & innovation",
+        "description": "Explore products, test concepts and learn through development."
       }
     ],
     "journey": [
@@ -1022,5 +1034,264 @@
     "notes": [],
     "references": [],
     "topicRoot": true
+  },
+  {
+    "slug": "marketing-strategy",
+    "title": "Marketing Strategy & Execution",
+    "topic": "Business & Management",
+    "group": "Marketing strategy & execution",
+    "summary": "Understand the customer, choose a market position, coordinate the offer and measure execution.",
+    "intro": "Understand the customer, choose a market position, coordinate the offer and measure execution.",
+    "groups": [
+      {
+        "name": "Marketing foundations",
+        "description": "Clarify value, market roles and the marketing mix."
+      },
+      {
+        "name": "Customers & positioning",
+        "description": "Segment, target and explain a relevant difference."
+      },
+      {
+        "name": "Channels & pricing",
+        "description": "Coordinate access, distribution, logistics and pricing."
+      },
+      {
+        "name": "Communications & digital",
+        "description": "Plan messages, channels, budgets and customer journeys."
+      },
+      {
+        "name": "Planning & international markets",
+        "description": "Turn choices into action and assess market-entry differences."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Understand and choose",
+        "links": [
+          {
+            "slug": "marketing-customer-value",
+            "label": "Start with customer value"
+          },
+          {
+            "slug": "market-segmentation",
+            "label": "Understand segments"
+          },
+          {
+            "slug": "market-positioning",
+            "label": "Choose a position"
+          }
+        ]
+      },
+      {
+        "title": "Deliver the offer",
+        "links": [
+          {
+            "slug": "value-proposition-design",
+            "label": "Map value and needs"
+          },
+          {
+            "slug": "marketing-pricing-methods",
+            "label": "Choose a pricing basis"
+          },
+          {
+            "slug": "marketing-channels",
+            "label": "Choose distribution routes"
+          }
+        ]
+      },
+      {
+        "title": "Execute and learn",
+        "links": [
+          {
+            "slug": "marketing-planning",
+            "label": "Build the marketing plan"
+          },
+          {
+            "slug": "marketing-race-planning",
+            "label": "Use RACE"
+          },
+          {
+            "slug": "sales-playbook",
+            "label": "Connect to the sales journey"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Historical examples, unsupported percentages and incomplete framework descriptions are retained with reading notes. Conceptual charts are distinguished from observations.",
+      "Related material is connected to existing business, sales, project-management and improvement guides rather than duplicated as unrelated readings."
+    ],
+    "references": [],
+    "topicRoot": false
+  },
+  {
+    "slug": "brand-strategy",
+    "title": "Brand Strategy & Experience",
+    "topic": "Business & Management",
+    "group": "Brand strategy & experience",
+    "summary": "Connect identity and customer meaning with communication, experience, equity and portfolio decisions.",
+    "intro": "Connect identity and customer meaning with communication, experience, equity and portfolio decisions.",
+    "groups": [
+      {
+        "name": "Brand foundations",
+        "description": "Understand the brand and what people remember."
+      },
+      {
+        "name": "Identity & corporate branding",
+        "description": "Coordinate values, names, packaging, employees and enterprise identity."
+      },
+      {
+        "name": "Equity & measurement",
+        "description": "Separate customer response, experience and financial valuation."
+      },
+      {
+        "name": "Expression & relationships",
+        "description": "Examine communication, borrowed associations, personality and relationships."
+      },
+      {
+        "name": "Architecture & growth",
+        "description": "Organize brands and assess extensions and cause-related associations."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Define meaning",
+        "links": [
+          {
+            "slug": "brand-foundations",
+            "label": "Understand the brand"
+          },
+          {
+            "slug": "brand-identity",
+            "label": "Clarify identity"
+          },
+          {
+            "slug": "market-positioning",
+            "label": "Define the position"
+          }
+        ]
+      },
+      {
+        "title": "Deliver the promise",
+        "links": [
+          {
+            "slug": "corporate-branding",
+            "label": "Align the organization"
+          },
+          {
+            "slug": "brand-experience",
+            "label": "Examine experience"
+          },
+          {
+            "slug": "brand-communications",
+            "label": "Coordinate communication"
+          }
+        ]
+      },
+      {
+        "title": "Measure and grow",
+        "links": [
+          {
+            "slug": "brand-equity",
+            "label": "Compare equity frameworks"
+          },
+          {
+            "slug": "brand-architecture",
+            "label": "Map the portfolio"
+          },
+          {
+            "slug": "brand-extension",
+            "label": "Evaluate extensions"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Historical examples, unsupported percentages and incomplete framework descriptions are retained with reading notes. Conceptual charts are distinguished from observations.",
+      "Related material is connected to existing business, sales, project-management and improvement guides rather than duplicated as unrelated readings."
+    ],
+    "references": [],
+    "topicRoot": false
+  },
+  {
+    "slug": "product-innovation",
+    "title": "Product Development & Innovation",
+    "topic": "Business & Management",
+    "group": "Product development & innovation",
+    "summary": "Define the offer, test concepts, develop products and learn through design and market feedback.",
+    "intro": "Define the offer, test concepts, develop products and learn through design and market feedback.",
+    "groups": [
+      {
+        "name": "Products & services",
+        "description": "Understand benefits, levels, service quality and offering trade-offs."
+      },
+      {
+        "name": "Development & validation",
+        "description": "Generate ideas, test assumptions and learn from prototypes."
+      },
+      {
+        "name": "Lifecycle & adoption",
+        "description": "Read conceptual market stages and adoption patterns."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Define the offer",
+        "links": [
+          {
+            "slug": "product-levels-types",
+            "label": "Start with the benefit"
+          },
+          {
+            "slug": "service-design-quality",
+            "label": "Understand service delivery"
+          },
+          {
+            "slug": "value-proposition-design",
+            "label": "Connect to customer jobs"
+          }
+        ]
+      },
+      {
+        "title": "Develop and learn",
+        "links": [
+          {
+            "slug": "new-product-development",
+            "label": "Follow development decisions"
+          },
+          {
+            "slug": "product-concept-testing",
+            "label": "Choose a useful test"
+          },
+          {
+            "slug": "design-sprints",
+            "label": "Explore through prototypes"
+          }
+        ]
+      },
+      {
+        "title": "Review the market",
+        "links": [
+          {
+            "slug": "product-lifecycle",
+            "label": "Question lifecycle assumptions"
+          },
+          {
+            "slug": "innovation-adoption",
+            "label": "Explore adoption categories"
+          },
+          {
+            "slug": "innovation-pathways",
+            "label": "Connect innovation approaches"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Historical examples, unsupported percentages and incomplete framework descriptions are retained with reading notes. Conceptual charts are distinguished from observations.",
+      "Related material is connected to existing business, sales, project-management and improvement guides rather than duplicated as unrelated readings."
+    ],
+    "references": [],
+    "topicRoot": false
   }
 ]

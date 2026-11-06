@@ -17,7 +17,7 @@ export default function HouseholdVsIndividualIncome() {
         <>
           <strong>Answer first:</strong> Household income is the combined
           income of everyone in a household; individual income is one
-          person's income. The InsightGinie data page uses individual income
+          person&apos;s income. The InsightGinie data page uses individual income
           only, so a household total must not be looked up in the individual
           bands — doing so makes the household look higher up the
           distribution than any one earner in it actually is.
@@ -30,7 +30,7 @@ export default function HouseholdVsIndividualIncome() {
         over, before tax, including people with no income or losses. On that
         basis, 37.1% earn under $25,000, 59.3% earn under $50,000, 74.7% earn
         under $75,000, and 83.3% earn under $100,000. A household figure
-        counts something else entirely: every earner's income in the same
+        counts something else entirely: every earner&apos;s income in the same
         home, added together.
       </p>
       <h2>A simple example of the mismatch</h2>
@@ -47,7 +47,7 @@ export default function HouseholdVsIndividualIncome() {
       </p>
       <h2>Which figure to use, and when</h2>
       <p>
-        Use individual income when the question is about one person's
+        Use individual income when the question is about one person&apos;s
         position — for example, where your own salary sits nationally. Use
         household income when the question is about what a home as a whole
         can afford, such as rent or a mortgage application, and compare it
@@ -59,13 +59,13 @@ export default function HouseholdVsIndividualIncome() {
       <p>
         In homes with more than one earner, yes by construction: the
         household total adds earners together, so it runs higher than any
-        single earner's income in that home. That does not mean each earner
+        single earner&apos;s income in that home. That does not mean each earner
         is highly paid.
       </p>
       <h3>Can I compare my household income with the InsightGinie calculator?</h3>
       <p>
-        No, not directly. The calculator compares one person's before-tax
-        income with the individual distribution. Enter one person's income,
+        No, not directly. The calculator compares one person&apos;s before-tax
+        income with the individual distribution. Enter one person&apos;s income,
         not the household total.
       </p>
       <h2>Source and limits</h2>

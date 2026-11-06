@@ -39,15 +39,26 @@ function DetailBlock({ block, caption }: { block: Block; caption: string }) {
   return 'text' in block ? <p>{block.text}</p> : null;
 }
 
-type Visual = Pick<Guide['figures'][number], 'title' | 'kind' | 'headers' | 'rows' | 'note'> & { sourceImage?: SourceImageRecord };
+type Visual = Pick<Guide['figures'][number], 'title' | 'kind' | 'headers' | 'rows' | 'note'> & {
+  sourceImage?: SourceImageRecord;
+  plot?: { xLabel: string; yLabel: string; lines: { label: string; path: string }[] };
+};
 
 function Comparison({ figure }: { figure: Visual }) {
-  return <div className={`${styles.tableScroll} ${figure.headers.length === 2 ? styles.compactTable : ''}`} tabIndex={0} role="region" aria-label={`${figure.title}: scrollable comparison`}><table><caption className={styles.srOnly}>{figure.title}</caption><thead><tr>{figure.headers.map((h) => <th scope="col" key={h}>{h}</th>)}</tr></thead><tbody>{figure.rows.map((row, i) => <tr key={i}>{row.map((cell, j) => j === 0 ? <th scope="row" key={j}>{cell}</th> : <td key={j}>{cell}</td>)}</tr>)}</tbody></table></div>;
+  return <><p className={styles.tableHint}>Scroll sideways if needed to see every column.</p><div className={`${styles.tableScroll} ${figure.headers.length === 2 ? styles.compactTable : ''}`} tabIndex={0} role="region" aria-label={`${figure.title}: scrollable comparison`}><table><caption className={styles.srOnly}>{figure.title}</caption><thead><tr>{figure.headers.map((h) => <th scope="col" key={h}>{h}</th>)}</tr></thead><tbody>{figure.rows.map((row, i) => <tr key={i}>{row.map((cell, j) => j === 0 ? <th scope="row" key={j}>{cell}</th> : <td key={j}>{cell}</td>)}</tr>)}</tbody></table></div></>;
 }
 
 function Figure({ figure }: { figure: Visual }) {
   return <figure className={styles.figure}>
     <figcaption>{figure.title}</figcaption>
+    {figure.plot && <>
+      <svg className={styles.conceptualPlot} viewBox="0 0 500 220" role="img" aria-label={`${figure.title}. Conceptual, unscaled curves: ${figure.plot.lines.map((line) => line.label).join('; ')}. ${figure.plot.yLabel} against ${figure.plot.xLabel}.`}>
+        <path d="M40 25 V205 H465" fill="none" stroke="currentColor" />
+        {figure.plot.lines.map((line, i) => <path key={line.label} d={line.path} fill="none" stroke={i === 0 ? '#6551b8' : '#226b64'} strokeWidth="3" strokeDasharray={i === 0 ? undefined : '7 4'} />)}
+      </svg>
+      <p className={styles.figureNote}>Vertical axis: {figure.plot.yLabel}. Horizontal axis: {figure.plot.xLabel}.</p>
+      <p className={styles.figureNote}>{figure.plot.lines.map((line, i) => `${i === 0 ? 'Solid purple' : 'Dashed teal'}: ${line.label}`).join(' · ')}. Conceptual and unscaled.</p>
+    </>}
     {figure.sourceImage ? <SourceImage source={figure.sourceImage} /> : figure.kind === 'flow' ? <ol className={styles.flow}>{figure.rows.map((row, i) => <li key={i}><span aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>{row[0]}</li>)}</ol>
       : figure.kind === 'matrix' ? <Comparison figure={figure} />
         : figure.kind === 'network' ? <><NetworkConnections /><Comparison figure={figure} /></>

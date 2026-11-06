@@ -58,6 +58,7 @@ export const PUBLIC_INDEXABLE_PATHS = [
   '/guides/what-income-band-are-you-in/',
   '/guides/what-percentile-is-60000-a-year/',
   '/guides/what-is-the-average-salary-in-america/',
+  '/guides/household-vs-individual-income/',
   '/opportunities/',
   '/opportunities/sources/',
   '/ideas/',

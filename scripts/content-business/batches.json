@@ -39,5 +39,13 @@
     "figures": "beliefs-figures.json",
     "ledger": "docs/beliefs-content-coverage.csv",
     "sha256": "9e9a7d7373f1232435099bb2797b8f883d7c6126460a4fb1ee1566b16a5a1fd7"
+  },
+  {
+    "key": "marketing",
+    "source": "content/sources/business/marketing",
+    "plan": "marketing-plan.json",
+    "figures": "marketing-figures.json",
+    "ledger": "docs/marketing-content-coverage.csv",
+    "sha256": "3820e4d4ee3fc7dc67d9050f49e4630c6cff671262d77894494012f22409b054"
   }
 ]

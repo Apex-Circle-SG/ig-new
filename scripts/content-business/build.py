@@ -23,6 +23,21 @@ def save(path, value):
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n')
 
 
+def merge_blocks(existing, incoming):
+    """Keep distinct source wording while sharing exact repeated passages."""
+    for block in incoming:
+        known = {value for item in existing for value in
+                 [item.get('text'), item.get('term'), *item.get('items', []), *item.get('paragraphs', [])] if value}
+        if block['kind'] == 'list':
+            items = [item for item in block['items'] if item not in known]
+            if items:
+                existing.append({**block, 'items': items})
+        elif block['kind'] in ('paragraph', 'heading') and block['text'] in known:
+            continue
+        elif block not in existing:
+            existing.append(block)
+
+
 def blocks_for(doc, span, page):
     paragraphs = doc['paragraphs'][span['start']:span['end']]
     if page.get('format') == 'ritual':
@@ -56,7 +71,10 @@ def blocks_for(doc, span, page):
             del block['cell']
             assert block['paragraphs'], f'Incomplete definition range: {span}'
         return blocks
-    return section_blocks(doc, span['start'], span['end'])
+    blocks = section_blocks(doc, span['start'], span['end'], span.get('subheadings', ()))
+    if span.get('introduction'):
+        blocks.insert(0, dict(kind='paragraph', text=span['introduction']))
+    return blocks
 
 
 articles = {}
@@ -93,12 +111,14 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
         for span in page['ranges']:
             doc = documents[span['document']]
             assert 0 <= span['start'] < span['end'] <= len(doc['paragraphs'])
-            reuse = span.get('reuseSection')
+            reuse = span.get('reuseSection') or span.get('mergeSection')
             section_id = reuse or f'section-{len(article["sections"]) + 1}'
             if reuse:
                 existing = next((section for section in article['sections'] if section['id'] == reuse), None)
                 assert existing, f'Unknown reused section: {slug}/{reuse}'
                 blocks = existing['blocks']
+                if span.get('mergeSection'):
+                    merge_blocks(blocks, blocks_for(doc, span, page))
             else:
                 blocks = blocks_for(doc, span, page)
             rendered = json.dumps(blocks, ensure_ascii=False)
@@ -111,9 +131,13 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
                     value = p['text'] if page.get('format') in ('chapter', 'ritual') or span.get('context') or doc['name'] == 'NLP.docx' else edited(p['text'])
                     assert json.dumps(value, ensure_ascii=False)[1:-1] in rendered, f'Lost passage: {doc["name"]}:{i}'
             if reuse:
+                if span.get('mergeSection'):
+                    target = article['sections'].index(existing)
+                    search_sections[slug][target]['body'] += '\n' + '\n'.join(edited(p['text']) for p in doc['paragraphs'][span['start']:span['end']] if p['text'] not in search_sections[slug][target]['body'])
                 continue
             article['sections'].append(dict(id=section_id, heading=span['heading'], blocks=blocks))
-            search_sections[slug].append(dict(heading=span['heading'], body='\n'.join(([span['context']] if span.get('context') else []) + [p['text'] if page.get('format') in ('chapter', 'ritual') or doc['name'] == 'NLP.docx' else edited(p['text']) for p in doc['paragraphs'][span['start']:span['end']]])))
+            lead = [span[key] for key in ('context', 'introduction') if span.get(key)]
+            search_sections[slug].append(dict(heading=span['heading'], body='\n'.join(lead + [p['text'] if page.get('format') in ('chapter', 'ritual') or doc['name'] == 'NLP.docx' else edited(p['text']) for p in doc['paragraphs'][span['start']:span['end']]])))
             if page.get('format') == 'questions':
                 groups = []
                 labels = []
@@ -160,6 +184,12 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
         if f['kind'] == 'dots':
             assert len(f['rows']) in (3, 4) and all(len(row) == len(f['rows']) for row in f['rows'])
             assert sum(cell == 'filled' for row in f['rows'] for cell in row) == (4 if len(f['rows']) == 4 else 0)
+        if f['kind'] == 'matrix':
+            assert f['headers'] and f['rows'] and all(len(row) == len(f['headers']) for row in f['rows']), 'Incomplete figure comparison'
+        if f.get('plot'):
+            plot = f['plot']
+            assert plot['xLabel'] and plot['yLabel'] and 1 <= len(plot['lines']) <= 2
+            assert all(line['label'] and line['path'].startswith('M') for line in plot['lines']), 'Incomplete conceptual curve'
     outputs.append((batch, documents, coverage, image_coverage))
 
 collections = json.loads((HERE / 'collections.json').read_text())
@@ -215,6 +245,16 @@ for article in articles.values():
 # Source arithmetic is checked, not silently repaired.
 assert 500 + 0 - 10 - 20 + 20 == 490
 assert 500 + 120 - 20 - 30 + 30 == 600
+
+# Exact repeats share a treatment; distinct wording and non-prose blocks must survive.
+example = [dict(kind='paragraph', text='Existing passage'), dict(kind='list', items=['Shared item'])]
+incoming = [dict(kind='heading', text='Existing passage'), dict(kind='list', items=['Shared item', 'Distinct item']),
+            dict(kind='paragraph', text='Existing passage expanded'), dict(kind='table', headers=['Label'], rows=[[['Value']]])]
+merge_blocks(example, incoming)
+assert example == [dict(kind='paragraph', text='Existing passage'), dict(kind='list', items=['Shared item']),
+                   dict(kind='list', items=['Distinct item']), *incoming[2:]]
+merge_blocks(example, incoming)
+assert len(example) == 5, 'Merging the same range twice must be idempotent'
 
 # Write only after all batches, destinations and discovery paths have passed checks.
 for batch, documents, coverage, image_coverage in outputs:

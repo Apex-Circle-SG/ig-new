@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-06",
+  "archiveSha256": "3820e4d4ee3fc7dc67d9050f49e4630c6cff671262d77894494012f22409b054",
+  "sourceParagraphs": 2495,
+  "sourceImages": 16,
+  "newGuides": 49,
+  "newCollections": [
+    "marketing-strategy",
+    "brand-strategy",
+    "product-innovation"
+  ],
+  "expandedGuides": [
+    "competition-landscape",
+    "competitive-positioning",
+    "customer-feedback",
+    "customer-systems",
+    "innovation-pathways",
+    "strategic-business-units",
+    "strategic-management-cycle",
+    "strategic-thinking",
+    "value-chain"
+  ],
+  "previousGuidesPreserved": 206,
+  "unrelatedCatalogueEntriesPreserved": 97,
+  "allSourceItemsMapped": true,
+  "sourceRetentionAssertions": true,
+  "tableAlignmentChecks": 3,
+  "conceptualCurves": 2,
+  "sourceModelPathsRetained": 15,
+  "mergeSelfCheck": true,
+  "remoteMergeCommit": "fbbeb14",
+  "remoteCommit": "489c91e",
+  "mergeConflicts": false,
+  "pushed": false,
+  "typecheck": "passed",
+  "productionBuild": "passed",
+  "lint": "passed",
+  "renderChecks": 136,
+  "accessibilityChecks": 16,
+  "visualChecks": 32,
+  "visiblePassageChecks": 5662,
+  "sitemapAndContentIndexSlugs": 64,
+  "combinedSitemap": true,
+  "remoteStaticGuideDiscovery": true,
+  "emptyDetailSections": 0,
+  "previewStopped": true,
+  "graphify": {
+    "nodes": 887,
+    "edges": 1593,
+    "danglingEdges": 0
+  },
+  "contentUnitTestsAdded": false
+}

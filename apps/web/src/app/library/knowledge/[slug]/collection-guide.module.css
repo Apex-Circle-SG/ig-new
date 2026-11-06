@@ -44,6 +44,7 @@
 .figure { margin: 20px 0; padding: clamp(16px, 2.5vw, 25px); border-radius: 16px; border: 1px solid #e2dcf5; background: #f8f6ff; }
 .figure figcaption { font-size: 19px; font-weight: 750; color: #40345f; margin-bottom: 18px; line-height: 1.4; }
 .figureNote { font-size: 13px; color: #535c70; line-height: 1.8; margin-top: 18px; }
+.conceptualPlot { display: block; width: 100%; max-width: 600px; height: auto; margin-inline: auto; color: #535c70; }
 .definitions { margin: 0; }
 .definitions > div { display: grid; grid-template-columns: minmax(120px, 1fr) 2fr; gap: 20px; padding-block: 14px; border-top: 1px solid #e4def4; }
 .definitions dt { font-weight: 700; line-height: 1.6; color: #4b3d78; }
