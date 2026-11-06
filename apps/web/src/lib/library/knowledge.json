@@ -3416,14 +3416,14 @@
   },
   {
     "slug": "business-management",
-    "title": "Business & Management: from analysis to action",
+    "title": "Business & Management: choose your next decision",
     "topic": "Business & Management",
     "group": "Start here",
-    "summary": "Explore strategy, marketing, branding, product innovation, sales, leadership and practical business decisions through connected collections.",
+    "summary": "Find a focused path through strategy, marketing, brands, sales, products, leadership and operations.",
     "sections": [
       {
         "heading": "Choose a reading path",
-        "body": "Start with a business decision, or follow the marketing, brand, product-development, sales and strategy-classics collections."
+        "body": "Choose the business decision you are working on. Each hub has its own reading paths, comparisons and detailed guides."
       }
     ],
     "sources": []
@@ -3730,6 +3730,14 @@
       {
         "heading": "Actions by competitive role",
         "body": "Competitive Actions\nMarket Leader\nHow best to expand the total market\nFinding new users for the product or service\nFinding new uses\nIncrease usage rate\nHow to protect the organisation’s current share of the market\nPosition Defence\nFlanking Defence\nPreemptive Defence\nCounteroffensive Defence\nMobile Defence\nContraction Defence\nHow to increase market share\nHeavy advertising\nImproved distribution\nPrice incentives\nNPD\nTakeovers & mergers\nGeographic expansion\nMarket Challenger\nDeciding whether to attack\nFrontal attacks\nFlank attacks\nEncirclement attacks\nBypass attacks\nGuerilla attacks\nMarket Follower\nHow to attack?\nCounterfeiter\nCloner\nImitator\nAdapter"
+      },
+      {
+        "heading": "Role definitions and niche specialists",
+        "body": "Competitive positions\nMarket leader\nFirm with the largest market share and leads the market price changes, product innovations, distribution coverage and promotion spending\nMarket challengers\nFirms fighting to increase market share\nChallenge the leader with an aggressive bid for more market share\nSecond-mover advantage: challenger observes what has made the leader successful and improves on it\nMarket followers\nFirms that want to hold onto their market share\nPlay along with competitors and avoid rocking the boat.\nCopy or improve on leader’s products and programmes with less investment.\nBring distinctive advantages.\nKeep costs and prices low or quality and services high\nMarket nichers\nFirms that serve small market segments not being pursued by other firms\nIdeal market niche is big enough to be profitable with high growth potential and has little interest from competitors\nKey to market niching is specialisation on:MarketCustomerProductMarketing mix"
+      },
+      {
+        "heading": "Market-leader growth and response options",
+        "body": "Market leader\nExpand total demand by developing\nNew users\nNew uses\nMore usage of its products.\nProtect current market by\nFixing or preventing weaknesses that provide opportunities to competitors\nMaintain consistent prices that provide value\nKeep strong customer relationships\nContinuous innovation\nExpand market share by\nIncreasing profitability with increasing market share in served markets\nProducing high-quality products\nCreating good service experiences\nBuilding close relationships"
       }
     ],
     "sources": []
@@ -3994,7 +4002,7 @@
     "slug": "supply-chain-response",
     "title": "Supply-chain response: mobilize to operate",
     "topic": "Business & Management",
-    "group": "Decisions & execution",
+    "group": "Operating systems & delivery",
     "summary": "Follow the five-stage response sequence attributed in the notes to Accenture.",
     "sections": [
       {
@@ -4097,7 +4105,7 @@
     "slug": "lean-startup",
     "title": "Lean Startup: learn before committing at scale",
     "topic": "Business & Management",
-    "group": "Growth & innovation",
+    "group": "Innovation & learning",
     "summary": "Connect minimum viable products, build–measure–learn loops, evidence and staged funding.",
     "sections": [
       {
@@ -4194,7 +4202,7 @@
     "slug": "risk-management",
     "title": "Risk management: prioritize uncertainty and response",
     "topic": "Business & Management",
-    "group": "Decisions & execution",
+    "group": "Risk & resilience",
     "summary": "Identify risks, assess probability and impact, prioritize responses and revisit changing conditions.",
     "sections": [
       {
@@ -4304,7 +4312,7 @@
     "slug": "balanced-scorecard",
     "title": "Balanced scorecard: connect strategy to measures",
     "topic": "Business & Management",
-    "group": "Decisions & execution",
+    "group": "Goals & performance",
     "summary": "Link financial, customer, internal-process and learning objectives with indicators and initiatives.",
     "sections": [
       {
@@ -4338,7 +4346,7 @@
     "slug": "eos-operating-system",
     "title": "EOS: connect vision, accountability and execution",
     "topic": "Business & Management",
-    "group": "Decisions & execution",
+    "group": "Operating systems & delivery",
     "summary": "Explore the six components, meeting cadence, vision planning, quarterly priorities and the source’s toolbox inventory.",
     "sections": [
       {
@@ -4369,7 +4377,7 @@
     "slug": "high-performance-teams",
     "title": "Build a high-performance team and culture",
     "topic": "Business & Management",
-    "group": "Leadership & organizational change",
+    "group": "Teams & organizational alignment",
     "summary": "Connect shared vision, belonging, behavior, resources, clear roles, communication and leadership.",
     "sections": [
       {
@@ -4391,7 +4399,7 @@
     "slug": "organizational-alignment",
     "title": "McKinsey 7S: check organizational alignment",
     "topic": "Business & Management",
-    "group": "Leadership & organizational change",
+    "group": "Teams & organizational alignment",
     "summary": "Review strategy, structure, systems, skills, style, staff and shared values as connected elements.",
     "sections": [
       {
@@ -4405,7 +4413,7 @@
     "slug": "change-kotter",
     "title": "Kotter: build support and sustain change",
     "topic": "Business & Management",
-    "group": "Leadership & organizational change",
+    "group": "Leading change",
     "summary": "Follow the source’s eight-step change sequence from urgency and coalition to sustained organizational practice.",
     "sections": [
       {
@@ -4428,7 +4436,7 @@
     "slug": "change-responses",
     "title": "Responding to change: emotion, engagement and support",
     "topic": "Business & Management",
-    "group": "Leadership & organizational change",
+    "group": "Leading change",
     "summary": "Separate the emotional stages listed as SARAH from the accompanying empower, engage and equip prompts.",
     "sections": [
       {
@@ -4450,7 +4458,7 @@
     "slug": "promise-integration",
     "title": "PROMISE: examine people and culture in integration",
     "topic": "Business & Management",
-    "group": "Leadership & organizational change",
+    "group": "Leading change",
     "summary": "Explore development, rewards, leadership, systems, innovation, strategic direction and employee experience across organizations.",
     "sections": [
       {
@@ -4488,7 +4496,7 @@
     "slug": "digital-maturity",
     "title": "Digital maturity: assess more than technology",
     "topic": "Business & Management",
-    "group": "Leadership & organizational change",
+    "group": "Leading change",
     "summary": "Consider culture, customers, strategy, technology and operations when reviewing digital transformation.",
     "sections": [
       {
@@ -4502,7 +4510,7 @@
     "slug": "stakeholder-management",
     "title": "Stakeholders: interests, influence and responsibility",
     "topic": "Business & Management",
-    "group": "Leadership & organizational change",
+    "group": "Teams & organizational alignment",
     "summary": "Understand stakeholder relationships through descriptive, instrumental and normative perspectives.",
     "sections": [
       {
@@ -4518,14 +4526,14 @@
   },
   {
     "slug": "customer-feedback",
-    "title": "Customer feedback: NPS and learning loops",
+    "title": "Customer feedback: NPS labels and service scorecards",
     "topic": "Business & Management",
-    "group": "Decisions & execution",
-    "summary": "Distinguish individual coaching, team problem solving and systemic improvement in the feedback-loop notes.",
+    "group": "Customer experience & retention",
+    "summary": "Distinguish customer recommendation labels from service ratings, then connect feedback to action.",
     "sections": [
       {
-        "heading": "Individual, team and systemic learning loops",
-        "body": "Net Promoter Score (NPS)\nA tool to measure customer loyalty and predict business growth.\nInner loop\nIndividual learning, behaviour change and coaching\nHuddle\nTeam problem solving, issue escalation, mutual commitment\nOuter loop\nIdentify and solve systemic issues: build inspiration"
+        "heading": "From feedback to improvement",
+        "body": "Recommendation labels and service ratings answer different questions. The detailed source labels and scorecard below illustrate these measures without supplying a complete survey method. Individual coaching, team huddles and systemic improvement are explained in the related feedback-learning guide."
       },
       {
         "heading": "Promoter, passive and detractor labels in the improvement notes",
@@ -4605,8 +4613,8 @@
   {
     "slug": "personal-productivity",
     "title": "Personal productivity: capture tasks and build habits",
-    "topic": "Business & Management",
-    "group": "Productivity & priorities",
+    "topic": "Communication & Personal Development",
+    "group": "Personal productivity & priorities",
     "summary": "Explore the two-minute rule, GTD, a daily habit chain, Parkinson’s Law and the big-rocks approach.",
     "sections": [
       {
@@ -4632,7 +4640,7 @@
     "slug": "kanban-workflow",
     "title": "Kanban: visualize work and limit work in progress",
     "topic": "Business & Management",
-    "group": "Productivity & priorities",
+    "group": "Operating systems & delivery",
     "summary": "Use a visible workflow, work-in-progress limits, flow management and continuous improvement.",
     "sections": [
       {
@@ -4646,7 +4654,7 @@
     "slug": "okr-goals",
     "title": "OKRs and SMART goals: connect ambition to outcomes",
     "topic": "Business & Management",
-    "group": "Productivity & priorities",
+    "group": "Goals & performance",
     "summary": "Compare objectives and measurable key results with SMART criteria for defining clear goals.",
     "sections": [
       {
@@ -4664,7 +4672,7 @@
     "slug": "pareto-priorities",
     "title": "Pareto: find the few factors with the greatest impact",
     "topic": "Business & Management",
-    "group": "Productivity & priorities",
+    "group": "Goals & performance",
     "summary": "Explore the 80/20 heuristic with all the supplied individual, team and company examples.",
     "sections": [
       {
@@ -4689,8 +4697,8 @@
   {
     "slug": "prioritization-methods",
     "title": "Prioritization: urgency, scope, value and complexity",
-    "topic": "Business & Management",
-    "group": "Productivity & priorities",
+    "topic": "Communication & Personal Development",
+    "group": "Personal productivity & priorities",
     "summary": "Compare Eisenhower, MoSCoW and a value–complexity matrix for different prioritization questions.",
     "sections": [
       {
@@ -4704,6 +4712,20 @@
       {
         "heading": "Value versus implementation complexity",
         "body": "Value-Complexity Matrix\nList all features.\nRate their user/business value.\nEstimate development complexity.\nMap features on the matrix.\nPrioritize high-value, low-complexity features\nImplementation Complexity\nBusiness Value\nEasy wins — high value, low complexity\nStrategic initiatives — high value, high complexity\nWorth pursuing or revisiting later — low value, low complexity\nDeprioritize — low value, low complexity [source quadrant label repeated; see reading note]"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "feedback-learning-loops",
+    "title": "Feedback learning loops: coaching, team huddles and systemic change",
+    "topic": "Business & Management",
+    "group": "Goals & performance",
+    "summary": "Turn customer signals into individual learning, shared problem solving and changes to recurring systems.",
+    "sections": [
+      {
+        "heading": "Individual, team and systemic learning loops",
+        "body": "Net Promoter Score (NPS)\nA tool to measure customer loyalty and predict business growth.\nInner loop\nIndividual learning, behaviour change and coaching\nHuddle\nTeam problem solving, issue escalation, mutual commitment\nOuter loop\nIdentify and solve systemic issues: build inspiration"
       }
     ],
     "sources": []
@@ -4881,7 +4903,7 @@
     "slug": "customer-retention",
     "title": "Customer retention, referrals and service quality",
     "topic": "Business & Management",
-    "group": "Sales & customer relationships",
+    "group": "Customer experience & retention",
     "summary": "Connect ongoing service, referral conversations, customer-experience design and the five service-quality dimensions.",
     "sections": [
       {
@@ -4899,7 +4921,7 @@
     "slug": "customer-systems",
     "title": "CRM and customer experience: connect insights to service",
     "topic": "Business & Management",
-    "group": "Sales & customer relationships",
+    "group": "Customer experience & retention",
     "summary": "Explore the collection’s CRM and CEM functions across marketing, sales, support, collaboration and customer experience.",
     "sections": [
       {
@@ -5093,7 +5115,7 @@
     "slug": "innovation-pathways",
     "title": "Innovation: discovery, incubation and acceleration",
     "topic": "Business & Management",
-    "group": "Growth & innovation",
+    "group": "Innovation & learning",
     "summary": "Organize the source’s innovation categories, venturing approaches, reinvention motives and transformation prompts.",
     "sections": [
       {
@@ -5133,7 +5155,7 @@
     "slug": "business-responsibility",
     "title": "Business responsibility: CSR and the triple bottom line",
     "topic": "Business & Management",
-    "group": "Leadership & organizational change",
+    "group": "Teams & organizational alignment",
     "summary": "Compare the supplied economic, legal, ethical and philanthropic responsibilities with people, planet and profit.",
     "sections": [
       {
@@ -5147,7 +5169,7 @@
     "slug": "business-lessons-risk",
     "title": "Business lessons: flexibility, leverage and profit models",
     "topic": "Business & Management",
-    "group": "Decisions & execution",
+    "group": "Risk & resilience",
     "summary": "Read the source’s dot-com lessons, leverage suggestions and profit-model shifts as hypotheses to examine.",
     "sections": [
       {
@@ -8451,9 +8473,9 @@
   },
   {
     "slug": "marketing-logistics",
-    "title": "Marketing logistics: stock, movement and information",
+    "title": "Logistics: stock, movement and information",
     "topic": "Business & Management",
-    "group": "Channels & pricing",
+    "group": "Operating systems & delivery",
     "summary": "Connect warehousing, inventory, transport, data and outsourcing to customer service.",
     "sections": [
       {
@@ -8592,18 +8614,22 @@
   },
   {
     "slug": "marketing-value-disciplines",
-    "title": "Value disciplines and market roles: choose where to compete",
+    "title": "Value disciplines: customer focus, efficiency and product leadership",
     "topic": "Business & Management",
     "group": "Marketing foundations",
-    "summary": "Compare operational excellence, customer intimacy and product leadership alongside leader/challenger/follower/niche roles.",
+    "summary": "Compare three ways of delivering value and balance attention to customers and competitors.",
     "sections": [
       {
-        "heading": "Value disciplines and competitive roles",
-        "body": "Michael Treacy and Fred Wiersema suggest companies can gain leadership positions by delivering superior value to their customers in three strategies or 'value disciplines'\nOperational excellence\nCompany providing value by leading its industry in price and convenience by reducing costs and creating a lean and efficient value delivery system\nCustomer intimacy\nCompany providing superior value by segmenting markets and tailoring products or services to match the needs of the targeted customers.\nProduct leadership\nCompany providing superior value by offering a continuous stream of leading edge products or services. Product leaders are open to new ideas and solutions and bring them quickly to the market\nCompetitive positions\nMarket leader\nFirm with the largest market share and leads the market price changes, product innovations, distribution coverage and promotion spending\nMarket challengers\nFirms fighting to increase market share\nChallenge the leader with an aggressive bid for more market share\nSecond-mover advantage: challenger observes what has made the leader successful and improves on it\nMarket followers\nFirms that want to hold onto their market share\nPlay along with competitors and avoid rocking the boat.\nCopy or improve on leader’s products and programmes with less investment.\nBring distinctive advantages.\nKeep costs and prices low or quality and services high\nMarket nichers\nFirms that serve small market segments not being pursued by other firms\nIdeal market niche is big enough to be profitable with high growth potential and has little interest from competitors\nKey to market niching is specialisation on:MarketCustomerProductMarketing mix"
+        "heading": "Three value disciplines",
+        "body": "Michael Treacy and Fred Wiersema suggest companies can gain leadership positions by delivering superior value to their customers in three strategies or 'value disciplines'\nOperational excellence\nCompany providing value by leading its industry in price and convenience by reducing costs and creating a lean and efficient value delivery system\nCustomer intimacy\nCompany providing superior value by segmenting markets and tailoring products or services to match the needs of the targeted customers.\nProduct leadership\nCompany providing superior value by offering a continuous stream of leading edge products or services. Product leaders are open to new ideas and solutions and bring them quickly to the market"
       },
       {
-        "heading": "Leader responses and market-centred orientation",
-        "body": "Market leader\nExpand total demand by developing\nNew users\nNew uses\nMore usage of its products.\nProtect current market by\nFixing or preventing weaknesses that provide opportunities to competitors\nMaintain consistent prices that provide value\nKeep strong customer relationships\nContinuous innovation\nExpand market share by\nIncreasing profitability with increasing market share in served markets\nProducing high-quality products\nCreating good service experiences\nBuilding close relationships\nBalancing customer and competitor orientations\nCompanies need to continuously adapt strategies to changes in the competitive environment\nCompetitor-centred company\nSpends most of its time tracking competitors’ moves and market shares and trying to find ways to counter them\nAdvantage is that the company is a fighter\nDisadvantage is that the company is reactive\nCustomer-centred company\nSpends most of its time focusing on customer developments in designing strategies\nProvides a better position than competitor-centred company to identify opportunities and build customer relationships\nMarket-centred company\nSpends most of its time focusing on both competitor and customer developments in designing strategies\nCustomer-centred vs. Competitor-centred"
+        "heading": "Balance customer and competitor orientation",
+        "body": "Balancing customer and competitor orientations\nCompanies need to continuously adapt strategies to changes in the competitive environment\nCompetitor-centred company\nSpends most of its time tracking competitors’ moves and market shares and trying to find ways to counter them\nAdvantage is that the company is a fighter\nDisadvantage is that the company is reactive\nCustomer-centred company\nSpends most of its time focusing on customer developments in designing strategies\nProvides a better position than competitor-centred company to identify opportunities and build customer relationships\nMarket-centred company\nSpends most of its time focusing on both competitor and customer developments in designing strategies\nCustomer-centred vs. Competitor-centred"
+      },
+      {
+        "heading": "Market role is a separate decision",
+        "body": "Being a market leader, challenger, follower or niche specialist describes a competitive role. Operational excellence, customer intimacy and product leadership describe a value focus. Read the related market-role guide for the consolidated role definitions, response options and distinct source examples."
       }
     ],
     "sources": []
@@ -9175,11 +9201,65 @@
     "sources": []
   },
   {
-    "slug": "sales-playbook",
-    "title": "Sales playbook: from prospecting to customer success",
+    "slug": "strategy-growth",
+    "title": "Strategy & Growth",
     "topic": "Business & Management",
-    "group": "Sales & customer relationships",
-    "summary": "Follow the buyer journey, prepare conversations and explore the work of leading a sales team.",
+    "group": "Explore business",
+    "summary": "Understand the situation, choose a direction and assess the resources and trade-offs behind growth.",
+    "sections": [],
+    "sources": []
+  },
+  {
+    "slug": "marketing-strategy",
+    "title": "Marketing Strategy & Execution",
+    "topic": "Business & Management",
+    "group": "Explore business",
+    "summary": "Understand the customer, choose a market position, coordinate the offer and measure execution.",
+    "sections": [],
+    "sources": []
+  },
+  {
+    "slug": "brand-strategy",
+    "title": "Brand Strategy & Experience",
+    "topic": "Business & Management",
+    "group": "Explore business",
+    "summary": "Connect identity and customer meaning with communication, experience, equity and portfolio decisions.",
+    "sections": [],
+    "sources": []
+  },
+  {
+    "slug": "sales-playbook",
+    "title": "Sales & Customer Relationships",
+    "topic": "Business & Management",
+    "group": "Explore business",
+    "summary": "Find suitable customers, support buying decisions and improve the ongoing customer experience.",
+    "sections": [],
+    "sources": []
+  },
+  {
+    "slug": "product-innovation",
+    "title": "Product Development & Innovation",
+    "topic": "Business & Management",
+    "group": "Explore business",
+    "summary": "Define the offer, test concepts, develop products and learn through design and market feedback.",
+    "sections": [],
+    "sources": []
+  },
+  {
+    "slug": "leadership-change",
+    "title": "Leadership & Organizational Change",
+    "topic": "Business & Management",
+    "group": "Explore business",
+    "summary": "Build effective teams, align the organization and navigate change and negotiation.",
+    "sections": [],
+    "sources": []
+  },
+  {
+    "slug": "operations-performance",
+    "title": "Operations & Performance",
+    "topic": "Business & Management",
+    "group": "Explore business",
+    "summary": "Coordinate everyday delivery, manage operating risk and turn performance measures into improvements.",
     "sections": [],
     "sources": []
   },
@@ -9231,33 +9311,6 @@
     "topic": "Beliefs & Mysteries",
     "group": "Freemasonry & symbolism",
     "summary": "Read every supplied ceremony in thirteen linked readings, with speaker labels, stage directions, supporting explanations and source limitations.",
-    "sections": [],
-    "sources": []
-  },
-  {
-    "slug": "marketing-strategy",
-    "title": "Marketing Strategy & Execution",
-    "topic": "Business & Management",
-    "group": "Marketing strategy & execution",
-    "summary": "Understand the customer, choose a market position, coordinate the offer and measure execution.",
-    "sections": [],
-    "sources": []
-  },
-  {
-    "slug": "brand-strategy",
-    "title": "Brand Strategy & Experience",
-    "topic": "Business & Management",
-    "group": "Brand strategy & experience",
-    "summary": "Connect identity and customer meaning with communication, experience, equity and portfolio decisions.",
-    "sections": [],
-    "sources": []
-  },
-  {
-    "slug": "product-innovation",
-    "title": "Product Development & Innovation",
-    "topic": "Business & Management",
-    "group": "Product development & innovation",
-    "summary": "Define the offer, test concepts, develop products and learn through design and market feedback.",
     "sections": [],
     "sources": []
   }

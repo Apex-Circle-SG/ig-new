@@ -369,7 +369,7 @@
     "slug": "customer-retention",
     "title": "Customer retention, referrals and service quality",
     "topic": "Business & Management",
-    "group": "Sales & customer relationships",
+    "group": "Customer experience & retention",
     "summary": "Connect ongoing service, referral conversations, customer-experience design and the five service-quality dimensions.",
     "takeaway": "Deliver the promised experience and use feedback to improve it before asking for more business.",
     "ranges": [
@@ -411,7 +411,7 @@
     "slug": "customer-systems",
     "title": "CRM and customer experience: connect insights to service",
     "topic": "Business & Management",
-    "group": "Sales & customer relationships",
+    "group": "Customer experience & retention",
     "summary": "Explore the collection’s CRM and CEM functions across marketing, sales, support, collaboration and customer experience.",
     "takeaway": "A system’s value comes from useful information and coordinated action across the customer journey.",
     "ranges": [
@@ -833,7 +833,7 @@
     "slug": "innovation-pathways",
     "title": "Innovation: discovery, incubation and acceleration",
     "topic": "Business & Management",
-    "group": "Growth & innovation",
+    "group": "Innovation & learning",
     "summary": "Organize the source’s innovation categories, venturing approaches, reinvention motives and transformation prompts.",
     "takeaway": "Different ideas need different experiments and levels of commitment; define the opportunity before scaling.",
     "ranges": [
@@ -859,7 +859,7 @@
       "The source’s incremental/breakthrough technology-versus-market labels are simplified and lack a cited model. They remain source classifications, not universal definitions.",
       "“Blue sky”, “jump shot” and “layups” are metaphors in this collection."
     ],
-    "collection": "",
+    "collection": "product-innovation",
     "format": "guide",
     "interpretation": "",
     "references": []
@@ -893,7 +893,7 @@
     "notes": [
       "The source lists the components without a worked canvas. No company-specific canvas has been fabricated."
     ],
-    "collection": "",
+    "collection": "strategy-growth",
     "format": "guide",
     "interpretation": "",
     "references": []
@@ -902,7 +902,7 @@
     "slug": "business-responsibility",
     "title": "Business responsibility: CSR and the triple bottom line",
     "topic": "Business & Management",
-    "group": "Leadership & organizational change",
+    "group": "Teams & organizational alignment",
     "summary": "Compare the supplied economic, legal, ethical and philanthropic responsibilities with people, planet and profit.",
     "takeaway": "Use the models to examine different dimensions of responsibility rather than reducing the decision to one metric.",
     "ranges": [
@@ -927,7 +927,7 @@
     "notes": [
       "The collection supplies names and category lists, not a compliance checklist or sustainability measurement method."
     ],
-    "collection": "",
+    "collection": "leadership-change",
     "format": "guide",
     "interpretation": "",
     "references": []
@@ -936,7 +936,7 @@
     "slug": "business-lessons-risk",
     "title": "Business lessons: flexibility, leverage and profit models",
     "topic": "Business & Management",
-    "group": "Decisions & execution",
+    "group": "Risk & resilience",
     "summary": "Read the source’s dot-com lessons, leverage suggestions and profit-model shifts as hypotheses to examine.",
     "takeaway": "A business lesson needs context, evidence and a view of the downside before it becomes a decision.",
     "ranges": [
@@ -962,7 +962,7 @@
       "“Gamble small and win big” and “use future’s money” are source slogans, not financing advice or evidence of favorable returns.",
       "The dot-com lessons are attributed only as a list; the original author and cases are not given."
     ],
-    "collection": "",
+    "collection": "operations-performance",
     "format": "guide",
     "interpretation": "",
     "references": []
@@ -1393,7 +1393,7 @@
       "The image models a complete undirected graph, with one possible link per distinct pair and no self-links. Actual social networks can be incomplete, directed or weighted.",
       "The “network effect” heading does not demonstrate a business network effect or establish that revenue, utility or company value grows with the number of possible pairs."
     ],
-    "collection": "",
+    "collection": "strategy-growth",
     "format": "guide",
     "interpretation": "",
     "references": []

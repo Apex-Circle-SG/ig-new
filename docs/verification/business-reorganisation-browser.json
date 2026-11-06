@@ -1,0 +1,1066 @@
+{
+  "renderChecks": 86,
+  "accessibilityChecks": 18,
+  "routeChecks": 367,
+  "sitemapAndContentIndexEntries": 367,
+  "rows": [
+    {
+      "width": 390,
+      "path": "/library/",
+      "status": 200,
+      "title": "Good ideas deservea place to grow.",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/content-index/",
+      "status": 200,
+      "title": "Find your next useful page.",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/business-management/",
+      "status": 200,
+      "title": "Business & Management: choose your next decision",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/communication-personal-development/",
+      "status": 200,
+      "title": "Communication & Personal Development",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/sales-playbook/",
+      "status": 200,
+      "title": "Sales & Customer Relationships",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/nlp-reference/",
+      "status": 200,
+      "title": "Neuro-linguistic programming: an annotated reference",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/art-of-war/",
+      "status": 200,
+      "title": "The Art of War: a guided reading collection",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-management/",
+      "status": 200,
+      "title": "Project Management: plan, deliver and improve",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/six-sigma-improvement/",
+      "status": 200,
+      "title": "Six Sigma & Process Improvement",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/technology/",
+      "status": 200,
+      "title": "Technology: software, models and systems",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/process-improvement/",
+      "status": 200,
+      "title": "Process Improvement",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/problem-solving/",
+      "status": 200,
+      "title": "Problem Solving & Decision Making",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/beliefs-mysteries/",
+      "status": 200,
+      "title": "Beliefs, symbols & mysteries",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/freemasonry/",
+      "status": 200,
+      "title": "Freemasonry: the supplied three-degree rituals",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/science-and-quantum/",
+      "status": 200,
+      "title": "Science & Quantum",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-strategy/",
+      "status": 200,
+      "title": "Marketing Strategy & Execution",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/brand-strategy/",
+      "status": 200,
+      "title": "Brand Strategy & Experience",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/product-innovation/",
+      "status": 200,
+      "title": "Product Development & Innovation",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/strategy-growth/",
+      "status": 200,
+      "title": "Strategy & Growth",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/leadership-change/",
+      "status": 200,
+      "title": "Leadership & Organizational Change",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/operations-performance/",
+      "status": 200,
+      "title": "Operations & Performance",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/strategy-foundations/",
+      "status": 200,
+      "title": "What strategy does—and who makes it",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/competitive-actions/",
+      "status": 200,
+      "title": "Market leaders, challengers and followers",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-value-disciplines/",
+      "status": 200,
+      "title": "Value disciplines: customer focus, efficiency and product leadership",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/customer-feedback/",
+      "status": 200,
+      "title": "Customer feedback: NPS labels and service scorecards",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/feedback-learning-loops/",
+      "status": 200,
+      "title": "Feedback learning loops: coaching, team huddles and systemic change",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-logistics/",
+      "status": 200,
+      "title": "Logistics: stock, movement and information",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/personal-productivity/",
+      "status": 200,
+      "title": "Personal productivity: capture tasks and build habits",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/prioritization-methods/",
+      "status": 200,
+      "title": "Prioritization: urgency, scope, value and complexity",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/innovation-pathways/",
+      "status": 200,
+      "title": "Innovation: discovery, incubation and acceleration",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/lean-startup/",
+      "status": 200,
+      "title": "Lean Startup: learn before committing at scale",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/kanban-workflow/",
+      "status": 200,
+      "title": "Kanban: visualize work and limit work in progress",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/okr-goals/",
+      "status": 200,
+      "title": "OKRs and SMART goals: connect ambition to outcomes",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/pareto-priorities/",
+      "status": 200,
+      "title": "Pareto: find the few factors with the greatest impact",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/negotiation-principled/",
+      "status": 200,
+      "title": "Principled negotiation: interests, options and BATNA",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/risk-management/",
+      "status": 200,
+      "title": "Risk management: prioritize uncertainty and response",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/stakeholder-management/",
+      "status": 200,
+      "title": "Stakeholders: interests, influence and responsibility",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/art-of-war-planning/",
+      "status": 200,
+      "title": "The Art of War: Planning and assessment",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/art-of-war-situations/",
+      "status": 200,
+      "title": "The Art of War: Nine situations and changing commitments",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/freemasonry-entered-apprentice-initiation/",
+      "status": 200,
+      "title": "Entered Apprentice: the initiation ceremony",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/deep-state-maps/",
+      "status": 200,
+      "title": "Deep State charts: creators, editions and claims",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/five-forces/",
+      "status": 200,
+      "title": "Porter’s Five Forces: assess industry pressure",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/network-connections/",
+      "status": 200,
+      "title": "Network connections: how pairwise links grow",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/",
+      "status": 200,
+      "title": "Good ideas deservea place to grow.",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/content-index/",
+      "status": 200,
+      "title": "Find your next useful page.",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/business-management/",
+      "status": 200,
+      "title": "Business & Management: choose your next decision",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/communication-personal-development/",
+      "status": 200,
+      "title": "Communication & Personal Development",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/sales-playbook/",
+      "status": 200,
+      "title": "Sales & Customer Relationships",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/nlp-reference/",
+      "status": 200,
+      "title": "Neuro-linguistic programming: an annotated reference",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/art-of-war/",
+      "status": 200,
+      "title": "The Art of War: a guided reading collection",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-management/",
+      "status": 200,
+      "title": "Project Management: plan, deliver and improve",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/six-sigma-improvement/",
+      "status": 200,
+      "title": "Six Sigma & Process Improvement",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/technology/",
+      "status": 200,
+      "title": "Technology: software, models and systems",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/process-improvement/",
+      "status": 200,
+      "title": "Process Improvement",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/problem-solving/",
+      "status": 200,
+      "title": "Problem Solving & Decision Making",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/beliefs-mysteries/",
+      "status": 200,
+      "title": "Beliefs, symbols & mysteries",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/freemasonry/",
+      "status": 200,
+      "title": "Freemasonry: the supplied three-degree rituals",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/science-and-quantum/",
+      "status": 200,
+      "title": "Science & Quantum",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-strategy/",
+      "status": 200,
+      "title": "Marketing Strategy & Execution",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/brand-strategy/",
+      "status": 200,
+      "title": "Brand Strategy & Experience",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/product-innovation/",
+      "status": 200,
+      "title": "Product Development & Innovation",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/strategy-growth/",
+      "status": 200,
+      "title": "Strategy & Growth",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/leadership-change/",
+      "status": 200,
+      "title": "Leadership & Organizational Change",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/operations-performance/",
+      "status": 200,
+      "title": "Operations & Performance",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/strategy-foundations/",
+      "status": 200,
+      "title": "What strategy does—and who makes it",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/competitive-actions/",
+      "status": 200,
+      "title": "Market leaders, challengers and followers",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-value-disciplines/",
+      "status": 200,
+      "title": "Value disciplines: customer focus, efficiency and product leadership",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/customer-feedback/",
+      "status": 200,
+      "title": "Customer feedback: NPS labels and service scorecards",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/feedback-learning-loops/",
+      "status": 200,
+      "title": "Feedback learning loops: coaching, team huddles and systemic change",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-logistics/",
+      "status": 200,
+      "title": "Logistics: stock, movement and information",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/personal-productivity/",
+      "status": 200,
+      "title": "Personal productivity: capture tasks and build habits",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/prioritization-methods/",
+      "status": 200,
+      "title": "Prioritization: urgency, scope, value and complexity",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/innovation-pathways/",
+      "status": 200,
+      "title": "Innovation: discovery, incubation and acceleration",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/lean-startup/",
+      "status": 200,
+      "title": "Lean Startup: learn before committing at scale",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/kanban-workflow/",
+      "status": 200,
+      "title": "Kanban: visualize work and limit work in progress",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/okr-goals/",
+      "status": 200,
+      "title": "OKRs and SMART goals: connect ambition to outcomes",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/pareto-priorities/",
+      "status": 200,
+      "title": "Pareto: find the few factors with the greatest impact",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/negotiation-principled/",
+      "status": 200,
+      "title": "Principled negotiation: interests, options and BATNA",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/risk-management/",
+      "status": 200,
+      "title": "Risk management: prioritize uncertainty and response",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/stakeholder-management/",
+      "status": 200,
+      "title": "Stakeholders: interests, influence and responsibility",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/art-of-war-planning/",
+      "status": 200,
+      "title": "The Art of War: Planning and assessment",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/art-of-war-situations/",
+      "status": 200,
+      "title": "The Art of War: Nine situations and changing commitments",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/freemasonry-entered-apprentice-initiation/",
+      "status": 200,
+      "title": "Entered Apprentice: the initiation ceremony",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/deep-state-maps/",
+      "status": 200,
+      "title": "Deep State charts: creators, editions and claims",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/five-forces/",
+      "status": 200,
+      "title": "Porter’s Five Forces: assess industry pressure",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/network-connections/",
+      "status": 200,
+      "title": "Network connections: how pairwise links grow",
+      "overflow": false,
+      "brokenAnchors": [],
+      "badLinks": [],
+      "emptyCategories": [],
+      "errors": []
+    }
+  ],
+  "audits": [
+    {
+      "width": 390,
+      "path": "/library/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/business-management/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/communication-personal-development/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/strategy-growth/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/leadership-change/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/operations-performance/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-value-disciplines/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/customer-feedback/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/art-of-war-planning/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/business-management/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/communication-personal-development/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/strategy-growth/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/leadership-change/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/operations-performance/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-value-disciplines/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/customer-feedback/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/art-of-war-planning/",
+      "violations": []
+    }
+  ],
+  "interactions": [
+    {
+      "width": 390,
+      "sevenCollections": true,
+      "scopedFilters": true,
+      "allArticles": true,
+      "reset": true,
+      "nestedSearch": true,
+      "movedGuideGlobalSearch": true
+    },
+    {
+      "width": 1440,
+      "sevenCollections": true,
+      "scopedFilters": true,
+      "allArticles": true,
+      "reset": true,
+      "nestedSearch": true,
+      "movedGuideGlobalSearch": true
+    }
+  ]
+}

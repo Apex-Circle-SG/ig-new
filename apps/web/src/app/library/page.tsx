@@ -27,27 +27,10 @@ export default async function LibraryPage({ searchParams }: { searchParams: Prom
         <div><div className={styles.eyebrow}>EXPLORE THE LIBRARY</div><h2 id="explore-heading">A little something for every curious mind.</h2></div>
         <p>Explore knowledge and practical resources. More topics will join the library as the collection grows.</p>
       </section>
-      <Link href="/library/knowledge/ai-learning-hub/" className={styles.hubFeature}>
-        <div><span className={styles.eyebrow}>FEATURED LEARNING HUB</span><h2>Make sense of AI<span>.</span></h2><p>Explore the ideas, mathematics and practical decisions behind AI, one clear guide at a time.</p><strong>Explore the AI learning hub →</strong></div><div className={styles.hubFeatureMark} aria-hidden="true">✳</div>
-      </Link>
-      <Link href="/library/knowledge/business-management/" className={styles.hubFeature}>
-        <div><span className={styles.eyebrow}>BUSINESS &amp; MANAGEMENT</span><h2>From insight to action<span>.</span></h2><p>Explore strategy, competition, leadership and negotiation, with detailed notes and visual explanations.</p><strong>Explore the Business &amp; Management hub →</strong></div><div className={styles.hubFeatureMark} aria-hidden="true">↗</div>
-      </Link>
-      <Link href="/library/knowledge/communication-personal-development/" className={styles.hubFeature}>
-        <div><span className={styles.eyebrow}>COMMUNICATION &amp; PERSONAL DEVELOPMENT</span><h2>Make understanding easier<span>.</span></h2><p>Explore listening, clear communication, persuasion and an annotated NLP reference with context and evidence notes.</p><strong>Explore the communication hub →</strong></div><div className={styles.hubFeatureMark} aria-hidden="true">↔</div>
-      </Link>
-      <Link href="/library/knowledge/project-management/" className={styles.hubFeature}>
-        <div><span className={styles.eyebrow}>PROJECT MANAGEMENT</span><h2>Plan, deliver and close<span>.</span></h2><p>Explore governance, delivery approaches, scheduling, budgets, risk, teamwork and handover.</p><strong>Explore Project Management →</strong></div><div className={styles.hubFeatureMark} aria-hidden="true">◎</div>
-      </Link>
-      <Link href="/library/knowledge/process-improvement/" className={styles.hubFeature}>
-        <div><span className={styles.eyebrow}>PROCESS IMPROVEMENT</span><h2>Make better work repeatable<span>.</span></h2><p>Connect Six Sigma and quality methods with process capability and organizational maturity.</p><strong>Explore Process Improvement →</strong></div><div className={styles.hubFeatureMark} aria-hidden="true">↻</div>
-      </Link>
-      <Link href="/library/knowledge/problem-solving/" className={styles.hubFeature}>
-        <div><span className={styles.eyebrow}>PROBLEM SOLVING &amp; DECISION MAKING</span><h2>Ask a clearer question<span>.</span></h2><p>Frame problems, structure analysis and explore creative approaches before choosing a solution.</p><strong>Explore Problem Solving →</strong></div><div className={styles.hubFeatureMark} aria-hidden="true">?</div>
-      </Link>
-      <Link href="/library/knowledge/beliefs-mysteries/" className={styles.hubFeature}>
-        <div><span className={styles.eyebrow}>BELIEFS, SYMBOLS &amp; MYSTERIES</span><h2>Explore ideas with context<span>.</span></h2><p>Read the complete supplied Freemasonry rituals, explore metaphysical questions and trace extraordinary claims to their sources.</p><strong>Explore beliefs, symbols and mysteries →</strong></div><div className={styles.hubFeatureMark} aria-hidden="true">◇</div>
-      </Link>
+      <section className={styles.hubs} aria-labelledby="learning-hubs-heading"><h2 id="learning-hubs-heading">Choose a learning hub</h2><div className={styles.grid}>{['ai-learning-hub', 'business-management', 'communication-personal-development', 'project-management', 'process-improvement', 'problem-solving', 'beliefs-mysteries'].map((slug) => {
+        const hub = articles.find((article) => article.slug === slug);
+        return hub && <Link className={styles.knowledgeCard} href={`/library/knowledge/${hub.slug}/`} key={hub.slug}><span>{hub.topic}</span><h3>{hub.title}</h3><p>{hub.summary}</p><strong>Explore collection →</strong></Link>;
+      })}</div></section>
       <KnowledgeList articles={articles} />
       <LibraryDirectory tools={tools} initialCategory={params.tools} />
     </main>

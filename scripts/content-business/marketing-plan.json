@@ -1012,10 +1012,10 @@
   },
   {
     "slug": "marketing-logistics",
-    "title": "Marketing logistics: stock, movement and information",
+    "title": "Logistics: stock, movement and information",
     "topic": "Business & Management",
-    "group": "Channels & pricing",
-    "collection": "marketing-strategy",
+    "group": "Operating systems & delivery",
+    "collection": "operations-performance",
     "summary": "Connect warehousing, inventory, transport, data and outsourcing to customer service.",
     "takeaway": "Physical delivery and information flow both shape the customer promise.",
     "ranges": [
@@ -1059,7 +1059,9 @@
     "related": [
       "marketing-channel-management",
       "lean-supply",
-      "value-chain"
+      "value-chain",
+      "marketing-channels",
+      "operations-performance"
     ],
     "notes": [
       "Exclusive dealing, territorial and tying arrangements are named, not assessed for legality. Applicable competition rules depend on the jurisdiction and facts.",
@@ -1586,38 +1588,30 @@
   },
   {
     "slug": "marketing-value-disciplines",
-    "title": "Value disciplines and market roles: choose where to compete",
+    "title": "Value disciplines: customer focus, efficiency and product leadership",
     "topic": "Business & Management",
     "group": "Marketing foundations",
     "collection": "marketing-strategy",
-    "summary": "Compare operational excellence, customer intimacy and product leadership alongside leader/challenger/follower/niche roles.",
+    "summary": "Compare three ways of delivering value and balance attention to customers and competitors.",
     "takeaway": "A value proposition and a market-share role describe different dimensions of strategy.",
     "ranges": [
       {
         "document": "Marketing.docx",
         "start": 1111,
-        "end": 1135,
-        "heading": "Value disciplines and competitive roles",
+        "end": 1118,
+        "heading": "Three value disciplines",
         "subheadings": [
           1112,
           1114,
-          1116,
-          1118,
-          1119,
-          1121,
-          1125,
-          1131
+          1116
         ]
       },
       {
         "document": "Marketing.docx",
-        "start": 1135,
+        "start": 1150,
         "end": 1162,
-        "heading": "Leader responses and market-centred orientation",
+        "heading": "Balance customer and competitor orientation",
         "subheadings": [
-          1136,
-          1140,
-          1145,
           1150,
           1152,
           1156,
@@ -1635,14 +1629,22 @@
       "competitive-positioning",
       "ohmae-three-cs",
       "market-targeting",
-      "innovation-pathways"
+      "innovation-pathways",
+      "competitive-actions"
     ],
     "notes": [
       "Market-role descriptions are general frameworks, not automatic predictions of behavior or success. The source supplies no current market-share dataset."
     ],
     "references": [],
     "visuals": [],
-    "editorialSections": []
+    "editorialSections": [
+      {
+        "heading": "Market role is a separate decision",
+        "paragraphs": [
+          "Being a market leader, challenger, follower or niche specialist describes a competitive role. Operational excellence, customer intimacy and product leadership describe a value focus. Read the related market-role guide for the consolidated role definitions, response options and distinct source examples."
+        ]
+      }
+    ]
   },
   {
     "slug": "marketing-planning",
@@ -3518,5 +3520,43 @@
     "references": [],
     "visuals": [],
     "editorialSections": []
+  },
+  {
+    "slug": "competitive-actions",
+    "appendTo": "competitive-actions",
+    "ranges": [
+      {
+        "document": "Marketing.docx",
+        "start": 1118,
+        "end": 1135,
+        "heading": "Role definitions and niche specialists",
+        "subheadings": [
+          1118,
+          1119,
+          1121,
+          1125,
+          1131
+        ]
+      },
+      {
+        "document": "Marketing.docx",
+        "start": 1135,
+        "end": 1150,
+        "heading": "Market-leader growth and response options",
+        "subheadings": [
+          1135,
+          1136,
+          1140,
+          1145
+        ]
+      }
+    ],
+    "related": [
+      "marketing-value-disciplines",
+      "market-positioning"
+    ],
+    "notes": [
+      "The role definitions from the marketing notes are consolidated here with the original action outline. Distinct wording is retained. Market-share growth does not automatically increase profitability."
+    ]
   }
 ]

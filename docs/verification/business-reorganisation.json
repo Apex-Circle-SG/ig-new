@@ -1,0 +1,59 @@
+{
+  "sourceDisplayedStringsPreserved": 10189,
+  "oldGuideUrlsPreserved": 258,
+  "oldAnchorsPreserved": true,
+  "sourceLedgers": [
+    {
+      "batch": "management",
+      "uniqueItems": 2697
+    },
+    {
+      "batch": "sales",
+      "uniqueItems": 1661
+    },
+    {
+      "batch": "project-management",
+      "uniqueItems": 952
+    },
+    {
+      "batch": "project-core",
+      "uniqueItems": 1268
+    },
+    {
+      "batch": "beliefs",
+      "uniqueItems": 1176
+    },
+    {
+      "batch": "marketing",
+      "uniqueItems": 2511
+    }
+  ],
+  "newUrls": [
+    "feedback-learning-loops",
+    "leadership-change",
+    "operations-performance",
+    "strategy-growth"
+  ],
+  "businessGatewayCards": 7,
+  "primaryHomesUnique": true,
+  "unfiledBusinessEntries": 0,
+  "sourceArchivesUnchanged": true,
+  "typecheck": "passed",
+  "productionBuild": "passed",
+  "navigationUnitTests": 3,
+  "libraryE2eTests": 2,
+  "mobileDesktopRenderChecks": 86,
+  "accessibilityAudits": 18,
+  "allCatalogueRoutesChecked": 367,
+  "completeSitemapAndIndexEntries": 367,
+  "finalGatewayOrderChecked": true,
+  "previewStopped": true,
+  "graphify": {
+    "nodes": 894,
+    "edges": 1610,
+    "danglingEdges": 0
+  },
+  "pushed": false,
+  "googleIndexingVerified": false,
+  "lint": "passed"
+}

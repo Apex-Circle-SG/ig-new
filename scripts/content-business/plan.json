@@ -26,7 +26,8 @@
     "notes": [
       "The original growth-strategy row says “makes no change”; that describes stability rather than growth. The wording is retained below as a source discrepancy, not a definition to follow.",
       "The attributed definitions are quotations in the supplied notes; their original editions and page references were not supplied."
-    ]
+    ],
+    "collection": "strategy-growth"
   },
   {
     "slug": "strategic-management-cycle",
@@ -60,7 +61,8 @@
       "strategy-evaluation",
       "strategy-perspectives"
     ],
-    "notes": []
+    "notes": [],
+    "collection": "strategy-growth"
   },
   {
     "slug": "strategy-perspectives",
@@ -113,7 +115,8 @@
     "notes": [
       "The notes describe resource-led strategy as more certain and market-led strategy as riskier. Treat this as a teaching contrast, not a general risk ranking.",
       "Several outside-in/inside-out comparisons are deliberately polarized; actual organizations can combine both approaches."
-    ]
+    ],
+    "collection": "strategy-growth"
   },
   {
     "slug": "strategic-thinking",
@@ -145,7 +148,8 @@
       "strategy-perspectives",
       "core-competencies"
     ],
-    "notes": []
+    "notes": [],
+    "collection": "strategy-growth"
   },
   {
     "slug": "strategic-business-units",
@@ -170,7 +174,8 @@
       "competitive-positioning",
       "portfolio-bcg"
     ],
-    "notes": []
+    "notes": [],
+    "collection": "strategy-growth"
   },
   {
     "slug": "strategic-audit",
@@ -197,7 +202,8 @@
       "swot-analysis",
       "value-chain"
     ],
-    "notes": []
+    "notes": [],
+    "collection": "strategy-growth"
   },
   {
     "slug": "competition-landscape",
@@ -231,7 +237,8 @@
     ],
     "notes": [
       "The four market structures are listed in the source without definitions; this page preserves that list and does not invent missing course explanations."
-    ]
+    ],
+    "collection": "strategy-growth"
   },
   {
     "slug": "competitive-dynamics",
@@ -259,7 +266,8 @@
     ],
     "notes": [
       "First-, second- and late-mover outcomes are possibilities, not guaranteed profit or risk rankings."
-    ]
+    ],
+    "collection": "strategy-growth"
   },
   {
     "slug": "competitive-positioning",
@@ -300,7 +308,8 @@
     ],
     "notes": [
       "The AirAsia, Lexus and IKEA examples are historical teaching illustrations. The notes do not establish their current operations."
-    ]
+    ],
+    "collection": "strategy-growth"
   },
   {
     "slug": "competitive-actions",
@@ -324,11 +333,13 @@
     ],
     "related": [
       "competitive-dynamics",
-      "negotiation-strategy"
+      "negotiation-strategy",
+      "marketing-value-disciplines"
     ],
     "notes": [
       "Counterfeiting is retained as a named source classification, not recommended business conduct."
-    ]
+    ],
+    "collection": "strategy-growth"
   },
   {
     "slug": "strategic-groups",
@@ -357,7 +368,8 @@
     "notes": [
       "The automobile map is a historical teaching example, not a current classification of brands or ownership.",
       "The “Strategic Customers” subsection lists search directions without explaining a customer-analysis method; no missing method has been invented."
-    ]
+    ],
+    "collection": "strategy-growth"
   },
   {
     "slug": "environmental-scanning",
@@ -384,7 +396,8 @@
       "scenario-planning",
       "five-forces"
     ],
-    "notes": []
+    "notes": [],
+    "collection": "strategy-growth"
   },
   {
     "slug": "pestle-analysis",
@@ -450,7 +463,8 @@
     "notes": [
       "Market/non-market tags in the notes are a simplified teaching distinction; factors can interact across these categories.",
       "Examples involving laws, economies or technologies are prompts from the notes, not current jurisdiction-specific guidance."
-    ]
+    ],
+    "collection": "strategy-growth"
   },
   {
     "slug": "five-forces",
@@ -515,7 +529,8 @@
     ],
     "notes": [
       "The source’s positioning responses are possible actions to evaluate, not guarantees that price cuts or acquisitions improve results."
-    ]
+    ],
+    "collection": "strategy-growth"
   },
   {
     "slug": "ohmae-three-cs",
@@ -540,7 +555,8 @@
       "competition-landscape",
       "core-competencies"
     ],
-    "notes": []
+    "notes": [],
+    "collection": "strategy-growth"
   },
   {
     "slug": "market-sizing",
@@ -567,7 +583,8 @@
     ],
     "notes": [
       "The source uses short questions rather than a calculation method; no market estimates or numerical assumptions have been invented."
-    ]
+    ],
+    "collection": "strategy-growth"
   },
   {
     "slug": "resource-base",
@@ -592,7 +609,8 @@
       "core-competencies",
       "vrio-resources"
     ],
-    "notes": []
+    "notes": [],
+    "collection": "strategy-growth"
   },
   {
     "slug": "core-competencies",
@@ -634,7 +652,8 @@
     "notes": [
       "The source says core competencies do not depreciate, while also warning of core rigidities. Durability is conditional; capabilities can lose relevance.",
       "Company examples illustrate the notes’ reasoning and are not verified current capability assessments."
-    ]
+    ],
+    "collection": "strategy-growth"
   },
   {
     "slug": "vrio-resources",
@@ -668,7 +687,8 @@
     ],
     "notes": [
       "The source mixes VRIO with VRIN: non-substitutability is retained as a related criterion, not relabeled as the O in VRIO."
-    ]
+    ],
+    "collection": "strategy-growth"
   },
   {
     "slug": "dynamic-capabilities",
@@ -700,7 +720,8 @@
       "digital-maturity",
       "strategy-perspectives"
     ],
-    "notes": []
+    "notes": [],
+    "collection": "strategy-growth"
   },
   {
     "slug": "critical-success-factors",
@@ -738,7 +759,8 @@
       "core-competencies",
       "five-forces"
     ],
-    "notes": []
+    "notes": [],
+    "collection": "strategy-growth"
   },
   {
     "slug": "value-chain",
@@ -779,12 +801,13 @@
     ],
     "notes": [
       "The source says never outsource core activities. Retain this as a strategic caution about losing critical capabilities, rather than an absolute rule for every business."
-    ]
+    ],
+    "collection": "strategy-growth"
   },
   {
     "slug": "supply-chain-response",
     "title": "Supply-chain response: mobilize to operate",
-    "group": "Decisions & execution",
+    "group": "Operating systems & delivery",
     "summary": "Follow the five-stage response sequence attributed in the notes to Accenture.",
     "takeaway": "Connect risk sensing to scenarios, network configuration, operating action and measurement.",
     "ranges": [
@@ -808,7 +831,8 @@
     ],
     "notes": [
       "The source labels this “Value Chain Analysis – Accenture”, but its content concerns supply-chain disruption response. Original publication details were not supplied."
-    ]
+    ],
+    "collection": "operations-performance"
   },
   {
     "slug": "growth-ansoff",
@@ -856,7 +880,8 @@
     "notes": [
       "The “Samsung Galaxy 7” wording and the Burger King campaign are retained as historical source examples with incomplete or potentially inaccurate naming. They are not current factual case studies.",
       "The image suggests a fixed sequence for growth choices. Treat sequencing as the source’s recommendation, not a universal requirement."
-    ]
+    ],
+    "collection": "strategy-growth"
   },
   {
     "slug": "diversification-integration",
@@ -893,7 +918,8 @@
       "Company holdings, transaction dates and prices are unverified historical notes. Preserve them as source claims, not current facts.",
       "The airline integration diagram mixes alliances with integration and uses historical entities; its original relationships are transcribed with that limitation.",
       "The diversification–performance curve is conceptual and supplies no data or estimated optimum."
-    ]
+    ],
+    "collection": "strategy-growth"
   },
   {
     "slug": "growth-methods",
@@ -920,7 +946,8 @@
       "strategy-evaluation",
       "promise-integration"
     ],
-    "notes": []
+    "notes": [],
+    "collection": "strategy-growth"
   },
   {
     "slug": "blue-ocean",
@@ -961,12 +988,13 @@
     "notes": [
       "The strategy-canvas image in the source is a rendering-error message. No recoverable plotted values are present; a numerical canvas cannot be reconstructed.",
       "The AirAsia and QB House material is retained as teaching examples, not current operating descriptions."
-    ]
+    ],
+    "collection": "strategy-growth"
   },
   {
     "slug": "lean-startup",
     "title": "Lean Startup: learn before committing at scale",
-    "group": "Growth & innovation",
+    "group": "Innovation & learning",
     "summary": "Connect minimum viable products, build–measure–learn loops, evidence and staged funding.",
     "takeaway": "Make progress visible through learning that can support a pivot, perseverance or a stop decision.",
     "ranges": [
@@ -988,7 +1016,8 @@
       "growth-horizons",
       "risk-management"
     ],
-    "notes": []
+    "notes": [],
+    "collection": "product-innovation"
   },
   {
     "slug": "growth-horizons",
@@ -1013,7 +1042,8 @@
       "lean-startup",
       "portfolio-bcg"
     ],
-    "notes": []
+    "notes": [],
+    "collection": "strategy-growth"
   },
   {
     "slug": "cage-international",
@@ -1048,7 +1078,8 @@
     "notes": [
       "The China–India comparison contains undated generalizations and historical infrastructure or political assessments. It is preserved as source material, not a current country ranking.",
       "The GE section’s “Alternative and International Market Segmentation” heading has no explanatory text; it is recorded as an incomplete source entry."
-    ]
+    ],
+    "collection": "strategy-growth"
   },
   {
     "slug": "portfolio-bcg",
@@ -1083,7 +1114,8 @@
     "notes": [
       "The source image labels relative share with a percent sign while its ticks are ratios such as 2×. The recreated visual uses relative-share ratios.",
       "The assertion that profitability is directly determined by relative share is a simplifying source assumption, not a guaranteed relationship."
-    ]
+    ],
+    "collection": "strategy-growth"
   },
   {
     "slug": "portfolio-ge",
@@ -1112,7 +1144,8 @@
     "notes": [
       "The source names alternative/international market segmentation without explaining it. No missing method has been invented.",
       "The sample bubbles lack numerical inputs; their positioning is illustrative, not a reproducible company valuation."
-    ]
+    ],
+    "collection": "strategy-growth"
   },
   {
     "slug": "gap-analysis",
@@ -1139,12 +1172,13 @@
       "strategy-evaluation",
       "swot-analysis"
     ],
-    "notes": []
+    "notes": [],
+    "collection": "strategy-growth"
   },
   {
     "slug": "risk-management",
     "title": "Risk management: prioritize uncertainty and response",
-    "group": "Decisions & execution",
+    "group": "Risk & resilience",
     "summary": "Identify risks, assess probability and impact, prioritize responses and revisit changing conditions.",
     "takeaway": "A risk register should inform choices and resource allocation rather than become a static list.",
     "ranges": [
@@ -1164,9 +1198,11 @@
     ],
     "related": [
       "scenario-planning",
-      "strategy-evaluation"
+      "strategy-evaluation",
+      "project-management"
     ],
-    "notes": []
+    "notes": [],
+    "collection": "operations-performance"
   },
   {
     "slug": "strategy-evaluation",
@@ -1220,7 +1256,8 @@
     "notes": [
       "“SAFe” here means suitability, acceptability and feasibility; it is not the Scaled Agile Framework.",
       "Life-cycle funding, dividends and risk labels are simplified teaching patterns rather than financing prescriptions."
-    ]
+    ],
+    "collection": "strategy-growth"
   },
   {
     "slug": "scenario-planning",
@@ -1248,7 +1285,8 @@
       "risk-management",
       "ai-business-scenarios"
     ],
-    "notes": []
+    "notes": [],
+    "collection": "strategy-growth"
   },
   {
     "slug": "swot-analysis",
@@ -1305,7 +1343,8 @@
       "pestle-analysis",
       "vrio-resources"
     ],
-    "notes": []
+    "notes": [],
+    "collection": "strategy-growth"
   },
   {
     "slug": "tows-options",
@@ -1341,12 +1380,13 @@
       "Some example cross-references appear inconsistent: for example Domino’s S1+O1 mentions brand while S1 is franchise economics. The original pairings are retained and flagged rather than silently reassigned.",
       "The company diagnoses are undated source exercises, not verified judgments about those businesses today.",
       "The lower portion of the source TOWS image is cropped; visible text is preserved, with the missing endings explicitly marked."
-    ]
+    ],
+    "collection": "strategy-growth"
   },
   {
     "slug": "balanced-scorecard",
     "title": "Balanced scorecard: connect strategy to measures",
-    "group": "Decisions & execution",
+    "group": "Goals & performance",
     "summary": "Link financial, customer, internal-process and learning objectives with indicators and initiatives.",
     "takeaway": "Choose measures that reflect the strategy, and distinguish objectives, targets, indicators and actions.",
     "ranges": [
@@ -1395,12 +1435,13 @@
     ],
     "notes": [
       "The retail example proposes replacing staff as a learning-and-growth goal. This is retained as a source example, not endorsed as a development measure."
-    ]
+    ],
+    "collection": "operations-performance"
   },
   {
     "slug": "eos-operating-system",
     "title": "EOS: connect vision, accountability and execution",
-    "group": "Decisions & execution",
+    "group": "Operating systems & delivery",
     "summary": "Explore the six components, meeting cadence, vision planning, quarterly priorities and the source’s toolbox inventory.",
     "takeaway": "Connect longer-term direction with measurable priorities, issue solving and a repeatable review cadence.",
     "ranges": [
@@ -1444,12 +1485,13 @@
     "notes": [
       "Several toolbox entries are names only, including LMA, GWC, 5-5-5, Kolbe and the assistance track. They remain explicitly undeveloped source entries.",
       "EOS terminology and tools belong to their respective owners; this educational guide is not an official implementation manual."
-    ]
+    ],
+    "collection": "operations-performance"
   },
   {
     "slug": "high-performance-teams",
     "title": "Build a high-performance team and culture",
-    "group": "Leadership & organizational change",
+    "group": "Teams & organizational alignment",
     "summary": "Connect shared vision, belonging, behavior, resources, clear roles, communication and leadership.",
     "takeaway": "Team performance depends on both the conditions for collaboration and the clarity to deliver results.",
     "ranges": [
@@ -1484,12 +1526,13 @@
     ],
     "notes": [
       "The quotations and their attributions are preserved as supplied; original publication references were not provided."
-    ]
+    ],
+    "collection": "leadership-change"
   },
   {
     "slug": "organizational-alignment",
     "title": "McKinsey 7S: check organizational alignment",
-    "group": "Leadership & organizational change",
+    "group": "Teams & organizational alignment",
     "summary": "Review strategy, structure, systems, skills, style, staff and shared values as connected elements.",
     "takeaway": "Changing strategy may require changes in people, systems and organizational design.",
     "ranges": [
@@ -1510,12 +1553,13 @@
       "high-performance-teams",
       "promise-integration"
     ],
-    "notes": []
+    "notes": [],
+    "collection": "leadership-change"
   },
   {
     "slug": "change-kotter",
     "title": "Kotter: build support and sustain change",
-    "group": "Leadership & organizational change",
+    "group": "Leading change",
     "summary": "Follow the source’s eight-step change sequence from urgency and coalition to sustained organizational practice.",
     "takeaway": "A change initiative needs participation, visible progress and reinforcement over time.",
     "ranges": [
@@ -1542,12 +1586,13 @@
     ],
     "notes": [
       "This page retains the traditional eight-step wording supplied in the notes. The official methodology has evolved; the further-reading link explains its current presentation."
-    ]
+    ],
+    "collection": "leadership-change"
   },
   {
     "slug": "change-responses",
     "title": "Responding to change: emotion, engagement and support",
-    "group": "Leadership & organizational change",
+    "group": "Leading change",
     "summary": "Separate the emotional stages listed as SARAH from the accompanying empower, engage and equip prompts.",
     "takeaway": "Use emotional-response models as prompts for listening, not as a fixed sequence everyone must follow.",
     "ranges": [
@@ -1570,12 +1615,13 @@
     ],
     "notes": [
       "The PwC attribution and the connection between SARAH and the sustainability prompts are not established by the source. They are kept separate in the presentation."
-    ]
+    ],
+    "collection": "leadership-change"
   },
   {
     "slug": "promise-integration",
     "title": "PROMISE: examine people and culture in integration",
-    "group": "Leadership & organizational change",
+    "group": "Leading change",
     "summary": "Explore development, rewards, leadership, systems, innovation, strategic direction and employee experience across organizations.",
     "takeaway": "Integration decisions need attention to how people actually work, not only to structural fit.",
     "ranges": [
@@ -1634,12 +1680,13 @@
     ],
     "notes": [
       "The notes do not identify an original author or publication for this PROMISE framework. It is presented as the collection’s integration checklist."
-    ]
+    ],
+    "collection": "leadership-change"
   },
   {
     "slug": "digital-maturity",
     "title": "Digital maturity: assess more than technology",
-    "group": "Leadership & organizational change",
+    "group": "Leading change",
     "summary": "Consider culture, customers, strategy, technology and operations when reviewing digital transformation.",
     "takeaway": "Technology adoption alone does not establish organizational maturity.",
     "ranges": [
@@ -1663,12 +1710,13 @@
     ],
     "notes": [
       "The notes attribute the model to Deloitte but provide no scoring rubric, maturity levels or source edition; no assessment score has been invented."
-    ]
+    ],
+    "collection": "leadership-change"
   },
   {
     "slug": "stakeholder-management",
     "title": "Stakeholders: interests, influence and responsibility",
-    "group": "Leadership & organizational change",
+    "group": "Teams & organizational alignment",
     "summary": "Understand stakeholder relationships through descriptive, instrumental and normative perspectives.",
     "takeaway": "Identify whose interests and expectations a strategic decision affects.",
     "ranges": [
@@ -1687,37 +1735,44 @@
     ],
     "related": [
       "strategy-evaluation",
-      "negotiation-principled"
+      "negotiation-principled",
+      "project-management"
     ],
     "notes": [
       "The three perspectives are named but not developed in the source. This short guide identifies that limit."
-    ]
+    ],
+    "collection": "leadership-change"
   },
   {
     "slug": "customer-feedback",
-    "title": "Customer feedback: NPS and learning loops",
-    "group": "Decisions & execution",
-    "summary": "Distinguish individual coaching, team problem solving and systemic improvement in the feedback-loop notes.",
-    "takeaway": "Collecting customer feedback has value when it changes behavior and resolves recurring issues.",
-    "ranges": [
-      {
-        "document": "Strategic Management.docx",
-        "start": 935,
-        "end": 943,
-        "heading": "Individual, team and systemic learning loops"
-      }
-    ],
+    "title": "Customer feedback: NPS labels and service scorecards",
+    "group": "Customer experience & retention",
+    "summary": "Distinguish customer recommendation labels from service ratings, then connect feedback to action.",
+    "takeaway": "Know what a feedback measure represents before interpreting a score or deciding what to change.",
+    "ranges": [],
     "steps": [
-      "Individual learning",
-      "Team huddle",
-      "Systemic improvement"
+      "Define the question",
+      "Choose the measure",
+      "Compare consistently",
+      "Close the feedback loop"
     ],
     "related": [
       "balanced-scorecard",
-      "critical-success-factors"
+      "critical-success-factors",
+      "feedback-learning-loops",
+      "customer-systems"
     ],
     "notes": [
       "The source names Net Promoter Score but gives no survey scale or calculation formula. Those missing details have not been invented."
+    ],
+    "collection": "sales-playbook",
+    "editorialSections": [
+      {
+        "heading": "From feedback to improvement",
+        "paragraphs": [
+          "Recommendation labels and service ratings answer different questions. The detailed source labels and scorecard below illustrate these measures without supplying a complete survey method. Individual coaching, team huddles and systemic improvement are explained in the related feedback-learning guide."
+        ]
+      }
     ]
   },
   {
@@ -1746,7 +1801,8 @@
     ],
     "notes": [
       "“Enlarge the pie” appears in the distributive notes but belongs to value-creation thinking; it is identified as a complementary move rather than the defining distributive mechanism."
-    ]
+    ],
+    "collection": "leadership-change"
   },
   {
     "slug": "negotiation-principled",
@@ -1777,9 +1833,12 @@
     ],
     "related": [
       "negotiation-distributive",
-      "negotiation-process"
+      "negotiation-process",
+      "sales-playbook",
+      "communication-personal-development"
     ],
-    "notes": []
+    "notes": [],
+    "collection": "leadership-change"
   },
   {
     "slug": "negotiation-strategy",
@@ -1805,7 +1864,8 @@
       "negotiation-principled",
       "negotiation-process"
     ],
-    "notes": []
+    "notes": [],
+    "collection": "leadership-change"
   },
   {
     "slug": "negotiation-process",
@@ -1841,12 +1901,13 @@
     ],
     "notes": [
       "The source introduction describes organizational change rather than negotiation. It is preserved as a mislabeled sentence and excluded from the recommended process."
-    ]
+    ],
+    "collection": "leadership-change"
   },
   {
     "slug": "personal-productivity",
     "title": "Personal productivity: capture tasks and build habits",
-    "group": "Productivity & priorities",
+    "group": "Personal productivity & priorities",
     "summary": "Explore the two-minute rule, GTD, a daily habit chain, Parkinson’s Law and the big-rocks approach.",
     "takeaway": "Use a reliable task system and protect time for important work; no single rule fits every task.",
     "ranges": [
@@ -1889,12 +1950,14 @@
     "notes": [
       "The habit-chain attribution to Jerry Seinfeld is supplied without an original reference.",
       "Parkinson’s Law is a heuristic; less time does not automatically mean better results."
-    ]
+    ],
+    "collection": "",
+    "topic": "Communication & Personal Development"
   },
   {
     "slug": "kanban-workflow",
     "title": "Kanban: visualize work and limit work in progress",
-    "group": "Productivity & priorities",
+    "group": "Operating systems & delivery",
     "summary": "Use a visible workflow, work-in-progress limits, flow management and continuous improvement.",
     "takeaway": "Make bottlenecks visible before starting more work.",
     "ranges": [
@@ -1913,14 +1976,17 @@
     ],
     "related": [
       "personal-productivity",
-      "okr-goals"
+      "okr-goals",
+      "project-management",
+      "process-improvement"
     ],
-    "notes": []
+    "notes": [],
+    "collection": "operations-performance"
   },
   {
     "slug": "okr-goals",
     "title": "OKRs and SMART goals: connect ambition to outcomes",
-    "group": "Productivity & priorities",
+    "group": "Goals & performance",
     "summary": "Compare objectives and measurable key results with SMART criteria for defining clear goals.",
     "takeaway": "Describe the outcome you want and the evidence that will show progress.",
     "ranges": [
@@ -1948,12 +2014,13 @@
       "balanced-scorecard",
       "eos-operating-system"
     ],
-    "notes": []
+    "notes": [],
+    "collection": "operations-performance"
   },
   {
     "slug": "pareto-priorities",
     "title": "Pareto: find the few factors with the greatest impact",
-    "group": "Productivity & priorities",
+    "group": "Goals & performance",
     "summary": "Explore the 80/20 heuristic with all the supplied individual, team and company examples.",
     "takeaway": "Investigate concentration in your own evidence; an exact 80/20 split is not a law.",
     "ranges": [
@@ -1995,12 +2062,13 @@
     "notes": [
       "The final instruction in the source is incomplete (“with lower…”). It remains flagged as unfinished.",
       "The relationships, health and investment examples are illustrations of the notes’ heuristic, not measured ratios or personalized advice."
-    ]
+    ],
+    "collection": "operations-performance"
   },
   {
     "slug": "prioritization-methods",
     "title": "Prioritization: urgency, scope, value and complexity",
-    "group": "Productivity & priorities",
+    "group": "Personal productivity & priorities",
     "summary": "Compare Eisenhower, MoSCoW and a value–complexity matrix for different prioritization questions.",
     "takeaway": "Choose the framework that matches the decision: time, delivery scope or implementation trade-off.",
     "ranges": [
@@ -2032,11 +2100,48 @@
     "related": [
       "pareto-priorities",
       "personal-productivity",
-      "okr-goals"
+      "okr-goals",
+      "project-management",
+      "operations-performance"
     ],
     "notes": [
       "The final value–complexity quadrant repeats low complexity. The visual marks low-value/high-complexity work as an editorial reconstruction, while retaining the original wording below.",
       "MoSCoW’s “Won’t have” means outside the agreed timeframe, not necessarily excluded forever."
-    ]
+    ],
+    "collection": "",
+    "topic": "Communication & Personal Development"
+  },
+  {
+    "slug": "feedback-learning-loops",
+    "title": "Feedback learning loops: coaching, team huddles and systemic change",
+    "topic": "Business & Management",
+    "collection": "operations-performance",
+    "group": "Goals & performance",
+    "summary": "Turn customer signals into individual learning, shared problem solving and changes to recurring systems.",
+    "takeaway": "Feedback becomes useful when someone acts on it and recurring issues reach the people who can change the system.",
+    "ranges": [
+      {
+        "document": "Strategic Management.docx",
+        "start": 935,
+        "end": 943,
+        "heading": "Individual, team and systemic learning loops"
+      }
+    ],
+    "steps": [
+      "Listen to the signal",
+      "Coach and learn",
+      "Discuss recurring issues",
+      "Improve the system"
+    ],
+    "related": [
+      "customer-feedback",
+      "high-performance-teams",
+      "balanced-scorecard",
+      "process-improvement"
+    ],
+    "notes": [
+      "The source introduces these loops alongside NPS but supplies no prediction study or survey calculation. A loyalty measure alone does not prove business growth."
+    ],
+    "references": []
   }
 ]

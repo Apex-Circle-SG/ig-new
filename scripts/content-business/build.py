@@ -198,7 +198,7 @@ for collection in collections:
         continue
     assert collection['slug'] not in articles
     articles[collection['slug']] = dict(slug=collection['slug'],title=collection['title'],topic=collection['topic'],group=collection['group'],
-        summary=collection['summary'],takeaway='',steps=[],notes=collection['notes'],related=[],sections=[],figures=[],collection='',format='collection',interpretation='',references=collection['references'],visuals=[],questionStages=[])
+        summary=collection['summary'],takeaway='',steps=[],notes=collection['notes'],related=[],sections=[],figures=[],collection=collection['parent'],format='collection',interpretation='',references=collection['references'],visuals=[],questionStages=[])
     search_sections[collection['slug']] = []
 
 # Retain the original guides' official references when rebuilding.
@@ -228,12 +228,35 @@ assert all(slug in slugs for a in articles.values() for slug in a['related']), '
 assert len([a for a in articles.values() if a['format'] == 'chapter']) == 13, 'Missing historical chapter'
 for a in articles.values():
     assert not a['collection'] or any(c['slug'] == a['collection'] for c in collections), 'Unknown collection'
+collection_by_slug = {c['slug']: c for c in collections}
+assert len(collection_by_slug) == len(collections), 'Duplicate collection'
 for collection in collections:
-    selected = [a for a in knowledge if a['topic'] == collection['topic'] and not articles.get(a['slug'], {}).get('collection') and a['slug'] != collection['slug']] if collection['topicRoot'] else [a for a in articles.values() if a['collection'] == collection['slug']]
+    seen = {collection['slug']}
+    parent = collection['parent']
+    assert bool(parent) != collection['topicRoot'], 'Collection root/parent mismatch'
+    while parent:
+        assert parent in collection_by_slug and parent not in seen, 'Unknown parent or cyclic collection hierarchy'
+        seen.add(parent)
+        ancestor = collection_by_slug[parent]
+        assert ancestor['topic'] == collection['topic'], 'Collection crosses topic roots'
+        parent = ancestor['parent']
+    assert all(slug in collection_by_slug and slug != collection['slug'] for slug in collection['relatedCollections']), 'Invalid related collection'
+navigation = []
+for collection in collections:
+    selected = [a for a in knowledge if a['slug'] != collection['slug'] and a['topic'] == collection['topic'] and
+                (articles.get(a['slug'], {}).get('collection') == collection['slug'] or
+                 (collection['topicRoot'] and not articles.get(a['slug'], {}).get('collection')))]
     assert selected, f'Empty collection: {collection["slug"]}'
     for a in selected:
         assert a['group'] in [g['name'] for g in collection['groups']], f'Unlisted category: {collection["slug"]}/{a["group"]}'
     assert all(link['slug'] in slugs for step in collection['journey'] for link in step['links'])
+    navigation.append(dict(slug=collection['slug'], title=collection['title'], topic=collection['topic'],
+                           parent=collection['parent'], members=[a['slug'] for a in selected]))
+members = [slug for c in navigation for slug in c['members']]
+assert len(members) == len(set(members)), 'Article has more than one primary collection'
+business_gateway = next(c for c in navigation if c['slug'] == 'business-management')
+assert len(business_gateway['members']) == 7 and all(slug in collection_by_slug for slug in business_gateway['members']), 'Business gateway must contain seven hubs'
+assert all(a['collection'] for a in articles.values() if a['topic'] == TOPIC), 'Unfiled business article'
 
 for article in articles.values():
     for visual in article['visuals']:
@@ -278,6 +301,6 @@ for batch, documents, coverage, image_coverage in outputs:
     print(f'{batch["key"]}: {len(coverage)} paragraphs, {len(image_coverage)} images, no unmapped items')
 save(DEST / 'guides.json', list(articles.values()))
 save(DEST / 'collections.json', collections)
-save(DEST / 'collection-roots.json', [dict(slug=c['slug'], topic=c['topic']) for c in collections if c['topicRoot']])
+save(DEST / 'collection-navigation.json', navigation)
 save(knowledge_path, knowledge)
 print(f'{len(articles)} guides/collection indexes; {sum(c["topicRoot"] for c in collections)} topic hubs')

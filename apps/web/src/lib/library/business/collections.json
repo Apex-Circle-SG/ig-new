@@ -1,11 +1,83 @@
 [
   {
     "slug": "business-management",
-    "title": "Business & Management: from analysis to action",
+    "title": "Business & Management: choose your next decision",
     "topic": "Business & Management",
     "group": "Start here",
-    "summary": "Explore strategy, marketing, branding, product innovation, sales, leadership and practical business decisions through connected collections.",
-    "intro": "Start with a business decision, or follow the marketing, brand, product-development, sales and strategy-classics collections.",
+    "summary": "Find a focused path through strategy, marketing, brands, sales, products, leadership and operations.",
+    "intro": "Choose the business decision you are working on. Each hub has its own reading paths, comparisons and detailed guides.",
+    "groups": [
+      {
+        "name": "Explore business",
+        "description": "Seven focused hubs. Choose a subject before exploring its frameworks and detailed readings."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Choose where to compete",
+        "links": [
+          {
+            "slug": "strategy-growth",
+            "label": "Explore strategy and growth"
+          },
+          {
+            "slug": "marketing-strategy",
+            "label": "Understand customers and markets"
+          }
+        ]
+      },
+      {
+        "title": "Develop the offer",
+        "links": [
+          {
+            "slug": "product-innovation",
+            "label": "Develop and test products"
+          },
+          {
+            "slug": "brand-strategy",
+            "label": "Build brand meaning"
+          }
+        ]
+      },
+      {
+        "title": "Deliver and improve",
+        "links": [
+          {
+            "slug": "sales-playbook",
+            "label": "Serve and retain customers"
+          },
+          {
+            "slug": "leadership-change",
+            "label": "Lead people through change"
+          },
+          {
+            "slug": "operations-performance",
+            "label": "Coordinate work and performance"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Supplied examples, claims and checklists accompany the summaries. Incomplete entries and uncertain claims are identified on their relevant pages.",
+      "Historical company examples and numerical sales claims are study material, not verified current benchmarks. Original diagrams are rebuilt as readable visuals; unavailable content is disclosed."
+    ],
+    "references": [],
+    "topicRoot": true,
+    "relatedCollections": [
+      "project-management",
+      "process-improvement",
+      "communication-personal-development",
+      "problem-solving"
+    ],
+    "parent": ""
+  },
+  {
+    "slug": "strategy-growth",
+    "title": "Strategy & Growth",
+    "topic": "Business & Management",
+    "group": "Explore business",
+    "summary": "Understand the situation, choose a direction and assess the resources and trade-offs behind growth.",
+    "intro": "Understand the situation, choose a direction and assess the resources and trade-offs behind growth.",
     "groups": [
       {
         "name": "Strategy foundations",
@@ -28,45 +100,13 @@
         "description": "Evaluate options, allocate resources and measure progress."
       },
       {
-        "name": "Leadership & organizational change",
-        "description": "Build teams and support the organizational work of change."
-      },
-      {
-        "name": "Sales & customer relationships",
-        "description": "Find fit, discover needs, agree decisions and support customers."
-      },
-      {
-        "name": "Sales leadership & operations",
-        "description": "Plan revenue, coordinate accounts and coach the sales organization."
-      },
-      {
-        "name": "Negotiation",
-        "description": "Prepare, create options and reach workable agreements."
-      },
-      {
-        "name": "Productivity & priorities",
-        "description": "Turn goals into focused work and a manageable workflow."
-      },
-      {
         "name": "Strategy classics",
         "description": "Read historical strategy with clearly separated modern reflections."
-      },
-      {
-        "name": "Marketing strategy & execution",
-        "description": "Understand customers, choose a position and coordinate delivery."
-      },
-      {
-        "name": "Brand strategy & experience",
-        "description": "Build meaning, measure equity and organize brand portfolios."
-      },
-      {
-        "name": "Product development & innovation",
-        "description": "Explore products, test concepts and learn through development."
       }
     ],
     "journey": [
       {
-        "title": "Understand the situation",
+        "title": "Diagnose the situation",
         "links": [
           {
             "slug": "strategic-audit",
@@ -78,7 +118,7 @@
           },
           {
             "slug": "five-forces",
-            "label": "Assess industry pressures"
+            "label": "Assess industry pressure"
           }
         ]
       },
@@ -91,115 +131,245 @@
           },
           {
             "slug": "growth-ansoff",
-            "label": "Explore growth options"
+            "label": "Compare growth directions"
           },
           {
             "slug": "strategy-evaluation",
-            "label": "Evaluate the choices"
+            "label": "Evaluate strategic choices"
           }
         ]
       },
       {
-        "title": "Make it happen",
+        "title": "Check capacity and learn",
         "links": [
           {
-            "slug": "sales-playbook",
-            "label": "Explore the sales playbook"
+            "slug": "vrio-resources",
+            "label": "Assess resources and advantage"
           },
           {
-            "slug": "change-kotter",
-            "label": "Build support for change"
+            "slug": "scenario-planning",
+            "label": "Prepare for alternative futures"
           },
           {
-            "slug": "balanced-scorecard",
-            "label": "Define measures"
+            "slug": "art-of-war",
+            "label": "Explore historical strategy readings"
           }
         ]
       }
     ],
     "notes": [
-      "Supplied examples, claims and checklists accompany the summaries. Incomplete entries and uncertain claims are identified on their relevant pages.",
-      "Historical company examples and numerical sales claims are study material, not verified current benchmarks. Original diagrams are rebuilt as readable visuals; unavailable content is disclosed."
+      "Frameworks help structure a decision; use the detailed evidence and limitations on each reading when applying them."
     ],
     "references": [],
-    "topicRoot": true
+    "topicRoot": false,
+    "parent": "business-management",
+    "relatedCollections": [
+      "marketing-strategy",
+      "product-innovation",
+      "leadership-change",
+      "operations-performance"
+    ]
   },
   {
-    "slug": "communication-personal-development",
-    "title": "Communication & Personal Development",
-    "topic": "Communication & Personal Development",
-    "group": "Start here",
-    "summary": "Explore listening, clear expression, persuasion and the supplied NLP reference material with context and evidence notes.",
-    "intro": "Start with practical communication, then explore the reference collection while distinguishing source claims from established evidence.",
+    "slug": "marketing-strategy",
+    "title": "Marketing Strategy & Execution",
+    "topic": "Business & Management",
+    "group": "Explore business",
+    "summary": "Understand the customer, choose a market position, coordinate the offer and measure execution.",
+    "intro": "Understand the customer, choose a market position, coordinate the offer and measure execution.",
     "groups": [
       {
-        "name": "Communication & influence",
-        "description": "Listen, explain and discuss value with clarity and respect."
+        "name": "Marketing foundations",
+        "description": "Clarify value, market roles and the marketing mix."
       },
       {
-        "name": "Learning & personal development",
-        "description": "Examine learning and creative-thinking material, including incomplete exercises."
+        "name": "Customers & positioning",
+        "description": "Segment, target and explain a relevant difference."
       },
       {
-        "name": "NLP reference",
-        "description": "Read the source terminology as an annotated reference, with evidence and scope notes."
+        "name": "Channels & pricing",
+        "description": "Coordinate access, distribution, logistics and pricing."
+      },
+      {
+        "name": "Communications & digital",
+        "description": "Plan messages, channels, budgets and customer journeys."
+      },
+      {
+        "name": "Planning & international markets",
+        "description": "Turn choices into action and assess market-entry differences."
       }
     ],
     "journey": [
       {
-        "title": "Communicate clearly",
+        "title": "Understand and choose",
         "links": [
           {
-            "slug": "listening-and-rapport",
-            "label": "Listen and build rapport"
+            "slug": "marketing-customer-value",
+            "label": "Start with customer value"
           },
           {
-            "slug": "clear-communication",
-            "label": "Explain a message clearly"
+            "slug": "market-segmentation",
+            "label": "Understand segments"
+          },
+          {
+            "slug": "market-positioning",
+            "label": "Choose a position"
           }
         ]
       },
       {
-        "title": "Examine influence",
+        "title": "Deliver the offer",
         "links": [
           {
-            "slug": "persuasion-evidence",
-            "label": "Compare persuasion and evidence"
+            "slug": "value-proposition-design",
+            "label": "Map value and needs"
           },
           {
-            "slug": "needs-and-motivation",
-            "label": "Ask about needs and motivation"
+            "slug": "marketing-pricing-methods",
+            "label": "Choose a pricing basis"
+          },
+          {
+            "slug": "marketing-channels",
+            "label": "Choose distribution routes"
           }
         ]
       },
       {
-        "title": "Read with context",
+        "title": "Execute and learn",
         "links": [
           {
-            "slug": "nlp-reference",
-            "label": "Explore the NLP reference"
+            "slug": "marketing-planning",
+            "label": "Build the marketing plan"
           },
           {
-            "slug": "creative-thinking-exercises",
-            "label": "Inspect the dot exercises"
+            "slug": "marketing-race-planning",
+            "label": "Use RACE"
+          },
+          {
+            "slug": "sales-playbook",
+            "label": "Connect to the sales journey"
           }
         ]
       }
     ],
     "notes": [
-      "NLP in this collection means neuro-linguistic programming, distinct from natural language processing in AI.",
-      "Language and personality labels are descriptions from the collection, not diagnoses or fixed categories for judging people. Therapeutic claims are separated and discussed critically."
+      "Historical examples, unsupported percentages and incomplete framework descriptions are retained with reading notes. Conceptual charts are distinguished from observations.",
+      "Related material is connected to existing business, sales, project-management and improvement guides rather than duplicated as unrelated readings."
     ],
     "references": [],
-    "topicRoot": true
+    "topicRoot": false,
+    "parent": "business-management",
+    "relatedCollections": [
+      "brand-strategy",
+      "sales-playbook",
+      "product-innovation",
+      "strategy-growth",
+      "operations-performance"
+    ]
+  },
+  {
+    "slug": "brand-strategy",
+    "title": "Brand Strategy & Experience",
+    "topic": "Business & Management",
+    "group": "Explore business",
+    "summary": "Connect identity and customer meaning with communication, experience, equity and portfolio decisions.",
+    "intro": "Connect identity and customer meaning with communication, experience, equity and portfolio decisions.",
+    "groups": [
+      {
+        "name": "Brand foundations",
+        "description": "Understand the brand and what people remember."
+      },
+      {
+        "name": "Identity & corporate branding",
+        "description": "Coordinate values, names, packaging, employees and enterprise identity."
+      },
+      {
+        "name": "Equity & measurement",
+        "description": "Separate customer response, experience and financial valuation."
+      },
+      {
+        "name": "Expression & relationships",
+        "description": "Examine communication, borrowed associations, personality and relationships."
+      },
+      {
+        "name": "Architecture & growth",
+        "description": "Organize brands and assess extensions and cause-related associations."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Define meaning",
+        "links": [
+          {
+            "slug": "brand-foundations",
+            "label": "Understand the brand"
+          },
+          {
+            "slug": "brand-identity",
+            "label": "Clarify identity"
+          },
+          {
+            "slug": "market-positioning",
+            "label": "Define the position"
+          }
+        ]
+      },
+      {
+        "title": "Deliver the promise",
+        "links": [
+          {
+            "slug": "corporate-branding",
+            "label": "Align the organization"
+          },
+          {
+            "slug": "brand-experience",
+            "label": "Examine experience"
+          },
+          {
+            "slug": "brand-communications",
+            "label": "Coordinate communication"
+          }
+        ]
+      },
+      {
+        "title": "Measure and grow",
+        "links": [
+          {
+            "slug": "brand-equity",
+            "label": "Compare equity frameworks"
+          },
+          {
+            "slug": "brand-architecture",
+            "label": "Map the portfolio"
+          },
+          {
+            "slug": "brand-extension",
+            "label": "Evaluate extensions"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Historical examples, unsupported percentages and incomplete framework descriptions are retained with reading notes. Conceptual charts are distinguished from observations.",
+      "Related material is connected to existing business, sales, project-management and improvement guides rather than duplicated as unrelated readings."
+    ],
+    "references": [],
+    "topicRoot": false,
+    "parent": "business-management",
+    "relatedCollections": [
+      "marketing-strategy",
+      "product-innovation",
+      "sales-playbook",
+      "leadership-change"
+    ]
   },
   {
     "slug": "sales-playbook",
-    "title": "Sales playbook: from prospecting to customer success",
+    "title": "Sales & Customer Relationships",
     "topic": "Business & Management",
-    "group": "Sales & customer relationships",
-    "summary": "Follow the buyer journey, prepare conversations and explore the work of leading a sales team.",
-    "intro": "Use the journey for a live opportunity or browse the detailed guides for a question you need to answer.",
+    "group": "Explore business",
+    "summary": "Find suitable customers, support buying decisions and improve the ongoing customer experience.",
+    "intro": "Find suitable customers, support buying decisions and improve the ongoing customer experience.",
     "groups": [
       {
         "name": "Sales & customer relationships",
@@ -208,6 +378,10 @@
       {
         "name": "Sales leadership & operations",
         "description": "Plan, forecast, coordinate accounts and coach the team."
+      },
+      {
+        "name": "Customer experience & retention",
+        "description": "Connect customer systems, feedback, retention and service learning."
       }
     ],
     "journey": [
@@ -268,7 +442,365 @@
       "Unreferenced statistics and questionable influence anecdotes are retained with reading notes, not promoted as facts or recommended tactics."
     ],
     "references": [],
-    "topicRoot": false
+    "topicRoot": false,
+    "parent": "business-management",
+    "relatedCollections": [
+      "marketing-strategy",
+      "brand-strategy",
+      "leadership-change",
+      "operations-performance"
+    ]
+  },
+  {
+    "slug": "product-innovation",
+    "title": "Product Development & Innovation",
+    "topic": "Business & Management",
+    "group": "Explore business",
+    "summary": "Define the offer, test concepts, develop products and learn through design and market feedback.",
+    "intro": "Define the offer, test concepts, develop products and learn through design and market feedback.",
+    "groups": [
+      {
+        "name": "Products & services",
+        "description": "Understand benefits, levels, service quality and offering trade-offs."
+      },
+      {
+        "name": "Development & validation",
+        "description": "Generate ideas, test assumptions and learn from prototypes."
+      },
+      {
+        "name": "Lifecycle & adoption",
+        "description": "Read conceptual market stages and adoption patterns."
+      },
+      {
+        "name": "Innovation & learning",
+        "description": "Connect discovery, experimentation and open innovation with development."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Define the offer",
+        "links": [
+          {
+            "slug": "product-levels-types",
+            "label": "Start with the benefit"
+          },
+          {
+            "slug": "service-design-quality",
+            "label": "Understand service delivery"
+          },
+          {
+            "slug": "value-proposition-design",
+            "label": "Connect to customer jobs"
+          }
+        ]
+      },
+      {
+        "title": "Develop and learn",
+        "links": [
+          {
+            "slug": "new-product-development",
+            "label": "Follow development decisions"
+          },
+          {
+            "slug": "product-concept-testing",
+            "label": "Choose a useful test"
+          },
+          {
+            "slug": "design-sprints",
+            "label": "Explore through prototypes"
+          }
+        ]
+      },
+      {
+        "title": "Review the market",
+        "links": [
+          {
+            "slug": "product-lifecycle",
+            "label": "Question lifecycle assumptions"
+          },
+          {
+            "slug": "innovation-adoption",
+            "label": "Explore adoption categories"
+          },
+          {
+            "slug": "innovation-pathways",
+            "label": "Connect innovation approaches"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Historical examples, unsupported percentages and incomplete framework descriptions are retained with reading notes. Conceptual charts are distinguished from observations.",
+      "Related material is connected to existing business, sales, project-management and improvement guides rather than duplicated as unrelated readings."
+    ],
+    "references": [],
+    "topicRoot": false,
+    "parent": "business-management",
+    "relatedCollections": [
+      "strategy-growth",
+      "marketing-strategy",
+      "brand-strategy",
+      "project-management",
+      "process-improvement"
+    ]
+  },
+  {
+    "slug": "leadership-change",
+    "title": "Leadership & Organizational Change",
+    "topic": "Business & Management",
+    "group": "Explore business",
+    "summary": "Build effective teams, align the organization and navigate change and negotiation.",
+    "intro": "Build effective teams, align the organization and navigate change and negotiation.",
+    "groups": [
+      {
+        "name": "Teams & organizational alignment",
+        "description": "Connect people, culture, structure and responsibility."
+      },
+      {
+        "name": "Leading change",
+        "description": "Understand change, organizational maturity and integration."
+      },
+      {
+        "name": "Negotiation",
+        "description": "Prepare, compare interests and reach workable agreements."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Understand the organization",
+        "links": [
+          {
+            "slug": "high-performance-teams",
+            "label": "Build effective teams"
+          },
+          {
+            "slug": "organizational-alignment",
+            "label": "Check alignment"
+          },
+          {
+            "slug": "stakeholder-management",
+            "label": "Understand stakeholder responsibility"
+          }
+        ]
+      },
+      {
+        "title": "Lead change",
+        "links": [
+          {
+            "slug": "change-kotter",
+            "label": "Build support for change"
+          },
+          {
+            "slug": "change-responses",
+            "label": "Support people through change"
+          },
+          {
+            "slug": "promise-integration",
+            "label": "Examine integration and culture"
+          }
+        ]
+      },
+      {
+        "title": "Reach an agreement",
+        "links": [
+          {
+            "slug": "negotiation-principled",
+            "label": "Work with interests and BATNA"
+          },
+          {
+            "slug": "negotiation-process",
+            "label": "Prepare and follow through"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Frameworks help structure a decision; use the detailed evidence and limitations on each reading when applying them."
+    ],
+    "references": [],
+    "topicRoot": false,
+    "parent": "business-management",
+    "relatedCollections": [
+      "communication-personal-development",
+      "sales-playbook",
+      "project-management",
+      "operations-performance"
+    ]
+  },
+  {
+    "slug": "operations-performance",
+    "title": "Operations & Performance",
+    "topic": "Business & Management",
+    "group": "Explore business",
+    "summary": "Coordinate everyday delivery, manage operating risk and turn performance measures into improvements.",
+    "intro": "Coordinate everyday delivery, manage operating risk and turn performance measures into improvements.",
+    "groups": [
+      {
+        "name": "Operating systems & delivery",
+        "description": "Connect supply, logistics, workflow and execution systems."
+      },
+      {
+        "name": "Goals & performance",
+        "description": "Choose outcomes, measures and improvement priorities."
+      },
+      {
+        "name": "Risk & resilience",
+        "description": "Identify uncertainty and examine operational trade-offs."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Coordinate the work",
+        "links": [
+          {
+            "slug": "supply-chain-response",
+            "label": "Connect supply and delivery"
+          },
+          {
+            "slug": "marketing-logistics",
+            "label": "Coordinate logistics"
+          },
+          {
+            "slug": "kanban-workflow",
+            "label": "Make work and bottlenecks visible"
+          }
+        ]
+      },
+      {
+        "title": "Measure useful outcomes",
+        "links": [
+          {
+            "slug": "okr-goals",
+            "label": "Define goals and outcomes"
+          },
+          {
+            "slug": "balanced-scorecard",
+            "label": "Link strategy to measures"
+          },
+          {
+            "slug": "eos-operating-system",
+            "label": "Coordinate execution"
+          }
+        ]
+      },
+      {
+        "title": "Improve and respond",
+        "links": [
+          {
+            "slug": "risk-management",
+            "label": "Assess operating uncertainty"
+          },
+          {
+            "slug": "feedback-learning-loops",
+            "label": "Close the learning loop"
+          },
+          {
+            "slug": "pareto-priorities",
+            "label": "Focus on high-impact factors"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Frameworks help structure a decision; use the detailed evidence and limitations on each reading when applying them."
+    ],
+    "references": [],
+    "topicRoot": false,
+    "parent": "business-management",
+    "relatedCollections": [
+      "project-management",
+      "process-improvement",
+      "sales-playbook",
+      "strategy-growth"
+    ]
+  },
+  {
+    "slug": "communication-personal-development",
+    "title": "Communication & Personal Development",
+    "topic": "Communication & Personal Development",
+    "group": "Start here",
+    "summary": "Explore listening, clear expression, persuasion and the supplied NLP reference material with context and evidence notes.",
+    "intro": "Start with practical communication, then explore the reference collection while distinguishing source claims from established evidence.",
+    "groups": [
+      {
+        "name": "Communication & influence",
+        "description": "Listen, explain and discuss value with clarity and respect."
+      },
+      {
+        "name": "Learning & personal development",
+        "description": "Examine learning and creative-thinking material, including incomplete exercises."
+      },
+      {
+        "name": "NLP reference",
+        "description": "Read the source terminology as an annotated reference, with evidence and scope notes."
+      },
+      {
+        "name": "Personal productivity & priorities",
+        "description": "Build a manageable task system and choose a prioritisation method that fits the question."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Communicate clearly",
+        "links": [
+          {
+            "slug": "listening-and-rapport",
+            "label": "Listen and build rapport"
+          },
+          {
+            "slug": "clear-communication",
+            "label": "Explain a message clearly"
+          }
+        ]
+      },
+      {
+        "title": "Examine influence",
+        "links": [
+          {
+            "slug": "persuasion-evidence",
+            "label": "Compare persuasion and evidence"
+          },
+          {
+            "slug": "needs-and-motivation",
+            "label": "Ask about needs and motivation"
+          }
+        ]
+      },
+      {
+        "title": "Read with context",
+        "links": [
+          {
+            "slug": "nlp-reference",
+            "label": "Explore the NLP reference"
+          },
+          {
+            "slug": "creative-thinking-exercises",
+            "label": "Inspect the dot exercises"
+          }
+        ]
+      },
+      {
+        "title": "Organize your work",
+        "links": [
+          {
+            "slug": "personal-productivity",
+            "label": "Build a reliable task system"
+          },
+          {
+            "slug": "prioritization-methods",
+            "label": "Compare prioritisation methods"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "NLP in this collection means neuro-linguistic programming, distinct from natural language processing in AI.",
+      "Language and personality labels are descriptions from the collection, not diagnoses or fixed categories for judging people. Therapeutic claims are separated and discussed critically."
+    ],
+    "references": [],
+    "topicRoot": true,
+    "parent": "",
+    "relatedCollections": []
   },
   {
     "slug": "nlp-reference",
@@ -343,7 +875,9 @@
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3481516/"
       }
     ],
-    "topicRoot": false
+    "topicRoot": false,
+    "parent": "communication-personal-development",
+    "relatedCollections": []
   },
   {
     "slug": "art-of-war",
@@ -421,7 +955,9 @@
         "url": "https://www.gutenberg.org/ebooks/132"
       }
     ],
-    "topicRoot": false
+    "topicRoot": false,
+    "parent": "strategy-growth",
+    "relatedCollections": []
   },
   {
     "slug": "project-management",
@@ -514,7 +1050,9 @@
       "Historical claims and incomplete examples are retained with limitations. Named frameworks are not interchangeable or complete professional procedures."
     ],
     "references": [],
-    "topicRoot": true
+    "topicRoot": true,
+    "parent": "",
+    "relatedCollections": []
   },
   {
     "slug": "six-sigma-improvement",
@@ -588,7 +1126,9 @@
         "url": "https://asq.org/quality-resources/six-sigma"
       }
     ],
-    "topicRoot": false
+    "topicRoot": false,
+    "parent": "process-improvement",
+    "relatedCollections": []
   },
   {
     "slug": "technology",
@@ -681,7 +1221,9 @@
       "Existing technical articles retain their URLs and content. Historical tools and incomplete abstracts carry their own source notes."
     ],
     "references": [],
-    "topicRoot": true
+    "topicRoot": true,
+    "parent": "",
+    "relatedCollections": []
   },
   {
     "slug": "process-improvement",
@@ -745,7 +1287,9 @@
       "Read each method with its source limitations. Conceptual summaries are distinguished from supplied measurements and complete worked examples."
     ],
     "references": [],
-    "topicRoot": true
+    "topicRoot": true,
+    "parent": "",
+    "relatedCollections": []
   },
   {
     "slug": "problem-solving",
@@ -805,7 +1349,9 @@
       "Read each method with its source limitations. Conceptual summaries are distinguished from supplied measurements and complete worked examples."
     ],
     "references": [],
-    "topicRoot": true
+    "topicRoot": true,
+    "parent": "",
+    "relatedCollections": []
   },
   {
     "slug": "beliefs-mysteries",
@@ -890,7 +1436,9 @@
       "Scientific and computing topics have their own destinations under Science & Quantum and Technology. Chart attribution is distinguished from verification of its claims."
     ],
     "references": [],
-    "topicRoot": true
+    "topicRoot": true,
+    "parent": "",
+    "relatedCollections": []
   },
   {
     "slug": "freemasonry",
@@ -963,7 +1511,9 @@
       "The text is an undated supplied version with Centenary Lodge references, not an authenticated universal ritual or a complete account of all Freemasonry. Narrative and symbolic penalties are read as ritual material, not proof of actual practices or ancient events."
     ],
     "references": [],
-    "topicRoot": false
+    "topicRoot": false,
+    "parent": "beliefs-mysteries",
+    "relatedCollections": []
   },
   {
     "slug": "science-and-quantum",
@@ -1033,265 +1583,8 @@
     ],
     "notes": [],
     "references": [],
-    "topicRoot": true
-  },
-  {
-    "slug": "marketing-strategy",
-    "title": "Marketing Strategy & Execution",
-    "topic": "Business & Management",
-    "group": "Marketing strategy & execution",
-    "summary": "Understand the customer, choose a market position, coordinate the offer and measure execution.",
-    "intro": "Understand the customer, choose a market position, coordinate the offer and measure execution.",
-    "groups": [
-      {
-        "name": "Marketing foundations",
-        "description": "Clarify value, market roles and the marketing mix."
-      },
-      {
-        "name": "Customers & positioning",
-        "description": "Segment, target and explain a relevant difference."
-      },
-      {
-        "name": "Channels & pricing",
-        "description": "Coordinate access, distribution, logistics and pricing."
-      },
-      {
-        "name": "Communications & digital",
-        "description": "Plan messages, channels, budgets and customer journeys."
-      },
-      {
-        "name": "Planning & international markets",
-        "description": "Turn choices into action and assess market-entry differences."
-      }
-    ],
-    "journey": [
-      {
-        "title": "Understand and choose",
-        "links": [
-          {
-            "slug": "marketing-customer-value",
-            "label": "Start with customer value"
-          },
-          {
-            "slug": "market-segmentation",
-            "label": "Understand segments"
-          },
-          {
-            "slug": "market-positioning",
-            "label": "Choose a position"
-          }
-        ]
-      },
-      {
-        "title": "Deliver the offer",
-        "links": [
-          {
-            "slug": "value-proposition-design",
-            "label": "Map value and needs"
-          },
-          {
-            "slug": "marketing-pricing-methods",
-            "label": "Choose a pricing basis"
-          },
-          {
-            "slug": "marketing-channels",
-            "label": "Choose distribution routes"
-          }
-        ]
-      },
-      {
-        "title": "Execute and learn",
-        "links": [
-          {
-            "slug": "marketing-planning",
-            "label": "Build the marketing plan"
-          },
-          {
-            "slug": "marketing-race-planning",
-            "label": "Use RACE"
-          },
-          {
-            "slug": "sales-playbook",
-            "label": "Connect to the sales journey"
-          }
-        ]
-      }
-    ],
-    "notes": [
-      "Historical examples, unsupported percentages and incomplete framework descriptions are retained with reading notes. Conceptual charts are distinguished from observations.",
-      "Related material is connected to existing business, sales, project-management and improvement guides rather than duplicated as unrelated readings."
-    ],
-    "references": [],
-    "topicRoot": false
-  },
-  {
-    "slug": "brand-strategy",
-    "title": "Brand Strategy & Experience",
-    "topic": "Business & Management",
-    "group": "Brand strategy & experience",
-    "summary": "Connect identity and customer meaning with communication, experience, equity and portfolio decisions.",
-    "intro": "Connect identity and customer meaning with communication, experience, equity and portfolio decisions.",
-    "groups": [
-      {
-        "name": "Brand foundations",
-        "description": "Understand the brand and what people remember."
-      },
-      {
-        "name": "Identity & corporate branding",
-        "description": "Coordinate values, names, packaging, employees and enterprise identity."
-      },
-      {
-        "name": "Equity & measurement",
-        "description": "Separate customer response, experience and financial valuation."
-      },
-      {
-        "name": "Expression & relationships",
-        "description": "Examine communication, borrowed associations, personality and relationships."
-      },
-      {
-        "name": "Architecture & growth",
-        "description": "Organize brands and assess extensions and cause-related associations."
-      }
-    ],
-    "journey": [
-      {
-        "title": "Define meaning",
-        "links": [
-          {
-            "slug": "brand-foundations",
-            "label": "Understand the brand"
-          },
-          {
-            "slug": "brand-identity",
-            "label": "Clarify identity"
-          },
-          {
-            "slug": "market-positioning",
-            "label": "Define the position"
-          }
-        ]
-      },
-      {
-        "title": "Deliver the promise",
-        "links": [
-          {
-            "slug": "corporate-branding",
-            "label": "Align the organization"
-          },
-          {
-            "slug": "brand-experience",
-            "label": "Examine experience"
-          },
-          {
-            "slug": "brand-communications",
-            "label": "Coordinate communication"
-          }
-        ]
-      },
-      {
-        "title": "Measure and grow",
-        "links": [
-          {
-            "slug": "brand-equity",
-            "label": "Compare equity frameworks"
-          },
-          {
-            "slug": "brand-architecture",
-            "label": "Map the portfolio"
-          },
-          {
-            "slug": "brand-extension",
-            "label": "Evaluate extensions"
-          }
-        ]
-      }
-    ],
-    "notes": [
-      "Historical examples, unsupported percentages and incomplete framework descriptions are retained with reading notes. Conceptual charts are distinguished from observations.",
-      "Related material is connected to existing business, sales, project-management and improvement guides rather than duplicated as unrelated readings."
-    ],
-    "references": [],
-    "topicRoot": false
-  },
-  {
-    "slug": "product-innovation",
-    "title": "Product Development & Innovation",
-    "topic": "Business & Management",
-    "group": "Product development & innovation",
-    "summary": "Define the offer, test concepts, develop products and learn through design and market feedback.",
-    "intro": "Define the offer, test concepts, develop products and learn through design and market feedback.",
-    "groups": [
-      {
-        "name": "Products & services",
-        "description": "Understand benefits, levels, service quality and offering trade-offs."
-      },
-      {
-        "name": "Development & validation",
-        "description": "Generate ideas, test assumptions and learn from prototypes."
-      },
-      {
-        "name": "Lifecycle & adoption",
-        "description": "Read conceptual market stages and adoption patterns."
-      }
-    ],
-    "journey": [
-      {
-        "title": "Define the offer",
-        "links": [
-          {
-            "slug": "product-levels-types",
-            "label": "Start with the benefit"
-          },
-          {
-            "slug": "service-design-quality",
-            "label": "Understand service delivery"
-          },
-          {
-            "slug": "value-proposition-design",
-            "label": "Connect to customer jobs"
-          }
-        ]
-      },
-      {
-        "title": "Develop and learn",
-        "links": [
-          {
-            "slug": "new-product-development",
-            "label": "Follow development decisions"
-          },
-          {
-            "slug": "product-concept-testing",
-            "label": "Choose a useful test"
-          },
-          {
-            "slug": "design-sprints",
-            "label": "Explore through prototypes"
-          }
-        ]
-      },
-      {
-        "title": "Review the market",
-        "links": [
-          {
-            "slug": "product-lifecycle",
-            "label": "Question lifecycle assumptions"
-          },
-          {
-            "slug": "innovation-adoption",
-            "label": "Explore adoption categories"
-          },
-          {
-            "slug": "innovation-pathways",
-            "label": "Connect innovation approaches"
-          }
-        ]
-      }
-    ],
-    "notes": [
-      "Historical examples, unsupported percentages and incomplete framework descriptions are retained with reading notes. Conceptual charts are distinguished from observations.",
-      "Related material is connected to existing business, sales, project-management and improvement guides rather than duplicated as unrelated readings."
-    ],
-    "references": [],
-    "topicRoot": false
+    "topicRoot": true,
+    "parent": "",
+    "relatedCollections": []
   }
 ]

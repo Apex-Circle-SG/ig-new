@@ -2,6 +2,7 @@ import Link from 'next/link';
 import type { KnowledgeArticle } from '../../../../lib/library';
 import guides from '../../../../lib/library/business/guides.json';
 import collections from '../../../../lib/library/business/collections.json';
+import { collectionPath, primaryCollection } from '../../../../lib/library/collection-navigation';
 import { SalesQuestionBank } from './sales-question-bank';
 import { NetworkConnections } from './network-connections';
 import { SourceImage, type SourceImageRecord } from './source-image';
@@ -77,11 +78,16 @@ export function CollectionGuide({ article, articles }: { article: KnowledgeArtic
   const topicHub = collections.find((item) => item.topicRoot && item.topic === article.topic);
   const guide = guideBySlug.get(article.slug);
   if (!topicHub || (!collection && !guide)) throw new Error(`Missing collection guide: ${article.slug}`);
-  const parentCollection = guide?.collection ? collections.find((item) => item.slug === guide.collection) : undefined;
+  const parentCollection = primaryCollection(article.slug);
+  const ancestors = collectionPath(article.slug);
   const related = guide?.related.map((slug) => articles.find((item) => item.slug === slug)).filter((item) => item !== undefined) ?? [];
-  const selected = collection ? articles.filter((item) => collection.topicRoot
-    ? item.topic === collection.topic && item.slug !== collection.slug && !guideBySlug.get(item.slug)?.collection
-    : guideBySlug.get(item.slug)?.collection === collection.slug).map((item) => ({ ...item, format: guideBySlug.get(item.slug)?.format ?? 'guide' })) : [];
+  const selected = collection ? articles.filter((item) => primaryCollection(item.slug)?.slug === collection.slug).map((item) => ({ ...item, format: guideBySlug.get(item.slug)?.format ?? 'guide' })) : [];
+  const groups = collection?.groups.filter((group) => selected.some((item) => item.group === group.name)) ?? [];
+  const isGateway = collection && selected.every((item) => item.format === 'collection');
+  const readingPath = collection && <section className={styles.start}><h2>Choose a reading path</h2><p>{collection.intro}</p><ol className={styles.journey}>{collection.journey.map((step) => <li key={step.title}><strong>{step.title}</strong>{step.links.map((link) => <Link key={link.slug} href={guidePath(link.slug)}>{link.label}</Link>)}</li>)}</ol></section>;
+  const relatedCollections = collection?.relatedCollections.length
+    ? collections.filter((item) => collection.relatedCollections.some((slug) => slug === item.slug))
+    : collections.filter((item) => item.topicRoot && item.slug !== collection?.slug);
   const visuals = guide ? [...guide.figures, ...guide.visuals] : [];
   const visualHeading = visuals.some((visual) => 'sourceImage' in visual) ? 'Source images & attribution' : 'Visual explanations';
   const isRitual = guide?.format === 'ritual';
@@ -91,19 +97,21 @@ export function CollectionGuide({ article, articles }: { article: KnowledgeArtic
   const next = chapters[chapterIndex + 1];
   const isChapter = guide?.format === 'chapter';
   return <article className={`shell ${styles.page}`}>
-    <nav className={styles.breadcrumb} aria-label="Breadcrumb"><Link href="/library/">Library</Link><span aria-hidden="true">/</span>{article.slug === topicHub.slug ? <span>{article.topic}</span> : <><Link href={guidePath(topicHub.slug)}>{article.topic}</Link><span aria-hidden="true">/</span>{parentCollection ? <Link href={guidePath(parentCollection.slug)}>{parentCollection.title}</Link> : <span>{article.group}</span>}</>}</nav>
+    <nav className={styles.breadcrumb} aria-label="Breadcrumb"><Link href="/library/">Library</Link>{ancestors.map((ancestor) => <span key={ancestor.slug}><span aria-hidden="true"> / </span><Link href={guidePath(ancestor.slug)}>{ancestor.title}</Link></span>)}<span aria-hidden="true">/</span><span aria-current="page">{article.title}</span></nav>
     <header className={styles.hero}>
       <p className={styles.eyebrow}>{isRitual ? `FREEMASONRY · READING ${chapterIndex + 1} OF ${chapters.length}` : isChapter ? `THE ART OF WAR · CHAPTER ${chapterIndex + 1} OF 13` : collection ? 'A CONNECTED KNOWLEDGE COLLECTION' : article.group}</p>
       <h1>{article.title}</h1><p className={styles.summary}>{article.summary}</p>
       {guide?.takeaway && <p className={styles.takeaway}><strong>Key takeaway</strong>{guide.takeaway}</p>}
-      {collection && <p className={styles.meta}>{selected.length} guides and reading indexes · {collection.groups.length} {collection.groups.length === 1 ? 'section' : 'sections'} · detailed notes and visual explanations</p>}
+      {collection && <p className={styles.meta}>{selected.length} {isGateway ? 'subject collections' : 'guides and reading indexes'} · {groups.length} {groups.length === 1 ? 'section' : 'sections'} · detailed notes and visual explanations</p>}
     </header>
     {collection ? <>
-      <section className={styles.start}><h2>Choose a reading path</h2><p>{collection.intro}</p><ol className={styles.journey}>{collection.journey.map((step) => <li key={step.title}><strong>{step.title}</strong>{step.links.map((link) => <Link key={link.slug} href={guidePath(link.slug)}>{link.label}</Link>)}</li>)}</ol></section>
-      <nav className={styles.jumpLinks} aria-label="Collection categories">{collection.groups.map((group, i) => <a key={group.name} href={`#category-${i + 1}`}>{group.name}</a>)}</nav>
-      <ReadingNotes notes={collection.notes} />
-      {collection.groups.map((group, i) => <section className={styles.category} id={`category-${i + 1}`} key={group.name}><p className={styles.eyebrow}>EXPLORE {String(i + 1).padStart(2, '0')}</p><h2>{group.name}</h2><p>{group.description}</p><div className={styles.cards}>{selected.filter((g) => g.group === group.name).map((g) => <Link className={styles.card} href={guidePath(g.slug)} key={g.slug}><h3>{g.title}</h3><p>{g.summary}</p><strong>{g.format === 'chapter' ? 'Read chapter →' : g.format === 'collection' ? 'Browse collection →' : 'Explore guide →'}</strong></Link>)}</div></section>)}
-      <footer className={styles.provenance}><h2>Continue exploring</h2>{collections.filter((item) => item.topicRoot && item.slug !== collection.slug).map((item) => <p key={item.slug}><Link href={guidePath(item.slug)}>Explore {item.title} →</Link></p>)}{collection.references.map((reference) => <p key={reference.url}><a href={reference.url} target="_blank" rel="noopener noreferrer">{reference.title} ↗</a></p>)}</footer>
+      {!isGateway && readingPath}
+      {!isGateway && <nav className={styles.jumpLinks} aria-label="Collection categories">{groups.map((group, i) => <a key={group.name} href={`#category-${i + 1}`}>{group.name}</a>)}</nav>}
+      {!isGateway && <ReadingNotes notes={collection.notes} />}
+      {groups.map((group, i) => <section className={styles.category} id={`category-${i + 1}`} key={group.name}><p className={styles.eyebrow}>EXPLORE {String(i + 1).padStart(2, '0')}</p><h2>{group.name}</h2><p>{group.description}</p><div className={styles.cards}>{selected.filter((g) => g.group === group.name).map((g) => <Link className={styles.card} href={guidePath(g.slug)} key={g.slug}><h3>{g.title}</h3><p>{g.summary}</p><strong>{g.format === 'chapter' ? 'Read chapter →' : g.format === 'collection' ? 'Browse collection →' : 'Explore guide →'}</strong></Link>)}</div></section>)}
+      {isGateway && readingPath}
+      {isGateway && <ReadingNotes notes={collection.notes} />}
+      <footer className={styles.provenance}><h2>Continue exploring</h2>{parentCollection && <p><Link href={guidePath(parentCollection.slug)}>Back to {parentCollection.title} →</Link></p>}{relatedCollections.map((item) => <p key={item.slug}><Link href={guidePath(item.slug)}>Explore {item.title} →</Link></p>)}{collection.references.map((reference) => <p key={reference.url}><a href={reference.url} target="_blank" rel="noopener noreferrer">{reference.title} ↗</a></p>)}</footer>
     </> : guide && <>
       {!isChapter && <section className={styles.overview} aria-labelledby="overview-heading"><h2 id="overview-heading">At a glance</h2><ol className={styles.flow}>{guide.steps.map((step, i) => <li key={step}><span aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>{step}</li>)}</ol><p className={styles.meta}>An editorial reading sequence; individual frameworks are explained in the detailed notes below.</p></section>}
       <div className={styles.layout}>

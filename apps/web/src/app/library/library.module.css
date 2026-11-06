@@ -8,17 +8,17 @@
 .heroStats { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 32px; position: relative; z-index: 1; }
 .heroStats > * { background: #fff; border-radius: 50px; color: #514870; font-size: 12px; padding: 7px 13px; }
 .intro { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: end; padding: 78px 0 45px; }
-.intro h2, .directory h2 { font-size: clamp(28px, 3vw, 40px); margin-top: 10px; }
+.intro h2, .hubs h2, .directory h2 { font-size: clamp(28px, 3vw, 40px); margin-top: 10px; }
 .intro p { max-width: 520px; }
 .directory { border-top: 1px solid var(--line); padding-top: 45px; }
 .directoryHeader { display: flex; justify-content: space-between; align-items: end; gap: 24px; }
 .directoryHeader p { margin-top: 8px; }
 .search { display: flex; flex-direction: column; gap: 6px; color: #50566b; font-size: 12px; font-weight: 700; width: min(100%, 340px); }
 .search input { border: 1px solid #dcdfea; border-radius: 10px; padding: 13px 15px; width: 100%; background: #fff; }
-.search input:focus-visible, .filters button:focus-visible, .more:focus-visible, .card:focus-visible { outline: 3px solid #9787ef; outline-offset: 3px; }
+.filters select:focus-visible, .search input:focus-visible, .filters button:focus-visible, .more:focus-visible, .card:focus-visible { outline: 3px solid #9787ef; outline-offset: 3px; }
 .filters { display: flex; gap: 8px; flex-wrap: wrap; margin: 32px 0 20px; }
 .filters button { border: 1px solid #e5e5ed; border-radius: 50px; padding: 8px 14px; background: white; color: #555c70; font-size: 13px; }
-.filters button.active { background: #282039; border-color: #282039; color: white; }
+.filters button.active, .filters button[aria-pressed="true"] { background: #282039; border-color: #282039; color: white; }
 .subcategories { margin: -4px 0 20px; }
 .subcategories button.active { background: #ece8fc; border-color: #d3c9fa; color: #5140b3; }
 .count { font-size: 13px; margin-bottom: 16px; }
@@ -37,7 +37,6 @@
 .knowledgeCard h3 { font-size: 19px; }
 .knowledgeCard p { font-size: 14px; }
 .knowledgeCard strong { color: #5b4ac5; font-size: 12px; margin-top: auto; }
-.knowledgeCard + .directory { margin-top: 45px; }
 .directory + .directory { margin-top: 60px; }
 .article { padding-top: 50px; padding-bottom: 90px; max-width: 840px; }
 .back { color: #5b4ac5; font-weight: 700; }
@@ -67,12 +66,6 @@
 .commandCard button { padding: .5rem .8rem; border: 1px solid #205d50; border-radius: 6px; background: white; color: #205d50; cursor: pointer; }
 
 
-.hubFeature { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: clamp(25px, 4vw, 44px); margin: 0 0 45px; border: 1px solid #e6e1fa; border-radius: 20px; background: #f8f6ff; }
-.hubFeature:hover { border-color: #a99cee; }
-.hubFeature:focus-visible { outline: 3px solid #9787ef; outline-offset: 3px; }
-.hubFeature h2 { font-size: clamp(28px, 3vw, 40px); line-height: 1.15; margin: 12px 0; }
-.hubFeature h2 span { color: #725de3; }
-.hubFeature p { max-width: 540px; margin-bottom: 16px; }
-.hubFeature strong { color: #5b4ac5; font-size: 13px; }
-.hubFeatureMark { color: #d6cef7; font-size: 110px; line-height: 1; }
-@media (max-width: 480px) { .hubFeatureMark { display: none; } }
+.filters label { display: flex; flex-direction: column; gap: 8px; flex: 1 1 280px; max-width: min(100%, 380px); min-width: 0; font-size: 14px; color: #555c70; }
+.filters select { width: 100%; min-width: 0; padding: 10px; border: 1px solid #e5e5ed; border-radius: 10px; background: white; color: #282039; font: inherit; }
+.hubs { padding-bottom: 45px; }
