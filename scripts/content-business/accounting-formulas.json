@@ -1,0 +1,1887 @@
+[
+  {
+    "index": 11,
+    "end": 12,
+    "name": "The accounting equation",
+    "expression": "Assets = liabilities + equity",
+    "units": "currency at a reporting date",
+    "inputs": [
+      "Assets: recognized resources at the reporting date.",
+      "Liabilities: recognized obligations at that date.",
+      "Equity: residual interest after liabilities."
+    ],
+    "scope": "The concatenated source also contains a minus sign conflicting with its own accounting identity. The reviewed identity uses addition.",
+    "status": "Corrected concatenated expression",
+    "reference": "ratios"
+  },
+  {
+    "index": 13,
+    "end": 14,
+    "name": "Balance-sheet and retained-earnings checks",
+    "expression": "Assets = liabilities + equity; closing retained earnings = opening retained earnings + attributable profit − distributions ± applicable adjustments",
+    "units": "currency at a date / over a period",
+    "inputs": [
+      "Opening retained earnings: prior closing balance.",
+      "Attributable profit: earnings belonging to the relevant owners.",
+      "Distributions and adjustments: dividends and other applicable movements."
+    ],
+    "scope": "The source omits distributions and adjustments from its retained-earnings shorthand. A balanced equation does not establish correct recognition.",
+    "status": "Scope correction",
+    "reference": "ratios"
+  },
+  {
+    "index": 14,
+    "end": 16,
+    "name": "Debt-to-equity",
+    "expression": "Total debt / total equity",
+    "units": "multiple",
+    "inputs": [
+      "Total debt: borrowings under the declared debt definition.",
+      "Total equity: equity on the matching consolidated/entity basis."
+    ],
+    "scope": "Use the same period, currency, accounting perimeter and definition for compared inputs. A zero denominator is undefined; negative bases can change or defeat the usual interpretation. Higher/lower is not an automatic quality score.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 16,
+    "end": 18,
+    "name": "Debt-to-assets",
+    "expression": "Total debt / total assets",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Total debt: the chosen borrowing measure, not automatically all liabilities.",
+      "Total assets: recognized assets at the matching reporting date."
+    ],
+    "scope": "Use the same period, currency, accounting perimeter and definition for compared inputs. A zero denominator is undefined; negative bases can change or defeat the usual interpretation. Higher/lower is not an automatic quality score.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 18,
+    "end": 20,
+    "name": "Current ratio",
+    "expression": "Current assets / current liabilities",
+    "units": "multiple",
+    "inputs": [
+      "Current assets: assets classified as current.",
+      "Current liabilities: obligations classified as current."
+    ],
+    "scope": "Classification and realizability matter; compare like business models and dates. Use the same period, currency, accounting perimeter and definition for compared inputs. A zero denominator is undefined; negative bases can change or defeat the usual interpretation. Higher/lower is not an automatic quality score.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 20,
+    "end": 22,
+    "name": "Equity multiplier",
+    "expression": "Total assets / total equity",
+    "units": "multiple",
+    "inputs": [
+      "Total assets: recognized asset base.",
+      "Total equity: equity on the same entity and date basis."
+    ],
+    "scope": "Non-equity funding includes liabilities beyond interest-bearing debt. For DuPont, use compatible averages.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 22,
+    "end": 24,
+    "name": "Quick ratio",
+    "expression": "(Current assets − inventory − prepayments − other non-quick current assets) / current liabilities",
+    "units": "multiple",
+    "inputs": [
+      "Quick assets: cash, eligible liquid investments and collectible receivables under the stated definition.",
+      "Current liabilities: matching short-term obligations."
+    ],
+    "scope": "The source’s assets-minus-inventory shortcut assumes the remaining assets are quick. State exclusions and receivable quality.",
+    "status": "Definition refinement",
+    "reference": "ratios"
+  },
+  {
+    "index": 24,
+    "end": 26,
+    "name": "Cash ratio",
+    "expression": "Cash and cash equivalents / current liabilities",
+    "units": "multiple",
+    "inputs": [
+      "Cash and equivalents: eligible cash balances and cash equivalents.",
+      "Current liabilities: matching short-term obligations."
+    ],
+    "scope": "State restrictions on cash and any different convention for liquid investments. Use the same period, currency, accounting perimeter and definition for compared inputs. A zero denominator is undefined; negative bases can change or defeat the usual interpretation. Higher/lower is not an automatic quality score.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 26,
+    "end": 28,
+    "name": "Net working capital",
+    "expression": "Current assets − current liabilities",
+    "units": "currency at a date",
+    "inputs": [
+      "Current assets: current balance-sheet assets.",
+      "Current liabilities: current balance-sheet obligations."
+    ],
+    "scope": "This broad balance-sheet measure differs from noncash operating working capital used in valuation. Negative working capital is not automatically distress.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 28,
+    "end": 30,
+    "name": "Net working capital to total assets",
+    "expression": "(Current assets − current liabilities) / total assets",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Net working capital: current assets less current liabilities.",
+      "Total assets: the matching recognized asset base."
+    ],
+    "scope": "This measures working capital relative to total assets, not the current ratio.",
+    "status": "Clarified interpretation",
+    "reference": "ratios"
+  },
+  {
+    "index": 30,
+    "end": 32,
+    "name": "Debt-to-capitalisation",
+    "expression": "Debt / (debt + equity)",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Debt: borrowings under the declared convention.",
+      "Equity: a compatible book or market equity value."
+    ],
+    "scope": "Do not mix book debt and market equity without stating the purpose and convention. Use the same period, currency, accounting perimeter and definition for compared inputs. A zero denominator is undefined; negative bases can change or defeat the usual interpretation. Higher/lower is not an automatic quality score.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 32,
+    "end": 34,
+    "name": "Return on assets",
+    "expression": "Net income / average total assets",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Net income: attributable earnings for the selected entity/period.",
+      "Average assets: preferably time-weighted assets; opening/closing mean is a shortcut."
+    ],
+    "scope": "Use the same period, currency, accounting perimeter and definition for compared inputs. A zero denominator is undefined; negative bases can change or defeat the usual interpretation. Higher/lower is not an automatic quality score.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 34,
+    "end": 36,
+    "name": "Return on equity",
+    "expression": "Attributable net income / average corresponding equity",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Attributable income: earnings matching the equity owners being measured.",
+      "Average corresponding equity: compatible average owner capital."
+    ],
+    "scope": "Match common versus total-shareholder earnings and equity. Use the same period, currency, accounting perimeter and definition for compared inputs. A zero denominator is undefined; negative bases can change or defeat the usual interpretation. Higher/lower is not an automatic quality score.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 36,
+    "end": 38,
+    "name": "Total asset turnover",
+    "expression": "Net sales / average total assets",
+    "units": "multiple",
+    "inputs": [
+      "Net sales: period sales after relevant returns/allowances.",
+      "Average total assets: assets used over the same period."
+    ],
+    "scope": "The source subtracts assets from sales. Turnover divides period sales by the asset base.",
+    "status": "Corrected operator",
+    "reference": "ratios"
+  },
+  {
+    "index": 38,
+    "end": 40,
+    "name": "Receivables turnover",
+    "expression": "Net credit sales / average trade receivables",
+    "units": "multiple",
+    "inputs": [
+      "Net credit sales: sales creating the receivables being measured.",
+      "Average trade receivables: matching collectible customer balance."
+    ],
+    "scope": "Use compatible sales tax, credit/cash sales and receivable definitions.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 40,
+    "end": 42,
+    "name": "Payables turnover",
+    "expression": "Credit purchases / average trade payables",
+    "units": "multiple",
+    "inputs": [
+      "Credit purchases: purchases creating the supplier liability.",
+      "Average trade payables: matching supplier balance."
+    ],
+    "scope": "The source says total supplier purchases. Cost of sales is only a disclosed proxy when appropriate.",
+    "status": "Explicit purchase basis",
+    "reference": "ratios"
+  },
+  {
+    "index": 42,
+    "end": 44,
+    "name": "Inventory turnover",
+    "expression": "Cost of goods sold / average inventory",
+    "units": "multiple",
+    "inputs": [
+      "COGS: cost of the stock sold over the period.",
+      "Average inventory: matching stock on a consistent valuation basis."
+    ],
+    "scope": "Use the same period, currency, accounting perimeter and definition for compared inputs. A zero denominator is undefined; negative bases can change or defeat the usual interpretation. Higher/lower is not an automatic quality score.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 44,
+    "end": 46,
+    "name": "Fixed-asset turnover",
+    "expression": "Revenue / average net fixed assets",
+    "units": "multiple",
+    "inputs": [
+      "Revenue: compatible period sales.",
+      "Average net fixed assets: carrying values of productive fixed assets over the period."
+    ],
+    "scope": "The source uses net fixed assets without averaging. A closing-base convention must be disclosed; asset age and leasing affect comparisons.",
+    "status": "Explicit averaging convention",
+    "reference": "ratios"
+  },
+  {
+    "index": 46,
+    "end": 48,
+    "name": "Liabilities to adjusted tangible net worth",
+    "expression": "Total liabilities / (equity − intangibles − prepayments − related-party receivables)",
+    "units": "multiple",
+    "inputs": [
+      "Total liabilities: the declared obligation base.",
+      "Adjusted tangible net worth: equity after the listed deductions."
+    ],
+    "scope": "This is the source’s lender-style adjustment, not a universal net-worth definition. Contract definitions and a positive denominator are essential.",
+    "status": "Source convention",
+    "reference": ""
+  },
+  {
+    "index": 48,
+    "end": 50,
+    "name": "Market value of equity",
+    "expression": "Shares outstanding × market price per share",
+    "units": "currency at a date",
+    "inputs": [
+      "Shares outstanding: shares on the compatible share-class basis.",
+      "Market price: price for that class at the valuation date."
+    ],
+    "scope": "Multiple share classes and other equity claims can require separate valuation.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 50,
+    "end": 52,
+    "name": "Market-to-book equity",
+    "expression": "Market capitalisation / book equity",
+    "units": "multiple",
+    "inputs": [
+      "Market capitalisation: market value of the corresponding equity.",
+      "Book equity: corresponding accounting equity."
+    ],
+    "scope": "Match owners and date; negative book equity limits interpretation.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 52,
+    "end": 54,
+    "name": "Simplified enterprise value",
+    "expression": "Equity market value + debt − cash",
+    "units": "currency at a valuation date",
+    "inputs": [
+      "Equity value: compatible market value.",
+      "Debt: relevant debt claims.",
+      "Cash: eligible cash adjustment."
+    ],
+    "scope": "Preferred equity, non-controlling interests and other claims/adjustments may be required. This is a simplified bridge.",
+    "status": "Simplified convention",
+    "reference": "cash"
+  },
+  {
+    "index": 54,
+    "end": 56,
+    "name": "Bank total-capital adequacy",
+    "expression": "(Eligible Tier 1 capital + eligible Tier 2 capital) / risk-weighted assets × 100",
+    "units": "percent",
+    "inputs": [
+      "Eligible regulatory capital: capital recognized under the applicable regime.",
+      "Risk-weighted assets: the regime’s risk-weighted denominator."
+    ],
+    "scope": "This is regulatory capital coverage, not cash liquidity. No current threshold, buffer or compliance conclusion is supplied.",
+    "status": "Regime-specific",
+    "reference": "basel"
+  },
+  {
+    "index": 56,
+    "end": 58,
+    "name": "Price-to-book",
+    "expression": "Market price per share / book equity per corresponding share",
+    "units": "multiple",
+    "inputs": [
+      "Market price: matching share-class price.",
+      "Book equity per share: equity allocated to that class divided by its relevant shares."
+    ],
+    "scope": "Use the same period, currency, accounting perimeter and definition for compared inputs. A zero denominator is undefined; negative bases can change or defeat the usual interpretation. Higher/lower is not an automatic quality score.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 60,
+    "end": 61,
+    "name": "Cash-balance reconciliation",
+    "expression": "Closing cash = opening cash + operating + investing + financing cash flows + applicable reconciling effects",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "Opening/closing cash: balances on a consistent cash definition.",
+      "Activity cash flows: signed inflows less outflows.",
+      "Reconciling effects: applicable exchange-rate and other reconciliation items."
+    ],
+    "scope": "The source’s three-flow bridge is simplified; include material required reconciling effects.",
+    "status": "Scope refinement",
+    "reference": "cash"
+  },
+  {
+    "index": 63,
+    "end": 65,
+    "name": "Indirect operating-cash-flow bridge",
+    "expression": "Net income + signed noncash adjustments − increase in noncash operating working capital + other required operating reconciliations",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "Signed noncash adjustments: add noncash charges and remove applicable gains/items.",
+      "Increase in operating working capital: investment in noncash operating balances."
+    ],
+    "scope": "Framework and interest/tax classifications matter. CAPEX is cash capital expenditure expressed as a positive outflow; ΔNWC is an increase in noncash operating working capital, excluding financing debt. Reconcile classification and other noncash/operating adjustments.",
+    "status": "Explicit sign convention",
+    "reference": "cash"
+  },
+  {
+    "index": 65,
+    "end": 67,
+    "name": "Operating cash flow less capital expenditure",
+    "expression": "Operating cash flow − cash CAPEX",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "OCF: reported operating cash flow on the declared basis.",
+      "Cash CAPEX: cash investment in long-lived operating assets."
+    ],
+    "scope": "A common non-GAAP FCF convention; distinguish it from FCFF/FCFE and define included investment.",
+    "status": "Defined FCF convention",
+    "reference": "cash"
+  },
+  {
+    "index": 67,
+    "end": 69,
+    "name": "Cash conversion cycle",
+    "expression": "Inventory days + receivable days − payable days",
+    "units": "days",
+    "inputs": [
+      "Inventory days: stock holding duration.",
+      "Receivable days: customer collection duration.",
+      "Payable days: supplier payment duration."
+    ],
+    "scope": "Use matching periods and compatible balance/flow definitions. A negative cycle can occur in some business models.",
+    "status": "Reviewed with scope",
+    "reference": "working"
+  },
+  {
+    "index": 69,
+    "end": 71,
+    "name": "Net activity cash flow",
+    "expression": "Operating + investing + financing cash flows",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "Each activity flow: signed cash inflows less cash outflows in that class."
+    ],
+    "scope": "This is the net of activity flows; the total cash reconciliation can also include FX and other required effects.",
+    "status": "Scope refinement",
+    "reference": "cash"
+  },
+  {
+    "index": 71,
+    "end": 73,
+    "name": "Discounted cash-flow sum",
+    "expression": "Σ CFₜ / (1 + r)ᵗ",
+    "units": "present-value currency",
+    "inputs": [
+      "CFₜ: cash flow at the end of period t.",
+      "r: compatible discount rate per period.",
+      "t: time periods from the valuation date."
+    ],
+    "scope": "Include time-zero cash separately. Match cash-flow recipients, currency, inflation basis and rate period.",
+    "status": "Reviewed with scope",
+    "reference": "cash"
+  },
+  {
+    "index": 73,
+    "end": 75,
+    "name": "Present value of a single cash flow",
+    "expression": "CF / (1 + r)ⁿ",
+    "units": "present-value currency",
+    "inputs": [
+      "CF: future cash amount.",
+      "r: discount rate per period.",
+      "n: number of matching periods."
+    ],
+    "scope": "Assumes a specified cash-flow timing and rate; noninteger/irregular timing requires an appropriate convention.",
+    "status": "Reviewed with scope",
+    "reference": "cash"
+  },
+  {
+    "index": 75,
+    "end": 77,
+    "name": "Future value of a single amount",
+    "expression": "PV × (1 + r)ⁿ",
+    "units": "future-value currency",
+    "inputs": [
+      "PV: starting amount.",
+      "r: compound return/interest rate per period.",
+      "n: matching compounding periods."
+    ],
+    "scope": "Assumes a constant rate and stated compounding convention; not a guaranteed investment return.",
+    "status": "Reviewed with scope",
+    "reference": "cash"
+  },
+  {
+    "index": 77,
+    "end": 79,
+    "name": "Level-cash-flow payback shortcut",
+    "expression": "Initial investment / annual positive net cash inflow",
+    "units": "years",
+    "inputs": [
+      "Initial investment: initial positive outlay.",
+      "Annual cash inflow: constant positive net inflow."
+    ],
+    "scope": "Only for level flows; uneven flows require cumulative cash-flow analysis. Undiscounted payback ignores later cash flows and time value.",
+    "status": "Conditional shortcut",
+    "reference": "cash"
+  },
+  {
+    "index": 79,
+    "end": 81,
+    "name": "Operating cash-flow margin",
+    "expression": "Operating cash flow / net sales",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "OCF: period operating cash flow.",
+      "Net sales: matching period sales."
+    ],
+    "scope": "Cash collections and revenue recognition differ; a period margin needs context.",
+    "status": "Reviewed with scope",
+    "reference": "cash"
+  },
+  {
+    "index": 81,
+    "end": 83,
+    "name": "Operating-plus-investing net cash flow",
+    "expression": "Operating cash flow + investing cash flow",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "Operating and investing cash flows: signed net flows."
+    ],
+    "scope": "A negative result is cash consumption in this defined scope; positive net burn reverses its sign. Financing is excluded.",
+    "status": "Corrected sign label",
+    "reference": "cash"
+  },
+  {
+    "index": 83,
+    "end": 85,
+    "name": "Free cash flow to the firm: operating-profit bridge",
+    "expression": "EBIT × (1 − tax rate) + noncash operating charges − CAPEX − increase in noncash operating working capital",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "EBIT: compatible operating earnings basis.",
+      "Tax rate: operating-tax assumption.",
+      "Noncash charges: eligible noncash operating expenses."
+    ],
+    "scope": "The tax/operating basis must be suitable for the model. CAPEX is cash capital expenditure expressed as a positive outflow; ΔNWC is an increase in noncash operating working capital, excluding financing debt. Reconcile classification and other noncash/operating adjustments.",
+    "status": "Explicit sign convention",
+    "reference": "cash"
+  },
+  {
+    "index": 85,
+    "end": 87,
+    "name": "Free cash flow to equity: full earnings bridge",
+    "expression": "Net income + noncash charges − CAPEX − increase in noncash operating working capital + net borrowing",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "Net income: earnings after interest and tax.",
+      "Net borrowing: new debt proceeds less principal repayments.",
+      "Noncash charges: required earnings-to-cash adjustments."
+    ],
+    "scope": "The source’s EBITDA-minus-tax/CAPEX/interest shortcut omits working-capital and net-borrowing effects. CAPEX is cash capital expenditure expressed as a positive outflow; ΔNWC is an increase in noncash operating working capital, excluding financing debt. Reconcile classification and other noncash/operating adjustments.",
+    "status": "Corrected incomplete bridge",
+    "reference": "cash"
+  },
+  {
+    "index": 87,
+    "end": 89,
+    "name": "OCF to current liabilities",
+    "expression": "Operating cash flow / current liabilities",
+    "units": "multiple",
+    "inputs": [
+      "OCF: period operating cash generation.",
+      "Current liabilities: stated closing or average current obligations."
+    ],
+    "scope": "This is coverage of liabilities, not a revenue margin. State balance timing.",
+    "status": "Corrected explanation",
+    "reference": "cash"
+  },
+  {
+    "index": 89,
+    "end": 91,
+    "name": "Receivable days (DSO)",
+    "expression": "Average trade receivables / net credit sales × period days",
+    "units": "days",
+    "inputs": [
+      "Average receivables: compatible customer balance.",
+      "Credit sales: sales creating those receivables.",
+      "Period days: actual days for the sales period."
+    ],
+    "scope": "The source abbreviates one entry as DSP; the intended collection-duration measure is DSO.",
+    "status": "Corrected abbreviation",
+    "reference": "working"
+  },
+  {
+    "index": 91,
+    "end": 93,
+    "name": "Payable days (DPO)",
+    "expression": "Average trade payables / credit purchases × period days",
+    "units": "days",
+    "inputs": [
+      "Average payables: matching supplier balance.",
+      "Credit purchases: purchases creating those obligations.",
+      "Period days: days covered by purchases."
+    ],
+    "scope": "Annual 365-day versions assume annual flows. Disclose use of cost-of-sales proxies.",
+    "status": "Explicit purchase basis",
+    "reference": "working"
+  },
+  {
+    "index": 93,
+    "end": 95,
+    "name": "Inventory days (DIO)",
+    "expression": "Average inventory / cost of goods sold × period days",
+    "units": "days",
+    "inputs": [
+      "Average inventory: compatible stock value.",
+      "COGS: stock cost sold in the period.",
+      "Period days: days covered by COGS."
+    ],
+    "scope": "Do not mechanically multiply a quarterly-flow ratio by 365.",
+    "status": "Explicit period convention",
+    "reference": "working"
+  },
+  {
+    "index": 95,
+    "end": 97,
+    "name": "Perpetual-growth terminal value",
+    "expression": "Next-period sustainable cash flow / (discount rate − long-run growth rate)",
+    "units": "value at the terminal date",
+    "inputs": [
+      "Next-period cash flow: first flow after the explicit forecast.",
+      "Discount rate and growth: compatible periodic rates."
+    ],
+    "scope": "Requires discount rate greater than growth and sustainable reinvestment. Discount terminal value back to today.",
+    "status": "Conditional model",
+    "reference": "cash"
+  },
+  {
+    "index": 97,
+    "end": 99,
+    "name": "Operating-cash-flow liability coverage",
+    "expression": "Operating cash flow / current liabilities",
+    "units": "multiple",
+    "inputs": [
+      "OCF: period operating cash flow.",
+      "Current liabilities: declared closing or average short-term obligation base."
+    ],
+    "scope": "Use the same period, currency, accounting perimeter and definition for compared inputs. A zero denominator is undefined; negative bases can change or defeat the usual interpretation. Higher/lower is not an automatic quality score.",
+    "status": "Reviewed with scope",
+    "reference": "cash"
+  },
+  {
+    "index": 99,
+    "end": 101,
+    "name": "Cash-flow return on assets",
+    "expression": "Operating cash flow / average total assets",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "OCF: matching period operating cash flow.",
+      "Average assets: compatible asset base."
+    ],
+    "scope": "Use the same period, currency, accounting perimeter and definition for compared inputs. A zero denominator is undefined; negative bases can change or defeat the usual interpretation. Higher/lower is not an automatic quality score.",
+    "status": "Reviewed with scope",
+    "reference": "cash"
+  },
+  {
+    "index": 101,
+    "end": 103,
+    "name": "Cash flow to net income",
+    "expression": "Operating cash flow / net income",
+    "units": "multiple",
+    "inputs": [
+      "OCF: cash from operations.",
+      "Net income: compatible period accounting earnings."
+    ],
+    "scope": "Timing and working-capital changes can drive the ratio; a loss or near-zero income prevents a simple higher-is-better interpretation.",
+    "status": "Reviewed with scope",
+    "reference": "cash"
+  },
+  {
+    "index": 103,
+    "end": 105,
+    "name": "Operating cash flow per common share",
+    "expression": "(Operating cash flow − preferred cash dividends) / weighted-average common shares",
+    "units": "currency per common share",
+    "inputs": [
+      "Preferred cash dividends: relevant preference distributions.",
+      "Weighted-average common shares: compatible period share count."
+    ],
+    "scope": "A stated cash-per-share convention, not GAAP EPS; define dividends and cash-flow scope.",
+    "status": "Source convention",
+    "reference": "cash"
+  },
+  {
+    "index": 105,
+    "end": 107,
+    "name": "Cash flow to investors: unresolved definition",
+    "expression": "",
+    "units": "Not established",
+    "inputs": [
+      "FCF: the source does not specify FCFF, FCFE or another convention.",
+      "Net debt issued: debt proceeds less repayments under a declared scope."
+    ],
+    "scope": "The title, formula and explanation do not establish compatible cash-flow recipients or financing signs. Do not use the source fraction/bridge without clarifying those definitions.",
+    "status": "Needs clarification",
+    "reference": ""
+  },
+  {
+    "index": 107,
+    "end": 109,
+    "name": "Cash available for debt-service coverage",
+    "expression": "Cash available for debt service / scheduled principal and interest",
+    "units": "multiple",
+    "inputs": [
+      "Cash available for debt service: cash before the debt-service payments being tested.",
+      "Debt service: principal and interest in the same test period."
+    ],
+    "scope": "OCF is not automatically the correct numerator, especially when interest has already been deducted. Use the applicable agreement.",
+    "status": "Convention requires reconciliation",
+    "reference": "cash"
+  },
+  {
+    "index": 109,
+    "end": 111,
+    "name": "Simple FCF return on invested capital",
+    "expression": "Free cash flow / invested capital",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "FCF: explicitly defined cash-flow measure.",
+      "Invested capital: compatible operating investment base."
+    ],
+    "scope": "The source does not define a complete CFROI methodology; treat this only as the stated simple cash-return fraction.",
+    "status": "Renamed source convention",
+    "reference": ""
+  },
+  {
+    "index": 111,
+    "end": 113,
+    "name": "Monthly net cash burn",
+    "expression": "Included monthly cash outflows − included monthly cash inflows",
+    "units": "currency per month",
+    "inputs": [
+      "Included flows: declared operating/investment cash scope, normally excluding financing."
+    ],
+    "scope": "Positive burn means consumption. Average burn can hide changing timing and large future payments.",
+    "status": "Explicit sign convention",
+    "reference": "cash"
+  },
+  {
+    "index": 113,
+    "end": 115,
+    "name": "Average days delinquent",
+    "expression": "DSO − best-possible DSO",
+    "units": "days",
+    "inputs": [
+      "DSO: actual receivable collection duration.",
+      "Best-possible DSO: duration under the stated on-time payment/receivables convention."
+    ],
+    "scope": "Define the same customer/cohort base and terms before comparing the durations.",
+    "status": "Definition-dependent",
+    "reference": "working"
+  },
+  {
+    "index": 115,
+    "end": 117,
+    "name": "Overdue receivables ratio",
+    "expression": "Overdue receivables / total relevant receivables",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Overdue receivables: unpaid balances past the agreed due date.",
+      "Total receivables: matching customer, currency and date base."
+    ],
+    "scope": "State aging, disputes, credit notes and allowance treatment.",
+    "status": "Definition-dependent",
+    "reference": "working"
+  },
+  {
+    "index": 117,
+    "end": 119,
+    "name": "Inventory days: annual convention",
+    "expression": "Average inventory / annual COGS × 365",
+    "units": "days",
+    "inputs": [
+      "Average inventory: stock value for the measured period.",
+      "Annual COGS: annual cost of goods sold."
+    ],
+    "scope": "This duplicate annual convention assumes 365 days and annual flow; use the relevant period convention otherwise.",
+    "status": "Explicit period convention",
+    "reference": "working"
+  },
+  {
+    "index": 119,
+    "end": 121,
+    "name": "Payable days using a COGS proxy",
+    "expression": "Average trade payables / annual COGS × 365",
+    "units": "days",
+    "inputs": [
+      "Average trade payables: supplier obligation balance.",
+      "Annual COGS: disclosed proxy for credit purchases."
+    ],
+    "scope": "The source calls this DSO while describing payment to suppliers. It is a payable-days proxy and can differ from a purchases-based DPO.",
+    "status": "Corrected mislabeled metric",
+    "reference": "working"
+  },
+  {
+    "index": 121,
+    "end": 123,
+    "name": "Cash reserves in days",
+    "expression": "Available cash reserves / average daily relevant cash expenses",
+    "units": "days",
+    "inputs": [
+      "Available reserves: accessible cash in the defined scope.",
+      "Daily cash expenses: forecast/observed cash costs per day."
+    ],
+    "scope": "Restrictions, noncash expenses and uneven payments matter; this is a conditional buffer estimate.",
+    "status": "Explicit cash basis",
+    "reference": "cash"
+  },
+  {
+    "index": 123,
+    "end": 125,
+    "name": "Operating cash-flow margin in percent",
+    "expression": "Operating cash flow / net sales × 100",
+    "units": "percent",
+    "inputs": [
+      "OCF: period cash from operations.",
+      "Net sales: corresponding recognized sales."
+    ],
+    "scope": "This is the percent form of OCF/sales, not a measure of accounting gross margin.",
+    "status": "Reviewed with scope",
+    "reference": "cash"
+  },
+  {
+    "index": 125,
+    "end": 127,
+    "name": "Free-cash-flow margin",
+    "expression": "Defined free cash flow / net sales × 100",
+    "units": "percent",
+    "inputs": [
+      "FCF: the explicitly selected cash-flow convention.",
+      "Net sales: matching recognized sales."
+    ],
+    "scope": "The source typo “Neet Sales” is normalized; FCF definitions must remain compatible across comparisons.",
+    "status": "Notation correction",
+    "reference": "cash"
+  },
+  {
+    "index": 127,
+    "end": 129,
+    "name": "Cash debt-service coverage: denominator convention",
+    "expression": "Cash available for debt service / (principal due + interest due)",
+    "units": "multiple",
+    "inputs": [
+      "Cash available: cash before the tested payments.",
+      "Principal/interest: matching scheduled amounts."
+    ],
+    "scope": "Do not subtract interest in the numerator and silently treat that as the same pre-service convention. Contract tests can differ.",
+    "status": "Convention requires reconciliation",
+    "reference": "cash"
+  },
+  {
+    "index": 129,
+    "end": 131,
+    "name": "Sales to working-capital turnover",
+    "expression": "Net sales / average defined working capital",
+    "units": "multiple",
+    "inputs": [
+      "Net sales: period sales.",
+      "Average working capital: explicitly broad or operating working capital base."
+    ],
+    "scope": "The source calls this cash conversion efficiency and describes days. The displayed fraction is turnover, not a duration.",
+    "status": "Corrected name and units",
+    "reference": "working"
+  },
+  {
+    "index": 133,
+    "end": 134,
+    "name": "Net income",
+    "expression": "Recognized revenue and other income − all applicable expenses",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "Recognized income: income belonging to the reporting period.",
+      "Applicable expenses: costs including relevant financing and tax."
+    ],
+    "scope": "Reconcile to the actual statement and avoid treating cash receipts/payments as equivalent to accrual income/expense.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 137,
+    "end": 139,
+    "name": "Gross profit",
+    "expression": "Relevant net sales − cost of goods/services sold",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "Relevant net sales: recognized revenue for the activities measured.",
+      "Cost of sales: corresponding direct cost under the stated accounting policy."
+    ],
+    "scope": "Use the same activity scope and period; gross profit is an amount, not a percentage.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 139,
+    "end": 141,
+    "name": "EBITDA: net-income reconciliation",
+    "expression": "Net income + income tax expense + interest expense + depreciation + amortisation",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "Net income: accounting earnings base.",
+      "Add-backs: the included interest, tax, depreciation and amortisation expenses."
+    ],
+    "scope": "The source also subtracts interest income; that is a different definition needing explicit reconciliation. Add each eligible item once.",
+    "status": "Chosen earnings convention",
+    "reference": "earnings"
+  },
+  {
+    "index": 141,
+    "end": 143,
+    "name": "Operating profit from gross profit",
+    "expression": "Gross profit − applicable operating expenses",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "Gross profit: profit after matching cost of sales.",
+      "Operating expenses: expenses included in the selected operating-profit definition."
+    ],
+    "scope": "Include relevant D&A when calculating EBIT/operating profit. EBIT and operating income are not always identical.",
+    "status": "Scope refinement",
+    "reference": "earnings"
+  },
+  {
+    "index": 143,
+    "end": 145,
+    "name": "Net other income",
+    "expression": "Other income − other expenses",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "Other income/expenses: lines excluded from the stated operating subtotal."
+    ],
+    "scope": "Define the classification and reconcile to the full statement.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 145,
+    "end": 147,
+    "name": "Net profit margin",
+    "expression": "Net income / matching revenue",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Net income: corresponding after-expense earnings.",
+      "Revenue: matching recognized period revenue."
+    ],
+    "scope": "Use the same period, currency, accounting perimeter and definition for compared inputs. A zero denominator is undefined; negative bases can change or defeat the usual interpretation. Higher/lower is not an automatic quality score.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 147,
+    "end": 149,
+    "name": "Price-to-earnings",
+    "expression": "Market price per share / compatible earnings per share",
+    "units": "multiple",
+    "inputs": [
+      "Share price: stated date/class.",
+      "EPS: basic or diluted, trailing or forward, on a declared basis."
+    ],
+    "scope": "A negative/near-zero EPS undermines the usual multiple interpretation.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 149,
+    "end": 151,
+    "name": "Gross profit margin",
+    "expression": "Gross profit / matching net sales",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Gross profit: matching revenue less cost of sales.",
+      "Net sales: revenue on the same basis."
+    ],
+    "scope": "Use the same period, currency, accounting perimeter and definition for compared inputs. A zero denominator is undefined; negative bases can change or defeat the usual interpretation. Higher/lower is not an automatic quality score.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 151,
+    "end": 153,
+    "name": "Accounting return on investment",
+    "expression": "Defined period net profit / defined investment base",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Net profit: profit attributed to the investment.",
+      "Investment base: stated initial or average investment convention."
+    ],
+    "scope": "The source’s accounting ratio differs from total investment holding-period return and needs a time horizon.",
+    "status": "Source convention",
+    "reference": "ratios"
+  },
+  {
+    "index": 153,
+    "end": 155,
+    "name": "Return on capital employed",
+    "expression": "Compatible operating profit / stated capital employed",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Operating profit: period earnings on the chosen basis.",
+      "Capital employed: stated operating-capital definition and average/closing timing."
+    ],
+    "scope": "Assets less current liabilities and long-term debt plus equity are common starting bases; adjustments and timing must be consistent.",
+    "status": "Definition-dependent",
+    "reference": "ratios"
+  },
+  {
+    "index": 155,
+    "end": 157,
+    "name": "Basic earnings per common share",
+    "expression": "(Attributable net income − applicable preferred dividends) / weighted-average common shares",
+    "units": "currency per common share",
+    "inputs": [
+      "Attributable income: earnings matching common owners.",
+      "Preferred dividends: applicable preference deduction.",
+      "Weighted shares: period common share count."
+    ],
+    "scope": "This simplified basic-EPS bridge is not a diluted-EPS or full participation-rights model.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 157,
+    "end": 159,
+    "name": "Operating profit margin",
+    "expression": "Operating profit / matching revenue",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Operating profit: declared operating subtotal.",
+      "Revenue: matching period revenue."
+    ],
+    "scope": "Use the same period, currency, accounting perimeter and definition for compared inputs. A zero denominator is undefined; negative bases can change or defeat the usual interpretation. Higher/lower is not an automatic quality score.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 159,
+    "end": 161,
+    "name": "Dividend yield",
+    "expression": "Annual dividend per corresponding share / market price per share",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Annual dividend: stated historical/forward convention.",
+      "Market price: corresponding class and date."
+    ],
+    "scope": "Not a total return or guaranteed future payout; disclose special-dividend treatment.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 161,
+    "end": 163,
+    "name": "Gross margin: revenue-cost form",
+    "expression": "(Revenue − corresponding cost of sales) / revenue",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Revenue/cost of sales: same period and activity scope."
+    ],
+    "scope": "Equivalent to gross profit/revenue when the underlying definitions match.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 163,
+    "end": 165,
+    "name": "Net Promoter Score",
+    "expression": "Promoter percentage − detractor percentage",
+    "units": "percentage points",
+    "inputs": [
+      "Promoter percentage: share classified as promoters under the stated survey scale.",
+      "Detractor percentage: share classified as detractors on that scale."
+    ],
+    "scope": "The upload supplies the difference but not question wording, rating thresholds, sampling or collection method. NPS is not a financial profit margin.",
+    "status": "Reviewed with scope",
+    "reference": ""
+  },
+  {
+    "index": 165,
+    "end": 167,
+    "name": "Transfer-pricing operating net margin",
+    "expression": "Relevant operating net profit / relevant sales",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Operating net profit: result on the tested transaction/entity scope.",
+      "Relevant sales: compatible revenue base."
+    ],
+    "scope": "A profit-level indicator is not an automatic arm’s-length result; comparability and tested-party selection matter.",
+    "status": "Transaction-specific",
+    "reference": "oecd"
+  },
+  {
+    "index": 167,
+    "end": 169,
+    "name": "Net cost-plus / return on total costs",
+    "expression": "Relevant operating net profit / relevant operating cost base",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Profit: tested operating result.",
+      "Cost base: defined costs relevant to the tested activity."
+    ],
+    "scope": "Pass-through costs and accounting classifications affect comparability. Do not assume every company expense belongs in the denominator.",
+    "status": "Transaction-specific",
+    "reference": "oecd"
+  },
+  {
+    "index": 169,
+    "end": 171,
+    "name": "Berry ratio",
+    "expression": "Relevant gross profit / relevant operating expenses",
+    "units": "multiple",
+    "inputs": [
+      "Gross profit: tested gross return.",
+      "Operating expenses: appropriate operating cost base."
+    ],
+    "scope": "Use only where the functional and comparability assumptions support this indicator; not a universal distributor benchmark.",
+    "status": "Transaction-specific",
+    "reference": "oecd"
+  },
+  {
+    "index": 172,
+    "end": 174,
+    "name": "Opening/closing average inventory",
+    "expression": "(Opening inventory + closing inventory) / 2",
+    "units": "currency at consistent valuation",
+    "inputs": [
+      "Opening/closing inventory: matching stock definitions."
+    ],
+    "scope": "Two snapshots can miss seasonality; use more observations where needed.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 174,
+    "end": 176,
+    "name": "Inventory days on hand",
+    "expression": "Average inventory / period COGS × period days",
+    "units": "days",
+    "inputs": [
+      "Average inventory: relevant stock base.",
+      "COGS and days: matched reporting period."
+    ],
+    "scope": "The source uses period COGS but always multiplies by 365. Use matching period days.",
+    "status": "Corrected period scaling",
+    "reference": "working"
+  },
+  {
+    "index": 176,
+    "end": 178,
+    "name": "Stock-to-sales ratio",
+    "expression": "Stated inventory value / matching sales value",
+    "units": "multiple",
+    "inputs": [
+      "Inventory: date and valuation basis.",
+      "Sales: period and gross/net basis."
+    ],
+    "scope": "Inventory at cost divided by sales at selling prices is a stated operating convention, not a like-cost fraction.",
+    "status": "Definition-dependent",
+    "reference": ""
+  },
+  {
+    "index": 178,
+    "end": 180,
+    "name": "Inventory carrying-cost rate",
+    "expression": "(Service + risk + capital + storage costs) / stated inventory value",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Costs: matching-period costs included in the carrying-cost scope.",
+      "Inventory value: declared average/closing valuation base."
+    ],
+    "scope": "State period and avoid double-counting capital/financing/storage costs. Not every cost category is an accounting expense.",
+    "status": "Source convention",
+    "reference": ""
+  },
+  {
+    "index": 180,
+    "end": 182,
+    "name": "Source order-backlog rate",
+    "expression": "Undeliverable orders / total relevant orders",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Undeliverable orders: orders meeting a declared delayed/backordered definition.",
+      "Total orders: matching cohort of orders."
+    ],
+    "scope": "Define backordered versus cancelled or otherwise undeliverable orders; do not mix order counts and units.",
+    "status": "Definition-dependent",
+    "reference": ""
+  },
+  {
+    "index": 182,
+    "end": 184,
+    "name": "Sell-through on receipts",
+    "expression": "Units sold / units received",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Units sold/received: same product, period and unit basis."
+    ],
+    "scope": "This source receipts-based convention differs from available-stock measures when opening stock exists.",
+    "status": "Source convention",
+    "reference": ""
+  },
+  {
+    "index": 184,
+    "end": 186,
+    "name": "Inventory scrap-cost ratio",
+    "expression": "Period scrap expense / average inventory value",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Scrap expense: cost written off for scrap in the period.",
+      "Average inventory value: compatible stock valuation."
+    ],
+    "scope": "This is a cost/value measure, not scrap units divided by production units.",
+    "status": "Clarified source convention",
+    "reference": ""
+  },
+  {
+    "index": 186,
+    "end": 188,
+    "name": "Stock-receiving process time",
+    "expression": "Validation time + recording time + storage-preparation time",
+    "units": "consistent time units",
+    "inputs": [
+      "Component times: non-overlapping elapsed/labour times under one declared convention."
+    ],
+    "scope": "Parallel work and elapsed versus labour time can prevent simple addition unless the process definition supports it.",
+    "status": "Conditional process sum",
+    "reference": ""
+  },
+  {
+    "index": 188,
+    "end": 190,
+    "name": "Book-to-physical inventory difference",
+    "expression": "Book inventory value − physical inventory value",
+    "units": "currency at a matching date",
+    "inputs": [
+      "Book value: ledger stock value.",
+      "Physical value: counted stock valued on the same basis."
+    ],
+    "scope": "A negative difference is an overage under this sign convention. A discrepancy alone does not prove fraud.",
+    "status": "Explicit valuation/sign convention",
+    "reference": ""
+  },
+  {
+    "index": 190,
+    "end": 192,
+    "name": "Dead-stock share",
+    "expression": "Unsellable relevant stock / total relevant available stock",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Numerator/denominator: both units or both values at a matching date and scope."
+    ],
+    "scope": "State obsolescence criteria and snapshot/cohort definitions; do not mix unit and currency bases.",
+    "status": "Definition-dependent",
+    "reference": ""
+  },
+  {
+    "index": 193,
+    "end": 195,
+    "name": "Customer churn rate",
+    "expression": "Opening-cohort customers lost during period / customers at period start",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Customers lost: opening-cohort customers meeting the churn definition.",
+      "Opening customers: eligible starting customer base."
+    ],
+    "scope": "The source says total customers without specifying timing. New customers should not silently dilute an opening-cohort loss rate.",
+    "status": "Explicit cohort denominator",
+    "reference": "saas"
+  },
+  {
+    "index": 195,
+    "end": 197,
+    "name": "New-buyer growth",
+    "expression": "(New buyers this period − new buyers prior period) / new buyers prior period",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "New buyers: distinct buyers meeting the acquisition definition in each comparable period."
+    ],
+    "scope": "Not total-customer growth; prior-period zero makes the rate undefined.",
+    "status": "Reviewed with scope",
+    "reference": ""
+  },
+  {
+    "index": 197,
+    "end": 199,
+    "name": "Simple revenue lifetime value",
+    "expression": "Revenue per customer per period × expected customer lifespan in periods",
+    "units": "revenue currency per customer",
+    "inputs": [
+      "Period revenue: compatible expected revenue per customer.",
+      "Lifespan: expected duration in the same periods."
+    ],
+    "scope": "A constant-average revenue approximation, not profit/contribution LTV, discounted cash value or a guaranteed lifetime.",
+    "status": "Explicit revenue convention",
+    "reference": ""
+  },
+  {
+    "index": 199,
+    "end": 201,
+    "name": "Customer acquisition cost",
+    "expression": "Attributed sales and marketing cost / matching new customers acquired",
+    "units": "currency per acquired customer",
+    "inputs": [
+      "Attributed costs: declared acquisition cost allocation.",
+      "New customers: acquisition cohort matching those costs."
+    ],
+    "scope": "Allow for sales-cycle timing and attribution. Revenue growth and customer acquisition are different outcomes.",
+    "status": "Definition-dependent",
+    "reference": ""
+  },
+  {
+    "index": 201,
+    "end": 203,
+    "name": "Net cash burn",
+    "expression": "Included cash outflows − included cash inflows",
+    "units": "currency per stated period",
+    "inputs": [
+      "Included inflows/outflows: declared cash-flow perimeter."
+    ],
+    "scope": "Positive means consumption. Financing proceeds and one-offs can distort operating runway if mixed without explanation.",
+    "status": "Explicit sign convention",
+    "reference": "cash"
+  },
+  {
+    "index": 203,
+    "end": 205,
+    "name": "Constant-burn runway",
+    "expression": "Available cash / positive net burn per period",
+    "units": "periods",
+    "inputs": [
+      "Available cash: spendable cash after any stated minimum reserve.",
+      "Net burn: positive compatible cash consumption per period."
+    ],
+    "scope": "Not a finite depletion forecast when burn is zero/negative; changing cash flows require a dated rolling forecast.",
+    "status": "Conditional shortcut",
+    "reference": "cash"
+  },
+  {
+    "index": 205,
+    "end": 207,
+    "name": "Revenue per customer",
+    "expression": "Period revenue / stated matching customer base",
+    "units": "currency per customer per period",
+    "inputs": [
+      "Revenue: defined customer revenue.",
+      "Customer base: declared average/active/point-in-time count."
+    ],
+    "scope": "Customer and user counts differ. State period and population; a closing count is not automatically comparable to an average.",
+    "status": "Definition-dependent",
+    "reference": "saas"
+  },
+  {
+    "index": 207,
+    "end": 209,
+    "name": "SaaS quick ratio",
+    "expression": "(New MRR + expansion MRR) / (churned MRR + contraction MRR)",
+    "units": "multiple",
+    "inputs": [
+      "New/expansion MRR: additions in normalized monthly recurring value.",
+      "Churn/contraction MRR: positive magnitudes of lost recurring value."
+    ],
+    "scope": "The source’s “net MRR” is ambiguous; the displayed convention uses new MRR. Define reactivation policy and avoid confusing this with the financial quick ratio.",
+    "status": "Clarified movement convention",
+    "reference": "saas"
+  },
+  {
+    "index": 209,
+    "end": 211,
+    "name": "Uniform-customer MRR shortcut",
+    "expression": "Eligible customers × average normalized monthly recurring amount",
+    "units": "recurring currency per month",
+    "inputs": [
+      "Customers: eligible active subscriptions/customers.",
+      "Monthly amount: recurring charge normalized to a month."
+    ],
+    "scope": "Exclude nonrecurring items and define subscription states; annual billing is not all MRR in the payment month.",
+    "status": "Conditional shortcut",
+    "reference": "saas"
+  },
+  {
+    "index": 211,
+    "end": 213,
+    "name": "Contract-value market-size estimate",
+    "expression": "Annual eligible contract value per client × potential eligible clients",
+    "units": "annual market revenue currency",
+    "inputs": [
+      "Annual client value: assumed annual contract amount.",
+      "Potential clients: stated target population."
+    ],
+    "scope": "A top-down TAM hypothesis, not serviceable or obtainable market evidence.",
+    "status": "Assumption-based estimate",
+    "reference": ""
+  },
+  {
+    "index": 213,
+    "end": 215,
+    "name": "Net revenue retention for an opening cohort",
+    "expression": "(Opening-cohort MRR + expansion − contraction − churn) / opening-cohort MRR × 100",
+    "units": "percent",
+    "inputs": [
+      "Opening-cohort MRR: recurring value of customers present at start.",
+      "Movements: only changes for that cohort, with loss amounts positive."
+    ],
+    "scope": "Exclude new-customer revenue. The source’s “net revenue” does not supply this cohort definition; state reactivation policy.",
+    "status": "Explicit cohort correction",
+    "reference": "saas"
+  },
+  {
+    "index": 215,
+    "end": 217,
+    "name": "Gross-profit CAC payback",
+    "expression": "CAC per acquired customer / gross profit per customer per period",
+    "units": "matching periods",
+    "inputs": [
+      "CAC: acquisition cost per new customer.",
+      "Gross profit: expected revenue less corresponding cost of sales per customer and period."
+    ],
+    "scope": "The source omits per-customer/per-period matching. A zero/negative gross profit does not provide a positive payback time.",
+    "status": "Completed unit definition",
+    "reference": ""
+  },
+  {
+    "index": 217,
+    "end": 219,
+    "name": "Sales quota attainment",
+    "expression": "Sales on the quota basis / quota on the same basis × 100",
+    "units": "percent",
+    "inputs": [
+      "Sales: declared bookings/revenue/unit measure.",
+      "Quota: target in the same units and period."
+    ],
+    "scope": "Do not compare monthly recognized revenue to an annual bookings quota.",
+    "status": "Reviewed with scope",
+    "reference": ""
+  },
+  {
+    "index": 219,
+    "end": 221,
+    "name": "Average annual contract value",
+    "expression": "Total annualized eligible contract value / eligible contract count",
+    "units": "currency per contract per year",
+    "inputs": [
+      "Annualized value: recurring/eligible contract value normalized to a year.",
+      "Contract count: matching eligible contracts."
+    ],
+    "scope": "The source uses total revenue without annualization. Contract value, recognized revenue and one-time fees need separate treatment.",
+    "status": "Completed annualization convention",
+    "reference": "saas"
+  },
+  {
+    "index": 221,
+    "end": 223,
+    "name": "Expansion recurring revenue",
+    "expression": "Sum of positive recurring-value increases for continuing customers",
+    "units": "recurring currency per stated period",
+    "inputs": [
+      "Expansion movements: customer-level upgrades/additions under a stated policy."
+    ],
+    "scope": "Aggregate period revenue minus reactivation/churn cannot isolate expansion. Define cohort and exclude new/reactivated customer value as appropriate.",
+    "status": "Corrected movement definition",
+    "reference": "saas"
+  },
+  {
+    "index": 223,
+    "end": 225,
+    "name": "Contraction recurring revenue",
+    "expression": "Sum of partial recurring-value reductions for continuing customers",
+    "units": "recurring currency per stated period",
+    "inputs": [
+      "Contraction movements: positive magnitudes of downgrades/reductions."
+    ],
+    "scope": "Separate partial downgrades from full churn; aggregate revenue totals cannot isolate contraction reliably.",
+    "status": "Corrected movement definition",
+    "reference": "saas"
+  },
+  {
+    "index": 225,
+    "end": 227,
+    "name": "Budget attainment versus variance",
+    "expression": "Attainment = actual / budget; variance rate = (actual − budget) / budget",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Actual/budget: same measure, period, units and perimeter."
+    ],
+    "scope": "The source labels variance/budget as attainment. Favorable/unfavorable signs depend on whether the measure is cost, revenue or another target.",
+    "status": "Corrected measure distinction",
+    "reference": ""
+  },
+  {
+    "index": 227,
+    "end": 229,
+    "name": "Revenue per user",
+    "expression": "Period revenue / stated matching user base",
+    "units": "currency per user per period",
+    "inputs": [
+      "Revenue: defined relevant revenue.",
+      "Users: eligible user count, with average/active/closing timing declared."
+    ],
+    "scope": "Users, paying accounts and customers are different populations; do not silently interchange ARPU/ARPA definitions.",
+    "status": "Definition-dependent",
+    "reference": "saas"
+  },
+  {
+    "index": 229,
+    "end": 231,
+    "name": "Revenue run-rate annualization",
+    "expression": "Latest monthly revenue × 12",
+    "units": "annualized revenue currency",
+    "inputs": [
+      "Monthly revenue: declared recognized revenue for the selected month."
+    ],
+    "scope": "A snapshot annualization, not ARR or a forecast; seasonality and one-off items can distort it.",
+    "status": "Conditional annualization",
+    "reference": ""
+  },
+  {
+    "index": 231,
+    "end": 233,
+    "name": "Forecast cash-depletion date",
+    "expression": "First forecast date when the cash balance reaches the stated depletion threshold",
+    "units": "calendar date",
+    "inputs": [
+      "Cash forecast: dated expected inflows/outflows.",
+      "Threshold: zero cash or a declared minimum liquidity buffer."
+    ],
+    "scope": "“This month + runway” needs actual dates, period conventions and a constant-burn assumption; it is not a complete calendar calculation.",
+    "status": "Completed date definition",
+    "reference": "cash"
+  },
+  {
+    "index": 233,
+    "end": 235,
+    "name": "Probability-weighted pipeline",
+    "expression": "Σ (deal valueᵢ × compatible close probabilityᵢ)",
+    "units": "currency of expected pipeline value",
+    "inputs": [
+      "Deal value: compatible amount for each included opportunity.",
+      "Probability: declared likelihood between 0 and 1, matched to outcome/time."
+    ],
+    "scope": "A single total-value times probability works only with a compatible weighted probability. Expected pipeline is not recognized revenue or a closing guarantee.",
+    "status": "Explicit deal-level sum",
+    "reference": ""
+  },
+  {
+    "index": 441,
+    "end": 442,
+    "name": "Balance-sheet reconciliation identity",
+    "expression": "Assets = liabilities + equity",
+    "units": "currency at a reporting date",
+    "inputs": [
+      "Recognized assets/liabilities/equity: same entity, date and accounting basis."
+    ],
+    "scope": "Balance is necessary but not evidence that all underlying classifications/valuations are correct.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 569,
+    "end": 570,
+    "name": "Simplified purchase-price allocation bridge",
+    "expression": "Purchase price = fair value of identifiable net assets + goodwill",
+    "units": "currency at acquisition",
+    "inputs": [
+      "Identifiable net assets: recognized acquired assets less assumed liabilities at the appropriate values.",
+      "Goodwill: residual under the applicable acquisition model."
+    ],
+    "scope": "This simplified wholly-owned bridge does not cover NCI, previously held stakes, all deferred-tax effects or every transaction structure.",
+    "status": "Simplified acquisition convention",
+    "reference": "ifrs3"
+  },
+  {
+    "index": 697,
+    "end": 698,
+    "name": "Operating cash flow: reconcile working-capital signs",
+    "expression": "Net income + signed noncash adjustments − increase in noncash operating working capital + required operating reconciliations",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "Noncash adjustments: signed earnings-to-cash adjustments.",
+      "Working-capital increase: positive investment in noncash operating balances."
+    ],
+    "scope": "The source adds “changes” without defining their sign. Define investment increases versus signed cash effects explicitly. CAPEX is cash capital expenditure expressed as a positive outflow; ΔNWC is an increase in noncash operating working capital, excluding financing debt. Reconcile classification and other noncash/operating adjustments.",
+    "status": "Clarified sign convention",
+    "reference": "cash"
+  },
+  {
+    "index": 698,
+    "end": 699,
+    "name": "Investing cash flow",
+    "expression": "Cash investing receipts − cash investing payments",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "Investing receipts/payments: relevant disposals, acquisitions, lending and investment cash flows."
+    ],
+    "scope": "Net CAPEX is only part of investing cash flow, with a stated sign; the source equates them too broadly.",
+    "status": "Corrected scope",
+    "reference": "cash"
+  },
+  {
+    "index": 699,
+    "end": 700,
+    "name": "Financing cash flow",
+    "expression": "Debt proceeds − principal repayments + equity proceeds − share repurchases − distributions + other financing flows",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "Debt/equity movements: relevant cash financing receipts and payments."
+    ],
+    "scope": "The source’s “net debt process” appears to mean proceeds. Define distributions, lease/debt repayments and framework-dependent classification.",
+    "status": "Completed financing scope",
+    "reference": "cash"
+  },
+  {
+    "index": 700,
+    "end": 701,
+    "name": "FCFF: operating-cash-flow bridge",
+    "expression": "Operating cash flow − cash CAPEX + compatible after-tax interest adjustment",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "OCF: operating cash flow after the interest deduction being adjusted.",
+      "After-tax interest: compatible interest × (1 − tax rate)."
+    ],
+    "scope": "Valid only with compatible interest and tax classifications; otherwise use/reconcile an operating-profit bridge.",
+    "status": "Conditional bridge",
+    "reference": "cash"
+  },
+  {
+    "index": 701,
+    "end": 702,
+    "name": "FCFE: operating-cash-flow bridge",
+    "expression": "Operating cash flow − cash CAPEX + net borrowing",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "OCF: compatible after-interest/tax operating cash flow.",
+      "Net borrowing: debt proceeds less principal repayment."
+    ],
+    "scope": "Reconcile cash-flow classifications and other required equity-cash adjustments. CAPEX is cash capital expenditure expressed as a positive outflow; ΔNWC is an increase in noncash operating working capital, excluding financing debt. Reconcile classification and other noncash/operating adjustments.",
+    "status": "Conditional bridge",
+    "reference": "cash"
+  },
+  {
+    "index": 1404,
+    "end": 1405,
+    "name": "EBITDA margin",
+    "expression": "Defined EBITDA / matching revenue",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "EBITDA: explicitly reconciled earnings measure.",
+      "Revenue: same entity and period."
+    ],
+    "scope": "Not a cash-flow margin; comparisons require the same adjustment policy.",
+    "status": "Reviewed with scope",
+    "reference": "earnings"
+  },
+  {
+    "index": 1406,
+    "end": 1407,
+    "name": "EBITDA-based interest coverage",
+    "expression": "EBITDA / compatible interest expense",
+    "units": "multiple",
+    "inputs": [
+      "EBITDA: declared earnings measure.",
+      "Interest expense: matching test period and definition."
+    ],
+    "scope": "Different from EBIT/interest and cash-interest coverage. A covenant may define each input differently.",
+    "status": "Defined earnings convention",
+    "reference": "earnings"
+  },
+  {
+    "index": 1408,
+    "end": 1409,
+    "name": "EBITDA-based debt-service proxy",
+    "expression": "EBITDA / (scheduled principal + compatible interest)",
+    "units": "multiple",
+    "inputs": [
+      "EBITDA: chosen period earnings measure.",
+      "Debt service: matching scheduled principal and interest."
+    ],
+    "scope": "This proxy does not fund taxes, investment or working capital. It is not a universal cash DSCR or agreement test.",
+    "status": "Proxy convention",
+    "reference": "earnings"
+  },
+  {
+    "index": 1410,
+    "end": 1411,
+    "name": "Fixed-charge coverage: agreement-specific",
+    "expression": "",
+    "units": "Agreement-defined",
+    "inputs": [
+      "Fixed charges, cash taxes, unfunded CAPEX, distributions and P/I: terms requiring their agreement definitions."
+    ],
+    "scope": "The source expression cannot be certified as a universal covenant without the agreement, test period and adjustment rules. Original wording is retained for review.",
+    "status": "Needs agreement definition",
+    "reference": ""
+  },
+  {
+    "index": 1412,
+    "end": 1413,
+    "name": "Funded debt to EBITDA",
+    "expression": "Defined funded debt / compatible EBITDA",
+    "units": "multiple",
+    "inputs": [
+      "Funded debt: debt included by the chosen convention/agreement.",
+      "EBITDA: compatible period earnings."
+    ],
+    "scope": "State leases, guarantees, adjustments, trailing-period basis and negative-EBITDA limitations.",
+    "status": "Agreement-sensitive convention",
+    "reference": "earnings"
+  },
+  {
+    "index": 1414,
+    "end": 1415,
+    "name": "Three-factor DuPont identity",
+    "expression": "ROE = (net income / net sales) × (net sales / average total assets) × (average total assets / average equity)",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Net income/sales: matching period measures.",
+      "Average assets/equity: compatible averages and owners."
+    ],
+    "scope": "The source lists many related ratios rather than an algebraic identity. Do not multiply every item in that list.",
+    "status": "Corrected identity",
+    "reference": "ratios"
+  },
+  {
+    "index": 1417,
+    "end": 1418,
+    "name": "Adjusted EBITDA reconciliation",
+    "expression": "EBITDA + separately identified signed adjustments",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "EBITDA: base measure reconciled to net income.",
+      "Signed adjustments: justified additions and deductions under a stated policy."
+    ],
+    "scope": "An item being noncash, recurring, personal or one-time is not automatic permission to exclude it. Reconcile and explain each adjustment.",
+    "status": "Definition-dependent",
+    "reference": "earnings"
+  },
+  {
+    "index": 1419,
+    "end": 1420,
+    "name": "FCFF: correct the fixed-asset shorthand",
+    "expression": "Operating cash flow + compatible after-tax interest − cash CAPEX",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "OCF/interest: compatible classifications.",
+      "Cash CAPEX: actual relevant cash investment, not an unexplained change in asset balance."
+    ],
+    "scope": "Changes in fixed assets can include depreciation, disposals and noncash movements; they are not automatically CAPEX.",
+    "status": "Corrected investment sign/base",
+    "reference": "cash"
+  },
+  {
+    "index": 1421,
+    "end": 1422,
+    "name": "FCFE: use changes, not balance totals",
+    "expression": "Net income + noncash charges − cash CAPEX − increase in noncash operating working capital + net borrowing",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "Working-capital changes: relevant noncash operating balance changes, not sums of their balances.",
+      "Net borrowing: new debt less principal repaid."
+    ],
+    "scope": "The source adds receivable, payable, inventory and other balances and CAPEX without a defined reconciliation. CAPEX is cash capital expenditure expressed as a positive outflow; ΔNWC is an increase in noncash operating working capital, excluding financing debt. Reconcile classification and other noncash/operating adjustments.",
+    "status": "Corrected incomplete bridge",
+    "reference": "cash"
+  },
+  {
+    "index": 1423,
+    "end": 1424,
+    "name": "Economic profit / EVA-style measure",
+    "expression": "After-tax operating profit − (compatible cost of capital × invested capital)",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "After-tax operating profit: NOPAT on the model’s tax basis.",
+      "Invested capital: defined operating investment base.",
+      "Cost of capital: compatible period rate."
+    ],
+    "scope": "Debt plus equity is a simplified base; adjustments and timing must be explicit. This is not a completed proprietary valuation methodology.",
+    "status": "Defined economic-profit convention",
+    "reference": "cash"
+  },
+  {
+    "index": 1425,
+    "end": 1426,
+    "name": "Two-source WACC",
+    "expression": "(E / (D + E)) × rE + (D / (D + E)) × rD × (1 − tax rate)",
+    "units": "rate per stated period",
+    "inputs": [
+      "E/D: compatible equity/debt values or declared target weights.",
+      "rE: cost of equity.",
+      "rD: pretax cost of debt.",
+      "Tax rate: usable debt-tax-shield assumption."
+    ],
+    "scope": "Match cash flow, currency, rate horizon and capital structure. Financing beyond debt/equity and unusable tax shields need additional treatment.",
+    "status": "Conditional financing model",
+    "reference": "cash"
+  },
+  {
+    "index": 1427,
+    "end": 1428,
+    "name": "Return on invested capital",
+    "expression": "After-tax operating profit / average defined operating invested capital",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "After-tax operating profit: matching NOPAT.",
+      "Average invested capital: compatible operating-capital base."
+    ],
+    "scope": "The source’s long-term-debt plus equity minus cash is a shortcut. Separate operating cash needs, other financing and averages before comparing.",
+    "status": "Explicit capital-base convention",
+    "reference": "cash"
+  },
+  {
+    "index": 1429,
+    "end": 1430,
+    "name": "Dividend payout ratio",
+    "expression": "Corresponding dividends / corresponding earnings",
+    "units": "ratio; multiply by 100 to express a percentage",
+    "inputs": [
+      "Dividends/earnings: matched common or total-owner basis and period."
+    ],
+    "scope": "Losses, preference distributions and one-off dividends can make simple comparisons misleading.",
+    "status": "Reviewed with scope",
+    "reference": "ratios"
+  },
+  {
+    "index": 1489,
+    "end": 1491,
+    "name": "EBITDA bridge: complete the split source line",
+    "expression": "Net income + interest expense + income tax expense + depreciation + amortisation",
+    "units": "currency, for the stated period",
+    "inputs": [
+      "Net income: accounting earnings base.",
+      "Add-backs: eligible included expenses, each counted once."
+    ],
+    "scope": "The source line continues in the next paragraph. Its earlier sequence excludes D&A and then adds it again; add it back only if already expensed in the starting subtotal.",
+    "status": "Completed split formula / sequence correction",
+    "reference": "earnings"
+  },
+  {
+    "index": 1575,
+    "end": 1576,
+    "name": "CAPM cost of equity",
+    "expression": "Risk-free rate + equity beta × (expected market return − risk-free rate)",
+    "units": "rate per matching period",
+    "inputs": [
+      "Risk-free rate: compatible currency/horizon assumption.",
+      "Equity beta: equity-risk estimate.",
+      "Expected market return: market return assumption."
+    ],
+    "scope": "This is a cost-of-equity model, not a universal discount rate. FCFF and FCFE require matched discount rates and cash definitions.",
+    "status": "Corrected generic label",
+    "reference": "cash"
+  },
+  {
+    "index": 1617,
+    "end": 1619,
+    "name": "Annual recurring revenue",
+    "expression": "Normalized eligible MRR × 12",
+    "units": "annualized recurring currency",
+    "inputs": [
+      "MRR: eligible recurring revenue normalized to a month at the measurement date."
+    ],
+    "scope": "ARR is an annualization of a recurring base, not recognized annual revenue, annual cash receipts or a guaranteed forecast.",
+    "status": "Defined recurring-revenue convention",
+    "reference": "saas"
+  },
+  {
+    "index": 1619,
+    "end": 1620,
+    "name": "MRR movement bridge",
+    "expression": "Opening MRR + new MRR + expansion MRR − churned MRR − contraction MRR",
+    "units": "recurring currency per month",
+    "inputs": [
+      "Opening MRR: starting recurring base.",
+      "Movements: normalized recurring-value changes on a consistent customer policy."
+    ],
+    "scope": "Bookings must be normalized to eligible recurring monthly value; define reactivation treatment separately and reconcile it consistently.",
+    "status": "Clarified recurring-value bridge",
+    "reference": "saas"
+  },
+  {
+    "index": 1634,
+    "end": 1635,
+    "name": "Sales-capacity forecast shortcut",
+    "expression": "",
+    "units": "Not fully specified",
+    "inputs": [
+      "Required definitions: productive rep capacity, ramp treatment, quota period, expected attainment and timing."
+    ],
+    "scope": "Reps × ramp period × quota does not establish a compatible revenue model. The source supplies no complete units or inputs; do not treat it as executable.",
+    "status": "Incomplete driver model",
+    "reference": ""
+  },
+  {
+    "index": 1635,
+    "end": 1636,
+    "name": "Ad-spend forecast shortcut",
+    "expression": "",
+    "units": "Not fully specified",
+    "inputs": [
+      "Required definitions: spend-to-lead/traffic conversion, cost per lead/click, customer conversion, customer value and timing."
+    ],
+    "scope": "Ad spend × conversion rate alone does not establish new sales revenue. Missing drivers must be defined rather than filled with invented values.",
+    "status": "Incomplete driver model",
+    "reference": ""
+  },
+  {
+    "index": 1636,
+    "end": 1637,
+    "name": "Partner-referral driver",
+    "expression": "Active partners × referrals per active partner per month",
+    "units": "referrals per month",
+    "inputs": [
+      "Active partners: partners generating referrals.",
+      "Referral rate: expected relevant referrals per partner per month."
+    ],
+    "scope": "This estimates referrals, not sales or revenue. Conversion, contract value and timing are separate missing drivers.",
+    "status": "Partial driver model",
+    "reference": ""
+  }
+]

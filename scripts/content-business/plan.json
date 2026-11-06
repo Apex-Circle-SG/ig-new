@@ -1763,7 +1763,7 @@
       "customer-systems"
     ],
     "notes": [
-      "The source names Net Promoter Score but gives no survey scale or calculation formula. Those missing details have not been invented."
+      "The earlier source names NPS without a survey scale. The accounting collection supplies its percentage-point calculation; question wording and rating thresholds are still not supplied."
     ],
     "collection": "sales-playbook",
     "editorialSections": [

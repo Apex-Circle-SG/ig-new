@@ -47,5 +47,14 @@
     "figures": "marketing-figures.json",
     "ledger": "docs/marketing-content-coverage.csv",
     "sha256": "3820e4d4ee3fc7dc67d9050f49e4630c6cff671262d77894494012f22409b054"
+  },
+  {
+    "key": "accounting",
+    "source": "content/sources/finance/accounting",
+    "plan": "accounting-plan.json",
+    "figures": "accounting-figures.json",
+    "formulas": "accounting-formulas.json",
+    "ledger": "docs/accounting-content-coverage.csv",
+    "sha256": "21bfbe2ba7db3cfd302363f2326b94e27c7f5db928980dc01d447c05e67448e9"
   }
 ]

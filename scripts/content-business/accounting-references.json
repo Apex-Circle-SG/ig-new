@@ -1,0 +1,54 @@
+{
+  "ratios": {
+    "title": "OpenStax: financial statement analysis",
+    "url": "https://openstax.org/books/principles-financial-accounting/pages/a-financial-statement-analysis"
+  },
+  "working": {
+    "title": "ACCA: performance appraisal and working-capital ratios",
+    "url": "https://www.accaglobal.com/sg/en/student/exam-support-resources/fundamentals-exams-study-resources/f7/technical-articles/appraisal-questions.html"
+  },
+  "cash": {
+    "title": "NYU Stern: estimating cash flows",
+    "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/dcfcf.pdf"
+  },
+  "earnings": {
+    "title": "SEC: non-GAAP financial measures",
+    "url": "https://www.sec.gov/rules-regulations/staff-guidance/corporation-finance-interpretations/non-gaap-financial-measures"
+  },
+  "ias38": {
+    "title": "IFRS Foundation: IAS 38 Intangible Assets",
+    "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-38-intangible-assets/"
+  },
+  "ifrs3": {
+    "title": "IFRS Foundation: IFRS 3 Business Combinations",
+    "url": "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-3-business-combinations/"
+  },
+  "ir": {
+    "title": "IFRS Foundation: Integrated Reporting Framework",
+    "url": "https://www.ifrs.org/issued-standards/integrated-reporting/framework/"
+  },
+  "eu": {
+    "title": "European Commission: corporate sustainability reporting",
+    "url": "https://finance.ec.europa.eu/financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en"
+  },
+  "oecd": {
+    "title": "OECD Transfer Pricing Guidelines 2022",
+    "url": "https://www.oecd.org/en/publications/2022/01/oecd-transfer-pricing-guidelines-for-multinational-enterprises-and-tax-administrations-2022_57104b3a.html"
+  },
+  "saas": {
+    "title": "Stripe: monthly and annual recurring revenue",
+    "url": "https://support.stripe.com/questions/understanding-monthly-recurring-revenue-%28mrr%29-and-annual-recurring-revenue-%28arr%29?locale=en-GB"
+  },
+  "basel": {
+    "title": "Basel Framework: definition of capital",
+    "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cap?allChapters=true"
+  },
+  "budgets": {
+    "title": "ACCA: approaches to budgeting",
+    "url": "https://www.accaglobal.com/gb/en/student/exam-support-resources/fundamentals-exams-study-resources/f5/technical-articles/budgeting1.html"
+  },
+  "cfa": {
+    "title": "CFA Institute: the Chartered Financial Analyst designation",
+    "url": "https://www.cfainstitute.org/programs/cfa-program/charter"
+  }
+}

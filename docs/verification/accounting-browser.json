@@ -1,0 +1,4198 @@
+{
+  "renderChecks": 138,
+  "accessibilityAudits": 30,
+  "formulaOriginalChecks": 270,
+  "visualChecks": 14,
+  "visibleSourcePassages": 3870,
+  "routeChecks": 423,
+  "sitemapAndContentIndexEntries": 423,
+  "formulaDirectoryLinks": 135,
+  "rows": [
+    {
+      "width": 390,
+      "path": "/library/",
+      "status": 200,
+      "title": "Good ideas deservea place to grow.",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/content-index/",
+      "status": 200,
+      "title": "Find your next useful page.",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/accounting-principles/",
+      "status": 200,
+      "title": "Accounting principles: timing, value and recognition",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/financial-position/",
+      "status": 200,
+      "title": "Read and prepare a balance sheet",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/profit-and-loss/",
+      "status": 200,
+      "title": "Read and prepare a profit-and-loss statement",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/sector-financial-statements/",
+      "status": 200,
+      "title": "Financial statements across industries: layouts and questions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/intangible-asset-accounting/",
+      "status": 200,
+      "title": "Intangible assets: recognition, research and development",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/financial-ratio-analysis/",
+      "status": 200,
+      "title": "Read ratios with context: trends, structure and comparisons",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/liquidity-leverage-ratios/",
+      "status": 200,
+      "title": "Liquidity and leverage: cash, obligations and capital",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/returns-asset-efficiency/",
+      "status": 200,
+      "title": "Returns and asset efficiency: earnings, sales and capital",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/profit-margins-returns/",
+      "status": 200,
+      "title": "Margins, returns and the DuPont bridge",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/debt-earnings-coverage/",
+      "status": 200,
+      "title": "Debt coverage: earnings measures and covenant definitions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/commercial-unit-economics/",
+      "status": 200,
+      "title": "Customer economics: churn, acquisition, retention and recurring revenue",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/cash-flow-statements/",
+      "status": 200,
+      "title": "Cash-flow statements: operations, investment and financing",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/free-cash-flow/",
+      "status": 200,
+      "title": "Free cash flow: distinguish operating, firm and equity cash",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/working-capital-cycle/",
+      "status": 200,
+      "title": "Working-capital cycle: DSO, DPO and inventory days",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/cash-flow-coverage/",
+      "status": 200,
+      "title": "Cash-flow coverage, margins and liquidity buffers",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/cash-burn-runway/",
+      "status": 200,
+      "title": "Cash burn and runway: signs, periods and survival estimates",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/cash-flow-drivers/",
+      "status": 200,
+      "title": "Cash-flow drivers: revenue, margin and capital efficiency",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/sector-working-capital/",
+      "status": 200,
+      "title": "Working capital across sectors: layouts and study examples",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/capital-project-cash-flows/",
+      "status": 200,
+      "title": "Capital-project cash flows: investment, operations and exit",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/discounted-cash-flow/",
+      "status": 200,
+      "title": "DCF: cash-flow forecasts, discount rates and terminal value",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/cost-of-capital-returns/",
+      "status": 200,
+      "title": "Cost of capital, ROIC and economic profit",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/market-valuation-measures/",
+      "status": 200,
+      "title": "Market valuation measures: equity value, enterprise value and multiples",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/purchase-price-allocation/",
+      "status": 200,
+      "title": "Purchase-price allocation: identifiable net assets and goodwill",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/finance-functions-roles/",
+      "status": 200,
+      "title": "Finance functions and roles: treasury, control, FP&A and investment",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/fpa-business-partnering/",
+      "status": 200,
+      "title": "FP&A: planning, forecasting and business partnership",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/budgeting-methods/",
+      "status": 200,
+      "title": "Budgets: operating plans, methods and the master-budget flow",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/financial-data-controls/",
+      "status": 200,
+      "title": "Financial reporting data: accuracy, integrity and controls",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/financial-report-storytelling/",
+      "status": 200,
+      "title": "Financial reporting: tell a clear, decision-focused story",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/management-reporting-cycles/",
+      "status": 200,
+      "title": "Management reports: month-end, outlook, QBR and decision support",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/financial-forecasting/",
+      "status": 200,
+      "title": "Financial forecasts: choose a model and manage uncertainty",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/forecasting-practice/",
+      "status": 200,
+      "title": "Forecasting practice: questions and industry applications",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/understanding-ebit/",
+      "status": 200,
+      "title": "EBIT: interpret earnings and investigate operational drivers",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/understanding-ebitda/",
+      "status": 200,
+      "title": "EBITDA: calculate, reconcile and understand the limits",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/ebitda-adjustments-practice/",
+      "status": 200,
+      "title": "EBITDA adjustments, applications and study exercises",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/subscription-revenue/",
+      "status": 200,
+      "title": "Subscription revenue: MRR, ARR, bookings and cash",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/arr-growth-practice/",
+      "status": 200,
+      "title": "ARR growth: retention, pricing, practice and source tool names",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/accounts-payable-controls/",
+      "status": 200,
+      "title": "Accounts payable controls: responsibilities, checks and risks",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/finance-red-flags/",
+      "status": 200,
+      "title": "Finance red flags and gaps in the source’s audit-tool material",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/transfer-pricing-comparability/",
+      "status": 200,
+      "title": "Transfer pricing: comparability, documentation and the review cycle",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/transfer-pricing-methods/",
+      "status": 200,
+      "title": "Transfer-pricing methods, indicators and adjustments",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/transfer-pricing-profiles/",
+      "status": 200,
+      "title": "Transfer-pricing profiles: functions, assets and actual risks",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/integrated-reporting-purpose/",
+      "status": 200,
+      "title": "Integrated reporting: explain value creation over time",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/sustainability-reporting-context/",
+      "status": 200,
+      "title": "Sustainability reporting: purpose, transparency and dated requirements",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/six-capitals-value-creation/",
+      "status": 200,
+      "title": "Six capitals: connect the business model to value creation",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/finance-certifications/",
+      "status": 200,
+      "title": "Finance certifications: understand the source’s credential list",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/finance-skills-development/",
+      "status": 200,
+      "title": "Finance skills and the transition from audit to FP&A",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/customer-feedback/",
+      "status": 200,
+      "title": "Customer feedback: NPS labels and service scorecards",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/marketing-logistics/",
+      "status": 200,
+      "title": "Logistics: stock, movement and information",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/market-sizing/",
+      "status": 200,
+      "title": "TAM, SAM and SOM: define the market you can serve",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/sales-revenue-planning/",
+      "status": 200,
+      "title": "Sales planning: connect customer value, activity and revenue",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/sales-forecasting/",
+      "status": 200,
+      "title": "Sales forecasting: methods named in the collection",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/accounting-formula-directory/",
+      "status": 200,
+      "title": "Accounting and finance formula reference",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/finance-accounting/",
+      "status": 200,
+      "title": "Finance & Accounting",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/accounting-statements/",
+      "status": 200,
+      "title": "Statements & Accounting Policies",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/financial-performance/",
+      "status": 200,
+      "title": "Ratios & Financial Performance",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/cash-working-capital/",
+      "status": 200,
+      "title": "Cash Flow & Working Capital",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/financial-planning-analysis/",
+      "status": 200,
+      "title": "FP&A, Budgets & Forecasts",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/valuation-transactions/",
+      "status": 200,
+      "title": "Valuation & Transactions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/finance-controls-tax/",
+      "status": 200,
+      "title": "Controls, Audit & Tax",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/integrated-sustainability-reporting/",
+      "status": 200,
+      "title": "Integrated & Sustainability Reporting",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/finance-careers/",
+      "status": 200,
+      "title": "Finance Careers & Skills",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/business-management/",
+      "status": 200,
+      "title": "Business & Management: choose your next decision",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/strategy-growth/",
+      "status": 200,
+      "title": "Strategy & Growth",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/art-of-war-planning/",
+      "status": 200,
+      "title": "The Art of War: Planning and assessment",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/project-management/",
+      "status": 200,
+      "title": "Project Management: plan, deliver and improve",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/deep-state-maps/",
+      "status": 200,
+      "title": "Deep State charts: creators, editions and claims",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/personal-productivity/",
+      "status": 200,
+      "title": "Personal productivity: capture tasks and build habits",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/",
+      "status": 200,
+      "title": "Good ideas deservea place to grow.",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/content-index/",
+      "status": 200,
+      "title": "Find your next useful page.",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/accounting-principles/",
+      "status": 200,
+      "title": "Accounting principles: timing, value and recognition",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/financial-position/",
+      "status": 200,
+      "title": "Read and prepare a balance sheet",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/profit-and-loss/",
+      "status": 200,
+      "title": "Read and prepare a profit-and-loss statement",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/sector-financial-statements/",
+      "status": 200,
+      "title": "Financial statements across industries: layouts and questions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/intangible-asset-accounting/",
+      "status": 200,
+      "title": "Intangible assets: recognition, research and development",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/financial-ratio-analysis/",
+      "status": 200,
+      "title": "Read ratios with context: trends, structure and comparisons",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/liquidity-leverage-ratios/",
+      "status": 200,
+      "title": "Liquidity and leverage: cash, obligations and capital",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/returns-asset-efficiency/",
+      "status": 200,
+      "title": "Returns and asset efficiency: earnings, sales and capital",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/profit-margins-returns/",
+      "status": 200,
+      "title": "Margins, returns and the DuPont bridge",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/debt-earnings-coverage/",
+      "status": 200,
+      "title": "Debt coverage: earnings measures and covenant definitions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/commercial-unit-economics/",
+      "status": 200,
+      "title": "Customer economics: churn, acquisition, retention and recurring revenue",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/cash-flow-statements/",
+      "status": 200,
+      "title": "Cash-flow statements: operations, investment and financing",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/free-cash-flow/",
+      "status": 200,
+      "title": "Free cash flow: distinguish operating, firm and equity cash",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/working-capital-cycle/",
+      "status": 200,
+      "title": "Working-capital cycle: DSO, DPO and inventory days",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/cash-flow-coverage/",
+      "status": 200,
+      "title": "Cash-flow coverage, margins and liquidity buffers",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/cash-burn-runway/",
+      "status": 200,
+      "title": "Cash burn and runway: signs, periods and survival estimates",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/cash-flow-drivers/",
+      "status": 200,
+      "title": "Cash-flow drivers: revenue, margin and capital efficiency",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/sector-working-capital/",
+      "status": 200,
+      "title": "Working capital across sectors: layouts and study examples",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/capital-project-cash-flows/",
+      "status": 200,
+      "title": "Capital-project cash flows: investment, operations and exit",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/discounted-cash-flow/",
+      "status": 200,
+      "title": "DCF: cash-flow forecasts, discount rates and terminal value",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/cost-of-capital-returns/",
+      "status": 200,
+      "title": "Cost of capital, ROIC and economic profit",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/market-valuation-measures/",
+      "status": 200,
+      "title": "Market valuation measures: equity value, enterprise value and multiples",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/purchase-price-allocation/",
+      "status": 200,
+      "title": "Purchase-price allocation: identifiable net assets and goodwill",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/finance-functions-roles/",
+      "status": 200,
+      "title": "Finance functions and roles: treasury, control, FP&A and investment",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/fpa-business-partnering/",
+      "status": 200,
+      "title": "FP&A: planning, forecasting and business partnership",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/budgeting-methods/",
+      "status": 200,
+      "title": "Budgets: operating plans, methods and the master-budget flow",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/financial-data-controls/",
+      "status": 200,
+      "title": "Financial reporting data: accuracy, integrity and controls",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/financial-report-storytelling/",
+      "status": 200,
+      "title": "Financial reporting: tell a clear, decision-focused story",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/management-reporting-cycles/",
+      "status": 200,
+      "title": "Management reports: month-end, outlook, QBR and decision support",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/financial-forecasting/",
+      "status": 200,
+      "title": "Financial forecasts: choose a model and manage uncertainty",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/forecasting-practice/",
+      "status": 200,
+      "title": "Forecasting practice: questions and industry applications",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/understanding-ebit/",
+      "status": 200,
+      "title": "EBIT: interpret earnings and investigate operational drivers",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/understanding-ebitda/",
+      "status": 200,
+      "title": "EBITDA: calculate, reconcile and understand the limits",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/ebitda-adjustments-practice/",
+      "status": 200,
+      "title": "EBITDA adjustments, applications and study exercises",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/subscription-revenue/",
+      "status": 200,
+      "title": "Subscription revenue: MRR, ARR, bookings and cash",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/arr-growth-practice/",
+      "status": 200,
+      "title": "ARR growth: retention, pricing, practice and source tool names",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/accounts-payable-controls/",
+      "status": 200,
+      "title": "Accounts payable controls: responsibilities, checks and risks",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/finance-red-flags/",
+      "status": 200,
+      "title": "Finance red flags and gaps in the source’s audit-tool material",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/transfer-pricing-comparability/",
+      "status": 200,
+      "title": "Transfer pricing: comparability, documentation and the review cycle",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/transfer-pricing-methods/",
+      "status": 200,
+      "title": "Transfer-pricing methods, indicators and adjustments",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/transfer-pricing-profiles/",
+      "status": 200,
+      "title": "Transfer-pricing profiles: functions, assets and actual risks",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/integrated-reporting-purpose/",
+      "status": 200,
+      "title": "Integrated reporting: explain value creation over time",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/sustainability-reporting-context/",
+      "status": 200,
+      "title": "Sustainability reporting: purpose, transparency and dated requirements",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/six-capitals-value-creation/",
+      "status": 200,
+      "title": "Six capitals: connect the business model to value creation",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/finance-certifications/",
+      "status": 200,
+      "title": "Finance certifications: understand the source’s credential list",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/finance-skills-development/",
+      "status": 200,
+      "title": "Finance skills and the transition from audit to FP&A",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/customer-feedback/",
+      "status": 200,
+      "title": "Customer feedback: NPS labels and service scorecards",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/marketing-logistics/",
+      "status": 200,
+      "title": "Logistics: stock, movement and information",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/market-sizing/",
+      "status": 200,
+      "title": "TAM, SAM and SOM: define the market you can serve",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/sales-revenue-planning/",
+      "status": 200,
+      "title": "Sales planning: connect customer value, activity and revenue",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/sales-forecasting/",
+      "status": 200,
+      "title": "Sales forecasting: methods named in the collection",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/accounting-formula-directory/",
+      "status": 200,
+      "title": "Accounting and finance formula reference",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/finance-accounting/",
+      "status": 200,
+      "title": "Finance & Accounting",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/accounting-statements/",
+      "status": 200,
+      "title": "Statements & Accounting Policies",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/financial-performance/",
+      "status": 200,
+      "title": "Ratios & Financial Performance",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/cash-working-capital/",
+      "status": 200,
+      "title": "Cash Flow & Working Capital",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/financial-planning-analysis/",
+      "status": 200,
+      "title": "FP&A, Budgets & Forecasts",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/valuation-transactions/",
+      "status": 200,
+      "title": "Valuation & Transactions",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/finance-controls-tax/",
+      "status": 200,
+      "title": "Controls, Audit & Tax",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/integrated-sustainability-reporting/",
+      "status": 200,
+      "title": "Integrated & Sustainability Reporting",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/finance-careers/",
+      "status": 200,
+      "title": "Finance Careers & Skills",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/business-management/",
+      "status": 200,
+      "title": "Business & Management: choose your next decision",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/strategy-growth/",
+      "status": 200,
+      "title": "Strategy & Growth",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/art-of-war-planning/",
+      "status": 200,
+      "title": "The Art of War: Planning and assessment",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/project-management/",
+      "status": 200,
+      "title": "Project Management: plan, deliver and improve",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/deep-state-maps/",
+      "status": 200,
+      "title": "Deep State charts: creators, editions and claims",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/personal-productivity/",
+      "status": 200,
+      "title": "Personal productivity: capture tasks and build habits",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    }
+  ],
+  "audits": [
+    {
+      "width": 390,
+      "path": "/library/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/returns-asset-efficiency/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/commercial-unit-economics/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/free-cash-flow/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/working-capital-cycle/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/finance-functions-roles/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/budgeting-methods/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/accounts-payable-controls/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/finance-red-flags/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/six-capitals-value-creation/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/accounting-formula-directory/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/finance-accounting/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/accounting-statements/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/financial-performance/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/business-management/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/returns-asset-efficiency/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/commercial-unit-economics/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/free-cash-flow/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/working-capital-cycle/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/finance-functions-roles/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/budgeting-methods/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/accounts-payable-controls/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/finance-red-flags/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/six-capitals-value-creation/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/accounting-formula-directory/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/finance-accounting/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/accounting-statements/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/financial-performance/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/business-management/",
+      "violations": []
+    }
+  ],
+  "formulaChecks": [
+    {
+      "width": 390,
+      "id": "formula-11",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-13",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-441",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-133",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-137",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-139",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-141",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-143",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-145",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-14",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-16",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-18",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-20",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-22",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-24",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-26",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-28",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-30",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-46",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-54",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-32",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-34",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-36",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-38",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-40",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-42",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-44",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-149",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-151",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-153",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-155",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-157",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-159",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-161",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-1414",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-1429",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-1406",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-1408",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-1410",
+      "state": "Needs clarification",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-1412",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-193",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-195",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-197",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-199",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-205",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-207",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-209",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-213",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-215",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-219",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-221",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-223",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-225",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-227",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-60",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-63",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-69",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-65",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-83",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-85",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-697",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-698",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-699",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-700",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-701",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-1419",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-1421",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-67",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-89",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-91",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-93",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-113",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-115",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-117",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-119",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-79",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-87",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-97",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-99",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-101",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-103",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-105",
+      "state": "Needs clarification",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-107",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-109",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-121",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-123",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-125",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-127",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-129",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-81",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-111",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-201",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-203",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-229",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-231",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-71",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-73",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-75",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-77",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-95",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-1575",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-1423",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-1425",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-1427",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-48",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-50",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-52",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-56",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-147",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-569",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-1404",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-1417",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-1489",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-1617",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-1619",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-1634",
+      "state": "Needs clarification",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-1635",
+      "state": "Needs clarification",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-1636",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-165",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-167",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-169",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-163",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-172",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-174",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-176",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-178",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-180",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-182",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-184",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-186",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-188",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-190",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-211",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-217",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 390,
+      "id": "formula-233",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 350
+    },
+    {
+      "width": 1440,
+      "id": "formula-11",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-13",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-441",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-133",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-137",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-139",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-141",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-143",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-145",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-14",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-16",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-18",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-20",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-22",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-24",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-26",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-28",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-30",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-46",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-54",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-32",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-34",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-36",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-38",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-40",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-42",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-44",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-149",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-151",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-153",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-155",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-157",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-159",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-161",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-1414",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-1429",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-1406",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-1408",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-1410",
+      "state": "Needs clarification",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-1412",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-193",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-195",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-197",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-199",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-205",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-207",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-209",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-213",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-215",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-219",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-221",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-223",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-225",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-227",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-60",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-63",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-69",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-65",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-83",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-85",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-697",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-698",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-699",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-700",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-701",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-1419",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-1421",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-67",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-89",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-91",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-93",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-113",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-115",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-117",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-119",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-79",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-87",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-97",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-99",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-101",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-103",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-105",
+      "state": "Needs clarification",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-107",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-109",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-121",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-123",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-125",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-127",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-129",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-81",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-111",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-201",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-203",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-229",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-231",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-71",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-73",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-75",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-77",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-95",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-1575",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-1423",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-1425",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-1427",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-48",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-50",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-52",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-56",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-147",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-569",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-1404",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-1417",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-1489",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-1617",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-1619",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-1634",
+      "state": "Needs clarification",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-1635",
+      "state": "Needs clarification",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-1636",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-165",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-167",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-169",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-163",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-172",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-174",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-176",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-178",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-180",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-182",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-184",
+      "state": "Corrected or clarified",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-186",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-188",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-190",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-211",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-217",
+      "state": "Reviewed with scope",
+      "originalPreserved": true,
+      "panelWidth": 760
+    },
+    {
+      "width": 1440,
+      "id": "formula-233",
+      "state": "Convention-dependent",
+      "originalPreserved": true,
+      "panelWidth": 760
+    }
+  ],
+  "visuals": [
+    {
+      "width": 350,
+      "title": "A financial-analysis scorecard",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 350,
+      "title": "Purchase-price allocation: the source’s six-step outline",
+      "images": 0,
+      "scrollRegions": []
+    },
+    {
+      "width": 350,
+      "title": "Finance organization: functions, relationships and skills",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 350,
+      "title": "Master budget: operating assumptions connect to financial planning",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 350,
+      "title": "Transfer-pricing lifecycle: a repeating review process",
+      "images": 0,
+      "scrollRegions": []
+    },
+    {
+      "width": 350,
+      "title": "Value creation: the capitals, business model and feedback context",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 350,
+      "title": "From inputs to outcomes: distinguish organizational and customer value",
+      "images": 0,
+      "scrollRegions": []
+    },
+    {
+      "width": 760,
+      "title": "A financial-analysis scorecard",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 760,
+      "title": "Purchase-price allocation: the source’s six-step outline",
+      "images": 0,
+      "scrollRegions": []
+    },
+    {
+      "width": 760,
+      "title": "Finance organization: functions, relationships and skills",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 760,
+      "title": "Master budget: operating assumptions connect to financial planning",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 760,
+      "title": "Transfer-pricing lifecycle: a repeating review process",
+      "images": 0,
+      "scrollRegions": []
+    },
+    {
+      "width": 760,
+      "title": "Value creation: the capitals, business model and feedback context",
+      "images": 0,
+      "scrollRegions": [
+        true
+      ]
+    },
+    {
+      "width": 760,
+      "title": "From inputs to outcomes: distinguish organizational and customer value",
+      "images": 0,
+      "scrollRegions": []
+    }
+  ],
+  "details": [
+    {
+      "width": 390,
+      "slug": "accounting-principles",
+      "passages": 61
+    },
+    {
+      "width": 390,
+      "slug": "financial-position",
+      "passages": 68
+    },
+    {
+      "width": 390,
+      "slug": "profit-and-loss",
+      "passages": 54
+    },
+    {
+      "width": 390,
+      "slug": "sector-financial-statements",
+      "passages": 105
+    },
+    {
+      "width": 390,
+      "slug": "intangible-asset-accounting",
+      "passages": 78
+    },
+    {
+      "width": 390,
+      "slug": "financial-ratio-analysis",
+      "passages": 1
+    },
+    {
+      "width": 390,
+      "slug": "liquidity-leverage-ratios",
+      "passages": 0
+    },
+    {
+      "width": 390,
+      "slug": "returns-asset-efficiency",
+      "passages": 0
+    },
+    {
+      "width": 390,
+      "slug": "profit-margins-returns",
+      "passages": 2
+    },
+    {
+      "width": 390,
+      "slug": "debt-earnings-coverage",
+      "passages": 4
+    },
+    {
+      "width": 390,
+      "slug": "commercial-unit-economics",
+      "passages": 1
+    },
+    {
+      "width": 390,
+      "slug": "cash-flow-statements",
+      "passages": 65
+    },
+    {
+      "width": 390,
+      "slug": "free-cash-flow",
+      "passages": 2
+    },
+    {
+      "width": 390,
+      "slug": "working-capital-cycle",
+      "passages": 69
+    },
+    {
+      "width": 390,
+      "slug": "cash-flow-coverage",
+      "passages": 0
+    },
+    {
+      "width": 390,
+      "slug": "cash-burn-runway",
+      "passages": 0
+    },
+    {
+      "width": 390,
+      "slug": "cash-flow-drivers",
+      "passages": 46
+    },
+    {
+      "width": 390,
+      "slug": "sector-working-capital",
+      "passages": 46
+    },
+    {
+      "width": 390,
+      "slug": "capital-project-cash-flows",
+      "passages": 14
+    },
+    {
+      "width": 390,
+      "slug": "discounted-cash-flow",
+      "passages": 44
+    },
+    {
+      "width": 390,
+      "slug": "cost-of-capital-returns",
+      "passages": 3
+    },
+    {
+      "width": 390,
+      "slug": "market-valuation-measures",
+      "passages": 0
+    },
+    {
+      "width": 390,
+      "slug": "purchase-price-allocation",
+      "passages": 15
+    },
+    {
+      "width": 390,
+      "slug": "finance-functions-roles",
+      "passages": 107
+    },
+    {
+      "width": 390,
+      "slug": "fpa-business-partnering",
+      "passages": 36
+    },
+    {
+      "width": 390,
+      "slug": "budgeting-methods",
+      "passages": 22
+    },
+    {
+      "width": 390,
+      "slug": "financial-data-controls",
+      "passages": 84
+    },
+    {
+      "width": 390,
+      "slug": "financial-report-storytelling",
+      "passages": 130
+    },
+    {
+      "width": 390,
+      "slug": "management-reporting-cycles",
+      "passages": 24
+    },
+    {
+      "width": 390,
+      "slug": "financial-forecasting",
+      "passages": 82
+    },
+    {
+      "width": 390,
+      "slug": "forecasting-practice",
+      "passages": 43
+    },
+    {
+      "width": 390,
+      "slug": "understanding-ebit",
+      "passages": 81
+    },
+    {
+      "width": 390,
+      "slug": "understanding-ebitda",
+      "passages": 58
+    },
+    {
+      "width": 390,
+      "slug": "ebitda-adjustments-practice",
+      "passages": 72
+    },
+    {
+      "width": 390,
+      "slug": "subscription-revenue",
+      "passages": 20
+    },
+    {
+      "width": 390,
+      "slug": "arr-growth-practice",
+      "passages": 65
+    },
+    {
+      "width": 390,
+      "slug": "accounts-payable-controls",
+      "passages": 41
+    },
+    {
+      "width": 390,
+      "slug": "finance-red-flags",
+      "passages": 22
+    },
+    {
+      "width": 390,
+      "slug": "transfer-pricing-comparability",
+      "passages": 41
+    },
+    {
+      "width": 390,
+      "slug": "transfer-pricing-methods",
+      "passages": 32
+    },
+    {
+      "width": 390,
+      "slug": "transfer-pricing-profiles",
+      "passages": 36
+    },
+    {
+      "width": 390,
+      "slug": "integrated-reporting-purpose",
+      "passages": 29
+    },
+    {
+      "width": 390,
+      "slug": "sustainability-reporting-context",
+      "passages": 29
+    },
+    {
+      "width": 390,
+      "slug": "six-capitals-value-creation",
+      "passages": 17
+    },
+    {
+      "width": 390,
+      "slug": "finance-certifications",
+      "passages": 24
+    },
+    {
+      "width": 390,
+      "slug": "finance-skills-development",
+      "passages": 57
+    },
+    {
+      "width": 390,
+      "slug": "customer-feedback",
+      "passages": 37
+    },
+    {
+      "width": 390,
+      "slug": "marketing-logistics",
+      "passages": 42
+    },
+    {
+      "width": 390,
+      "slug": "market-sizing",
+      "passages": 8
+    },
+    {
+      "width": 390,
+      "slug": "sales-revenue-planning",
+      "passages": 13
+    },
+    {
+      "width": 390,
+      "slug": "sales-forecasting",
+      "passages": 5
+    },
+    {
+      "width": 390,
+      "slug": "accounting-formula-directory",
+      "passages": 0
+    },
+    {
+      "width": 1440,
+      "slug": "accounting-principles",
+      "passages": 61
+    },
+    {
+      "width": 1440,
+      "slug": "financial-position",
+      "passages": 68
+    },
+    {
+      "width": 1440,
+      "slug": "profit-and-loss",
+      "passages": 54
+    },
+    {
+      "width": 1440,
+      "slug": "sector-financial-statements",
+      "passages": 105
+    },
+    {
+      "width": 1440,
+      "slug": "intangible-asset-accounting",
+      "passages": 78
+    },
+    {
+      "width": 1440,
+      "slug": "financial-ratio-analysis",
+      "passages": 1
+    },
+    {
+      "width": 1440,
+      "slug": "liquidity-leverage-ratios",
+      "passages": 0
+    },
+    {
+      "width": 1440,
+      "slug": "returns-asset-efficiency",
+      "passages": 0
+    },
+    {
+      "width": 1440,
+      "slug": "profit-margins-returns",
+      "passages": 2
+    },
+    {
+      "width": 1440,
+      "slug": "debt-earnings-coverage",
+      "passages": 4
+    },
+    {
+      "width": 1440,
+      "slug": "commercial-unit-economics",
+      "passages": 1
+    },
+    {
+      "width": 1440,
+      "slug": "cash-flow-statements",
+      "passages": 65
+    },
+    {
+      "width": 1440,
+      "slug": "free-cash-flow",
+      "passages": 2
+    },
+    {
+      "width": 1440,
+      "slug": "working-capital-cycle",
+      "passages": 69
+    },
+    {
+      "width": 1440,
+      "slug": "cash-flow-coverage",
+      "passages": 0
+    },
+    {
+      "width": 1440,
+      "slug": "cash-burn-runway",
+      "passages": 0
+    },
+    {
+      "width": 1440,
+      "slug": "cash-flow-drivers",
+      "passages": 46
+    },
+    {
+      "width": 1440,
+      "slug": "sector-working-capital",
+      "passages": 46
+    },
+    {
+      "width": 1440,
+      "slug": "capital-project-cash-flows",
+      "passages": 14
+    },
+    {
+      "width": 1440,
+      "slug": "discounted-cash-flow",
+      "passages": 44
+    },
+    {
+      "width": 1440,
+      "slug": "cost-of-capital-returns",
+      "passages": 3
+    },
+    {
+      "width": 1440,
+      "slug": "market-valuation-measures",
+      "passages": 0
+    },
+    {
+      "width": 1440,
+      "slug": "purchase-price-allocation",
+      "passages": 15
+    },
+    {
+      "width": 1440,
+      "slug": "finance-functions-roles",
+      "passages": 107
+    },
+    {
+      "width": 1440,
+      "slug": "fpa-business-partnering",
+      "passages": 36
+    },
+    {
+      "width": 1440,
+      "slug": "budgeting-methods",
+      "passages": 22
+    },
+    {
+      "width": 1440,
+      "slug": "financial-data-controls",
+      "passages": 84
+    },
+    {
+      "width": 1440,
+      "slug": "financial-report-storytelling",
+      "passages": 130
+    },
+    {
+      "width": 1440,
+      "slug": "management-reporting-cycles",
+      "passages": 24
+    },
+    {
+      "width": 1440,
+      "slug": "financial-forecasting",
+      "passages": 82
+    },
+    {
+      "width": 1440,
+      "slug": "forecasting-practice",
+      "passages": 43
+    },
+    {
+      "width": 1440,
+      "slug": "understanding-ebit",
+      "passages": 81
+    },
+    {
+      "width": 1440,
+      "slug": "understanding-ebitda",
+      "passages": 58
+    },
+    {
+      "width": 1440,
+      "slug": "ebitda-adjustments-practice",
+      "passages": 72
+    },
+    {
+      "width": 1440,
+      "slug": "subscription-revenue",
+      "passages": 20
+    },
+    {
+      "width": 1440,
+      "slug": "arr-growth-practice",
+      "passages": 65
+    },
+    {
+      "width": 1440,
+      "slug": "accounts-payable-controls",
+      "passages": 41
+    },
+    {
+      "width": 1440,
+      "slug": "finance-red-flags",
+      "passages": 22
+    },
+    {
+      "width": 1440,
+      "slug": "transfer-pricing-comparability",
+      "passages": 41
+    },
+    {
+      "width": 1440,
+      "slug": "transfer-pricing-methods",
+      "passages": 32
+    },
+    {
+      "width": 1440,
+      "slug": "transfer-pricing-profiles",
+      "passages": 36
+    },
+    {
+      "width": 1440,
+      "slug": "integrated-reporting-purpose",
+      "passages": 29
+    },
+    {
+      "width": 1440,
+      "slug": "sustainability-reporting-context",
+      "passages": 29
+    },
+    {
+      "width": 1440,
+      "slug": "six-capitals-value-creation",
+      "passages": 17
+    },
+    {
+      "width": 1440,
+      "slug": "finance-certifications",
+      "passages": 24
+    },
+    {
+      "width": 1440,
+      "slug": "finance-skills-development",
+      "passages": 57
+    },
+    {
+      "width": 1440,
+      "slug": "customer-feedback",
+      "passages": 37
+    },
+    {
+      "width": 1440,
+      "slug": "marketing-logistics",
+      "passages": 42
+    },
+    {
+      "width": 1440,
+      "slug": "market-sizing",
+      "passages": 8
+    },
+    {
+      "width": 1440,
+      "slug": "sales-revenue-planning",
+      "passages": 13
+    },
+    {
+      "width": 1440,
+      "slug": "sales-forecasting",
+      "passages": 5
+    },
+    {
+      "width": 1440,
+      "slug": "accounting-formula-directory",
+      "passages": 0
+    }
+  ]
+}

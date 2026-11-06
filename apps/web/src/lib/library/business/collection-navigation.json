@@ -432,5 +432,132 @@
       "nuclei-transmutation",
       "science-research-connections"
     ]
+  },
+  {
+    "slug": "finance-accounting",
+    "title": "Finance & Accounting",
+    "topic": "Finance & Accounting",
+    "parent": "",
+    "members": [
+      "accounting-statements",
+      "financial-performance",
+      "cash-working-capital",
+      "financial-planning-analysis",
+      "valuation-transactions",
+      "finance-controls-tax",
+      "integrated-sustainability-reporting",
+      "finance-careers"
+    ]
+  },
+  {
+    "slug": "accounting-statements",
+    "title": "Statements & Accounting Policies",
+    "topic": "Finance & Accounting",
+    "parent": "finance-accounting",
+    "members": [
+      "accounting-principles",
+      "financial-position",
+      "profit-and-loss",
+      "sector-financial-statements",
+      "intangible-asset-accounting"
+    ]
+  },
+  {
+    "slug": "financial-performance",
+    "title": "Ratios & Financial Performance",
+    "topic": "Finance & Accounting",
+    "parent": "finance-accounting",
+    "members": [
+      "financial-ratio-analysis",
+      "liquidity-leverage-ratios",
+      "returns-asset-efficiency",
+      "profit-margins-returns",
+      "debt-earnings-coverage",
+      "commercial-unit-economics",
+      "understanding-ebit",
+      "understanding-ebitda",
+      "ebitda-adjustments-practice",
+      "subscription-revenue",
+      "arr-growth-practice",
+      "accounting-formula-directory"
+    ]
+  },
+  {
+    "slug": "cash-working-capital",
+    "title": "Cash Flow & Working Capital",
+    "topic": "Finance & Accounting",
+    "parent": "finance-accounting",
+    "members": [
+      "cash-flow-statements",
+      "free-cash-flow",
+      "working-capital-cycle",
+      "cash-flow-coverage",
+      "cash-burn-runway",
+      "cash-flow-drivers",
+      "sector-working-capital"
+    ]
+  },
+  {
+    "slug": "financial-planning-analysis",
+    "title": "FP&A, Budgets & Forecasts",
+    "topic": "Finance & Accounting",
+    "parent": "finance-accounting",
+    "members": [
+      "fpa-business-partnering",
+      "budgeting-methods",
+      "financial-data-controls",
+      "financial-report-storytelling",
+      "management-reporting-cycles",
+      "financial-forecasting",
+      "forecasting-practice"
+    ]
+  },
+  {
+    "slug": "valuation-transactions",
+    "title": "Valuation & Transactions",
+    "topic": "Finance & Accounting",
+    "parent": "finance-accounting",
+    "members": [
+      "capital-project-cash-flows",
+      "discounted-cash-flow",
+      "cost-of-capital-returns",
+      "market-valuation-measures",
+      "purchase-price-allocation"
+    ]
+  },
+  {
+    "slug": "finance-controls-tax",
+    "title": "Controls, Audit & Tax",
+    "topic": "Finance & Accounting",
+    "parent": "finance-accounting",
+    "members": [
+      "accounts-payable-controls",
+      "finance-red-flags",
+      "transfer-pricing-comparability",
+      "transfer-pricing-methods",
+      "transfer-pricing-profiles"
+    ]
+  },
+  {
+    "slug": "integrated-sustainability-reporting",
+    "title": "Integrated & Sustainability Reporting",
+    "topic": "Finance & Accounting",
+    "parent": "finance-accounting",
+    "members": [
+      "integrated-reporting-purpose",
+      "sustainability-reporting-context",
+      "six-capitals-value-creation"
+    ]
+  },
+  {
+    "slug": "finance-careers",
+    "title": "Finance Careers & Skills",
+    "topic": "Finance & Accounting",
+    "parent": "finance-accounting",
+    "members": [
+      "finance-functions-roles",
+      "finance-certifications",
+      "finance-skills-development"
+    ]
   }
 ]

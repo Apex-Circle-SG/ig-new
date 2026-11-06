@@ -1,0 +1,2592 @@
+[
+  {
+    "slug": "accounting-principles",
+    "title": "Accounting principles: timing, value and recognition",
+    "topic": "Finance & Accounting",
+    "collection": "accounting-statements",
+    "group": "Accounting foundations",
+    "summary": "Distinguish accounting terms that change how financial results are recorded and interpreted.",
+    "takeaway": "Recognition, measurement and cash timing answer different questions.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 0,
+        "end": 8,
+        "heading": "What accounting records and controls",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 235,
+        "end": 263,
+        "heading": "Timing, value, assets and obligations",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 263,
+        "end": 291,
+        "heading": "Tax, provisions, equity and accrual terminology",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "What accounting records and controls",
+      "Timing, value, assets and obligations",
+      "Tax, provisions, equity and accrual terminology"
+    ],
+    "related": [
+      "financial-position",
+      "profit-and-loss",
+      "intangible-asset-accounting"
+    ],
+    "notes": [
+      "The source simplifies GAAP versus IFRS and several policy distinctions. Treatment depends on the applicable framework, facts and reporting period. Goodwill is not universally amortised; acquired goodwill and identifiable intangible assets require separate analysis.",
+      "The original “Gross Profit vs Gross Profit Margin” explanation mistakenly refers to net profit. Gross profit is an amount; gross margin divides gross profit by the relevant sales base."
+    ],
+    "references": [
+      {
+        "title": "IFRS Foundation: IAS 38 Intangible Assets",
+        "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-38-intangible-assets/"
+      },
+      {
+        "title": "OpenStax: financial statement analysis",
+        "url": "https://openstax.org/books/principles-financial-accounting/pages/a-financial-statement-analysis"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "financial-position",
+    "title": "Read and prepare a balance sheet",
+    "topic": "Finance & Accounting",
+    "collection": "accounting-statements",
+    "group": "Financial statements",
+    "summary": "Connect assets, liabilities and equity, then prepare, reconcile and investigate a statement of financial position.",
+    "takeaway": "A balanced statement is a necessary check; it does not prove every recognition or valuation is correct.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 9,
+        "end": 14,
+        "heading": "The accounting equation and the snapshot",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 403,
+        "end": 431,
+        "heading": "Preparation and analysis questions",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 431,
+        "end": 452,
+        "heading": "Forecasting, reconciliation and classification",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 452,
+        "end": 469,
+        "heading": "Further balance-sheet practice",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "The accounting equation and the snapshot",
+      "Preparation and analysis questions",
+      "Forecasting, reconciliation and classification",
+      "Further balance-sheet practice"
+    ],
+    "related": [
+      "accounting-principles",
+      "liquidity-leverage-ratios",
+      "sector-financial-statements"
+    ],
+    "notes": [
+      "Retained earnings also reflects distributions and applicable adjustments, not only last period’s balance plus net income. The source’s concatenated equation contains conflicting signs; the reviewed equation separates it clearly.",
+      "Exercises are prompts, not completed statements or solved financial cases. Repeated and near-repeated questions retain distinct wording."
+    ],
+    "references": [
+      {
+        "title": "OpenStax: financial statement analysis",
+        "url": "https://openstax.org/books/principles-financial-accounting/pages/a-financial-statement-analysis"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "profit-and-loss",
+    "title": "Read and prepare a profit-and-loss statement",
+    "topic": "Finance & Accounting",
+    "collection": "accounting-statements",
+    "group": "Financial statements",
+    "summary": "Follow revenue, direct costs, operating expenses and other items through to net profit.",
+    "takeaway": "Profit over a period and cash at a date are different measures.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 131,
+        "end": 147,
+        "heading": "Profit levels and the source’s earnings bridge",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 585,
+        "end": 616,
+        "heading": "Prepare the statement and investigate changes",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 616,
+        "end": 634,
+        "heading": "Forecast drivers and useful cost breakdowns",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Profit levels and the source’s earnings bridge",
+      "Prepare the statement and investigate changes",
+      "Forecast drivers and useful cost breakdowns"
+    ],
+    "related": [
+      "financial-position",
+      "cash-flow-statements",
+      "understanding-ebit",
+      "understanding-ebitda"
+    ],
+    "notes": [
+      "The source’s operational/non-operational shorthand is incomplete. Define the reporting perimeter and reconcile all material income, expense, financing and tax lines. Exercises supply questions rather than results."
+    ],
+    "references": [
+      {
+        "title": "SEC: non-GAAP financial measures",
+        "url": "https://www.sec.gov/rules-regulations/staff-guidance/corporation-finance-interpretations/non-gaap-financial-measures"
+      },
+      {
+        "title": "OpenStax: financial statement analysis",
+        "url": "https://openstax.org/books/principles-financial-accounting/pages/a-financial-statement-analysis"
+      },
+      {
+        "title": "InsightGinie: Break-even tool",
+        "url": "https://insightginie.com/tools/break-even/"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "sector-financial-statements",
+    "title": "Financial statements across industries: layouts and questions",
+    "topic": "Finance & Accounting",
+    "collection": "accounting-statements",
+    "group": "Financial statements",
+    "summary": "Compare the supplied industry layouts and the questions that different business models raise.",
+    "takeaway": "Industry context changes what a useful statement analysis emphasizes.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 469,
+        "end": 501,
+        "heading": "Balance-sheet layout examples",
+        "subheadings": [
+          470,
+          474,
+          477,
+          481,
+          485,
+          488,
+          491,
+          495,
+          498
+        ]
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 501,
+        "end": 528,
+        "heading": "Balance-sheet applications by sector",
+        "subheadings": [
+          502,
+          504,
+          506,
+          508,
+          510,
+          512,
+          516,
+          518,
+          520,
+          526
+        ]
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 634,
+        "end": 653,
+        "heading": "Profit-and-loss layout examples",
+        "subheadings": [
+          635,
+          637,
+          641,
+          643,
+          649,
+          651
+        ]
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 653,
+        "end": 680,
+        "heading": "Profitability questions across sectors",
+        "subheadings": [
+          654,
+          656,
+          660,
+          662,
+          668,
+          670,
+          674,
+          676
+        ]
+      }
+    ],
+    "steps": [
+      "Balance-sheet layout examples",
+      "Balance-sheet applications by sector",
+      "Profit-and-loss layout examples",
+      "Profitability questions across sectors"
+    ],
+    "related": [
+      "financial-position",
+      "profit-and-loss",
+      "sector-working-capital"
+    ],
+    "notes": [
+      "These are undated study outlines, not prescribed reporting formats. Banking, insurance and nonprofit reporting need their own applicable requirements. The older unrestricted/temporarily/permanently restricted nonprofit labels are not asserted as current universal terminology."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "intangible-asset-accounting",
+    "title": "Intangible assets: recognition, research and development",
+    "topic": "Finance & Accounting",
+    "collection": "accounting-statements",
+    "group": "Assets & accounting policies",
+    "summary": "Separate identifiable intangibles, research expense, qualifying development and acquired goodwill.",
+    "takeaway": "An economic benefit or a valuable brand does not by itself establish recognition as an accounting asset.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 1712,
+        "end": 1740,
+        "heading": "Recognition, initial cost and key definitions",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1740,
+        "end": 1754,
+        "heading": "Intellectual property and subsequent measurement",
+        "subheadings": [
+          1747,
+          1750,
+          1752
+        ]
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1754,
+        "end": 1776,
+        "heading": "Costs, disposal and the research/development distinction",
+        "subheadings": [
+          1755,
+          1771
+        ]
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1776,
+        "end": 1793,
+        "heading": "Disclosures and development recognition conditions",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Recognition, initial cost and key definitions",
+      "Intellectual property and subsequent measurement",
+      "Costs, disposal and the research/development distinction",
+      "Disclosures and development recognition conditions"
+    ],
+    "related": [
+      "purchase-price-allocation",
+      "brand-equity",
+      "brand-financial-value"
+    ],
+    "notes": [
+      "The research-cost sentence contradicts itself: IAS 38 expenses research expenditure; development recognition requires all relevant conditions. Source wording remains available with this correction.",
+      "Revaluation under IAS 38 requires an active market and is not a general instruction to revalue any brand. Acquired goodwill is outside the ordinary identifiable-intangible treatment. Some source labels such as “unattributable” and “IP on lease agreement” are incomplete and need transaction-specific interpretation."
+    ],
+    "references": [
+      {
+        "title": "IFRS Foundation: IAS 38 Intangible Assets",
+        "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-38-intangible-assets/"
+      },
+      {
+        "title": "IFRS Foundation: IFRS 3 Business Combinations",
+        "url": "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-3-business-combinations/"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "financial-ratio-analysis",
+    "title": "Read ratios with context: trends, structure and comparisons",
+    "topic": "Finance & Accounting",
+    "collection": "financial-performance",
+    "group": "Interpreting financial measures",
+    "summary": "Use a compact ratio map to connect profitability, efficiency, liquidity and solvency.",
+    "takeaway": "A ratio is a question about a defined period and business model, not an automatic good/bad score.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 8,
+        "end": 9,
+        "heading": "Start with the analytical question",
+        "introduction": "Compare periods and comparable entities only after checking definitions, units and accounting policies. Horizontal analysis considers change over time; vertical analysis considers the structure of a statement. Sensitivity and scenario analysis examine assumptions rather than supply certainty.",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 864,
+        "end": 865,
+        "heading": "The supplied financial-analysis scorecard",
+        "reuseSection": "section-1",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Start with the analytical question"
+    ],
+    "related": [
+      "liquidity-leverage-ratios",
+      "returns-asset-efficiency",
+      "profit-margins-returns",
+      "cash-flow-coverage"
+    ],
+    "notes": [
+      "Higher is not universally better: leverage, liquidity, payment terms and cash reserves require context. Zero or negative denominators can make a ratio undefined or economically misleading."
+    ],
+    "references": [
+      {
+        "title": "OpenStax: financial statement analysis",
+        "url": "https://openstax.org/books/principles-financial-accounting/pages/a-financial-statement-analysis"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "liquidity-leverage-ratios",
+    "title": "Liquidity and leverage: cash, obligations and capital",
+    "topic": "Finance & Accounting",
+    "collection": "financial-performance",
+    "group": "Liquidity & solvency",
+    "summary": "Compare short-term coverage, working capital, debt funding and the source’s specialist capital measures.",
+    "takeaway": "State exactly what counts as debt, equity and liquid assets before comparing ratios.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 14,
+        "end": 32,
+        "heading": "Liquidity, working capital and financing",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 46,
+        "end": 48,
+        "heading": "The source’s adjusted tangible-net-worth measure",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 54,
+        "end": 56,
+        "heading": "Bank capital adequacy: a specialist measure",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Liquidity, working capital and financing",
+      "The source’s adjusted tangible-net-worth measure",
+      "Bank capital adequacy: a specialist measure"
+    ],
+    "related": [
+      "working-capital-cycle",
+      "cash-flow-coverage",
+      "debt-earnings-coverage"
+    ],
+    "notes": [
+      "Debt and liability definitions are not interchangeable. The tangible-net-worth expression is a lender-style adjustment, not a universal accounting ratio.",
+      "Bank capital adequacy is regulatory capital divided by risk-weighted assets under a specified regime. No regulatory minimum or compliance conclusion is supplied."
+    ],
+    "references": [
+      {
+        "title": "OpenStax: financial statement analysis",
+        "url": "https://openstax.org/books/principles-financial-accounting/pages/a-financial-statement-analysis"
+      },
+      {
+        "title": "ACCA: performance appraisal and working-capital ratios",
+        "url": "https://www.accaglobal.com/sg/en/student/exam-support-resources/fundamentals-exams-study-resources/f7/technical-articles/appraisal-questions.html"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "returns-asset-efficiency",
+    "title": "Returns and asset efficiency: earnings, sales and capital",
+    "topic": "Finance & Accounting",
+    "collection": "financial-performance",
+    "group": "Profitability & efficiency",
+    "summary": "Interpret returns on assets/equity and turnover of assets, receivables, payables and stock.",
+    "takeaway": "Use consistent sales, cost and balance definitions; averages and closing balances are not interchangeable.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 32,
+        "end": 46,
+        "heading": "Returns and turnover measures",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Returns and turnover measures"
+    ],
+    "related": [
+      "profit-margins-returns",
+      "working-capital-cycle",
+      "financial-position"
+    ],
+    "notes": [
+      "The source’s total-asset-turnover expression uses subtraction. The reviewed measure divides net sales by average total assets. Fixed-asset turnover may use average net fixed assets; the source uses a point-in-time denominator."
+    ],
+    "references": [
+      {
+        "title": "OpenStax: financial statement analysis",
+        "url": "https://openstax.org/books/principles-financial-accounting/pages/a-financial-statement-analysis"
+      },
+      {
+        "title": "ACCA: performance appraisal and working-capital ratios",
+        "url": "https://www.accaglobal.com/sg/en/student/exam-support-resources/fundamentals-exams-study-resources/f7/technical-articles/appraisal-questions.html"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "profit-margins-returns",
+    "title": "Margins, returns and the DuPont bridge",
+    "topic": "Finance & Accounting",
+    "collection": "financial-performance",
+    "group": "Profitability & efficiency",
+    "summary": "Distinguish profit margins, investment returns, dividend measures and the drivers of return on equity.",
+    "takeaway": "A margin, a return on invested money and a dividend payout ratio have different denominators.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 149,
+        "end": 163,
+        "heading": "Margins, investment returns and dividends",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1414,
+        "end": 1416,
+        "heading": "DuPont: separate the actual identity from a list of ratios",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1429,
+        "end": 1431,
+        "heading": "Dividend payout",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Margins, investment returns and dividends",
+      "DuPont: separate the actual identity from a list of ratios",
+      "Dividend payout"
+    ],
+    "related": [
+      "returns-asset-efficiency",
+      "understanding-ebit",
+      "cost-of-capital-returns"
+    ],
+    "notes": [
+      "The source’s DuPont line lists families of ratios; multiplying all of them is not a valid identity. The reviewed three-factor bridge uses net margin, total-asset turnover and the equity multiplier on consistent bases."
+    ],
+    "references": [
+      {
+        "title": "OpenStax: financial statement analysis",
+        "url": "https://openstax.org/books/principles-financial-accounting/pages/a-financial-statement-analysis"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "debt-earnings-coverage",
+    "title": "Debt coverage: earnings measures and covenant definitions",
+    "topic": "Finance & Accounting",
+    "collection": "financial-performance",
+    "group": "Liquidity & solvency",
+    "summary": "Compare EBITDA-based coverage and leverage while distinguishing contractual tests from universal ratios.",
+    "takeaway": "A covenant is governed by its agreement’s definitions, adjustments and testing dates.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 1406,
+        "end": 1414,
+        "heading": "Coverage, fixed charges and funded-debt leverage",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Coverage, fixed charges and funded-debt leverage"
+    ],
+    "related": [
+      "liquidity-leverage-ratios",
+      "cash-flow-coverage",
+      "understanding-ebitda"
+    ],
+    "notes": [
+      "EBIT/interest and EBITDA/interest are different conventions. Debt-service coverage may use cash available for debt service rather than EBITDA. The fixed-charge expression cannot be verified as a universal covenant without the actual agreement."
+    ],
+    "references": [
+      {
+        "title": "SEC: non-GAAP financial measures",
+        "url": "https://www.sec.gov/rules-regulations/staff-guidance/corporation-finance-interpretations/non-gaap-financial-measures"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "commercial-unit-economics",
+    "title": "Customer economics: churn, acquisition, retention and recurring revenue",
+    "topic": "Finance & Accounting",
+    "collection": "financial-performance",
+    "group": "Commercial & subscription metrics",
+    "summary": "Connect customer measures with acquisition cost, recurring-revenue movements and unit economics.",
+    "takeaway": "Match cohorts, periods and revenue-versus-profit definitions before interpreting a customer metric.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 192,
+        "end": 201,
+        "heading": "Churn, buyer growth, lifetime value and acquisition cost",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 205,
+        "end": 211,
+        "heading": "Revenue per customer and SaaS quick ratio",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 213,
+        "end": 217,
+        "heading": "Revenue retention and CAC payback",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 219,
+        "end": 229,
+        "heading": "Contract value, movements and budget labels",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Churn, buyer growth, lifetime value and acquisition cost",
+      "Revenue per customer and SaaS quick ratio",
+      "Revenue retention and CAC payback",
+      "Contract value, movements and budget labels"
+    ],
+    "related": [
+      "subscription-revenue",
+      "arr-growth-practice",
+      "customer-systems",
+      "sales-revenue-planning",
+      "market-sizing"
+    ],
+    "notes": [
+      "The source’s net-dollar-retention numerator is unspecified; the reviewed expression tracks the opening cohort and excludes new-customer revenue. SaaS quick ratio uses new MRR, not total or net ending MRR.",
+      "The expansion/contraction formulas cannot isolate individual movements from aggregate period totals. The reviewed movement definitions require customer-level recurring-revenue data. “Budget attainment” is not the same as variance divided by budget.",
+      "Revenue LTV is not contribution/profit LTV. Customer acquisition and payback need compatible cost allocation, customer counts and gross-profit periods."
+    ],
+    "references": [
+      {
+        "title": "Stripe: monthly and annual recurring revenue",
+        "url": "https://support.stripe.com/questions/understanding-monthly-recurring-revenue-%28mrr%29-and-annual-recurring-revenue-%28arr%29?locale=en-GB"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "cash-flow-statements",
+    "title": "Cash-flow statements: operations, investment and financing",
+    "topic": "Finance & Accounting",
+    "collection": "cash-working-capital",
+    "group": "Cash-flow foundations",
+    "summary": "Separate profit from cash movements and classify the flows behind the cash balance.",
+    "takeaway": "Reconcile the beginning and ending cash balance and explain every material movement.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 58,
+        "end": 65,
+        "heading": "Cash balance and the indirect operating bridge",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 69,
+        "end": 71,
+        "heading": "Net cash movement",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 680,
+        "end": 697,
+        "heading": "Why cash-flow management matters",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 751,
+        "end": 795,
+        "heading": "Common mistakes and cash-flow classifications",
+        "subheadings": [
+          769,
+          773,
+          777,
+          778,
+          782,
+          786,
+          787,
+          791
+        ]
+      }
+    ],
+    "steps": [
+      "Cash balance and the indirect operating bridge",
+      "Net cash movement",
+      "Why cash-flow management matters",
+      "Common mistakes and cash-flow classifications"
+    ],
+    "related": [
+      "free-cash-flow",
+      "working-capital-cycle",
+      "cash-burn-runway",
+      "profit-and-loss"
+    ],
+    "notes": [
+      "The source’s direct/indirect descriptions are study shorthand. Interest/dividend and other classifications depend on the applicable framework and reporting period; do not apply one universal list without checking it. Cash balance reconciliations may also require exchange-rate and other reconciling effects."
+    ],
+    "references": [
+      {
+        "title": "NYU Stern: estimating cash flows",
+        "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/dcfcf.pdf"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "free-cash-flow",
+    "title": "Free cash flow: distinguish operating, firm and equity cash",
+    "topic": "Finance & Accounting",
+    "collection": "cash-working-capital",
+    "group": "Cash-flow foundations",
+    "summary": "Reconcile reinvestment, working capital, interest and net borrowing before choosing a free-cash-flow measure.",
+    "takeaway": "Match the cash-flow definition to its recipients and discount rate.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 65,
+        "end": 67,
+        "heading": "A common operating-cash-flow less CAPEX measure",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 83,
+        "end": 87,
+        "heading": "Unlevered and levered source variants",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 697,
+        "end": 702,
+        "heading": "Operating, investing, financing and stakeholder bridges",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1419,
+        "end": 1423,
+        "heading": "Correcting the source’s fixed-asset and equity-cash expressions",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "A common operating-cash-flow less CAPEX measure",
+      "Unlevered and levered source variants",
+      "Operating, investing, financing and stakeholder bridges",
+      "Correcting the source’s fixed-asset and equity-cash expressions"
+    ],
+    "related": [
+      "cash-flow-statements",
+      "discounted-cash-flow",
+      "cost-of-capital-returns"
+    ],
+    "notes": [
+      "Several source expressions confuse balances with changes and omit reinvestment or financing movements. The reviewed bridges use explicit positive CAPEX, increases in non-cash working capital and net borrowing conventions.",
+      "An OCF-based FCFF bridge assumes interest is included in operating cash flow and tax treatment is compatible; otherwise use the EBIT-based bridge and reconcile classifications."
+    ],
+    "references": [
+      {
+        "title": "NYU Stern: estimating cash flows",
+        "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/dcfcf.pdf"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "working-capital-cycle",
+    "title": "Working-capital cycle: DSO, DPO and inventory days",
+    "topic": "Finance & Accounting",
+    "collection": "cash-working-capital",
+    "group": "Working capital & liquidity",
+    "summary": "Follow the operating cash cycle and examine collection, payment and inventory choices.",
+    "takeaway": "Measure the cash cycle consistently and balance liquidity with supplier and customer relationships.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 67,
+        "end": 69,
+        "heading": "The cash-conversion-cycle identity",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 89,
+        "end": 95,
+        "heading": "Collection, payment and inventory days",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 113,
+        "end": 121,
+        "heading": "Overdues, repeated inventory days and the mislabeled DSO",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 291,
+        "end": 324,
+        "heading": "Managing and optimizing working capital",
+        "subheadings": [
+          292,
+          313
+        ]
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 324,
+        "end": 357,
+        "heading": "Analysis prompts and current-asset/liability management",
+        "subheadings": [
+          340
+        ]
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 708,
+        "end": 711,
+        "heading": "The three cycle components",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "The cash-conversion-cycle identity",
+      "Collection, payment and inventory days",
+      "Overdues, repeated inventory days and the mislabeled DSO",
+      "Managing and optimizing working capital"
+    ],
+    "related": [
+      "returns-asset-efficiency",
+      "cash-flow-coverage",
+      "sector-working-capital",
+      "marketing-logistics"
+    ],
+    "notes": [
+      "The second “DSO” expression uses payables and describes supplier settlement; it is a payable-days variant, not sales collection. Purchases and cost of sales are not interchangeable unless the proxy is disclosed.",
+      "Use the actual period length; multiplying a quarterly ratio by 365 is not automatically appropriate. Longer supplier payment is not automatically beneficial if it creates fees, loss of discounts or supply problems."
+    ],
+    "references": [
+      {
+        "title": "ACCA: performance appraisal and working-capital ratios",
+        "url": "https://www.accaglobal.com/sg/en/student/exam-support-resources/fundamentals-exams-study-resources/f7/technical-articles/appraisal-questions.html"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "cash-flow-coverage",
+    "title": "Cash-flow coverage, margins and liquidity buffers",
+    "topic": "Finance & Accounting",
+    "collection": "cash-working-capital",
+    "group": "Working capital & liquidity",
+    "summary": "Interpret operating cash generation against sales, obligations, assets and invested capital.",
+    "takeaway": "Coverage, margins, days and turnover have different units; check the label as well as the arithmetic.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 79,
+        "end": 81,
+        "heading": "Operating cash flow relative to sales",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 87,
+        "end": 89,
+        "heading": "Operating cash flow relative to current liabilities",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 97,
+        "end": 111,
+        "heading": "Cash-flow coverage, asset and investment measures",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 121,
+        "end": 131,
+        "heading": "Cash buffers, margins, debt payments and the mislabeled efficiency entry",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Operating cash flow relative to sales",
+      "Operating cash flow relative to current liabilities",
+      "Cash-flow coverage, asset and investment measures",
+      "Cash buffers, margins, debt payments and the mislabeled efficiency entry"
+    ],
+    "related": [
+      "liquidity-leverage-ratios",
+      "debt-earnings-coverage",
+      "cash-flow-statements"
+    ],
+    "notes": [
+      "The source describes an OCF/current-liabilities ratio as a revenue ratio. Its “cash conversion efficiency” expression is a sales/working-capital turnover measure, not a duration in days.",
+      "Cash flow to investors and CFROI labels need definition-specific treatment. The source’s FCF/invested-capital expression is a simple cash-return ratio, not a fully specified CFROI valuation methodology."
+    ],
+    "references": [
+      {
+        "title": "NYU Stern: estimating cash flows",
+        "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/dcfcf.pdf"
+      },
+      {
+        "title": "OpenStax: financial statement analysis",
+        "url": "https://openstax.org/books/principles-financial-accounting/pages/a-financial-statement-analysis"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "cash-burn-runway",
+    "title": "Cash burn and runway: signs, periods and survival estimates",
+    "topic": "Finance & Accounting",
+    "collection": "cash-working-capital",
+    "group": "Working capital & liquidity",
+    "summary": "Distinguish signed cash flow, positive net burn and a constant-burn runway estimate.",
+    "takeaway": "Runway is a conditional scenario, not a guaranteed cash-out date.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 81,
+        "end": 83,
+        "heading": "The source’s signed operating-plus-investing cash flow",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 111,
+        "end": 113,
+        "heading": "Net cash consumption per month",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 201,
+        "end": 205,
+        "heading": "Net burn and the runway estimate",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 229,
+        "end": 233,
+        "heading": "Revenue annualization and the cash-out-date shorthand",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "The source’s signed operating-plus-investing cash flow",
+      "Net cash consumption per month",
+      "Net burn and the runway estimate",
+      "Revenue annualization and the cash-out-date shorthand"
+    ],
+    "related": [
+      "cash-flow-statements",
+      "financial-forecasting"
+    ],
+    "notes": [
+      "A positive burn convention reverses the sign of negative net cash flow. If burn is zero/negative, cash divided by burn does not yield a meaningful finite depletion estimate. A cash-out date needs a dated forecast or an explicitly defined constant-burn/calendar convention."
+    ],
+    "references": [
+      {
+        "title": "NYU Stern: estimating cash flows",
+        "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/dcfcf.pdf"
+      },
+      {
+        "title": "InsightGinie: Cash runway tool",
+        "url": "https://insightginie.com/tools/cash-runway/"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "cash-flow-drivers",
+    "title": "Cash-flow drivers: revenue, margin and capital efficiency",
+    "topic": "Finance & Accounting",
+    "collection": "cash-working-capital",
+    "group": "Cash-flow foundations",
+    "summary": "Connect commercial and operational decisions with cash generation and capital tied up in the business.",
+    "takeaway": "Improving an earnings measure does not automatically release cash.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 702,
+        "end": 708,
+        "heading": "The cash-flow management loop",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 711,
+        "end": 751,
+        "heading": "Revenue, operating margin and capital-efficiency drivers",
+        "subheadings": [
+          712,
+          725,
+          738
+        ]
+      }
+    ],
+    "steps": [
+      "The cash-flow management loop",
+      "Revenue, operating margin and capital-efficiency drivers"
+    ],
+    "related": [
+      "working-capital-cycle",
+      "marketing-pricing-methods",
+      "operations-performance",
+      "financial-forecasting"
+    ],
+    "notes": [
+      "The source lists possible levers without quantified effects. Pricing, automation, leasing and inventory changes require business-specific costs, timing and trade-offs."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "sector-working-capital",
+    "title": "Working capital across sectors: layouts and study examples",
+    "topic": "Finance & Accounting",
+    "collection": "cash-working-capital",
+    "group": "Working capital & liquidity",
+    "summary": "Compare how different business models tie up cash in stock, receivables, payables and advances.",
+    "takeaway": "Use sector examples to frame questions, then check the actual company data.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 357,
+        "end": 376,
+        "heading": "Working-capital components by sector",
+        "subheadings": [
+          358,
+          362,
+          366,
+          372
+        ]
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 376,
+        "end": 403,
+        "heading": "Named company illustrations",
+        "subheadings": [
+          377,
+          379,
+          385,
+          391,
+          393
+        ]
+      }
+    ],
+    "steps": [
+      "Working-capital components by sector",
+      "Named company illustrations"
+    ],
+    "related": [
+      "working-capital-cycle",
+      "sector-financial-statements"
+    ],
+    "notes": [
+      "The Toyota, Walmart, Accenture, Apple and other named-company statements are undated source illustrations without supporting financial datasets or citations. They are not current company assessments."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "capital-project-cash-flows",
+    "title": "Capital-project cash flows: investment, operations and exit",
+    "topic": "Finance & Accounting",
+    "collection": "valuation-transactions",
+    "group": "Valuation foundations",
+    "summary": "Identify incremental investment, operating cash flows, working-capital movements and disposal effects.",
+    "takeaway": "Evaluate incremental cash flows, including opportunity costs and end-of-project recoveries.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 795,
+        "end": 811,
+        "heading": "The project cash-flow building blocks",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "The project cash-flow building blocks"
+    ],
+    "related": [
+      "discounted-cash-flow",
+      "project-budgeting",
+      "free-cash-flow"
+    ],
+    "notes": [
+      "The source supplies a component checklist, not a completed appraisal, tax calculation or numerical project. No missing discount rate or cash-flow forecast is invented."
+    ],
+    "references": [
+      {
+        "title": "NYU Stern: estimating cash flows",
+        "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/dcfcf.pdf"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "discounted-cash-flow",
+    "title": "DCF: cash-flow forecasts, discount rates and terminal value",
+    "topic": "Finance & Accounting",
+    "collection": "valuation-transactions",
+    "group": "Valuation foundations",
+    "summary": "Build a transparent valuation scenario with matched cash flows, discount rates and a terminal assumption.",
+    "takeaway": "A valuation is conditional on its inputs; test the assumptions that drive the result.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 71,
+        "end": 79,
+        "heading": "Present/future value, DCF and the constant-cash-flow payback shortcut",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 95,
+        "end": 97,
+        "heading": "A perpetual-growth terminal value",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1566,
+        "end": 1582,
+        "heading": "The valuation workflow and the source’s cost-of-equity expression",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1582,
+        "end": 1603,
+        "heading": "Forecast revenue, costs, investment and depreciation",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1603,
+        "end": 1615,
+        "heading": "Strengths, limitations and sensitivity",
+        "subheadings": [
+          1604,
+          1610
+        ]
+      }
+    ],
+    "steps": [
+      "Present/future value, DCF and the constant-cash-flow payback shortcut",
+      "A perpetual-growth terminal value",
+      "The valuation workflow and the source’s cost-of-equity expression",
+      "Forecast revenue, costs, investment and depreciation"
+    ],
+    "related": [
+      "free-cash-flow",
+      "cost-of-capital-returns",
+      "capital-project-cash-flows",
+      "financial-forecasting"
+    ],
+    "notes": [
+      "The source calls the CAPM cost-of-equity expression a generic discount rate. Match FCFE with cost of equity and FCFF with a compatible WACC; a “simple discount rate” is not a complete definition.",
+      "Perpetual-growth terminal value requires discount rate greater than long-run growth and a sustainable terminal cash flow. Payback by investment/annual cash flow assumes level positive cash flows and does not discount them."
+    ],
+    "references": [
+      {
+        "title": "NYU Stern: estimating cash flows",
+        "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/dcfcf.pdf"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "cost-of-capital-returns",
+    "title": "Cost of capital, ROIC and economic profit",
+    "topic": "Finance & Accounting",
+    "collection": "valuation-transactions",
+    "group": "Valuation foundations",
+    "summary": "Separate financing cost from the return generated by the capital committed to operations.",
+    "takeaway": "Use consistent operating profit, invested capital and financing weights.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 1423,
+        "end": 1429,
+        "heading": "Economic value added, WACC and return on invested capital",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Economic value added, WACC and return on invested capital"
+    ],
+    "related": [
+      "discounted-cash-flow",
+      "profit-margins-returns",
+      "free-cash-flow"
+    ],
+    "notes": [
+      "Debt-plus-equity is a simplified invested-capital base; operating adjustments and timing matter. WACC weights normally use a compatible market/target capital structure, and tax-shield assumptions require care."
+    ],
+    "references": [
+      {
+        "title": "NYU Stern: estimating cash flows",
+        "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/dcfcf.pdf"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "market-valuation-measures",
+    "title": "Market valuation measures: equity value, enterprise value and multiples",
+    "topic": "Finance & Accounting",
+    "collection": "valuation-transactions",
+    "group": "Transactions & market value",
+    "summary": "Distinguish a company’s equity value, enterprise value and per-share valuation measures.",
+    "takeaway": "A multiple is meaningful only when its numerator and denominator refer to compatible claims and periods.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 48,
+        "end": 54,
+        "heading": "Equity value, market-to-book and simplified enterprise value",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 56,
+        "end": 58,
+        "heading": "Price-to-book",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 147,
+        "end": 149,
+        "heading": "Price-to-earnings",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Equity value, market-to-book and simplified enterprise value",
+      "Price-to-book",
+      "Price-to-earnings"
+    ],
+    "related": [
+      "discounted-cash-flow",
+      "brand-financial-value",
+      "purchase-price-allocation"
+    ],
+    "notes": [
+      "Enterprise value may require preferred equity, non-controlling interests and other adjustments beyond debt minus cash. Book-value and earnings denominators can be zero/negative, limiting interpretation."
+    ],
+    "references": [
+      {
+        "title": "OpenStax: financial statement analysis",
+        "url": "https://openstax.org/books/principles-financial-accounting/pages/a-financial-statement-analysis"
+      },
+      {
+        "title": "NYU Stern: estimating cash flows",
+        "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/dcfcf.pdf"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "purchase-price-allocation",
+    "title": "Purchase-price allocation: identifiable net assets and goodwill",
+    "topic": "Finance & Accounting",
+    "collection": "valuation-transactions",
+    "group": "Transactions & market value",
+    "summary": "Follow purchase consideration, fair-value analysis, identifiable intangibles and residual goodwill.",
+    "takeaway": "A simplified purchase-price bridge is not a complete business-combination accounting model.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 568,
+        "end": 585,
+        "heading": "Definitions, deferred-tax context and the allocation process",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Definitions, deferred-tax context and the allocation process"
+    ],
+    "related": [
+      "intangible-asset-accounting",
+      "brand-financial-value",
+      "transfer-pricing-methods"
+    ],
+    "notes": [
+      "The source’s net-book-value bridge omits important acquisition-accounting cases. Non-controlling interests, previously held stakes, deferred taxes and the transaction structure can change the calculation.",
+      "An assembled workforce can contribute to goodwill; naming it as an intangible in a valuation discussion does not make it a separately recognized identifiable asset under IFRS 3. WARA is a consistency analysis, not a universal book entry."
+    ],
+    "references": [
+      {
+        "title": "IFRS Foundation: IFRS 3 Business Combinations",
+        "url": "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-3-business-combinations/"
+      },
+      {
+        "title": "IFRS Foundation: IAS 38 Intangible Assets",
+        "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-38-intangible-assets/"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "finance-functions-roles",
+    "title": "Finance functions and roles: treasury, control, FP&A and investment",
+    "topic": "Finance & Accounting",
+    "collection": "finance-careers",
+    "group": "Roles & development",
+    "summary": "Understand the purpose of finance functions and the responsibilities illustrated in the organization chart.",
+    "takeaway": "Finance structures vary: use the role map to understand responsibilities and collaboration.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 811,
+        "end": 831,
+        "heading": "Finance scope and decision support",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 831,
+        "end": 863,
+        "heading": "Controllership, treasury, FP&A and strategic finance",
+        "subheadings": [
+          840,
+          849,
+          858
+        ]
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1915,
+        "end": 1917,
+        "heading": "The supplied organization chart",
+        "subheadings": [],
+        "reuseSection": "section-1"
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1941,
+        "end": 1971,
+        "heading": "FP&A, analysis, risk and compliance roles",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1971,
+        "end": 1999,
+        "heading": "Investment, accounting and finance roles",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Finance scope and decision support",
+      "Controllership, treasury, FP&A and strategic finance",
+      "The supplied organization chart",
+      "FP&A, analysis, risk and compliance roles"
+    ],
+    "related": [
+      "fpa-business-partnering",
+      "finance-skills-development",
+      "finance-certifications"
+    ],
+    "notes": [
+      "The chart is a conceptual organization example, not a mandatory reporting structure or current job-market survey. Titles and certification requirements vary by jurisdiction and employer."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "fpa-business-partnering",
+    "title": "FP&A: planning, forecasting and business partnership",
+    "topic": "Finance & Accounting",
+    "collection": "financial-planning-analysis",
+    "group": "Planning & reporting",
+    "summary": "Connect budgets, forecasts, management reports and commercial decisions through a finance-partnering role.",
+    "takeaway": "FP&A turns reliable financial information into decisions and updated assumptions.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 865,
+        "end": 902,
+        "heading": "Responsibilities, reporting terms and projection types",
+        "subheadings": [
+          886
+        ]
+      }
+    ],
+    "steps": [
+      "Responsibilities, reporting terms and projection types"
+    ],
+    "related": [
+      "finance-functions-roles",
+      "budgeting-methods",
+      "financial-forecasting",
+      "management-reporting-cycles"
+    ],
+    "notes": [
+      "Revenue, cash, bookings and sales are not interchangeable “top-line” measures. An expenditure is not necessarily the same date as cash settlement; keep commitments, recognition and payment timing distinct."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "budgeting-methods",
+    "title": "Budgets: operating plans, methods and the master-budget flow",
+    "topic": "Finance & Accounting",
+    "collection": "financial-planning-analysis",
+    "group": "Planning & reporting",
+    "summary": "Compare budgeting approaches and trace operating assumptions into financial budgets and statements.",
+    "takeaway": "Choose a budgeting method around the decision and evidence required, not a label alone.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 863,
+        "end": 864,
+        "heading": "The operating and financial master-budget diagram",
+        "introduction": "The visual connects sales and production assumptions to materials, labour, overhead, operating cash and the financial budget. It is a planning map, not a populated company budget.",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1075,
+        "end": 1096,
+        "heading": "Budget approaches and source claims about the process",
+        "subheadings": [
+          1076,
+          1078,
+          1080,
+          1082,
+          1084,
+          1086,
+          1088
+        ]
+      }
+    ],
+    "steps": [
+      "The operating and financial master-budget diagram",
+      "Budget approaches and source claims about the process"
+    ],
+    "related": [
+      "financial-forecasting",
+      "fpa-business-partnering",
+      "project-budgeting"
+    ],
+    "notes": [
+      "The source’s zero-based-budgeting description repeats an annual-operating-plan description. Zero-based budgeting requires justification from a zero base; activity-based budgeting links resources and activities to expected output.",
+      "The Excel usage percentage and three-month cycle claim are undated and unsourced, not current benchmarks."
+    ],
+    "references": [
+      {
+        "title": "ACCA: approaches to budgeting",
+        "url": "https://www.accaglobal.com/gb/en/student/exam-support-resources/fundamentals-exams-study-resources/f5/technical-articles/budgeting1.html"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "financial-data-controls",
+    "title": "Financial reporting data: accuracy, integrity and controls",
+    "topic": "Finance & Accounting",
+    "collection": "financial-planning-analysis",
+    "group": "Reporting quality & analysis",
+    "summary": "Build a reliable reporting process through definitions, reconciliation, documented controls and clear ownership.",
+    "takeaway": "Automation cannot repair an undefined measure or an unreliable source process.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 902,
+        "end": 930,
+        "heading": "Data quality, governance and a reporting framework",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 984,
+        "end": 993,
+        "heading": "Technology, integration and automation",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1096,
+        "end": 1125,
+        "heading": "Accuracy, timeliness, compliance and audit readiness",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1132,
+        "end": 1153,
+        "heading": "Data integrity, disclosures and standards review",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Data quality, governance and a reporting framework",
+      "Technology, integration and automation",
+      "Accuracy, timeliness, compliance and audit readiness",
+      "Data integrity, disclosures and standards review"
+    ],
+    "related": [
+      "accounts-payable-controls",
+      "financial-report-storytelling",
+      "finance-red-flags"
+    ],
+    "notes": [
+      "These are process checklists, not an audit opinion or evidence that a control is operating effectively. Reporting obligations and assurance standards depend on context."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "financial-report-storytelling",
+    "title": "Financial reporting: tell a clear, decision-focused story",
+    "topic": "Finance & Accounting",
+    "collection": "financial-planning-analysis",
+    "group": "Reporting quality & analysis",
+    "summary": "Use context, comparisons and well-chosen visuals to help readers understand financial performance.",
+    "takeaway": "A concise headline needs traceable detail and a clear link to action.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 930,
+        "end": 975,
+        "heading": "Clarity, analysis, visual presentation and disclosures",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 975,
+        "end": 984,
+        "heading": "Stakeholder-focused reporting",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 993,
+        "end": 1029,
+        "heading": "Report design and finance-partnering skills",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1029,
+        "end": 1050,
+        "heading": "Ways to investigate data",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1125,
+        "end": 1132,
+        "heading": "User needs and interpretation",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1153,
+        "end": 1167,
+        "heading": "Understanding, uncertainty and stakeholder feedback",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Clarity, analysis, visual presentation and disclosures",
+      "Stakeholder-focused reporting",
+      "Report design and finance-partnering skills",
+      "Ways to investigate data"
+    ],
+    "related": [
+      "management-reporting-cycles",
+      "financial-data-controls",
+      "financial-ratio-analysis",
+      "communication-personal-development"
+    ],
+    "notes": [
+      "“One page” is the source’s summary-design principle, not a reason to omit material explanations, reconciliations or disclosures. The source’s reporting-timeliness list largely describes visualization design; both topics are retained with that distinction."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "management-reporting-cycles",
+    "title": "Management reports: month-end, outlook, QBR and decision support",
+    "topic": "Finance & Accounting",
+    "collection": "financial-planning-analysis",
+    "group": "Planning & reporting",
+    "summary": "Distinguish recurring reporting packs from forecasts, flash reports and one-off decision analysis.",
+    "takeaway": "Choose a report around the audience, decision and time available to act.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 1050,
+        "end": 1075,
+        "heading": "The supplied reporting formats and their purposes",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "The supplied reporting formats and their purposes"
+    ],
+    "related": [
+      "balanced-scorecard",
+      "okr-goals",
+      "financial-report-storytelling",
+      "fpa-business-partnering"
+    ],
+    "notes": [
+      "The source’s balanced-scorecard description repeats relationship-building text. Use the linked balanced-scorecard guide for its actual strategy/measurement purpose."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "financial-forecasting",
+    "title": "Financial forecasts: choose a model and manage uncertainty",
+    "topic": "Finance & Accounting",
+    "collection": "financial-planning-analysis",
+    "group": "Forecasting & practice",
+    "summary": "Compare forecasting approaches and build a review loop around data, assumptions, validation and scenarios.",
+    "takeaway": "A forecast is an estimate with uncertainty, not a guarantee.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 1167,
+        "end": 1194,
+        "heading": "Model types and the forecasting workflow",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1194,
+        "end": 1225,
+        "heading": "Scope, data, assumptions and model limits",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1225,
+        "end": 1251,
+        "heading": "Validation, bias, outliers and scenario review",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Model types and the forecasting workflow",
+      "Scope, data, assumptions and model limits",
+      "Validation, bias, outliers and scenario review"
+    ],
+    "related": [
+      "forecasting-practice",
+      "discounted-cash-flow",
+      "sales-forecasting",
+      "ai-sequences-time-series"
+    ],
+    "notes": [
+      "The notes name models without supplying model fits, datasets or forecast-accuracy results. A forecast range is not automatically a statistically estimated confidence interval, and regression association alone does not establish causation."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "forecasting-practice",
+    "title": "Forecasting practice: questions and industry applications",
+    "topic": "Finance & Accounting",
+    "collection": "financial-planning-analysis",
+    "group": "Forecasting & practice",
+    "summary": "Use the supplied exercises to choose data, assumptions and a method for a real forecasting question.",
+    "takeaway": "Start by defining the question and evidence; the source does not supply completed solutions.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 1251,
+        "end": 1267,
+        "heading": "The source’s forecasting exercises",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1267,
+        "end": 1296,
+        "heading": "Applications across industries",
+        "subheadings": [
+          1270,
+          1272,
+          1276,
+          1290
+        ]
+      }
+    ],
+    "steps": [
+      "The source’s forecasting exercises",
+      "Applications across industries"
+    ],
+    "related": [
+      "financial-forecasting",
+      "project-budgeting"
+    ],
+    "notes": [
+      "Stock prices, bankruptcy, GDP and property forecasts are prompts, not supplied prediction systems or investment recommendations. No numerical answers or datasets are invented."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "understanding-ebit",
+    "title": "EBIT: interpret earnings and investigate operational drivers",
+    "topic": "Finance & Accounting",
+    "collection": "financial-performance",
+    "group": "Earnings & their limitations",
+    "summary": "Examine EBIT trends, operating levers, business-unit comparisons and classification pitfalls.",
+    "takeaway": "An earnings improvement needs reconciliation to cash, risk and the resources required to sustain it.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 1317,
+        "end": 1340,
+        "heading": "Operating-profit levers and trade-offs",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1340,
+        "end": 1367,
+        "heading": "Analysis prompts and common errors",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1367,
+        "end": 1394,
+        "heading": "Expanded source levers and sector applications",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1394,
+        "end": 1402,
+        "heading": "Forecast uncertainty and input review",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Operating-profit levers and trade-offs",
+      "Analysis prompts and common errors",
+      "Expanded source levers and sector applications",
+      "Forecast uncertainty and input review"
+    ],
+    "related": [
+      "understanding-ebitda",
+      "profit-and-loss",
+      "cash-flow-drivers"
+    ],
+    "notes": [
+      "EBIT and operating income are not always identical when non-operating items exist. Raising price, cutting cost or increasing volume is not a guaranteed improvement after all demand, capacity and risk effects. Source sector examples are illustrative."
+    ],
+    "references": [
+      {
+        "title": "SEC: non-GAAP financial measures",
+        "url": "https://www.sec.gov/rules-regulations/staff-guidance/corporation-finance-interpretations/non-gaap-financial-measures"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "understanding-ebitda",
+    "title": "EBITDA: calculate, reconcile and understand the limits",
+    "topic": "Finance & Accounting",
+    "collection": "financial-performance",
+    "group": "Earnings & their limitations",
+    "summary": "Distinguish EBITDA from EBIT, adjusted EBITDA and actual cash generation.",
+    "takeaway": "EBITDA is not operating cash flow and does not remove the need to fund reinvestment or working capital.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 1402,
+        "end": 1406,
+        "heading": "The EBITDA-margin measure",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1416,
+        "end": 1419,
+        "heading": "Adjusted EBITDA is a separate measure",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1431,
+        "end": 1454,
+        "heading": "Uses, operating levers and comparison limits",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1480,
+        "end": 1498,
+        "heading": "Correct the double-add-back calculation sequence",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1498,
+        "end": 1517,
+        "heading": "Strengths and weaknesses in the source",
+        "subheadings": [
+          1499,
+          1506
+        ]
+      }
+    ],
+    "steps": [
+      "The EBITDA-margin measure",
+      "Adjusted EBITDA is a separate measure",
+      "Uses, operating levers and comparison limits",
+      "Correct the double-add-back calculation sequence"
+    ],
+    "related": [
+      "ebitda-adjustments-practice",
+      "debt-earnings-coverage",
+      "free-cash-flow",
+      "understanding-ebit"
+    ],
+    "notes": [
+      "The source’s calculation steps exclude D&A and then add it back again. Start with EBIT that includes D&A expense, then add that expense back once; reconcile the chosen earnings definition to net income.",
+      "“EBITA” in one source instruction appears to be a typo. Bank, property and other sector-specific performance measures may be more informative than a blanket EBITDA comparison."
+    ],
+    "references": [
+      {
+        "title": "SEC: non-GAAP financial measures",
+        "url": "https://www.sec.gov/rules-regulations/staff-guidance/corporation-finance-interpretations/non-gaap-financial-measures"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "ebitda-adjustments-practice",
+    "title": "EBITDA adjustments, applications and study exercises",
+    "topic": "Finance & Accounting",
+    "collection": "financial-performance",
+    "group": "Earnings & their limitations",
+    "summary": "Examine candidate adjustments, valuation/covenant uses and the source’s practice questions.",
+    "takeaway": "An adjustment needs justification and reconciliation; inclusion on a list is not permission to add it back.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 1454,
+        "end": 1480,
+        "heading": "Exercises and error checks",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1517,
+        "end": 1537,
+        "heading": "Candidate adjustments requiring scrutiny",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1537,
+        "end": 1566,
+        "heading": "Applications, compensation, covenants and capital allocation",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Exercises and error checks",
+      "Candidate adjustments requiring scrutiny",
+      "Applications, compensation, covenants and capital allocation"
+    ],
+    "related": [
+      "understanding-ebitda",
+      "discounted-cash-flow",
+      "debt-earnings-coverage"
+    ],
+    "notes": [
+      "The source’s adjustment list is not a preapproved calculation. Normal recurring operating costs cannot be made harmless merely by calling them one-time. Compensation, rent, provisions and revenue adjustments need a defined purpose and reliable support.",
+      "Prioritizing divisions only by EBITDA ignores investment, cash, scale, risk and strategic fit. The source supplies no solved cases, company multiples or covenant terms."
+    ],
+    "references": [
+      {
+        "title": "SEC: non-GAAP financial measures",
+        "url": "https://www.sec.gov/rules-regulations/staff-guidance/corporation-finance-interpretations/non-gaap-financial-measures"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "subscription-revenue",
+    "title": "Subscription revenue: MRR, ARR, bookings and cash",
+    "topic": "Finance & Accounting",
+    "collection": "financial-performance",
+    "group": "Commercial & subscription metrics",
+    "summary": "Define recurring revenue and explain the movements from an opening subscription base to the closing base.",
+    "takeaway": "Annualized recurring revenue, recognized revenue, bookings and cash receipts are different measures.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 1615,
+        "end": 1643,
+        "heading": "Recurring-revenue definitions, costs and forecast shortcuts",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Recurring-revenue definitions, costs and forecast shortcuts"
+    ],
+    "related": [
+      "commercial-unit-economics",
+      "arr-growth-practice",
+      "sales-revenue-planning"
+    ],
+    "notes": [
+      "The source’s sales-rep, ad-spend and partner forecasting shortcuts omit important units or conversion inputs. They are explicitly treated as incomplete driver models rather than executable formulas.",
+      "The “above 90% margins”, low-churn and R&D/COGS claims are not universal. Cost classification depends on activities and policy; recurring revenue does not eliminate churn or collection risk."
+    ],
+    "references": [
+      {
+        "title": "Stripe: monthly and annual recurring revenue",
+        "url": "https://support.stripe.com/questions/understanding-monthly-recurring-revenue-%28mrr%29-and-annual-recurring-revenue-%28arr%29?locale=en-GB"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "arr-growth-practice",
+    "title": "ARR growth: retention, pricing, practice and source tool names",
+    "topic": "Finance & Accounting",
+    "collection": "financial-performance",
+    "group": "Commercial & subscription metrics",
+    "summary": "Connect subscription growth levers with monitoring, exercise prompts and the names recorded in the source.",
+    "takeaway": "Separate a possible growth lever from a proven result.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 1643,
+        "end": 1672,
+        "heading": "Growth actions and a review cadence",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1672,
+        "end": 1686,
+        "heading": "Named source examples",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1686,
+        "end": 1702,
+        "heading": "ARR practice prompts",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1702,
+        "end": 1712,
+        "heading": "The source’s tracking-tool list",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Growth actions and a review cadence",
+      "Named source examples",
+      "ARR practice prompts",
+      "The source’s tracking-tool list"
+    ],
+    "related": [
+      "subscription-revenue",
+      "commercial-unit-economics",
+      "customer-retention",
+      "marketing-strategy"
+    ],
+    "notes": [
+      "The named companies are listed without results or case-study evidence. No success story is invented for them. Tool names and descriptions are retained as an undated source list, not verified current recommendations, availability or pricing."
+    ],
+    "references": [
+      {
+        "title": "Stripe: monthly and annual recurring revenue",
+        "url": "https://support.stripe.com/questions/understanding-monthly-recurring-revenue-%28mrr%29-and-annual-recurring-revenue-%28arr%29?locale=en-GB"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "accounts-payable-controls",
+    "title": "Accounts payable controls: responsibilities, checks and risks",
+    "topic": "Finance & Accounting",
+    "collection": "finance-controls-tax",
+    "group": "Controls & audit readiness",
+    "summary": "Compare payment, vendor, coding, matching and reconciliation controls in a structured matrix.",
+    "takeaway": "Clear responsibility and independent review help reduce risk but do not guarantee fraud prevention.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 528,
+        "end": 568,
+        "heading": "Control Overview",
+        "layout": "ap-controls",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Control Overview"
+    ],
+    "related": [
+      "financial-data-controls",
+      "finance-red-flags",
+      "marketing-logistics"
+    ],
+    "notes": [
+      "The matrix is a design reference, not evidence of operating effectiveness. Small teams may need compensating controls; system access, exception handling and review quality matter."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "finance-red-flags",
+    "title": "Finance red flags and gaps in the source’s audit-tool material",
+    "topic": "Finance & Accounting",
+    "collection": "finance-controls-tax",
+    "group": "Controls & audit readiness",
+    "summary": "Use warning signs to frame follow-up questions and distinguish missing material from available guidance.",
+    "takeaway": "A warning sign warrants investigation; it is not proof of misconduct.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 1296,
+        "end": 1317,
+        "heading": "Financial and organizational warning signs",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1907,
+        "end": 1915,
+        "heading": "Unavailable auditing-software material",
+        "introduction": "The upload contains seven identical unavailable-download placeholders under Auditing Software. The underlying items are not embedded or recoverable in this archive. Their original locations remain mapped; no product descriptions or links have been invented.",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Financial and organizational warning signs",
+      "Unavailable auditing-software material"
+    ],
+    "related": [
+      "accounts-payable-controls",
+      "financial-data-controls"
+    ],
+    "notes": [
+      "All seven missing-content placeholders are accounted for. Their repetition can share one displayed notice, but the missing underlying material cannot be reconstructed from this upload."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "transfer-pricing-comparability",
+    "title": "Transfer pricing: comparability, documentation and the review cycle",
+    "topic": "Finance & Accounting",
+    "collection": "finance-controls-tax",
+    "group": "Transfer pricing",
+    "summary": "Connect functional analysis, comparability and documentation before selecting a pricing method.",
+    "takeaway": "Transfer-pricing labels alone do not establish an arm’s-length outcome.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 1793,
+        "end": 1817,
+        "heading": "Lifecycle, risk indicators and comparability factors",
+        "subheadings": [
+          1796,
+          1806
+        ]
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1817,
+        "end": 1837,
+        "heading": "The source’s local-file documentation checklist",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Lifecycle, risk indicators and comparability factors",
+      "The source’s local-file documentation checklist"
+    ],
+    "related": [
+      "transfer-pricing-methods",
+      "transfer-pricing-profiles",
+      "intangible-asset-accounting"
+    ],
+    "notes": [
+      "OECD guidance is a framework; local laws, implementation dates, documentation thresholds and treaties must be checked for the actual jurisdictions. A risk indicator is not a finding of noncompliance."
+    ],
+    "references": [
+      {
+        "title": "OECD Transfer Pricing Guidelines 2022",
+        "url": "https://www.oecd.org/en/publications/2022/01/oecd-transfer-pricing-guidelines-for-multinational-enterprises-and-tax-administrations-2022_57104b3a.html"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "transfer-pricing-methods",
+    "title": "Transfer-pricing methods, indicators and adjustments",
+    "topic": "Finance & Accounting",
+    "collection": "finance-controls-tax",
+    "group": "Transfer pricing",
+    "summary": "Distinguish transaction methods, profit methods, profit-level indicators and adjustment types.",
+    "takeaway": "Choose a method and tested measure based on the transaction, evidence and comparability.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 165,
+        "end": 171,
+        "heading": "Source profit-level indicator formulas",
+        "subheadings": []
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 1837,
+        "end": 1870,
+        "heading": "Methods, adjustments and indicator labels",
+        "subheadings": [
+          1848,
+          1859
+        ]
+      }
+    ],
+    "steps": [
+      "Source profit-level indicator formulas",
+      "Methods, adjustments and indicator labels"
+    ],
+    "related": [
+      "transfer-pricing-comparability",
+      "transfer-pricing-profiles",
+      "purchase-price-allocation"
+    ],
+    "notes": [
+      "The source’s “often/rarely used” indicators are not universal selection rules. A Berry ratio or routine margin is suitable only when its assumptions and comparability are supported. Source statements are introductory, not jurisdiction-specific tax conclusions."
+    ],
+    "references": [
+      {
+        "title": "OECD Transfer Pricing Guidelines 2022",
+        "url": "https://www.oecd.org/en/publications/2022/01/oecd-transfer-pricing-guidelines-for-multinational-enterprises-and-tax-administrations-2022_57104b3a.html"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "transfer-pricing-profiles",
+    "title": "Transfer-pricing profiles: functions, assets and actual risks",
+    "topic": "Finance & Accounting",
+    "collection": "finance-controls-tax",
+    "group": "Transfer pricing",
+    "summary": "Compare the source’s manufacturer, distributor and service-provider profiles.",
+    "takeaway": "Actual conduct, functions, assets and risk control matter more than a contract label.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 1870,
+        "end": 1907,
+        "heading": "Typical functional profiles in the source",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Typical functional profiles in the source"
+    ],
+    "related": [
+      "transfer-pricing-methods",
+      "transfer-pricing-comparability"
+    ],
+    "notes": [
+      "“Limited risk” is not “no risk”; a profile does not guarantee a fixed return or remove factual analysis. Title to inventory, contractual allocation and actual risk control must be examined together."
+    ],
+    "references": [
+      {
+        "title": "OECD Transfer Pricing Guidelines 2022",
+        "url": "https://www.oecd.org/en/publications/2022/01/oecd-transfer-pricing-guidelines-for-multinational-enterprises-and-tax-administrations-2022_57104b3a.html"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "integrated-reporting-purpose",
+    "title": "Integrated reporting: explain value creation over time",
+    "topic": "Finance & Accounting",
+    "collection": "integrated-sustainability-reporting",
+    "group": "Connected reporting",
+    "summary": "Understand integrated thinking, the reporting purpose and the source’s benefits, costs and stakeholder context.",
+    "takeaway": "An integrated report connects the value-creation story; it does not replace all financial or sustainability reporting.",
+    "ranges": [
+      {
+        "document": "Integrated Reporting.docx",
+        "start": 0,
+        "end": 30,
+        "heading": "Purpose, benefits, costs and reporting decisions",
+        "subheadings": [
+          7,
+          15,
+          22
+        ]
+      }
+    ],
+    "steps": [
+      "Purpose, benefits, costs and reporting decisions"
+    ],
+    "related": [
+      "six-capitals-value-creation",
+      "sustainability-reporting-context",
+      "business-responsibility"
+    ],
+    "notes": [
+      "The source cites IIRC’s 2013 framework and institutional history. The framework was revised in 2021 and is now maintained under the IFRS Foundation; the historical wording is retained with that context. Benefits are possible outcomes, not guaranteed results."
+    ],
+    "references": [
+      {
+        "title": "IFRS Foundation: Integrated Reporting Framework",
+        "url": "https://www.ifrs.org/issued-standards/integrated-reporting/framework/"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "sustainability-reporting-context",
+    "title": "Sustainability reporting: purpose, transparency and dated requirements",
+    "topic": "Finance & Accounting",
+    "collection": "integrated-sustainability-reporting",
+    "group": "Connected reporting",
+    "summary": "Separate the source’s reporting principles from its historical regulatory references.",
+    "takeaway": "A reporting framework, a legal obligation and a corporate claim are different things.",
+    "ranges": [
+      {
+        "document": "Integrated Reporting.docx",
+        "start": 30,
+        "end": 59,
+        "heading": "Financial/non-financial challenges, the historical EU outline and sustainability reporting",
+        "subheadings": [
+          35,
+          51
+        ]
+      }
+    ],
+    "steps": [
+      "Financial/non-financial challenges, the historical EU outline and sustainability reporting"
+    ],
+    "related": [
+      "integrated-reporting-purpose",
+      "six-capitals-value-creation",
+      "cause-environmental-marketing"
+    ],
+    "notes": [
+      "The 2014/95/EU threshold and company-count statements are historical. The EU framework has subsequently changed, including CSRD and later amendments; this reading does not assert current scope, deadlines or exemptions for an entity.",
+      "The claims about absent nonfinancial standards, audit methodology and GRI are dated source characterizations, not a current standards inventory."
+    ],
+    "references": [
+      {
+        "title": "European Commission: corporate sustainability reporting",
+        "url": "https://finance.ec.europa.eu/financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en"
+      },
+      {
+        "title": "IFRS Foundation: Integrated Reporting Framework",
+        "url": "https://www.ifrs.org/issued-standards/integrated-reporting/framework/"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "six-capitals-value-creation",
+    "title": "Six capitals: connect the business model to value creation",
+    "topic": "Finance & Accounting",
+    "collection": "integrated-sustainability-reporting",
+    "group": "Connected reporting",
+    "summary": "Follow financial, manufactured, intellectual, human, relationship and natural resources through activities, outputs and outcomes.",
+    "takeaway": "Value creation can affect several capitals and stakeholders, positively or negatively, over different time horizons.",
+    "ranges": [
+      {
+        "document": "Integrated Reporting.docx",
+        "start": 59,
+        "end": 76,
+        "heading": "The six capitals in the source",
+        "subheadings": [
+          60,
+          64,
+          68,
+          70,
+          72,
+          74
+        ]
+      },
+      {
+        "document": "Integrated Reporting.docx",
+        "start": 76,
+        "end": 78,
+        "heading": "The two business-model diagrams",
+        "reuseSection": "section-1",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "The six capitals in the source"
+    ],
+    "related": [
+      "integrated-reporting-purpose",
+      "sustainability-reporting-context",
+      "brand-financial-value",
+      "stakeholder-management"
+    ],
+    "notes": [
+      "The diagrams are conceptual models, not numerical impact assessments. The word “new capital” is a source heading; the six categories are presented as the framework’s capital types, not six newly invented financial assets."
+    ],
+    "references": [
+      {
+        "title": "IFRS Foundation: Integrated Reporting Framework",
+        "url": "https://www.ifrs.org/issued-standards/integrated-reporting/framework/"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "finance-certifications",
+    "title": "Finance certifications: understand the source’s credential list",
+    "topic": "Finance & Accounting",
+    "collection": "finance-careers",
+    "group": "Roles & development",
+    "summary": "Read the supplied accounting and finance credential names without mistaking a list for current eligibility guidance.",
+    "takeaway": "Credential titles, membership designations and training certificates are not interchangeable.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 1917,
+        "end": 1941,
+        "heading": "The source’s finance and accounting credential names",
+        "subheadings": [
+          1918,
+          1929
+        ]
+      }
+    ],
+    "steps": [
+      "The source’s finance and accounting credential names"
+    ],
+    "related": [
+      "finance-functions-roles",
+      "finance-skills-development"
+    ],
+    "notes": [
+      "The source says “Chartered financial analysis” for CFA and “FMCA” for the fellowship designation; these appear to be transcription issues. The list does not supply verified current issuer, eligibility, licensing, examination or renewal requirements. No qualification recommendation or fee information is inferred."
+    ],
+    "references": [
+      {
+        "title": "CFA Institute: the Chartered Financial Analyst designation",
+        "url": "https://www.cfainstitute.org/programs/cfa-program/charter"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": [
+      {
+        "heading": "Clarify the source’s terminology",
+        "paragraphs": [
+          "CFA is the Chartered Financial Analyst designation; the source’s “Chartered financial analysis” wording is a transcription error. Follow the issuer’s current information for qualification and membership requirements. Other source names are retained with the limitations above."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "finance-skills-development",
+    "title": "Finance skills and the transition from audit to FP&A",
+    "topic": "Finance & Accounting",
+    "collection": "finance-careers",
+    "group": "Roles & development",
+    "summary": "Connect finance knowledge, analytical work, business partnering and communication with a development plan.",
+    "takeaway": "Identify the decisions a role supports, then practice the technical and interpersonal skills those decisions require.",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 1999,
+        "end": 2034,
+        "heading": "Technical, commercial and interpersonal skills",
+        "subheadings": [
+          2000,
+          2021
+        ]
+      },
+      {
+        "document": "Management Accounting.docx",
+        "start": 2034,
+        "end": 2057,
+        "heading": "Audit-to-FP&A transfer, learning needs and KPIs",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Technical, commercial and interpersonal skills",
+      "Audit-to-FP&A transfer, learning needs and KPIs"
+    ],
+    "related": [
+      "finance-functions-roles",
+      "fpa-business-partnering",
+      "financial-report-storytelling",
+      "communication-personal-development"
+    ],
+    "notes": [
+      "The source’s role and skill outlines are educational examples, not guaranteed career pathways or current hiring requirements."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "customer-feedback",
+    "appendTo": "customer-feedback",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 163,
+        "end": 165,
+        "heading": "The new source’s NPS percentage formula",
+        "subheadings": []
+      }
+    ],
+    "related": [
+      "financial-ratio-analysis"
+    ],
+    "notes": [
+      "The earlier collection omitted the NPS calculation; this upload adds the percentage-point formula but still does not provide the underlying survey question or rating classification thresholds."
+    ]
+  },
+  {
+    "slug": "marketing-logistics",
+    "appendTo": "marketing-logistics",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 171,
+        "end": 192,
+        "heading": "Inventory and fulfilment measures in the finance notes",
+        "subheadings": []
+      }
+    ],
+    "related": [
+      "working-capital-cycle",
+      "returns-asset-efficiency"
+    ],
+    "notes": [
+      "Inventory cost ratios, order/unit rates and receiving time have different units. The source’s scrap-cost ratio is not the same as defective-unit scrap rate. Match book and physical inventory to the same date and valuation basis."
+    ]
+  },
+  {
+    "slug": "market-sizing",
+    "appendTo": "market-sizing",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 211,
+        "end": 213,
+        "heading": "A top-down contract-value TAM estimate",
+        "subheadings": []
+      }
+    ],
+    "related": [
+      "commercial-unit-economics"
+    ],
+    "notes": [
+      "Contract value times potential customers is a stated-assumption market-size estimate, not evidence that the entire market is serviceable or obtainable."
+    ]
+  },
+  {
+    "slug": "sales-revenue-planning",
+    "appendTo": "sales-revenue-planning",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 217,
+        "end": 219,
+        "heading": "Sales quota attainment",
+        "subheadings": []
+      }
+    ],
+    "related": [
+      "commercial-unit-economics"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "sales-forecasting",
+    "appendTo": "sales-forecasting",
+    "ranges": [
+      {
+        "document": "Management Accounting.docx",
+        "start": 233,
+        "end": 235,
+        "heading": "Probability-weighted pipeline value",
+        "subheadings": []
+      }
+    ],
+    "related": [
+      "financial-forecasting"
+    ],
+    "notes": [
+      "Weight individual deals by compatible probabilities; this expected pipeline value is not recognized revenue or a guarantee of closing."
+    ]
+  },
+  {
+    "slug": "accounting-formula-directory",
+    "title": "Accounting and finance formula reference",
+    "topic": "Finance & Accounting",
+    "collection": "financial-performance",
+    "group": "Formula reference",
+    "summary": "Search reviewed formulas and source conventions by name, expression, input, unit or limitation.",
+    "takeaway": "Read the review state, variable definitions and scope before using an expression.",
+    "ranges": [],
+    "steps": [
+      "Find a measure",
+      "Check its definition",
+      "Match units and period",
+      "Read the original context"
+    ],
+    "related": [
+      "financial-ratio-analysis",
+      "accounting-statements",
+      "cash-working-capital"
+    ],
+    "notes": [
+      "The directory covers 135 explicit equals-sign source entries. Some repeat, contain more than one expression or are incomplete driver models; the count is not a count of unique validated mathematical identities."
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": [],
+    "format": "formula-index"
+  }
+]

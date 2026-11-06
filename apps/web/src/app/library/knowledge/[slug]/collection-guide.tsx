@@ -3,6 +3,9 @@ import type { KnowledgeArticle } from '../../../../lib/library';
 import guides from '../../../../lib/library/business/guides.json';
 import collections from '../../../../lib/library/business/collections.json';
 import { collectionPath, primaryCollection } from '../../../../lib/library/collection-navigation';
+import formulaEntries from '../../../../lib/library/business/accounting-formulas.json';
+import { FormulaReference } from './formula-reference';
+import { FormulaDirectory } from './formula-directory';
 import { SalesQuestionBank } from './sales-question-bank';
 import { NetworkConnections } from './network-connections';
 import { SourceImage, type SourceImageRecord } from './source-image';
@@ -19,6 +22,7 @@ export function isCollectionArticle(slug: string) {
 }
 
 function DetailBlock({ block, caption }: { block: Block; caption: string }) {
+  if (block.kind === 'formula' && 'formula' in block && block.formula) return <FormulaReference formula={block.formula} />;
   if (block.kind === 'ritual' && 'text' in block && typeof block.text === 'string') {
     const separator = block.text.indexOf(' - ');
     const hasSpeaker = separator > 0 && separator < 24;
@@ -115,9 +119,10 @@ export function CollectionGuide({ article, articles }: { article: KnowledgeArtic
     </> : guide && <>
       {!isChapter && <section className={styles.overview} aria-labelledby="overview-heading"><h2 id="overview-heading">At a glance</h2><ol className={styles.flow}>{guide.steps.map((step, i) => <li key={step}><span aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>{step}</li>)}</ol><p className={styles.meta}>An editorial reading sequence; individual frameworks are explained in the detailed notes below.</p></section>}
       <div className={styles.layout}>
-        <nav className={styles.contents} aria-label="On this page"><strong>On this page</strong><ol>{visuals.length > 0 && <li><a href="#visual-explanations">{visualHeading}</a></li>}{guide.notes.length > 0 && <li><a href="#reading-notes">Reading notes &amp; limitations</a></li>}{guide.format === 'questions' ? <li><a href="#question-bank">Browse questions by stage</a></li> : guide.sections.map((s) => <li key={s.id}><a href={`#${s.id}`}>{s.heading}</a></li>)}{guide.interpretation && <li><a href="#reflection">Business reflection</a></li>}<li><a href="#related">Continue exploring</a></li></ol></nav>
+        <nav className={styles.contents} aria-label="On this page"><strong>On this page</strong><ol>{guide.format === 'formula-index' && <li><a href="#formula-reference">Formula reference</a></li>}{visuals.length > 0 && <li><a href="#visual-explanations">{visualHeading}</a></li>}{guide.notes.length > 0 && <li><a href="#reading-notes">Reading notes &amp; limitations</a></li>}{guide.format === 'questions' ? <li><a href="#question-bank">Browse questions by stage</a></li> : guide.sections.map((s) => <li key={s.id}><a href={`#${s.id}`}>{s.heading}</a></li>)}{guide.interpretation && <li><a href="#reflection">Business reflection</a></li>}<li><a href="#related">Continue exploring</a></li></ol></nav>
         <div className={styles.body}>
           <ReadingNotes notes={guide.notes} />
+          {guide.format === 'formula-index' && <FormulaDirectory entries={formulaEntries} />}
           {visuals.length > 0 && <section id="visual-explanations"><h2>{visualHeading}</h2>{visuals.map((f) => <Figure key={f.title} figure={f} />)}</section>}
           {guide.format === 'questions' ? <section id="question-bank"><h2>Questions for each conversation</h2><SalesQuestionBank stages={guide.questionStages} /></section> : guide.sections.map((s) => <section className={`${styles.detail} ${isChapter ? styles.chapter : ''}`} id={s.id} key={s.id}><h2>{s.heading}</h2>{s.blocks.map((block, i) => <DetailBlock key={i} block={block} caption={s.heading} />)}</section>)}
           {guide.interpretation && <aside id="reflection" className={styles.reflection}><p className={styles.eyebrow}>EDITORIAL INTERPRETATION</p><h2>A business reflection</h2><p>{guide.interpretation}</p></aside>}

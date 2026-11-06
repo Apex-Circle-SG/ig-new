@@ -14,15 +14,18 @@ export function KnowledgeList({ articles }: { articles: KnowledgeArticle[] }) {
   const [collection, setCollection] = useState('');
   const [showAll, setShowAll] = useState(false);
   const business = topic === 'Business & Management';
-  const businessCollections = collectionNavigation.filter((item) => item.parent === 'business-management');
-  const selectedCollection = collectionNavigation.find((item) => item.slug === (collection || 'business-management'));
+  const grouped = business || topic === 'Finance & Accounting';
+  const areaName = business ? 'business' : 'finance';
+  const areaTitle = business ? 'Business' : 'Finance';
+  const topicCollections = collectionNavigation.filter((item) => item.parent === topicHubs.get(topic));
+  const selectedCollection = collectionNavigation.find((item) => item.slug === (collection || topicHubs.get(topic)));
   const topics = Array.from(new Set(articles.map((article) => article.topic)));
   const query = search.trim().toLowerCase();
-  const scoped = articles.filter((article) => (topic === 'All topics' || article.topic === topic) && (!business || !collection || collectionContains(collection, article.slug)));
-  const visible = business && !query && !showAll
+  const scoped = articles.filter((article) => (topic === 'All topics' || article.topic === topic) && (!grouped || !collection || collectionContains(collection, article.slug)));
+  const visible = grouped && !query && !showAll
     ? scoped.filter((article) => selectedCollection?.members.includes(article.slug))
     : scoped.filter((article) => topic !== 'All topics' || query !== '' || !topicHubs.has(article.topic) || topicHubs.get(article.topic) === article.slug);
-  const groups = business && !collection ? [] : Array.from(new Set(visible.map((article) => article.group)));
+  const groups = grouped && !collection ? [] : Array.from(new Set(visible.map((article) => article.group)));
   const filtered = visible.filter((article) => (group === 'All subtopics' || group === article.group) && [article.title, article.summary, article.topic, article.group, ...article.sections.flatMap((section) => [section.heading, section.body])].join(' ').toLowerCase().includes(query));
   const collectionsOnly = filtered.length > 0 && filtered.every((article) => collectionNavigation.some((item) => item.slug === article.slug));
   return <section className={styles.directory} aria-labelledby="knowledge-heading">
@@ -31,10 +34,10 @@ export function KnowledgeList({ articles }: { articles: KnowledgeArticle[] }) {
       <label className={styles.search}><span>Search knowledge</span><input type="search" value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Search articles and notes" /></label>
     </div>
     <div className={styles.filters} aria-label="Filter knowledge by topic">{['All topics', ...topics].map((item) => <button key={item} className={item === topic ? styles.active : ''} aria-pressed={item === topic} onClick={() => { setTopic(item); setGroup('All subtopics'); setCollection(''); setShowAll(false); }}>{item}</button>)}</div>
-    {business && <div className={styles.filters} aria-label="Browse business collections">
-      <label>Business collection <select value={collection} onChange={(event) => { setCollection(event.target.value); setGroup('All subtopics'); setShowAll(false); }}><option value="">Choose a collection</option>{businessCollections.map((item) => <option key={item.slug} value={item.slug}>{item.title}</option>)}</select></label>
+    {grouped && <div className={styles.filters} aria-label={`Browse ${areaName} collections`}>
+      <label>{areaTitle} collection <select value={collection} onChange={(event) => { setCollection(event.target.value); setGroup('All subtopics'); setShowAll(false); }}><option value="">Choose a collection</option>{topicCollections.map((item) => <option key={item.slug} value={item.slug}>{item.title}</option>)}</select></label>
       <button aria-pressed={!collection && !showAll} onClick={() => { setCollection(''); setGroup('All subtopics'); setShowAll(false); }}>All collections</button>
-      <button aria-pressed={showAll} onClick={() => { setCollection(''); setGroup('All subtopics'); setShowAll(true); }}>All business articles</button>
+      <button aria-pressed={showAll} onClick={() => { setCollection(''); setGroup('All subtopics'); setShowAll(true); }}>All {areaName} articles</button>
     </div>}
     {topic !== 'All topics' && groups.length > 0 && <div className={`${styles.filters} ${styles.subcategories}`} aria-label="Filter knowledge by subtopic">{['All subtopics', ...groups].map((item) => <button key={item} className={item === group ? styles.active : ''} aria-pressed={item === group} onClick={() => setGroup(item)}>{item}</button>)}</div>}
     <p className={styles.count} aria-live="polite">{filtered.length} {collectionsOnly ? (filtered.length === 1 ? 'collection' : 'collections') : (filtered.length === 1 ? 'article' : 'articles')}</p>

@@ -27,7 +27,7 @@ export default async function LibraryPage({ searchParams }: { searchParams: Prom
         <div><div className={styles.eyebrow}>EXPLORE THE LIBRARY</div><h2 id="explore-heading">A little something for every curious mind.</h2></div>
         <p>Explore knowledge and practical resources. More topics will join the library as the collection grows.</p>
       </section>
-      <section className={styles.hubs} aria-labelledby="learning-hubs-heading"><h2 id="learning-hubs-heading">Choose a learning hub</h2><div className={styles.grid}>{['ai-learning-hub', 'business-management', 'communication-personal-development', 'project-management', 'process-improvement', 'problem-solving', 'beliefs-mysteries'].map((slug) => {
+      <section className={styles.hubs} aria-labelledby="learning-hubs-heading"><h2 id="learning-hubs-heading">Choose a learning hub</h2><div className={styles.grid}>{['ai-learning-hub', 'business-management', 'finance-accounting', 'communication-personal-development', 'project-management', 'process-improvement', 'problem-solving', 'beliefs-mysteries'].map((slug) => {
         const hub = articles.find((article) => article.slug === slug);
         return hub && <Link className={styles.knowledgeCard} href={`/library/knowledge/${hub.slug}/`} key={hub.slug}><span>{hub.topic}</span><h3>{hub.title}</h3><p>{hub.summary}</p><strong>Explore collection →</strong></Link>;
       })}</div></section>

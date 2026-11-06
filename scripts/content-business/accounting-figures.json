@@ -1,0 +1,261 @@
+[
+  {
+    "document": "Management Accounting.docx",
+    "image": "word/media/image1.jpeg",
+    "slug": "purchase-price-allocation",
+    "title": "Purchase-price allocation: the source’s six-step outline",
+    "kind": "flow",
+    "headers": [],
+    "rows": [
+      [
+        "Identify the purchase price, including cash and equity consideration"
+      ],
+      [
+        "Review net book value: balance sheet, write-offs, impairments and write-ups"
+      ],
+      [
+        "Estimate fair-value adjustments to acquired tangible assets"
+      ],
+      [
+        "Identify acquired intangible value: brand, technology, customer relationships and other identifiable items"
+      ],
+      [
+        "Estimate intangible fair values using appropriate methods, including the source’s DCF, MPEEM and RRM labels"
+      ],
+      [
+        "Compare purchase price with fair-valued net assets and examine goodwill, WARA and deferred tax"
+      ]
+    ],
+    "note": "Recreated from the source diagram. MPEEM means multi-period excess earnings method; RRM means relief-from-royalty method. WARA is weighted average return on assets. These method labels do not supply inputs or make a complete IFRS 3 allocation; see the accounting limitations."
+  },
+  {
+    "document": "Management Accounting.docx",
+    "image": "word/media/image2.jpeg",
+    "slug": "budgeting-methods",
+    "title": "Master budget: operating assumptions connect to financial planning",
+    "kind": "matrix",
+    "headers": [
+      "Branch",
+      "Source sequence / relationships"
+    ],
+    "rows": [
+      [
+        "Demand and revenue",
+        "Sales forecast → revenue budget → production budget"
+      ],
+      [
+        "Production resources",
+        "Production budget → direct-material budget, direct-labour budget and manufacturing-overhead budget"
+      ],
+      [
+        "Production cost and cash",
+        "Resource budgets → cost of goods manufactured / cost of goods sold budget → operating cash budget"
+      ],
+      [
+        "Selling and administration",
+        "Revenue assumptions → selling and administration (SG&A) budget → operating cash budget"
+      ],
+      [
+        "Financial planning",
+        "CAPEX budget ↔ cash budget ↔ the source box labelled “Financial budget”; these feed budgeted financial statements"
+      ]
+    ],
+    "note": "The right-hand box repeats the “Financial budget” label under the same heading; it may intend a funding/financing budget, but that wording is not silently substituted. The arrows are conceptual dependencies, not completed numerical schedules."
+  },
+  {
+    "document": "Management Accounting.docx",
+    "image": "word/media/image3.jpeg",
+    "slug": "financial-ratio-analysis",
+    "title": "A financial-analysis scorecard",
+    "kind": "matrix",
+    "headers": [
+      "Dimension",
+      "Measures named in the source"
+    ],
+    "rows": [
+      [
+        "Profitability",
+        "Gross profit margin; operating profit margin; net profit margin; return on assets; return on equity"
+      ],
+      [
+        "Efficiency",
+        "AR turnover; inventory turnover; AP turnover; asset turnover"
+      ],
+      [
+        "Liquidity",
+        "Current ratio; quick ratio; cash conversion cycle (DSO + DIO − DPO)"
+      ],
+      [
+        "Solvency",
+        "Debt to assets; debt to equity; debt-service coverage; fixed-charge coverage; interest coverage"
+      ],
+      [
+        "Across time",
+        "Horizontal / trend analysis"
+      ],
+      [
+        "Within a statement",
+        "Vertical / common-size analysis"
+      ],
+      [
+        "Assumption review",
+        "Ratio, sensitivity and scenario analysis, including cash-flow analysis"
+      ]
+    ],
+    "note": "The source groups related questions rather than supplying a weighted score or a financial-health diagnosis. The individual formula definitions and conventions are reviewed separately."
+  },
+  {
+    "document": "Management Accounting.docx",
+    "image": "word/media/image4.jpeg",
+    "slug": "transfer-pricing-comparability",
+    "title": "Transfer-pricing lifecycle: a repeating review process",
+    "kind": "flow",
+    "headers": [],
+    "rows": [
+      [
+        "TP strategy and policies"
+      ],
+      [
+        "Price setting"
+      ],
+      [
+        "Monitoring"
+      ],
+      [
+        "Adjustments"
+      ],
+      [
+        "Documentation"
+      ],
+      [
+        "Audits and dispute resolution"
+      ]
+    ],
+    "note": "The source arrows return from audits/dispute resolution to strategy and policies. This is a conceptual workflow; it does not determine a transfer price or replace jurisdiction-specific requirements."
+  },
+  {
+    "document": "Management Accounting.docx",
+    "image": "word/media/image5.jpeg",
+    "slug": "finance-functions-roles",
+    "title": "Finance organization: functions, relationships and skills",
+    "kind": "matrix",
+    "headers": [
+      "Role / source relationship",
+      "Responsibilities",
+      "Skills named in the source"
+    ],
+    "rows": [
+      [
+        "Chief Financial Officer",
+        "Direct and oversee company financial activities",
+        "Communication; decision-making; management"
+      ],
+      [
+        "Treasurer — finance leadership function",
+        "Manage cash, foreign-exchange risk, financing and investment",
+        "Risk management; strategic thinking; banking and financing knowledge"
+      ],
+      [
+        "M&A — finance leadership function",
+        "Identify and execute strategic acquisitions",
+        "Financial modelling and analysis; negotiation; project management; organization"
+      ],
+      [
+        "Controller — shown under CFO",
+        "Direct and coordinate accounting operations",
+        "Technical knowledge; financial software; internal control"
+      ],
+      [
+        "FP&A — shown under CFO",
+        "Manage financial analysis, budgeting and forecasting",
+        "Budgeting; forecasting; financial analysis"
+      ],
+      [
+        "Accounting — shown under Controller",
+        "Financial closing; payables/receivables; reconciliation",
+        "Accounting knowledge; accounting software; regulatory knowledge"
+      ],
+      [
+        "Tax — shown under Controller",
+        "Prepare provisions, returns and reports; address tax issues",
+        "Tax skills; written communication; compliance"
+      ],
+      [
+        "Business partnering — shown under FP&A",
+        "Work with operating departments; manage and prioritize demand",
+        "Business acumen; organization; influence; communication"
+      ],
+      [
+        "Business intelligence — shown under FP&A",
+        "Gather, analyse, compile and structure data; manage BI software, dashboards and reports",
+        "Data analytics; BI software; visualization; demand management"
+      ]
+    ],
+    "note": "All role labels, responsibilities, skills and visible reporting groupings are retained in a readable comparison. This is one source organization example, not a required company hierarchy or current job specification."
+  },
+  {
+    "document": "Integrated Reporting.docx",
+    "image": "word/media/image1.jpeg",
+    "slug": "six-capitals-value-creation",
+    "title": "Value creation: the capitals, business model and feedback context",
+    "kind": "matrix",
+    "headers": [
+      "Part of the source model",
+      "Meaning / relationship"
+    ],
+    "rows": [
+      [
+        "Input capitals",
+        "Financial; manufactured; intellectual; human; social and relationship; natural"
+      ],
+      [
+        "Business model",
+        "Inputs → business activities → outputs → outcomes"
+      ],
+      [
+        "Outcomes",
+        "Positive or negative effects over short, medium and long terms"
+      ],
+      [
+        "Output capitals",
+        "The same six capital categories may be affected; no numerical increase is implied"
+      ],
+      [
+        "Overarching context",
+        "Mission and vision; governance; external environment"
+      ],
+      [
+        "Review and feedback",
+        "Risks and opportunities; strategy and resource allocation; performance; outlook connect around the business model"
+      ],
+      [
+        "Over time",
+        "Value creation, preservation, diminution or erosion"
+      ]
+    ],
+    "note": "The source uses a ring and arrows to connect strategy, performance and outlook with the model. The reconstruction retains the relationships in text; it is not an impact-scoring system."
+  },
+  {
+    "document": "Integrated Reporting.docx",
+    "image": "word/media/image2.jpeg",
+    "slug": "six-capitals-value-creation",
+    "title": "From inputs to outcomes: distinguish organizational and customer value",
+    "kind": "flow",
+    "headers": [],
+    "rows": [
+      [
+        "Inputs (costs): society/organization draws on financial, manufactured, human, intellectual, social and natural capital"
+      ],
+      [
+        "Value-adding activities: organization and society consume or transform inputs"
+      ],
+      [
+        "Outputs (revenue): products or services; the source marks value added by the organization across the input/activity/output span"
+      ],
+      [
+        "Outcomes: effects for the customer, organization and society across all six capitals; the source marks value to the customer between output and outcome"
+      ]
+    ],
+    "note": "This is a qualitative value model. Costs, revenue, customer value and societal outcomes are related concepts, not interchangeable financial quantities."
+  }
+]

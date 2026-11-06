@@ -3527,6 +3527,20 @@
     "sources": []
   },
   {
+    "slug": "finance-accounting",
+    "title": "Finance & Accounting",
+    "topic": "Finance & Accounting",
+    "group": "Start here",
+    "summary": "Explore accounting, financial measures, cash, planning, valuation, controls and connected reporting through focused reading collections.",
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Choose the question you are working on. Formulas explain their inputs, units, assumptions and review status; original wording remains available for study."
+      }
+    ],
+    "sources": []
+  },
+  {
     "slug": "strategy-foundations",
     "title": "What strategy does—and who makes it",
     "topic": "Business & Management",
@@ -3870,6 +3884,10 @@
       {
         "heading": "Market sizing and early adopters",
         "body": "TAM-SAM-SOM\nTotal Addressable Market (TAM)\nHow big is the market?\nServiceable Available Market (SAM)\nHow big is the market that you could reach now?\nServiceable Obtainanle Market (SOM)\nWhat is the market you can reach with your current resources?\nEarlyvangelists (EVG)\nWhat are your most potential customers?"
+      },
+      {
+        "heading": "A top-down contract-value TAM estimate",
+        "body": "Contract-value market-size estimate\nAnnual eligible contract value per client × potential eligible clients\nTotal Addressable Market = Annual Contract Value per client x Number of potential clients\nMarket size of a product/service in value that the company can achieve"
       }
     ],
     "sources": []
@@ -4542,6 +4560,10 @@
       {
         "heading": "A three-quarter service scorecard example",
         "body": "Example of Customer Service Scorecard (satisfaction rating)\nItem\nC1 Employee responsiveness\nC2 Product selection\nC3 Service quality\nC4 Cleanliness of facility\nC5 Knowledge of employees\nC6 Appearance of employees\nC7 Convenience of location\n1st Qtr.\n60%\n60%\n60%\n75%\n62%\n60%\n60%\n2nd Qtr.\n65%\n62%\n62%\n80%\n62%\n62%\n65%\n3rd Qtr.\n68%\n63%\n55%\n85%\n58%\n63%\n68%"
+      },
+      {
+        "heading": "The new source’s NPS percentage formula",
+        "body": "Net Promoter Score\nPromoter percentage − detractor percentage\nNet Promoter Score = % of Promoters - % of Detractors\nMeasures customer satisfaction and loyalty"
       }
     ],
     "sources": []
@@ -4949,6 +4971,10 @@
       {
         "heading": "Planning horizons, customer focus and sales channels",
         "body": "Revenue Plan\nSales Planning & Operations\nTime-Based Planning\nAnnual, quarterly, monthly, and weekly sales planning\nCustomer Focus\nSpend more time with customers\nSell only what your customer needs\n\"You cannot listen to customers and talk at the same time\"\nTo better meet customer needs\nTo meet more customer needs\nSales Force & Channels\nHire more salespeople\nBuild high-margin products, customers & channels\nScaling: do more of what works (training and talent acquisition)"
+      },
+      {
+        "heading": "Sales quota attainment",
+        "body": "Sales quota attainment\nSales on the quota basis / quota on the same basis × 100\nSales Attainment = Monthly Sales / Monthly Quota\n% of quota attained by sales team"
       }
     ],
     "sources": []
@@ -4977,6 +5003,10 @@
       {
         "heading": "Forecasting approaches",
         "body": "Sales forecasting\nExtrapolating past sales\nEstimate market potential and market share\nMarket build-up method\nMarket factor method"
+      },
+      {
+        "heading": "Probability-weighted pipeline value",
+        "body": "Probability-weighted pipeline\nΣ (deal valueᵢ × compatible close probabilityᵢ)\nWeighted Pipeline = Total deals value in pipeline x percentage close likelihood\nThe value of the deals in your pipeline, adjusted for the close likelihood"
       }
     ],
     "sources": []
@@ -8485,6 +8515,10 @@
       {
         "heading": "Warehousing, transport, information and 3PLs",
         "body": "Warehousing decision\nHow many\nWhat types\nWhere to locate\nWarehouses\nDistribution centres\nStock management\nJust-in-time systems\nRFID\nKnowing exact product location.\nSmart shelves\nPlacing orders automatically\nTransportation\nAffects the pricing of products, delivery performance and condition of the goods when they arrive\nTruck\nRail\nWater\nPipeline\nAir\nInternet\nLogistics information management\nThe flow of information, including customer orders, billing, inventory levels and customer data\nElectronic data interchange (EDI)\nVendor-managed inventory (VMI)\nIntegrated logistics management\nThe recognition that provide customer service and trimming distribution costs requires teamwork internally and externally\nThird-party logistics\nThe outsourcing of logistics functions to third-party logistics providers (3PLs)"
+      },
+      {
+        "heading": "Inventory and fulfilment measures in the finance notes",
+        "body": "Opening/closing average inventory\n(Opening inventory + closing inventory) / 2\nInventory days on hand\nAverage inventory / period COGS × period days\nStock-to-sales ratio\nStated inventory value / matching sales value\nInventory carrying-cost rate\n(Service + risk + capital + storage costs) / stated inventory value\nSource order-backlog rate\nUndeliverable orders / total relevant orders\nSell-through on receipts\nUnits sold / units received\nInventory scrap-cost ratio\nPeriod scrap expense / average inventory value\nStock-receiving process time\nValidation time + recording time + storage-preparation time\nBook-to-physical inventory difference\nBook inventory value − physical inventory value\nDead-stock share\nUnsellable relevant stock / total relevant available stock\nInventory\nAverage Inventory = (Beginning Inventory + Ending Inventory) / 2\nAmount of inventory a company has on-hand during a period\nDays on Hand (DoH) = (Average Inventory for period / CoGS for period) x 365\nDoH is the average days before inventory is sold\nStock to Sales Ratio = Inventory value / Sales value\nIs the measurement of the inventory amount in storage versus the number of sales\nCost of Carry = (Inventory Service Costs + Inventory Risk Costs + Capital Cost + Storage Cost) / Total Inventory Value\nPercentage of total inventory value a company pays to maintain inventory in storage\nBackorder Rate = Number of Undeliverable Orders / Total Number of Orders\nTracks the number of delayed orders due to stockouts\nSell-through Rate = Number of units sold / Number of units received\nComparison of the inventory amount sold and the amount of inventory received from a manufacturer\nScrap Rate = Scrap expenses over the period / Average inventory over the period\nMeasures the quality of the inventory and is used to decrease the non quality costs\nTime to receive = Time for stock validation + Time to add stock to records + Time to prep stock for storage\nMeasures the effeciency of stock receiving process\nInventory Shrinkage = Ending inventory value - Physically counted inventory value\nMeasures the shrinkage due to damage, miscounts and fraud\nDead Stock = Amount of unsellable stock in period / Amount of available stock in period\nDead stock inventory no one wants to buy. Measures efficiency of supply chain"
       }
     ],
     "sources": []
@@ -9201,6 +9235,1176 @@
     "sources": []
   },
   {
+    "slug": "accounting-principles",
+    "title": "Accounting principles: timing, value and recognition",
+    "topic": "Finance & Accounting",
+    "group": "Accounting foundations",
+    "summary": "Distinguish accounting terms that change how financial results are recorded and interpreted.",
+    "sections": [
+      {
+        "heading": "What accounting records and controls",
+        "body": "Management Accounting\nAccounting\nScope: recording, analysing, and reporting financial transaction\nFocus: ensure the accuracy and compilance of financial data\nTimeframe: day-to-day recording and reporting of financial output\nWork type: Detail-oriented, technical, compliance-focused, process-driven\nAreas: Audit, tax, consulting, risk management, forensic accounting\nRegulations: adheres to regulatory frameworks such as GAAP, IRFS, and tax regulation"
+      },
+      {
+        "heading": "Timing, value, assets and obligations",
+        "body": "Knowledge area\nAccrual vs. Cash Accounting\n(Income earned vs. expenses incurred) vs. (money in vs. money out).\nDepreciation vs. Amortisation\n\"Wear and tear\" of your fixed assets vs. intangible assets such as goodwill.\nGross Profit vs. Net Profit\nCore business activities vs. final profitability.\nGross Profit vs. Gross Profit Margin\nSame as Gross Profit vs. Net Profit over revenue.\nGenerally Accepted Accounting Principles (GAAP) vs. International Financial Reporting Standards (IFRS)\nUS standards vs other countries standards.\nFair Value vs. Historical Cost\nEstimated current market value of an asset or liability vs. the original purchase price recorded in the books at the time of acquisition.\nAllowance for Doubtful Accounts vs. Bad Debt Expense\nEstimated uncollectible accounts vs. credit sales that is expected to be uncollectible.\nGoodwill vs. Intangible Assets\nAcquisition for the intangible attributes and synergies of the acquired company vs. non-physical assets with future economic benefits.\nCapital Expenditures vs. Revenue Expenditures\nAssets on the balance sheet vs. expenses recorded on the income statement.\nFair Value vs. Carrying Value\nEstimated current market value of an asset or liability vs. asset or liability as reported on the balance sheet.\nFixed Assets vs. Current Assets\nLong-term assets held for the company's productive use vs. short-term assets expected to be converted into cash or used up within one year.\nAccumulated Depreciation vs. Depreciation Expense\nTotal depreciation expense recorded vs. portion of an asset's cost allocated as an expense during a specific accounting period.\nContigent Liabilities vs. Contingent Assets\nPotential obligations that may arise vs. potential assets that may be realised.\nDeferred Revenue vs. Unbilled (Accured) RevenueThe amounts committed to customers in the form of services / products owed vs. floating revenue."
+      },
+      {
+        "heading": "Tax, provisions, equity and accrual terminology",
+        "body": "Deferred Taxes vs. Current Taxes\nPaid or received in future years vs. payable based on the taxable income in the current accounting period.\nProvision vs. Reserve\nLiability that is uncertain in timing or amount vs. company's profits set aside for a specific purpose.\nCapital Stock vs. Retained Earnings\nTotal par value of shares issued by a company to shareholders vs. accumulated profits kept within the company after paying dividends or losses.\nLease vs. Loan\nInvolve asset vs. sum of money.\nUseful Life vs. Economic life\nEconomically usable by the compan vs. economic benefits, which may extend beyond its useful life.\nAccounting Policy vs. Accounting Estimate\nSpecific choice of accounting principles vs. the approximation of uncertain amounts used to recognise transactions.\nBank reconciliation\nMatching of the transactions on your bank statement to the transactions in your general ledger.\nAccured Expense\nExpenses already incurred, but have no yet received a bill / paid for.\nSecurity Deposit\nAmounts paid out, typically to landlords, that are owed back to you at the end of your lease.\nPrepaid Expense\nFuture economic value that has yet to be incurred.\nInventory\nThe amount of merchandise that you have on hand, and is often time broken out by Raw Material, Work in Progress, and Finished Goods.\nIntercompany Balances\nAmounts paid to/from a parent and subsidiary.\nAccured Interest\nInterest expense that have not paid out.\nAccrued Payroll\nPayroll expenses that have not paid out."
+      }
+    ],
+    "sources": [
+      {
+        "title": "IFRS Foundation: IAS 38 Intangible Assets",
+        "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-38-intangible-assets/"
+      },
+      {
+        "title": "OpenStax: financial statement analysis",
+        "url": "https://openstax.org/books/principles-financial-accounting/pages/a-financial-statement-analysis"
+      }
+    ]
+  },
+  {
+    "slug": "financial-position",
+    "title": "Read and prepare a balance sheet",
+    "topic": "Finance & Accounting",
+    "group": "Financial statements",
+    "summary": "Connect assets, liabilities and equity, then prepare, reconcile and investigate a statement of financial position.",
+    "sections": [
+      {
+        "heading": "The accounting equation and the snapshot",
+        "body": "The accounting equation\nAssets = liabilities + equity\nBalance-sheet and retained-earnings checks\nAssets = liabilities + equity; closing retained earnings = opening retained earnings + attributable profit − distributions ± applicable adjustments\nBalance sheet ratios\nHow much you own (assets)?How much you owe to creditors (liabilities)?How much you owe to owners (owner's equity)?\nAssets = Liabilities + Owners EquityBoth tangible and intangible = amounts owed to creditors (capped) - amounts owed to owners (uncapped)\nCurrent assetsFixed assetsLong term assetsCurrent liabilitiesLong term liabilitiesFuding from ownersRetained earnings\nCumulative values as of a specific point in time, ie. snapshot.Assets must always = liabilities + owners equity (no exception).Retained earnings balance come from last period's balance + this month's net income on P&L."
+      },
+      {
+        "heading": "Preparation and analysis questions",
+        "body": "Balance Sheet\nPreparing comprehensive balance sheet\nOrganise the balance sheet in the appropriate format with assets on the left or top, and liabilities and equity on the right or bottom\nList all assets and their respective values (both current and noncurrent)\nEnsure that total assets equal total liabilities and equity (the fundamental balance sheet equation)\nList all liabilities and their respective values (both current and Iong-term)\nSum up total liabilities\nSum up total assets\nCalculate the equity by subtracting total liabilities from total assets\nReview and confirm the accuracy of all figures and calculations\nIdentify the date for which the balance sheet is to be prepared\nPrepare notes to the balance sheet if necessary, providing additional information about certain items\nExercises to improve balance sheet analysis skills\nCalculate and interpret the current ratio and quick ratio\nAnalyse the effects of a significant write-off of receivables\nCompute and interpret the return on assets ratio\nAssess the implications of a high inventory turnover ratio\nEvaluate the effects of a low accounts receivable turnover ratio\nAnalyse the consequences of a low accounts payable turnover ratio\nCalculate and interpret the net working capital\nAssess the implications of a large increase in inventory\nAnalyse the debt-to-equity ratio and its implications for the financial risk of the company\nEvaluate the impact of a significant Iong-term loan on the balance sheet\nAssess the implications of 0 significant long-term investment in a joint venture\nEvaluate the consequences of a large depreciation expense\nAnalyse the effects of on equity issuance\nEvaluate the impact of the buyback of company shares\nCompute and interpret the cash ratio"
+      },
+      {
+        "heading": "Forecasting, reconciliation and classification",
+        "body": "Balance-sheet reconciliation identity\nAssets = liabilities + equity\nTips for making balance sheet forecast\nUse historical trends\nBose your forecasts on historical growth rates for each balance sheet line item\nIncorporate business plans\nInclude any planned significant investments divestitures, or financing activities in your forecast\nUse industry data\nUse industry data to benchmark and validate your forecasts\nIterate your forecast\nAs actual data becomes available, or as conditions change, revise your forecast\nBalance your balance sheet\nAlways ensure that assets = liabilities + equity\nScenario analysis\nCreate multiple scenarios (such as best case, worst case, and most likely case) to account for uncertainty\nForecast linked accounts\nSome accounts naturally go together (like accounts receivable and soles) - forecast them together to maintain coherence\nRegular Reconciliation\nRegularly reconcile your balance sheet accounts with underlying records to ensure accuracy\nProper Classification\nClassify items correctly between current and no-n-current, and between assets, Liabilities, and equity\nValuation\nEnsure assets and liabilities are valued appropriately Certain assets may need to be depreciated, and certain liabilities may need to be discounted to present value"
+      },
+      {
+        "heading": "Further balance-sheet practice",
+        "body": "Exercises to improve balance sheet analysis skills\nCalculate and interpret the current ratio and quick ratio\nAnalyse the debt-to-equity ratio and its\nimplications for the financial risk of the company\nCompute and interpret the return on assets ratio\nAssess the implications of CI high inventory turnover ratio\nEvaluate the effects of a low accounts receivable turnover ratio\nAnalyse the consequences of a low accounts payable turnover ratio\nCalculate and interpret the net working capital\nEvaluate the impact of a significant long-term loan on the balance sheet\nAssess the implications of a significant Iong-term investment in a joint venture\nAssess the implications of a large increase in inventory\nEvaluate the consequences of a large depreciation expense\nAnalyse the effects of a significant write-off of receivables\nAnalyse the effects of on equity issuance\nEvaluate the impact of the buyback of company shares\nCompute and interpret the cash ratio"
+      }
+    ],
+    "sources": [
+      {
+        "title": "OpenStax: financial statement analysis",
+        "url": "https://openstax.org/books/principles-financial-accounting/pages/a-financial-statement-analysis"
+      }
+    ]
+  },
+  {
+    "slug": "profit-and-loss",
+    "title": "Read and prepare a profit-and-loss statement",
+    "topic": "Finance & Accounting",
+    "group": "Financial statements",
+    "summary": "Follow revenue, direct costs, operating expenses and other items through to net profit.",
+    "sections": [
+      {
+        "heading": "Profit levels and the source’s earnings bridge",
+        "body": "Net income\nRecognized revenue and other income − all applicable expenses\nGross profit\nRelevant net sales − cost of goods/services sold\nEBITDA: net-income reconciliation\nNet income + income tax expense + interest expense + depreciation + amortisation\nOperating profit from gross profit\nGross profit − applicable operating expenses\nNet other income\nOther income − other expenses\nNet profit margin\nNet income / matching revenue\nProfitability ratios\nWhat you are earning / consuming, and the net profitability at different level.\nNet income = Total Revenue - Total Expenses\nBottom line profit after subtracting all expenses from all income.\nRevenueCoGSGross profitExpensesNet operating incomeOther incomeOther expenseNet other incomeNet income\nShown over a start and end date.Record on the cash basis (based on cash coming in / out), or the accrual basis (based off of earnings / consumption).\nGross Profit = Total Revenue - Cost of Goods Sold (CoGs)\nHow much is left after each sales.\nEBITDA = Net Income + Interest Rxpense - Interest Income + Taxes + Depreciation + Amortisation\nEarnings before interest, tax, depreciation and amortisation\nNet Operating Income = Gross Profit - Operating Expenses\nThe profit derived from a company's regular business activities.\nNet Other Income = Other Income - Other Expense\nThe net profitability of your other income / expense items, not related to your core business.\nNet Income margin = Net Income / Revenue\nPercentage of revenue that remains after deducting all expenses, including taxes and interest."
+      },
+      {
+        "heading": "Prepare the statement and investigate changes",
+        "body": "Profit and Loss (P&L)\nCreating effective P&L statement\nIdentify the time period for the statement\nList all revenue streams\nList all operational expenses\nSummarise revenues to get gross revenue\nList all direct costs associated with generating that revenue (CoGS)\nSubtract direct costs from gross revenue to find gross profit\nSubtract operational expenses from gross profit to find operating profit\nSubtract interest and taxes from operating profit to get net profit\nPerform a variance analysis with budgeted or previous period figures\nReview and confirm the accuracy of all numbers and calculations\nExercises to improve P&L analysis skills\nAnalyse the impact of a 10% increase in sales volume on net profit\nAnalyse the impact of a 10% decrease in cost of goods sold on gross margin\nCalculate the breakeven sales volume given your current cost structure\nIdentify the impact of seasonal soles trends on cash flow and profitability\nEstimate the change in net profit if operational expenses increase by 15%\nEvaluate the impact of changing customer mix on revenue and profitability\nAssess the effect of exchange rate movements on your P&L if you're doing business internationally\nModel the financial outcomes of investing in a new piece of machinery or technology\nModel the effect of a new competitor entering the market\nAssess how changes in taxation would affect your net profit\nAnalyse the profitability effect of launching a new product line\nCalculate the breakeven point for a price reduction\nEvaluate the financial impact of a marketing campaign, by comparing the campaign costs to the increase in soles\nDetermine the impact on net profit if a key supplier increases their prices\nEvaluate how a change in credit terms with suppliers might impact cash flow and profitability\nRegularly review and update to ensure all transactions are recorded timely and correctly to avoid inconsistencies\nProper expense classification to distinguish between direct, indirect, and non-operating expenses for accurate gross and operating profit calculation\nPeriodic reconciliation to reconcile P&L statement with balance sheet and cash flow statements to catch any discrepancies"
+      },
+      {
+        "heading": "Forecast drivers and useful cost breakdowns",
+        "body": "Forecasting using P&L statements\nHistorical trends\nMarket research\nSales pipeline\nSeasonality\nScenario analysis\nUnit economics\nSensitivity analysis\nKeep iterating\nBreakdown methods for your revenue and costs\nBy product line or service type\nBy geography or business unit\nFixed vs. variable costs\nBy customer type or segment\nBy sales channel (online, in-store, etc.)\nDirect vs. indirect costs\nOperational vs. non-operational costs\nBy individual expense item"
+      }
+    ],
+    "sources": [
+      {
+        "title": "SEC: non-GAAP financial measures",
+        "url": "https://www.sec.gov/rules-regulations/staff-guidance/corporation-finance-interpretations/non-gaap-financial-measures"
+      },
+      {
+        "title": "OpenStax: financial statement analysis",
+        "url": "https://openstax.org/books/principles-financial-accounting/pages/a-financial-statement-analysis"
+      },
+      {
+        "title": "InsightGinie: Break-even tool",
+        "url": "https://insightginie.com/tools/break-even/"
+      }
+    ]
+  },
+  {
+    "slug": "sector-financial-statements",
+    "title": "Financial statements across industries: layouts and questions",
+    "topic": "Finance & Accounting",
+    "group": "Financial statements",
+    "summary": "Compare the supplied industry layouts and the questions that different business models raise.",
+    "sections": [
+      {
+        "heading": "Balance-sheet layout examples",
+        "body": "Balance sheet formats for different sectors\nManufacturing\nCurrent Assets (Cash, Accounts Receivables, Inventory)\nNon-current Assets (Property, Plant, Equipment)\nCurrent Liabilities, Long-term Liabilities, Equity\nBanking\nAssets (Cash and Cash Equivalents Investments, Loans)\nLiabilities (Deposits, Borrowed Funds), Equity\nNon-Profit\nAssets (Cosh, Receivables, Investments)\nLiabilities (Payables, Deferred Revenue)\nNet Assets (Unrestricted Temporarily Restricted Permanently Restricted)\nRetail\nCurrent Assets (Cash, Inventory)\nNon-current Assets (Equipment, Fixtures)\nCurrent Liabilities, Long-term Debt, Equity\nIT Companies\nAssets (Cosh, Accounts Receivable, Goodwill,\nIntellectual Property), Liabilities, Equity\nReal Estate\nAssets (Properties, Cosh)\nLiabilities (Mortgages, Loans), Equity\nHealthcare\nAssets (Cosh, Patient Receivables, Medical Equipment)\nLiabilities (Accounts Payable, Medical Claims)\nEquity\nInsurance\nAssets (Investments, Premiums Receivable)\nLiabilities (Unearned Premiums, Claims), Equity\nInvestment Firms\nAssets (Cosh, Investments), Liabilities\n(Management Fee Payable, Distribution Payable), Equity"
+      },
+      {
+        "heading": "Balance-sheet applications by sector",
+        "body": "Balance sheet applications across industry\nManufacturing\nAnalysing asset efficiency and leverage\nBanking\nAssessing capital adequacy and liquidity\nInsurance\nEvaluating the adequacy of reserves for claims and the investment portfolio quality\nRetail\nExamining inventory management efficiency and the ability to handle debt\nIT Companies\nAnalysing the ratio of tangible to intangible assets and its impact on company valuation\nReal Estate\nAssessing the level of property assets, associated liabilities, and equity\nAgriculture\nEvaluating the adequacy of land and machinery assets\nHealthcare\nAnalysing the ability to manage patients and the efficiency of asset usage\nNon-Profit\nAssessing the balance of unrestricted, temporarily restricted, and permanently restricted net assets\nInvestment Firms\nEvaluating the proportion of the portfolio in various asset classes and assessing the risk profile\nEnergy\nAnalysing the balance of reserves and the ability to handle environmental liabilities\nConstruction\nAssessing the management of work in progress and the level of liabilities\nEducation\nAnalysing the level of endowment funds and the ability to cover future expenses"
+      },
+      {
+        "heading": "Profit-and-loss layout examples",
+        "body": "P&L statement layouts for various industries\nRetail\nTopllne is revenue from soles, followed by CoGS, and operating expenses like rent and salaries\nEducation\nMain revenues come from tuition fees, government grants while significant costs include educator salaries, facility costs, and student support services\nSoftware\nRevenue might be split between software sales, subscription revenue, and service fees. CsGS may include hosting costs and support staff salaries\nReal Estate\nMain revenues come from property sales or rents, and primary expenses are interest, property maintenance, and staff salaries\nHealthcare\nRevenue from patient fees, and major costs include salaries, medical supplies, and equipment depreciation\nRestaurant\nPrimary revenues from food and beverage sales, major expenses include food costs, labour, and overheads\nConsulting\nRevenues from consulting fees, key expenses are consultant salaries, travel, and administrative costs\nNon-Profit\nRevenues primarily from grants and donations, expenses could be program expenses, admin costs, and fundraising expenses\nManufacturing\nStarts with revenue from goods sold, then CoGS includes raw materials and labour costs"
+      },
+      {
+        "heading": "Profitability questions across sectors",
+        "body": "P&L applications across sectors\nRetail\nDetermining profitability of different store locations\nManufacturing\nEvaluating cost efficiency of different production lines\nSoftware\nAssessing profitability of different subscription models\nReal Estate\nEvaluating profitability of different properties\nHealthcare\nTracking profitability of different services\nRestaurant\nUnderstanding profitability during different seasons\nConsulting\nAssessing profitability of different consulting engagements\nNon-Profit\nTracking usage of funds\nEducation\nEvaluating cost-effectiveness of different programs\nAgriculture\nUnderstanding the profitability of different crops\nBanking\nEvaluating profitability of different financial products\nInsurance\nDetermining profitability of different policy types\nE-commerce\nUnderstanding profitability of different product categories"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "intangible-asset-accounting",
+    "title": "Intangible assets: recognition, research and development",
+    "topic": "Finance & Accounting",
+    "group": "Assets & accounting policies",
+    "summary": "Separate identifiable intangibles, research expense, qualifying development and acquired goodwill.",
+    "sections": [
+      {
+        "heading": "Recognition, initial cost and key definitions",
+        "body": "Intagible Asset\nAn entity shall assess the probability of expected future economic benefits using reasonable and supportable assumptions that represent management’s best estimate of the set of economic conditions that will exist over the useful life of the asset.\nThe time should meet the definition of an intangible asset\nThe time should meet the recognition criteria\nIt is probably that the expected future economic benefits that are attributable to the asset will flow to the entity\nThe cost of the asset can be measured reliably\nIntangible asset shall be measued initially at cost\nIts purchase price, including import duties and non-refundable purchase taxes, after deducting trade discounts and rebates\nAny directly attributable cost of preparing the asset for its intended use\nDefinitions\nIntangible asset\nIntangible asset is an identifiable non~monetary asset without physical substance controlled by the entity from which future economic benefits are expected to flow to the entity\nAmortisation\nAmortisation is the systematic allocation of the depreciable amount of an intangible asset over its useful life.\nAsset\nAn asset is a resource: (a) controlled by an entity as a result of past events; and (b) from which future economic benefits are expected to flow to the entity.\nCarrying amount\nCarrying amount is the amount at which an asset is recognised in the statement of financial position after deducting any accumulated amortisation and accumulated impairment losses thereon\nCost\nCost is the amount of cash or cash equivalents paid or the fair value of other consideration given to acquire an asset at the time of its acquisition or construction\nDevelopment\nDevelopment is the application of research findings or other knowledge of a plan or design for the production of new or substantially improved materials, devices, products, processes, systems or services before the start of commercial production or use.\nFair value\nFair value is the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date\nResearch\nResearch is an original and planned investigation undertaken with the prospect of gaining new scientific or technical knowledge and understanding.\nUseful life\nUseful life is: (a) the period over which an asset is expected to be available for use by an entity; or (b) the number of production or similar units expected to be obtained from the asset by an entity."
+      },
+      {
+        "heading": "Intellectual property and subsequent measurement",
+        "body": "Intellectual Property (IP)\nIP Types\nInvesment in development\nSoftware, trademarks, brand\nIP on lease agreement\nConsessions, patents\nIP in preparation\nMeasurement after initial recognition\nCost modelAfter initial recognition, an intangible asset shall be carried at its cost less any accumulated amortisation and any accumulated impairment losses.\nRevaluation modelAfter initial recognition, an intangible asset shall be carried at a revalued amount, being its fair value a! the date of the revaluation less any subsequent accumulated amortisation and any subsequent accumulated impairment losses. For the purpose of revaluations under this standard, fair value shall be measured by reference to an active market. Revaluations shall be made with such regularity that at the end of the reporting period lht' carrying amount of the asset does not differ materially from its fair value.\nIP carrying amount is increased\nIncrease shall be recognised in equity under the heading of revaluation surplus. However, the increase shall be recognised in P&L to the extent that it reverses a revaluation decrease of the same asset previously recognised in P&L.\nIP carrying amount is decreased\nDecrease shall be recognised in P&L. However, the decrease shall be recognised in other comprehensive income to the extent of any credit balance in the revaluation surplus in respect to that asset"
+      },
+      {
+        "heading": "Costs, disposal and the research/development distinction",
+        "body": "Criteria\nUnattributable\nInvestment in development\nSoftware, trademarks, brand\nIP on lease agreement\nConsessions, patents\nOn disposal\nWhen no future economic benefits are expected from its use or disposal\nCost of introducing a new product or service\nCost of advertising and promotional activities\nCost of conducting business in a new location or with a new class of customer\nCost of staff training\nAdministration and other general overhead costs\nCost rising from research (or from the research phase of an Internal project) shall be recognized. Expenditure on research (or on the research phase of an internal project) shall be recognized as an expense when it is incurred:\nActivities aimed at obtaining new knowledge.\nThe search for, evaluation and final selection of, applications of research findings or other knowledge.\nThe search for alternatives for materials, devices. products. processes. systems or services.\nAattributable\nCost of employee benefits (IAS 19) arising directly from\nBringing the asset to its working condition\nProfessional fees arising directly from bringing the asset to its working condition\nCost of testing whether the asset is functioning properly"
+      },
+      {
+        "heading": "Disclosures and development recognition conditions",
+        "body": "Useful life or amortisation rate\nAmortisation method\nGross carrying amount\nAccumulated amortisation and impairment losses\nLine items in the income statement in which amortisation is included\nCertain special disclosures about intangible assets acquired by way of government grants\nReconciliation of the carrying amount at the beginning and the end of the period showing all changes, additions, amortisations. disposals, impairments, re-valuation\nDescription and carrying amount of individually material intangible assets\nBasis for determining that an intangible has an indefinite life\nInfo about intangible assets whose title is restricted\nContractual commitments to acquire intangible assets\nIntangible asset arising from development shall be recognized if an entity can demonstrate all of the following:\nThe technical feasibility of completing the intangible asset so that it will be available for use or sale\nThe availability of adequate technical, financial and other resources to complete the development and to use or sell the intangible asset\nIts ability to use or sell the intangible asset how the intangible asset will generate probable future economic benefits\nIts ability to measure reliably the expenditure attributable to the intangible asset during its development\nIts intention to complete the intangible asset and use or sell it"
+      }
+    ],
+    "sources": [
+      {
+        "title": "IFRS Foundation: IAS 38 Intangible Assets",
+        "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-38-intangible-assets/"
+      },
+      {
+        "title": "IFRS Foundation: IFRS 3 Business Combinations",
+        "url": "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-3-business-combinations/"
+      }
+    ]
+  },
+  {
+    "slug": "financial-ratio-analysis",
+    "title": "Read ratios with context: trends, structure and comparisons",
+    "topic": "Finance & Accounting",
+    "group": "Interpreting financial measures",
+    "summary": "Use a compact ratio map to connect profitability, efficiency, liquidity and solvency.",
+    "sections": [
+      {
+        "heading": "Start with the analytical question",
+        "body": "Compare periods and comparable entities only after checking definitions, units and accounting policies. Horizontal analysis considers change over time; vertical analysis considers the structure of a statement. Sensitivity and scenario analysis examine assumptions rather than supply certainty.\nKPIs"
+      }
+    ],
+    "sources": [
+      {
+        "title": "OpenStax: financial statement analysis",
+        "url": "https://openstax.org/books/principles-financial-accounting/pages/a-financial-statement-analysis"
+      }
+    ]
+  },
+  {
+    "slug": "liquidity-leverage-ratios",
+    "title": "Liquidity and leverage: cash, obligations and capital",
+    "topic": "Finance & Accounting",
+    "group": "Liquidity & solvency",
+    "summary": "Compare short-term coverage, working capital, debt funding and the source’s specialist capital measures.",
+    "sections": [
+      {
+        "heading": "Liquidity, working capital and financing",
+        "body": "Debt-to-equity\nTotal debt / total equity\nDebt-to-assets\nTotal debt / total assets\nCurrent ratio\nCurrent assets / current liabilities\nEquity multiplier\nTotal assets / total equity\nQuick ratio\n(Current assets − inventory − prepayments − other non-quick current assets) / current liabilities\nCash ratio\nCash and cash equivalents / current liabilities\nNet working capital\nCurrent assets − current liabilities\nNet working capital to total assets\n(Current assets − current liabilities) / total assets\nDebt-to-capitalisation\nDebt / (debt + equity)\nDebt-to-Equity Ratio = Total Debt / Total Equity\nAmount of debt a company has in relation to its equity. The lower the ratio, the less the debt compared to its equity.\nDebt-to-Assets Ratio = Total Debt / Total Asset\nAmount of debt a company has in relation to its assets. The lower the ration, the less the debt compared to assets.\nCurrent Ratio = Current Assets / Current Liabilities\nMeasures whether a company has enough short-term assets to cover its short-term liabilities. The higher the ratio, the more assets you have in relation to your liabilities.\nEquity Multiplier = Total Assets / Total Equity\nMeasures the proportion of a company's assets that are financed through debt versus equity. A high equity multiplier means the company is relying more on debt to finance it's assets rather than equity.\nQuick Ratio = (Current Assets - Inventory) / Current Liabilities\nShows the ability of a company to meet its short-term obligations with its most liquid assets. The high the ratio, the more liquidity your business has.\nCash Ratio = Cash and Cash Equivalent / Current Liabilities\nAmount of cash and equivalents a company has in relation to its current liabilities. The higher the ratio, the more cash you have in comparison with your current liabilities.\nNet Working capital = Current Assets - Current Liabilities\nShort-term liquidity and its ability to meet its current obligations. Higher NWC indicates that the company has a comfortable cushion of liquid assets to cover its short-term liabilities.\nNet Working Capital Ratio = (Current Assets - Current Liabilities) / Total Assets\nShowcases the difference between a company's current asset and its current liabilities. The higher the ratio, the more current assets you have compared to your current liabilities.\nTotal Debt-to-Capitalisation Ratio = Total Debt / (Total Debt + Shareholders' Equity)\nThe total amount of debt in relation to a company's total capitalisation (debt & equity). The lower ratio, the less your business is captailised using debt."
+      },
+      {
+        "heading": "The source’s adjusted tangible-net-worth measure",
+        "body": "Liabilities to adjusted tangible net worth\nTotal liabilities / (equity − intangibles − prepayments − related-party receivables)\nTangible Net Worth Ratio = Total Liabilities / (Total Equity - Intangible Assets - Prepaid Assets - Due from Related Parties)\nThe value of all your assets and the size of all your liabilities"
+      },
+      {
+        "heading": "Bank capital adequacy: a specialist measure",
+        "body": "Bank total-capital adequacy\n(Eligible Tier 1 capital + eligible Tier 2 capital) / risk-weighted assets × 100\nCapital Adequacy Ratio (CAR) = (Tier 1 Capital + Tier 2 Capital) / (Risk-Weighted Assets) x 100\nNot liquid assets but bookkeeping of assets and liability"
+      }
+    ],
+    "sources": [
+      {
+        "title": "OpenStax: financial statement analysis",
+        "url": "https://openstax.org/books/principles-financial-accounting/pages/a-financial-statement-analysis"
+      },
+      {
+        "title": "ACCA: performance appraisal and working-capital ratios",
+        "url": "https://www.accaglobal.com/sg/en/student/exam-support-resources/fundamentals-exams-study-resources/f7/technical-articles/appraisal-questions.html"
+      }
+    ]
+  },
+  {
+    "slug": "returns-asset-efficiency",
+    "title": "Returns and asset efficiency: earnings, sales and capital",
+    "topic": "Finance & Accounting",
+    "group": "Profitability & efficiency",
+    "summary": "Interpret returns on assets/equity and turnover of assets, receivables, payables and stock.",
+    "sections": [
+      {
+        "heading": "Returns and turnover measures",
+        "body": "Return on assets\nNet income / average total assets\nReturn on equity\nAttributable net income / average corresponding equity\nTotal asset turnover\nNet sales / average total assets\nReceivables turnover\nNet credit sales / average trade receivables\nPayables turnover\nCredit purchases / average trade payables\nInventory turnover\nCost of goods sold / average inventory\nFixed-asset turnover\nRevenue / average net fixed assets\nReturn on Assets (RoA) = Net Income / Average Total Assets\nAmount of net income a company generates in relation to its total assets. The higher your RoA, the better your return on your assets.\nReturn on Equity (RoE) = Net Income / Average Shareholders' Equity\nAmount of net income a company generates in relation to its equity. The higher your RoE, the better return you are getting on your equity.\nTotal Asset Turnover = Net Sales - Average Total Assets\nA company generates for each dollar of total assets it holds. Higher TAT suggests that the company is generating more sales relative to its investment in assets.\nAccounts Receivables Turnover = Net Credit Sales / Average Accounts Receivable\nMeasures how quickly a company collects outstanding debts from customers\nAccounts Payable Turnover = Total Supplier Purchases / Average Accounts Payable\nMeasures how quickly a company pays its suppliers\nInventory Turnover = CoGS / Average Inventory\nMeassures the number of times inventory is sold and replaced during a period\nFixed Asset Turnover = Revenue / Net Fixed Assets\nMeasures how effectively a company uses its fixed assets to generate sales"
+      }
+    ],
+    "sources": [
+      {
+        "title": "OpenStax: financial statement analysis",
+        "url": "https://openstax.org/books/principles-financial-accounting/pages/a-financial-statement-analysis"
+      },
+      {
+        "title": "ACCA: performance appraisal and working-capital ratios",
+        "url": "https://www.accaglobal.com/sg/en/student/exam-support-resources/fundamentals-exams-study-resources/f7/technical-articles/appraisal-questions.html"
+      }
+    ]
+  },
+  {
+    "slug": "profit-margins-returns",
+    "title": "Margins, returns and the DuPont bridge",
+    "topic": "Finance & Accounting",
+    "group": "Profitability & efficiency",
+    "summary": "Distinguish profit margins, investment returns, dividend measures and the drivers of return on equity.",
+    "sections": [
+      {
+        "heading": "Margins, investment returns and dividends",
+        "body": "Gross profit margin\nGross profit / matching net sales\nAccounting return on investment\nDefined period net profit / defined investment base\nReturn on capital employed\nCompatible operating profit / stated capital employed\nBasic earnings per common share\n(Attributable net income − applicable preferred dividends) / weighted-average common shares\nOperating profit margin\nOperating profit / matching revenue\nDividend yield\nAnnual dividend per corresponding share / market price per share\nGross margin: revenue-cost form\n(Revenue − corresponding cost of sales) / revenue\nGross Profit Margin = Gross Profit / Net Sales\n% of revenue that exceeds the CoGS.\nReturn on Investment (RoI) = Net Profit / Total Investment\nThe return on investment capital invested in a business.\nReturn on Capital Employed (RoCE) = Operating Profit / Capital Employed\nA company's ability to generate profits from the capital its has invested in its business.\nEarnings Per Share (EPS) = (Net Income - Preferred Dividends) / Weighted Average Shares Outstanding\nThe portion of a company's profit allocated to each outstanding share of common stock.\nOperating Profit Margin = Operating Profit / Revenue\n% of revenue that remains after deducting operating expenses.\nDividend Yield = Annual Dividend per Share / Market Price per Share\nReturn on investment from dividends\nGross Margin Ratio = (Revenue - CoGS) / Revenue\nMeasures the profitablity of a company's products or services"
+      },
+      {
+        "heading": "DuPont: separate the actual identity from a list of ratios",
+        "body": "Three-factor DuPont identity\nROE = (net income / net sales) × (net sales / average total assets) × (average total assets / average equity)\nDupont Analysis = Net Profit Margin, Profitability (Gross Profit Margin, Operating Profit Margin, Pre-tax Profit Margin, Effective Tax Rate) x Asset Turnover, Efficiency (Fixed Asset Turnover, AR Turnover, AP Turnover, Inventory Turnover) x Financial Leverage (Debt Ratio, Equity Ratio)\nTo decompose the different drivers of return on equity"
+      },
+      {
+        "heading": "Dividend payout",
+        "body": "Dividend payout ratio\nCorresponding dividends / corresponding earnings\nDividend Payout Ratio = Dividends / net income\nThe proportion of earnings paid out as dividends to shareholders."
+      }
+    ],
+    "sources": [
+      {
+        "title": "OpenStax: financial statement analysis",
+        "url": "https://openstax.org/books/principles-financial-accounting/pages/a-financial-statement-analysis"
+      }
+    ]
+  },
+  {
+    "slug": "debt-earnings-coverage",
+    "title": "Debt coverage: earnings measures and covenant definitions",
+    "topic": "Finance & Accounting",
+    "group": "Liquidity & solvency",
+    "summary": "Compare EBITDA-based coverage and leverage while distinguishing contractual tests from universal ratios.",
+    "sections": [
+      {
+        "heading": "Coverage, fixed charges and funded-debt leverage",
+        "body": "EBITDA-based interest coverage\nEBITDA / compatible interest expense\nEBITDA-based debt-service proxy\nEBITDA / (scheduled principal + compatible interest)\nFixed-charge coverage: agreement-specific\n\nFunded debt to EBITDA\nDefined funded debt / compatible EBITDA\nInterest Coverage = EBITDA / Interest Expense\nAbility to generate enough operating income to cover its interest obligations. Higher ICR indicates that the company's operating income is sufficiently higher than its interest expenses.\nDebt Service Coverage = EBITDA / (Principal + Interest)\nAbility to meet its debt obligations. Higher (DSC) indicates that the company's operating income is more than sufficient to meet its debt obligations.\nFixed Charged Coverage = (EBITDA + Fixed Charges - Cash Taxes - Unfunded CAPEX - Shareholder Distribution) / (P + I + Fixed Charges)\nAbility to meet its fixed financial obligations. Higher FCC indicates that the company's operating income is sufficient to cover both its fixed financial obligations and interest expenses.\nFunded Debt to EBITDA = Total Financed Debt / EBITDA\nAbility to manage its debt load relative to its earnings potential. Lower FDER indicates that the company's funded debt is relatively lower compared to its earnings."
+      }
+    ],
+    "sources": [
+      {
+        "title": "SEC: non-GAAP financial measures",
+        "url": "https://www.sec.gov/rules-regulations/staff-guidance/corporation-finance-interpretations/non-gaap-financial-measures"
+      }
+    ]
+  },
+  {
+    "slug": "commercial-unit-economics",
+    "title": "Customer economics: churn, acquisition, retention and recurring revenue",
+    "topic": "Finance & Accounting",
+    "group": "Commercial & subscription metrics",
+    "summary": "Connect customer measures with acquisition cost, recurring-revenue movements and unit economics.",
+    "sections": [
+      {
+        "heading": "Churn, buyer growth, lifetime value and acquisition cost",
+        "body": "Customer churn rate\nOpening-cohort customers lost during period / customers at period start\nNew-buyer growth\n(New buyers this period − new buyers prior period) / new buyers prior period\nSimple revenue lifetime value\nRevenue per customer per period × expected customer lifespan in periods\nCustomer acquisition cost\nAttributed sales and marketing cost / matching new customers acquired\nCustomer (SaaS)\nCustomer Churn Rate = Customers lost / Total Customers\nPercentage of customers lost in a given time frame\nNew Buyer Growth Rate = (New buyers this month - New buyers last month) / New buyers last month\nSpeed at which you gain new customers over defined periods of time\nLifetime Value = Customer Value x Average Customer Lifespan\nRevenue from a customer over the retention time period\nCustomer Acquisition Costs = Cost of Sales and Marketing / Number of New Customers Acquired\nAmount of money a company spends to get a new customer"
+      },
+      {
+        "heading": "Revenue per customer and SaaS quick ratio",
+        "body": "Revenue per customer\nPeriod revenue / stated matching customer base\nSaaS quick ratio\n(New MRR + expansion MRR) / (churned MRR + contraction MRR)\nUniform-customer MRR shortcut\nEligible customers × average normalized monthly recurring amount\nAverage Revenue per User = Total Revenue / Total number of customers\nAverage revenue generated per customer (either monthy or annually)\nSaaS Quick Ratio = (Net Monthly Recurring Revenue period [MRRt] + Expansion MRRt) / (Churned MRRt + Contraction MRRt)\nCompares revenue added (new business) vs. revenue lost (churn)\nMonthly Recurring Revenue = Number of customers x Average billed amount\nMonthly revenue from customers with a subscription"
+      },
+      {
+        "heading": "Revenue retention and CAC payback",
+        "body": "Net revenue retention for an opening cohort\n(Opening-cohort MRR + expansion − contraction − churn) / opening-cohort MRR × 100\nGross-profit CAC payback\nCAC per acquired customer / gross profit per customer per period\nNet Dollar Retention = Net Revenue / Opening MRR\nThe amount being retained from a customer or cohort over a specific period of time\nCAC Paybank = Customer Acquisition Cost / Gross Profit\nPeriod of time till you make back your CAC"
+      },
+      {
+        "heading": "Contract value, movements and budget labels",
+        "body": "Average annual contract value\nTotal annualized eligible contract value / eligible contract count\nExpansion recurring revenue\nSum of positive recurring-value increases for continuing customers\nContraction recurring revenue\nSum of partial recurring-value reductions for continuing customers\nBudget attainment versus variance\nAttainment = actual / budget; variance rate = (actual − budget) / budget\nRevenue per user\nPeriod revenue / stated matching user base\nAverage Contract Value = Total Revenue / No. of Contracts\nThe average contract value from a customer (more common in B2B)\nExpansion Revenue = (Total Revenue in Current Period - Total Revenue in Previous Period) - (Reactivation Revenue + Churn Revenue)\nAdded revenue from recurring customers\nContraction revenue = (Total Revenue in Previous Period - Total Revenue in Current Period) + Downgrade Revenue + Churn Revenue\nReduced revenue from recurring customers\nBudget Attainment = Budget variance / Budget Amount\n% of your budget achieved\nAverage Revenue per User = Total Revenue / No. of User\nThe average revenue you are generating from a user (more common in B2C)"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Stripe: monthly and annual recurring revenue",
+        "url": "https://support.stripe.com/questions/understanding-monthly-recurring-revenue-%28mrr%29-and-annual-recurring-revenue-%28arr%29?locale=en-GB"
+      }
+    ]
+  },
+  {
+    "slug": "cash-flow-statements",
+    "title": "Cash-flow statements: operations, investment and financing",
+    "topic": "Finance & Accounting",
+    "group": "Cash-flow foundations",
+    "summary": "Separate profit from cash movements and classify the flows behind the cash balance.",
+    "sections": [
+      {
+        "heading": "Cash balance and the indirect operating bridge",
+        "body": "Cash-balance reconciliation\nClosing cash = opening cash + operating + investing + financing cash flows + applicable reconciling effects\nIndirect operating-cash-flow bridge\nNet income + signed noncash adjustments − increase in noncash operating working capital + other required operating reconciliations\nCash flow ratios\nHow your cash is moving?\nEnding cash = Beginning Cash + Cash from Operating Activities + Cash from Investing Activities + Cash from Finance Activities\nInflow or outflow resulting from a company's day-to-day operating activities.Fixed asset and long term assets.Debt / equity raised / paid.\nPresented through direct or indirect method.Direct method easier to understand and difficult to produce.Indirect method easier to produce and challenging to understand.\nOperating Cash Flow (OCF) = Net Income + Depreciation + Amortisation + Other Non-Cash Items - Changes in Working Capital\nA measure of a company's cash inflow and outflow from its primary business activities. A higher OCF indicates that a company has more cash available for its day-to-day operations, investments, and debt repayments."
+      },
+      {
+        "heading": "Net cash movement",
+        "body": "Net activity cash flow\nOperating + investing + financing cash flows\nNet Cash Flow = Operating Cash Flow + Investing Cash Flow + Financing Cash Flow\nThe total amount of cash generated or used by a company from its operating, investing, and financing activities. Positive cash flow indicates that a company is generating more cash than it is using."
+      },
+      {
+        "heading": "Why cash-flow management matters",
+        "body": "Cash Flow\nBenefits of cash flow management\nEnable growth\nFinancial capital projects\nBuild operational resilience\nImprove operational efficiency\nMeet financing obligations\nAvoid covenant breaches\nStrengthen the balance sheet\nImprove profitability\nReduce reliance on outside capital\nReduce cost of capital\nIncrease businss competitiveness\nIncrease employee attraction and retention\nIncrease shareholder value\nMaximise business valuation\nTypes of cash flow"
+      },
+      {
+        "heading": "Common mistakes and cash-flow classifications",
+        "body": "Cash flow mistakes\nNo rolling forecast\nNo short-term working capital line\nInaccessible working capital line\nUnmanaged cash conversion cycle\nFailing to negotiate terms\nInvoicing late\nOverstocking inventory\nManual & paper based collection process\nMisaligning cash flow sources\nIgnoring cash flow quality\nUnder budgeting debt payments\nNo cash flow culture\nNot following up\nMiscalculating covenants\nEarly supplier payments without benefit\nImpropertly using payment discounts\nOperating cash flow\nInflows\nCash received from new sales\nCash received from collections of accounts receivable\nCash received as interest and dividends\nOutflows\nCash paid to suppliers and employee\nCash interest payments made on debt\nCash paid for income taxes\nInvesting cash flow\nInflows\nCash received from the sales of property, plant, and equipment\nCash received from the sales of investments\nCash received from repayments of loans made to others\nOutflows\nCash paid for the purchase of property, plant, and equipment\nCash paid for the purchase of investments\nCash paid out to others as loans\nFinancing cash flow\nInflows\nCash received from issuing new common or preferred stock\nCash received from the issuance of bonds or bank borrowings\nCash received from the sale of treasury stock\nOutflows\nCash paid to repurchase common or preferred stock\nCash paid to repay debt principal\nCash paid out to shareholders as dividends"
+      }
+    ],
+    "sources": [
+      {
+        "title": "NYU Stern: estimating cash flows",
+        "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/dcfcf.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "free-cash-flow",
+    "title": "Free cash flow: distinguish operating, firm and equity cash",
+    "topic": "Finance & Accounting",
+    "group": "Cash-flow foundations",
+    "summary": "Reconcile reinvestment, working capital, interest and net borrowing before choosing a free-cash-flow measure.",
+    "sections": [
+      {
+        "heading": "A common operating-cash-flow less CAPEX measure",
+        "body": "Operating cash flow less capital expenditure\nOperating cash flow − cash CAPEX\nFree Cash Flow (FCF) = Operating Cash Flow - Capital Expenditures\nFree cash flow measures a company's cash flow available for distribution to its investors or for future investments. A positive FCF indicates that a company is generating cash from its operations and co-invest in new projects, pay dividents, or reduce debt."
+      },
+      {
+        "heading": "Unlevered and levered source variants",
+        "body": "Free cash flow to the firm: operating-profit bridge\nEBIT × (1 − tax rate) + noncash operating charges − CAPEX − increase in noncash operating working capital\nFree cash flow to equity: full earnings bridge\nNet income + noncash charges − CAPEX − increase in noncash operating working capital + net borrowing\nUnlevered Free Cash Flow = EBIT (1 - Tax Rate) + Depreciation & Amortization - Capital Expenditures - Changes in Working Capital\nIt represents the cash generated by a company's core operations that is available to all investors, regardless of its capital structure. A higher UFCF indicates that the company is generating more cash from its core operations.\nLevered Free Cash Flow = EBITDA - Taxes - Capital Expenditures - Interest Expense\nThe cash flow available to equity shareholders after deducting interest payments on debt and incorporating any net borrowings. Higher LFCF indicates that the company has strong cash flow available to its equity shareholders even after servicing its debt."
+      },
+      {
+        "heading": "Operating, investing, financing and stakeholder bridges",
+        "body": "Operating cash flow: reconcile working-capital signs\nNet income + signed noncash adjustments − increase in noncash operating working capital + required operating reconciliations\nInvesting cash flow\nCash investing receipts − cash investing payments\nFinancing cash flow\nDebt proceeds − principal repayments + equity proceeds − share repurchases − distributions + other financing flows\nFCFF: operating-cash-flow bridge\nOperating cash flow − cash CAPEX + compatible after-tax interest adjustment\nFCFE: operating-cash-flow bridge\nOperating cash flow − cash CAPEX + net borrowing\nOperating Cash Flow = Net Income + Depreciation and Amortisation + Non-cash Items + Changes in Net Working Capital\nInvesting Cash Flow = Net Capital Expenditures (CAPEX)\nFinancing Cash Flow = Net Debt Process + Net Equity Proceeds\nFree Cash Flow to Firm (FCFF) or Unlevered CF = Operating CF - CAPEX + Interest Expense x (1-tax)\nFree Cash Flow to Equity (FCFE) or Levered CF = Operating CF - CAPEX + Net Debt Proceeds"
+      },
+      {
+        "heading": "Correcting the source’s fixed-asset and equity-cash expressions",
+        "body": "FCFF: correct the fixed-asset shorthand\nOperating cash flow + compatible after-tax interest − cash CAPEX\nFCFE: use changes, not balance totals\nNet income + noncash charges − cash CAPEX − increase in noncash operating working capital + net borrowing\nFree Cash Flow to the Firm = Operating Cash Flow + Interest x (1 - Tax Rate) + Changes in Fixed Assets\nCash generated by a company's core operations available to all stakeholders.\nFree Cash Flow to Equity = Net Income + Depreciation and Amortisation + Accounts Receivables + Accounts Payable + Inventory Balances + Current Assets and Liabilities + CAPEX + Net Borrowing\nCash available to a company's equity shareholders after all expenses, capital expenditures, and debt payments."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NYU Stern: estimating cash flows",
+        "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/dcfcf.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "working-capital-cycle",
+    "title": "Working-capital cycle: DSO, DPO and inventory days",
+    "topic": "Finance & Accounting",
+    "group": "Working capital & liquidity",
+    "summary": "Follow the operating cash cycle and examine collection, payment and inventory choices.",
+    "sections": [
+      {
+        "heading": "The cash-conversion-cycle identity",
+        "body": "Cash conversion cycle\nInventory days + receivable days − payable days\nCash Conversion Cycle (CCC) = Days of Inventory Outstanding + Days of Sales Outstanding - Days of Payables Outstanding\nThe time to converts its inventory and receivables minus the time to pay its supplier. Low CCC means efficient management and has cash available to pay obligations and invest in growth opportunities."
+      },
+      {
+        "heading": "Collection, payment and inventory days",
+        "body": "Receivable days (DSO)\nAverage trade receivables / net credit sales × period days\nPayable days (DPO)\nAverage trade payables / credit purchases × period days\nInventory days (DIO)\nAverage inventory / cost of goods sold × period days\nDay Sales Outstanding (DSP) = Average Accounts Receivables / Net Credit Sales x 365\nHow long, on average, it takes for a company to collect payments from its customers for credit sales. A lower DSO indicates that the company is collecting its receivables more quickly.\nDays Payable Outstanding (DPO) = Average Accounts Payable / Purchases x 365\nHow long, on average, a company takes to pay its suppliers after receiving goods or services on credit. A higher DPO indicates that the company is taking longer to settle its payables, which can positively impact its cash flow and working capital.\nDays Inventory Outstanding (DIO) = Average Inventory / CoGS x 365\nHow long, on average, it takes for a company to sell its inventory. Lower DIO indicates that the company is selling its inventory quickly and efficiently."
+      },
+      {
+        "heading": "Overdues, repeated inventory days and the mislabeled DSO",
+        "body": "Average days delinquent\nDSO − best-possible DSO\nOverdue receivables ratio\nOverdue receivables / total relevant receivables\nInventory days: annual convention\nAverage inventory / annual COGS × 365\nPayable days using a COGS proxy\nAverage trade payables / annual COGS × 365\nAverage Days Delinquent = Days Sales Outstanding (DSO) - Best Possible Days Sales Outstanding (BPDSO)\nMeasures effectiveness of collection efforts. Often used at client level to compare with the others\nOverdues Ratio = Overdues / Total Receivables\nMeasures your effectiveness of collecting cash and the quality of your receivables\nDays of Inventory Outstanding = Average Inventory / Yearly CoGS x 365\nAverage number of days that a company holds inventory for before turning it into sales\nDays Sales Outstanding (DSO) = Average Account Payables / Yearly CoGS X 365\nAverage number of days that it takes a company to pay its suppliers"
+      },
+      {
+        "heading": "Managing and optimizing working capital",
+        "body": "Working Capital\nMaintaining positive working capital\nMonitor your ratios\nRegularly calculate your working capital ratios to spot potential issues early\nManage receivables\nSend invoices promptly and follow up on late payments\nManage payables\nTake full advantage of payment terms and negotiate for better ones\nInventory management\nKeep inventory levels optimised to avoid tying up funds\nNegotiate\nWork with suppliers and customers to improve your working capital position\nUse short-term financing\nUse lines of credit, short-term loans, and other short-term financing options wisely\nPlan ahead\nAs actual data becomes available, update your forecast to maintain accuracy\nOverstocking inventory\nThis ties up capital and can lead to obsolescence\nSlow collection of receivables\nThis delays inflows and can lead to bad debts\nLate payments\nThis can damage supplier relationships and lead to penalties\nOptimising working capital\nEfficiently manage your inventory\nSpeed up collection of receivables\nManage your payables effectively\nConsider the effects of seasonality\nNegotiate better payment terms with suppliers\nHove a contingency plan for unexpected needs\nRegularly analyse your working capital needs\nMonitor your working capital ratios regularly\nUse short-term financing options wisely\nPlan for growth and expansion"
+      },
+      {
+        "heading": "Analysis prompts and current-asset/liability management",
+        "body": "Sharpening working capital analysis\nCalculate and interpret the current ratio\nCalculate and interpret the quick ratio\nCompare the current ratio with the industry average\nAssess the impact of a change in inventory levels on the current ratio\nAnalyse trends in the working capital cycle\nCalculate and interpret the inventory turnover ratio\nCalculate and interpret the receivables turnover ratio\nEvaluate the impact of a change in payment terms on the payables turnover ratio\nAnalyse the implications of a negative working capital position\nEvaluate the sustainability of a company's dividends from its working capital position\nInterpret the cash conversion cycle and its implications\nAnalyse the impact of seasonality on a company's working capital needs\nAssess the potential effects of a major sales contract on working capital needs\nEvaluate the potential effects of a major purchase on working capital\nProject the future working capital needs based on sales and expense forecasts\nEffectively managing curren assets and liabilities\nInventory Management\nKeep enough to meet demand but not so much that it ties up capital\nReceivables Management\nPromptly invoice and follow up on collections\nPayables Management\nTake advantage of credit terms but avoid late payments\nCash Management\nKeep enough for needs but invest excess\nShort-term Financing\nUse for temporary needs but avoid over-reliance\nWorking Capital Forecasting\nAnticipate needs based on soles and expense forecasts\nRatio Analysis\nMonitor ratios like the current ratio and quick ratio\nContingency Planning\nBe ready for unexpected needs or opportunities"
+      },
+      {
+        "heading": "The three cycle components",
+        "body": "Reduce the inventory days and days inventory outstanding (DIO)\nIncrease the accounts payable days and days payable outstanding (DPO)\nReducing the accounts receivable days and days sales outstanding (DSO)"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ACCA: performance appraisal and working-capital ratios",
+        "url": "https://www.accaglobal.com/sg/en/student/exam-support-resources/fundamentals-exams-study-resources/f7/technical-articles/appraisal-questions.html"
+      }
+    ]
+  },
+  {
+    "slug": "cash-flow-coverage",
+    "title": "Cash-flow coverage, margins and liquidity buffers",
+    "topic": "Finance & Accounting",
+    "group": "Working capital & liquidity",
+    "summary": "Interpret operating cash generation against sales, obligations, assets and invested capital.",
+    "sections": [
+      {
+        "heading": "Operating cash flow relative to sales",
+        "body": "Operating cash-flow margin\nOperating cash flow / net sales\nOperating Cash Flow to Sales Ratio = Operating Cash Flow / Net Sales\nMeasures the percentage of each sales dollar that is converted into operating cash flow. A higher ratio indicates that a company is generating more operating cash flow per dollar of sales."
+      },
+      {
+        "heading": "Operating cash flow relative to current liabilities",
+        "body": "OCF to current liabilities\nOperating cash flow / current liabilities\nOperating Cash Flow Ratio = Operating Cash Flow / Current Liabilities\nCash-generating capability relative to its revenue. Higher OCFR suggests that the company is generating a significant amount of cash from its core operations compared to its total revenue."
+      },
+      {
+        "heading": "Cash-flow coverage, asset and investment measures",
+        "body": "Operating-cash-flow liability coverage\nOperating cash flow / current liabilities\nCash-flow return on assets\nOperating cash flow / average total assets\nCash flow to net income\nOperating cash flow / net income\nOperating cash flow per common share\n(Operating cash flow − preferred cash dividends) / weighted-average common shares\nCash flow to investors: unresolved definition\n\nCash available for debt-service coverage\nCash available for debt service / scheduled principal and interest\nSimple FCF return on invested capital\nFree cash flow / invested capital\nOperating Cash Flow to Current Liabilities Ratio = Operating Cash Flow / Current Liabilities\nHigher is generally better because it indicates that the company's operating cash flow is sufficient to cover its short-term obligations, which reflects a healthier financial position and reduced liquidity risk.\nCash Flow Return on Assets (CFROA) = Operating Cash Flow / Average Total Assets\nHigher is better because it indicates that the company is generating more cash flow from its assets, reflecting better operational efficiency and profitability. It shows how effectively the company is utilizing its assets to generate cash flow.\nCash Flow to Net Income = Operating Cash Flow / Net Income\nHigher is generally better because it suggests that the company's reported net income is being supported by strong operating cash flows, which indicates the company's earnings are backed by actual cash generated from its operations rather than just accounting adjustments.\nCash Flow per Share = (Operating Cash Flow - Perferred Dividends) / Weighted Average Number of Common Shares Outstanding\nHigher is generally better as it indicates that each share of the company is generating more cash flow, which can be beneficial for shareholders.\nCash Flow to Investors = Free Cash Flow - Net Debt Issued\nHigher is generally good as it indicates the company is raising more capital or reducing debt through financing activities\nCash Debt Service Coverage Ratio (CDSCR) = Operating Cash Flow / Total Debt Service\nHigher is better as it indicates that the company generates sufficient operating cash flow to cover its total debt service obligations, ensuring better ability to meet debt payments and reducing the risk of default.\nCash Flow Return on Investment (CFROI) = Free Cash Flow / Invested Capital\nHigher is better as it indicates a higher return on the initial investment after considering both operating cash flow generated and capital expenditures, which is a positive indicator of the investment's profitability."
+      },
+      {
+        "heading": "Cash buffers, margins, debt payments and the mislabeled efficiency entry",
+        "body": "Cash reserves in days\nAvailable cash reserves / average daily relevant cash expenses\nOperating cash-flow margin in percent\nOperating cash flow / net sales × 100\nFree-cash-flow margin\nDefined free cash flow / net sales × 100\nCash debt-service coverage: denominator convention\nCash available for debt service / (principal due + interest due)\nSales to working-capital turnover\nNet sales / average defined working capital\nCash Reserves in Days = Cash Reserves / Average Daily Expenses\nMeasures of how long your organisation could survive if cash dried up tomorrow\nCash Flow Margin = (Cash Flow from Operations / Net Sales) x 100\nMeasures your business's cash from operating activities as a percentage of your sale's revenue over a given period\nFree Cash Flow Margin = (Free Cash Flow / Neet Sales) x 100\nProfitability ratio that compares a company's free cash flow to its revenue\nCash Flow Coverage Ratio = Cash Flow from Operations / (Principal + Interest)\nLiquidity formula that shows the relationship between a company's total debt and operating cash flow\nCash Conversion Efficiency (CCE) = Net Sales / Average Working Capital\nA metric that expresses the length of time, in days, that it takes for a company to convert resources into cash flows"
+      }
+    ],
+    "sources": [
+      {
+        "title": "NYU Stern: estimating cash flows",
+        "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/dcfcf.pdf"
+      },
+      {
+        "title": "OpenStax: financial statement analysis",
+        "url": "https://openstax.org/books/principles-financial-accounting/pages/a-financial-statement-analysis"
+      }
+    ]
+  },
+  {
+    "slug": "cash-burn-runway",
+    "title": "Cash burn and runway: signs, periods and survival estimates",
+    "topic": "Finance & Accounting",
+    "group": "Working capital & liquidity",
+    "summary": "Distinguish signed cash flow, positive net burn and a constant-burn runway estimate.",
+    "sections": [
+      {
+        "heading": "The source’s signed operating-plus-investing cash flow",
+        "body": "Operating-plus-investing net cash flow\nOperating cash flow + investing cash flow\nCash Burn = Cash from Operating Activities + Cash from Investing Activities\nMeasures the amount of cash consumed without accounting for activities related to financing (equity / debt). A higher cash burn measn the company is consuming more money outside of activities related to financing."
+      },
+      {
+        "heading": "Net cash consumption per month",
+        "body": "Monthly net cash burn\nIncluded monthly cash outflows − included monthly cash inflows\nCash Burn Rate = Cash Spent (monthly average) - Cash Received (monthly average)\nNet Cash spent by a company in a specific time frame (usually monthly or normalised to a year)"
+      },
+      {
+        "heading": "Net burn and the runway estimate",
+        "body": "Net cash burn\nIncluded cash outflows − included cash inflows\nConstant-burn runway\nAvailable cash / positive net burn per period\nNet Burn Rate = Cash Spent - Cash Received\nNet Cash spent by a company in a specific time frame (usually monthly or normalised to a year)\nRunway = Current Cash Balance / Burn Rate\nTime that a startup has before they run out of finance"
+      },
+      {
+        "heading": "Revenue annualization and the cash-out-date shorthand",
+        "body": "Revenue run-rate annualization\nLatest monthly revenue × 12\nForecast cash-depletion date\nFirst forecast date when the cash balance reaches the stated depletion threshold\nRevenue Run Rate = The months revenue * 12\nAn annualised version of your revenue\nCash Out Date = This month + Runway\nDate in which you run out of cash"
+      }
+    ],
+    "sources": [
+      {
+        "title": "NYU Stern: estimating cash flows",
+        "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/dcfcf.pdf"
+      },
+      {
+        "title": "InsightGinie: Cash runway tool",
+        "url": "https://insightginie.com/tools/cash-runway/"
+      }
+    ]
+  },
+  {
+    "slug": "cash-flow-drivers",
+    "title": "Cash-flow drivers: revenue, margin and capital efficiency",
+    "topic": "Finance & Accounting",
+    "group": "Cash-flow foundations",
+    "summary": "Connect commercial and operational decisions with cash generation and capital tied up in the business.",
+    "sections": [
+      {
+        "heading": "The cash-flow management loop",
+        "body": "Managing cash flow\nUnderstand your operation cash inflows and outflows\nCalculate the cash conversion cycle (CCC)\nOptimise each of the 3 components of the CCC\nFinance the CCC with appropriate sources of capital\nMonitor and repeat"
+      },
+      {
+        "heading": "Revenue, operating margin and capital-efficiency drivers",
+        "body": "Cash flow driver\nRevenue growth\nVolume\nNew client acquisition\nRenewals\nInbound referrals\nNew products & services\nNet promoter score\nPrice\nIncrease pricing\nBundle price\nValue pricing\nPremium pricing\nProduct mix\nOperating margin\nCoGS\nSupplier discount\nSupply chain automation\nReverse logistics\nJust in time ordering\nWaste management\nSG&A\nSales and marketing\nPayroll\nOverhead automation\nCentralised shipping\nStreamlined processes\nCapital efficiency\nPP&E\nFixed asset utilisation\nProprietary technology\nTechnology upgrades\nLeasing vs. owning\nRepair & maintenance\nWorking capital\nOverstocks\nInventory management\nAccounts payable\nAccounts receivable\nDeferred & accruals"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "sector-working-capital",
+    "title": "Working capital across sectors: layouts and study examples",
+    "topic": "Finance & Accounting",
+    "group": "Working capital & liquidity",
+    "summary": "Compare how different business models tie up cash in stock, receivables, payables and advances.",
+    "sections": [
+      {
+        "heading": "Working-capital components by sector",
+        "body": "Working capital layouts for various businesses\nManufacturing\nInventories, receivables, and payables\nServices\nReceviables and payables\nRetail\nInventories and payables\nIT\nReceivables, payables, and short-term investments\nBanking\nShort-term loans and deposits\nConstruction\nReceivables, payables, and advances from customers\nAgriculture\nInventory (crops, livestock), receivables, and payables\nHealthcare\nReceivables, payables, and medical supplies inventory\nReal estate\nAdvances from customers, payables, and short-term debt"
+      },
+      {
+        "heading": "Named company illustrations",
+        "body": "Cash flow management in various sectors\nManufacturing\nToyota's just in-time inventory system reduces inventory costs\nRetail\nWalmart's efficient supply chain management minimises inventory levels\nServices\nAccenture's timely invoicing and follow—ups ensure fast receivable collection\nIT\nApple's management of its cosh pile and short~term investments\nBanking\nWells Fargo's management of short~term loans and deposits\nConstruction\nTurner Construction‘s management of advances from customers and payments to suppliers\nAgriculture\nArcher Daniels Midlands management of crop inventories and payments to farmers\nHealthcare\nKaiser Permanente’s management of medical supplies inventory and payments to suppliers\nReal Estate\nDLF's management of advances from customers and payments to contractors\nPharmaceuticals\nPfizer's management of drug inventories and payments to suppliers\nLogistics\nFedEx's management of receivables and payables\nTelecommunications\nAT&T'S management of receivables and payables\nFood Service\nMcDonald’s efficient inventory management and quick turnover"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "capital-project-cash-flows",
+    "title": "Capital-project cash flows: investment, operations and exit",
+    "topic": "Finance & Accounting",
+    "group": "Valuation foundations",
+    "summary": "Identify incremental investment, operating cash flows, working-capital movements and disposal effects.",
+    "sections": [
+      {
+        "heading": "The project cash-flow building blocks",
+        "body": "CAPEX cash flow\nInitial investment\nCapital expenditures CAPEX\nOpportunity costs\nTax effects\nAfter-tax operating cash flow\nIncremental revenues\nIncremental fixed costs\nIncremental variable costs\nTax effects\nWorking capital\nIncrease in working capital\nReduction of working capital at end of project\nSalvages values\nNet proceeds from sale or disposal of assets\nTax effects"
+      }
+    ],
+    "sources": [
+      {
+        "title": "NYU Stern: estimating cash flows",
+        "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/dcfcf.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "discounted-cash-flow",
+    "title": "DCF: cash-flow forecasts, discount rates and terminal value",
+    "topic": "Finance & Accounting",
+    "group": "Valuation foundations",
+    "summary": "Build a transparent valuation scenario with matched cash flows, discount rates and a terminal assumption.",
+    "sections": [
+      {
+        "heading": "Present/future value, DCF and the constant-cash-flow payback shortcut",
+        "body": "Discounted cash-flow sum\nΣ CFₜ / (1 + r)ᵗ\nPresent value of a single cash flow\nCF / (1 + r)ⁿ\nFuture value of a single amount\nPV × (1 + r)ⁿ\nLevel-cash-flow payback shortcut\nInitial investment / annual positive net cash inflow\nDiscounted Cash Flow = CF1 / (1 + r)^1 + CF2 / (1 + r)^2 + ... + CFn / (1 + r)^n\nValuing an investment or a company by discounting its expected future cash flows to their present value. High DCF indicates the company is expected to generate more cash in the future.\nPresent Value = CF / (1 + r)^n\nIt measures the current value of a future cash flo, given a discount rate. A higher PV indicates that the future cash flow is more valuable today.\nFuture Value = PV * (1 + r)^n\nFV measures the value of a current cash flow at a future point in time, given on interest rate. A higher FV indicates that the current cash flow will be worth more in the future.\nPayback Period = Initial Investment / Annual Cash Flow\nThe payback period measures the amount of time it takes for an investment to generate enough cash flows."
+      },
+      {
+        "heading": "A perpetual-growth terminal value",
+        "body": "Perpetual-growth terminal value\nNext-period sustainable cash flow / (discount rate − long-run growth rate)\nTerminal Value (TV) = (Free Cash Flow * (1 + Long-term Growth Rate)) / (Discount Rate - Long-term Growth Rate)\nAnalysis to estimate the value of a business or an investment beyond the explicit forecast period."
+      },
+      {
+        "heading": "The valuation workflow and the source’s cost-of-equity expression",
+        "body": "CAPM cost of equity\nRisk-free rate + equity beta × (expected market return − risk-free rate)\nDiscounted Cash Flow (DCF)\nDCF is used to estimate the intrinsic value of an investment or business by discounting future cash flows to their present value. It helps determine whether an investment opportunity is undervalued or overvalued.\nDCF Usage\nHistorical financial analysis\nThe discount rate is the minimum rate of return acceptable to the investor. The absolute value of the discount rate depends on the definition of the discount rate. Namely, for cash flow after debt servicing, a simple discount rate is used, while for cash flow before debt servicing, a weighted average cost of capital (WACC) is used.\nCAPEX and NEC forecast\nForecasting capital expenditures (capex) is an important part of the valuation modelling process, as it allows businesses to plan for and manage their investment in long-term assets.\nDiscount rate determination\nThe cost of equity is the expected rate of return that shareholders require to invest in a company’s common equity. In other words, it is the return that investors expect to receive on their investment in the form of dividends and capital gains. When conducting a valuation, the cost of equity is an important factor to consider as it reflects the investors' perception of risk associated with the company's future earnings. A higher risk perception means a higher cost of equity, and vice versa.\nDiscount Rate = risk free rate + investment beta (market rate - risk free rate)\nIncome statement forecast\nProjects of revenue, COGS, OPEX, salaries, amortisation, depreciation, interest, etc.\nDefine period and forecasting Cash Flow\nLong-term growth rate\nTerminal value calculation\nFinal adjustment and sensitivity"
+      },
+      {
+        "heading": "Forecast revenue, costs, investment and depreciation",
+        "body": "Discount Cash Flow\nRevenue forecast\nIdentify key driver\nGather data\nAnalyse trends\nDevelop assumptions\nCreate a forecast\nCoGS forecast\nIdentify the components of CoGS\nCollect data on historical CoGS\nMost important metric is % CoGS in revenue\nAnalyse trends\nDevelop assumptions\nOpex forecast\nUse historical share in total revenues\nAdjusted for some assumptions\nDepreciation forecast\nStart by identifying the asswets that will be depreciated\nDetermine useful life\nChoose a depreciation method\nCalculate depreciation expense"
+      },
+      {
+        "heading": "Strengths, limitations and sensitivity",
+        "body": "DCF strength and weakness\nStrength\nTakes earning potential into account.\nFlexible method that can be tailored to different types of assets or businesses.\nFuture orientated.\nEnables sensitivity analysis by allowing the modification of assumptions.\nProvides a quantitative basis for comparing different investment opportunities.\nWeakness\nDCF heavily depends on accurate and reliable projections.\nSubjectivity of these assumptions can introduce biases and uncertainty.\nA slight change in projected cash flows or discount rates can result in significant variations in the estimated present value.\nDifficulty in Determining the Discount Rate."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NYU Stern: estimating cash flows",
+        "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/dcfcf.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "cost-of-capital-returns",
+    "title": "Cost of capital, ROIC and economic profit",
+    "topic": "Finance & Accounting",
+    "group": "Valuation foundations",
+    "summary": "Separate financing cost from the return generated by the capital committed to operations.",
+    "sections": [
+      {
+        "heading": "Economic value added, WACC and return on invested capital",
+        "body": "Economic profit / EVA-style measure\nAfter-tax operating profit − (compatible cost of capital × invested capital)\nTwo-source WACC\n(E / (D + E)) × rE + (D / (D + E)) × rD × (1 − tax rate)\nReturn on invested capital\nAfter-tax operating profit / average defined operating invested capital\nEconomic Value Added (EVA) = EBIT (1 - tax) - ((long term debt + equity) x WACC)\nMeasures a company's profit that exceeds its cost of capital.\nWeighted Average Cost of Capital (WACC) = (E/V x Re) + ((D/V x Rd) x (1 - tax rate))\nCalculates the average cost of financing a company's operations.\nReturn on Invested Capital (RoIC) = EBIT (1 - tax) / (long term debt + equity - cash)\nHow efficiently the company uses its capital to generate returns for its investors."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NYU Stern: estimating cash flows",
+        "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/dcfcf.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "market-valuation-measures",
+    "title": "Market valuation measures: equity value, enterprise value and multiples",
+    "topic": "Finance & Accounting",
+    "group": "Transactions & market value",
+    "summary": "Distinguish a company’s equity value, enterprise value and per-share valuation measures.",
+    "sections": [
+      {
+        "heading": "Equity value, market-to-book and simplified enterprise value",
+        "body": "Market value of equity\nShares outstanding × market price per share\nMarket-to-book equity\nMarket capitalisation / book equity\nSimplified enterprise value\nEquity market value + debt − cash\nMarket Value of Equity = Shares Outstanding x Market Price per Share\nTotal value of ownership in the company held by its shareholders\nMarket-to-Book Ratio = Market Capitalisation / Book value of Equity\nA company's stock is trading above or below its accounting value per share\nEnterprise Value = Market value of equity + Debt - Cash\nThe total value of a company"
+      },
+      {
+        "heading": "Price-to-book",
+        "body": "Price-to-book\nMarket price per share / book equity per corresponding share\nPrice-to-book ratio = Market Price per Share ​/ Book Value per Share\nCompare a firm’s market to book value."
+      },
+      {
+        "heading": "Price-to-earnings",
+        "body": "Price-to-earnings\nMarket price per share / compatible earnings per share\nPrice-to-Earnings (P/E) Ratio = Market Price Perer Share / EPS\nThe relationship between a company's stock price and its earnings per share."
+      }
+    ],
+    "sources": [
+      {
+        "title": "OpenStax: financial statement analysis",
+        "url": "https://openstax.org/books/principles-financial-accounting/pages/a-financial-statement-analysis"
+      },
+      {
+        "title": "NYU Stern: estimating cash flows",
+        "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/dcfcf.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "purchase-price-allocation",
+    "title": "Purchase-price allocation: identifiable net assets and goodwill",
+    "topic": "Finance & Accounting",
+    "group": "Transactions & market value",
+    "summary": "Follow purchase consideration, fair-value analysis, identifiable intangibles and residual goodwill.",
+    "sections": [
+      {
+        "heading": "Definitions, deferred-tax context and the allocation process",
+        "body": "Simplified purchase-price allocation bridge\nPurchase price = fair value of identifiable net assets + goodwill\nPurchase Price Allocation (PPA) Terms\nPurchase Price = Net Book Value + Fair Market Value Adjustments + Goodwill\nGoodwill\nGoodwill is an intangible asset that represents the excess of the purchase price of a company or business over the fair value of its identifiable net assets\nIdentifiable Intangible Assets\nThese are intangible assets that can be separately identified and valued. Examples include trademarks, patents, customer relationships, and technology\nAssembled workforce\nIntangible asset associated with the skilled and experienced employees that the acquiring company gains as part of the business combination\nExcess prices\nThe difference between purchase price and net book value of acquired company\nFair Market Value (FMV)\nFair Value represents the estimated market value of an asset or liability. In PPA, the fair value of acquired assets and assumed liabilities is determined to allocate the purchase price\nWeighted Average Return on Assets (WARA)\nRepresents the weighted (ate of tetum earned by the portfolio of acquired assets including intangible assets such as brand, customer relationships, and goodwill\nDeferred tax\nDeferred tax liabilities are created when the tax basis of the acquired assets or liabilities is lower than their fair value for financial reporting purposes. This results in lower future tax deductions or higher taxable income. leading to higher tax payments in the future. Deferred tax assets. on the other hand. arise when the tax basis exceeds the fair value, creating future tax benefits\nPPA Process"
+      }
+    ],
+    "sources": [
+      {
+        "title": "IFRS Foundation: IFRS 3 Business Combinations",
+        "url": "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-3-business-combinations/"
+      },
+      {
+        "title": "IFRS Foundation: IAS 38 Intangible Assets",
+        "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-38-intangible-assets/"
+      }
+    ]
+  },
+  {
+    "slug": "finance-functions-roles",
+    "title": "Finance functions and roles: treasury, control, FP&A and investment",
+    "topic": "Finance & Accounting",
+    "group": "Roles & development",
+    "summary": "Understand the purpose of finance functions and the responsibilities illustrated in the organization chart.",
+    "sections": [
+      {
+        "heading": "Finance scope and decision support",
+        "body": "Financial\nScope: managing and allocating financial resources for business with financial model, forecast and investment appraisal techniques\nFocus: create value through strategic capital allocation\nTimeframe: long-term financial health and growth of business\nRegulations: capital structure, investments, and risk management\nWork type: Strategic, forward-looking, analytical, decision-making-focused\nAreas: Investment banking, private equity, venture capital, corporate strategy, treasury, risk management\nKnowledge area\nFinancial analysis\nBudgeting and forecasting\nBreak-even analysis\nCost-volue-profit analysis\nCapital budgeting\nWorking capital management\nFinancial ratio analysis\nPerformance management\nRisk management\nCash flow analysis\nPerformance metrics\nBusiness/asset valuation"
+      },
+      {
+        "heading": "Controllership, treasury, FP&A and strategic finance",
+        "body": "Controllership: reporting, controls, compliance, accounting\nFinancial reporting & compliance\nInternal controls\nAudit management\nTax management\nCost accounting\nPayroll & benefit\nAccounts payable and receivable\nFinancial information systems\nTreasury: cash, risk, debt & capital management\nCash management\nRisk management\nDebt management\nForieng exchange management\nFinancial convant compliance\nInvestments\nBanking relationships\nCapital structure manaegment\nFP&A: budget, forecasting, variance, planning\nBudgeting and forecasting\nStrategic decision support\nScenario planning\nPerformance management\nFinancial analysis\nProfitability\nBusiness planning\nCapital budgeting\nStrategic finance\nMergers & acquisitions\nInvestor relations\nInvestment analysis\nStrategic planning"
+      },
+      {
+        "heading": "FP&A, analysis, risk and compliance roles",
+        "body": "FP&A / Controlling\nFinancial planning & analysis manager\nManages FP&A tem and report to management\nFP&A analyst\nAnalyses financial data to support business decisions\nReporting analyst\nDevelops and produces reports on a company's performance\nBusiness intelligence analyst\nAnalyses data and develops insights to support business decisions\nData analyst\nCollects, cleans, and analyses data to support business decisions\nCommercial controller\nAnalyses and manages a company's sales and marketing activities\nProject controller\nAnalyses and manages the financial aspects of a project\nCost estimator\nCalculates the cost of producting a product or service\nRisk management and compliance\nInternal auditor\nEnsures a company's financial and operational processes are efficient and effective\nFinancial compliance officer\nEnsures a company complies with financial regulations\nRisk manager\nIdentifies and mitigates potential financial risks for organisations\nInternal control manager\nEnsures a company's compliance with internal control procedures\nActuary\nAnalyses financial risk using statistics and modeling techniques\nCredit analyst\nEvaluates creditworthiness of clients or companies"
+      },
+      {
+        "heading": "Investment, accounting and finance roles",
+        "body": "Investment management\nMergers and acquisitions (M&A) analyst\nAnalyses potential acquisitions or mergers for a company\nInvestor relations manager\nCommunicates with investors & analysts about a company's financial performance\nPortfolio manager\nManages a portfolio of investments for an organisation\nFinancial analyst\nAnalyses securities and provides reporting\nFinance and accounting\nChief financial officer (CFO)\nDeveloping & implementing financial strategies & policies, overseeing financial functions\nFinancial controller\nOversees accounting and financial reporting for a company\nTreasurer\nManages a company's cash flow and investments\nAccountant\nPrepares and maintains financial records for individuals and organisations\nTax manager\nManages a company's tax compliance and strategy\nPayroll specialist\nCalculates and processes employee payroll\nAccounts receivable accountant\nProcessing incoming payments from customers\nAccount payable accountant\nProcess invoices and deals with suppliers\nInventory accountant\nManages a company's inventory and cost of goods sold"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "fpa-business-partnering",
+    "title": "FP&A: planning, forecasting and business partnership",
+    "topic": "Finance & Accounting",
+    "group": "Planning & reporting",
+    "summary": "Connect budgets, forecasts, management reports and commercial decisions through a finance-partnering role.",
+    "sections": [
+      {
+        "heading": "Responsibilities, reporting terms and projection types",
+        "body": "FP&A Reporting\nFP&A teams act as a bridge between business teams and leadership\nPlanning & budgeting\nFP&A teams work with different departments to prepare budgets. Once they collect all the information they work on consolidating into one overall company budget\nForecasting and modelling\nCreatin, updating, and maintaining financial models & detailed forecasts in a spreadsheet a budgeting tool\nManagement reporting\nPreparing and analysing internal reports for senior management to support their decision-making\nFinance business partnership\nThe mindset is of a finance business partner (keeping a business first approach)\nCommon FP&A terms\nThe top line\nThis is either revenues, cash, bookings or sales\nThe bottom line\nThis is usually the net income after all expenses\nYoY comparisions\nDifference between two values of the same measure (e.g. revenue this year versus last year)\nBudget vs. outlook / FCST\nBudget is set at the beginning of year, outlook changes all the time. This compares outlook against budget\nExpense vs. expenditure\nAn expense occurs when as asset is used for its economic purpose, and expenditure occurs when the payment / cash flows out.\nRolling forecast\nKey skills in FP&A presentation\nUnderstand the data\nCommunicating the story\nCuriosity in exploring the data\nTypes of financnial projections\nBudget\nBlueprint for company to do business in the next FY\nAnnual operating plan (AOP)\nBroader than budget + practical outline of the company's targets and key activties\nForecast or outlook\nLatest estimates of a company's future financial outcomes. It shows if the company is reaching its budget or not\nLong range projections\nEvaluates business decisions like acquisitions, strategic plans & alternatives. Has a longer-term horzon of 2 to 7 years\nCapital investment decisions\nDecisions like investing in new equipment, launching a new product, lease vs. buy, produce in-house vs. outsource etc."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "budgeting-methods",
+    "title": "Budgets: operating plans, methods and the master-budget flow",
+    "topic": "Finance & Accounting",
+    "group": "Planning & reporting",
+    "summary": "Compare budgeting approaches and trace operating assumptions into financial budgets and statements.",
+    "sections": [
+      {
+        "heading": "The operating and financial master-budget diagram",
+        "body": "The visual connects sales and production assumptions to materials, labour, overhead, operating cash and the financial budget. It is a planning map, not a populated company budget.\nMaster Budget"
+      },
+      {
+        "heading": "Budget approaches and source claims about the process",
+        "body": "Budget approach\nIncremental budgeting\nWe pick last year's budget & add or subtract a percentage\nZero based budgeting\nBroader than the budget and provides a practical outline of the company's targets and key activities\nActivity based budgeting\nThe budget inputs finalised the deisred output or results\nValue proposition based\nEnsures everything in the budget creates + deliver value\nRolling forecast\nNew period is added to replace the previous one as it expires\nTops down budgeting\nTop management takes decisions without participation from middle management\nBottoms up budgeting\nManagers recommand their targets. Input start from operational level and moves top. It is participative\nIneffective technology\nMore than 60% companies use Excel as their budgeting software. Excel is user friendly but not best tool for budgets\nLong cycle times\nAverage cycle time for preparing a budget is around 3 months. Slow to detect problems & doesn't add lot of value\nGaming behaviour\nThe traditional budgeting process incentivies gaming instead of \"stretch behaviour\""
+      }
+    ],
+    "sources": [
+      {
+        "title": "ACCA: approaches to budgeting",
+        "url": "https://www.accaglobal.com/gb/en/student/exam-support-resources/fundamentals-exams-study-resources/f5/technical-articles/budgeting1.html"
+      }
+    ]
+  },
+  {
+    "slug": "financial-data-controls",
+    "title": "Financial reporting data: accuracy, integrity and controls",
+    "topic": "Finance & Accounting",
+    "group": "Reporting quality & analysis",
+    "summary": "Build a reliable reporting process through definitions, reconciliation, documented controls and clear ownership.",
+    "sections": [
+      {
+        "heading": "Data quality, governance and a reporting framework",
+        "body": "Requirements of financial reporting\nAccurate and reliable data\nDate governance framework\nStandardised data entry\nData validation and verification\nRegular data reconciliation\nData quality control\nData security measures\nStaff training and awareness\nRegular data audits\nStandards and regulations\nStay updated\nUnderstand requirements\nEstablish internal controls\nStandardise reporting practices\nQuality assurance reviews\nEngage external experts\nTraining and development\nMonitoring and compliance audits\nStandardised reporting framework\nIdentify reporting objectives\nDetermine reporting requirements\nDefine reporting elements\nDevelop reporting templates\nEstablish data collection processes\nImplement approval procedures\nCommunicate and train\nContinuous improvement and evaluation"
+      },
+      {
+        "heading": "Technology, integration and automation",
+        "body": "Technology and automation\nAsses current processes\nDefine objectives\nIdentify suitable tools\nIntegrate system\nAutomate data collection\nUtilise data analytics\nAdopt visualisation tools\nContinuous improvement"
+      },
+      {
+        "heading": "Accuracy, timeliness, compliance and audit readiness",
+        "body": "Improve financial reporting\nReporting accuracy\nData governance\nDedicated resources\nStreamline processes\nReporting standards\nClear documentation\nStrong controls\nReporting timeliness\nClear deadlines\nReporting milestones\nTemplates and tools\nReal-time monitoring\nData integration\nPost-reporting reviews\nCompliance with standards\nStaying informed\nTraining and education\nInternal controls\nPeriodic reviews\nExternal expertise\nContinunous monitoring\nAudit opinion\nInternal controls\nStrong record-keeping\nProactive communication\nStay updated on standards\nInternal audit and reviews\nUse experienced auditiors"
+      },
+      {
+        "heading": "Data integrity, disclosures and standards review",
+        "body": "Data integrity\nRobust data governance\nEnhance data validation\nStrengthen data security\nRegular data audits\nAutomate data capture\nTraining and awareness\nTransparent disclosures\nClear and complete disclosures\nFollow accounting standards\nMeaningful footnotes\nDisclose KPIs\nEnhance risk disclosures\nEngage external assurance\nAdherence to reporting standards\nStay updated with standards\nRobust policies and procedures\nInternal review processes\nExternal experts\nPerform self-assessment\nTraining and education"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "financial-report-storytelling",
+    "title": "Financial reporting: tell a clear, decision-focused story",
+    "topic": "Finance & Accounting",
+    "group": "Reporting quality & analysis",
+    "summary": "Use context, comparisons and well-chosen visuals to help readers understand financial performance.",
+    "sections": [
+      {
+        "heading": "Clarity, analysis, visual presentation and disclosures",
+        "body": "Clear and concise language\nUnderstand the audience\nSimplify technical jargon\nUse clear and precise technology\nOrganise information effectively\nAvoid redundancy\nWrite in active voice\nProvide actionable insights\nSeek feedback and review\nFinancial analysis\nDefine analysis objectives\nGather relevant data\nSelect appropriate analysis tools\nAnalyse trends and patterns\nPerform ratio analysis\nConduct comperative analysis\nProvide actionable insights\nCommunicate analysis effective\nUtilise data visualisation tools\nEstalish clear objectives\nFoster open communication\nUnderstand department needs\nCollaborate in planning process\nShare insights & analysis\nSeek cross functional input\nProvide training & support\nParticiate in operational reviews\nReporting timeliness\nDefine reporting objectives\nIdentify relevant data\nSelect visualisation tools\nDetermine visualisation types\nDesign engaging visuals\nEnsure data accuracy and integrity\nOptimise interactivity\nTest and iterate\nTransparent disclosures\nUnderstand regulatory requirements\nIdentify key disclosures\nUse plain languages\nProvide sufficient context\nInclude supporting information\nOrganise disclosures effectively\nUse visual adis\nSeek independent reviews"
+      },
+      {
+        "heading": "Stakeholder-focused reporting",
+        "body": "Customer centric reporting\nIdentify stakeholder needs\nTailer reporting formats\nPrioritise key information\nProvide context and analysis\nUse visual and interactive elements\nIncorporate non-financial information\nFoster two way communication\nRegulary review reporting"
+      },
+      {
+        "heading": "Report design and finance-partnering skills",
+        "body": "Quality reporting\nOne page report\nThe main report has to fit on 1 page. Too many details can divert the focus and attention\nDecisoion focused\nThe results for each line item should suggest a decision or an action. Ideally include a recommendation/suggested action\nIntuitive to understand\nDesign in a way so important information jumps right out\nConsistent look & feel\nConsistent appearance makes reports much easier to read\nSimple language\nAvoid using accounting jargons like trueups, one timers etc.\nFrequency\nShort enough + allow time for taking decisions between updates\nAccuracy\nShould tie back to the accounting system\nQualities to possess\nAttention to detail + big picture\nTo produce accurate reports, spot trends and inconsistencies. At the same time be able to connect the various dots\nOwnership and accountability\nBe answerable and take ownership for what you work\nEffective questioning skills\nAsking right questions, at right time, listening objectively to various viewpoints, considering the information gathered\nBusiness acumen\nUnderstand the business model, organisational goals, objectives and strategy\nData into insights\nTurning complex data into actionable insights, brining numbers to life, making report useful, insteresting and valuable.\nCommunication & presentation\nRegularly make presentations on financial and operational performance to senior management\nData storytelling\nInstead of sharing a lot of numbers and data tables building a compelling story instead around the business performance\nCollaboration & teamwork\nWork closely with cross functional teams on various initiatives\nLeadership\nFP&A is not just numbers crunching. Emotional, intelligence, the ability to influence and empathy are equally important\nBuilding relationships\nBuilding rapport, the ability to deal with conflicts and being able to influence decision making"
+      },
+      {
+        "heading": "Ways to investigate data",
+        "body": "Effective ways to analyse data\nDrill up/drill down\nMove into further detail from the parent to child and child to parent relationships to uncover root causes of anomalies\nSlice and dice\nPivot the dimensions of the data on-the-fly\nSegmentation\nGrouping data with common attributes like customer segmentation (small business, enterprise, government)\nData visualisation\nGraphical representations of the data across multiple dimensions and variables\nDriver based relationships\nDependency relationships (when one thing happens or changes, another thing happens or changes)\nBenchmarking\nComparing results with internal benchmarks or external benchmarks (those produce by peers in your industry)\nSeasonality\nComparing results adjusted for selling seasons of the business (e.g. retail in december, hospitality in summer etc.)\nTrend analysis\nShowing whether results are improving or not over time and compared to related measures that may be improving or not\nProfitability\nProduct profitability, channel profitability, customer profitabiltiy, segment profitability, breanch profitability, etc.\nOutliers\nDeviations from the norm or anomalies"
+      },
+      {
+        "heading": "User needs and interpretation",
+        "body": "User satisfaction\nUnderstand user needs\nCustomised reporting\nClearity and accessibility\nContextual insights\nVisual communication\nSeek feedback and iteration"
+      },
+      {
+        "heading": "Understanding, uncertainty and stakeholder feedback",
+        "body": "Ease of understanding\nUse plan language\nContext and explanations\nVisual aids\nHighlight key takeaways\nOffer interpretive analysis\nUse technology for interactivity\nStakeholder feedback\nUnderstand stakeholder needs\nEnhance transparency and clarity\nTimely and accurate information\nSeek feedback\nOffer interpretation\nFoster open communication"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "management-reporting-cycles",
+    "title": "Management reports: month-end, outlook, QBR and decision support",
+    "topic": "Finance & Accounting",
+    "group": "Planning & reporting",
+    "summary": "Distinguish recurring reporting packs from forecasts, flash reports and one-off decision analysis.",
+    "sections": [
+      {
+        "heading": "The supplied reporting formats and their purposes",
+        "body": "Management reports\nMonth end reporting\nLatest month actuals compared against budget & forecast with variance analysis, commentary & recommendation\nQuarterly business reviews (QBR)\nTop management examines progress metrics, identifies adjustments based on previous quarters' performance\nOperating budget (plan) deck\nPrepared in advance of a reporting period as a goal or plan that the business expects to achieve in the next financial year\nLatest estimate/outlook deck\nThe latest forecast is updated and compared against previous comments are made on what changed from previous\nFlash reporting\nPeriodic snaphot of key financial and operational data\nRisks & opportunities assessment\nIn this report all the risks and opportunities are listed along with the probability of its occurence\nHeadcount reporting\nEmployee data presented in many ways. Example, permanent, fixed-term or temporary, job titles & positions, etc.\nSales pipeline analysis\nRevenue is forecasted on the basis of the deal stage and probability of conversion and is usually tracked with CRM tool\nAdhoc reporting\nThese are one-time reports that helps the senior management to answer critical business questions immediately\nBalanced scorecards\nBuilding rapport, the ability to deal with conflicts and being able to influence decision making\nKPI or OKR reviews\nKPI: set of quantifiable measurementsused to guage a company's overall performance. OKR: a goal-setting framework for defining & tracking objectives and their outcome\nInvestor presentations\nThese presentations are prepared for the earnings call"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "financial-forecasting",
+    "title": "Financial forecasts: choose a model and manage uncertainty",
+    "topic": "Finance & Accounting",
+    "group": "Forecasting & practice",
+    "summary": "Compare forecasting approaches and build a review loop around data, assumptions, validation and scenarios.",
+    "sections": [
+      {
+        "heading": "Model types and the forecasting workflow",
+        "body": "Forecasting models\nForecast calaculation\nUse forecasting models and techniques to calaculate the projected sales figures based on the analysed data\nData collection\nGather relevant sales data, including historical sales figures, market research and other relevant information\nAnalysis\nAnalyse the collected data to identify patterns, trends, and factors that influence sales\nReview and refinement\nContinuously review the forecasted results, gather feedback, and refine the forecast based on new information or changes in the business environment\nTime series models\nUse past data tends to forecast future ones\nRegression analysis\nPredict one variable based on the behaviour of another\nMoving average models\nUses the average of past periods for forecasts\nExponential smoothing\nA time series method that gives more weight to recent data\nARIMA\nStatistical analysis model uses time series data to understand the data or forecast future trends\nEconometric modelling\nIncorporates economic theory and statistical inference to forecast future outcomes\nMonte Carlo simulations\nInvolves simulating a range of possible outcomes and probabilities\nFinancial statement\nA bottom-up approach that involves forecasting revenues, costs, and capital structure\nSales and revenue\nThis is specific to predicting future sales revenue"
+      },
+      {
+        "heading": "Scope, data, assumptions and model limits",
+        "body": "Creating reliable financial forecast\nDefine the Scope of Your Forecast\nDecide on the time period and the level of detail required.\nPrepare Initial Forecasts\nUse your chosen model to prepare initial forecasts.\nReview and Refine Your Forecasts\nRefine your forecasts based on feedback and more data.\nAnalyse and Understand Trends\nLook for patterns, trends, and seasonality in your data.\nCollect Relevant Data\nInclude historical financial data, industry trends, and economic indicators.\nDon't just rely on software\nWhile forecasting software is helpful, also use your judgement and understanding of the business.\nAdjust Based on Other Information\nConsider other relevant information such as upcoming market changes or new products.\nChoose a Suitable Forecasting Model\nThis depends on the type of data and your business context.\nImplement Your Forecasts\nUse your forecasts for budgeting, financial planning, and strategic decision-making.\nMonitor and Update Your Forecasts\nRegularly compare actual results with forecasts to improve accuracy over time.\nUse a consistent approach\nThis allows you to compare forecasts for different projects or periods.\nUnderstand Model Limitations\nKnow the strengths and weaknesses of the model you're using.\nInclude Confidence Intervals\nShow a range of possible outcomes. not just a single figure.\nUpdate Regularly\nKeep forecasts up to date with new data.\nUtilise Multiple Models\nGain insights from different models for increased accuracy."
+      },
+      {
+        "heading": "Validation, bias, outliers and scenario review",
+        "body": "Validate with Actual Results\nCompare forecasts to real outcomes for validation.\nConsider External Factors\nInclude market trends and economic indicators in your forecasts.\nUse Expert Judgment\nCombine models with expert insights for more accurate forecasts.\nBeware of Overfitting\nOverfitting happens when your model is too complex and captures noise rather than the trend.\nHandle Outliers Carefully\nOutliers can distort your forecast. Identify them and understand their cause.\nCheck for Bias\nBias can make your forecasts consistently over or under-estimote. Regularly review your forecasts versus actual outcomes to detect any bias.\nConsider a range of scenarios\nDon't just forecast the most likely scenario, but also consider best-case and worst-case scenarios.\nUse both quantitative and qualitative information\nWhile hard data is crucial, don‘t Ignore soft information like expert opinions and market news.\nlnvolve different parts of the business\nGet input from finance, sales, marketing, etc,. to make your forecasts more comprehensive.\nDon't ignore uncertainty\nInclude a range of possible outcomes in your forecasts.\nUse Reliable Data\nQuality data is key to accurate forecasts.\nRegularly update your forecasts\nAs new information becomes available, update your forecasts.\nReview Assumptions and Inputs\nEnsure your assumptions are realistic and inputs are accurate."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "forecasting-practice",
+    "title": "Forecasting practice: questions and industry applications",
+    "topic": "Finance & Accounting",
+    "group": "Forecasting & practice",
+    "summary": "Use the supplied exercises to choose data, assumptions and a method for a real forecasting question.",
+    "sections": [
+      {
+        "heading": "The source’s forecasting exercises",
+        "body": "Exercises to sharpen financial forecasting skills\nPractice forecasting revenue of a retail store based on post sales data\nForecast next year's expenses for a specific company\nPractice using different models to forecast stock prices\nPredict the impact of a price change on demand for a product\nForecast the soles of a new product based on market research data\nEstimate a company's future net Income based on historical growth rates\nUse a company’s financial statements to forecast its future balance sheet\nPractice forecasting cash flows for a project to calculate its Net Present Value (NPV)\nConduct a scenario analysis to see how different outcomes impact a project's profitability\nForecast a country's GDP based on historical trends and expected policy changes\nUse regression analysis to forecast soles based on advertising spend\nEstimate future property prices in a city based on post trends\nForecast a company's bankruptcy risk based on financial ratios\nPredict future unemployment rates based on economic indicators\nUse Monte Carlo simulations to forecast the possible outcomes of on investment"
+      },
+      {
+        "heading": "Applications across industries",
+        "body": "Forecasting usage based on various industries\nTech companies\nForecasting sales for new products\nRetail\nPredicting seasonal demand\nManufacturing\nForecasting production needs\nFinance\nPredicting future stock prices\nHealthcare\nProject future healthcare costs\nEnergy\nPredicting future energy demand\nReal estate\nForecasting property price trends\nGovernment\nEstimating tax revenues\nNon-profit\nPredicting fundraising revenue\nAgriculture\nForecasting crop yields based on weather patterns\nTelecom\nProject customer churn rates\nEducation\nForecasting tuition revenue and expenses\nConstruction\nForecasting project costs and copletion times\nTravel & Tourism\nPredicting tourist arrivals based on seasons, events, etc."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "understanding-ebit",
+    "title": "EBIT: interpret earnings and investigate operational drivers",
+    "topic": "Finance & Accounting",
+    "group": "Earnings & their limitations",
+    "summary": "Examine EBIT trends, operating levers, business-unit comparisons and classification pitfalls.",
+    "sections": [
+      {
+        "heading": "Operating-profit levers and trade-offs",
+        "body": "EBIT\nSteps to Improving Your EBIT\nIncrease pricing: Raise prices to boost revenues.\nDecrease direct costs: Reduce COGS and labor costs.\nOptimize overhead: Analyze expenses to cut costs.\nExpand sales channels: Reach new markets for growth.\nImprove productivity: Increase efficiency for cost savings.\nDecrease waste: Minimize physical and operational waste.\nNegotiate with suppliers: Secure lower costs.\nUtilize technology: Automate tasks for savings.\nOptimize product mix: Focus on high-margin items.\nImprove financial management: Enhance budgeting, forecasting, and cash management.\nWays to Increase Your Operating Profit\nTry new marketing strategies, explore new markets, or introduce new products.\nStreamline your production processes or find cheaper suppliers.\nRegularly review your business Operations to find inefficiencies.\nConsider whether a small price increase would be acceptable to your customers.\nKeep only what's necessary in inventory to reduce storage costs.\nRegularly review overhead costs and look for opportunities to cut back.\nSell more of the products that yield higher profit margins.\nReducing the number of links in your supply chain can reduce costs.\nImplementing technology solutions can lead to greater efficiency and lower costs.\nYou may be able to get cheaper prices for your direct costs, thereby increasing your EBIT."
+      },
+      {
+        "heading": "Analysis prompts and common errors",
+        "body": "Prompts for Understanding EBIT In Your Business\nCompare EBIT to Revenue: What is the percentage or EBIT to your revenue? Is this percentage increasing or decreasing over time?\nCompare EBIT to COGS: How does EBIT compare to the cost of goods sold (COGS)? Is the ratio increasing or decreasing?\nEBIT Margin; Calculate your EBIT margin (EBIT divided by revenue)- How does this figure compare to industry benchmarks?\nYear-on-year EBIT: Compare your EBIT on a year-on~year basis. Is it growing staying steady. or decreasing?\nEBIT per Employee? How much EBIT does each employee generate? Is this figure increasing or decreasing?\nEBIT by Product Line: Calculate EBIT for each product or service line. Which are the most and least profitable?\nEBIT by Business Unit: Does your business have multiple units or departments, calculate the EBIT for each Which units are driving profitability?\nForecasting EBIT: Forecast EBIT for the next quarter. year, and three years. How do these projections compare to your strategic goals?\nEBIT Sensitivity Analysis: Conduct a sensitivity analysis tor am. How do changes in sales volume, price. or costs affect EBIT?\nCompare EBIT to Operating Cash Flow: How does EBIT compare to operating cash flow? Significant differences might indicate issues with working capital management.\nEBIT and Capital Expendim: How does EBIT compare to your capital expenditure? High capital expenditure with low EBIT may indicate a need for efficiency improvements.\nEBIT and Interest Expense: If you have significant debt, compare EBIT to your interest expense. Can your operational earnings cover interest payments?\nEBIT and taxation: How does EBIT compareto your tax expense? This can provide insight into your effective tax rate.\nEBIT and Dividends: Can your EBIT cover your dividend payments? If not, you might need to reevaluate your dividend policy.\nEBIT and Investment: Compare EBIT to your investment income. This can show you how much of your profitability is driven by operations versus investments.\nEBIT and Non-Operating Expenses: How does EBIT compare to hon-oparoting expenses? High non-operating expenses can distort your operational profitability.\nEBIT and Depreciation: How does EBIT compare to depreciation? This can indicate whether your assets are generating sufficient profits.\nEBIT and Amortisation If you have significant intangible assets, compare EBIT to amortisation this can help access the profitability at those assets.\nStrategies to Avond Common EBIT Errors\nRegularly update financial data: Outdated or incorrect data can lead to wrong EBIT calculations.\nUnderstand the difference between operating and non-operating expenses: Oniy operating expenses should be subtracted In the EB\" calculation.\nProper Classification of expenses: Be careful not to misclassify Indirect expenses as direct expenses.\nInclude all Income: Not just income from the main business activities. but also other relevant income sources\nDon't mix up EBIT with EBITDA: EBITDA add back Depreciation and Amortisation to EBIT, they're not the same.\nProfessional financial advice: Consulting with a finance professional can help ensure the accuracy of\nyour EBIT calculation."
+      },
+      {
+        "heading": "Expanded source levers and sector applications",
+        "body": "Steps to Improving Your EBIT\nIncrease pricing: If your market will bear it, consider increasing your prices to raise revenues.\nDecrease direct costs: Look for ways to reduce the cost of goods sold (CoGS) and direct labour costs.\nOptimise overhead: Analyse your operating eXpenses to identify areas where costs can be reduced.\nExpand sales channels: Reach new markets or demographics to boost your sales volume.\nImprove productivity: Greater efficiency can lead to reduced costs and increased output.\nDecrease waste: This includes both physical waste in products and operational waste in time and resources.\nNegotiate with suppliers: You may be able to get lower prices on your direct costs.\nUtilise technology: Automating manual tasks can lead to significant cost savings.\nOptimise your product mix: Focus on selling higher-margin products or services.\nImprove financial management: Use budgeting, forecasting, and cash management to improve your bottom line.\nExamples of EBIT usage in various industries\nManufacturing: EBIT used to analyse operational efficiency over time.\nRetail: EBIT evaluates store profitability with GoGS and operating expenses.\nHealthcare: EBIT assesses department or service profitability.\nTechnology: EBIT shows operational profitability without tax and interest.\nFood and Beverage: EBIT compares profitability of locations or product lines, development processes, and efficiency.\nReal estate: EBIT analyses property profitability with operating costs.\nAutomotive: EBIT meaasures model or branch profitability.\nTransportation and logistics: EBIT assesses route or fleet profitability.\nConstruction: EBIT determines project profitability.\nEnergy: EBIT gauges profitability of extraction sites or energy methods.\nTelecommunications: EBIT evaluates service or plan profitability.\nBanking: EBIT analyses branch or service operational efficiency.\nEducation: EBIT compares profitability of programs or schools.\nAgriculture: EBIT determines profitability of crops or livestock.\nPharmaceuticals: EBIT assesses drug or research project profitability."
+      },
+      {
+        "heading": "Forecast uncertainty and input review",
+        "body": "Don't ignore uncertainty\nInclude a range of possible outcomes in your forecasts.\nUse Reliable Data\nQuality data is key to accurate forecasts.\nRegularly update your forecasts\nAs new information becomes available, update your forecasts.\nReview Assumptions and Inputs\nEnsure your assumptions are realistic and inputs are accurate."
+      }
+    ],
+    "sources": [
+      {
+        "title": "SEC: non-GAAP financial measures",
+        "url": "https://www.sec.gov/rules-regulations/staff-guidance/corporation-finance-interpretations/non-gaap-financial-measures"
+      }
+    ]
+  },
+  {
+    "slug": "understanding-ebitda",
+    "title": "EBITDA: calculate, reconcile and understand the limits",
+    "topic": "Finance & Accounting",
+    "group": "Earnings & their limitations",
+    "summary": "Distinguish EBITDA from EBIT, adjusted EBITDA and actual cash generation.",
+    "sections": [
+      {
+        "heading": "The EBITDA-margin measure",
+        "body": "EBITDA margin\nDefined EBITDA / matching revenue\nEBITDA\nKPIs\nEBITDA Margin = EBITDA / Revenue\n% of revenue that's left over as EBITDA."
+      },
+      {
+        "heading": "Adjusted EBITDA is a separate measure",
+        "body": "Adjusted EBITDA reconciliation\nEBITDA + separately identified signed adjustments\nEBITDA alternatives\nAdjusted EBITDA = Net Income + Interest + Taxes + Depreciation/Amortisation + Adjustments\nMeasures a company's operating performance by adding back certain non-operating expenses and one-time items."
+      },
+      {
+        "heading": "Uses, operating levers and comparison limits",
+        "body": "Ways to Boost Your EBITDA Margins\nIncrease pricing of your products/services.\nLower direct costs through efficient procurement and operations.\nStreamline operations to reduce overheads.\nImprove product mix to focus on high margin items.\nImplement cost controls across the organisation.\nInvest in technology to increase operational efficiency.\nOptimise working capital management.\nEnhance sales efforts and marketing efficiency.\nReduce unnecessary expenses in areas not central to your business.\nRegularly review and adjust strategies based on EBITDA margin analysis.\nTips for Leveraging EBITDA in Financial Decision-Making\nUse EBITDA as one of many tools in financiaL analysis, not as the sole indicator.\nUnderstand that EBITDA does not represent cash flow.\nBe aware of the limitations of EBITDA and the situations where it can be misleading.\nUse EBITDA in conjunction with other metrics like net income, cash flow, and free cash flow.\nUse EBITDA to quickly compare profitability across companies and industries.\nBe cautious while comparing EBITDA of companies with different capital structures or tax environments.\nRegularly calculate and review EBITDA trends for your company.\nIncorporate EBITDA in your financial models and projections.\nAnalyse factors driving changes in EBITDA to inform strategic decisions.\nUse EBITDA to assess the profitability of potential investment or M&A targets.\nConsider EBITDA in the context of your company's operational performance and strategic objectives."
+      },
+      {
+        "heading": "Correct the double-add-back calculation sequence",
+        "body": "EBITDA bridge: complete the split source line\nNet income + interest expense + income tax expense + depreciation + amortisation\nSteps to accurately calculating your EBITDA\nGather your income statement.\nIdentify your revenue total.\nSubtroot Cost of Goods Sold (COGS) from your revenue.\nSubtract Operating Expenses (Excluding Depreciation and Amortisation)\nfrom the result.\nThis gives you Operating Income.\nAdd book Depreciation and Amortisation to Operating Income.\nThis gives you EBITDA.\nCross-verify with the formula: EBITDA = Net Income + Interest + Taxes +\nDepreciation + Amortisation.\nReview all entries for any accounting errors.\nCheck the consistency of your Depreciation and Amortisation methods.\nRecalculate if necessary.\nAnalyse EBITDA trends over the past quarters/years.\nUnderstand the factors driving changes in EBITDA.\nUse EBITDA to compare with industry peers.\nIncorporate EBITA in your financial planning and decision-making."
+      },
+      {
+        "heading": "Strengths and weaknesses in the source",
+        "body": "EBITDA strength and weakness\nStrength\nRelatively easy to calculate using information from a company's income statement and can be a simplified way to evaluate financial performance.\nIt can be a useful metric for comparing the performance of companies across industries and geographies, as it removes the impact of different tax rates, capital financing and capital structures in the comparison.\nIt can be used to evaluate a company's ability to generate cash flow from its operations, but only for companies with low CAPEX and slow growth.\nIt helps to identify trends in a company's operating performance over time, assuming a consistent formula is used across periods.\nIt helps exclude the impact of financing, capital investments and tax planning decisions from a company's operating performance.\nIt is often used as a valuation metric in mergers and acquisitions and can be useful as a benchmark for determining the value of a company.\nWeakness\nNot a standardised GAAP metric which allows for wide variation in how it is calculated.\nIts use cases often imply that all income converts equally to cash, which is not accurate in practice.\nDoes not consider the required capital reinvestment.\nDoes not consider cash absorbed into working capital assets.\nCould imply loan repayments will be made in priority which may not happen.\nDoesn't reflect the quality of earnings which can lead to potential overstatement.\nPoor measure of profitability due to differing accounting standards around the world.\nCan't really compare acquisition multiples as it lacks industry specifics.\nCan be misleading as it ignores real cash outflows like interest and taxes.\nCan be manipulated through numerous accounting policies."
+      }
+    ],
+    "sources": [
+      {
+        "title": "SEC: non-GAAP financial measures",
+        "url": "https://www.sec.gov/rules-regulations/staff-guidance/corporation-finance-interpretations/non-gaap-financial-measures"
+      }
+    ]
+  },
+  {
+    "slug": "ebitda-adjustments-practice",
+    "title": "EBITDA adjustments, applications and study exercises",
+    "topic": "Finance & Accounting",
+    "group": "Earnings & their limitations",
+    "summary": "Examine candidate adjustments, valuation/covenant uses and the source’s practice questions.",
+    "sections": [
+      {
+        "heading": "Exercises and error checks",
+        "body": "Exercises to sharpen your EBITDA evaluation skills\nCalculate EBITDA from the given income statement.\nInterpret changes in EBITDA over a certain period.\nCompare the EBITDA of different companies in some industries.\nUnderstand the impact of different accounting practices on EBITDA.\nCalculate EBITDA margin and interpret its meaning.\nAnalyse the effect of a change in revenue on EBITDA.\nUnderstand the impact of operating expenses on EBITDA.\nAnalyse the effect of depreciation and amortisation on EBITDA.\nUnderstand the limitations of EBITDA in evaluating financial performance.\nCompare EBITDA to cash flow from operations.\nAssess how EBITDA can be used in valuation models.\nExamine how EBITDA can be used in credit risk assessment.\nIdentify situations where EBITDA may be misleading.\nExamine the role of EBITDA in management incentives and compensation.\nCalculate Debt / EBITDA and EBlTDA / interest ratios.\nCompare the use of EBITDA in different sectors.\nAnalyse the effect of one~time income or expenses on EBITDA.\nRecalculate EBITDA after adjusting for one-time items.\nStrategies to avoid common EBITDA calculation errors\nEnsure correct inclusion and exclusion of income and expense items.\nUse consistent methods for calculating depreciation and amortisation.\nCross-verify using different EBITDA formulas.\nRegularly review and update your Income statement.\nBe careful with one-time expenses or income. they may distort EBITDA.\nAvoid comparing EBITDA across companies with different accounting practices."
+      },
+      {
+        "heading": "Candidate adjustments requiring scrutiny",
+        "body": "EBITDA adjustments\nNon-operating income\nExpenses outside operating business\nUnrealised revenue or expenses\nOne-time revenue or expenses\nForeign exchange gains or losses\nGoodwill impairment\nAsset write downs\nProvisions and reserves\nExccess owner compensation\nPersonal expenses\nPersonal travel and entertainment\nOwner pension expenses\nSeverance costs\nNon-recurring professional fees\nImproperly expensed / capitalize items\nBelow market compensation\nFair market rent\nTax management strategies\nAggressive percentage of completion revenues"
+      },
+      {
+        "heading": "Applications, compensation, covenants and capital allocation",
+        "body": "Real-world examples of EBITDA analysis\nComparison of EBITDA margins across companies in the same industry.\nTracking EBITDA margin trend over multiple quarters.\nEBITDA used in the valuation of companies during M&A deals.\nM&A: EBITDA x specific multipleLeveraged Buy-out: Funded Debt / EBITDA\nEBITDA adjustments during a financial audit.\nEBITDA used as a measure in covenant calculations in loan agreements.\nLoan sizing and appetite based on healthy EBITDA solvency and liquidity ratios.\nDiscrepancies between EBITDA and Operating Cash Flow in financial analysis.\nEBITDA in assessing the financial health of distressed companies.\nUse of EBITDA in credit rating assessments.\nEBITDA used in calculating debt/EBITDA ratio, a leverage indicator.\nEBITDA vs. Cash Flow from operations in internal reporting.\nProxy for cash flow in low CAPEX & slow growth organisation.\nEBITDA in benchmarking against industry peers.\nEV/EBITDA\nEBITDA used in management performance evaluations.\nBenchmarking: EBITDA by company/industry.Trend analysis: EBITDA / periodsPerformance targets: EBITDA minimum thresholds\nUsing EBITDA to evaluate profitability independent of tax environment and capital structure.\nEBITDA serving as a proxy for Cash Flow in investment analysis.\nProfitability: EBITDA / RevenueTrend analysis: EBITDA / periodsBenchmarking: EBITDA by company/industry\nRole of EBITDA in budgeting and forecasting exercises.\nProfitability: EBITDA / RevenueSecnario planning: EBITDA trendsCovenant: EBITDA liquidityFinancial health: EBITDA solvency\nExecutive compensation.\nPerformance targets: EBITDA minimum thresholdsBonus targets: EBITDA tiersStrategic targets: multi-year EBITDA\nConvenant compliance.\nSolvency: Funded debt / EBITDALiquidity: EBITDA / (Principal + Interest)Profitability: EBITDA / Revenue\nCapital allication.\nPrioritise financing for divisions or segments with highest EBITDA."
+      }
+    ],
+    "sources": [
+      {
+        "title": "SEC: non-GAAP financial measures",
+        "url": "https://www.sec.gov/rules-regulations/staff-guidance/corporation-finance-interpretations/non-gaap-financial-measures"
+      }
+    ]
+  },
+  {
+    "slug": "subscription-revenue",
+    "title": "Subscription revenue: MRR, ARR, bookings and cash",
+    "topic": "Finance & Accounting",
+    "group": "Commercial & subscription metrics",
+    "summary": "Define recurring revenue and explain the movements from an opening subscription base to the closing base.",
+    "sections": [
+      {
+        "heading": "Recurring-revenue definitions, costs and forecast shortcuts",
+        "body": "Annual recurring revenue\nNormalized eligible MRR × 12\nMRR movement bridge\nOpening MRR + new MRR + expansion MRR − churned MRR − contraction MRR\nSales-capacity forecast shortcut\n\nAd-spend forecast shortcut\n\nPartner-referral driver\nActive partners × referrals per active partner per month\nAnnual Recurring Revenue (ARR)\nARR is used to measure the predictable and recurring revenue generated from customers on an annual basis.\nARRt = Total Monthly Recurring Revenue * 12\nMRR is Monthly Recurring Revenue\nMRR = Openring MRR + New bookings (new customers) - Churn (lost bookings from existing customers) + Expansion bookings (increased monthly contract value from existing customers) - Contraction booking (decreased monthly contract value from existing customers)\nBenefit of ARR (SaaS)\nWhy investors love SaaS\nHigh margins\nSaaS companies often times have margins well above 90%\nPredictability\nSaaS often leads to recurring income, which can lead to strong predictable revenue\nLow churn\nBecause of its recurring nature, SaaS companies often times experience low churn, especially if customers are subscriber to annual plans\nCommon costs with SaaS\nCost of Goods Sold\nWeb servers and hosting, customer support\nOPEX\nResearch & development, sales & marketing, customer success\nCommon ways to forecast SaaS revenue\nVia sales rep - sales reps x a ramp up period x net quota = new sales\nVia digital ad spend - ad spend x conversion rate = new sales\nVia partnerships - net partners x monthly refarrles per partner = new sales\nThis to be careful of with SaaS\nSaaS takes a very heavy upfront investment in R&D\nSaaS can be very competitive\nSaaS can require a large amount of customer support\nSet up fees & implementation fees, and customer pilots are not a part of recurring revenue\nTech development is not part of cost of goods sold"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Stripe: monthly and annual recurring revenue",
+        "url": "https://support.stripe.com/questions/understanding-monthly-recurring-revenue-%28mrr%29-and-annual-recurring-revenue-%28arr%29?locale=en-GB"
+      }
+    ]
+  },
+  {
+    "slug": "arr-growth-practice",
+    "title": "ARR growth: retention, pricing, practice and source tool names",
+    "topic": "Finance & Accounting",
+    "group": "Commercial & subscription metrics",
+    "summary": "Connect subscription growth levers with monitoring, exercise prompts and the names recorded in the source.",
+    "sections": [
+      {
+        "heading": "Growth actions and a review cadence",
+        "body": "Steps to increasing your ARR\nDefine your target market and customer persona.\nDevelop a pricing strategy that matches your market value.\nOffer annual contracts.\nUpsell and Cross-Sell: Maximise the value of existing customers.\nInvest in customer success to reduce churn.\nImplement a referral program.\nImprove your sales process and reduce sales cycles.\nSeek partnerships to broaden your customer base.\nLeverage content marketing to educate and attract potential customers.\nRegularly review and adjust your ARR growth strategy.\nPricing Optimization: Regularly review and adjust pricing based on value provided.\nImprove Product: Continuously update and enhance your product based on customer feedback.\nIncrease Market Reach: Expand into new markets to reach a wider customer base.\nincentivize Annual Subscriptions: Offer discounts for annual payment to encourage higher ARR.\nCustomer Retention: Enhance customer service and success to retain existing customers.\nIncrease Lead Conversion: Optimise your sales process to convert more leads into paying customers.\nPartnership and Affiliates: Collaborate with other businesses to access new customer segments.\nPrevent Churn: Invest in customer success and support to maintain customer satisfaction.\nCombat Downgrades: Regularly review customer usage and engage before they consider downgrading.\nReduce Payment Failures: Use an efficient payment system to reduce payment failures and involuntary churn.\nKeeping your ARR on track\nRegular Reporting: Keep an eye on ARR and other related metrics regularly.\nAlert System: Set up alerts for churn or downgrade.\nCustomer Feedback: Regularly collect and review customer feedback.\nPricing Review: Regularly check if your pricing is in line with the market.\nBenchmarking: Compare your ARR with competitors.\nMarket Research: Stay updated with market trends that might affect your ARR.\nContinuous Learning: Stay informed about best practices and new strategies In ARR growth."
+      },
+      {
+        "heading": "Named source examples",
+        "body": "Examples of successful ARR strategies\nSlack\nZoom\nSalesforce\nAtlassian\nHupspot\nShopify\nAdobe\nNetflix\nAmazon Prime\nMicrosoft Office 365\nDropbox\nZoho\nServiceNow"
+      },
+      {
+        "heading": "ARR practice prompts",
+        "body": "Exercises to improve your ARR growth\nConduct a SWOT analysis\nRole-play upselling/cross-selling scenarios\n\"What if\" scenarios\nCustomer retention exercises\nProduct enhancement brainstorms\nMarket segmentation study\nCompetitor analysis\nSales demos\nFinancial forecasting\nProduct/market fit analysis\nCustomer feedback review\nContract review exercises\nChurn prediction exercises\nLead conversion workshops\nPartnership evaluation"
+      },
+      {
+        "heading": "The source’s tracking-tool list",
+        "body": "ARR tracking tools\nChartMogul: Comprehensive subscription analytics platform.\nBaremetrics: ReaI-time subscriber analytics and insights.\nSaaSOptics: Financial management for SaaS businesses.\nProfitWell: Subscription revenue optimization platform.\nPaddle: Revenue delivery and subscription management.\nZoho Subscriptions: Simplified recurring billing and tracking\nChargebee: Flexible subscription management and billing.\nRecurly: automation for subscription billing and revenue management\nFusebill: Subscription billing and revenue analytics platform."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Stripe: monthly and annual recurring revenue",
+        "url": "https://support.stripe.com/questions/understanding-monthly-recurring-revenue-%28mrr%29-and-annual-recurring-revenue-%28arr%29?locale=en-GB"
+      }
+    ]
+  },
+  {
+    "slug": "accounts-payable-controls",
+    "title": "Accounts payable controls: responsibilities, checks and risks",
+    "topic": "Finance & Accounting",
+    "group": "Controls & audit readiness",
+    "summary": "Compare payment, vendor, coding, matching and reconciliation controls in a structured matrix.",
+    "sections": [
+      {
+        "heading": "Control Overview",
+        "body": "Accounts Payable\nControl Overview\nControl\nRisk Mitigated\nSegregation of Duties\nSegregation of Duties (SOD) is a fundamental internal control principle that involves dividing key tasks and responsibilities among multiple individuals or departments.\nAuthorization - The approval or permission to perform a transaction. Recording— The documentation and recording of transactions. Custody- The physical control or handling of assets.\nSOD ensures that no single individual has end-to-end control over a critical financial process, minimizing the potential for misuse or errors.\nPreparer - Checker Control\nThe Preparer-Checker Control is an internal control designed to enhance accuracy and reliability in financial processes. The two individuals involved in a transaction are the \"preparer\" and the \"checker.\"\nThe preparer initiates the transaction or prepares the documentation while the Checker independently reviews and verifies the accuracy of the work performed by the preparer.\nThis control is particularly effective in mitigating errors, preventing fraud, and ensuring that financial transactions meet the organization's standards.\nPayment Authorisation\nEstablish a clear hierarchy for authorizing payments. Different individuals should be responsible for approving invoices and authorizing payments, with higher amounts requiring additional levels of approval.\nAuthorization— The person approving the payment should not have access to recording invoices. Recording— The person recording invoices and payments should not be authorized to approve payments.\nMitigating the risk of one individual being able to record and release payments without any checks and balances.\nVendor Verification and Approval\nVendor verification and approval are integral components of the accounts payable process, ensuring that organizations engage with legitimate and reputable suppliers.\nThe preparer initiates the vendor onboarding process, ensuring that all submitted vendor information is verified for accuracy and legitimacy. The approver independently reviews the vendor information\nThis control mechanism involves a systematic approach to validating vendors' identity, authenticity, and reliability before establishing business relationships or processing transactions.\nThree-way Matching\nMatching invoices with corresponding purchase orders and receiving reports (three-way match) is a critical step to ensure that the organization is billed accurately for goods or services received.\nMatch Purchase Order, Goods Receipt Note and invoice to ensure the accuracy of goods and services, quantity, unit and total price match across all three documents.\nThree-way matching ensures accurate billing and prevents unauthorized or duplicate payments.\nAccurate Coding and Classification of Expenses\nThis control ensures that each transaction is correctly identified, categorized, and recorded in the organization's accounting system.\nThe preparer codes and classifies expenses. The checker/approver reviews the coding as part of the approval process.\nImplement controls to ensure that invoices are accurately coded and classified according to proper GL accounts, cost centers, or projects, facilitating accurate financial reporting and analysis.\nInvoice and Payment Reconciliation\nInvoice and payment reconciliation are critical internal controls. It involves comparing and verifying invoices with corresponding payments to ensure accuracy, completeness, and adherence to financial policies.\nAP staff is often responsible for initiating the reconciliation process. A supervisor reviews the reconciliation conducted by the AP staff member. This adds an additional layer of verification.\nReconciliation ensures that the amounts on invoices match the actual payments made. This accuracy is fundamental for reliable financial reporting. It also helps prevent fraud and errors.\nDuplicate Payment Prevention Control\nDuplicate payments occur when the same invoice is paid more than once, leading to financial discrepancies. A Duplicate Payment Prevention control is essential for maintaining financial accuracy and preventing fraud.\nImplement controls within the accounting system that can detect and flag potential duplicates as invoices are entered into the system, preventing erroneous payments before they occur.\nPreventing duplicate payments ensures that financial records accurately reflect the accurate liabilities and expenses. It helps avoid payments otherwise being erroneously disbursed.\nAP Sub-Ledger and General Ledger Reconciliation\nThe reconciliation between the Accounts Payable (AP) sub-ledger and the General Ledger is a critical internal control mechanism that ensures accuracy and consistency in financial reporting.\nConduct regular reconciliations between the AP sub-Ledger and the General Ledger. It should be done at least monthly. This includes verifying that the amounts, accounts, and transaction dates align.\nBy reconciling the AP sub-Ledger with the General Ledger, the organization can identify and correct any data entry errors, ensuring the accuracy and integrity issues between the sub-ledger and the general ledger."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "finance-red-flags",
+    "title": "Finance red flags and gaps in the source’s audit-tool material",
+    "topic": "Finance & Accounting",
+    "group": "Controls & audit readiness",
+    "summary": "Use warning signs to frame follow-up questions and distinguish missing material from available guidance.",
+    "sections": [
+      {
+        "heading": "Financial and organizational warning signs",
+        "body": "Red flags\nUnusual transactions\nHigh employee turnover\nInadequate segregation of duties\nUnsual patters in financial ratios\nExcessive use of manual journal entries\nFrequent changes in auditors or legal consel\nOverreliance on a single customer or supplier\nOvertstated assets or understated liabilities\nReluctance to provide information\nPersistent negative cash flow\nHigh debt levels\nInconsistent revenue recognition\nDeclining market share\nInadequate documentation\nIneffective internal controls\nPoor corporate governance\nConflicts of interest\nAggressive accounting practices\nInaccurate or delayed financial reporting\nUnexplained budget vs. actual variances"
+      },
+      {
+        "heading": "Unavailable auditing-software material",
+        "body": "The upload contains seven identical unavailable-download placeholders under Auditing Software. The underlying items are not embedded or recoverable in this archive. Their original locations remain mapped; no product descriptions or links have been invented.\nAuditing Software\n[This type of content is unavailable for download at the moment.]\n[This type of content is unavailable for download at the moment.]\n[This type of content is unavailable for download at the moment.]\n[This type of content is unavailable for download at the moment.]\n[This type of content is unavailable for download at the moment.]\n[This type of content is unavailable for download at the moment.]\n[This type of content is unavailable for download at the moment.]"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "transfer-pricing-comparability",
+    "title": "Transfer pricing: comparability, documentation and the review cycle",
+    "topic": "Finance & Accounting",
+    "group": "Transfer pricing",
+    "summary": "Connect functional analysis, comparability and documentation before selecting a pricing method.",
+    "sections": [
+      {
+        "heading": "Lifecycle, risk indicators and comparability factors",
+        "body": "Transfer Pricing\nTP lifecycle\nOECD standards\nOECD risk indicators\nSignificant transactions with low tax jurisdiction\nTransfers of intangibles to related parties\nSignificant variations in the effective tax rate\nSpecific types of payments\nPoor/Non-existent documention\nBusiness restructurings\nLoss making\nPoor results\nExcess debt\nOECD comparability factors\nCharacteristics of Property and Services\nPhysical features, quality, and reliability of goods/services\nEconomic Circumstances\nBroader market conditions, like geographic location, market: size, competition purchasing power. etc.\nContractual Terms\nHow write or verbal contracts or agreements influence the transaction conditions (like payment terms, warranties, etc.)\nBusiness Strategies\nLong-term commercial strategies such as made: penetration, innovation diversification\nFunctional Analysis\nFunctions, risks assumed, and assets used."
+      },
+      {
+        "heading": "The source’s local-file documentation checklist",
+        "body": "OECD local file requirements\nManagement structure and business strategy. highlighting recent slgnificant changes.\nOverview of comparable transactions and related financial indicators.\nSummary of comparability and functional analysis, noting year-to-year changes.\nSummary of intra-group payments/receipts per transaction type and tax jurisdiction.\nList of associated enterprises in transactions.\nCopies of significant intercompany agreements.\nBrief overview of controlled transactions.\nIdentified transfer pricing method with justification.\nIdentification of tested party and reasoning.\nSummary of key assumptions in methodology.\nJustification for multi-year analysis. if relevant.\nList of key competitors.\nSummary of comparability adjustments made.\nJustification for arm‘s length pricing of transactions.\nSummary of financial data used in methodology.\nCopies of relevant APAs and other tax rulings.\nAnnual financial accounts of the local entity.\nSchedules linking financial data with annual financial statements.\nSummary schedules of financial data for comparables."
+      }
+    ],
+    "sources": [
+      {
+        "title": "OECD Transfer Pricing Guidelines 2022",
+        "url": "https://www.oecd.org/en/publications/2022/01/oecd-transfer-pricing-guidelines-for-multinational-enterprises-and-tax-administrations-2022_57104b3a.html"
+      }
+    ]
+  },
+  {
+    "slug": "transfer-pricing-methods",
+    "title": "Transfer-pricing methods, indicators and adjustments",
+    "topic": "Finance & Accounting",
+    "group": "Transfer pricing",
+    "summary": "Distinguish transaction methods, profit methods, profit-level indicators and adjustment types.",
+    "sections": [
+      {
+        "heading": "Source profit-level indicator formulas",
+        "body": "Transfer-pricing operating net margin\nRelevant operating net profit / relevant sales\nNet cost-plus / return on total costs\nRelevant operating net profit / relevant operating cost base\nBerry ratio\nRelevant gross profit / relevant operating expenses\nOperating Net Margin = Operating Net Profit / Revenue\nApplied to limited risk distributors\nReturn on Total Costs (Full Cost Mark-up or Net Cost Plus) = Operating Net Profit / Total Costs\nApplied to contract and low-risk manufacturers, service providersm procureres\nBerry Ratio = Gross Profit / Operating Expense\nApplied to distributors, procurers, and intermediaries"
+      },
+      {
+        "heading": "Methods, adjustments and indicator labels",
+        "body": "Methods\nComparable Uncontrolled Price (CUP) method\nCompares the price charged in a controlled transaction to the price charged in a comparable uncontrolled transaction. Useful for commodity transactions. financial transactions. and transactions with very reliable internal comparables\nResale Price Method (RPM)\nAssesses the gross margin with which a product purchased in the controlled transaction was resold in the uncontrolled transaction. Most appropriate for sales. marketing. and distribution transactions where internal compomics are available.\nCost Plus Method (CPM)\nTest the gross markup on costs incurred by an enterprise during transactions with related parties. Suitable for manufacturing and service provision transactions where internal comparables are available.\nTransactional Net Margin Method (TNMM)\nTests the net (operating) profit earned by a tested party of a controlled transaction. Often applied when a tested party can be identified no internal comparables are available and traditional methods are not reliable. TNMM is versatile and flexible and typically relies on external comparabies.\nTransactional Profit Split Method (PSM)\nSplits the profits to arrive at the result that would be achieved by independent parties in comparable transactions. Used for transactions where both parties make unique and valuable contributions (such as intangibles), and/or traditional methods are not appropriate due to the high integration of business operations.\nAdjustments in transfer pricing\nComparability Adjustments\nChanges that make the characteristics of uncontrolled transactions more comparable, enabling their use in transfer pricing method applications.\nYear-End Adjustments\nChanges that taxpayers can make at year-end to bring the results of their transactions Into the arm’s length range.\nPrimary Adjustments\nAdjustments to a company's taxable profits made by a tax administration due to the application of the arm's length principle.These adjustments may lead to double taxation issues.\nCorresponding Adjustments\nChanges to the tax liability of a related party mode by the second tax jurisdiction corresponding to a primary adjustment. These adjustments are intended to resolve double taxation.\nSecondary Adjustments\nConstructive transactions introduced after a primary adjustment to align actual profit allocation with the primary adjustment. Can take the form of constructive dividends, equity contributions, or loans.\nProfit level indicators (PLIs)\nOperating Net Margin\nOften used\nReturn on Assets\nRarely used\nBerry Ratio\nRelatively often used\nReturn on Total Costs\nOften used\nReturn on capital employed\nRarely used"
+      }
+    ],
+    "sources": [
+      {
+        "title": "OECD Transfer Pricing Guidelines 2022",
+        "url": "https://www.oecd.org/en/publications/2022/01/oecd-transfer-pricing-guidelines-for-multinational-enterprises-and-tax-administrations-2022_57104b3a.html"
+      }
+    ]
+  },
+  {
+    "slug": "transfer-pricing-profiles",
+    "title": "Transfer-pricing profiles: functions, assets and actual risks",
+    "topic": "Finance & Accounting",
+    "group": "Transfer pricing",
+    "summary": "Compare the source’s manufacturer, distributor and service-provider profiles.",
+    "sections": [
+      {
+        "heading": "Typical functional profiles in the source",
+        "body": "Typical functional profiles\nLimited risk toll manufactuer\nManufacturing services without taking title to raw materials or final products\nNo inventory or selling risk\nLimited quality control or Ioglstis management\nNo significant intangibles\nLimited risk contract manufacturer\nManufacturing services with title to raw materials and finished products\nNo risks associated with holding finished products or selling them\nBears stock risk related to raw materials\nFully fledged manufacturer\nPerforms all important manufacturing functions\nEngages in production planning. sourcing and procuring inputs. R&D activities. design and engineering, quality control, and logistics\nAssumes market risk, inventory risk, R&D risk, product liability risk. and other risks\nEarns residual profit\nLimited risk distributor agent\nActs as a solo: representative, receive commission on solos\nFacilitates sales, but principal concludes contact\nMinimal risk since no tide to the products\nLimited risk distributor\nBuys goods and markets them to customers\nRisks relating to inventory and debtors are limited\nFully fledged distributor\nUndertakes all of the soles and distribution functions\nBears all material risks relevant to these functions\nBuys, holds and sells products, develops necessary intangibles\nBears significant downside risks, as well as receiving upside results of positive outcomes of its activity\nOften entitled to residual profit\nLimited risk service provider\nProvision of low value-adding or supportive services\nNo significant assets or risks\nPredetermined routine return\nFully fledged service provider\nProvision of high value-adding or core services\nOwnership of significant assets (e.g., unique skills, proprietary software. intangibles)\nAssumption of substantial operational and financial risks\nPotential for higher. non-routine returns"
+      }
+    ],
+    "sources": [
+      {
+        "title": "OECD Transfer Pricing Guidelines 2022",
+        "url": "https://www.oecd.org/en/publications/2022/01/oecd-transfer-pricing-guidelines-for-multinational-enterprises-and-tax-administrations-2022_57104b3a.html"
+      }
+    ]
+  },
+  {
+    "slug": "integrated-reporting-purpose",
+    "title": "Integrated reporting: explain value creation over time",
+    "topic": "Finance & Accounting",
+    "group": "Connected reporting",
+    "summary": "Understand integrated thinking, the reporting purpose and the source’s benefits, costs and stakeholder context.",
+    "sections": [
+      {
+        "heading": "Purpose, benefits, costs and reporting decisions",
+        "body": "Integrated Reporting\nA new form of corporate reporting aimed primarily at providers of capital\nIt tells a organisation’s value creation story\nIt is much more than bringing together financial and sustainability reporting\nIt does not replace either financial or sustainability reporting – both need to be in place for integrated reporting\nThe International Integrated Reporting Council (IIRC) defines integrated reporting as ‘a process founded on integrated thinking that results in a periodic integrated report by an organization about value creation over time and related communications regarding aspects of value creation’ (IIRC, 2013)\nThe IIRC, set up at the end of 2010, aims to create the globally accepted integrated reporting framework\nBenefits of IR\nGreater clarity abotu the relationship between financial and nonfinancial performance and how this affects value creation\nDeeper engagement and improved relationships with shareholders and stakeholders\nImproved measurement and control systems for nonfinancialB information\nBetter internal decision making for a sustainable strategy\nLower reputation risk\nGreater employee engagement\nMore committed customers who care about sustainability\nCosts of IR\nNew processes and control systems\nPeople with analytics skills\nAssurance from third parties\nPreparation costs related to the collection and analysis of new data\nInfrastructure investments in new information systems and data sets\nPotential proprietary disclosure costs and revelation of competitive information\nImportance of reporting\nInfluences decisions and actions of management\nAn essential element of corporate governance\nInfluences decisions and actions of shareholders and other stakeholders\nAffects resource allocation (financial, natural and human resources) in society\nCritical for investor confidence\nInfluences perceptions of the company’s customers, vendors, and employees\nShapes how a company sees itself"
+      }
+    ],
+    "sources": [
+      {
+        "title": "IFRS Foundation: Integrated Reporting Framework",
+        "url": "https://www.ifrs.org/issued-standards/integrated-reporting/framework/"
+      }
+    ]
+  },
+  {
+    "slug": "sustainability-reporting-context",
+    "title": "Sustainability reporting: purpose, transparency and dated requirements",
+    "topic": "Finance & Accounting",
+    "group": "Connected reporting",
+    "summary": "Separate the source’s reporting principles from its historical regulatory references.",
+    "sections": [
+      {
+        "heading": "Financial/non-financial challenges, the historical EU outline and sustainability reporting",
+        "body": "Financial reporting challenges\nComplexity\nMeaningful narrative information\nReporting on risk, executive compensation and corporate governance\nAuditing for fraud\nNon-financial reporting challenges\nLack of standards\nLack of common terminology\nUnderdeveloped audit methodologies\nControversial role of the Global Reporting Initiative\nEU Directive (Directive 2014/95/EU) requires large companies to disclose certain information on the way they operate and manage social and environmental challenges\nLarge public-interest companies with more than 500 employees (approximately 6,000 large companies and groups across EU)\nEnvironmental protection\nSocial responsibility and treatment of employees\nRespect for human rights\nAnti-corruption and bribery\nDiversity on company boards (in terms of age, gender, educational and professional background)\nCompanies may use international, European or national guidelines\nThe UN Global Compact\nThe OECD guidelines for multinational enterprises\nISO 26000\nSustainablity reporting\nA report published by a company or organization about the economic, environmental and social impacts caused by its everyday activities. A sustainability report also presents the organization's values and governance model, and demonstrates the link between its strategy and its commitment to a sustainable global economy\nGRI Sustainability Reporting Standards (GRI Standards) help businesses, governments and other organizations understand and communicate the impact of business on critical sustainability issues\nMust report on the company’s Sustainable performance rather than just sustainability targets and objectives\nReporting not a PR exercise\nInteraction with stakeholders\nTransparency\nBrand Management"
+      }
+    ],
+    "sources": [
+      {
+        "title": "European Commission: corporate sustainability reporting",
+        "url": "https://finance.ec.europa.eu/financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en"
+      },
+      {
+        "title": "IFRS Foundation: Integrated Reporting Framework",
+        "url": "https://www.ifrs.org/issued-standards/integrated-reporting/framework/"
+      }
+    ]
+  },
+  {
+    "slug": "six-capitals-value-creation",
+    "title": "Six capitals: connect the business model to value creation",
+    "topic": "Finance & Accounting",
+    "group": "Connected reporting",
+    "summary": "Follow financial, manufactured, intellectual, human, relationship and natural resources through activities, outputs and outcomes.",
+    "sections": [
+      {
+        "heading": "The six capitals in the source",
+        "body": "New capital\nNatural capital\nBasis and glue for the entire economic and social system\nResources that often cannot be replaced\nEssential for the functioning of the economy as a whole\nIntellectual capital\nIntangibles associated with brand and reputation, critical to the organisation\nIncludes patents, copyrights, intellectual property and organisational systems, procedures and protocols\nProvide significant competitive advantages\nFinancial capital\nFunds obtained through financing or generated by means of organisation’s productivity\nSocial and relationship capital\nThe stock of resources created by the relationships between an organisation and all its stakeholders.\nHuman capital\nSkills and know-how of an organisation’s professionals as well as their commitment and motivation and their ability to lead, cooperate or innovate\nManufactured capital\nMainly comprises physical infrastructure such as buildings or technology equipment and tools"
+      }
+    ],
+    "sources": [
+      {
+        "title": "IFRS Foundation: Integrated Reporting Framework",
+        "url": "https://www.ifrs.org/issued-standards/integrated-reporting/framework/"
+      }
+    ]
+  },
+  {
+    "slug": "finance-certifications",
+    "title": "Finance certifications: understand the source’s credential list",
+    "topic": "Finance & Accounting",
+    "group": "Roles & development",
+    "summary": "Read the supplied accounting and finance credential names without mistaking a list for current eligibility guidance.",
+    "sections": [
+      {
+        "heading": "The source’s finance and accounting credential names",
+        "body": "Finance and accounting certifications\nFinance certifications\nChartered financial analysis (CFA)\nCertified financial planner (CFP)\nChartered alternative investment analyst (CAIA)\nChartered financial consultant (ChFC)\nFinancial modelling & valuation analyst (FMVA)\nChartered market technician (CMT)\nFinancial risk manager (FRM)\nCertified fund specialist (CFS)\nCertified corporate FP&A professional (FPAC)\nAdvanced financial modeler (AFM)\nAccounting certifications\nChartered accountant (CA)\nAssociate chartered accountant (ACA)\nCertified public accountant (CPA)\nChartered certified accountant (ACCA)\nFellow chartered management accountant (FMCA)\nCertified internal auditor (CIA)\nCertified management accountant (CMA)\nCertified treasury professional (CTP)\nCertified fraud examiner (CFE)\nChartered global management accountant (CGMA)\nAssociate chartered mangement accountant (ACMA)"
+      },
+      {
+        "heading": "Clarify the source’s terminology",
+        "body": "CFA is the Chartered Financial Analyst designation; the source’s “Chartered financial analysis” wording is a transcription error. Follow the issuer’s current information for qualification and membership requirements. Other source names are retained with the limitations above."
+      }
+    ],
+    "sources": [
+      {
+        "title": "CFA Institute: the Chartered Financial Analyst designation",
+        "url": "https://www.cfainstitute.org/programs/cfa-program/charter"
+      }
+    ]
+  },
+  {
+    "slug": "finance-skills-development",
+    "title": "Finance skills and the transition from audit to FP&A",
+    "topic": "Finance & Accounting",
+    "group": "Roles & development",
+    "summary": "Connect finance knowledge, analytical work, business partnering and communication with a development plan.",
+    "sections": [
+      {
+        "heading": "Technical, commercial and interpersonal skills",
+        "body": "Requirements\nSoft and technical skills\nBusiness acument\nUnderstand business context for informed decisions\nFinance business partnering\nCollaborate to drive business results\nStory telling\nCommunicate complex financial information in simple terms\nCommunication\nClear and effective communication for business success\nInfluencing\nPersuasion skills for driving change and achieving goals\nFinancial analysis\nEvaluate financial data for decision-making\nBudgeting & forecasting\nPlan financials to reach the company's objectives\nCost accounting\nAssign costs using the most relevant method to tracj profitability\nAccounting principles\nUnderstand and apply accounting practices and standards\nIT literacy\nManage financial systems and leverage technology\nFinancial skills\nFinancial statement analysis\nBudgeting and forecasting\nBreak-even analysis (B/E)\nCost-volume-profit (CVP) analysis\nCapital budgeting\nWorking capital management\nFinancial ratio analysis\nPerformance management\nRisk management\nDebt management (leverage / service / coverage)\nPerformance metrics (KPIs)\nValuation (business / assets / unit)"
+      },
+      {
+        "heading": "Audit-to-FP&A transfer, learning needs and KPIs",
+        "body": "Transferrable skills from audit to FP&A\nStrong accounting knowledge\nStructured efficient and goal oriented\nWork under pressure\nCommunication skills\nAbility to adapt to different stakeholders and business situations\nWhat you need to near from audit to FP&A\nDeeper understanding of profitability. price sensitivity, cost accounting\nGet the most out of the ERP and reporting tools to deliver efficient & valuable reporting/analysis\nBudgeting, forecasting, modelling\nHow to improve processes to be more efficient as a finance function\nLearn the key KPIs\nDifferent fields from audit to FP&A\nGeneral financial planning & analysis\nCommercial controlling\nProject controlling\nCost controlling\nIndustrial controlling\nReporting\nFinancial KPIs\nRevenue growth rate\nROI for strategic initiatives\nOperational cost per unit"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "accounting-formula-directory",
+    "title": "Accounting and finance formula reference",
+    "topic": "Finance & Accounting",
+    "group": "Formula reference",
+    "summary": "Search reviewed formulas and source conventions by name, expression, input, unit or limitation.",
+    "sections": [],
+    "sources": []
+  },
+  {
     "slug": "strategy-growth",
     "title": "Strategy & Growth",
     "topic": "Business & Management",
@@ -9311,6 +10515,78 @@
     "topic": "Beliefs & Mysteries",
     "group": "Freemasonry & symbolism",
     "summary": "Read every supplied ceremony in thirteen linked readings, with speaker labels, stage directions, supporting explanations and source limitations.",
+    "sections": [],
+    "sources": []
+  },
+  {
+    "slug": "accounting-statements",
+    "title": "Statements & Accounting Policies",
+    "topic": "Finance & Accounting",
+    "group": "Explore finance",
+    "summary": "Understand statements, recognition, measurement and the accounting terms behind the numbers.",
+    "sections": [],
+    "sources": []
+  },
+  {
+    "slug": "financial-performance",
+    "title": "Ratios & Financial Performance",
+    "topic": "Finance & Accounting",
+    "group": "Explore finance",
+    "summary": "Interpret liquidity, leverage, profitability, earnings and commercial metrics with their assumptions.",
+    "sections": [],
+    "sources": []
+  },
+  {
+    "slug": "cash-working-capital",
+    "title": "Cash Flow & Working Capital",
+    "topic": "Finance & Accounting",
+    "group": "Explore finance",
+    "summary": "Follow cash movements, liquidity buffers and the operating cash cycle.",
+    "sections": [],
+    "sources": []
+  },
+  {
+    "slug": "financial-planning-analysis",
+    "title": "FP&A, Budgets & Forecasts",
+    "topic": "Finance & Accounting",
+    "group": "Explore finance",
+    "summary": "Connect reliable information, planning, forecasting and decision-focused reporting.",
+    "sections": [],
+    "sources": []
+  },
+  {
+    "slug": "valuation-transactions",
+    "title": "Valuation & Transactions",
+    "topic": "Finance & Accounting",
+    "group": "Explore finance",
+    "summary": "Examine discounting, capital, investment and acquisition-accounting assumptions.",
+    "sections": [],
+    "sources": []
+  },
+  {
+    "slug": "finance-controls-tax",
+    "title": "Controls, Audit & Tax",
+    "topic": "Finance & Accounting",
+    "group": "Explore finance",
+    "summary": "Explore payment controls, reporting risks and the distinct transfer-pricing questions.",
+    "sections": [],
+    "sources": []
+  },
+  {
+    "slug": "integrated-sustainability-reporting",
+    "title": "Integrated & Sustainability Reporting",
+    "topic": "Finance & Accounting",
+    "group": "Explore finance",
+    "summary": "Connect value creation, capitals and reporting context without confusing historical rules with current obligations.",
+    "sections": [],
+    "sources": []
+  },
+  {
+    "slug": "finance-careers",
+    "title": "Finance Careers & Skills",
+    "topic": "Finance & Accounting",
+    "group": "Explore finance",
+    "summary": "Understand finance responsibilities and plan relevant technical and interpersonal development.",
     "sections": [],
     "sources": []
   }
