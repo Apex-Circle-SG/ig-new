@@ -1,0 +1,211 @@
+{
+  "renderChecks": 10,
+  "accessibilityAudits": 10,
+  "visibleSourcePassages": 444,
+  "rows": [
+    {
+      "width": 390,
+      "path": "/library/knowledge/finance-accounting/",
+      "status": 200,
+      "title": "Finance & Accounting",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/investment-assets/",
+      "status": 200,
+      "title": "Investment assets: cash, ownership, debt and real assets",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/structured-debt-contracts/",
+      "status": 200,
+      "title": "Loan features, structured credit and derivative contracts",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/cost-drivers/",
+      "status": 200,
+      "title": "Cost drivers: connect spending with activity and design",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/relevant-costs/",
+      "status": 200,
+      "title": "Relevant costs, cost behavior and opportunity costs",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/finance-accounting/",
+      "status": 200,
+      "title": "Finance & Accounting",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/investment-assets/",
+      "status": 200,
+      "title": "Investment assets: cash, ownership, debt and real assets",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/structured-debt-contracts/",
+      "status": 200,
+      "title": "Loan features, structured credit and derivative contracts",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/cost-drivers/",
+      "status": 200,
+      "title": "Cost drivers: connect spending with activity and design",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/relevant-costs/",
+      "status": 200,
+      "title": "Relevant costs, cost behavior and opportunity costs",
+      "overflow": false,
+      "badLinks": [],
+      "brokenAnchors": [],
+      "emptyCategories": [],
+      "errors": []
+    }
+  ],
+  "audits": [
+    {
+      "width": 390,
+      "path": "/library/knowledge/finance-accounting/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/investment-assets/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/structured-debt-contracts/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/cost-drivers/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/library/knowledge/relevant-costs/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/finance-accounting/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/investment-assets/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/structured-debt-contracts/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/cost-drivers/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/library/knowledge/relevant-costs/",
+      "violations": []
+    }
+  ],
+  "details": [
+    {
+      "width": 390,
+      "slug": "investment-assets",
+      "passages": 119
+    },
+    {
+      "width": 390,
+      "slug": "structured-debt-contracts",
+      "passages": 37
+    },
+    {
+      "width": 390,
+      "slug": "cost-drivers",
+      "passages": 34
+    },
+    {
+      "width": 390,
+      "slug": "relevant-costs",
+      "passages": 32
+    },
+    {
+      "width": 1440,
+      "slug": "investment-assets",
+      "passages": 119
+    },
+    {
+      "width": 1440,
+      "slug": "structured-debt-contracts",
+      "passages": 37
+    },
+    {
+      "width": 1440,
+      "slug": "cost-drivers",
+      "passages": 34
+    },
+    {
+      "width": 1440,
+      "slug": "relevant-costs",
+      "passages": 32
+    }
+  ]
+}

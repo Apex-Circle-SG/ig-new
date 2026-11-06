@@ -156,7 +156,8 @@
       "product-offering-tradeoffs",
       "design-sprints",
       "kano-feature-priorities",
-      "lean-ux-learning"
+      "lean-ux-learning",
+      "pitch-deck-foundations"
     ]
   },
   {
@@ -455,7 +456,9 @@
       "valuation-transactions",
       "finance-controls-tax",
       "integrated-sustainability-reporting",
-      "finance-careers"
+      "finance-careers",
+      "costing-management-accounting",
+      "investing-portfolio-management"
     ]
   },
   {
@@ -518,7 +521,9 @@
       "financial-report-storytelling",
       "management-reporting-cycles",
       "financial-forecasting",
-      "forecasting-practice"
+      "forecasting-practice",
+      "budget-preparation-control",
+      "budget-variance-investigation"
     ]
   },
   {
@@ -531,7 +536,8 @@
       "discounted-cash-flow",
       "cost-of-capital-returns",
       "market-valuation-measures",
-      "purchase-price-allocation"
+      "purchase-price-allocation",
+      "capital-investment-appraisal"
     ]
   },
   {
@@ -544,7 +550,9 @@
       "finance-red-flags",
       "transfer-pricing-comparability",
       "transfer-pricing-methods",
-      "transfer-pricing-profiles"
+      "transfer-pricing-profiles",
+      "payment-transfer-terminology",
+      "financial-crime-awareness"
     ]
   },
   {
@@ -625,6 +633,42 @@
     "members": [
       "workplace-animal-metaphors",
       "sbti-personality-narratives"
+    ]
+  },
+  {
+    "slug": "costing-management-accounting",
+    "title": "Costing & Management Accounting",
+    "topic": "Finance & Accounting",
+    "parent": "finance-accounting",
+    "members": [
+      "margin-markup",
+      "relevant-costs",
+      "cost-drivers",
+      "full-absorption-costing",
+      "activity-based-costing",
+      "gross-profit-contribution"
+    ]
+  },
+  {
+    "slug": "investing-portfolio-management",
+    "title": "Investing & Portfolio Management",
+    "topic": "Finance & Accounting",
+    "parent": "finance-accounting",
+    "members": [
+      "investment-assets",
+      "investment-funds-vehicles",
+      "structured-debt-contracts",
+      "commodity-trade-terms",
+      "portfolio-allocation",
+      "portfolio-strategies",
+      "portfolio-costs-maintenance",
+      "investment-risk-measures",
+      "investment-concepts-models",
+      "private-capital-stages",
+      "private-capital-due-diligence",
+      "investment-research-checklist",
+      "investment-behavior-returns",
+      "pension-funds-historical-ranking"
     ]
   }
 ]

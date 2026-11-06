@@ -1,4 +1,6 @@
 import { expect, test } from '@playwright/test';
+import formulas from '../../apps/web/src/lib/library/business/accounting-formulas.json' with { type: 'json' };
+import collections from '../../apps/web/src/lib/library/business/collections.json' with { type: 'json' };
 
 test('knowledge and tools can be browsed together', async ({ page }) => {
   await page.goto('/library/');
@@ -34,16 +36,18 @@ test('finance collections and the formula reference expose corrections and origi
   await page.goto('/library/');
   const knowledge = page.getByRole('region', { name: 'Knowledge', exact: true });
   await knowledge.getByRole('button', { name: 'Finance & Accounting', exact: true }).click();
-  await expect(knowledge.getByText('8 collections', { exact: true })).toBeVisible();
+  const financeCollections = collections.filter((collection) => collection.parent === 'finance-accounting').length;
+  await expect(knowledge.getByText(`${financeCollections} collections`, { exact: true })).toBeVisible();
   await knowledge.getByRole('combobox', { name: /Finance collection/ }).selectOption('financial-performance');
   await knowledge.getByRole('button', { name: 'Formula reference', exact: true }).click();
   await knowledge.getByRole('link', { name: /Accounting and finance formula reference/ }).click();
   const directory = page.getByRole('region', { name: 'Find a formula', exact: true });
-  await expect(directory.getByText('Showing 24 of 135 source entries', { exact: true })).toBeVisible();
+  await expect(directory.getByText(`Showing 24 of ${formulas.length} source entries`, { exact: true })).toBeVisible();
   await directory.getByRole('button', { name: 'Show more formulas', exact: true }).click();
-  await expect(directory.getByText('Showing 48 of 135 source entries', { exact: true })).toBeVisible();
+  await expect(directory.getByText(`Showing 48 of ${formulas.length} source entries`, { exact: true })).toBeVisible();
   await directory.getByRole('combobox', { name: /Review state/ }).selectOption('Needs clarification');
-  await expect(directory.getByText('Showing 4 of 4 source entries', { exact: true })).toBeVisible();
+  const unresolved = formulas.filter((formula) => !formula.expression).length;
+  await expect(directory.getByText(`Showing ${unresolved} of ${unresolved} source entries`, { exact: true })).toBeVisible();
   await directory.getByRole('combobox', { name: /Review state/ }).selectOption('All review states');
   await directory.getByRole('searchbox', { name: 'Search formulas', exact: true }).fill('Total asset turnover');
   await directory.locator('a[href$="/#formula-36"]').click();

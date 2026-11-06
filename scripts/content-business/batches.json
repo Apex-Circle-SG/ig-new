@@ -65,5 +65,14 @@
     "metrics": "people-metrics.json",
     "ledger": "docs/people-content-coverage.csv",
     "sha256": "4e3fd4f581ee5f1d34b5cbf11166151aa547e34dcf88ae6314a89a526e2c2a13"
+  },
+  {
+    "key": "investment",
+    "source": "content/sources/finance/investment",
+    "plan": "investment-plan.json",
+    "figures": "investment-figures.json",
+    "expressions": "investment-expressions.json",
+    "ledger": "docs/investment-content-coverage.csv",
+    "sha256": "1cee9fd7808edfacc92463150066dd4eeee13149b9a075fea108822c52024615"
   }
 ]

@@ -1585,8 +1585,8 @@
     "title": "Finance & Accounting",
     "topic": "Finance & Accounting",
     "group": "Start here",
-    "summary": "Explore accounting, financial measures, cash, planning, valuation, controls and connected reporting through focused reading collections.",
-    "intro": "Choose the question you are working on. Formulas explain their inputs, units, assumptions and review status; original wording remains available for study.",
+    "summary": "Explore accounting, business finance, costing, valuation and investing through focused collections.",
+    "intro": "Choose the financial question you are working on: reporting, planning, costs, cash, valuation or investments. Each collection keeps its assumptions, detailed source material and limitations accessible.",
     "groups": [
       {
         "name": "Explore finance",
@@ -1604,32 +1604,40 @@
           {
             "slug": "financial-ratio-analysis",
             "label": "Interpret financial measures"
+          },
+          {
+            "slug": "accounting-formula-directory",
+            "label": "Search the formula reference"
           }
         ]
       },
       {
-        "title": "Plan and decide",
+        "title": "Plan and control the business",
         "links": [
           {
             "slug": "financial-planning-analysis",
             "label": "Plan and forecast"
           },
           {
-            "slug": "valuation-transactions",
-            "label": "Examine valuation assumptions"
-          }
-        ]
-      },
-      {
-        "title": "Find a formula",
-        "links": [
-          {
-            "slug": "accounting-formula-directory",
-            "label": "Search the formula reference"
+            "slug": "costing-management-accounting",
+            "label": "Understand costs and contribution"
           },
           {
             "slug": "cash-working-capital",
             "label": "Follow cash and working capital"
+          }
+        ]
+      },
+      {
+        "title": "Evaluate investment decisions",
+        "links": [
+          {
+            "slug": "valuation-transactions",
+            "label": "Examine valuation assumptions"
+          },
+          {
+            "slug": "investing-portfolio-management",
+            "label": "Understand investments and portfolios"
           }
         ]
       }
@@ -1897,7 +1905,8 @@
     "topicRoot": false,
     "parent": "finance-accounting",
     "relatedCollections": [
-      "operations-performance"
+      "operations-performance",
+      "costing-management-accounting"
     ]
   },
   {
@@ -1952,7 +1961,8 @@
     "topicRoot": false,
     "parent": "finance-accounting",
     "relatedCollections": [
-      "strategy-growth"
+      "strategy-growth",
+      "investing-portfolio-management"
     ]
   },
   {
@@ -2386,5 +2396,162 @@
       "communication-personal-development",
       "problem-solving"
     ]
+  },
+  {
+    "slug": "costing-management-accounting",
+    "title": "Costing & Management Accounting",
+    "topic": "Finance & Accounting",
+    "group": "Explore finance",
+    "parent": "finance-accounting",
+    "summary": "Understand cost behavior, allocation, activity drivers and the difference between gross profit and contribution.",
+    "intro": "Understand cost behavior, allocation, activity drivers and the difference between gross profit and contribution.",
+    "groups": [
+      {
+        "name": "Cost concepts & decisions",
+        "description": "Distinguish cost bases, behavior and decision relevance."
+      },
+      {
+        "name": "Costing methods",
+        "description": "Trace direct costs, allocate overhead and examine activity-based costing."
+      },
+      {
+        "name": "Margins & profitability",
+        "description": "Connect cost boundaries with product and period profitability."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Start with cost meaning",
+        "links": [
+          {
+            "slug": "relevant-costs",
+            "label": "Which costs change with a decision?"
+          },
+          {
+            "slug": "margin-markup",
+            "label": "Margin or markup?"
+          }
+        ]
+      },
+      {
+        "title": "Understand allocation",
+        "links": [
+          {
+            "slug": "full-absorption-costing",
+            "label": "Full costs and overhead"
+          },
+          {
+            "slug": "activity-based-costing",
+            "label": "Activities and drivers"
+          }
+        ]
+      },
+      {
+        "title": "Interpret profitability",
+        "links": [
+          {
+            "slug": "gross-profit-contribution",
+            "label": "Gross profit versus contribution"
+          },
+          {
+            "slug": "cost-drivers",
+            "label": "Investigate cost drivers"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Introductions and visual explanations are editorial additions. Supplied definitions, expressions and examples remain traceable; missing inputs, dated claims and uncertain material are identified on the relevant readings."
+    ],
+    "references": [],
+    "relatedCollections": [
+      "financial-planning-analysis",
+      "financial-performance",
+      "valuation-transactions"
+    ],
+    "topicRoot": false
+  },
+  {
+    "slug": "investing-portfolio-management",
+    "title": "Investing & Portfolio Management",
+    "topic": "Finance & Accounting",
+    "group": "Explore finance",
+    "parent": "finance-accounting",
+    "summary": "Understand assets and vehicles, portfolio methods, performance evidence, private capital and institutional investors.",
+    "intro": "Understand assets and vehicles, portfolio methods, performance evidence, private capital and institutional investors.",
+    "groups": [
+      {
+        "name": "Assets & investment vehicles",
+        "description": "Separate underlying assets, fund structures, contracts and physical product terminology."
+      },
+      {
+        "name": "Portfolio construction & upkeep",
+        "description": "Read allocation methods, exposures, fees and review practices."
+      },
+      {
+        "name": "Risk, evidence & research",
+        "description": "Examine measures, model assumptions, research questions and decision behavior."
+      },
+      {
+        "name": "Private capital & institutions",
+        "description": "Study diligence, investment stages and a clearly dated pension reference."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Understand the exposure",
+        "links": [
+          {
+            "slug": "investment-assets",
+            "label": "Assets and risk annotations"
+          },
+          {
+            "slug": "investment-funds-vehicles",
+            "label": "Funds and vehicles"
+          }
+        ]
+      },
+      {
+        "title": "Construct and review",
+        "links": [
+          {
+            "slug": "portfolio-allocation",
+            "label": "Objectives and allocation"
+          },
+          {
+            "slug": "portfolio-costs-maintenance",
+            "label": "Costs and ongoing review"
+          }
+        ]
+      },
+      {
+        "title": "Question the evidence",
+        "links": [
+          {
+            "slug": "investment-risk-measures",
+            "label": "Measures and their limits"
+          },
+          {
+            "slug": "private-capital-due-diligence",
+            "label": "Diligence questions"
+          },
+          {
+            "slug": "pension-funds-historical-ranking",
+            "label": "Historical institutional-investor reference"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Introductions and visual explanations are editorial additions. Supplied definitions, expressions and examples remain traceable; missing inputs, dated claims and uncertain material are identified on the relevant readings."
+    ],
+    "references": [],
+    "relatedCollections": [
+      "valuation-transactions",
+      "financial-performance",
+      "costing-management-accounting",
+      "finance-controls-tax"
+    ],
+    "topicRoot": false
   }
 ]

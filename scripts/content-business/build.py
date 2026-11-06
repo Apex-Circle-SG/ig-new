@@ -10,7 +10,7 @@ import json
 from pathlib import Path
 import zipfile
 
-from source import edited, read_document, section_blocks
+from source import edited, read_document, section_blocks, reviewed_blocks
 from accounting import accounting_blocks, accounting_text
 from people import metric_directory, people_blocks
 
@@ -40,12 +40,16 @@ def merge_blocks(existing, incoming):
             existing.append(block)
 
 
-def blocks_for(doc, span, page, formula_reviews=None, formula_references=None, metrics=None):
+def blocks_for(doc, span, page, formula_reviews=None, formula_references=None, metrics=None, study_reviews=None):
     paragraphs = doc['paragraphs'][span['start']:span['end']]
     if metrics is not None:
         return people_blocks(doc, span, metrics)
     if formula_reviews is not None:
-        return accounting_blocks(doc, span, formula_reviews, formula_references)
+        return accounting_blocks(doc, span, formula_reviews if doc['name'] == 'Management Accounting.docx' else {}, formula_references)
+    if span.get('table') or span.get('pairs'):
+        return reviewed_blocks(doc, span)
+    if study_reviews is not None:
+        return accounting_blocks(doc, span, study_reviews.get(doc['name'], {}), formula_references)
     if page.get('format') == 'ritual':
         return [dict(kind='ritual', text=p['text']) for p in paragraphs]
     if span.get('context'):
@@ -105,6 +109,21 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
         expected = {p['index'] for p in documents['Management Accounting.docx']['paragraphs'] if '=' in p['text']}
         assert set(formula_reviews) == expected and len(formula_reviews) == 135, 'Unreviewed accounting expression'
     metrics = metric_directory(documents['Management.docx'], json.loads((HERE / batch['metrics']).read_text())) if batch.get('metrics') else None
+    study_reviews = None
+    if batch.get('expressions'):
+        study_reviews = {}
+        for review in json.loads((HERE / batch['expressions']).read_text()):
+            assert review['document'] in documents and review['id'].startswith('investment-'), 'Unknown expression source'
+            by_index = study_reviews.setdefault(review['document'], {})
+            assert review['index'] not in by_index, 'Duplicate reviewed expression'
+            by_index[review['index']] = review
+        for name, document in documents.items():
+            covered = {index for review in study_reviews.get(name, {}).values() for index in range(review['index'], review['end'])}
+            # These reviewed equals signs express a budget relationship and an alleged covenant, not numeric formulas.
+            narrative_relations = {('Budgeting.docx', 22), ('Investment.docx', 41)}
+            assert all(p['index'] in covered or (name, p['index']) in narrative_relations
+                       for p in document['paragraphs'] if '=' in p['text']), 'Unreviewed investment expression'
+        formula_references = json.loads((HERE / 'investment-references.json').read_text())
     coverage = {(name, p['index']): [] for name, doc in documents.items() for p in doc['paragraphs']}
     for page in plan:
         slug = page['slug']
@@ -133,9 +152,9 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
                 assert existing, f'Unknown reused section: {slug}/{reuse}'
                 blocks = existing['blocks']
                 if span.get('mergeSection'):
-                    merge_blocks(blocks, blocks_for(doc, span, page, formula_reviews, formula_references, metrics))
+                    merge_blocks(blocks, blocks_for(doc, span, page, formula_reviews, formula_references, metrics, study_reviews))
             else:
-                blocks = blocks_for(doc, span, page, formula_reviews, formula_references, metrics)
+                blocks = blocks_for(doc, span, page, formula_reviews, formula_references, metrics, study_reviews)
             rendered = json.dumps(blocks, ensure_ascii=False)
             for i in range(span['start'], span['end']):
                 p = doc['paragraphs'][i]
@@ -145,7 +164,7 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
                 if p['index'] != 0 and p['style'] not in ('1', '2', '6', '7', '5'):
                     value = p['text'] if page.get('format') in ('chapter', 'ritual') or span.get('context') or doc['name'] == 'NLP.docx' else edited(p['text'])
                     retained = json.dumps(value, ensure_ascii=False)[1:-1] in rendered
-                    if formula_reviews is not None:
+                    if formula_reviews is not None or study_reviews is not None:
                         retained = retained or json.dumps(accounting_text(p['text']), ensure_ascii=False)[1:-1] in rendered
                     assert retained, f'Lost passage: {doc["name"]}:{i}'
             if reuse:
@@ -213,6 +232,10 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
             grid = f['grid']
             assert grid['xLabel'] and grid['yLabel']
             assert {(p['x'], p['y']) for p in grid['points']} == {(1, 1), (1, 9), (9, 1), (5, 5), (9, 9)}, 'Incomplete managerial grid'
+        if f['slug'] == 'pension-funds-historical-ranking':
+            assert [int(row[0].split()[0]) for row in f['rows']] == list(range(1, 101)), 'Incomplete pension ranking'
+            assert all(row[1] and row[2] and row[3].startswith('$') for row in f['rows']), 'Incomplete pension data'
+            assert 'bubble says 90' in f['rows'][90][0], 'Lost source-rank discrepancy'
     outputs.append((batch, documents, coverage, image_coverage))
 
 collections = json.loads((HERE / 'collections.json').read_text())
@@ -315,8 +338,14 @@ for article in articles.values():
         for block in section['blocks']:
             if block['kind'] == 'formula':
                 formula_directory.append(dict(**block['formula'], slug=article['slug'], guideTitle=article['title']))
-assert len(formula_directory) == 135 and len({f['sourceIndex'] for f in formula_directory}) == 135, 'Lost or duplicated formula destination'
-assert sum(not f['expression'] for f in formula_directory) == 4, 'Review unresolved expressions before changing their status'
+accounting_entries = [f for f in formula_directory if f['id'].startswith('formula-')]
+investment_entries = [f for f in formula_directory if f['id'].startswith('investment-')]
+assert len(accounting_entries) == 135 and len({f['sourceIndex'] for f in accounting_entries}) == 135, 'Lost or duplicated accounting formula'
+assert sum(not f['expression'] for f in accounting_entries) == 4, 'Review unresolved accounting expressions before changing their status'
+investment_reviews = json.loads((HERE / 'investment-expressions.json').read_text())
+expected_investment_ids = {r['id'] for r in investment_reviews}
+assert {f['id'] for f in investment_entries} == expected_investment_ids and len(investment_entries) == len(expected_investment_ids), 'Lost investment expression'
+assert len({f['id'] for f in formula_directory}) == len(formula_directory), 'Duplicate formula anchor'
 assert all(f['name'] and f['units'] and f['inputs'] and f['scope'] and f['original'] for f in formula_directory)
 
 # Write only after all batches, destinations and discovery paths have passed checks.
@@ -345,9 +374,10 @@ save(DEST / 'collection-navigation.json', navigation)
 save(DEST / 'accounting-formulas.json', formula_directory)
 with (ROOT / 'docs/accounting-formula-review.csv').open('w', newline='') as out:
     writer = csv.writer(out, lineterminator='\n')
-    writer.writerow(['source_paragraph', 'measure', 'review_state', 'review_detail', 'expression', 'units', 'destination', 'original_wording'])
+    writer.writerow(['source_document', 'source_paragraph', 'measure', 'review_state', 'review_detail', 'expression', 'units', 'destination', 'original_wording'])
     for formula in formula_directory:
-        writer.writerow([formula['sourceIndex'], formula['name'], formula['reviewState'], formula['status'], formula['expression'], formula['units'],
+        document = next((review['document'] for review in investment_reviews if review['id'] == formula['id']), 'Management Accounting.docx')
+        writer.writerow([document, formula['sourceIndex'], formula['name'], formula['reviewState'], formula['status'], formula['expression'], formula['units'],
                          f'/library/knowledge/{formula["slug"]}/#{formula["id"]}', '\n'.join(formula['original'])])
 save(knowledge_path, knowledge)
 print(f'{len(articles)} guides/collection indexes; {sum(c["topicRoot"] for c in collections)} topic hubs')

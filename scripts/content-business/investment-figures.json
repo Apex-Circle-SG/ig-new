@@ -1,0 +1,702 @@
+[
+  {
+    "document": "Budgeting.docx",
+    "image": "word/media/image1.jpeg",
+    "slug": "budgeting-methods",
+    "title": "Operating assumptions and cash requirements",
+    "kind": "flow",
+    "headers": [],
+    "rows": [
+      [
+        "Relate the sales plan to production requirements"
+      ],
+      [
+        "Estimate material usage, direct labor and fixed/variable overheads"
+      ],
+      [
+        "Translate material needs into purchases"
+      ],
+      [
+        "Include expense budgets, fixed-asset purchases and R&D"
+      ],
+      [
+        "Coordinate the resulting cash requirements"
+      ]
+    ],
+    "note": "Reconstructed from the supplied “Budget chart”. The source places production above sales and connects boxes without a fully specified direction. This editorial flow explains the planning relationship rather than claiming the drawing proves a universal sequence. All source components are retained."
+  },
+  {
+    "document": "Budgeting.docx",
+    "image": "word/media/image2.jpeg",
+    "slug": "budgeting-methods",
+    "title": "Operating budgets, working capital and the cash budget",
+    "kind": "matrix",
+    "headers": [
+      "Source budget",
+      "Relationship to investigate"
+    ],
+    "rows": [
+      [
+        "Sales budget",
+        "Receipts timing and trade receivables; production and finished inventories"
+      ],
+      [
+        "Trade receivables budget",
+        "Cash receipts depend on sales and collection timing"
+      ],
+      [
+        "Production budget",
+        "Materials, labor, overhead and inventory requirements"
+      ],
+      [
+        "Finished inventories budget",
+        "Production and sales determine planned finished stock"
+      ],
+      [
+        "Raw-material purchases budget",
+        "Purchases, inventories and trade payables affect cash timing"
+      ],
+      [
+        "Raw-material inventories budget",
+        "Purchases and usage determine material stocks"
+      ],
+      [
+        "Trade payables budget",
+        "Supplier-payment timing affects cash"
+      ],
+      [
+        "Direct labor budget",
+        "Labor requirements and payments"
+      ],
+      [
+        "Overheads budget",
+        "Operating support costs and payment timing"
+      ],
+      [
+        "Capital-expenditure budget",
+        "Asset purchases and financing/cash requirements"
+      ],
+      [
+        "Cash budget",
+        "Coordinate receipts and payments across the linked plans"
+      ]
+    ],
+    "note": "Accessible reconstruction of the “Interrelationship of Operating Budgets” image. Its undirected links are explained as planning relationships. No actual company amounts, collection periods, credit terms or financing schedule are supplied."
+  },
+  {
+    "document": "Finance.docx",
+    "image": "word/media/image1.jpeg",
+    "slug": "pension-funds-historical-ranking",
+    "title": "All 100 pension funds: historical ranking labelled 2021",
+    "kind": "matrix",
+    "headers": [
+      "Rank",
+      "Fund / source label",
+      "Market",
+      "Rounded assets (USD)"
+    ],
+    "rows": [
+      [
+        "1",
+        "Government Pension Investment Fund",
+        "Japan",
+        "$1.7T"
+      ],
+      [
+        "2",
+        "Government Pension Fund",
+        "Norway",
+        "$1.4T"
+      ],
+      [
+        "3",
+        "National Pension",
+        "South Korea",
+        "$798.0B"
+      ],
+      [
+        "4",
+        "Federal Retirement Thrift",
+        "United States",
+        "$774.2B"
+      ],
+      [
+        "5",
+        "ABP",
+        "Netherlands",
+        "$630.4B"
+      ],
+      [
+        "6",
+        "California Public Employees",
+        "United States",
+        "$496.8B"
+      ],
+      [
+        "7",
+        "Canada Pension",
+        "Canada",
+        "$426.7B"
+      ],
+      [
+        "8",
+        "National Social Security",
+        "China",
+        "$406.8B"
+      ],
+      [
+        "9",
+        "Central Provident Fund",
+        "Singapore",
+        "$375.0B"
+      ],
+      [
+        "10",
+        "PFZW",
+        "Netherlands",
+        "$315.5B"
+      ],
+      [
+        "11",
+        "California State Teachers",
+        "United States",
+        "$313.9B"
+      ],
+      [
+        "12",
+        "New York State Common",
+        "United States",
+        "$267.8B"
+      ],
+      [
+        "13",
+        "New York City Retirement",
+        "United States",
+        "$266.7B"
+      ],
+      [
+        "14",
+        "Local Government Officials",
+        "Japan",
+        "$248.6B"
+      ],
+      [
+        "15",
+        "Employees Provident Fund",
+        "Malaysia",
+        "$242.6B"
+      ],
+      [
+        "16",
+        "Florida State Board",
+        "United States",
+        "$213.8B"
+      ],
+      [
+        "17",
+        "Texas Teachers",
+        "United States",
+        "$196.7B"
+      ],
+      [
+        "18",
+        "Ontario Teachers",
+        "Canada",
+        "$191.1B"
+      ],
+      [
+        "19",
+        "National Wealth Fund",
+        "Russia",
+        "$180.7B"
+      ],
+      [
+        "20",
+        "AustralianSuper",
+        "Australia",
+        "$169.1B"
+      ],
+      [
+        "21",
+        "Labor Pension Fund",
+        "Taiwan",
+        "$168.9B"
+      ],
+      [
+        "22",
+        "Washington State Board",
+        "United States",
+        "$161.5B"
+      ],
+      [
+        "23",
+        "Public Institute for Social Security",
+        "Kuwait",
+        "$160.0B"
+      ],
+      [
+        "24",
+        "ATP",
+        "Denmark",
+        "$155.4B"
+      ],
+      [
+        "25",
+        "Wisconsin Investment Board",
+        "United States",
+        "$147.9B"
+      ],
+      [
+        "26",
+        "Future Fund",
+        "Australia",
+        "$147.9B"
+      ],
+      [
+        "27",
+        "Boeing",
+        "United States",
+        "$147.2B"
+      ],
+      [
+        "28",
+        "Employees’ Provident",
+        "India",
+        "$145.0B"
+      ],
+      [
+        "29",
+        "New York State Teachers",
+        "United States",
+        "$144.4B"
+      ],
+      [
+        "30",
+        "North Carolina",
+        "United States",
+        "$137.1B"
+      ],
+      [
+        "31",
+        "Alecta",
+        "Sweden",
+        "$136.7B"
+      ],
+      [
+        "32",
+        "GEPF",
+        "South Africa",
+        "$129.1B"
+      ],
+      [
+        "33",
+        "California University",
+        "United States",
+        "$125.3B"
+      ],
+      [
+        "34",
+        "Bayerische Versorgungskammer",
+        "Germany",
+        "$122.0B"
+      ],
+      [
+        "35",
+        "Ohio Public Employees",
+        "United States",
+        "$121.6B"
+      ],
+      [
+        "36",
+        "AT&T",
+        "United States",
+        "$119.5B"
+      ],
+      [
+        "37",
+        "Public Service Pension Plan",
+        "Canada",
+        "$117.9B"
+      ],
+      [
+        "38",
+        "National Federation of Mutual Aid",
+        "Japan",
+        "$117.1B"
+      ],
+      [
+        "39",
+        "Metaal/tech. Bedrijven",
+        "Netherlands",
+        "$115.8B"
+      ],
+      [
+        "40",
+        "IBM",
+        "United States",
+        "$115.4B"
+      ],
+      [
+        "41",
+        "Universities Superannuation",
+        "United Kingdom",
+        "$111.2B"
+      ],
+      [
+        "42",
+        "Virginia Retirement",
+        "United States",
+        "$110.0B"
+      ],
+      [
+        "43",
+        "Pension Fund Association",
+        "Japan",
+        "$109.8B"
+      ],
+      [
+        "44",
+        "Raytheon Technologies",
+        "United States",
+        "$108.9B"
+      ],
+      [
+        "45",
+        "Michigan Retirement",
+        "United States",
+        "$108.0B"
+      ],
+      [
+        "46",
+        "Aware Super",
+        "Australia",
+        "$107.5B"
+      ],
+      [
+        "47",
+        "New Jersey",
+        "United States",
+        "$104.5B"
+      ],
+      [
+        "48",
+        "Minnesota State Board",
+        "United States",
+        "$102.9B"
+      ],
+      [
+        "49",
+        "PFA Pension",
+        "Denmark",
+        "$102.7B"
+      ],
+      [
+        "50",
+        "Kaiser",
+        "United States",
+        "$101.0B"
+      ],
+      [
+        "51",
+        "Georgia Teachers",
+        "United States",
+        "$100.9B"
+      ],
+      [
+        "52",
+        "Oregon Public Employees",
+        "United States",
+        "$100.4B"
+      ],
+      [
+        "53",
+        "Massachusetts PRIM",
+        "United States",
+        "$98.5B"
+      ],
+      [
+        "54",
+        "QSuper",
+        "Australia",
+        "$96.5B"
+      ],
+      [
+        "55",
+        "General Motors",
+        "United States",
+        "$96.1B"
+      ],
+      [
+        "56",
+        "Ontario Municipal Employees",
+        "Canada",
+        "$95.7B"
+      ],
+      [
+        "57",
+        "Ohio State Teachers",
+        "United States",
+        "$95.1B"
+      ],
+      [
+        "58",
+        "AP Fonden 7",
+        "Sweden",
+        "$94.4B"
+      ],
+      [
+        "59",
+        "Healthcare of Ontario",
+        "Canada",
+        "$90.5B"
+      ],
+      [
+        "60",
+        "General Electric",
+        "United States",
+        "$90.5B"
+      ],
+      [
+        "61",
+        "Employees’ Pension Fund",
+        "India",
+        "$89.5B"
+      ],
+      [
+        "62",
+        "Bouwnijverheid",
+        "Netherlands",
+        "$88.5B"
+      ],
+      [
+        "63",
+        "UPS",
+        "United States",
+        "$86.8B"
+      ],
+      [
+        "64",
+        "United Nations Joint Staff",
+        "United States",
+        "$86.2B"
+      ],
+      [
+        "65",
+        "Lockheed Martin",
+        "United States",
+        "$85.7B"
+      ],
+      [
+        "66",
+        "Quebec Pension",
+        "Canada",
+        "$81.4B"
+      ],
+      [
+        "67",
+        "National Public Service",
+        "Japan",
+        "$79.9B"
+      ],
+      [
+        "68",
+        "Tennessee Consolidated",
+        "United States",
+        "$79.0B"
+      ],
+      [
+        "69",
+        "Royal Bank of Scotland Group",
+        "United Kingdom",
+        "$78.3B"
+      ],
+      [
+        "70",
+        "Bank of America",
+        "United States",
+        "$76.3B"
+      ],
+      [
+        "71",
+        "BT Group",
+        "United Kingdom",
+        "$74.3B"
+      ],
+      [
+        "72",
+        "Keva",
+        "Finland",
+        "$73.3B"
+      ],
+      [
+        "73",
+        "Ford",
+        "United States",
+        "$72.8B"
+      ],
+      [
+        "74",
+        "PME",
+        "Netherlands",
+        "$72.7B"
+      ],
+      [
+        "75",
+        "Los Angeles County Employees",
+        "United States",
+        "$72.7B"
+      ],
+      [
+        "76",
+        "Quebec Government & Public",
+        "Canada",
+        "$72.4B"
+      ],
+      [
+        "77",
+        "UniSuper",
+        "Australia",
+        "$72.1B"
+      ],
+      [
+        "78",
+        "Northrop Grumman",
+        "United States",
+        "$72.0B"
+      ],
+      [
+        "79",
+        "Pennsylvania School Employees",
+        "United States",
+        "$70.4B"
+      ],
+      [
+        "80",
+        "Lloyds Banking Group",
+        "United Kingdom",
+        "$69.7B"
+      ],
+      [
+        "81",
+        "Ilmarinen",
+        "Finland",
+        "$69.1B"
+      ],
+      [
+        "82",
+        "Colorado Employees",
+        "United States",
+        "$68.6B"
+      ],
+      [
+        "83",
+        "Maryland State Retirement",
+        "United States",
+        "$68.5B"
+      ],
+      [
+        "84",
+        "AMF Pension",
+        "Sweden",
+        "$67.3B"
+      ],
+      [
+        "85",
+        "Varma",
+        "Finland",
+        "$67.1B"
+      ],
+      [
+        "86",
+        "Wells Fargo",
+        "United States",
+        "$66.0B"
+      ],
+      [
+        "87",
+        "Sunsuper",
+        "Australia",
+        "$66.0B"
+      ],
+      [
+        "88",
+        "Verizon",
+        "United States",
+        "$64.1B"
+      ],
+      [
+        "89",
+        "Illinois Teachers",
+        "United States",
+        "$64.0B"
+      ],
+      [
+        "90",
+        "J.P. Morgan Chase",
+        "United States",
+        "$62.8B"
+      ],
+      [
+        "91 (bubble says 90)",
+        "Electricity Supply Pension",
+        "United Kingdom",
+        "$62.5B"
+      ],
+      [
+        "92",
+        "FedEx",
+        "United States",
+        "$60.7B"
+      ],
+      [
+        "93",
+        "Nevada Public Employees",
+        "United States",
+        "$58.8B"
+      ],
+      [
+        "94",
+        "B.C. Municipal",
+        "Canada",
+        "$58.7B"
+      ],
+      [
+        "95",
+        "AP Fonden 4",
+        "Sweden",
+        "$57.7B"
+      ],
+      [
+        "96",
+        "Missouri Schools & Education",
+        "United States",
+        "$57.0B"
+      ],
+      [
+        "97",
+        "AP Fonden 3",
+        "Sweden",
+        "$55.9B"
+      ],
+      [
+        "98",
+        "Social Insurance Funds",
+        "Vietnam",
+        "$55.7B"
+      ],
+      [
+        "99",
+        "Organization for Workers",
+        "Japan",
+        "$55.6B"
+      ],
+      [
+        "100",
+        "Illinois Municipal",
+        "United States",
+        "$54.9B"
+      ]
+    ],
+    "note": "Reconstructed from the supplied Visual Capitalist infographic; checked against its original publisher’s table. Published 24 November 2022; research/writing Jenna Ross, design Sam Parker; underlying credit Thinking Ahead Institute / Pensions & Investments (September 2022). This is historical data with mixed cutoffs, estimates and exceptions explained below. No present-day ranking or investment-quality assessment is implied. The Electricity Supply Pension bubble’s duplicate rank 90 is explicitly noted."
+  }
+]

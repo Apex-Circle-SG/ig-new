@@ -1,0 +1,2575 @@
+[
+  {
+    "slug": "budgeting-methods",
+    "appendTo": "budgeting-methods",
+    "ranges": [
+      {
+        "document": "Budgeting.docx",
+        "start": 0,
+        "end": 5,
+        "heading": "A budget as a quantitative expression of a plan",
+        "subheadings": []
+      },
+      {
+        "document": "Budgeting.docx",
+        "start": 10,
+        "end": 68,
+        "heading": "Master budgets, static and flexible budgets, and rolling horizons",
+        "subheadings": [
+          10,
+          17
+        ]
+      },
+      {
+        "document": "Budgeting.docx",
+        "start": 68,
+        "end": 73,
+        "heading": "Budget periods and sub-periods",
+        "subheadings": [
+          68
+        ]
+      },
+      {
+        "document": "Budgeting.docx",
+        "start": 144,
+        "end": 146,
+        "heading": "Operating budgets and cash: two connected source diagrams",
+        "subheadings": []
+      }
+    ],
+    "notes": [
+      "The new source incorrectly says a static budget is prepared at the start when actual output is known. A static budget uses a planned activity level; a flexible comparison can use actual activity. The cash-budget paragraph appears to describe the broader financial budget. The rolling example ends “Apr2018 to Mar2018”; March 2019 is the likely intended end date. Original wording remains below for traceability. Statements that flexible budgets are most common or businesses increasingly use rolling budgets have no supplied survey evidence."
+    ],
+    "references": [
+      {
+        "title": "OpenStax: flexible budgets",
+        "url": "https://openstax.org/books/principles-managerial-accounting/pages/7-4-prepare-flexible-budgets"
+      }
+    ],
+    "related": [
+      "budget-preparation-control",
+      "budget-variance-investigation"
+    ],
+    "visuals": [
+      {
+        "title": "Static, flexible and rolling answer different questions",
+        "kind": "matrix",
+        "rows": [
+          [
+            "Static",
+            "What did we plan at one activity level?",
+            "Keep the original activity assumption visible"
+          ],
+          [
+            "Flexible",
+            "What would the plan imply at the actual activity level?",
+            "Separate activity effects from spending or efficiency effects"
+          ],
+          [
+            "Rolling",
+            "What does the next fixed-length horizon look like now?",
+            "Add a future period as an elapsed period drops out"
+          ]
+        ],
+        "note": "Editorial clarification of the supplied distinctions. Preparing a plan, flexing a budget for control and maintaining a rolling forecast are different uses.",
+        "headers": [
+          "Approach",
+          "Question",
+          "Interpretation"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "budget-preparation-control",
+    "title": "Prepare a budget and build a useful control cycle",
+    "collection": "financial-planning-analysis",
+    "group": "Planning & reporting",
+    "summary": "Follow the planning cycle, coordinate draft budgets and connect responsibility, participation, reporting and corrective action.",
+    "takeaway": "A budget becomes useful through ownership, timely feedback and decisions, not just completion of a spreadsheet.",
+    "ranges": [
+      {
+        "document": "Budgeting.docx",
+        "start": 5,
+        "end": 10,
+        "heading": "Plan, compare, investigate and plan again",
+        "subheadings": [
+          5
+        ]
+      },
+      {
+        "document": "Budgeting.docx",
+        "start": 73,
+        "end": 83,
+        "heading": "Planning and control: the supplied sequence",
+        "subheadings": [
+          73
+        ]
+      },
+      {
+        "document": "Budgeting.docx",
+        "start": 83,
+        "end": 93,
+        "heading": "Nine budget-setting responsibilities",
+        "subheadings": [
+          83
+        ]
+      },
+      {
+        "document": "Budgeting.docx",
+        "start": 93,
+        "end": 108,
+        "heading": "Benefits and limitations",
+        "subheadings": [
+          93,
+          99
+        ]
+      },
+      {
+        "document": "Budgeting.docx",
+        "start": 108,
+        "end": 121,
+        "heading": "Commercial assumptions, constraints and behavior",
+        "subheadings": [
+          108
+        ]
+      },
+      {
+        "document": "Budgeting.docx",
+        "start": 130,
+        "end": 144,
+        "heading": "Conditions for effective budgetary control",
+        "subheadings": [
+          130
+        ]
+      }
+    ],
+    "steps": [
+      "Plan, compare, investigate and plan again",
+      "Planning and control: the supplied sequence",
+      "Nine budget-setting responsibilities",
+      "Benefits and limitations",
+      "Commercial assumptions, constraints and behavior",
+      "Conditions for effective budgetary control"
+    ],
+    "notes": [
+      "The source’s “Zero based on incremental” phrase is unclear and does not define a hybrid method. Participation, zero-based budgeting and incremental budgeting are distinct choices. Claims that budgets improve performance or demanding targets motivate managers depend on context; the source also warns that unrealistic targets and budgetary gaming can undermine results."
+    ],
+    "related": [
+      "budgeting-methods",
+      "budget-variance-investigation",
+      "employee-engagement"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "title": "From assumptions to corrective action",
+        "kind": "flow",
+        "rows": [
+          [
+            "Agree objectives, ownership and constraints"
+          ],
+          [
+            "Coordinate budgets around the limiting factor"
+          ],
+          [
+            "Communicate the agreed plan"
+          ],
+          [
+            "Collect actual performance on a comparable basis"
+          ],
+          [
+            "Investigate differences and act"
+          ],
+          [
+            "Revise assumptions where circumstances change"
+          ]
+        ],
+        "note": "Editorial summary of the planning/control cycle. The source repeats the revision step to indicate a loop.",
+        "headers": []
+      }
+    ],
+    "editorialSections": [],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "budget-variance-investigation",
+    "title": "Investigate a variance before judging performance",
+    "collection": "financial-planning-analysis",
+    "group": "Reporting quality & analysis",
+    "summary": "Distinguish effectiveness from efficiency and examine three explanations for a favorable material-price variance.",
+    "takeaway": "A favorable price variance can hide lower quality or unnecessary stock; investigate the cause and the wider effect.",
+    "ranges": [
+      {
+        "document": "Budgeting.docx",
+        "start": 121,
+        "end": 130,
+        "heading": "Effectiveness, efficiency and the purchasing-manager example",
+        "subheadings": [
+          121
+        ]
+      }
+    ],
+    "steps": [
+      "Effectiveness, efficiency and the purchasing-manager example"
+    ],
+    "notes": [
+      "No actual/budget dataset, standard quantities or complete variance formulas are supplied. The three purchasing explanations are alternative possibilities, not findings about a real manager."
+    ],
+    "related": [
+      "budget-preparation-control",
+      "working-capital-cycle",
+      "cost-drivers"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "title": "One favorable variance, three possible explanations",
+        "kind": "matrix",
+        "rows": [
+          [
+            "Better negotiation",
+            "A lower price on comparable terms",
+            "Check quantity, quality, delivery and total cost"
+          ],
+          [
+            "Lower-quality materials",
+            "A lower purchase price",
+            "Check rework, defects and customer consequences"
+          ],
+          [
+            "Bulk purchasing",
+            "A quantity discount",
+            "Check excess inventory and carrying costs"
+          ]
+        ],
+        "note": "Recreated from the source example; investigate rather than assume which explanation applies.",
+        "headers": [
+          "Possible cause",
+          "Visible effect",
+          "Question to investigate"
+        ]
+      }
+    ],
+    "editorialSections": [],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "margin-markup",
+    "title": "Margin and markup: two bases for the same gross profit",
+    "collection": "costing-management-accounting",
+    "group": "Cost concepts & decisions",
+    "summary": "Compare price-based margin with cost-based markup and use the supplied conversions with consistent decimal or percentage units.",
+    "takeaway": "Margin divides gross profit by price; markup divides it by cost. The denominator changes the percentage.",
+    "ranges": [
+      {
+        "document": "Costing.docx",
+        "start": 0,
+        "end": 7,
+        "heading": "Definitions, expressions and percentage conversions",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Definitions, expressions and percentage conversions"
+    ],
+    "notes": [
+      "The source mixes percentage expressions with fractional conversion formulas. Enter 25% as 0.25 in fraction-based conversions, then multiply the result by 100 only for percentage display. “Keep” refers to gross profit before other applicable costs, not necessarily final net profit."
+    ],
+    "related": [
+      "gross-profit-contribution",
+      "profit-margins-returns",
+      "marketing-pricing-methods"
+    ],
+    "references": [
+      {
+        "title": "OpenStax: contribution margin and contribution-margin ratio",
+        "url": "https://openstax.org/books/principles-managerial-accounting/pages/3-1-explain-contribution-margin-and-calculate-contribution-margin-per-unit-contribution-margin-ratio-and-total-contribution-margin"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": [
+      {
+        "heading": "An illustrative comparison",
+        "paragraphs": [
+          "For an editorial example, take a product with price 125 and corresponding cost 100 in the same currency. Gross profit is 25, margin is 20% and markup is 25%. This is a hypothetical arithmetic illustration, not supplied company data."
+        ]
+      }
+    ],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "relevant-costs",
+    "title": "Relevant costs, cost behavior and opportunity costs",
+    "collection": "costing-management-accounting",
+    "group": "Cost concepts & decisions",
+    "summary": "Separate costs that change with a decision from historical or committed amounts, and distinguish cost behavior from allocation labels.",
+    "takeaway": "Ask whether a future cost changes between the alternatives; do not confuse an allocated cost with an avoidable one.",
+    "ranges": [
+      {
+        "document": "Costing.docx",
+        "start": 7,
+        "end": 21,
+        "heading": "Historical, relevant, irrelevant and opportunity costs",
+        "table": {
+          "headers": [
+            "Cost category",
+            "Supplied description or examples"
+          ],
+          "rows": [
+            [
+              [
+                8
+              ],
+              [
+                9
+              ]
+            ],
+            [
+              [
+                10
+              ],
+              [
+                11,
+                12,
+                13,
+                14
+              ]
+            ],
+            [
+              [
+                15
+              ],
+              [
+                16,
+                17,
+                18
+              ]
+            ],
+            [
+              [
+                19
+              ],
+              [
+                20
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "document": "Costing.docx",
+        "start": 21,
+        "end": 37,
+        "heading": "Cost categories named in the source",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Historical, relevant, irrelevant and opportunity costs",
+      "Cost categories named in the source"
+    ],
+    "notes": [
+      "Many categories are supplied only as names: period, incremental, mixed, step, direct, allocated, economic, conversion, manufacturing, operating, overhead and product costs. No classification dataset is provided. Fixed/variable behavior depends on the relevant activity range and time horizon."
+    ],
+    "related": [
+      "cost-drivers",
+      "full-absorption-costing",
+      "project-cost-estimation",
+      "capital-project-cash-flows"
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": [],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "cost-drivers",
+    "title": "Cost drivers: connect spending with activity and design",
+    "collection": "costing-management-accounting",
+    "group": "Cost concepts & decisions",
+    "summary": "Use the source’s volume, efficiency, process, quality, overhead, material and labor examples to investigate why costs change.",
+    "takeaway": "A potential cost lever is a question to examine, not evidence that cutting it will improve total value.",
+    "ranges": [
+      {
+        "document": "Costing.docx",
+        "start": 37,
+        "end": 55,
+        "heading": "Internal drivers: volume, efficiency, process and quality",
+        "table": {
+          "headers": [
+            "Driver family",
+            "Supplied examples"
+          ],
+          "rows": [
+            [
+              [
+                39
+              ],
+              [
+                40,
+                41,
+                42
+              ]
+            ],
+            [
+              [
+                43
+              ],
+              [
+                44,
+                45,
+                46
+              ]
+            ],
+            [
+              [
+                47
+              ],
+              [
+                48,
+                49,
+                50
+              ]
+            ],
+            [
+              [
+                51
+              ],
+              [
+                52,
+                53,
+                54
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "document": "Costing.docx",
+        "start": 55,
+        "end": 68,
+        "heading": "External-driver labels: overhead, materials and labor",
+        "table": {
+          "headers": [
+            "Driver family",
+            "Supplied examples"
+          ],
+          "rows": [
+            [
+              [
+                56
+              ],
+              [
+                57,
+                58,
+                59
+              ]
+            ],
+            [
+              [
+                60
+              ],
+              [
+                61,
+                62,
+                63
+              ]
+            ],
+            [
+              [
+                64
+              ],
+              [
+                65,
+                66,
+                67
+              ]
+            ]
+          ]
+        }
+      }
+    ],
+    "steps": [
+      "Internal drivers: volume, efficiency, process and quality",
+      "External-driver labels: overhead, materials and labor"
+    ],
+    "notes": [
+      "The source’s internal/external split is a loose grouping: energy, outsourcing, sourcing and staffing choices can involve both internal decisions and external conditions. The examples are not measured savings opportunities."
+    ],
+    "related": [
+      "activity-based-costing",
+      "budget-variance-investigation",
+      "theory-of-constraints"
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": [],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "full-absorption-costing",
+    "title": "Full costing: trace direct costs and allocate overhead",
+    "collection": "costing-management-accounting",
+    "group": "Costing methods",
+    "summary": "Read the purpose of full costing, direct/indirect distinctions and the source’s job, absorption, cost-center and batch-costing references.",
+    "takeaway": "Make the cost object and allocation basis explicit before interpreting a full unit cost.",
+    "ranges": [
+      {
+        "document": "Costing.docx",
+        "start": 93,
+        "end": 111,
+        "heading": "Uses, traceability, overhead segmentation and costing methods",
+        "subheadings": [
+          93
+        ]
+      }
+    ],
+    "steps": [
+      "Uses, traceability, overhead segmentation and costing methods"
+    ],
+    "notes": [
+      "The source names batch costing and forward-looking full costing without a completed calculation. It does not supply cost pools, allocation bases, activity quantities or production volumes. Allocated full cost and decision-relevant incremental cost answer different questions."
+    ],
+    "related": [
+      "relevant-costs",
+      "activity-based-costing",
+      "gross-profit-contribution"
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": [],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "activity-based-costing",
+    "title": "Activity-based costing: activities, pools and cost drivers",
+    "collection": "costing-management-accounting",
+    "group": "Costing methods",
+    "summary": "Follow the supplied sequence from support activities to cost pools and driver-based assignment to output.",
+    "takeaway": "Choose drivers that explain resource consumption and make the limits of the allocation clear.",
+    "ranges": [
+      {
+        "document": "Costing.docx",
+        "start": 111,
+        "end": 120,
+        "heading": "From support activities to output costs",
+        "subheadings": [
+          111
+        ]
+      }
+    ],
+    "steps": [
+      "From support activities to output costs"
+    ],
+    "notes": [
+      "The claim of more accurate costs is conditional on the activity model, data quality and chosen drivers. No rates, driver volumes or worked allocation case are supplied."
+    ],
+    "related": [
+      "cost-drivers",
+      "full-absorption-costing",
+      "budgeting-methods"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "title": "Build an activity-based cost view",
+        "kind": "flow",
+        "rows": [
+          [
+            "Identify support activities"
+          ],
+          [
+            "Determine the costs of each activity"
+          ],
+          [
+            "Identify what causes activity consumption"
+          ],
+          [
+            "Establish activity cost pools"
+          ],
+          [
+            "Assign support costs to pools"
+          ],
+          [
+            "Charge output using relevant driver quantities"
+          ]
+        ],
+        "note": "Recreated from the supplied method. The upload provides no numerical example.",
+        "headers": []
+      }
+    ],
+    "editorialSections": [],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "gross-profit-contribution",
+    "title": "Gross profit and contribution: different cost boundaries",
+    "collection": "costing-management-accounting",
+    "group": "Margins & profitability",
+    "summary": "Compare gross-profit amounts and margins with unit contribution and the contribution-margin ratio.",
+    "takeaway": "State the cost boundary: cost of goods sold is not the same as all variable costs.",
+    "ranges": [
+      {
+        "document": "Costing.docx",
+        "start": 120,
+        "end": 128,
+        "heading": "Gross profit, gross margin and cost of goods sold",
+        "subheadings": [
+          120
+        ]
+      },
+      {
+        "document": "Costing.docx",
+        "start": 128,
+        "end": 135,
+        "heading": "Unit contribution and contribution-margin ratio",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Gross profit, gross margin and cost of goods sold",
+      "Unit contribution and contribution-margin ratio"
+    ],
+    "notes": [
+      "The source first equates gross profit with sales less direct cost, then includes manufacturing fixed and variable overhead in cost of goods sold. Direct cost alone is not a reliable substitute for the applicable cost-of-sales basis. Gross profit is an amount; gross margin is a ratio. Contribution is useful beyond individual products, but this source develops the unit view."
+    ],
+    "related": [
+      "margin-markup",
+      "profit-margins-returns",
+      "full-absorption-costing"
+    ],
+    "references": [
+      {
+        "title": "OpenStax: contribution margin and contribution-margin ratio",
+        "url": "https://openstax.org/books/principles-managerial-accounting/pages/3-1-explain-contribution-margin-and-calculate-contribution-margin-per-unit-contribution-margin-ratio-and-total-contribution-margin"
+      }
+    ],
+    "visuals": [
+      {
+        "title": "Two questions about profitability",
+        "kind": "matrix",
+        "rows": [
+          [
+            "Gross profit",
+            "Revenue minus the matching cost of goods sold",
+            "How profitable is the sold output under the accounting cost basis?"
+          ],
+          [
+            "Contribution",
+            "Revenue or unit price minus matching variable costs",
+            "What remains to cover fixed costs and profit?"
+          ]
+        ],
+        "note": "Editorial comparison. Do not mix unit amounts with period totals or assume direct costs equal all variable costs.",
+        "headers": [
+          "Measure",
+          "Cost boundary",
+          "Question"
+        ]
+      }
+    ],
+    "editorialSections": [],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "capital-investment-appraisal",
+    "title": "NPV, IRR, payback and profitability index: compare their questions",
+    "collection": "valuation-transactions",
+    "group": "Valuation foundations",
+    "summary": "Read the supplied capital-appraisal measures with corrected cash-flow timing, denominator and interpretation notes.",
+    "takeaway": "Evaluate cash flows, scale, risk and strategic fit together; a single percentage or payback period cannot settle every project choice.",
+    "ranges": [
+      {
+        "document": "Costing.docx",
+        "start": 68,
+        "end": 89,
+        "heading": "Four appraisal measures and their assumptions",
+        "subheadings": [
+          68
+        ]
+      },
+      {
+        "document": "Costing.docx",
+        "start": 89,
+        "end": 93,
+        "heading": "Margin of safety and operating gearing: short source definitions",
+        "subheadings": []
+      },
+      {
+        "document": "Costing.docx",
+        "start": 135,
+        "end": 148,
+        "heading": "IRR and ROI: the supplied comparison",
+        "subheadings": [
+          135
+        ]
+      }
+    ],
+    "steps": [
+      "Four appraisal measures and their assumptions",
+      "Margin of safety and operating gearing: short source definitions",
+      "IRR and ROI: the supplied comparison"
+    ],
+    "notes": [
+      "The source’s “NPB” is a transcription error in its IRR expression. A project normally has both an initial outflow and later inflows; mixed signs alone are not a reason to reject IRR. Multiple sign changes can lead to multiple or no meaningful IRRs. IRR itself does not measure all investment risk; compare with an appropriate required return and the cash-flow assumptions.",
+      "The simple payback expression assumes equal positive annual net inflows. Margin of safety and operating gearing are only briefly defined; no completed break-even or operating-leverage calculation is supplied."
+    ],
+    "related": [
+      "capital-project-cash-flows",
+      "discounted-cash-flow",
+      "cost-of-capital-returns",
+      "accounting-formula-directory"
+    ],
+    "references": [
+      {
+        "title": "OpenStax: net present value",
+        "url": "https://openstax.org/books/principles-finance/pages/16-2-net-present-value-npv-method"
+      },
+      {
+        "title": "OpenStax: internal rate of return",
+        "url": "https://openstax.org/books/principles-finance/pages/16-3-internal-rate-of-return-irr-method"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": [],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "capital-project-cash-flows",
+    "appendTo": "capital-project-cash-flows",
+    "ranges": [],
+    "related": [
+      "capital-investment-appraisal",
+      "relevant-costs"
+    ]
+  },
+  {
+    "slug": "market-valuation-measures",
+    "appendTo": "market-valuation-measures",
+    "ranges": [
+      {
+        "document": "Finance.docx",
+        "start": 0,
+        "end": 6,
+        "heading": "Shareholder-value analysis and the dividend-growth model",
+        "subheadings": [],
+        "pairs": true,
+        "skip": 2
+      }
+    ],
+    "notes": [
+      "The upload supplies short descriptions of Rappaport shareholder-value analysis and the Gordon dividend model, not a full valuation model. A constant-growth dividend model is a particular dividend-discount model, not every DDM. Forecast dividends, required return and sustainable growth are not supplied."
+    ],
+    "related": [
+      "capital-investment-appraisal",
+      "investment-research-checklist"
+    ],
+    "editorialSections": [
+      {
+        "heading": "Dividends and shareholder value",
+        "paragraphs": [
+          "Shareholder-value analysis is presented as a perspective on decisions, not a claim that every stakeholder objective is reducible to one calculation. For the Gordon model, distinguish next-period dividends from current dividends and state the constant-growth assumptions and required-return/growth relationship. The general DCF reading explains why cash-flow timing and terminal assumptions matter."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "investment-assets",
+    "title": "Investment assets: cash, ownership, debt and real assets",
+    "collection": "investing-portfolio-management",
+    "group": "Assets & investment vehicles",
+    "summary": "Classify the supplied cash, bond, equity, real-estate, infrastructure, commodity and collectible references, keeping unsourced risk labels in context.",
+    "takeaway": "Start with the underlying exposure; a fund, product structure and strategy are different layers of an investment.",
+    "ranges": [
+      {
+        "document": "Investment.docx",
+        "start": 0,
+        "end": 17,
+        "heading": "Cash and currency: supplied terms and unverified annotations",
+        "table": {
+          "headers": [
+            "Source term",
+            "Original annotation: unverified risk labels / descriptions"
+          ],
+          "rows": [
+            [
+              [
+                3
+              ],
+              [
+                4
+              ]
+            ],
+            [
+              [
+                5
+              ],
+              [
+                6
+              ]
+            ],
+            [
+              [
+                7
+              ],
+              [
+                8
+              ]
+            ],
+            [
+              [
+                9
+              ],
+              [
+                10
+              ]
+            ],
+            [
+              [
+                11
+              ],
+              [
+                12
+              ]
+            ],
+            [
+              [
+                13
+              ],
+              []
+            ],
+            [
+              [
+                14
+              ],
+              [
+                15,
+                16
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "document": "Investment.docx",
+        "start": 17,
+        "end": 29,
+        "heading": "Fixed-income references and unverified annotations",
+        "table": {
+          "headers": [
+            "Source term",
+            "Original annotation: unverified risk labels / descriptions"
+          ],
+          "rows": [
+            [
+              [
+                18
+              ],
+              [
+                19
+              ]
+            ],
+            [
+              [
+                20
+              ],
+              [
+                21
+              ]
+            ],
+            [
+              [
+                22
+              ],
+              [
+                23
+              ]
+            ],
+            [
+              [
+                24
+              ],
+              [
+                25
+              ]
+            ],
+            [
+              [
+                26
+              ],
+              []
+            ],
+            [
+              [
+                27
+              ],
+              [
+                28
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "document": "Investment.docx",
+        "start": 43,
+        "end": 53,
+        "heading": "Equity and share types: supplied terms and annotations",
+        "table": {
+          "headers": [
+            "Source term",
+            "Original annotation: unverified risk labels / descriptions"
+          ],
+          "rows": [
+            [
+              [
+                44
+              ],
+              [
+                45
+              ]
+            ],
+            [
+              [
+                46
+              ],
+              [
+                47
+              ]
+            ],
+            [
+              [
+                48
+              ],
+              [
+                49
+              ]
+            ],
+            [
+              [
+                50
+              ],
+              [
+                51
+              ]
+            ],
+            [
+              [
+                52
+              ],
+              []
+            ]
+          ]
+        }
+      },
+      {
+        "document": "Investment.docx",
+        "start": 57,
+        "end": 64,
+        "heading": "Equity labels and market-cap groupings"
+      },
+      {
+        "document": "Investment.docx",
+        "start": 83,
+        "end": 93,
+        "heading": "Property references and unverified annotations",
+        "table": {
+          "headers": [
+            "Source term",
+            "Original annotation: unverified risk labels / descriptions"
+          ],
+          "rows": [
+            [
+              [
+                84
+              ],
+              [
+                85
+              ]
+            ],
+            [
+              [
+                86
+              ],
+              [
+                87
+              ]
+            ],
+            [
+              [
+                88
+              ],
+              [
+                89
+              ]
+            ],
+            [
+              [
+                90
+              ],
+              [
+                91
+              ]
+            ],
+            [
+              [
+                92
+              ],
+              []
+            ]
+          ]
+        }
+      },
+      {
+        "document": "Investment.docx",
+        "start": 94,
+        "end": 102,
+        "heading": "Infrastructure references and unverified annotations",
+        "table": {
+          "headers": [
+            "Source term",
+            "Original annotation: unverified risk labels / descriptions"
+          ],
+          "rows": [
+            [
+              [
+                95
+              ],
+              [
+                96
+              ]
+            ],
+            [
+              [
+                97
+              ],
+              [
+                98
+              ]
+            ],
+            [
+              [
+                99
+              ],
+              []
+            ],
+            [
+              [
+                100
+              ],
+              []
+            ],
+            [
+              [
+                101
+              ],
+              []
+            ]
+          ]
+        }
+      },
+      {
+        "document": "Investment.docx",
+        "start": 102,
+        "end": 118,
+        "heading": "Commodity references and unverified annotations",
+        "table": {
+          "headers": [
+            "Source term",
+            "Original annotation: unverified risk labels / descriptions"
+          ],
+          "rows": [
+            [
+              [
+                103
+              ],
+              [
+                104
+              ]
+            ],
+            [
+              [
+                105
+              ],
+              [
+                106
+              ]
+            ],
+            [
+              [
+                107
+              ],
+              [
+                108
+              ]
+            ],
+            [
+              [
+                109
+              ],
+              [
+                110
+              ]
+            ],
+            [
+              [
+                111
+              ],
+              [
+                112
+              ]
+            ],
+            [
+              [
+                113
+              ],
+              []
+            ],
+            [
+              [
+                114
+              ],
+              []
+            ],
+            [
+              [
+                115
+              ],
+              []
+            ],
+            [
+              [
+                116
+              ],
+              [
+                117
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "document": "Investment.docx",
+        "start": 133,
+        "end": 141,
+        "heading": "Collectibles named in the source"
+      },
+      {
+        "document": "Investment.docx",
+        "start": 178,
+        "end": 197,
+        "heading": "The source’s six broad allocation categories",
+        "subheadings": [],
+        "table": {
+          "headers": [
+            "Category",
+            "Source risk/return description",
+            "Source exposure description"
+          ],
+          "rows": [
+            [
+              [
+                179
+              ],
+              [
+                180
+              ],
+              [
+                181
+              ]
+            ],
+            [
+              [
+                182
+              ],
+              [
+                183
+              ],
+              [
+                184
+              ]
+            ],
+            [
+              [
+                185
+              ],
+              [
+                186
+              ],
+              [
+                187
+              ]
+            ],
+            [
+              [
+                188
+              ],
+              [
+                189
+              ],
+              [
+                190
+              ]
+            ],
+            [
+              [
+                191
+              ],
+              [
+                192
+              ],
+              [
+                193
+              ]
+            ],
+            [
+              [
+                194
+              ],
+              [
+                195
+              ],
+              [
+                196
+              ]
+            ]
+          ]
+        }
+      }
+    ],
+    "steps": [
+      "Distinguish cash, debt and equity exposures",
+      "Read property, infrastructure and commodity references",
+      "Keep unverified source risk labels in context",
+      "Compare the broad allocation categories"
+    ],
+    "notes": [
+      "The numeric “Risk” labels are unverified source annotations. The upload supplies no scale definition, time horizon, currency, loss probability, methodology or citation. They are retained for traceability and are not ratings issued by InsightGinie. Do not compare them as calibrated scores.",
+      "The source describes fixed income as low risk and private equity as very high risk/return. Those are broad teaching labels, not guarantees or a common risk scale. Treasury stock is an issuer’s repurchased shares, not the same kind of investor holding category as ordinary public shares. The statement that crypto can only be priced is a source viewpoint, not a universal valuation theorem."
+    ],
+    "related": [
+      "investment-funds-vehicles",
+      "structured-debt-contracts",
+      "portfolio-allocation",
+      "commodity-trade-terms"
+    ],
+    "references": [
+      {
+        "title": "Investor.gov: investment products",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products"
+      },
+      {
+        "title": "Investor.gov: asset allocation and diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ],
+    "visuals": [
+      {
+        "title": "Separate the layers of an investment",
+        "kind": "cards",
+        "rows": [
+          [
+            "Underlying asset",
+            "Cash, debt claims, equity ownership, property or other real exposure"
+          ],
+          [
+            "Vehicle or contract",
+            "A fund, note, trust, deposit or derivative can package exposure"
+          ],
+          [
+            "Strategy",
+            "Long/short, momentum, arbitrage or risk allocation describes how exposures are managed"
+          ]
+        ],
+        "note": "Editorial classification aid. The supplied list mixes these layers; a product name alone does not describe all risks.",
+        "headers": []
+      }
+    ],
+    "editorialSections": [],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "investment-funds-vehicles",
+    "title": "Funds and investment vehicles: distinguish the wrapper from the exposure",
+    "collection": "investing-portfolio-management",
+    "group": "Assets & investment vehicles",
+    "summary": "Read the supplied fund types, structured-product labels, private-capital vehicles, ETFs, ETNs and related references without treating them as one asset class.",
+    "takeaway": "Ask what the vehicle owns or promises, how it is financed and when an investor can exit.",
+    "ranges": [
+      {
+        "document": "Investment.docx",
+        "start": 29,
+        "end": 30,
+        "heading": "Unit investment trust: a source reference",
+        "subheadings": []
+      },
+      {
+        "document": "Investment.docx",
+        "start": 53,
+        "end": 57,
+        "heading": "Investment, unit, index and balanced funds",
+        "subheadings": []
+      },
+      {
+        "document": "Investment.docx",
+        "start": 68,
+        "end": 83,
+        "heading": "Structured products and private-capital fund types",
+        "subheadings": []
+      },
+      {
+        "document": "Investment.docx",
+        "start": 141,
+        "end": 159,
+        "heading": "Alternative exposures, hedge-fund labels and exchange-traded products",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Unit investment trust: a source reference",
+      "Investment, unit, index and balanced funds",
+      "Structured products and private-capital fund types",
+      "Alternative exposures, hedge-fund labels and exchange-traded products"
+    ],
+    "notes": [
+      "The numeric “Risk” labels are unverified source annotations. The upload supplies no scale definition, time horizon, currency, loss probability, methodology or citation. They are retained for traceability and are not ratings issued by InsightGinie. Do not compare them as calibrated scores.",
+      "ETFs and ETNs are not automatically derivatives, and mutual funds are not inherently alternative assets. Private debt, peer-to-peer lending, managed futures and inflation hedges describe different exposures or strategies. A floating-rate note is a debt instrument, not a fund wrapper.",
+      "The source calls hedge funds “unregulated”. That is too broad: registration, exemptions, investor eligibility and regulation depend on jurisdiction and structure. The linked SEC explanation is US-specific. The source’s “zero-sum” phrase does not establish that every listed vehicle is a zero-sum investment."
+    ],
+    "related": [
+      "investment-assets",
+      "portfolio-strategies",
+      "private-capital-stages",
+      "structured-debt-contracts"
+    ],
+    "references": [
+      {
+        "title": "Investor.gov: investment products",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products"
+      },
+      {
+        "title": "Investor.gov: exchange-traded funds",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-2"
+      },
+      {
+        "title": "Investor.gov: hedge funds and their regulatory context",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/private-investment-funds/hedge-funds"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": [
+      {
+        "heading": "Read beyond the product label",
+        "paragraphs": [
+          "For a fund, distinguish the legal structure from its holdings, investment policy, fees and redemption terms. For a note or structured product, identify the issuer’s obligations and any underlying exposures. These are editorial reading questions, not a claim that this upload supplies a prospectus or complete product terms."
+        ]
+      }
+    ],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "structured-debt-contracts",
+    "title": "Loan features, structured credit and derivative contracts",
+    "collection": "investing-portfolio-management",
+    "group": "Assets & investment vehicles",
+    "summary": "Distinguish maturity and repayment features, structured-credit instruments and the listed derivative or trading references.",
+    "takeaway": "A contract’s payoff, issuer obligations and termination rights matter as much as its name.",
+    "ranges": [
+      {
+        "document": "Investment.docx",
+        "start": 30,
+        "end": 42,
+        "heading": "Loan, repayment and creditor-priority terms",
+        "subheadings": [],
+        "pairs": true
+      },
+      {
+        "document": "Investment.docx",
+        "start": 42,
+        "end": 43,
+        "heading": "Endowment fund: an institutional reference",
+        "subheadings": []
+      },
+      {
+        "document": "Investment.docx",
+        "start": 64,
+        "end": 68,
+        "heading": "Covered and traditional warrants: supplied shorthand",
+        "subheadings": [],
+        "pairs": true
+      },
+      {
+        "document": "Investment.docx",
+        "start": 93,
+        "end": 94,
+        "heading": "Asset-backed securities: the broader category"
+      },
+      {
+        "document": "Investment.docx",
+        "start": 159,
+        "end": 178,
+        "heading": "Derivatives, trading strategies and structured credit",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Loan, repayment and creditor-priority terms",
+      "Endowment fund: an institutional reference",
+      "Covered and traditional warrants: supplied shorthand",
+      "Derivatives, trading strategies and structured credit"
+    ],
+    "notes": [
+      "The covered-versus-traditional warrant conversion statements are source shorthand; settlement terms vary by instrument. The income-bond restrictions are supplied as an unreferenced rule, not a universal covenant. Endowment fund belongs to institutional purpose rather than a debt contract type.",
+      "Forex is a market/exposure and equity-neutral, carry, relative-value and short-volatility labels are strategies, not all separate derivative contracts. The descriptions of RMBS, ABCP, SIVs, CDOs and CDS are introductory summaries without full term sheets, legal scope or pricing inputs.",
+      "Repayment structure, collateral and early-termination rights are separate contractual questions. The bullet-loan and debenture descriptions are source shorthand, not universal definitions across jurisdictions or proof of the rights in a specific agreement."
+    ],
+    "related": [
+      "investment-funds-vehicles",
+      "portfolio-strategies",
+      "investment-risk-measures"
+    ],
+    "references": [
+      {
+        "title": "Investor.gov: investment products",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": [],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "commodity-trade-terms",
+    "title": "Physical commodity terms: fuels, grades and product labels",
+    "collection": "investing-portfolio-management",
+    "group": "Assets & investment vehicles",
+    "summary": "Keep the supplied petroleum, gas, fuel, material and fertilizer references distinct from investment vehicles and portfolio strategies.",
+    "takeaway": "A product label or specification fragment is not a complete contract or investment recommendation.",
+    "ranges": [
+      {
+        "document": "Investment.docx",
+        "start": 118,
+        "end": 133,
+        "heading": "The complete supplied physical-product list",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "The complete supplied physical-product list"
+    ],
+    "notes": [
+      "EN590, the PPM sequence, MazutM100, Gasoil D6, JP54/Jet Fuel A1, REBCO, ESPO and other labels are retained as supplied. The source provides no standards editions, certificates, delivery terms, units for every number or verified counterparties. UREA is a fertilizer-related product reference; do not silently treat it as a petroleum grade."
+    ],
+    "related": [
+      "investment-assets",
+      "marketing-channels",
+      "risk-management"
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": [],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "portfolio-allocation",
+    "title": "Portfolio allocation: objectives, diversification and risk balance",
+    "collection": "investing-portfolio-management",
+    "group": "Portfolio construction & upkeep",
+    "summary": "Connect investment objectives with diversification, risk allocation, expected inputs and the source’s stock/bond volatility-balancing relation.",
+    "takeaway": "Define the goal and constraints before treating any allocation method as optimal.",
+    "ranges": [
+      {
+        "document": "Investment.docx",
+        "start": 313,
+        "end": 319,
+        "heading": "Leverage aversion, risk parity and the efficient frontier",
+        "subheadings": [],
+        "pairs": true
+      },
+      {
+        "document": "Investment.docx",
+        "start": 563,
+        "end": 565,
+        "heading": "Expected inputs and a two-asset volatility relation",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Leverage aversion, risk parity and the efficient frontier",
+      "Expected inputs and a two-asset volatility relation"
+    ],
+    "notes": [
+      "The source’s claim that overweighting safer assets achieves the highest risk-adjusted return is a hypothesis with assumptions, not a guaranteed portfolio rule. Risk parity usually concerns risk contributions; the supplied two-asset relation does not define a full covariance-aware multi-asset optimizer.",
+      "No return history, covariance matrix, investment constraints, borrowing costs or investor-specific objectives are supplied. Expected risk and return are estimates, not promised outcomes."
+    ],
+    "related": [
+      "portfolio-strategies",
+      "portfolio-costs-maintenance",
+      "investment-risk-measures",
+      "investment-assets"
+    ],
+    "references": [
+      {
+        "title": "Investor.gov: asset allocation and diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ],
+    "visuals": [
+      {
+        "title": "Before comparing allocation methods",
+        "kind": "flow",
+        "rows": [
+          [
+            "Define the financial objective and horizon"
+          ],
+          [
+            "Identify constraints, liquidity needs and costs"
+          ],
+          [
+            "Estimate compatible returns, volatility and correlations"
+          ],
+          [
+            "Compare exposures and concentration"
+          ],
+          [
+            "Review outcomes and changing assumptions"
+          ]
+        ],
+        "note": "Editorial reading sequence, not a personalized allocation or an implemented optimizer.",
+        "headers": []
+      }
+    ],
+    "editorialSections": [],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "portfolio-strategies",
+    "title": "Portfolio strategies: neutrality, leverage and weighting",
+    "collection": "investing-portfolio-management",
+    "group": "Portfolio construction & upkeep",
+    "summary": "Compare the source’s utility, neutral, long/short, equitized, momentum and hedge descriptions, then distinguish weighting methods.",
+    "takeaway": "Net exposure, gross exposure and the risk being neutralized are separate questions.",
+    "ranges": [
+      {
+        "document": "Investment.docx",
+        "start": 460,
+        "end": 483,
+        "heading": "Eleven portfolio and exposure descriptions",
+        "subheadings": [],
+        "pairs": true,
+        "skip": 1
+      },
+      {
+        "document": "Investment.docx",
+        "start": 424,
+        "end": 433,
+        "heading": "Weighting and smart-beta labels in the source",
+        "subheadings": []
+      },
+      {
+        "document": "Investment.docx",
+        "start": 559,
+        "end": 560,
+        "heading": "Tactical alpha: the source definition",
+        "subheadings": []
+      },
+      {
+        "document": "Investment.docx",
+        "start": 565,
+        "end": 566,
+        "heading": "Optimization methods named without an implementation",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Eleven portfolio and exposure descriptions",
+      "Weighting and smart-beta labels in the source",
+      "Tactical alpha: the source definition",
+      "Optimization methods named without an implementation"
+    ],
+    "notes": [
+      "The 130/30 description’s reference to “preferred stocks” is not a general requirement of a 130/30 structure. It describes 130 long and 30 short against 100 net capital; gross exposure is 160, while net dollar exposure is 100. Neither figure alone establishes market beta or total risk.",
+      "Dollar-neutral, beta-neutral and market-neutral are different targets and do not imply zero risk. The source mixes smart-beta, market-cap weighting, handcrafted and fully optimized labels. “Maximum variance” may be intentional or a transcription issue; it is preserved and not silently changed to minimum variance."
+    ],
+    "related": [
+      "portfolio-allocation",
+      "investment-risk-measures",
+      "investment-funds-vehicles"
+    ],
+    "references": [
+      {
+        "title": "Investor.gov: asset allocation and diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": [],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "portfolio-costs-maintenance",
+    "title": "Portfolio costs and maintenance: review the whole holding cycle",
+    "collection": "investing-portfolio-management",
+    "group": "Portfolio construction & upkeep",
+    "summary": "Read the supplied fee categories, review tasks, reweighting and diversification prompts as a maintenance checklist.",
+    "takeaway": "Review exposures, costs and circumstances together; a calendar reminder alone does not determine a trade.",
+    "ranges": [
+      {
+        "document": "Investment.docx",
+        "start": 319,
+        "end": 321,
+        "heading": "Portfolio maintenance: the short source summary",
+        "subheadings": [],
+        "pairs": true
+      },
+      {
+        "document": "Investment.docx",
+        "start": 492,
+        "end": 502,
+        "heading": "Charges across entry, holding and rebalancing",
+        "subheadings": []
+      },
+      {
+        "document": "Investment.docx",
+        "start": 502,
+        "end": 513,
+        "heading": "Review, allocation and diversification prompts",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Portfolio maintenance: the short source summary",
+      "Charges across entry, holding and rebalancing",
+      "Review, allocation and diversification prompts"
+    ],
+    "notes": [
+      "No fee schedules, tax jurisdiction, rebalancing thresholds or portfolio holdings are supplied. Brokerage, fund fees, taxes and internal trading costs can overlap or arise differently by product; do not add unspecified amounts together. “Emergency diversification” and “correct allocation” are prompts without a supplied decision rule."
+    ],
+    "related": [
+      "portfolio-allocation",
+      "portfolio-strategies",
+      "investment-research-checklist"
+    ],
+    "references": [
+      {
+        "title": "Investor.gov: investment products",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products"
+      },
+      {
+        "title": "Investor.gov: asset allocation and diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": [],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "investment-risk-measures",
+    "title": "Read investment risk and performance measures",
+    "collection": "investing-portfolio-management",
+    "group": "Risk, evidence & research",
+    "summary": "Compare volatility, beta, alpha, correlation, drawdown, capture ratios, Sharpe, Sortino and information-ratio terminology.",
+    "takeaway": "Choose a measure for a specific question and state its benchmark, sampling period and assumptions.",
+    "ranges": [
+      {
+        "document": "Investment.docx",
+        "start": 392,
+        "end": 399,
+        "heading": "Beta, standard deviation and alpha",
+        "subheadings": [],
+        "pairs": true,
+        "skip": 1
+      },
+      {
+        "document": "Investment.docx",
+        "start": 399,
+        "end": 400,
+        "heading": "Style references named alongside risk measures",
+        "subheadings": []
+      },
+      {
+        "document": "Investment.docx",
+        "start": 400,
+        "end": 414,
+        "heading": "Seven measures and their supplied descriptions",
+        "subheadings": [],
+        "pairs": true
+      }
+    ],
+    "steps": [
+      "Beta, standard deviation and alpha",
+      "Style references named alongside risk measures",
+      "Seven measures and their supplied descriptions"
+    ],
+    "notes": [
+      "Beta measures sensitivity relative to a specified market benchmark rather than total risk. Alpha depends on the benchmark/model. Correlation describes co-movement, not causation. Source descriptions are introductory and lack a return series or estimation settings.",
+      "The Sharpe entry mixes beta, yield, size and alpha into its parenthesis; those are not the defining ingredients of a Sharpe ratio. Sharpe uses differential return and its standard deviation, with consistent periods. Sortino requires a target and downside definition. “BARRA mode” appears to refer to a model family, but no model/version is identified."
+    ],
+    "related": [
+      "portfolio-allocation",
+      "investment-concepts-models",
+      "investment-research-checklist"
+    ],
+    "references": [
+      {
+        "title": "William Sharpe: The Sharpe Ratio, 1994",
+        "url": "https://web.stanford.edu/~wfsharpe/art/sr/sr.htm"
+      }
+    ],
+    "visuals": [
+      {
+        "title": "Different questions need different measures",
+        "kind": "matrix",
+        "rows": [
+          [
+            "How variable were returns?",
+            "Volatility / standard deviation",
+            "Period, frequency and return definition"
+          ],
+          [
+            "How did it move with a market?",
+            "Beta and correlation",
+            "Benchmark and estimation window"
+          ],
+          [
+            "How deep was a loss from a peak?",
+            "Maximum drawdown",
+            "Path and observation period"
+          ],
+          [
+            "What return accompanied defined risk?",
+            "Sharpe, Sortino or information ratio",
+            "Differential/active return, denominator and benchmark"
+          ]
+        ],
+        "note": "Editorial orientation. These measures are not interchangeable or complete descriptions of investment risk.",
+        "headers": [
+          "Question",
+          "Measure family",
+          "What to specify"
+        ]
+      }
+    ],
+    "editorialSections": [],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "investment-concepts-models",
+    "title": "Investment concepts, financial models and incomplete signals",
+    "collection": "investing-portfolio-management",
+    "group": "Risk, evidence & research",
+    "summary": "Distinguish market hypotheses, valuation and portfolio models from the source’s incomplete analyst-signal expressions and historical idea labels.",
+    "takeaway": "A model name is not a ready-to-use method; check definitions, assumptions and evidence before calculating.",
+    "ranges": [
+      {
+        "document": "Investment.docx",
+        "start": 304,
+        "end": 313,
+        "heading": "Market hypotheses and factor-model references",
+        "subheadings": [],
+        "pairs": true,
+        "skip": 1
+      },
+      {
+        "document": "Investment.docx",
+        "start": 321,
+        "end": 331,
+        "heading": "Duration, return, momentum and MOIC references",
+        "subheadings": [],
+        "pairs": true
+      },
+      {
+        "document": "Investment.docx",
+        "start": 414,
+        "end": 424,
+        "heading": "Optimization, option pricing, dividend valuation and forecasting merit",
+        "subheadings": [],
+        "pairs": true
+      },
+      {
+        "document": "Investment.docx",
+        "start": 433,
+        "end": 460,
+        "heading": "Ideas and people named in the source",
+        "subheadings": [],
+        "pairs": true,
+        "skip": 1
+      },
+      {
+        "document": "Investment.docx",
+        "start": 483,
+        "end": 492,
+        "heading": "Incomplete consensus, flash, stock-return and neglect expressions",
+        "subheadings": []
+      },
+      {
+        "document": "Investment.docx",
+        "start": 573,
+        "end": 574,
+        "heading": "Principal component analysis: a short source reference",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Market hypotheses and factor-model references",
+      "Duration, return, momentum and MOIC references",
+      "Optimization, option pricing, dividend valuation and forecasting merit",
+      "Ideas and people named in the source",
+      "Incomplete consensus, flash, stock-return and neglect expressions",
+      "Principal component analysis: a short source reference"
+    ],
+    "notes": [
+      "The source gives names and short descriptions, not calibrated APT/factor models, BSM pricing inputs, a complete dividend model, PCA data or an optimization problem. EMH has different formulations; “all available information” is a shorthand hypothesis, not a guarantee of correct prices. “Disentangling and purify” is an ambiguous fragment.",
+      "The analyst-signal expressions have undefined consensus/flash predictors, controversy, scaling and timing. The neglect expression does not specify a logarithm base or validated modeling role. They remain unresolved formula entries, not an investment predictor.",
+      "The history-of-ideas pairings are supplied mnemonics with incomplete citations and apparent name transcription issues, including “Bigoilo” and “Dimiris”. They are not presented as a verified chronology or proof that each named person originated the associated idea."
+    ],
+    "related": [
+      "investment-risk-measures",
+      "market-valuation-measures",
+      "portfolio-allocation",
+      "accounting-formula-directory"
+    ],
+    "references": [
+      {
+        "title": "William Sharpe: The Sharpe Ratio, 1994",
+        "url": "https://web.stanford.edu/~wfsharpe/art/sr/sr.htm"
+      },
+      {
+        "title": "Investor.gov: investment products",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": [],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "private-capital-stages",
+    "title": "Private capital: strategies, stages, exits and source expectations",
+    "collection": "investing-portfolio-management",
+    "group": "Private capital & institutions",
+    "summary": "Read PE/VC strategies and exits, then compare the supplied Angel-to-Buyout table while keeping its unsourced figures and firm examples in context.",
+    "takeaway": "Investment stage, deal structure, liquidity and exit routes matter; source return targets are not expected outcomes for an investor.",
+    "ranges": [
+      {
+        "document": "Investment.docx",
+        "start": 197,
+        "end": 215,
+        "heading": "Strategies, exits and risk statements",
+        "subheadings": []
+      },
+      {
+        "document": "Investment.docx",
+        "start": 236,
+        "end": 304,
+        "heading": "Five investment stages: the complete supplied comparison",
+        "subheadings": [],
+        "table": {
+          "headers": [
+            "Dimension",
+            "Angel",
+            "Seed",
+            "Growth",
+            "Crossover",
+            "Late stage / buyout"
+          ],
+          "rows": [
+            [
+              [],
+              [
+                237
+              ],
+              [],
+              [],
+              [],
+              []
+            ],
+            [
+              [],
+              [
+                238
+              ],
+              [
+                239
+              ],
+              [
+                240
+              ],
+              [
+                241
+              ],
+              [
+                242
+              ]
+            ],
+            [
+              [
+                243
+              ],
+              [
+                244
+              ],
+              [
+                245
+              ],
+              [
+                246
+              ],
+              [
+                247
+              ],
+              [
+                248
+              ]
+            ],
+            [
+              [
+                249
+              ],
+              [
+                250
+              ],
+              [
+                251
+              ],
+              [
+                252
+              ],
+              [
+                253
+              ],
+              [
+                254
+              ]
+            ],
+            [
+              [
+                255
+              ],
+              [
+                256
+              ],
+              [
+                257
+              ],
+              [
+                258
+              ],
+              [
+                259
+              ],
+              [
+                260
+              ]
+            ],
+            [
+              [
+                261
+              ],
+              [
+                262
+              ],
+              [
+                263
+              ],
+              [
+                264
+              ],
+              [
+                265
+              ],
+              [
+                266
+              ]
+            ],
+            [
+              [
+                267
+              ],
+              [
+                268,
+                269,
+                270,
+                271,
+                272,
+                273,
+                274,
+                275
+              ],
+              [
+                276,
+                277,
+                278,
+                279,
+                280,
+                281,
+                282
+              ],
+              [
+                283,
+                284,
+                285,
+                286,
+                287,
+                288
+              ],
+              [
+                289,
+                290,
+                291,
+                292,
+                293,
+                294,
+                295
+              ],
+              [
+                296,
+                297,
+                298,
+                299,
+                300,
+                301,
+                302,
+                303
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "document": "Investment.docx",
+        "start": 572,
+        "end": 573,
+        "heading": "Pro-rata participation: a short source note",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Strategies, exits and risk statements",
+      "Five investment stages: the complete supplied comparison",
+      "Pro-rata participation: a short source note"
+    ],
+    "notes": [
+      "The $25 million minimum, 4–7 year holding statement and one-or-two-successes claim are unreferenced examples, not universal PE requirements or verified statistics. The stage table’s sizes, holding periods and very high IRR/multiple targets are undated, unverified source figures.",
+      "All supplied firm/stage examples are retained; firms can span stages and change activities. IPO and making a company public overlap in the source list. Pro-rata participation depends on contractual rights; the source does not provide a complete legal definition or agreement."
+    ],
+    "related": [
+      "private-capital-due-diligence",
+      "investment-funds-vehicles",
+      "capital-investment-appraisal",
+      "purchase-price-allocation"
+    ],
+    "references": [
+      {
+        "title": "Investor.gov: investment products",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": [],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "private-capital-due-diligence",
+    "title": "Private-capital due diligence: from teaser to integration planning",
+    "collection": "investing-portfolio-management",
+    "group": "Private capital & institutions",
+    "summary": "Follow the supplied diligence roadmap across financial, commercial, cultural, operational, people, legal and integration questions.",
+    "takeaway": "Use the roadmap to coordinate questions and responsibilities; a checklist does not establish that a deal is sound.",
+    "ranges": [
+      {
+        "document": "Investment.docx",
+        "start": 215,
+        "end": 236,
+        "heading": "The complete supplied diligence sequence",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "The complete supplied diligence sequence"
+    ],
+    "notes": [
+      "The order is a study roadmap, not a mandatory sequence for every transaction. NDA, CIM, indication of interest, letter of intent and quality of earnings are named without templates or transaction-specific requirements. No actual deal data or diligence findings are supplied."
+    ],
+    "related": [
+      "private-capital-stages",
+      "purchase-price-allocation",
+      "organizational-culture",
+      "financial-data-controls"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "title": "Diligence workstreams to connect",
+        "kind": "cards",
+        "rows": [
+          [
+            "Commercial",
+            "Market, customers, suppliers and opportunity"
+          ],
+          [
+            "Financial",
+            "Modeling, earnings quality and financing"
+          ],
+          [
+            "Organization",
+            "Culture, management, HR and integration"
+          ],
+          [
+            "Operational & technical",
+            "Processes, technology and execution risks"
+          ],
+          [
+            "Governance",
+            "Legal/regulatory, ESG, structure and closing"
+          ]
+        ],
+        "note": "Editorial grouping of the supplied checklist; retain the full sequence below.",
+        "headers": []
+      }
+    ],
+    "editorialSections": [],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "investment-research-checklist",
+    "title": "Research a business: operations, management and financial evidence",
+    "collection": "investing-portfolio-management",
+    "group": "Risk, evidence & research",
+    "summary": "Use the supplied business/management/financial questions and examine the return effects named in the notes as research leads.",
+    "takeaway": "Record evidence and counter-evidence rather than converting an unweighted checklist into a buy score.",
+    "ranges": [
+      {
+        "document": "Investment.docx",
+        "start": 364,
+        "end": 392,
+        "heading": "The complete supplied investing checklist",
+        "subheadings": [
+          365,
+          375,
+          386
+        ]
+      },
+      {
+        "document": "Investment.docx",
+        "start": 513,
+        "end": 536,
+        "heading": "Size and return effects named in the source",
+        "subheadings": [
+          514,
+          515,
+          517,
+          519,
+          521,
+          523,
+          525
+        ]
+      }
+    ],
+    "steps": [
+      "The complete supplied investing checklist",
+      "Size and return effects named in the source"
+    ],
+    "notes": [
+      "The checklist has no supplied author, weights, scoring rule or evidence thresholds. Merger avoidance, low reinvestment needs and other preferences are not universal indicators of a good investment. Historical return-effect names do not establish persistence after risk, transaction costs or testing bias."
+    ],
+    "related": [
+      "investment-behavior-returns",
+      "investment-risk-measures",
+      "market-valuation-measures",
+      "competitive-positioning"
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": [],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "investment-behavior-returns",
+    "title": "Investing maxims, decision behavior and compounded returns",
+    "collection": "investing-portfolio-management",
+    "group": "Risk, evidence & research",
+    "summary": "Read the supplied investment observations as prompts for evidence, cost awareness and goal-focused decisions, with claims separated from financial identities.",
+    "takeaway": "Distinguish a useful question from an unverified market claim; make cash-flow assumptions explicit when comparing returns.",
+    "ranges": [
+      {
+        "document": "Investment.docx",
+        "start": 536,
+        "end": 559,
+        "heading": "Supplied maxims and claims: read with their limitations",
+        "subheadings": []
+      },
+      {
+        "document": "Investment.docx",
+        "start": 560,
+        "end": 563,
+        "heading": "Compounding, financial goals and the decision process",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Supplied maxims and claims: read with their limitations",
+      "Compounding, financial goals and the decision process"
+    ],
+    "notes": [
+      "Several statements are absolute or unsupported: that the stock market is zero-sum, that mutual funds generally manipulate history, or that experts forecast by flipping coins. They are retained as source opinions, not findings established by this upload. No original author is supplied for the quotations or the economist/$10 anecdote.",
+      "The claim that strong early returns are always better depends on contributions, withdrawals and the objective. With no intervening cash flows, rearranging the same multiplicative returns leaves terminal wealth unchanged. Market-timing and momentum maxims are not personalized investment instructions."
+    ],
+    "related": [
+      "investment-research-checklist",
+      "portfolio-costs-maintenance",
+      "critical-thinking-questions"
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": [
+      {
+        "heading": "Arithmetic average and compounded change",
+        "paragraphs": [
+          "In the source’s illustrative +10% then −10% example, an amount of 100 becomes 110 and then 99. The arithmetic average return is zero, but the cumulative change is −1%. Reversing those two returns also ends at 99 if no money is added or withdrawn. This is an arithmetic illustration, not historical investment performance."
+        ]
+      }
+    ],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "pitch-deck-foundations",
+    "title": "Pitch-deck foundations: explain the problem, offer and opportunity",
+    "collection": "product-innovation",
+    "group": "Development & validation",
+    "summary": "Use six supplied sections to prepare a clear story about a problem, solution, product, market, competitors and team.",
+    "takeaway": "Support the story with evidence and show how the sections connect; attractive slides cannot replace a viable proposition.",
+    "ranges": [
+      {
+        "document": "Investment.docx",
+        "start": 331,
+        "end": 338,
+        "heading": "Problem: relevance, examples and evidence",
+        "subheadings": []
+      },
+      {
+        "document": "Investment.docx",
+        "start": 338,
+        "end": 343,
+        "heading": "Solution: a realistic response to the problem",
+        "subheadings": []
+      },
+      {
+        "document": "Investment.docx",
+        "start": 343,
+        "end": 349,
+        "heading": "Product: demonstrate what the offer does",
+        "subheadings": []
+      },
+      {
+        "document": "Investment.docx",
+        "start": 349,
+        "end": 356,
+        "heading": "Market: scale, characteristics and sources",
+        "subheadings": []
+      },
+      {
+        "document": "Investment.docx",
+        "start": 356,
+        "end": 360,
+        "heading": "Competitors: alternatives and differentiation",
+        "subheadings": []
+      },
+      {
+        "document": "Investment.docx",
+        "start": 360,
+        "end": 364,
+        "heading": "Team: relevant experience and responsibilities",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Problem: relevance, examples and evidence",
+      "Solution: a realistic response to the problem",
+      "Product: demonstrate what the offer does",
+      "Market: scale, characteristics and sources",
+      "Competitors: alternatives and differentiation",
+      "Team: relevant experience and responsibilities"
+    ],
+    "notes": [
+      "The product passage ends “Everything you have to explain about your”; the continuation is missing and is not reconstructed. These six supplied sections are not a complete universal fundraising template: no traction, financials, funding ask, use-of-funds or deal terms are provided."
+    ],
+    "related": [
+      "market-sizing",
+      "market-positioning",
+      "product-concept-testing",
+      "value-proposition-design",
+      "private-capital-stages"
+    ],
+    "references": [],
+    "visuals": [],
+    "editorialSections": [],
+    "topic": "Business & Management"
+  },
+  {
+    "slug": "payment-transfer-terminology",
+    "title": "Payment-transfer terms: services, standards and unverified labels",
+    "collection": "finance-controls-tax",
+    "group": "Controls & audit readiness",
+    "summary": "Separate the supplied transfer names into services, messages, interfaces and ambiguous shorthand before treating them as operational banking methods.",
+    "takeaway": "Verify a term with the relevant operator or standard owner; the source list is not a set of approved transfer procedures.",
+    "ranges": [
+      {
+        "document": "Finance.docx",
+        "start": 6,
+        "end": 27,
+        "heading": "The complete supplied transfer-term list",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "The complete supplied transfer-term list"
+    ],
+    "notes": [
+      "IPID, IPIP, ONEWAY, KTT and card-loader wording are not adequately identified in the upload. Generic server-to-server, ledger-to-ledger, face-to-face, trade-to-trade and weblink phrases do not establish an official banking protocol. Their presence is not proof of either legitimacy or fraud.",
+      "MT103/MT202 are legacy message labels whose applicable migration scope must be checked. Swift’s ISO 20022 instructions distinguish cross-border financial-institution payment instructions from corporate and infrastructure arrangements; do not claim that every MT message ceased everywhere. No account details, bank-approved operating procedures or provider verification are supplied."
+    ],
+    "related": [
+      "payments",
+      "payment-stack",
+      "payment-providers",
+      "financial-crime-awareness"
+    ],
+    "references": [
+      {
+        "title": "Swift: instruction-message migration scope",
+        "url": "https://www.swift.com/news-events/news/iso-20022-bytes-payments-focus-instruction-messages-november-2025"
+      },
+      {
+        "title": "Swift: ISO 20022 for corporates and scope exceptions",
+        "url": "https://www.swift.com/de/node/309567"
+      }
+    ],
+    "visuals": [
+      {
+        "title": "Classify a transfer term before using it",
+        "kind": "matrix",
+        "rows": [
+          [
+            "Service or provider label",
+            "Western Union, Moneygram, FX4Cash, EbixCash",
+            "Verify the operator, product and present availability"
+          ],
+          [
+            "Standard, message or banking format",
+            "MT103, MT202, SDD, EBICS, DTC",
+            "Verify the precise scope, jurisdiction and current implementation"
+          ],
+          [
+            "Generic or unidentified shorthand",
+            "KTT, IPIP, IPID, ONEWAY, F2F, T2T, S2S, L2L, card loaders, POS and weblink",
+            "The upload does not provide enough detail to validate a specific method"
+          ]
+        ],
+        "note": "Editorial grouping of the source labels, not operator endorsement or confirmation of current availability. Some abbreviations are ambiguous.",
+        "headers": [
+          "Type",
+          "Supplied examples",
+          "What remains to establish"
+        ]
+      }
+    ],
+    "editorialSections": [],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "financial-crime-awareness",
+    "title": "Financial-crime awareness: placement, layering and integration",
+    "collection": "finance-controls-tax",
+    "group": "Controls & audit readiness",
+    "summary": "Understand the three-stage money-laundering model and read the short source examples as descriptions of suspicious conduct.",
+    "takeaway": "Recognize the purpose of concealment and apparent legitimacy without assuming a payment channel or purchase is inherently illicit.",
+    "ranges": [
+      {
+        "document": "Finance.docx",
+        "start": 27,
+        "end": 36,
+        "heading": "Source descriptions for awareness and critical reading",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Source descriptions for awareness and critical reading"
+    ],
+    "notes": [
+      "The supplied text uses an instructional tone. It is retained here as attributed source wording about suspected laundering behavior, not instructions to carry it out. The three-stage model is a simplified awareness framework; real cases can overlap or omit stages. A bank transfer, cryptocurrency use, small deposit or high-value purchase alone does not establish money laundering."
+    ],
+    "related": [
+      "payment-transfer-terminology",
+      "financial-data-controls",
+      "risk-management"
+    ],
+    "references": [
+      {
+        "title": "FFIEC: money-laundering stages and awareness",
+        "url": "https://bsaaml.ffiec.gov/manual/Introduction/01"
+      }
+    ],
+    "visuals": [
+      {
+        "title": "Three stages in the awareness model",
+        "kind": "flow",
+        "rows": [
+          [
+            "Placement: proceeds enter the financial system"
+          ],
+          [
+            "Layering: transactions obscure origin and ownership"
+          ],
+          [
+            "Integration: proceeds appear to re-enter legitimate activity"
+          ]
+        ],
+        "note": "Educational summary supported by the FFIEC overview. This page does not supply evasion methods, detection thresholds or operational instructions.",
+        "headers": []
+      }
+    ],
+    "editorialSections": [],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "resource-base",
+    "appendTo": "resource-base",
+    "ranges": [
+      {
+        "document": "Finance.docx",
+        "start": 37,
+        "end": 53,
+        "heading": "Resources, systems and organizational capabilities",
+        "subheadings": []
+      }
+    ],
+    "related": [
+      "vrio-resources",
+      "six-capitals-value-creation"
+    ],
+    "notes": [
+      "The new notes distinguish resources from how they are organized and used. Their three categories mix asset types with organizational capabilities; accounting recognition of an intangible asset is a separate question."
+    ]
+  },
+  {
+    "slug": "strategic-thinking",
+    "appendTo": "strategic-thinking",
+    "ranges": [
+      {
+        "document": "Investment.docx",
+        "start": 566,
+        "end": 572,
+        "heading": "Scaling, accountability and complexity: short supplied reflections",
+        "subheadings": []
+      }
+    ],
+    "notes": [
+      "The scaling observations are unattributed prompts rather than an evaluated growth method. “Clusterfug” is source wording associated with illusion, impatience, incompetence and failures; it is not a defined diagnostic tool."
+    ],
+    "related": [
+      "lean-startup",
+      "purpose-to-performance"
+    ]
+  },
+  {
+    "slug": "risk-management",
+    "appendTo": "risk-management",
+    "ranges": [
+      {
+        "document": "Investment.docx",
+        "start": 574,
+        "end": 575,
+        "heading": "Antifragility: a short source concept",
+        "subheadings": []
+      }
+    ],
+    "notes": [
+      "The source defines antifragility but provides no method for demonstrating it in an organization or portfolio. A system tolerating a shock is not, by itself, evidence that the shock improves the system."
+    ],
+    "related": [
+      "portfolio-allocation",
+      "strategic-thinking"
+    ]
+  },
+  {
+    "slug": "pension-funds-historical-ranking",
+    "title": "Pension funds: a historical 100-fund ranking and its limits",
+    "collection": "investing-portfolio-management",
+    "group": "Private capital & institutions",
+    "summary": "Explore all 100 entries from the supplied pension infographic as a dated historical reference, with source credits, reporting exceptions and graphic annotations.",
+    "takeaway": "The ranking is labelled 2021 and was published in November 2022; it is not a current fund-size or investment-quality ranking.",
+    "ranges": [
+      {
+        "document": "Finance.docx",
+        "start": 36,
+        "end": 37,
+        "heading": "Read the historical ranking and reporting notes",
+        "subheadings": []
+      }
+    ],
+    "steps": [
+      "Read the historical ranking and reporting notes"
+    ],
+    "notes": [
+      "The supplied graphic labels Electricity Supply Pension’s bubble as rank 90, duplicating J.P. Morgan Chase’s 90. Its top label strip and the original publisher’s table give Electricity Supply Pension rank 91. The accessible table uses 91 and preserves this discrepancy explicitly.",
+      "Amounts are rounded in the graphic. Reporting dates differ, several entries are estimates and some are global group figures. Size is not a measure of solvency, returns, suitability or benefits guaranteed to an individual. Fund names and entities may have changed since the snapshot."
+    ],
+    "related": [
+      "investment-assets",
+      "portfolio-allocation",
+      "private-capital-stages"
+    ],
+    "references": [
+      {
+        "title": "Visual Capitalist: the world’s 100 biggest pension funds, published November 2022",
+        "url": "https://www.visualcapitalist.com/worlds-100-biggest-pension-funds/"
+      }
+    ],
+    "visuals": [],
+    "editorialSections": [
+      {
+        "heading": "Graphic, publisher and data source",
+        "paragraphs": [
+          "The supplied infographic is Visual Capitalist’s “Ranked: The World’s 100 Biggest Pension Funds,” published 24 November 2022. Research/writing: Jenna Ross. Design: Sam Parker. The image credits Thinking Ahead Institute and Pensions & Investments (September 2022). The complete rank, fund, market and rounded-asset data are reconstructed below and checked against the publisher’s structured table.",
+          "The original legend uses circle size for total assets, a number for global rank and rings for ranks 1–100, with the largest funds on inner rings. Logos, country colors and flags identify entries; they are not investment-quality ratings. The table replaces the oversized visual while preserving its data and source record."
+        ]
+      },
+      {
+        "heading": "Reporting cutoffs and source exceptions",
+        "paragraphs": [
+          "The default cutoffs in the image are 30 September 2021 for US funds and 31 December 2021 for non-US funds. Exceptions dated 31 March 2022: Canada Pension, Pension Fund Association in Japan, BT Group in the UK and Organization for Workers in Japan.",
+          "The image marks estimates for National Social Security in China, Public Institute for Social Security in Kuwait, Boeing, Employees’ Provident in India, AT&T, General Motors, Employees’ Pension Fund in India, Ford, Wells Fargo, Verizon, J.P. Morgan Chase and Social Insurance Funds in Vietnam.",
+          "Other cutoffs: 1 January 2022 for Russia’s National Wealth Fund; 30 June 2021 for AustralianSuper, Aware Super, QSuper, UniSuper and Sunsuper; 31 March 2021 for Canada’s Public Service Pension Plan and the UK’s Universities Superannuation and Electricity Supply Pension; 31 January 2022 for Germany’s Bayerische Versorgungskammer.",
+          "The graphic predates the 2022 QSuper/Sunsuper merger and displays both separately. It says Royal Bank of Scotland Group and Lloyds Banking Group amounts are global group figures. These footnotes belong to the historical source, not a refreshed dataset."
+        ]
+      },
+      {
+        "heading": "Country annotations retained from the graphic",
+        "paragraphs": [
+          "Japan: the graphic describes GPIF as a defined-benefit plan for public-sector employees and says it had led the ranking since 2002. United States: it describes nearly half the top 100 as US funds, totaling more than $6 trillion. These are historical source descriptions, not independently updated findings.",
+          "India: the graphic describes Employees’ Provident contributions totaling 26.16% of earnings, split 13% employer, 12% employee and 1.16% government. This is preserved as a dated chart claim, not current contribution guidance.",
+          "China: the graphic describes National Social Security as a top-up fund financed through government, lottery ticket sales and state-owned enterprises, with a Yahoo Finance September 2020 attribution. Russia: it reports a $16 billion National Wealth Fund withdrawal to help cover the 2022 budget deficit, citing Reuters October 2022.",
+          "Norway: the chart says its Government Pension Fund held investments in more than 9,000 companies across 70 countries and was the largest single owner in world stock markets. UK: it describes the largest listed funds as company plans or industry pools. Both statements are retained as historical chart annotations.",
+          "Sweden: the graphic describes the AP funds as part of the national pension system for people who have worked and paid taxes in the country. Canada: it describes Healthcare of Ontario as a defined-benefit healthcare-workers’ plan based on employment earnings and years of contribution. These source summaries simplify scheme details and are not eligibility or benefit rules."
+        ]
+      }
+    ],
+    "topic": "Finance & Accounting"
+  },
+  {
+    "slug": "accounting-formula-directory",
+    "appendTo": "accounting-formula-directory",
+    "ranges": [],
+    "notes": [
+      "The combined reference also includes 17 reviewed costing/investment expressions from the later study upload. Four analyst-signal expressions remain undefined and are identified as needing clarification. Repeated expressions can have different source contexts."
+    ],
+    "related": [
+      "margin-markup",
+      "capital-investment-appraisal",
+      "investment-concepts-models"
+    ]
+  }
+]

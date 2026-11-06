@@ -1,0 +1,54 @@
+{
+  "npv": {
+    "title": "OpenStax: net present value",
+    "url": "https://openstax.org/books/principles-finance/pages/16-2-net-present-value-npv-method"
+  },
+  "irr": {
+    "title": "OpenStax: internal rate of return",
+    "url": "https://openstax.org/books/principles-finance/pages/16-3-internal-rate-of-return-irr-method"
+  },
+  "cm": {
+    "title": "OpenStax: contribution margin and contribution-margin ratio",
+    "url": "https://openstax.org/books/principles-managerial-accounting/pages/3-1-explain-contribution-margin-and-calculate-contribution-margin-per-unit-contribution-margin-ratio-and-total-contribution-margin"
+  },
+  "budget": {
+    "title": "OpenStax: flexible budgets",
+    "url": "https://openstax.org/books/principles-managerial-accounting/pages/7-4-prepare-flexible-budgets"
+  },
+  "products": {
+    "title": "Investor.gov: investment products",
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products"
+  },
+  "allocation": {
+    "title": "Investor.gov: asset allocation and diversification",
+    "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+  },
+  "hedge": {
+    "title": "Investor.gov: hedge funds and their regulatory context",
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/private-investment-funds/hedge-funds"
+  },
+  "etf": {
+    "title": "Investor.gov: exchange-traded funds",
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-2"
+  },
+  "sharpe": {
+    "title": "William Sharpe: The Sharpe Ratio, 1994",
+    "url": "https://web.stanford.edu/~wfsharpe/art/sr/sr.htm"
+  },
+  "pension": {
+    "title": "Visual Capitalist: the world’s 100 biggest pension funds, published November 2022",
+    "url": "https://www.visualcapitalist.com/worlds-100-biggest-pension-funds/"
+  },
+  "swift": {
+    "title": "Swift: instruction-message migration scope",
+    "url": "https://www.swift.com/news-events/news/iso-20022-bytes-payments-focus-instruction-messages-november-2025"
+  },
+  "corporate": {
+    "title": "Swift: ISO 20022 for corporates and scope exceptions",
+    "url": "https://www.swift.com/de/node/309567"
+  },
+  "aml": {
+    "title": "FFIEC: money-laundering stages and awareness",
+    "url": "https://bsaaml.ffiec.gov/manual/Introduction/01"
+  }
+}

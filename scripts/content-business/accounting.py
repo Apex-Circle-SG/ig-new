@@ -36,7 +36,7 @@ def accounting_blocks(document, span, reviews, references):
     i = start
     while i < end:
         p = paragraphs[i]
-        review = reviews.get(i) if document['name'] == 'Management Accounting.docx' else None
+        review = reviews.get(i)
         if review:
             assert i < review['end'] <= end, f'Formula split across source ranges: {i}'
             blocks.extend(prose(pending))
@@ -47,7 +47,7 @@ def accounting_blocks(document, span, reviews, references):
                      'Reviewed with scope' if review['status'] == 'Reviewed with scope' else
                      'Corrected or clarified' if any(word in review['status'].lower() for word in ('correct', 'complet', 'clarif', 'refine')) else
                      'Convention-dependent')
-            formula = dict(id=f'formula-{i}', sourceIndex=i, name=review['name'], expression=expression,
+            formula = dict(id=review.get('id', f'formula-{i}'), sourceIndex=i, name=review['name'], expression=expression,
                            units=review['units'], inputs=review['inputs'], scope=review['scope'], status=review['status'],
                            reviewState=state, original=original,
                            references=[references[review['reference']]] if review['reference'] else [])

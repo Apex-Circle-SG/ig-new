@@ -3349,5 +3349,425 @@
     ],
     "slug": "transfer-pricing-methods",
     "guideTitle": "Transfer-pricing methods, indicators and adjustments"
+  },
+  {
+    "id": "investment-costing-2",
+    "sourceIndex": 2,
+    "name": "Product gross margin",
+    "expression": "(Product price − matching product cost) / product price",
+    "units": "fraction; multiply by 100 for percentage display",
+    "inputs": [
+      "Product price: revenue per unit on a stated basis.",
+      "Matching product cost: the corresponding cost basis, consistently defined."
+    ],
+    "scope": "Price must be nonzero. State whether discounts and other price adjustments are included; this gross measure is not final net profit.",
+    "status": "Clarified units and matching cost basis",
+    "reviewState": "Corrected or clarified",
+    "original": [
+      "Margin = Gross Profit per Product / Product Price x 100"
+    ],
+    "references": [
+      {
+        "title": "OpenStax: contribution margin and contribution-margin ratio",
+        "url": "https://openstax.org/books/principles-managerial-accounting/pages/3-1-explain-contribution-margin-and-calculate-contribution-margin-per-unit-contribution-margin-ratio-and-total-contribution-margin"
+      }
+    ],
+    "slug": "margin-markup",
+    "guideTitle": "Margin and markup: two bases for the same gross profit"
+  },
+  {
+    "id": "investment-costing-3",
+    "sourceIndex": 3,
+    "name": "Convert fractional markup to margin",
+    "expression": "Markup / (1 + markup)",
+    "units": "fraction",
+    "inputs": [
+      "Markup: (price − cost) / cost, entered as a decimal, e.g. 25% = 0.25."
+    ],
+    "scope": "Use consistent price and cost bases with positive cost and price. The source’s neighboring percentage formulas must be converted to decimal fractions first. A markup of −1 makes this conversion undefined.",
+    "status": "Clarified fraction-versus-percent convention",
+    "reviewState": "Corrected or clarified",
+    "original": [
+      "Margin = Markup / (1 + Markup)"
+    ],
+    "references": [
+      {
+        "title": "OpenStax: contribution margin and contribution-margin ratio",
+        "url": "https://openstax.org/books/principles-managerial-accounting/pages/3-1-explain-contribution-margin-and-calculate-contribution-margin-per-unit-contribution-margin-ratio-and-total-contribution-margin"
+      }
+    ],
+    "slug": "margin-markup",
+    "guideTitle": "Margin and markup: two bases for the same gross profit"
+  },
+  {
+    "id": "investment-costing-5",
+    "sourceIndex": 5,
+    "name": "Product markup",
+    "expression": "(Product price − matching product cost) / matching product cost",
+    "units": "fraction; multiply by 100 for percentage display",
+    "inputs": [
+      "Product price: the corresponding selling price per unit.",
+      "Matching product cost: the same cost definition used in gross profit."
+    ],
+    "scope": "Cost must be nonzero. Markup is measured relative to cost, unlike margin measured relative to revenue.",
+    "status": "Clarified units and denominator",
+    "reviewState": "Corrected or clarified",
+    "original": [
+      "Markup = Gross Profit per Product / Product Cost x 100"
+    ],
+    "references": [
+      {
+        "title": "OpenStax: contribution margin and contribution-margin ratio",
+        "url": "https://openstax.org/books/principles-managerial-accounting/pages/3-1-explain-contribution-margin-and-calculate-contribution-margin-per-unit-contribution-margin-ratio-and-total-contribution-margin"
+      }
+    ],
+    "slug": "margin-markup",
+    "guideTitle": "Margin and markup: two bases for the same gross profit"
+  },
+  {
+    "id": "investment-costing-6",
+    "sourceIndex": 6,
+    "name": "Convert fractional margin to markup",
+    "expression": "Margin / (1 − margin)",
+    "units": "fraction",
+    "inputs": [
+      "Margin: (price − cost) / price, entered as a decimal, e.g. 20% = 0.20."
+    ],
+    "scope": "Use consistent positive price/cost bases. A margin of 1 makes this conversion undefined. Do not enter 20 when the intended fraction is 0.20.",
+    "status": "Clarified fraction-versus-percent convention",
+    "reviewState": "Corrected or clarified",
+    "original": [
+      "Markup = Margin / (1 - Margin)"
+    ],
+    "references": [
+      {
+        "title": "OpenStax: contribution margin and contribution-margin ratio",
+        "url": "https://openstax.org/books/principles-managerial-accounting/pages/3-1-explain-contribution-margin-and-calculate-contribution-margin-per-unit-contribution-margin-ratio-and-total-contribution-margin"
+      }
+    ],
+    "slug": "margin-markup",
+    "guideTitle": "Margin and markup: two bases for the same gross profit"
+  },
+  {
+    "id": "investment-costing-123",
+    "sourceIndex": 123,
+    "name": "Gross profit: corresponding cost-of-sales basis",
+    "expression": "Revenue − corresponding cost of goods sold",
+    "units": "currency over the stated period",
+    "inputs": [
+      "Revenue: the recognized revenue of the output sold.",
+      "Cost of goods sold: corresponding cost under the applicable accounting basis."
+    ],
+    "scope": "Cost of goods sold need not equal direct costs alone. Match the revenue and cost period and scope.",
+    "status": "Clarified cost boundary",
+    "reviewState": "Corrected or clarified",
+    "original": [
+      "Gross Profit (GP) = Revenue - CoGS"
+    ],
+    "references": [
+      {
+        "title": "OpenStax: contribution margin and contribution-margin ratio",
+        "url": "https://openstax.org/books/principles-managerial-accounting/pages/3-1-explain-contribution-margin-and-calculate-contribution-margin-per-unit-contribution-margin-ratio-and-total-contribution-margin"
+      }
+    ],
+    "slug": "gross-profit-contribution",
+    "guideTitle": "Gross profit and contribution: different cost boundaries"
+  },
+  {
+    "id": "investment-costing-124",
+    "sourceIndex": 124,
+    "name": "Gross profit margin: corresponding sales basis",
+    "expression": "Gross profit / matching revenue",
+    "units": "fraction; multiply by 100 for percentage display",
+    "inputs": [
+      "Gross profit: matching revenue less cost of goods sold.",
+      "Revenue: the same period and sales perimeter."
+    ],
+    "scope": "A zero denominator is undefined. Gross profit is an amount; gross margin is a ratio. This is distinct from unit contribution.",
+    "status": "Reviewed with scope",
+    "reviewState": "Reviewed with scope",
+    "original": [
+      "Gross Profit Margin = Gross Profit / Revenue"
+    ],
+    "references": [
+      {
+        "title": "OpenStax: contribution margin and contribution-margin ratio",
+        "url": "https://openstax.org/books/principles-managerial-accounting/pages/3-1-explain-contribution-margin-and-calculate-contribution-margin-per-unit-contribution-margin-ratio-and-total-contribution-margin"
+      }
+    ],
+    "slug": "gross-profit-contribution",
+    "guideTitle": "Gross profit and contribution: different cost boundaries"
+  },
+  {
+    "id": "investment-costing-130",
+    "sourceIndex": 130,
+    "name": "Contribution margin per unit",
+    "expression": "Unit price − unit variable cost",
+    "units": "currency per unit",
+    "inputs": [
+      "Unit price: selling price of the defined unit.",
+      "Unit variable cost: all relevant variable costs on the same unit basis."
+    ],
+    "scope": "State which production, selling and marketing costs vary with output. Do not mix period totals with unit amounts or assume all direct costs are variable.",
+    "status": "Reviewed with scope",
+    "reviewState": "Reviewed with scope",
+    "original": [
+      "Contribution Margin (CM) = Unit Price - Unit Variable Cost"
+    ],
+    "references": [
+      {
+        "title": "OpenStax: contribution margin and contribution-margin ratio",
+        "url": "https://openstax.org/books/principles-managerial-accounting/pages/3-1-explain-contribution-margin-and-calculate-contribution-margin-per-unit-contribution-margin-ratio-and-total-contribution-margin"
+      }
+    ],
+    "slug": "gross-profit-contribution",
+    "guideTitle": "Gross profit and contribution: different cost boundaries"
+  },
+  {
+    "id": "investment-costing-131",
+    "sourceIndex": 131,
+    "name": "Contribution-margin ratio",
+    "expression": "Contribution margin per unit / unit price",
+    "units": "fraction; multiply by 100 for percentage display",
+    "inputs": [
+      "Contribution margin per unit: unit price less unit variable cost.",
+      "Unit price: the matching nonzero selling price."
+    ],
+    "scope": "The source uses a dash where an equals sign would be expected. Keep the unit bases compatible; this is not the same cost boundary as gross margin.",
+    "status": "Clarified transcription and units",
+    "reviewState": "Corrected or clarified",
+    "original": [
+      "Contribution Margin Ratio - CM / Unit Price"
+    ],
+    "references": [
+      {
+        "title": "OpenStax: contribution margin and contribution-margin ratio",
+        "url": "https://openstax.org/books/principles-managerial-accounting/pages/3-1-explain-contribution-margin-and-calculate-contribution-margin-per-unit-contribution-margin-ratio-and-total-contribution-margin"
+      }
+    ],
+    "slug": "gross-profit-contribution",
+    "guideTitle": "Gross profit and contribution: different cost boundaries"
+  },
+  {
+    "id": "investment-costing-69",
+    "sourceIndex": 69,
+    "name": "Net present value: complete cash-flow form",
+    "expression": "Σₜ₌₀ᵀ CFₜ / (1 + r)ᵗ",
+    "units": "currency at the valuation date",
+    "inputs": [
+      "CFₜ: incremental net cash flow at time t, including the initial investment as a negative flow when appropriate.",
+      "r: compatible per-period discount rate.",
+      "T: defined valuation horizon."
+    ],
+    "scope": "The source’s “inflows − outflows” must be discounted at their respective times. Match currency, timing and risk assumptions; a positive scenario NPV is not a guarantee of realized profitability.",
+    "status": "Completed cash-flow timing and scope",
+    "reviewState": "Corrected or clarified",
+    "original": [
+      "Net present value",
+      "Inflows - Outflows",
+      "Sum of Present Value (Inflows - Outflows)",
+      "Use to assess project profitability (positive = profitable)",
+      "Avoid aggressive projections & low discount rate. Remember risk & strategic fit"
+    ],
+    "references": [
+      {
+        "title": "OpenStax: net present value",
+        "url": "https://openstax.org/books/principles-finance/pages/16-2-net-present-value-npv-method"
+      }
+    ],
+    "slug": "capital-investment-appraisal",
+    "guideTitle": "NPV, IRR, payback and profitability index: compare their questions"
+  },
+  {
+    "id": "investment-costing-74",
+    "sourceIndex": 74,
+    "name": "Internal rate of return: cash-flow definition",
+    "expression": "Find r such that Σₜ₌₀ᵀ CFₜ / (1 + r)ᵗ = 0",
+    "units": "rate per cash-flow period",
+    "inputs": [
+      "CFₜ: the complete dated series of net cash flows, including investment outflows.",
+      "r: the candidate periodic internal rate of return."
+    ],
+    "scope": "The source uses “NPB” and a single-inflow form. IRR requires a defined cash-flow series; nonconventional patterns can produce multiple or no meaningful IRRs. A normal initial outflow followed by inflows contains both signs and is not automatically invalid. Compare scale and NPV rather than ranking every project solely by IRR.",
+    "status": "Corrected typo and completed multi-period definition",
+    "reviewState": "Corrected or clarified",
+    "original": [
+      "Internal rate of return",
+      "Discount rate for zero NPV",
+      "NPB = 0 = (Cash Inflow / (1+IRR)^n) - Initial Investment",
+      "Use to rank project profitability (time value of money)",
+      "Don't use IRR to compare projects of different sizes or risk levels and consider MIRR"
+    ],
+    "references": [
+      {
+        "title": "OpenStax: internal rate of return",
+        "url": "https://openstax.org/books/principles-finance/pages/16-3-internal-rate-of-return-irr-method"
+      }
+    ],
+    "slug": "capital-investment-appraisal",
+    "guideTitle": "NPV, IRR, payback and profitability index: compare their questions"
+  },
+  {
+    "id": "investment-costing-79",
+    "sourceIndex": 79,
+    "name": "Simple payback: level annual inflows",
+    "expression": "Initial investment / annual positive net cash inflow",
+    "units": "years when inflows are annual",
+    "inputs": [
+      "Initial investment: the positive amount to recover.",
+      "Annual positive net cash inflow: equal net inflow in each year."
+    ],
+    "scope": "This shortcut assumes level inflows and does not discount them or count cash flows after recovery. Uneven inflows require a cumulative cash-flow schedule; the source does not supply one.",
+    "status": "Clarified level-cash-flow shortcut",
+    "reviewState": "Corrected or clarified",
+    "original": [
+      "Payback period",
+      "Time to recoup investment",
+      "Initial Investment / Annual Cash Inflows",
+      "Use to rank low-risk short-term projects",
+      "Don't use in isolation because it doesn't factor in time value of money"
+    ],
+    "references": [
+      {
+        "title": "OpenStax: net present value",
+        "url": "https://openstax.org/books/principles-finance/pages/16-2-net-present-value-npv-method"
+      }
+    ],
+    "slug": "capital-investment-appraisal",
+    "guideTitle": "NPV, IRR, payback and profitability index: compare their questions"
+  },
+  {
+    "id": "investment-costing-84",
+    "sourceIndex": 84,
+    "name": "Profitability index: initial-outlay convention",
+    "expression": "Present value of future net cash inflows / initial investment outlay",
+    "units": "multiple",
+    "inputs": [
+      "Future net cash inflows: cash flows after the initial date, discounted on a consistent basis.",
+      "Initial investment outlay: a positive initial investment denominator."
+    ],
+    "scope": "This common convention assumes one initial outlay and compatible future net inflows. Multiple outlays and other conventions need explicit treatment. The source’s cash-inflows shorthand must not ignore later operating outflows.",
+    "status": "Clarified cash-flow and denominator convention",
+    "reviewState": "Corrected or clarified",
+    "original": [
+      "Profitability Index",
+      "PV of cash flows to investment",
+      "(Sum of Present Value of Cash Inflows) / Investment",
+      "Use to assess profitability and compare projects",
+      "Avoid aggressive projections. Remember risk & strategic fit"
+    ],
+    "references": [
+      {
+        "title": "OpenStax: net present value",
+        "url": "https://openstax.org/books/principles-finance/pages/16-2-net-present-value-npv-method"
+      }
+    ],
+    "slug": "capital-investment-appraisal",
+    "guideTitle": "NPV, IRR, payback and profitability index: compare their questions"
+  },
+  {
+    "id": "investment-investment-564",
+    "sourceIndex": 564,
+    "name": "Two-asset volatility-balancing relation",
+    "expression": "Stock weight × stock volatility = bond weight × bond volatility",
+    "units": "matching weighted-volatility units",
+    "inputs": [
+      "Stock and bond weights: compatible allocation fractions.",
+      "Volatilities: measured or estimated on the same horizon and frequency."
+    ],
+    "scope": "This is the limited relation supplied in the notes, not a complete multi-asset risk-parity or optimization model. Specify the return/volatility estimates, covariance assumptions, leverage and constraints before drawing allocation conclusions. It is not a recommended stock/bond mix.",
+    "status": "Reviewed with scope",
+    "reviewState": "Reviewed with scope",
+    "original": [
+      "(Allocation of stocks) x (volatility of stocks) = (allocation to bonds) x (volatility of bonds)"
+    ],
+    "references": [
+      {
+        "title": "Investor.gov: asset allocation and diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ],
+    "slug": "portfolio-allocation",
+    "guideTitle": "Portfolio allocation: objectives, diversification and risk balance"
+  },
+  {
+    "id": "investment-investment-484",
+    "sourceIndex": 484,
+    "name": "Consensus-trend signal: incomplete source model",
+    "expression": "",
+    "units": "not established from supplied definitions",
+    "inputs": [
+      "Current consensus mean; consensus mean one month earlier; price."
+    ],
+    "scope": "The source does not define consensus population, forecast horizon, price date, units or an evidence-backed prediction role.",
+    "status": "Needs clarification",
+    "reviewState": "Needs clarification",
+    "original": [
+      "Consensus trend",
+      "(Current consensus mean - 1 month ago consensus mean) / price"
+    ],
+    "references": [],
+    "slug": "investment-concepts-models",
+    "guideTitle": "Investment concepts, financial models and incomplete signals"
+  },
+  {
+    "id": "investment-investment-486",
+    "sourceIndex": 486,
+    "name": "Flash-trend signal: incomplete source model",
+    "expression": "",
+    "units": "not established from supplied definitions",
+    "inputs": [
+      "Current six-week flash mean; its one-month-earlier comparison; price."
+    ],
+    "scope": "The flash measure, overlapping windows, observation timing and scaling are not sufficiently defined for a reproducible signal.",
+    "status": "Needs clarification",
+    "reviewState": "Needs clarification",
+    "original": [
+      "Flash trend",
+      "(Current 6-week flash mean - 1 month ago 6-week flash mean) / price"
+    ],
+    "references": [],
+    "slug": "investment-concepts-models",
+    "guideTitle": "Investment concepts, financial models and incomplete signals"
+  },
+  {
+    "id": "investment-investment-488",
+    "sourceIndex": 488,
+    "name": "Stock-return expression: undefined predictor terms",
+    "expression": "",
+    "units": "not established from supplied definitions",
+    "inputs": [
+      "Consensus predictor; flash; controversy; neglect."
+    ],
+    "scope": "No coefficients, data definitions, return period, scaling or model provenance are supplied. The expression must not be presented as a functioning return predictor.",
+    "status": "Needs clarification",
+    "reviewState": "Needs clarification",
+    "original": [
+      "Stock return",
+      "Consensus predictor + (flash - consensus predictor) + controversy + neglect"
+    ],
+    "references": [],
+    "slug": "investment-concepts-models",
+    "guideTitle": "Investment concepts, financial models and incomplete signals"
+  },
+  {
+    "id": "investment-investment-490",
+    "sourceIndex": 490,
+    "name": "Neglect signal: undefined logarithmic convention",
+    "expression": "",
+    "units": "not established from supplied definitions",
+    "inputs": [
+      "Number of fiscal-year-one analysts; logarithm base and observation date."
+    ],
+    "scope": "The source gives −Log(1 + analyst count), but does not define the base, inclusion criteria, timing or validated role in the stock-return model.",
+    "status": "Needs clarification",
+    "reviewState": "Needs clarification",
+    "original": [
+      "Neglect",
+      "-Log (1 + number of fiscal year 1 analysts)"
+    ],
+    "references": [],
+    "slug": "investment-concepts-models",
+    "guideTitle": "Investment concepts, financial models and incomplete signals"
   }
 ]
