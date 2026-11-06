@@ -1,0 +1,102 @@
+[
+  {
+    "document": "Mergers and Acquisitions (M&A).docx",
+    "image": "word/media/image1.jpeg",
+    "slug": "ma-valuation-process",
+    "title": "A nine-step valuation workflow",
+    "kind": "flow",
+    "headers": [
+      "Action",
+      "Sequence"
+    ],
+    "rows": [
+      [
+        "Define the purpose",
+        "1"
+      ],
+      [
+        "Gather information",
+        "2"
+      ],
+      [
+        "Choose valuation method",
+        "3"
+      ],
+      [
+        "Perform financial analysis",
+        "4"
+      ],
+      [
+        "Adjust financials",
+        "5"
+      ],
+      [
+        "Determine discount rate",
+        "6"
+      ],
+      [
+        "Apply methodology",
+        "7"
+      ],
+      [
+        "Consider additional factors",
+        "8"
+      ],
+      [
+        "Sensitivity analysis",
+        "9"
+      ]
+    ],
+    "note": "Accessible thematic reconstruction of the supplied process diagram; use as an illustrative sequence, not a required linear timetable."
+  },
+  {
+    "document": "Mergers and Acquisitions (M&A).docx",
+    "image": "word/media/image2.jpeg",
+    "slug": "ma-process-team",
+    "title": "A nine-step M&A roadmap",
+    "kind": "flow",
+    "headers": [
+      "Action",
+      "Sequence"
+    ],
+    "rows": [
+      [
+        "Preparation: evaluate business operations and financials",
+        "1"
+      ],
+      [
+        "Initial business valuation with the most reliable method and an external consultant",
+        "2"
+      ],
+      [
+        "Initial contacts with potential buyer or seller",
+        "3"
+      ],
+      [
+        "Sign confidentiality / NDA",
+        "4"
+      ],
+      [
+        "Letter of intent: proposed price, structure and contingencies",
+        "5"
+      ],
+      [
+        "Financial and tax due diligence",
+        "6"
+      ],
+      [
+        "Negotiate purchase agreement: price, representations, warranties and closing conditions",
+        "7"
+      ],
+      [
+        "Legal aspects and ownership transfer",
+        "8"
+      ],
+      [
+        "Post-transaction actions: integration, covenants and purchase-price allocation",
+        "9"
+      ]
+    ],
+    "note": "Accessible thematic reconstruction of the supplied process diagram; use as an illustrative sequence, not a required linear timetable."
+  }
+]

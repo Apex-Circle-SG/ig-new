@@ -1,13 +1,17 @@
 import { randomBytes } from 'node:crypto';
 import { brotliCompressSync, constants, gzipSync } from 'node:zlib';
 import { financeEmbedDocuments } from '../../../generated/finance-embeds';
+import { dealEmbedDocument } from '../../../generated/deal-embed';
+import { getDealTool } from '@insightginie/calculators/deals';
 export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs';
 export async function GET(request: Request, { params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const template = Object.hasOwn(financeEmbedDocuments, slug)
     ? financeEmbedDocuments[slug as keyof typeof financeEmbedDocuments]
-    : undefined;
+    : getDealTool(slug)
+      ? dealEmbedDocument.replaceAll('__DEAL_TOOL_ID__', slug)
+      : undefined;
   if (!template)
     return new Response('Calculator not found', {
       status: 404,

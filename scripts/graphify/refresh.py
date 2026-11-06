@@ -22,6 +22,7 @@ ROOTS = [
     "apps/opportunities",
     "scripts/opportunities",
     "packages/seo/src",
+    "packages/calculators/src",
     "scripts/content-ai",
     "scripts/content-business",
     "scripts/cloudflare",

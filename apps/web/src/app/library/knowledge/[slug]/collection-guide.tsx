@@ -28,9 +28,10 @@ export function isCollectionArticle(slug: string) {
 }
 
 function DetailBlock({ block, caption }: { block: Block; caption: string }) {
+  if (block.kind === 'resources' && 'resources' in block && block.resources) return <ul>{block.resources.map(resource => <li key={resource.href}><a href={resource.href}>{resource.label} →</a></li>)}</ul>;
   if (block.kind === 'academic-readings' && 'referenceIds' in block && block.referenceIds) return <AcademicReadingList ids={block.referenceIds} />;
   if (block.kind === 'reading-links' && 'links' in block && block.links) return <ul>{block.links.map((link) => <li key={link.slug}><Link href={guidePath(link.slug)}>{link.label} →</Link></li>)}</ul>;
-  if (block.kind === 'review' && 'review' in block) return <div className={styles.referenceEntry}>
+  if (block.kind === 'review' && 'review' in block && block.review) return <div className={styles.referenceEntry}>
     <p><strong>{block.review.status}</strong></p>
     {block.review.paragraphs.map((text, i) => <p key={i}>{text}</p>)}
     <p className={styles.figureNote}>Editorial review: {block.review.date}. Scope and remaining uncertainties are described above.</p>

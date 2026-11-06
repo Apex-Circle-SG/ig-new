@@ -112,5 +112,15 @@
     "links": "trading-links.json",
     "ledger": "docs/trading-content-coverage.csv",
     "sha256": "f6545d6d1b79ff6bde6347edab290704d874547cdc0d0336fa93d4b29229543d"
+  },
+  {
+    "key": "deal-models",
+    "source": "content/sources/deal-models",
+    "plan": "deal-plan.json",
+    "figures": "deal-figures.json",
+    "links": "deal-links.json",
+    "workbooks": "deal-workbooks.json",
+    "ledger": "docs/deal-models-content-coverage.csv",
+    "sha256": "832858de004964d5fe9819dcbb3685569f718081bdd1c8d7275754f17c3320ec"
   }
 ]

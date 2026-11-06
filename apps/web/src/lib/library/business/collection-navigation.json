@@ -60,6 +60,8 @@
       "business-plan-reading-path",
       "venture-pitch",
       "corporate-parenting",
+      "corporate-restructuring",
+      "strategic-alliances-partnerships",
       "art-of-war"
     ]
   },
@@ -469,7 +471,8 @@
       "integrated-sustainability-reporting",
       "finance-careers",
       "costing-management-accounting",
-      "investing-portfolio-management"
+      "investing-portfolio-management",
+      "mergers-acquisitions-integration"
     ]
   },
   {
@@ -534,7 +537,8 @@
       "financial-forecasting",
       "forecasting-practice",
       "budget-preparation-control",
-      "budget-variance-investigation"
+      "budget-variance-investigation",
+      "saas-scaling-scenarios"
     ]
   },
   {
@@ -551,7 +555,8 @@
       "capital-investment-appraisal",
       "founder-funding-readiness",
       "founder-investment-terms",
-      "business-financing-routes"
+      "business-financing-routes",
+      "ipo-readiness-pathway"
     ]
   },
   {
@@ -683,7 +688,9 @@
       "private-capital-due-diligence",
       "investment-research-checklist",
       "investment-behavior-returns",
-      "pension-funds-historical-ranking"
+      "pension-funds-historical-ranking",
+      "family-office-models",
+      "capital-provider-roles"
     ]
   },
   {
@@ -809,6 +816,31 @@
       "trading-behavioral-biases",
       "trading-strategy-lab",
       "trading-tools-validation"
+    ]
+  },
+  {
+    "slug": "mergers-acquisitions-integration",
+    "title": "Mergers, Acquisitions & Integration",
+    "topic": "Finance & Accounting",
+    "parent": "finance-accounting",
+    "members": [
+      "ma-deal-structures",
+      "ma-synergies-value",
+      "takeover-tactics-controls",
+      "ma-valuation-process",
+      "ma-process-team",
+      "ma-due-diligence",
+      "ma-diligence-finance",
+      "ma-diligence-commercial",
+      "ma-diligence-people-legal",
+      "ma-diligence-technology-assets",
+      "ma-agreements-terms",
+      "ma-research-resources",
+      "historical-acquisition-cases",
+      "ma-control-glossary",
+      "post-merger-integration-planning",
+      "ma-financing-models",
+      "ma-model-source-register"
     ]
   }
 ]

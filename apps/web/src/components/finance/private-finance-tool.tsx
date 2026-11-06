@@ -1,10 +1,17 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
-import type { FinanceToolId } from '@insightginie/calculators';
 import { track } from '@insightginie/analytics';
 import styles from './finance-tool.module.css';
 const channel = 'insightginie:finance:v1';
-export function PrivateFinanceTool({ toolId }: { toolId: FinanceToolId }) {
+export function PrivateFinanceTool({
+  toolId,
+  href,
+  title = 'Private financial calculator',
+}: {
+  toolId: string;
+  href?: string;
+  title?: string;
+}) {
   const frame = useRef<HTMLIFrameElement>(null);
   const [height, setHeight] = useState<number>();
   const [ready, setReady] = useState(false);
@@ -48,11 +55,13 @@ export function PrivateFinanceTool({ toolId }: { toolId: FinanceToolId }) {
   }, [toolId, generation]);
   async function share() {
     try {
-      await navigator.clipboard.writeText(`https://insightginie.com/tools/${toolId}/`);
+      await navigator.clipboard.writeText(`https://insightginie.com${href ?? `/tools/${toolId}/`}`);
       track('calculator_result_shared', { calculator_id: toolId, interaction: 'copy-link' });
       setShareStatus('Tool link copied. Your inputs are not included.');
     } catch {
-      setShareStatus(`Copy this public link: https://insightginie.com/tools/${toolId}/`);
+      setShareStatus(
+        `Copy this public link: https://insightginie.com${href ?? `/tools/${toolId}/`}`,
+      );
     }
   }
   return (
@@ -67,7 +76,7 @@ export function PrivateFinanceTool({ toolId }: { toolId: FinanceToolId }) {
         ref={frame}
         className={styles.frame}
         data-private-finance="true"
-        title="Private financial calculator"
+        title={title}
         src={`/private-tools/${toolId}/`}
         sandbox="allow-scripts allow-forms allow-downloads allow-modals allow-popups allow-popups-to-escape-sandbox"
         referrerPolicy="no-referrer"

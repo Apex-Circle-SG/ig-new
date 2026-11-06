@@ -1,0 +1,917 @@
+{
+  "reviewed_on": "2026-11-06",
+  "scope": "31 supplied historical table cases, plus bounded contextual corrections. Research only.",
+  "method": "Primary issuer announcements, financial statements, transaction-adviser first-hand notices and court records. Mirrors/syndications identified explicitly. Announcements alone are not treated as closing evidence. Dates labelled by meaning; a reporting bound is not an exact closing date. Source descriptions, HQs, valuation superlatives and forecasts are preserved in original_claim but not comprehensively independently verified.",
+  "status_definitions": {
+    "completed": "Explicit completion/effective acquisition date in primary source.",
+    "completed_reported": "Primary source explicitly reports acquired/completed or records acquisition retrospectively; date precision separately qualified.",
+    "announced_acquisition": "Primary announcement found; exact closing or completion independently unverified.",
+    "acquisition_reported_by_transaction_adviser": "First-hand deal adviser statement, without separately dated corporate closing notice.",
+    "not_verified_as_completed_different_buyer_later": "Supplied buyer completion unverified; later primary buyer evidence requires correction/uncertainty label.",
+    "not_completed_as_claimed_contested_closing": "Court evidence contradicts presentation as an uncomplicated completed acquisition."
+  },
+  "cases": [
+    {
+      "id": 1,
+      "target": "From the Bench",
+      "acquirer": "Tappx",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 934,
+        "paragraph_end": 938,
+        "text": "From the Bench | Mobile game development studio founded in 2008 | Alicante, Spain | TappX | Barcelona-based digital advertising software company"
+      },
+      "verified_status": "announced_acquisition",
+      "verified_date": "2022-05-17",
+      "date_meaning": "announcement_date",
+      "primary_sources": [
+        {
+          "publisher": "Techsoulogy / Tappx",
+          "title": "Tappx acquires mobile gaming brand From The Bench",
+          "url": "https://www.techsoulogy.com/press-releases/tappx-acquires-mobile-gaming-brand-from-the-bench"
+        }
+      ],
+      "limits_uncertainty": "Release describes acquisition of the developer brand; separate legal closing and corporate-share scope not verified."
+    },
+    {
+      "id": 2,
+      "target": "GamerzClass",
+      "acquirer": "Metafy",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 940,
+        "paragraph_end": 944,
+        "text": "GamerzClass | e-learning products for aspiring esports players | Copenhagen, Denmark | Metafy | LA-based online gaming coaching portal, founded in 2020"
+      },
+      "verified_status": "acquisition_reported_by_transaction_adviser",
+      "verified_date": "2022-05-18",
+      "date_meaning": "adviser_report_date",
+      "primary_sources": [
+        {
+          "publisher": "Moalem Weitemeyer (buyer counsel)",
+          "title": "Moalem Weitemeyer represented Metafy, Inc. in connection with the acquisition of Danish company GamerzClass ApS.",
+          "url": "https://moalemweitemeyer.com/2022-05-18-GamerzClass"
+        }
+      ],
+      "limits_uncertainty": "Buyer counsel confirms acting on acquisition; no separately dated completion statement located."
+    },
+    {
+      "id": 3,
+      "target": "Quentic",
+      "acquirer": "AMCS Group",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 946,
+        "paragraph_end": 950,
+        "text": "Quentic | Software for occupational safety, environmental management and sustainability | Berlin, Germany | Advanced Manufacturing Control Systems | Ireland-based software company, founded in 2002"
+      },
+      "verified_status": "completed",
+      "verified_date": "2022-06-30",
+      "date_meaning": "effective_completion_date",
+      "primary_sources": [
+        {
+          "publisher": "AMCS Group",
+          "title": "Quentic acquisition by AMCS completed",
+          "url": "https://www.amcsgroup.com/resources/press-releases/quentic-acquisition-by-amcs-completed/"
+        }
+      ],
+      "limits_uncertainty": "May 12 announcement preceded regulatory approval and June 30 closing; AMCS is the name used by the buyer."
+    },
+    {
+      "id": 4,
+      "target": "AreTheyHappy",
+      "acquirer": "Black Box Intelligence",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 952,
+        "paragraph_end": 956,
+        "text": "AreTheyHappy | Reputation management software | Ghent, Belgium | Black Box Intelligence | Texas-based restaurant analytics provider"
+      },
+      "verified_status": "completed_reported",
+      "verified_date": "2022-05-10",
+      "date_meaning": "release_dateline_completion_by",
+      "primary_sources": [
+        {
+          "publisher": "Black Box Intelligence",
+          "title": "Black Box Intelligence Announces Acquisition of AreTheyHappy",
+          "url": "https://blackboxintelligence.com/blog/black-box-intelligence-announces-acquisition-of-aretheyhappy/"
+        }
+      ],
+      "limits_uncertainty": "Release says it had acquired the company. Web page header is May 9 but release dateline is May 10; exact closing date not supplied."
+    },
+    {
+      "id": 5,
+      "target": "Back",
+      "acquirer": "Personio",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 958,
+        "paragraph_end": 962,
+        "text": "Back | Employee experience software | Berlin, Germany | Personio | Munich-based HR software company, founded in 2015"
+      },
+      "verified_status": "completed_reported",
+      "verified_date": "2022-05-24",
+      "date_meaning": "release_date_completion_by",
+      "primary_sources": [
+        {
+          "publisher": "Personio",
+          "title": "Personio acquires employee experience solution Back to drive productivity for customers",
+          "url": "https://www.personio.com/about-personio/press/personio-acquires-back-berlin-barcelona/"
+        }
+      ],
+      "limits_uncertainty": "Buyer says it has acquired Back; exact legal closing date not distinguished."
+    },
+    {
+      "id": 6,
+      "target": "Okarito",
+      "acquirer": "Swile",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 964,
+        "paragraph_end": 968,
+        "text": "Okarito | Travel management software for small businesses | Paris, France | Swile | French scaleup offering employee benefits card and app, founded in 2016"
+      },
+      "verified_status": "completed",
+      "verified_date": "2022-03-01",
+      "date_meaning": "completion_date_in_issuer_accounts",
+      "primary_sources": [
+        {
+          "publisher": "Swile (2022 statutory accounts; Pappers mirror)",
+          "title": "Informations au titre des événements significatifs et faits caractéristiques de l’exercice: acquisition de la société OKARITO",
+          "url": "https://www.pappers.fr/entreprise/swile-824012173/comptes/SWILE%20-%20Comptes%20sociaux%202022%2007-08-2023.pdf"
+        }
+      ],
+      "limits_uncertainty": "Swile 2022 accounts state 100% acquisition finalised March 1, earlier than May reporting. Primary issuer accounts are mirrored by Pappers; headline press announcement not located."
+    },
+    {
+      "id": 7,
+      "target": "Futrli",
+      "acquirer": "Sage Group",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 970,
+        "paragraph_end": 974,
+        "text": "Futrli | Business accounting and projections software | Brighton, UK | Sage Group | UK-based multinational enterprise software company, founded in 1981"
+      },
+      "verified_status": "completed",
+      "verified_date": "2022-05-12",
+      "date_meaning": "completion_date",
+      "primary_sources": [
+        {
+          "publisher": "Sage",
+          "title": "Sage announces the acquisition of Futrli",
+          "url": "https://www.sage.com/investors/investor-downloads/press-releases/2022/05/sage-announces-the-acquisition-of-futrli/"
+        }
+      ],
+      "limits_uncertainty": "Buyer explicitly reports completed acquisition."
+    },
+    {
+      "id": 8,
+      "target": "Formulate",
+      "acquirer": "RELEX Solutions",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 976,
+        "paragraph_end": 980,
+        "text": "Formulate | Sales management tool using AI | Stockholm, Sweden | Relex Solutions | Finnish retail planning unicorn, which raised a €500m round in February"
+      },
+      "verified_status": "completed_reported",
+      "verified_date": "2022-05-12",
+      "date_meaning": "release_date_completion_by",
+      "primary_sources": [
+        {
+          "publisher": "RELEX Solutions",
+          "title": "RELEX Solutions Acquires Formulate to Advance Promotional Planning Solutions as Part of Unified Platform",
+          "url": "https://www.relexsolutions.com/news/relex-solutions-acquires-formulate-to-advance-promotional-planning-solutions/"
+        }
+      ],
+      "limits_uncertainty": "Buyer says it has acquired Formulate; describes promotion planning/analytics more specifically than generic sales management."
+    },
+    {
+      "id": 9,
+      "target": "SatisMeter",
+      "acquirer": "Productboard",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 982,
+        "paragraph_end": 986,
+        "text": "Satismaster | Customer feedback platform | Prague, Czech Republic | Productboard | Recent unicorn based in San Francisco and launched in Prague"
+      },
+      "verified_status": "completed_reported",
+      "verified_date": "2022-05-26",
+      "date_meaning": "release_date_completion_by",
+      "primary_sources": [
+        {
+          "publisher": "Productboard (issuer release via PRNewswire)",
+          "title": "Productboard Acquires SatisMeter; Empowering Organizations to Deliver Amazing Digital Experiences that Capture the Voice of the Customer",
+          "url": "https://www.prnewswire.com/news-releases/productboard-acquires-satismeter-empowering-organizations-to-deliver-amazing-digital-experiences-that-capture-the-voice-of-the-customer-301555349.html"
+        },
+        {
+          "publisher": "SatisMeter",
+          "title": "Security",
+          "url": "https://www.satismeter.com/security/"
+        }
+      ],
+      "limits_uncertainty": "Source misspells target as Satismaster. Issuer says it has acquired SatisMeter; target security page also confirms acquisition."
+    },
+    {
+      "id": 10,
+      "target": "Scortex",
+      "acquirer": "TRIGO Group",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 988,
+        "paragraph_end": 992,
+        "text": "Scortex | AI-based tool for managing quality control on industrial sites | Paris, France | TriGo | French corporate giant providing quality inspection."
+      },
+      "verified_status": "completed_reported",
+      "verified_date": "2022-05-06",
+      "date_meaning": "release_date_completion_by",
+      "primary_sources": [
+        {
+          "publisher": "TRIGO Group",
+          "title": "TRIGO Group has acquired the industrial start-up SCORTEX",
+          "url": "https://www.trigo-group.com/trigo-group-has-acquired-the-industrial-start-up-scortex/"
+        }
+      ],
+      "limits_uncertainty": "Buyer says it has acquired Scortex and integration has begun; exact closing date not separated."
+    },
+    {
+      "id": 11,
+      "target": "Side",
+      "acquirer": "Randstad France / Randstad Group",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 994,
+        "paragraph_end": 997,
+        "text": "Side | French online staffing service | Paris, France | Randstad Innovation Fund"
+      },
+      "verified_status": "completed",
+      "verified_date": "2022-05-16",
+      "date_meaning": "completion_date_in_france_release",
+      "primary_sources": [
+        {
+          "publisher": "Groupe Randstad France",
+          "title": "Le Groupe Randstad France finalise l’acquisition de la société Side",
+          "url": "https://www.grouperandstad.fr/wp-content/uploads/2022/05/22.05.16-le-groupe-randstad-france-finalise-lacquisition-de-la-societe-side.pdf"
+        },
+        {
+          "publisher": "Randstad",
+          "title": "Annual report 2022, note 11.1",
+          "url": "https://www.randstad.com/s3fs-media/rscom/public/2023-02/Randstad_Annual_Report_2022.pdf"
+        }
+      ],
+      "limits_uncertainty": "Original lists Randstad Innovation Fund. Official buyer is Randstad France. France closing release says May 16; group annual report lists acquisition date May 12. Retain this date discrepancy rather than harmonising silently."
+    },
+    {
+      "id": 12,
+      "target": "Cajoo",
+      "acquirer": "Flink",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 999,
+        "paragraph_end": 1003,
+        "text": "Cajoo | Speedy delivery startup | Paris, France | Flink | Berlin-based grocery delivery unicorn"
+      },
+      "verified_status": "announced_acquisition",
+      "verified_date": "2022-05-16",
+      "date_meaning": "announcement_date",
+      "primary_sources": [
+        {
+          "publisher": "Flink / Carrefour / Cajoo",
+          "title": "Flink acquires French Q-commerce pioneer Cajoo and partners with Carrefour",
+          "url": "https://www.carrefour.com/sites/default/files/2022-05/Press%20Release%20-%20Flink%20acquires%20French%20Q-commerce%20pioneer%20Cajoo%20and%20partners%20with%20Carrefour_0.pdf"
+        }
+      ],
+      "limits_uncertainty": "Joint company release describes integration to begin and future rebranding. Separate completion date not established by this release."
+    },
+    {
+      "id": 13,
+      "target": "Trouva",
+      "acquirer": "Made.com Group",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 1005,
+        "paragraph_end": 1009,
+        "text": "Trouva | Marketplace for independent boutiques and brands | London, UK | Made.com | UK-based homeware brand, founded in 2010"
+      },
+      "verified_status": "completed_reported",
+      "verified_date": "2022",
+      "date_meaning": "completion_year_from_seller_report",
+      "primary_sources": [
+        {
+          "publisher": "Octopus Titan / Octopus Investments (selling investor)",
+          "title": "Interim management report: Portfolio Manager’s review",
+          "url": "https://octopusinvestments.com/wp-content/uploads/sites/21/2022/09/Octopus-Titan-interim-report-retail-EXC00504-2209.pdf"
+        },
+        {
+          "publisher": "Made.com Group (RNS via London South East)",
+          "title": "Acquisition, RNS 6938K, 9 May 2022",
+          "url": "https://www.lse.co.uk/rns/MADE/acquisition-5ispeg2053747a2.html"
+        }
+      ],
+      "limits_uncertainty": "May 9 issuer RNS announces acquisition; seller investor interim report subsequently says Trouva was acquired by Made.com. Exact closing date not established. Historical ownership only; no current-owner claim."
+    },
+    {
+      "id": 14,
+      "target": "Tripadee / Cool Camping",
+      "acquirer": "Hipcamp",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 1011,
+        "paragraph_end": 1015,
+        "text": "Tripadee | Travel tech that lists camping and outdoor holidays in the UK and France | London, UK | Hipcamp | The largest US-based outdoor travel holiday booking platform"
+      },
+      "verified_status": "completed_reported",
+      "verified_date": "2022-05-11",
+      "date_meaning": "release_date_completion_by",
+      "primary_sources": [
+        {
+          "publisher": "Hipcamp (Business Wire issuer release, syndicated by Wedbush)",
+          "title": "Jay-Z Backed Hipcamp Launches in UK, Acquires Cool Camping",
+          "url": "https://investor.wedbush.com/wedbush/article/bizwire-2022-5-11-jay-z-backed-hipcamp-launches-in-uk-acquires-cool-camping"
+        }
+      ],
+      "limits_uncertainty": "Issuer release explicitly describes 100% acquired and renaming to Hipcamp UK Ltd; do not double-count Cool Camping as a separate acquisition."
+    },
+    {
+      "id": 15,
+      "target": "Tricount",
+      "acquirer": "bunq",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 1017,
+        "paragraph_end": 1021,
+        "text": "Tricount | A group expenses management app | Brussels, Belgium | bunq — Dutch unicorn neobank | Tricount will likely start offering bunq products within its app after the merger"
+      },
+      "verified_status": "completed_reported",
+      "verified_date": "2022-05",
+      "date_meaning": "completion_month_retrospective",
+      "primary_sources": [
+        {
+          "publisher": "bunq / Tricount founders",
+          "title": "A Message From tricount’s Founders",
+          "url": "https://www.bunq.com/blog/a-message-from-tricount-s-founders"
+        },
+        {
+          "publisher": "bunq",
+          "title": "bunq becomes second biggest neobank in EU (pending approval footnote)",
+          "url": "https://press.bunq.com/releases/213869-bunq-becomes-second-biggest-neobank-in-eu"
+        },
+        {
+          "publisher": "Tricount / bunq",
+          "title": "Terms and conditions",
+          "url": "https://www.tricount.com/documents/terms-conditions"
+        }
+      ],
+      "limits_uncertainty": "May 3 release explicitly says pending regulatory approval. Later founders message confirms joining bunq in May 2022; current target terms confirm bunq ownership. Exact closing day unresolved (different annual-report versions use May 3/4). Forecast of cross-selling is not a verified transaction fact."
+    },
+    {
+      "id": 16,
+      "target": "finAPI",
+      "acquirer": "Yapily (proposed; not verified completed)",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 1023,
+        "paragraph_end": 1027,
+        "text": "finAPI | An open banking API provider that leads the market in Germany | Munich, Germany | Yapily | A British open banking startup"
+      },
+      "verified_status": "not_verified_as_completed_different_buyer_later",
+      "verified_date": "2025-06-18",
+      "date_meaning": "later_buyer_release_date_completion_by",
+      "primary_sources": [
+        {
+          "publisher": "finAPI / Fabrick",
+          "title": "Fabrick completes acquisition of finAPI",
+          "url": "https://www.finapi.io/en/fabrick-acquires-finapi/"
+        },
+        {
+          "publisher": "Fabrick",
+          "title": "Fabrick finalizza l’acquisizione di finAPI",
+          "url": "https://www.fabrick.com/it-it/media-hub/comunicati-stampa/"
+        }
+      ],
+      "limits_uncertainty": "Do not publish acquired by Yapily as completed. Bounded search did not recover primary Yapily termination notice. Later buyer Fabrick explicitly completed purchase of SCHUFA’s 75% on June 18, 2025. This primary evidence establishes later ownership, not precise Yapily cancellation date or reason."
+    },
+    {
+      "id": 17,
+      "target": "Profitero",
+      "acquirer": "Publicis Groupe",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 1029,
+        "paragraph_end": 1033,
+        "text": "Profitero | An ecommerce analytics platform | Dublin, Ireland | Publicis Groupe | French digital advertising multinational"
+      },
+      "verified_status": "completed",
+      "verified_date": "2022-04",
+      "date_meaning": "acquisition_month_in_financial_statements",
+      "primary_sources": [
+        {
+          "publisher": "Publicis Groupe",
+          "title": "Condensed half-year consolidated financial statements ended June 30, 2022, Note 3",
+          "url": "https://www.publicisgroupe.com/sites/default/files/investors-document/2022-07/22_07_28_PBS_RFS_2022_EN_MEL.pdf"
+        }
+      ],
+      "limits_uncertainty": "May 3 announcement headline says to acquire, but half-year issuer accounts record 100% acquisition in April. Do not substitute announcement date for acquisition month."
+    },
+    {
+      "id": 18,
+      "target": "Ubble",
+      "acquirer": "Checkout.com",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 1035,
+        "paragraph_end": 1039,
+        "text": "Ubble.ai | Identity verification service | Paris, France | Checkout.com | London-based fintech unicorn, and the most valuable UK startup"
+      },
+      "verified_status": "completed_reported",
+      "verified_date": "2022",
+      "date_meaning": "completion_year_retrospective",
+      "primary_sources": [
+        {
+          "publisher": "Checkout.com",
+          "title": "2022 reflections: Navigating change and thriving together",
+          "url": "https://www.checkout.com/blog/2022-reflections-navigating-change-and-thriving-together"
+        },
+        {
+          "publisher": "Checkout.com",
+          "title": "Checkout.com to acquire ubble to increase trust and safety in the digital economy",
+          "url": "https://www.checkout.com/newsroom/checkout-com-to-acquire-ubble-to-increase-trust-and-safety-in-the-digital-economy"
+        }
+      ],
+      "limits_uncertainty": "May 12 release only intended acquisition, pending regulatory approval. Buyer year-end retrospective explicitly confirms completion in 2022; exact close day not established."
+    },
+    {
+      "id": 19,
+      "target": "BehavioSec",
+      "acquirer": "LexisNexis Risk Solutions (RELX)",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 1041,
+        "paragraph_end": 1045,
+        "text": "BehavioSec | \"behavioural biometrics\" cybersecurity and authentication products | Stockholm, Sweden | LexisNexis | New York-based data analytics corporation, founded in 1970"
+      },
+      "verified_status": "completed_reported",
+      "verified_date": "2022-05-04",
+      "date_meaning": "seller_report_date_completion_by",
+      "primary_sources": [
+        {
+          "publisher": "Octopus Titan VCT plc (issuer release via GlobeNewswire)",
+          "title": "Disposal of stake in Behaviosec Inc",
+          "url": "https://www.globenewswire.com/news-release/2022/05/04/2435981/0/en/Disposal-of-stake-in-Behaviosec-Inc.html"
+        }
+      ],
+      "limits_uncertainty": "Selling investor states target has been acquired. Refine generic LexisNexis to Risk Solutions; exact close day not separated."
+    },
+    {
+      "id": 20,
+      "target": "Hdiv Security",
+      "acquirer": "Datadog",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 1047,
+        "paragraph_end": 1051,
+        "text": "Hdiv Security | Continuous cybersecurity vulnerability tracker | San Sebastián, Spain | Datadog | US-based data analytics scaleup, founded in 2010"
+      },
+      "verified_status": "completed_reported",
+      "verified_date": "2022",
+      "date_meaning": "acquisition_year_retrospective",
+      "primary_sources": [
+        {
+          "publisher": "Datadog",
+          "title": "Investor Meeting October 2022: Accelerating organic investment with acquisitions, slide 15",
+          "url": "https://investors.datadoghq.com/static-files/a57dd3e2-847b-4a16-b867-69d484a37628"
+        },
+        {
+          "publisher": "Datadog",
+          "title": "Datadog Signs Definitive Agreement to Acquire Hdiv Security",
+          "url": "https://investors.datadoghq.com/news-releases/news-release-details/datadog-signs-definitive-agreement-acquire-hdiv-security"
+        }
+      ],
+      "limits_uncertainty": "May 5 release is definitive agreement only. Datadog October investor presentation lists Hdiv among 2022 acquisitions; exact closing day not established."
+    },
+    {
+      "id": 21,
+      "target": "Excellium Services",
+      "acquirer": "Thales (via Maxive / alongside S21sec)",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 1053,
+        "paragraph_end": 1057,
+        "text": "Excellium Services | Penetration testing and cyber incident response | Cotern, Luxembourg | Thales Group | French multinational working in aerospace, defence and security"
+      },
+      "verified_status": "completed",
+      "verified_date": "2022-10",
+      "date_meaning": "acquisition_month_in_accounts",
+      "primary_sources": [
+        {
+          "publisher": "Thales",
+          "title": "Consolidated financial statements at 31 December 2023",
+          "url": "https://www.thalesgroup.com/sites/default/files/investor/documents/Thales_-_Consolidated_financial_statements_at_31_December_2023_0_1.pdf"
+        }
+      ],
+      "limits_uncertainty": "May announcement preceded completion. Company accounts record October acquisition of S21sec and Excellium, consolidated from October 1. Do not turn consolidation date into closing day."
+    },
+    {
+      "id": 22,
+      "target": "Groendus",
+      "acquirer": "APG (on behalf of ABP) and OMERS Infrastructure",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 1059,
+        "paragraph_end": 1062,
+        "text": "Groendus | B2B renewable energy network | Utrecht, Netherlands | Joint acquisition by Dutch pension fund APG and Canadian asset manager OMERS Infrastructure"
+      },
+      "verified_status": "completed_reported",
+      "verified_date": "2022",
+      "date_meaning": "completion_year_retrospective",
+      "primary_sources": [
+        {
+          "publisher": "OMERS Infrastructure",
+          "title": "OMERS wins M&A Deal of the Year for Groendus investment",
+          "url": "https://www.omersinfrastructure.com/news/omers-wins-m-and-a-deal-of-the-year-for-groendus-investment"
+        },
+        {
+          "publisher": "OMERS",
+          "title": "OMERS Infrastructure and APG to Acquire Groendus",
+          "url": "https://www.omers.com/news/omers-infrastructure-and-apg-to-acquire-groendus"
+        }
+      ],
+      "limits_uncertainty": "May 18 release was agreement subject to approvals; OMERS 2023 retrospective explicitly says acquired in 2022. APG is pension provider/manager, not itself the pension fund client ABP."
+    },
+    {
+      "id": 23,
+      "target": "Clicars",
+      "acquirer": "Aramis Group",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 1064,
+        "paragraph_end": 1068,
+        "text": "Clicars | Ecommerce marketplace for second-hand cars | Madrid, Spain | Aramis Group | French online marketplace for second-hand cars, founded in 2001"
+      },
+      "verified_status": "completed_remaining_stake_purchase",
+      "verified_date": "2022-05",
+      "date_meaning": "completion_month_target_history",
+      "primary_sources": [
+        {
+          "publisher": "Clicars",
+          "title": "Sobre Nosotros: 2022 company milestones",
+          "url": "https://www.clicars.com/sobre-nosotros"
+        },
+        {
+          "publisher": "Aramis Group",
+          "title": "2022 first-half results, governance changes at Clicars",
+          "url": "https://aramis.group/wp-content/uploads/2025/05/press-release-aramis-group-2022-first-half-results.pdf"
+        }
+      ],
+      "limits_uncertainty": "Clicars history records sale closing in May. Buyer first-half release explains this is the remaining minority interest after prior control and full consolidation, not an entirely new 100% acquisition from no ownership."
+    },
+    {
+      "id": 24,
+      "target": "Reby",
+      "acquirer": "House of Lithium",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 1070,
+        "paragraph_end": 1074,
+        "text": "Reby | Micro-mobility and escooter service | Barcelona, Spain | House of Lithium | California-based ebike company, founded in 2018"
+      },
+      "verified_status": "not_completed_as_claimed_contested_closing",
+      "verified_date": "2023-06-30",
+      "date_meaning": "court_decision_date",
+      "primary_sources": [
+        {
+          "publisher": "Delaware Court of Chancery",
+          "title": "Restanca, LLC and Reby, Inc. v. House of Lithium, Ltd., C.A. 2022-0690-PAF",
+          "url": "https://courts.delaware.gov/Opinions/Download.aspx?id=349370"
+        }
+      ],
+      "limits_uncertainty": "Court found valid agreements but closing conditions unsatisfied and buyer not obliged to complete. Some shares had been accepted; preserve that nuance rather than claim no investment ever occurred. Original buyer description as California ebike company is unsupported; court describes private-equity buyer."
+    },
+    {
+      "id": 25,
+      "target": "Share Now",
+      "acquirer": "Free2move (Stellantis)",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 1076,
+        "paragraph_end": 1080,
+        "text": "Share NOW | (Formerly Car2go) — a car-sharing joint venture between Mercedes-Benz and BMW | Stuttgart, Germany | Stellantis | The merged Fiat-Peugeot parent company"
+      },
+      "verified_status": "completed",
+      "verified_date": "2022-07-18",
+      "date_meaning": "completion_date",
+      "primary_sources": [
+        {
+          "publisher": "Stellantis / Free2move",
+          "title": "Free2move Becomes a World Leader in Mobility with Acquisition of Share Now",
+          "url": "https://www.stellantis.com/en/news/press-releases/2022/july/free2move-becomes-a-world-leader-in-mobility-with-acquisition-of-share-now"
+        }
+      ],
+      "limits_uncertainty": "Refine acquirer to Stellantis subsidiary Free2move. Share Now combined car2go and DriveNow; formerly Car2go alone is incomplete lineage."
+    },
+    {
+      "id": 26,
+      "target": "Myrmex",
+      "acquirer": "Ocado Group",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 1082,
+        "paragraph_end": 1086,
+        "text": "Myrmex | Robotics for unmanned delivery | Ilioupoli, Greece | Ocado | Listed British supermarket technology company"
+      },
+      "verified_status": "completed",
+      "verified_date": "2022-06-06",
+      "date_meaning": "completion_date_in_issuer_report",
+      "primary_sources": [
+        {
+          "publisher": "Ocado Group (RNS via Investegate)",
+          "title": "Half-year report 2022: Post-balance-sheet events",
+          "url": "https://www.investegate.co.uk/announcement/rns/ocado-group--ocdo/half-year-report/7083019"
+        },
+        {
+          "publisher": "Myrmex / Ocado",
+          "title": "Ocado Group acquires robotics start-up Myrmex Inc. (proposed)",
+          "url": "https://www.myrmex-inc.com/blog/19"
+        }
+      ],
+      "limits_uncertainty": "May 23 target release was proposed deal. Ocado half-year issuer report says June 6 completion, increasing prior 12.2% stake to wholly owned. US-incorporated company with Greek R&D; Greek location should not imply Greek legal incorporation."
+    },
+    {
+      "id": 27,
+      "target": "Metaliquid",
+      "acquirer": "BeMyEye",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 1088,
+        "paragraph_end": 1092,
+        "text": "Metaliquid | AI-powered video analysis for data discovery | Milan, Italy | BeMyEye | London-based data-as-a-service provider founded in 2011"
+      },
+      "verified_status": "announced_acquisition",
+      "verified_date": "2022-05-19",
+      "date_meaning": "announcement_date",
+      "primary_sources": [
+        {
+          "publisher": "BeMyEye (issuer release via PRNewswire)",
+          "title": "BeMyEye acquires Computer Vision specialist Metaliquid",
+          "url": "https://www.prnewswire.com/news-releases/bemyeye-acquires-computer-vision-company-metaliquid-301550500.html"
+        }
+      ],
+      "limits_uncertainty": "Issuer describes acquisition and integrated capabilities, but no separately verified legal closing date."
+    },
+    {
+      "id": 28,
+      "target": "ProGlove",
+      "acquirer": "Nordic Capital X",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 1094,
+        "paragraph_end": 1098,
+        "text": "ProGlove | Wearable barcode scanners for warehouse workers | Munich, Germany | Nordic Capital | Stockholm-based private equity fund, founded in 1989"
+      },
+      "verified_status": "completed_majority_stake",
+      "verified_date": "2022-06-15",
+      "date_meaning": "completion_report_date",
+      "primary_sources": [
+        {
+          "publisher": "Nordic Capital",
+          "title": "Transaction closed: Nordic Capital is the new majority owner of IoT and wearable disruptor ProGlove",
+          "url": "https://www.nordiccapital.com/insights/press-releases/transaction-closed-nordic-capital-is-the-new-majority-owner-of-iot-and-wearable-disruptor-proglove/"
+        }
+      ],
+      "limits_uncertainty": "Majority ownership only; founders and management retained minority. Initial May 4 agreement was not closing."
+    },
+    {
+      "id": 29,
+      "target": "iFollow",
+      "acquirer": "stow Robotics / stow Group",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 1100,
+        "paragraph_end": 1104,
+        "text": "IFollow | A French startup developing autonomous robots for warehouse optimization | Arcueil, France | Stow Deutschland | A shelving systems developer"
+      },
+      "verified_status": "announced_majority_stake_acquisition",
+      "verified_date": "2022-08-24",
+      "date_meaning": "target_release_date",
+      "primary_sources": [
+        {
+          "publisher": "iFollow / stow Robotics",
+          "title": "Stow Robotics announces the acquisition of a majority stake in iFollow",
+          "url": "https://www.ifollow.fr/stow-robotics-announces-the-acquisition-of-a-majority-stake-in-ifollow/"
+        },
+        {
+          "publisher": "iFollow",
+          "title": "M&A : Stow rentre au capital d’iFollow",
+          "url": "https://www.ifollow.fr/ma-stow-rentre-au-capital-difollow/"
+        }
+      ],
+      "limits_uncertainty": "Target-hosted release identifies stow Robotics majority stake, not Stow Deutschland full acquisition. An earlier May 24 target-hosted article describes management retaining control; timing/control descriptions differ and exact closing date remains unverified."
+    },
+    {
+      "id": 30,
+      "target": "PlusDental",
+      "acquirer": "Straumann Group",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 1106,
+        "paragraph_end": 1110,
+        "text": "PlusDental | Invisible aligners manufacturer | Berlin, Germany | Straumann Holding Deutschland | Swiss dental care provider"
+      },
+      "verified_status": "completed_reported",
+      "verified_date": "2022",
+      "date_meaning": "completion_year_annual_report",
+      "primary_sources": [
+        {
+          "publisher": "Straumann Group",
+          "title": "Straumann Group Annual Report 2022",
+          "url": "https://www.straumann.com/group/en/discover/annualreport/2022.html"
+        },
+        {
+          "publisher": "Straumann Group",
+          "title": "Straumann Group to acquire PlusDental",
+          "url": "https://www.straumann.com/dam/data/media-release/en/2022/75663055-82d4-47ea-a7e7-ca8581e54c69/Straumann_Group_Media_Release_PlusDental.pdf"
+        }
+      ],
+      "limits_uncertainty": "May 20 release signed agreement subject to approval; annual report confirms summer acquisition. Use group acquirer unless specific legal purchasing entity independently sourced. Swiss parent and German entity should not be conflated."
+    },
+    {
+      "id": 31,
+      "target": "Wavy",
+      "acquirer": "Treatwell",
+      "original_claim": {
+        "source_document": "Mergers and Acquisitions (M&A).docx",
+        "paragraph_start": 1112,
+        "paragraph_end": 1116,
+        "text": "Wavy | Paris-based communication management company for the wellness industry | Paris, France | Treatwell | Online booking platform with five acquisitions in its history"
+      },
+      "verified_status": "acquisition_reported_by_transaction_adviser",
+      "verified_date": "2022-05-16",
+      "date_meaning": "adviser_report_date",
+      "primary_sources": [
+        {
+          "publisher": "Clipperton (sell-side adviser)",
+          "title": "Wavy is acquired by Treatwell",
+          "url": "https://www.clipperton.com/transactions/wavy-is-acquired-by-treatwell"
+        },
+        {
+          "publisher": "Treatwell",
+          "title": "FAQ: Moving from Wavy to Treatwell Expert",
+          "url": "https://support-expert.treatwell.com/en/articles/15128795-faq-moving-from-wavy-to-treatwell-expert"
+        }
+      ],
+      "limits_uncertainty": "Sell-side adviser confirms sale; exact legal close day not separately established. Treatwell support later says Wavy service shuts down September 1, 2026; historical acquisition does not establish current product availability."
+    }
+  ],
+  "contextual_examples": [
+    {
+      "title": "Google / NASA and Google Maps",
+      "original_paragraph": 231,
+      "original_claim": "E.g. Golden Harvest JV with Village Roadshow to form Golden Village and Google JV with NASA to form Google Maps",
+      "verified_status": "incorrect_product_origin_claim",
+      "correction": "Google dates Maps launch to February 8, 2005. NASA describes later research collaborations and planetary content for Google Moon/Earth. Replace the claim that Google and NASA formed Google Maps with a correctly sourced R&D collaboration example.",
+      "primary_sources": [
+        {
+          "publisher": "Google",
+          "title": "A look back at 15 years of mapping the world",
+          "url": "https://blog.google/products-and-platforms/products/maps/look-back-15-years-mapping-world/"
+        },
+        {
+          "publisher": "NASA",
+          "title": "NASA / Google agreements library",
+          "url": "https://www.nasa.gov/foia/nasa-e-libraries/ames-foia-library/google-documents/"
+        },
+        {
+          "publisher": "NASA Ames",
+          "title": "Astrogram June 2008: NASA, Google announce lease at Ames Research Center",
+          "url": "https://www.nasa.gov/wp-content/uploads/2023/08/255793main_june.08.agram_.smallfile.pdf"
+        }
+      ],
+      "limits_uncertainty": "NASA’s 2006 newsletter loosely uses joint venture for collaboration; that does not establish a jointly owned company or Maps origin. Do not replace it with an unsourced corporate JV legal classification."
+    },
+    {
+      "title": "Apple / Beats price and vertical-merger classification",
+      "original_paragraph": 6,
+      "original_claim": "E.g. Apple Buys Dr Dre Beats Electronics for $3.2Bn in 2014",
+      "verified_status": "price_corrected_classification_unproven",
+      "correction": "Apple’s May 28, 2014 agreement announced $3.0bn total: approximately $2.6bn purchase price plus $0.4bn vesting over time, for Beats Music and Beats Electronics. The supplied $3.2bn figure does not match that announcement.",
+      "primary_sources": [
+        {
+          "publisher": "Apple",
+          "title": "Apple to Acquire Beats Music & Beats Electronics",
+          "url": "https://www.apple.com/newsroom/2014/05/28Apple-to-Acquire-Beats-Music-Beats-Electronics/"
+        }
+      ],
+      "limits_uncertainty": "This is agreement-stage evidence, not a closing notice. Complementary audio hardware and music services alone do not prove the source’s production-chain definition of vertical merger; label strategic acquisition rather than force a structural category."
+    },
+    {
+      "title": "Tata / Jaguar Land Rover conglomerate classification",
+      "original_paragraph": 14,
+      "original_claim": "E.g. Tata Group acquired Jaguar-Land Rover in 2008 from Ford for $2.3Bn",
+      "verified_status": "transaction_verified_classification_misleading",
+      "correction": "Tata Motors, an automotive manufacturer, completed its purchase of Jaguar Land Rover businesses from Ford on June 2, 2008 for $2.3bn net consideration on a cash-free debt-free basis. Use the actual automotive buyer rather than diversified Tata Group to justify an unrelated-industry example.",
+      "primary_sources": [
+        {
+          "publisher": "JLR / Tata Motors",
+          "title": "Tata Motors Completes Acquisition Of Jaguar Land Rover",
+          "url": "https://media.jlr.com/corporate/en-us/news/2008/06/tata-motors-completes-acquisition-jaguar-land-rover"
+        },
+        {
+          "publisher": "Ford Motor Company",
+          "title": "8-K, Item 2.01, Completion of disposition",
+          "url": "https://www.sec.gov/Archives/edgar/data/38009/000114036108014252/ex99_2.htm"
+        }
+      ],
+      "limits_uncertainty": "Classification is an inference from buyer and target activities. Do not assert a uniquely authoritative merger taxonomy from the announcement."
+    },
+    {
+      "title": "AIG rescue as LBO example",
+      "original_paragraph": 169,
+      "original_claim": "AIG bailout US182b, 2008",
+      "verified_status": "reclassify_rescue_not_established_lbo",
+      "correction": "Government assistance began in September 2008 and was expanded/restructured in 2008–2009. GAO records up to $182.3bn made available, not a single 2008 buyout price.",
+      "primary_sources": [
+        {
+          "publisher": "US Government Accountability Office",
+          "title": "Financial Crisis: Review of Federal Reserve System Financial Assistance to AIG, GAO-11-616",
+          "url": "https://www.gao.gov/assets/gao-11-616.pdf"
+        },
+        {
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Actions Related to AIG",
+          "url": "https://www.newyorkfed.org/aboutthefed/aig"
+        }
+      ],
+      "limits_uncertainty": "Committed assistance differs from disbursed funds, acquisition consideration and net fiscal cost. Sources establish rescue financing, not a conventional leveraged sponsor buyout."
+    },
+    {
+      "title": "JAL rescue as LBO example",
+      "original_paragraph": 170,
+      "original_claim": "JAL bailout US11b, 2010",
+      "verified_status": "reclassify_restructuring_not_established_lbo",
+      "correction": "JAL entered corporate reorganisation and received ETIC support in January 2010. JAL subsequently records a ¥350bn ETIC capital injection after bankruptcy. The supplied US$11bn needs a defined funding perimeter and dated exchange rate.",
+      "primary_sources": [
+        {
+          "publisher": "Japan Airlines",
+          "title": "JAL Received Decision on Support from ETIC and the Court’s Decision on Commencement of Corporate Reorganization Proceedings",
+          "url": "https://press.jal.co.jp/en/release/201001/003256.html"
+        },
+        {
+          "publisher": "Japan Airlines",
+          "title": "Regular Press Conference (September 18, 2013)",
+          "url": "https://www.jal.com/cms/en/corp_00271.html"
+        }
+      ],
+      "limits_uncertainty": "Do not equate capital injection, total support and debt relief. Bounded primary review does not verify the supplied dollar total or conventional LBO classification."
+    },
+    {
+      "title": "MAS recovery plan as LBO example",
+      "original_paragraph": 171,
+      "original_claim": "MAS bailout RM6b, 2014",
+      "verified_status": "reclassify_conditional_recovery_plan",
+      "correction": "Khazanah’s August 29, 2014 recovery plan provided up to RM6bn further investment, conditional and staggered. Present as rescue, delisting and restructuring context rather than an established leveraged sponsor buyout.",
+      "primary_sources": [
+        {
+          "publisher": "Khazanah Nasional",
+          "title": "Annual Review 2014: MAS Recovery Plan case study",
+          "url": "https://www.khazanah.com.my/media/uploads/2020/05/2014.pdf"
+        }
+      ],
+      "limits_uncertainty": "The ceiling is not a claim that RM6bn was disbursed immediately or entirely used to buy shares. Full capital-structure review was outside this bounded check."
+    },
+    {
+      "title": "SIA pandemic recapitalisation as LBO example",
+      "original_paragraph": 172,
+      "original_claim": "SIA bailout SG16b, 2020",
+      "verified_status": "reclassify_rights_issue_and_liquidity",
+      "correction": "SIA’s March 26, 2020 plan offered S$5.3bn rights equity and up to S$9.7bn mandatory convertible bonds, plus a S$4bn bridge facility. June 8 release confirms S$8.8bn rights issue completed June 5 and about S$10bn fresh liquidity including credit facilities. The supplied S$16bn is not supported as a single rescue or buyout amount.",
+      "primary_sources": [
+        {
+          "publisher": "Singapore Airlines",
+          "title": "Singapore Airlines To Issue S$5.3 Billion In New Equity And Raise Up To S$9.7 Billion Via Mandatory Convertible Bonds",
+          "url": "https://www.singaporeair.com/en_UK/sg/corporate/newsroom/press-release/2020/January-March/ne0720-200326/"
+        },
+        {
+          "publisher": "Singapore Airlines",
+          "title": "Singapore Airlines Secures S$10 Billion In Fresh Liquidity",
+          "url": "https://www.singaporeair.com/en_UK/bn/corporate/newsroom/press-release/2020/April-June/ne0920-200608/"
+        }
+      ],
+      "limits_uncertainty": "Separate announced facilities, issued securities, available credit and actual proceeds. This recapitalisation does not establish an LBO or privatisation."
+    }
+  ],
+  "summary": {
+    "case_count": 31,
+    "contextual_example_count": 7,
+    "priority_corrections": [
+      "finAPI/Yapily is not verified completed; primary target confirms Fabrick 75% purchase reported June 18, 2025.",
+      "Reby/House of Lithium must retain failed/contested closing context, based on court opinion.",
+      "Satismaster should be SatisMeter.",
+      "Side buyer should be Randstad France/group, not Innovation Fund.",
+      "Clicars 2022 was remaining minority stake after earlier control.",
+      "ProGlove and iFollow refer to majority stakes, not proven 100% purchases.",
+      "Apple Beats agreed amount $3bn; NASA collaboration did not create Google Maps; rescue financing is not automatically an LBO."
+    ]
+  }
+}

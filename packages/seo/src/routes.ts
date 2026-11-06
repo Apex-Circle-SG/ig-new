@@ -15,6 +15,17 @@ export const DISCOVERY_HUB_PATHS = [
 export const PUBLIC_INDEXABLE_PATHS = [
   '/',
   '/calculators/',
+  '/calculators/corporate-finance/',
+  '/calculators/markets/',
+  '/calculators/corporate-finance/acquisition-impact/',
+  '/calculators/corporate-finance/debt-capacity/',
+  '/calculators/corporate-finance/lbo-recapitalization/',
+  '/calculators/corporate-finance/valuation-workbench/',
+  '/calculators/corporate-finance/saas-scale/',
+  '/calculators/corporate-finance/due-diligence/',
+  '/calculators/corporate-finance/integration-planner/',
+  '/calculators/corporate-finance/culture-comparison/',
+  '/calculators/markets/vwap-volume/',
   '/calculators/roulette/',
   '/calculators/casino/',
   '/calculators/casino/expected-value/',
@@ -75,6 +86,8 @@ export function isCalculatorPage(pathname: string) {
     path.startsWith('/calculators/expanded/') ||
     path.startsWith('/calculators/roulette/') ||
     path.startsWith('/calculators/casino/') ||
+    path.startsWith('/calculators/corporate-finance/') ||
+    path.startsWith('/calculators/markets/') ||
     path.startsWith('/private-expanded/') ||
     path.startsWith('/tools/') ||
     path.startsWith('/private-tools/') ||

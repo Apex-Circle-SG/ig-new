@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-11-06T11:03:05.635Z",
+  "formulaVersion": "2026-11-06.1",
+  "productionBuild": "passed; SITE_INDEXABLE=true NEXT_PUBLIC_ADS_ENABLED=true",
+  "typescript": "passed in production build",
+  "eslint": "passed; zero warnings",
+  "unitTests": {
+    "files": 32,
+    "passed": 490
+  },
+  "browserTests": {
+    "passed": 12,
+    "widths": [
+      1440,
+      390
+    ]
+  },
+  "contentAudit": {
+    "paragraphs": 1672,
+    "images": 2,
+    "worksheets": 25,
+    "populatedCells": 101504,
+    "formulaCells": 90634,
+    "byteIdenticalWorkbookDownloads": 7
+  },
+  "scope": "Reviewed changes only; unrelated workspace changes excluded"
+}

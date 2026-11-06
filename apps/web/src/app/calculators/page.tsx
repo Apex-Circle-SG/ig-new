@@ -12,6 +12,8 @@ export const metadata: Metadata = {
 };
 export default function Calculators() {
   const cards = [
+    { path: '/calculators/corporate-finance/', title: 'Corporate finance and deal workspaces', description: 'Acquisition impact, debt capacity, LBOs, valuation, SaaS and integration planners.' },
+    { path: '/calculators/markets/', title: 'Trading and market analysis', description: 'VWAP, volume profiles, share turnover and historical price-volume comparisons.' },
     {
       path: '/calc/individual-income-percentile/',
       title: 'Compare my income',

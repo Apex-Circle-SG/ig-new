@@ -5,8 +5,13 @@ import methods from '../../../opportunities/data/methods.json';
 import { discoveryHubs } from './discovery-hubs';
 import libraryKnowledge from './library/knowledge.json';
 
+import { DEAL_TOOLS } from '@insightginie/calculators/deals';
+
 const names: Record<string, string> = {
   '/': 'Home',
+  '/calculators/corporate-finance/': 'Corporate finance and deal workspaces',
+  '/calculators/markets/': 'Trading and market analysis',
+  ...Object.fromEntries(DEAL_TOOLS.map(t => [t.path, t.title])),
   '/opportunities/': 'Online opportunities and remote work',
   '/opportunities/sources/': 'Opportunity sources and freshness',
   '/ideas/': 'Creative business idea lab',

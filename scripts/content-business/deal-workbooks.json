@@ -1,0 +1,208 @@
+[
+  {
+    "document": "Accretion Dilution Model.xlsx",
+    "title": "Historical acquisition-impact model",
+    "path": "/library/deal-models/acquisition-source.xlsx",
+    "sha256": "39205a15b30d9d230b006ab364ddcff481a4c4ebaafe632ba2bed779135ab397",
+    "sheets": [
+      {
+        "name": "Assump",
+        "cells": 247,
+        "formulas": 132,
+        "state": "visible"
+      },
+      {
+        "name": "Scale",
+        "cells": 243,
+        "formulas": 232,
+        "state": "visible"
+      },
+      {
+        "name": "Analysis",
+        "cells": 616,
+        "formulas": 578,
+        "state": "visible"
+      },
+      {
+        "name": "Tables",
+        "cells": 208,
+        "formulas": 86,
+        "state": "visible"
+      },
+      {
+        "name": "ASX pl",
+        "cells": 882,
+        "formulas": 666,
+        "state": "visible"
+      },
+      {
+        "name": "SGX pl",
+        "cells": 383,
+        "formulas": 281,
+        "state": "visible"
+      },
+      {
+        "name": "ASX",
+        "cells": 365,
+        "formulas": 223,
+        "state": "visible"
+      },
+      {
+        "name": "SGX",
+        "cells": 2366,
+        "formulas": 1227,
+        "state": "visible"
+      }
+    ]
+  },
+  {
+    "document": "Debt-Capacity-Calculator.xlsx",
+    "title": "Original debt-capacity source",
+    "path": "/library/deal-models/debt-capacity-source.xlsx",
+    "sha256": "19e56a6b2250beaf0a8d71140a1315f52f12a4cb0beb00280ccb064d24b1f3d7",
+    "sheets": [
+      {
+        "name": "DebtCap",
+        "cells": 737,
+        "formulas": 476,
+        "state": "visible"
+      }
+    ]
+  },
+  {
+    "document": "Due Diligence Template.xlsx",
+    "title": "Original diligence example and blank template",
+    "path": "/library/deal-models/diligence-source.xlsx",
+    "sha256": "a559c6e406c8b5da1730e00c338147dab692703e9dc2ade60e3da15c8f702ae1",
+    "sheets": [
+      {
+        "name": "M&A Due Diligence w Gantt - EX",
+        "cells": 8304,
+        "formulas": 7334,
+        "state": "visible"
+      },
+      {
+        "name": "M&A Due Diligence w Gantt BLANK",
+        "cells": 11210,
+        "formulas": 10750,
+        "state": "visible"
+      }
+    ]
+  },
+  {
+    "document": "M&A Integration Scorecard Template.xlsx",
+    "title": "Original integration scorecard example and blank template",
+    "path": "/library/deal-models/integration-scorecard-source.xlsx",
+    "sha256": "4097365a148207f28afd12b4b819093412a913ee24fa554aaf2175eefd286d93",
+    "sheets": [
+      {
+        "name": "MA Integration Scorecard -EX",
+        "cells": 125,
+        "formulas": 8,
+        "state": "visible"
+      },
+      {
+        "name": "MA Integration Scorecard -BLANK",
+        "cells": 110,
+        "formulas": 8,
+        "state": "visible"
+      }
+    ]
+  },
+  {
+    "document": "Simple LBO model.xlsx",
+    "title": "Historical LBO and recapitalization source",
+    "path": "/library/deal-models/lbo-source.xlsx",
+    "sha256": "ddde150b25982d470ef18886ea1e55705dba6f8efa0d6245e7404a47c66c9b49",
+    "sheets": [
+      {
+        "name": "Assump.",
+        "cells": 401,
+        "formulas": 179,
+        "state": "visible"
+      },
+      {
+        "name": "Summary",
+        "cells": 149,
+        "formulas": 121,
+        "state": "visible"
+      },
+      {
+        "name": "Income Statement",
+        "cells": 369,
+        "formulas": 241,
+        "state": "visible"
+      },
+      {
+        "name": "BS_Adjustments",
+        "cells": 138,
+        "formulas": 65,
+        "state": "visible"
+      },
+      {
+        "name": "Balance Sheet",
+        "cells": 266,
+        "formulas": 231,
+        "state": "visible"
+      },
+      {
+        "name": "Cash Flow & Debt Schedule",
+        "cells": 388,
+        "formulas": 325,
+        "state": "visible"
+      },
+      {
+        "name": "Depr, Amort & CapEx",
+        "cells": 133,
+        "formulas": 103,
+        "state": "visible"
+      },
+      {
+        "name": "Equity Returns",
+        "cells": 230,
+        "formulas": 146,
+        "state": "visible"
+      },
+      {
+        "name": "DCF",
+        "cells": 187,
+        "formulas": 154,
+        "state": "visible"
+      }
+    ]
+  },
+  {
+    "document": "Synergy and Culture Mapping Exercise.xlsx",
+    "title": "Original culture comparison exercise",
+    "path": "/library/deal-models/culture-source.xlsx",
+    "sha256": "8b721e76c1170924303eb9a42c6066d6b5c9620d66f3fcaa557a3969d2731017",
+    "sheets": [
+      {
+        "name": "Culture Mapping Exercise",
+        "cells": 171,
+        "formulas": 0,
+        "state": "visible"
+      }
+    ]
+  },
+  {
+    "document": "VWAP Calculator.xlsx",
+    "title": "Historical volume-profile source and charts",
+    "path": "/library/deal-models/volume-profile-source.xlsx",
+    "sha256": "4e035a2706b0213c7081eb249b432686fe52c27f1d9f564fb519f574376778a9",
+    "sheets": [
+      {
+        "name": "Dataset",
+        "cells": 73157,
+        "formulas": 66998,
+        "state": "visible"
+      },
+      {
+        "name": "VWAP",
+        "cells": 119,
+        "formulas": 70,
+        "state": "visible"
+      }
+    ]
+  }
+]

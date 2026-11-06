@@ -14,6 +14,7 @@ from source import edited, read_document, section_blocks, reviewed_blocks
 from accounting import accounting_blocks, accounting_text
 from people import metric_directory, people_blocks
 from references import read_workbook, reference_catalogue
+from deal_workbooks import verify_workbooks
 
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
@@ -43,6 +44,15 @@ def merge_blocks(existing, incoming):
 
 def blocks_for(doc, span, page, formula_reviews=None, formula_references=None, metrics=None, study_reviews=None):
     paragraphs = doc['paragraphs'][span['start']:span['end']]
+    if span.get('definitions'):
+        definitions = span['definitions']
+        assert [d['index'] for d in definitions] == list(range(span['start'] + 1, span['end'], 2)), 'Incomplete reviewed glossary'
+        blocks = []
+        for definition in definitions:
+            i = definition['index']
+            blocks.append(dict(kind='reference', term=edited(doc['paragraphs'][i]['text']), paragraphs=[definition['explanation']]))
+            blocks.append(dict(kind='review', review=dict(status='Original glossary wording and editorial clarification', date='2026-11-06', paragraphs=['Read the clarified definition above; original wording follows for traceability.'], references=[], original=[edited(doc['paragraphs'][i]['text']), edited(doc['paragraphs'][i + 1]['text'])])))
+        return blocks
     if span.get('review'):
         review = span['review']
         assert review['status'] and review['paragraphs'] and review['date'], 'Incomplete source review'
@@ -109,6 +119,10 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
     formula_references = json.loads((HERE / 'accounting-references.json').read_text()) if formula_reviews is not None else None
     with zipfile.ZipFile(archive) as zipped:
         expected_names = {r['document'] for p in plan for r in p['ranges']}
+        if batch.get('workbooks'):
+            workbook_records = json.loads((HERE / batch['workbooks']).read_text())
+            expected_names.update(r['document'] for r in workbook_records)
+            verify_workbooks(zipped, workbook_records, ROOT)
         bibliography = batch.get('bibliography')
         workbook = None
         if bibliography:
@@ -220,6 +234,12 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
             blocks = [dict(kind='paragraph', text=t) for t in section['paragraphs']]
             if section.get('links'):
                 blocks.append(dict(kind='reading-links', links=section['links']))
+            if section.get('resources'):
+                for resource in section['resources']:
+                    assert resource['label'] and (resource['href'].startswith('/calculators/') or resource['href'].startswith('/library/deal-models/')), 'Unsafe resource link'
+                    if resource['href'].startswith('/library/deal-models/'):
+                        assert (ROOT / 'apps/web/public' / resource['href'].lstrip('/')).is_file(), 'Missing source download'
+                blocks.append(dict(kind='resources', resources=section['resources']))
             if section.get('referenceIds'):
                 blocks.append(dict(kind='academic-readings', referenceIds=section['referenceIds']))
             article['sections'].append(dict(id=section_id, heading=section['heading'], blocks=blocks))
@@ -412,6 +432,8 @@ assert all(f['name'] and f['units'] and f['inputs'] and f['scope'] and f['origin
 # Write only after all batches, destinations and discovery paths have passed checks.
 for batch, documents, coverage, image_coverage, workbook in outputs:
     inventory = dict(archiveSha256=batch['sha256'], documents=list(documents.values()))
+    if batch.get('workbooks'):
+        inventory['workbooks'] = json.loads((HERE / batch['workbooks']).read_text())
     if workbook:
         inventory['workbooks'] = [workbook]
         with (ROOT / batch['bibliography']['ledger']).open('w', newline='') as out:

@@ -12167,12 +12167,24 @@
       {
         "heading": "Pro-rata participation: a short source note",
         "body": "Pro rata investment: just like first rights but give investors the option to buy in case of top up"
+      },
+      {
+        "heading": "SAFE and supplied funding-stage examples",
+        "body": "Editorial interpretation and source limits\nA SAFE is a contractual right to future equity on specified terms and triggering events. It is not simply a warrant or a promise that a funding round will occur. Consult the particular instrument, valuation cap, discount and capitalization definition.\nThe supplied ARR ranges, multiples, funding-stage valuations and elapsed days have incomplete sample/date provenance. They are preserved as an attributed example, not current fundraising norms or a guaranteed progression.\nMedium Multiples\nSAFE Investment\nSimple Agreement for Future Equity\nAn agreement between an investor and a company that provides rights to the investor for future equity in the company similar to a warrant, except without determining a specific price per share at the time of the initial investment.\nAverage 10 Years ARR\n@peterjameswalker\nSeed\nSeries A\nSeries B\nSeries C\nSeries D\nSeries E\n13-53x\n12-25x\n8-14x\n3-5x\n6-8x\n5-7x\n$250K - $1M ARR\n$2M - $4M ARR\n$7M - $13M ARR\n$22M - $34M ARR\n$50M - $70M ARR\n$91M - $116M ARR\nValued $13.3M\nValued $44M\nValued $100M\nValued $116M\nValued $425M\nValued $617M\n649 days, 22 months\n784 days, 26 months\n762 days, 25 months\n750 days, 25 months\n750 days, 25 months"
       }
     ],
     "sources": [
       {
         "title": "Investor.gov: investment products",
         "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products"
+      },
+      {
+        "title": "Y Combinator: SAFE documents and user guide",
+        "url": "https://www.ycombinator.com/safe"
+      },
+      {
+        "title": "NVCA: model legal documents",
+        "url": "https://nvca.org/model-legal-documents/"
       }
     ]
   },
@@ -13185,6 +13197,14 @@
       {
         "heading": "Acceleration, co-sale and exclusivity",
         "body": "Editorial clarification\nDouble-trigger acceleration typically requires two specified events; the agreement defines them and the effect. Co-sale and no-shop clauses need scope, participants, duration and exceptions. The source’s “mutually don’t find new party” is not a universal definition of no-shop. These are deal terms, not automatic fundraising tactics.\nDouble-trigger acceleration\nPlanned future management team\nCo-sale agreement: allow investors to sell together with founder\nNo-shop agreement: mutually don’t find new party"
+      },
+      {
+        "heading": "Preferred funding: economics and preferences",
+        "body": "Editorial interpretation and source limits\nThis supplied section describes private preferred-stock financing rather than IPO admission. Pre-money and post-money valuation, issue price, dividends, liquidation preference and conversion rights must be read with the specific security and fully diluted share definition.\nTerm Sheet Summary\nGeneral\nIssuer\nInvestor(s)\nAmount of financing\nPrice: per share, pre-money and post-money valuation\nType of security\nClosing\nTerms of series A preferred stock\nDividends\nPayment made by a corporation to its shareholders, usually as a distribution of profits\nLiquidation preference\nDictates the payout order in case of corporate liquidation\nConversion\nTo convert the preferred shares into common shares when the result is more advantageous to the shareholders\nAutomatic conversion\nAnti-dilution\nThe right to maintain percentage ownership of a company by buying a proportionate number of shares\nRedemption rights\nVoting rights\nDifferent shareholders voting power\nBoard of directions\nElecting the right board\nProtective provision\nRights to preferred stockholders to approve certain decisions made by, or with respect to the company\nPay-to-play\nA strong incentive for investors to participate in future financings\nInformation rights"
+      },
+      {
+        "heading": "Preferred funding: protection, control and transfers",
+        "body": "Editorial interpretation and source limits\nAnti-dilution adjusts conversion economics under specified down-round terms. A pro-rata participation right instead permits an investor to buy into future issues to maintain ownership; it does not provide the same protection.\nVesting determines when equity or an award is earned or becomes non-forfeitable. An option exercise is a different event; some agreements permit early exercise of unvested options with repurchase restrictions. The source should not be read as a universal rule prohibiting early exercise.\nVoting, board seats, protective provisions, information rights, pre-emption, drag/tag rights, transfer restrictions, leaver provisions, non-competes and dispute terms depend on the actual instrument and jurisdiction. The source is a negotiation checklist, not a ready-to-sign agreement.\nDemand to receive regular updates from the private company about its financials and operations\nRegistration rights\nEntitles an investor who owns restricted stock the ability to require a company to list the shares publicly so that the investor can sell them\nRight of first refusal\nBefore third parties have access to the deal\nPurchase agreement\nEmployee matters\nEmployee pool\nOption pool\nVesting\nThe right for employees to exercise a set number of shares at a fixed price later on\nRestriction on sales\nRight of first refusal on all transfers of common stock\nProprietary information and inventions agreement\nNo competition, no conflict of interest and intellectual property (IP)\nDrag-along right\nIf the majority shareholder of an entity sells their stake, the prospective owner has the right to force the remaining minority shareholders to join the deal\nCo-sale agreement\nAllow minority shareholders to sell their stakes in a company if a majority shareholder wishes to sell its stake\nFounders' activities\nEach of the founders shall devote 100% of his professional time to the company\nKeyman insurance\nOther matters\nInitial public offering share purchase\nThe right to purchase at least (5%) of any shares issued under a \"friends and family\" or \"directed shares\"\nNo-shop agreement\nPrevents the seller from soliciting purchase proposals from other parties for a given duration of time\nCapitalisation/fact sheet\nIndemnification\nThe company will indemnify investors and board members to the maximum extent\nInsurance\nRights to conduct activities\nAssignment\nInvestors shall be entitled to transfer all or part of its shares\nLegal fees and expenses\nGoverning law\nConditions precedent to financing\nDetail events that have to occur before the term sheet will become binding\nFinders\nCounsel\nMore terms\nAdverse change redemption\nShareholder gets the right to redeem his shares if something adverse happens to the company\nAt-will employee\nNo employment agreement and can be terminated anytime\nBroad-based anti-dilution\nWeighted average anti-dilution calculation, opposite of narrow-based anti-dilution\nEntrepreneur in residence (EIR)\nFormer entrepreneur helping out the venture firm\nPari-passu\nAll classes of preferred stock have equivalent payment rights in liquidation\nRight of rescission\nShareholders to force the company to buy back their stock\nShareholder agreement\nStock options\nDecision-making\nShareholder exit\nThe value of the company\nNon-compete\nArbitration"
       }
     ],
     "sources": [
@@ -13194,6 +13214,14 @@
       },
       {
         "title": "NVCA: US model legal documents",
+        "url": "https://nvca.org/model-legal-documents/"
+      },
+      {
+        "title": "Y Combinator: SAFE documents and user guide",
+        "url": "https://www.ycombinator.com/safe"
+      },
+      {
+        "title": "NVCA: model legal documents",
         "url": "https://nvca.org/model-legal-documents/"
       }
     ]
@@ -14598,6 +14626,755 @@
     ]
   },
   {
+    "slug": "ma-deal-structures",
+    "title": "M&A deal structures: control, consideration and ownership",
+    "topic": "Finance & Accounting",
+    "group": "Deal foundations",
+    "summary": "Separate the legal form of a deal from how it is financed and what it does to shareholders.",
+    "sections": [
+      {
+        "heading": "Shares, assets and strategic combinations",
+        "body": "Editorial interpretation and source limits\nA share acquisition transfers shares; an asset acquisition transfers specified assets and liabilities subject to the agreement and applicable law. Neither label by itself says whether a deal is friendly, hostile, vertical or horizontal.\nShare and asset purchases do not automatically dissolve the target. Merger, asset-sale approval and dissolution are different legal processes. The Delaware provisions cited below illustrate that distinction; other jurisdictions and documents can differ.\nHorizontal combinations join overlapping businesses; vertical combinations join supply-chain stages; conglomerate and market/product-extension labels describe other strategic relationships. Several labels can fit one transaction.\nApple announced $3 billion for Beats Music and Beats Electronics in May 2014. The supplied $3.2 billion figure is corrected here. Calling it purely vertical requires an argument about the specific businesses, not just a source label.\nMergers and Acquisitions (M&A)\nTypes of M&A\nStock Acquisitions are one of the most common ways companies merge with other entities and is also the technical term for a \"hostile takeover.\"\nVertical Mergers happen when two companies occupy the same industry, but one feeds directly into the other's production line.\nA merger between two companies producing different goods & services for one specific finished products.\nThe merger of the firm that have actual or potential buyer-seller relationship.\nE.g. Apple Buys Dr Dre Beats Electronics for $3.2Bn in 2014\nHorizontal Mergers work similarly to vertical mergers, but the two companies occupy the same industry and are often competitors.\nA merger occurring between companies producing similar products, goods and offerings similar services.\nThis type of merger occurs frequently as a result of larger companies attempting to create more effective economies of scale.\nE.g. Boeing acquired McDonnell Douglas for $13Bn in 1997\nConglomerates form when two companies in separate industries join to diversify their products and spread quickly into other sectors.\nPure conglomerate M&A - It involves firms with nothing common.\nMixed conglomerate merger - It involves firms that are looking for product extensions or market extensions.\nE.g. Tata Group acquired Jaguar-Land Rover in 2008 from Ford for $2.3Bn\nA Concentric Merger requires two companies in similar, but not identical industries. This kind of alliance is beneficial when the two companies have similar production needs or distribution channels.\nAn Asset Purchase is used by companies who want specific assets from another company but not their current liabilities or the entirety of the business.\nMerger\nA merger is a result of an agreement between two companies that want to come together and create a new company. This process is normally less complicated compared to the other two. It's why this method is mostly used.\nA transaction where two firms agree to integrate their operations on a relatively coequal basis because they have resources and capabilities that together may create a stronger competitive advantage\nWays\nAsset Acquisition\nThe buyer buys all the assets of the selling company. This method is considered the best deal structure used to sell a company if the buyer wants to get cash in exchange for the deal. With this, the buyer also chooses the assets that they wish to purchase.\nThe assets of company Y may be sold to company X. Once this is done company Y is then legally terminated and company X survives.\nAdvantages\nThe selling company will still continue to operate as a corporate entity even after the sale has been made, with its unsold liabilities and assets.\nThe buyer has the choice to choose the assets they get to buy from the seller and which ones they do not want to purchase.\nDisadvantages\nThe deal might take a long time to close as compared to the other M&A deal structure methods.\nThis process can lead to high-impact tax costs for both parties.\nThe buyer will not have the choice to acquire any non-transferable assets, such as goodwill.\nStock Purchase\nThe stock purchase method does not have the assets transacted directly. The major amount of the voting stock of the seller is acquired by the buyer. This means that the control of the seller’s assets and liabilities is transferred to the buyer.\nThe common share of company Y may be purchased by company X. When company X holds all the share of company Y, it is dissolve.\nAdvantages\nIt is a less expensive method.\nClosing this deal will take less time as it is simpler and requires less negotiations.\nThe taxes on this deal are low, especially for the seller.\nDisadvantages\nUncooperative minority shareholders might have an issue with this.\nFinancial and legal liabilities can come with the stock purchase acquisition.\nExchanging shares for assets\nThe company X may give their shares to stakeholders of company Y for its net assets. The company Y terminated by its shareholder who now holds share of company X.\nExchanging shares for shares\nCompany X gives its shares to the shareholder of company Y and then company X is terminated."
+      },
+      {
+        "heading": "Motives and incentives",
+        "body": "Reasons for Acquisition\nStrategic Motives\nExtension of scope in terms of geography, products or markets.\nConsolidation to increasing scale, efficiency and market power.\nCapabilities on enhancing technological know-how (or other competences).\nFinancial Motives\nFinancial Efficiency for a company with a strong balance sheet (cash rich) may acquire/merge with a company with a weak balance sheet (high debt)\nTax efficiency to reducing the combined tax burden\nAsset stripping or unbundling to selling off bits of the acquired company to maximise asset values\nFinancial Motives\nPersonal ambition on financial incentives tied to short-term growth or share-price targets; boosting personal reputations; giving friends and colleagues greater responsibility or better jobs.\nBandwagon effects where the managers may be branded as conservative if they don’t follow a M&A trend; shareholder pressure to merge or acquire; the company may itself become a takeover target."
+      },
+      {
+        "heading": "Test the financing separately",
+        "body": "Model cash, stock, debt, option dilution, closing timing and operating adjustments. EPS accretion and value creation answer different questions."
+      },
+      {
+        "heading": "Apple / Beats price and vertical-merger classification — historical evidence",
+        "body": "Apple’s May 28, 2014 agreement announced $3.0bn total: approximately $2.6bn purchase price plus $0.4bn vesting over time, for Beats Music and Beats Electronics. The supplied $3.2bn figure does not match that announcement.\nThis is agreement-stage evidence, not a closing notice. Complementary audio hardware and music services alone do not prove the source’s production-chain definition of vertical merger; label strategic acquisition rather than force a structural category."
+      },
+      {
+        "heading": "Tata / Jaguar Land Rover conglomerate classification — historical evidence",
+        "body": "Tata Motors, an automotive manufacturer, completed its purchase of Jaguar Land Rover businesses from Ford on June 2, 2008 for $2.3bn net consideration on a cash-free debt-free basis. Use the actual automotive buyer rather than diversified Tata Group to justify an unrelated-industry example.\nClassification is an inference from buyer and target activities. Do not assert a uniquely authoritative merger taxonomy from the announcement."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Delaware corporate statute: asset sales, mergers and dissolution have separate provisions",
+        "url": "https://delcode.delaware.gov/title8/c001/sc10/index.html"
+      },
+      {
+        "title": "Delaware Superior Court: GreenTech v. Hilco (2022)",
+        "url": "https://courts.delaware.gov/Opinions/Download.aspx?id=332770"
+      },
+      {
+        "title": "Apple: Beats acquisition announcement",
+        "url": "https://www.apple.com/newsroom/2014/05/28Apple-to-Acquire-Beats-Music-Beats-Electronics/"
+      },
+      {
+        "title": "Apple: Apple to Acquire Beats Music & Beats Electronics",
+        "url": "https://www.apple.com/newsroom/2014/05/28Apple-to-Acquire-Beats-Music-Beats-Electronics/"
+      },
+      {
+        "title": "JLR / Tata Motors: Tata Motors Completes Acquisition Of Jaguar Land Rover",
+        "url": "https://media.jlr.com/corporate/en-us/news/2008/06/tata-motors-completes-acquisition-jaguar-land-rover"
+      },
+      {
+        "title": "Ford Motor Company: 8-K, Item 2.01, Completion of disposition",
+        "url": "https://www.sec.gov/Archives/edgar/data/38009/000114036108014252/ex99_2.htm"
+      }
+    ]
+  },
+  {
+    "slug": "ma-synergies-value",
+    "title": "Acquisition synergies: from rationale to measurable value",
+    "topic": "Finance & Accounting",
+    "group": "Deal foundations",
+    "summary": "Translate cost, revenue and financing claims into timed, costed and accountable integration assumptions.",
+    "sections": [
+      {
+        "heading": "Sources of synergy and integration work",
+        "body": "Synergies\nPre-LOI & Evaluating Bid\nThe financial benefits achieved when 2 companies combine, leading to reduced operating expenses and increased efficiency.\nRevenue Strategy\nThe additional revenue or sales growth generated by accessing new markets, cross-selling products or services, or complementary customer bases to increase sales.\nFinancial Synergy\nIncludes both cost and revenue synergies and may also involve optimising capital structure, improving financial management, and enhancing overall financial health.\nTechnology Synergy\nThe advantages gained by integrating and leveraing the technological assets that lead to improved product development, enhanced R&D capabilities, or faster technological advancements.\nIntegration\nStrategic fit\nDoes the target firm strengthen or complement the acquiring firm’s strategy? (N.B. It is easy to over-estimate this potential synergy).\nOrganisational fit\nIs there a match between the management practices, cultural practices and staff characteristics of the target and the acquiring firm?\nHuman Resources (HR): This includes aligning employee benefits, policies, and culture, as well as addressing workforce redundancies.\nFinance and Accounting: Integrating financial systems, reporting, and accounting practices to ensure consistency and compliance.\nInformation Technology (IT): Merging IT infrastructure, systems, and data to enhance efficiency and cybersecurity.\nSales and Marketing: Coordinating sales and marketing strategies, branding, and customer relations to maximize market impact.\nOperations and Supply Chain: Optimizing operations, production processes, and supply chain management for cost savings.\nProduct and Technology: Integrating product offerings and technology platforms for innovation and competitiveness.\nLegal and Compliance: Ensuring legal compliance, intellectual property protection, and risk management.\nCustomer Service and Support: Consolidating customer service and support functions to enhance customer experience.\nReal Estate and Facilities: Managing real estate assets, facilities, and office locations for cost—efficiency.\nCorporate Culture: Fostering a cohesive corporate culture and addressing cultural differences to promote a harmonious work environment."
+      },
+      {
+        "heading": "Separate financial synergy from cultural fit",
+        "body": "Culture gaps can guide integration discussions but are not financial synergy estimates. The supplied culture sheet contains no financial calculations. The valuation workbench discounts explicit annual benefits and costs; the integration planner tracks delivery in compatible units."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NYU Stern: valuation teaching and spreadsheets",
+        "url": "https://pages.stern.nyu.edu/~adamodar/"
+      }
+    ]
+  },
+  {
+    "slug": "takeover-tactics-controls",
+    "title": "Takeover tactics and control defenses",
+    "topic": "Finance & Accounting",
+    "group": "Deal foundations",
+    "summary": "Read the historical vocabulary of bids and defenses with governance, legal and shareholder context.",
+    "sections": [
+      {
+        "heading": "Takeover strategies and defenses",
+        "body": "Editorial interpretation and source limits\nThe supplied notes describe historical tactics such as tender offers, proxy contests, white knights, pills and asset defenses. Availability, approvals and fiduciary constraints depend on the jurisdiction, governing documents and facts.\nA stock acquisition can be negotiated and friendly. Hostility describes the relationship to the target board, not a universal consequence of acquiring shares. A tactic’s description is not a recommendation or confirmation that it is lawful today.\nTakeover Strategies\nBlack Knight\nAn unwelcome takeover bidder.\nCreeping Takeover\nAcquirer slowly, over a period of time, buys the shares of the target in the stock market to gain a controlling interest in the company.\nDawn Raid\nA takeover attempt that buys all available shares of the target company at the current market price as soon as the stock exchange is open for business.\nGodfather Offer\nThe acquirer presents an attractive takeover that the target company cannot refuse. A godfather offer does not have negative implications that are usually associated with this type of takeover offer, including a change of the management team, asset stripping, or transfer of reserves.\nTender Offer\nAcquirer offers an attractive price to target shareholders to sell their shares in the case of a clean takeover bid.\nToehold Position\nPurchasing less than 5% of a company’s shares – to obtain a significant equity position, perhaps aiming to eventually gain a controlling interest, but a small enough purchase to avoid having to notify regulatory authorities.\nHostile Takeover Defenses\nCrown Jewels Defense\nTarget selling the most valuable parts of the company (crown jewels) if a hostile takeover occurs. This deters acquirers from pursuing a hostile takeover.\nDead-hand Provision\nThe provision requires that anti-takeover defenses can only be canceled by a vote of the board, so acquirers who want to avoid the consequences of the defenses must receive approval from the board before initiating a takeover.\nFlip-in\nTarget company’s shareholders can purchase more shares of its stock at a discount. This dilutes the stock, making it more expensive and difficult for a potential acquirer to obtain a controlling equity interest (more than 50% of voting shares).\nFlip-over\nTarget company’s shareholders can buy the post-merger (acquirer) company’s stock at a discount. The target company is counterattacking by diluting the acquirer’s stock.\nGolden Parachute\nAn employment contract that guarantees extensive benefits to executives if they are made to leave the company. This allows executives to remain in the company even after a merger.\nGreenmail\nTarget company repurchasing stock from the acquirer or a third party for a premium price to avoid the stock falling into the hands of the acquirer.\nKiller Bees\nPublic relations firms, law firms, or investment bankers hired by a target company to help fend off a hostile takeover.\nLobster Trap\nRestricting individuals with large amounts of convertible securities from converting if by doing so the individual is going to hold 10% or more of the target’s shares.\nPac Man Defense\nThe target company of a hostile takeover turns around and attempts to obtain controlling shares of the acquirer.\nPoison Pill\nAny of several hostile takeover defenses designed to discourage the acquirer from pursuing the takeover.\nPoison Put\nTarget companies allow bondholders to sell bonds back at a premium to make hostile takeovers costlier.\nSandbagging\nTarget company playing along with the hostile bid and stalling for time while waiting for a white knight to appear.\nScorched Earth Policy\nTarget borrows money at extremely high interest rates to make the takeover unattractive. It’s a double-edged sword because although the takeover is prevented, the company may be destroyed by crippling debt.\nShow-stopper\nTarget starting litigation to thwart an attempt at a takeover.\nSupermajority Amendment\nA requirement that a very large percentage of shareholders approve of major decisions of the company – an attempt to fend off hostile takeovers.\nWhite Knight Defense\nA friendly takeover bidder that outbids the Black Knight.\nWhite Squire Defense\nAn ally of the target company that does not buy enough shares to gain a controlling interest, but enough to prevent the hostile takeover acquirer from gaining a controlling interest."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Delaware corporate statute: asset sales, mergers and dissolution have separate provisions",
+        "url": "https://delcode.delaware.gov/title8/c001/sc10/index.html"
+      },
+      {
+        "title": "Delaware Superior Court: GreenTech v. Hilco (2022)",
+        "url": "https://courts.delaware.gov/Opinions/Download.aspx?id=332770"
+      }
+    ]
+  },
+  {
+    "slug": "corporate-restructuring",
+    "title": "Corporate restructuring: ownership, assets and capital",
+    "topic": "Business & Management",
+    "group": "Growth and restructuring",
+    "summary": "Distinguish divestitures, spin-offs, recapitalizations, buyouts and financial distress responses.",
+    "sections": [
+      {
+        "heading": "Forms and examples of restructuring",
+        "body": "Editorial interpretation and source limits\nRestructuring can change business boundaries, ownership, capital structure or operations. A leveraged buyout uses acquisition debt and equity to purchase control; a recapitalization changes financing and may distribute cash without the same change of control.\nGovernment rescue or bailout examples are not automatically LBOs. Classification depends on the transaction actually undertaken. The supplied examples mix these ideas; retain their historical wording only with that distinction.\nDivestitures, carve-outs and spin-offs have different ownership and funding effects. Distress reorganizations and liquidations also require jurisdiction-specific treatment rather than a single universal procedure.\nRestructuring\nRestructuring Strategy is a strategy through which a firm changes its set of businesses or financial structure.\nRestructuring Strategy is a strategy through which a firm changes its set of businesses or financial structure.\nRestructuring strategy may occur due to changes in the external or internal environments of the firm.\nRestructuring now aligned with the aim of increasing shareholder value – a “renewed emphasis upon the maximisation of shareholder wealth”\nCorporate Restructuring\nAsset Restructuring\nThe sale of unproductive assets, or even whole lines of businesses, that are peripheral.\nCapital Restructuring (Financial Re-engineering)\nChanging the debt-equity mix, or the mix between different classes of debt or equity.\nManagement Restructuring (Management Buy-Out / Management Buy-In) :\nChanges in the composition of the top management team, organization structure, and reporting relationships.\nDownsizing\n+ Reduced labour costs\n- Loss of human capital\n- Lower performance\nA reduction in the number of a firm’s employees and, sometimes, in the number of its operating units.\nTypical reasons for downsizing\nExpectation of improved profitability from cost reductions.\nDesire or necessity for more efficient operations.\nRestructuring may or may not change the composition of businesses in the portfolio.\nA divestiture, spin-off or some other means of eliminating businesses that are unrelated to a firm’s core businesses.\nA set of actions that causes a firm to strategically refocus on its core and related businesses.\nDownscoping\n+ Reduced debt costs\n+ Empahses on strategic controls\n- Higher performance\nRefers to divestiture, spin-off or some other means of eliminating businesses that are unrelated to a firm’s core business.\nMay be accompanied by downsizing, but not eliminating key employees from its primary businesses.\nFollowing downscoping, the firm can be more effectively managed by the top management team because it has become less diversified.\nLeveraged Buyouts (LBO)\n+ Empahses on strategic controls\n- High debt costs\n- Higher risk\nSignificant amounts of debt are usually incurred to finance the buyout.\nOften, the intent is to improve efficiency and performance, eventually making the firm an attractive candidate for purchase.\nA restructuring strategy whereby a party buys all of a firm’s assets in order to take the firm private\nCan correct for managerial mistakes that primarily serve managers’ own interests rather than those of shareholders.\nFollowing LBO, restructuring occurs: downsize and/or downscope.\nLBO Examples\nAIG bailout US182b, 2008\nJAL bailout US11b, 2010\nMAS bailout RM6b, 2014\nSIA bailout SG16b, 2020\nMalaysia Airline (MAS)\nMH has racked up debts approaching US$1.5bn since 2011\n2 tragic incidents in 2014 – missing of MH370 (March) & crash of MH17 (July) saw share price crashing.\n6 Nov 2014, shareholders voted to approve a takeover bid by Khazanah Nasional to take the company private. KN already holds 69.4% of the airline, and will buy the remaining 30.6% of shares in an effective state take-over.\nRestructuring Plan costing RM6 billion was announced to help the company become profitable again by 2017.\nGovernance & financial restructuring\nDelist MAS (old company) & migrate the relevant operations, assets & liabilities to a new company by July 2015.\nReduce net gearing from 290% to 100% to 125% through debt-to-equity swaps\nOpeational Restructuring\nRationalise network to be principally regionally focused with strong global connectivity through MAS’ Oneworld alliance and other code share partners\nA renewed focus on revenue yield management\nConsolidate HQ and operations from Subang to KLIA\nStrengthening of the assurance, integrity & safety functions\nReview and, where appropriate, renegotiate supply contracts\nLeadership & Human Capital Restructuring\nAppointment of new CEO - Christoph Mueller, the ex CEO of Ireland's Aer Lingus\nRight sizing the workforce to an estimated 14,000 employees (30% cut)\nStrengthen industrial relations and internal alignment\nReskilling, internal job creation & redeployment\nOthers\nAppropriate Government support on key initiatives\nContinuous communications & stakeholder engagement"
+      },
+      {
+        "heading": "Model a buyout or recapitalization",
+        "body": "Compare entry funding, legacy shareholder proceeds, projected cash flow, debt repayment and exit ownership under separate transaction modes."
+      },
+      {
+        "heading": "AIG rescue as LBO example — historical evidence",
+        "body": "Government assistance began in September 2008 and was expanded/restructured in 2008–2009. GAO records up to $182.3bn made available, not a single 2008 buyout price.\nCommitted assistance differs from disbursed funds, acquisition consideration and net fiscal cost. Sources establish rescue financing, not a conventional leveraged sponsor buyout."
+      },
+      {
+        "heading": "JAL rescue as LBO example — historical evidence",
+        "body": "JAL entered corporate reorganisation and received ETIC support in January 2010. JAL subsequently records a ¥350bn ETIC capital injection after bankruptcy. The supplied US$11bn needs a defined funding perimeter and dated exchange rate.\nDo not equate capital injection, total support and debt relief. Bounded primary review does not verify the supplied dollar total or conventional LBO classification."
+      },
+      {
+        "heading": "MAS recovery plan as LBO example — historical evidence",
+        "body": "Khazanah’s August 29, 2014 recovery plan provided up to RM6bn further investment, conditional and staggered. Present as rescue, delisting and restructuring context rather than an established leveraged sponsor buyout.\nThe ceiling is not a claim that RM6bn was disbursed immediately or entirely used to buy shares. Full capital-structure review was outside this bounded check."
+      },
+      {
+        "heading": "SIA pandemic recapitalisation as LBO example — historical evidence",
+        "body": "SIA’s March 26, 2020 plan offered S$5.3bn rights equity and up to S$9.7bn mandatory convertible bonds, plus a S$4bn bridge facility. June 8 release confirms S$8.8bn rights issue completed June 5 and about S$10bn fresh liquidity including credit facilities. The supplied S$16bn is not supported as a single rescue or buyout amount.\nSeparate announced facilities, issued securities, available credit and actual proceeds. This recapitalisation does not establish an LBO or privatisation."
+      }
+    ],
+    "sources": [
+      {
+        "title": "US Government Accountability Office: Financial Crisis: Review of Federal Reserve System Financial Assistance to AIG, GAO-11-616",
+        "url": "https://www.gao.gov/assets/gao-11-616.pdf"
+      },
+      {
+        "title": "Federal Reserve Bank of New York: Actions Related to AIG",
+        "url": "https://www.newyorkfed.org/aboutthefed/aig"
+      },
+      {
+        "title": "Japan Airlines: JAL Received Decision on Support from ETIC and the Court’s Decision on Commencement of Corporate Reorganization Proceedings",
+        "url": "https://press.jal.co.jp/en/release/201001/003256.html"
+      },
+      {
+        "title": "Japan Airlines: Regular Press Conference (September 18, 2013)",
+        "url": "https://www.jal.com/cms/en/corp_00271.html"
+      },
+      {
+        "title": "Khazanah Nasional: Annual Review 2014: MAS Recovery Plan case study",
+        "url": "https://www.khazanah.com.my/media/uploads/2020/05/2014.pdf"
+      },
+      {
+        "title": "Singapore Airlines: Singapore Airlines To Issue S$5.3 Billion In New Equity And Raise Up To S$9.7 Billion Via Mandatory Convertible Bonds",
+        "url": "https://www.singaporeair.com/en_UK/sg/corporate/newsroom/press-release/2020/January-March/ne0720-200326/"
+      },
+      {
+        "title": "Singapore Airlines: Singapore Airlines Secures S$10 Billion In Fresh Liquidity",
+        "url": "https://www.singaporeair.com/en_UK/bn/corporate/newsroom/press-release/2020/April-June/ne0920-200608/"
+      }
+    ]
+  },
+  {
+    "slug": "strategic-alliances-partnerships",
+    "title": "Strategic alliances: cooperate, invest or acquire?",
+    "topic": "Business & Management",
+    "group": "Growth and restructuring",
+    "summary": "Compare contractual collaboration, equity alliances and joint ventures before committing to ownership integration.",
+    "sections": [
+      {
+        "heading": "Alliance structures, motives and trade-offs",
+        "body": "Editorial interpretation and source limits\nAlliances share activities or resources while preserving some organizational independence. An equity alliance involves a stake; a joint venture establishes a jointly governed undertaking; contractual collaboration need not do either.\nThe supplied Google/NASA–Google Maps joint-venture claim is not supported. Google and NASA announced a research collaboration; that announcement does not establish that Google Maps was their joint venture.\nUse the retained advantages, risks and coordination questions as a decision framework. Scope, governance, IP, exit terms and competition rules need transaction-specific review.\nStrategic Alliances\nNo one organisation can exist in isolation today. All organisations depend on establishing and developing relationships.\nMany commentators predictthat the future of many organisations depend on their ability to successfully enter, and manage, collaborative ventures. The coming decade will be one of strategic collaborations.\nBenefits\nGet into critical country markets quickly to accelerate process of building a global presence\nGain inside knowledge about unfamiliar markets and cultures\nAccess valuable skills and competencies concentrated in particular geographic locations\nEstablish a beachhead to participate in target industry\nMaster new technologies and build new expertise faster than would be possible internally\nOpen up expanded opportunities in target industry by combining firm’s capabilities with resources of partners\nPartnerships between firms where their resources, capabilities, and core competencies are combined to pursue mutual interests to develop, manufacture, and distribute goods or services.\nCompanies sometimes use strategic alliances or collaborative partnerships to complement their own strategic initiatives and strengthen their competitiveness. Such cooperative strategies go beyond normal company-to-company dealings but fall short of merger or full joint venture partnership.\nCooperating with other firms is a strategy that\nCreates value for a customer.\nExceeds the cost of constructing customer value in other ways.\nEstablishes a favorable position relative to competition.\nA strategic alliance involves\nExchange and sharing of resources and capabilities.\nCo-development or distribution of goods or services.\nFactors of Alliance Strategy\nIt is critical to a company’s achievement of an important objective\nIt helps build, sustain, or enhance a core competence or competitive advantage\nIt helps block a competitive threat\nIt helps open up important market opportunities\nIt mitigates a significant risk to a company’s business\nTypes\nEquity alliances involve the creation of a new entity that is owned separately by the partners involved.\nNon-equity alliances are typically looser, without the commitment implied by ownership.\nContract Manufacturing\nProduction of goods by one firm, under the label or brand of another firm.\nE.g. 787 Dreamliner\nConsortia\nShort-term arrangement in which several firms (from the same or different industry sectors or countries) pool their financial and human resources to undertake a large project that benefits all members of the group.\nE.g. 6 Singapore firms join hands to team up with international players to vie for high-speed rail contracts (Clifford Capital, DBS, ST Electronics, Surbana Jurong, sembcorp, SMRT)\nJoint Ventures\nA joint venture (JV) is a business arrangement in which two or more parties agree to pool their resources for the purpose of accomplishing a specific task. This task can be a new project or any other business activity.\nE.g. Golden Harvest JV with Village Roadshow to form Golden Village and Google JV with NASA to form Google Maps\nLicensing & Franchising\nLicensing is where a business arrangement in which one company gives another company permission to manufacture its product for a specified payment.\nE.g. Microsoft, Oracle\nFranchising is a form of business by which the owner (franchisor) of a product, service or method obtains distribution through affiliated dealers (franchisees).\nE.g. 7-Eleven, Jolibee\nNetwork\nThis is a cooperative strategy wherein a group of firms forms multiple partnerships to achieve shared objectives.\nE.g. Oneworld, Star Alliance, Sky Team"
+      },
+      {
+        "heading": "Google / NASA and Google Maps — historical evidence",
+        "body": "Google dates Maps launch to February 8, 2005. NASA describes later research collaborations and planetary content for Google Moon/Earth. Replace the claim that Google and NASA formed Google Maps with a correctly sourced R&D collaboration example.\nNASA’s 2006 newsletter loosely uses joint venture for collaboration; that does not establish a jointly owned company or Maps origin. Do not replace it with an unsourced corporate JV legal classification."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NASA: Google agreements library",
+        "url": "https://www.nasa.gov/foia/nasa-e-libraries/ames-foia-library/google-documents/"
+      },
+      {
+        "title": "Google: A look back at 15 years of mapping the world",
+        "url": "https://blog.google/products-and-platforms/products/maps/look-back-15-years-mapping-world/"
+      },
+      {
+        "title": "NASA: NASA / Google agreements library",
+        "url": "https://www.nasa.gov/foia/nasa-e-libraries/ames-foia-library/google-documents/"
+      },
+      {
+        "title": "NASA Ames: Astrogram June 2008: NASA, Google announce lease at Ames Research Center",
+        "url": "https://www.nasa.gov/wp-content/uploads/2023/08/255793main_june.08.agram_.smallfile.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "ma-valuation-process",
+    "title": "Deal valuation: purpose, methods and decision process",
+    "topic": "Finance & Accounting",
+    "group": "Valuation and financing",
+    "summary": "Choose a valuation basis, build consistent cash flows and reconcile enterprise value with the equity offer.",
+    "sections": [
+      {
+        "heading": "Purpose, valuation process and model families",
+        "body": "Valuation\nThe discount rate is the minimum rate of return acceptable to the investor. The absolute value of the discount rate depends on the definition of the discount rate. Namely, for cash flow after debt servicing, a simple discount rate is used, while for cash flow before debt servicing, a weighted average cost of capital (WACC) is used.\nProcess\nPurpose\nSelling business\nBuying business\nFundraising\nLitigations\nFinancial reporting requirements\nCapital gain tax base calculation\nInternal decision making\nDivorce reasons\nPartnerships restructuring\nSubect of valuation\nDatabase\nCustomer list\nBusinesses\nIntangibles\nReal estate\nBrand\nTechnology\nSoftware\nValuation multiple\nScalability\nSustainability\nTransferability\nModels\nDiscount Cash Flow\nDCF method can be used in startup valuation when there are reasonable and reliable cash flow projections available. DCF is a popular approach that estimates the present value of a company based on its expected future cash flows. Involves forecasting cash flows and applying discount rate.\nAccurate cash flow projects and selection of an appropraite discount rate are crucial.\nDCF = Σ [CFt / (1 + r)^t]\nValuation by Multiple\nIn startup valuation, traditional metrics like EBITDA multiples aren't primary, given pre-revenue or limited financial data. Instead, focus on methods gauging future growth. EBITDA and market multiples may apply based on financial stability and maturity.\nComparable Companies\nThe Comparable Companies Method (Market Comparable or Market Multiple Method) can be used in startup valuation when there are comparable publicly-traded companies or recently funded startups in the same industry. This approach is commonly used in later-stage startups. Uses P/E ratio, P/S ratio and EV/EBITDA.\nEnsure you select comparable companies that are truly similar in terms of business model, size and growth prospects.\nReplacement Cost\nThe Replacement Cost Method or Cost to Duplicate Method is typically not the primary approach in startup valuation. Yet, these methods might be explored if the startup heavily relies on tangible assets with specific characteristics, addressing unique situations in the valuation process.\nNet Book Value\nThe Net Book Value (NBV) method is an accounting metric, representing the difference between historical cost and accumulated depreciation on the balance sheet, and is not a prominent factor in determining the value of startups due to its focus on historical accounting values.\nBerkus Vale\nThe Berkus Method is a rule-of-thumb valuation technique for early-stage startups. Tailored for pre-revenue ventures, it assigns dollar values to qualitative risk factors, acknowledging the limitations of traditional financial metrics in assessing startups without established revenues or earnings.\nVenture Capital\nThis method initiates by projecting the startup's future exit value (e.g., [PC or acquisition). The venture capitalist then sets the desired return on investment (ROI), determining the present valuation. It commonly employs multiples and discount rates for present valuations.\nComparable Transaction Analysis (CTA)\nCTA looks at recent M&A transactions involving similar companies to estimate the value of the target company.\nBe aware of the differences in deal structures and terms between the comparable transactions and your own deal.\nAsset-Based Valuation\nAsset-based valuation focuses on the net value of a company's assets, which can include tangible assets (e.g. real estate, equipment) and intangible assets (e.g. patents, trademarks).\nConsider the liquidation value (asset sold off) and going concern value (assets used in onging operations).\nAsset-Based Valuation = Total Assets - Total Liabilities\nMarket Capitalisation\nMarket cap is the total value of a company's outstanding shares of stock. In an acquisition, the acquirer may offer a premium over the target company's market cap.\nMarket cap is readily available for public companies, making it a straightforward metric.\nMarket Cap = Share Price x Total Outstanding Shares\nRevenue or Earnings Multiples\nValuation is based on multiples of revenue (e.g. Price-to-Sales ratio) or earnings (e.g. Price-to-Earnings ratio). These multiples are applied to the target company's financial metrics.\nEnsure you use appropriate multiples for your industry.\nMultiples = Market Price / (Revenue or Earnings)\nPremium Paid Analysis\nThis method assesses the premium (percentage increase) paid by the acquirer over the current market price of the target company's shares.\nEvaluate the reasons for the premium, such as strategic value or synergy potential.\nPremium Paid = (Offer Price - Market Price) / Market Price\nLeveraged Buyout (LBO) Analysis\nLBO analysis estimates the potential return to an acquiring company if the acquisition is financed through a mix of debt and equity.\nConsider the impact of debt financing on the financial structure.\nIRR and NPV\nControl Premium Analysis\nThis method calculates the premium an acquirer is willing to pay for control over the target company.\nThe control premium can vary widely basedo n the circumstances of the acquisition.\nControl Premium = (Offer Price for Control - Market Price) / Market Price\nIntangible Asset Valuation\nThis approach focuses on the valuation of intangible assets, such as patents, copyrights, and brand value.\nEngage experts if you have valuable intangible assets that need precise valuation.\nCompound Annual Growth Rate (CAGR)\nRepresents the mean annual growth rate of an investment over a specified period longer than one year. It is a useful measure to smooth out volatility over multiple periods and provide a single growth rate\nCapital Asset Pricing Model (CAPM)\nA model that describes the relationship between the expected return of an investment and its risk, measured by beta (β)"
+      },
+      {
+        "heading": "Valuation approaches and inputs",
+        "body": "Approach\nIncome approach\nThis approach is based on the idea that the value of a company is directly related to its ability to generate income. This approach is useful for valuing companies that have a predictable income stream and a long-term history of earnings.\nMethodology\nDiscounted Cash Flow method\nSales & growth\nExpenses\nCAPEX\nFinancing\nWorking capital\nTerminal value\nDiscount rate\nLong term growth rate\nCapitalisation of Earning method\nExcess Earning method\nAdjusted Present Value (APV) method\nRelief from Royalty method (RRM)\nMarket approach\nThis approach assumes that the value of a company is closely related to the prices of comparable companies in the market. The market approach considers the actual market transactions and market data of comparable companies, such as their stock prices, sales, earnings, dividends, and other financial metrics.\nMethodology\nValuation by multiple method\nPrice-to-Earning (P/E) ratio\nPrice-to-Sales (P/S) ratio\nPrice-to-Book (P/B) ratio\nEnterprice Value-to-EBITDA ratio\nPrice-to-Cash Flow (P/CF) ratio\nDividend yield\nMarket price method\nComparable companies method\nComparable transaction method\nMulti-Period Excess Earnings (MPEEM) method\nCost approach\nThis approach is based on the principle that the value of a company is equal to the sum of its assets (equipment, cash, receivables), less the sum of its liabilities (payables, loans). The asset based approach is useful for valuing companies that have significant tangible assets, such as real estate companies.\nMethodology\nNet book value method\nReplacement cost method\nReproduction cost method"
+      },
+      {
+        "heading": "Use consistent definitions",
+        "body": "Discount FCFF using WACC, then bridge enterprise to equity value. Match trading comparables to the same enterprise/equity metric basis. The workbench also separates standalone valuation, deal premium, exchange ratio, synergy present value and project NPV/IRR."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NYU Stern: valuation teaching and spreadsheets",
+        "url": "https://pages.stern.nyu.edu/~adamodar/"
+      }
+    ]
+  },
+  {
+    "slug": "ma-process-team",
+    "title": "The deal lifecycle: people, decisions and handoffs",
+    "topic": "Finance & Accounting",
+    "group": "Deal foundations",
+    "summary": "Follow a transaction from strategy and target selection through diligence, agreement and post-close delivery.",
+    "sections": [
+      {
+        "heading": "Deal team and stakeholder responsibilities",
+        "body": "Teams and Roles\nM&A Advisor\nCrucial for overseeing the entire process, from identifying potential targets or buyers to conducting due diligence and negotiating terms. They provide strategic guidance and ensure the transaction aligns with the startup's objectives\nIntegration Specialist\nHelp the startup smoothly assimilate into the acquiring company or merge with another. They develop integration plans, manage the transistion, and ensure minimal disruption to operations.\nLegal Counsel\nHelp navigate complex legal issues, contracts and regulatory compliance. They play a critical role in drafting and reviewing agreements and protecting the startup's interests.\nTax Advisor\nHelp structure the transaction to minimise tax liabilities, identify potential tax credits, and ensure compliance with tax laws and regulations.\nFinancial Advisor\nAssist in valuing the startup, negotiating deal terms, and assessing the financial impact of the transaction. They help secure favourable financial terms and ensure a fair valuation.\nBuyer's representative\nIncreasing assets under management\nPerforming financial modelling and valuation\nConducting internal research on potential investment and financing opportunities\nIdentifying investors and recruiting capital to manage\nEarning the most favourable risk-adjusted return on capital\nDetermining whether to buy, sell, or hold investment\nOverseeing clients' money\nSeller's representative\nAdvertising and selling securities\nGenerating liquidity for listed securities\nAssisting clients with getting in and out of positions\nProviding equity research analysis of Indexed companies\nPerforming financial modelling and valuation\nAdvising corporate clients on major transactions, mergers and acquisitions\nCreating and building relationships with new businesses and corporations\nFacilitating increasing debt and/or equity\nStakeholder's Management\nGet to know your acquirers.\nUnderstand why an acquirer wants to buy your company.\nKeep your team motivated and maintain momentum.\nDo your best to balance transparency and keep them focused.\nManaging your investors.\nYour board should be kept in the loop as they also help field new acquirers."
+      },
+      {
+        "heading": "Process, financial review and roadmap",
+        "body": "Process\nSourcing Offers - Ask your board and investors for intros and backchannels.\nTime: Several MonthS\nPre-LOI 8. Evaluating Bids - Try to pre-negotiate specific terms.\nTime: 4-6 Weeks\nPost—LOI & Legal - Get insights from other founders who have sold to the acquirer (due diligence).\nTime: 8—10 Weeks\nSign to Close - Fulfill regulatory, filing, and financial requirements.\nTime: 0—4 Weeks\nFinancial analysis of target\nDefine scope for review e.g. 3-5 years\nFinancial statements\nStandalone positions in financials\nProfitability. liquidity, activity and structure indicators\nEBITDA normalisation\nRevenue and expenses impact on EBITDA\nReviewing business units performance\nAnalysis NWC and debt\nFinancial projections\nNet working capital projections (receivables, inventory, and liabilities to suppliers)\nLong-term and fixed asset and depreciation projections\nFinancial liability and interest expense projections\nSales and other revenue projections\nEarnings projections\nOperating expense projections\nOther balance sheet item projections\nEBITDA projections\nCash flow projections\nPost transaction accounting\nFinancial consolidation and integrations\nFinancial reporting requirements\nGoodwill calculation and recognition\nIdentification and valuation of intangible asset\nPurchase price allocation\nFMV of tangible assets\nRoadmap"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "ma-due-diligence",
+    "title": "M&A due diligence: from requests to evidence and findings",
+    "topic": "Finance & Accounting",
+    "group": "Diligence workstreams",
+    "summary": "Scope diligence by the deal thesis and turn supplied checklists into an accountable evidence review.",
+    "sections": [
+      {
+        "heading": "Diligence purposes, disciplines and financial checks",
+        "body": "Due diligence\nFinancial Statements: Provide detailed financial statements, including income statements, balance sheets, and cash flow statements.\nTax Records: Furnish tax returns and related documents, including corporate tax returns. sales tax records, and any outstanding or pending tax liabilities.\nLegal Documents: Include all legal documents, such as articles of incorporation, bylaws, operating agreements, and any pending or historical litigation records.\nIntellectual Property (IP) Documentation: Disclose patents, trademarks, copyrights, and other intellectual property assets owned by the startup.\nCustomer and Vendor Contracts: Provide copies of key customer and vendor contracts, highlighting any long-term agreements, pricing structures, or contractual obligations.\nEmployee and HR Records: Share employee contracts, organization charts, compensation plans, and HR-related documents.\nReal Estate and Lease Agreements: Include details on owned or leased real estate properties, lease agreements, and any related obligations, such as rent or property maintenance.\nInsurance Policies: Provide information on existing insurance policies, including liability, property, and key-person insurance.\nRegulatory and Compliance Documents: Share any licenses, permits, or certifications required.\nCustomer Data and Agreements: If applicable, disclose customer data protection policies, GDPR compliance, and any privacy-related agreements with customers or data providers.\nFinancial due diligence\nBusiness and processes understanding\nFinance function and team assessment\nOverall financial statements reviewing\nReviewing specific balance sheet positionn\nAnalysing financial performance\nAssessing financial controls\nExamining contracts and agreements\nAssessing contingencies\nTax due diligence\nUnderstanding the tax function\nStandardised list of questions to the client\nReview current and past disputes with tax administration\nCheck did the taxpayer submit all tax returns and pay taxes timely\nReview external advisor outputs\nPrepare sampling for reviews\nVAT testing\nPIT, CIT and other taxes testing"
+      },
+      {
+        "heading": "Use the complete working checklist",
+        "body": "The private planner brings together the supplied document and spreadsheet requests, with source references, owners, dates, evidence, status and findings. The original template also remains downloadable. Completion is not a diligence pass; tailor each lookback period and jurisdiction to your transaction."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "ma-diligence-finance",
+    "title": "Financial diligence: earnings, cash, debt and tax",
+    "topic": "Finance & Accounting",
+    "group": "Diligence workstreams",
+    "summary": "Reconcile the financial record, quality of earnings, assets, working capital, financing and tax exposures.",
+    "sections": [
+      {
+        "heading": "Capital structure and financial statements",
+        "body": "Capital Structure\nAnalysis showing the number of shares outstanding.\nDocumentation evidencing each issuance of private equity.\nSummary of warrants, convertible notes, and any right entitling the holder to obtain equity.\nCopy of outstanding debt instruments.\nShares owned by each shareholder for the target, branches, and affiliates.\nFinance\nInternal and external audits and work papers (last 5 years and YTD)\nAudit inquiry responses and opinion letters from legal counsel for the past 3 years\nConsolidated financials (last 5 years and YTD)\nConsolidated quarterly financials (last 5 years and YTD)\nAccounting reconciliation of all accounts for the most recent balance sheet available\nTrial balances (last 5 years and YTD)\nDescription of any off-balance sheet commitments\nDescription of any contingent liabilities\nPrice and volume data by division and product annually\nAnnual P&L by location (last 5 years and YTD)\nLocations of accounting records and personnel\nAccounting policies and procedures\nDetails on raw materials and currency risk management (e.g., hedging)\nHistorical & projected cost & volume of key material inputs\nDetails on cash balances includin cash in different jurisdictions and accounts\nFX details (sales & costs by currency)\nList of Transformation Plan initiatives and savings completed and remaining\nDetails on any restructuring efforts including costs, timing, rationale and P&L impact (historical and projected)\n5-year projection model including assumptions and granular backup\nAcquisition pipeline for the Company including strategic rationale, expected purchase price, anticipated P&L, synergies, status, timing\nBreakdown of operating expenses for past 3 years\nDetails on new product initiatives strategy, cost, and P&L impact (historical and projected)\nDetailed capex schedule including breakout between maintenance, growth and new products and acquisition (5 years historical and projected)\nAnnual profitability by customer (last 5 years and YTD)\nAnnual breakdown of sales, volume, and gross margin by product, by region and by customer\nDetails on end-market exposure (historical and projected)\nAdjusted EBITDA and sales bridges (last 3 years)\nDetailed working capital schedule\nProduct returns, charge-backs, discounts\nBreakdown of cost of goods sold SG&A details\nBusiness plan or most recent forecast, including projections for 5 years\nRevenue and gross margins by product for past 3 years\nSummary of any cash management controls and practices.\nInvestment policies.\nHedging policies, including copies of related contracts or instruments.\nReport reflecting all aged accounts receivable trial balances for target.\nSummary of the target’s inventory costing system and other procedures and policies related to inventory.\nDebts, agreements or arrangements that are expected to result in a loss to the target.\nCurrent listing of standby letters of credit, performance bonds, performance guarantees.\nCopies of recent bank reconciliations and bank statements.\nFinancial statements for the target and branches.\nDescription of off-balance sheet/statement of financial position items, liabilities or obligations of any nature.\nSchedule of any contingent liabilities not disclosed or referred to in the financial statements.\nDetailed schedule of the components of all prepaid expenses and deposits.\nCopies of any letters regarding the target’s accounting controls, including all Management Representation Letters.\nKey accounting policies necessary to the understanding of the financial statements.\nMaterial changes to accounting policies adopted.\nBudgets and operating plans, and financial projections prepared.\nUnaudited financial statements."
+      },
+      {
+        "heading": "Receivables, financing, management reports and asset records",
+        "body": "Accounts Receivable\n1 Historical accounts receivable schedule\nTop 20 past dues\nDetails on any recognized bad debt expense, write offs, and recoveries\nMost up-to-date A/R aging\nBanks and Financing\nList of all banks with which the\nCompany maintains financial and commercial relations\nDetailed debt schedule\nPromissory notes\nLoan agreements\nEquipment/other lease agreements\nBank reconciliations (past 3 years)\nManagement Reports\nFor the last 5 years, year-to-date management reports comparing the Company's actual result (in accordance with the management books) with the year's budgeted result\nBudgets and operating plans for future periods (particularly detailed plans for year end 2024)\nInventories\nSummary of the composition of inventory for last 5 years\nList of products as at the most recent balance sheet date\nDetailed inventory valuation report at December 31\nList of inventory including the result of the last stock physical count, reconciled with the accounting balance at the date of physical count\nDetails of any inventories maintained offsite\nBreakdown of inventory by classification (finished goods, WIP, raw materials)\nInventory aging\nFixed Assets\nSummary schedule showing the composition of the Company's fixed assets (most recent data)\nSchedule showing owned and leased assets\nDetailed fixed asset and depreciation schedule as at December 31, 2013 and YTD\nSummary of depreciation policies and the economic useful lives of fixed assets, by category"
+      },
+      {
+        "heading": "Tax evidence and reconciliations",
+        "body": "Taxes\nAll applicable tax returns filed for the last five years (federal, state, local, property and foreign)\nDetails on any deferred tax assets and liabilities\nDetails on any non-deductible expenses\nReconciliation from marginal to effective tax rate\nNature and location of assets of the\nCorporation and their respective fair market values and tax bases\nFederal or state tax audits and supplementary materials\nProperty taxes paid for past 3 years\nTransfer pricing, strategy, analysis, and advice received\nInternational income tax planning, strategy, analysis, and advice received"
+      },
+      {
+        "heading": "Work with requests and evidence",
+        "body": "Filter the shared planner by subject, assign owners and dates, record evidence and separate open findings from task completion."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "ma-diligence-commercial",
+    "title": "Commercial and operating diligence: customers, markets and delivery",
+    "topic": "Finance & Accounting",
+    "group": "Diligence workstreams",
+    "summary": "Test the revenue engine, supplier dependencies, operational capabilities and product pipeline.",
+    "sections": [
+      {
+        "heading": "Sales, suppliers, customers and marketing",
+        "body": "Sales Force Overview\nCompensation - 5-year historical\nQuota average\nSales cycle\nHiring schedule\nSales backlog by product\nSuppliers\nList of the top 15 suppliers for each of the past 3 years.\nMaterial supplier and subcontractor contracts.\nSummary of the policies and procedures produced when evaluating and onboarding any new supplier or contractor.\nMajor Customers\nStatus and relationships\nRevenue breakdown - 5-year historicals\nPipeline analysis\nQuality and stability of relationships\nList of the top 25 customers for each of the past 3 years, including revenue.\nList of customers that have stopped doing business with the company.\nList of all material sales channel partners for each of the past 3 years, including revenue.\nBreakdown of sales and gross profits by Product Type; Geography; Sales Channel.\nCopies of all material customer contracts.\nCopies of all material contracts that have remaining terms longer than one year.\nCopies of all contracts with material sales channel partners.\nCopies of all contracts with government customers.\nSales and Marketing\nInformation on the company's sales strategy and compensation structure associated with each channel\nInformation on the business development process (i.e., how opportunities are identified, how are bids determined, etc.)\nList of major wins and losses over the past 12 months\nDescription of major marketing channels and expenditures\nList of customer complaints and resolutions\nIncentive compensation plan(s) for sales team\nLead sourcing and customer management processes\nCopies of any strategic, marketing, or advertising plans prepared for the target.\nSummary of anticipated new products and/or product improvements.\nCopies of all brochures, presentations, sales sheet, and other advertising/marketing materials.\nProduct descriptions for all material products and product lines.\nSummary of all ongoing RD projects, including an estimated timeline for completion thereof.\nSummary of all marketing risks and opportunities.\nDescription of global distribution channels\nMarketing opportunities/risks\nCopies of policies and procedures related to pricing, credits, returns, warranty claims, etc."
+      },
+      {
+        "heading": "Operational processes and performance",
+        "body": "Operations\nKey quality measures tracked for the past 3 years\nKey productivity measures tracked for the last 3 years (i.e., revenue and output per employee, manufacturing utilisation, etc.)\nWorkflow of operations\nOrder process flow (how orders are received, what details are included, how orders are shipped)\nProduct returns by customer for the past 5 year\nSummary of all material capital expenditure projects.\nSummary of all capital expenditures planned in the next 12 months.\nAsset register and/or copy of latest physical inventory of equipment and assets.\nSchedule of equipment split by capital vs. operating lease."
+      },
+      {
+        "heading": "Industry drivers and research and development",
+        "body": "Industry\nInformation on the company's endmarkets\nInformation on key industry drivers\nMarket size/potential\nLegislative or regulatory information affecting the industry as a whole\nInternal/External reports, articles, and/or white papers analyzing the market\nKey competitors by channel, including estimated revenue, marketing share, major customers, strategic priorities, etc.\nResearch and Development\nDetails on historical and projected R&D\nDetails on new product initiatives\nR&D Organizational Overview\nKey personnel\nRoadmap\nNew Product/Service pipeline\nDevelopment costs\nMVP status\nProduct development proces"
+      },
+      {
+        "heading": "Work with requests and evidence",
+        "body": "Filter the shared planner by subject, assign owners and dates, record evidence and separate open findings from task completion."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "ma-diligence-people-legal",
+    "title": "People, governance and legal diligence",
+    "topic": "Finance & Accounting",
+    "group": "Diligence workstreams",
+    "summary": "Review corporate records, management, contracts, employment, benefits, regulatory issues and claims.",
+    "sections": [
+      {
+        "heading": "Corporate governance and organizational records",
+        "body": "Checklist\nCorporate Matters\nOrganisational chart and management structure\nCharter documents, operating agreements, by-laws, business\nlicenses, certificates of authority and stock certificate\nBoard actions and minutes\nInformation and documentation on joint ventures, acquisition and/or disposals of subsidiaries, affiliates or major assets of the Company (last 5 years)\nKey contacts by function\nManagement biographies\nOrganizational chart showing the corporate structure of the target, subsidiaries, and affiliates.\nJoint venture, partnership, and other agreements involving the sharing of profits or technology.\nGoverning documents for the Target, subsidiaries, and affiliates. Include Articles of Incorporation, Articles of Organization, Bylaws, Operating/LLC Agreement, Articles of Association, etc.\nList of all jurisdictions in which the Target is licensed to do business.\nInformation for all board, shareholder, and member meetings.\nContracts relating to any material acquisitions, equity divestitures, assets."
+      },
+      {
+        "heading": "Management and leadership",
+        "body": "Management\nAll related party transactions, including review/approval procedures applicable thereto.\nProfessional biography for each member of the team and any other key employees.\nProfessional biography for each member of the board."
+      },
+      {
+        "heading": "Contracts and workforce records",
+        "body": "Contracts\nMaterial supply and sourcing contracts\nMaterial customer contracts\nList of any guarantees, indemnifications, or similar agreements\nAny other material contracts\nLoan agreements, credit lines, IRBs, derivatives, letters of credit, security agreements, guarantees, equipment leases and other financing documents\nAll contracts or agreements providing for third party consent to this proposed transaction\nLabour Relations\nEmployment agreements, applications for employment, hire letters, and descriptions of oral/informal promises or commitments regarding terms of employment\nEmployee handbooks, policies, and code of conduct\nPayrolls, together with general summary (last 5 years and YTD)\nEmployees by location, department, salaried vs. hourly, union vs. nonunion, and current compensation and employment status\nEmployee headcount by location and function (last 5 years and YTD)\nSummary of any collective bargaining agreement/union agreement (last 5 years and YTD)\nSummary of any strike/work stoppages/grievances\nConsulting, freelance, and independent contractor agreements\nList of all executives that provide services to the Company, informing the corresponding remuneration (most recent)\nDetail surrounding temporary workers that provide services to the Company\nList of all employees that work via fixed term contracts (most recent) Workers compensation claims\nList of self-employed people providing services to the Company, containing name, initial date of provision of services, remuneration and description of the services provided (last 5 years and YTD)\nList of outsourced companies providing services to the Company, containing name, initial date of provision of services, amount, description of the services provided, and contract terms (last 5 years and YTD)\nConfidentiality, non-competes, or similar agreements for current employees and for those currently in effect\nSummary of litigation against the target brought by any current or former employee.\nDescription of any court judgement or current employment tribunal award in respect of any employee dispute.\nDetails of any disciplinary proceedings taken against an employee or grievance brought by an employee.\nSummary of any investigations and proceedings by authorities relating to employment matters.\nHeadcount by function and location.\nSchedule of any employees suspended – including reasons for suspension and salary implications.\nSchedule of employees.\nSummary of absence from work due to disability, long-term illness, or otherwise.\nSchedule of employees covered by any disability legislation."
+      },
+      {
+        "heading": "Benefits, HR agreements and policies",
+        "body": "Benefits\nList of the benefits, both formal and informal, given to employees, directors and officers (most recent)\nEquity-based compensation plans\nAll compensation agreements covering senior management\nSeverance benefit plans and other change of control agreements\nPension/OPEB detail including most recent actuarial reports\nProfit sharing plan\nSummary biographies of senior management, including employment history, age, service with the\nCompany, years in current position\nBonuses paid out for the past 3 years\nLoans to employees, including from benefit plan\nQualified plans (pension, profit sharing, stock bonus, ESOP)\nAll plans maintained or contributed to\nTrust, annuity, guaranteed investment, or other funding vehicles and investment advisor contracts\nIRS determination letters, with applications\nForm 5500 and supplementary materials for past 3 years\nSummary plan descriptions for all plans\nMost up-to-date Trustee report for all plans\nFiduciary liability policies and fidelity bond\nCurrent actuarial reports for defined benefit plans\nAll plans, booklets, policies and contracts for health, life, disability, workers' compensation and other insurance-type benefits\nCurrent list of employee and employer contributions or monthly premium rates (with COBRA rates) for health and life insurance plans and gross premiums during last 24 months\nEstimate of present value of postretirement health and life insurance liability for current retirees and the emerging liability for future retirees\nClaims experience reports and related data (claims reserves, etc.) for last 24 months for health and life insurance plans broken down between retirees and active employees\nDate of hire, date of birth, and sex of each employee and former employee entitled to health or life insurance benefits, and whether single, family or other coverage is being provided\nNon-qualified deferred compensation arrangements and incentive and bonus plans\nUnemployment insurance arrangements, claims experience\nAttorneys’ responses to auditors’ requests in connection with plan audits for last 3 years\nReports and filings with government, including IRS, DOL, PBGC, SEC and state unemployment offices for last 3 years\nClaims, actions and proceedings (other than normal benefit claims) pending or threatened in connection with any employee benefit or employment-related matter, including wrongful discharge, workers’ compensation and unemployment benefit claims for last 3 years\nList of plant closings and mass layoffs covered by WARN and notices regarding same\nAnalysis supporting financial statement amounts for pensions, postretirement medical and other benefit assets or liabilities\nAnalysis of the costs of such plan (cash as well as accrued funded/unfunded liability) for the prior 3 fiscal years and for the interim period to date\nSummary of all benefits and a copy of the target's compensation policy.\nDetails of bonus or other profit-related schemes and details of beneficiaries/participants.\nCopies of plan documents for all benefit plans.\nSummary of incentive stock option plans.\nSummary of outstanding stock option awards and copies of any award documents related.\nList and summary of all pension plans.\nHR Agreements & Policies\nCopies of all employment and severance agreements and indicate those affected by the transaction.\nCopies of all consulting agreements.\nAgreements relating to any compensation arrangements.\nCollective bargaining agreements, non-competition, nondisclosure or similar agreements.\nSummary of any current recruitment initiatives, including any financial commitments related thereto.\nCopies of all employee manuals and policies.\nTarget's hiring practices and policies, including use of background checks, checks of immigration status.\nSummary of any changes.\nSchedule of any loans and all sums owed."
+      },
+      {
+        "heading": "Regulatory matters and litigation",
+        "body": "Regulatory and Legal Matters\nAll permits and licenses\nAll compliance reports\nAny deficiency notices\nAll pending lawsuits against the company - details, all court records, contingency planning\nAll pending lawsuits initiated by the company - details, all court records, contingency planning\nHistorical and current regulatory issues/information requests/settlements\nAll reports submitted to regulatory agencies\nOSHA inspection reports\nDocumentation regarding any governmental actions, investigations, or proceedings regarding the corporation for the past 3 years\nLitigation\nSummary of all material litigation for the last 5 years\nAny settlement agreements from the last 5 years\nDocumentation of any significant litigation in process or anticipated\nPleadings and other material documentation (including evaluations of claims made internally or by counsel) in pending law suits by or against the Corporation\nCopies of current consent decrees, orders, administrative decrees or judgments against the Corporation\nListing of unsold inventory of products involved in any current trademark or patent litigation\nSummary of material litigation.\nSummary of permits, licenses, and other authorizations including any required export control licenses.\nCopies of material contracts that are terminable upon a change of control or other corporate transaction.\nCopies of agreements or instruments that place restrictions or encumbrances on assets.\nContracts that restrict the target's right to conduct its business.\nContracts with obligations such as covenants and indemnification.\nIndemnification agreements between the target and any officers, directors or agents thereof.\nSummary of the target's compliance program and copies of all policies, procedures and other related documentation.\nConfirm officers, or significant shareholders is subject to any of the Bad Actor disqualifications.\nConfirm that the firm is not restricted from doing business under OFAC regulations or similar.\nConfirm whether the target has any direct or indirect presence and/or other engagements.\nSummary of regulations applicable and/or its business, and anticipated changes\nCopies of any letters with any regulatory agencies or authorities.\nSummary of product recalls conducted and all material warranty claims brought."
+      },
+      {
+        "heading": "Insurance, claims and workplace safety",
+        "body": "Insurance\nCurrent schedule of insurance listing each insurance in force, insurance company, type of coverage, term of policy, insured value or limits of liability and annual premium\nDocumentation regarding insurance claims and coverage denials in the last 3 years, including all correspondence in regard thereto\nInsurance costs for the most recent year\nIf self-insured, details of claims paid for the last 3 years and the most recent interim period\nWith respect to general liability and products liability, estimated sales of the company and loss history\nWith respect to workers compensation, estimated annual payroll by class (8810-Clerical [including Executives]; 8742-Sales; 8010-Warehouse)\nList of all company vehicles and a list of drivers containing: name, date of birth, and driver’s license state and number\nInsurance carrier inspection reports\nSummary of all current insurance coverages and copies of all policy documents related thereto.\nSummary of claims made against any insurance policy.\nClaims\nDocumentation regarding pending claims of any kind by or against the Corporation\nProduct Liability claim\nInternal documentation regarding product recalls or health/safety advisories\nAll investigations, citations, or notices of violation related to employee health and human services.\nAll emergency response policies and procedures.\nSummary of all current or past litigation brought against the target by any current or former employee.\nResults of all health and safety audits, including the resolution of any findings.\nAccidents within the last 5 years.\nSummary of all workers' compensation and health care.\nCopies of all material safety data sheets for materials."
+      },
+      {
+        "heading": "Work with requests and evidence",
+        "body": "Filter the shared planner by subject, assign owners and dates, record evidence and separate open findings from task completion."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "ma-diligence-technology-assets",
+    "title": "Technology, IP, property and environmental diligence",
+    "topic": "Finance & Accounting",
+    "group": "Diligence workstreams",
+    "summary": "Inspect the rights, systems, assets and environmental conditions on which the business depends.",
+    "sections": [
+      {
+        "heading": "Facilities changes",
+        "body": "Facilities\n1 Details on any facility openings or closing? (last 5 years)\nDetails on any facility turnarounds (last 5 years)"
+      },
+      {
+        "heading": "Environmental liabilities and hazardous substances",
+        "body": "Environmental Matters\nCopies of environmental audits and compliance reports\nPhase 1 reports for all facilities\nEnvironmental liabilities and valuation\nPrior ownership of facilities\nHazardous Wastes\nNotices of violations received in the past 3 years\nAll environmental investigations, citations, or notices of violation.\nAll litigation in which the target has been involved/related to environmental matters.\nInformation related to past or present enforcement actions against any premises owned by the target.\nAll information regarding generation, treatment, storage and disposition of hazardous substances.\nSummary of any material financial losses.\nCopies of environmental studies, assessments and surveys in respect of land.\nSummary of all dedicated reserves for management of environmental liabilities.\nCopies of any material correspondence with any environmental regulatory agencies.\nResults of all environmental audits.\nRisks arising from arrangements for the treatment or disposal of materials, liquids, or gases used by the target.\nCopies of permits and other governmental approvals relating to environmental matters.\nDescription of any existing ground or underground storage tanks."
+      },
+      {
+        "heading": "Intellectual property",
+        "body": "Intellectual Property\nList of all patents and other IP\nAny material IP litigation\nSummary of the target’s registered trademarks and patents\nSchedule of all websites and domains owned.\nAgreements under which the target is granted the right to use IP owned by a third party.\nAgreements under which a third party is granted the right to use IP owned.\nSummary of any IP that is not solely owned by the Target.\nSummary of any past or current instances where any third party actually or allegedly infringed on the target's IP.\nSummary of any restrictions to which IP assets of the target are subject.\nSummary of all IP litigation in which the Target is or has been involved.\nSummary of process for generating/developing, recognizing, capturing, and protecting IP assets.\nList of all trademarks and copyrights Unregistered trademarks (owned or claimed)\nList of tradenames"
+      },
+      {
+        "heading": "Information systems and operating technology",
+        "body": "Information Technology\nList and describe significant software, hardware and IT systems used to operate the Company and generate financial and management reporting\nDetails of any current and planned IT initiatives/key projects.\nSummary of key IT resources (hardware/software/people).\nPolicies and practices of the purchase and maintenance of software.\nSummary of all material software utilized by the target.\nPolicies and practices regarding the purchase and maintenance of IT hardware.\nSummary of material hardware utilized by the target, including the physical location.\nDiagram of technical architecture including servers, storage devices, operating systems and databases.\nDescription of the networking systems and specific hardware configurations.\nSummary of any vendor support or other support services to which the target is entitled.\nSummary of annual costs associated with maintenance of IT hardware, including hardware upgrades and replacements.\nMaterial contracts related to software and IT services.\nSummary of services provided by all external IT contractors/consultants.\nCapacity for growth in the target's current IT environment.\nSummary of how the target acquired technology and the role of IT/technology in strategic planning\nDescription of the target's support/help desk effectiveness and approach.\nDescribe the level of automation and web or internet facing applications."
+      },
+      {
+        "heading": "Security and data privacy",
+        "body": "IT Security\nDetailed summary of the key security protocols.\nDescription of backups and disaster recovery policies and procedures.\nDetailed description of data privacy policies and procedures.\nSummary of all personal and/or sensitive information.\nTarget's policies and procedures regarding data storage and data encryption.\nSummary of any issues, including loss of confidential information, inappropriate or malicious content, etc.\nResults of stress test analysis, including the resolution of any issues identified.\nDetails about monitoring measures/tests to ensure technical safeguards are working as expected.\nSummary of any logged security issues.\nSummary of any anti-virus and anti-malware protections.\nPolicies and procedures utilized by the target to manage mobile device security\nDescription of any cyber attacks/intrusions."
+      },
+      {
+        "heading": "Brands, rights and property",
+        "body": "Brands\nOwned Brands\nCopies of licensing/royalty agreements and contractual terms\nNon-registered proprietary processes, trade secrets, investions, know-how or other proprietary information owned or used\nLicenses of proprietary rights (as licensor or licensee)\nConfidentiality agreements and ownership of invention agreements\nPending or threatened infringement claims, opposition, or cancellation proceedings\nReal and Personal Property\nList of all real estate, condition of facilities, and needs to major expenditures to maintain/upgrade\nReal estate valuation reports (including building, inventory, furnitures/fixtures)\nTitle reports and property surveys\nVehicle fleet details as applicable\nMajor fixed assets and equipment\nProperties held for sale\nLease/sublease agreements\nNotices/relevant correspondences, including side letters or agreements, alleged defaults, renewal of leases, easements/encumbrances\nContracts for capital improvements\nList of the address and description of each property development, office, warehouse or other facility operated or maintained by the target.\nSummary of deeds with respect to all owned real estate. Include copies of all related title papers, title insurance policies, appraisals and surveys.\nLease agreements and agreements related to the purchase or sale of real property."
+      },
+      {
+        "heading": "Work with requests and evidence",
+        "body": "Filter the shared planner by subject, assign owners and dates, record evidence and separate open findings from task completion."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "ma-agreements-terms",
+    "title": "Deal agreements: confidentiality, intent and the definitive contract",
+    "topic": "Finance & Accounting",
+    "group": "Deal foundations",
+    "summary": "Understand the purpose of common transaction documents without assuming their legal effect from a label.",
+    "sections": [
+      {
+        "heading": "Agreement sequence and binding effects",
+        "body": "Editorial interpretation and source limits\nAn NDA protects specified confidential information subject to its terms. A term sheet, letter of intent or non-binding offer can record proposed economics, scope and process, while reserving some or most terms for definitive documents.\nCalling an entire document binding or non-binding from its title is unsafe. Confidentiality, exclusivity, costs, governing law and an obligation to negotiate can have different effects. Wording, conduct, jurisdiction and facts control; the Delaware court example are illustrative, not universal legal advice.\nThe definitive purchase agreement sets negotiated representations, covenants, conditions, price mechanisms, indemnities and closing obligations. Read it alongside disclosure schedules and related financing or shareholder documents.\nAgreements\nCovenant\nNon-compete covenant\nThis covenant prohibits the target company or its key employees from engaging in activities that compete with the acquiring company's business for a specified period of time and within a defined geographical area\nNon-solicitation covenant\nThis covenant restricts the target company from soliciting or hiring employees or customers of the acquiring company for a certain period after the merger or acquisition. It helps prevent the loss of key talent or customers to competitors\nConfidentiality covenant\nThis covenant ensures that both parties maintain the confidentiality of sensitive information shared during the due diligence process and subsequent integration\nFinancial covenant\nThese covenants are designed to maintain certain financial performance levels after the merger or acquisition.They may include requirements related to debt-to-equity ratios, liquidity, revenue targets, profitability, or other financial metrics\nNon-Binding Offer in a M&A Agreement\nWith an M&A agreement comes a non-binding offer. The non-binding offer, also called the indicative offer, lists all the terms and conditions of a potential buyer in an M&A transaction. It is a simple written offer letter that is signed by authorized staff of those in the deal.\nThe non-binding offer is not a legally binding one. Therefore, the seller cannot rely on the terms in it. This is used in transactions to get a first glimpse of the way the parties value the business and what terms and conditions they will have in the offer. Only the purchase agreements are the ones that allow the parties to buy and sell. The seller uses the information on the non-binding offer to analyze, compare and review the bids. It is used as a draft to help with the M&A deal.\nMergers and Acquisitions Agreements\nThe agreement sets the rules that the newly acquired company needs to follow until the convergence has been finalized. It also includes the accounting of all the assets and liabilities of both companies and contains the details of how each company’s shares will be valued post the merger.\nThe merger and acquisition agreement holds many documents that are important to finalize the transfer. One such document is also the share purchase agreement for the mergers and acquisitions process.\nAn M&A deal structure is a binding agreement that outlines the rights and obligations of both parties. It states what each party gets and what each is obligated to do as per the agreement. Also called the terms and conditions of the merger and acquisition.\nThe deal structure is prepared by considering the risk weightage of both parties. It needs both parties to state the following things:\nHow much risk can they take\nObservable latent risks and how they can be managed\nTheir stance on the negotiation\nConditions under which the negotiations can be canceled\nTerm Sheet\nStates the terms and conditions of the mergers and acquisitions’ financial investment. These are normally considered to be legally binding unless both parties have stated it.\nLetter of Intent (LOI)\nOutlines the understanding between the parties and their intent in a legally binding agreement. It is not normally considered a legally binding document, except for the binding provisions that have been added to it.\nThe Purchase Agreement\nThis agreement transfers the individual assets from the seller to the buyer by signing a bill of sale. The first step is to select the acquisition method of how the buyer is purchasing the company. Is it going to be an entity purchase or an asset one? An entity purchase means a majority of the company’s stock, along with the debts and obligations, will go to the new owner. With an asset purchase, the buyer will get all the assets – all the real property like real estate, office equipment, and even intellectual property, including copyrights, trademarks, and patents. The new buyer has the right to start depreciating the new assets instantly as it gives a tax benefit."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Delaware corporate statute: asset sales, mergers and dissolution have separate provisions",
+        "url": "https://delcode.delaware.gov/title8/c001/sc10/index.html"
+      },
+      {
+        "title": "Delaware Superior Court: GreenTech v. Hilco (2022)",
+        "url": "https://courts.delaware.gov/Opinions/Download.aspx?id=332770"
+      }
+    ]
+  },
+  {
+    "slug": "ma-research-resources",
+    "title": "M&A research resources: workflow software and reading sources",
+    "topic": "Finance & Accounting",
+    "group": "Deal foundations",
+    "summary": "Use the supplied software and publication list as a historical discovery reference, with clear verification limits.",
+    "sections": [
+      {
+        "heading": "Supplied workflow and publication directory",
+        "body": "Editorial interpretation and source limits\nThe list contains commercial software, news outlets, blogs and providers. Product features, availability, pricing and editorial practices were not verified as current. The original descriptions below preserve the supplied research leads rather than endorse them.\nChoose a tool by a concrete workflow: permissions and secure document sharing, issue tracking, financial analysis, source verification or integration reporting. Independently assess current access, privacy, retention and export capabilities.\nM&A Appendix\nSoftware\ndealroom.co\nAgile M&A technolog, integrated due diligence management, and smart document management\nMerrill Datasite\nSecure document sharing, project management tools, and detailed reporting\nFirmRoom\nSecure data room, detailed user permissions, and activity tracking\nsecuredocs\nSecure data room, easy-to-use interface, and detailed audit logs\nINTRALINKS\nSecure platform, AI-powered insights, and flexibility and scalability\nansarada\nAI-powered deal preparation, secure data rooms, and deal workflow tools\nimprima\nSecure data room, AI-powered due diligence, and project management tools\nsafelink\nSecure data room, customisable user permissions, and workflow automation\ndrooms\nSecure data room, due diligence tools, and detailed activity tracking\nonehub\nSecure data room, customisable user permissions, and easy-to-use interface\nM&A News Sources & Blogs\nFinancial Times\nThe digital publication focuses on business and current economic affairs in both the U.S. and abroad. You won’t miss a beat regarding happenings in the global business community as long as you check in with this site.\nPitchbook\nThis is an excellent resource for private investmentinformation, serving as a leading resource for comprehensive data, research, and insights spanning the global capital markets.\nMarketwatch\nMarketwatch offers more than just M&A updates—it’s a compilation of the latest news regarding everything finance, economics, markets, companies, and investing.\nSeeking Alpha\nThis investor community is designed to help investors make smart investing decisions by offering access to stock research, reliable news, valuable analytics tools, crowd-sourced debate, and market data.\nTechCrunch\nTech plays a huge role in M&A these days, and this site is all aboutthe tech industry. It offers greatinformation on startups, emerging trends, interesting videos, online events, podcasts, various newsletters, and more.\nTheMiddleMarket\nThis source will keep you up to date on the latest deal action and in-depth analysis and commentary on private equity and M&A in the middle market.\nBenchmark International\nThis source offers valuable information on the M&A world, as well as tips for you as a business owner regarding buyers, company valuations, industry updates, retirement, exit strategies and succession planning.\nThe Business Journals\nThey provide comprehensive coverage of business news from a local, regional, and national perspective. It also offers tools to assist businesses with growth, networking, and staffing.\nThe M&A Journal\nThis independent site is targeted toward law firms, investment banks, corporations, pension funds, and corporate governance experts. They analyze complex transactions and present thorough accounts of deals from start to finish.\nReuters\nThe M&A section of Reuters—the world’s largestinternational multimedia news provider—offers a clean presentation ofthe very latest headlines in M&A news and deals around the world."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "historical-acquisition-cases",
+    "title": "Historical acquisition cases: what was announced and what closed",
+    "topic": "Finance & Accounting",
+    "group": "Cases and reference",
+    "summary": "Explore all 31 supplied cases with dated primary evidence and explicit completion limits.",
+    "sections": [
+      {
+        "heading": "How to read the historical deal list",
+        "body": "Editorial interpretation and source limits\nThis is a historical source list, not a current deal tracker. Each case below distinguishes an announcement from evidence of completion and preserves the supplied claim separately. Dates state what they mean; an adviser report is not automatically a closing notice.\nExamples\nCategory\nAcquired\nHQ\nAcquired By"
+      },
+      {
+        "heading": "From the Bench / Tappx",
+        "body": "Editorial interpretation and source limits\nAnnounced acquisition. 2022-05-17 (announcement date).\nRelease describes acquisition of the developer brand; separate legal closing and corporate-share scope not verified.\nGaming\nFrom the Bench\nMobile game development studio founded in 2008\nAlicante, Spain\nTappX\nBarcelona-based digital advertising software company"
+      },
+      {
+        "heading": "GamerzClass / Metafy",
+        "body": "Editorial interpretation and source limits\nAcquisition reported by transaction adviser. 2022-05-18 (adviser report date).\nBuyer counsel confirms acting on acquisition; no separately dated completion statement located.\nGaming\nGamerzClass\ne-learning products for aspiring esports players\nCopenhagen, Denmark\nMetafy\nLA-based online gaming coaching portal, founded in 2020"
+      },
+      {
+        "heading": "Quentic / AMCS Group",
+        "body": "Editorial interpretation and source limits\nCompleted. 2022-06-30 (effective completion date).\nMay 12 announcement preceded regulatory approval and June 30 closing; AMCS is the name used by the buyer.\nSaaS\nQuentic\nSoftware for occupational safety, environmental management and sustainability\nBerlin, Germany\nAdvanced Manufacturing Control Systems\nIreland-based software company, founded in 2002"
+      },
+      {
+        "heading": "AreTheyHappy / Black Box Intelligence",
+        "body": "Editorial interpretation and source limits\nCompleted reported. 2022-05-10 (release dateline completion by).\nRelease says it had acquired the company. Web page header is May 9 but release dateline is May 10; exact closing date not supplied.\nSaaS\nAreTheyHappy\nReputation management software\nGhent, Belgium\nBlack Box Intelligence\nTexas-based restaurant analytics provider"
+      },
+      {
+        "heading": "Back / Personio",
+        "body": "Editorial interpretation and source limits\nCompleted reported. 2022-05-24 (release date completion by).\nBuyer says it has acquired Back; exact legal closing date not distinguished.\nSaaS\nBack\nEmployee experience software\nBerlin, Germany\nPersonio\nMunich-based HR software company, founded in 2015"
+      },
+      {
+        "heading": "Okarito / Swile",
+        "body": "Editorial interpretation and source limits\nCompleted. 2022-03-01 (completion date in issuer accounts).\nSwile 2022 accounts state 100% acquisition finalised March 1, earlier than May reporting. Primary issuer accounts are mirrored by Pappers; headline press announcement not located.\nSaaS\nOkarito\nTravel management software for small businesses\nParis, France\nSwile\nFrench scaleup offering employee benefits card and app, founded in 2016"
+      },
+      {
+        "heading": "Futrli / Sage Group",
+        "body": "Editorial interpretation and source limits\nCompleted. 2022-05-12 (completion date).\nBuyer explicitly reports completed acquisition.\nSaaS\nFutrli\nBusiness accounting and projections software\nBrighton, UK\nSage Group\nUK-based multinational enterprise software company, founded in 1981"
+      },
+      {
+        "heading": "Formulate / RELEX Solutions",
+        "body": "Editorial interpretation and source limits\nCompleted reported. 2022-05-12 (release date completion by).\nBuyer says it has acquired Formulate; describes promotion planning/analytics more specifically than generic sales management.\nSaaS\nFormulate\nSales management tool using AI\nStockholm, Sweden\nRelex Solutions\nFinnish retail planning unicorn, which raised a €500m round in February"
+      },
+      {
+        "heading": "SatisMeter / Productboard",
+        "body": "Editorial interpretation and source limits\nCompleted reported. 2022-05-26 (release date completion by).\nSource misspells target as Satismaster. Issuer says it has acquired SatisMeter; target security page also confirms acquisition.\nSaaS\nSatismaster\nCustomer feedback platform\nPrague, Czech Republic\nProductboard\nRecent unicorn based in San Francisco and launched in Prague"
+      },
+      {
+        "heading": "Scortex / TRIGO Group",
+        "body": "Editorial interpretation and source limits\nCompleted reported. 2022-05-06 (release date completion by).\nBuyer says it has acquired Scortex and integration has begun; exact closing date not separated.\nSaaS\nScortex\nAI-based tool for managing quality control on industrial sites\nParis, France\nTriGo\nFrench corporate giant providing quality inspection."
+      },
+      {
+        "heading": "Side / Randstad France / Randstad Group",
+        "body": "Editorial interpretation and source limits\nCompleted. 2022-05-16 (completion date in france release).\nOriginal lists Randstad Innovation Fund. Official buyer is Randstad France. France closing release says May 16; group annual report lists acquisition date May 12. Retain this date discrepancy rather than harmonising silently.\nSaaS\nSide\nFrench online staffing service\nParis, France\nRandstad Innovation Fund"
+      },
+      {
+        "heading": "Cajoo / Flink",
+        "body": "Editorial interpretation and source limits\nAnnounced acquisition. 2022-05-16 (announcement date).\nJoint company release describes integration to begin and future rebranding. Separate completion date not established by this release.\nConsumer\nCajoo\nSpeedy delivery startup\nParis, France\nFlink\nBerlin-based grocery delivery unicorn"
+      },
+      {
+        "heading": "Trouva / Made.com Group",
+        "body": "Editorial interpretation and source limits\nCompleted reported. 2022 (completion year from seller report).\nMay 9 issuer RNS announces acquisition; seller investor interim report subsequently says Trouva was acquired by Made.com. Exact closing date not established. Historical ownership only; no current-owner claim.\nConsumer\nTrouva\nMarketplace for independent boutiques and brands\nLondon, UK\nMade.com\nUK-based homeware brand, founded in 2010"
+      },
+      {
+        "heading": "Tripadee / Cool Camping / Hipcamp",
+        "body": "Editorial interpretation and source limits\nCompleted reported. 2022-05-11 (release date completion by).\nIssuer release explicitly describes 100% acquired and renaming to Hipcamp UK Ltd; do not double-count Cool Camping as a separate acquisition.\nConsumer\nTripadee\nTravel tech that lists camping and outdoor holidays in the UK and France\nLondon, UK\nHipcamp\nThe largest US-based outdoor travel holiday booking platform"
+      },
+      {
+        "heading": "Tricount / bunq",
+        "body": "Editorial interpretation and source limits\nCompleted reported. 2022-05 (completion month retrospective).\nMay 3 release explicitly says pending regulatory approval. Later founders message confirms joining bunq in May 2022; current target terms confirm bunq ownership. Exact closing day unresolved (different annual-report versions use May 3/4). Forecast of cross-selling is not a verified transaction fact.\nFintech\nTricount\nA group expenses management app\nBrussels, Belgium\nbunq — Dutch unicorn neobank\nTricount will likely start offering bunq products within its app after the merger"
+      },
+      {
+        "heading": "finAPI / Yapily (proposed; not verified completed)",
+        "body": "Editorial interpretation and source limits\nNot verified as completed different buyer later. 2025-06-18 (later buyer release date completion by).\nDo not publish acquired by Yapily as completed. Bounded search did not recover primary Yapily termination notice. Later buyer Fabrick explicitly completed purchase of SCHUFA’s 75% on June 18, 2025. This primary evidence establishes later ownership, not precise Yapily cancellation date or reason.\nFintech\nfinAPI\nAn open banking API provider that leads the market in Germany\nMunich, Germany\nYapily\nA British open banking startup"
+      },
+      {
+        "heading": "Profitero / Publicis Groupe",
+        "body": "Editorial interpretation and source limits\nCompleted. 2022-04 (acquisition month in financial statements).\nMay 3 announcement headline says to acquire, but half-year issuer accounts record 100% acquisition in April. Do not substitute announcement date for acquisition month.\nFintech\nProfitero\nAn ecommerce analytics platform\nDublin, Ireland\nPublicis Groupe\nFrench digital advertising multinational"
+      },
+      {
+        "heading": "Ubble / Checkout.com",
+        "body": "Editorial interpretation and source limits\nCompleted reported. 2022 (completion year retrospective).\nMay 12 release only intended acquisition, pending regulatory approval. Buyer year-end retrospective explicitly confirms completion in 2022; exact close day not established.\nSecurity\nUbble.ai\nIdentity verification service\nParis, France\nCheckout.com\nLondon-based fintech unicorn, and the most valuable UK startup"
+      },
+      {
+        "heading": "BehavioSec / LexisNexis Risk Solutions (RELX)",
+        "body": "Editorial interpretation and source limits\nCompleted reported. 2022-05-04 (seller report date completion by).\nSelling investor states target has been acquired. Refine generic LexisNexis to Risk Solutions; exact close day not separated.\nSecurity\nBehavioSec\n\"behavioural biometrics\" cybersecurity and authentication products\nStockholm, Sweden\nLexisNexis\nNew York-based data analytics corporation, founded in 1970"
+      },
+      {
+        "heading": "Hdiv Security / Datadog",
+        "body": "Editorial interpretation and source limits\nCompleted reported. 2022 (acquisition year retrospective).\nMay 5 release is definitive agreement only. Datadog October investor presentation lists Hdiv among 2022 acquisitions; exact closing day not established.\nSecurity\nHdiv Security\nContinuous cybersecurity vulnerability tracker\nSan Sebastián, Spain\nDatadog\nUS-based data analytics scaleup, founded in 2010"
+      },
+      {
+        "heading": "Excellium Services / Thales (via Maxive / alongside S21sec)",
+        "body": "Editorial interpretation and source limits\nCompleted. 2022-10 (acquisition month in accounts).\nMay announcement preceded completion. Company accounts record October acquisition of S21sec and Excellium, consolidated from October 1. Do not turn consolidation date into closing day.\nSecurity\nExcellium Services\nPenetration testing and cyber incident response\nCotern, Luxembourg\nThales Group\nFrench multinational working in aerospace, defence and security"
+      },
+      {
+        "heading": "Groendus / APG (on behalf of ABP) and OMERS Infrastructure",
+        "body": "Editorial interpretation and source limits\nCompleted reported. 2022 (completion year retrospective).\nMay 18 release was agreement subject to approvals; OMERS 2023 retrospective explicitly says acquired in 2022. APG is pension provider/manager, not itself the pension fund client ABP.\nRenewable Energy\nGroendus\nB2B renewable energy network\nUtrecht, Netherlands\nJoint acquisition by Dutch pension fund APG and Canadian asset manager OMERS Infrastructure"
+      },
+      {
+        "heading": "Clicars / Aramis Group",
+        "body": "Editorial interpretation and source limits\nCompleted remaining stake purchase. 2022-05 (completion month target history).\nClicars history records sale closing in May. Buyer first-half release explains this is the remaining minority interest after prior control and full consolidation, not an entirely new 100% acquisition from no ownership.\nTransport\nClicars\nEcommerce marketplace for second-hand cars\nMadrid, Spain\nAramis Group\nFrench online marketplace for second-hand cars, founded in 2001"
+      },
+      {
+        "heading": "Reby / House of Lithium",
+        "body": "Editorial interpretation and source limits\nNot completed as claimed contested closing. 2023-06-30 (court decision date).\nCourt found valid agreements but closing conditions unsatisfied and buyer not obliged to complete. Some shares had been accepted; preserve that nuance rather than claim no investment ever occurred. Original buyer description as California ebike company is unsupported; court describes private-equity buyer.\nTransport\nReby\nMicro-mobility and escooter service\nBarcelona, Spain\nHouse of Lithium\nCalifornia-based ebike company, founded in 2018"
+      },
+      {
+        "heading": "Share Now / Free2move (Stellantis)",
+        "body": "Editorial interpretation and source limits\nCompleted. 2022-07-18 (completion date).\nRefine acquirer to Stellantis subsidiary Free2move. Share Now combined car2go and DriveNow; formerly Car2go alone is incomplete lineage.\nTransport\nShare NOW\n(Formerly Car2go) — a car-sharing joint venture between Mercedes-Benz and BMW\nStuttgart, Germany\nStellantis\nThe merged Fiat-Peugeot parent company"
+      },
+      {
+        "heading": "Myrmex / Ocado Group",
+        "body": "Editorial interpretation and source limits\nCompleted. 2022-06-06 (completion date in issuer report).\nMay 23 target release was proposed deal. Ocado half-year issuer report says June 6 completion, increasing prior 12.2% stake to wholly owned. US-incorporated company with Greek R&D; Greek location should not imply Greek legal incorporation.\nDeeptech\nMyrmex\nRobotics for unmanned delivery\nIlioupoli, Greece\nOcado\nListed British supermarket technology company"
+      },
+      {
+        "heading": "Metaliquid / BeMyEye",
+        "body": "Editorial interpretation and source limits\nAnnounced acquisition. 2022-05-19 (announcement date).\nIssuer describes acquisition and integrated capabilities, but no separately verified legal closing date.\nDeeptech\nMetaliquid\nAI-powered video analysis for data discovery\nMilan, Italy\nBeMyEye\nLondon-based data-as-a-service provider founded in 2011"
+      },
+      {
+        "heading": "ProGlove / Nordic Capital X",
+        "body": "Editorial interpretation and source limits\nCompleted majority stake. 2022-06-15 (completion report date).\nMajority ownership only; founders and management retained minority. Initial May 4 agreement was not closing.\nDeeptech\nProGlove\nWearable barcode scanners for warehouse workers\nMunich, Germany\nNordic Capital\nStockholm-based private equity fund, founded in 1989"
+      },
+      {
+        "heading": "iFollow / stow Robotics / stow Group",
+        "body": "Editorial interpretation and source limits\nAnnounced majority stake acquisition. 2022-08-24 (target release date).\nTarget-hosted release identifies stow Robotics majority stake, not Stow Deutschland full acquisition. An earlier May 24 target-hosted article describes management retaining control; timing/control descriptions differ and exact closing date remains unverified.\nDeeptech\nIFollow\nA French startup developing autonomous robots for warehouse optimization\nArcueil, France\nStow Deutschland\nA shelving systems developer"
+      },
+      {
+        "heading": "PlusDental / Straumann Group",
+        "body": "Editorial interpretation and source limits\nCompleted reported. 2022 (completion year annual report).\nMay 20 release signed agreement subject to approval; annual report confirms summer acquisition. Use group acquirer unless specific legal purchasing entity independently sourced. Swiss parent and German entity should not be conflated.\nHealth & Wellness\nPlusDental\nInvisible aligners manufacturer\nBerlin, Germany\nStraumann Holding Deutschland\nSwiss dental care provider"
+      },
+      {
+        "heading": "Wavy / Treatwell",
+        "body": "Editorial interpretation and source limits\nAcquisition reported by transaction adviser. 2022-05-16 (adviser report date).\nSell-side adviser confirms sale; exact legal close day not separately established. Treatwell support later says Wavy service shuts down September 1, 2026; historical acquisition does not establish current product availability.\nHealth & Wellness\nWavy\nParis-based communication management company for the wellness industry\nParis, France\nTreatwell\nOnline booking platform with five acquisitions in its history"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "ma-control-glossary",
+    "title": "M&A glossary: control, valuation and transaction language",
+    "topic": "Finance & Accounting",
+    "group": "Cases and reference",
+    "summary": "Read the supplied transaction vocabulary alongside corrections to the most consequential definitions.",
+    "sections": [
+      {
+        "heading": "Transaction terms and their limits",
+        "body": "Key terms\nAccretion\nAn improvement in per-share metrics post-transaction (after issuing additional shares).\nAcquirer\nThe firm that is purchasing a company in an acquisition – the buyer.\nAcquisition\nThe purchasing company acquires more than 50% of the shares of the acquired company and both companies survive.\nAmalgamation/Consolidation\nThe joining of one or more companies into a new entity. None of the combining companies remains; a completely new legal entity is formed.\nAnti-Dilution Provision\nA contractual clause that protects the investor's ownership stake in the startup from dilution in the event of future equity issuances at a lower valuation.\nAsset Deal\nThe acquirer purchases only the assets of the target company (not its shares).\nBackward Integration\nA company acquires a target that produces the raw material or the ancillaries which are used by the acquirer. It intends to ensure an uninterrupted supply of high-quality raw materials at a fair price.\nBootstrap Effect\nOne of the poor reasons to make a merger. If the target’s P/E ratio is lower than the acquirer’s P/E ratio, the EPS of the acquirer increases after the merger. However, it is purely an accounting/numerical phenomenon, and no value or synergies are created.\nCash Consideration\nThe portion of the purchase price given to the target in the form of cash.w\nCompensation Manipulation\nOne of the poor reasons to make a merger. Management compensation is according to company performance benchmarked to other companies, so an increase in the size of the company often means an increase in salary for management.\nConglomerate\nA merger of companies with seemingly unrelated businesses.\nDebt Issuance Fees\nUnderwriting fees charged by investment banks to issue debt in connection with the transaction.\nDefinitive Agreement\nThe final, legally binding contract that outlines the terms and conditions of the M&A deal. It covers all aspects of the transaction, including the purchase price, representations and warranties, and post-closing obligations.\nDilution\nA worsening of per-share metrics post-transaction (after issuing additional shares).\nEarnout\nA financial arrangement where a portion of the purchase price is contingent on the startup achieving specific future performance milestones. This structure helps bridge valuation gaps and aligns the interests of the buyer and seller.\nEconomies of Scale\nFixed costs decrease because merged companies can eliminate departments with repetitive functions.\nEconomies of Scope\nA gain of more specialized skills or technology due to a merger.\nEmpire Building\nOne of the poor reasons to make a merger. Management decides to make a merger to increase the size of the company purely for the purpose of ego or prestige.\nEquity Issuance Fees\nUnderwriting fees charged by investment banks to issue equity in connection with the transaction.\nExcess Purchase Price\nThe value of the purchase price over and above the net book value of assets (total purchase price minus the net book value of assets).\nFair Value Adjustments\nThe increase or decrease in the net book value of assets to arrive at the fair market value.\nFriendly Takeover\nThe board of directors and management of the target company approve of the takeover. They will advise the shareholders to accept the offer.\nForward Integration\nA company acquires a target that either makes use of its products to manufacture finished goods or is a retail outlet for its products.\nFully Diluted Shares Outstanding\nThe number of shares a company has outstanding after options, convertible securities, etc., are exercised.\nGoodwill\nThe excess purchase price over and above the target’s net identifiable assets (after fair value adjustments).\nHorizontal Integration\nMerging of companies in the same lines of business. Usually to achieve synergies.\nHostile Takeover\nThe board of directors and management of the target company do not approve of the takeover. They will advise the shareholders not to accept the offer.\nIdentifiable Assets\nAn asset that can be assigned a fair value; can include both tangible and intangible assets.\nIntrinsic Value\nThe estimated value of a business using discounted cash flow analysis (often on a per share basis).\nLetter of Intent (LOI)\nA preliminary agreement that outlines the basic terms and conditions of the proposed transaction, including the purchase price, due diligence period, and exclusivity arrangements. It serves as a roadmap for further negotiations.\nMerger/Statutory\nThe purchasing company acquires all of the target company shares/assets; the target company ceases to exist (acquirer survives).\nNet Book Value of Assets\nBook value of assets minus book value of liabilities.\nNon-Disclosure Agreement (NDA)\nA legally binding contract that restricts the sharing of confidential information between parties involved in the M&A process. Use NDAs to protect sensitive data during negotiations.\nOffer Price\nThe price offered per share by the acquirer.\nOther Closing Costs\nThis may include due diligence fees, legal fees, accounting fees, etc., related to the deal.\nPro Forma Shares Outstanding\nThe number of shares outstanding after the transaction has closed and additional equity has been issued.\nPurchase Price Allocation\nThe breakdown of the total purchase price between net identifiable assets and goodwill.\nRestructuring Charges\nAny fees or charges related to early debt repayments that are part of a restructuring.\nRevenue Enhancements\nIncreases in revenue that are expected due to cross-selling, up-selling, pricing changes, etc.\nSensitivity Analysis\nA method of testing how sensitive certain outputs in a financial model are to changes in certain assumptions.\nShare Exchange Ratio\nThe offer price divided by the acquirer’s share price.\nShare Issuance Discount\nAny discount (if any) to the current market price that will be used to determine the number of shares the target receives.\nShare/Stock Deal\nThe acquirer purchases all the shares of the target (and assumes all assets and liabilities).\nStock Consideration\nThe portion of the purchase price given to the target in the form of shares of the acquirer’s stock.\nSubsidiary\nThe acquirer completely takes over the target but preserves the target’s brand for the sake of brand reputation or customer base.\nSynergies\nCost savings and revenue enhancements that are expected to be achieved in connection with a merger/acquisition.\nTakeover Premium\nThe percentage above the target’s current share price (or VWAP) the offer price represents.\nTarget\nThe firm that is being acquired (the seller).\nTiming of Synergies\nHow long it is estimated to take to realize the synergies in the transaction.\nTransaction Close Date\nThe date on which the transaction is expected to be officially completed.\nVertical Integration\nMerging with companies that are in a company’s supply chain; may be composed of both forward and backward integration.\nVWAP\nVolume Weighted Average Price, often used in reference to the takeover premium (e.g., 15% above the 20-Day VWAP)."
+      },
+      {
+        "heading": "Use the right calculation",
+        "body": "EPS, ownership dilution, offer premium, exchange ratio and VWAP each have their own denominator and time basis. The linked tools label those assumptions and retain complete calculation tables."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Delaware corporate statute: asset sales, mergers and dissolution have separate provisions",
+        "url": "https://delcode.delaware.gov/title8/c001/sc10/index.html"
+      },
+      {
+        "title": "Delaware Superior Court: GreenTech v. Hilco (2022)",
+        "url": "https://courts.delaware.gov/Opinions/Download.aspx?id=332770"
+      },
+      {
+        "title": "NYU Stern: valuation teaching and spreadsheets",
+        "url": "https://pages.stern.nyu.edu/~adamodar/"
+      }
+    ]
+  },
+  {
+    "slug": "post-merger-integration-planning",
+    "title": "Post-merger integration: strategy, delivery and review",
+    "topic": "Finance & Accounting",
+    "group": "Integration and culture",
+    "summary": "Turn the supplied outline into a working integration plan with owners, measurements, culture and communication.",
+    "sections": [
+      {
+        "heading": "Plan control, approvals and source outline",
+        "body": "Post-Merger Integration Plan\nVERSION HISTORY\nVERSION\nAPPROVED BY\nREVISION DATE\nDESCRIPTION OF CHANGE\nAUTHOR\nPREPARED BY\nTITLE\nDATE\nAPPROVED BY\nTITLE\nDATE\nTABLE OF CONTENTS\n1.INTEGRATION STRATEGY3\nA.ACQUISITION / EXISTING CORPORATE STRATEGY ALIGNMENT3\nB.INTEGRATION STRATEGY3\nC.VALUE DELIVERY OBJECTIVES AND TARGETS3\n2.INTEGRATION OBJECTIVES AND TARGETS3\n3.INTEGRATION PLAN3\n4.INTEGRATION PLAN TIMELINE3\n5.PLAN REVIEW SCHEDULE3\n6.RESOURCING3\n7.INTEGRATION OF PEOPLE AND CULTURE3\nA.CULTURE FIT OF MERGING ORGANIZATIONS3\nB.SENIOR MANAGEMENT TEAM SELECTION3\nC.STAFF RETENTION3\n8.PLANNING PHASE COMMUNICATION3\n9.EXECUTION OF INTEGRATION3\nA.INTEGRATION STRATEGY AND VALUE DELIVERY3\nA1. TRACKING VALUE DELIVERY3\nA2. UPDATING VALUE AND INTEGRATION TARGETS3\nB.INTEGRATION PLAN3\nB1. TIMELINE OF URGENT ACTIONS3\nB2. KEY PROJECT PRIORITIZATION3\nB3. FORMAL POST DEAL REVIEW3\nC.PEOPLE AND CULTURE3\nC1. MAKING CULTURES FIT3\nC2. COMMUNICATION / MANAGING UNCERTAINTY3"
+      },
+      {
+        "heading": "Integration workstreams and execution review",
+        "body": "1. INTEGRATION STRATEGY\n1.1 ACQUISITION / EXISTING CORPORATE STRATEGY ALIGNMENT\n1.2 INTEGRATION STRATEGY\n1.3 VALUE DELIVERY OBJECTIVES AND TARGETS\n2. INTEGRATION OBJECTIVES AND TARGETS\n3. INTEGRATION PLAN\n4. INTEGRATION PLAN TIMELINE\n5. PLAN REVIEW SCHEDULE\n6. RESOURCING\n7. INTEGRATION OF PEOPLE AND CULTURE\n7.1 CULTURE FIT OF MERGING ORGANIZATIONS\n7.2 SENIOR MANAGEMENT TEAM SELECTION\n7.3 STAFF RETENTION\n8. PLANNING PHASE COMMUNICATION\n9. EXECUTION OF INTEGRATION\n9.1 INTEGRATION STRATEGY AND VALUE DELIVERY\nA1. TRACKING VALUE DELIVERY\nA2. UPDATING VALUE AND INTEGRATION TARGETS\n9.2 INTEGRATION PLAN\nB1. TIMELINE OF URGENT ACTIONS\nB2. KEY PROJECT PRIORITIZATION\nB3. FORMAL POST DEAL REVIEW\n9.3 PEOPLE AND CULTURE\nC1. MAKING CULTURES FIT\nC2. COMMUNICATION / MANAGING UNCERTAINTY"
+      },
+      {
+        "heading": "Template attribution and disclaimer",
+        "body": "DISCLAIMER\nAny articles, templates, or information provided by Smartsheet on the website are for reference only. While we strive to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the website or the information, articles, templates, or related graphics contained on the website. Any reliance you place on such information is therefore strictly at your own risk."
+      },
+      {
+        "heading": "Make objectives measurable without mixing units",
+        "body": "The scorecard keeps 100-day and year-one targets separate, actuals blank until reported, and each objective’s unit and direction explicit. Monetary savings, inventory release, FTE, retention, market-share changes, milestones, governance and communication ratings are distinct measures.\nThe source’s unexplained headcount values and literal status labels are not treated as validated formulas. Culture mapping retains all 46 dimensions across 11 groups and asks for evidence; it does not assign a universal good-culture score."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "ipo-readiness-pathway",
+    "title": "IPO readiness: purpose, participants and listing pathways",
+    "topic": "Finance & Accounting",
+    "group": "Capital and public markets",
+    "summary": "Separate the reasons for listing from exchange-specific admission tests and the private funding that may precede it.",
+    "sections": [
+      {
+        "heading": "Benefits, trade-offs, participants and test labels",
+        "body": "Editorial interpretation and source limits\nAn IPO can raise capital and create a public market for existing holders, but it does not guarantee a higher share price, stronger credit rating or improved public confidence. Costs, disclosure, governance obligations and market risk must be considered together.\nThe source lists profit, asset, market-capitalization and forecast-profit tests without an exchange or dated rule set. These are research prompts, not universal IPO requirements. Nasdaq has distinct market tiers and financial, liquidity and governance standards; use its current official guide for the actual market and security.\nLead managers, underwriters, auditors, lawyers and investor relations perform different tasks. A listing readiness assessment also needs reliable reporting, controls, governance and a credible investor proposition.\nInitial Public Offering (IPO)\nBasics\nBenefits\nRaise funds\nIncrease share prices\nImprove public’s confidence\nIncrease branding\nImprove positioning\nUsing shares to acquire\nRetain talent\nImprove standards\nImprove credit ratings\nNot using the bank\nBuild legacy\nEasier for shareholders to exit\nDownside\nToo expensive, e.g. Sarbanes-Oxley Act\nEfficiency rules disproportionately affect small companies\nMutual funds are bigger\nAlternative forms of financing\nToo much pressure on public companies\nTests\nProfit test\nAsset test\nMarket capitalisation test\nForecast profit test\nStakeholders\nSponsor / Lead manager\nUnderwriter / Investment bank\nAuditor\nLawyer\nInvestor relations (IR)\nInvestment company"
+      },
+      {
+        "heading": "Missing Nasdaq source material",
+        "body": "Editorial interpretation and source limits\nThe upload contains only a “Nasdaq Listing” label pointing to a private wiki. The linked content is absent. It is not reproduced or inferred; the official public Nasdaq guide is provided instead.\nNasdaq\nNasdaq Listing"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nasdaq: initial listing guide and market-specific requirements",
+        "url": "https://listingcenter.nasdaq.com/assets/initialguide.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "saas-scaling-scenarios",
+    "title": "SaaS scale: ARR, staffing, profitability and financing",
+    "topic": "Finance & Accounting",
+    "group": "Revenue and growth",
+    "summary": "Use the supplied nine-year growth example as a scenario to question, not a universal path to a $100 million business.",
+    "sections": [
+      {
+        "heading": "The original nine-year operating and financial scenario",
+        "body": "Examples & Benchmark\n$100M ARR in 5-7 years\nYears\n1\n2\n3\n4\n5\n6\n7\n8\n9\nStage\nGarageProblem/Solution, MVP, Traction\nGrowth MachineChannels expansion, multiple product, internationalisation\nUnicornSlow-down, liquidlity event\nOrganisation scale\nHeadcount\n1-9\n30\n90\n180\n360\n720\n1,310\n2,190\nOrganisation scale\nARR\n-%\n-%\n200%\n200%\n100%\n100%\n100%\n82%\n67%\nRevenue\n$0\n$2m\n$6m\n$18m\n$36m\n$72m\n$144m\n$262m\n$438m\nEBITDA margin\n0%\n0%\n-160%\n-160%\n-60%\n-60%\n-42%\n-27%\nEBITDA\n$0\n$0\n-$9.6m\n-$28.8m\n-$21.6m\n-$43.2m\n-$86.4m\n-$110m\n-$119m\nEquity\nFunding\nSeed\nSeries A\nSeries B\nSeries B+\nSeries B+\nSeries B+\nIPO\nIPO\nIPO\nExit\n-\nAcq.\n-\nAcq.\n(Acq.)\n(IPO)\n(IPO)\n# of clients (depending of Average Revenue Per Account [ARPA])\n$100\n-\n20k\n60k\n180k\n360k\n720k\n1.4m\n2.6m\n4.4m\n$1k\n-\n2k\n6k\n18k\n36k\n72k\n144k\n262k\n438k\n$10k\n-\n200\n600\n1.8k\n3.6k\n7.2k\n14.4k\n26k\n44k\n$100k\n-\n20\n60\n180\n360\n720\n1.4k\n2.6k\n4.4k\n$1m\n-\n2\n6\n18\n36\n72\n144\n262\n438"
+      },
+      {
+        "heading": "Growth variables and scale milestones",
+        "body": "Editorial interpretation and source limits\nThe source’s valuation multiples, employee productivity target and “hot and cheap” / IPO milestones lack a defined market date, sample and eligibility context. They are illustrative source assertions, not operating requirements or predictions.\nThe supplied year-seven figures of $144 million ARR/revenue proxy and −$86.4 million EBITDA imply −60%, not the displayed −42%. Later percentage cells are shifted and the final margin is blank. Preserve the original table while recalculating every scenario from explicit assumptions.\nARR is a recurring-revenue run rate, not recognized annual revenue or cash flow. The calculator labels its average/end-ARR revenue proxy and separates EBITDA and FCF margins. Growth plus FCF margin is the Bessemer comparison convention cited here; a chosen comparison target is not an IPO test.\nVariables\nTimeframe\nIt takes an average 6 years for startups to grow into unicorn (a valuation of $1b) and 9 years to reach the IPO strage.\nGrowth\nA successful trajectory for a startup involves tripling revenue twice, doubling it thrice, followed by maintaining a growth persistence of 82%.\nProfit at Scale\nThe formula for profit at scale is depicted as 40% minus the growth rate, suggesting the profit margin should increase as the growth rate decreases.\nFunding\nFunding stages usually progress from Seed round to Series A and Series B, with possibly more funding rounds as neede to fuel growth and expansion.\nExit\nYou have several options\nAt $1m ARR, you are \"hot and cheap\"\nAt $10m ARR, you become meaningful but afforable\nIPO at $100m\nHeadcount\nEach employee's contribution should ideally generate $200k in ARR, showcasing a balance between headcount and revenue generation"
+      },
+      {
+        "heading": "Explore growth, retention and funding",
+        "body": "Forecast either direct growth or retention/expansion/contraction/churn/new business. Compare customers, ARPA, staffing productivity, cash needs and common-equity financing dilution. Preferred rights and option pools need the separate investment-term analysis."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bessemer: vertical software investing and growth plus FCF margin",
+        "url": "https://www.bvp.com/assets/uploads/2022/07/bessemer_whitepaper_ten_lessons_vertical_software_investing_v2.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "family-office-models",
+    "title": "Family-office models: control, services and coordination",
+    "topic": "Finance & Accounting",
+    "group": "Capital providers and structures",
+    "summary": "Compare single-family, multi-family, virtual and embedded arrangements by governance needs and service design.",
+    "sections": [
+      {
+        "heading": "Four operating models and setup questions",
+        "body": "Editorial interpretation and source limits\nSingle-family, multi-family, virtual and embedded describe different organizational arrangements, not universal legal or regulatory categories. A virtual arrangement coordinates outsourced specialists; an embedded function may operate within a family business.\nCompare control, independence, privacy, conflicts, service breadth, staffing and coordination before choosing a structure. The source’s dollar thresholds and annual-cost estimates lack a dated sample and should not be treated as minimum eligibility requirements.\nSetup requires defining objectives, legal structure, governance, roles and service providers in the relevant jurisdiction. The source is a comparison framework, not tax or entity-formation advice.\nInvestor Type\nFamily office\nSingle Family Office (SFO)\nMulti-Family Office (MFO)\nVirtual Family Office (VFO)\nEmbedded Family Office (EFO)\nDefinition\nAn SFO provides customised wealth management services tailored to the unique needs and preferences of a single affluent family.\nAn MFO extends specialised wealth management services to multiple families, sharing expertise and costs among them.\nA VFO operates through a tech-driven, flexible structure, often remotely, to manage the wealth of a family or multiple families, making it a cost-effective alternative.\nAn EFO evolves organically within a successful family business, initially managing the family's wealth alongside the business operations before potentially transitioning to a more formalised structure.\nAdvantages\nTailored services to meet the unique needs of a single family.\nCost-effective due to shared expenses among multiple families.\nCost-effective and flexible, especially for families with assets between $10m and $250m\nOrganic evolution within a family business, offering control, continuity, and support.\nComplete control over the family's wealth and assets.\nSpecialised expertise and investment ideas can be shared among families.\nTechnology-driven, enabling collaboration among professionals.\nProfessionals are already integrated within the business operations.\nEmphasis on long-term wealth preservation and growth over short-term profits.\nCan offer a range of services, though typically focused on investment management.\nCan offer a blend of in-house and outsourced services.\nSeamless integration with family business operations\nDisadvantages\nVery high operational costs, often exceeding $1m annually.\nProfit-driven, which could potentially shift focus to short-term gains.\nCoordination challenges among various professionals.\nLack of privacy.\nRequires sustantial effort from family members to manage, especially as the founding members age.\nPotential conflicts of interest among different families served.\nMight not suit families desiring a high level of personal interaction of those with complex needs.\nMay pose tax risks and become cumbersome as the family's financial complexity increases.\nWhen to Use\nSuitable for families with assets between $100m and $400m who desire a high level of control and customisation.\nFamilies with substantial wealth but looking to reduce operational costs and willing to share services with other families.\nFamilies with moderate to high wealth levels seeking a balance between cost effeciency and personalised service, comfortable with a tech-driven approach.\nInitially suitable within a successful family business, but may require a transition to another structure as the family's assets and needs grow.\nSetting up\nLegal structure\nGovernance strategies\nHuman, intellectual, financial assets\nShared vision\nShared values"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "capital-provider-roles",
+    "title": "Capital providers, fund roles and service intermediaries",
+    "topic": "Finance & Accounting",
+    "group": "Capital providers and structures",
+    "summary": "Separate who supplies capital, who manages it and who supports the transaction.",
+    "sections": [
+      {
+        "heading": "The supplied LP and GP list, reclassified",
+        "body": "Editorial interpretation and source limits\nLimited partner is a contractual fund role. It is not a blanket name for everyone in the financing ecosystem. A general partner or investment manager manages a vehicle under its governing documents; an investor can take different roles in different structures.\nFamily offices, pension funds, endowments, foundations, sovereign wealth funds, insurers, banks, corporations and individuals may supply capital depending on mandate and eligibility. Brokers, advisers, placement agents, accountants, lawyers, consultants and administrators primarily provide services; they are not LPs solely by being on this list.\nWhen mapping a specific transaction, label the actual role: equity investor, lender, fund manager, adviser, intermediary, regulator or operating/service provider. Some organizations occupy more than one role; their name alone does not establish a commitment.\nOther Limited Partners (LPs)\nHigh-networth individual (HNI)\nAccredited investors (AI)\nCorporation\nGovernment\nGovernment investment program\nEmployees\nRetail investor\nFoundation\nInvestment advisor\nFund manager\nBank\nVenture fund\nImpact investment fund/intermediaries\nCommunity development financial institution\nSovereign wealth funds\nDevelopment finance institution\nCooperative\nMicrofinance institution\nPension funds\nStandards-setting body\nConsulting firm\nNon-governmental organisation\nUniversity\nCapacity development providers\nFamily offices\nInsurance companies\nFund of funds\nGeneral Partner\nFund manager"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "ma-financing-models",
+    "title": "Acquisition financing: debt capacity, LBOs and recapitalizations",
+    "topic": "Finance & Accounting",
+    "group": "Valuation and financing",
+    "summary": "Connect operating cash flows to feasible borrowing, equity funding and sponsor returns.",
+    "sections": [
+      {
+        "heading": "Debt capacity is constrained by cash and repayment",
+        "body": "Forecast revenue, operating margins, taxes, capex, working capital and required cash. Apply opening-debt cash interest, senior amortization and a stated cash sweep. Capacity is solved within the leverage limit, minimum coverage and final repayment constraints, including a downside run.\nThe source debt workbook contains a fixed “VBA Output” but no macro. Its opening schedule and selected headline do not consistently use the same result. The public tool solves capacity independently and states its refinancing and interest conventions. The original Alexander D. Jarvis credit is retained in the download."
+      },
+      {
+        "heading": "A linked buyout model must balance",
+        "body": "Entry sources and uses determine sponsor equity. Revenue, EBITDA, working capital, depreciation, capex, taxes and interest feed linked income, cash-flow, balance-sheet and debt schedules. Beginning, average or ending debt interest must be applied deliberately; average-debt interest needs a solved circular relationship.\nThe LBO workspace supports acquisition and recapitalization modes, debt priorities, revolver funding, cash/PIK preference, management participation and option proceeds. It reports funding gaps and balance checks before sponsor IRR/MOIC. Terminal EV is bridged to equity after exit fees, debt, cash and preference; retained legacy ownership matters in a recap.\nThe supplied workbook has unresolved defined-name references and projected interest tied to one fixed-period cell. The independent model does not treat those outputs as authoritative. Its simplified purchase accounting does not certify compliance with a financial-reporting framework."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NYU Stern: valuation teaching and spreadsheets",
+        "url": "https://pages.stern.nyu.edu/~adamodar/"
+      }
+    ]
+  },
+  {
+    "slug": "ma-model-source-register",
+    "title": "Deal model source register: methods, workbooks and known gaps",
+    "topic": "Finance & Accounting",
+    "group": "Cases and reference",
+    "summary": "Inspect the original models, understand corrections and find every calculator and planning tool.",
+    "sections": [
+      {
+        "heading": "Read this before using a historical workbook",
+        "body": "These downloads preserve the exact reviewed originals, including credits, examples and known defects. They are reference material, not calculators whose cached results have been independently approved. The browser tools use separately implemented and checked formulas."
+      },
+      {
+        "heading": "Workbook-by-workbook limitations",
+        "body": "Acquisition workbook (8 sheets): historical SGX/ASX inputs mix currency labels; SGX net income is explicitly unreconciled. Many sensitivity cells are constants and the nil-dilution synergy table repeats EPS figures. The public tool recalculates funding, EPS and sensitivities; the historical financials remain source examples.\nDebt workbook (1 sheet): the hardcoded VBA-output cell has no supplied macro and the opening schedule does not consistently follow the selected headline. “Average” interest references opening debt. The public model uses its stated opening-debt convention and a bounded feasibility solver.\nLBO workbook (9 sheets): missing defined names and fixed-period interest references prevent treating source formulas as validated outputs. The public linked model exposes its own accounting conventions, schedule checks and funding gaps; no hidden name definitions are invented.\nPrice-volume workbook (2 sheets, 12 charts): this is primarily volume-by-price and turnover analysis, not a complete trade VWAP calculation. It has off-row date classification, inconsistent /1000 scaling and masked #REF! tail formulas. All 2,022 raw dated observations (including 43 zero-volume rows) are retained in original units for the public historical sample. Price adjustment/data provenance is unknown.\nDiligence workbook (2 sheets): example and blank scheduling templates contain the same request structure, example owners/dates and calendar scaffolding. The new planner uses blank personal fields and keeps task status separate from findings. Source dependency/working-day formulas are retained in the original; the visual timeline is calendar-day based and does not reschedule dependencies.\nIntegration scorecard (2 sheets): 10 populated objectives and 3 additional slots mix money, FTE, percentages and ratings. Literal statuses and mixed totals are not inherited. Actuals start unreported; zero is a real reported value. Targets and permitted shortfalls use explicit units and direction.\nCulture sheet (1 sheet): all 46 characteristics and 11 groups are retained. It is a perception comparison with no formulas or financial synergy model. Mean absolute gaps are descriptive ordinal summaries; blank is unrated. The wording “product instruction” is unclear and remains identified as such."
+      },
+      {
+        "heading": "Historical price-volume data",
+        "body": "The sample covers 1 January 2003 to 5 November 2010. Daily close weighted by daily volume is a proxy, not eligible-trade VWAP. Unknown shares outstanding leaves turnover uncalculated. The volume-profile buckets include their lower bound and exclude the upper bound except for the final inclusive bucket."
+      },
+      {
+        "heading": "Known missing and uncertain material",
+        "body": "The private Nasdaq wiki contents are missing. No dated benchmark population supports the supplied SaaS and family-office norms. The integration document is an outline, not a completed corporate plan. Some diligence prompts end mid-sentence. Unresolved workbook names are not recoverable hidden inputs. No material is silently invented to fill these gaps."
+      }
+    ],
+    "sources": []
+  },
+  {
     "slug": "strategy-growth",
     "title": "Strategy & Growth",
     "topic": "Business & Management",
@@ -14986,6 +15763,20 @@
       {
         "heading": "Choose a reading path",
         "body": "Start with the decision and who it affects. Compare ethical reasons, governance expectations, practical responsibilities and the evidence behind historical examples."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "mergers-acquisitions-integration",
+    "title": "Mergers, Acquisitions & Integration",
+    "topic": "Finance & Accounting",
+    "group": "Explore finance",
+    "summary": "Plan a deal, value and finance it, review the evidence and deliver integration.",
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Start with the transaction question, then connect the financial case to diligence, agreement and post-close delivery. Historical models and case records stay visible with their limitations."
       }
     ],
     "sources": []

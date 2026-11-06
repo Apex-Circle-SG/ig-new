@@ -1,0 +1,2524 @@
+[
+  {
+    "slug": "ma-deal-structures",
+    "title": "M&A deal structures: control, consideration and ownership",
+    "summary": "Separate the legal form of a deal from how it is financed and what it does to shareholders.",
+    "group": "Deal foundations",
+    "collection": "mergers-acquisitions-integration",
+    "topic": "Finance & Accounting",
+    "takeaway": "Separate the legal form of a deal from how it is financed and what it does to shareholders.",
+    "steps": [
+      "Define the transaction perimeter",
+      "Choose legal form",
+      "Price and finance the consideration",
+      "Check ownership and economic impact"
+    ],
+    "ranges": [
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 0,
+        "end": 45,
+        "heading": "Shares, assets and strategic combinations",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "A share acquisition transfers shares; an asset acquisition transfers specified assets and liabilities subject to the agreement and applicable law. Neither label by itself says whether a deal is friendly, hostile, vertical or horizontal.",
+            "Share and asset purchases do not automatically dissolve the target. Merger, asset-sale approval and dissolution are different legal processes. The Delaware provisions cited below illustrate that distinction; other jurisdictions and documents can differ.",
+            "Horizontal combinations join overlapping businesses; vertical combinations join supply-chain stages; conglomerate and market/product-extension labels describe other strategic relationships. Several labels can fit one transaction.",
+            "Apple announced $3 billion for Beats Music and Beats Electronics in May 2014. The supplied $3.2 billion figure is corrected here. Calling it purely vertical requires an argument about the specific businesses, not just a source label."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 117,
+        "end": 129,
+        "heading": "Motives and incentives"
+      }
+    ],
+    "notes": [],
+    "related": [
+      "ma-synergies-value",
+      "ma-financing-models"
+    ],
+    "references": [
+      {
+        "title": "Delaware corporate statute: asset sales, mergers and dissolution have separate provisions",
+        "url": "https://delcode.delaware.gov/title8/c001/sc10/index.html"
+      },
+      {
+        "title": "Delaware Superior Court: GreenTech v. Hilco (2022)",
+        "url": "https://courts.delaware.gov/Opinions/Download.aspx?id=332770"
+      },
+      {
+        "title": "Apple: Beats acquisition announcement",
+        "url": "https://www.apple.com/newsroom/2014/05/28Apple-to-Acquire-Beats-Music-Beats-Electronics/"
+      },
+      {
+        "title": "Apple: Apple to Acquire Beats Music & Beats Electronics",
+        "url": "https://www.apple.com/newsroom/2014/05/28Apple-to-Acquire-Beats-Music-Beats-Electronics/"
+      },
+      {
+        "title": "JLR / Tata Motors: Tata Motors Completes Acquisition Of Jaguar Land Rover",
+        "url": "https://media.jlr.com/corporate/en-us/news/2008/06/tata-motors-completes-acquisition-jaguar-land-rover"
+      },
+      {
+        "title": "Ford Motor Company: 8-K, Item 2.01, Completion of disposition",
+        "url": "https://www.sec.gov/Archives/edgar/data/38009/000114036108014252/ex99_2.htm"
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "Test the financing separately",
+        "paragraphs": [
+          "Model cash, stock, debt, option dilution, closing timing and operating adjustments. EPS accretion and value creation answer different questions."
+        ],
+        "resources": [
+          {
+            "label": "Acquisition impact calculator",
+            "href": "/calculators/corporate-finance/acquisition-impact/"
+          }
+        ]
+      },
+      {
+        "heading": "Apple / Beats price and vertical-merger classification — historical evidence",
+        "paragraphs": [
+          "Apple’s May 28, 2014 agreement announced $3.0bn total: approximately $2.6bn purchase price plus $0.4bn vesting over time, for Beats Music and Beats Electronics. The supplied $3.2bn figure does not match that announcement.",
+          "This is agreement-stage evidence, not a closing notice. Complementary audio hardware and music services alone do not prove the source’s production-chain definition of vertical merger; label strategic acquisition rather than force a structural category."
+        ]
+      },
+      {
+        "heading": "Tata / Jaguar Land Rover conglomerate classification — historical evidence",
+        "paragraphs": [
+          "Tata Motors, an automotive manufacturer, completed its purchase of Jaguar Land Rover businesses from Ford on June 2, 2008 for $2.3bn net consideration on a cash-free debt-free basis. Use the actual automotive buyer rather than diversified Tata Group to justify an unrelated-industry example.",
+          "Classification is an inference from buyer and target activities. Do not assert a uniquely authoritative merger taxonomy from the announcement."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ma-synergies-value",
+    "title": "Acquisition synergies: from rationale to measurable value",
+    "summary": "Translate cost, revenue and financing claims into timed, costed and accountable integration assumptions.",
+    "group": "Deal foundations",
+    "collection": "mergers-acquisitions-integration",
+    "topic": "Finance & Accounting",
+    "takeaway": "Value depends on incremental cash flows after execution costs, risk and the price paid—not an unsupported synergy headline.",
+    "steps": [
+      "Define the standalone baseline",
+      "Identify incremental benefits",
+      "Cost and time delivery",
+      "Discount cash flows",
+      "Assign owners and monitor actuals"
+    ],
+    "ranges": [
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 45,
+        "end": 69,
+        "heading": "Sources of synergy and integration work"
+      }
+    ],
+    "notes": [],
+    "related": [
+      "ma-deal-structures",
+      "post-merger-integration-planning"
+    ],
+    "references": [
+      {
+        "title": "NYU Stern: valuation teaching and spreadsheets",
+        "url": "https://pages.stern.nyu.edu/~adamodar/"
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "Separate financial synergy from cultural fit",
+        "paragraphs": [
+          "Culture gaps can guide integration discussions but are not financial synergy estimates. The supplied culture sheet contains no financial calculations. The valuation workbench discounts explicit annual benefits and costs; the integration planner tracks delivery in compatible units."
+        ],
+        "resources": [
+          {
+            "label": "Valuation and synergy workbench",
+            "href": "/calculators/corporate-finance/valuation-workbench/"
+          },
+          {
+            "label": "Integration scorecard",
+            "href": "/calculators/corporate-finance/integration-planner/"
+          },
+          {
+            "label": "Culture comparison",
+            "href": "/calculators/corporate-finance/culture-comparison/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "takeover-tactics-controls",
+    "title": "Takeover tactics and control defenses",
+    "summary": "Read the historical vocabulary of bids and defenses with governance, legal and shareholder context.",
+    "group": "Deal foundations",
+    "collection": "mergers-acquisitions-integration",
+    "topic": "Finance & Accounting",
+    "takeaway": "Read the historical vocabulary of bids and defenses with governance, legal and shareholder context.",
+    "steps": [],
+    "ranges": [
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 69,
+        "end": 117,
+        "heading": "Takeover strategies and defenses",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The supplied notes describe historical tactics such as tender offers, proxy contests, white knights, pills and asset defenses. Availability, approvals and fiduciary constraints depend on the jurisdiction, governing documents and facts.",
+            "A stock acquisition can be negotiated and friendly. Hostility describes the relationship to the target board, not a universal consequence of acquiring shares. A tactic’s description is not a recommendation or confirmation that it is lawful today."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "notes": [],
+    "related": [
+      "ma-deal-structures",
+      "ma-agreements-terms"
+    ],
+    "references": [
+      {
+        "title": "Delaware corporate statute: asset sales, mergers and dissolution have separate provisions",
+        "url": "https://delcode.delaware.gov/title8/c001/sc10/index.html"
+      },
+      {
+        "title": "Delaware Superior Court: GreenTech v. Hilco (2022)",
+        "url": "https://courts.delaware.gov/Opinions/Download.aspx?id=332770"
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "corporate-restructuring",
+    "title": "Corporate restructuring: ownership, assets and capital",
+    "summary": "Distinguish divestitures, spin-offs, recapitalizations, buyouts and financial distress responses.",
+    "group": "Growth and restructuring",
+    "collection": "strategy-growth",
+    "topic": "Business & Management",
+    "takeaway": "Distinguish divestitures, spin-offs, recapitalizations, buyouts and financial distress responses.",
+    "steps": [],
+    "ranges": [
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 129,
+        "end": 195,
+        "heading": "Forms and examples of restructuring",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Restructuring can change business boundaries, ownership, capital structure or operations. A leveraged buyout uses acquisition debt and equity to purchase control; a recapitalization changes financing and may distribute cash without the same change of control.",
+            "Government rescue or bailout examples are not automatically LBOs. Classification depends on the transaction actually undertaken. The supplied examples mix these ideas; retain their historical wording only with that distinction.",
+            "Divestitures, carve-outs and spin-offs have different ownership and funding effects. Distress reorganizations and liquidations also require jurisdiction-specific treatment rather than a single universal procedure."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "notes": [],
+    "related": [
+      "ma-financing-models",
+      "ma-deal-structures"
+    ],
+    "references": [
+      {
+        "title": "US Government Accountability Office: Financial Crisis: Review of Federal Reserve System Financial Assistance to AIG, GAO-11-616",
+        "url": "https://www.gao.gov/assets/gao-11-616.pdf"
+      },
+      {
+        "title": "Federal Reserve Bank of New York: Actions Related to AIG",
+        "url": "https://www.newyorkfed.org/aboutthefed/aig"
+      },
+      {
+        "title": "Japan Airlines: JAL Received Decision on Support from ETIC and the Court’s Decision on Commencement of Corporate Reorganization Proceedings",
+        "url": "https://press.jal.co.jp/en/release/201001/003256.html"
+      },
+      {
+        "title": "Japan Airlines: Regular Press Conference (September 18, 2013)",
+        "url": "https://www.jal.com/cms/en/corp_00271.html"
+      },
+      {
+        "title": "Khazanah Nasional: Annual Review 2014: MAS Recovery Plan case study",
+        "url": "https://www.khazanah.com.my/media/uploads/2020/05/2014.pdf"
+      },
+      {
+        "title": "Singapore Airlines: Singapore Airlines To Issue S$5.3 Billion In New Equity And Raise Up To S$9.7 Billion Via Mandatory Convertible Bonds",
+        "url": "https://www.singaporeair.com/en_UK/sg/corporate/newsroom/press-release/2020/January-March/ne0720-200326/"
+      },
+      {
+        "title": "Singapore Airlines: Singapore Airlines Secures S$10 Billion In Fresh Liquidity",
+        "url": "https://www.singaporeair.com/en_UK/bn/corporate/newsroom/press-release/2020/April-June/ne0920-200608/"
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "Model a buyout or recapitalization",
+        "paragraphs": [
+          "Compare entry funding, legacy shareholder proceeds, projected cash flow, debt repayment and exit ownership under separate transaction modes."
+        ],
+        "resources": [
+          {
+            "label": "LBO and recapitalization workbench",
+            "href": "/calculators/corporate-finance/lbo-recapitalization/"
+          }
+        ]
+      },
+      {
+        "heading": "AIG rescue as LBO example — historical evidence",
+        "paragraphs": [
+          "Government assistance began in September 2008 and was expanded/restructured in 2008–2009. GAO records up to $182.3bn made available, not a single 2008 buyout price.",
+          "Committed assistance differs from disbursed funds, acquisition consideration and net fiscal cost. Sources establish rescue financing, not a conventional leveraged sponsor buyout."
+        ]
+      },
+      {
+        "heading": "JAL rescue as LBO example — historical evidence",
+        "paragraphs": [
+          "JAL entered corporate reorganisation and received ETIC support in January 2010. JAL subsequently records a ¥350bn ETIC capital injection after bankruptcy. The supplied US$11bn needs a defined funding perimeter and dated exchange rate.",
+          "Do not equate capital injection, total support and debt relief. Bounded primary review does not verify the supplied dollar total or conventional LBO classification."
+        ]
+      },
+      {
+        "heading": "MAS recovery plan as LBO example — historical evidence",
+        "paragraphs": [
+          "Khazanah’s August 29, 2014 recovery plan provided up to RM6bn further investment, conditional and staggered. Present as rescue, delisting and restructuring context rather than an established leveraged sponsor buyout.",
+          "The ceiling is not a claim that RM6bn was disbursed immediately or entirely used to buy shares. Full capital-structure review was outside this bounded check."
+        ]
+      },
+      {
+        "heading": "SIA pandemic recapitalisation as LBO example — historical evidence",
+        "paragraphs": [
+          "SIA’s March 26, 2020 plan offered S$5.3bn rights equity and up to S$9.7bn mandatory convertible bonds, plus a S$4bn bridge facility. June 8 release confirms S$8.8bn rights issue completed June 5 and about S$10bn fresh liquidity including credit facilities. The supplied S$16bn is not supported as a single rescue or buyout amount.",
+          "Separate announced facilities, issued securities, available credit and actual proceeds. This recapitalisation does not establish an LBO or privatisation."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "strategic-alliances-partnerships",
+    "title": "Strategic alliances: cooperate, invest or acquire?",
+    "summary": "Compare contractual collaboration, equity alliances and joint ventures before committing to ownership integration.",
+    "group": "Growth and restructuring",
+    "collection": "strategy-growth",
+    "topic": "Business & Management",
+    "takeaway": "Compare contractual collaboration, equity alliances and joint ventures before committing to ownership integration.",
+    "steps": [],
+    "ranges": [
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 195,
+        "end": 240,
+        "heading": "Alliance structures, motives and trade-offs",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Alliances share activities or resources while preserving some organizational independence. An equity alliance involves a stake; a joint venture establishes a jointly governed undertaking; contractual collaboration need not do either.",
+            "The supplied Google/NASA–Google Maps joint-venture claim is not supported. Google and NASA announced a research collaboration; that announcement does not establish that Google Maps was their joint venture.",
+            "Use the retained advantages, risks and coordination questions as a decision framework. Scope, governance, IP, exit terms and competition rules need transaction-specific review."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "notes": [],
+    "related": [
+      "ma-deal-structures",
+      "post-merger-integration-planning"
+    ],
+    "references": [
+      {
+        "title": "NASA: Google agreements library",
+        "url": "https://www.nasa.gov/foia/nasa-e-libraries/ames-foia-library/google-documents/"
+      },
+      {
+        "title": "Google: A look back at 15 years of mapping the world",
+        "url": "https://blog.google/products-and-platforms/products/maps/look-back-15-years-mapping-world/"
+      },
+      {
+        "title": "NASA: NASA / Google agreements library",
+        "url": "https://www.nasa.gov/foia/nasa-e-libraries/ames-foia-library/google-documents/"
+      },
+      {
+        "title": "NASA Ames: Astrogram June 2008: NASA, Google announce lease at Ames Research Center",
+        "url": "https://www.nasa.gov/wp-content/uploads/2023/08/255793main_june.08.agram_.smallfile.pdf"
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "Google / NASA and Google Maps — historical evidence",
+        "paragraphs": [
+          "Google dates Maps launch to February 8, 2005. NASA describes later research collaborations and planetary content for Google Moon/Earth. Replace the claim that Google and NASA formed Google Maps with a correctly sourced R&D collaboration example.",
+          "NASA’s 2006 newsletter loosely uses joint venture for collaboration; that does not establish a jointly owned company or Maps origin. Do not replace it with an unsourced corporate JV legal classification."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ma-valuation-process",
+    "title": "Deal valuation: purpose, methods and decision process",
+    "summary": "Choose a valuation basis, build consistent cash flows and reconcile enterprise value with the equity offer.",
+    "group": "Valuation and financing",
+    "collection": "mergers-acquisitions-integration",
+    "topic": "Finance & Accounting",
+    "takeaway": "Choose a valuation basis, build consistent cash flows and reconcile enterprise value with the equity offer.",
+    "steps": [
+      "Define purpose",
+      "Analyze the business",
+      "Forecast cash flows",
+      "Estimate risk and capital costs",
+      "Select terminal assumptions",
+      "Value operations",
+      "Bridge to equity",
+      "Test sensitivities",
+      "Interpret the result"
+    ],
+    "ranges": [
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 240,
+        "end": 318,
+        "heading": "Purpose, valuation process and model families"
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 318,
+        "end": 355,
+        "heading": "Valuation approaches and inputs"
+      }
+    ],
+    "notes": [
+      "The source models are teaching examples with historical conventions. Model choice, taxes, purchase accounting and discount rates must match the specific context."
+    ],
+    "related": [
+      "ma-synergies-value",
+      "ma-financing-models"
+    ],
+    "references": [
+      {
+        "title": "NYU Stern: valuation teaching and spreadsheets",
+        "url": "https://pages.stern.nyu.edu/~adamodar/"
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "Use consistent definitions",
+        "paragraphs": [
+          "Discount FCFF using WACC, then bridge enterprise to equity value. Match trading comparables to the same enterprise/equity metric basis. The workbench also separates standalone valuation, deal premium, exchange ratio, synergy present value and project NPV/IRR."
+        ],
+        "resources": [
+          {
+            "label": "Valuation workbench",
+            "href": "/calculators/corporate-finance/valuation-workbench/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ma-process-team",
+    "title": "The deal lifecycle: people, decisions and handoffs",
+    "summary": "Follow a transaction from strategy and target selection through diligence, agreement and post-close delivery.",
+    "group": "Deal foundations",
+    "collection": "mergers-acquisitions-integration",
+    "topic": "Finance & Accounting",
+    "takeaway": "Follow a transaction from strategy and target selection through diligence, agreement and post-close delivery.",
+    "steps": [
+      "Develop strategy",
+      "Set acquisition criteria",
+      "Find targets",
+      "Plan the approach",
+      "Value the business",
+      "Negotiate",
+      "Conduct due diligence",
+      "Agree contracts and funding",
+      "Close and integrate"
+    ],
+    "ranges": [
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 355,
+        "end": 390,
+        "heading": "Deal team and stakeholder responsibilities"
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 390,
+        "end": 426,
+        "heading": "Process, financial review and roadmap"
+      }
+    ],
+    "notes": [
+      "The sequence is a teaching roadmap, not a guaranteed timeline. Diligence, financing, negotiation and approvals often overlap. Purchase-price allocation and goodwill depend on the applicable accounting framework."
+    ],
+    "related": [
+      "ma-due-diligence",
+      "ma-agreements-terms",
+      "post-merger-integration-planning"
+    ],
+    "references": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "ma-due-diligence",
+    "title": "M&A due diligence: from requests to evidence and findings",
+    "summary": "Scope diligence by the deal thesis and turn supplied checklists into an accountable evidence review.",
+    "group": "Diligence workstreams",
+    "collection": "mergers-acquisitions-integration",
+    "topic": "Finance & Accounting",
+    "takeaway": "Scope diligence by the deal thesis and turn supplied checklists into an accountable evidence review.",
+    "steps": [
+      "Set scope and materiality",
+      "Assign requests and owners",
+      "Record evidence",
+      "Evaluate findings",
+      "Resolve issues or reflect them in the deal",
+      "Handover integration actions"
+    ],
+    "ranges": [
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 426,
+        "end": 455,
+        "heading": "Diligence purposes, disciplines and financial checks"
+      }
+    ],
+    "notes": [],
+    "related": [
+      "ma-diligence-finance",
+      "ma-diligence-commercial",
+      "ma-diligence-people-legal",
+      "ma-diligence-technology-assets"
+    ],
+    "references": [],
+    "editorialSections": [
+      {
+        "heading": "Use the complete working checklist",
+        "paragraphs": [
+          "The private planner brings together the supplied document and spreadsheet requests, with source references, owners, dates, evidence, status and findings. The original template also remains downloadable. Completion is not a diligence pass; tailor each lookback period and jurisdiction to your transaction."
+        ],
+        "resources": [
+          {
+            "label": "Due-diligence planner",
+            "href": "/calculators/corporate-finance/due-diligence/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ma-diligence-finance",
+    "title": "Financial diligence: earnings, cash, debt and tax",
+    "summary": "Reconcile the financial record, quality of earnings, assets, working capital, financing and tax exposures.",
+    "group": "Diligence workstreams",
+    "collection": "mergers-acquisitions-integration",
+    "topic": "Finance & Accounting",
+    "takeaway": "Reconcile the financial record, quality of earnings, assets, working capital, financing and tax exposures.",
+    "steps": [],
+    "ranges": [
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 477,
+        "end": 533,
+        "heading": "Capital structure and financial statements"
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 533,
+        "end": 562,
+        "heading": "Receivables, financing, management reports and asset records"
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 711,
+        "end": 722,
+        "heading": "Tax evidence and reconciliations"
+      }
+    ],
+    "notes": [
+      "The retained requests contain historical dates, lookback examples and jurisdiction-specific agencies. Tailor them; a checklist is not a statement that every request is legally required. Some supplied lines are fragments or incomplete prompts. Their source wording is retained without inventing the missing detail."
+    ],
+    "related": [
+      "ma-due-diligence",
+      "post-merger-integration-planning"
+    ],
+    "references": [],
+    "editorialSections": [
+      {
+        "heading": "Work with requests and evidence",
+        "paragraphs": [
+          "Filter the shared planner by subject, assign owners and dates, record evidence and separate open findings from task completion."
+        ],
+        "resources": [
+          {
+            "label": "Open the diligence planner",
+            "href": "/calculators/corporate-finance/due-diligence/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ma-diligence-commercial",
+    "title": "Commercial and operating diligence: customers, markets and delivery",
+    "summary": "Test the revenue engine, supplier dependencies, operational capabilities and product pipeline.",
+    "group": "Diligence workstreams",
+    "collection": "mergers-acquisitions-integration",
+    "topic": "Finance & Accounting",
+    "takeaway": "Test the revenue engine, supplier dependencies, operational capabilities and product pipeline.",
+    "steps": [],
+    "ranges": [
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 562,
+        "end": 602,
+        "heading": "Sales, suppliers, customers and marketing"
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 602,
+        "end": 612,
+        "heading": "Operational processes and performance"
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 840,
+        "end": 857,
+        "heading": "Industry drivers and research and development"
+      }
+    ],
+    "notes": [
+      "The retained requests contain historical dates, lookback examples and jurisdiction-specific agencies. Tailor them; a checklist is not a statement that every request is legally required. Some supplied lines are fragments or incomplete prompts. Their source wording is retained without inventing the missing detail."
+    ],
+    "related": [
+      "ma-due-diligence",
+      "post-merger-integration-planning"
+    ],
+    "references": [],
+    "editorialSections": [
+      {
+        "heading": "Work with requests and evidence",
+        "paragraphs": [
+          "Filter the shared planner by subject, assign owners and dates, record evidence and separate open findings from task completion."
+        ],
+        "resources": [
+          {
+            "label": "Open the diligence planner",
+            "href": "/calculators/corporate-finance/due-diligence/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ma-diligence-people-legal",
+    "title": "People, governance and legal diligence",
+    "summary": "Review corporate records, management, contracts, employment, benefits, regulatory issues and claims.",
+    "group": "Diligence workstreams",
+    "collection": "mergers-acquisitions-integration",
+    "topic": "Finance & Accounting",
+    "takeaway": "Review corporate records, management, contracts, employment, benefits, regulatory issues and claims.",
+    "steps": [],
+    "ranges": [
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 455,
+        "end": 470,
+        "heading": "Corporate governance and organizational records"
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 473,
+        "end": 477,
+        "heading": "Management and leadership"
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 631,
+        "end": 662,
+        "heading": "Contracts and workforce records"
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 662,
+        "end": 711,
+        "heading": "Benefits, HR agreements and policies"
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 722,
+        "end": 753,
+        "heading": "Regulatory matters and litigation"
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 753,
+        "end": 775,
+        "heading": "Insurance, claims and workplace safety"
+      }
+    ],
+    "notes": [
+      "The retained requests contain historical dates, lookback examples and jurisdiction-specific agencies. Tailor them; a checklist is not a statement that every request is legally required. Some supplied lines are fragments or incomplete prompts. Their source wording is retained without inventing the missing detail."
+    ],
+    "related": [
+      "ma-due-diligence",
+      "post-merger-integration-planning"
+    ],
+    "references": [],
+    "editorialSections": [
+      {
+        "heading": "Work with requests and evidence",
+        "paragraphs": [
+          "Filter the shared planner by subject, assign owners and dates, record evidence and separate open findings from task completion."
+        ],
+        "resources": [
+          {
+            "label": "Open the diligence planner",
+            "href": "/calculators/corporate-finance/due-diligence/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ma-diligence-technology-assets",
+    "title": "Technology, IP, property and environmental diligence",
+    "summary": "Inspect the rights, systems, assets and environmental conditions on which the business depends.",
+    "group": "Diligence workstreams",
+    "collection": "mergers-acquisitions-integration",
+    "topic": "Finance & Accounting",
+    "takeaway": "Inspect the rights, systems, assets and environmental conditions on which the business depends.",
+    "steps": [],
+    "ranges": [
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 470,
+        "end": 473,
+        "heading": "Facilities changes"
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 612,
+        "end": 631,
+        "heading": "Environmental liabilities and hazardous substances"
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 775,
+        "end": 789,
+        "heading": "Intellectual property"
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 789,
+        "end": 807,
+        "heading": "Information systems and operating technology"
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 807,
+        "end": 820,
+        "heading": "Security and data privacy"
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 820,
+        "end": 840,
+        "heading": "Brands, rights and property"
+      }
+    ],
+    "notes": [
+      "The retained requests contain historical dates, lookback examples and jurisdiction-specific agencies. Tailor them; a checklist is not a statement that every request is legally required. Some supplied lines are fragments or incomplete prompts. Their source wording is retained without inventing the missing detail."
+    ],
+    "related": [
+      "ma-due-diligence",
+      "post-merger-integration-planning"
+    ],
+    "references": [],
+    "editorialSections": [
+      {
+        "heading": "Work with requests and evidence",
+        "paragraphs": [
+          "Filter the shared planner by subject, assign owners and dates, record evidence and separate open findings from task completion."
+        ],
+        "resources": [
+          {
+            "label": "Open the diligence planner",
+            "href": "/calculators/corporate-finance/due-diligence/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ma-agreements-terms",
+    "title": "Deal agreements: confidentiality, intent and the definitive contract",
+    "summary": "Understand the purpose of common transaction documents without assuming their legal effect from a label.",
+    "group": "Deal foundations",
+    "collection": "mergers-acquisitions-integration",
+    "topic": "Finance & Accounting",
+    "takeaway": "Understand the purpose of common transaction documents without assuming their legal effect from a label.",
+    "steps": [],
+    "ranges": [
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 857,
+        "end": 885,
+        "heading": "Agreement sequence and binding effects",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "An NDA protects specified confidential information subject to its terms. A term sheet, letter of intent or non-binding offer can record proposed economics, scope and process, while reserving some or most terms for definitive documents.",
+            "Calling an entire document binding or non-binding from its title is unsafe. Confidentiality, exclusivity, costs, governing law and an obligation to negotiate can have different effects. Wording, conduct, jurisdiction and facts control; the Delaware court example are illustrative, not universal legal advice.",
+            "The definitive purchase agreement sets negotiated representations, covenants, conditions, price mechanisms, indemnities and closing obligations. Read it alongside disclosure schedules and related financing or shareholder documents."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "notes": [],
+    "related": [
+      "founder-investment-terms",
+      "ma-due-diligence"
+    ],
+    "references": [
+      {
+        "title": "Delaware corporate statute: asset sales, mergers and dissolution have separate provisions",
+        "url": "https://delcode.delaware.gov/title8/c001/sc10/index.html"
+      },
+      {
+        "title": "Delaware Superior Court: GreenTech v. Hilco (2022)",
+        "url": "https://courts.delaware.gov/Opinions/Download.aspx?id=332770"
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "ma-research-resources",
+    "title": "M&A research resources: workflow software and reading sources",
+    "summary": "Use the supplied software and publication list as a historical discovery reference, with clear verification limits.",
+    "group": "Deal foundations",
+    "collection": "mergers-acquisitions-integration",
+    "topic": "Finance & Accounting",
+    "takeaway": "Use the supplied software and publication list as a historical discovery reference, with clear verification limits.",
+    "steps": [],
+    "ranges": [
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 885,
+        "end": 928,
+        "heading": "Supplied workflow and publication directory",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The list contains commercial software, news outlets, blogs and providers. Product features, availability, pricing and editorial practices were not verified as current. The original descriptions below preserve the supplied research leads rather than endorse them.",
+            "Choose a tool by a concrete workflow: permissions and secure document sharing, issue tracking, financial analysis, source verification or integration reporting. Independently assess current access, privacy, retention and export capabilities."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "notes": [],
+    "related": [
+      "ma-due-diligence",
+      "ma-process-team"
+    ],
+    "references": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "historical-acquisition-cases",
+    "title": "Historical acquisition cases: what was announced and what closed",
+    "summary": "Explore all 31 supplied cases with dated primary evidence and explicit completion limits.",
+    "group": "Cases and reference",
+    "collection": "mergers-acquisitions-integration",
+    "topic": "Finance & Accounting",
+    "takeaway": "Explore all 31 supplied cases with dated primary evidence and explicit completion limits.",
+    "steps": [],
+    "ranges": [
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 928,
+        "end": 933,
+        "heading": "How to read the historical deal list",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "This is a historical source list, not a current deal tracker. Each case below distinguishes an announcement from evidence of completion and preserves the supplied claim separately. Dates state what they mean; an adviser report is not automatically a closing notice."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 933,
+        "end": 939,
+        "heading": "From the Bench / Tappx",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Announced acquisition. 2022-05-17 (announcement date).",
+            "Release describes acquisition of the developer brand; separate legal closing and corporate-share scope not verified."
+          ],
+          "references": [
+            {
+              "title": "Techsoulogy / Tappx: Tappx acquires mobile gaming brand From The Bench",
+              "url": "https://www.techsoulogy.com/press-releases/tappx-acquires-mobile-gaming-brand-from-the-bench"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 939,
+        "end": 945,
+        "heading": "GamerzClass / Metafy",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Acquisition reported by transaction adviser. 2022-05-18 (adviser report date).",
+            "Buyer counsel confirms acting on acquisition; no separately dated completion statement located."
+          ],
+          "references": [
+            {
+              "title": "Moalem Weitemeyer (buyer counsel): Moalem Weitemeyer represented Metafy, Inc. in connection with the acquisition of Danish company GamerzClass ApS.",
+              "url": "https://moalemweitemeyer.com/2022-05-18-GamerzClass"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 945,
+        "end": 951,
+        "heading": "Quentic / AMCS Group",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed. 2022-06-30 (effective completion date).",
+            "May 12 announcement preceded regulatory approval and June 30 closing; AMCS is the name used by the buyer."
+          ],
+          "references": [
+            {
+              "title": "AMCS Group: Quentic acquisition by AMCS completed",
+              "url": "https://www.amcsgroup.com/resources/press-releases/quentic-acquisition-by-amcs-completed/"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 951,
+        "end": 957,
+        "heading": "AreTheyHappy / Black Box Intelligence",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed reported. 2022-05-10 (release dateline completion by).",
+            "Release says it had acquired the company. Web page header is May 9 but release dateline is May 10; exact closing date not supplied."
+          ],
+          "references": [
+            {
+              "title": "Black Box Intelligence: Black Box Intelligence Announces Acquisition of AreTheyHappy",
+              "url": "https://blackboxintelligence.com/blog/black-box-intelligence-announces-acquisition-of-aretheyhappy/"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 957,
+        "end": 963,
+        "heading": "Back / Personio",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed reported. 2022-05-24 (release date completion by).",
+            "Buyer says it has acquired Back; exact legal closing date not distinguished."
+          ],
+          "references": [
+            {
+              "title": "Personio: Personio acquires employee experience solution Back to drive productivity for customers",
+              "url": "https://www.personio.com/about-personio/press/personio-acquires-back-berlin-barcelona/"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 963,
+        "end": 969,
+        "heading": "Okarito / Swile",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed. 2022-03-01 (completion date in issuer accounts).",
+            "Swile 2022 accounts state 100% acquisition finalised March 1, earlier than May reporting. Primary issuer accounts are mirrored by Pappers; headline press announcement not located."
+          ],
+          "references": [
+            {
+              "title": "Swile (2022 statutory accounts; Pappers mirror): Informations au titre des événements significatifs et faits caractéristiques de l’exercice: acquisition de la société OKARITO",
+              "url": "https://www.pappers.fr/entreprise/swile-824012173/comptes/SWILE%20-%20Comptes%20sociaux%202022%2007-08-2023.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 969,
+        "end": 975,
+        "heading": "Futrli / Sage Group",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed. 2022-05-12 (completion date).",
+            "Buyer explicitly reports completed acquisition."
+          ],
+          "references": [
+            {
+              "title": "Sage: Sage announces the acquisition of Futrli",
+              "url": "https://www.sage.com/investors/investor-downloads/press-releases/2022/05/sage-announces-the-acquisition-of-futrli/"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 975,
+        "end": 981,
+        "heading": "Formulate / RELEX Solutions",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed reported. 2022-05-12 (release date completion by).",
+            "Buyer says it has acquired Formulate; describes promotion planning/analytics more specifically than generic sales management."
+          ],
+          "references": [
+            {
+              "title": "RELEX Solutions: RELEX Solutions Acquires Formulate to Advance Promotional Planning Solutions as Part of Unified Platform",
+              "url": "https://www.relexsolutions.com/news/relex-solutions-acquires-formulate-to-advance-promotional-planning-solutions/"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 981,
+        "end": 987,
+        "heading": "SatisMeter / Productboard",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed reported. 2022-05-26 (release date completion by).",
+            "Source misspells target as Satismaster. Issuer says it has acquired SatisMeter; target security page also confirms acquisition."
+          ],
+          "references": [
+            {
+              "title": "Productboard (issuer release via PRNewswire): Productboard Acquires SatisMeter; Empowering Organizations to Deliver Amazing Digital Experiences that Capture the Voice of the Customer",
+              "url": "https://www.prnewswire.com/news-releases/productboard-acquires-satismeter-empowering-organizations-to-deliver-amazing-digital-experiences-that-capture-the-voice-of-the-customer-301555349.html"
+            },
+            {
+              "title": "SatisMeter: Security",
+              "url": "https://www.satismeter.com/security/"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 987,
+        "end": 993,
+        "heading": "Scortex / TRIGO Group",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed reported. 2022-05-06 (release date completion by).",
+            "Buyer says it has acquired Scortex and integration has begun; exact closing date not separated."
+          ],
+          "references": [
+            {
+              "title": "TRIGO Group: TRIGO Group has acquired the industrial start-up SCORTEX",
+              "url": "https://www.trigo-group.com/trigo-group-has-acquired-the-industrial-start-up-scortex/"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 993,
+        "end": 998,
+        "heading": "Side / Randstad France / Randstad Group",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed. 2022-05-16 (completion date in france release).",
+            "Original lists Randstad Innovation Fund. Official buyer is Randstad France. France closing release says May 16; group annual report lists acquisition date May 12. Retain this date discrepancy rather than harmonising silently."
+          ],
+          "references": [
+            {
+              "title": "Groupe Randstad France: Le Groupe Randstad France finalise l’acquisition de la société Side",
+              "url": "https://www.grouperandstad.fr/wp-content/uploads/2022/05/22.05.16-le-groupe-randstad-france-finalise-lacquisition-de-la-societe-side.pdf"
+            },
+            {
+              "title": "Randstad: Annual report 2022, note 11.1",
+              "url": "https://www.randstad.com/s3fs-media/rscom/public/2023-02/Randstad_Annual_Report_2022.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 998,
+        "end": 1004,
+        "heading": "Cajoo / Flink",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Announced acquisition. 2022-05-16 (announcement date).",
+            "Joint company release describes integration to begin and future rebranding. Separate completion date not established by this release."
+          ],
+          "references": [
+            {
+              "title": "Flink / Carrefour / Cajoo: Flink acquires French Q-commerce pioneer Cajoo and partners with Carrefour",
+              "url": "https://www.carrefour.com/sites/default/files/2022-05/Press%20Release%20-%20Flink%20acquires%20French%20Q-commerce%20pioneer%20Cajoo%20and%20partners%20with%20Carrefour_0.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 1004,
+        "end": 1010,
+        "heading": "Trouva / Made.com Group",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed reported. 2022 (completion year from seller report).",
+            "May 9 issuer RNS announces acquisition; seller investor interim report subsequently says Trouva was acquired by Made.com. Exact closing date not established. Historical ownership only; no current-owner claim."
+          ],
+          "references": [
+            {
+              "title": "Octopus Titan / Octopus Investments (selling investor): Interim management report: Portfolio Manager’s review",
+              "url": "https://octopusinvestments.com/wp-content/uploads/sites/21/2022/09/Octopus-Titan-interim-report-retail-EXC00504-2209.pdf"
+            },
+            {
+              "title": "Made.com Group (RNS via London South East): Acquisition, RNS 6938K, 9 May 2022",
+              "url": "https://www.lse.co.uk/rns/MADE/acquisition-5ispeg2053747a2.html"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 1010,
+        "end": 1016,
+        "heading": "Tripadee / Cool Camping / Hipcamp",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed reported. 2022-05-11 (release date completion by).",
+            "Issuer release explicitly describes 100% acquired and renaming to Hipcamp UK Ltd; do not double-count Cool Camping as a separate acquisition."
+          ],
+          "references": [
+            {
+              "title": "Hipcamp (Business Wire issuer release, syndicated by Wedbush): Jay-Z Backed Hipcamp Launches in UK, Acquires Cool Camping",
+              "url": "https://investor.wedbush.com/wedbush/article/bizwire-2022-5-11-jay-z-backed-hipcamp-launches-in-uk-acquires-cool-camping"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 1016,
+        "end": 1022,
+        "heading": "Tricount / bunq",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed reported. 2022-05 (completion month retrospective).",
+            "May 3 release explicitly says pending regulatory approval. Later founders message confirms joining bunq in May 2022; current target terms confirm bunq ownership. Exact closing day unresolved (different annual-report versions use May 3/4). Forecast of cross-selling is not a verified transaction fact."
+          ],
+          "references": [
+            {
+              "title": "bunq / Tricount founders: A Message From tricount’s Founders",
+              "url": "https://www.bunq.com/blog/a-message-from-tricount-s-founders"
+            },
+            {
+              "title": "bunq: bunq becomes second biggest neobank in EU (pending approval footnote)",
+              "url": "https://press.bunq.com/releases/213869-bunq-becomes-second-biggest-neobank-in-eu"
+            },
+            {
+              "title": "Tricount / bunq: Terms and conditions",
+              "url": "https://www.tricount.com/documents/terms-conditions"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 1022,
+        "end": 1028,
+        "heading": "finAPI / Yapily (proposed; not verified completed)",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Not verified as completed different buyer later. 2025-06-18 (later buyer release date completion by).",
+            "Do not publish acquired by Yapily as completed. Bounded search did not recover primary Yapily termination notice. Later buyer Fabrick explicitly completed purchase of SCHUFA’s 75% on June 18, 2025. This primary evidence establishes later ownership, not precise Yapily cancellation date or reason."
+          ],
+          "references": [
+            {
+              "title": "finAPI / Fabrick: Fabrick completes acquisition of finAPI",
+              "url": "https://www.finapi.io/en/fabrick-acquires-finapi/"
+            },
+            {
+              "title": "Fabrick: Fabrick finalizza l’acquisizione di finAPI",
+              "url": "https://www.fabrick.com/it-it/media-hub/comunicati-stampa/"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 1028,
+        "end": 1034,
+        "heading": "Profitero / Publicis Groupe",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed. 2022-04 (acquisition month in financial statements).",
+            "May 3 announcement headline says to acquire, but half-year issuer accounts record 100% acquisition in April. Do not substitute announcement date for acquisition month."
+          ],
+          "references": [
+            {
+              "title": "Publicis Groupe: Condensed half-year consolidated financial statements ended June 30, 2022, Note 3",
+              "url": "https://www.publicisgroupe.com/sites/default/files/investors-document/2022-07/22_07_28_PBS_RFS_2022_EN_MEL.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 1034,
+        "end": 1040,
+        "heading": "Ubble / Checkout.com",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed reported. 2022 (completion year retrospective).",
+            "May 12 release only intended acquisition, pending regulatory approval. Buyer year-end retrospective explicitly confirms completion in 2022; exact close day not established."
+          ],
+          "references": [
+            {
+              "title": "Checkout.com: 2022 reflections: Navigating change and thriving together",
+              "url": "https://www.checkout.com/blog/2022-reflections-navigating-change-and-thriving-together"
+            },
+            {
+              "title": "Checkout.com: Checkout.com to acquire ubble to increase trust and safety in the digital economy",
+              "url": "https://www.checkout.com/newsroom/checkout-com-to-acquire-ubble-to-increase-trust-and-safety-in-the-digital-economy"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 1040,
+        "end": 1046,
+        "heading": "BehavioSec / LexisNexis Risk Solutions (RELX)",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed reported. 2022-05-04 (seller report date completion by).",
+            "Selling investor states target has been acquired. Refine generic LexisNexis to Risk Solutions; exact close day not separated."
+          ],
+          "references": [
+            {
+              "title": "Octopus Titan VCT plc (issuer release via GlobeNewswire): Disposal of stake in Behaviosec Inc",
+              "url": "https://www.globenewswire.com/news-release/2022/05/04/2435981/0/en/Disposal-of-stake-in-Behaviosec-Inc.html"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 1046,
+        "end": 1052,
+        "heading": "Hdiv Security / Datadog",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed reported. 2022 (acquisition year retrospective).",
+            "May 5 release is definitive agreement only. Datadog October investor presentation lists Hdiv among 2022 acquisitions; exact closing day not established."
+          ],
+          "references": [
+            {
+              "title": "Datadog: Investor Meeting October 2022: Accelerating organic investment with acquisitions, slide 15",
+              "url": "https://investors.datadoghq.com/static-files/a57dd3e2-847b-4a16-b867-69d484a37628"
+            },
+            {
+              "title": "Datadog: Datadog Signs Definitive Agreement to Acquire Hdiv Security",
+              "url": "https://investors.datadoghq.com/news-releases/news-release-details/datadog-signs-definitive-agreement-acquire-hdiv-security"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 1052,
+        "end": 1058,
+        "heading": "Excellium Services / Thales (via Maxive / alongside S21sec)",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed. 2022-10 (acquisition month in accounts).",
+            "May announcement preceded completion. Company accounts record October acquisition of S21sec and Excellium, consolidated from October 1. Do not turn consolidation date into closing day."
+          ],
+          "references": [
+            {
+              "title": "Thales: Consolidated financial statements at 31 December 2023",
+              "url": "https://www.thalesgroup.com/sites/default/files/investor/documents/Thales_-_Consolidated_financial_statements_at_31_December_2023_0_1.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 1058,
+        "end": 1063,
+        "heading": "Groendus / APG (on behalf of ABP) and OMERS Infrastructure",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed reported. 2022 (completion year retrospective).",
+            "May 18 release was agreement subject to approvals; OMERS 2023 retrospective explicitly says acquired in 2022. APG is pension provider/manager, not itself the pension fund client ABP."
+          ],
+          "references": [
+            {
+              "title": "OMERS Infrastructure: OMERS wins M&A Deal of the Year for Groendus investment",
+              "url": "https://www.omersinfrastructure.com/news/omers-wins-m-and-a-deal-of-the-year-for-groendus-investment"
+            },
+            {
+              "title": "OMERS: OMERS Infrastructure and APG to Acquire Groendus",
+              "url": "https://www.omers.com/news/omers-infrastructure-and-apg-to-acquire-groendus"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 1063,
+        "end": 1069,
+        "heading": "Clicars / Aramis Group",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed remaining stake purchase. 2022-05 (completion month target history).",
+            "Clicars history records sale closing in May. Buyer first-half release explains this is the remaining minority interest after prior control and full consolidation, not an entirely new 100% acquisition from no ownership."
+          ],
+          "references": [
+            {
+              "title": "Clicars: Sobre Nosotros: 2022 company milestones",
+              "url": "https://www.clicars.com/sobre-nosotros"
+            },
+            {
+              "title": "Aramis Group: 2022 first-half results, governance changes at Clicars",
+              "url": "https://aramis.group/wp-content/uploads/2025/05/press-release-aramis-group-2022-first-half-results.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 1069,
+        "end": 1075,
+        "heading": "Reby / House of Lithium",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Not completed as claimed contested closing. 2023-06-30 (court decision date).",
+            "Court found valid agreements but closing conditions unsatisfied and buyer not obliged to complete. Some shares had been accepted; preserve that nuance rather than claim no investment ever occurred. Original buyer description as California ebike company is unsupported; court describes private-equity buyer."
+          ],
+          "references": [
+            {
+              "title": "Delaware Court of Chancery: Restanca, LLC and Reby, Inc. v. House of Lithium, Ltd., C.A. 2022-0690-PAF",
+              "url": "https://courts.delaware.gov/Opinions/Download.aspx?id=349370"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 1075,
+        "end": 1081,
+        "heading": "Share Now / Free2move (Stellantis)",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed. 2022-07-18 (completion date).",
+            "Refine acquirer to Stellantis subsidiary Free2move. Share Now combined car2go and DriveNow; formerly Car2go alone is incomplete lineage."
+          ],
+          "references": [
+            {
+              "title": "Stellantis / Free2move: Free2move Becomes a World Leader in Mobility with Acquisition of Share Now",
+              "url": "https://www.stellantis.com/en/news/press-releases/2022/july/free2move-becomes-a-world-leader-in-mobility-with-acquisition-of-share-now"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 1081,
+        "end": 1087,
+        "heading": "Myrmex / Ocado Group",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed. 2022-06-06 (completion date in issuer report).",
+            "May 23 target release was proposed deal. Ocado half-year issuer report says June 6 completion, increasing prior 12.2% stake to wholly owned. US-incorporated company with Greek R&D; Greek location should not imply Greek legal incorporation."
+          ],
+          "references": [
+            {
+              "title": "Ocado Group (RNS via Investegate): Half-year report 2022: Post-balance-sheet events",
+              "url": "https://www.investegate.co.uk/announcement/rns/ocado-group--ocdo/half-year-report/7083019"
+            },
+            {
+              "title": "Myrmex / Ocado: Ocado Group acquires robotics start-up Myrmex Inc. (proposed)",
+              "url": "https://www.myrmex-inc.com/blog/19"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 1087,
+        "end": 1093,
+        "heading": "Metaliquid / BeMyEye",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Announced acquisition. 2022-05-19 (announcement date).",
+            "Issuer describes acquisition and integrated capabilities, but no separately verified legal closing date."
+          ],
+          "references": [
+            {
+              "title": "BeMyEye (issuer release via PRNewswire): BeMyEye acquires Computer Vision specialist Metaliquid",
+              "url": "https://www.prnewswire.com/news-releases/bemyeye-acquires-computer-vision-company-metaliquid-301550500.html"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 1093,
+        "end": 1099,
+        "heading": "ProGlove / Nordic Capital X",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed majority stake. 2022-06-15 (completion report date).",
+            "Majority ownership only; founders and management retained minority. Initial May 4 agreement was not closing."
+          ],
+          "references": [
+            {
+              "title": "Nordic Capital: Transaction closed: Nordic Capital is the new majority owner of IoT and wearable disruptor ProGlove",
+              "url": "https://www.nordiccapital.com/insights/press-releases/transaction-closed-nordic-capital-is-the-new-majority-owner-of-iot-and-wearable-disruptor-proglove/"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 1099,
+        "end": 1105,
+        "heading": "iFollow / stow Robotics / stow Group",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Announced majority stake acquisition. 2022-08-24 (target release date).",
+            "Target-hosted release identifies stow Robotics majority stake, not Stow Deutschland full acquisition. An earlier May 24 target-hosted article describes management retaining control; timing/control descriptions differ and exact closing date remains unverified."
+          ],
+          "references": [
+            {
+              "title": "iFollow / stow Robotics: Stow Robotics announces the acquisition of a majority stake in iFollow",
+              "url": "https://www.ifollow.fr/stow-robotics-announces-the-acquisition-of-a-majority-stake-in-ifollow/"
+            },
+            {
+              "title": "iFollow: M&A : Stow rentre au capital d’iFollow",
+              "url": "https://www.ifollow.fr/ma-stow-rentre-au-capital-difollow/"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 1105,
+        "end": 1111,
+        "heading": "PlusDental / Straumann Group",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Completed reported. 2022 (completion year annual report).",
+            "May 20 release signed agreement subject to approval; annual report confirms summer acquisition. Use group acquirer unless specific legal purchasing entity independently sourced. Swiss parent and German entity should not be conflated."
+          ],
+          "references": [
+            {
+              "title": "Straumann Group: Straumann Group Annual Report 2022",
+              "url": "https://www.straumann.com/group/en/discover/annualreport/2022.html"
+            },
+            {
+              "title": "Straumann Group: Straumann Group to acquire PlusDental",
+              "url": "https://www.straumann.com/dam/data/media-release/en/2022/75663055-82d4-47ea-a7e7-ca8581e54c69/Straumann_Group_Media_Release_PlusDental.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 1111,
+        "end": 1117,
+        "heading": "Wavy / Treatwell",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Acquisition reported by transaction adviser. 2022-05-16 (adviser report date).",
+            "Sell-side adviser confirms sale; exact legal close day not separately established. Treatwell support later says Wavy service shuts down September 1, 2026; historical acquisition does not establish current product availability."
+          ],
+          "references": [
+            {
+              "title": "Clipperton (sell-side adviser): Wavy is acquired by Treatwell",
+              "url": "https://www.clipperton.com/transactions/wavy-is-acquired-by-treatwell"
+            },
+            {
+              "title": "Treatwell: FAQ: Moving from Wavy to Treatwell Expert",
+              "url": "https://support-expert.treatwell.com/en/articles/15128795-faq-moving-from-wavy-to-treatwell-expert"
+            }
+          ]
+        }
+      }
+    ],
+    "notes": [
+      "Some cases remain announcement-only or adviser-reported. Reby has a contested closing record; the supplied Yapily/finAPI deal is not verified as completed and later buyer evidence differs. Company descriptions, headquarters, valuations and superlatives are not comprehensively reverified."
+    ],
+    "related": [
+      "ma-deal-structures",
+      "ma-process-team"
+    ],
+    "references": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "ma-control-glossary",
+    "title": "M&A glossary: control, valuation and transaction language",
+    "summary": "Read the supplied transaction vocabulary alongside corrections to the most consequential definitions.",
+    "group": "Cases and reference",
+    "collection": "mergers-acquisitions-integration",
+    "topic": "Finance & Accounting",
+    "takeaway": "Read the supplied transaction vocabulary alongside corrections to the most consequential definitions.",
+    "steps": [],
+    "ranges": [
+      {
+        "document": "Mergers and Acquisitions (M&A).docx",
+        "start": 1117,
+        "end": 1222,
+        "heading": "Transaction terms and their limits",
+        "definitions": [
+          {
+            "index": 1118,
+            "explanation": "An increase in a stated per-share measure, commonly EPS, versus a defined standalone scenario. Financing, timing and accounting assumptions matter; improvement does not prove value creation."
+          },
+          {
+            "index": 1120,
+            "explanation": "The buyer of shares, assets or a business interest in a transaction."
+          },
+          {
+            "index": 1122,
+            "explanation": "Purchase of assets, shares or an ownership interest. Acquiring control is one case; minority acquisitions also exist. Continued legal existence depends on the actual structure."
+          },
+          {
+            "index": 1124,
+            "explanation": "A combination into a newly formed entity under the applicable legal process. The precise treatment of predecessor entities depends on local law and the transaction."
+          },
+          {
+            "index": 1126,
+            "explanation": "A contractual adjustment to conversion economics following specified issuances, often at a lower price, subject to the instrument’s formula and exclusions. This differs from a right to invest pro rata."
+          },
+          {
+            "index": 1128,
+            "explanation": "Purchase of specified assets and agreed liabilities rather than shares, subject to the agreement and law. The seller does not automatically dissolve."
+          },
+          {
+            "index": 1130,
+            "explanation": "Expansion into upstream supply activities, for example acquiring an input producer. Supply quality, resilience and price are possible motives, not assured outcomes."
+          },
+          {
+            "index": 1132,
+            "explanation": "An EPS increase that can arise arithmetically from an all-stock combination with a lower-P/E target. Such accretion alone establishes neither synergy nor economic value creation."
+          },
+          {
+            "index": 1134,
+            "explanation": "The cash portion of transaction consideration. Its source can include buyer cash, new debt or other financing."
+          },
+          {
+            "index": 1136,
+            "explanation": "A potential conflict where increasing corporate size improves management’s compensation or benchmark position without corresponding shareholder value."
+          },
+          {
+            "index": 1138,
+            "explanation": "A corporate group or combination spanning substantially different businesses; the degree of relatedness is a strategic judgement."
+          },
+          {
+            "index": 1140,
+            "explanation": "Fees incurred to arrange or issue debt, such as underwriting and arrangement fees. Cash timing and accounting treatment should be stated separately."
+          },
+          {
+            "index": 1142,
+            "explanation": "The negotiated transaction contract, read with its conditions, schedules and related agreements. The exact enforceable obligations depend on its terms and governing law."
+          },
+          {
+            "index": 1144,
+            "explanation": "A decrease in a stated per-share measure, commonly EPS, versus a defined standalone scenario. Ownership dilution is a separate concept and should be labelled explicitly."
+          },
+          {
+            "index": 1146,
+            "explanation": "Contingent transaction consideration linked to specified post-close performance or events. Definitions, measurement, control and dispute provisions matter."
+          },
+          {
+            "index": 1148,
+            "explanation": "Lower average cost as output or scale increases; spreading fixed costs is one mechanism. A merger does not guarantee the saving."
+          },
+          {
+            "index": 1150,
+            "explanation": "Cost or capability advantages from sharing resources across different products or activities. Access to specialized skills can support this but is not the entire definition."
+          },
+          {
+            "index": 1152,
+            "explanation": "Expansion driven primarily by management’s desire for size, influence or prestige rather than justified economic returns."
+          },
+          {
+            "index": 1154,
+            "explanation": "Fees to arrange or issue equity, including underwriting fees. State whether the model treats them as cash uses and how it presents them."
+          },
+          {
+            "index": 1156,
+            "explanation": "Purchase price above a specified book-equity or net-book-asset reference. It is not automatically goodwill: fair-value adjustments and other acquisition-accounting components intervene."
+          },
+          {
+            "index": 1158,
+            "explanation": "Adjustments from carrying amounts to the relevant fair-value measurements for acquired assets and assumed liabilities, under the chosen accounting framework."
+          },
+          {
+            "index": 1160,
+            "explanation": "A bid supported by the target board. Shareholder, regulatory and contractual approvals may still be needed."
+          },
+          {
+            "index": 1162,
+            "explanation": "Expansion into downstream distribution, retail or other activities closer to the final customer."
+          },
+          {
+            "index": 1164,
+            "explanation": "A share-count convention including specified dilutive instruments under a stated method. Potential dilution, treasury-stock equivalence and actual exercised shares are different calculations."
+          },
+          {
+            "index": 1166,
+            "explanation": "The residual in the applicable acquisition-accounting calculation after consideration and relevant additional components are compared with recognized net identifiable assets. Simplified price-minus-book-equity is not sufficient."
+          },
+          {
+            "index": 1168,
+            "explanation": "Combination with a business operating at a similar stage in overlapping or related markets, often motivated by scale, coverage or competition."
+          },
+          {
+            "index": 1170,
+            "explanation": "A bid opposed by the target board. A share purchase is not hostile merely because it transfers shares."
+          },
+          {
+            "index": 1172,
+            "explanation": "Assets recognized separately under the chosen acquisition-accounting criteria; they can include tangible and identifiable intangible assets. Fair value alone is not the only recognition criterion."
+          },
+          {
+            "index": 1174,
+            "explanation": "An estimate of economic value from a stated model and assumptions, often using discounted cash flows. It is not directly observable or uniquely determined."
+          },
+          {
+            "index": 1176,
+            "explanation": "A preliminary record of proposed transaction terms and process. Some provisions or negotiation duties may bind even where completion remains uncommitted; language and law control."
+          },
+          {
+            "index": 1178,
+            "explanation": "A statutory combination under applicable law in which one entity may survive and another cease separate legal existence. It is not synonymous with every asset or share acquisition."
+          },
+          {
+            "index": 1180,
+            "explanation": "The carrying amount of assets less liabilities under the stated accounting basis, often called net book assets or book equity."
+          },
+          {
+            "index": 1182,
+            "explanation": "An agreement defining confidential information and permitted disclosure/use, with its own exceptions, duration and remedies. Its effects follow the actual terms and law."
+          },
+          {
+            "index": 1184,
+            "explanation": "The proposed price under a defined offer basis; in a share offer, commonly the price per target share. Specify currency, share class and adjustment mechanics."
+          },
+          {
+            "index": 1186,
+            "explanation": "Other transaction cash costs such as legal, accounting, diligence and advisory fees. Avoid double counting fees already included elsewhere in sources and uses."
+          },
+          {
+            "index": 1188,
+            "explanation": "The modeled post-transaction share count under a specified dilution convention. Weighted-average shares for period EPS can differ from end-of-period ownership shares."
+          },
+          {
+            "index": 1190,
+            "explanation": "The acquisition-accounting allocation to recognized assets, liabilities and any residual goodwill under the applicable framework. NCI, previously held stakes and deferred taxes may affect the bridge."
+          },
+          {
+            "index": 1192,
+            "explanation": "Costs associated with a defined restructuring, potentially including workforce, facilities and contract changes. Early debt repayment costs are only one possible category."
+          },
+          {
+            "index": 1194,
+            "explanation": "Incremental revenue from specified initiatives such as cross-selling, pricing or distribution. Value depends on contribution margins, costs, timing and realization."
+          },
+          {
+            "index": 1196,
+            "explanation": "Recalculation of outputs while changing specified assumptions, to reveal model exposure. A sensitivity grid should use formulas rather than copied constants."
+          },
+          {
+            "index": 1198,
+            "explanation": "Buyer shares delivered per target share. For mixed consideration, divide the stock-value component per target share by the stated buyer issue price; total offer price applies only to an all-stock basis."
+          },
+          {
+            "index": 1200,
+            "explanation": "A stated discount to a reference buyer share price for calculating issued shares. Specify the reference date, contractual mechanism and which holders bear the dilution."
+          },
+          {
+            "index": 1202,
+            "explanation": "Purchase of shares or an interest in the target. Ownership and control depend on the stake and rights; the legal entity generally retains its own assets and obligations, subject to structure and law."
+          },
+          {
+            "index": 1204,
+            "explanation": "The portion of consideration delivered as buyer shares or another specified equity security."
+          },
+          {
+            "index": 1206,
+            "explanation": "An entity controlled by another entity under the relevant legal or accounting definition. Preserving a brand is a business choice, not the definition of subsidiary."
+          },
+          {
+            "index": 1208,
+            "explanation": "Incremental benefits expected from combining businesses, such as cost savings or revenue contribution. Assess execution costs, timing, risk and the price paid."
+          },
+          {
+            "index": 1210,
+            "explanation": "The percentage by which an offer exceeds a stated unaffected/reference price, using consistent currency and per-share bases. A chosen VWAP window is one possible reference, not a universal one."
+          },
+          {
+            "index": 1212,
+            "explanation": "The business or ownership interest being acquired. Its shareholders or asset-owning entity may be the sellers depending on the structure."
+          },
+          {
+            "index": 1214,
+            "explanation": "The schedule over which an identified benefit is expected to be realized, often with a ramp and one-off implementation costs."
+          },
+          {
+            "index": 1216,
+            "explanation": "The date the transaction actually completes; a projected closing date should be labelled expected and can change. Announcement is a different event."
+          },
+          {
+            "index": 1218,
+            "explanation": "Combination across supply-chain stages, including upstream/backward or downstream/forward integration."
+          },
+          {
+            "index": 1220,
+            "explanation": "Volume-weighted average price: sum of eligible trade price times trade volume divided by total eligible volume in a defined window. Daily-close or bar typical-price weighting is a proxy when individual trade data is absent."
+          }
+        ]
+      }
+    ],
+    "notes": [],
+    "related": [
+      "ma-deal-structures",
+      "ma-financing-models",
+      "ma-agreements-terms"
+    ],
+    "references": [
+      {
+        "title": "Delaware corporate statute: asset sales, mergers and dissolution have separate provisions",
+        "url": "https://delcode.delaware.gov/title8/c001/sc10/index.html"
+      },
+      {
+        "title": "Delaware Superior Court: GreenTech v. Hilco (2022)",
+        "url": "https://courts.delaware.gov/Opinions/Download.aspx?id=332770"
+      },
+      {
+        "title": "NYU Stern: valuation teaching and spreadsheets",
+        "url": "https://pages.stern.nyu.edu/~adamodar/"
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "Use the right calculation",
+        "paragraphs": [
+          "EPS, ownership dilution, offer premium, exchange ratio and VWAP each have their own denominator and time basis. The linked tools label those assumptions and retain complete calculation tables."
+        ],
+        "resources": [
+          {
+            "label": "Acquisition impact",
+            "href": "/calculators/corporate-finance/acquisition-impact/"
+          },
+          {
+            "label": "VWAP and volume analysis",
+            "href": "/calculators/markets/vwap-volume/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "post-merger-integration-planning",
+    "title": "Post-merger integration: strategy, delivery and review",
+    "summary": "Turn the supplied outline into a working integration plan with owners, measurements, culture and communication.",
+    "group": "Integration and culture",
+    "collection": "mergers-acquisitions-integration",
+    "topic": "Finance & Accounting",
+    "takeaway": "Turn the supplied outline into a working integration plan with owners, measurements, culture and communication.",
+    "steps": [
+      "Align acquisition and corporate strategy",
+      "Define value and integration targets",
+      "Assign workstreams and resources",
+      "Plan milestones and reviews",
+      "Retain people and manage uncertainty",
+      "Track delivery and revise assumptions"
+    ],
+    "ranges": [
+      {
+        "document": "Post-Merger Integration Plan.docx",
+        "start": 0,
+        "end": 39,
+        "heading": "Plan control, approvals and source outline"
+      },
+      {
+        "document": "Post-Merger Integration Plan.docx",
+        "start": 39,
+        "end": 64,
+        "heading": "Integration workstreams and execution review"
+      },
+      {
+        "document": "Post-Merger Integration Plan.docx",
+        "start": 64,
+        "end": 66,
+        "heading": "Template attribution and disclaimer"
+      }
+    ],
+    "notes": [
+      "The source is largely a blank planning outline, not a completed integration plan. Its Smartsheet attribution and disclaimer are retained. No organization-specific decisions have been invented."
+    ],
+    "related": [
+      "ma-synergies-value",
+      "ma-process-team",
+      "organizational-culture"
+    ],
+    "references": [],
+    "editorialSections": [
+      {
+        "heading": "Make objectives measurable without mixing units",
+        "paragraphs": [
+          "The scorecard keeps 100-day and year-one targets separate, actuals blank until reported, and each objective’s unit and direction explicit. Monetary savings, inventory release, FTE, retention, market-share changes, milestones, governance and communication ratings are distinct measures.",
+          "The source’s unexplained headcount values and literal status labels are not treated as validated formulas. Culture mapping retains all 46 dimensions across 11 groups and asks for evidence; it does not assign a universal good-culture score."
+        ],
+        "resources": [
+          {
+            "label": "Integration planner and scorecard",
+            "href": "/calculators/corporate-finance/integration-planner/"
+          },
+          {
+            "label": "Culture comparison",
+            "href": "/calculators/corporate-finance/culture-comparison/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ipo-readiness-pathway",
+    "title": "IPO readiness: purpose, participants and listing pathways",
+    "summary": "Separate the reasons for listing from exchange-specific admission tests and the private funding that may precede it.",
+    "group": "Capital and public markets",
+    "collection": "valuation-transactions",
+    "topic": "Finance & Accounting",
+    "takeaway": "Separate the reasons for listing from exchange-specific admission tests and the private funding that may precede it.",
+    "steps": [],
+    "ranges": [
+      {
+        "document": "Initial Public Offering (IPO).docx",
+        "start": 0,
+        "end": 33,
+        "heading": "Benefits, trade-offs, participants and test labels",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "An IPO can raise capital and create a public market for existing holders, but it does not guarantee a higher share price, stronger credit rating or improved public confidence. Costs, disclosure, governance obligations and market risk must be considered together.",
+            "The source lists profit, asset, market-capitalization and forecast-profit tests without an exchange or dated rule set. These are research prompts, not universal IPO requirements. Nasdaq has distinct market tiers and financial, liquidity and governance standards; use its current official guide for the actual market and security.",
+            "Lead managers, underwriters, auditors, lawyers and investor relations perform different tasks. A listing readiness assessment also needs reliable reporting, controls, governance and a credible investor proposition."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Initial Public Offering (IPO).docx",
+        "start": 121,
+        "end": 123,
+        "heading": "Missing Nasdaq source material",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The upload contains only a “Nasdaq Listing” label pointing to a private wiki. The linked content is absent. It is not reproduced or inferred; the official public Nasdaq guide is provided instead."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "notes": [],
+    "related": [
+      "founder-investment-terms",
+      "private-capital-stages",
+      "saas-scaling-scenarios"
+    ],
+    "references": [
+      {
+        "title": "Nasdaq: initial listing guide and market-specific requirements",
+        "url": "https://listingcenter.nasdaq.com/assets/initialguide.pdf"
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "founder-investment-terms",
+    "title": "Founder investment terms",
+    "summary": "Understand the economics and control provisions in a preferred equity term sheet.",
+    "group": "Deal foundations",
+    "collection": "mergers-acquisitions-integration",
+    "topic": "Finance & Accounting",
+    "takeaway": "Understand the economics and control provisions in a preferred equity term sheet.",
+    "steps": [],
+    "ranges": [
+      {
+        "document": "Initial Public Offering (IPO).docx",
+        "start": 33,
+        "end": 61,
+        "heading": "Preferred funding: economics and preferences",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "This supplied section describes private preferred-stock financing rather than IPO admission. Pre-money and post-money valuation, issue price, dividends, liquidation preference and conversion rights must be read with the specific security and fully diluted share definition."
+          ],
+          "references": []
+        }
+      },
+      {
+        "document": "Initial Public Offering (IPO).docx",
+        "start": 61,
+        "end": 121,
+        "heading": "Preferred funding: protection, control and transfers",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Anti-dilution adjusts conversion economics under specified down-round terms. A pro-rata participation right instead permits an investor to buy into future issues to maintain ownership; it does not provide the same protection.",
+            "Vesting determines when equity or an award is earned or becomes non-forfeitable. An option exercise is a different event; some agreements permit early exercise of unvested options with repurchase restrictions. The source should not be read as a universal rule prohibiting early exercise.",
+            "Voting, board seats, protective provisions, information rights, pre-emption, drag/tag rights, transfer restrictions, leaver provisions, non-competes and dispute terms depend on the actual instrument and jurisdiction. The source is a negotiation checklist, not a ready-to-sign agreement."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "notes": [],
+    "related": [
+      "ipo-readiness-pathway",
+      "ma-agreements-terms"
+    ],
+    "references": [
+      {
+        "title": "Y Combinator: SAFE documents and user guide",
+        "url": "https://www.ycombinator.com/safe"
+      },
+      {
+        "title": "NVCA: model legal documents",
+        "url": "https://nvca.org/model-legal-documents/"
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "founder-investment-terms"
+  },
+  {
+    "slug": "saas-scaling-scenarios",
+    "title": "SaaS scale: ARR, staffing, profitability and financing",
+    "summary": "Use the supplied nine-year growth example as a scenario to question, not a universal path to a $100 million business.",
+    "group": "Revenue and growth",
+    "collection": "financial-planning-analysis",
+    "topic": "Finance & Accounting",
+    "takeaway": "Use the supplied nine-year growth example as a scenario to question, not a universal path to a $100 million business.",
+    "steps": [],
+    "ranges": [
+      {
+        "document": "Examples & Benchmark.docx",
+        "start": 0,
+        "end": 136,
+        "heading": "The original nine-year operating and financial scenario"
+      },
+      {
+        "document": "Examples & Benchmark.docx",
+        "start": 136,
+        "end": 152,
+        "heading": "Growth variables and scale milestones",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "The source’s valuation multiples, employee productivity target and “hot and cheap” / IPO milestones lack a defined market date, sample and eligibility context. They are illustrative source assertions, not operating requirements or predictions.",
+            "The supplied year-seven figures of $144 million ARR/revenue proxy and −$86.4 million EBITDA imply −60%, not the displayed −42%. Later percentage cells are shifted and the final margin is blank. Preserve the original table while recalculating every scenario from explicit assumptions.",
+            "ARR is a recurring-revenue run rate, not recognized annual revenue or cash flow. The calculator labels its average/end-ARR revenue proxy and separates EBITDA and FCF margins. Growth plus FCF margin is the Bessemer comparison convention cited here; a chosen comparison target is not an IPO test."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "notes": [],
+    "related": [
+      "arr-growth-practice",
+      "private-capital-stages",
+      "ipo-readiness-pathway"
+    ],
+    "references": [
+      {
+        "title": "Bessemer: vertical software investing and growth plus FCF margin",
+        "url": "https://www.bvp.com/assets/uploads/2022/07/bessemer_whitepaper_ten_lessons_vertical_software_investing_v2.pdf"
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "Explore growth, retention and funding",
+        "paragraphs": [
+          "Forecast either direct growth or retention/expansion/contraction/churn/new business. Compare customers, ARPA, staffing productivity, cash needs and common-equity financing dilution. Preferred rights and option pools need the separate investment-term analysis."
+        ],
+        "resources": [
+          {
+            "label": "SaaS scale and financing planner",
+            "href": "/calculators/corporate-finance/saas-scale/"
+          }
+        ]
+      }
+    ],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Reconcile the supplied EBITDA margins",
+        "headers": [
+          "Example year",
+          "Revenue proxy M",
+          "EBITDA M",
+          "Source margin label",
+          "Recalculated EBITDA / revenue"
+        ],
+        "rows": [
+          [
+            "1",
+            "0",
+            "0",
+            "0%",
+            "Undefined at zero revenue"
+          ],
+          [
+            "2",
+            "2",
+            "0",
+            "0%",
+            "0.00%"
+          ],
+          [
+            "3",
+            "6",
+            "-9.6",
+            "−160%",
+            "-160.00%"
+          ],
+          [
+            "4",
+            "18",
+            "-28.8",
+            "−160%",
+            "-160.00%"
+          ],
+          [
+            "5",
+            "36",
+            "-21.6",
+            "−60%",
+            "-60.00%"
+          ],
+          [
+            "6",
+            "72",
+            "-43.2",
+            "−60%",
+            "-60.00%"
+          ],
+          [
+            "7",
+            "144",
+            "-86.4",
+            "−42%",
+            "-60.00%"
+          ],
+          [
+            "8",
+            "262",
+            "-110",
+            "−27%",
+            "-41.98%"
+          ],
+          [
+            "9",
+            "438",
+            "-119",
+            "Not supplied",
+            "-27.17%"
+          ]
+        ],
+        "note": "Arithmetic correction only. The table calls its scale ARR/revenue without a revenue-recognition model; figures remain a hypothetical source scenario, not a benchmark."
+      }
+    ]
+  },
+  {
+    "slug": "private-capital-stages",
+    "title": "Private capital stages",
+    "summary": "Compare financing concepts and historical example stage assumptions.",
+    "group": "Deal foundations",
+    "collection": "mergers-acquisitions-integration",
+    "topic": "Finance & Accounting",
+    "takeaway": "Compare financing concepts and historical example stage assumptions.",
+    "steps": [],
+    "ranges": [
+      {
+        "document": "Examples & Benchmark.docx",
+        "start": 152,
+        "end": 187,
+        "heading": "SAFE and supplied funding-stage examples",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "A SAFE is a contractual right to future equity on specified terms and triggering events. It is not simply a warrant or a promise that a funding round will occur. Consult the particular instrument, valuation cap, discount and capitalization definition.",
+            "The supplied ARR ranges, multiples, funding-stage valuations and elapsed days have incomplete sample/date provenance. They are preserved as an attributed example, not current fundraising norms or a guaranteed progression."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "notes": [],
+    "related": [
+      "saas-scaling-scenarios",
+      "founder-investment-terms"
+    ],
+    "references": [
+      {
+        "title": "Y Combinator: SAFE documents and user guide",
+        "url": "https://www.ycombinator.com/safe"
+      },
+      {
+        "title": "NVCA: model legal documents",
+        "url": "https://nvca.org/model-legal-documents/"
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "private-capital-stages"
+  },
+  {
+    "slug": "family-office-models",
+    "title": "Family-office models: control, services and coordination",
+    "summary": "Compare single-family, multi-family, virtual and embedded arrangements by governance needs and service design.",
+    "group": "Capital providers and structures",
+    "collection": "investing-portfolio-management",
+    "topic": "Finance & Accounting",
+    "takeaway": "Compare single-family, multi-family, virtual and embedded arrangements by governance needs and service design.",
+    "steps": [],
+    "ranges": [
+      {
+        "document": "Investor Type.docx",
+        "start": 0,
+        "end": 44,
+        "heading": "Four operating models and setup questions",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Single-family, multi-family, virtual and embedded describe different organizational arrangements, not universal legal or regulatory categories. A virtual arrangement coordinates outsourced specialists; an embedded function may operate within a family business.",
+            "Compare control, independence, privacy, conflicts, service breadth, staffing and coordination before choosing a structure. The source’s dollar thresholds and annual-cost estimates lack a dated sample and should not be treated as minimum eligibility requirements.",
+            "Setup requires defining objectives, legal structure, governance, roles and service providers in the relevant jurisdiction. The source is a comparison framework, not tax or entity-formation advice."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "notes": [],
+    "related": [
+      "capital-provider-roles",
+      "private-capital-stages"
+    ],
+    "references": [],
+    "editorialSections": [],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Choose a service model by the coordination problem",
+        "headers": [
+          "Model",
+          "Control and delivery",
+          "Main trade-off"
+        ],
+        "rows": [
+          [
+            "Single-family",
+            "Dedicated governance and services for one family",
+            "Control and tailoring require sufficient staffing and oversight"
+          ],
+          [
+            "Multi-family",
+            "Shared specialist capabilities across families",
+            "Economies of shared provision need clear conflict and privacy arrangements"
+          ],
+          [
+            "Virtual",
+            "Coordinate an outsourced network of specialists",
+            "Flexibility depends on strong coordination and information controls"
+          ],
+          [
+            "Embedded",
+            "Use or evolve functions within a family business",
+            "Continuity can blur boundaries between business and family needs"
+          ]
+        ],
+        "note": "Editorial summary of the four supplied models. Asset thresholds and cost claims are not universal eligibility rules."
+      }
+    ]
+  },
+  {
+    "slug": "capital-provider-roles",
+    "title": "Capital providers, fund roles and service intermediaries",
+    "summary": "Separate who supplies capital, who manages it and who supports the transaction.",
+    "group": "Capital providers and structures",
+    "collection": "investing-portfolio-management",
+    "topic": "Finance & Accounting",
+    "takeaway": "Separate who supplies capital, who manages it and who supports the transaction.",
+    "steps": [],
+    "ranges": [
+      {
+        "document": "Investor Type.docx",
+        "start": 44,
+        "end": 74,
+        "heading": "The supplied LP and GP list, reclassified",
+        "review": {
+          "status": "Editorial interpretation and source limits",
+          "date": "2026-11-06",
+          "paragraphs": [
+            "Limited partner is a contractual fund role. It is not a blanket name for everyone in the financing ecosystem. A general partner or investment manager manages a vehicle under its governing documents; an investor can take different roles in different structures.",
+            "Family offices, pension funds, endowments, foundations, sovereign wealth funds, insurers, banks, corporations and individuals may supply capital depending on mandate and eligibility. Brokers, advisers, placement agents, accountants, lawyers, consultants and administrators primarily provide services; they are not LPs solely by being on this list.",
+            "When mapping a specific transaction, label the actual role: equity investor, lender, fund manager, adviser, intermediary, regulator or operating/service provider. Some organizations occupy more than one role; their name alone does not establish a commitment."
+          ],
+          "references": []
+        }
+      }
+    ],
+    "notes": [],
+    "related": [
+      "family-office-models",
+      "private-capital-stages",
+      "ma-process-team"
+    ],
+    "references": [],
+    "editorialSections": [],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Classify the supplied ecosystem by role",
+        "headers": [
+          "Supplied label(s)",
+          "Reader classification",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "High-net-worth individual",
+            "Investor description",
+            "Wealth descriptor; eligibility and actual commitments need separate evidence"
+          ],
+          [
+            "Accredited investors",
+            "Regulatory eligibility status",
+            "Definition and permitted offerings depend on jurisdiction; not a fund role"
+          ],
+          [
+            "Corporation",
+            "Potential corporate investor",
+            "Can invest strategically, lend or provide services in a specific case"
+          ],
+          [
+            "Government / government investment program",
+            "Public capital or support program",
+            "Check mandate, instruments, approvals and eligibility"
+          ],
+          [
+            "Employees / retail investors",
+            "Potential individual investors",
+            "Participation, rights and investor protections depend on the arrangement"
+          ],
+          [
+            "Foundation / university / NGO",
+            "Institutional or mission-led organization",
+            "May invest through a fund or endowment; entity label alone does not establish an LP commitment"
+          ],
+          [
+            "Investment adviser / fund manager",
+            "Advisory or management role",
+            "May advise or manage capital; not automatically the underlying capital owner"
+          ],
+          [
+            "Bank / insurer",
+            "Financial institution",
+            "Can lend, invest, intermediate or hold assets under different mandates"
+          ],
+          [
+            "Venture fund / fund of funds",
+            "Investment vehicle",
+            "A vehicle may invest in companies or other funds; manager and investor roles differ"
+          ],
+          [
+            "Impact fund / intermediaries",
+            "Vehicle or intermediary",
+            "Separate the capital pool from the arranger or support function"
+          ],
+          [
+            "Community development financial institution / development finance institution",
+            "Finance institution or designation",
+            "Can provide financing under specific mandates and legal frameworks"
+          ],
+          [
+            "Sovereign wealth fund / pension fund",
+            "Institutional capital pool",
+            "Specific investment mandates and fund agreements determine participation"
+          ],
+          [
+            "Cooperative / microfinance institution",
+            "Organizational or financing model",
+            "Funding, lending and membership roles depend on the actual structure"
+          ],
+          [
+            "Standards-setting body / consulting firm / capacity-development provider",
+            "Support or standards role",
+            "Provides standards, advice or capabilities; not an LP just because it supports the ecosystem"
+          ],
+          [
+            "Family office",
+            "Family wealth-management arrangement",
+            "Can coordinate services and invest capital; distinguish the office from individual vehicles"
+          ],
+          [
+            "General partner / fund manager",
+            "Governance or management role",
+            "GP and manager may be different legal persons; duties and rights follow governing documents"
+          ]
+        ],
+        "note": "All listed source labels are represented. Roles can overlap; no named organization or investment commitment is inferred."
+      }
+    ]
+  },
+  {
+    "slug": "ma-financing-models",
+    "title": "Acquisition financing: debt capacity, LBOs and recapitalizations",
+    "summary": "Connect operating cash flows to feasible borrowing, equity funding and sponsor returns.",
+    "group": "Valuation and financing",
+    "collection": "mergers-acquisitions-integration",
+    "topic": "Finance & Accounting",
+    "takeaway": "Connect operating cash flows to feasible borrowing, equity funding and sponsor returns.",
+    "steps": [],
+    "ranges": [],
+    "notes": [],
+    "related": [
+      "ma-deal-structures",
+      "corporate-restructuring",
+      "ma-model-source-register"
+    ],
+    "references": [
+      {
+        "title": "NYU Stern: valuation teaching and spreadsheets",
+        "url": "https://pages.stern.nyu.edu/~adamodar/"
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "Debt capacity is constrained by cash and repayment",
+        "paragraphs": [
+          "Forecast revenue, operating margins, taxes, capex, working capital and required cash. Apply opening-debt cash interest, senior amortization and a stated cash sweep. Capacity is solved within the leverage limit, minimum coverage and final repayment constraints, including a downside run.",
+          "The source debt workbook contains a fixed “VBA Output” but no macro. Its opening schedule and selected headline do not consistently use the same result. The public tool solves capacity independently and states its refinancing and interest conventions. The original Alexander D. Jarvis credit is retained in the download."
+        ],
+        "resources": [
+          {
+            "label": "Debt-capacity calculator",
+            "href": "/calculators/corporate-finance/debt-capacity/"
+          }
+        ]
+      },
+      {
+        "heading": "A linked buyout model must balance",
+        "paragraphs": [
+          "Entry sources and uses determine sponsor equity. Revenue, EBITDA, working capital, depreciation, capex, taxes and interest feed linked income, cash-flow, balance-sheet and debt schedules. Beginning, average or ending debt interest must be applied deliberately; average-debt interest needs a solved circular relationship.",
+          "The LBO workspace supports acquisition and recapitalization modes, debt priorities, revolver funding, cash/PIK preference, management participation and option proceeds. It reports funding gaps and balance checks before sponsor IRR/MOIC. Terminal EV is bridged to equity after exit fees, debt, cash and preference; retained legacy ownership matters in a recap.",
+          "The supplied workbook has unresolved defined-name references and projected interest tied to one fixed-period cell. The independent model does not treat those outputs as authoritative. Its simplified purchase accounting does not certify compliance with a financial-reporting framework."
+        ],
+        "resources": [
+          {
+            "label": "Linked LBO and recapitalization model",
+            "href": "/calculators/corporate-finance/lbo-recapitalization/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ma-model-source-register",
+    "title": "Deal model source register: methods, workbooks and known gaps",
+    "summary": "Inspect the original models, understand corrections and find every calculator and planning tool.",
+    "group": "Cases and reference",
+    "collection": "mergers-acquisitions-integration",
+    "topic": "Finance & Accounting",
+    "takeaway": "Inspect the original models, understand corrections and find every calculator and planning tool.",
+    "steps": [],
+    "ranges": [],
+    "notes": [
+      "The seven workbook originals contain 25 worksheets, 101,504 populated cells and 90,634 formula cells. All supplied formula caches are empty. No VBA project, hidden worksheet or external-workbook link part was found. A source formula is not a verified output.",
+      "The complete original upload is preserved internally with SHA-256 832858de004964d5fe9819dcbb3685569f718081bdd1c8d7275754f17c3320ec. Per-file hashes, sheet counts and paragraph/image destinations are recorded in the coverage report."
+    ],
+    "related": [
+      "ma-financing-models",
+      "ma-valuation-process",
+      "ma-due-diligence",
+      "saas-scaling-scenarios"
+    ],
+    "references": [],
+    "editorialSections": [
+      {
+        "heading": "Read this before using a historical workbook",
+        "paragraphs": [
+          "These downloads preserve the exact reviewed originals, including credits, examples and known defects. They are reference material, not calculators whose cached results have been independently approved. The browser tools use separately implemented and checked formulas."
+        ],
+        "resources": [
+          {
+            "label": "Historical acquisition-impact model — original XLSX",
+            "href": "/library/deal-models/acquisition-source.xlsx"
+          },
+          {
+            "label": "Original debt-capacity source — original XLSX",
+            "href": "/library/deal-models/debt-capacity-source.xlsx"
+          },
+          {
+            "label": "Original diligence example and blank template — original XLSX",
+            "href": "/library/deal-models/diligence-source.xlsx"
+          },
+          {
+            "label": "Original integration scorecard example and blank template — original XLSX",
+            "href": "/library/deal-models/integration-scorecard-source.xlsx"
+          },
+          {
+            "label": "Historical LBO and recapitalization source — original XLSX",
+            "href": "/library/deal-models/lbo-source.xlsx"
+          },
+          {
+            "label": "Original culture comparison exercise — original XLSX",
+            "href": "/library/deal-models/culture-source.xlsx"
+          },
+          {
+            "label": "Historical volume-profile source and charts — original XLSX",
+            "href": "/library/deal-models/volume-profile-source.xlsx"
+          }
+        ]
+      },
+      {
+        "heading": "Workbook-by-workbook limitations",
+        "paragraphs": [
+          "Acquisition workbook (8 sheets): historical SGX/ASX inputs mix currency labels; SGX net income is explicitly unreconciled. Many sensitivity cells are constants and the nil-dilution synergy table repeats EPS figures. The public tool recalculates funding, EPS and sensitivities; the historical financials remain source examples.",
+          "Debt workbook (1 sheet): the hardcoded VBA-output cell has no supplied macro and the opening schedule does not consistently follow the selected headline. “Average” interest references opening debt. The public model uses its stated opening-debt convention and a bounded feasibility solver.",
+          "LBO workbook (9 sheets): missing defined names and fixed-period interest references prevent treating source formulas as validated outputs. The public linked model exposes its own accounting conventions, schedule checks and funding gaps; no hidden name definitions are invented.",
+          "Price-volume workbook (2 sheets, 12 charts): this is primarily volume-by-price and turnover analysis, not a complete trade VWAP calculation. It has off-row date classification, inconsistent /1000 scaling and masked #REF! tail formulas. All 2,022 raw dated observations (including 43 zero-volume rows) are retained in original units for the public historical sample. Price adjustment/data provenance is unknown.",
+          "Diligence workbook (2 sheets): example and blank scheduling templates contain the same request structure, example owners/dates and calendar scaffolding. The new planner uses blank personal fields and keeps task status separate from findings. Source dependency/working-day formulas are retained in the original; the visual timeline is calendar-day based and does not reschedule dependencies.",
+          "Integration scorecard (2 sheets): 10 populated objectives and 3 additional slots mix money, FTE, percentages and ratings. Literal statuses and mixed totals are not inherited. Actuals start unreported; zero is a real reported value. Targets and permitted shortfalls use explicit units and direction.",
+          "Culture sheet (1 sheet): all 46 characteristics and 11 groups are retained. It is a perception comparison with no formulas or financial synergy model. Mean absolute gaps are descriptive ordinal summaries; blank is unrated. The wording “product instruction” is unclear and remains identified as such."
+        ]
+      },
+      {
+        "heading": "Historical price-volume data",
+        "paragraphs": [
+          "The sample covers 1 January 2003 to 5 November 2010. Daily close weighted by daily volume is a proxy, not eligible-trade VWAP. Unknown shares outstanding leaves turnover uncalculated. The volume-profile buckets include their lower bound and exclude the upper bound except for the final inclusive bucket."
+        ],
+        "resources": [
+          {
+            "label": "All historical raw observations (CSV)",
+            "href": "/library/deal-models/perpetual-historical-price-volume.csv"
+          },
+          {
+            "label": "VWAP and volume-profile workspace",
+            "href": "/calculators/markets/vwap-volume/"
+          }
+        ]
+      },
+      {
+        "heading": "Known missing and uncertain material",
+        "paragraphs": [
+          "The private Nasdaq wiki contents are missing. No dated benchmark population supports the supplied SaaS and family-office norms. The integration document is an outline, not a completed corporate plan. Some diligence prompts end mid-sentence. Unresolved workbook names are not recoverable hidden inputs. No material is silently invented to fill these gaps."
+        ]
+      }
+    ]
+  }
+]

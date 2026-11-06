@@ -107,6 +107,10 @@
       {
         "name": "Venture planning",
         "description": "Connect a business plan to customer evidence, a credible pitch and the next commitment."
+      },
+      {
+        "name": "Growth and restructuring",
+        "description": "Compare ownership changes, cooperative growth and financial restructuring."
       }
     ],
     "journey": [
@@ -1664,6 +1668,10 @@
           {
             "slug": "investing-portfolio-management",
             "label": "Understand investments and portfolios"
+          },
+          {
+            "slug": "mergers-acquisitions-integration",
+            "label": "Plan mergers, acquisitions and integration"
           }
         ]
       }
@@ -1895,6 +1903,10 @@
       {
         "name": "Forecasting & practice",
         "description": "Choose methods, examine uncertainty and work through the supplied practice prompts."
+      },
+      {
+        "name": "Revenue and growth",
+        "description": "Connect recurring-revenue measures, staffing and cash scenarios."
       }
     ],
     "journey": [
@@ -1955,6 +1967,10 @@
       {
         "name": "Funding & founder transactions",
         "description": "Match funding needs to routes, investor expectations and economic/control terms."
+      },
+      {
+        "name": "Capital and public markets",
+        "description": "Separate public listing readiness from private financing terms."
       }
     ],
     "journey": [
@@ -2543,6 +2559,10 @@
       {
         "name": "Private capital & institutions",
         "description": "Study diligence, investment stages and a clearly dated pension reference."
+      },
+      {
+        "name": "Capital providers and structures",
+        "description": "Understand investor roles, family-office arrangements and financing relationships."
       }
     ],
     "journey": [
@@ -3179,6 +3199,111 @@
       "finance-accounting",
       "research-methods-academic-skills",
       "technology"
+    ]
+  },
+  {
+    "slug": "mergers-acquisitions-integration",
+    "title": "Mergers, Acquisitions & Integration",
+    "topic": "Finance & Accounting",
+    "group": "Explore finance",
+    "summary": "Plan a deal, value and finance it, review the evidence and deliver integration.",
+    "intro": "Start with the transaction question, then connect the financial case to diligence, agreement and post-close delivery. Historical models and case records stay visible with their limitations.",
+    "groups": [
+      {
+        "name": "Deal foundations",
+        "description": "Define structure, strategy, process and agreements."
+      },
+      {
+        "name": "Valuation and financing",
+        "description": "Value cash flows and connect funding to operating capacity."
+      },
+      {
+        "name": "Diligence workstreams",
+        "description": "Review finance, commercial operations, people, legal, technology and assets."
+      },
+      {
+        "name": "Integration and culture",
+        "description": "Turn the deal thesis into owned actions and measurable outcomes."
+      },
+      {
+        "name": "Cases and reference",
+        "description": "Check historical cases, source workbooks and terminology."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Understand the deal",
+        "links": [
+          {
+            "slug": "ma-deal-structures",
+            "label": "Define the structure"
+          },
+          {
+            "slug": "ma-process-team",
+            "label": "Follow the process"
+          }
+        ]
+      },
+      {
+        "title": "Evaluate the economics",
+        "links": [
+          {
+            "slug": "ma-valuation-process",
+            "label": "Value the business"
+          },
+          {
+            "slug": "ma-financing-models",
+            "label": "Test financing and returns"
+          },
+          {
+            "slug": "ma-synergies-value",
+            "label": "Assess synergies"
+          }
+        ]
+      },
+      {
+        "title": "Review and deliver",
+        "links": [
+          {
+            "slug": "ma-due-diligence",
+            "label": "Scope diligence"
+          },
+          {
+            "slug": "ma-agreements-terms",
+            "label": "Read agreement roles"
+          },
+          {
+            "slug": "post-merger-integration-planning",
+            "label": "Plan integration"
+          }
+        ]
+      },
+      {
+        "title": "Check the evidence",
+        "links": [
+          {
+            "slug": "historical-acquisition-cases",
+            "label": "Explore 31 historical cases"
+          },
+          {
+            "slug": "ma-model-source-register",
+            "label": "Inspect source models and gaps"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Transaction structures, legal effects, accounting and tax treatment depend on the actual context. Educational tools do not replace transaction-specific professional work."
+    ],
+    "references": [],
+    "topicRoot": false,
+    "parent": "finance-accounting",
+    "relatedCollections": [
+      "valuation-transactions",
+      "financial-planning-analysis",
+      "investing-portfolio-management",
+      "strategy-growth",
+      "project-management"
     ]
   }
 ]

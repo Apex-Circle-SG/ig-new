@@ -1,0 +1,324 @@
+[
+  {
+    "id": "culture-4",
+    "group": "Strategic Orientation",
+    "left": "Customer/market-driven",
+    "right": "Technology-driven",
+    "source": "Culture worksheet · B4:H4"
+  },
+  {
+    "id": "culture-5",
+    "group": "Strategic Orientation",
+    "left": "Long-term profit-oriented",
+    "right": "Short-term profit-oriented",
+    "source": "Culture worksheet · B5:H5"
+  },
+  {
+    "id": "culture-6",
+    "group": "Strategic Orientation",
+    "left": "Employees understand and are committed to strategy",
+    "right": "Employees don’t understand and/or are not committed to strategy",
+    "source": "Culture worksheet · B6:H6"
+  },
+  {
+    "id": "culture-7",
+    "group": "Strategic Orientation",
+    "left": "Activity-focused",
+    "right": "Results-focused",
+    "source": "Culture worksheet · B7:H7"
+  },
+  {
+    "id": "culture-8",
+    "group": "Strategic Orientation",
+    "left": "Strategically focused",
+    "right": "Operationally or crisis-focused",
+    "source": "Culture worksheet · B8:H8"
+  },
+  {
+    "id": "culture-9",
+    "group": "Strategic Orientation",
+    "left": "Fast follower regarding product instruction",
+    "right": "Cutting-edge products",
+    "source": "Culture worksheet · B9:H9"
+  },
+  {
+    "id": "culture-10",
+    "group": "Strategic Orientation",
+    "left": "Slow to respond to market dynamics",
+    "right": "Flexible, highly market responsive",
+    "source": "Culture worksheet · B10:H10"
+  },
+  {
+    "id": "culture-14",
+    "group": "Communication",
+    "left": "Top-down focus",
+    "right": "Three-way",
+    "source": "Culture worksheet · B14:H14"
+  },
+  {
+    "id": "culture-15",
+    "group": "Communication",
+    "left": "Infrequent sensing",
+    "right": "Frequent sensing",
+    "source": "Culture worksheet · B15:H15"
+  },
+  {
+    "id": "culture-16",
+    "group": "Communication",
+    "left": "Filtered",
+    "right": "Open / candid",
+    "source": "Culture worksheet · B16:H16"
+  },
+  {
+    "id": "culture-20",
+    "group": "Training And Development",
+    "left": "Considerable opportunity for employee development",
+    "right": "Limited opportunity for employee development",
+    "source": "Culture worksheet · B20:H20"
+  },
+  {
+    "id": "culture-21",
+    "group": "Training And Development",
+    "left": "Development is based on informal mechanisms with large degrees of latitude",
+    "right": "Development is tightly aligned with competency model or career ladder",
+    "source": "Culture worksheet · B21:H21"
+  },
+  {
+    "id": "culture-22",
+    "group": "Training And Development",
+    "left": "Development focuses on current job",
+    "right": "Development focuses on current and future jobs",
+    "source": "Culture worksheet · B22:H22"
+  },
+  {
+    "id": "culture-26",
+    "group": "Rewards",
+    "left": "Focus on rewarding individual performance",
+    "right": "Balance of individual and team performance rewards",
+    "source": "Culture worksheet · B26:H26"
+  },
+  {
+    "id": "culture-27",
+    "group": "Rewards",
+    "left": "Employees have minimum involvement in setting performance expectations",
+    "right": "Employees have significant involvement in setting performance specifications",
+    "source": "Culture worksheet · B27:H27"
+  },
+  {
+    "id": "culture-28",
+    "group": "Rewards",
+    "left": "Seniority-based",
+    "right": "Performance-based",
+    "source": "Culture worksheet · B28:H28"
+  },
+  {
+    "id": "culture-29",
+    "group": "Rewards",
+    "left": "Clear performance standards",
+    "right": "Ambiguous performance standards",
+    "source": "Culture worksheet · B29:H29"
+  },
+  {
+    "id": "culture-30",
+    "group": "Rewards",
+    "left": "Compensation at/above market",
+    "right": "Compensation below market",
+    "source": "Culture worksheet · B30:H30"
+  },
+  {
+    "id": "culture-31",
+    "group": "Rewards",
+    "left": "Employees receive regular performance feedback",
+    "right": "Employees don’t receive regular performance feedback",
+    "source": "Culture worksheet · B31:H31"
+  },
+  {
+    "id": "culture-35",
+    "group": "Decision Making",
+    "left": "Slow",
+    "right": "Fast",
+    "source": "Culture worksheet · B35:H35"
+  },
+  {
+    "id": "culture-36",
+    "group": "Decision Making",
+    "left": "Centralized decision making/multiple approval levels",
+    "right": "Few approval levels and broad spans of control",
+    "source": "Culture worksheet · B36:H36"
+  },
+  {
+    "id": "culture-37",
+    "group": "Decision Making",
+    "left": "Analytical/cautious",
+    "right": "Intuitive/daring",
+    "source": "Culture worksheet · B37:H37"
+  },
+  {
+    "id": "culture-38",
+    "group": "Decision Making",
+    "left": "Authority levels are clearly understood",
+    "right": "Confusion exists regarding authority levels",
+    "source": "Culture worksheet · B38:H38"
+  },
+  {
+    "id": "culture-42",
+    "group": "Risk Taking",
+    "left": "Risk averse",
+    "right": "Calculated risk taking encouraged",
+    "source": "Culture worksheet · B42:H42"
+  },
+  {
+    "id": "culture-43",
+    "group": "Risk Taking",
+    "left": "Mistakes are punished",
+    "right": "Innovation is rewarded",
+    "source": "Culture worksheet · B43:H43"
+  },
+  {
+    "id": "culture-44",
+    "group": "Risk Taking",
+    "left": "Management does not solicit or act on employee ideas for improvement",
+    "right": "Management encourages and quickly acts on employee ideas for improvement",
+    "source": "Culture worksheet · B44:H44"
+  },
+  {
+    "id": "culture-48",
+    "group": "Planning",
+    "left": "Short term",
+    "right": "Long term",
+    "source": "Culture worksheet · B48:H48"
+  },
+  {
+    "id": "culture-49",
+    "group": "Planning",
+    "left": "Reactive",
+    "right": "Proactive",
+    "source": "Culture worksheet · B49:H49"
+  },
+  {
+    "id": "culture-50",
+    "group": "Planning",
+    "left": "Informal",
+    "right": "Formal",
+    "source": "Culture worksheet · B50:H50"
+  },
+  {
+    "id": "culture-51",
+    "group": "Planning",
+    "left": "Intuitive about competition",
+    "right": "Constantly monitor competition",
+    "source": "Culture worksheet · B51:H51"
+  },
+  {
+    "id": "culture-55",
+    "group": "Teamwork",
+    "left": "Low cooperation across departments",
+    "right": "High cooperation across departments",
+    "source": "Culture worksheet · B55:H55"
+  },
+  {
+    "id": "culture-56",
+    "group": "Teamwork",
+    "left": "Low trust",
+    "right": "High trust",
+    "source": "Culture worksheet · B56:H56"
+  },
+  {
+    "id": "culture-57",
+    "group": "Teamwork",
+    "left": "Siloed perspective",
+    "right": "Process/cross-functional perspective",
+    "source": "Culture worksheet · B57:H57"
+  },
+  {
+    "id": "culture-58",
+    "group": "Teamwork",
+    "left": "Conflict is surfaced and resolved",
+    "right": "Culture is polite and conflict is avoided",
+    "source": "Culture worksheet · B58:H58"
+  },
+  {
+    "id": "culture-62",
+    "group": "Management Practices",
+    "left": "Leaders are hard drivers",
+    "right": "Leaders are paternalistic",
+    "source": "Culture worksheet · B62:H62"
+  },
+  {
+    "id": "culture-63",
+    "group": "Management Practices",
+    "left": "Policies are applied uniformly",
+    "right": "Policies are applied arbitrarily",
+    "source": "Culture worksheet · B63:H63"
+  },
+  {
+    "id": "culture-64",
+    "group": "Management Practices",
+    "left": "High levels of feedback and coaching",
+    "right": "Infrequent or no feedback and coaching",
+    "source": "Culture worksheet · B64:H64"
+  },
+  {
+    "id": "culture-65",
+    "group": "Management Practices",
+    "left": "Few unnecessary procedures, policies, and business rules",
+    "right": "Procedures, policies, and business rules used to guide employee behavior",
+    "source": "Culture worksheet · B65:H65"
+  },
+  {
+    "id": "culture-66",
+    "group": "Management Practices",
+    "left": "Cost and control-driven",
+    "right": "Service and quality-driven",
+    "source": "Culture worksheet · B66:H66"
+  },
+  {
+    "id": "culture-67",
+    "group": "Management Practices",
+    "left": "People feel appreciated and valued",
+    "right": "People don’t feel appreciated and valued",
+    "source": "Culture worksheet · B67:H67"
+  },
+  {
+    "id": "culture-68",
+    "group": "Management Practices",
+    "left": "Low stress/burnout environment",
+    "right": "High workload/long work hours environment",
+    "source": "Culture worksheet · B68:H68"
+  },
+  {
+    "id": "culture-69",
+    "group": "Management Practices",
+    "left": "Workforce embraces change",
+    "right": "Workforce strives to maintain status quo",
+    "source": "Culture worksheet · B69:H69"
+  },
+  {
+    "id": "culture-73",
+    "group": "Structure",
+    "left": "Roles clearly understood",
+    "right": "Considerable role ambiguity",
+    "source": "Culture worksheet · B73:H73"
+  },
+  {
+    "id": "culture-74",
+    "group": "Structure",
+    "left": "Organization is flat",
+    "right": "Organization has many layers",
+    "source": "Culture worksheet · B74:H74"
+  },
+  {
+    "id": "culture-78",
+    "group": "Technology",
+    "left": "Employees have access to the information they need to be successful",
+    "right": "Information is either lacking, untimely, or incorrect",
+    "source": "Culture worksheet · B78:H78"
+  },
+  {
+    "id": "culture-79",
+    "group": "Technology",
+    "left": "Slow adoption to new technology",
+    "right": "Rapid adoption or state-of-the-art technology used",
+    "source": "Culture worksheet · B79:H79"
+  }
+]
