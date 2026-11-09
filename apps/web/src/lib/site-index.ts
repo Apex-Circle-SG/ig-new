@@ -4,6 +4,7 @@ import { getPublishedContent } from './content';
 import methods from '../../../opportunities/data/methods.json';
 import { discoveryHubs } from './discovery-hubs';
 import libraryKnowledge from './library/knowledge.json';
+import { casinoLabs } from './casino/catalogue';
 
 import { DEAL_TOOLS } from '@insightginie/calculators/deals';
 
@@ -11,14 +12,15 @@ const names: Record<string, string> = {
   '/': 'Home',
   '/calculators/corporate-finance/': 'Corporate finance and deal workspaces',
   '/calculators/markets/': 'Trading and market analysis',
-  ...Object.fromEntries(DEAL_TOOLS.map(t => [t.path, t.title])),
+  ...Object.fromEntries(DEAL_TOOLS.map((t) => [t.path, t.title])),
   '/opportunities/': 'Online opportunities and remote work',
   '/opportunities/sources/': 'Opportunity sources and freshness',
   '/ideas/': 'Creative business idea lab',
   '/platforms/': 'Earning platforms',
   '/earn/': 'Creative ways to earn online',
   ...Object.fromEntries(discoveryHubs.map((hub) => [hub.path, hub.title])),
-  '/calculators/casino/': 'Casino probability calculators',
+  '/calculators/casino/': 'Casino probability lab — play, calculate, simulate',
+  ...Object.fromEntries(casinoLabs.map((lab) => [`/calculators/casino/${lab.id}/`, lab.title])),
   '/calculators/roulette/': 'Roulette odds & simulator',
   '/calculators/casino/expected-value/': 'Expected value & house edge',
   '/calculators/casino/losing-streak/': 'Losing-streak probability',
@@ -59,7 +61,8 @@ const names: Record<string, string> = {
     'What income band are you in? (A 4-question check, not a precise ranking)',
   '/guides/what-percentile-is-60000-a-year/': 'What percentile is $60,000 a year in the US?',
   '/guides/what-is-the-average-salary-in-america/': 'What is the average salary in America?',
-  '/guides/household-vs-individual-income/': 'Household income vs. individual income: why the two figures differ',
+  '/guides/household-vs-individual-income/':
+    'Household income vs. individual income: why the two figures differ',
   ...Object.fromEntries(FINANCE_TOOLS.map((tool) => [`/tools/${tool.id}/`, tool.title])),
 };
 export function getSiteEntries() {

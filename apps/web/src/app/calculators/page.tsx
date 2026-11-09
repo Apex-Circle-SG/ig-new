@@ -12,8 +12,17 @@ export const metadata: Metadata = {
 };
 export default function Calculators() {
   const cards = [
-    { path: '/calculators/corporate-finance/', title: 'Corporate finance and deal workspaces', description: 'Acquisition impact, debt capacity, LBOs, valuation, SaaS and integration planners.' },
-    { path: '/calculators/markets/', title: 'Trading and market analysis', description: 'VWAP, volume profiles, share turnover and historical price-volume comparisons.' },
+    {
+      path: '/calculators/corporate-finance/',
+      title: 'Corporate finance and deal workspaces',
+      description:
+        'Acquisition impact, debt capacity, LBOs, valuation, SaaS and integration planners.',
+    },
+    {
+      path: '/calculators/markets/',
+      title: 'Trading and market analysis',
+      description: 'VWAP, volume profiles, share turnover and historical price-volume comparisons.',
+    },
     {
       path: '/calc/individual-income-percentile/',
       title: 'Compare my income',
@@ -43,7 +52,8 @@ export default function Calculators() {
     {
       path: '/calculators/casino/',
       title: 'Casino probability calculators',
-      description: 'Visual roulette, expected value, losing streaks and two-dice probabilities.',
+      description:
+        'Play Baccarat, Blackjack, Sic Bo, Craps and more; reveal odds and simulate virtual sessions.',
     },
     {
       path: '/calculators/expanded/',

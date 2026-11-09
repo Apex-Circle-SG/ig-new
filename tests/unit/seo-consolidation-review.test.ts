@@ -2,6 +2,7 @@ import { afterEach, describe, expect, it, vi } from 'vitest';
 import { existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { casinoTools } from '../../apps/web/src/lib/casino/probability';
+import { casinoLabs } from '../../apps/web/src/lib/casino/catalogue';
 import { DEAL_TOOLS } from '@insightginie/calculators/deals';
 import { FINANCE_TOOLS } from '@insightginie/calculators';
 import { PUBLIC_INDEXABLE_PATHS, isPublicIndexablePath } from '@insightginie/seo';
@@ -25,7 +26,9 @@ describe('consolidation discovery surfaces', () => {
         expect(
           existsSync(resolve('apps/web/src/app/calculators/corporate-finance/[tool]/page.tsx')),
         ).toBe(true);
-      } else if (casinoTools.some((tool) => path === `/calculators/casino/${tool.id}/`)) {
+      } else if (
+        [...casinoTools, ...casinoLabs].some((tool) => path === `/calculators/casino/${tool.id}/`)
+      ) {
         expect(existsSync(resolve('apps/web/src/app/calculators/casino/[tool]/page.tsx'))).toBe(
           true,
         );

@@ -3,6 +3,7 @@
 import { SiteLink as Link } from '@insightginie/ui';
 import { useState, type FormEvent } from 'react';
 import styles from './roulette.module.css';
+import RouletteTable from '../casino/lab/roulette-table';
 
 import {
   anchors,
@@ -134,6 +135,8 @@ export default function Roulette() {
       <p>
         <Link href="/calculators/casino/">← Casino probability calculators</Link>
       </p>
+      <RouletteTable />
+      <h2>Classic single-bet strategy simulator</h2>
       <section className={styles.results}>
         <h2>Your bet on the table</h2>
         <p>

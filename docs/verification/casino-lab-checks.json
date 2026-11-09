@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-11-09T04:43:51.471565+00:00",
+  "baseCommit": "435f31c5b5ef5d7538db129ad6bba65bf4379a20",
+  "productionBuild": {
+    "result": "pass",
+    "directory": ".next-candidate",
+    "indexable": true,
+    "adsEnabled": true
+  },
+  "typecheck": "pass",
+  "lint": "pass; zero warnings",
+  "unit": {
+    "result": "pass",
+    "files": 33,
+    "checks": 519,
+    "casinoChecks": 26
+  },
+  "browser": {
+    "result": "pass",
+    "scenarios": 14,
+    "routeViewportChecks": 22,
+    "widths": [
+      1440,
+      390
+    ],
+    "engine": "Chromium",
+    "mobileActions": "pass",
+    "accessibility": {
+      "result": "pass",
+      "scope": [
+        "casino directory",
+        "Baccarat",
+        "Blackjack",
+        "Sic Bo",
+        "video poker"
+      ],
+      "method": "axe-core in main landmark"
+    },
+    "discovery": [
+      "canonicals",
+      "combined tools sitemap",
+      "human content index"
+    ]
+  },
+  "graph": {
+    "sourceFiles": 316,
+    "nodes": 1257,
+    "edges": 2751,
+    "danglingMergedEdges": 0,
+    "rawDiagnosticWarnings": {
+      "dangling_endpoint_edges": 621,
+      "undirected_same_endpoint_collapsed_edges": 87
+    },
+    "note": "Bounded AST map, not complete semantic coverage; raw diagnostics include unresolved references and collapsed relationships."
+  },
+  "notChecked": [
+    "live Cloudflare deployment",
+    "Safari and Firefox",
+    "physical devices"
+  ],
+  "push": "not requested; not pushed"
+}
