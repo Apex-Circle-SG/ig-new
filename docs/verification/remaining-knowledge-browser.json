@@ -1,0 +1,823 @@
+{
+  "checkedAt": "2026-11-09T02:33:45.437Z",
+  "pages": [
+    {
+      "path": "/library/knowledge/coaching-reflection-cycle/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/reflection-question-bank/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/learning-attention-practice/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/action-persistence-maxims/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/reflective-frameworks-purpose/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/coaching-science-claims/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/power-maxims-critical-reading/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/strategic-reflection-prompts/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/incentives-framing-exercises/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/quantum-physics-study-glossary/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/spiritual-reflection-purpose/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/entrepreneurial-self-cultivation/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/executive-operating-review/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/executive-review-questions/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/venture-readiness-questions/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/employee-experience-conversations/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/leadership-competency-reference/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cross-cultural-leadership-models/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/team-role-frameworks/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/leadership-models-comparison/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/delegation-decision-rights/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/meeting-design-playbook/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/trust-accountability-practice/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/strategy-five-ps/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/sharing-stepps-framework/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/platform-launch-playbook/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/sales-ethics-examples/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/investment-behavior-returns/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/interpersonal-influence/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/clear-communication/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/personal-productivity/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/feedback-awareness/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/risk-management/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/value-proposition-design/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/five-forces/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/market-segmentation/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/marketing-planning/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/growth-ansoff/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/strategy-evaluation/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/market-positioning/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/marketing-mix/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/organizational-alignment/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/brand-foundations/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/marketing-communications/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/commercial-unit-economics/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/marketing-channel-experiments/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/marketing-direct-response/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/customer-systems/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/brand-identity/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/marketing-customer-value/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/competitive-positioning/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/product-lifecycle/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/customer-retention/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/value-chain/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/vrio-resources/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/collaborative-filtering-research-note/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/leadership-management/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/project-team-development/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/talent-lifecycle/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/employee-engagement/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/economic-schools-thinkers/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/feedback-learning-loops/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/workplace-relationships/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/managerial-grid/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/change-kotter/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-proposition-worksheet/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-brand-identity-worksheet/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-customer-objectives-worksheet/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-journey-worksheet/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-stage-tasks-worksheet/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-expectations-worksheet/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-effort-worksheet/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-stress-worksheet/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-error-prevention-worksheet/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-sensory-accessibility-worksheet/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-social-experience-worksheet/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-emotion-worksheet/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-action-scratchpad/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/brand-experience/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/customer-experience-service-design/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/coaching-reflective-practice/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/coaching-reflection-cycle/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/reflection-question-bank/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/learning-attention-practice/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/action-persistence-maxims/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/reflective-frameworks-purpose/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/coaching-science-claims/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/power-maxims-critical-reading/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/strategic-reflection-prompts/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/incentives-framing-exercises/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/quantum-physics-study-glossary/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/spiritual-reflection-purpose/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/entrepreneurial-self-cultivation/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/executive-operating-review/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/executive-review-questions/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/venture-readiness-questions/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/employee-experience-conversations/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/leadership-competency-reference/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cross-cultural-leadership-models/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/team-role-frameworks/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/leadership-models-comparison/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/delegation-decision-rights/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/meeting-design-playbook/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/trust-accountability-practice/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/strategy-five-ps/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/sharing-stepps-framework/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/platform-launch-playbook/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/sales-ethics-examples/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/investment-behavior-returns/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/interpersonal-influence/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/clear-communication/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/personal-productivity/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/feedback-awareness/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/risk-management/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/value-proposition-design/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/five-forces/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/market-segmentation/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/marketing-planning/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/growth-ansoff/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/strategy-evaluation/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/market-positioning/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/marketing-mix/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/organizational-alignment/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/brand-foundations/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/marketing-communications/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/commercial-unit-economics/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/marketing-channel-experiments/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/marketing-direct-response/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/customer-systems/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/brand-identity/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/marketing-customer-value/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/competitive-positioning/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/product-lifecycle/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/customer-retention/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/value-chain/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/vrio-resources/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/collaborative-filtering-research-note/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/leadership-management/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/project-team-development/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/talent-lifecycle/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/employee-engagement/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/economic-schools-thinkers/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/feedback-learning-loops/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/workplace-relationships/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/managerial-grid/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/change-kotter/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-proposition-worksheet/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-brand-identity-worksheet/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-customer-objectives-worksheet/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-journey-worksheet/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-stage-tasks-worksheet/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-expectations-worksheet/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-effort-worksheet/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-stress-worksheet/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-error-prevention-worksheet/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-sensory-accessibility-worksheet/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-social-experience-worksheet/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-emotion-worksheet/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/cx-action-scratchpad/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/brand-experience/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/customer-experience-service-design/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/library/knowledge/coaching-reflective-practice/",
+      "width": 390,
+      "status": 200
+    }
+  ],
+  "localGuideLinks": 185,
+  "transcribedImages": 14,
+  "sourceImageRequests": 28,
+  "translations": 39,
+  "sitemap": "all changed/new paths present",
+  "contentIndex": "all changed/new paths present",
+  "publicAssessmentItemCheck": "source item wording absent; independent topic guidance present",
+  "pageErrors": []
+}

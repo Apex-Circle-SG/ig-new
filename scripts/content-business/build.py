@@ -44,6 +44,11 @@ def merge_blocks(existing, incoming):
 
 def blocks_for(doc, span, page, formula_reviews=None, formula_references=None, metrics=None, study_reviews=None):
     paragraphs = doc['paragraphs'][span['start']:span['end']]
+    if span.get('curatedBlocks'):
+        blocks = span['curatedBlocks']
+        if not span.get('sourceOnly') and not span.get('translated'):
+            blocks = blocks + [dict(kind='review', review=dict(status=span.get('sourceStatus', 'Source wording retained for comparison'), date='2026-11-09', paragraphs=[span.get('sourceNote', 'The explanation above organizes the supplied notes; their original wording is retained below for traceability.')], references=[], original=[edited(p['text']) for p in paragraphs]))]
+        return blocks
     if span.get('definitions'):
         definitions = span['definitions']
         assert [d['index'] for d in definitions] == list(range(span['start'] + 1, span['end'], 2)), 'Incomplete reviewed glossary'
@@ -107,6 +112,7 @@ articles = {}
 outputs = []
 search_sections = {}
 academic_entries = []
+coverage_dispositions = {}
 for batch in json.loads((HERE / 'batches.json').read_text()):
     source = ROOT / batch['source']
     archive = source / 'collection.zip'
@@ -123,12 +129,18 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
             workbook_records = json.loads((HERE / batch['workbooks']).read_text())
             expected_names.update(r['document'] for r in workbook_records)
             verify_workbooks(zipped, workbook_records, ROOT)
+        assets = batch.get('assets', [])
+        expected_names.update(asset['name'] for asset in assets)
         bibliography = batch.get('bibliography')
         workbook = None
         if bibliography:
             expected_names.add(bibliography['document'])
         assert set(zipped.namelist()) == expected_names, 'Unexpected archive contents; review first'
         documents = {name: read_document(name, zipped.read(name), equations.get(name, ()), reviewed_links.get(name, ())) for name in zipped.namelist() if name.endswith('.docx')}
+        for asset in assets:
+            data = zipped.read(asset['name'])
+            assert hashlib.sha256(data).hexdigest() == asset['sha256'], 'Unreviewed standalone image'
+            documents[asset['name']] = dict(name=asset['name'], sha256=asset['sha256'], paragraphs=[], tables=[], images=[dict(path=asset['name'], sha256=asset['sha256'], bytes=len(data))])
         if bibliography:
             workbook = read_workbook(bibliography['document'], zipped.read(bibliography['document']))
             academic_entries.extend(reference_catalogue(workbook, json.loads((HERE / bibliography['reviews']).read_text())))
@@ -175,6 +187,14 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
         for span in page['ranges']:
             doc = documents[span['document']]
             assert 0 <= span['start'] < span['end'] <= len(doc['paragraphs'])
+            if span.get('coveredBy'):
+                target = span['coveredBy']
+                assert target['reason'] and target['slug'] in articles, 'Unreviewed duplicate destination'
+                assert any(section['id'] == target['section'] for section in articles[target['slug']]['sections']), 'Missing canonical section'
+                for i in range(span['start'], span['end']):
+                    coverage[(doc['name'], i)].append((target['slug'], target['section']))
+                    coverage_dispositions[(batch['key'], doc['name'], i)] = 'duplicate explanation omitted; ' + target['reason']
+                continue
             reuse = span.get('reuseSection') or span.get('mergeSection')
             section_id = reuse or f'section-{len(article["sections"]) + 1}'
             if reuse:
@@ -196,6 +216,10 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
                     retained = json.dumps(value, ensure_ascii=False)[1:-1] in rendered
                     if formula_reviews is not None or study_reviews is not None:
                         retained = retained or json.dumps(accounting_text(p['text']), ensure_ascii=False)[1:-1] in rendered
+                    if span.get('sourceOnly'):
+                        assert span['sourceOnly']['reason'] and span['sourceOnly']['reference'].startswith('https://') and span.get('curatedBlocks'), 'Unreviewed source-only passage'
+                        retained = True
+                        coverage_dispositions[(batch['key'], doc['name'], i)] = 'exact wording retained in source archive; public topic guidance; ' + span['sourceOnly']['reason']
                     assert retained, f'Lost passage: {doc["name"]}:{i}'
             if reuse:
                 if span.get('mergeSection'):
@@ -207,7 +231,10 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
             if span.get('review'):
                 lead += [span['review']['status'], *span['review']['paragraphs']]
             lead += [b['formula']['name'] + '\n' + b['formula']['expression'] for b in blocks if b['kind'] == 'formula']
-            search_sections[slug].append(dict(heading=span['heading'], body='\n'.join(lead + [p['text'] if page.get('format') in ('chapter', 'ritual') or doc['name'] == 'NLP.docx' else edited(p['text']) for p in doc['paragraphs'][span['start']:span['end']]])))
+            source_for_search = [] if span.get('sourceOnly') or span.get('curatedBlocks') else doc['paragraphs'][span['start']:span['end']]
+            if span.get('curatedBlocks'):
+                lead += [text for block in span['curatedBlocks'] for text in [block.get('text', ''), *block.get('items', []), *block.get('paragraphs', []), *[pair['english'] for pair in block.get('pairs', [])]] if text]
+            search_sections[slug].append(dict(heading=span['heading'], body='\n'.join(lead + [p['text'] if page.get('format') in ('chapter', 'ritual') or doc['name'] == 'NLP.docx' else edited(p['text']) for p in source_for_search])))
             if page.get('format') == 'questions':
                 groups = []
                 labels = []
@@ -255,12 +282,17 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
             image = f['sourceImage']
             assert image['creator'] and image['provenance'] and image['limitations'] and image['summary']
             assert image['width'] > 0 and image['height'] > 0
-            assert image['id'] and image['alt'] and image['publications']
+            assert image['id'] and image['alt'] and isinstance(image['publications'], list)
             for key in ('preview', 'full'):
                 asset = ROOT / 'apps/web/public' / image[key].lstrip('/')
                 assert asset.is_file() and asset.resolve().is_relative_to((ROOT / 'apps/web/public/library').resolve())
                 assert hashlib.sha256(asset.read_bytes()).hexdigest() == image[key + 'Sha256'], 'Changed reviewed image asset'
             assert all(p['url'].startswith('https://') and p['title'] for p in image['publications'])
+        if f.get('transcription'):
+            t = f['transcription']
+            assert t['context'] and t['sections'] and t['credit'] and t['recordFields'], 'Incomplete image transcription'
+            assert all(section['heading'] and section['paragraphs'] for section in t['sections']), 'Unreviewed transcription section'
+            assert t['reviewedOn'] == '2026-11-09' and t['sourceSha256'] == next(m['sha256'] for m in documents[f['document']]['images'] if m['path'] == f['image']), 'Changed transcribed source image'
         if f['kind'] == 'network':
             assert f['rows'] == [[str(n), str(n * (n - 1) // 2)] for n in range(3, 15)]
         if f['kind'] == 'dots':
@@ -335,8 +367,8 @@ for collection in collections:
         knowledge.append(dict(slug=collection['slug'],title=collection['title'],topic=collection['topic'],group='Start here',summary=collection['summary'],sections=[dict(heading='Choose a reading path',body=collection['intro'])],sources=collection['references']))
 reference_by_id = {entry['id']: entry for entry in academic_entries}
 for article in articles.values():
-    diagram_sections = [dict(heading=f['title'], body='\n'.join([*f['headers'], *[cell for row in f['rows'] for cell in row], f['note']]))
-                        for f in article['figures'] if f.get('diagram') or f.get('gallery')]
+    diagram_sections = [dict(heading=f['title'], body='\n'.join([*[text for section in f.get('transcription', {}).get('sections', []) for text in [section['heading'], *section['paragraphs']]], *f['headers'], *[cell for row in f['rows'] for cell in row], f['note']]))
+                        for f in article['figures'] if f.get('diagram') or f.get('gallery') or f.get('transcription')]
     reading_ids = [identifier for section in article['sections'] for block in section['blocks']
                    if block['kind'] == 'academic-readings' for identifier in block['referenceIds']]
     if article['format'] == 'reference-index':
@@ -452,7 +484,7 @@ for batch, documents, coverage, image_coverage, workbook in outputs:
         writer.writerow(['source_document','source_item','source_text_or_hash','destination','section_or_figure','disposition'])
         for (name, i), destinations in coverage.items():
             for slug, section in destinations:
-                writer.writerow([name,f'paragraph-{i}',documents[name]['paragraphs'][i]['text'],f'/library/knowledge/{slug}/',section,'retained; structural headings may be consolidated'])
+                writer.writerow([name,f'paragraph-{i}',documents[name]['paragraphs'][i]['text'],f'/library/knowledge/{slug}/',section,coverage_dispositions.get((batch['key'], name, i), 'retained; structural headings may be consolidated')])
         for (name, image), figure in image_coverage.items():
             media = next(m for m in documents[name]['images'] if m['path'] == image)
             disposition = ('retained as optimized source image; attribution and evidence limits displayed' if figure.get('sourceImage')

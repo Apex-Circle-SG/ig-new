@@ -62,6 +62,9 @@
       "corporate-parenting",
       "corporate-restructuring",
       "strategic-alliances-partnerships",
+      "strategic-reflection-prompts",
+      "strategy-five-ps",
+      "platform-launch-playbook",
       "art-of-war"
     ]
   },
@@ -92,7 +95,8 @@
       "global-market-entry",
       "global-marketing-adaptation",
       "marketing-channel-experiments",
-      "marketing-direct-response"
+      "marketing-direct-response",
+      "sharing-stepps-framework"
     ]
   },
   {
@@ -165,7 +169,8 @@
       "pitch-deck-foundations",
       "venture-validation",
       "poc-prototype-mvp",
-      "business-model-renewal"
+      "business-model-renewal",
+      "customer-experience-service-design"
     ]
   },
   {
@@ -202,7 +207,9 @@
       "marketing-logistics",
       "purpose-to-performance",
       "executive-kpi-reference",
-      "operating-process-types"
+      "operating-process-types",
+      "delegation-decision-rights",
+      "meeting-design-playbook"
     ]
   },
   {
@@ -226,7 +233,8 @@
       "workplace-energy-reflection",
       "human-development-life-stages",
       "nlp-reference",
-      "personality-narratives"
+      "personality-narratives",
+      "coaching-reflective-practice"
     ]
   },
   {
@@ -363,7 +371,8 @@
       "model-driven-engineering",
       "constructionist-design",
       "digital-research-connections",
-      "technology-scaling-heuristics"
+      "technology-scaling-heuristics",
+      "collaborative-filtering-research-note"
     ]
   },
   {
@@ -390,7 +399,8 @@
       "change-problem-types",
       "six-thinking-hats",
       "critical-thinking-questions",
-      "business-analysis-evidence"
+      "business-analysis-evidence",
+      "incentives-framing-exercises"
     ]
   },
   {
@@ -414,6 +424,8 @@
       "deep-state-maps",
       "great-awakening-map",
       "hawkins-consciousness-map",
+      "spiritual-reflection-purpose",
+      "entrepreneurial-self-cultivation",
       "freemasonry"
     ]
   },
@@ -453,7 +465,8 @@
       "light-and-attoseconds",
       "gravity-and-expanding-universe",
       "nuclei-transmutation",
-      "science-research-connections"
+      "science-research-connections",
+      "quantum-physics-study-glossary"
     ]
   },
   {
@@ -556,7 +569,8 @@
       "founder-funding-readiness",
       "founder-investment-terms",
       "business-financing-routes",
-      "ipo-readiness-pathway"
+      "ipo-readiness-pathway",
+      "venture-readiness-questions"
     ]
   },
   {
@@ -613,7 +627,12 @@
       "leadership-principles",
       "organizational-culture",
       "organizational-power",
-      "organization-design-mintzberg"
+      "organization-design-mintzberg",
+      "executive-operating-review",
+      "executive-review-questions",
+      "cross-cultural-leadership-models",
+      "leadership-models-comparison",
+      "trust-accountability-practice"
     ]
   },
   {
@@ -642,7 +661,10 @@
       "hr-operating-model",
       "talent-lifecycle",
       "workplace-wellbeing",
-      "employee-engagement"
+      "employee-engagement",
+      "employee-experience-conversations",
+      "leadership-competency-reference",
+      "team-role-frameworks"
     ]
   },
   {
@@ -761,7 +783,8 @@
       "corporate-social-responsibility",
       "responsible-business-practice",
       "ethical-business-decisions",
-      "business-ethics-cases"
+      "business-ethics-cases",
+      "power-maxims-critical-reading"
     ]
   },
   {
@@ -841,6 +864,41 @@
       "post-merger-integration-planning",
       "ma-financing-models",
       "ma-model-source-register"
+    ]
+  },
+  {
+    "slug": "customer-experience-service-design",
+    "title": "Customer Experience & Service Design",
+    "topic": "Business & Management",
+    "parent": "product-innovation",
+    "members": [
+      "cx-proposition-worksheet",
+      "cx-brand-identity-worksheet",
+      "cx-customer-objectives-worksheet",
+      "cx-journey-worksheet",
+      "cx-stage-tasks-worksheet",
+      "cx-expectations-worksheet",
+      "cx-effort-worksheet",
+      "cx-stress-worksheet",
+      "cx-error-prevention-worksheet",
+      "cx-sensory-accessibility-worksheet",
+      "cx-social-experience-worksheet",
+      "cx-emotion-worksheet",
+      "cx-action-scratchpad"
+    ]
+  },
+  {
+    "slug": "coaching-reflective-practice",
+    "title": "Coaching & Reflective Practice",
+    "topic": "Communication & Personal Development",
+    "parent": "communication-personal-development",
+    "members": [
+      "coaching-reflection-cycle",
+      "reflection-question-bank",
+      "learning-attention-practice",
+      "action-persistence-maxims",
+      "reflective-frameworks-purpose",
+      "coaching-science-claims"
     ]
   }
 ]

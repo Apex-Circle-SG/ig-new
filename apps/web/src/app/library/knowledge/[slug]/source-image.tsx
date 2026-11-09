@@ -3,6 +3,7 @@ import styles from './collection-guide.module.css';
 
 export type SourceImageRecord = {
   id: string;
+  purpose?: string;
   preview: string;
   full: string;
   previewWidth: number;
@@ -31,8 +32,8 @@ export function SourceImage({ source }: { source: SourceImageRecord }) {
       <summary>View the supplied image and open its full-size version</summary>
       <Image src={source.preview} alt={source.alt} width={source.previewWidth} height={source.previewHeight} unoptimized className={styles.sourcePreview} />
       <p><a href={source.full} target="_blank" rel="noopener noreferrer">Open full-size supplied image ↗</a></p>
-      <p className={styles.figureNote}>Use your browser’s image zoom for fine print. The original layout and creator marks are retained; this is a source for examination, not a verified factual diagram.</p>
+      <p className={styles.figureNote}>Use your browser’s image zoom for fine print. The original layout and creator marks are retained; {source.purpose === 'worksheet' || source.purpose === 'checklist' ? 'the accessible transcription above is the main reading; use this scan to check the original layout and wording.' : 'this is a source for examination, not a verified factual diagram.'}</p>
     </details>
-    <div className={styles.imageSources}><strong>Creator sources &amp; evidence context</strong><ul>{source.publications.map((publication) => <li key={publication.url}><a href={publication.url} target="_blank" rel="noopener noreferrer">{publication.title} ↗</a></li>)}</ul><p className={styles.figureNote}>Source links checked {source.checked}. A creator publication establishes attribution; it does not establish that every claim in the image is true.</p></div>
+    {source.publications.length > 0 && <div className={styles.imageSources}><strong>Creator sources &amp; evidence context</strong><ul>{source.publications.map((publication) => <li key={publication.url}><a href={publication.url} target="_blank" rel="noopener noreferrer">{publication.title} ↗</a></li>)}</ul><p className={styles.figureNote}>Source links checked {source.checked}. A creator publication establishes attribution; it does not establish that every claim in the image is true.</p></div>}
   </div>;
 }

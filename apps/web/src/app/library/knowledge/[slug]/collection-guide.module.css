@@ -144,3 +144,11 @@
 .patternCard h3 { font-size: 17px; line-height: 1.5; margin-top: 0; }
 .patternCard svg { display: block; width: 100%; height: auto; }
 .patternCard p { font-size: 14px; line-height: 1.8; }
+
+.transcription { margin-block: 1rem; text-align: left; }
+.transcription dl > div { padding: .8rem 0; border-bottom: 1px solid #ded7ee; }
+.transcription dt { font-weight: 700; }
+.transcription dd { margin: .3rem 0 0; }
+.transcription section { padding: .8rem 0; border-bottom: 1px solid #ded7ee; }
+.bilingual { padding: .5rem 0 1rem; border-bottom: 1px solid #ded7ee; }
+.bilingual details { font-size: .9rem; color: #55536b; }

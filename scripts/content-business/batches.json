@@ -122,5 +122,19 @@
     "workbooks": "deal-workbooks.json",
     "ledger": "docs/deal-models-content-coverage.csv",
     "sha256": "832858de004964d5fe9819dcbb3685569f718081bdd1c8d7275754f17c3320ec"
+  },
+  {
+    "key": "remaining-knowledge",
+    "source": "content/sources/remaining-knowledge",
+    "plan": "remaining-plan.json",
+    "figures": "remaining-figures.json",
+    "ledger": "docs/remaining-knowledge-content-coverage.csv",
+    "sha256": "72a774db6946fd9975672b97d9b3b812779c528b83e552a3c66520610c921ca9",
+    "assets": [
+      {
+        "name": "CEO Checklist.jpg",
+        "sha256": "efdfdf01ea13f539ff5736fd8298acb3081914ab42a6a6ac0ffa547f20641b57"
+      }
+    ]
   }
 ]

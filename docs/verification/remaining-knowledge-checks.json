@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-11-09T02:33:45.437Z",
+  "archiveSha256": "72a774db6946fd9975672b97d9b3b812779c528b83e552a3c66520610c921ca9",
+  "sourceParagraphs": 1439,
+  "sourceImages": 14,
+  "optimizedAssets": 28,
+  "bilingualPassages": 39,
+  "canonicalDuplicateMappings": 79,
+  "newGuides": 40,
+  "newChildCollections": 2,
+  "existingGuidesUpdated": 28,
+  "productionBuild": "passed; SITE_INDEXABLE=true NEXT_PUBLIC_ADS_ENABLED=true",
+  "typescript": "passed in production build",
+  "eslint": "passed; zero warnings",
+  "browserPageViewports": 162,
+  "sourceImageDisclosures": "all fourteen expanded and images loaded on mobile",
+  "newContentTests": "none added; source-build assertions and browser checks used",
+  "graphify": "bounded architecture graph refreshed",
+  "scope": "Reviewed source integration only; unrelated workspace changes excluded"
+}

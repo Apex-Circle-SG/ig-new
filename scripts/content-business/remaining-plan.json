@@ -1,0 +1,3784 @@
+[
+  {
+    "slug": "coaching-reflection-cycle",
+    "title": "Reflective practice: turn experience into a next step",
+    "summary": "Pause, describe what happened, test your interpretation and choose an action you can review.",
+    "collection": "coaching-reflective-practice",
+    "group": "Reflect and act",
+    "topic": "Communication & Personal Development",
+    "takeaway": "Separate what happened from your first interpretation, then choose an action you can review.",
+    "steps": [
+      "Describe the event",
+      "Separate observation from interpretation",
+      "Consider alternatives",
+      "Choose a small action",
+      "Review what changed"
+    ],
+    "notes": [],
+    "related": [
+      "reflection-question-bank",
+      "feedback-awareness",
+      "personal-productivity"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Routines, choices and movement metaphors",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "These anecdotes and the SAVERS routine offer examples for personal reflection. Accounts of named people’s clothing choices are not independently checked explanations of brain energy. The leaf comparison is a metaphor; it does not establish a health outcome or one mandatory routine."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 304,
+        "end": 312
+      },
+      {
+        "heading": "A reflection cycle and space to reflect",
+        "introduction": "Consider what happened, how you interpreted it, alternatives and your next action. Time, place, helpful people and internal resources can be prompts. A timed breathing pattern is supplied as a routine example; no medical benefit is claimed and it need not be used to complete the reflection.",
+        "document": "Coaching.docx",
+        "start": 412,
+        "end": 424
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "reflection-question-bank",
+    "title": "Questions for purpose, contribution and strategic reflection",
+    "summary": "Choose a question for the decision you face; record an answer, the evidence behind it and a next step.",
+    "collection": "coaching-reflective-practice",
+    "group": "Reflect and act",
+    "topic": "Communication & Personal Development",
+    "takeaway": "A relevant question needs an honest answer and a useful next step, rather than a score.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "coaching-reflection-cycle",
+      "executive-review-questions",
+      "venture-readiness-questions"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Purpose across person, role and organization",
+        "document": "Coaching.docx",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "heading": "Thresholds and the impulse to act",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The boiling-point and escape-velocity questions are used as prompts, not specified scientific problems with enough conditions for one numerical answer. Ask what threshold, context and assumptions actually matter to your decision. The attributed action quotation is unverified."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 21,
+        "end": 25
+      },
+      {
+        "heading": "Life, contribution and achievements",
+        "introduction": "Choose a small set of prompts that fit your situation. Business forecasts and personal values require different kinds of evidence and should not become one score.",
+        "document": "Coaching.docx",
+        "start": 156,
+        "end": 163
+      },
+      {
+        "heading": "Values, relationships and future choices",
+        "introduction": "Choose a small set of prompts that fit your situation. Business forecasts and personal values require different kinds of evidence and should not become one score.",
+        "document": "Coaching.docx",
+        "start": 173,
+        "end": 188
+      },
+      {
+        "heading": "Meaning, reflection and attributed sayings",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "These examples connect ordinary life, reflection and sustained interest. The Gordon Mathews, Steve Jobs and Colin Powell quotations have not been independently authenticated as quoted. Use the reflection questions without treating an attributed sentence as proof."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 495,
+        "end": 500
+      },
+      {
+        "heading": "Four prompts: identity, proficiency, purpose and practice",
+        "introduction": "These prompts concern self-reflection rather than a personality test: consider what matters, what you can do, how you want to contribute and what action comes next.",
+        "document": "Self-Questionaires.docx",
+        "start": 79,
+        "end": 84
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "learning-attention-practice",
+    "title": "Learning and attention: deliberate practice without overload",
+    "summary": "Break skills into learnable parts, protect attention and use feedback to revise the next attempt.",
+    "collection": "coaching-reflective-practice",
+    "group": "Learn and focus",
+    "topic": "Communication & Personal Development",
+    "takeaway": "Choose a consequential task, practise a manageable part and use feedback to revise the next attempt.",
+    "steps": [
+      "Choose a consequential task",
+      "Break it into parts",
+      "Practise one part",
+      "Ask for feedback",
+      "Review and repeat"
+    ],
+    "notes": [],
+    "related": [
+      "personal-productivity",
+      "coaching-reflection-cycle"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Build a deliberate learning sequence",
+        "introduction": "Select a skill, break it into chunks, sequence the prerequisites, connect it with prior knowledge and practise the consequential parts. “Dumping” is the source shorthand for prioritizing relevant information, not deleting evidence you still need.",
+        "document": "Coaching.docx",
+        "start": 147,
+        "end": 154
+      },
+      {
+        "heading": "Attention, distractions and pressure",
+        "introduction": "Choose a consequential task, distinguish attractive distractions from productive work and plan when to return after interruption. The source’s three-task rule and awareness chime are optional routines, not universal optimal thresholds.",
+        "document": "Coaching.docx",
+        "start": 230,
+        "end": 248
+      },
+      {
+        "heading": "Automatic and deliberate attention",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The source contrasts habitual/automatic activity with effortful planning and self-control. Treat this as a simplified explanatory model rather than two literal isolated brain systems. Use it to identify a task, likely interruption and the cue for returning."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 523,
+        "end": 543
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "action-persistence-maxims",
+    "title": "Action and persistence: using maxims without becoming rigid",
+    "summary": "Turn motivating sayings into testable habits while recognizing conflicts, constraints and reasons to change course.",
+    "collection": "coaching-reflective-practice",
+    "group": "Reflect and act",
+    "topic": "Communication & Personal Development",
+    "takeaway": "A useful maxim needs context, boundaries and a reason to revise the approach.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "learning-attention-practice",
+      "power-maxims-critical-reading",
+      "reflection-question-bank"
+    ],
+    "references": [
+      {
+        "title": "FranklinCovey's official book and habit guide",
+        "url": "https://www.franklincovey.com/books/the-7-habits-of-highly-effective-people/"
+      },
+      {
+        "title": "Diamandis's first-person origin account",
+        "url": "https://www.diamandis.com/blog/the-laws-i-live-by"
+      },
+      {
+        "title": "official Peter's Laws page",
+        "url": "https://www.diamandis.com/peters-laws"
+      }
+    ],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Adaptation and an attributed quotation",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The Darwin attribution has not been verified. The useful reflection is to ask what evidence would make a plan change; a familiar attributed sentence is not proof of its authorship."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "heading": "Small bets and named maxims",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "Small reversible experiments can create learning opportunities; keep the cost and stopping conditions explicit. The attributed Gates, Sinek and Lincoln quotations remain unverified as quoted and should not establish a general rule about success or hiring."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 12,
+        "end": 16
+      },
+      {
+        "heading": "Action, credibility and personal commitment",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "Use competence, integrity, relationships and commitment as discussion themes. “Success is never accidental” is an absolute maxim, not an evidence-based account of every successful outcome. The military analogy is illustrative."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 17,
+        "end": 21
+      },
+      {
+        "heading": "The supplied Peter’s Laws list",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "This list is attributed to an entrepreneurial set of maxims, not the Peter Principle about promotion. Persistence and initiative can be useful lenses, but ignoring rules, demanding perfection and pursuing many projects conflict with other source advice.",
+            "Translate a maxim into a bounded experiment: name the outcome, constraints, action, review date and stop/change conditions. Do not treat a motivational statement as permission to ignore safety, obligations or evidence."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 74,
+        "end": 103
+      },
+      {
+        "heading": "Trying an idea and personal agency",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "Try a bounded action and invite learning, while respecting real constraints. The “player/victim” contrast is motivational rhetoric, not a judgement of a person’s worth or circumstances."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 125,
+        "end": 128
+      },
+      {
+        "heading": "Persistence and legacy sayings",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "These are attributed or rhetorical reflections. The Einstein quotation has not been authenticated; neither statement establishes that persistence alone produces success."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 248,
+        "end": 250
+      },
+      {
+        "heading": "Agency and the power-grid shorthand",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The readable themes are agency, feedback, preparation, courage, self-responsibility, boundaries and respect. Several shorthand phrases are unexplained; “Role charity” and “Kill nuclear reactor” cannot be confidently interpreted. They are retained as source ambiguities, not operational advice."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 312,
+        "end": 335
+      },
+      {
+        "heading": "Purpose, a plan and continued effort",
+        "introduction": "The source links purpose and regular effort. Keep ambition compatible with rest, honest feedback, ethical constraints and a willingness to revise the plan.",
+        "document": "Coaching.docx",
+        "start": 358,
+        "end": 366
+      },
+      {
+        "heading": "Confidence without denying constraints",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The notes emphasize decisive action, listening and testing ideas. Health, age and circumstances can be real constraints; the source’s dismissal of “excuses” should not encourage ignoring illness or blaming people for barriers.",
+            "Use specific actions and feedback to build confidence while staying open to evidence, support and a change of approach. The source’s claims about positive thought do not guarantee results."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 439,
+        "end": 456
+      },
+      {
+        "heading": "The action habit and a deliberate pause",
+        "introduction": "Start a bounded action rather than waiting for perfect conditions. The source also recommends stepping back when stuck; persistence and a pause can be complementary choices, not competing universal laws.",
+        "document": "Coaching.docx",
+        "start": 471,
+        "end": 482
+      },
+      {
+        "heading": "The supplied seven-habit reading",
+        "introduction": "Compare the seven habits as a practice sequence: initiative, purpose, priorities, mutual benefit, understanding, cooperation and renewal. This short reference is not the complete book or an assessment of a person.",
+        "document": "Coaching.docx",
+        "start": 546,
+        "end": 554
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "reflective-frameworks-purpose",
+    "title": "Reflective frameworks: purpose, needs and working preferences",
+    "summary": "Use the supplied workstyle, purpose and needs lists as conversation prompts rather than predictions or fixed identities.",
+    "collection": "coaching-reflective-practice",
+    "group": "Reflect and act",
+    "topic": "Communication & Personal Development",
+    "takeaway": "Use a framework to ask better questions rather than fix a person’s identity.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "reflection-question-bank",
+      "personality-narratives",
+      "coaching-reflection-cycle"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Working preferences and the millionaire sequence",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "Dynamo, Blaze, Tempo and Steel are supplied working-style labels, not a validated personality diagnosis. The numbered wealth-oriented sequence is a reflection list whose creator and predictive basis were not established.",
+            "Use the lists to ask what activities you enjoy, what help you need and which actions are within your control. They do not predict income, rank people or guarantee a route to wealth."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 250,
+        "end": 274
+      },
+      {
+        "heading": "Emotion, personal development and planning",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The source offers labels for examining emotions, an informal pencil-release exercise and personal-development themes. Do not infer clinical effectiveness from the exercise or assume every bankruptcy or life change has a single psychological cause. The planning mnemonic is a reminder, not a guarantee."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 366,
+        "end": 381
+      },
+      {
+        "heading": "Seven needs and four Ikigai prompts",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The seven labels and four purpose questions are supplied reflection frameworks. They are not established here as an exhaustive hierarchy, validated assessment or universal account of a tradition. Ask how the prompts fit your circumstances rather than forcing one ideal intersection."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 482,
+        "end": 495
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "coaching-science-claims",
+    "title": "Coaching and neuroscience claims: what the notes do not establish",
+    "summary": "Separate practical reflection from unsupported brain mechanisms, hormone promises and prescribed emotional stages.",
+    "collection": "coaching-reflective-practice",
+    "group": "Read claims carefully",
+    "topic": "Communication & Personal Development",
+    "takeaway": "A practical reflection exercise does not require an unverified brain mechanism.",
+    "steps": [],
+    "notes": [
+      "No treatment, clinical diagnosis, hormone intervention or prescribed grief timetable is provided here. Original assertions are retained as source material with their evidence limits."
+    ],
+    "related": [
+      "learning-attention-practice",
+      "nlp-development-claims",
+      "spiritual-reflection-purpose"
+    ],
+    "references": [
+      {
+        "title": "Original replication paper record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25810452/"
+      },
+      {
+        "title": "the authors' university research-centre summary",
+        "url": "https://www.zne.uzh.ch/en/news/Ranehill-Power-Poses.html"
+      },
+      {
+        "title": "Foundation's explanation",
+        "url": "https://www.ekrfoundation.org/five-stages-of-grief-tm/"
+      }
+    ],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Fear labels and the first grief list",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The six fear labels are not a diagnostic instrument. The source’s first grief list uses “blame”; another later list includes bargaining and adds resurgence. A person need not follow a fixed emotional sequence."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 10,
+        "end": 12
+      },
+      {
+        "heading": "RAS and affirmation claims",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The source provides no experiment or specified model for its RAS/consciousness explanation. Affirmations may be used as personal reminders; that does not verify the proposed brain mechanism or promise a health or success effect."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 128,
+        "end": 130
+      },
+      {
+        "heading": "Brain regions, exact timing and hormone assertions",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The half-second timing formula and single-region account of willpower lack a supplied study, task or measurement method. They are not needed to practise pausing and making deliberate choices.",
+            "A larger replication did not reproduce the hormonal result associated with expansive posture. Do not promise a reliable testosterone change from a pose. The source’s other health and stress generalizations remain unverified, not treatment instructions."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 274,
+        "end": 291
+      },
+      {
+        "heading": "The resilience spiral is not a clinical pathway",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The sequence mixes depression/distress labels with action prompts. It is not a validated scale, prescribed progression or treatment plan. Keep ordinary ideas about rest, attention and support separate from unverified clinical mechanisms."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 291,
+        "end": 303
+      },
+      {
+        "heading": "A second grief list and an absolute learning claim",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "Grief responses can overlap, repeat or be absent. The source’s “resurgence” is not established here as a universal sixth stage. “Humans only learn through suffering” is an absolute philosophical claim, not a learning rule supported by the supplied material."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 381,
+        "end": 389
+      },
+      {
+        "heading": "A claim about parentification",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The source generalizes about defensiveness and help-seeking without specifying a study or individual context. It should not be used to diagnose a person or assume their history from workplace behaviour."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 424,
+        "end": 425
+      },
+      {
+        "heading": "Development and social-circuitry assertions",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The source offers causal-sounding claims about children’s later health/wealth and face-to-face social circuitry without identifying studies or conditions. They remain unverified and should not be presented as guaranteed effects of focus or one communication mode."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 543,
+        "end": 545
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "power-maxims-critical-reading",
+    "title": "Power maxims: influence, incentives and ethical limits",
+    "summary": "Read strategic and workplace maxims critically: ask whose agency, credit, safety and dignity an action affects.",
+    "collection": "business-ethics-governance",
+    "group": "Ethics in practice",
+    "topic": "Business & Management",
+    "takeaway": "Describing an influence tactic does not establish its ethics, effectiveness or legitimacy.",
+    "steps": [
+      "Identify the intended outcome",
+      "Name who gains and who bears costs",
+      "Check consent, fairness and obligations",
+      "Choose a proportionate alternative",
+      "Review the consequences"
+    ],
+    "notes": [],
+    "related": [
+      "organizational-power",
+      "ethical-business-decisions",
+      "interpersonal-influence"
+    ],
+    "references": [
+      {
+        "title": "Penguin Random House, official Greene book page",
+        "url": "https://www.penguinrandomhouse.com/books/330912/the-48-laws-of-power-by-robert-greene/9780140280197/"
+      }
+    ],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "The supplied 48-law reading",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "Read the list as a study of influence and power rhetoric, not a code of conduct. Concealment, dependence, taking others’ credit and intimidation raise different ethical concerns from patience, focus or careful timing.",
+            "For any proposed tactic ask: whose informed choice is reduced, what duties apply, who bears the costs, and what transparent alternative could meet the legitimate objective? Keep the distinction between describing a tactic and endorsing it."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 25,
+        "end": 74
+      },
+      {
+        "heading": "Historical stereotypes are not evidence",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "This short comparison makes sweeping claims about several peoples and periods without evidence. Its possible lesson about differing social demands does not justify reducing cultures to stereotypes. Retain it as an example of a claim requiring historical context."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 402,
+        "end": 403
+      },
+      {
+        "heading": "Scaling, accountability and coercive workplace rhetoric",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The source mixes accountability ideas with guilt, surveillance cues, “gene pool,” submission and slavery metaphors. These do not become legitimate hiring or management policies because they appear in a business reading.",
+            "A constructive alternative is to agree roles, resources, review points, fair rewards and a safe way to raise concerns. Evaluate incentives without dehumanizing workers or encouraging dependency."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 425,
+        "end": 439
+      },
+      {
+        "heading": "Advice, failure and an inappropriate medical analogy",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "Assess advice by relevant evidence, competence and conflicts rather than dismissing every person who has experienced failure. The medical comparison is rhetoric and provides no treatment guidance."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 456,
+        "end": 457
+      },
+      {
+        "heading": "Organization design and unsupported screening assertions",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "Culture, purpose and design are useful organizational lenses. The statement “never hire an academic” is a categorical prejudice, not a defensible general selection rule. The ODT entry names a deception-testing product without supplying validity evidence; it is not a recommendation to screen employees that way.",
+            "The “cleopening” term describes a late-close/early-open schedule. It is not an endorsement of such scheduling. The productivity assertion about sociable telemarketers has no supplied study and should not become a universal judgement of workers."
+          ],
+          "references": []
+        },
+        "document": "Teams & Human Resource.docx",
+        "start": 148,
+        "end": 156
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "strategic-reflection-prompts",
+    "title": "Strategic reflection: assumptions, opportunity and growth",
+    "summary": "Use the source questions and metaphors to surface assumptions about markets, capabilities and the costs of growth.",
+    "collection": "strategy-growth",
+    "group": "Strategy practice",
+    "topic": "Business & Management",
+    "takeaway": "Separate facts about the present from assumptions about future opportunities.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "executive-review-questions",
+      "strategy-evaluation",
+      "venture-validation"
+    ],
+    "references": [
+      {
+        "title": "Collins on the Hedgehog Concept",
+        "url": "https://www.jimcollins.com/concepts/the-hedgehog-concept.html"
+      },
+      {
+        "title": "Collins on Level 5 Leadership",
+        "url": "https://www.jimcollins.com/concepts/level-five-leadership.html"
+      }
+    ],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Growth and entrepreneurial judgement",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The source uses running, sharks, military and investing metaphors to discuss growth and preparation. Treat them as prompts to test assumptions, not universal rules about survival or a requirement to eliminate every business risk.",
+            "Ask which risk can be reduced before committing, which uncertainty remains, and whether growth changes the competitive arena, cash needs or culture."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "heading": "The hedgehog questions",
+        "introduction": "The three supplied questions connect passion, capability and the economic engine. Compare the fit rather than assuming one answer guarantees success.",
+        "document": "Coaching.docx",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "heading": "Vision and framing",
+        "introduction": "Ask which observations support the pattern you think you see, and which information your current frame may hide.",
+        "document": "Coaching.docx",
+        "start": 154,
+        "end": 156
+      },
+      {
+        "heading": "Macro changes and balanced judgement",
+        "introduction": "Use the listed trends to frame research questions. The source provides no current measures or forecasts for them; compare intuition with observation, analysis and actual outcomes.",
+        "document": "Coaching.docx",
+        "start": 404,
+        "end": 412
+      },
+      {
+        "heading": "Budget and diagnosis",
+        "introduction": "Investigate what changed before assigning blame to a budget or any single factor. The maxim is a prompt, not evidence that funding constraints never matter.",
+        "document": "Coaching.docx",
+        "start": 545,
+        "end": 546
+      },
+      {
+        "heading": "Questions about future markets and opportunities",
+        "introduction": "State what is observed, what is assumed and what evidence would change the view. These questions open a strategic review; they are not forecasts.",
+        "document": "Coaching.docx",
+        "start": 163,
+        "end": 173
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "incentives-framing-exercises",
+    "title": "Incentives and framing: two decision exercises",
+    "summary": "Compare choices using explicit payoffs and probabilities before reacting to the way an option is described.",
+    "collection": "problem-solving",
+    "group": "Decision practice",
+    "topic": "Problem Solving & Decision Making",
+    "takeaway": "Check payoffs, probabilities and units before comparing how choices are described.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "economic-schools-thinkers",
+      "power-maxims-critical-reading"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "A prisoner’s-dilemma example",
+        "headers": [
+          "A / B choice",
+          "B stays silent",
+          "B betrays"
+        ],
+        "rows": [
+          [
+            "A stays silent",
+            "Both serve 8 months",
+            "A serves 12 years; B goes free"
+          ],
+          [
+            "A betrays",
+            "A goes free; B serves 12 years",
+            "Both serve 5 years"
+          ]
+        ],
+        "note": "The source supplies a hypothetical incentive game, not real sentencing advice. Keep the time units explicit."
+      }
+    ],
+    "ranges": [
+      {
+        "heading": "Competition, circular requirements and envy",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The bear, experience and jealous-neighbour stories invite different questions: relative competition, circular entry requirements, avoiding needless decisions and destructive comparison. They are anecdotes, not empirical estimates of behaviour."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 111,
+        "end": 115
+      },
+      {
+        "heading": "Saved lives and risk framing",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "Before comparing the source options, specify the full population and the exact outcomes for every probability. Some wording is abbreviated; do not assume two descriptions are equivalent without reconciling their counts and probabilities. The exercise concerns decision framing, not advice for an actual emergency."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 188,
+        "end": 193
+      },
+      {
+        "heading": "The supplied prisoner’s dilemma",
+        "introduction": "The payoff table above preserves the given example. Compare the incentives for each choice while keeping months and years distinct.",
+        "document": "Coaching.docx",
+        "start": 225,
+        "end": 230
+      },
+      {
+        "heading": "Attention, uncertainty and learning from error",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The keys-under-the-lamp story asks whether a search is being limited by convenience. The final principles emphasize uncertainty, possibility, cooperation, motivation and intentional action. Broad claims about survey answers and trial-and-error need a defined context; do not infer that all self-report is false."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 554,
+        "end": 564
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "quantum-physics-study-glossary",
+    "title": "Quantum physics glossary: states, spin, barriers and open questions",
+    "summary": "Connect the supplied technical terms with bounded explanations, and distinguish established models from proposed unification.",
+    "collection": "science-and-quantum",
+    "group": "Quantum foundations",
+    "topic": "Science & Quantum",
+    "takeaway": "Define the operator or physical model before interpreting a technical term.",
+    "steps": [],
+    "notes": [
+      "These definitions concern physics. They do not provide evidence for motivational claims about spiritual vibration, personal success or a business energy field."
+    ],
+    "related": [
+      "quantum-science",
+      "quantum-entanglement",
+      "light-and-attoseconds"
+    ],
+    "references": [
+      {
+        "title": "MIT tunnelling lecture",
+        "url": "https://ocw.mit.edu/courses/6-007-electromagnetic-energy-from-motors-to-lasers-spring-2011/d9bc5d7be258ba20ccc652941d8f3e39_MIT6_007S11_lec42.pdf"
+      },
+      {
+        "title": "MIT lecture notes, lecture 3 p. 19",
+        "url": "https://ocw.mit.edu/courses/2-57-nano-to-macro-transport-processes-spring-2012/2e4ecaa5cf55f03bcefbc8ccce79aed6_MIT2_57S12_lec_notes_2004.pdf"
+      },
+      {
+        "title": "University of Chicago course paper on Calabi–Yau compactification",
+        "url": "https://homes.psd.uchicago.edu/~sethi/Teaching/P484-W2004/calabi-yau.pdf"
+      },
+      {
+        "title": "CERN's Standard Model explanation",
+        "url": "https://home.web.cern.ch/science/physics/standard-model"
+      },
+      {
+        "title": "CERN on unification",
+        "url": "https://home.cern/science/physics/unified-forces"
+      },
+      {
+        "title": "CERN lecture on the Standard Model and gravity, p. 14",
+        "url": "https://indico.cern.ch/event/934613/attachments/2078304/3490348/Grojean_SSLP_SM_QA.pdf"
+      },
+      {
+        "title": "MIT Quantum Physics I course",
+        "url": "https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/video_galleries/lecture-videos/"
+      },
+      {
+        "title": "MIT, Spin One-Half, Bras, Kets, and Operators, §2–3",
+        "url": "https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/a56c316e4ec548d8bd0a554fac9a74e8_MIT8_05F13_Chap_02.pdf"
+      },
+      {
+        "title": "Oregon State University, Time Evolution Refresher",
+        "url": "https://paradigms-new.physics.oregonstate.edu/act/handout/2064"
+      },
+      {
+        "title": "MIT, Quantum Harmonic Oscillator, lecture 8, pp. 3–4 and 8–9",
+        "url": "https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/808334d09369e3a726f6f20d82315c20_MIT8_04S13_Lec08.pdf"
+      },
+      {
+        "title": "MIT, Identical Particles, §1 and §1.5",
+        "url": "https://ocw.mit.edu/courses/8-06-quantum-physics-iii-spring-2016/6e02558ecf4b7af37d2cdff550fc0f71_MIT8_06S16_chap4.pdf"
+      },
+      {
+        "title": "Cornell, physical examples and spin–statistics",
+        "url": "https://quantum.lassp.cornell.edu/node/323"
+      },
+      {
+        "title": "NIST DLMF §10.47, equations 10.47.1, 10.47.3–4",
+        "url": "https://dlmf.nist.gov/10.47"
+      },
+      {
+        "title": "Rice University OpenStax, University Physics Vol. 3 §6.2",
+        "url": "https://openstax.org/books/university-physics-volume-3/pages/6-2-photoelectric-effect"
+      }
+    ],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Keep the kinds of statement separate",
+        "headers": [
+          "Concept",
+          "Status in this reading"
+        ],
+        "rows": [
+          [
+            "Quantum mechanics",
+            "A physical framework with states, operators and measurement predictions"
+          ],
+          [
+            "Standard Model",
+            "Particle/interaction framework without gravity"
+          ],
+          [
+            "Grand unification / quantum gravity",
+            "Research programmes beyond the supplied established models"
+          ],
+          [
+            "Spiritual or business energy",
+            "Belief, metaphor or programme language; not validated by the glossary"
+          ]
+        ],
+        "note": "A vocabulary comparison, not a claim of a completed theory of everything."
+      }
+    ],
+    "ranges": [
+      {
+        "heading": "States, spin, particles and unification",
+        "curatedBlocks": [
+          {
+            "kind": "reference",
+            "term": "Eigenstate",
+            "paragraphs": [
+              "For an operator A, a nonzero state ψ satisfying Aψ = aψ is an eigenstate. For an observable, an ideal measurement in that state gives the corresponding value a; the term is relative to the specified operator."
+            ]
+          },
+          {
+            "kind": "reference",
+            "term": "Eigenvalue",
+            "paragraphs": [
+              "The value a in Aψ = aψ is the eigenvalue associated with the eigenstate ψ. It is not restricted to a parameter in a differential equation."
+            ]
+          },
+          {
+            "kind": "reference",
+            "term": "Quantum harmonic oscillator",
+            "paragraphs": [
+              "A one-dimensional oscillator with potential V(x) = ½mω²x² has energy values Eₙ = ħω(n + ½), for n = 0, 1, 2, … . Its stationary states are not little particles following classical periodic paths."
+            ]
+          },
+          {
+            "kind": "reference",
+            "term": "Schrödinger equation",
+            "paragraphs": [
+              "In nonrelativistic quantum mechanics, iħ ∂ψ/∂t = Hψ describes how a state evolves under a Hamiltonian H. It is not a definition of wave–particle duality."
+            ]
+          },
+          {
+            "kind": "reference",
+            "term": "Hamiltonian",
+            "paragraphs": [
+              "The operator representing energy and governing time evolution in the model. For a simple particle in a potential, H = p²/(2m) + V; more general systems have different Hamiltonians."
+            ]
+          },
+          {
+            "kind": "reference",
+            "term": "Stern–Gerlach experiment and spin",
+            "paragraphs": [
+              "A beam of silver atoms separated into discrete components in a nonuniform magnetic field. The modern account relates the result to intrinsic spin; electron spin was a later interpretation, not the original experimenters’ starting explanation. Spin is not literal rotation of a small sphere."
+            ]
+          },
+          {
+            "kind": "reference",
+            "term": "Fermions",
+            "paragraphs": [
+              "Particles with half-integer spin and antisymmetric states under exchange of identical particles. Electrons are elementary examples; protons and neutrons are composite fermions. The category is not synonymous with elementary particle."
+            ]
+          },
+          {
+            "kind": "reference",
+            "term": "Bosons",
+            "paragraphs": [
+              "Particles with integer spin and symmetric states under exchange of identical particles. Photons are elementary examples, while pions are composite spin-zero bosons. Several identical bosons can occupy the same single-particle state."
+            ]
+          },
+          {
+            "kind": "reference",
+            "term": "Pauli matrices",
+            "paragraphs": [
+              "Three dimensionless two-by-two matrices commonly used to represent spin-½ states. Spin components are ħ/2 times the corresponding Pauli matrix, so an unscaled matrix should not be called an angular momentum."
+            ]
+          },
+          {
+            "kind": "reference",
+            "term": "Spherical Bessel functions",
+            "paragraphs": [
+              "Solutions of the spherical Bessel differential equation, arising for example in radial wave problems. They relate to ordinary Bessel functions of half-integer order; spherical Bessel and spherical Neumann functions are distinct solution families."
+            ]
+          },
+          {
+            "kind": "reference",
+            "term": "Photoelectric effect",
+            "paragraphs": [
+              "Emission of electrons from a material after absorption of light with sufficient photon energy. In the elementary model, the maximum emitted kinetic energy is hν minus the work function; changing intensity alone does not replace the threshold-frequency condition."
+            ]
+          },
+          {
+            "kind": "reference",
+            "term": "Position–momentum uncertainty",
+            "paragraphs": [
+              "For a position coordinate and its corresponding momentum component, Δx Δp ≥ ħ/2 relates the standard deviations of outcomes in a quantum state. It is more than ordinary instrument imprecision."
+            ]
+          },
+          {
+            "kind": "reference",
+            "term": "Quantum tunnelling",
+            "paragraphs": [
+              "A particle can have a nonzero probability of transmission through a finite potential barrier even when its energy is below the barrier height. It is not specifically entry into an electrostatic field."
+            ]
+          },
+          {
+            "kind": "reference",
+            "term": "Feynman diagrams",
+            "paragraphs": [
+              "Diagrams used to organize terms in perturbative calculations of interactions. Their rules depend on the theory; they extend beyond a single photon and particle and are not literal tracks through space."
+            ]
+          },
+          {
+            "kind": "reference",
+            "term": "Standard Model, grand unification and quantum gravity",
+            "paragraphs": [
+              "The Standard Model describes elementary particles and the electromagnetic, weak and strong interactions; it does not include gravity. A grand unified theory proposes a deeper unification beyond that model. Quantum gravity seeks a consistent quantum description of gravitation. An experimentally established theory of everything is not supplied by combining those labels."
+            ]
+          },
+          {
+            "kind": "reference",
+            "term": "Calabi–Yau geometry",
+            "paragraphs": [
+              "A class of geometric spaces studied in mathematics and used in some string-theory compactifications. A compact space of six real dimensions is three complex dimensions; this does not mean “where the third dimension lies” or establish observed extra dimensions."
+            ]
+          }
+        ],
+        "document": "Coaching.docx",
+        "start": 130,
+        "end": 147
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "spiritual-reflection-purpose",
+    "title": "Spiritual reflection: desire, compassion, meaning and belief",
+    "summary": "Read the supplied contemplative language as philosophical reflection, separating metaphors and beliefs from medical or physical claims.",
+    "collection": "beliefs-mysteries",
+    "group": "Belief and interpretation",
+    "topic": "Beliefs & Mysteries",
+    "takeaway": "Keep a philosophical interpretation distinct from a factual claim about medicine or physics.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "metaphysics-consciousness",
+      "entrepreneurial-self-cultivation",
+      "reflection-question-bank"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "The supplied Ten Worlds reflection",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The passage uses religious or contemplative labels for desire, anger, learning, compassion and meaning. It also mixes in brain and medicine claims that are not verified here. Read the spiritual interpretation separately from any proposed biological explanation; the brief list is not a clinical instrument."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 335,
+        "end": 348
+      },
+      {
+        "heading": "Faith, fear and vibration language",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "Faith and fear are used as spiritual/motivational categories. Claims about ego vibration or universal effects of faith are beliefs or metaphors here, not measured physical relationships."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 355,
+        "end": 358
+      },
+      {
+        "heading": "Identity, charity, difficult feelings and wisdom",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The eagle story and other analogies discuss identity, attention, generosity and self-observation. They are philosophical prompts, not instructions to deny real circumstances, diagnose others or replace practical help.",
+            "Religious language and comments about knowing God are retained as interpretations. A statement about overcoming a feeling does not establish a clinical technique or require a reader to endorse one belief."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 501,
+        "end": 523
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "entrepreneurial-self-cultivation",
+    "title": "Entrepreneurial self-cultivation: a Chinese programme overview",
+    "summary": "Read an English translation of the supplied Chinese overview, with its original text and missing programme details clearly distinguished.",
+    "collection": "beliefs-mysteries",
+    "group": "Belief and interpretation",
+    "topic": "Beliefs & Mysteries",
+    "takeaway": "The supplied overview can be translated completely while its advertised five-, six- and seven-part systems remain unspecified.",
+    "steps": [],
+    "notes": [
+      "This is an attributed programme overview, not an independently validated development system. It announces five paths, six directions and seven levels without enumerating their contents; the eight audiences and nine business situations are supplied.",
+      "“Energy” and dimensional language are translated in philosophical or promotional context, not presented as measurable physical fields."
+    ],
+    "related": [
+      "spiritual-reflection-purpose",
+      "reflection-question-bank",
+      "leadership-behaviors"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Principles, business practice and the programme’s promise",
+        "curatedBlocks": [
+          {
+            "kind": "bilingual",
+            "pairs": [
+              {
+                "original": "广明灯",
+                "english": "Guangming Deng — the supplied programme title."
+              },
+              {
+                "original": "一份生命的使用说明书",
+                "english": "An instruction manual for life."
+              },
+              {
+                "original": "既有企业持续健康发展的战略规划，更有个人生命成长的登顶规划。",
+                "english": "A plan for the sustained, healthy development of an existing enterprise, together with a plan for reaching new heights in personal growth."
+              },
+              {
+                "original": "如此，事业、家庭、成长，方向全方位合一，人生再无纠结和困惑。",
+                "english": "In this way, career, family and growth are brought into alignment; the programme promises an end to inner conflict and confusion."
+              },
+              {
+                "original": "以道驭术的三维学习空间",
+                "english": "A three-dimensional learning space in which Dao—guiding principles—directs practical methods."
+              },
+              {
+                "original": "中国企业界：中华民族从最初的“道”治，逐步演化成“法”治。企业同理，最高的是“道”治，再次制度文化，而今充斥在市场上的是各种企业管理的“术”、“器”。经济时代的30年，把“道”融会贯通于商业中的布道者微乎其微，近代企业管理的方法、工具大都从西方引入，与其说是治标不治本，不如说是学的都是形式，学不到背后精神的运作模式。忽略了背后的经商之道，走了多年断章取义的弯路，学了个形似而神不似，无“道”驾驭下的“法”和“术”如同不知根本病因就下药的治疗，结果可想而知。法的尽头是道。",
+                "english": "The text argues that Chinese society moved from governance through Dao to governance through rules, and draws a parallel with business. It places guiding principles above systems and culture, and criticizes a market filled with techniques and tools. It says that few teachers in the past thirty years have integrated Dao with commerce, while imported Western methods are often copied in form without understanding their underlying spirit. It compares methods without an understanding of fundamentals to prescribing medicine without identifying the cause, concluding that the end point of rules is Dao."
+              },
+              {
+                "original": "四海为家的能量加油站",
+                "english": "An energy-refuelling station wherever one makes a home."
+              },
+              {
+                "original": "当企业主内心见地及价值取向升华后，“学以致用”是必然选择——做一个践履所学的实践者，以自身及企业为载体，共同推动“生命的意义在于知晓生命真相，把握事物发展规律，奉献社会、利益他人”的价值观。余生和对的人，做对的事，持续成长。这是人和人之间心与心的紧密互动，顺便实现商业价值。",
+                "english": "When business owners deepen their understanding and values, the text says that putting learning into practice follows naturally. It advocates using oneself and one’s enterprise to understand life, discern patterns, serve society and benefit others: spend the rest of life growing with the right people and doing the right things. It describes close human connection as the foundation, with commercial value following alongside it."
+              }
+            ]
+          }
+        ],
+        "translated": true,
+        "document": "广明灯.docx",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "heading": "Announced growth models and their missing details",
+        "curatedBlocks": [
+          {
+            "kind": "bilingual",
+            "pairs": [
+              {
+                "original": "心灵成长的五大必经路径",
+                "english": "Five necessary paths of spiritual growth."
+              },
+              {
+                "original": "濒临绝境，用过太多的方法，又得不到任何有效的帮助和效果时，人才会把一直关注外在的眼睛回收，开发自己内心的力量。唯有陷入黑暗的境地，人才会不顾一切的追寻光明，如此迎来最伟大的高光时刻。",
+                "english": "The text claims that when people reach a desperate situation, have tried many methods and found no effective help, they turn attention inward and develop inner strength. It presents the search for light in darkness as a route to a significant breakthrough."
+              },
+              {
+                "original": "此心灵成长路径从企业主面临的具体问题中萃取智慧，如此，企业主方能不负曲折和困苦的经历，以煎熬为炉，炼出“火眼金睛”，明确企业乃至生命的方向。在教学相长、修身+践行的持续练习中，逐步登顶思想的高峰。",
+                "english": "This proposed path draws lessons from the concrete problems faced by business owners. It treats difficulty and suffering as a furnace for developing discernment and clarifying the direction of the enterprise and of life. Through mutual learning, self-cultivation and sustained practice, it describes a gradual ascent toward a higher level of thought."
+              },
+              {
+                "original": "“蓦然回首”",
+                "english": "Looking back suddenly."
+              },
+              {
+                "original": "快意人生的六大修炼方向",
+                "english": "Six directions of cultivation for a fulfilling life."
+              },
+              {
+                "original": "跌不完的“跟头”、交不完的“学费”，起因就是抉择时只见其利不见其害，或只见其害不见其利。企业主看不到冬天过后的诗和远方，就是企业前行的最大障碍。无路可走的绝望本身，就是在困苦中磨练意志、韬光养晦的重要过程。经历过这种煎熬、磨炼，人才有机会顿悟——道在心中。",
+                "english": "The text attributes repeated setbacks to seeing benefits without harms, or harms without benefits. It argues that an owner’s inability to see beyond a difficult period can obstruct the business. It presents despair and a period of quiet endurance as opportunities to strengthen resolve and eventually recognize Dao within the heart."
+              },
+              {
+                "original": "本系统修心的六个维度，环环相扣，缺一不可，重在心法的修炼。心法和方法区别在于解决问题的维度不同。心法首先清晰的是：在人生的大局中，应该做什么？不应该做什么？什么是最重要的？什么是必要的。企业经营中精力应该专注什么？摒弃什么？选择不做什么和选择做什么同等重要。而方法则是就具体事情要怎么做。实施步骤又是什么。",
+                "english": "The system describes six interdependent dimensions of inner cultivation, emphasizing underlying principles. It distinguishes these from methods: principles address what should or should not be done, what matters most and what is necessary in the larger picture; methods address how a particular task is carried out. In business, choosing what not to do is presented as equally important as choosing what to do."
+              },
+              {
+                "original": "商界认知的七级能量场",
+                "english": "Seven levels of an “energy field” of business understanding."
+              },
+              {
+                "original": "人和人之间本身就存在着不同层级的运行轨道，本相安无事，但人看不懂背后的本质，仅看外在的优势条件选择了和不同于自身维度空间的人紧密合作，首先不可逾越的就是强大的沟通障碍，鸡同鸭讲，对牛弹琴，始于口角，终于灾祸。",
+                "english": "The text proposes that people operate on different levels or tracks. It warns that choosing close collaborators only by external advantages, without understanding deeper differences, can create severe communication barriers and conflict."
+              },
+              {
+                "original": "很多企业主目前面临的麻烦，多数是在处理前期因战略抉择失误而遗留下来的问题，导致企业主精力始终被“救火”事宜所占据。",
+                "english": "It claims that many business owners’ current problems mostly come from earlier strategic mistakes, leaving their attention absorbed by firefighting."
+              },
+              {
+                "original": "此“模型”让您看透“事”和“情”中的一切矛盾以及人以群分的真相，并深度解码财富的构成成分，一个人此生所具备的财富，所做事业的大小、强弱均在此能量场中全部显现，起点决定终点。",
+                "english": "The programme claims that its model can reveal contradictions in situations and relationships, explain why people group together and decode the components of wealth. It claims that the size and strength of a person’s business and wealth can be seen in this “energy field,” asserting that the starting point determines the destination."
+              },
+              {
+                "original": "明白了人生的终极意义以及活法，才能够决定企业正确的做法，企业经营首先解决的是做什么、和谁做的问题。做什么错了，怎么做都是错。借助“外眼”，企业主在制定战略的时候，因看得明白真切，审时度势，在起点上避开纷扰，精力专注于发展，事业才得以真正扬帆起航、一帆风顺。",
+                "english": "The text argues that understanding life’s meaning and one’s way of living precedes sound business choices. It prioritizes what to do and with whom, saying that execution cannot repair the wrong fundamental choice. It proposes an outside perspective to help owners assess circumstances, avoid distractions at the outset and focus on development."
+              }
+            ]
+          }
+        ],
+        "translated": true,
+        "document": "广明灯.docx",
+        "start": 8,
+        "end": 20
+      },
+      {
+        "heading": "Eight intended audiences",
+        "curatedBlocks": [
+          {
+            "kind": "bilingual",
+            "pairs": [
+              {
+                "original": "八大适用对象",
+                "english": "Eight intended audiences."
+              },
+              {
+                "original": "苦苦寻觅、多方探索, 试过所有的管理办法仍没有找到持续健康发展之道的企业主。",
+                "english": "Business owners who have searched widely and tried every management approach without finding a path to sustained, healthy development."
+              },
+              {
+                "original": "已经走过激情澎湃的创业期, 正在寻求突破转型期或上升期的企业主。",
+                "english": "Owners who have passed the passionate startup stage and seek a breakthrough, transition or a new phase of growth."
+              },
+              {
+                "original": "有远大抱负, 致力于利国利民的企业主。",
+                "english": "Owners with far-reaching ambitions who want their work to benefit their country and other people."
+              },
+              {
+                "original": "撞过南墙的、走过弯路的——投过的项目亏损、认准的商机失利, 而开始怀疑人生。",
+                "english": "People who have experienced failed investments or unsuccessful opportunities and have begun to question their direction in life."
+              },
+              {
+                "original": "遭遇信任危机, 营销思路想把“流量”变成“留量”, 提升客户黏性的企业主。",
+                "english": "Owners facing a trust crisis who want to turn passing traffic into lasting customer relationships and stronger loyalty."
+              },
+              {
+                "original": "创始人、董事长、总经理、股东等负责战略决策者。",
+                "english": "Founders, chairpersons, general managers, shareholders and others responsible for strategic decisions."
+              },
+              {
+                "original": "愿意和企业主同心同德的股东、合伙人。",
+                "english": "Shareholders and partners willing to work in alignment with the business owner."
+              },
+              {
+                "original": "关注心性成长, 悟性极高的修行人, 不怨天尤人、能认识到一切困局皆因自己眼界、认知的局限等自身格局导致的。",
+                "english": "People interested in inner cultivation who are willing to examine the limits of their own perspective rather than blame others. The source presents the belief that personal limitations underlie every predicament; this is the programme’s assertion, not an established explanation of all adversity."
+              }
+            ]
+          }
+        ],
+        "translated": true,
+        "document": "广明灯.docx",
+        "start": 20,
+        "end": 29
+      },
+      {
+        "heading": "Nine business situations",
+        "curatedBlocks": [
+          {
+            "kind": "bilingual",
+            "pairs": [
+              {
+                "original": "针对企业主的九大处境",
+                "english": "Nine business situations addressed."
+              },
+              {
+                "original": "面对百年未有之时代变局，物质过剩，产品同质化，营销陷入瓶颈，市场空间越来越小，利润越来越少，看不到未来的方向，企业该何去何从？",
+                "english": "Material abundance, similar products, marketing bottlenecks, shrinking space and margins, and uncertainty about the future direction of the enterprise."
+              },
+              {
+                "original": "现有业务盈利能力减弱、模式老化，新的业务增长又没有找到，销售额徘徊不前，找不到突围之路。",
+                "english": "A weakening existing business or ageing model, with no clear new source of growth and stagnant sales."
+              },
+              {
+                "original": "近年来一直投资失利，项目亏损，导致信心下降，个人能量大不如从前。",
+                "english": "Repeated investment losses and declining confidence or personal energy."
+              },
+              {
+                "original": "家庭关系、股东、合伙人、核心团队等关系缺乏弹性，无人理解。得不到相应的支持，孤军奋战，内心孤独。",
+                "english": "Strained family, shareholder, partner or core-team relationships; lack of understanding and support; and a sense of facing problems alone."
+              },
+              {
+                "original": "对孩子的教育、人才的培养问题都很焦虑，不能深刻洞悉人性，无法因材施教、顺势而为。",
+                "english": "Anxiety about children’s education and talent development, alongside uncertainty about understanding differences and supporting people appropriately."
+              },
+              {
+                "original": "经营模式陈旧，企业管理的方法学过、用过很多，仍没有理想效果。",
+                "english": "An outdated operating model and disappointing results despite trying many management methods."
+              },
+              {
+                "original": "营销成本、人工成本上涨，利润枯竭，业绩停滞不前。",
+                "english": "Rising marketing and labour costs, depleted profits and stalled performance."
+              },
+              {
+                "original": "公司发展战略不清晰，高层思想不统一，基层执行不得力。",
+                "english": "An unclear company strategy, disagreement at senior levels and ineffective execution."
+              },
+              {
+                "original": "发展受限、各种制约、面临转型，不知所措，迷茫困惑。",
+                "english": "Constraints on development and confusion about how to navigate a necessary transition."
+              }
+            ]
+          }
+        ],
+        "translated": true,
+        "document": "广明灯.docx",
+        "start": 29,
+        "end": 39
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "Translation and interpretation limits",
+        "paragraphs": [
+          "The source is a promotional and philosophical overview. Its strong promises and claims about “energy,” destiny and self-responsibility are preserved as the programme’s language; the translation does not endorse them as scientific or clinical findings.",
+          "The five paths, six directions and seven levels are not actually listed. Their headings do not justify inventing a curriculum, a diagnostic ladder or a numerical test. The eight audiences and nine situations above are the lists that were supplied."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "executive-operating-review",
+    "title": "The CEO operating review: 15 areas of responsibility",
+    "summary": "Connect executive responsibilities with evidence, decisions and owners across strategy, finance, people and continuity.",
+    "collection": "leadership-culture",
+    "group": "Leadership practice",
+    "topic": "Business & Management",
+    "takeaway": "A review becomes useful when evidence leads to an owned decision and follow-up.",
+    "steps": [
+      "Choose a review area",
+      "Gather evidence and ask the team",
+      "Identify the decision and accountable owner",
+      "Agree actions and timing",
+      "Revisit outcomes"
+    ],
+    "notes": [
+      "The supplied poster has no visible creator credit. Its repeated CFO references are not universal role-allocation rules; adapt ownership to the organization. Two overlapping innovation prompts and the repeated risk-identification item are consolidated below, with the full source image available."
+    ],
+    "related": [
+      "executive-review-questions",
+      "business-purpose-stakeholders",
+      "ma-process-team",
+      "talent-lifecycle"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Board, ownership and management boundaries",
+        "introduction": "Separate shareholder ownership, board oversight, executive delivery and project/functional management. Exact approvals and responsibilities depend on the organization’s governing documents and jurisdiction.",
+        "document": "Teams & Human Resource.docx",
+        "start": 0,
+        "end": 10
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "executive-review-questions",
+    "title": "Executive review questions: strategy, friction and opportunity",
+    "summary": "Use the thirty supplied management prompts to diagnose a decision rather than score the business against an invented benchmark.",
+    "collection": "leadership-culture",
+    "group": "Leadership practice",
+    "topic": "Business & Management",
+    "takeaway": "Give each management question a review period, evidence and a decision context.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "executive-operating-review",
+      "strategic-reflection-prompts",
+      "reflection-question-bank"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Thirty questions for a management review",
+        "introduction": "Work through the questions in relation to a defined planning horizon. “This year” and “third quarter” are source-relative wording, not current forecasts; record the actual date and period in your own review.",
+        "document": "Self-Questionaires.docx",
+        "start": 0,
+        "end": 32
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "venture-readiness-questions",
+    "title": "Venture and funding readiness: questions before the pitch",
+    "summary": "Examine the problem, market, team, customer economics and reason for financing before choosing a fundraising story.",
+    "collection": "valuation-transactions",
+    "group": "Capital and public markets",
+    "topic": "Finance & Accounting",
+    "takeaway": "Explain why capital is needed and what customer evidence supports the business case.",
+    "steps": [],
+    "notes": [
+      "These are reflection prompts, not an investor approval checklist or a guarantee that a venture should raise capital."
+    ],
+    "related": [
+      "venture-validation",
+      "venture-pitch",
+      "private-capital-stages",
+      "commercial-unit-economics"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Thirty-three questions before seeking capital",
+        "introduction": "Choose the questions that fit the business stage and proposed financing. Customer funding, subscription economics, market scope and defensive position are different issues; do not total yes/no answers into a readiness score.",
+        "document": "Self-Questionaires.docx",
+        "start": 32,
+        "end": 66
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "employee-experience-conversations",
+    "title": "Employee-experience conversations: clarity, resources and growth",
+    "summary": "Discuss working conditions and development with independently written topic guidance, without claiming to administer a validated assessment.",
+    "collection": "people-employee-experience",
+    "group": "Engagement and development",
+    "topic": "Business & Management",
+    "takeaway": "Discuss working conditions without inventing an official assessment score.",
+    "steps": [],
+    "notes": [
+      "The supplied twelve prompts follow Gallup Q12 topics and ordering. This page does not reproduce or administer Q12, offer its scores or benchmarks, or claim Gallup validation. Consult the linked owner for the official instrument."
+    ],
+    "related": [
+      "employee-engagement",
+      "workplace-wellbeing",
+      "feedback-learning-loops"
+    ],
+    "references": [
+      {
+        "title": "Gallup's official Q12 page",
+        "url": "https://www.gallup.com/q12-employee-engagement-survey/"
+      },
+      {
+        "title": "Gallup's Q12 research page",
+        "url": "https://www.gallup.com/workplace/321725/employee-engagement.aspx"
+      },
+      {
+        "title": "Gallup Access product terms",
+        "url": "https://loginq.gallup.com/Home/ProductTerms?clientId=Gallup.IdentityServer"
+      }
+    ],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Twelve themes from the supplied employee prompts",
+        "curatedBlocks": [
+          {
+            "kind": "paragraph",
+            "text": "The supplied notes follow the topic order of Gallup’s Q12. The official source is linked for that instrument; the discussion here is independently worded topic guidance rather than an administered questionnaire or Gallup-validated adaptation."
+          },
+          {
+            "kind": "list",
+            "items": [
+              "Role clarity: shared expectations for the work.",
+              "Resources: access to the tools and conditions needed to contribute.",
+              "Strengths: opportunities to use and develop capabilities.",
+              "Recognition: credible acknowledgement of useful contributions.",
+              "Care and respect: a working relationship in which people matter.",
+              "Development support: access to feedback and encouragement.",
+              "Voice: a fair way to express ideas and concerns.",
+              "Purpose: a clear connection between work and worthwhile outcomes.",
+              "Quality: shared commitment to reliable standards.",
+              "Connection: constructive relationships and belonging.",
+              "Progress: conversations about learning and contribution over time.",
+              "Growth: opportunities to learn and take on useful challenges."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Use these as topics for a respectful conversation, not as twelve scored survey items. No employee ranking, diagnostic threshold, benchmark or assurance of anonymity is inferred."
+          }
+        ],
+        "sourceOnly": {
+          "reason": "Owner-identified Q12 wording is retained as provenance; public content uses independent topic explanations without reproducing/administering the instrument.",
+          "reference": "https://www.gallup.com/q12-employee-engagement-survey/"
+        },
+        "document": "Self-Questionaires.docx",
+        "start": 66,
+        "end": 79
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "leadership-competency-reference",
+    "title": "Leadership competencies: describe behaviour before assigning a rating",
+    "summary": "Organize the supplied competency categories into observable examples and development conversations without an invented overall score.",
+    "collection": "people-employee-experience",
+    "group": "Engagement and development",
+    "topic": "Business & Management",
+    "takeaway": "Describe observable behaviour and context before assigning a judgement.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "talent-lifecycle",
+      "employee-experience-conversations",
+      "feedback-learning-loops"
+    ],
+    "references": [],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Seven categories, one evidence discipline",
+        "headers": [
+          "Category",
+          "Examples in the supplied notes",
+          "Useful evidence"
+        ],
+        "rows": [
+          [
+            "Leadership",
+            "Developing people, respect, vision, accountability",
+            "A concrete team situation and observed action"
+          ],
+          [
+            "Subject matter",
+            "Relevant skills, practice, internal expertise",
+            "An appropriate work sample or explained decision"
+          ],
+          [
+            "Personal",
+            "Integrity, organization, composure, reliability",
+            "Commitments and actions in context"
+          ],
+          [
+            "Intellectual",
+            "Analysis, strategy, innovation, detail",
+            "How assumptions and alternatives were examined"
+          ],
+          [
+            "Motivational",
+            "Initiative, persistence, standards",
+            "Sustained work and response to feedback"
+          ],
+          [
+            "Interpersonal",
+            "Listening, openness, communication, teamwork",
+            "Examples from relevant working relationships"
+          ],
+          [
+            "Technical/functional",
+            "Industry and role knowledge",
+            "Demonstrated capability relevant to the actual role"
+          ]
+        ],
+        "note": "Categories are discussion prompts, not weighted scores or permanent labels."
+      }
+    ],
+    "ranges": [
+      {
+        "heading": "Seven competency categories and behavioural prompts",
+        "introduction": "Ask for observable examples, context and development needs. Some source labels such as “aggressive” are ambiguous; discuss the intended behaviour and its effects rather than rewarding the label. No weighting, validated scale or overall cut-off was supplied.",
+        "document": "Teams & Human Resource.docx",
+        "start": 51,
+        "end": 99
+      },
+      {
+        "heading": "Ability, motivation and opportunity",
+        "introduction": "This one-line performance model is a prompt to examine skills, willingness and conditions that allow contribution. It does not supply a causal coefficient, validated scoring rule or formula for an employee’s output.",
+        "document": "Teams & Human Resource.docx",
+        "start": 386,
+        "end": 387
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "Use evidence instead of a total score",
+        "paragraphs": [
+          "Choose a role and a small number of relevant behaviours. For each, record a concrete example, the work context, what good performance would look like and the support or practice needed. Review changes over time rather than adding unlike categories into a single number."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "cross-cultural-leadership-models",
+    "title": "Cross-cultural leadership: compare Hofstede and GLOBE carefully",
+    "summary": "Keep culture dimensions, reported practices, desired values and leadership expectations distinct from assumptions about individuals.",
+    "collection": "leadership-culture",
+    "group": "Leadership practice",
+    "topic": "Business & Management",
+    "takeaway": "An aggregate cultural comparison cannot determine an individual colleague’s preferences.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "organizational-culture",
+      "workplace-relationships",
+      "team-role-frameworks"
+    ],
+    "references": [
+      {
+        "title": "Hofstede estate's model explanation",
+        "url": "https://geerthofstede.com/culture-geert-hofstede-gert-jan-hofstede/6d-model-of-national-culture/"
+      },
+      {
+        "title": "GLOBE researchers' study overview",
+        "url": "https://www.globeproject.com/study_2004_2007?page_id=data"
+      },
+      {
+        "title": "construct definitions",
+        "url": "https://globeproject.com/data/GLOBE-Dimensions-Definitions-and-Scale-Items.pdf"
+      }
+    ],
+    "visuals": [
+      {
+        "kind": "matrix",
+        "title": "Different models, different constructs",
+        "headers": [
+          "Model",
+          "What is compared",
+          "Use with care"
+        ],
+        "rows": [
+          [
+            "Hofstede",
+            "Power distance; individualism/collectivism; masculinity/femininity; uncertainty avoidance; long/short-term orientation; indulgence/restraint",
+            "Aggregate societal comparisons; not personal abilities or an individual diagnosis"
+          ],
+          [
+            "GLOBE societal dimensions",
+            "Performance; assertiveness; future; humane; institutional collectivism; in-group collectivism; gender egalitarianism; power distance; uncertainty avoidance",
+            "Keep practices (“as is”) distinct from desired values (“should be”)"
+          ],
+          [
+            "GLOBE leadership dimensions",
+            "Charismatic/value-based; team-oriented; participative; humane-oriented; autonomous; self-protective",
+            "Separate leadership expectations from the societal dimension list"
+          ]
+        ],
+        "note": "Historical dimension labels are retained with scope; do not stereotype an individual from a national average."
+      }
+    ],
+    "ranges": [
+      {
+        "heading": "The two supplied culture/leadership models",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "Hofstede’s six societal dimensions and GLOBE’s nine societal dimensions plus six leadership dimensions are different constructs. Use group-level comparisons as questions about context, not predictions of an individual employee.",
+            "The source’s short/long-term orientation wording is misleading: pragmatic adaptation belongs with long-term orientation in the Hofstede model. Uncertainty avoidance is not simply willingness to take a financial risk. The sourced comparison below keeps the models separate."
+          ],
+          "references": []
+        },
+        "document": "Teams & Human Resource.docx",
+        "start": 334,
+        "end": 359
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "Ask before assuming",
+        "paragraphs": [
+          "Hofstede compares aggregate societal dimensions. GLOBE distinguishes reported practices from desired values and separately explores leadership expectations. The scores cannot be swapped between models or used to predict an individual colleague’s preferences. Ask about a real team’s ways of communicating, deciding and resolving disagreement."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "team-role-frameworks",
+    "title": "Team roles and coordination: compare contributions and dysfunctions",
+    "summary": "Use Belbin, Lencioni and the supplied team distinctions as different discussion lenses rather than a single personality or team score.",
+    "collection": "people-employee-experience",
+    "group": "Engagement and development",
+    "topic": "Business & Management",
+    "takeaway": "Development stages, behavioural contributions and team obstacles are different lenses.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "high-performance-teams",
+      "project-team-development",
+      "leadership-competency-reference"
+    ],
+    "references": [
+      {
+        "title": "Belbin's official role guide",
+        "url": "https://www.belbin.com/about/belbin-team-roles"
+      },
+      {
+        "title": "The Table Group's original model overview",
+        "url": "https://files.tablegroup.com/wp-content/uploads/2020/12/11224029/FiveDysfunctions.pdf"
+      }
+    ],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Collaboration, dysfunctions and nine contributions",
+        "introduction": "Cooperative/collaborative are used as source distinctions, not universal definitions of every team. Keep the five dysfunctions and nine Belbin contributions separate from the team-development stages already covered elsewhere.",
+        "document": "Teams & Human Resource.docx",
+        "start": 367,
+        "end": 386
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "Keep the lenses distinct",
+        "paragraphs": [
+          "Tuckman concerns development over time; Belbin concerns behavioural contributions; Lencioni concerns obstacles to collective work. A person can make several contributions and a team does not need nine people to discuss nine roles. None of these short notes provides a validated local scoring system."
+        ],
+        "links": [
+          {
+            "slug": "project-team-development",
+            "label": "Read the existing team-development stages"
+          },
+          {
+            "slug": "high-performance-teams",
+            "label": "Review shared goals and team conditions"
+          }
+        ]
+      },
+      {
+        "heading": "A contribution vocabulary and an obstacle vocabulary",
+        "paragraphs": [
+          "Belbin’s nine contributions are Resource Investigator, Teamworker, Co-ordinator, Plant, Monitor Evaluator, Specialist, Shaper, Implementer and Completer Finisher. Discuss the behaviours the task needs; a person need not be confined to one role.",
+          "Lencioni’s five dysfunctions are absence of trust, fear of conflict, lack of commitment, avoidance of accountability and inattention to results. The constructive discussion concerns admitting difficulties, debating ideas, agreeing commitments, reviewing behaviour and attending to shared outcomes. No diagnostic cut-off is supplied."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "leadership-models-comparison",
+    "title": "Leadership models: transformation, service and emergent change",
+    "summary": "Compare the supplied leadership frameworks by the question each asks and the behaviours it highlights.",
+    "collection": "leadership-culture",
+    "group": "Leadership practice",
+    "topic": "Business & Management",
+    "takeaway": "Ask which behaviours a model highlights and which claims its evidence actually supports.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "leadership-management",
+      "leadership-behaviors",
+      "cross-cultural-leadership-models"
+    ],
+    "references": [
+      {
+        "title": "Mind Garden, the instrument publisher, explains the components and lineage",
+        "url": "https://www.mindgarden.com/documents/TransformationalLeadership.pdf"
+      },
+      {
+        "title": "Bass's 1990 paper",
+        "url": "https://doi.org/10.1016/0090-2616(90)90061-S"
+      },
+      {
+        "title": "Spears's own account",
+        "url": "https://spearscenter.org/ten-characteristics-of-servant-leadership/"
+      },
+      {
+        "title": "his university-published article",
+        "url": "https://www.regent.edu/journal/journal-of-virtues-leadership/character-and-servant-leadership-ten-characteristics-of-effective-caring-leaders/"
+      },
+      {
+        "title": "Collins on the Hedgehog Concept",
+        "url": "https://www.jimcollins.com/concepts/the-hedgehog-concept.html"
+      },
+      {
+        "title": "Collins on Level 5 Leadership",
+        "url": "https://www.jimcollins.com/concepts/level-five-leadership.html"
+      }
+    ],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Leadership progression, humility and resolve",
+        "introduction": "The supplied progression moves from individual contribution to organizational leadership and includes reflection, debate and accountability. Use it as an attributed framework discussion, not a score proving someone’s level.",
+        "document": "Teams & Human Resource.docx",
+        "start": 24,
+        "end": 43
+      },
+      {
+        "heading": "Transformational leadership as a general description",
+        "introduction": "The source emphasizes inspiring new approaches. The more specific four-component framework is distinguished later in this guide.",
+        "document": "Teams & Human Resource.docx",
+        "start": 43,
+        "end": 45
+      },
+      {
+        "heading": "Transformational and servant-leadership themes",
+        "introduction": "The four Bass components and ten Spears characteristics answer different questions and should not be combined into one score. The source’s “rust” wording is a typographical error, not a definition of inspirational motivation.",
+        "document": "Teams & Human Resource.docx",
+        "start": 394,
+        "end": 410
+      },
+      {
+        "heading": "Leadership as an emergent process",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The brief attributed systems account proposes disequilibrium, amplifying actions, self-organization and stabilizing feedback. It is not enough to validate a predictive organizational model. Explain the proposed lens without asserting that disruption inevitably creates a desirable new order."
+          ],
+          "references": []
+        },
+        "document": "Teams & Human Resource.docx",
+        "start": 410,
+        "end": 415
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "Four components and ten characteristics",
+        "paragraphs": [
+          "Transformational leadership distinguishes idealized influence, inspirational motivation, intellectual stimulation and individualized consideration. Examples are setting an ethical example, connecting work to purpose, questioning assumptions and developing others. This page is separate from any licensed leadership questionnaire.",
+          "Spears’s servant-leadership account names listening, empathy, healing, awareness, persuasion, conceptualization, foresight, stewardship, commitment to people’s growth and community. “Healing” is a relational theme here, not a medical claim."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "delegation-decision-rights",
+    "title": "Delegation and decision rights: authority with clear handoffs",
+    "summary": "Distinguish delegation direction, capability, decision ownership and accountability before handing work to someone else.",
+    "collection": "operations-performance",
+    "group": "Operating practices",
+    "topic": "Business & Management",
+    "takeaway": "Agree authority, resources, expectations and escalation alongside the assignment.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "rasci-responsibilities",
+      "leadership-management",
+      "meeting-design-playbook"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Delegation direction and capability",
+        "introduction": "Name who owns the decision, who does the work, what resources are available and what an escalation looks like. The source’s cycle and team labels are prompts rather than a complete scheduling or authority procedure.",
+        "document": "Teams & Human Resource.docx",
+        "start": 175,
+        "end": 189
+      },
+      {
+        "heading": "Decision ownership, reflection and execution",
+        "introduction": "Separate boss-decides, consultation, delegated individual ownership and collective decisions. The DEEP heading has no supplied expansion; retain the stated reflection/data/alternatives/review sequence without inventing its acronym or a validated decision score.",
+        "document": "Teams & Human Resource.docx",
+        "start": 260,
+        "end": 281
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "meeting-design-playbook",
+    "title": "Meeting design: decide together or communicate asynchronously?",
+    "summary": "Choose the interaction needed, the people who can contribute and a clear completion condition before scheduling a meeting.",
+    "collection": "operations-performance",
+    "group": "Operating practices",
+    "topic": "Business & Management",
+    "takeaway": "Match the interaction to the required outcome before inviting people.",
+    "steps": [
+      "State the outcome",
+      "Choose synchronous or asynchronous work",
+      "Invite needed contributors",
+      "Plan process and time",
+      "Record decisions and owners"
+    ],
+    "notes": [],
+    "related": [
+      "project-communication",
+      "delegation-decision-rights",
+      "clear-communication"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Offsite preparation and facilitation",
+        "introduction": "Protect the session from ordinary work, prepare participants, choose contributors for insight and allow enough time. Clarify what must be decided rather than treating an offsite itself as an outcome.",
+        "document": "Teams & Human Resource.docx",
+        "start": 156,
+        "end": 162
+      },
+      {
+        "heading": "Meeting costs and unsupported statistics",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "Salary, preparation, travel, delayed delivery and attention are plausible cost categories to estimate for an actual meeting. The source’s 20%, 40%, 50% and 15% assertions and two-days-per-week claim lack a dated sample and should not be presented as current benchmarks.",
+            "Decide what must happen synchronously and compare the cost with the expected decision or learning benefit; do not infer a precise cost saving from these unsupported percentages."
+          ],
+          "references": []
+        },
+        "document": "Teams & Human Resource.docx",
+        "start": 189,
+        "end": 207
+      },
+      {
+        "heading": "Choose, structure and facilitate the interaction",
+        "introduction": "The source distinguishes discussion from broadcast, proposes OPPT (outcome, process, participation, timing), and lists participation techniques. Apply the technique to context: an invitation, break or subgroup can help, whereas attendance penalties or calling on people should not override accessibility or respectful participation.",
+        "document": "Teams & Human Resource.docx",
+        "start": 207,
+        "end": 260
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "A compact meeting record",
+        "paragraphs": [
+          "Before: state the required decision or learning outcome, preparation and participants. During: make the process and time boundary clear and invite contributions in an appropriate way. After: record the decision, owner, action, date and anything that needs a separate conversation."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "trust-accountability-practice",
+    "title": "Trust and accountability: make commitments observable",
+    "summary": "Connect clarity, competence, contribution and consistent follow-through without treating trust as a guaranteed financial multiplier.",
+    "collection": "leadership-culture",
+    "group": "Leadership practice",
+    "topic": "Business & Management",
+    "takeaway": "Make commitments reviewable through clear ownership, resources, timing and evidence.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "workplace-relationships",
+      "leadership-behaviors",
+      "delegation-decision-rights"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Seeing problems and accepting feedback",
+        "introduction": "Welcome difficult conversations, examine evidence and link an observation to an agreed result. Removing blame does not remove responsibility for repairing a problem.",
+        "document": "Teams & Human Resource.docx",
+        "start": 143,
+        "end": 148
+      },
+      {
+        "heading": "Trust, evidence and consistent contribution",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The source lists potential effects of trust and practices such as clarity, compassion, competence and consistency. The assertion that low trust doubles business cost has no supplied dataset or model and is not a numerical rule.",
+            "The last lines run several labels together. Their themes can support a discussion of contribution and follow-through, but no missing formal taxonomy or causal result is inferred."
+          ],
+          "references": []
+        },
+        "document": "Teams & Human Resource.docx",
+        "start": 281,
+        "end": 311
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "Make a commitment reviewable",
+        "paragraphs": [
+          "State what is promised, by whom, with what resources, by when and how a problem can be raised. Review whether the promise was fulfilled and what changed; a general feeling of trust is not a substitute for evidence or appropriate controls."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "strategy-five-ps",
+    "title": "Five ways to describe strategy: plan, pattern, position, perspective and ploy",
+    "summary": "Use the supplied five-P list to ask whether a strategy is an intention, an observed pattern or a relationship to its environment.",
+    "collection": "strategy-growth",
+    "group": "Strategy practice",
+    "topic": "Business & Management",
+    "takeaway": "Make clear whether strategy means an intention, an observed pattern or a relationship to the environment.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "strategy-perspectives",
+      "strategy-foundations",
+      "strategic-reflection-prompts"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "The supplied five-P vocabulary",
+        "introduction": "These are different ways of describing strategy, not five steps that must be completed in order.",
+        "document": "Marketing.docx",
+        "start": 78,
+        "end": 84
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "sharing-stepps-framework",
+    "title": "Why people share: the STEPPS discussion framework",
+    "summary": "Explore social currency, triggers, emotion, public visibility, practical value and stories when planning shareable communication.",
+    "collection": "marketing-strategy",
+    "group": "Marketing practice",
+    "topic": "Business & Management",
+    "takeaway": "Ask why someone would share and what useful value the audience receives.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "marketing-communications",
+      "brand-experience",
+      "marketing-planning"
+    ],
+    "references": [
+      {
+        "title": "Berger's own explanation",
+        "url": "https://jonahberger.com/how-to-trigger-word-of-mouth/"
+      },
+      {
+        "title": "official book page",
+        "url": "https://jonahberger.com/books/contagious/"
+      }
+    ],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "The six supplied sharing themes",
+        "introduction": "The examples illustrate possible mechanisms to discuss. Their anecdotes do not establish that every airline or platform follows the quoted incentive policy.",
+        "document": "Marketing.docx",
+        "start": 227,
+        "end": 234
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "Apply the six questions to a real message",
+        "paragraphs": [
+          "Social currency: what does sharing communicate about the person? Triggers: what makes the subject come to mind? Emotion: what response makes people want to pass it on? Public visibility: how can behaviour be observed? Practical value: what useful help is offered? Stories: how does a narrative carry the message? These are planning lenses, not a formula guaranteeing virality."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "platform-launch-playbook",
+    "title": "Launching a two-sided platform: eight ways to start participation",
+    "summary": "Compare the source’s approaches to the chicken-and-egg problem using the first participant group and the value it receives.",
+    "collection": "strategy-growth",
+    "group": "Strategy practice",
+    "topic": "Business & Management",
+    "takeaway": "Provide concrete value for the first participants and a credible bridge to the other side.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "business-model-canvas",
+      "venture-validation",
+      "global-market-entry"
+    ],
+    "references": [
+      {
+        "title": "The three book authors' INSEAD article, 29 July 2016",
+        "url": "https://knowledge.insead.edu/entrepreneurship/eight-ways-launch-successful-platform-business"
+      }
+    ],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "The eight supplied platform-launch approaches",
+        "introduction": "Choose which side receives value first and how that value attracts the next participants. The examples are historical; strategy fit requires a current market and unit-economics check.",
+        "document": "Marketing.docx",
+        "start": 264,
+        "end": 273
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "What each approach starts with",
+        "paragraphs": [
+          "Follow-the-rabbit demonstrates an already valuable example. Piggyback draws on an existing platform or audience. Seeding supplies initial value or participation. Marquee attracts an important anchor participant. Single-side offers standalone utility before connecting sides. Producer evangelism lets producers bring their audiences. Big-bang adoption concentrates launch attention. Micromarket builds density in a small initial market.",
+          "The eight approaches match the authors’ Platform Revolution account in the linked 2016 INSEAD article. Do not confuse platform piggybacking with international-distribution piggybacking; the context and constraints differ."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "sales-ethics-examples",
+    "title": "Value selling and misleading offers: examine the examples",
+    "summary": "Read the collection’s performance-zone labels, dead-donkey story and bundled-offer example as prompts for critical judgment.",
+    "collection": "sales-playbook",
+    "group": "Sales & customer relationships",
+    "topic": "Business & Management",
+    "takeaway": "Read the collection’s performance-zone labels, dead-donkey story and bundled-offer example as prompts for critical judgment.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Match the offer to the need",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The source supplies buying/selling and familiarity anecdotes. Their origin and factual details are unverified; some language relies on dated cultural stereotypes. Use the underlying question—does the offer solve the buyer’s actual need?—without presenting these stories as evidence about a group of people."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 103,
+        "end": 110
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "sales-ethics-examples"
+  },
+  {
+    "slug": "investment-behavior-returns",
+    "title": "Investing maxims, decision behavior and compounded returns",
+    "summary": "Read the supplied investment observations as prompts for evidence, cost awareness and goal-focused decisions, with claims separated from financial identities.",
+    "collection": "investing-portfolio-management",
+    "group": "Risk, evidence & research",
+    "topic": "Finance & Accounting",
+    "takeaway": "Read the supplied investment observations as prompts for evidence, cost awareness and goal-focused decisions, with claims separated from financial identities.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "A value-addition and wealth parable",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The soybean example illustrates different processing and business models, not investment returns on comparable cash flows. Its dollar amounts, costs, risks and time horizons are unspecified. The claims about rich/poor behaviour and guaranteed effects of mindset are not established by the anecdote."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 110,
+        "end": 111
+      },
+      {
+        "heading": "An attributed compound-interest saying",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The Einstein attribution is unverified. Compounding depends on the rate, time, contributions, costs and risks; the saying does not establish a particular investment outcome."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 115,
+        "end": 116
+      },
+      {
+        "heading": "A bank aphorism",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "This is a rhetorical statement about credit access, not a literal description of every lender’s eligibility or underwriting criteria."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 403,
+        "end": 404
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "investment-behavior-returns"
+  },
+  {
+    "slug": "interpersonal-influence",
+    "title": "Everyday influence: interest, appreciation and listening",
+    "summary": "Read six interpersonal practices associated in the notes with winning friends and influencing people.",
+    "collection": "communication-personal-development",
+    "group": "Communication & influence",
+    "topic": "Communication & Personal Development",
+    "takeaway": "Read six interpersonal practices associated in the notes with winning friends and influencing people.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Presence, nonverbal cues and storytelling",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The source proposes observing presence, voice, nonverbal communication and stories. Avoid assuming that a cue reveals someone’s unconscious state or that a deep voice guarantees authority. Ask for clarification and use respectful, transparent communication."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 116,
+        "end": 125
+      },
+      {
+        "heading": "Recognition and attentive listening",
+        "introduction": "The distinct practice details are pausing, asking for clarification and paraphrasing. Appreciation and approval should remain sincere, rather than be tools for manufacturing dependence.",
+        "document": "Coaching.docx",
+        "start": 389,
+        "end": 402
+      },
+      {
+        "heading": "Interest, enthusiasm and treating people as important",
+        "introduction": "Use sincere appreciation and careful attention; do not confuse making people feel valued with agreeing to every request.",
+        "document": "Coaching.docx",
+        "start": 457,
+        "end": 461
+      },
+      {
+        "heading": "Practical ways to make and maintain contact",
+        "introduction": "The additional examples concern introductions, pronunciation, personal follow-up and considerate contact. Adapt them to privacy and the relationship rather than collecting personal details unnecessarily.",
+        "document": "Coaching.docx",
+        "start": 461,
+        "end": 468
+      },
+      {
+        "heading": "Canonical explanation",
+        "coveredBy": {
+          "slug": "interpersonal-influence",
+          "section": "section-1",
+          "reason": "Existing interest, appreciation and listening principles already cover respecting differences and avoiding unsolicited reform of others."
+        },
+        "document": "Coaching.docx",
+        "start": 468,
+        "end": 471
+      },
+      {
+        "heading": "Canonical explanation",
+        "coveredBy": {
+          "slug": "interpersonal-influence",
+          "section": "section-1",
+          "reason": "The existing canonical reading covers making others feel important; the Mary Kay attribution is unverified and adds no distinct practice."
+        },
+        "document": "Coaching.docx",
+        "start": 500,
+        "end": 501
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "interpersonal-influence"
+  },
+  {
+    "slug": "clear-communication",
+    "title": "Clear communication: the seven Cs and visual presentation",
+    "summary": "Connect coherent, clear, concise, correct, complete, courteous and concrete messages with the supplied presentation-design prompts.",
+    "collection": "",
+    "group": "Communication & influence",
+    "topic": "Communication & Personal Development",
+    "takeaway": "Connect coherent, clear, concise, correct, complete, courteous and concrete messages with the supplied presentation-design prompts.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Action language and implied commitment",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "Specific verbs can make an action clearer, but forceful language is not automatically more accurate. Expressions such as “as my client” or “with your approval” should follow actual agreement, not manufacture consent. Positive language must leave room for honest disagreement and uncertainty."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 193,
+        "end": 223
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "clear-communication"
+  },
+  {
+    "slug": "personal-productivity",
+    "title": "Personal productivity: capture tasks and build habits",
+    "summary": "Explore the two-minute rule, GTD, a daily habit chain, Parkinson’s Law and the big-rocks approach.",
+    "collection": "",
+    "group": "Personal productivity & priorities",
+    "topic": "Communication & Personal Development",
+    "takeaway": "Explore the two-minute rule, GTD, a daily habit chain, Parkinson’s Law and the big-rocks approach.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "coaching-reflective-practice"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "A daily progress review",
+        "introduction": "A scheduled short review can record what changed and what comes next. The 5pm reminder is an example to adapt, not a prescribed time for everyone.",
+        "document": "Coaching.docx",
+        "start": 223,
+        "end": 225
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "personal-productivity"
+  },
+  {
+    "slug": "feedback-awareness",
+    "title": "Feedback and awareness: a supplied reflection matrix",
+    "summary": "Explore a two-by-two comparison of what you and other people know, with the source’s feedback labels and additional reflection words.",
+    "collection": "communication-personal-development",
+    "group": "Communication & influence",
+    "topic": "Communication & Personal Development",
+    "takeaway": "Explore a two-by-two comparison of what you and other people know, with the source’s feedback labels and additional reflection words.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [
+      {
+        "title": "Joseph Luft's later author-written explanation, reproduced scan",
+        "url": "https://static1.squarespace.com/static/572d003b40261d2ef97e5b0b/t/5ca20f68e2c48320572e81e7/1554124653572/Luft%2BIngham%2Bdocument.pdf"
+      }
+    ],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Johari as a feedback reference",
+        "introduction": "The upload names a relationship-awareness framework but supplies no assessment items or scoring rules. Use feedback voluntarily; do not force personal disclosure.",
+        "document": "Coaching.docx",
+        "start": 303,
+        "end": 304
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "A named reference alongside the supplied matrix",
+        "paragraphs": [
+          "The Johari Window is associated with Joseph Luft and Harry Ingham. A later author-written account discusses areas known or unknown to oneself and to others, and cautions against forced disclosure. The earlier matrix in this guide has its own supplied labels; it has not been silently replaced by a canonical Johari diagram. The original 1955 proceedings were not independently accessed."
+        ]
+      }
+    ],
+    "appendTo": "feedback-awareness"
+  },
+  {
+    "slug": "risk-management",
+    "title": "Risk management: prioritize uncertainty and response",
+    "summary": "Identify risks, assess probability and impact, prioritize responses and revisit changing conditions.",
+    "collection": "operations-performance",
+    "group": "Risk & resilience",
+    "topic": "Business & Management",
+    "takeaway": "Identify risks, assess probability and impact, prioritize responses and revisit changing conditions.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Six broad crisis scenarios",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "These are scenario labels—food, climate/disease, air, war, economic collapse and oceans—not dated predictions or established outcomes. The supplied list offers no probabilities, underlying datasets or source studies."
+          ],
+          "references": []
+        },
+        "document": "Coaching.docx",
+        "start": 348,
+        "end": 355
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "risk-management"
+  },
+  {
+    "slug": "value-proposition-design",
+    "title": "Value propositions: connect customer jobs with the offer",
+    "summary": "Read the benefits-versus-price comparison and the supplied customer-profile/value-map example.",
+    "collection": "marketing-strategy",
+    "group": "Customers & positioning",
+    "topic": "Business & Management",
+    "takeaway": "Read the benefits-versus-price comparison and the supplied customer-profile/value-map example.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Differentiate an offer and substantiate it",
+        "introduction": "Distinguish a selling point from a reason the offer solves a customer problem. Use evidence, a defined audience and a clear comparison rather than relying on a memorable label alone.",
+        "document": "Marketing.docx",
+        "start": 0,
+        "end": 8
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "value-proposition-design"
+  },
+  {
+    "slug": "five-forces",
+    "title": "Porter’s Five Forces: assess industry pressure",
+    "summary": "Examine rivalry, buyers, suppliers, entry and substitutes, with detailed indicators, applications and limitations.",
+    "collection": "strategy-growth",
+    "group": "Markets & competition",
+    "topic": "Business & Management",
+    "takeaway": "Examine rivalry, buyers, suppliers, entry and substitutes, with detailed indicators, applications and limitations.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Canonical explanation",
+        "coveredBy": {
+          "slug": "five-forces",
+          "section": "section-1",
+          "reason": "The competitive-analysis shorthand is covered by the existing five-forces explanation; “existing customers” is not repeated as a correctly named competitive force."
+        },
+        "document": "Marketing.docx",
+        "start": 8,
+        "end": 13
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "five-forces"
+  },
+  {
+    "slug": "market-segmentation",
+    "title": "Market segmentation: find meaningful differences",
+    "summary": "Compare geographic, demographic, behavioral and needs-based ways to understand customer groups.",
+    "collection": "marketing-strategy",
+    "group": "Customers & positioning",
+    "topic": "Business & Management",
+    "takeaway": "Compare geographic, demographic, behavioral and needs-based ways to understand customer groups.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Canonical explanation",
+        "coveredBy": {
+          "slug": "market-segmentation",
+          "section": "section-1",
+          "reason": "The existing segmentation guide covers profiling, defining a market and meaningful customer differences."
+        },
+        "document": "Marketing.docx",
+        "start": 13,
+        "end": 17
+      },
+      {
+        "heading": "Canonical explanation",
+        "coveredBy": {
+          "slug": "market-segmentation",
+          "section": "section-1",
+          "reason": "The canonical guide already covers geographic, demographic and psychographic segmentation."
+        },
+        "document": "Marketing.docx",
+        "start": 292,
+        "end": 296
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "market-segmentation"
+  },
+  {
+    "slug": "marketing-planning",
+    "title": "Marketing plans: turn analysis into accountable action",
+    "summary": "Use the supplied plan outline, positioning proforma and implementation/control diagram together.",
+    "collection": "marketing-strategy",
+    "group": "Planning & international markets",
+    "topic": "Business & Management",
+    "takeaway": "Use the supplied plan outline, positioning proforma and implementation/control diagram together.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Connect acquisition strategy with a marketing plan",
+        "introduction": "Make the goal, intended audience, acquisition approach and situation review explicit before listing activities.",
+        "document": "Marketing.docx",
+        "start": 17,
+        "end": 22
+      },
+      {
+        "heading": "Budget, controls and planning flow",
+        "introduction": "Relate the budget to full costs, the product category, audience exposure, other mix choices and measurable goals. Revisit assumptions when the environment or observed results change.",
+        "document": "Marketing.docx",
+        "start": 42,
+        "end": 62
+      },
+      {
+        "heading": "Campaign coordination and a multidimensional scorecard",
+        "introduction": "Connect assessment, research, budget, audiences, milestones, campaign work, project coordination, tracking and review. Keep financial, customer, process and people measures distinct rather than adding incompatible units into a single success score.",
+        "document": "Marketing.docx",
+        "start": 234,
+        "end": 264
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "marketing-planning"
+  },
+  {
+    "slug": "growth-ansoff",
+    "title": "Ansoff: choose a direction for growth",
+    "summary": "Compare market penetration, product development, market development and diversification, including constraints and risks.",
+    "collection": "strategy-growth",
+    "group": "Growth & innovation",
+    "topic": "Business & Management",
+    "takeaway": "Compare market penetration, product development, market development and diversification, including constraints and risks.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Canonical explanation",
+        "coveredBy": {
+          "slug": "growth-ansoff",
+          "section": "section-1",
+          "reason": "The four growth directions are already explained in the canonical Ansoff guide."
+        },
+        "document": "Marketing.docx",
+        "start": 22,
+        "end": 26
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "growth-ansoff"
+  },
+  {
+    "slug": "strategy-evaluation",
+    "title": "Evaluate strategy: suitability, acceptability and feasibility",
+    "summary": "Test strategic fit, stakeholder expectations and the practical ability to deliver, with detailed questions and funding considerations.",
+    "collection": "strategy-growth",
+    "group": "Decisions & execution",
+    "topic": "Business & Management",
+    "takeaway": "Test strategic fit, stakeholder expectations and the practical ability to deliver, with detailed questions and funding considerations.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Recognize weak strategy statements",
+        "introduction": "Test whether a proposal addresses the real problem, distinguishes goals from a strategy and specifies choices. Department-level plans should connect to the broader direction.",
+        "document": "Marketing.docx",
+        "start": 26,
+        "end": 32
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "strategy-evaluation"
+  },
+  {
+    "slug": "market-positioning",
+    "title": "Positioning: category, customer and meaningful difference",
+    "summary": "Combine the marketing and branding notes into one guide to positioning, points of parity and difference.",
+    "collection": "marketing-strategy",
+    "group": "Customers & positioning",
+    "topic": "Business & Management",
+    "takeaway": "Combine the marketing and branding notes into one guide to positioning, points of parity and difference.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Positioning and service layers",
+        "introduction": "Explain the relevance, difference and value of the offer, distinguishing core, differentiated, custom and convenience services.",
+        "document": "Marketing.docx",
+        "start": 32,
+        "end": 42
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "market-positioning"
+  },
+  {
+    "slug": "marketing-mix",
+    "title": "The marketing mix: coordinate the four Ps and service extensions",
+    "summary": "Connect product, price, place and promotion with people, process and physical evidence.",
+    "collection": "marketing-strategy",
+    "group": "Marketing foundations",
+    "topic": "Business & Management",
+    "takeaway": "Connect product, price, place and promotion with people, process and physical evidence.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "An extended fifteen-P prompt list",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The source extends the familiar marketing-mix vocabulary to fifteen prompts, including privacy, participation and networks. This is a supplied checklist, not one universally standardized fifteen-P model. Use the existing four-P/service-extension explanation as the anchor and add only the prompts relevant to a specific decision."
+          ],
+          "references": []
+        },
+        "document": "Marketing.docx",
+        "start": 62,
+        "end": 78
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "marketing-mix"
+  },
+  {
+    "slug": "organizational-alignment",
+    "title": "McKinsey 7S: check organizational alignment",
+    "summary": "Review strategy, structure, systems, skills, style, staff and shared values as connected elements.",
+    "collection": "leadership-culture",
+    "group": "Teams & organizational alignment",
+    "topic": "Business & Management",
+    "takeaway": "Review strategy, structure, systems, skills, style, staff and shared values as connected elements.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Canonical explanation",
+        "coveredBy": {
+          "slug": "organizational-alignment",
+          "section": "section-1",
+          "reason": "The seven-S list is already represented, including shared values; no duplicate framework article is needed."
+        },
+        "document": "Marketing.docx",
+        "start": 84,
+        "end": 92
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "organizational-alignment"
+  },
+  {
+    "slug": "brand-foundations",
+    "title": "Brands: identity, associations and customer meaning",
+    "summary": "Distinguish names, marks, products and brands and understand their role for customers and organizations.",
+    "collection": "brand-strategy",
+    "group": "Brand foundations",
+    "topic": "Business & Management",
+    "takeaway": "Distinguish names, marks, products and brands and understand their role for customers and organizations.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Brand promises, benefits and emotional associations",
+        "introduction": "Treat proposed benefits such as premium pricing, loyalty or lower selling cost as hypotheses to examine. Curiosity, belonging, warmth and trust are message/experience themes; emotion should not replace truthful substantiation.",
+        "document": "Marketing.docx",
+        "start": 92,
+        "end": 125
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "brand-foundations"
+  },
+  {
+    "slug": "marketing-communications",
+    "title": "Marketing communications: message, mix, budget and evaluation",
+    "summary": "Coordinate communication objectives, tools, audiences, budgets and measurement.",
+    "collection": "marketing-strategy",
+    "group": "Communications & digital",
+    "topic": "Business & Management",
+    "takeaway": "Coordinate communication objectives, tools, audiences, budgets and measurement.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Reach, frequency and unsupported exposure rules",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "Reach counts the people in a defined audience; frequency concerns exposures over a defined period. The source supplies no dated study for “seven times” or daily advertisement counts, so these are not universal thresholds or current benchmarks."
+          ],
+          "references": []
+        },
+        "document": "Marketing.docx",
+        "start": 125,
+        "end": 128
+      },
+      {
+        "heading": "Changing patterns of digital communication",
+        "introduction": "The source contrasts push/pull, one-to-many/many-to-many, passive/active engagement and performance-based communication. Real campaigns can mix these patterns; they are not mandatory stages of evolution.",
+        "document": "Marketing.docx",
+        "start": 168,
+        "end": 177
+      },
+      {
+        "heading": "The historical social-platform donut analogy",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "This is an old mnemonic for different content conventions, not a current feature guide. It includes products or brands whose status has changed, including Google+, Vine and MySpace. The lesson about audience/context can be discussed without recommending these entries as current channels."
+          ],
+          "references": []
+        },
+        "document": "Marketing.docx",
+        "start": 203,
+        "end": 217
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "marketing-communications"
+  },
+  {
+    "slug": "commercial-unit-economics",
+    "title": "Customer economics: churn, acquisition, retention and recurring revenue",
+    "summary": "Connect customer measures with acquisition cost, recurring-revenue movements and unit economics.",
+    "collection": "financial-performance",
+    "group": "Commercial & subscription metrics",
+    "topic": "Finance & Accounting",
+    "takeaway": "Connect customer measures with acquisition cost, recurring-revenue movements and unit economics.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Reconcile the source’s marketing formulas",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "Define the cohort, period and numerator before using any rate. Profit divided by customers is profit per customer for the stated period; it is not automatically lifetime value. Acquisition cost uses the matching acquisition spend and new customers acquired.",
+            "The notes use CPC for both click and customer costs. Label cost per click separately from customer acquisition cost. The LV/CPC expression is a scaled ratio with unclear bases, not an automatically valid cash-on-cash investment return.",
+            "Unique visitors divided by matching reach is a rate if the populations and time windows align, not a volume count. The greater-than symbol between click and acquisition costs does not define a conversion formula. Source data and attribution rules are needed before building a calculator."
+          ],
+          "references": []
+        },
+        "document": "Marketing.docx",
+        "start": 128,
+        "end": 143
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "commercial-unit-economics"
+  },
+  {
+    "slug": "marketing-channel-experiments",
+    "title": "Choose marketing channels with a Bullseye shortlist",
+    "summary": "Use the supplied channel inventory to compare possible routes to customers, then narrow a shortlist with evidence.",
+    "collection": "marketing-strategy",
+    "group": "Communications & digital",
+    "topic": "Business & Management",
+    "takeaway": "Use the supplied channel inventory to compare possible routes to customers, then narrow a shortlist with evidence.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Online channel and asset examples",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "Use this list as historical channel/asset examples to shortlist and test, not a current recommendation or a complete platform directory. Legacy product names and availability require checking before choosing a provider. Separate the channel, content asset, promotion and measurement plan."
+          ],
+          "references": []
+        },
+        "document": "Marketing.docx",
+        "start": 143,
+        "end": 168
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "marketing-channel-experiments"
+  },
+  {
+    "slug": "marketing-direct-response",
+    "title": "Direct marketing: mail, telephone, response ads and mobile",
+    "summary": "Compare direct-response channels, their purpose and the relationship between a response and a useful customer conversation.",
+    "collection": "marketing-strategy",
+    "group": "Communications & digital",
+    "topic": "Business & Management",
+    "takeaway": "Compare direct-response channels, their purpose and the relationship between a response and a useful customer conversation.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Offline options and customer-decision models",
+        "introduction": "Match mail, calls, events, advertising, referrals and public relations to audience access and the decision at hand. AIDA, UACCA and the source’s consideration/evaluation/purchase/experience loop are different conceptual models; they need not imply one universal linear path.",
+        "document": "Marketing.docx",
+        "start": 177,
+        "end": 198
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "marketing-direct-response"
+  },
+  {
+    "slug": "customer-systems",
+    "title": "CRM and customer experience: connect insights to service",
+    "summary": "Explore the collection’s CRM and CEM functions across marketing, sales, support, collaboration and customer experience.",
+    "collection": "sales-playbook",
+    "group": "Customer experience & retention",
+    "topic": "Business & Management",
+    "takeaway": "Explore the collection’s CRM and CEM functions across marketing, sales, support, collaboration and customer experience.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "customer-experience-service-design"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Social response and service recovery",
+        "introduction": "Acknowledge mistakes, take an appropriate remedy, respond to appreciation and sustain ordinary customer relationships. Timeliness should be matched to context and responsibilities, rather than a promise of instant response to everything.",
+        "document": "Marketing.docx",
+        "start": 198,
+        "end": 203
+      },
+      {
+        "heading": "Feedback loops and touchpoint review",
+        "introduction": "Record interactions and promises, organize the data, evaluate the important gaps and plan the next changes. The listed metric labels require a defined event, population, time window and decision; an “influence” number alone is not a business outcome.",
+        "document": "Marketing.docx",
+        "start": 217,
+        "end": 227
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "customer-systems"
+  },
+  {
+    "slug": "brand-identity",
+    "title": "Brand identity: values, mantra and the identity prism",
+    "summary": "Clarify internal values and positioning language without confusing them with financial brand value.",
+    "collection": "brand-strategy",
+    "group": "Identity & corporate branding",
+    "topic": "Business & Management",
+    "takeaway": "Clarify internal values and positioning language without confusing them with financial brand value.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Logo and design review prompts",
+        "introduction": "Assess simplicity, consistency, memory, distinctiveness and market testing in the context of the whole identity. A logo review is not a substitute for the product or service promise.",
+        "document": "Marketing.docx",
+        "start": 273,
+        "end": 280
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "brand-identity"
+  },
+  {
+    "slug": "marketing-customer-value",
+    "title": "Marketing: create, deliver and capture customer value",
+    "summary": "Connect customer needs, the market offering and organizational goals before choosing promotional tactics.",
+    "collection": "marketing-strategy",
+    "group": "Marketing foundations",
+    "topic": "Business & Management",
+    "takeaway": "Connect customer needs, the market offering and organizational goals before choosing promotional tactics.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "A historical marketing-era shorthand",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The sequence from production through selling, marketing and relationships is a teaching shorthand. Different orientations can coexist; this line does not establish one chronology for every market or organization."
+          ],
+          "references": []
+        },
+        "document": "Marketing.docx",
+        "start": 280,
+        "end": 281
+      },
+      {
+        "heading": "Six relationship-market perspectives",
+        "introduction": "The source extends attention beyond customers to internal, referral, influence, recruitment and supplier/alliance markets. Treat these as stakeholder relationship lenses and make the actual objective explicit.",
+        "document": "Marketing.docx",
+        "start": 285,
+        "end": 292
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "marketing-customer-value"
+  },
+  {
+    "slug": "competitive-positioning",
+    "title": "Cost, differentiation and focused strategies",
+    "summary": "Compare generic strategies, niche positioning, hybrid approaches and the risks of losing a clear basis of advantage.",
+    "collection": "strategy-growth",
+    "group": "Markets & competition",
+    "topic": "Business & Management",
+    "takeaway": "Compare generic strategies, niche positioning, hybrid approaches and the risks of losing a clear basis of advantage.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Canonical explanation",
+        "coveredBy": {
+          "slug": "competitive-positioning",
+          "section": "section-1",
+          "reason": "The existing competitive-positioning guide explains cost leadership, differentiation and focus."
+        },
+        "document": "Marketing.docx",
+        "start": 281,
+        "end": 285
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "competitive-positioning"
+  },
+  {
+    "slug": "product-lifecycle",
+    "title": "Product lifecycles: introduction, growth, maturity and decline",
+    "summary": "Read the source’s sales/profit curves, stage responses and style/fashion/fad distinctions.",
+    "collection": "product-innovation",
+    "group": "Lifecycle & adoption",
+    "topic": "Business & Management",
+    "takeaway": "Read the source’s sales/profit curves, stage responses and style/fashion/fad distinctions.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Canonical explanation",
+        "coveredBy": {
+          "slug": "product-lifecycle",
+          "section": "section-1",
+          "reason": "The existing life-cycle reading supplies the canonical explanation; phase labels are not certain forecasts for a particular product."
+        },
+        "document": "Marketing.docx",
+        "start": 296,
+        "end": 303
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "product-lifecycle"
+  },
+  {
+    "slug": "customer-retention",
+    "title": "Customer retention, referrals and service quality",
+    "summary": "Connect ongoing service, referral conversations, customer-experience design and the five service-quality dimensions.",
+    "collection": "sales-playbook",
+    "group": "Customer experience & retention",
+    "topic": "Business & Management",
+    "takeaway": "Connect ongoing service, referral conversations, customer-experience design and the five service-quality dimensions.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Retention, service standards and long-term value",
+        "introduction": "Relate service quality and relationships to defined retention evidence and expected customer cash flows. A financial valuation needs explicit assumptions; “long-term relationship” alone is not a calculated net present value.",
+        "document": "Marketing.docx",
+        "start": 303,
+        "end": 309
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "customer-retention"
+  },
+  {
+    "slug": "value-chain",
+    "title": "Value chains, networks and outsourcing",
+    "summary": "Trace primary and support activities, inter-firm relationships, profit pools and make-or-buy choices.",
+    "collection": "strategy-growth",
+    "group": "Resources & advantage",
+    "topic": "Business & Management",
+    "takeaway": "Trace primary and support activities, inter-firm relationships, profit pools and make-or-buy choices.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Canonical explanation",
+        "coveredBy": {
+          "slug": "value-chain",
+          "section": "section-1",
+          "reason": "The source repeats the existing support and primary value-chain activities."
+        },
+        "document": "Marketing.docx",
+        "start": 309,
+        "end": 321
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "value-chain"
+  },
+  {
+    "slug": "vrio-resources",
+    "title": "VRIO and VRIN: evaluate resources and advantage",
+    "summary": "Assess value, rarity, imitation difficulty and organizational support, while distinguishing the related non-substitutability test.",
+    "collection": "strategy-growth",
+    "group": "Resources & advantage",
+    "topic": "Business & Management",
+    "takeaway": "Assess value, rarity, imitation difficulty and organizational support, while distinguishing the related non-substitutability test.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Canonical explanation",
+        "coveredBy": {
+          "slug": "vrio-resources",
+          "section": "section-1",
+          "reason": "The four VRIO criteria are already explained in the canonical resource-analysis guide."
+        },
+        "document": "Marketing.docx",
+        "start": 321,
+        "end": 326
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "vrio-resources"
+  },
+  {
+    "slug": "collaborative-filtering-research-note",
+    "title": "Collaborative filtering: a recommendation-system research prompt",
+    "summary": "Understand what the supplied machine-learning label does and does not provide before looking for an implementation.",
+    "collection": "technology",
+    "group": "Models and methods",
+    "topic": "Technology",
+    "takeaway": "The upload supplies a topic label; a useful implementation still needs data and method definitions.",
+    "steps": [],
+    "notes": [
+      "The source supplies only the label, with matrix factorization in parentheses. No data, code, objective function or worked example was provided."
+    ],
+    "related": [
+      "technology"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "What was supplied",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The upload names collaborative filtering and matrix factorization but supplies no implementation or worked example. This Technology research note records the topic and the information needed for a useful follow-up."
+          ],
+          "references": []
+        },
+        "document": "Marketing.docx",
+        "start": 326,
+        "end": 327
+      }
+    ],
+    "editorialSections": [
+      {
+        "heading": "What a useful follow-up would need",
+        "paragraphs": [
+          "A future worked example would need defined users/items/interactions, missing-value meaning, a training objective, evaluation design and data-use constraints. Those details are absent from this upload; no supplied code or dataset has been reconstructed."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "leadership-management",
+    "title": "Leadership and management: direction, delivery and responsibility",
+    "summary": "Compare the work of setting direction with organizing delivery, then examine the behaviors and conditions that support both.",
+    "collection": "leadership-culture",
+    "group": "Leadership practice",
+    "topic": "Business & Management",
+    "takeaway": "Compare the work of setting direction with organizing delivery, then examine the behaviors and conditions that support both.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Six CEO hats and learning from others",
+        "introduction": "The source uses player, coach, architect, engineer, learner and priest as role metaphors. They do not imply religious authority or fixed job boundaries. The salary/politician statement is an unverified incentive observation, not a hiring rule.",
+        "document": "Teams & Human Resource.docx",
+        "start": 10,
+        "end": 24
+      },
+      {
+        "heading": "Management functions, levels and roles",
+        "introduction": "Different levels combine planning, organization, coordination, implementation, learning and communication. The informational/decisional/interpersonal categories are distinct role lenses, not a claim that leadership excludes ordinary management.",
+        "document": "Teams & Human Resource.docx",
+        "start": 311,
+        "end": 334
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "leadership-management"
+  },
+  {
+    "slug": "project-team-development",
+    "title": "Project teams: development, cooperation and performance",
+    "summary": "Compare Tuckman’s stages with punctuated equilibrium and explore practical conditions for cross-functional cooperation.",
+    "collection": "",
+    "group": "Teams, responsibilities & change",
+    "topic": "Project Management",
+    "takeaway": "Compare Tuckman’s stages with punctuated equilibrium and explore practical conditions for cross-functional cooperation.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Canonical explanation",
+        "coveredBy": {
+          "slug": "project-team-development",
+          "section": "section-1",
+          "reason": "The existing guide covers forming, storming, norming, performing and adjourning; the short nicknames add no separate model."
+        },
+        "document": "Teams & Human Resource.docx",
+        "start": 45,
+        "end": 51
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "project-team-development"
+  },
+  {
+    "slug": "talent-lifecycle",
+    "title": "Talent management through organizational change",
+    "summary": "Follow attraction, recruitment, onboarding, development, performance and retention, with change questions for each stage.",
+    "collection": "people-employee-experience",
+    "group": "People systems & talent",
+    "topic": "Business & Management",
+    "takeaway": "Follow attraction, recruitment, onboarding, development, performance and retention, with change questions for each stage.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Culture, communication and the people function",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The notes connect people development, fit, ethics, communication and rewards. The hiring-engine analogy and categorical “hire bigger” quotation are unverified motivational examples, not evidence that the same staffing rule fits every stage. Use explicit capability needs, fair expectations and development support."
+          ],
+          "references": []
+        },
+        "document": "Teams & Human Resource.docx",
+        "start": 99,
+        "end": 116
+      },
+      {
+        "heading": "Talent management and contribution networks",
+        "introduction": "Distinguish reactive vacancy filling, tactical upgrading and strategic capability-building. The doer/supplier/influencer/innovator list describes contributions and contacts, not fixed categories of people.",
+        "document": "Teams & Human Resource.docx",
+        "start": 162,
+        "end": 175
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "talent-lifecycle"
+  },
+  {
+    "slug": "employee-engagement",
+    "title": "Employee engagement: voice, participation and integrity",
+    "summary": "Distinguish satisfaction, motivation, commitment and engagement, then examine participation and four enabling conditions.",
+    "collection": "people-employee-experience",
+    "group": "Employee experience & voice",
+    "topic": "Business & Management",
+    "takeaway": "Distinguish satisfaction, motivation, commitment and engagement, then examine participation and four enabling conditions.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Autonomy, accountability, job design and incentives",
+        "introduction": "Define authority, outcomes, resources and review routines together. The source’s advice to allocate budget to one type of employee is a hypothesis to examine, not an automatic fair or optimal allocation formula.",
+        "document": "Teams & Human Resource.docx",
+        "start": 116,
+        "end": 124
+      },
+      {
+        "heading": "Unattributed engagement percentages",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "The 64%, 68%, 70% and 75% figures have no supplied study date, sample, country or question wording. They are retained as unverified source figures and are not used as current global benchmarks or causal uplift estimates."
+          ],
+          "references": []
+        },
+        "document": "Teams & Human Resource.docx",
+        "start": 130,
+        "end": 135
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "employee-engagement"
+  },
+  {
+    "slug": "economic-schools-thinkers",
+    "title": "Economic schools and thinkers: a comparative reading map",
+    "summary": "Separate schools of explanation from mnemonic labels and incomplete historical attributions.",
+    "collection": "economics-society",
+    "group": "Ideas, institutions & history",
+    "topic": "Economics & Society",
+    "takeaway": "Separate schools of explanation from mnemonic labels and incomplete historical attributions.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "A short unemployment taxonomy",
+        "review": {
+          "status": "Read the source with these limits",
+          "date": "2026-11-09",
+          "paragraphs": [
+            "These are economic labels, not an explanation of every employment change. The source joins “structural” and “political” on one line and gives no definitions or data. Distinguish causes and measurement before treating the list as a complete taxonomy."
+          ],
+          "references": []
+        },
+        "document": "Teams & Human Resource.docx",
+        "start": 124,
+        "end": 130
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "economic-schools-thinkers"
+  },
+  {
+    "slug": "feedback-learning-loops",
+    "title": "Feedback learning loops: coaching, team huddles and systemic change",
+    "summary": "Turn customer signals into individual learning, shared problem solving and changes to recurring systems.",
+    "collection": "operations-performance",
+    "group": "Goals & performance",
+    "topic": "Business & Management",
+    "takeaway": "Turn customer signals into individual learning, shared problem solving and changes to recurring systems.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "A coaching cycle and authority distribution",
+        "introduction": "Recognize the issue, agree a learning plan, explore the problem, try a skill and review feedback. The final sentence about team-centred authority is incomplete in the source and is not filled with invented detail.",
+        "document": "Teams & Human Resource.docx",
+        "start": 135,
+        "end": 143
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "feedback-learning-loops"
+  },
+  {
+    "slug": "workplace-relationships",
+    "title": "Workplace relationships: trust, boundaries and reciprocity",
+    "summary": "Build useful working relationships through listening, thoughtful help, respectful boundaries and constructive disagreement.",
+    "collection": "communication-personal-development",
+    "group": "Communication & influence",
+    "topic": "Communication & Personal Development",
+    "takeaway": "Build useful working relationships through listening, thoughtful help, respectful boundaries and constructive disagreement.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Workplace context and psychological contracts",
+        "introduction": "Distinguish political/legal, demographic, education and globalization context from expectations in a working relationship. Relational and transactional labels describe aspects of an exchange; actual obligations depend on the context and agreement.",
+        "document": "Teams & Human Resource.docx",
+        "start": 359,
+        "end": 367
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "workplace-relationships"
+  },
+  {
+    "slug": "managerial-grid",
+    "title": "The managerial grid: people and production",
+    "summary": "Compare five management styles using concern for people and concern for production, with the original descriptions retained.",
+    "collection": "leadership-culture",
+    "group": "Leadership practice",
+    "topic": "Business & Management",
+    "takeaway": "Compare five management styles using concern for people and concern for production, with the original descriptions retained.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Canonical explanation",
+        "coveredBy": {
+          "slug": "managerial-grid",
+          "section": "section-1",
+          "reason": "The existing managerial-grid reading already explains all five supplied people/task positions."
+        },
+        "document": "Teams & Human Resource.docx",
+        "start": 387,
+        "end": 394
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "managerial-grid"
+  },
+  {
+    "slug": "change-kotter",
+    "title": "Kotter: build support and sustain change",
+    "summary": "Follow the source’s eight-step change sequence from urgency and coalition to sustained organizational practice.",
+    "collection": "organizational-change",
+    "group": "Leading change",
+    "topic": "Business & Management",
+    "takeaway": "Follow the source’s eight-step change sequence from urgency and coalition to sustained organizational practice.",
+    "steps": [],
+    "notes": [],
+    "related": [],
+    "references": [],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "Canonical explanation",
+        "coveredBy": {
+          "slug": "change-kotter",
+          "section": "section-1",
+          "reason": "The canonical Kotter guide already contains the urgency-through-embedding sequence; the supplied wording is mapped there rather than copied into a second article."
+        },
+        "document": "Teams & Human Resource.docx",
+        "start": 415,
+        "end": 424
+      }
+    ],
+    "editorialSections": [],
+    "appendTo": "change-kotter"
+  },
+  {
+    "slug": "cx-proposition-worksheet",
+    "title": "Why will people use this offer?",
+    "summary": "Clarify customer objectives, reasons to choose the offer and the business outcome before designing the experience.",
+    "collection": "customer-experience-service-design",
+    "group": "Understand the customer",
+    "topic": "Business & Management",
+    "takeaway": "Agree on the reasons to choose the offer before designing its touchpoints.",
+    "steps": [],
+    "notes": [
+      "Accessible adaptation of a supplied Methodical 2018 worksheet, checked against its scan. Working content is grouped and lightly rephrased; the original layout, wording and attribution remain available in the supporting image. Blank writing lines are represented by named record fields."
+    ],
+    "related": [
+      "value-proposition-design",
+      "cx-brand-identity-worksheet"
+    ],
+    "references": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ],
+    "visuals": [],
+    "ranges": [
+      {
+        "heading": "About this worksheet series",
+        "introduction": "The supplied document contains thirteen scanned pages. Their complete accessible transcriptions are presented across the linked workflow; the DOCX title itself is preserved as provenance.",
+        "document": "CX Worksheet.docx",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "editorialSections": []
+  },
+  {
+    "slug": "cx-brand-identity-worksheet",
+    "title": "Align the experience with customer identity",
+    "summary": "Explore what choosing an offer communicates about the customer, their values and communities.",
+    "collection": "customer-experience-service-design",
+    "group": "Understand the customer",
+    "topic": "Business & Management",
+    "takeaway": "Ask whose identity is expressed and who is meant to perceive it.",
+    "steps": [],
+    "notes": [
+      "Accessible adaptation of a supplied Methodical 2018 worksheet, checked against its scan. Working content is grouped and lightly rephrased; the original layout, wording and attribution remain available in the supporting image. Blank writing lines are represented by named record fields."
+    ],
+    "related": [
+      "cx-proposition-worksheet",
+      "cx-customer-objectives-worksheet"
+    ],
+    "references": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ],
+    "visuals": [],
+    "ranges": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "cx-customer-objectives-worksheet",
+    "title": "Understand what customers want to achieve",
+    "summary": "Record the stated objective, unspoken motivations and deeper purpose for each customer type.",
+    "collection": "customer-experience-service-design",
+    "group": "Understand the customer",
+    "topic": "Business & Management",
+    "takeaway": "Separate stated objectives, deeper motivations and business goals.",
+    "steps": [],
+    "notes": [
+      "Accessible adaptation of a supplied Methodical 2018 worksheet, checked against its scan. Working content is grouped and lightly rephrased; the original layout, wording and attribution remain available in the supporting image. Blank writing lines are represented by named record fields."
+    ],
+    "related": [
+      "cx-brand-identity-worksheet",
+      "cx-journey-worksheet"
+    ],
+    "references": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ],
+    "visuals": [],
+    "ranges": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "cx-journey-worksheet",
+    "title": "Map where the customer experience starts and ends",
+    "summary": "Describe an end-to-end customer journey, including stages outside the obvious purchase or use moment.",
+    "collection": "customer-experience-service-design",
+    "group": "Map and diagnose",
+    "topic": "Business & Management",
+    "takeaway": "The experience can begin before the business’s first obvious touchpoint.",
+    "steps": [],
+    "notes": [
+      "Accessible adaptation of a supplied Methodical 2018 worksheet, checked against its scan. Working content is grouped and lightly rephrased; the original layout, wording and attribution remain available in the supporting image. Blank writing lines are represented by named record fields."
+    ],
+    "related": [
+      "cx-customer-objectives-worksheet",
+      "cx-stage-tasks-worksheet"
+    ],
+    "references": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ],
+    "visuals": [],
+    "ranges": [],
+    "editorialSections": [
+      {
+        "heading": "A supplied selection, with one visible gap",
+        "paragraphs": [
+          "The legend includes customer control, but there is no separate customer-control worksheet in this archive. The emotion page is marked CH13. These thirteen scans are a supplied selection, not a claimed complete reproduction of the book or original worksheet pack."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "cx-stage-tasks-worksheet",
+    "title": "Break a journey stage into tasks and touchpoints",
+    "summary": "Identify objectives, preconditions, steps and channels for one stage before designing improvements.",
+    "collection": "customer-experience-service-design",
+    "group": "Map and diagnose",
+    "topic": "Business & Management",
+    "takeaway": "Connect each task with its touchpoint and the principles that need attention.",
+    "steps": [],
+    "notes": [
+      "Accessible adaptation of a supplied Methodical 2018 worksheet, checked against its scan. Working content is grouped and lightly rephrased; the original layout, wording and attribution remain available in the supporting image. Blank writing lines are represented by named record fields."
+    ],
+    "related": [
+      "cx-journey-worksheet",
+      "cx-expectations-worksheet"
+    ],
+    "references": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ],
+    "visuals": [],
+    "ranges": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "cx-expectations-worksheet",
+    "title": "Review customer expectations and learned behaviour",
+    "summary": "Compare the expectations a customer brings with the experience you intend to deliver.",
+    "collection": "customer-experience-service-design",
+    "group": "Map and diagnose",
+    "topic": "Business & Management",
+    "takeaway": "Customers arrive with expectations; make the promises of each stage deliberate.",
+    "steps": [],
+    "notes": [
+      "Accessible adaptation of a supplied Methodical 2018 worksheet, checked against its scan. Working content is grouped and lightly rephrased; the original layout, wording and attribution remain available in the supporting image. Blank writing lines are represented by named record fields."
+    ],
+    "related": [
+      "cx-stage-tasks-worksheet",
+      "cx-effort-worksheet"
+    ],
+    "references": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ],
+    "visuals": [],
+    "ranges": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "cx-effort-worksheet",
+    "title": "Reduce customer effort",
+    "summary": "Examine task time, waiting, unnecessary features and language with the customer’s objectives in view.",
+    "collection": "customer-experience-service-design",
+    "group": "Improve the experience",
+    "topic": "Business & Management",
+    "takeaway": "Review time, waiting, features and language in relation to the customer’s goal.",
+    "steps": [],
+    "notes": [
+      "Accessible adaptation of a supplied Methodical 2018 worksheet, checked against its scan. Working content is grouped and lightly rephrased; the original layout, wording and attribution remain available in the supporting image. Blank writing lines are represented by named record fields."
+    ],
+    "related": [
+      "cx-expectations-worksheet",
+      "cx-stress-worksheet"
+    ],
+    "references": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ],
+    "visuals": [],
+    "ranges": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "cx-stress-worksheet",
+    "title": "Reduce stress in a customer journey",
+    "summary": "Consider capability, manageable choice, distinct options and clear reasons for each task.",
+    "collection": "customer-experience-service-design",
+    "group": "Improve the experience",
+    "topic": "Business & Management",
+    "takeaway": "Examine capability, manageable choice and clarity as distinct design questions.",
+    "steps": [],
+    "notes": [
+      "Accessible adaptation of a supplied Methodical 2018 worksheet, checked against its scan. Working content is grouped and lightly rephrased; the original layout, wording and attribution remain available in the supporting image. Blank writing lines are represented by named record fields."
+    ],
+    "related": [
+      "cx-effort-worksheet",
+      "cx-error-prevention-worksheet"
+    ],
+    "references": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ],
+    "visuals": [],
+    "ranges": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "cx-error-prevention-worksheet",
+    "title": "Prevent errors and plan recovery",
+    "summary": "Separate the mistakes that could occur from prevention, detection and recovery strategies.",
+    "collection": "customer-experience-service-design",
+    "group": "Improve the experience",
+    "topic": "Business & Management",
+    "takeaway": "Plan prevention separately from detection and recovery.",
+    "steps": [],
+    "notes": [
+      "Accessible adaptation of a supplied Methodical 2018 worksheet, checked against its scan. Working content is grouped and lightly rephrased; the original layout, wording and attribution remain available in the supporting image. Blank writing lines are represented by named record fields."
+    ],
+    "related": [
+      "cx-stress-worksheet",
+      "cx-sensory-accessibility-worksheet"
+    ],
+    "references": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ],
+    "visuals": [],
+    "ranges": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "cx-sensory-accessibility-worksheet",
+    "title": "Design sensory experience with accessibility",
+    "summary": "Review sensory cues and alternatives so that experience design does not exclude people.",
+    "collection": "customer-experience-service-design",
+    "group": "Improve the experience",
+    "topic": "Business & Management",
+    "takeaway": "A sensory cue is useful only when it is appropriate and accessible.",
+    "steps": [],
+    "notes": [
+      "Accessible adaptation of a supplied Methodical 2018 worksheet, checked against its scan. Working content is grouped and lightly rephrased; the original layout, wording and attribution remain available in the supporting image. Blank writing lines are represented by named record fields."
+    ],
+    "related": [
+      "cx-error-prevention-worksheet",
+      "cx-social-experience-worksheet"
+    ],
+    "references": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ],
+    "visuals": [],
+    "ranges": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "cx-social-experience-worksheet",
+    "title": "Design a constructive social experience",
+    "summary": "Consider interactions, human connection, community and individuality in the customer journey.",
+    "collection": "customer-experience-service-design",
+    "group": "Improve the experience",
+    "topic": "Business & Management",
+    "takeaway": "Respect both social connection and individuality.",
+    "steps": [],
+    "notes": [
+      "Accessible adaptation of a supplied Methodical 2018 worksheet, checked against its scan. Working content is grouped and lightly rephrased; the original layout, wording and attribution remain available in the supporting image. Blank writing lines are represented by named record fields."
+    ],
+    "related": [
+      "cx-sensory-accessibility-worksheet",
+      "cx-emotion-worksheet"
+    ],
+    "references": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ],
+    "visuals": [],
+    "ranges": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "cx-emotion-worksheet",
+    "title": "Connect customer emotions with triggers and responses",
+    "summary": "Make intended emotional outcomes explicit and consider how to avoid negative experiences.",
+    "collection": "customer-experience-service-design",
+    "group": "Improve the experience",
+    "topic": "Business & Management",
+    "takeaway": "Identify the likely trigger before choosing an appropriate response.",
+    "steps": [],
+    "notes": [
+      "Accessible adaptation of a supplied Methodical 2018 worksheet, checked against its scan. Working content is grouped and lightly rephrased; the original layout, wording and attribution remain available in the supporting image. Blank writing lines are represented by named record fields."
+    ],
+    "related": [
+      "cx-social-experience-worksheet",
+      "cx-action-scratchpad"
+    ],
+    "references": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ],
+    "visuals": [],
+    "ranges": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "cx-action-scratchpad",
+    "title": "Bring customer-experience ideas into one action record",
+    "summary": "Consolidate functional requirements, content needs and next actions for a journey stage.",
+    "collection": "customer-experience-service-design",
+    "group": "Plan the work",
+    "topic": "Business & Management",
+    "takeaway": "One stage record can turn insights from several worksheets into useful design actions.",
+    "steps": [],
+    "notes": [
+      "Accessible adaptation of a supplied Methodical 2018 worksheet, checked against its scan. Working content is grouped and lightly rephrased; the original layout, wording and attribution remain available in the supporting image. Blank writing lines are represented by named record fields."
+    ],
+    "related": [
+      "cx-emotion-worksheet",
+      "marketing-planning"
+    ],
+    "references": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ],
+    "visuals": [],
+    "ranges": [],
+    "editorialSections": []
+  },
+  {
+    "slug": "brand-experience",
+    "title": "Brand experience: touchpoints, satisfaction and loyalty",
+    "summary": "Read the experience definitions and the source’s research diagram without turning coefficients into universal predictions.",
+    "collection": "brand-strategy",
+    "group": "Equity & measurement",
+    "topic": "Business & Management",
+    "takeaway": "Read the experience definitions and the source’s research diagram without turning coefficients into universal predictions.",
+    "steps": [],
+    "notes": [],
+    "related": [
+      "customer-experience-service-design"
+    ],
+    "references": [],
+    "visuals": [],
+    "ranges": [],
+    "editorialSections": [],
+    "appendTo": "brand-experience"
+  }
+]

@@ -15,6 +15,7 @@ import { AcademicReadingList } from './academic-reading-list';
 import { AcademicReferenceDirectory } from './academic-reference-directory';
 import academicReferences from '../../../../lib/library/business/academic-references.json';
 import { PricePatternGallery, type PricePanel } from './price-pattern-gallery';
+import { TranscribedSource, type Transcription } from './transcribed-source';
 import styles from './collection-guide.module.css';
 
 type Guide = typeof guides[number];
@@ -28,6 +29,7 @@ export function isCollectionArticle(slug: string) {
 }
 
 function DetailBlock({ block, caption }: { block: Block; caption: string }) {
+  if (block.kind === 'bilingual' && 'pairs' in block && block.pairs) return <div className={styles.bilingual}>{block.pairs.map((pair, i) => <p lang="en" key={i}>{pair.english}</p>)}<details><summary>Read this section in the Chinese original</summary>{block.pairs.map((pair, i) => <p lang="zh-Hans" key={i}>{pair.original}</p>)}</details></div>;
   if (block.kind === 'resources' && 'resources' in block && block.resources) return <ul>{block.resources.map(resource => <li key={resource.href}><a href={resource.href}>{resource.label} →</a></li>)}</ul>;
   if (block.kind === 'academic-readings' && 'referenceIds' in block && block.referenceIds) return <AcademicReadingList ids={block.referenceIds} />;
   if (block.kind === 'reading-links' && 'links' in block && block.links) return <ul>{block.links.map((link) => <li key={link.slug}><Link href={guidePath(link.slug)}>{link.label} →</Link></li>)}</ul>;
@@ -65,6 +67,7 @@ function DetailBlock({ block, caption }: { block: Block; caption: string }) {
 
 type Visual = Pick<Guide['figures'][number], 'title' | 'kind' | 'headers' | 'rows' | 'note'> & {
   sourceImage?: SourceImageRecord;
+  transcription?: Transcription;
   diagram?: RelationshipDiagramData;
   gallery?: PricePanel[];
   plot?: { xLabel: string; yLabel: string; lines: { label: string; path: string }[] };
@@ -81,6 +84,7 @@ function Comparison({ figure }: { figure: Visual }) {
 function Figure({ figure }: { figure: Visual }) {
   return <figure className={styles.figure}>
     <figcaption>{figure.title}</figcaption>
+    {figure.transcription && <TranscribedSource data={figure.transcription} />}
     {figure.gallery && <PricePatternGallery panels={figure.gallery} />}
     {figure.diagram && <><p className={styles.figureNote}>Scroll sideways if needed to explore the diagram. The comparison below contains its full text and relationships.</p><RelationshipDiagram diagram={figure.diagram} title={figure.title} /></>}
     {figure.grid && <svg className={styles.managementGrid} viewBox="0 0 360 330" role="img" aria-label={`${figure.title}. Horizontal axis: ${figure.grid.xLabel}; vertical axis: ${figure.grid.yLabel}. Both run from 1 to 9. The five positions and their descriptions follow in the table.`}>
@@ -100,7 +104,7 @@ function Figure({ figure }: { figure: Visual }) {
       <p className={styles.figureNote}>Vertical axis: {figure.plot.yLabel}. Horizontal axis: {figure.plot.xLabel}.</p>
       <p className={styles.figureNote}>{figure.plot.lines.map((line, i) => `${i === 0 ? 'Solid purple' : 'Dashed teal'}: ${line.label}`).join(' · ')}. Conceptual and unscaled.</p>
     </>}
-    {figure.sourceImage ? <SourceImage source={figure.sourceImage} /> : figure.kind === 'flow' ? <ol className={styles.flow}>{figure.rows.map((row, i) => <li key={i}><span aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>{row[0]}</li>)}</ol>
+    {figure.sourceImage ? (figure.transcription ? <details className={styles.imageDisclosure}><summary>View the source scan, attribution and review notes</summary><SourceImage source={figure.sourceImage} /></details> : <SourceImage source={figure.sourceImage} />) : figure.kind === 'flow' ? <ol className={styles.flow}>{figure.rows.map((row, i) => <li key={i}><span aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>{row[0]}</li>)}</ol>
       : figure.kind === 'matrix' ? <Comparison figure={figure} />
         : figure.kind === 'network' ? <><NetworkConnections /><Comparison figure={figure} /></>
           : figure.kind === 'dots' ? <svg className={styles.dots} viewBox="0 0 220 220" role="img" aria-label={figure.note}>{figure.rows.flatMap((row, ri) => row.map((dot, ci) => <circle key={`${ri}-${ci}`} cx={35 + ci * 150 / (row.length - 1)} cy={35 + ri * 150 / (figure.rows.length - 1)} r="12" fill={dot === 'filled' ? '#6551b8' : 'white'} stroke="#6551b8" strokeWidth="2" />))}</svg>
@@ -131,7 +135,7 @@ export function CollectionGuide({ article, articles, referenceId }: { article: K
   const visuals = guide ? [...guide.figures, ...guide.visuals] : [];
   const metrics = guide?.sections.flatMap((section) => section.blocks.flatMap((block) => 'metric' in block && block.metric ? [block.metric] : [])) ?? [];
   const metricReadings = articles.filter((item) => metrics.some((metric) => metric.related.includes(item.slug))).map(({ slug, title }) => ({ slug, title }));
-  const visualHeading = visuals.some((visual) => 'sourceImage' in visual) ? 'Source images & attribution' : 'Visual explanations';
+  const visualHeading = visuals.some((visual) => 'transcription' in visual && visual.transcription) ? 'Working prompts & source reference' : visuals.some((visual) => 'sourceImage' in visual) ? 'Source images & attribution' : 'Visual explanations';
   const isRitual = guide?.format === 'ritual';
   const chapters = guides.filter((item) => item.collection === (isRitual ? 'freemasonry' : 'art-of-war') && item.format === (isRitual ? 'ritual' : 'chapter'));
   const chapterIndex = chapters.findIndex((item) => item.slug === article.slug);

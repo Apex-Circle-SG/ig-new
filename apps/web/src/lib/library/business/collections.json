@@ -111,6 +111,10 @@
       {
         "name": "Growth and restructuring",
         "description": "Compare ownership changes, cooperative growth and financial restructuring."
+      },
+      {
+        "name": "Strategy practice",
+        "description": "Focused readings and practical discussion prompts for this subject."
       }
     ],
     "journey": [
@@ -220,6 +224,10 @@
       {
         "name": "Planning & international markets",
         "description": "Turn choices into action and assess market-entry differences."
+      },
+      {
+        "name": "Marketing practice",
+        "description": "Focused readings and practical discussion prompts for this subject."
       }
     ],
     "journey": [
@@ -497,6 +505,10 @@
       {
         "name": "Innovation & learning",
         "description": "Connect discovery, experimentation and open innovation with development."
+      },
+      {
+        "name": "Explore focused topics",
+        "description": "Focused learning paths and practical working references."
       }
     ],
     "journey": [
@@ -548,6 +560,15 @@
           {
             "slug": "innovation-pathways",
             "label": "Connect innovation approaches"
+          }
+        ]
+      },
+      {
+        "title": "Continue with a focused practice",
+        "links": [
+          {
+            "slug": "customer-experience-service-design",
+            "label": "Design and review the customer experience"
           }
         ]
       }
@@ -655,6 +676,10 @@
       {
         "name": "Risk & resilience",
         "description": "Identify uncertainty and examine operational trade-offs."
+      },
+      {
+        "name": "Operating practices",
+        "description": "Focused readings and practical discussion prompts for this subject."
       }
     ],
     "journey": [
@@ -751,6 +776,10 @@
       {
         "name": "Personality narratives & metaphors",
         "description": "Humor and cultural narratives, explicitly distinguished from professional or clinical assessments."
+      },
+      {
+        "name": "Explore focused topics",
+        "description": "Focused learning paths and practical working references."
       }
     ],
     "journey": [
@@ -812,6 +841,15 @@
           {
             "slug": "personality-narratives",
             "label": "Explore stories and workplace metaphors"
+          }
+        ]
+      },
+      {
+        "title": "Continue with a focused practice",
+        "links": [
+          {
+            "slug": "coaching-reflective-practice",
+            "label": "Explore coaching and reflective practice"
           }
         ]
       }
@@ -1184,6 +1222,10 @@
       {
         "name": "Systems and operations",
         "description": "Read the existing operating-system and administration guides."
+      },
+      {
+        "name": "Models and methods",
+        "description": "Focused readings and practical discussion prompts for this subject."
       }
     ],
     "journey": [
@@ -1329,6 +1371,10 @@
       {
         "name": "Creative problem solving",
         "description": "Explore contradictions and inventive-thinking references."
+      },
+      {
+        "name": "Decision practice",
+        "description": "Focused readings and practical discussion prompts for this subject."
       }
     ],
     "journey": [
@@ -1411,6 +1457,10 @@
       {
         "name": "Source charts & provenance",
         "description": "Find creator credits, source links, evidence distinctions and unresolved material."
+      },
+      {
+        "name": "Belief and interpretation",
+        "description": "Focused readings and practical discussion prompts for this subject."
       }
     ],
     "journey": [
@@ -1561,6 +1611,10 @@
       {
         "name": "Scientific foundations",
         "description": "Understand nuclei, scientific vocabulary and the evidence needed for a physical claim."
+      },
+      {
+        "name": "Quantum foundations",
+        "description": "Focused readings and practical discussion prompts for this subject."
       }
     ],
     "journey": [
@@ -2346,6 +2400,10 @@
       {
         "name": "Employee experience & voice",
         "description": "Consider engagement, participation, fairness and workplace wellbeing."
+      },
+      {
+        "name": "Engagement and development",
+        "description": "Focused readings and practical discussion prompts for this subject."
       }
     ],
     "journey": [
@@ -2936,6 +2994,10 @@
       {
         "name": "Responsibility in practice",
         "description": "Connect CSR, conduct and case-specific evidence without treating corporate labels as proof."
+      },
+      {
+        "name": "Ethics in practice",
+        "description": "Focused readings and practical discussion prompts for this subject."
       }
     ],
     "journey": [
@@ -3304,6 +3366,189 @@
       "investing-portfolio-management",
       "strategy-growth",
       "project-management"
+    ]
+  },
+  {
+    "slug": "customer-experience-service-design",
+    "title": "Customer Experience & Service Design",
+    "parent": "product-innovation",
+    "topic": "Business & Management",
+    "group": "Explore focused topics",
+    "summary": "Work through the supplied customer-experience worksheets as a connected design process. Read accessible transcriptions, check the original scans and keep customer and business objectives distinct.",
+    "intro": "Work through the supplied customer-experience worksheets as a connected design process. Read accessible transcriptions, check the original scans and keep customer and business objectives distinct.",
+    "groups": [
+      {
+        "name": "Understand the customer",
+        "description": "Clarify the proposition, identity and customer objectives."
+      },
+      {
+        "name": "Map and diagnose",
+        "description": "Map the journey, tasks and expectations."
+      },
+      {
+        "name": "Improve the experience",
+        "description": "Review effort, stress, errors, accessibility, social experience and emotions."
+      },
+      {
+        "name": "Plan the work",
+        "description": "Consolidate useful changes into a stage record."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Start with the customer",
+        "links": [
+          {
+            "slug": "cx-proposition-worksheet",
+            "label": "Why will people use this offer?"
+          },
+          {
+            "slug": "cx-brand-identity-worksheet",
+            "label": "Align the experience with customer identity"
+          },
+          {
+            "slug": "cx-customer-objectives-worksheet",
+            "label": "Understand what customers want to achieve"
+          }
+        ]
+      },
+      {
+        "title": "Map the work",
+        "links": [
+          {
+            "slug": "cx-journey-worksheet",
+            "label": "Map where the customer experience starts and ends"
+          },
+          {
+            "slug": "cx-stage-tasks-worksheet",
+            "label": "Break a journey stage into tasks and touchpoints"
+          },
+          {
+            "slug": "cx-expectations-worksheet",
+            "label": "Review customer expectations and learned behaviour"
+          }
+        ]
+      },
+      {
+        "title": "Review the experience",
+        "links": [
+          {
+            "slug": "cx-effort-worksheet",
+            "label": "Reduce customer effort"
+          },
+          {
+            "slug": "cx-stress-worksheet",
+            "label": "Reduce stress in a customer journey"
+          },
+          {
+            "slug": "cx-error-prevention-worksheet",
+            "label": "Prevent errors and plan recovery"
+          },
+          {
+            "slug": "cx-sensory-accessibility-worksheet",
+            "label": "Design sensory experience with accessibility"
+          },
+          {
+            "slug": "cx-social-experience-worksheet",
+            "label": "Design a constructive social experience"
+          },
+          {
+            "slug": "cx-emotion-worksheet",
+            "label": "Connect customer emotions with triggers and responses"
+          }
+        ]
+      },
+      {
+        "title": "Bring ideas together",
+        "links": [
+          {
+            "slug": "cx-action-scratchpad",
+            "label": "Bring customer-experience ideas into one action record"
+          }
+        ]
+      }
+    ],
+    "notes": [],
+    "references": [],
+    "topicRoot": false,
+    "relatedCollections": [
+      "product-innovation",
+      "brand-strategy",
+      "marketing-strategy",
+      "sales-playbook"
+    ]
+  },
+  {
+    "slug": "coaching-reflective-practice",
+    "title": "Coaching & Reflective Practice",
+    "parent": "communication-personal-development",
+    "topic": "Communication & Personal Development",
+    "group": "Explore focused topics",
+    "summary": "Use reflective questions, learning routines and practical coaching prompts without treating motivational maxims as scientific laws or inventing assessment scores.",
+    "intro": "Use reflective questions, learning routines and practical coaching prompts without treating motivational maxims as scientific laws or inventing assessment scores.",
+    "groups": [
+      {
+        "name": "Reflect and act",
+        "description": "Choose useful questions, learn from experience and turn intentions into bounded action."
+      },
+      {
+        "name": "Learn and focus",
+        "description": "Sequence learning and protect attention."
+      },
+      {
+        "name": "Read claims carefully",
+        "description": "Separate practical prompts from unverified mechanisms and universal promises."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Reflect before acting",
+        "links": [
+          {
+            "slug": "coaching-reflection-cycle",
+            "label": "Use a reflection cycle"
+          },
+          {
+            "slug": "reflection-question-bank",
+            "label": "Choose questions for the situation"
+          }
+        ]
+      },
+      {
+        "title": "Practise and review",
+        "links": [
+          {
+            "slug": "learning-attention-practice",
+            "label": "Plan learning and attention"
+          },
+          {
+            "slug": "action-persistence-maxims",
+            "label": "Use maxims with constraints"
+          },
+          {
+            "slug": "reflective-frameworks-purpose",
+            "label": "Explore purpose and working preferences"
+          }
+        ]
+      },
+      {
+        "title": "Check the claim",
+        "links": [
+          {
+            "slug": "coaching-science-claims",
+            "label": "Read scientific and clinical claims carefully"
+          }
+        ]
+      }
+    ],
+    "notes": [],
+    "references": [],
+    "topicRoot": false,
+    "relatedCollections": [
+      "communication-personal-development",
+      "leadership-culture",
+      "problem-solving",
+      "beliefs-mysteries"
     ]
   }
 ]

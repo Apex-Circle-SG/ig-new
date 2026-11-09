@@ -4355,6 +4355,10 @@
       {
         "heading": "Responses and expert elicitation",
         "body": "Editorial clarification\nMitigate, transfer, avoid, share and the source’s “retrain” are response labels; the latter appears intended as retain/accept, but the original is preserved. Transfer does not eliminate every residual responsibility. Delphi uses structured expert elicitation, often anonymously across rounds; it is not a guarantee of accurate prediction.\nRisk response\nMitigate risk\nTransfer risk\nAvoid risk\nShare risk\nRetrain risk\nThe Delphi technique: anonymous method to query experts about foreseeable risks."
+      },
+      {
+        "heading": "Six broad crisis scenarios",
+        "body": "Read the source with these limits\nThese are scenario labels—food, climate/disease, air, war, economic collapse and oceans—not dated predictions or established outcomes. The supplied list offers no probabilities, underlying datasets or source studies.\nPotential end of the world:\nEnd of food\nClimate plague\nUnbreathable air\nPerpetual war\nPermanent economic collapse\nPoisoned oceans"
       }
     ],
     "sources": []
@@ -4385,6 +4389,10 @@
       {
         "heading": "Business life-cycle funding and control",
         "body": "Business life cycle\nPhase\nFunding requirement / cost of capital / business risk\nLikely funding source(s) / dividends\nDevelopment / launch\nHigh / high / high\nEquity (venture capital) / Zero\nGrowth\nHigh / low-medium / high\nDebentures and equity (growth investors) / Normal\nMaturity\nLow-medium / medium / medium\nDebt, equity and retained earnings / high\nDecline\nLow-negative / medium-high / low\nDebt / high\nControl"
+      },
+      {
+        "heading": "Recognize weak strategy statements",
+        "body": "Test whether a proposal addresses the real problem, distinguishes goals from a strategy and specifies choices. Department-level plans should connect to the broader direction.\nBad strategy\nFailure to face the problem\nMistaking goals for strategy\nBad strategic objectives\nFluff and hubris\nUnits and department should come out with their own strategy"
       }
     ],
     "sources": []
@@ -4851,6 +4859,10 @@
       {
         "heading": "Information before money: a proverb without a model",
         "body": "Source claim placed in context\nThe “Walson’s law” attribution is unverified. Prioritizing useful information can improve decisions, but intelligence alone does not ensure revenue or profit. The source provides no conditions or evidence for a guaranteed monetary result.\nWalson's law\nIf you put information and intelligence first at all times, then the money will come"
+      },
+      {
+        "heading": "A daily progress review",
+        "body": "A scheduled short review can record what changed and what comes next. The 5pm reminder is an example to adapt, not a prescribed time for everyone.\nTrack your progress DAILY! Set an alarm at 5pm to note on your achievement\nA goal without a plan is just a wish"
       }
     ],
     "sources": []
@@ -4978,6 +4990,10 @@
       {
         "heading": "Individual, team and systemic learning loops",
         "body": "Net Promoter Score (NPS)\nA tool to measure customer loyalty and predict business growth.\nInner loop\nIndividual learning, behaviour change and coaching\nHuddle\nTeam problem solving, issue escalation, mutual commitment\nOuter loop\nIdentify and solve systemic issues: build inspiration"
+      },
+      {
+        "heading": "A coaching cycle and authority distribution",
+        "body": "Recognize the issue, agree a learning plan, explore the problem, try a skill and review feedback. The final sentence about team-centred authority is incomplete in the source and is not filled with invented detail.\nCoaching cycle\nRecognising issues\nPlan and determine learning style\nExplore the problem\nStrategies and implementation of new skills/behaviour\nSeek and provide feedback on performance or behaviour\nKnowledge transfer\nLeader centred holds all authority while team centred authority is shared among team members in"
       }
     ],
     "sources": []
@@ -5165,6 +5181,10 @@
       {
         "heading": "Customer experience, service quality and reported statistics",
         "body": "Promised experience: product price/promotion and range; interactivity customer journey fit, flow and data entry; service fulfilment and support\nEmotional values: design visual and style tone; reassurance trust and credibility\nRational values: ease of use on usability, accessibility and standards; relevance content and search, customisation; performance speed and availability\nService quality\nTangibles: physical appearance\nReliability: perform dependably and accurately\nResponsiveness: willingness to help\nAssurance: knowledge and courtesy to trust and confidence\nEmpathy: caring and individualised\nCustomer experience (Brian Solis, Wiley 2015)\n86% of consumers willing to pay more to receive a better customer experience\n1% of customers feel their expectations are met consistently"
+      },
+      {
+        "heading": "Retention, service standards and long-term value",
+        "body": "Relate service quality and relationships to defined retention evidence and expected customer cash flows. A financial valuation needs explicit assumptions; “long-term relationship” alone is not a calculated net present value.\nCustomer retention\nQuality\nStandards of service\nLong-term and personal relationship\nMeasurable returns in term of net present value\nTactical as function of business vs. strategic as a business philosophy"
       }
     ],
     "sources": []
@@ -5191,6 +5211,14 @@
       {
         "heading": "RFM as a customer-analysis label",
         "body": "Recency, frequency and monetary value require defined events, a time window and a unit of analysis. The source supplies no scoring thresholds.\nRFM analysis (recency, frequency, monetary)"
+      },
+      {
+        "heading": "Social response and service recovery",
+        "body": "Acknowledge mistakes, take an appropriate remedy, respond to appreciation and sustain ordinary customer relationships. Timeliness should be matched to context and responsibilities, rather than a promise of instant response to everything.\nSocial media:\nImmediacy is one of the most important things in social media\nSocial media mistakes: own it apologise, remedy it, and move on to doing better\nMistakes: own it apologise, remedy it, and move on to doing better\nDon't leave high-fives (praises) hanging, respond to your regular customers than firefighting"
+      },
+      {
+        "heading": "Feedback loops and touchpoint review",
+        "body": "Record interactions and promises, organize the data, evaluate the important gaps and plan the next changes. The listed metric labels require a defined event, population, time window and decision; an “influence” number alone is not a business outcome.\nSocial media starfish\nThe awareness phase → the point of sales → gathering insights → your social feedback cycle\nQuantifying touchpoints: gather touchpoint data (promises delivery) → organise data → evaluate and rank the data → analyse data → plan the next steps\nSocial media metrics:\nAudience\nUnique visitors\nInfluence\nEngagement\nAction\nLoyalty"
       }
     ],
     "sources": []
@@ -5295,6 +5323,10 @@
       {
         "heading": "Performance labels and questionable selling examples",
         "body": "Classification:\nDead zone: low performer\nComfort zone: no initiative\nPanic zone: anxious and ambitious\nStretch zone: top performer\nWolf in sheep's clothing and the bear pays for it: one man purchased a donkey and came back another day to retrieve it but it was dead. There is no refund, so he put up a lucky draw and let people buy the ticket, whoever won gets a donkey. The one who won gets a dead donkey\nValue selling: solve problems and makes them feel good\nA facade: selling a Moutai at $200,000 but free a house and a car of equivalent value with credit term to pay it off"
+      },
+      {
+        "heading": "Match the offer to the need",
+        "body": "Read the source with these limits\nThe source supplies buying/selling and familiarity anecdotes. Their origin and factual details are unverified; some language relies on dated cultural stereotypes. Use the underlying question—does the offer solve the buyer’s actual need?—without presenting these stories as evidence about a group of people.\nDo not buy equipment from mountain climbers turned salesperson - because you need the tools they are climbing and not when they are at the top\nDo not sell ice to the Eskimo\nPeople buy what’s familiar. A soldier wrote letters to her fiancé almost daily, but the reply started to decline. At the end when he went home, she married the postman\nLazy Horse Effect:\nA horse deliberately walks slowly so the owner shifts all the loads to the faster horse ahead of it. One day when there is not enough meat for the guest, the owner slays the slow horse for its meat.\nMohd Ali instead of jabbing 64 punches, he only go for the knockout\nSuccessful people never say we are done"
       }
     ],
     "sources": []
@@ -5343,6 +5375,10 @@
       {
         "heading": "The Golden Circle as a communication prompt",
         "body": "Concept clarified\nWhy, how and what can help organize a message around purpose, method and offer. This is a communication heuristic, not evidence that one speaking order guarantees influence.\nGolden Circle\nFocus on \"why\" they do something, then \"how\" and \"what.\""
+      },
+      {
+        "heading": "Action language and implied commitment",
+        "body": "Read the source with these limits\nSpecific verbs can make an action clearer, but forceful language is not automatically more accurate. Expressions such as “as my client” or “with your approval” should follow actual agreement, not manufacture consent. Positive language must leave room for honest disagreement and uncertainty.\nUse more powerful verbs\nDiscover vs. see\nExplore vs. discuss\nRadiate vs. display\nUncover vs. show\nTransform vs. change\nEngage vs. involve\nMobilise vs. gather\nStretch vs. develop\nBoost vs. increase\nPropel vs. move\nDeliver vs. give\nGrasp vs. understand\nConnect vs. join\nMove forward\nBuying decision\nTake the next step\nPurchase\nParticipaction\nSatisfied\nImmediate action\nWith your approval\nAs my client\nYour warranty includes\nSchedule training / delivery\nThink big vocabulary:\nBig and positive and cheerful words: how are you? I am wonderful\nBright and favourable words to describe others: he is a wonderful fellow\nPositive language to encourage others: praise and compliment\nPositive words to outline plans: we face a genuine opportunity"
       }
     ],
     "sources": []
@@ -8662,6 +8698,14 @@
       {
         "heading": "The source’s changing-landscape outline",
         "body": "The changing marketing landscape\nUncertain economic environment\nNew consumer frugality\nMarketers focus on value for the customer\nDigital age\nPeople are connected continuously to people and information worldwide\nMarketers have great new tools to communicate with customers\nInternet + mobile communication devices create environment for online marketing\nUpcoming trend\nNot-for-profit marketing growth\nRapid globalization\nSustainable marketing"
+      },
+      {
+        "heading": "A historical marketing-era shorthand",
+        "body": "Read the source with these limits\nThe sequence from production through selling, marketing and relationships is a teaching shorthand. Different orientations can coexist; this line does not establish one chronology for every market or organization.\nProduction era > sales era > marketing era > relationship era"
+      },
+      {
+        "heading": "Six relationship-market perspectives",
+        "body": "The source extends attention beyond customers to internal, referral, influence, recruitment and supplier/alliance markets. Treat these as stakeholder relationship lenses and make the actual objective explicit.\nSix market models (Payne Adrian)\nCustomer markets\nInternal markets\nReferral markets\nInfluence markets\nRecruitment markets\nSupplier/alliance markets"
       }
     ],
     "sources": []
@@ -8750,6 +8794,10 @@
       {
         "heading": "Competitive frame, parity, difference and feasibility",
         "body": "Brand Positioning\nIs at the heart of the marketing strategy\nThe act of designing the company’s offer and image so that it occupies a distinct and valued place in the target customer’s minds\nWho the target consumer is\nThe nature of competition\nHow the brand is similar to these competitors\nHow the brand is different from these competitors\nPoints-of-Parity (POPs)\nAttributes or benefits that are not necessarily unique to the brand, but may in fact be shared with other brands\nPoints-of-Difference (PODs)\nAttributes or benefits that consumers strongly associate with a brand, positively evaluate, and believe that they could not find to the same extent with a competitive brand\nKey issues in arriving at the optimal competitive brand positioning\nDefining and communicating the competitive frame of reference\nDefining a competitive frame of reference for a brand positioning is to determine category membership\nThe preferred approach to positioning is to inform consumers of a brand’s membership before stating its point of difference in relationship to other category members\nChoosing and establishing points-of-parity and points-of-difference\nDesirability criteria (consumer perspective)\nPersonally relevant\nDistinctive and superior\nBelievable and credible\nDeliverability criteria (firm perspective)\nFeasible\nProfitable\nPre-emptive, defensible, and difficult to attack"
+      },
+      {
+        "heading": "Positioning and service layers",
+        "body": "Explain the relevance, difference and value of the offer, distinguishing core, differentiated, custom and convenience services.\nBrand positioning\nRecognition\nReputation\nRelevance\nDifferentiation\nValue proposition\nCore services\nDifferentiated services\nCustom services\nConvenience services"
       }
     ],
     "sources": []
@@ -8768,6 +8816,10 @@
       {
         "heading": "Understand the pain without exploiting it",
         "body": "Investigate problem size, economic effects, alternatives, stress, beliefs and goals. Do not infer that fear-based persuasion is justified merely because a problem is painful.\nPain point\nSize of problem\nEconomic impact\nPain alternative\nFear\nStress\nLimiting/empowering beliefs\nGoals\nWhy do they think that way?\nStaying on track"
+      },
+      {
+        "heading": "Differentiate an offer and substantiate it",
+        "body": "Distinguish a selling point from a reason the offer solves a customer problem. Use evidence, a defined audience and a clear comparison rather than relying on a memorable label alone.\nMarketing\nUnique solution & unique selling proposition (USP)\nKey value driver (KSV)\nDifferential from key selling point (KSP)\nPurple cow\nWhy solution work\nSubstantiation the solution works\nSynthesise and evaluate your niche"
       }
     ],
     "sources": [
@@ -8791,6 +8843,10 @@
       {
         "heading": "People, process and physical evidence",
         "body": "People\n(1) Frontline Staff + (2) Other Customers\nPeople-power variable\nContractors (salespeople, customer service, Sales service…)\nInfluencers (R&D, Staff marketers, Production scheduling…)\nCustomer contact employees,\nCustomers\nPersonnel and Management\nProcess\nBlueprint, to identify potential pitfalls\nIncludes\nActivities\nProcedures\nProtocols\nPhysical Evidence\nTo offer assurances\nIncludes\nInteraction between an employee and customers"
+      },
+      {
+        "heading": "An extended fifteen-P prompt list",
+        "body": "Read the source with these limits\nThe source extends the familiar marketing-mix vocabulary to fifteen prompts, including privacy, participation and networks. This is a supplied checklist, not one universally standardized fifteen-P model. Use the existing four-P/service-extension explanation as the anchor and add only the prompts relevant to a specific decision.\nMarketing mix 15 P's\nProduct\nPrice\nPlace\nPromotion\nPeople\nProcesses\nPackaging\nPhysical evidence\nPersonalisation\nPrivacy\nParticipation\nPeer-to-peer\nPredictable modelling\nPositioning\nPersonal network"
       }
     ],
     "sources": []
@@ -8943,6 +8999,18 @@
       {
         "heading": "Advertising and historical media examples",
         "body": "Advertising\nAdvertising is non-personal communication from an identified sponsor using mass media\nPractice dates to ancient Greece and Rome\nChanges in media landscape have slowed growth of traditional advertising\nBut mass communications remains the best way to reach a large audience\nTV Everywhere (also known as Authenticated Streaming) is the use of an internet-enabled device, like a tablet or smartphone, to stream content from a cable or satellite provider"
+      },
+      {
+        "heading": "Reach, frequency and unsupported exposure rules",
+        "body": "Read the source with these limits\nReach counts the people in a defined audience; frequency concerns exposures over a defined period. The source supplies no dated study for “seven times” or daily advertisement counts, so these are not universal thresholds or current benchmarks.\nReach (no. of people) vs frequency (exposure)\nProspect needs to see or hear your marketing message at least seven times before they take action\nWe see 4,000 to 10,000 advertisement a day"
+      },
+      {
+        "heading": "Changing patterns of digital communication",
+        "body": "The source contrasts push/pull, one-to-many/many-to-many, passive/active engagement and performance-based communication. Real campaigns can mix these patterns; they are not mandatory stages of evolution.\nDigital media characteristic\nPush to pull\nMonologue to dialogue to trialogue (facilitator)\nOne-to-many to one-to-some and one-to-one\nOne-to-many to many-to-many\nLean-back to lean-forward\nPay-per-performance communications\nIncrease communications intermediaries\nIntegration"
+      },
+      {
+        "heading": "The historical social-platform donut analogy",
+        "body": "Read the source with these limits\nThis is an old mnemonic for different content conventions, not a current feature guide. It includes products or brands whose status has changed, including Google+, Vine and MySpace. The lesson about audience/context can be discussed without recommending these entries as current channels.\nTwitter: I'm eating donut\nFacebook: I like donut\nFoursquare: This is where I eat donut\nInstagram: Here is a vintage photo of my donut\nYouTube: Here I am eating a donut\nLinkedIn: My skills include donut eating\nPinterest: Here's a donut recipe\nMySpace: I'm eating donut alone\nSpotify: I am listening to “donuts”\nGoogle+: I'm a Google employee who eats donuts\nReddit: I'm eating a donut. AMA\nVine: I'm eating a donut… I'm eating a donut… I'm eating a donut…\nSnapchat: My donut will disappear in 5 seconds\nJelly: Does anyone know where I can get a donut?"
       }
     ],
     "sources": []
@@ -9042,6 +9110,18 @@
       {
         "heading": "Academic reading: planning and digital strategy",
         "body": "The supplied reading list connects planning texts with strategic marketing. These are reading leads; no current effectiveness result is inferred from the book titles."
+      },
+      {
+        "heading": "Connect acquisition strategy with a marketing plan",
+        "body": "Make the goal, intended audience, acquisition approach and situation review explicit before listing activities.\nGo-to-market plan\nCustomer acquisition strategy\nMarketing plan summary & situational review\nMarketing goals\nIntended marketing strategy"
+      },
+      {
+        "heading": "Budget, controls and planning flow",
+        "body": "Relate the budget to full costs, the product category, audience exposure, other mix choices and measurable goals. Revisit assumptions when the environment or observed results change.\nMarketing budget\nKnow you full cost\nProduct differentiation and market power\nPrice and non-price perceptions\nProduct class\nDegree of exposure required\nOther marketing-mix considerations\nMarket characteristics\nService marketing\nSales promotion\nSales strategy\nAdvertising and public relations\nEstablish marketing controls\nMarketing plan flow\nEstablish business philosophy and mission statement\nDevelop overall strategy, objectives, and policies\nEvaluate the environment, make assumptions and develop forecast\nSet measurable goals and make operating plans\nMonitor environment and operating results\nNo correct action / corrective action needed"
+      },
+      {
+        "heading": "Campaign coordination and a multidimensional scorecard",
+        "body": "Connect assessment, research, budget, audiences, milestones, campaign work, project coordination, tracking and review. Keep financial, customer, process and people measures distinct rather than adding incompatible units into a single success score.\nMarketing game plan & steps:\nComplete marketing assessment\nConduct discovery research\nCalculate marketing budget\nBuild scorecard\nResults: revenue. Multichannel contribution, degree multichannel sells up, costs per channel, degree of sweating assets, multi-channel infrastructure costs\nCustomers and stakeholders: overall customer satisfaction, customer propensity to defect, customer propensity to purchase, customer perception of added value, integration of customer experience\nCore processes: productive multichannel usage, price (relative to competitors/other channels), quality of integrated customer view\nPeople and knowledge: staff satisfaction, appropriate behaviours ‘Living the brand', willingness to diversify/extend the brand, knowledge of target customer\nBusiness core\nMarketing core\nAudiences\nMarketing team strength\nMarketing technology utilisation\nMarketing performance\nSocial media marketing\nLead sources\nPublic relations\nContent marketing\nSet prime goal values\nDefine and segment audience\nProfile personas\nCatalogue accelerators\nEstablish milestone\nConstruct the campaign centre\nDevelop the project centre\nIntegrate into a project management system\nSet up campaign tracking\nLaunch builder and driver campaigns\nAdapt activities based on performance"
       },
       {
         "heading": "Academic reading references",
@@ -9268,6 +9348,10 @@
       {
         "heading": "Equity, management and historical approaches",
         "body": "The brand equity concept\nNo common viewpoint on how it should be conceptualized and measured\nIt stresses the importance of brand role in marketing strategies\nBrand equity is defined in terms of the marketing effects uniquely attributable to the brand\nGlobal brand management\nIt involves the design and implementation of marketing programs and activities to build, measure, and manage brand equity\nThe bottom line is that any brand—no matter how strong at one point in time—is vulnerable, and susceptible to poor brand management\nGlobal Brand Management Process\nIdentifying and establishing brand positioning and values\nPlanning and implementing brand marketing campaigns\nMeasuring and interpreting brand performance\nIncreasing and sustaining brand equity\nEvolution of Modern Brand Management\nUnderlying paradigm\nPositivistic\nConstructivist\nBrand focus\nCompany/sender\nHuman/receiver\nCultural/context\nBrand approach\nEconomic\nIdentity\nPersonality\nConsumer-based\nRelational\nCommunity\nCultural approach"
+      },
+      {
+        "heading": "Brand promises, benefits and emotional associations",
+        "body": "Treat proposed benefits such as premium pricing, loyalty or lower selling cost as hypotheses to examine. Curiosity, belonging, warmth and trust are message/experience themes; emotion should not replace truthful substantiation.\nBranding\nYour company's foundation\nCreates value\nClarifies your message\nA promise\nBrand flat lines are opportunities for competition\nBrand awareness\nBranding profit\nPremium pricing\nTrade loyal customers up to a higher price\nLower cost of goods\nLower marketing and selling costs\nSteal competitive users\nGet loyal users to use more\nEnter into new markets\nFind new users for the brand\nKnow your audience: what make them sleepless and their purchase habit\nWoo customers' emotions and not their logic\nUnconventionality:\nCuriosity\nExcitement\nDesire\nOptimism\nEmpowerment\nNoble cause:\nPride\nBelonging\nWillingness\nPassion\nNobility\nWarmth\nEmpathy\nTrust"
       }
     ],
     "sources": []
@@ -9364,6 +9448,10 @@
       {
         "heading": "Mantra, identity and six prism dimensions",
         "body": "Brand mantra\nAn articulation of the “heart and soul” of the brand (also referred to as “brand essence” or “core brand promise”)\nShort three- to five-word phrases that capture the irrefutable essence or spirit of the brand positioning and brand values\nThe brand function describes the nature of the product or service or the type of experiences or benefits the brand provides\nThe emotional modifier provides another qualifier—how exactly does the brand provide benefits, and in what way?\nThe descriptive modifier further clarifies its nature\nBrand identify\nBrand identity represents the “true self” of the brand\nIt is based on the brand’s vision, aim, nature\nIt is included in a document (i.e., the brand’s charter) which defines what must stay and what is free to change\nPrism of brand identify\nPersonality\nCulture\nSelf-image\nReflection\nRelationship\nPhysique"
+      },
+      {
+        "heading": "Logo and design review prompts",
+        "body": "Assess simplicity, consistency, memory, distinctiveness and market testing in the context of the whole identity. A logo review is not a substitute for the product or service promise.\nModernisation + design\nLogo\nSimplicity\nBrand consistency\nMemorability\nRemarkability\nMarket testing"
       }
     ],
     "sources": []
@@ -9584,6 +9672,10 @@
       {
         "heading": "Turn the outline into a useful decision",
         "body": "Start with the audience and the outcome you want: awareness, qualified enquiries, purchases or repeat use. Shortlist channels that can plausibly reach that audience and record the assumptions behind each choice.\nFor each shortlisted channel, define a small experiment, its budget and time window, and the same decision metric where comparison is meaningful. Keep the evidence with the decision; reach and clicks alone do not establish profitable acquisition.\nReview results before committing more resources. A channel that works for one audience, offer or stage may fail for another; the source does not prescribe universal winners."
+      },
+      {
+        "heading": "Online channel and asset examples",
+        "body": "Read the source with these limits\nUse this list as historical channel/asset examples to shortlist and test, not a current recommendation or a complete platform directory. Legacy product names and availability require checking before choosing a provider. Separate the channel, content asset, promotion and measurement plan.\nOnline\nFacebook advertisement\nFacebook (organic)\nYoutube\nTwitter\nPinterest\nPay per click\nDoubleclick bid manager (DBM)\nGoogle display network (GDN)\nBanner advertisement\nEmail marketing\nSearch engine optimisation (SEO)\nBlogging\nPodcasting\nInteractive tools\nMobile apps\nE-Zines\nWebinars\nSponsorships\nAlways send report after\nDaily deal sites\nJoint ventures\nViral video\nEbooks & whitepaper\nDatasheets & infographics"
       }
     ],
     "sources": []
@@ -9602,6 +9694,10 @@
       {
         "heading": "Personal selling and customer feedback",
         "body": "Personal selling\nOccurs when a company rep interacts directly with a customer or prospective customer to communicate about a good or service\nFar more intimate form of promotion compared to mass-media material\nSalespeople are the eyes and ears of firm"
+      },
+      {
+        "heading": "Offline options and customer-decision models",
+        "body": "Match mail, calls, events, advertising, referrals and public relations to audience access and the decision at hand. AIDA, UACCA and the source’s consideration/evaluation/purchase/experience loop are different conceptual models; they need not imply one universal linear path.\nOffline\nDirect mail\nCold calling\nBrochures\nBusiness cards\nNetworking events\nGuerrilla marketing\nPromotional materials\nBusiness associations\nBillboards\nRadio advertising\nPrint media ads\nReferrals and word of mouth\nWord of mouth is more persuasive and more targeted\nRoadshows\nTrade shows\nPublic relations\nCelebrity endorsement\nAwareness, interest, desire, action (AIDA)\nUnawareness, awareness, comprehension, conviction, action (UACCA)\nInitial consideration set, active evaluation on information gathering and shopping or loyalty loop, moment of purchase, post purchase experience with ongoing exposure (IAMP)"
       }
     ],
     "sources": []
@@ -9909,6 +10005,10 @@
       {
         "heading": "Contract value, movements and budget labels",
         "body": "Average annual contract value\nTotal annualized eligible contract value / eligible contract count\nExpansion recurring revenue\nSum of positive recurring-value increases for continuing customers\nContraction recurring revenue\nSum of partial recurring-value reductions for continuing customers\nBudget attainment versus variance\nAttainment = actual / budget; variance rate = (actual − budget) / budget\nRevenue per user\nPeriod revenue / stated matching user base\nAverage Contract Value = Total Revenue / No. of Contracts\nThe average contract value from a customer (more common in B2B)\nExpansion Revenue = (Total Revenue in Current Period - Total Revenue in Previous Period) - (Reactivation Revenue + Churn Revenue)\nAdded revenue from recurring customers\nContraction revenue = (Total Revenue in Previous Period - Total Revenue in Current Period) + Downgrade Revenue + Churn Revenue\nReduced revenue from recurring customers\nBudget Attainment = Budget variance / Budget Amount\n% of your budget achieved\nAverage Revenue per User = Total Revenue / No. of User\nThe average revenue you are generating from a user (more common in B2C)"
+      },
+      {
+        "heading": "Reconcile the source’s marketing formulas",
+        "body": "Read the source with these limits\nDefine the cohort, period and numerator before using any rate. Profit divided by customers is profit per customer for the stated period; it is not automatically lifetime value. Acquisition cost uses the matching acquisition spend and new customers acquired.\nThe notes use CPC for both click and customer costs. Label cost per click separately from customer acquisition cost. The LV/CPC expression is a scaled ratio with unclear bases, not an automatically valid cash-on-cash investment return.\nUnique visitors divided by matching reach is a rate if the populations and time windows align, not a volume count. The greater-than symbol between click and acquisition costs does not define a conversion formula. Source data and attribution rules are needed before building a calculator.\nMetrics and calculation\nSent rate\nOpen rate\nBounce rate\nImpression rate\nEngagement rate\nClickthrough rate\nConversion rate\nChurn rate\nCost per click or impression\nLifetime value (LV) = profit / customers\nCost Per Customer (CPC) = marketing investment / customers\nCash on Cash Return (CoCR) % = LV / CPC x 100\nCampaign success measurement - volume = unique visitors / reach (%)\nCost = cost-per-click (CPC) > cost-per-acquisition (CPA)"
       }
     ],
     "sources": [
@@ -10847,6 +10947,14 @@
       {
         "heading": "Individual behaviors and organizational support",
         "body": "Characteristics of managers who are not leaders\nPersonal Flaw\nSets bad example\nOrganisational Factors\nLack of top management support\nNot self-assured\nResistance to change\nLacks technical expertise\nInconsistent reward system\nPoor communicator\nA reactive organization rather than a proactive, planning one\nPoor motivator\nLack of resources"
+      },
+      {
+        "heading": "Six CEO hats and learning from others",
+        "body": "The source uses player, coach, architect, engineer, learner and priest as role metaphors. They do not imply religious authority or fixed job boundaries. The salary/politician statement is an unverified incentive observation, not a hiring rule.\nChief executive officer (CEO)\nThe player hat - contributing\nThe coach hat - talent development\nThe architect hat - strategy\nThe engineer hat - operations\nThe learner hat - continuous improvement\nThe priest hat - morale\nLearn from experience\nAttend training program\nMeet with wise people\nStudy yourself\nGather feedback\nSeek out mentors\nHigh salary will risks becoming more like a politician than a founder"
+      },
+      {
+        "heading": "Management functions, levels and roles",
+        "body": "Different levels combine planning, organization, coordination, implementation, learning and communication. The informational/decisional/interpersonal categories are distinct role lenses, not a claim that leadership excludes ordinary management.\nResilient management\nForecasting and planning\nOrganising\nCommanding or directing\nCoordinating\nDeveloping outputs\nControlling (through feedback)\nFirst level manager\nLearning from doing\nLearning the ropes\nTaking on responsibility and decision making\nMiddle manager\nAn informed curiosity\nSelf-preservation\nResponsibility for implementing small to medium scale change\nSenior manager\nStand in place of the founder or owners\nTranslate the vision and set the strategy\nKeep eyes and ears open\nManagement roles\nInformational: disseminate communication\nDecisional: get things moving and implement change projects\nInterpersonal: figurehead, motivational leader and connecting network"
       }
     ],
     "sources": []
@@ -11220,6 +11328,14 @@
       {
         "heading": "Dated and unsourced workplace outlook notes",
         "body": "Workplace in the future\nOver-50’s in the workforce will increase by 14% by 2030, the UK born working population is declining – the competition for talent will intensify\nFive generations in the workforce – different needs and expectations\nAutomation, robotics and AI are changing the nature of jobs, 30% of UK roles potentially at risk – new skills needed for changing roles\nPeople are looking for work-life balance – 89% say lifestyle incentives are becoming more important\nPeople are looking for purpose and meaning from work – 23% say 'doing a job that makes a difference' is most important to them, 25% say they want an employer with values matching their own"
+      },
+      {
+        "heading": "Culture, communication and the people function",
+        "body": "Read the source with these limits\nThe notes connect people development, fit, ethics, communication and rewards. The hiring-engine analogy and categorical “hire bigger” quotation are unverified motivational examples, not evidence that the same staffing rule fits every stage. Use explicit capability needs, fair expectations and development support.\nHuman resource structure\nBusiness don’t grow, people do\nGenuine, responsible, accommodating, credible, exciting (GRACEful communication)\nStubborn, tired, icky, floundering, forgotten don’t be STIFF)\nDon’t hire the best people first, it’s like putting a Boeing 747 engine into a poor tractor\nCongruence between company and employee\nCredit, reward and gamification mechanism\nRehabilitation of poor performers\nAdopt a code of ethics\nHealth and lifestyle\nMaintain high energy level\nCorporate social responsibility\n“If each of us hires people who are smaller than we are, we shall become a company of dwarfs. But if each of us hires people who are bigger than we are, we shall become a company of giants”\nChannel of communication for challenges and crisis\nBetter than surprises\nTransparent communication\nA manager’s principal task is not production but coordination"
+      },
+      {
+        "heading": "Talent management and contribution networks",
+        "body": "Distinguish reactive vacancy filling, tactical upgrading and strategic capability-building. The doer/supplier/influencer/innovator list describes contributions and contacts, not fixed categories of people.\nTalent management spectrum\nReactive: talent erosion\nTactical: fill openings\nStrategic: talent upgrades a core capability\nTalent management practices\nExcessive churn\nSystematic upgrading\nStatus quo\nConnections and contacts\nDoers - instigate activities\nSuppliers - get resources\nInfluencers - change perception\nInnovators - generate ideas"
       }
     ],
     "sources": []
@@ -11264,6 +11380,14 @@
       {
         "heading": "Quiet quitting: five possible contributing conditions",
         "body": "Reasons for Quiet Quitting\nLack of communication\nLack of sense of belonging\nLack of feeling valued\nLack of consistency\nLack of trust"
+      },
+      {
+        "heading": "Autonomy, accountability, job design and incentives",
+        "body": "Define authority, outcomes, resources and review routines together. The source’s advice to allocate budget to one type of employee is a hypothesis to examine, not an automatic fair or optimal allocation formula.\nPeople motivation (Attitude indicator)\nIncrease variable compensation\nMore autonomy for high-potential employees, more accountability for the best employees, more budget allocation for top performers\nIncrease accountability by making the employee feel they own the place\nMicromanagement will cause diminution (a reduction in the size, extent, or importance)\nRedesign jobs, include measurability in job descriptions, replace team budgets with team business plans, subsidiarity\nAllocate more budget to the most cost-conscious employee\nTo boost innovation, allocate more budget to the most inventive employee"
+      },
+      {
+        "heading": "Unattributed engagement percentages",
+        "body": "Read the source with these limits\nThe 64%, 68%, 70% and 75% figures have no supplied study date, sample, country or question wording. They are retained as unverified source figures and are not used as current global benchmarks or causal uplift estimates.\nEmployees who are engaged\n64%: global average\n68%: when motivated by working in teams\n70%: when I had a recent recognition in front of team/department\n75%: I understand how my team contributes to the success of the organisation"
       }
     ],
     "sources": []
@@ -11415,6 +11539,10 @@
       {
         "heading": "What relationships can offer",
         "body": "Yield\nMoral support\nWe all need a confidant who knows what it's really like in the trenches\nA network\nGenuine connections to help us in our career\nClout\nWe can leverage people outside of our immediate group\nHappiness\nGood social bonds help us live healthier, happier lives\nPersonal growth\nEveryone we meet in life has something to teach us"
+      },
+      {
+        "heading": "Workplace context and psychological contracts",
+        "body": "Distinguish political/legal, demographic, education and globalization context from expectations in a working relationship. Relational and transactional labels describe aspects of an exchange; actual obligations depend on the context and agreement.\nWorkplace factor\nPolitical and legal environment\nDemographics\nEducation\nGlobalisation and international careers\nPsychological contracts\nRelational contracts: loyalty\nTransactional contracts: pay and performance"
       }
     ],
     "sources": []
@@ -11429,6 +11557,22 @@
       {
         "heading": "Six practices and their supplied explanations",
         "body": "Win Friends and Influence People\nBe genuinely interested in others\nShow your enthusiasm!\nRemember their names\nRemembering someone's name would make him or her feel important, valued and seen. This small gesture goes a long way in building meaningful connections\nSmile\nA smile is a universal language of kindness, care and empathy. Smiling makes us look more approachable and it's the best way to show that you enjoy somebody's presence!\nEngage in their interests\nA shared interest is a great ice-breaker for conversations and fostering connections. We often have a proclivity for people who look and think like us, know as the similar-to-me effect\nSincerely make others feel important\nPeople don't care how much you know, until they know how much you are. Be genuine with people, value them, and express your appreciation. An unpretentious compliment can go a long way!\nListen\nPractise active listening - being attentive would reassure someone that he or she is being heard. It builds trust, openess and eventual success between both parties."
+      },
+      {
+        "heading": "Presence, nonverbal cues and storytelling",
+        "body": "Read the source with these limits\nThe source proposes observing presence, voice, nonverbal communication and stories. Avoid assuming that a cue reveals someone’s unconscious state or that a deep voice guarantees authority. Ask for clarification and use respectful, transparent communication.\nPower cues:\nSelf awareness: how to show up in a room\nNonverbal communications: emotions\nOthers’ unconscious message\nMysteries of human voice: deep voices\nHonest signals: influence, mimicry, activity, consistency\nPower of unconscious to make decisions\nMaster storyteller: limited details, as simple as possible\nIncrease your charisma by increasing passion"
+      },
+      {
+        "heading": "Recognition and attentive listening",
+        "body": "The distinct practice details are pausing, asking for clarification and paraphrasing. Appreciation and approval should remain sincere, rather than be tools for manufacturing dependence.\nKey to success in human relationships:\nMake others feel important\nBuild self-esteem in others\nAcceptance\nAppreciation\nAdmiration\nApproval\nAttention\nEffective listening:\nListening without interruptions\nPause before replying\nQuestion for clarification\nParaphrase what you heard"
+      },
+      {
+        "heading": "Interest, enthusiasm and treating people as important",
+        "body": "Use sincere appreciation and careful attention; do not confuse making people feel valued with agreeing to every request.\nGrow the attitude of I’m activated, you are important and service first\nTo activate others and get them be enthusiastic, you must first be enthusiastic yourself\nPeople do more when they feel important - practice appreciation, calling people by their names and don’t hog glory but invest it invest\nLearn to remember names, be a comfortable person, acquire the quality of relaxed easy-going, don’t be egotistical, cultivate the quality of being interesting, get the scratchy elements out of your personality, sincerely attempt to heal every misunderstanding you had, practice liking people genuinely, never miss an opportunity to say a word of congratulation, give spiritual strength to people"
+      },
+      {
+        "heading": "Practical ways to make and maintain contact",
+        "body": "The additional examples concern introductions, pronunciation, personal follow-up and considerate contact. Adapt them to privacy and the relationship rather than collecting personal details unnecessarily.\nWin friends:\nIntroduce yourself at every opportunity\nBe sure the person gets your name straight\nPronounce the person’s correctly\nWrite down another person’s name\nDrop personal note to make them feel you want to know them better\nSay pleasant things to strangers"
       }
     ],
     "sources": []
@@ -11465,9 +11609,22 @@
       {
         "heading": "Additional reflection words supplied without instructions",
         "body": "Feeling\nAwaken\nEnlighten\nForego\nTransform"
+      },
+      {
+        "heading": "Johari as a feedback reference",
+        "body": "The upload names a relationship-awareness framework but supplies no assessment items or scoring rules. Use feedback voluntarily; do not force personal disclosure.\nJohari Windows: helps people understand their relationship with themselves and with others"
+      },
+      {
+        "heading": "A named reference alongside the supplied matrix",
+        "body": "The Johari Window is associated with Joseph Luft and Harry Ingham. A later author-written account discusses areas known or unknown to oneself and to others, and cautions against forced disclosure. The earlier matrix in this guide has its own supplied labels; it has not been silently replaced by a canonical Johari diagram. The original 1955 proceedings were not independently accessed."
       }
     ],
-    "sources": []
+    "sources": [
+      {
+        "title": "Joseph Luft's later author-written explanation, reproduced scan",
+        "url": "https://static1.squarespace.com/static/572d003b40261d2ef97e5b0b/t/5ca20f68e2c48320572e81e7/1554124653572/Luft%2BIngham%2Bdocument.pdf"
+      }
+    ]
   },
   {
     "slug": "workplace-energy-reflection",
@@ -12250,6 +12407,18 @@
       {
         "heading": "Continue with trading decision behavior",
         "body": "Short-horizon trading adds execution, leverage, model and behavioral questions to portfolio-level analysis. These guides connect the supplied training to the existing investment material."
+      },
+      {
+        "heading": "A value-addition and wealth parable",
+        "body": "Read the source with these limits\nThe soybean example illustrates different processing and business models, not investment returns on comparable cash flows. Its dollar amounts, costs, risks and time horizons are unspecified. The claims about rich/poor behaviour and guaranteed effects of mindset are not established by the anecdote.\nOn Investment:Investment is risky, and is almost as risky as not investing.Not investing in your life may lead you to a worse day, because the rate of increase of your wages can not keep up with the depreciation of prices and the dollar.Letting money sit idle is a waste, letting money run is a kind of wisdom.The poor keep their money idle and always keep themselves busy.The rich are keeping money busy and letting themselves idleMoney working hard for you is called earnings.Working hard for money is called salary.How much can 10 kg of soybeans cost?Old farmer: up to $5;Bean sprouts: up to $20;Tofu: up to $40;Soymilk: up to $120;Natto capsules: up to $4,000.No one is lying as the investment idea determines the return on investment, for the same amount of money,There are different returns in different places!Different ideas and thinking patterns will determine a person's wealth dream!In the Internet age, your thinking will determine your wealth."
+      },
+      {
+        "heading": "An attributed compound-interest saying",
+        "body": "Read the source with these limits\nThe Einstein attribution is unverified. Compounding depends on the rate, time, contributions, costs and risks; the saying does not establish a particular investment outcome.\nAlbert Einstein: “compound interest is the 8th wonder of the world. He who understands, earn; he who doesn’t, pay”"
+      },
+      {
+        "heading": "A bank aphorism",
+        "body": "Read the source with these limits\nThis is a rhetorical statement about credit access, not a literal description of every lender’s eligibility or underwriting criteria.\nBank is a place that will lend you money if you can prove you don’t need it"
       }
     ],
     "sources": [
@@ -12496,6 +12665,10 @@
       {
         "heading": "Thinkers: correct the spelling and the attribution",
         "body": "Concept clarified\nRead “Thomas Robert Maithus” as Thomas Robert Malthus and “Frederick Hoyak” as Friedrich Hayek. These are editorial identification corrections. The Manifesto was coauthored by Marx and Engels. Nash is central to equilibrium theory, but the prisoner’s dilemma was not originated by Nash. Slogans such as “show me the money” are memory aids, not book titles or quotations. The source’s “Behaviourist” school description is closer to behavioural economics than to the distinct psychology school of behaviourism.\nTheories\nThe wealth of nations\nAdam Smith\nThe dismal outlook by dismal science\nThomas Robert Maithus\nThe communist manifesto\nKarl Marx\nKeynesian; government spending on rescue\nJohn Maynard Keynes\nThe wonders of creative destruction\nJoseph Schumpeter\nSet my market free\nFrederick Hoyak\nPrisoner’s dilemma\nJohn Nash\nLong-term growth as people, capital, and technology\nRobert Solow\nShow me the money\nMilton Friedman"
+      },
+      {
+        "heading": "A short unemployment taxonomy",
+        "body": "Read the source with these limits\nThese are economic labels, not an explanation of every employment change. The source joins “structural” and “political” on one line and gives no definitions or data. Distinguish causes and measurement before treating the list as a complete taxonomy.\nTypes of unemployments:\nFrictional unemployment\nTechnological unemployment\nStructural unemploymentPolitical unemployment\nCyclical unemployment\nSystemic unemployment"
       }
     ],
     "sources": []
@@ -15375,6 +15548,1106 @@
     "sources": []
   },
   {
+    "slug": "coaching-reflection-cycle",
+    "title": "Reflective practice: turn experience into a next step",
+    "topic": "Communication & Personal Development",
+    "group": "Reflect and act",
+    "summary": "Pause, describe what happened, test your interpretation and choose an action you can review.",
+    "sections": [
+      {
+        "heading": "Routines, choices and movement metaphors",
+        "body": "Read the source with these limits\nThese anecdotes and the SAVERS routine offer examples for personal reflection. Accounts of named people’s clothing choices are not independently checked explanations of brain energy. The leaf comparison is a metaphor; it does not establish a health outcome or one mandatory routine.\nZuckerburg and Jobs always wear the same clothes to save mental energy\nFamous people minimise decision fatigue to improve the day's productivity\nDon’t lead a horse to the water, make it thirsty\nThrow a rock at the rabbit, don’t chase it\nBe like leaves:\nStill too much, sitting too much: wither and die\nMove naturally and freely: flourish\nSilence, affirmations, visualisations, exercise, reading, scribing (SAVERS routine)"
+      },
+      {
+        "heading": "A reflection cycle and space to reflect",
+        "body": "Consider what happened, how you interpreted it, alternatives and your next action. Time, place, helpful people and internal resources can be prompts. A timed breathing pattern is supplied as a routine example; no medical benefit is claimed and it need not be used to complete the reflection.\nReflecting cycle:\nWhat is going to happen?\nWhat do I think about this?\nHow do I feel about this?\nWhat could happen instead?\nWhat has happened?\nReflective practice:\nTemporal space: time\nPhysical space: where\nRelational space: who can help\nPsychic space: internal resources\nBreathing technique: breathe in 4 secs, hold 4 secs, breathe out 4 secs, hold 4 secs"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "reflection-question-bank",
+    "title": "Questions for purpose, contribution and strategic reflection",
+    "topic": "Communication & Personal Development",
+    "group": "Reflect and act",
+    "summary": "Choose a question for the decision you face; record an answer, the evidence behind it and a next step.",
+    "sections": [
+      {
+        "heading": "Purpose across person, role and organization",
+        "body": "What is your personal purpose, what is your role’s purpose, what is the organisation’s purpose?"
+      },
+      {
+        "heading": "Thresholds and the impulse to act",
+        "body": "Read the source with these limits\nThe boiling-point and escape-velocity questions are used as prompts, not specified scientific problems with enough conditions for one numerical answer. Ask what threshold, context and assumptions actually matter to your decision. The attributed action quotation is unverified.\nWhat degree Celsius of water boils?\nWhat is Earth’s escape velocity?\nThe sooner you fail, the sooner you see success\n“Success seems to be connected to action. Successful people keep moving. They make mistakes, but they never quit.” -J. Willard"
+      },
+      {
+        "heading": "Life, contribution and achievements",
+        "body": "Choose a small set of prompts that fit your situation. Business forecasts and personal values require different kinds of evidence and should not become one score.\nReflections & strategic questions:\nMain accomplishments in life?\nGreatest achievements?\nWho will miss you the most?\nWho have you helped?\nWhat has life been asking you?\nHow can you achieve breakthroughs?"
+      },
+      {
+        "heading": "Values, relationships and future choices",
+        "body": "Choose a small set of prompts that fit your situation. Business forecasts and personal values require different kinds of evidence and should not become one score.\nWhat do you want to do?\nUnfinished dreams?\nHow do you want to live your life again?\nWhat will you do if you have just a few months to live?\nWhere to spend a sudden windfall?\nWhat are your 3 wishes?\nAnything or anyone you would give up your life?\nWhat can you give?\nWhat can you resist?\nWhat should you exclude?\nWhat can you do to make yourself more deserving of the next opportunity?\nWhat kind of friends do I want to have?\nWhat social group do I want to join?\nWhat community leadership positions I would like to hold?\nWhat worthwhile causes do I want to champion?"
+      },
+      {
+        "heading": "Meaning, reflection and attributed sayings",
+        "body": "Read the source with these limits\nThese examples connect ordinary life, reflection and sustained interest. The Gordon Mathews, Steve Jobs and Colin Powell quotations have not been independently authenticated as quoted. Use the reflection questions without treating an attributed sentence as proof.\nA father changing a nappy can be happy too when he knows the daughter’s bodily functions are working\n“I make sure that occasionally, late at night, I’ll have a drink or two, not think about anything in front of me but just sit back and think about my life: How’s it going? What’s bothering me? What’s really going on now?” - Gordon Mathews\nPassion is good, but not obsessive passion; embrace harmonious passion instead where you can do whenever you like to\n“If you are working on something exciting that you really care about, you don’t have to be pushed. The vision pulls you.” -Steve Jobs\n“If you are going to achieve excellence in big things, you develop the habit in little matters. Excellence is not an exception; it is a prevailing attitude.” -Colin Powell"
+      },
+      {
+        "heading": "Four prompts: identity, proficiency, purpose and practice",
+        "body": "These prompts concern self-reflection rather than a personality test: consider what matters, what you can do, how you want to contribute and what action comes next.\nCuriosity and self-awareness\nPersonality: who am I? What is important to me?\nProficiency: what am I good at? What do I need to develop? What are my goals?\nPurpose: what is my contribution to the world?\nPractice: what action should I take? What’s stopping me?"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "learning-attention-practice",
+    "title": "Learning and attention: deliberate practice without overload",
+    "topic": "Communication & Personal Development",
+    "group": "Learn and focus",
+    "summary": "Break skills into learnable parts, protect attention and use feedback to revise the next attempt.",
+    "sections": [
+      {
+        "heading": "Build a deliberate learning sequence",
+        "body": "Select a skill, break it into chunks, sequence the prerequisites, connect it with prior knowledge and practise the consequential parts. “Dumping” is the source shorthand for prioritizing relevant information, not deleting evidence you still need.\nRapid learning:\nChunking: break down\nSequencing\nConnecting: link skills & info\nDumping: important info only\nPractising\nPrioritising: don’t multitask"
+      },
+      {
+        "heading": "Attention, distractions and pressure",
+        "body": "Choose a consequential task, distinguish attractive distractions from productive work and plan when to return after interruption. The source’s three-task rule and awareness chime are optional routines, not universal optimal thresholds.\nPressure can create diamonds or dust: thinking becomes rigid, people got defensive, performance pressure paradox (become generic, drive towards consensus, yield to those who hold authority)\nFocus, focusing, hyperfocus\nTurn off auto pilot by classifying tasks:\nNecessary: productive, unattractive\nUnnecessary: unproductive, unattractive\nPurposeful: productive, attractive\nDistracting: unproductive, attractive\nOur attention span can only fit so many tasks, over multi-tasking will only spoil one or more tasks\nContinually switch task will take longer and need rest after a complex task\nHyper focus:\nRule of 3: set 3 things to accomplish today\nMost consequential tasks: things that impact\nHourly awareness chime: bring you back to focus\nClassifying distraction:\nAnnoying + no control: office visitors\nAnnoying + control: emails\nFun + no control: team lunch\nFun + control: social media"
+      },
+      {
+        "heading": "Automatic and deliberate attention",
+        "body": "Read the source with these limits\nThe source contrasts habitual/automatic activity with effortful planning and self-control. Treat this as a simplified explanatory model rather than two literal isolated brain systems. Use it to identify a task, likely interruption and the cue for returning.\n2 main varieties of distraction: sensory and emotional\nBottom-up mind (muscle memory):\nFaster in brain time\nInvoluntary and automatic\nAlways on\nIntuitive\nOperating through networks of association\nImpulsive, driven by emotion\nExecutor of our habitual routines and guide for our actions\nManager for our mental models of the world\nTop-down mind:\nSlower\nVoluntary\nEffortful\nThe seat of self-control\nMuting of automatic routines\nAble to learn new models\nMake new plans\nTake charge of our automatic repertoire\nA mind adrift lets our creative juices flow"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "action-persistence-maxims",
+    "title": "Action and persistence: using maxims without becoming rigid",
+    "topic": "Communication & Personal Development",
+    "group": "Reflect and act",
+    "summary": "Turn motivating sayings into testable habits while recognizing conflicts, constraints and reasons to change course.",
+    "sections": [
+      {
+        "heading": "Adaptation and an attributed quotation",
+        "body": "Read the source with these limits\nThe Darwin attribution has not been verified. The useful reflection is to ask what evidence would make a plan change; a familiar attributed sentence is not proof of its authorship.\nCharles Darwin: “It is not the strongest of the species that survive. It is the most responsive to change"
+      },
+      {
+        "heading": "Small bets and named maxims",
+        "body": "Read the source with these limits\nSmall reversible experiments can create learning opportunities; keep the cost and stopping conditions explicit. The attributed Gates, Sinek and Lincoln quotations remain unverified as quoted and should not establish a general rule about success or hiring.\nMake lots of small bets instead of one big bet\nBill Gates: “Success is a lousy teacher, it seduces smart people into thinking they can’t lose”\nSimon Sinek: “great companies don’t hire skilled people and motivate them, they hire already motivated people and inspire them”\nAbraham Lincoln: “nearly all men can stand adversity, but if you want to test a man’s character, give him power”"
+      },
+      {
+        "heading": "Action, credibility and personal commitment",
+        "body": "Read the source with these limits\nUse competence, integrity, relationships and commitment as discussion themes. “Success is never accidental” is an absolute maxim, not an evidence-based account of every successful outcome. The military analogy is illustrative.\nSuccess is never accidental\nCredibility = proven competence + integrity + relationship\nDo a great job on the battlefield, and you’ll end up wearing a blazer in an office somewhere\nBreakthrough starts from yourself, a compelling or burning desire to do"
+      },
+      {
+        "heading": "The supplied Peter’s Laws list",
+        "body": "Read the source with these limits\nThis list is attributed to an entrepreneurial set of maxims, not the Peter Principle about promotion. Persistence and initiative can be useful lenses, but ignoring rules, demanding perfection and pursuing many projects conflict with other source advice.\nTranslate a maxim into a bounded experiment: name the outcome, constraints, action, review date and stop/change conditions. Do not treat a motivational statement as permission to ignore safety, obligations or evidence.\nPeter’s law\nIf anything can go wrong, fix it\nWhen given a choice - take both\nMultiple projects lead to multiple successes\nStart at the top, then work you way up\nDo it by the book, but be the author\nWhen forced to compromise, ask for more\nIf you can’t win, change the rules\nIf you can’t change the rules, then ignore them\nPerfection is not optional\nWhen faced without a challenge - make one\nNo simply means begin one level higher\nDon’t walk when you can run\nWhen in doubt: THINK\nPatience is a virtue, but persistence to the point of success if a blessing\nThe squeaky wheel gets replaced\nThe faster you move, the slower time passes, the longer you live\nThe best way to predict the future is to create it yourself\nThe ratio of something to nothing is infinite\nYou get what you incentivise\nIf you think it is impossible, then it is for you\nAn expert is someone who can tell you exactly how something can’t be done\nThe day before something is a breakthrough, it’s a crazy idea\nIf it was easy, it would have been done already\nWithout a target you will miss it every time\nFail early, fail often, fail forward\nIf you can’t measure it, you can’t improve it\nThe world’s most precious resource is the persistent and passionate human mind\nBureaucracy is an obstacle to be conquered with persistence, confidence, and a bulldozer when necessary"
+      },
+      {
+        "heading": "Trying an idea and personal agency",
+        "body": "Read the source with these limits\nTry a bounded action and invite learning, while respecting real constraints. The “player/victim” contrast is motivational rhetoric, not a judgement of a person’s worth or circumstances.\nDon’t spend too much time talking about a solution, try it!\nWhen the student is ready, the teacher will appear\nPeople want to work with ‘player’ and not ‘victim’: practise positive vibes"
+      },
+      {
+        "heading": "Persistence and legacy sayings",
+        "body": "Read the source with these limits\nThese are attributed or rhetorical reflections. The Einstein quotation has not been authenticated; neither statement establishes that persistence alone produces success.\nEinstein: It is not that I’m so smart, it’s just that I stay with problems longer\nYour legacy: accountants can’t create it, lawyers can’t litigate it, the government can’t legislate it, professors can’t touch it. Only you can orchestrate it"
+      },
+      {
+        "heading": "Agency and the power-grid shorthand",
+        "body": "Read the source with these limits\nThe readable themes are agency, feedback, preparation, courage, self-responsibility, boundaries and respect. Several shorthand phrases are unexplained; “Role charity” and “Kill nuclear reactor” cannot be confidently interpreted. They are retained as source ambiguities, not operational advice.\nPower grid:\nEmpower yourself by giving away power\nGet on your own agenda\nExpansion zealot: mind, connection, experience\nThe real you\nBalanced power\nRole charity\nDecision maker\nStop asking for permission\nGet feedback\nEmbrace chance\nProactive\nKill nuclear reactor\nKill inner-monologue,\nAuthenticity\nBe prepared\nCourageous\nSelf-acceptance + self-responsibility\nPick up\nDon’t validate\nStop undermining\nSafety zone\nRespect & empower"
+      },
+      {
+        "heading": "Purpose, a plan and continued effort",
+        "body": "The source links purpose and regular effort. Keep ambition compatible with rest, honest feedback, ethical constraints and a willingness to revise the plan.\nEnthusiasm:\nAdopt a major definite purpose\nObsessional desire\nDefinite / combination plan\nDevote at least some time each day for the plan\nMan of greed do not last as competition soon eliminates them\nOrganised individual endeavour: going extra miles\nThere is no instruction manual for life, so create your own"
+      },
+      {
+        "heading": "Confidence without denying constraints",
+        "body": "Read the source with these limits\nThe notes emphasize decisive action, listening and testing ideas. Health, age and circumstances can be real constraints; the source’s dismissal of “excuses” should not encourage ignoring illness or blaming people for barriers.\nUse specific actions and feedback to build confidence while staying open to evidence, support and a change of approach. The source’s claims about positive thought do not guarantee results.\nSpending the night re-evaluating your values can fetch a bigger price tomorrow\nYou have Mr. Triumph and Mr. Defeat in you, always let Mr. Triumph tell you what to do instead\nPower of belief: think success and not failure, remind yourself you are better than you are, believe big\nCommon excusitis:\nHealth: no perfect specimen of health, don’t talk about it, don’t worry\nBrains: don’t overestimate the other fellow’s brainpower, attitude is more important than intelligence\nAge: invest in future time\nBad luck: cause and effect, don’t be a wishful thinker\nCountering fears: be decisive and stick to your decision, isolate your fear and take actions, deposit only positive thoughts in your memory bank, withdraw only positive thoughts\nGood attitude builds confidence: underneath he is probably a very nice guy, most folks are\nConfidence: be a front seater, make eye contact, walk faster, speak up, smile big\nKnow thyself and know just knowing thy negative self\nThink big: determine your 5 chief assets and get to know who are those who greatly achieved them\nBattle trivialities: focus on the big objective, ask yourself if it is important before becoming negatively excited, don’t become submerged under surface issues\nWhen you really believe something can be done, your mind goes to work for you and helps you find the ways to do it\nStrengthen creativity through asking and listening: encourage others to talk, test your own views in form of questions, concentrate on what other person says\nA mind that feeds only on itself soon is undernourished"
+      },
+      {
+        "heading": "The action habit and a deliberate pause",
+        "body": "Start a bounded action rather than waiting for perfect conditions. The source also recommends stepping back when stuck; persistence and a pause can be complementary choices, not competing universal laws.\nThe action habit:\nBe a activationist and a doer\nDon’t wait until conditions are perfect because they never will\nExecution > ideas\nUse action to cure fear and gain confidence\nStart your mental engine mechanically\nThink in term of now\nGet down to business: pronto, be a crusader pick up the ball and run, get in gear and go\nWhen often a problem is too long - back off and start afresh\nInvest in education and idea-starters\nA wise man will be master of his mind, a fool will be his slave"
+      },
+      {
+        "heading": "The supplied seven-habit reading",
+        "body": "Compare the seven habits as a practice sequence: initiative, purpose, priorities, mutual benefit, understanding, cooperation and renewal. This short reference is not the complete book or an assessment of a person.\n7 Habits of highly effective people\nBe proactive\nBegin with the end in mind\nPut first things first\nThink win-win\nUnderstand first, before trying to be understood\nSynergise\nSharpen the saw"
+      }
+    ],
+    "sources": [
+      {
+        "title": "FranklinCovey's official book and habit guide",
+        "url": "https://www.franklincovey.com/books/the-7-habits-of-highly-effective-people/"
+      },
+      {
+        "title": "Diamandis's first-person origin account",
+        "url": "https://www.diamandis.com/blog/the-laws-i-live-by"
+      },
+      {
+        "title": "official Peter's Laws page",
+        "url": "https://www.diamandis.com/peters-laws"
+      }
+    ]
+  },
+  {
+    "slug": "reflective-frameworks-purpose",
+    "title": "Reflective frameworks: purpose, needs and working preferences",
+    "topic": "Communication & Personal Development",
+    "group": "Reflect and act",
+    "summary": "Use the supplied workstyle, purpose and needs lists as conversation prompts rather than predictions or fixed identities.",
+    "sections": [
+      {
+        "heading": "Working preferences and the millionaire sequence",
+        "body": "Read the source with these limits\nDynamo, Blaze, Tempo and Steel are supplied working-style labels, not a validated personality diagnosis. The numbered wealth-oriented sequence is a reflection list whose creator and predictive basis were not established.\nUse the lists to ask what activities you enjoy, what help you need and which actions are within your control. They do not predict income, rank people or guarantee a route to wealth.\n4 geniuses:\nDynamo: what, ideas, intuitive, innovative\nBlaze: who, people, extroverted, magnify\nTempo: when, sensory, timing\nSteel: how, details, introvert, multiply\nMillionaire master plan\nMeasure your money\nCommit to conduct: relationship\nDo your duty\nPinpoint your passion\nSet your standards\nFollow the flow\nIdentify your identity\nMaster your market\nMonetize your moment\nEstablish your enterprise\nRefine your rhythm: plans\nSynchronise your steps\nAnchor your authority\nPerfect your processes\nBuild your balance\nTrump your trust\nCapitalise your currency\nConnect your community"
+      },
+      {
+        "heading": "Emotion, personal development and planning",
+        "body": "Read the source with these limits\nThe source offers labels for examining emotions, an informal pencil-release exercise and personal-development themes. Do not infer clinical effectiveness from the exercise or assume every bankruptcy or life change has a single psychological cause. The planning mnemonic is a reminder, not a guarantee.\nNegatives emotions justifications:\nIdentification\nHypersensitivity\nJudgmentalism\nRationalisation\nSedona method on the pencil test:\nhold it tight and imagine holding it for years and then let it go\nPersonal development:\nSelf-disclosure\nSelf-awareness\nSelf-acceptance\nSelf-esteem revisited\nSeven-year itch: want and desire evolve and change\nPeople declare bankruptcy because failure to think ahead financially\n6 P formula: proper prior planning prevents poor performance"
+      },
+      {
+        "heading": "Seven needs and four Ikigai prompts",
+        "body": "Read the source with these limits\nThe seven labels and four purpose questions are supplied reflection frameworks. They are not established here as an exhaustive hierarchy, validated assessment or universal account of a tradition. Ask how the prompts fit your circumstances rather than forcing one ideal intersection.\n7 needs:\nA fulfilling existence\nChange and growth\nFuture perspective\nReceiving responses\nFreedom\nSelf-actualisation\nSignificances and value\nIkigai:\nWhat you love\nWhat you are good at\nWhat you can be paid for\nWhat the world needs"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "coaching-science-claims",
+    "title": "Coaching and neuroscience claims: what the notes do not establish",
+    "topic": "Communication & Personal Development",
+    "group": "Read claims carefully",
+    "summary": "Separate practical reflection from unsupported brain mechanisms, hormone promises and prescribed emotional stages.",
+    "sections": [
+      {
+        "heading": "Fear labels and the first grief list",
+        "body": "Read the source with these limits\nThe six fear labels are not a diagnostic instrument. The source’s first grief list uses “blame”; another later list includes bargaining and adds resurgence. A person need not follow a fixed emotional sequence.\n6 symptoms of fear: indifference, indecision, doubt, worry, over-caution, procrastination\n5 stages of grief: denial → anger → blame → depression → acceptance"
+      },
+      {
+        "heading": "RAS and affirmation claims",
+        "body": "Read the source with these limits\nThe source provides no experiment or specified model for its RAS/consciousness explanation. Affirmations may be used as personal reminders; that does not verify the proposed brain mechanism or promise a health or success effect.\nBrain: Reticular Activating System (RAS) to seek and find things. Conscious-awareness, nonconscious-recorder, creative nonconscious driver or voice\nApply affirmations to yourself until there is a little voice to motivate or remind you"
+      },
+      {
+        "heading": "Brain regions, exact timing and hormone assertions",
+        "body": "Read the source with these limits\nThe half-second timing formula and single-region account of willpower lack a supplied study, task or measurement method. They are not needed to practise pausing and making deliberate choices.\nA larger replication did not reproduce the hormonal result associated with expansive posture. Do not promise a reliable testosterone change from a pose. The source’s other health and stress generalizations remain unverified, not treatment instructions.\nBrain function:\nWorking memory\nLong-term memory\nError detection\nFear response\n3Fs:\nFear: fight or flight\nFeed\nF**k: reproduce\n2 powerful force for the world to hook up: sex and trade\nDecision: 0.3s neurotransmission + 0.2s choice point = right ventrolateral prefrontal cortex (RULPFC) > sensory thalamus / amygdala\nOrbitofrontal cortex: known to perform nonconscious appraisals of threats\nWillpower come from ACC (Anterior Cingulate Cortex), to build up do the hard things first\nMake conscious choices to choose the gain over the pain\nPhychphysis: the branch of psychology that deals with the relationships between physical stimuli and mental phenomena\nHigh power pose increases neuroendocrine: level of testosterone for power and dominance\nUnlike cortisol: stress, hypertension, decrease immunity"
+      },
+      {
+        "heading": "The resilience spiral is not a clinical pathway",
+        "body": "Read the source with these limits\nThe sequence mixes depression/distress labels with action prompts. It is not a validated scale, prescribed progression or treatment plan. Keep ordinary ideas about rest, attention and support separate from unverified clinical mechanisms.\nResilience spiral:\nDepression\nDistress\nVulnerable\nWithdrawn\nDisengaged\nConfused\nMaster stress\nEnergise body\nEngage emotion\nTrain mind\nSpin in action"
+      },
+      {
+        "heading": "A second grief list and an absolute learning claim",
+        "body": "Read the source with these limits\nGrief responses can overlap, repeat or be absent. The source’s “resurgence” is not established here as a universal sixth stage. “Humans only learn through suffering” is an absolute philosophical claim, not a learning rule supported by the supplied material.\nStages of grief:\nDenial\nAnger\nBargaining\nDepression\nAcceptance\nResurgence\nHumans only learn through suffering"
+      },
+      {
+        "heading": "A claim about parentification",
+        "body": "Read the source with these limits\nThe source generalizes about defensiveness and help-seeking without specifying a study or individual context. It should not be used to diagnose a person or assume their history from workplace behaviour.\nPeople who been parentified tends to be defensive and never ask for help as their past experience proves to be futile"
+      },
+      {
+        "heading": "Development and social-circuitry assertions",
+        "body": "Read the source with these limits\nThe source offers causal-sounding claims about children’s later health/wealth and face-to-face social circuitry without identifying studies or conditions. They remain unverified and should not be presented as guaranteed effects of focus or one communication mode.\nWith better focus, a child did better in term of health, wealth and less crime\nIn face-to-face interactions our social circuitry picks up a multitude of cues and signals that help us connect well, we need to keep meeting people"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Original replication paper record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25810452/"
+      },
+      {
+        "title": "the authors' university research-centre summary",
+        "url": "https://www.zne.uzh.ch/en/news/Ranehill-Power-Poses.html"
+      },
+      {
+        "title": "Foundation's explanation",
+        "url": "https://www.ekrfoundation.org/five-stages-of-grief-tm/"
+      }
+    ]
+  },
+  {
+    "slug": "power-maxims-critical-reading",
+    "title": "Power maxims: influence, incentives and ethical limits",
+    "topic": "Business & Management",
+    "group": "Ethics in practice",
+    "summary": "Read strategic and workplace maxims critically: ask whose agency, credit, safety and dignity an action affects.",
+    "sections": [
+      {
+        "heading": "The supplied 48-law reading",
+        "body": "Read the source with these limits\nRead the list as a study of influence and power rhetoric, not a code of conduct. Concealment, dependence, taking others’ credit and intimidation raise different ethical concerns from patience, focus or careful timing.\nFor any proposed tactic ask: whose informed choice is reduced, what duties apply, who bears the costs, and what transparent alternative could meet the legitimate objective? Keep the distinction between describing a tactic and endorsing it.\n48 laws of power\nNever outshine the master\nNever put too much trust in friends; learn how to use enemy\nConceal your intentions\nAlways say less than necessary\nSo much depends on your reputation - guard it with your life\nCourt attention at all cost\nGet others to do the work for you but always take the credit\nMake other people come to you - use bait if necessary\nWin through your actions, never through argument\nInfection: avoid the unhappy and unlucky\nLearn to keep people dependent on you\nUse selective honesty and generosity to disarm your victim\nWhen asking for help, appeal to people’s self-interest, never to their mercy or gratitude\nPose as a friend, work as a spy\nCrush your enemy totally\nUse absence to increase respect or honour\nKeep others in suspended terror; cultivate an air of unpredictability\nDo not build fortresses to protect yourself - isolation is dangerous\nKnow who you are dealing with - do not offend the wrong person\nDo not commit to anyone\nPlay a sucker to catch a sucker - seem dumber than your mark\nUse the surrender tactic: transform weakness into power\nConcentrate your force\nPlay the perfect courtier\nRecreate yourself\nKeep your hands clean\nPlay on people’s need to create a cult like following\nEnter action with boldness\nPlay all the way to the end\nMake your accomplishments seem effortless\nControl the options: get others to play with the cards you deal\nPlay to people’s fantasies\nDiscover each man’s thumbscrew\nBe royal in your own fashion: act like a king to be treated like one\nMaster the art of timing\nDisdain things you cannot have; ignoring them is the best revenge\nCreate compelling spectacles\nThink as you like but behave like others\nStir up waters to catch fish\nDespise the free lunch\nAvoid stepping into a great man’s shoes\nStrike the shepherd and the sheep will scatter\nWork on the hearts and minds of others\nDisarm and infuriate with mirror effect\nPreach the need for change, but never reform too much at once\nNever appear too perfect\nDo not go past the mark you aimed for: in victory learn when to stop\nAssume formlessness"
+      },
+      {
+        "heading": "Historical stereotypes are not evidence",
+        "body": "Read the source with these limits\nThis short comparison makes sweeping claims about several peoples and periods without evidence. Its possible lesson about differing social demands does not justify reducing cultures to stereotypes. Retain it as an example of a claim requiring historical context.\nPolynesian (build & pilot canoes), Mongol (ride & care horses), Aztec (avoid become human sacrifice), Russian (avoid become a serf)"
+      },
+      {
+        "heading": "Scaling, accountability and coercive workplace rhetoric",
+        "body": "Read the source with these limits\nThe source mixes accountability ideas with guilt, surveillance cues, “gene pool,” submission and slavery metaphors. These do not become legitimate hiring or management policies because they appear in a business reading.\nA constructive alternative is to agree roles, resources, review points, fair rewards and a safe way to raise concerns. Evaluate incentives without dehumanizing workers or encouraging dependency.\nScaling capacity\nTalent x accountability\nSquelch free riding\nInject pride and righteous anger\nBring in guilt-prone leaders\nUse subtle cues “I will be watching you” to prime accountability\nCreate the right gene pool\nUse other organisations as your HR department\nExcellence, efficiency, expansion\nThose who talk should do and only those who do should talk\nThe most intolerant wins - renormalisation group: (e.g.) one fellow in the intransigent group only eat GMO food, her family have to accommodate and in a bbq the other families have to follow to\nSomeone who has been employed for a while is giving you strong evidence of submission\nThe best slave is someone you overpay and who knows it, terrified of losing his status\nCourage is when you sacrifice your own well-being for the sake of the survival of a layer higher than yours: you > family, friends, pets, tribe > self-defined extended tribe > humanity > ecosystem"
+      },
+      {
+        "heading": "Advice, failure and an inappropriate medical analogy",
+        "body": "Read the source with these limits\nAssess advice by relevant evidence, competence and conflicts rather than dismissing every person who has experienced failure. The medical comparison is rhetoric and provides no treatment guidance.\nSeeking advice from a failure is like consulting a quack on how to cure cancer"
+      },
+      {
+        "heading": "Organization design and unsupported screening assertions",
+        "body": "Read the source with these limits\nCulture, purpose and design are useful organizational lenses. The statement “never hire an academic” is a categorical prejudice, not a defensible general selection rule. The ODT entry names a deception-testing product without supplying validity evidence; it is not a recommendation to screen employees that way.\nThe “cleopening” term describes a late-close/early-open schedule. It is not an endorsement of such scheduling. The productivity assertion about sociable telemarketers has no supplied study and should not become a universal judgement of workers.\nHigh performing organisation (HPO)\nCulture: values, beliefs, stories\nPurpose: vision, goals, strategy\nDesign: structure, power, leadership)\nNever hire an academic unless his function is to partake of the rituals of writing papers or taking exams\nThe Ocular-Motor Deception Test (ODT) is an automated psychophysiological test for deception designed for use in a screening environment\nCleopening: the staff closes the shop very late for a few hours and reopen it again in the morning\nTelemarketing employees who are more social is actually more productive than those “hard working” ones"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Penguin Random House, official Greene book page",
+        "url": "https://www.penguinrandomhouse.com/books/330912/the-48-laws-of-power-by-robert-greene/9780140280197/"
+      }
+    ]
+  },
+  {
+    "slug": "strategic-reflection-prompts",
+    "title": "Strategic reflection: assumptions, opportunity and growth",
+    "topic": "Business & Management",
+    "group": "Strategy practice",
+    "summary": "Use the source questions and metaphors to surface assumptions about markets, capabilities and the costs of growth.",
+    "sections": [
+      {
+        "heading": "Growth and entrepreneurial judgement",
+        "body": "Read the source with these limits\nThe source uses running, sharks, military and investing metaphors to discuss growth and preparation. Treat them as prompts to test assumptions, not universal rules about survival or a requirement to eliminate every business risk.\nAsk which risk can be reduced before committing, which uncertainty remains, and whether growth changes the competitive arena, cash needs or culture.\nCoaching\nBalance in your path. Certain marathon runners sprint and be 2 hours ahead of their peers and end up being picked up by the ambulance\nGrowth can be bad, it may propel your business into a different competitive space with better competitors, it can stress the company and dilute a company’s culture\nSoldier to entrepreneur is like value-added investors to politician\nEntrepreneurs are detectives and not fortune teller, entrepreneurs are luck maker and not risk taker\nEntrepreneur should only begin the business when all major business risks are addressed\nIt is how well you lose, not how well you win that determines whether you get to keep playing\nBusinesses are like sharks, if they aren’t swimming, they die"
+      },
+      {
+        "heading": "The hedgehog questions",
+        "body": "The three supplied questions connect passion, capability and the economic engine. Compare the fit rather than assuming one answer guarantees success.\nHedgehog concept circles: what you can be the best in the world + what drives your economic engine + what are you deeply passionate about"
+      },
+      {
+        "heading": "Vision and framing",
+        "body": "Ask which observations support the pattern you think you see, and which information your current frame may hide.\nVisionary leader able to see things early and connect the dots\nFrame blindness: we are hardwired to see what we want to see"
+      },
+      {
+        "heading": "Macro changes and balanced judgement",
+        "body": "Use the listed trends to frame research questions. The source provides no current measures or forecasts for them; compare intuition with observation, analysis and actual outcomes.\nMacro force of chance:\nDigital first\nDisruption and consumption\nEmerging middle class\nIncreased urbanisation\nProductivity and the ageing workforce\nInvisible sector boundaries\nBalancing between intuition, reflection, analysis, action"
+      },
+      {
+        "heading": "Budget and diagnosis",
+        "body": "Investigate what changed before assigning blame to a budget or any single factor. The maxim is a prompt, not evidence that funding constraints never matter.\nDon’t blame the budget when things are going South"
+      },
+      {
+        "heading": "Questions about future markets and opportunities",
+        "body": "State what is observed, what is assumed and what evidence would change the view. These questions open a strategic review; they are not forecasts.\nWhat boundaries are likely to disappear in the next few years?\nWhat will change in customer needs and preferences?\nWhat new type of customer will emerge?\nWhat makes a company successful and unsuccessful in 3 to 5 years?\nHow will the global market evolve?\nBiggest competitive threats in 5 years?\nWho will be the early market adopters?\nWhat will technology benefit your company?\nThe greatest opportunities?\nWhat you see and no one else sees?"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Collins on the Hedgehog Concept",
+        "url": "https://www.jimcollins.com/concepts/the-hedgehog-concept.html"
+      },
+      {
+        "title": "Collins on Level 5 Leadership",
+        "url": "https://www.jimcollins.com/concepts/level-five-leadership.html"
+      }
+    ]
+  },
+  {
+    "slug": "incentives-framing-exercises",
+    "title": "Incentives and framing: two decision exercises",
+    "topic": "Problem Solving & Decision Making",
+    "group": "Decision practice",
+    "summary": "Compare choices using explicit payoffs and probabilities before reacting to the way an option is described.",
+    "sections": [
+      {
+        "heading": "Competition, circular requirements and envy",
+        "body": "Read the source with these limits\nThe bear, experience and jealous-neighbour stories invite different questions: relative competition, circular entry requirements, avoiding needless decisions and destructive comparison. They are anecdotes, not empirical estimates of behaviour.\n“You can’t outrun a hungry bear.” “But I only need to outrun you.”\nCatch-22: “How am I supposed to gain experience if I'm constantly turned down for not having any?”\nDon’t make a hundred decisions when one will do\nPoverty mindset: “the peasant Ivan is jealous of his neighbour Boris, because Boris has a goat. A fairy comes along and offers Ivan a single wish. What does he wish for? That Boris’s goat should drop dead”"
+      },
+      {
+        "heading": "Saved lives and risk framing",
+        "body": "Read the source with these limits\nBefore comparing the source options, specify the full population and the exact outcomes for every probability. Some wording is abbreviated; do not assume two descriptions are equivalent without reconciling their counts and probabilities. The exercise concerns decision framing, not advice for an actual emergency.\nIllusions on which scenario is better?\nA: save 200 people\nB: ⅓ chance 600 people will be saved and ⅔ die\nC: 400 people die\nD: ⅓ chance nobody dies and ⅔ chance everyone dies"
+      },
+      {
+        "heading": "The supplied prisoner’s dilemma",
+        "body": "The payoff table above preserves the given example. Compare the incentives for each choice while keeping months and years distinct.\nClassic prisoner’s dilemma:\nA&B silent: each serves 8 months\nA silent B betray: A 12 years B goes free\nA betray B silent: A goes free B 12 years\nA&B betray: each serves 5 years"
+      },
+      {
+        "heading": "Attention, uncertainty and learning from error",
+        "body": "Read the source with these limits\nThe keys-under-the-lamp story asks whether a search is being limited by convenience. The final principles emphasize uncertainty, possibility, cooperation, motivation and intentional action. Broad claims about survey answers and trial-and-error need a defined context; do not infer that all self-report is false.\nLooking for keys in the dark street, someone only searches the place where light is even he dropped his keys elsewhere because he can’t see in the dark\nYou are aware that you are usually unaware\nResearch by social psychologists has shown that the answers people give tend to not be true to a surprising degree\nIn real life trial and error, and it’s not only how we uncover our biases. It’s how we actually make new ones\n5 principles to deviate:\nCelebrating uncertainty\nOpenness to possibility\nCooperation\nIntrinsic motivation\nIntentional action"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "quantum-physics-study-glossary",
+    "title": "Quantum physics glossary: states, spin, barriers and open questions",
+    "topic": "Science & Quantum",
+    "group": "Quantum foundations",
+    "summary": "Connect the supplied technical terms with bounded explanations, and distinguish established models from proposed unification.",
+    "sections": [
+      {
+        "heading": "States, spin, particles and unification",
+        "body": "For an operator A, a nonzero state ψ satisfying Aψ = aψ is an eigenstate. For an observable, an ideal measurement in that state gives the corresponding value a; the term is relative to the specified operator.\nThe value a in Aψ = aψ is the eigenvalue associated with the eigenstate ψ. It is not restricted to a parameter in a differential equation.\nA one-dimensional oscillator with potential V(x) = ½mω²x² has energy values Eₙ = ħω(n + ½), for n = 0, 1, 2, … . Its stationary states are not little particles following classical periodic paths.\nIn nonrelativistic quantum mechanics, iħ ∂ψ/∂t = Hψ describes how a state evolves under a Hamiltonian H. It is not a definition of wave–particle duality.\nThe operator representing energy and governing time evolution in the model. For a simple particle in a potential, H = p²/(2m) + V; more general systems have different Hamiltonians.\nA beam of silver atoms separated into discrete components in a nonuniform magnetic field. The modern account relates the result to intrinsic spin; electron spin was a later interpretation, not the original experimenters’ starting explanation. Spin is not literal rotation of a small sphere.\nParticles with half-integer spin and antisymmetric states under exchange of identical particles. Electrons are elementary examples; protons and neutrons are composite fermions. The category is not synonymous with elementary particle.\nParticles with integer spin and symmetric states under exchange of identical particles. Photons are elementary examples, while pions are composite spin-zero bosons. Several identical bosons can occupy the same single-particle state.\nThree dimensionless two-by-two matrices commonly used to represent spin-½ states. Spin components are ħ/2 times the corresponding Pauli matrix, so an unscaled matrix should not be called an angular momentum.\nSolutions of the spherical Bessel differential equation, arising for example in radial wave problems. They relate to ordinary Bessel functions of half-integer order; spherical Bessel and spherical Neumann functions are distinct solution families.\nEmission of electrons from a material after absorption of light with sufficient photon energy. In the elementary model, the maximum emitted kinetic energy is hν minus the work function; changing intensity alone does not replace the threshold-frequency condition.\nFor a position coordinate and its corresponding momentum component, Δx Δp ≥ ħ/2 relates the standard deviations of outcomes in a quantum state. It is more than ordinary instrument imprecision.\nA particle can have a nonzero probability of transmission through a finite potential barrier even when its energy is below the barrier height. It is not specifically entry into an electrostatic field.\nDiagrams used to organize terms in perturbative calculations of interactions. Their rules depend on the theory; they extend beyond a single photon and particle and are not literal tracks through space.\nThe Standard Model describes elementary particles and the electromagnetic, weak and strong interactions; it does not include gravity. A grand unified theory proposes a deeper unification beyond that model. Quantum gravity seeks a consistent quantum description of gravitation. An experimentally established theory of everything is not supplied by combining those labels.\nA class of geometric spaces studied in mathematics and used in some string-theory compactifications. A compact space of six real dimensions is three complex dimensions; this does not mean “where the third dimension lies” or establish observed extra dimensions."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MIT tunnelling lecture",
+        "url": "https://ocw.mit.edu/courses/6-007-electromagnetic-energy-from-motors-to-lasers-spring-2011/d9bc5d7be258ba20ccc652941d8f3e39_MIT6_007S11_lec42.pdf"
+      },
+      {
+        "title": "MIT lecture notes, lecture 3 p. 19",
+        "url": "https://ocw.mit.edu/courses/2-57-nano-to-macro-transport-processes-spring-2012/2e4ecaa5cf55f03bcefbc8ccce79aed6_MIT2_57S12_lec_notes_2004.pdf"
+      },
+      {
+        "title": "University of Chicago course paper on Calabi–Yau compactification",
+        "url": "https://homes.psd.uchicago.edu/~sethi/Teaching/P484-W2004/calabi-yau.pdf"
+      },
+      {
+        "title": "CERN's Standard Model explanation",
+        "url": "https://home.web.cern.ch/science/physics/standard-model"
+      },
+      {
+        "title": "CERN on unification",
+        "url": "https://home.cern/science/physics/unified-forces"
+      },
+      {
+        "title": "CERN lecture on the Standard Model and gravity, p. 14",
+        "url": "https://indico.cern.ch/event/934613/attachments/2078304/3490348/Grojean_SSLP_SM_QA.pdf"
+      },
+      {
+        "title": "MIT Quantum Physics I course",
+        "url": "https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/video_galleries/lecture-videos/"
+      },
+      {
+        "title": "MIT, Spin One-Half, Bras, Kets, and Operators, §2–3",
+        "url": "https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/a56c316e4ec548d8bd0a554fac9a74e8_MIT8_05F13_Chap_02.pdf"
+      },
+      {
+        "title": "Oregon State University, Time Evolution Refresher",
+        "url": "https://paradigms-new.physics.oregonstate.edu/act/handout/2064"
+      },
+      {
+        "title": "MIT, Quantum Harmonic Oscillator, lecture 8, pp. 3–4 and 8–9",
+        "url": "https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/808334d09369e3a726f6f20d82315c20_MIT8_04S13_Lec08.pdf"
+      },
+      {
+        "title": "MIT, Identical Particles, §1 and §1.5",
+        "url": "https://ocw.mit.edu/courses/8-06-quantum-physics-iii-spring-2016/6e02558ecf4b7af37d2cdff550fc0f71_MIT8_06S16_chap4.pdf"
+      },
+      {
+        "title": "Cornell, physical examples and spin–statistics",
+        "url": "https://quantum.lassp.cornell.edu/node/323"
+      },
+      {
+        "title": "NIST DLMF §10.47, equations 10.47.1, 10.47.3–4",
+        "url": "https://dlmf.nist.gov/10.47"
+      },
+      {
+        "title": "Rice University OpenStax, University Physics Vol. 3 §6.2",
+        "url": "https://openstax.org/books/university-physics-volume-3/pages/6-2-photoelectric-effect"
+      }
+    ]
+  },
+  {
+    "slug": "spiritual-reflection-purpose",
+    "title": "Spiritual reflection: desire, compassion, meaning and belief",
+    "topic": "Beliefs & Mysteries",
+    "group": "Belief and interpretation",
+    "summary": "Read the supplied contemplative language as philosophical reflection, separating metaphors and beliefs from medical or physical claims.",
+    "sections": [
+      {
+        "heading": "The supplied Ten Worlds reflection",
+        "body": "Read the source with these limits\nThe passage uses religious or contemplative labels for desire, anger, learning, compassion and meaning. It also mixes in brain and medicine claims that are not verified here. Read the spiritual interpretation separately from any proposed biological explanation; the brief list is not a clinical instrument.\n10 Worlds:\nHell: pain from anterior cingulate cortex < suffering. Tylenol, a pain reliever. Non-ending sufferings cause depression\nTitillating: arousing sexual excitement; salacious: conveying appropriate interest in sexual manner\nHunger: trapped with persistent feelings of restlessness and yearning; delusion to be happy when we got what we want\nAnimality: food, sex, sleep, basic desire; obsessively seek pleasure and avoid pain\nAnger: to protect your ego; hate being viewed negatively\nTranquillity: suppress both emotion and desire; doesn’t know what they want\nRapture (joy): hedonic happiness (emotion) & eudaimonic happiness (one’s purpose); attachment to temporary things hinder our happiness\nLearning: linked to eudaimonic happiness; crush a man by making him do work that devoid of usefulness and meaning\nHypofrontality - decreased cerebral blood flow in the prefrontal cortex\nRealisation: to be freed from delusional beliefs\nCompassion: altruistic (unselfish); overdoing will become resentful\nEnlightenment: sense of unity with our surrounding; a feeling of awe"
+      },
+      {
+        "heading": "Faith, fear and vibration language",
+        "body": "Read the source with these limits\nFaith and fear are used as spiritual/motivational categories. Claims about ego vibration or universal effects of faith are beliefs or metaphors here, not measured physical relationships.\nFaith encourages all that is right, fear encourages all that is wrong\nFaith attracts only that which is constructive and creative, fear attracts only that which is destructive\nAutosuggestion (or self-hypnosis) is the medium by which one may attune his ego to any desired rate of vibration. Every successful person makes constant use of this principle"
+      },
+      {
+        "heading": "Identity, charity, difficult feelings and wisdom",
+        "body": "Read the source with these limits\nThe eagle story and other analogies discuss identity, attention, generosity and self-observation. They are philosophical prompts, not instructions to deny real circumstances, diagnose others or replace practical help.\nReligious language and comments about knowing God are retained as interpretations. A statement about overcoming a feeling does not establish a clinical technique or require a reader to endorse one belief.\nAn eagle grew up with the chickens and one day it saw a majestic eagle soaring above the sky wondering what that is, the eagle lived and died a chicken, for that’s what he thought he was.\nMany people want to get out of kindergarten but all they want is for you to mend their broken toys. Give me back my wife, job, money, reputation and success.\nWhen you fight something, you empower it. Don't renounce it, see through it.\nThe Worst kind of charity is to do something, so you won't get a bad feeling, you don't want people to think of you as a bad person.\nTransferring the bomb from your lap to under the seat is simply transferring problems and not solving them.\n3 most difficult thing:\nReturning love for hate\nIncluding the excluded\nAdmitting that you are wrong.\n2 things in the world:\nLove and fear; fear causes you to be angry.\nWe often obsess over religion itself and forget the value behind it.\n4 steps to wisdom:\nGet in touch with negative feelings you are not aware of\nUnderstand the feeling in you and stop trying to change reality\nNever identify with that feeling (not the 'I')\nHow do you change things and change yourself?\nSchools with only pass and fail encourage students to help one another rather than adjusting the microscope of the fellow student.\nUltimate form of knowing God is like blind man discussing colour.\nYou don't realise you have a tooth until you get a toothache, take care of yourself before things happen\nIf you don't see things through your concept you will never get bored\nIt is not living life when a car breaks down and you push it all the way to your destination, call the mechanic"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "entrepreneurial-self-cultivation",
+    "title": "Entrepreneurial self-cultivation: a Chinese programme overview",
+    "topic": "Beliefs & Mysteries",
+    "group": "Belief and interpretation",
+    "summary": "Read an English translation of the supplied Chinese overview, with its original text and missing programme details clearly distinguished.",
+    "sections": [
+      {
+        "heading": "Principles, business practice and the programme’s promise",
+        "body": "Guangming Deng — the supplied programme title.\nAn instruction manual for life.\nA plan for the sustained, healthy development of an existing enterprise, together with a plan for reaching new heights in personal growth.\nIn this way, career, family and growth are brought into alignment; the programme promises an end to inner conflict and confusion.\nA three-dimensional learning space in which Dao—guiding principles—directs practical methods.\nThe text argues that Chinese society moved from governance through Dao to governance through rules, and draws a parallel with business. It places guiding principles above systems and culture, and criticizes a market filled with techniques and tools. It says that few teachers in the past thirty years have integrated Dao with commerce, while imported Western methods are often copied in form without understanding their underlying spirit. It compares methods without an understanding of fundamentals to prescribing medicine without identifying the cause, concluding that the end point of rules is Dao.\nAn energy-refuelling station wherever one makes a home.\nWhen business owners deepen their understanding and values, the text says that putting learning into practice follows naturally. It advocates using oneself and one’s enterprise to understand life, discern patterns, serve society and benefit others: spend the rest of life growing with the right people and doing the right things. It describes close human connection as the foundation, with commercial value following alongside it."
+      },
+      {
+        "heading": "Announced growth models and their missing details",
+        "body": "Five necessary paths of spiritual growth.\nThe text claims that when people reach a desperate situation, have tried many methods and found no effective help, they turn attention inward and develop inner strength. It presents the search for light in darkness as a route to a significant breakthrough.\nThis proposed path draws lessons from the concrete problems faced by business owners. It treats difficulty and suffering as a furnace for developing discernment and clarifying the direction of the enterprise and of life. Through mutual learning, self-cultivation and sustained practice, it describes a gradual ascent toward a higher level of thought.\nLooking back suddenly.\nSix directions of cultivation for a fulfilling life.\nThe text attributes repeated setbacks to seeing benefits without harms, or harms without benefits. It argues that an owner’s inability to see beyond a difficult period can obstruct the business. It presents despair and a period of quiet endurance as opportunities to strengthen resolve and eventually recognize Dao within the heart.\nThe system describes six interdependent dimensions of inner cultivation, emphasizing underlying principles. It distinguishes these from methods: principles address what should or should not be done, what matters most and what is necessary in the larger picture; methods address how a particular task is carried out. In business, choosing what not to do is presented as equally important as choosing what to do.\nSeven levels of an “energy field” of business understanding.\nThe text proposes that people operate on different levels or tracks. It warns that choosing close collaborators only by external advantages, without understanding deeper differences, can create severe communication barriers and conflict.\nIt claims that many business owners’ current problems mostly come from earlier strategic mistakes, leaving their attention absorbed by firefighting.\nThe programme claims that its model can reveal contradictions in situations and relationships, explain why people group together and decode the components of wealth. It claims that the size and strength of a person’s business and wealth can be seen in this “energy field,” asserting that the starting point determines the destination.\nThe text argues that understanding life’s meaning and one’s way of living precedes sound business choices. It prioritizes what to do and with whom, saying that execution cannot repair the wrong fundamental choice. It proposes an outside perspective to help owners assess circumstances, avoid distractions at the outset and focus on development."
+      },
+      {
+        "heading": "Eight intended audiences",
+        "body": "Eight intended audiences.\nBusiness owners who have searched widely and tried every management approach without finding a path to sustained, healthy development.\nOwners who have passed the passionate startup stage and seek a breakthrough, transition or a new phase of growth.\nOwners with far-reaching ambitions who want their work to benefit their country and other people.\nPeople who have experienced failed investments or unsuccessful opportunities and have begun to question their direction in life.\nOwners facing a trust crisis who want to turn passing traffic into lasting customer relationships and stronger loyalty.\nFounders, chairpersons, general managers, shareholders and others responsible for strategic decisions.\nShareholders and partners willing to work in alignment with the business owner.\nPeople interested in inner cultivation who are willing to examine the limits of their own perspective rather than blame others. The source presents the belief that personal limitations underlie every predicament; this is the programme’s assertion, not an established explanation of all adversity."
+      },
+      {
+        "heading": "Nine business situations",
+        "body": "Nine business situations addressed.\nMaterial abundance, similar products, marketing bottlenecks, shrinking space and margins, and uncertainty about the future direction of the enterprise.\nA weakening existing business or ageing model, with no clear new source of growth and stagnant sales.\nRepeated investment losses and declining confidence or personal energy.\nStrained family, shareholder, partner or core-team relationships; lack of understanding and support; and a sense of facing problems alone.\nAnxiety about children’s education and talent development, alongside uncertainty about understanding differences and supporting people appropriately.\nAn outdated operating model and disappointing results despite trying many management methods.\nRising marketing and labour costs, depleted profits and stalled performance.\nAn unclear company strategy, disagreement at senior levels and ineffective execution.\nConstraints on development and confusion about how to navigate a necessary transition."
+      },
+      {
+        "heading": "Translation and interpretation limits",
+        "body": "The source is a promotional and philosophical overview. Its strong promises and claims about “energy,” destiny and self-responsibility are preserved as the programme’s language; the translation does not endorse them as scientific or clinical findings.\nThe five paths, six directions and seven levels are not actually listed. Their headings do not justify inventing a curriculum, a diagnostic ladder or a numerical test. The eight audiences and nine situations above are the lists that were supplied."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "executive-operating-review",
+    "title": "The CEO operating review: 15 areas of responsibility",
+    "topic": "Business & Management",
+    "group": "Leadership practice",
+    "summary": "Connect executive responsibilities with evidence, decisions and owners across strategy, finance, people and continuity.",
+    "sections": [
+      {
+        "heading": "Board, ownership and management boundaries",
+        "body": "Separate shareholder ownership, board oversight, executive delivery and project/functional management. Exact approvals and responsibilities depend on the organization’s governing documents and jurisdiction.\nTeams & Human Resource\nBoard of directors’ structure\nHire/fire CEO\nGuidance on long-term strategic direction for the business\nApproving various corporate actions\nMaintaining compliance and good corporate governance\nVC-specific roles, the board’s non-role\nShareholding structure\nManagement structure\nFunction and project manager structure"
+      },
+      {
+        "heading": "The CEO operating review: 15 areas of responsibility",
+        "body": "Vision and strategy\nDevelop a clear company vision with input from the CFO and other senior leaders.\nAlign financial goals with strategic objectives and include financial perspectives in sustainable growth planning.\nReview the strategy against performance, align understanding across the company, examine industry changes and communicate the direction to stakeholders.\nLeadership and culture\nEncourage collaboration across departments, recognize performance and work with the CFO on financial ethical standards.\nSupport creativity and innovation, prioritize customer needs in strategic planning, communicate openly and champion collaborative team-building. The second innovation encouragement in this column is consolidated into this item.\nFinancial management\nWork with the finance function on financial health, budgeting and cash flow.\nReview capital expenditure, investment and risk decisions. Develop reporting and audit processes, review performance against targets and adjust plans.\nExamine cost efficiency and compliance with applicable financial/reporting requirements.\nCorporate governance\nWork with the CFO and relevant leaders on governance, accurate reporting, compliance, controls and fraud prevention.\nCheck alignment with mission and values, transparency, company policies and corporate legal responsibilities. Encourage ethical conduct.\nRisk management\nIdentify financial and operational exposures with the finance function and other owners, then agree appropriate responses.\nMonitor exposure and events, maintain a risk framework, review procedures, include risk in decisions and communicate relevant practices to stakeholders.\nOperational efficiency\nThe source repeats risk identification here; it is retained once in the risk-management area above.\nImprove productive systems and processes, monitor operational performance and plan improvements. Encourage continuous improvement and evaluate useful technology.\nReview supply-chain management and resolve operational issues promptly.\nTalent management\nWork with HR, finance and other owners on talent strategy. Support development, career progression and effective performance-management systems.\nPlan succession, balance skills and experience, and support a culture of learning and professional development.\nCustomer focus\nReview satisfaction, customer-centred practices and the financial viability of products/services with finance and marketing.\nGather and analyze feedback, check that the offer meets needs, maintain customer relationships and engage directly with customers to understand concerns.\nInvestor relations\nCoordinate with the CFO on clear communication with investors and analysts. Build appropriate relationships with current and potential investors.\nReport performance and prospects consistently, respond to questions and maintain transparency.\nBrand reputation\nRepresent the company in relevant public forums and maintain constructive media relationships.\nDevelop a clear narrative, align actions with the brand image, manage reputation risks and engage stakeholders.\nInnovation and technology\nSupport innovation, stay informed about relevant technologies and oversee implementation. Encourage cross-functional creative problem-solving.\nReview R&D investment and digital-transformation initiatives, and anticipate technological disruption.\nSustainability and CSR\nConnect CSR strategy to business objectives and oversee sustainability practices.\nMonitor and report performance, engage stakeholders and bring sustainability concerns to the board.\nReview strategy, support employee learning and consider sustainable/ethical practices across the supply chain.\nStakeholder management\nIdentify relevant stakeholders and prioritize engagement with regard to influence and interest.\nBuild constructive relationships, take responsibility for stakeholder impacts, examine value creation and listen to concerns.\nProvide communication and feedback routes, maintain appropriate transparency, manage conflicts and report relevant company performance.\nMergers and acquisitions\nConnect M&A strategy to business objectives. Oversee diligence, negotiation, legal requirements and early financing planning.\nReview strategic fit and realistic synergy assumptions. Plan integration and communicate the transaction’s purpose and progress.\nAddress culture integration and monitor delivery against financial objectives and expected synergies.\nContinuity and succession\nMaintain and review business-continuity arrangements for a crisis and succession plans for executive roles.\nDevelop internal talent, communicate relevant plans and prepare successors.\nCheck critical-role coverage and support organizational resilience and adaptability.\nWorking area\nPrompt\nVision and strategy\nDevelop a clear company vision with input from the CFO and other senior leaders. Align financial goals with strategic objectives and include financial perspectives in sustainable growth planning. Review the strategy against performance, align understanding across the company, examine industry changes and communicate the direction to stakeholders.\nLeadership and culture\nEncourage collaboration across departments, recognize performance and work with the CFO on financial ethical standards. Support creativity and innovation, prioritize customer needs in strategic planning, communicate openly and champion collaborative team-building. The second innovation encouragement in this column is consolidated into this item.\nFinancial management\nWork with the finance function on financial health, budgeting and cash flow. Review capital expenditure, investment and risk decisions. Develop reporting and audit processes, review performance against targets and adjust plans. Examine cost efficiency and compliance with applicable financial/reporting requirements.\nCorporate governance\nWork with the CFO and relevant leaders on governance, accurate reporting, compliance, controls and fraud prevention. Check alignment with mission and values, transparency, company policies and corporate legal responsibilities. Encourage ethical conduct.\nRisk management\nIdentify financial and operational exposures with the finance function and other owners, then agree appropriate responses. Monitor exposure and events, maintain a risk framework, review procedures, include risk in decisions and communicate relevant practices to stakeholders.\nOperational efficiency\nThe source repeats risk identification here; it is retained once in the risk-management area above. Improve productive systems and processes, monitor operational performance and plan improvements. Encourage continuous improvement and evaluate useful technology. Review supply-chain management and resolve operational issues promptly.\nTalent management\nWork with HR, finance and other owners on talent strategy. Support development, career progression and effective performance-management systems. Plan succession, balance skills and experience, and support a culture of learning and professional development.\nCustomer focus\nReview satisfaction, customer-centred practices and the financial viability of products/services with finance and marketing. Gather and analyze feedback, check that the offer meets needs, maintain customer relationships and engage directly with customers to understand concerns.\nInvestor relations\nCoordinate with the CFO on clear communication with investors and analysts. Build appropriate relationships with current and potential investors. Report performance and prospects consistently, respond to questions and maintain transparency.\nBrand reputation\nRepresent the company in relevant public forums and maintain constructive media relationships. Develop a clear narrative, align actions with the brand image, manage reputation risks and engage stakeholders.\nInnovation and technology\nSupport innovation, stay informed about relevant technologies and oversee implementation. Encourage cross-functional creative problem-solving. Review R&D investment and digital-transformation initiatives, and anticipate technological disruption.\nSustainability and CSR\nConnect CSR strategy to business objectives and oversee sustainability practices. Monitor and report performance, engage stakeholders and bring sustainability concerns to the board. Review strategy, support employee learning and consider sustainable/ethical practices across the supply chain.\nStakeholder management\nIdentify relevant stakeholders and prioritize engagement with regard to influence and interest. Build constructive relationships, take responsibility for stakeholder impacts, examine value creation and listen to concerns. Provide communication and feedback routes, maintain appropriate transparency, manage conflicts and report relevant company performance.\nMergers and acquisitions\nConnect M&A strategy to business objectives. Oversee diligence, negotiation, legal requirements and early financing planning. Review strategic fit and realistic synergy assumptions. Plan integration and communicate the transaction’s purpose and progress. Address culture integration and monitor delivery against financial objectives and expected synergies.\nContinuity and succession\nMaintain and review business-continuity arrangements for a crisis and succession plans for executive roles. Develop internal talent, communicate relevant plans and prepare successors. Check critical-role coverage and support organizational resilience and adaptability.\nUse the accessible text as the main reading. Source scans remain optional supporting material."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "executive-review-questions",
+    "title": "Executive review questions: strategy, friction and opportunity",
+    "topic": "Business & Management",
+    "group": "Leadership practice",
+    "summary": "Use the thirty supplied management prompts to diagnose a decision rather than score the business against an invented benchmark.",
+    "sections": [
+      {
+        "heading": "Thirty questions for a management review",
+        "body": "Work through the questions in relation to a defined planning horizon. “This year” and “third quarter” are source-relative wording, not current forecasts; record the actual date and period in your own review.\nSelf-Questionaires\nManagement questions\nWhere are the points of friction in my organisation?\nIn what aspects are we less effective today than before? How to be more effective?\nWhat parts of my organisation are holding others back?\nWhere is morale lower - or higher - than before, and why?\nWhere are we losing business, productivity, and profitability, and why? Where are we gaining?\nWhat’s our untapped potential, and what would it take to unlock it?\nWhat are my sales and gross margin trajectories, and why?\nAm I experiencing great price pressure?\nWhat are my share positions now versus before, with different customer segments?\nWhich products and services are growing, and which are not? Why?\nAm I still getting as much positive press as I used to get?\nAm I attracting a growing number of new customers?\nAre people asking for my advice?\nAre people talking about my business?\nAm I number one in my market for what I do?\nAm I as confident and proud when I‘m talking about my business as I used to be?\nWhy do people continue to do business with me?\nBy the third quarter this year, what will become?\nBy when, we shall become what?\nWhat are the 3 things I wish my business can be different?\nHow much can others trust me?\nCan you create breakthrough technology instead of incremental improvements?\nIs now the right time to start your particular business?\nAre you starting with a big share of a small market?\nDo you have the right team?\nDo you have a way so not just create but deliver your product?\nWill your market position be defensible 10 and 20 years into the future?\nHave you identified a unique opportunity that others don’t see?\nHow can we make a difference to our customers?\nWhat would you like to STOP? What would you like to START doing? What would you like to CONTINUE doing?"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "venture-readiness-questions",
+    "title": "Venture and funding readiness: questions before the pitch",
+    "topic": "Finance & Accounting",
+    "group": "Capital and public markets",
+    "summary": "Examine the problem, market, team, customer economics and reason for financing before choosing a fundraising story.",
+    "sections": [
+      {
+        "heading": "Thirty-three questions before seeking capital",
+        "body": "Choose the questions that fit the business stage and proposed financing. Customer funding, subscription economics, market scope and defensive position are different issues; do not total yes/no answers into a readiness score.\nManagement fundraising questions\nDare to ask what you want?\nHow to make your youth of inexperience not an impediment?\nCan you ignore the naysayers and pursue your vision?\nAre you the person that turns lemons into lemonade?\nDo you underpromise and overdeliver or vice-versa?\nDo you understand the difference between cashflow and profit?\nDo you do things differently or copy what has been done before?\nCan you delegate and not be a control freak?\nWhat is your company’s core strength and how to build a reputation around it?\nWhat do you bring to the party?\nHow do you know who your target market is?\nHave you targeted the right market segment in a sensible fashion?\nHow to make your business look bigger and more credible?\nAre you quirky and inventive enough to get noticed by the media?\nWhat is your business likely to be the winner that “takes all”?\nTo what extent are you addressing a compelling problem?\nIs there an overpriced and poor existing market structure that you plan to disrupt?\nWhat level of trust will be necessary in your vertical, and how will you ensure it?\nHow to prevent customers from circumventing you?\nIs your market fragmented on both the buyer’s and seller’s side?\nAre you targeting narrowly or widely at the outset, and are you building a Honda or a Mercedes-Benz?\nYou are a customer-funded business, why do you need capital now?\nWhat’s different about your proposition compared to others?\nDoes a subscription offer a better and cheaper solution?\nWhat is the customer acquisition cost, investment payback period and lifetime value?\nAre you building technology because you can or because your business depends on it?\nWhat is the depth of the vendor relationships you and your team bring to the table?\nIs your venture easy to copy, thereby making new competitors likely?\nAre your metrics about members, or about “paying customers” and their value?\nIs your plan to “get big fast” or to grow at the pace your customers can fund?\nIs your business reliant on one stage of the business cycle?\nWhat product is more compelling than the already successful services you now provide?\nTo what extent will it open up a new and attractive market segment?"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "employee-experience-conversations",
+    "title": "Employee-experience conversations: clarity, resources and growth",
+    "topic": "Business & Management",
+    "group": "Engagement and development",
+    "summary": "Discuss working conditions and development with independently written topic guidance, without claiming to administer a validated assessment.",
+    "sections": [
+      {
+        "heading": "Twelve themes from the supplied employee prompts",
+        "body": "The supplied notes follow the topic order of Gallup’s Q12. The official source is linked for that instrument; the discussion here is independently worded topic guidance rather than an administered questionnaire or Gallup-validated adaptation.\nRole clarity: shared expectations for the work.\nResources: access to the tools and conditions needed to contribute.\nStrengths: opportunities to use and develop capabilities.\nRecognition: credible acknowledgement of useful contributions.\nCare and respect: a working relationship in which people matter.\nDevelopment support: access to feedback and encouragement.\nVoice: a fair way to express ideas and concerns.\nPurpose: a clear connection between work and worthwhile outcomes.\nQuality: shared commitment to reliable standards.\nConnection: constructive relationships and belonging.\nProgress: conversations about learning and contribution over time.\nGrowth: opportunities to learn and take on useful challenges.\nUse these as topics for a respectful conversation, not as twelve scored survey items. No employee ranking, diagnostic threshold, benchmark or assurance of anonymity is inferred."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Gallup's official Q12 page",
+        "url": "https://www.gallup.com/q12-employee-engagement-survey/"
+      },
+      {
+        "title": "Gallup's Q12 research page",
+        "url": "https://www.gallup.com/workplace/321725/employee-engagement.aspx"
+      },
+      {
+        "title": "Gallup Access product terms",
+        "url": "https://loginq.gallup.com/Home/ProductTerms?clientId=Gallup.IdentityServer"
+      }
+    ]
+  },
+  {
+    "slug": "leadership-competency-reference",
+    "title": "Leadership competencies: describe behaviour before assigning a rating",
+    "topic": "Business & Management",
+    "group": "Engagement and development",
+    "summary": "Organize the supplied competency categories into observable examples and development conversations without an invented overall score.",
+    "sections": [
+      {
+        "heading": "Seven competency categories and behavioural prompts",
+        "body": "Ask for observable examples, context and development needs. Some source labels such as “aggressive” are ambiguous; discuss the intended behaviour and its effects rather than rewarding the label. No weighting, validated scale or overall cut-off was supplied.\nExperience of the entrepreneurs and leadership team\nLeader & expert competency scorecard\nLeadership competency\nHires “A” people\nDevelops people\nRemoves underperformers\nTreats people with respect\nPositive influence of others\nArticulates the vision\nEncouraging - coaches others\nSubject matter competencies\nPossesses all requisite skills\nApplies best practice\nInternal expert - opinion is valued\nPersonal competencies\nIntegrity/honesty\nOrganisation and planning\nCalm under pressure\nAggressive\nMoves fast\nFollows through on commitment\nReliable/shows up\nApplies discretionary effort\nEfficient/gets things done\nIntellectual competencies\nBrainpower/learns quickly\nAnalysis skills\nStrategic thinking/visioning\nCreative innovation\nAttention to detail\nThinks it through - offer solutions\nSees the big picture\nMotivational competencies\nEnthusiasm/ability to motivate others\nPersistent\nProactive/takes initiative\nWork ethic\nSets high standards\nInterpersonal competencies\nListening skills\nOpen to criticism and others’ ideas\nWritten communication\nTeamwork\nPersuasive\nHolds people accountable\nCollaborates with peers\nTechnical/function competencies\nKnowledge of industry"
+      },
+      {
+        "heading": "Ability, motivation and opportunity",
+        "body": "This one-line performance model is a prompt to examine skills, willingness and conditions that allow contribution. It does not supply a causal coefficient, validated scoring rule or formula for an employee’s output.\nBath People and Performance' model: direct consequence of ability, motivation and opportunity"
+      },
+      {
+        "heading": "Use evidence instead of a total score",
+        "body": "Choose a role and a small number of relevant behaviours. For each, record a concrete example, the work context, what good performance would look like and the support or practice needed. Review changes over time rather than adding unlike categories into a single number."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "cross-cultural-leadership-models",
+    "title": "Cross-cultural leadership: compare Hofstede and GLOBE carefully",
+    "topic": "Business & Management",
+    "group": "Leadership practice",
+    "summary": "Keep culture dimensions, reported practices, desired values and leadership expectations distinct from assumptions about individuals.",
+    "sections": [
+      {
+        "heading": "The two supplied culture/leadership models",
+        "body": "Read the source with these limits\nHofstede’s six societal dimensions and GLOBE’s nine societal dimensions plus six leadership dimensions are different constructs. Use group-level comparisons as questions about context, not predictions of an individual employee.\nThe source’s short/long-term orientation wording is misleading: pragmatic adaptation belongs with long-term orientation in the Hofstede model. Uncertainty avoidance is not simply willingness to take a financial risk. The sourced comparison below keeps the models separate.\nHofstede's cultural dimensions theory\nPower distance: egalitarian vs embraces hierarchy\nIndividualism vs collectivism\nMasculinity vs femininity: nurture vs power\nUncertainty avoidance: comfortable or not\nPragmatic vs normative: short vs long term\nIndulgence vs restraint:\nGlobal Leadership and Organisational Behaviour Effectiveness (GLOBE)\nCulture visualisation\nPerformance orientation\nAssertiveness\nFuture orientation\nHumane orientation\nInstitutional collectivism\nIn-group collectivism\nGender egalitarianism\nPower distance\nUncertainty avoidance\nLeadership visualisation\nCharismatic\nTeam oriented\nParticipative\nHumane oriented\nAutonomous\nSelf-protective"
+      },
+      {
+        "heading": "Ask before assuming",
+        "body": "Hofstede compares aggregate societal dimensions. GLOBE distinguishes reported practices from desired values and separately explores leadership expectations. The scores cannot be swapped between models or used to predict an individual colleague’s preferences. Ask about a real team’s ways of communicating, deciding and resolving disagreement."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hofstede estate's model explanation",
+        "url": "https://geerthofstede.com/culture-geert-hofstede-gert-jan-hofstede/6d-model-of-national-culture/"
+      },
+      {
+        "title": "GLOBE researchers' study overview",
+        "url": "https://www.globeproject.com/study_2004_2007?page_id=data"
+      },
+      {
+        "title": "construct definitions",
+        "url": "https://globeproject.com/data/GLOBE-Dimensions-Definitions-and-Scale-Items.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "team-role-frameworks",
+    "title": "Team roles and coordination: compare contributions and dysfunctions",
+    "topic": "Business & Management",
+    "group": "Engagement and development",
+    "summary": "Use Belbin, Lencioni and the supplied team distinctions as different discussion lenses rather than a single personality or team score.",
+    "sections": [
+      {
+        "heading": "Collaboration, dysfunctions and nine contributions",
+        "body": "Cooperative/collaborative are used as source distinctions, not universal definitions of every team. Keep the five dysfunctions and nine Belbin contributions separate from the team-development stages already covered elsewhere.\nTeam types\nCollaborative: output can only be achieved working together\nCooperative: everyone in the group to achieve their own goal\nTeam dysfunctional (Patrick Lencioni)\nAbsence of trust\nFear of conflict\nLack of commitment\nAvoidance of accountability\nInattention of results\nTeam roles (Meredith Belbin)\nImplementer: disciplined and efficient\nTeam worker: cooperative and diplomatic\nPlant: creative and problem solver\nResource investigator: exploring opportunities\nShaper: challenging and overcome obstacles\nCoordinator: chairperson and delegating\nMonitor evaluator: strategic and see all options\nCompleter-finisher: painstaking and searching out errors\nSpecialist: dedicated and task-specific knowledge"
+      },
+      {
+        "heading": "Keep the lenses distinct",
+        "body": "Tuckman concerns development over time; Belbin concerns behavioural contributions; Lencioni concerns obstacles to collective work. A person can make several contributions and a team does not need nine people to discuss nine roles. None of these short notes provides a validated local scoring system."
+      },
+      {
+        "heading": "A contribution vocabulary and an obstacle vocabulary",
+        "body": "Belbin’s nine contributions are Resource Investigator, Teamworker, Co-ordinator, Plant, Monitor Evaluator, Specialist, Shaper, Implementer and Completer Finisher. Discuss the behaviours the task needs; a person need not be confined to one role.\nLencioni’s five dysfunctions are absence of trust, fear of conflict, lack of commitment, avoidance of accountability and inattention to results. The constructive discussion concerns admitting difficulties, debating ideas, agreeing commitments, reviewing behaviour and attending to shared outcomes. No diagnostic cut-off is supplied."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Belbin's official role guide",
+        "url": "https://www.belbin.com/about/belbin-team-roles"
+      },
+      {
+        "title": "The Table Group's original model overview",
+        "url": "https://files.tablegroup.com/wp-content/uploads/2020/12/11224029/FiveDysfunctions.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "leadership-models-comparison",
+    "title": "Leadership models: transformation, service and emergent change",
+    "topic": "Business & Management",
+    "group": "Leadership practice",
+    "summary": "Compare the supplied leadership frameworks by the question each asks and the behaviours it highlights.",
+    "sections": [
+      {
+        "heading": "Leadership progression, humility and resolve",
+        "body": "The supplied progression moves from individual contribution to organizational leadership and includes reflection, debate and accountability. Use it as an attributed framework discussion, not a score proving someone’s level.\nLeadership progression\nLv 1: highly capable individual\nLv 2: contributing team member\nLv 3: competent manager\nLv 4: effective leader\nLv 5: executive\nMore successful in the next generation\nCreates superb results\nUnwavering resolve to do whatever must be done\nSettle for nothing less\nLooks in the mirror and not outside\nCompelling modesty\nDetermination and not charisma\nChannel ambition into the company\nApportion credit to the company\nLead with questions and not answers\nEngage in dialogue and debate and not coercion\nConduct autopsies without blame\nBuild “red flag” mechanism"
+      },
+      {
+        "heading": "Transformational leadership as a general description",
+        "body": "The source emphasizes inspiring new approaches. The more specific four-component framework is distinguished later in this guide.\nTransformational leadership\nA management philosophy that encourages and inspires employees to innovate and develop new ways to grow and improve the path to a company's future success"
+      },
+      {
+        "heading": "Transformational and servant-leadership themes",
+        "body": "The four Bass components and ten Spears characteristics answer different questions and should not be combined into one score. The source’s “rust” wording is a typographical error, not a definition of inspirational motivation.\nTransformational leadership (Bernard Bass)\nIdealised influence: being role model\nInspirational motivation: rust and admiration to work harder\nIndividualised consideration: genuine concern\nIntellectual stimulation: challenging others\nInfluences in 10 ways (Larry Spears)\nListening\nEmpathy\nHealing\nAwareness\nPersuasion\nConceptualisation\nForesight\nStewardship\nCommitment to the growth of people\nBuilding community"
+      },
+      {
+        "heading": "Leadership as an emergent process",
+        "body": "Read the source with these limits\nThe brief attributed systems account proposes disequilibrium, amplifying actions, self-organization and stabilizing feedback. It is not enough to validate a predictive organizational model. Explain the proposed lens without asserting that disruption inevitably creates a desirable new order.\nLeadership as systematic phenomenon (Benyamin Lichtenstein)\nA dis-equilibrium state: imbalance\nAmplifying actions: small actions can create huge difference\nSelf-organisation: collapse or new order\nStabilising feedback: positive feedback cycle"
+      },
+      {
+        "heading": "Four components and ten characteristics",
+        "body": "Transformational leadership distinguishes idealized influence, inspirational motivation, intellectual stimulation and individualized consideration. Examples are setting an ethical example, connecting work to purpose, questioning assumptions and developing others. This page is separate from any licensed leadership questionnaire.\nSpears’s servant-leadership account names listening, empathy, healing, awareness, persuasion, conceptualization, foresight, stewardship, commitment to people’s growth and community. “Healing” is a relational theme here, not a medical claim."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mind Garden, the instrument publisher, explains the components and lineage",
+        "url": "https://www.mindgarden.com/documents/TransformationalLeadership.pdf"
+      },
+      {
+        "title": "Bass's 1990 paper",
+        "url": "https://doi.org/10.1016/0090-2616(90)90061-S"
+      },
+      {
+        "title": "Spears's own account",
+        "url": "https://spearscenter.org/ten-characteristics-of-servant-leadership/"
+      },
+      {
+        "title": "his university-published article",
+        "url": "https://www.regent.edu/journal/journal-of-virtues-leadership/character-and-servant-leadership-ten-characteristics-of-effective-caring-leaders/"
+      },
+      {
+        "title": "Collins on the Hedgehog Concept",
+        "url": "https://www.jimcollins.com/concepts/the-hedgehog-concept.html"
+      },
+      {
+        "title": "Collins on Level 5 Leadership",
+        "url": "https://www.jimcollins.com/concepts/level-five-leadership.html"
+      }
+    ]
+  },
+  {
+    "slug": "delegation-decision-rights",
+    "title": "Delegation and decision rights: authority with clear handoffs",
+    "topic": "Business & Management",
+    "group": "Operating practices",
+    "summary": "Distinguish delegation direction, capability, decision ownership and accountability before handing work to someone else.",
+    "sections": [
+      {
+        "heading": "Delegation direction and capability",
+        "body": "Name who owns the decision, who does the work, what resources are available and what an escalation looks like. The source’s cycle and team labels are prompts rather than a complete scheduling or authority procedure.\nDelegation\nDownward delegation, normal\nUpward delegation, to manager\nSideways delegation, to peers\nSilent delegation, assumption and volunteering\nDelegation cycle:\nTime\nTrust/control\nMoney\nKnow-how\nTeam\nDomain expertise\nPassion intensity\nGood team culture"
+      },
+      {
+        "heading": "Decision ownership, reflection and execution",
+        "body": "Separate boss-decides, consultation, delegated individual ownership and collective decisions. The DEEP heading has no supplied expansion; retain the stated reflection/data/alternatives/review sequence without inventing its acronym or a validated decision score.\nDecision process\nBoss alone\nCollegiate (consult only but still boss decide)\nEmpowered individual\nCollective\nDEEP process\nDecision making: astute, innovative, strategic\nWhat is the goal\nReflect\nGather data\nAnalyse\nTap into intuition\nReflect\nList alternatives\nReflect\nDecide\nReview and reflect\nDecisions clouding\nExecution: accountable, focused, agile\nEmotions & motivation: ambitious, well-adjusted, resilient\nPeople skills: self-aware, empathic, inspiring"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "meeting-design-playbook",
+    "title": "Meeting design: decide together or communicate asynchronously?",
+    "topic": "Business & Management",
+    "group": "Operating practices",
+    "summary": "Choose the interaction needed, the people who can contribute and a clear completion condition before scheduling a meeting.",
+    "sections": [
+      {
+        "heading": "Offsite preparation and facilitation",
+        "body": "Protect the session from ordinary work, prepare participants, choose contributors for insight and allow enough time. Clarify what must be decided rather than treating an offsite itself as an outcome.\nOffsite work session\nParticipants internalise the per work material\nProvide quality facilitation\nSegregate planning from the day job\nChoose participants based on insight, not rank\nAllow enough time for the process to unfold"
+      },
+      {
+        "heading": "Meeting costs and unsupported statistics",
+        "body": "Read the source with these limits\nSalary, preparation, travel, delayed delivery and attention are plausible cost categories to estimate for an actual meeting. The source’s 20%, 40%, 50% and 15% assertions and two-days-per-week claim lack a dated sample and should not be presented as current benchmarks.\nDecide what must happen synchronously and compare the cost with the expected decision or learning benefit; do not infer a precise cost saving from these unsupported percentages.\nMeetings\nSummarise people’s ideas and make them feel important\nStatistic of meetings:\n50% content is not relevant\n20% of the participants should not be there\n40% of meeting time sharing information that can be delivered outside\nManagerial and professionals spent 2 days per week in meeting\nOrganisation collectively spend 15% of their time in meeting and 50% of the content is relevant and necessary to do their jobs\nCost consequences of too much meeting\nSalary costs of attendees\nSalary costs of preparation and travel expenses involved in running the meeting\nLost productivity\nToo much internal focus\nDelays to delivery\nSlow decision-making ineffective collaboration\nPeople hate it\nCreating bad culture\nToo much information and too many people = slow consensus and heavily rely on face-to-face"
+      },
+      {
+        "heading": "Choose, structure and facilitate the interaction",
+        "body": "The source distinguishes discussion from broadcast, proposes OPPT (outcome, process, participation, timing), and lists participation techniques. Apply the technique to context: an invitation, break or subgroup can help, whereas attendance penalties or calling on people should not override accessibility or respectful participation.\nYes to meeting when (spaghetti / discussion)\nYour expertise is needed\nLive synchronous\nSensitive or negotiation\nClear outcome\nRight attendees\nHigh relevance\nRole is not just to listen\nNot one-to-one setting\nCannot be settled through email\nStrategy development\nSuccession and people learning\nCommon learning\nCommunity and relationship building\nEvaluation of high potentials\nCommunication strategy\nUse entire meeting space\nAdhere to meeting agenda\nNo to meeting when (star / broadcast)\nBroadcast of information\nStatus updates\nIndividual action reviews\nDetailed discussions\nParticipants doing other things or daydream\nUnhelpful participants\nUnnecessary attendee: challenge them\nOnly partial: attend their topic only\nStand-ins: evaluate if is the right person\nMultitaskers: draw their attention\nLate-comers: set penalty\nPlan outcome, process, participation, timing (OPPT) and each participants’ activity\nHow will we know when we have finished?\nClose with energy: recep + concise tasks\nEncourage and engagement\nFocus on audience and be inclusive\nAsk for feedback and opinion after each process\nKeep group small encourage early participation\nInvolve people in the material\nEngage all senses including humour\nRoom layout match the process of the meeting\nAsk questions by name\nPolling and voting\nSubgroups and breaks\nScreen sharing\nHandover control\nTake regular breaks\nEnable questions\nUse material\nLimit audience size\nIntegrate other media\nPace, clarity & vocabulary\nHigh context: tactful but indirect\nLow context: quick, direct but may offend people"
+      },
+      {
+        "heading": "A compact meeting record",
+        "body": "Before: state the required decision or learning outcome, preparation and participants. During: make the process and time boundary clear and invite contributions in an appropriate way. After: record the decision, owner, action, date and anything that needs a separate conversation."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "trust-accountability-practice",
+    "title": "Trust and accountability: make commitments observable",
+    "topic": "Business & Management",
+    "group": "Leadership practice",
+    "summary": "Connect clarity, competence, contribution and consistent follow-through without treating trust as a guaranteed financial multiplier.",
+    "sections": [
+      {
+        "heading": "Seeing problems and accepting feedback",
+        "body": "Welcome difficult conversations, examine evidence and link an observation to an agreed result. Removing blame does not remove responsibility for repairing a problem.\nSee it principles\nForgo ego\nWelcome difficult conversation\nEmbrace feedback\nLink what you see to key results"
+      },
+      {
+        "heading": "Trust, evidence and consistent contribution",
+        "body": "Read the source with these limits\nThe source lists potential effects of trust and practices such as clarity, compassion, competence and consistency. The assertion that low trust doubles business cost has no supplied dataset or model and is not a numerical rule.\nThe last lines run several labels together. Their themes can support a discussion of contribution and follow-through, but no missing formal taxonomy or causal result is inferred.\nBuilding trust\nMore trust increase\nOutput\nMorale\nRetention\nProductivity\nInnovation\nLoyalty\nRevenue\nLess trust increase\nCosts (double the cost of business)\nProblems\nSkepticism\nAttrition\nTime to market\nStress\nTrust and reputation\nOnline polls and market research\nCustomer satisfaction indices\nFinancial ratios\nInternal survey and statistics\nSocial media reports\nRegulatory compliance and quality certification\nClarity: vision and purpose, expectations and communications, daily tasks\nCompassion: listen, appreciate, wake up, serve others\nCharacter: humility, principles, intention, self-discipline, accountability\nCompetency: unless you humble yourself to new ideas, you will become stagnant\nCommitment: deflecting blame is no way to build trust\nConnection: The secret and irresistible quality of magnetic Contribution: attention, resources, time, opportunity, help\nMotivate contribution: example, expectations, education, Consistency: you will never get one big chance to be trusted in your life; you will get thousands of small ones"
+      },
+      {
+        "heading": "Make a commitment reviewable",
+        "body": "State what is promised, by whom, with what resources, by when and how a problem can be raised. Review whether the promise was fulfilled and what changed; a general feeling of trust is not a substitute for evidence or appropriate controls."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "strategy-five-ps",
+    "title": "Five ways to describe strategy: plan, pattern, position, perspective and ploy",
+    "topic": "Business & Management",
+    "group": "Strategy practice",
+    "summary": "Use the supplied five-P list to ask whether a strategy is an intention, an observed pattern or a relationship to its environment.",
+    "sections": [
+      {
+        "heading": "The supplied five-P vocabulary",
+        "body": "These are different ways of describing strategy, not five steps that must be completed in order.\nMintzberg 5 P's strategy\nPlan\nPattern\nPosition\nPerspective\nPloy"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "sharing-stepps-framework",
+    "title": "Why people share: the STEPPS discussion framework",
+    "topic": "Business & Management",
+    "group": "Marketing practice",
+    "summary": "Explore social currency, triggers, emotion, public visibility, practical value and stories when planning shareable communication.",
+    "sections": [
+      {
+        "heading": "The six supplied sharing themes",
+        "body": "The examples illustrate possible mechanisms to discuss. Their anecdotes do not establish that every airline or platform follows the quoted incentive policy.\nSTEPPS\nSocial currency: how people sees a product (Foursquare don't pay users to check in and airlines don't give discounts to frequent flyer members)\nTriggers: how one thing related to another (give me a break, give me Kit Kat)\nEmotion: how people feel about something (like social glue, maintaining and strengthening relationships)\nPublic: monkey see monkey do (social proof on tip jar always have money)\nPractical value: useful content (life hacks in YouTube)\nStories: epic story shares more value (share story using Trojan horse method)"
+      },
+      {
+        "heading": "Apply the six questions to a real message",
+        "body": "Social currency: what does sharing communicate about the person? Triggers: what makes the subject come to mind? Emotion: what response makes people want to pass it on? Public visibility: how can behaviour be observed? Practical value: what useful help is offered? Stories: how does a narrative carry the message? These are planning lenses, not a formula guaranteeing virality."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Berger's own explanation",
+        "url": "https://jonahberger.com/how-to-trigger-word-of-mouth/"
+      },
+      {
+        "title": "official book page",
+        "url": "https://jonahberger.com/books/contagious/"
+      }
+    ]
+  },
+  {
+    "slug": "platform-launch-playbook",
+    "title": "Launching a two-sided platform: eight ways to start participation",
+    "topic": "Business & Management",
+    "group": "Strategy practice",
+    "summary": "Compare the source’s approaches to the chicken-and-egg problem using the first participant group and the value it receives.",
+    "sections": [
+      {
+        "heading": "The eight supplied platform-launch approaches",
+        "body": "Choose which side receives value first and how that value attracts the next participants. The examples are historical; strategy fit requires a current market and unit-economics check.\nBeating chicken-and-egg dilemma:\nFollow-the-rabbit: create value and demonstrate\nPiggyback: Paypal ride on EBay\nSeeding: value unit that attract\nMarquee: incentives\nSingle-side: create business around products - e.g. vendor distribute booking management software\nProducer evangelism: attracts producers\nBig-bang adoption: push marketing to attract high volume of interest\nMicro market: target tiny market first)"
+      },
+      {
+        "heading": "What each approach starts with",
+        "body": "Follow-the-rabbit demonstrates an already valuable example. Piggyback draws on an existing platform or audience. Seeding supplies initial value or participation. Marquee attracts an important anchor participant. Single-side offers standalone utility before connecting sides. Producer evangelism lets producers bring their audiences. Big-bang adoption concentrates launch attention. Micromarket builds density in a small initial market.\nThe eight approaches match the authors’ Platform Revolution account in the linked 2016 INSEAD article. Do not confuse platform piggybacking with international-distribution piggybacking; the context and constraints differ."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The three book authors' INSEAD article, 29 July 2016",
+        "url": "https://knowledge.insead.edu/entrepreneurship/eight-ways-launch-successful-platform-business"
+      }
+    ]
+  },
+  {
+    "slug": "collaborative-filtering-research-note",
+    "title": "Collaborative filtering: a recommendation-system research prompt",
+    "topic": "Technology",
+    "group": "Models and methods",
+    "summary": "Understand what the supplied machine-learning label does and does not provide before looking for an implementation.",
+    "sections": [
+      {
+        "heading": "What was supplied",
+        "body": "Read the source with these limits\nThe upload names collaborative filtering and matrix factorization but supplies no implementation or worked example. This Technology research note records the topic and the information needed for a useful follow-up.\nCollaborative filtering (Matrix factorization)"
+      },
+      {
+        "heading": "What a useful follow-up would need",
+        "body": "A future worked example would need defined users/items/interactions, missing-value meaning, a training objective, evaluation design and data-use constraints. Those details are absent from this upload; no supplied code or dataset has been reconstructed."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "cx-proposition-worksheet",
+    "title": "Why will people use this offer?",
+    "topic": "Business & Management",
+    "group": "Understand the customer",
+    "summary": "Clarify customer objectives, reasons to choose the offer and the business outcome before designing the experience.",
+    "sections": [
+      {
+        "heading": "About this worksheet series",
+        "body": "The supplied document contains thirteen scanned pages. Their complete accessible transcriptions are presented across the linked workflow; the DOCX title itself is preserved as provenance.\nCX Worksheet"
+      },
+      {
+        "heading": "Why will people use this offer?",
+        "body": "1. Do customers share the same basic objectives?\nWhat are the objectives in using this product or service, and how do customer types differ? Keep this high-level; the customer-objectives worksheet explores the differences in more detail.\n2. What reasons justify choosing you over a competitor?\nIdentify the rationales that should be communicated clearly through the experience. Defining them at the outset helps make design choices consistent.\n3. What must the offering accomplish for the business?\nWrite clear success criteria that can guide decisions rather than leave success undefined.\n4. If the offer is the answer, what is the question?\nDescribe the customer problem concisely. Formulating the business proposition as an answer helps clarify what it is really about.\nWorking area\nPrompt\n1. Do customers share the same basic objectives?\nWhat are the objectives in using this product or service, and how do customer types differ? Keep this high-level; the customer-objectives worksheet explores the differences in more detail.\n2. What reasons justify choosing you over a competitor?\nIdentify the rationales that should be communicated clearly through the experience. Defining them at the outset helps make design choices consistent.\n3. What must the offering accomplish for the business?\nWrite clear success criteria that can guide decisions rather than leave success undefined.\n4. If the offer is the answer, what is the question?\nDescribe the customer problem concisely. Formulating the business proposition as an answer helps clarify what it is really about.\nUse the accessible text as the main reading. Source scans remain optional supporting material."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "cx-brand-identity-worksheet",
+    "title": "Align the experience with customer identity",
+    "topic": "Business & Management",
+    "group": "Understand the customer",
+    "summary": "Explore what choosing an offer communicates about the customer, their values and communities.",
+    "sections": [
+      {
+        "heading": "Align the experience with customer identity",
+        "body": "Explore what choosing an offer communicates about the customer, their values and communities."
+      },
+      {
+        "heading": "Align the experience with customer identity",
+        "body": "1. What does choosing the offer say about the customer?\nTreat the brand, product or service as an avatar: what values or beliefs is the customer communicating?\n2. Who is the customer telling that story to?\nConsider themselves, colleagues, peers, friends or a wider audience.\n3. Does it express membership of a group or community?\nIdentify any relevant social belonging rather than assuming all customers share one identity.\n4. How important is expressing individuality?\nConsider how much the intended customer wants to emphasize their individual identity.\nWorking area\nPrompt\n1. What does choosing the offer say about the customer?\nTreat the brand, product or service as an avatar: what values or beliefs is the customer communicating?\n2. Who is the customer telling that story to?\nConsider themselves, colleagues, peers, friends or a wider audience.\n3. Does it express membership of a group or community?\nIdentify any relevant social belonging rather than assuming all customers share one identity.\n4. How important is expressing individuality?\nConsider how much the intended customer wants to emphasize their individual identity.\nUse the accessible text as the main reading. Source scans remain optional supporting material."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "cx-customer-objectives-worksheet",
+    "title": "Understand what customers want to achieve",
+    "topic": "Business & Management",
+    "group": "Understand the customer",
+    "summary": "Record the stated objective, unspoken motivations and deeper purpose for each customer type.",
+    "sections": [
+      {
+        "heading": "Understand what customers want to achieve",
+        "body": "Record the stated objective, unspoken motivations and deeper purpose for each customer type."
+      },
+      {
+        "heading": "Understand what customers want to achieve",
+        "body": "1. Objectives\nWhat does the customer want to achieve from the product, service or experience? Try the wording “I want to…”.\n2. Subtext\nWhat is the difference between what people say and what they mean? Record possible unspoken desires or issues, distinguishing research evidence from your assumptions.\n3. Deeper objectives\nAsk why the stated objective matters, then continue asking why until the higher goal becomes clear. The source example distinguishes taking a photo from sharing experiences with friends/family or expressing creativity. The repeated “I want to / Why?” writing spaces support tracing more than one objective.\n4. Business objectives\nWhat are the business goals for this particular customer type?\n5. Notes and ideas\nCapture ideas suggested by a better understanding of customer objectives.\nWorking area\nPrompt\n1. Objectives\nWhat does the customer want to achieve from the product, service or experience? Try the wording “I want to…”.\n2. Subtext\nWhat is the difference between what people say and what they mean? Record possible unspoken desires or issues, distinguishing research evidence from your assumptions.\n3. Deeper objectives\nAsk why the stated objective matters, then continue asking why until the higher goal becomes clear. The source example distinguishes taking a photo from sharing experiences with friends/family or expressing creativity. The repeated “I want to / Why?” writing spaces support tracing more than one objective.\n4. Business objectives\nWhat are the business goals for this particular customer type?\n5. Notes and ideas\nCapture ideas suggested by a better understanding of customer objectives.\nUse the accessible text as the main reading. Source scans remain optional supporting material."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "cx-journey-worksheet",
+    "title": "Map where the customer experience starts and ends",
+    "topic": "Business & Management",
+    "group": "Map and diagnose",
+    "summary": "Describe an end-to-end customer journey, including stages outside the obvious purchase or use moment.",
+    "sections": [
+      {
+        "heading": "A supplied selection, with one visible gap",
+        "body": "The legend includes customer control, but there is no separate customer-control worksheet in this archive. The emotion page is marked CH13. These thirteen scans are a supplied selection, not a claimed complete reproduction of the book or original worksheet pack."
+      },
+      {
+        "heading": "Map where the customer experience starts and ends",
+        "body": "Stages in this customer’s journey\nList the stages in a scenario. The source holiday example starts with deciding to go on holiday, followed by deciding where to go.\nPrinciples relevant to each stage\nConsider customer identity, objectives, expectations, effort, stress, sensory pleasure, social pleasure, customer control and emotions. These are the nine legend labels visible on the supplied sheet; do not infer an additional supplied worksheet.\nExample links between a stage and principles\nThe example links deciding to go on holiday with effort, stress and control, and choosing where to go with objectives, effort, stress from excess choice and sensory pleasure.\nWorking area\nPrompt\nStages in this customer’s journey\nList the stages in a scenario. The source holiday example starts with deciding to go on holiday, followed by deciding where to go.\nPrinciples relevant to each stage\nConsider customer identity, objectives, expectations, effort, stress, sensory pleasure, social pleasure, customer control and emotions. These are the nine legend labels visible on the supplied sheet; do not infer an additional supplied worksheet.\nExample links between a stage and principles\nThe example links deciding to go on holiday with effort, stress and control, and choosing where to go with objectives, effort, stress from excess choice and sensory pleasure.\nUse the accessible text as the main reading. Source scans remain optional supporting material."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "cx-stage-tasks-worksheet",
+    "title": "Break a journey stage into tasks and touchpoints",
+    "topic": "Business & Management",
+    "group": "Map and diagnose",
+    "summary": "Identify objectives, preconditions, steps and channels for one stage before designing improvements.",
+    "sections": [
+      {
+        "heading": "Break a journey stage into tasks and touchpoints",
+        "body": "Identify objectives, preconditions, steps and channels for one stage before designing improvements."
+      },
+      {
+        "heading": "Break a journey stage into tasks and touchpoints",
+        "body": "Success criteria\nRecord customer and business objectives for this stage separately; each supplies its own definition of success.\nPreconditions\nWhat must the customer already have done before they can start and successfully complete this stage?\nSteps, touchpoints and relevant principles\nFor each required step, identify the touchpoint—such as cellphone, website, shop or call centre—and the principles to review. Steps may occur in different orders.\nSupplied example\nA search for “cheap flights” uses a search engine; viewing flight options uses a travel-comparison site. The example marks effort as a relevant principle for both.\nPrinciple legend\nIdentity, objectives, expectations, effortlessness, stress, sensory pleasure, social pleasure, control and emotions are the visible legend labels.\nWorking area\nPrompt\nSuccess criteria\nRecord customer and business objectives for this stage separately; each supplies its own definition of success.\nPreconditions\nWhat must the customer already have done before they can start and successfully complete this stage?\nSteps, touchpoints and relevant principles\nFor each required step, identify the touchpoint—such as cellphone, website, shop or call centre—and the principles to review. Steps may occur in different orders.\nSupplied example\nA search for “cheap flights” uses a search engine; viewing flight options uses a travel-comparison site. The example marks effort as a relevant principle for both.\nPrinciple legend\nIdentity, objectives, expectations, effortlessness, stress, sensory pleasure, social pleasure, control and emotions are the visible legend labels.\nUse the accessible text as the main reading. Source scans remain optional supporting material."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "cx-expectations-worksheet",
+    "title": "Review customer expectations and learned behaviour",
+    "topic": "Business & Management",
+    "group": "Map and diagnose",
+    "summary": "Compare the expectations a customer brings with the experience you intend to deliver.",
+    "sections": [
+      {
+        "heading": "Review customer expectations and learned behaviour",
+        "body": "Compare the expectations a customer brings with the experience you intend to deliver."
+      },
+      {
+        "heading": "Review customer expectations and learned behaviour",
+        "body": "1. Existing expectations\nWhat does the customer expect on arrival at this stage of the journey?\n2. Learned behaviours\nWhat relevant skills or learned behaviours does the customer already have?\n3. Target expectations\nWhat expectations should this stage of the journey set?\n4. Observations and ideas\nWhat expectation issues affect the experience, and what could be done to manage them better?\nWorking area\nPrompt\n1. Existing expectations\nWhat does the customer expect on arrival at this stage of the journey?\n2. Learned behaviours\nWhat relevant skills or learned behaviours does the customer already have?\n3. Target expectations\nWhat expectations should this stage of the journey set?\n4. Observations and ideas\nWhat expectation issues affect the experience, and what could be done to manage them better?\nUse the accessible text as the main reading. Source scans remain optional supporting material."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "cx-effort-worksheet",
+    "title": "Reduce customer effort",
+    "topic": "Business & Management",
+    "group": "Improve the experience",
+    "summary": "Examine task time, waiting, unnecessary features and language with the customer’s objectives in view.",
+    "sections": [
+      {
+        "heading": "Reduce customer effort",
+        "body": "Examine task time, waiting, unnecessary features and language with the customer’s objectives in view."
+      },
+      {
+        "heading": "Reduce customer effort",
+        "body": "1. Time on task\nCan completion take less time? Can tasks be removed, automated or combined? Can any task be completed on the customer’s behalf?\n2. Waiting\nCan waiting be removed, reduced or made less boring?\n3. Features\nWhat can be removed? Does the product or service prioritize what customers want and how frequently they use it?\n4. Language\nDoes the customer understand the language? How could communication be clearer?\nWorking area\nPrompt\n1. Time on task\nCan completion take less time? Can tasks be removed, automated or combined? Can any task be completed on the customer’s behalf?\n2. Waiting\nCan waiting be removed, reduced or made less boring?\n3. Features\nWhat can be removed? Does the product or service prioritize what customers want and how frequently they use it?\n4. Language\nDoes the customer understand the language? How could communication be clearer?\nUse the accessible text as the main reading. Source scans remain optional supporting material."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "cx-stress-worksheet",
+    "title": "Reduce stress in a customer journey",
+    "topic": "Business & Management",
+    "group": "Improve the experience",
+    "summary": "Consider capability, manageable choice, distinct options and clear reasons for each task.",
+    "sections": [
+      {
+        "heading": "Reduce stress in a customer journey",
+        "body": "Consider capability, manageable choice, distinct options and clear reasons for each task."
+      },
+      {
+        "heading": "Reduce stress in a customer journey",
+        "body": "1. Competence\nWhat level of capability or expertise does the customer have here? How could the design fit it better? Is the experience appropriate to their level of competence?\n2. Manageable choice\nCould the amount of choice overwhelm the customer? How could it be made more manageable?\n3. Distinct options\nAre differences between the options clear?\n4. Goal clarity and task purpose\nIs it clear why the customer should or must perform this task? How could the reason be communicated better?\nWorking area\nPrompt\n1. Competence\nWhat level of capability or expertise does the customer have here? How could the design fit it better? Is the experience appropriate to their level of competence?\n2. Manageable choice\nCould the amount of choice overwhelm the customer? How could it be made more manageable?\n3. Distinct options\nAre differences between the options clear?\n4. Goal clarity and task purpose\nIs it clear why the customer should or must perform this task? How could the reason be communicated better?\nUse the accessible text as the main reading. Source scans remain optional supporting material."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "cx-error-prevention-worksheet",
+    "title": "Prevent errors and plan recovery",
+    "topic": "Business & Management",
+    "group": "Improve the experience",
+    "summary": "Separate the mistakes that could occur from prevention, detection and recovery strategies.",
+    "sections": [
+      {
+        "heading": "Prevent errors and plan recovery",
+        "body": "Separate the mistakes that could occur from prevention, detection and recovery strategies."
+      },
+      {
+        "heading": "Prevent errors and plan recovery",
+        "body": "Errors\nWhat mistakes might the customer make? Record separate errors rather than one vague risk label.\nPrevention\nHow might each error be prevented?\nDetection and recovery\nHow might the error be detected, and how can the customer or service recover from it?\nWorking area\nPrompt\nErrors\nWhat mistakes might the customer make? Record separate errors rather than one vague risk label.\nPrevention\nHow might each error be prevented?\nDetection and recovery\nHow might the error be detected, and how can the customer or service recover from it?\nUse the accessible text as the main reading. Source scans remain optional supporting material."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "cx-sensory-accessibility-worksheet",
+    "title": "Design sensory experience with accessibility",
+    "topic": "Business & Management",
+    "group": "Improve the experience",
+    "summary": "Review sensory cues and alternatives so that experience design does not exclude people.",
+    "sections": [
+      {
+        "heading": "Design sensory experience with accessibility",
+        "body": "Review sensory cues and alternatives so that experience design does not exclude people."
+      },
+      {
+        "heading": "Design sensory experience with accessibility",
+        "body": "1. Unavailable senses\nWhich senses cannot be used in this stage, and how can the experience compensate?\n2. Accessibility\nHow can the stage work for people with a sensory impairment?\n3. Vision\nWhat qualities must appearance convey? Refer back to the brand-appeal worksheet.\n4. Touch\nWhat does the customer touch, what qualities should touch communicate and, where appropriate, how can the customer be invited to touch a product?\n5. Scent\nCould scent play a role in the experience?\n6. Hearing\nHow could sound communicate qualities of the offering or reduce effort?\n7. Taste\nCould food or drink add a social dimension, convey welcome or express appreciation at this stage?\nWorking area\nPrompt\n1. Unavailable senses\nWhich senses cannot be used in this stage, and how can the experience compensate?\n2. Accessibility\nHow can the stage work for people with a sensory impairment?\n3. Vision\nWhat qualities must appearance convey? Refer back to the brand-appeal worksheet.\n4. Touch\nWhat does the customer touch, what qualities should touch communicate and, where appropriate, how can the customer be invited to touch a product?\n5. Scent\nCould scent play a role in the experience?\n6. Hearing\nHow could sound communicate qualities of the offering or reduce effort?\n7. Taste\nCould food or drink add a social dimension, convey welcome or express appreciation at this stage?\nUse the accessible text as the main reading. Source scans remain optional supporting material."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "cx-social-experience-worksheet",
+    "title": "Design a constructive social experience",
+    "topic": "Business & Management",
+    "group": "Improve the experience",
+    "summary": "Consider interactions, human connection, community and individuality in the customer journey.",
+    "sections": [
+      {
+        "heading": "Design a constructive social experience",
+        "body": "Consider interactions, human connection, community and individuality in the customer journey."
+      },
+      {
+        "heading": "Design a constructive social experience",
+        "body": "1. Interactions\nWhat interactions occur between customers and the business? How could they be encouraged or improved?\n2. Humanizing the business\nHow can a customer encounter a human face or aspect of the organization and recognize the people behind it?\n3. Community\nHow might the stage reflect membership of the groups or communities identified earlier?\n4. Individuality\nHow can the stage respect or emphasize the customer’s individuality?\nWorking area\nPrompt\n1. Interactions\nWhat interactions occur between customers and the business? How could they be encouraged or improved?\n2. Humanizing the business\nHow can a customer encounter a human face or aspect of the organization and recognize the people behind it?\n3. Community\nHow might the stage reflect membership of the groups or communities identified earlier?\n4. Individuality\nHow can the stage respect or emphasize the customer’s individuality?\nUse the accessible text as the main reading. Source scans remain optional supporting material."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "cx-emotion-worksheet",
+    "title": "Connect customer emotions with triggers and responses",
+    "topic": "Business & Management",
+    "group": "Improve the experience",
+    "summary": "Make intended emotional outcomes explicit and consider how to avoid negative experiences.",
+    "sections": [
+      {
+        "heading": "Connect customer emotions with triggers and responses",
+        "body": "Make intended emotional outcomes explicit and consider how to avoid negative experiences."
+      },
+      {
+        "heading": "Connect customer emotions with triggers and responses",
+        "body": "Possible negative emotions\nAnger; annoyance; anxiety; apprehension; boredom; disappointment; disgust; distraction; doubt; embarrassment; frustration; neglect; regret; shock. Add others relevant to the stage.\nPossible positive emotions\nAcceptance; admiration; amazement; anticipation; calmness; delight; excitement; interest; joy; pride; relaxation; satisfaction; surprise; trust. These are prompts, not a diagnostic taxonomy.\nEmotions to promote\nFor each intended emotion, identify the trigger and what the business could do appropriately.\nEmotions to avoid\nFor each unwanted emotion, identify the likely trigger and a prevention or response strategy.\nWorking columns\nRecord the emotion, its trigger and the strategy. Distinguish an observed customer response from an assumption about what someone feels.\nWorking area\nPrompt\nPossible negative emotions\nAnger; annoyance; anxiety; apprehension; boredom; disappointment; disgust; distraction; doubt; embarrassment; frustration; neglect; regret; shock. Add others relevant to the stage.\nPossible positive emotions\nAcceptance; admiration; amazement; anticipation; calmness; delight; excitement; interest; joy; pride; relaxation; satisfaction; surprise; trust. These are prompts, not a diagnostic taxonomy.\nEmotions to promote\nFor each intended emotion, identify the trigger and what the business could do appropriately.\nEmotions to avoid\nFor each unwanted emotion, identify the likely trigger and a prevention or response strategy.\nWorking columns\nRecord the emotion, its trigger and the strategy. Distinguish an observed customer response from an assumption about what someone feels.\nUse the accessible text as the main reading. Source scans remain optional supporting material."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "cx-action-scratchpad",
+    "title": "Bring customer-experience ideas into one action record",
+    "topic": "Business & Management",
+    "group": "Plan the work",
+    "summary": "Consolidate functional requirements, content needs and next actions for a journey stage.",
+    "sections": [
+      {
+        "heading": "Bring customer-experience ideas into one action record",
+        "body": "Consolidate functional requirements, content needs and next actions for a journey stage."
+      },
+      {
+        "heading": "Bring customer-experience ideas into one action record",
+        "body": "Functional requirements\nCapture required capabilities or service changes that emerge from the review.\nContent requirements\nCapture wording, explanations, instructions or other content needed by the customer.\nTo-dos and ideas\nBring the stage’s ideas and actions together so they can guide subsequent design decisions. The source provides an open writing area rather than a prescribed scoring or prioritization formula.\nWorking area\nPrompt\nFunctional requirements\nCapture required capabilities or service changes that emerge from the review.\nContent requirements\nCapture wording, explanations, instructions or other content needed by the customer.\nTo-dos and ideas\nBring the stage’s ideas and actions together so they can guide subsequent design decisions. The source provides an open writing area rather than a prescribed scoring or prioritization formula.\nUse the accessible text as the main reading. Source scans remain optional supporting material."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Matt Watkinson: publisher preview and companion worksheets",
+        "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+      }
+    ]
+  },
+  {
     "slug": "strategy-growth",
     "title": "Strategy & Growth",
     "topic": "Business & Management",
@@ -15777,6 +17050,34 @@
       {
         "heading": "Choose a reading path",
         "body": "Start with the transaction question, then connect the financial case to diligence, agreement and post-close delivery. Historical models and case records stay visible with their limitations."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "customer-experience-service-design",
+    "title": "Customer Experience & Service Design",
+    "topic": "Business & Management",
+    "group": "Explore focused topics",
+    "summary": "Work through the supplied customer-experience worksheets as a connected design process. Read accessible transcriptions, check the original scans and keep customer and business objectives distinct.",
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Work through the supplied customer-experience worksheets as a connected design process. Read accessible transcriptions, check the original scans and keep customer and business objectives distinct."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "coaching-reflective-practice",
+    "title": "Coaching & Reflective Practice",
+    "topic": "Communication & Personal Development",
+    "group": "Explore focused topics",
+    "summary": "Use reflective questions, learning routines and practical coaching prompts without treating motivational maxims as scientific laws or inventing assessment scores.",
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Use reflective questions, learning routines and practical coaching prompts without treating motivational maxims as scientific laws or inventing assessment scores."
       }
     ],
     "sources": []

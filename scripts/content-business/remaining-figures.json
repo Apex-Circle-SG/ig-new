@@ -1,0 +1,1682 @@
+[
+  {
+    "document": "CX Worksheet.docx",
+    "image": "word/media/image1.png",
+    "slug": "cx-proposition-worksheet",
+    "title": "Why will people use this offer?",
+    "kind": "worksheet",
+    "headers": [
+      "Working area",
+      "Prompt"
+    ],
+    "rows": [
+      [
+        "1. Do customers share the same basic objectives?",
+        "What are the objectives in using this product or service, and how do customer types differ? Keep this high-level; the customer-objectives worksheet explores the differences in more detail."
+      ],
+      [
+        "2. What reasons justify choosing you over a competitor?",
+        "Identify the rationales that should be communicated clearly through the experience. Defining them at the outset helps make design choices consistent."
+      ],
+      [
+        "3. What must the offering accomplish for the business?",
+        "Write clear success criteria that can guide decisions rather than leave success undefined."
+      ],
+      [
+        "4. If the offer is the answer, what is the question?",
+        "Describe the customer problem concisely. Formulating the business proposition as an answer helps clarify what it is really about."
+      ]
+    ],
+    "note": "Use the accessible text as the main reading. Source scans remain optional supporting material.",
+    "transcription": {
+      "context": [
+        {
+          "label": "When to use it",
+          "text": "At the start of a project, whether the offering already exists or is new."
+        },
+        {
+          "label": "Purpose",
+          "text": "Start with a clear proposition: customer wants, business objectives and reasons to choose this offer. Writing answers can expose differences in the team’s understanding."
+        },
+        {
+          "label": "Ready to move on when",
+          "text": "The team agrees on the proposition, believes it has a viable market position and can explain why customers would choose it."
+        }
+      ],
+      "recordFields": [
+        "Author",
+        "Date",
+        "Project"
+      ],
+      "sections": [
+        {
+          "heading": "1. Do customers share the same basic objectives?",
+          "paragraphs": [
+            "What are the objectives in using this product or service, and how do customer types differ? Keep this high-level; the customer-objectives worksheet explores the differences in more detail."
+          ]
+        },
+        {
+          "heading": "2. What reasons justify choosing you over a competitor?",
+          "paragraphs": [
+            "Identify the rationales that should be communicated clearly through the experience. Defining them at the outset helps make design choices consistent."
+          ]
+        },
+        {
+          "heading": "3. What must the offering accomplish for the business?",
+          "paragraphs": [
+            "Write clear success criteria that can guide decisions rather than leave success undefined."
+          ]
+        },
+        {
+          "heading": "4. If the offer is the answer, what is the question?",
+          "paragraphs": [
+            "Describe the customer problem concisely. Formulating the business proposition as an answer helps clarify what it is really about."
+          ]
+        }
+      ],
+      "next": "Review how the product or service reflects customer identity using the brand-appeal worksheet.",
+      "credit": "Accessible adaptation of a supplied companion worksheet carrying Methodical ©2018 and The Ten Principles Behind Great Customer Experiences. Working content is grouped and lightly rephrased; repeated writing lines are omitted. Record fields are listed above. Matt Watkinson is the book’s author; completeness of this supplied edition is unverified.",
+      "reviewedOn": "2026-11-09",
+      "sourceSha256": "4f1c6de47c5426136b0ca88fd02f68b49977f8729c60f998851653339e847f12"
+    },
+    "sourceImage": {
+      "id": "cx-1",
+      "width": 1131,
+      "height": 1600,
+      "preview": "/library/remaining-knowledge/cx-1-preview.webp",
+      "full": "/library/remaining-knowledge/cx-1.webp",
+      "previewWidth": 620,
+      "previewHeight": 877,
+      "previewSha256": "d462976c8a90f8f2b1f3380fc9c68bd7f15467969057e673ecdebb4b96c044b0",
+      "fullSha256": "a847631c8c79e83af30bedc6e787ad1f7b0394f8f0153bcfc3284dbb01c5e9d1",
+      "purpose": "worksheet",
+      "creator": "Methodical, as credited in the supplied scan",
+      "version": "Supplied 2018 worksheet scan",
+      "provenance": "Image supplied by the uploader. OCR provided a draft; the accessible adaptation was checked against a visual reading. The scan retains the original wording, layout and creator marks.",
+      "summary": "The full working content is transcribed above; the scan is a supporting reference rather than the page layout.",
+      "limitations": "A planning aid, not an assessment with validated scores. No missing worksheet or response has been invented.",
+      "alt": "Why will people use this offer? — supplied source image",
+      "publications": [
+        {
+          "title": "Publisher-distributed book preview and companion-worksheet reference",
+          "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+        }
+      ],
+      "checked": "2026-11-09"
+    }
+  },
+  {
+    "document": "CX Worksheet.docx",
+    "image": "word/media/image2.png",
+    "slug": "cx-brand-identity-worksheet",
+    "title": "Align the experience with customer identity",
+    "kind": "worksheet",
+    "headers": [
+      "Working area",
+      "Prompt"
+    ],
+    "rows": [
+      [
+        "1. What does choosing the offer say about the customer?",
+        "Treat the brand, product or service as an avatar: what values or beliefs is the customer communicating?"
+      ],
+      [
+        "2. Who is the customer telling that story to?",
+        "Consider themselves, colleagues, peers, friends or a wider audience."
+      ],
+      [
+        "3. Does it express membership of a group or community?",
+        "Identify any relevant social belonging rather than assuming all customers share one identity."
+      ],
+      [
+        "4. How important is expressing individuality?",
+        "Consider how much the intended customer wants to emphasize their individual identity."
+      ]
+    ],
+    "note": "Use the accessible text as the main reading. Source scans remain optional supporting material.",
+    "transcription": {
+      "context": [
+        {
+          "label": "When to use it",
+          "text": "After clarifying why people will use the offer; keep that proposition available."
+        },
+        {
+          "label": "Purpose",
+          "text": "Align the offering with the customer’s identity and the reasons they would use to justify choosing it."
+        },
+        {
+          "label": "Ready to move on when",
+          "text": "You understand the customer’s self-image and how the offer reflects it. Record implementation ideas alongside each question."
+        }
+      ],
+      "recordFields": [
+        "Author",
+        "Date",
+        "Project",
+        "Ideas"
+      ],
+      "sections": [
+        {
+          "heading": "1. What does choosing the offer say about the customer?",
+          "paragraphs": [
+            "Treat the brand, product or service as an avatar: what values or beliefs is the customer communicating?"
+          ]
+        },
+        {
+          "heading": "2. Who is the customer telling that story to?",
+          "paragraphs": [
+            "Consider themselves, colleagues, peers, friends or a wider audience."
+          ]
+        },
+        {
+          "heading": "3. Does it express membership of a group or community?",
+          "paragraphs": [
+            "Identify any relevant social belonging rather than assuming all customers share one identity."
+          ]
+        },
+        {
+          "heading": "4. How important is expressing individuality?",
+          "paragraphs": [
+            "Consider how much the intended customer wants to emphasize their individual identity."
+          ]
+        }
+      ],
+      "next": "Build distinct customer profiles and their objectives using the customer-objectives worksheet.",
+      "credit": "Accessible adaptation of a supplied companion worksheet carrying Methodical ©2018 and The Ten Principles Behind Great Customer Experiences. Working content is grouped and lightly rephrased; repeated writing lines are omitted. Record fields are listed above. Matt Watkinson is the book’s author; completeness of this supplied edition is unverified.",
+      "reviewedOn": "2026-11-09",
+      "sourceSha256": "39e0ca89fa06e8d148cabc55983c9854f779b5fd99c6f2b349e2b8dc4e0aea45"
+    },
+    "sourceImage": {
+      "id": "cx-2",
+      "width": 1131,
+      "height": 1600,
+      "preview": "/library/remaining-knowledge/cx-2-preview.webp",
+      "full": "/library/remaining-knowledge/cx-2.webp",
+      "previewWidth": 620,
+      "previewHeight": 877,
+      "previewSha256": "2dc61599304452e745ae1f2c02aa9fece9c6cd55e56b4239269ad1ddeaef02ff",
+      "fullSha256": "e1ec6e8103215b2e33b951abf1b18606a4454e8e5887337dfce2b01989bfaffb",
+      "purpose": "worksheet",
+      "creator": "Methodical, as credited in the supplied scan",
+      "version": "Supplied 2018 worksheet scan",
+      "provenance": "Image supplied by the uploader. OCR provided a draft; the accessible adaptation was checked against a visual reading. The scan retains the original wording, layout and creator marks.",
+      "summary": "The full working content is transcribed above; the scan is a supporting reference rather than the page layout.",
+      "limitations": "A planning aid, not an assessment with validated scores. No missing worksheet or response has been invented.",
+      "alt": "Align the experience with customer identity — supplied source image",
+      "publications": [
+        {
+          "title": "Publisher-distributed book preview and companion-worksheet reference",
+          "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+        }
+      ],
+      "checked": "2026-11-09"
+    }
+  },
+  {
+    "document": "CX Worksheet.docx",
+    "image": "word/media/image3.png",
+    "slug": "cx-customer-objectives-worksheet",
+    "title": "Understand what customers want to achieve",
+    "kind": "worksheet",
+    "headers": [
+      "Working area",
+      "Prompt"
+    ],
+    "rows": [
+      [
+        "1. Objectives",
+        "What does the customer want to achieve from the product, service or experience? Try the wording “I want to…”."
+      ],
+      [
+        "2. Subtext",
+        "What is the difference between what people say and what they mean? Record possible unspoken desires or issues, distinguishing research evidence from your assumptions."
+      ],
+      [
+        "3. Deeper objectives",
+        "Ask why the stated objective matters, then continue asking why until the higher goal becomes clear. The source example distinguishes taking a photo from sharing experiences with friends/family or expressing creativity. The repeated “I want to / Why?” writing spaces support tracing more than one objective."
+      ],
+      [
+        "4. Business objectives",
+        "What are the business goals for this particular customer type?"
+      ],
+      [
+        "5. Notes and ideas",
+        "Capture ideas suggested by a better understanding of customer objectives."
+      ]
+    ],
+    "note": "Use the accessible text as the main reading. Source scans remain optional supporting material.",
+    "transcription": {
+      "context": [
+        {
+          "label": "When to use it",
+          "text": "After the proposition and brand-appeal worksheets. Complete a separate record for each customer type and revise it as research reveals differences."
+        },
+        {
+          "label": "Purpose",
+          "text": "Identify distinct customer profiles and the higher objectives they seek from the offering."
+        },
+        {
+          "label": "Ready to move on when",
+          "text": "You understand the customer types the experience must satisfy and what each wants to achieve."
+        }
+      ],
+      "recordFields": [
+        "Author",
+        "Date",
+        "Project",
+        "Customer description; examples: holiday-maker or first-time buyer"
+      ],
+      "sections": [
+        {
+          "heading": "1. Objectives",
+          "paragraphs": [
+            "What does the customer want to achieve from the product, service or experience? Try the wording “I want to…”."
+          ]
+        },
+        {
+          "heading": "2. Subtext",
+          "paragraphs": [
+            "What is the difference between what people say and what they mean? Record possible unspoken desires or issues, distinguishing research evidence from your assumptions."
+          ]
+        },
+        {
+          "heading": "3. Deeper objectives",
+          "paragraphs": [
+            "Ask why the stated objective matters, then continue asking why until the higher goal becomes clear. The source example distinguishes taking a photo from sharing experiences with friends/family or expressing creativity. The repeated “I want to / Why?” writing spaces support tracing more than one objective."
+          ]
+        },
+        {
+          "heading": "4. Business objectives",
+          "paragraphs": [
+            "What are the business goals for this particular customer type?"
+          ]
+        },
+        {
+          "heading": "5. Notes and ideas",
+          "paragraphs": [
+            "Capture ideas suggested by a better understanding of customer objectives."
+          ]
+        }
+      ],
+      "next": "Map where the customer’s experience begins and ends.",
+      "credit": "Accessible adaptation of a supplied companion worksheet carrying Methodical ©2018 and The Ten Principles Behind Great Customer Experiences. Working content is grouped and lightly rephrased; repeated writing lines are omitted. Record fields are listed above. Matt Watkinson is the book’s author; completeness of this supplied edition is unverified.",
+      "reviewedOn": "2026-11-09",
+      "sourceSha256": "c19e89fcb2b0577f971fd904897e5a6105dbc24c5ba68da4a2893b1a40ca3060"
+    },
+    "sourceImage": {
+      "id": "cx-3",
+      "width": 1131,
+      "height": 1600,
+      "preview": "/library/remaining-knowledge/cx-3-preview.webp",
+      "full": "/library/remaining-knowledge/cx-3.webp",
+      "previewWidth": 620,
+      "previewHeight": 877,
+      "previewSha256": "fdca22fbb446e89194839bfd607ace35ffb6b1a46b09c25f9d974219b5db7a52",
+      "fullSha256": "b2bf70b8bc63165b9c3107f84f4893896a1052ebae9245c23bfcb0eb83cba4a4",
+      "purpose": "worksheet",
+      "creator": "Methodical, as credited in the supplied scan",
+      "version": "Supplied 2018 worksheet scan",
+      "provenance": "Image supplied by the uploader. OCR provided a draft; the accessible adaptation was checked against a visual reading. The scan retains the original wording, layout and creator marks.",
+      "summary": "The full working content is transcribed above; the scan is a supporting reference rather than the page layout.",
+      "limitations": "A planning aid, not an assessment with validated scores. No missing worksheet or response has been invented.",
+      "alt": "Understand what customers want to achieve — supplied source image",
+      "publications": [
+        {
+          "title": "Publisher-distributed book preview and companion-worksheet reference",
+          "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+        }
+      ],
+      "checked": "2026-11-09"
+    }
+  },
+  {
+    "document": "CX Worksheet.docx",
+    "image": "word/media/image4.png",
+    "slug": "cx-journey-worksheet",
+    "title": "Map where the customer experience starts and ends",
+    "kind": "worksheet",
+    "headers": [
+      "Working area",
+      "Prompt"
+    ],
+    "rows": [
+      [
+        "Stages in this customer’s journey",
+        "List the stages in a scenario. The source holiday example starts with deciding to go on holiday, followed by deciding where to go."
+      ],
+      [
+        "Principles relevant to each stage",
+        "Consider customer identity, objectives, expectations, effort, stress, sensory pleasure, social pleasure, customer control and emotions. These are the nine legend labels visible on the supplied sheet; do not infer an additional supplied worksheet."
+      ],
+      [
+        "Example links between a stage and principles",
+        "The example links deciding to go on holiday with effort, stress and control, and choosing where to go with objectives, effort, stress from excess choice and sensory pleasure."
+      ]
+    ],
+    "note": "Use the accessible text as the main reading. Source scans remain optional supporting material.",
+    "transcription": {
+      "context": [
+        {
+          "label": "When to use it",
+          "text": "After the proposition, brand identity and customer-objectives work."
+        },
+        {
+          "label": "Purpose",
+          "text": "Explore the complete end-to-end journey and opportunities outside obvious purchase/use moments. Stages need not occur in one fixed order; use more than one record if needed."
+        },
+        {
+          "label": "Ready to move on when",
+          "text": "You cannot trace an earlier beginning or later ending, and you have identified the high-level stages and relevant experience principles. Revisit the map when you discover omissions."
+        }
+      ],
+      "recordFields": [
+        "Author",
+        "Date",
+        "Project",
+        "Customer description",
+        "Usage scenario",
+        "Customer objectives",
+        "Business objectives"
+      ],
+      "sections": [
+        {
+          "heading": "Stages in this customer’s journey",
+          "paragraphs": [
+            "List the stages in a scenario. The source holiday example starts with deciding to go on holiday, followed by deciding where to go."
+          ]
+        },
+        {
+          "heading": "Principles relevant to each stage",
+          "paragraphs": [
+            "Consider customer identity, objectives, expectations, effort, stress, sensory pleasure, social pleasure, customer control and emotions. These are the nine legend labels visible on the supplied sheet; do not infer an additional supplied worksheet."
+          ]
+        },
+        {
+          "heading": "Example links between a stage and principles",
+          "paragraphs": [
+            "The example links deciding to go on holiday with effort, stress and control, and choosing where to go with objectives, effort, stress from excess choice and sensory pleasure."
+          ]
+        }
+      ],
+      "next": "Repeat for each customer profile, then choose a stage to break into individual tasks.",
+      "credit": "Accessible adaptation of a supplied companion worksheet carrying Methodical ©2018 and The Ten Principles Behind Great Customer Experiences. Working content is grouped and lightly rephrased; repeated writing lines are omitted. Record fields are listed above. Matt Watkinson is the book’s author; completeness of this supplied edition is unverified.",
+      "reviewedOn": "2026-11-09",
+      "sourceSha256": "927879b59236eac5845d7e4a3f1008eb3ced9c912c8b27b9c326cd1eb64f87bd"
+    },
+    "sourceImage": {
+      "id": "cx-4",
+      "width": 1131,
+      "height": 1600,
+      "preview": "/library/remaining-knowledge/cx-4-preview.webp",
+      "full": "/library/remaining-knowledge/cx-4.webp",
+      "previewWidth": 620,
+      "previewHeight": 877,
+      "previewSha256": "b15c483f485543b4e4d7264f0b5dc663900195ca3f0fd491c5f97b72c6cf6468",
+      "fullSha256": "c570d9e050ebc84d13b15b48035a09ac0a0043c1cbc0e6cf8537f899bc464320",
+      "purpose": "worksheet",
+      "creator": "Methodical, as credited in the supplied scan",
+      "version": "Supplied 2018 worksheet scan",
+      "provenance": "Image supplied by the uploader. OCR provided a draft; the accessible adaptation was checked against a visual reading. The scan retains the original wording, layout and creator marks.",
+      "summary": "The full working content is transcribed above; the scan is a supporting reference rather than the page layout.",
+      "limitations": "A planning aid, not an assessment with validated scores. No missing worksheet or response has been invented.",
+      "alt": "Map where the customer experience starts and ends — supplied source image",
+      "publications": [
+        {
+          "title": "Publisher-distributed book preview and companion-worksheet reference",
+          "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+        }
+      ],
+      "checked": "2026-11-09"
+    }
+  },
+  {
+    "document": "CX Worksheet.docx",
+    "image": "word/media/image5.png",
+    "slug": "cx-stage-tasks-worksheet",
+    "title": "Break a journey stage into tasks and touchpoints",
+    "kind": "worksheet",
+    "headers": [
+      "Working area",
+      "Prompt"
+    ],
+    "rows": [
+      [
+        "Success criteria",
+        "Record customer and business objectives for this stage separately; each supplies its own definition of success."
+      ],
+      [
+        "Preconditions",
+        "What must the customer already have done before they can start and successfully complete this stage?"
+      ],
+      [
+        "Steps, touchpoints and relevant principles",
+        "For each required step, identify the touchpoint—such as cellphone, website, shop or call centre—and the principles to review. Steps may occur in different orders."
+      ],
+      [
+        "Supplied example",
+        "A search for “cheap flights” uses a search engine; viewing flight options uses a travel-comparison site. The example marks effort as a relevant principle for both."
+      ],
+      [
+        "Principle legend",
+        "Identity, objectives, expectations, effortlessness, stress, sensory pleasure, social pleasure, control and emotions are the visible legend labels."
+      ]
+    ],
+    "note": "Use the accessible text as the main reading. Source scans remain optional supporting material.",
+    "transcription": {
+      "context": [
+        {
+          "label": "When to use it",
+          "text": "After the customer-objectives and end-to-end journey sheets. It can also be a starting point for improving a small part of an existing experience."
+        },
+        {
+          "label": "Purpose",
+          "text": "Break a stage into smaller tasks so that each step, touchpoint and possible improvement can be examined. Use a separate record for each stage and revise it as research progresses."
+        },
+        {
+          "label": "Ready to move on when",
+          "text": "You have identified the smaller tasks, available touchpoints and the experience principles to improve for each."
+        }
+      ],
+      "recordFields": [
+        "Author",
+        "Date",
+        "Project",
+        "Customer(s)",
+        "Stage name",
+        "Customer objectives for the stage",
+        "Business objectives for the stage"
+      ],
+      "sections": [
+        {
+          "heading": "Success criteria",
+          "paragraphs": [
+            "Record customer and business objectives for this stage separately; each supplies its own definition of success."
+          ]
+        },
+        {
+          "heading": "Preconditions",
+          "paragraphs": [
+            "What must the customer already have done before they can start and successfully complete this stage?"
+          ]
+        },
+        {
+          "heading": "Steps, touchpoints and relevant principles",
+          "paragraphs": [
+            "For each required step, identify the touchpoint—such as cellphone, website, shop or call centre—and the principles to review. Steps may occur in different orders."
+          ]
+        },
+        {
+          "heading": "Supplied example",
+          "paragraphs": [
+            "A search for “cheap flights” uses a search engine; viewing flight options uses a travel-comparison site. The example marks effort as a relevant principle for both."
+          ]
+        },
+        {
+          "heading": "Principle legend",
+          "paragraphs": [
+            "Identity, objectives, expectations, effortlessness, stress, sensory pleasure, social pleasure, control and emotions are the visible legend labels."
+          ]
+        }
+      ],
+      "next": "Analyze the selected stage using the principles; expectations and effort are suggested starting points because they apply widely.",
+      "credit": "Accessible adaptation of a supplied companion worksheet carrying Methodical ©2018 and The Ten Principles Behind Great Customer Experiences. Working content is grouped and lightly rephrased; repeated writing lines are omitted. Record fields are listed above. Matt Watkinson is the book’s author; completeness of this supplied edition is unverified.",
+      "reviewedOn": "2026-11-09",
+      "sourceSha256": "6104bc818b13eccd4bb8a09bee83feda3bfd050081241b96687dd52331654e4f"
+    },
+    "sourceImage": {
+      "id": "cx-5",
+      "width": 1131,
+      "height": 1600,
+      "preview": "/library/remaining-knowledge/cx-5-preview.webp",
+      "full": "/library/remaining-knowledge/cx-5.webp",
+      "previewWidth": 620,
+      "previewHeight": 877,
+      "previewSha256": "b9f67fa8cc5d5bab6942e8b1e6f25d302a3e3be387665927fb19a82c1bc8a3ac",
+      "fullSha256": "686e7edcd15cb0f4ccc03f0df3ad2a51cf49c6997f06dc1ec109f1bbae096781",
+      "purpose": "worksheet",
+      "creator": "Methodical, as credited in the supplied scan",
+      "version": "Supplied 2018 worksheet scan",
+      "provenance": "Image supplied by the uploader. OCR provided a draft; the accessible adaptation was checked against a visual reading. The scan retains the original wording, layout and creator marks.",
+      "summary": "The full working content is transcribed above; the scan is a supporting reference rather than the page layout.",
+      "limitations": "A planning aid, not an assessment with validated scores. No missing worksheet or response has been invented.",
+      "alt": "Break a journey stage into tasks and touchpoints — supplied source image",
+      "publications": [
+        {
+          "title": "Publisher-distributed book preview and companion-worksheet reference",
+          "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+        }
+      ],
+      "checked": "2026-11-09"
+    }
+  },
+  {
+    "document": "CX Worksheet.docx",
+    "image": "word/media/image6.png",
+    "slug": "cx-expectations-worksheet",
+    "title": "Review customer expectations and learned behaviour",
+    "kind": "worksheet",
+    "headers": [
+      "Working area",
+      "Prompt"
+    ],
+    "rows": [
+      [
+        "1. Existing expectations",
+        "What does the customer expect on arrival at this stage of the journey?"
+      ],
+      [
+        "2. Learned behaviours",
+        "What relevant skills or learned behaviours does the customer already have?"
+      ],
+      [
+        "3. Target expectations",
+        "What expectations should this stage of the journey set?"
+      ],
+      [
+        "4. Observations and ideas",
+        "What expectation issues affect the experience, and what could be done to manage them better?"
+      ]
+    ],
+    "note": "Use the accessible text as the main reading. Source scans remain optional supporting material.",
+    "transcription": {
+      "context": [
+        {
+          "label": "When to use it",
+          "text": "When starting a stage of an existing or new customer experience. Knowing earlier stages helps; the source usually completes the end-to-end map first."
+        },
+        {
+          "label": "Purpose",
+          "text": "Make customer expectations explicit, identify gaps and decide how to meet or appropriately reset them."
+        },
+        {
+          "label": "Ready to move on when",
+          "text": "You can explain how the stage will meet or reset the relevant expectations."
+        }
+      ],
+      "recordFields": [
+        "Author",
+        "Date",
+        "Project",
+        "Customer(s)",
+        "Stage name"
+      ],
+      "sections": [
+        {
+          "heading": "1. Existing expectations",
+          "paragraphs": [
+            "What does the customer expect on arrival at this stage of the journey?"
+          ]
+        },
+        {
+          "heading": "2. Learned behaviours",
+          "paragraphs": [
+            "What relevant skills or learned behaviours does the customer already have?"
+          ]
+        },
+        {
+          "heading": "3. Target expectations",
+          "paragraphs": [
+            "What expectations should this stage of the journey set?"
+          ]
+        },
+        {
+          "heading": "4. Observations and ideas",
+          "paragraphs": [
+            "What expectation issues affect the experience, and what could be done to manage them better?"
+          ]
+        }
+      ],
+      "next": "Use the scratchpad for this stage to collect ideas and actions from the other worksheet reviews in one place.",
+      "credit": "Accessible adaptation of a supplied companion worksheet carrying Methodical ©2018 and The Ten Principles Behind Great Customer Experiences. Working content is grouped and lightly rephrased; repeated writing lines are omitted. Record fields are listed above. Matt Watkinson is the book’s author; completeness of this supplied edition is unverified.",
+      "reviewedOn": "2026-11-09",
+      "sourceSha256": "ef0cc1f168f33255d109e728211e9ecf5b13a575c1a06c794cb25687267769bb"
+    },
+    "sourceImage": {
+      "id": "cx-6",
+      "width": 1131,
+      "height": 1600,
+      "preview": "/library/remaining-knowledge/cx-6-preview.webp",
+      "full": "/library/remaining-knowledge/cx-6.webp",
+      "previewWidth": 620,
+      "previewHeight": 877,
+      "previewSha256": "cf29e7674132bcac92c76d74c0c9804d56120f0f0a9c19a99aad1aff0e8e7300",
+      "fullSha256": "b2ca1e79c72664a5861362468539ac814c99953729dc4480b7a5b879c4bb419c",
+      "purpose": "worksheet",
+      "creator": "Methodical, as credited in the supplied scan",
+      "version": "Supplied 2018 worksheet scan",
+      "provenance": "Image supplied by the uploader. OCR provided a draft; the accessible adaptation was checked against a visual reading. The scan retains the original wording, layout and creator marks.",
+      "summary": "The full working content is transcribed above; the scan is a supporting reference rather than the page layout.",
+      "limitations": "A planning aid, not an assessment with validated scores. No missing worksheet or response has been invented.",
+      "alt": "Review customer expectations and learned behaviour — supplied source image",
+      "publications": [
+        {
+          "title": "Publisher-distributed book preview and companion-worksheet reference",
+          "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+        }
+      ],
+      "checked": "2026-11-09"
+    }
+  },
+  {
+    "document": "CX Worksheet.docx",
+    "image": "word/media/image7.png",
+    "slug": "cx-effort-worksheet",
+    "title": "Reduce customer effort",
+    "kind": "worksheet",
+    "headers": [
+      "Working area",
+      "Prompt"
+    ],
+    "rows": [
+      [
+        "1. Time on task",
+        "Can completion take less time? Can tasks be removed, automated or combined? Can any task be completed on the customer’s behalf?"
+      ],
+      [
+        "2. Waiting",
+        "Can waiting be removed, reduced or made less boring?"
+      ],
+      [
+        "3. Features",
+        "What can be removed? Does the product or service prioritize what customers want and how frequently they use it?"
+      ],
+      [
+        "4. Language",
+        "Does the customer understand the language? How could communication be clearer?"
+      ]
+    ],
+    "note": "Use the accessible text as the main reading. Source scans remain optional supporting material.",
+    "transcription": {
+      "context": [
+        {
+          "label": "When to use it",
+          "text": "For each stage, whether improving an existing experience or designing a new one. The stage-task sheet helps identify what the customer must do."
+        },
+        {
+          "label": "Purpose",
+          "text": "Identify and reduce unnecessary customer effort."
+        },
+        {
+          "label": "Ready to move on when",
+          "text": "You know where the greatest effort occurs and have ideas to reduce it."
+        }
+      ],
+      "recordFields": [
+        "Author",
+        "Date",
+        "Project",
+        "Customer(s)",
+        "Stage name",
+        "Observations",
+        "Ideas"
+      ],
+      "sections": [
+        {
+          "heading": "1. Time on task",
+          "paragraphs": [
+            "Can completion take less time? Can tasks be removed, automated or combined? Can any task be completed on the customer’s behalf?"
+          ]
+        },
+        {
+          "heading": "2. Waiting",
+          "paragraphs": [
+            "Can waiting be removed, reduced or made less boring?"
+          ]
+        },
+        {
+          "heading": "3. Features",
+          "paragraphs": [
+            "What can be removed? Does the product or service prioritize what customers want and how frequently they use it?"
+          ]
+        },
+        {
+          "heading": "4. Language",
+          "paragraphs": [
+            "Does the customer understand the language? How could communication be clearer?"
+          ]
+        }
+      ],
+      "next": "Add each idea, content requirement or feature change to the stage scratchpad, then examine stress and errors.",
+      "credit": "Accessible adaptation of a supplied companion worksheet carrying Methodical ©2018 and The Ten Principles Behind Great Customer Experiences. Working content is grouped and lightly rephrased; repeated writing lines are omitted. Record fields are listed above. Matt Watkinson is the book’s author; completeness of this supplied edition is unverified.",
+      "reviewedOn": "2026-11-09",
+      "sourceSha256": "74b3e24481b2b206af181570bebfc59b47a0cc8fb84a68f60f2ede3e4ac07800"
+    },
+    "sourceImage": {
+      "id": "cx-7",
+      "width": 1131,
+      "height": 1600,
+      "preview": "/library/remaining-knowledge/cx-7-preview.webp",
+      "full": "/library/remaining-knowledge/cx-7.webp",
+      "previewWidth": 620,
+      "previewHeight": 877,
+      "previewSha256": "2db22d9081f1f071a9d7dd1d2bd1b16741538f3b1d8b48fcef776e8321bbd831",
+      "fullSha256": "a2a7f98a9a0bb5abfed1a418bb1ff3c08bc0658eff779341df867498c5481d7f",
+      "purpose": "worksheet",
+      "creator": "Methodical, as credited in the supplied scan",
+      "version": "Supplied 2018 worksheet scan",
+      "provenance": "Image supplied by the uploader. OCR provided a draft; the accessible adaptation was checked against a visual reading. The scan retains the original wording, layout and creator marks.",
+      "summary": "The full working content is transcribed above; the scan is a supporting reference rather than the page layout.",
+      "limitations": "A planning aid, not an assessment with validated scores. No missing worksheet or response has been invented.",
+      "alt": "Reduce customer effort — supplied source image",
+      "publications": [
+        {
+          "title": "Publisher-distributed book preview and companion-worksheet reference",
+          "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+        }
+      ],
+      "checked": "2026-11-09"
+    }
+  },
+  {
+    "document": "CX Worksheet.docx",
+    "image": "word/media/image8.png",
+    "slug": "cx-stress-worksheet",
+    "title": "Reduce stress in a customer journey",
+    "kind": "worksheet",
+    "headers": [
+      "Working area",
+      "Prompt"
+    ],
+    "rows": [
+      [
+        "1. Competence",
+        "What level of capability or expertise does the customer have here? How could the design fit it better? Is the experience appropriate to their level of competence?"
+      ],
+      [
+        "2. Manageable choice",
+        "Could the amount of choice overwhelm the customer? How could it be made more manageable?"
+      ],
+      [
+        "3. Distinct options",
+        "Are differences between the options clear?"
+      ],
+      [
+        "4. Goal clarity and task purpose",
+        "Is it clear why the customer should or must perform this task? How could the reason be communicated better?"
+      ]
+    ],
+    "note": "Use the accessible text as the main reading. Source scans remain optional supporting material.",
+    "transcription": {
+      "context": [
+        {
+          "label": "When to use it",
+          "text": "For most stages of an existing or new experience; use alongside error prevention."
+        },
+        {
+          "label": "Purpose",
+          "text": "Find possible sources of stress at a stage and consider how to reduce them."
+        },
+        {
+          "label": "Ready to move on when",
+          "text": "You have identified possible causes and strategies for reducing them."
+        }
+      ],
+      "recordFields": [
+        "Author",
+        "Date",
+        "Project",
+        "Customer(s)",
+        "Stage name",
+        "Observations",
+        "Ideas"
+      ],
+      "sections": [
+        {
+          "heading": "1. Competence",
+          "paragraphs": [
+            "What level of capability or expertise does the customer have here? How could the design fit it better? Is the experience appropriate to their level of competence?"
+          ]
+        },
+        {
+          "heading": "2. Manageable choice",
+          "paragraphs": [
+            "Could the amount of choice overwhelm the customer? How could it be made more manageable?"
+          ]
+        },
+        {
+          "heading": "3. Distinct options",
+          "paragraphs": [
+            "Are differences between the options clear?"
+          ]
+        },
+        {
+          "heading": "4. Goal clarity and task purpose",
+          "paragraphs": [
+            "Is it clear why the customer should or must perform this task? How could the reason be communicated better?"
+          ]
+        }
+      ],
+      "next": "If not already completed, examine error prevention and record ideas on the stage scratchpad.",
+      "credit": "Accessible adaptation of a supplied companion worksheet carrying Methodical ©2018 and The Ten Principles Behind Great Customer Experiences. Working content is grouped and lightly rephrased; repeated writing lines are omitted. Record fields are listed above. Matt Watkinson is the book’s author; completeness of this supplied edition is unverified.",
+      "reviewedOn": "2026-11-09",
+      "sourceSha256": "4c500bf21dc3605c3437e5d04897039412d082fa4fda520a03d26ee18aecad61"
+    },
+    "sourceImage": {
+      "id": "cx-8",
+      "width": 1131,
+      "height": 1600,
+      "preview": "/library/remaining-knowledge/cx-8-preview.webp",
+      "full": "/library/remaining-knowledge/cx-8.webp",
+      "previewWidth": 620,
+      "previewHeight": 877,
+      "previewSha256": "7ee328f60a7cfc70025ad96d17f36bb13e18a1384bb0c4b80c8c29ca407ce08a",
+      "fullSha256": "2e5413be938d9d5216949f26ff01bd097cf135133bbb59378a3ce92caf6da09e",
+      "purpose": "worksheet",
+      "creator": "Methodical, as credited in the supplied scan",
+      "version": "Supplied 2018 worksheet scan",
+      "provenance": "Image supplied by the uploader. OCR provided a draft; the accessible adaptation was checked against a visual reading. The scan retains the original wording, layout and creator marks.",
+      "summary": "The full working content is transcribed above; the scan is a supporting reference rather than the page layout.",
+      "limitations": "A planning aid, not an assessment with validated scores. No missing worksheet or response has been invented.",
+      "alt": "Reduce stress in a customer journey — supplied source image",
+      "publications": [
+        {
+          "title": "Publisher-distributed book preview and companion-worksheet reference",
+          "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+        }
+      ],
+      "checked": "2026-11-09"
+    }
+  },
+  {
+    "document": "CX Worksheet.docx",
+    "image": "word/media/image9.png",
+    "slug": "cx-error-prevention-worksheet",
+    "title": "Prevent errors and plan recovery",
+    "kind": "worksheet",
+    "headers": [
+      "Working area",
+      "Prompt"
+    ],
+    "rows": [
+      [
+        "Errors",
+        "What mistakes might the customer make? Record separate errors rather than one vague risk label."
+      ],
+      [
+        "Prevention",
+        "How might each error be prevented?"
+      ],
+      [
+        "Detection and recovery",
+        "How might the error be detected, and how can the customer or service recover from it?"
+      ]
+    ],
+    "note": "Use the accessible text as the main reading. Source scans remain optional supporting material.",
+    "transcription": {
+      "context": [
+        {
+          "label": "When to use it",
+          "text": "For most stages; use together with the stress review."
+        },
+        {
+          "label": "Purpose",
+          "text": "Reduce the effort of redoing work and the stress caused by mistakes."
+        },
+        {
+          "label": "Ready to move on when",
+          "text": "You have identified as many relevant errors as possible and considered prevention plus detection/recovery for each."
+        }
+      ],
+      "recordFields": [
+        "Author",
+        "Date",
+        "Project",
+        "Customer(s)",
+        "Stage name"
+      ],
+      "sections": [
+        {
+          "heading": "Errors",
+          "paragraphs": [
+            "What mistakes might the customer make? Record separate errors rather than one vague risk label."
+          ]
+        },
+        {
+          "heading": "Prevention",
+          "paragraphs": [
+            "How might each error be prevented?"
+          ]
+        },
+        {
+          "heading": "Detection and recovery",
+          "paragraphs": [
+            "How might the error be detected, and how can the customer or service recover from it?"
+          ]
+        }
+      ],
+      "next": "Review expectations, effort, stress and errors together, add ideas to the scratchpad and consider sensory, social and emotional aspects next.",
+      "credit": "Accessible adaptation of a supplied companion worksheet carrying Methodical ©2018 and The Ten Principles Behind Great Customer Experiences. Working content is grouped and lightly rephrased; repeated writing lines are omitted. Record fields are listed above. Matt Watkinson is the book’s author; completeness of this supplied edition is unverified.",
+      "reviewedOn": "2026-11-09",
+      "sourceSha256": "5e78a21be568b624017bc411366198b832584cbea2913657f6fb26afe25bfe47"
+    },
+    "sourceImage": {
+      "id": "cx-9",
+      "width": 1131,
+      "height": 1600,
+      "preview": "/library/remaining-knowledge/cx-9-preview.webp",
+      "full": "/library/remaining-knowledge/cx-9.webp",
+      "previewWidth": 620,
+      "previewHeight": 877,
+      "previewSha256": "45313b7b5478026f2397fd61af66f71bf744e63f3b8f570d2b65cd1f76f17fa2",
+      "fullSha256": "23d77f33fa70ffbb69e5b6ab955269a71916ac344a824cff450058b8cee79da9",
+      "purpose": "worksheet",
+      "creator": "Methodical, as credited in the supplied scan",
+      "version": "Supplied 2018 worksheet scan",
+      "provenance": "Image supplied by the uploader. OCR provided a draft; the accessible adaptation was checked against a visual reading. The scan retains the original wording, layout and creator marks.",
+      "summary": "The full working content is transcribed above; the scan is a supporting reference rather than the page layout.",
+      "limitations": "A planning aid, not an assessment with validated scores. No missing worksheet or response has been invented.",
+      "alt": "Prevent errors and plan recovery — supplied source image",
+      "publications": [
+        {
+          "title": "Publisher-distributed book preview and companion-worksheet reference",
+          "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+        }
+      ],
+      "checked": "2026-11-09"
+    }
+  },
+  {
+    "document": "CX Worksheet.docx",
+    "image": "word/media/image10.png",
+    "slug": "cx-sensory-accessibility-worksheet",
+    "title": "Design sensory experience with accessibility",
+    "kind": "worksheet",
+    "headers": [
+      "Working area",
+      "Prompt"
+    ],
+    "rows": [
+      [
+        "1. Unavailable senses",
+        "Which senses cannot be used in this stage, and how can the experience compensate?"
+      ],
+      [
+        "2. Accessibility",
+        "How can the stage work for people with a sensory impairment?"
+      ],
+      [
+        "3. Vision",
+        "What qualities must appearance convey? Refer back to the brand-appeal worksheet."
+      ],
+      [
+        "4. Touch",
+        "What does the customer touch, what qualities should touch communicate and, where appropriate, how can the customer be invited to touch a product?"
+      ],
+      [
+        "5. Scent",
+        "Could scent play a role in the experience?"
+      ],
+      [
+        "6. Hearing",
+        "How could sound communicate qualities of the offering or reduce effort?"
+      ],
+      [
+        "7. Taste",
+        "Could food or drink add a social dimension, convey welcome or express appreciation at this stage?"
+      ]
+    ],
+    "note": "Use the accessible text as the main reading. Source scans remain optional supporting material.",
+    "transcription": {
+      "context": [
+        {
+          "label": "When to use it",
+          "text": "Where the product, service or environment has relevant sensory aspects. Not every question applies to every stage."
+        },
+        {
+          "label": "Purpose",
+          "text": "Explore sensory experience while considering people who cannot use a particular channel."
+        },
+        {
+          "label": "Ready to move on when",
+          "text": "You know which senses matter and how they can be used appropriately."
+        }
+      ],
+      "recordFields": [
+        "Author",
+        "Date",
+        "Project",
+        "Customer(s)",
+        "Stage name",
+        "Observations",
+        "Ideas"
+      ],
+      "sections": [
+        {
+          "heading": "1. Unavailable senses",
+          "paragraphs": [
+            "Which senses cannot be used in this stage, and how can the experience compensate?"
+          ]
+        },
+        {
+          "heading": "2. Accessibility",
+          "paragraphs": [
+            "How can the stage work for people with a sensory impairment?"
+          ]
+        },
+        {
+          "heading": "3. Vision",
+          "paragraphs": [
+            "What qualities must appearance convey? Refer back to the brand-appeal worksheet."
+          ]
+        },
+        {
+          "heading": "4. Touch",
+          "paragraphs": [
+            "What does the customer touch, what qualities should touch communicate and, where appropriate, how can the customer be invited to touch a product?"
+          ]
+        },
+        {
+          "heading": "5. Scent",
+          "paragraphs": [
+            "Could scent play a role in the experience?"
+          ]
+        },
+        {
+          "heading": "6. Hearing",
+          "paragraphs": [
+            "How could sound communicate qualities of the offering or reduce effort?"
+          ]
+        },
+        {
+          "heading": "7. Taste",
+          "paragraphs": [
+            "Could food or drink add a social dimension, convey welcome or express appreciation at this stage?"
+          ]
+        }
+      ],
+      "next": "Add ideas to the stage scratchpad and consider the social and emotional worksheets. Design choices still need to respect individual needs and context.",
+      "credit": "Accessible adaptation of a supplied companion worksheet carrying Methodical ©2018 and The Ten Principles Behind Great Customer Experiences. Working content is grouped and lightly rephrased; repeated writing lines are omitted. Record fields are listed above. Matt Watkinson is the book’s author; completeness of this supplied edition is unverified.",
+      "reviewedOn": "2026-11-09",
+      "sourceSha256": "48cb0d1d22f22164c11217d718f78d21ad8f8ec22919821b9b17c42b107a764a"
+    },
+    "sourceImage": {
+      "id": "cx-10",
+      "width": 1131,
+      "height": 1600,
+      "preview": "/library/remaining-knowledge/cx-10-preview.webp",
+      "full": "/library/remaining-knowledge/cx-10.webp",
+      "previewWidth": 620,
+      "previewHeight": 877,
+      "previewSha256": "fd44fe906ed49ff1805660abe48a49f46507be1fa86529e79d7d1d0201161d19",
+      "fullSha256": "e04090080bf9bef9b02f376c7bf10fd121670b223a956a91df49856c5dc00510",
+      "purpose": "worksheet",
+      "creator": "Methodical, as credited in the supplied scan",
+      "version": "Supplied 2018 worksheet scan",
+      "provenance": "Image supplied by the uploader. OCR provided a draft; the accessible adaptation was checked against a visual reading. The scan retains the original wording, layout and creator marks.",
+      "summary": "The full working content is transcribed above; the scan is a supporting reference rather than the page layout.",
+      "limitations": "A planning aid, not an assessment with validated scores. No missing worksheet or response has been invented.",
+      "alt": "Design sensory experience with accessibility — supplied source image",
+      "publications": [
+        {
+          "title": "Publisher-distributed book preview and companion-worksheet reference",
+          "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+        }
+      ],
+      "checked": "2026-11-09"
+    }
+  },
+  {
+    "document": "CX Worksheet.docx",
+    "image": "word/media/image11.png",
+    "slug": "cx-social-experience-worksheet",
+    "title": "Design a constructive social experience",
+    "kind": "worksheet",
+    "headers": [
+      "Working area",
+      "Prompt"
+    ],
+    "rows": [
+      [
+        "1. Interactions",
+        "What interactions occur between customers and the business? How could they be encouraged or improved?"
+      ],
+      [
+        "2. Humanizing the business",
+        "How can a customer encounter a human face or aspect of the organization and recognize the people behind it?"
+      ],
+      [
+        "3. Community",
+        "How might the stage reflect membership of the groups or communities identified earlier?"
+      ],
+      [
+        "4. Individuality",
+        "How can the stage respect or emphasize the customer’s individuality?"
+      ]
+    ],
+    "note": "Use the accessible text as the main reading. Source scans remain optional supporting material.",
+    "transcription": {
+      "context": [
+        {
+          "label": "When to use it",
+          "text": "After reviewing the customer identity captured in the brand-appeal worksheet."
+        },
+        {
+          "label": "Purpose",
+          "text": "Consider the social dimension of the experience."
+        },
+        {
+          "label": "Ready to move on when",
+          "text": "The stage’s social experience is appropriate for the customers it serves."
+        }
+      ],
+      "recordFields": [
+        "Author",
+        "Date",
+        "Project",
+        "Customer(s)",
+        "Stage name",
+        "Observations",
+        "Ideas"
+      ],
+      "sections": [
+        {
+          "heading": "1. Interactions",
+          "paragraphs": [
+            "What interactions occur between customers and the business? How could they be encouraged or improved?"
+          ]
+        },
+        {
+          "heading": "2. Humanizing the business",
+          "paragraphs": [
+            "How can a customer encounter a human face or aspect of the organization and recognize the people behind it?"
+          ]
+        },
+        {
+          "heading": "3. Community",
+          "paragraphs": [
+            "How might the stage reflect membership of the groups or communities identified earlier?"
+          ]
+        },
+        {
+          "heading": "4. Individuality",
+          "paragraphs": [
+            "How can the stage respect or emphasize the customer’s individuality?"
+          ]
+        }
+      ],
+      "next": "Use the earlier identity work as context, then record the chosen ideas with the stage’s other improvements.",
+      "credit": "Accessible adaptation of a supplied companion worksheet carrying Methodical ©2018 and The Ten Principles Behind Great Customer Experiences. Working content is grouped and lightly rephrased; repeated writing lines are omitted. Record fields are listed above. Matt Watkinson is the book’s author; completeness of this supplied edition is unverified.",
+      "reviewedOn": "2026-11-09",
+      "sourceSha256": "db10a8e2530305ae8e4825c876cc2a3f80869a5491568fef0d8711bb19808835"
+    },
+    "sourceImage": {
+      "id": "cx-11",
+      "width": 1131,
+      "height": 1600,
+      "preview": "/library/remaining-knowledge/cx-11-preview.webp",
+      "full": "/library/remaining-knowledge/cx-11.webp",
+      "previewWidth": 620,
+      "previewHeight": 877,
+      "previewSha256": "f892ba010afe08378fa1999e526fadd13bdfb7d2ce9daeb02df65a299c29581d",
+      "fullSha256": "076fe933c0c006c3ccc5667238e9addfbbc0f0444916b3a64c6fc1a5d0f9e673",
+      "purpose": "worksheet",
+      "creator": "Methodical, as credited in the supplied scan",
+      "version": "Supplied 2018 worksheet scan",
+      "provenance": "Image supplied by the uploader. OCR provided a draft; the accessible adaptation was checked against a visual reading. The scan retains the original wording, layout and creator marks.",
+      "summary": "The full working content is transcribed above; the scan is a supporting reference rather than the page layout.",
+      "limitations": "A planning aid, not an assessment with validated scores. No missing worksheet or response has been invented.",
+      "alt": "Design a constructive social experience — supplied source image",
+      "publications": [
+        {
+          "title": "Publisher-distributed book preview and companion-worksheet reference",
+          "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+        }
+      ],
+      "checked": "2026-11-09"
+    }
+  },
+  {
+    "document": "CX Worksheet.docx",
+    "image": "word/media/image12.png",
+    "slug": "cx-emotion-worksheet",
+    "title": "Connect customer emotions with triggers and responses",
+    "kind": "worksheet",
+    "headers": [
+      "Working area",
+      "Prompt"
+    ],
+    "rows": [
+      [
+        "Possible negative emotions",
+        "Anger; annoyance; anxiety; apprehension; boredom; disappointment; disgust; distraction; doubt; embarrassment; frustration; neglect; regret; shock. Add others relevant to the stage."
+      ],
+      [
+        "Possible positive emotions",
+        "Acceptance; admiration; amazement; anticipation; calmness; delight; excitement; interest; joy; pride; relaxation; satisfaction; surprise; trust. These are prompts, not a diagnostic taxonomy."
+      ],
+      [
+        "Emotions to promote",
+        "For each intended emotion, identify the trigger and what the business could do appropriately."
+      ],
+      [
+        "Emotions to avoid",
+        "For each unwanted emotion, identify the likely trigger and a prevention or response strategy."
+      ],
+      [
+        "Working columns",
+        "Record the emotion, its trigger and the strategy. Distinguish an observed customer response from an assumption about what someone feels."
+      ]
+    ],
+    "note": "Use the accessible text as the main reading. Source scans remain optional supporting material.",
+    "transcription": {
+      "context": [
+        {
+          "label": "When to use it",
+          "text": "As a final review of a stage, or earlier if emotions are central to it."
+        },
+        {
+          "label": "Purpose",
+          "text": "Identify possible negative feelings, intended positive feelings and appropriate responses."
+        },
+        {
+          "label": "Ready to move on when",
+          "text": "You have emotional success criteria and strategies to work toward them."
+        }
+      ],
+      "recordFields": [
+        "Author",
+        "Date",
+        "Project",
+        "Customer(s)",
+        "Stage name"
+      ],
+      "sections": [
+        {
+          "heading": "Possible negative emotions",
+          "paragraphs": [
+            "Anger; annoyance; anxiety; apprehension; boredom; disappointment; disgust; distraction; doubt; embarrassment; frustration; neglect; regret; shock. Add others relevant to the stage."
+          ]
+        },
+        {
+          "heading": "Possible positive emotions",
+          "paragraphs": [
+            "Acceptance; admiration; amazement; anticipation; calmness; delight; excitement; interest; joy; pride; relaxation; satisfaction; surprise; trust. These are prompts, not a diagnostic taxonomy."
+          ]
+        },
+        {
+          "heading": "Emotions to promote",
+          "paragraphs": [
+            "For each intended emotion, identify the trigger and what the business could do appropriately."
+          ]
+        },
+        {
+          "heading": "Emotions to avoid",
+          "paragraphs": [
+            "For each unwanted emotion, identify the likely trigger and a prevention or response strategy."
+          ]
+        },
+        {
+          "heading": "Working columns",
+          "paragraphs": [
+            "Record the emotion, its trigger and the strategy. Distinguish an observed customer response from an assumption about what someone feels."
+          ]
+        }
+      ],
+      "next": "This is presented as the last worksheet in the supplied sequence. The original invites feedback to hello@methodical.io; this is a historical source contact, not an InsightGinie contact or a verified current support channel.",
+      "credit": "Accessible adaptation of a supplied companion worksheet carrying Methodical ©2018 and The Ten Principles Behind Great Customer Experiences. Working content is grouped and lightly rephrased; repeated writing lines are omitted. Record fields are listed above. Matt Watkinson is the book’s author; completeness of this supplied edition is unverified.",
+      "reviewedOn": "2026-11-09",
+      "sourceSha256": "f1f9d6afbe7de0a8422117d91c48b07d76feb80343a9b58fa70a4d873947ea0e"
+    },
+    "sourceImage": {
+      "id": "cx-12",
+      "width": 1131,
+      "height": 1600,
+      "preview": "/library/remaining-knowledge/cx-12-preview.webp",
+      "full": "/library/remaining-knowledge/cx-12.webp",
+      "previewWidth": 620,
+      "previewHeight": 877,
+      "previewSha256": "87ceb27bd5a880b5af4cd4634dbad4e2416de5fb2e99d4c4999daa2435c13e59",
+      "fullSha256": "cbf53c7ee46bd08cf858e4160f24e9dd009ee3fed9537471e5785b032b546a92",
+      "purpose": "worksheet",
+      "creator": "Methodical, as credited in the supplied scan",
+      "version": "Supplied 2018 worksheet scan",
+      "provenance": "Image supplied by the uploader. OCR provided a draft; the accessible adaptation was checked against a visual reading. The scan retains the original wording, layout and creator marks.",
+      "summary": "The full working content is transcribed above; the scan is a supporting reference rather than the page layout.",
+      "limitations": "A planning aid, not an assessment with validated scores. No missing worksheet or response has been invented.",
+      "alt": "Connect customer emotions with triggers and responses — supplied source image",
+      "publications": [
+        {
+          "title": "Publisher-distributed book preview and companion-worksheet reference",
+          "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+        }
+      ],
+      "checked": "2026-11-09"
+    }
+  },
+  {
+    "document": "CX Worksheet.docx",
+    "image": "word/media/image13.png",
+    "slug": "cx-action-scratchpad",
+    "title": "Bring customer-experience ideas into one action record",
+    "kind": "worksheet",
+    "headers": [
+      "Working area",
+      "Prompt"
+    ],
+    "rows": [
+      [
+        "Functional requirements",
+        "Capture required capabilities or service changes that emerge from the review."
+      ],
+      [
+        "Content requirements",
+        "Capture wording, explanations, instructions or other content needed by the customer."
+      ],
+      [
+        "To-dos and ideas",
+        "Bring the stage’s ideas and actions together so they can guide subsequent design decisions. The source provides an open writing area rather than a prescribed scoring or prioritization formula."
+      ]
+    ],
+    "note": "Use the accessible text as the main reading. Source scans remain optional supporting material.",
+    "transcription": {
+      "context": [
+        {
+          "label": "When to use it",
+          "text": "While working through other worksheets for a particular customer-journey stage."
+        },
+        {
+          "label": "Purpose",
+          "text": "Consolidate functional requirements, content needs and to-dos into a single reference for designing the solution."
+        },
+        {
+          "label": "Ready to move on when",
+          "text": "Ideas from the different reviews can be considered together for the stage."
+        }
+      ],
+      "recordFields": [
+        "Author",
+        "Date",
+        "Project",
+        "Stage name",
+        "Idea"
+      ],
+      "sections": [
+        {
+          "heading": "Functional requirements",
+          "paragraphs": [
+            "Capture required capabilities or service changes that emerge from the review."
+          ]
+        },
+        {
+          "heading": "Content requirements",
+          "paragraphs": [
+            "Capture wording, explanations, instructions or other content needed by the customer."
+          ]
+        },
+        {
+          "heading": "To-dos and ideas",
+          "paragraphs": [
+            "Bring the stage’s ideas and actions together so they can guide subsequent design decisions. The source provides an open writing area rather than a prescribed scoring or prioritization formula."
+          ]
+        }
+      ],
+      "next": "Return to the stage’s objectives and review the consolidated record while designing or improving the solution.",
+      "credit": "Accessible adaptation of a supplied companion worksheet carrying Methodical ©2018 and The Ten Principles Behind Great Customer Experiences. Working content is grouped and lightly rephrased; repeated writing lines are omitted. Record fields are listed above. Matt Watkinson is the book’s author; completeness of this supplied edition is unverified.",
+      "reviewedOn": "2026-11-09",
+      "sourceSha256": "472ee5316af72267dad610620974109a4095a75bb9a5a24bebde7817a2db934d"
+    },
+    "sourceImage": {
+      "id": "cx-13",
+      "width": 1131,
+      "height": 1600,
+      "preview": "/library/remaining-knowledge/cx-13-preview.webp",
+      "full": "/library/remaining-knowledge/cx-13.webp",
+      "previewWidth": 620,
+      "previewHeight": 877,
+      "previewSha256": "f3af4948f72b4aa1cc1cb1068902bf2d9fbe87215d4bca378c7bff1fd22e10ba",
+      "fullSha256": "72bfad37839cca633d9ace671d1a0c48e1006f7331bafff88e8aa5df29bf1400",
+      "purpose": "worksheet",
+      "creator": "Methodical, as credited in the supplied scan",
+      "version": "Supplied 2018 worksheet scan",
+      "provenance": "Image supplied by the uploader. OCR provided a draft; the accessible adaptation was checked against a visual reading. The scan retains the original wording, layout and creator marks.",
+      "summary": "The full working content is transcribed above; the scan is a supporting reference rather than the page layout.",
+      "limitations": "A planning aid, not an assessment with validated scores. No missing worksheet or response has been invented.",
+      "alt": "Bring customer-experience ideas into one action record — supplied source image",
+      "publications": [
+        {
+          "title": "Publisher-distributed book preview and companion-worksheet reference",
+          "url": "https://api.pageplace.de/preview/DT0400.9780273775997_A25074902/preview-9780273775997_A25074902.pdf"
+        }
+      ],
+      "checked": "2026-11-09"
+    }
+  },
+  {
+    "document": "CEO Checklist.jpg",
+    "image": "CEO Checklist.jpg",
+    "slug": "executive-operating-review",
+    "title": "The CEO operating review: 15 areas of responsibility",
+    "kind": "worksheet",
+    "headers": [
+      "Working area",
+      "Prompt"
+    ],
+    "rows": [
+      [
+        "Vision and strategy",
+        "Develop a clear company vision with input from the CFO and other senior leaders. Align financial goals with strategic objectives and include financial perspectives in sustainable growth planning. Review the strategy against performance, align understanding across the company, examine industry changes and communicate the direction to stakeholders."
+      ],
+      [
+        "Leadership and culture",
+        "Encourage collaboration across departments, recognize performance and work with the CFO on financial ethical standards. Support creativity and innovation, prioritize customer needs in strategic planning, communicate openly and champion collaborative team-building. The second innovation encouragement in this column is consolidated into this item."
+      ],
+      [
+        "Financial management",
+        "Work with the finance function on financial health, budgeting and cash flow. Review capital expenditure, investment and risk decisions. Develop reporting and audit processes, review performance against targets and adjust plans. Examine cost efficiency and compliance with applicable financial/reporting requirements."
+      ],
+      [
+        "Corporate governance",
+        "Work with the CFO and relevant leaders on governance, accurate reporting, compliance, controls and fraud prevention. Check alignment with mission and values, transparency, company policies and corporate legal responsibilities. Encourage ethical conduct."
+      ],
+      [
+        "Risk management",
+        "Identify financial and operational exposures with the finance function and other owners, then agree appropriate responses. Monitor exposure and events, maintain a risk framework, review procedures, include risk in decisions and communicate relevant practices to stakeholders."
+      ],
+      [
+        "Operational efficiency",
+        "The source repeats risk identification here; it is retained once in the risk-management area above. Improve productive systems and processes, monitor operational performance and plan improvements. Encourage continuous improvement and evaluate useful technology. Review supply-chain management and resolve operational issues promptly."
+      ],
+      [
+        "Talent management",
+        "Work with HR, finance and other owners on talent strategy. Support development, career progression and effective performance-management systems. Plan succession, balance skills and experience, and support a culture of learning and professional development."
+      ],
+      [
+        "Customer focus",
+        "Review satisfaction, customer-centred practices and the financial viability of products/services with finance and marketing. Gather and analyze feedback, check that the offer meets needs, maintain customer relationships and engage directly with customers to understand concerns."
+      ],
+      [
+        "Investor relations",
+        "Coordinate with the CFO on clear communication with investors and analysts. Build appropriate relationships with current and potential investors. Report performance and prospects consistently, respond to questions and maintain transparency."
+      ],
+      [
+        "Brand reputation",
+        "Represent the company in relevant public forums and maintain constructive media relationships. Develop a clear narrative, align actions with the brand image, manage reputation risks and engage stakeholders."
+      ],
+      [
+        "Innovation and technology",
+        "Support innovation, stay informed about relevant technologies and oversee implementation. Encourage cross-functional creative problem-solving. Review R&D investment and digital-transformation initiatives, and anticipate technological disruption."
+      ],
+      [
+        "Sustainability and CSR",
+        "Connect CSR strategy to business objectives and oversee sustainability practices. Monitor and report performance, engage stakeholders and bring sustainability concerns to the board. Review strategy, support employee learning and consider sustainable/ethical practices across the supply chain."
+      ],
+      [
+        "Stakeholder management",
+        "Identify relevant stakeholders and prioritize engagement with regard to influence and interest. Build constructive relationships, take responsibility for stakeholder impacts, examine value creation and listen to concerns. Provide communication and feedback routes, maintain appropriate transparency, manage conflicts and report relevant company performance."
+      ],
+      [
+        "Mergers and acquisitions",
+        "Connect M&A strategy to business objectives. Oversee diligence, negotiation, legal requirements and early financing planning. Review strategic fit and realistic synergy assumptions. Plan integration and communicate the transaction’s purpose and progress. Address culture integration and monitor delivery against financial objectives and expected synergies."
+      ],
+      [
+        "Continuity and succession",
+        "Maintain and review business-continuity arrangements for a crisis and succession plans for executive roles. Develop internal talent, communicate relevant plans and prepare successors. Check critical-role coverage and support organizational resilience and adaptability."
+      ]
+    ],
+    "note": "Use the accessible text as the main reading. Source scans remain optional supporting material.",
+    "transcription": {
+      "context": [
+        {
+          "label": "When to use it",
+          "text": "During an executive or board-supported operating review, adapted to the actual organization."
+        },
+        {
+          "label": "Purpose",
+          "text": "Connect responsibility areas to evidence, decisions, accountable owners and follow-up."
+        },
+        {
+          "label": "Ready to move on when",
+          "text": "Each relevant area has a clear finding, decision or next action; the poster does not supply validated scores."
+        }
+      ],
+      "recordFields": [
+        "Author",
+        "Date",
+        "Project",
+        "Review period",
+        "Area owner",
+        "Evidence",
+        "Decision / next action",
+        "Review date"
+      ],
+      "sections": [
+        {
+          "heading": "Vision and strategy",
+          "paragraphs": [
+            "Develop a clear company vision with input from the CFO and other senior leaders.",
+            "Align financial goals with strategic objectives and include financial perspectives in sustainable growth planning.",
+            "Review the strategy against performance, align understanding across the company, examine industry changes and communicate the direction to stakeholders."
+          ]
+        },
+        {
+          "heading": "Leadership and culture",
+          "paragraphs": [
+            "Encourage collaboration across departments, recognize performance and work with the CFO on financial ethical standards.",
+            "Support creativity and innovation, prioritize customer needs in strategic planning, communicate openly and champion collaborative team-building. The second innovation encouragement in this column is consolidated into this item."
+          ]
+        },
+        {
+          "heading": "Financial management",
+          "paragraphs": [
+            "Work with the finance function on financial health, budgeting and cash flow.",
+            "Review capital expenditure, investment and risk decisions. Develop reporting and audit processes, review performance against targets and adjust plans.",
+            "Examine cost efficiency and compliance with applicable financial/reporting requirements."
+          ]
+        },
+        {
+          "heading": "Corporate governance",
+          "paragraphs": [
+            "Work with the CFO and relevant leaders on governance, accurate reporting, compliance, controls and fraud prevention.",
+            "Check alignment with mission and values, transparency, company policies and corporate legal responsibilities. Encourage ethical conduct."
+          ]
+        },
+        {
+          "heading": "Risk management",
+          "paragraphs": [
+            "Identify financial and operational exposures with the finance function and other owners, then agree appropriate responses.",
+            "Monitor exposure and events, maintain a risk framework, review procedures, include risk in decisions and communicate relevant practices to stakeholders."
+          ]
+        },
+        {
+          "heading": "Operational efficiency",
+          "paragraphs": [
+            "The source repeats risk identification here; it is retained once in the risk-management area above.",
+            "Improve productive systems and processes, monitor operational performance and plan improvements. Encourage continuous improvement and evaluate useful technology.",
+            "Review supply-chain management and resolve operational issues promptly."
+          ]
+        },
+        {
+          "heading": "Talent management",
+          "paragraphs": [
+            "Work with HR, finance and other owners on talent strategy. Support development, career progression and effective performance-management systems.",
+            "Plan succession, balance skills and experience, and support a culture of learning and professional development."
+          ]
+        },
+        {
+          "heading": "Customer focus",
+          "paragraphs": [
+            "Review satisfaction, customer-centred practices and the financial viability of products/services with finance and marketing.",
+            "Gather and analyze feedback, check that the offer meets needs, maintain customer relationships and engage directly with customers to understand concerns."
+          ]
+        },
+        {
+          "heading": "Investor relations",
+          "paragraphs": [
+            "Coordinate with the CFO on clear communication with investors and analysts. Build appropriate relationships with current and potential investors.",
+            "Report performance and prospects consistently, respond to questions and maintain transparency."
+          ]
+        },
+        {
+          "heading": "Brand reputation",
+          "paragraphs": [
+            "Represent the company in relevant public forums and maintain constructive media relationships.",
+            "Develop a clear narrative, align actions with the brand image, manage reputation risks and engage stakeholders."
+          ]
+        },
+        {
+          "heading": "Innovation and technology",
+          "paragraphs": [
+            "Support innovation, stay informed about relevant technologies and oversee implementation. Encourage cross-functional creative problem-solving.",
+            "Review R&D investment and digital-transformation initiatives, and anticipate technological disruption."
+          ]
+        },
+        {
+          "heading": "Sustainability and CSR",
+          "paragraphs": [
+            "Connect CSR strategy to business objectives and oversee sustainability practices.",
+            "Monitor and report performance, engage stakeholders and bring sustainability concerns to the board.",
+            "Review strategy, support employee learning and consider sustainable/ethical practices across the supply chain."
+          ]
+        },
+        {
+          "heading": "Stakeholder management",
+          "paragraphs": [
+            "Identify relevant stakeholders and prioritize engagement with regard to influence and interest.",
+            "Build constructive relationships, take responsibility for stakeholder impacts, examine value creation and listen to concerns.",
+            "Provide communication and feedback routes, maintain appropriate transparency, manage conflicts and report relevant company performance."
+          ]
+        },
+        {
+          "heading": "Mergers and acquisitions",
+          "paragraphs": [
+            "Connect M&A strategy to business objectives. Oversee diligence, negotiation, legal requirements and early financing planning.",
+            "Review strategic fit and realistic synergy assumptions. Plan integration and communicate the transaction’s purpose and progress.",
+            "Address culture integration and monitor delivery against financial objectives and expected synergies."
+          ]
+        },
+        {
+          "heading": "Continuity and succession",
+          "paragraphs": [
+            "Maintain and review business-continuity arrangements for a crisis and succession plans for executive roles.",
+            "Develop internal talent, communicate relevant plans and prepare successors.",
+            "Check critical-role coverage and support organizational resilience and adaptability."
+          ]
+        }
+      ],
+      "next": "Choose one unresolved area, assign the next decision and owner, and agree when the evidence will be reviewed again.",
+      "credit": "Transcribed and organized from the supplied CEO checklist. Creator not identified in the image; wording is adapted for readability and exact repeated responsibilities are consolidated.",
+      "reviewedOn": "2026-11-09",
+      "sourceSha256": "efdfdf01ea13f539ff5736fd8298acb3081914ab42a6a6ac0ffa547f20641b57"
+    },
+    "sourceImage": {
+      "id": "ceo-review",
+      "width": 1280,
+      "height": 1621,
+      "preview": "/library/remaining-knowledge/ceo-review-preview.webp",
+      "full": "/library/remaining-knowledge/ceo-review.webp",
+      "previewWidth": 620,
+      "previewHeight": 785,
+      "previewSha256": "c731a9dd96ef66b01dcc203f41a4ba6316b12fcffd097064e1580dd78632b951",
+      "fullSha256": "6d25779e2e508900db51877e3877ace8e67b06242053d0e13606313a96246953",
+      "purpose": "checklist",
+      "creator": "Not identified in the supplied image",
+      "version": "Undated supplied checklist",
+      "provenance": "Image supplied by the uploader. OCR provided a draft; the accessible adaptation was checked against a visual reading. The scan retains the original wording, layout and creator marks.",
+      "summary": "The full working content is transcribed above; the scan is a supporting reference rather than the page layout.",
+      "limitations": "A review aid to adapt, not a universal allocation of executive, board or CFO duties.",
+      "alt": "The CEO operating review: 15 areas of responsibility — supplied source image",
+      "publications": [],
+      "checked": "2026-11-09"
+    }
+  }
+]
