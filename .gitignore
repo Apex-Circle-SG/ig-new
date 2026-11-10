@@ -21,3 +21,6 @@ __pycache__/
 packages/datasets/data/runs/
 packages/datasets/data/.ingest.lock
 *.tmp
+
+# Unreviewed uploads can contain identifying data.
+/D.zip

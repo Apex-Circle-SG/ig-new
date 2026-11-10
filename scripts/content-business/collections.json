@@ -115,6 +115,10 @@
       {
         "name": "Strategy practice",
         "description": "Focused readings and practical discussion prompts for this subject."
+      },
+      {
+        "name": "Commercial agreements",
+        "description": "Connect cooperation, introductions and agreement-reading practice."
       }
     ],
     "journey": [
@@ -179,6 +183,23 @@
           {
             "slug": "art-of-war",
             "label": "Explore historical strategy readings"
+          }
+        ]
+      },
+      {
+        "title": "Read the agreement behind the decision",
+        "links": [
+          {
+            "slug": "partnership-mou-scope-binding-terms",
+            "label": "Partnership MOUs: scope, responsibilities and binding carve-outs"
+          },
+          {
+            "slug": "founder-fundraising-equity-vesting",
+            "label": "Founder fundraising equity: milestones, vesting and repurchase"
+          },
+          {
+            "slug": "business-agreements",
+            "label": "Browse the agreement reading hub"
           }
         ]
       }
@@ -731,6 +752,19 @@
           {
             "slug": "pareto-priorities",
             "label": "Focus on high-impact factors"
+          }
+        ]
+      },
+      {
+        "title": "Read the agreement behind the decision",
+        "links": [
+          {
+            "slug": "outsourced-administration-controls",
+            "label": "Outsourced administration: scope, banking authority and liability"
+          },
+          {
+            "slug": "business-agreements",
+            "label": "Browse the agreement reading hub"
           }
         ]
       }
@@ -2025,6 +2059,10 @@
       {
         "name": "Capital and public markets",
         "description": "Separate public listing readiness from private financing terms."
+      },
+      {
+        "name": "Funding agreements",
+        "description": "Compare debt obligations with event-driven equity conversion."
       }
     ],
     "journey": [
@@ -2068,6 +2106,23 @@
           {
             "slug": "founder-investment-terms",
             "label": "Review investment terms"
+          }
+        ]
+      },
+      {
+        "title": "Read the agreement behind the decision",
+        "links": [
+          {
+            "slug": "business-loan-guarantee",
+            "label": "Business loans and personal guarantees: read the obligations separately"
+          },
+          {
+            "slug": "convertible-funding-conversion",
+            "label": "Convertible funding: caps, discounts and event-driven repayment"
+          },
+          {
+            "slug": "business-agreements",
+            "label": "Browse the agreement reading hub"
           }
         ]
       }
@@ -2666,6 +2721,19 @@
             "label": "Historical institutional-investor reference"
           }
         ]
+      },
+      {
+        "title": "Read the agreement behind the decision",
+        "links": [
+          {
+            "slug": "vehicle-funding-buyback-equity-conversion",
+            "label": "Vehicle funding, buyback and equity conversion: unpack the promises"
+          },
+          {
+            "slug": "business-agreements",
+            "label": "Browse the agreement reading hub"
+          }
+        ]
       }
     ],
     "notes": [
@@ -2998,6 +3066,10 @@
       {
         "name": "Ethics in practice",
         "description": "Focused readings and practical discussion prompts for this subject."
+      },
+      {
+        "name": "Ownership & appointments",
+        "description": "Distinguish nominee directors from nominee shareholders and their responsibilities."
       }
     ],
     "journey": [
@@ -3037,6 +3109,23 @@
           {
             "slug": "business-ethics-cases",
             "label": "Read dated official case records"
+          }
+        ]
+      },
+      {
+        "title": "Read the agreement behind the decision",
+        "links": [
+          {
+            "slug": "nominee-director-indemnity-duties",
+            "label": "Nominee directors: duties, indemnities and appointment controls"
+          },
+          {
+            "slug": "nominee-shareholder-beneficial-ownership",
+            "label": "Nominee shareholding: voting, dividends and beneficial ownership"
+          },
+          {
+            "slug": "business-agreements",
+            "label": "Browse the agreement reading hub"
           }
         ]
       }
@@ -3290,6 +3379,10 @@
       {
         "name": "Cases and reference",
         "description": "Check historical cases, source workbooks and terminology."
+      },
+      {
+        "name": "Deal documents",
+        "description": "Connect acquisition terms to diligence, financing and closing."
       }
     ],
     "journey": [
@@ -3350,6 +3443,19 @@
           {
             "slug": "ma-model-source-register",
             "label": "Inspect source models and gaps"
+          }
+        ]
+      },
+      {
+        "title": "Read the agreement behind the decision",
+        "links": [
+          {
+            "slug": "acquisition-term-sheet-control-consideration",
+            "label": "Acquisition term sheets: control, price and closing conditions"
+          },
+          {
+            "slug": "business-agreements",
+            "label": "Browse the agreement reading hub"
           }
         ]
       }
@@ -3549,6 +3655,126 @@
       "leadership-culture",
       "problem-solving",
       "beliefs-mysteries"
+    ]
+  },
+  {
+    "slug": "business-agreements",
+    "title": "Business Agreements & Deal Documents",
+    "topic": "Business & Management",
+    "parent": "strategy-growth",
+    "group": "Commercial agreements",
+    "summary": "Choose an agreement by its purpose: founder equity, funding, ownership, cooperation, services or intermediary fees.",
+    "intro": "Start with the commercial question, then follow the relevant reading path. The detailed guides live in their subject collections, with annotated source clauses and unresolved terms beside the explanation. These are historical learning examples, not approved documents for signing.",
+    "groups": [
+      {
+        "name": "Reading & comparison",
+        "description": "Shared reading methods and comparisons."
+      },
+      {
+        "name": "Introductions & fees",
+        "description": "Protect contacts, define entitlement and trace fee payments."
+      }
+    ],
+    "journey": [
+      {
+        "title": "Start with the agreement’s job",
+        "links": [
+          {
+            "slug": "agreement-clause-checklist",
+            "label": "Agreement clauses: a practical reading and negotiation checklist"
+          },
+          {
+            "slug": "introduction-fee-agreements-compared",
+            "label": "NCNDA, finder’s fee and fee protection: which document answers which question?"
+          }
+        ]
+      },
+      {
+        "title": "Build and fund a company",
+        "links": [
+          {
+            "slug": "founder-fundraising-equity-vesting",
+            "label": "Founder fundraising equity: milestones, vesting and repurchase"
+          },
+          {
+            "slug": "business-loan-guarantee",
+            "label": "Business loans and personal guarantees: read the obligations separately"
+          },
+          {
+            "slug": "convertible-funding-conversion",
+            "label": "Convertible funding: caps, discounts and event-driven repayment"
+          }
+        ]
+      },
+      {
+        "title": "Own, govern and acquire",
+        "links": [
+          {
+            "slug": "nominee-director-indemnity-duties",
+            "label": "Nominee directors: duties, indemnities and appointment controls"
+          },
+          {
+            "slug": "nominee-shareholder-beneficial-ownership",
+            "label": "Nominee shareholding: voting, dividends and beneficial ownership"
+          },
+          {
+            "slug": "acquisition-term-sheet-control-consideration",
+            "label": "Acquisition term sheets: control, price and closing conditions"
+          }
+        ]
+      },
+      {
+        "title": "Cooperate and delegate",
+        "links": [
+          {
+            "slug": "partnership-mou-scope-binding-terms",
+            "label": "Partnership MOUs: scope, responsibilities and binding carve-outs"
+          },
+          {
+            "slug": "outsourced-administration-controls",
+            "label": "Outsourced administration: scope, banking authority and liability"
+          }
+        ]
+      },
+      {
+        "title": "Protect introductions and commissions",
+        "links": [
+          {
+            "slug": "introductions-confidentiality-non-circumvention",
+            "label": "Protecting introductions: confidentiality and non-circumvention"
+          },
+          {
+            "slug": "finder-fee-triggers-tail",
+            "label": "Finder’s fees: introductions, success triggers and the payment tail"
+          },
+          {
+            "slug": "intermediary-commission-payment-waterfall",
+            "label": "Intermediary commission waterfalls: payers, triggers and beneficiaries"
+          }
+        ]
+      },
+      {
+        "title": "Inspect mixed investment promises",
+        "links": [
+          {
+            "slug": "vehicle-funding-buyback-equity-conversion",
+            "label": "Vehicle funding, buyback and equity conversion: unpack the promises"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Public examples replace identifying details with role placeholders. Exact original documents remain in private local storage; the public source copy and paragraph mapping use anonymised wording.",
+      "Missing terms, inconsistent figures and unresolved legal questions are stated on each guide."
+    ],
+    "references": [],
+    "topicRoot": false,
+    "relatedCollections": [
+      "valuation-transactions",
+      "mergers-acquisitions-integration",
+      "business-ethics-governance",
+      "operations-performance",
+      "investing-portfolio-management"
     ]
   }
 ]

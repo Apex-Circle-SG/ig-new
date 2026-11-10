@@ -41,7 +41,8 @@
     "notes": [],
     "related": [
       "ma-synergies-value",
-      "ma-financing-models"
+      "ma-financing-models",
+      "acquisition-term-sheet-control-consideration"
     ],
     "references": [
       {
@@ -2389,7 +2390,9 @@
     "related": [
       "ma-deal-structures",
       "corporate-restructuring",
-      "ma-model-source-register"
+      "ma-model-source-register",
+      "business-loan-guarantee",
+      "convertible-funding-conversion"
     ],
     "references": [
       {

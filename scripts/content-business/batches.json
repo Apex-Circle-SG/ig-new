@@ -136,5 +136,14 @@
         "sha256": "efdfdf01ea13f539ff5736fd8298acb3081914ab42a6a6ac0ffa547f20641b57"
       }
     ]
+  },
+  {
+    "key": "business-agreements",
+    "source": "content/sources/business-agreements",
+    "plan": "agreements-plan.json",
+    "figures": null,
+    "ledger": "docs/business-agreements-content-coverage.csv",
+    "sha256": "44bf43e4eaddffc0f68e3cb60c9a7045a6a33a3854db2661b5ee93f0c8d8d3d3",
+    "annotatedClauses": true
   }
 ]

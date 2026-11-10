@@ -65,7 +65,10 @@
       "strategic-reflection-prompts",
       "strategy-five-ps",
       "platform-launch-playbook",
-      "art-of-war"
+      "partnership-mou-scope-binding-terms",
+      "founder-fundraising-equity-vesting",
+      "art-of-war",
+      "business-agreements"
     ]
   },
   {
@@ -209,7 +212,8 @@
       "executive-kpi-reference",
       "operating-process-types",
       "delegation-decision-rights",
-      "meeting-design-playbook"
+      "meeting-design-playbook",
+      "outsourced-administration-controls"
     ]
   },
   {
@@ -570,7 +574,9 @@
       "founder-investment-terms",
       "business-financing-routes",
       "ipo-readiness-pathway",
-      "venture-readiness-questions"
+      "venture-readiness-questions",
+      "business-loan-guarantee",
+      "convertible-funding-conversion"
     ]
   },
   {
@@ -712,7 +718,8 @@
       "investment-behavior-returns",
       "pension-funds-historical-ranking",
       "family-office-models",
-      "capital-provider-roles"
+      "capital-provider-roles",
+      "vehicle-funding-buyback-equity-conversion"
     ]
   },
   {
@@ -784,7 +791,9 @@
       "responsible-business-practice",
       "ethical-business-decisions",
       "business-ethics-cases",
-      "power-maxims-critical-reading"
+      "power-maxims-critical-reading",
+      "nominee-director-indemnity-duties",
+      "nominee-shareholder-beneficial-ownership"
     ]
   },
   {
@@ -863,7 +872,8 @@
       "ma-control-glossary",
       "post-merger-integration-planning",
       "ma-financing-models",
-      "ma-model-source-register"
+      "ma-model-source-register",
+      "acquisition-term-sheet-control-consideration"
     ]
   },
   {
@@ -899,6 +909,19 @@
       "action-persistence-maxims",
       "reflective-frameworks-purpose",
       "coaching-science-claims"
+    ]
+  },
+  {
+    "slug": "business-agreements",
+    "title": "Business Agreements & Deal Documents",
+    "topic": "Business & Management",
+    "parent": "strategy-growth",
+    "members": [
+      "introductions-confidentiality-non-circumvention",
+      "finder-fee-triggers-tail",
+      "intermediary-commission-payment-waterfall",
+      "agreement-clause-checklist",
+      "introduction-fee-agreements-compared"
     ]
   }
 ]

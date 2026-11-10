@@ -16648,6 +16648,456 @@
     ]
   },
   {
+    "slug": "business-loan-guarantee",
+    "title": "Business loans and personal guarantees: read the obligations separately",
+    "topic": "Finance & Accounting",
+    "group": "Funding agreements",
+    "summary": "Trace drawdown, interest, repayment and default, then examine the separate personal guarantee and its drafting conflicts.",
+    "sections": [
+      {
+        "heading": "Identify the facility and reconcile its principal",
+        "body": "The recital states S$100,000; the operative loan clause states S$300,000. The later guarantee spells out three hundred thousand but prints S$100,000. Treat principal as unresolved across all linked documents; do not choose a preferred amount silently."
+      },
+      {
+        "heading": "Price the loan and build its payment calendar",
+        "body": "The draft describes a three-month term from 1 October 2021 to 1 January 2022 and 5% monthly interest, but specifies a first interest payment on 22 May 2021 and a single S$315,000 final payment. At S$300,000, one month at 5% is S$15,000; that alone does not reconcile three months of interest. Establish the accrual basis, payment dates and any prior payments. Default interest compounds on outstanding amounts without a clearly stated compounding period."
+      },
+      {
+        "heading": "Distinguish security, early termination and illegality",
+        "body": "The borrower is to procure a shareholder guarantee. One month’s termination notice leads to repayment with pro-rata accrued interest; illegality also uses at least one month’s notice. Define how these events interact with maturity, default and any already-paid interest. Post-dated cheques are a repayment mechanism in the draft, not evidence that the debt is secured by assets."
+      },
+      {
+        "heading": "Review authority, confidentiality and contract mechanics",
+        "body": "Mutual warranties address authority, compliance, approvals and money-laundering matters; they are assertions to investigate. Confidentiality lasts until information becomes public. Severance and partial invalidity overlap, while third-party rights, waiver and non-exclusive Singapore court jurisdiction have different functions."
+      },
+      {
+        "heading": "Check signatures, dates and the guarantee parties",
+        "body": "The signature text refers to April 2021, the loan to October 2021, and the guarantee opening to June 2020. The guarantee also labels the guarantor as borrower. Verify each role and execution date, and obtain the actual guarantee required by the loan rather than assuming the attachment is consistent."
+      },
+      {
+        "heading": "Read the guarantee and indemnity as separate exposures",
+        "body": "The attachment combines a guarantee on default, principal-obligor language, an independent indemnity and continuing-security provisions. It says the beneficiary need not demand against the guarantor and may then demand under this guarantee—a party-reference defect to resolve. Changes to the loan, insolvency, waivers and prior payments are drafted broadly as non-release events."
+      },
+      {
+        "heading": "Follow claims, reinstatement, succession and release",
+        "body": "Review warranties, reinstatement if a payment is clawed back, full-payment/no-set-off language, restrictions on transfer and succession wording. Obligations concerning a personal representative are draft assertions, not proof that estate procedures or authority are satisfied. The guarantee uses exclusive Singapore jurisdiction with a beneficiary carve-out, unlike the loan’s non-exclusive wording."
+      },
+      {
+        "heading": "Model debt capacity separately",
+        "body": "The financial calculator tests repayment capacity under explicit assumptions. It does not settle the inconsistent loan principal, dates or guarantee language in this draft."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "partnership-mou-scope-binding-terms",
+    "title": "Partnership MOUs: scope, responsibilities and binding carve-outs",
+    "topic": "Business & Management",
+    "group": "Growth and restructuring",
+    "summary": "Use a cooperation memorandum to distinguish commercial intentions from the clauses the draft expressly treats as binding.",
+    "sections": [
+      {
+        "heading": "Define the cooperation and each party’s responsibilities",
+        "body": "This example covers brand promotion, activities and technical services using both free resource sharing and paid services. Platform access and account-activity information sit alongside reputation and content obligations. Clarify deliverables, authorised access, permitted data use, fees and accountability before moving to a detailed service agreement."
+      },
+      {
+        "heading": "Read confidentiality, duration and exit together",
+        "body": "The draft keeps the cooperation itself and related commercial information confidential, sets a one-year term and provides mutual termination with continuing obligations. Its final clause says only confidentiality and dispute resolution are legally binding; distinguish that expressed intention from a general claim about all MOUs."
+      },
+      {
+        "heading": "Resolve dispute wording and execution details",
+        "body": "Friendly communication is followed by filing at a Singapore courthouse, while the document refers to article numbers that are not clearly presented. Identify the intended court arrangements, the applicable law, authorised signatories and the subsequent agreement. The supplied draft does not provide a complete definitive commercial contract."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "nominee-director-indemnity-duties",
+    "title": "Nominee directors: duties, indemnities and appointment controls",
+    "topic": "Business & Management",
+    "group": "Ownership & appointments",
+    "summary": "Separate the office of director from the draft’s fee, insurance and indemnity promises.",
+    "sections": [
+      {
+        "heading": "Identify the office, parties and defined terms",
+        "body": "Although headed as a nominee director agreement, the substantive document is a deed of indemnity. It identifies the company and director, defines claims, losses, services and applicable law, and refers to an older Companies Act edition. A complete appointment also needs the actual corporate approvals and filings; definitions do not establish compliance."
+      },
+      {
+        "heading": "Compare the indemnity promise with its limits",
+        "body": "The company proposes broad defence and indemnification, subject to law and exclusions for proven fraud, wilful misconduct or negligence. Do not interpret this as immunity. Companies Act sections 172–172B distinguish prohibited protection from permitted insurance and specified third-party indemnities; individual clauses need review against the current provisions."
+      },
+      {
+        "heading": "Set information access, authorised instructions and costs",
+        "body": "The company promises instruction lists, proper accounts, tax filings, accurate documents, timely information and a replacement director on notice. It also addresses defence costs and CPF-related payments. Employment or contribution obligations cannot be inferred merely because the draft mentions them; determine the actual relationship."
+      },
+      {
+        "heading": "Review renewal, replacement and proposed strike-off remedies",
+        "body": "The deed combines continuing engagement with 30-day notice and purported strike-off rights following replacement, warranty, accounting or fee failures. These are source assertions; the deed alone does not establish statutory eligibility or authority to strike off a company. Some cross-references and service-provider names are missing."
+      },
+      {
+        "heading": "Read insurance, fee collection and the term together",
+        "body": "The insurance section discusses scope approved by the board and at least one year of post-service coverage. The fee section states S$2,000, payment within three days, a 12-month description and other collection mechanics with blank intermediaries. Reconcile these with renewal and termination before relying on a payment deadline."
+      },
+      {
+        "heading": "Control claims and maintain the appointment record",
+        "body": "The draft covers third-party benefits, defence control, settlement consent, notices, electronic execution, continued obligations and Singapore courts. ACRA states that director duties apply to nominees too. Its current guidance also covers company and central nominee registers; the 2022 source does not supply a complete present-day filing workflow."
+      }
+    ],
+    "sources": [
+      {
+        "title": "ACRA: duties apply to nominee directors too",
+        "url": "https://www.acra.gov.sg/manage/companies/legal-requirements-common-offences/directors-duties/"
+      },
+      {
+        "title": "ACRA: controller, nominee director and nominee shareholder registers",
+        "url": "https://www.acra.gov.sg/regulations/practice-directions-registrars-interpretations-guidance/rorc-rond-rons-guidance/"
+      },
+      {
+        "title": "Companies Act 1967: officers and indemnities, sections 172–172B",
+        "url": "https://sso.agc.gov.sg/Act/CoA1967?ProvIds=P15-"
+      }
+    ]
+  },
+  {
+    "slug": "nominee-shareholder-beneficial-ownership",
+    "title": "Nominee shareholding: voting, dividends and beneficial ownership",
+    "topic": "Business & Management",
+    "group": "Ownership & appointments",
+    "summary": "Map registered holding, beneficial ownership, instructions and transfer obligations without confusing a shareholder nominee with a director.",
+    "sections": [
+      {
+        "heading": "Identify the shares and the two ownership roles",
+        "body": "This declaration concerns 100 ordinary shares held by a nominee for a beneficial owner. It supplies party and company placeholders and a September 2023 date. Confirm the actual share class, quantity, ownership evidence and company constitution rather than treating the sample as the company’s record."
+      },
+      {
+        "heading": "Follow instructions, transfers, voting and dividends",
+        "body": "The nominee promises to hold on trust, transfer on request, permit transfer execution by the beneficial owner, vote as instructed and direct dividends as required. These are ownership and instruction arrangements. They do not erase nominee records or other disclosure obligations."
+      },
+      {
+        "heading": "Review indemnity, replacement, fees and service costs",
+        "body": "The beneficial owner promises broad indemnification and cooperation with replacement. S$2,000 is payable within three days, yet the nominee is allocated incorporation, secretary and address fees. The incomplete phrase “shorter period of” supplies only a 12-month limb. Reconcile duration, cost allocation and the company’s stated CPF-related obligation with the actual parties."
+      },
+      {
+        "heading": "Keep confidentiality distinct from required records",
+        "body": "The draft covers entire agreement, written changes, confidentiality, non-assignment, Singapore courts and counterpart signatures. Confidentiality wording is not a conclusion about permitted withholding from authorities. ACRA guidance addresses controller and nominee registers and central filing; assess each applicable register separately."
+      }
+    ],
+    "sources": [
+      {
+        "title": "ACRA: controller, nominee director and nominee shareholder registers",
+        "url": "https://www.acra.gov.sg/regulations/practice-directions-registrars-interpretations-guidance/rorc-rond-rons-guidance/"
+      }
+    ]
+  },
+  {
+    "slug": "introductions-confidentiality-non-circumvention",
+    "title": "Protecting introductions: confidentiality and non-circumvention",
+    "topic": "Business & Management",
+    "group": "Introductions & fees",
+    "summary": "Distinguish protection of information and contacts from a separate agreement to pay a commission.",
+    "sections": [
+      {
+        "heading": "Define the project, recipients and information",
+        "body": "The source concerns a stock transaction but uses broad commodity and equipment language. It purports to cover affiliates, clients, heirs and other non-signatories. Identify who actually contracts, what information is protected and the authority behind any claimed third-party obligations."
+      },
+      {
+        "heading": "Separate restricted dealing from confidentiality",
+        "body": "The draft restricts bypassing contacts to avoid fees and separately restricts disclosure. A prior-relationship exception requires notice and allows dispute; ordinary business is also mentioned. Define a recorded introduction, its scope, authorised disclosures and the evidence needed for an exception rather than relying on the broadest possible restriction."
+      },
+      {
+        "heading": "Agree commission triggers and the surviving contact restriction",
+        "body": "Commission amounts and payment timing are deferred to separate written agreements. Direct buyer–seller dealings require information to the agent. The source adds an 18-month restriction after termination while also covering repeated and extended transactions. Resolve the start, end, transaction perimeter and beneficiaries of each obligation."
+      },
+      {
+        "heading": "Read the penalty claim and dispute architecture critically",
+        "body": "The source demands up to 200% of actual damages and describes injunctions as an entitlement. These are draft claims, not guaranteed remedies. The Singapore Court of Appeal’s Denka decision addresses the penalty rule for secondary obligations triggered by breach; it does not decide this draft. SIAC rules and Georgia governing law appear in the same document. Different choices can coexist, but contract law, arbitration seat, procedural rules and arbitration-agreement law need deliberate, coherent specification."
+      },
+      {
+        "heading": "Review force majeure, assignment and claimed reach",
+        "body": "Later clauses address notice of force majeure, controlled entities, non-circumvention, no partnership, severability and digital transmission. Reconcile these with the defined parties and existing restrictions. Preserve a consistent signing and authority record; broad language about non-signatories is not proof of enforceability."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Singapore Court of Appeal: Denka v Seraya [2020] SGCA 119",
+        "url": "https://www.elitigation.sg/gd/s/2020_SGCA_119"
+      }
+    ]
+  },
+  {
+    "slug": "outsourced-administration-controls",
+    "title": "Outsourced administration: scope, banking authority and liability",
+    "topic": "Business & Management",
+    "group": "Operating practices",
+    "summary": "Read an administrative-services contract through delegated authority, access controls, exit and risk allocation.",
+    "sections": [
+      {
+        "heading": "Define the administrative scope and banking mandate",
+        "body": "The source appoints an exclusive administrative provider, with a fallback when demand cannot be met. Services include office work, records and banking on written instructions. This is a specific agency example, not a universal outsourcing form. Define who can instruct, approve and execute each action, retain bank-mandate evidence and separate payment approval from execution."
+      },
+      {
+        "heading": "Reconcile compensation, term and termination",
+        "body": "The stated fee is S$1, with an initial one-year term and negotiated extension. The notice phrase “one seven (7) days” is defective. Cure is described as ten days, extendible during diligent cure up to thirty; insolvency events allow immediate termination. Identify the actual fee basis, notice period, expense reimbursement and handover obligations."
+      },
+      {
+        "heading": "Review compliance, authority, data and intellectual property",
+        "body": "The draft addresses legal compliance, corporate authority and permitted use of names, trademarks and data. A statement that no approvals are required is a warranty to check, not proof. Clarify banking permissions, data access, incident handling, output ownership and subcontracting. Those additional operational controls are review questions, not recovered missing clauses."
+      },
+      {
+        "heading": "Read confidentiality, indemnities and liability as one system",
+        "body": "Confidentiality lasts five years after termination and requires return or destruction. Reciprocal indemnities include physical-product language that fits this administrative scope poorly. Liability exclusions and a provider cap based on five years of fees need reconciliation with the S$1 fee and gross-negligence exceptions. Do not assume a missing fee schedule or cap amount."
+      },
+      {
+        "heading": "Check notices, agency, assignment and execution",
+        "body": "The remaining clauses cover notices, remedies, law, severability, waiver, force majeure, counterparts, incorporation of schedules, assignment and approvals. Some affiliate/financing assignments are permitted and limited agency is asserted. Signature labels copied from nominee documents do not match the service parties. Resolve them and confirm which referenced schedules actually exist."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "acquisition-term-sheet-control-consideration",
+    "title": "Acquisition term sheets: control, price and closing conditions",
+    "topic": "Finance & Accounting",
+    "group": "Deal documents",
+    "summary": "Separate the shares being acquired, seller consideration, operating funding and conditions to completion.",
+    "sections": [
+      {
+        "heading": "Define the parties, control and transaction perimeter",
+        "body": "This draft proposes a Singapore buyer acquiring 51% of a Philippine business, whose existing owners hold 70% and 30%. It also mentions other entities and assets needed for the business, joint and several obligations and definitive agreements. Clarify precisely which shares, assets and liabilities move, who sells them and the post-closing capital table."
+      },
+      {
+        "heading": "Separate seller proceeds from the working-capital facility",
+        "body": "The stated purchase price is ₱5 million, subject to a salary-expense reduction, alongside access to a facility of up to S$10 million for merchant acquisition. These are different currencies and economic flows. The text conflates consideration and business funding; the facility’s cost is to be negotiated. Document draw conditions, control of the joint account and release approvals before modelling it."
+      },
+      {
+        "heading": "Reconcile management, profit rights and restrictions",
+        "body": "The sellers are described as continuing to operate the business, while another clause grants exclusive management power and uses limited-partner terminology. A profit entitlement of at least 50% does not automatically follow from a 49% residual shareholding. Clarify voting, management, distributions, dilution and the one-year regional non-compete and non-solicit scope."
+      },
+      {
+        "heading": "Set diligence access, exclusivity and claim allocation",
+        "body": "The source offers broad diligence access, extends a dated confidentiality agreement, and sets exclusivity to closing or an October 2022 end date. Claim provisions address warranties, covenants, historical employment and tax exposures. A heading called “Limitation on Claims” does not itself supply a quantified cap, basket or claims period."
+      },
+      {
+        "heading": "Evaluate closing conditions and the status of the term sheet",
+        "body": "Conditions include satisfactory diligence, definitive documents, approvals, no adverse change, key-manager contracts, working capital, debt treatment and shareholder-loan releases. The draft also specifies warranties, Singapore governing law, a three-arbitrator mechanism and expenses. It lacks the MOU’s explicit binding/non-binding carve-out. Resolve binding status and cross-border approvals rather than inferring them from the title."
+      },
+      {
+        "heading": "Connect the terms to diligence and financing",
+        "body": "Use the diligence planner to record open requests and the acquisition model to test financing assumptions. Keep seller consideration separate from funding available to the acquired business; the tools do not establish the binding status of the term sheet."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "vehicle-funding-buyback-equity-conversion",
+    "title": "Vehicle funding, buyback and equity conversion: unpack the promises",
+    "topic": "Finance & Accounting",
+    "group": "Private capital & institutions",
+    "summary": "Analyse a mixed vehicle-funding arrangement by its cash flows and ownership rights rather than its ambassador label.",
+    "sections": [
+      {
+        "heading": "Classify the arrangement by economic substance",
+        "body": "The document calls its participant an ambassador and describes referral services, then introduces vehicle subscriptions and investment-style benefits. Identify the participant’s actual role, asset ownership, operating obligations and counterparty. Its title does not resolve the nature or regulatory treatment of the arrangement."
+      },
+      {
+        "heading": "Check conditions, subscription and allocation",
+        "body": "The company can treat satisfaction of a referenced service contract as a precondition at its discretion. The participant pays S$30,000 per vehicle, with allocation within ten working days and a replacement right for the company. The referenced service contract is absent; identify what happens to paid funds if a condition fails or a vehicle is not allocated."
+      },
+      {
+        "heading": "Separate rental promises, principal return and conversion",
+        "body": "Rental yield and monthly amount are unresolved XX% and S$XXX placeholders. At month 61 the draft promises S$30,000 buyback or, at the participant’s request, conversion into company or SPV shares at a 30% valuation discount. Clarify who owns and insures each asset, funds the buyback, determines valuation and issues which shares. The word “guaranteed” is a source promise, not evidence of an independent guarantee or available cash."
+      },
+      {
+        "heading": "Review drag-along and the competing exit mechanism",
+        "body": "The drag provision refers to acceptance by holders of at least 51% and a valuation of S$50 million or more, then supplies transfer authority after five business days. A separate clause permits return of initial capital within thirty business days of a buyout. Resolve how a vehicle participant becomes a shareholder and which consideration prevails; do not treat the threshold as a verified valuation."
+      },
+      {
+        "heading": "Review dispute, transfer and execution mechanics",
+        "body": "The draft includes a thirty-day discussion period, Singapore courts, waiver, written variation, assignment, severance, entire agreement, no partnership and advice acknowledgments. These provisions do not fill the missing economics. A stated right to capital return remains exposed to the promisor’s ability to pay."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MAS: Capital Markets Services licensing and regulated activities",
+        "url": "https://www.mas.gov.sg/regulation/capital-markets/apply-for-licensing-or-registration-of-capital-market-entities/cms-licence"
+      }
+    ]
+  },
+  {
+    "slug": "founder-fundraising-equity-vesting",
+    "title": "Founder fundraising equity: milestones, vesting and repurchase",
+    "topic": "Business & Management",
+    "group": "Venture planning",
+    "summary": "Distinguish promised founder shares, salary and fundraising milestones, then reconcile conflicting issuance and vesting language.",
+    "sections": [
+      {
+        "heading": "Separate fundraising, salary and share issuance",
+        "body": "The founders are to help obtain S$10 million, with S$10,000 monthly remuneration and 25% ordinary shares each. The term expires in December 2022 unless ended earlier in writing. Specify who must raise what, whether the target is joint, which funds qualify and when remuneration starts or stops."
+      },
+      {
+        "heading": "Reconcile upfront shares, milestone vesting and repurchase",
+        "body": "The body describes 25% unvested shares for each founder at the start; the schedule says shares are issued on reaching the target. It lists 100% subject to repurchase, a nil price and vesting starting on successful fundraising, but supplies no ordinary time-based vesting schedule. Identify issue date, vesting event, repurchase mechanism and approvals rather than inventing standard four-year vesting."
+      },
+      {
+        "heading": "Read acceleration and transfer restrictions carefully",
+        "body": "The repurchase option lapses on the funding target, a specified control sale or an equivalent amalgamation. Corporate reorganisations trigger adjustments. The draft excludes certain constitutional pre-emption rules and restricts transfers while an option exists. Confirm the governing documents actually permit the intended result and correct self-referential event wording."
+      },
+      {
+        "heading": "Review notices, confidentiality and the founder relationship",
+        "body": "Electronic delivery preferences, confidential disclosures, notice timing, entire agreement, further assurances, variations, no partnership and assignment are addressed here. These do not substitute for missing founder responsibilities, IP assignment or deadlock arrangements; those remain negotiation questions."
+      },
+      {
+        "heading": "Align dispute provisions, signatures and schedules",
+        "body": "Singapore law and a consultation/mediation period precede SIAC arbitration in the draft. Schedule 1 repeats the economic terms and conflicts noted above; Schedule 2 supplies contact placeholders. Align the company, founders and shareholder roles, notices, signing authority and any missing accession or shareholder documents."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "convertible-funding-conversion",
+    "title": "Convertible funding: caps, discounts and event-driven repayment",
+    "topic": "Finance & Accounting",
+    "group": "Funding agreements",
+    "summary": "Read the actual conversion and repayment mechanics of a funding draft without assuming that every note has interest or a fixed maturity.",
+    "sections": [
+      {
+        "heading": "Identify the parties and the transaction",
+        "body": "The source describes funding a payment-related business and introduces investor and company signatures. It should be read by its operative terms: an agreement’s label does not establish a loan term, interest rate, maturity or regulatory exemption."
+      },
+      {
+        "heading": "Read the conversion price and capitalisation denominator",
+        "body": "For an equity financing the price is the lower of cap divided by fully diluted capitalisation and the round price less 15%. The definition includes options, other rights and reserved incentive shares, but excludes conversion of this and other convertible instruments. Option-pool changes therefore affect the denominator. A liquidity conversion instead uses cap divided by capitalisation, not the financing discount branch."
+      },
+      {
+        "heading": "Define trigger events and the use of funds",
+        "body": "The draft lists insolvency and liquidity events, including certain control transactions, substantial asset sales, amalgamations and listing, with a reorganisation exception. Investment amount is S$3 million, cap S$15 million, and purpose merchant inventory acquisition. A valuation cap is a conversion pricing input; S$3 million divided by S$15 million is not a guaranteed final ownership percentage after new shares and other dilution."
+      },
+      {
+        "heading": "Meet approvals, conditions and drawdown requirements",
+        "body": "The agreement uses Singapore currency and requires corporate resolutions and any necessary pre-emption waivers. A thirty-day condition deadline allows termination if not met or waived. Investment is a single drawing for a stated purpose, with a historical October 2022 drawdown reference. Reconcile all dates and the cancellation cross-reference."
+      },
+      {
+        "heading": "Follow the financing, liquidity and insolvency branches",
+        "body": "Equity financing triggers automatic conversion; a liquidity event gives a conversion election or repayment within twenty business days. Insolvency demands immediate repayment. If funds are insufficient, the draft allocates among participating investors and converts the unpaid amount. That clause does not establish priority over external creditors. Notice periods, share class, adjustable price-based rights, accession, fractional rounding up and reorganisation adjustments all affect the outcome."
+      },
+      {
+        "heading": "Review covenants, warranties and exposure limits",
+        "body": "While investment is outstanding, the draft requires insolvency notice and investor approval for a material business change or dividends. Warranties cover authority, IP and litigation, with disclosure/public-record exclusions, a twenty-four-month claim notice period and a cap at the investment amount. Do not read that warranty cap as a cap on every repayment obligation."
+      },
+      {
+        "heading": "Check the missing economics and dispute terms",
+        "body": "The remaining clauses cover confidentiality, notices, variations, assignment, costs, execution, Singapore law and SIAC arbitration after consultation/mediation. No fixed maturity, ordinary interest rate or express voluntary prepayment mechanism is supplied. Preserve that absence rather than importing features from another convertible-note template."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "finder-fee-triggers-tail",
+    "title": "Finder’s fees: introductions, success triggers and the payment tail",
+    "topic": "Business & Management",
+    "group": "Introductions & fees",
+    "summary": "Distinguish investor introductions, fee entitlement, payment timing and post-termination obligations.",
+    "sections": [
+      {
+        "heading": "Define the services and permitted role",
+        "body": "This example involves merchant acquisition and private fundraising, although the recital narrows the representative to investor introductions. Record which activity earns a fee and what the representative may say or do. MAS identifies dealing in capital markets products and corporate-finance advice as regulated activities; the actual conduct and any exemptions need review rather than assuming the label “finder” settles the issue."
+      },
+      {
+        "heading": "Reconcile termination and continuing entitlement",
+        "body": "Either party can give thirty days’ notice. The draft promises continuing fees on transactions directly resulting from the representative’s work, return/destruction of information and referral of further enquiries. Later provisions add a six-month formulation tied to first introduction, which does not clearly reconcile with this broad continuing tail."
+      },
+      {
+        "heading": "Define duties, success fee and payment evidence",
+        "body": "Duties include prospecting and securing merchants or investors. A one-time success fee is 5% of investment; payment is within seven working days of transaction completion. The undefined “Upkeep Fee” appears as a continuing payment obligation. Define eligible capital, cleared funds, reversals, repeat investments, evidence of introduction and the exact tail; do not invent a recurring rate."
+      },
+      {
+        "heading": "Control confidentiality, materials, expenses and claims",
+        "body": "The parties are independent contractors with limited authority. Confidentiality and marketing approval sit alongside pre-approved expenses and a representative indemnity. Written modifications, entire agreement, Singapore courts and signatures follow. The execution sentence calls it a consulting agreement; align the role and document references before use."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MAS: Capital Markets Services licensing and regulated activities",
+        "url": "https://www.mas.gov.sg/regulation/capital-markets/apply-for-licensing-or-registration-of-capital-market-entities/cms-licence"
+      }
+    ]
+  },
+  {
+    "slug": "intermediary-commission-payment-waterfall",
+    "title": "Intermediary commission waterfalls: payers, triggers and beneficiaries",
+    "topic": "Business & Management",
+    "group": "Introductions & fees",
+    "summary": "Read a fee-protection draft by identifying who pays, what triggers payment and how the beneficiary split is calculated.",
+    "sections": [
+      {
+        "heading": "Identify the stock transaction and representatives",
+        "body": "Although the table calls the asset a commodity, the described asset is stock. It lists a seller, seller’s representative and three buyer representatives, with market-value pricing. Determine the actual asset, parties and authority and link the fee arrangement to the main transaction instead of assuming that the heading defines the market."
+      },
+      {
+        "heading": "Trace the payment trigger and bank instructions",
+        "body": "The draft promises intermediary payment as the seller is paid, describes automatic bank or brokerage orders and adds a one-day post-closing/commission-receipt formulation. It also discusses buyer representatives originating payments and escrow sub-fee arrangements, while later naming the seller’s representative as payer. Reconcile payer, received-funds trigger, currency, timing, escrow engagement and institution acceptance. “Irrevocable” does not show that a bank or escrow agent has accepted instructions."
+      },
+      {
+        "heading": "Calculate the split and complete the missing mechanics",
+        "body": "Three beneficiaries receive 1.5%, 0.75% and 0.75% of gross portfolio sale: 3% in total. Sub-fees are not to exceed a representative group’s allocation and require approval. Define gross sale, actual proceeds, taxes, costs, partial closings, reversals and extensions. The draft supplies no complete governing-law/dispute clause or payment institution’s acceptance. Preserve signature placeholders while removing identifying names."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "agreement-clause-checklist",
+    "title": "Agreement clauses: a practical reading and negotiation checklist",
+    "topic": "Business & Management",
+    "group": "Reading & comparison",
+    "summary": "Read parties, performance, money, risk and exit in a consistent order while keeping each agreement’s exceptions visible.",
+    "sections": [
+      {
+        "heading": "Authority and obligations",
+        "body": "Check who signs, who benefits and who must perform. References to affiliates, heirs, banks or agents do not establish their consent. Reconcile corporate and personal obligations, definitions, annexes and every clause cross-reference. Keep the master agreement and schedules aligned."
+      },
+      {
+        "heading": "Confidentiality and information control",
+        "body": "Identify protected information, permitted recipients, use restrictions, public-domain exceptions, legally required disclosures, return/destruction and survival. The examples range from information becoming public to a fixed five-year period. Use role placeholders for public teaching examples and retain exact sources internally; removing names alone does not guarantee anonymity."
+      },
+      {
+        "heading": "Warranties, indemnities and limits",
+        "body": "A warranty is a stated assurance; an indemnity allocates a defined loss exposure. Read triggers, causation, notice, defence control, consent to settlement, caps, exclusions and survival together. A liability cap in one section does not automatically cap every obligation. Insurance and source assertions about enforceability require separate evidence."
+      },
+      {
+        "heading": "Exit and survival",
+        "body": "Build a calendar for term, renewal, notice, cure, repayment, fee tails and surviving confidentiality. Separate termination without cause from breach, insolvency and illegality. Distinguish when notice is sent from when it is deemed received; the drafts use different rules."
+      },
+      {
+        "heading": "Disputes and document mechanics",
+        "body": "Separate governing law, court jurisdiction, arbitration seat, institutional rules, tribunal size and arbitration-agreement law. Then inspect waiver, variation, assignment, third-party rights, severability, counterparts and execution. A severability clause is not an editorial licence to assume every defect is cured."
+      },
+      {
+        "heading": "Keep a decision and issue record",
+        "body": "For each unresolved point record the clause, commercial owner, proposed change, reviewer and status. Retain historical numbers as labelled examples, leave missing terms visibly unresolved and verify the final document with the relevant professional before execution."
+      }
+    ],
+    "sources": [
+      {
+        "title": "PDPC: basic anonymisation guidance",
+        "url": "https://www.pdpc.gov.sg/help-and-resources/2018/01/basic-anonymisation"
+      }
+    ]
+  },
+  {
+    "slug": "introduction-fee-agreements-compared",
+    "title": "NCNDA, finder’s fee and fee protection: which document answers which question?",
+    "topic": "Business & Management",
+    "group": "Reading & comparison",
+    "summary": "Compare contact protection, fee entitlement and payment allocation without treating three different agreements as substitutes.",
+    "sections": [
+      {
+        "heading": "Use the agreements as a connected workflow",
+        "body": "Record introduced contacts and prior relationships before confidential exchange. Define the eligible transaction, success event, commission base and tail. Then document the actual payer, beneficiary shares and accepted payment instructions. Reconcile currency, partial closings, reversals, extensions and disputes across all documents."
+      }
+    ],
+    "sources": []
+  },
+  {
     "slug": "strategy-growth",
     "title": "Strategy & Growth",
     "topic": "Business & Management",
@@ -17078,6 +17528,20 @@
       {
         "heading": "Choose a reading path",
         "body": "Use reflective questions, learning routines and practical coaching prompts without treating motivational maxims as scientific laws or inventing assessment scores."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "business-agreements",
+    "title": "Business Agreements & Deal Documents",
+    "topic": "Business & Management",
+    "group": "Commercial agreements",
+    "summary": "Choose an agreement by its purpose: founder equity, funding, ownership, cooperation, services or intermediary fees.",
+    "sections": [
+      {
+        "heading": "Choose a reading path",
+        "body": "Start with the commercial question, then follow the relevant reading path. The detailed guides live in their subject collections, with annotated source clauses and unresolved terms beside the explanation. These are historical learning examples, not approved documents for signing."
       }
     ],
     "sources": []

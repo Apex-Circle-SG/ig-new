@@ -187,6 +187,10 @@ for batch in json.loads((HERE / 'batches.json').read_text()):
         for span in page['ranges']:
             doc = documents[span['document']]
             assert 0 <= span['start'] < span['end'] <= len(doc['paragraphs'])
+            if batch.get('annotatedClauses'):
+                expected = [p['text'] for p in doc['paragraphs'][span['start']:span['end']]]
+                reviews = [b['review'] for b in span['curatedBlocks'] if b['kind'] == 'review']
+                assert len(reviews) == 1 and reviews[0]['original'] == expected, 'Changed or lost anonymised clause'
             if span.get('coveredBy'):
                 target = span['coveredBy']
                 assert target['reason'] and target['slug'] in articles, 'Unreviewed duplicate destination'

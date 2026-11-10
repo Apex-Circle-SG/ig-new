@@ -38,7 +38,7 @@ function DetailBlock({ block, caption }: { block: Block; caption: string }) {
     {block.review.paragraphs.map((text, i) => <p key={i}>{text}</p>)}
     <p className={styles.figureNote}>Editorial review: {block.review.date}. Scope and remaining uncertainties are described above.</p>
     {block.review.references.length > 0 && <ul>{block.review.references.map((reference) => <li key={reference.url}><a href={reference.url} target="_blank" rel="noopener noreferrer">{reference.title} ↗</a></li>)}</ul>}
-    <div className={styles.formulaOriginal} data-nosnippet><details><summary>Original study notes — includes historical or unverified claims</summary>
+    <div className={styles.formulaOriginal} data-nosnippet><details><summary>Read supplied wording — historical or unverified material</summary>
       {block.review.original.map((text, i) => <p key={i}>{text}</p>)}
     </details></div>
   </div>;

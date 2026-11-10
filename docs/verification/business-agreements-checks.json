@@ -1,0 +1,254 @@
+{
+  "reviewedOn": "2026-11-10",
+  "sourceArchiveSha256": "c9d5791996a5fb451f756f534900358ca28f54de727b7db75f031f8711ed3e70",
+  "sourceDocuments": 12,
+  "sourceParagraphs": 874,
+  "sourceTables": 9,
+  "sourceImages": 0,
+  "sourceCoverage": "All 874 original paragraphs compared with teaching copy after five reviewed replacements; all nine table structures match; public clauses checked exactly against teaching copy.",
+  "newSourceGuides": 12,
+  "newSharedGuides": 2,
+  "newHubs": 1,
+  "newSourceSections": 59,
+  "previousCatalogueSlugsRetained": true,
+  "productionBuild": "passed with indexability and advertising enabled; includes TypeScript",
+  "browser": {
+    "checks": [
+      {
+        "path": "/library/knowledge/business-agreements/",
+        "width": 1440,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/business-loan-guarantee/",
+        "width": 1440,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/partnership-mou-scope-binding-terms/",
+        "width": 1440,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/nominee-director-indemnity-duties/",
+        "width": 1440,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/nominee-shareholder-beneficial-ownership/",
+        "width": 1440,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/introductions-confidentiality-non-circumvention/",
+        "width": 1440,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/outsourced-administration-controls/",
+        "width": 1440,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/acquisition-term-sheet-control-consideration/",
+        "width": 1440,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/vehicle-funding-buyback-equity-conversion/",
+        "width": 1440,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/founder-fundraising-equity-vesting/",
+        "width": 1440,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/convertible-funding-conversion/",
+        "width": 1440,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/finder-fee-triggers-tail/",
+        "width": 1440,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/intermediary-commission-payment-waterfall/",
+        "width": 1440,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/agreement-clause-checklist/",
+        "width": 1440,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/introduction-fee-agreements-compared/",
+        "width": 1440,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/business-agreements/",
+        "width": 390,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/business-loan-guarantee/",
+        "width": 390,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/partnership-mou-scope-binding-terms/",
+        "width": 390,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/nominee-director-indemnity-duties/",
+        "width": 390,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/nominee-shareholder-beneficial-ownership/",
+        "width": 390,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/introductions-confidentiality-non-circumvention/",
+        "width": 390,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/outsourced-administration-controls/",
+        "width": 390,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/acquisition-term-sheet-control-consideration/",
+        "width": 390,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/vehicle-funding-buyback-equity-conversion/",
+        "width": 390,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/founder-fundraising-equity-vesting/",
+        "width": 390,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/convertible-funding-conversion/",
+        "width": 390,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/finder-fee-triggers-tail/",
+        "width": 390,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/intermediary-commission-payment-waterfall/",
+        "width": 390,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/agreement-clause-checklist/",
+        "width": 390,
+        "status": 200,
+        "overflow": false
+      },
+      {
+        "path": "/library/knowledge/introduction-fee-agreements-compared/",
+        "width": 390,
+        "status": 200,
+        "overflow": false
+      }
+    ],
+    "internalLinks": 31,
+    "a11y": [
+      {
+        "slug": "business-agreements",
+        "violations": 0
+      },
+      {
+        "slug": "business-loan-guarantee",
+        "violations": 0
+      },
+      {
+        "slug": "intermediary-commission-payment-waterfall",
+        "violations": 0
+      }
+    ],
+    "pageErrors": [],
+    "sitemap": true,
+    "contentIndex": true,
+    "sourceDisclosures": true
+  },
+  "graph": {
+    "timestamp": "2026-11-10T01:12:29.927732+00:00",
+    "mode": "incremental",
+    "source_files": 317,
+    "changed_files": 6,
+    "deleted_files": 1,
+    "nodes": 1258,
+    "edges": 2733,
+    "communities": 139,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "semantic_extraction": false
+  },
+  "unitSuitesRun": false,
+  "unitSuiteNote": "No broad test suite or new content tests added; guarded content build validates source retention, anonymisation and navigation.",
+  "limitations": [
+    "No clause-by-clause legal opinion, foreign-law or transaction-specific licensing determination.",
+    "Companies Act and SIAC model-clause direct retrieval returned 403; statutory indexed excerpt and ACRA references used within stated limits; no SIAC current model wording inserted.",
+    "Chromium desktop and mobile viewports; physical devices and Safari not checked.",
+    "Not pushed or deployed.",
+    "Graph raw incremental extraction reports ten unresolved endpoint references. Intentional deletion of the private replacement-map file was inspected before accepting a one-node prune."
+  ],
+  "screenshots": [
+    "/mnt/sdb/agreement-review/desktop.png",
+    "/mnt/sdb/agreement-review/mobile.png",
+    "/mnt/sdb/agreement-review/mobile-clause.png"
+  ],
+  "teachingArchiveSha256": "44bf43e4eaddffc0f68e3cb60c9a7045a6a33a3854db2661b5ee93f0c8d8d3d3",
+  "privacy": {
+    "repositoryVisibility": "PUBLIC",
+    "originalUpload": "Private local storage outside Git; mode 0600",
+    "replacementMap": "Private local storage outside Git",
+    "committedSources": "Anonymised minimal DOCX packages; body and tables retained; metadata and package-level style definitions removed",
+    "rootUploadIgnored": true,
+    "identifyingStringScan": "Passed for new public content, inventory, ledger and plan"
+  }
+}
