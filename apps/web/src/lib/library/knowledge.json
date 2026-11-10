@@ -1304,12 +1304,16 @@
   },
   {
     "slug": "windows-ssh-wireless",
-    "title": "Windows: SSH keys and wireless reports",
+    "title": "Windows: Defender scan settings, SSH keys and Wi-Fi reports",
     "topic": "Technology",
     "group": "Systems and operations",
-    "summary": "Generate SSH keys and create a Wi-Fi diagnostic report using Windows tools.",
+    "summary": "Reduce Defender scan CPU usage, generate SSH keys and create Wi-Fi diagnostic reports using Windows tools.",
     "relatedToolCategory": "Dev",
     "sections": [
+      {
+        "heading": "Reduce Defender scanning load",
+        "body": "In administrator PowerShell, first record the current setting with Get-MpPreference | Select-Object ScanAvgCPULoadFactor, then use Set-MpPreference -ScanAvgCPULoadFactor 5 to request a lower average scanning CPU target. The supplied command used 1; Microsoft documents 5–100, or 0 to disable throttling, so 1 is outside the documented range. This setting is guidance, not a hard cap on all Defender CPU use. Lower targets can lengthen scans. The target is ignored when ScanOnlyIfIdleEnabled and DisableCpuThrottleOnIdleScans are both enabled. To undo the change, set ScanAvgCPULoadFactor back to your recorded value."
+      },
       {
         "heading": "SSH keys",
         "body": "Windows OpenSSH can generate an Ed25519 key pair. Keep the private key secret; install only the public key on the destination. Review the official Windows guidance for private-key permissions and access control before changing ACLs."
@@ -1331,6 +1335,10 @@
       {
         "title": "Microsoft: netsh wlan",
         "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/netsh-wlan"
+      },
+      {
+        "title": "Microsoft: Set-MpPreference scanning CPU settings",
+        "url": "https://learn.microsoft.com/en-us/powershell/module/defender/set-mppreference#-scanavgcpuloadfactor"
       }
     ]
   },

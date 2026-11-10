@@ -34,6 +34,8 @@ const commands: Record<string, Command[]> = {
     { label: 'Inspect journal disk use', code: 'journalctl --disk-usage' },
   ],
   'windows-ssh-wireless': [
+    { label: 'Reduce Microsoft Defender scan CPU usage', code: 'Set-MpPreference -ScanAvgCPULoadFactor 5', note: 'Run PowerShell as administrator. Microsoft documents 5 as the lowest supported nonzero value; the supplied value 1 is outside that range. This is an average scanning CPU target, not a hard cap on Defender. Lower targets can lengthen scans; idle-scan settings can bypass throttling.' },
+    { label: 'Check the Defender scanning CPU target', code: 'Get-MpPreference | Select-Object ScanAvgCPULoadFactor', note: 'Record the existing value before changing it so you can restore your previous setting.' },
     { label: 'Generate an SSH key in PowerShell', code: 'ssh-keygen -t ed25519 -f "$env:USERPROFILE\\.ssh\\id_ed25519"', note: 'Protect the private key and do not overwrite an existing key.' },
     { label: 'Show the public key', code: 'Get-Content "$env:USERPROFILE\\.ssh\\id_ed25519.pub"', note: 'Share only the public key with the intended server administrator.' },
     { label: 'Generate a Wi-Fi report', code: 'netsh wlan show wlanreport', note: 'Windows reports where the generated HTML file is saved.' },
