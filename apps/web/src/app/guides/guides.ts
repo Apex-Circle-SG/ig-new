@@ -73,4 +73,10 @@ export const GUIDES = [
     summary:
       'Household income adds every earner in a home together; individual income is one person. On the individual basis, 83.3% earn under $100,000 — a household total must not be read off the individual bands.',
   },
+  {
+    href: '/guides/how-long-will-my-cash-last/',
+    title: 'How long will my cash last? How to calculate cash runway as a freelancer',
+    summary:
+      'Runway in months is spendable cash divided by average monthly net burn — cash on hand over expenses minus reliable incoming cash.',
+  },
 ];
