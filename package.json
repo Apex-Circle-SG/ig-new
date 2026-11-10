@@ -48,5 +48,8 @@
   },
   "overrides": {
     "esbuild": "^0.28.2"
+  },
+  "dependencies": {
+    "@tidbcloud/serverless": "^0.3.0"
   }
 }

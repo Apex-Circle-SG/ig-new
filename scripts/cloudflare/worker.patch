@@ -40,9 +40,10 @@
  }
 --- a/apps/web/src/lib/ask/datadog.ts
 +++ b/apps/web/src/lib/ask/datadog.ts
-@@ -1,6 +1,6 @@
+@@ -1,6 +1,7 @@
 +import { env as cloudflareEnv } from 'cloudflare:workers';
 +import { createCloudflareState } from '../cloudflare/state';
++import { siteDatabase } from '../cloudflare/database';
  import { createHash, randomUUID } from 'node:crypto';
 -import { constants } from 'node:fs';
 -import { mkdir, open, realpath, rename, unlink } from 'node:fs/promises';
@@ -154,7 +155,7 @@
    const cancelReserve = Math.min(requestLimit, Math.max(1, Math.floor(runtime / 5)));
 -  let lock: Awaited<ReturnType<typeof open>> | undefined;
 -  let directory: string | undefined;
-+  const cloudState = createCloudflareState(cloudflareEnv.SITE_DB);
++  const cloudState = createCloudflareState(siteDatabase(cloudflareEnv));
 +  const owner = randomUUID();
 +  let cloudLock = false;
    try {
@@ -228,12 +229,13 @@
  
 --- a/apps/web/src/lib/operations.ts
 +++ b/apps/web/src/lib/operations.ts
-@@ -1,6 +1,5 @@
+@@ -1,6 +1,6 @@
 -import { mkdir, readFile, readdir, rename, writeFile } from 'node:fs/promises';
 -import { join } from 'node:path';
 -import { randomUUID } from 'node:crypto';
 +import { env as cloudflareEnv } from 'cloudflare:workers';
 +import { createCloudflareState } from './cloudflare/state';
++import { siteDatabase } from './cloudflare/database';
  
  export const OPERATION_CODES = [
    'ask_answer',
@@ -242,7 +244,7 @@
  /** Aggregate service-health counts only. No free text or request context accepted. */
  export function createOperationStore(directory?: string) {
 -  let queue = Promise.resolve();
-+  const cloudState = createCloudflareState(cloudflareEnv.SITE_DB);
++  const cloudState = createCloudflareState(siteDatabase(cloudflareEnv));
    let pending = 0;
 -  async function read(day: string): Promise<Counts> {
 -    if (!directory) return { day, counts: {} };
@@ -301,7 +303,7 @@
 -        return await Promise.all(names.map((name) => read(name.slice(0, 10))));
 -      } catch {
 -        return [];
-+      const result = await cloudflareEnv.SITE_DB.prepare("SELECT day, key, count FROM site_counts WHERE kind = 'operations' ORDER BY day DESC LIMIT 1000").all();
++      const result = await siteDatabase(cloudflareEnv).prepare("SELECT day, key, count FROM site_counts WHERE kind = 'operations' ORDER BY day DESC LIMIT 1000").all();
 +      const grouped = new Map<string, Counts>();
 +      for (const row of result.results as {day: string; key: OperationCode; count: number}[]) {
 +        if (!(OPERATION_CODES as readonly string[]).includes(row.key) || !/^\d{4}-\d{2}-\d{2}$/.test(row.day) || !Number.isSafeInteger(row.count) || row.count < 0) return [];
@@ -316,12 +318,13 @@
  }
 --- a/apps/web/src/lib/request-security.ts
 +++ b/apps/web/src/lib/request-security.ts
-@@ -1,3 +1,4 @@
+@@ -1,3 +1,5 @@
 +import { env as cloudflareEnv } from 'cloudflare:workers';
++import { rateLimit } from '../../../../scripts/storage/redis.mjs';
  import { createHmac, randomBytes, timingSafeEqual } from 'node:crypto';
  import { isIP } from 'node:net';
  
-@@ -55,25 +56,21 @@
+@@ -55,25 +56,9 @@
    const address = request.headers.get('cf-connecting-ip') ?? '';
    return signature(address.length <= 45 && isIP(address) ? address : 'unknown');
  }
@@ -344,31 +347,20 @@
 -    }
 -    global.count += 1;
 -    return true;
-+export function createRequestLimiter(maximum = 20, windowMs = 60_000, namespace: string | number = 'ask') {
-+  return async (key: string, now = Date.now()) => {
-+    const db = cloudflareEnv.SITE_DB;
-+    const sql = `INSERT INTO request_limits(bucket, expires, count) VALUES (?, ?, 1)
-+      ON CONFLICT(bucket) DO UPDATE SET
-+      count = CASE WHEN expires <= ? THEN 1 ELSE count + 1 END,
-+      expires = CASE WHEN expires <= ? THEN ? ELSE expires END
-+      RETURNING count`;
-+    try {
-+      const global = await db.prepare(sql).bind(`${namespace}:global`, now + windowMs, now, now, now + windowMs).first();
-+      if (!global || Number(global.count) > 500) return false;
-+      const row = await db.prepare(sql).bind(`${namespace}:${key}`, now + windowMs, now, now, now + windowMs).first();
-+      await db.prepare('DELETE FROM request_limits WHERE expires <= ?').bind(now).run();
-+      return Boolean(row && Number(row.count) <= maximum);
-+    } catch { return false; }
++export function createRequestLimiter(maximum = 20, windowMs = 60_000, namespace: string | number = 'ask'): (key: string, now?: number) => Promise<boolean> {
++  return async (key: string) => {
++    return rateLimit(cloudflareEnv, namespace, key, maximum, windowMs);
    };
  }
  
 --- a/apps/web/src/app/api/events/aggregate-store.ts
 +++ b/apps/web/src/app/api/events/aggregate-store.ts
-@@ -1,7 +1,6 @@
+@@ -1,7 +1,7 @@
 -import { randomUUID } from 'node:crypto';
 -import { mkdir, readFile, readdir, rename, unlink, writeFile } from 'node:fs/promises';
 +import { env as cloudflareEnv } from 'cloudflare:workers';
 +import { createCloudflareState } from '../../../lib/cloudflare/state';
++import { siteDatabase } from '../../../lib/cloudflare/database';
  import { isIP } from 'node:net';
 -import { join } from 'node:path';
  import { eventNames, experienceIds } from '@insightginie/analytics';
@@ -430,7 +422,7 @@
  
  /** Single Node process only. No event rows, IP addresses or identifiers reach disk. */
  export function createAggregateCollector(options: CollectionOptions) {
-+  const cloudState = createCloudflareState(cloudflareEnv.SITE_DB);
++  const cloudState = createCloudflareState(siteDatabase(cloudflareEnv));
    const now = options.now ?? Date.now;
    const siteOrigin = options.siteOrigin ?? 'https://insightginie.com';
    const addresses = new Map<string, { expires: number; count: number }>();

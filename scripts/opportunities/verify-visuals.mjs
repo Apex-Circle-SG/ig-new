@@ -2,13 +2,11 @@
 // the owner's LinkedIn media storage; it never creates or edits a feed post.
 import { readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
+import { createTiDB } from '../storage/tidb.mjs';
 import { decryptState, uploadPostImage, postVisual } from '../../apps/opportunities/social.mjs';
 import discoveries from '../../apps/opportunities/data/discoveries.json' with { type: 'json' };
 const root = resolve(import.meta.dirname, '../..');
 const base = 'https://insightginie.com';
-const config = JSON.parse(
-  await readFile(resolve(root, 'apps/opportunities/cloudflare.json'), 'utf8'),
-);
 const report = {
   checkedAt: new Date().toISOString(),
   feedPostsCreated: 0,
@@ -41,24 +39,12 @@ for (const path of [
   });
 }
 if (process.argv.includes('--upload')) {
-  if (!process.env.CLOUDFLARE_API_TOKEN || !process.env.CLOUDFLARE_ACCOUNT_ID)
-    throw new Error('Private Cloudflare environment required');
-  const d1 = await fetch(
-    `https://api.cloudflare.com/client/v4/accounts/${process.env.CLOUDFLARE_ACCOUNT_ID}/d1/database/${config.database_id}/query`,
-    {
-      method: 'POST',
-      headers: {
-        Authorization: `Bearer ${process.env.CLOUDFLARE_API_TOKEN}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        sql: "SELECT data FROM automation_state WHERE id='linkedin_credentials'",
-      }),
-    },
-  );
-  if (!d1.ok) throw new Error('Credential state lookup failed');
-  const json = await d1.json();
-  const encrypted = json.result?.[0]?.results?.[0]?.data;
+  process.loadEnvFile(resolve(root, '.env'));
+  if (!process.env.TIDB_HOST) throw new Error('Private TiDB environment required');
+  const db = createTiDB(process.env, 'opportunities');
+  const encrypted = (
+    await db.prepare("SELECT data FROM automation_state WHERE id='linkedin_credentials'").first()
+  )?.data;
   const privateRoot = resolve(process.env.HOME, '.config/insightginie');
   const value = encrypted
     ? await decryptState(

@@ -1,0 +1,463 @@
+{
+  "checked_at": "2026-11-10T15:35:24.294952+00:00",
+  "status": "deployed-and-verified",
+  "git_push": "not-requested; not-pushed",
+  "frozen_snapshot": {
+    "tables": 25,
+    "rows": 9524,
+    "full_row_checksums_match": true,
+    "databases": [
+      {
+        "source": "insightginie-opportunities",
+        "snapshot_at": "2026-11-10T15:22:35.236Z",
+        "tables": [
+          {
+            "name": "opportunities_schema_migrations",
+            "rows": 4,
+            "checksum_match": true
+          },
+          {
+            "name": "opportunities_sources",
+            "rows": 41,
+            "checksum_match": true
+          },
+          {
+            "name": "opportunities_opportunities",
+            "rows": 5365,
+            "checksum_match": true
+          },
+          {
+            "name": "opportunities_ideas",
+            "rows": 84,
+            "checksum_match": true
+          },
+          {
+            "name": "opportunities_platforms",
+            "rows": 21,
+            "checksum_match": true
+          },
+          {
+            "name": "opportunities_ingestion_runs",
+            "rows": 3098,
+            "checksum_match": true
+          },
+          {
+            "name": "opportunities_source_cursors",
+            "rows": 11,
+            "checksum_match": true
+          },
+          {
+            "name": "opportunities_earning_methods",
+            "rows": 24,
+            "checksum_match": true
+          },
+          {
+            "name": "opportunities_automation_state",
+            "rows": 0,
+            "checksum_match": true
+          },
+          {
+            "name": "opportunities_social_posts",
+            "rows": 23,
+            "checksum_match": true
+          },
+          {
+            "name": "opportunities_social_discovery_posts",
+            "rows": 12,
+            "checksum_match": true
+          }
+        ]
+      },
+      {
+        "source": "insightginie-site-stage",
+        "snapshot_at": "2026-11-10T15:22:29.454Z",
+        "tables": [
+          {
+            "name": "stage_ginie_state",
+            "rows": 1,
+            "checksum_match": true
+          },
+          {
+            "name": "stage_site_counts",
+            "rows": 5,
+            "checksum_match": true
+          },
+          {
+            "name": "stage_request_limits",
+            "rows": 0,
+            "checksum_match": true
+          },
+          {
+            "name": "stage_scheduled_jobs",
+            "rows": 0,
+            "checksum_match": true
+          },
+          {
+            "name": "stage_migration_runs",
+            "rows": 0,
+            "checksum_match": true
+          }
+        ]
+      },
+      {
+        "source": "insightginie-site-state",
+        "snapshot_at": "2026-11-10T15:22:31.882Z",
+        "tables": [
+          {
+            "name": "site_migration_snapshots",
+            "rows": 7,
+            "checksum_match": true
+          },
+          {
+            "name": "site_ginie_state",
+            "rows": 1,
+            "checksum_match": true
+          },
+          {
+            "name": "site_site_counts",
+            "rows": 32,
+            "checksum_match": true
+          },
+          {
+            "name": "site_request_limits",
+            "rows": 0,
+            "checksum_match": true
+          },
+          {
+            "name": "site_scheduled_jobs",
+            "rows": 1,
+            "checksum_match": true
+          },
+          {
+            "name": "site_migration_runs",
+            "rows": 2,
+            "checksum_match": true
+          },
+          {
+            "name": "site_library_tools",
+            "rows": 773,
+            "checksum_match": true
+          },
+          {
+            "name": "site_library_knowledge",
+            "rows": 17,
+            "checksum_match": true
+          },
+          {
+            "name": "site_library_sources",
+            "rows": 2,
+            "checksum_match": true
+          }
+        ]
+      }
+    ]
+  },
+  "workers": {
+    "result": [
+      {
+        "worker": "insightginie-site",
+        "d1Bindings": 0,
+        "tidb": true,
+        "namespace": "site",
+        "cron": []
+      },
+      {
+        "worker": "insightginie-opportunities",
+        "d1Bindings": 0,
+        "tidb": true,
+        "namespace": "opportunities",
+        "cron": [
+          "0 1 * * *",
+          "0 13 * * *",
+          "*/10 * * * *",
+          "10 0,6,12,18 * * *"
+        ]
+      },
+      {
+        "worker": "insightginie-metrics",
+        "d1Bindings": 0,
+        "tidb": true,
+        "namespace": "site",
+        "cron": [
+          "*/5 * * * *"
+        ]
+      },
+      {
+        "worker": "insightginie-site-stage",
+        "d1Bindings": 0,
+        "tidb": true,
+        "namespace": "stage",
+        "cron": []
+      },
+      {
+        "worker": "insightginie-metrics-stage",
+        "d1Bindings": 0,
+        "tidb": true,
+        "namespace": "stage",
+        "cron": []
+      }
+    ],
+    "stage": {
+      "status": 200,
+      "noindex": true,
+      "content": true
+    }
+  },
+  "website_version": "03dda741-4b58-40b8-a05d-1be48f797ff5",
+  "staging_website_version": "04224b14-90a6-407e-a1f7-8f3b2e6bb4a2",
+  "checks": {
+    "node_tests": 43,
+    "state_metrics_tests": 2,
+    "root_types": "passed",
+    "worker_types": "passed",
+    "focused_lint": "passed, zero warnings",
+    "prepared_worker_lint": "passed, zero warnings",
+    "production_build": "passed",
+    "staging_build": "passed",
+    "private_migration_login_not_deployed": true,
+    "runtime_ddl_denied": true,
+    "maintenance_guard_removed": true,
+    "scheduled_import_after_cutover": "2026-11-10T15:30:18.951Z; success; 25 records"
+  },
+  "live_writes": {
+    "noConsentStatus": 204,
+    "gpcStatus": 204,
+    "consentStatus": 204,
+    "ignoredEventsNotWritten": true,
+    "consentedEventWritten": true,
+    "d1Unchanged": true,
+    "tokenStatus": 200,
+    "tokenIssued": true,
+    "cookieHttpOnly": true,
+    "at": "2026-11-10T15:24:55.642Z"
+  },
+  "live_catalog_cache": [
+    {
+      "status": 200,
+      "cache": "MISS",
+      "total": 0
+    },
+    {
+      "status": 200,
+      "cache": "HIT",
+      "total": 0
+    }
+  ],
+  "local_browser": [
+    {
+      "path": "/library/knowledge/windows-ssh-wireless/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "errors": [],
+      "csp": true,
+      "private": true
+    },
+    {
+      "path": "/library/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "errors": [],
+      "csp": true,
+      "private": true
+    },
+    {
+      "path": "/content-index/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "errors": [],
+      "csp": true,
+      "private": true
+    },
+    {
+      "path": "/calculators/casino/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "errors": [],
+      "csp": true,
+      "private": true
+    },
+    {
+      "path": "/library/knowledge/windows-ssh-wireless/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "errors": [],
+      "csp": true,
+      "private": true
+    },
+    {
+      "path": "/library/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "errors": [],
+      "csp": true,
+      "private": true
+    },
+    {
+      "path": "/content-index/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "errors": [],
+      "csp": true,
+      "private": true
+    },
+    {
+      "path": "/calculators/casino/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "errors": [],
+      "csp": true,
+      "private": true
+    }
+  ],
+  "live_browser": [
+    {
+      "path": "/library/knowledge/windows-ssh-wireless/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "errors": [],
+      "csp": true,
+      "private": true
+    },
+    {
+      "path": "/library/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "errors": [],
+      "csp": true,
+      "private": true
+    },
+    {
+      "path": "/content-index/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "errors": [],
+      "csp": true,
+      "private": true
+    },
+    {
+      "path": "/calculators/casino/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "errors": [],
+      "csp": true,
+      "private": true
+    },
+    {
+      "path": "/library/knowledge/windows-ssh-wireless/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": true,
+      "errors": [],
+      "csp": true,
+      "private": true
+    },
+    {
+      "path": "/library/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": true,
+      "errors": [],
+      "csp": true,
+      "private": true
+    },
+    {
+      "path": "/content-index/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "errors": [],
+      "csp": true,
+      "private": true
+    },
+    {
+      "path": "/calculators/casino/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": true,
+      "errors": [],
+      "csp": true,
+      "private": true
+    }
+  ],
+  "early_worker_telemetry": [
+    {
+      "dimensions": {
+        "scriptName": "insightginie-metrics",
+        "status": "success"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "scriptName": "insightginie-opportunities",
+        "status": "success"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 16
+      }
+    },
+    {
+      "dimensions": {
+        "scriptName": "insightginie-site",
+        "status": "success"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 41
+      }
+    }
+  ],
+  "graph": {
+    "timestamp": "2026-11-10T15:33:58.620527+00:00",
+    "mode": "incremental",
+    "source_files": 323,
+    "changed_files": 16,
+    "deleted_files": 0,
+    "nodes": 1292,
+    "edges": 2804,
+    "communities": 141,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "semantic_extraction": false
+  },
+  "limitations": [
+    "No full post-release UTC-day usage result yet; Worker execution limits remain separate from database quotas.",
+    "TiDB regex prefix search can differ from FTS5 punctuation/accent tokenization; underlying application rows were retained.",
+    "Some live desktop checks detected an intermittent off-screen ad helper iframe expanding document width; no storage-related UI changes.",
+    "Bounded architecture graph has unresolved raw endpoints; use actual code and type checks alongside it.",
+    "Old D1 backups are frozen, not a live rollback replica.",
+    "No paid AI request, LinkedIn upload or posting used for verification."
+  ]
+}

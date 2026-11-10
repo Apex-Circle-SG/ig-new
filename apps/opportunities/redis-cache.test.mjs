@@ -15,6 +15,12 @@ function redisMock() {
       assert.equal(options.redirect, 'manual');
       const command = JSON.parse(options.body);
       commands.push(command);
+      if (command[0] === 'EVAL') {
+        const generation = values.get(command[3]) || 'initial';
+        return Response.json({
+          result: [generation, values.get(command[4] + generation + ':' + command[5]) || null],
+        });
+      }
       if (command[0] === 'GET') return Response.json({ result: values.get(command[1]) || null });
       values.set(command[1], command[2]);
       return Response.json({ result: 'OK' });
@@ -36,6 +42,10 @@ test('Redis hit avoids D1 load, canonical order shares key, generation invalidat
     assert.equal((await cachedPublic(a, env, load)).headers.get('X-Catalog-Cache'), 'MISS');
     assert.equal((await cachedPublic(b, env, load)).headers.get('X-Catalog-Cache'), 'HIT');
     assert.equal(loads, 1);
+    assert.deepEqual(
+      mock.commands.map((c) => c[0]),
+      ['EVAL', 'SET', 'EVAL'],
+    );
     await invalidateCatalog(env);
     assert.equal((await cachedPublic(a, env, load)).headers.get('X-Catalog-Cache'), 'MISS');
     assert.equal(loads, 2);

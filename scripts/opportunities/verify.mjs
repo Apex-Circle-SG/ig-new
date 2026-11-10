@@ -59,7 +59,7 @@ assert.equal(unknown.status, 404);
 const report = {
   verifiedAt: new Date().toISOString(),
   apiUrl: base,
-  database: config.database_name,
+  database: 'tidb:opportunities',
   status: 'passed',
   counts: {
     opportunities: stats.opportunities,

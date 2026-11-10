@@ -1,6 +1,8 @@
 # Database
 
-The schema is PostgreSQL with Drizzle. `packages/database/src/schema.ts` defines
+Production website state and the opportunities catalogue use TiDB Cloud with Redis caching and request limits. See [runtime migration and recovery](tidb-runtime-migration.md) for the current architecture, complete data-retention receipt and deployment instructions.
+
+The optional publication schema is PostgreSQL with Drizzle. `packages/database/src/schema.ts` defines
 tables and constraints; `packages/database/migrations/` contains versioned SQL.
 The application currently reads a validated public-data snapshot. Database
 provisioning is optional for that slice and is not silently replaced by an

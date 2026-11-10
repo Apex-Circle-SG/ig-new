@@ -8,11 +8,13 @@ export default defineConfig({
     compatibilityDate: '2026-11-04',
     compatibilityFlags: ['nodejs_compat'],
     workersDev: false,
-    triggers: [triggers.scheduled({ schedule: '* * * * *' })],
+    triggers: [triggers.scheduled({ schedule: '*/5 * * * *' })],
     env: {
-      SITE_DB: bindings.d1(stage
-        ? { name: 'insightginie-site-stage', id: 'a37e4af0-928a-4b61-9d5f-0084bca43c9e' }
-        : { name: 'insightginie-site-state', id: '77d1bf25-2cd3-4fa0-ae49-84570dd0f311' }),
+      TIDB_HOST: bindings.secret(),
+      TIDB_USERNAME: bindings.secret(),
+      TIDB_PASSWORD: bindings.secret(),
+      TIDB_DATABASE: bindings.secret(),
+      TIDB_NAMESPACE: bindings.text(stage ? 'stage' : 'site'),
       DD_METRICS_ENABLED: bindings.text(stage ? 'false' : 'true'),
       DD_API_KEY: stage ? bindings.text('disabled') : bindings.secret(),
     },

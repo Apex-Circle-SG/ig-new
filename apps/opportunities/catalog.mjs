@@ -132,7 +132,7 @@ export function normalize(source, data, now = new Date().toISOString()) {
   return result;
 }
 
-export function searchQuery(params) {
+export function searchQuery(params, dialect = 'sqlite') {
   const terms =
     (params.get('q') ?? '')
       .slice(0, 160)
@@ -148,10 +148,22 @@ export function searchQuery(params) {
   );
   const values = [];
   if (terms.length) {
-    filters.push(
-      'o.rowid IN (SELECT rowid FROM opportunities_search WHERE opportunities_search MATCH ?)',
-    );
-    values.push(terms.map((term) => `"${term.replaceAll('"', '')}"*`).join(' AND '));
+    if (dialect === 'mysql') {
+      // Match token prefixes across the same five fields as the SQLite search index.
+      for (const term of terms) {
+        filters.push(
+          "REGEXP_LIKE(LOWER(CONCAT_WS(' ',o.title,o.organization,o.skills,o.location,o.excerpt)), ?)",
+        );
+        values.push(
+          '(^|[^[:alnum:]_])' + term.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&'),
+        );
+      }
+    } else {
+      filters.push(
+        'o.rowid IN (SELECT rowid FROM opportunities_search WHERE opportunities_search MATCH ?)',
+      );
+      values.push(terms.map((term) => `"${term.replaceAll('"', '')}"*`).join(' AND '));
+    }
   }
   if (['jobs', 'bounties'].includes(params.get('category'))) {
     filters.push('o.category = ?');
@@ -162,7 +174,7 @@ export function searchQuery(params) {
     values.push(params.get('arrangement').slice(0, 40));
   }
   filters.push(
-    "NOT EXISTS (SELECT 1 FROM opportunities duplicate WHERE duplicate.fingerprint=o.fingerprint AND duplicate.id<o.id AND duplicate.status='active' AND (duplicate.expires_at IS NULL OR julianday(duplicate.expires_at)>julianday('now')) AND julianday(duplicate.last_seen_at)>julianday('now','-7 days'))",
+    `NOT EXISTS (SELECT 1 FROM opportunities duplicate WHERE ${dialect === 'mysql' ? 'duplicate.fingerprint_hash=o.fingerprint_hash AND ' : ''}duplicate.fingerprint=o.fingerprint AND duplicate.id<o.id AND duplicate.status='active' AND (duplicate.expires_at IS NULL OR julianday(duplicate.expires_at)>julianday('now')) AND julianday(duplicate.last_seen_at)>julianday('now','-7 days'))`,
   );
   if (params.get('source')) {
     filters.push('o.source_id = ?');
@@ -185,7 +197,9 @@ export function searchQuery(params) {
 }
 
 export function publicOpportunity(row) {
-  return { ...row, skills: JSON.parse(row.skills || '[]') };
+  const publicRow = { ...row };
+  delete publicRow.fingerprint_hash;
+  return { ...publicRow, skills: JSON.parse(row.skills || '[]') };
 }
 
 export function employmentType(value) {

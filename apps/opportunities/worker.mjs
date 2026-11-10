@@ -1,3 +1,4 @@
+import { createTiDB } from '../../scripts/storage/tidb.mjs';
 import { cachedPublic, invalidateCatalog } from './redis-cache.mjs';
 import { FEEDS, normalize, searchQuery, publicOpportunity } from './catalog.mjs';
 import { FEED_CONFIG } from './feed-config.mjs';
@@ -81,16 +82,27 @@ export async function ingestSource(env, source, batchIndex) {
       if (same) seen.push(record.id);
       else changed.push(record);
     }
-    const statements = changed.map((record) =>
-      env.DB.prepare(sql).bind(...fields.map((key) => record[key])),
-    );
+    const statements = [];
+    if (env.DB.dialect === 'mysql' && changed.length) {
+      const tuple = `(${fields.map(() => '?').join(',')})`;
+      statements.push(
+        env.DB.prepare(
+          sql.replace(`VALUES ${tuple}`, `VALUES ${changed.map(() => tuple).join(',')}`),
+        ).bind(...changed.flatMap((record) => fields.map((key) => record[key]))),
+      );
+    } else {
+      statements.push(
+        ...changed.map((record) => env.DB.prepare(sql).bind(...fields.map((key) => record[key]))),
+      );
+    }
     if (seen.length)
       statements.push(
         env.DB.prepare(
           `UPDATE opportunities SET last_seen_at=? WHERE id IN (${seen.map(() => '?').join(',')})`,
         ).bind(started, ...seen),
       );
-    if (statements.length) await env.DB.batch(statements);
+    if (statements.length === 1) await statements[0].run();
+    else if (statements.length) await env.DB.batch(statements);
     await env.DB.prepare(
       'INSERT INTO source_cursors VALUES(?,?) ON CONFLICT(source_id) DO UPDATE SET cursor=excluded.cursor',
     )
@@ -171,6 +183,9 @@ async function cleanup(env) {
 
 const worker = {
   async fetch(request, env) {
+    if (env.MIGRATION_READ_ONLY === 'true' && new URL(request.url).pathname.startsWith('/admin/'))
+      return json({ error: 'Database migration in progress; retry shortly' }, 503, false);
+    if (env.TIDB_HOST) env = { ...env, DB: createTiDB(env, 'opportunities') };
     return cachedPublic(request, env, () => worker.uncachedFetch(request, env));
   },
   async uncachedFetch(request, env) {
@@ -220,30 +235,28 @@ const worker = {
         return json({ status: 'ok', schema: result.version }, 200, false);
       }
       if (url.pathname === '/v1/stats') {
-        const query = searchQuery(new URLSearchParams());
+        const query = searchQuery(new URLSearchParams(), env.DB.dialect);
         const categories = await env.DB.prepare(
           `SELECT o.category,COUNT(*) AS total FROM opportunities o WHERE ${query.where} GROUP BY o.category`,
         ).all();
-        const methods = await env.DB.prepare(
-          'SELECT COUNT(*) AS total FROM earning_methods',
+        const counts = await env.DB.prepare(
+          'SELECT (SELECT COUNT(*) FROM earning_methods) AS methods, (SELECT COUNT(*) FROM ideas) AS ideas, (SELECT COUNT(*) FROM platforms) AS platforms',
         ).first();
-        const ideas = await env.DB.prepare('SELECT COUNT(*) AS total FROM ideas').first();
-        const platforms = await env.DB.prepare('SELECT COUNT(*) AS total FROM platforms').first();
         const sources = await env.DB.prepare(
           'SELECT id,name,status,last_success,last_error,last_count,url,category FROM sources ORDER BY name',
         ).all();
         return json({
           opportunities: categories.results.reduce((total, row) => total + row.total, 0),
           categories: categories.results,
-          methods: methods.total,
-          ideas: ideas.total,
-          platforms: platforms.total,
+          methods: counts.methods,
+          ideas: counts.ideas,
+          platforms: counts.platforms,
           sources: sources.results,
           updated_at: new Date().toISOString(),
         });
       }
       if (url.pathname === '/v1/opportunities') {
-        const query = searchQuery(url.searchParams);
+        const query = searchQuery(url.searchParams, env.DB.dialect);
         const total = await env.DB.prepare(
           `SELECT COUNT(*) AS total FROM opportunities o WHERE ${query.where}`,
         )
@@ -330,6 +343,8 @@ const worker = {
     }
   },
   async scheduled(event, env) {
+    if (env.MIGRATION_READ_ONLY === 'true') return;
+    if (env.TIDB_HOST) env = { ...env, DB: createTiDB(env, 'opportunities') };
     if (event.cron === '0 1 * * *') return publishDaily(env, event.scheduledTime);
     if (event.cron === '0 13 * * *')
       return publishDaily(env, event.scheduledTime, { slot: 'evening' });

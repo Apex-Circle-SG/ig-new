@@ -2,9 +2,14 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { randomBytes } from 'node:crypto';
 import { build } from 'esbuild';
+import { invalidateCatalog } from '../../apps/opportunities/redis-cache.mjs';
+import { createTiDB } from '../storage/tidb.mjs';
 import { FEEDS } from '../../apps/opportunities/feed-config.mjs';
 
 const root = resolve(import.meta.dirname, '../..');
+process.loadEnvFile(resolve(root, '.env'));
+const readOnly = process.argv.includes('--read-only');
+const tidb = !readOnly && process.env.TIDB_HOST ? createTiDB(process.env, 'opportunities') : null;
 const directory = resolve(root, 'apps/opportunities');
 const config = JSON.parse(await readFile(resolve(directory, 'cloudflare.json'), 'utf8'));
 const account = process.env.CLOUDFLARE_ACCOUNT_ID;
@@ -27,22 +32,31 @@ async function api(path, options = {}) {
     );
   return data.result;
 }
-const query = (sql) =>
-  api(`/d1/database/${config.database_id}/query`, {
-    method: 'POST',
-    body: JSON.stringify({ sql }),
-  });
+const query = async (sql) =>
+  tidb
+    ? [await tidb.prepare(sql).all()]
+    : api(`/d1/database/${config.database_id}/query`, {
+        method: 'POST',
+        body: JSON.stringify({ sql }),
+      });
 if (!process.argv.includes('--worker-only')) {
-  await query(await readFile(resolve(directory, 'migrations/0001_catalog.sql'), 'utf8'));
-  const versions = await query('SELECT version FROM schema_migrations');
-  if (!versions[0].results.some((row) => row.version === 2))
-    await query(await readFile(resolve(directory, 'migrations/0002_automation.sql'), 'utf8'));
-  if (!versions[0].results.some((row) => row.version === 3))
-    await query(
-      await readFile(resolve(directory, 'migrations/0003_evening_discoveries.sql'), 'utf8'),
-    );
-  if (!versions[0].results.some((row) => row.version === 4))
-    await query(await readFile(resolve(directory, 'migrations/0004_social_images.sql'), 'utf8'));
+  if (tidb) {
+    const version = await tidb
+      .prepare('SELECT MAX(version) AS version FROM schema_migrations')
+      .first();
+    if (version?.version !== 4) throw new Error('Migrate and verify TiDB before deploying');
+  } else {
+    await query(await readFile(resolve(directory, 'migrations/0001_catalog.sql'), 'utf8'));
+    const versions = await query('SELECT version FROM schema_migrations');
+    if (!versions[0].results.some((row) => row.version === 2))
+      await query(await readFile(resolve(directory, 'migrations/0002_automation.sql'), 'utf8'));
+    if (!versions[0].results.some((row) => row.version === 3))
+      await query(
+        await readFile(resolve(directory, 'migrations/0003_evening_discoveries.sql'), 'utf8'),
+      );
+    if (!versions[0].results.some((row) => row.version === 4))
+      await query(await readFile(resolve(directory, 'migrations/0004_social_images.sql'), 'utf8'));
+  }
   const literal = (value) =>
     value == null
       ? 'NULL'
@@ -83,7 +97,6 @@ if (!process.argv.includes('--worker-only')) {
     }
   }
 }
-process.loadEnvFile(resolve(root, '.env'));
 const redisBindings = ['UPSTASH_REDIS_REST_URL', 'UPSTASH_REDIS_REST_TOKEN'].map((name) => {
   if (!process.env[name]) throw new Error('Missing server cache configuration');
   return { type: 'secret_text', name, text: process.env[name] };
@@ -132,7 +145,14 @@ form.set(
         compatibility_date: '2026-10-01',
         bindings: [
           ...redisBindings,
-          { type: 'd1', name: 'DB', id: config.database_id },
+          { type: 'plain_text', name: 'MIGRATION_READ_ONLY', text: readOnly ? 'true' : 'false' },
+          ...(tidb
+            ? ['TIDB_HOST', 'TIDB_USERNAME', 'TIDB_PASSWORD', 'TIDB_DATABASE'].map((name) => ({
+                type: 'secret_text',
+                name,
+                text: process.env[name],
+              }))
+            : [{ type: 'd1', name: 'DB', id: config.database_id }]),
           { type: 'secret_text', name: 'INGEST_SECRET', text: secret },
           {
             type: 'plain_text',
@@ -167,6 +187,7 @@ form.set(
   'worker.mjs',
 );
 await api(`/workers/scripts/${config.worker_name}`, { method: 'PUT', body: form });
+if (!readOnly) await invalidateCatalog(process.env);
 await api(`/workers/scripts/${config.worker_name}/subdomain`, {
   method: 'POST',
   body: JSON.stringify({ enabled: true, previews_enabled: false }),
@@ -182,7 +203,7 @@ await api(`/workers/scripts/${config.worker_name}/schedules`, {
 });
 console.log(
   JSON.stringify({
-    database: config.database_name,
+    database: tidb ? 'tidb:opportunities' : config.database_name,
     worker: config.worker_name,
     url: config.api_url,
     schedule:

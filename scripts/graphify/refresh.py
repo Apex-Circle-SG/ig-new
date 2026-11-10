@@ -26,6 +26,7 @@ ROOTS = [
     "scripts/content-ai",
     "scripts/content-business",
     "scripts/cloudflare",
+    "scripts/storage",
 ]
 OUT.mkdir(exist_ok=True)
 files = []

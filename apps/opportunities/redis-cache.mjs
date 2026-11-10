@@ -1,25 +1,10 @@
 // Public catalog data only. Never cache credentials, chat or posting state.
-const PREFIX = 'insightginie:catalog:v1:';
+const PREFIX = 'insightginie:catalog:v2:';
+const READ =
+  "local generation = redis.call('GET', KEYS[1]) or 'initial'; return {generation, redis.call('GET', ARGV[1] .. generation .. ':' .. ARGV[2])}";
 const pending = new Map();
-export async function redisCommand(env, command) {
-  const endpoint = new URL(env.UPSTASH_REDIS_REST_URL);
-  if (endpoint.protocol !== 'https:' || !endpoint.hostname.endsWith('.upstash.io'))
-    throw new Error('Invalid cache endpoint');
-  const response = await fetch(endpoint.origin, {
-    method: 'POST',
-    redirect: 'manual',
-    signal: AbortSignal.timeout(1500),
-    headers: {
-      Authorization: `Bearer ${env.UPSTASH_REDIS_REST_TOKEN}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(command),
-  });
-  if (!response.ok) throw new Error('Cache unavailable ' + response.status);
-  const data = await response.json();
-  if (data.error) throw new Error('Cache command failed');
-  return data.result;
-}
+import { redisCommand } from '../../scripts/storage/redis.mjs';
+export { redisCommand } from '../../scripts/storage/redis.mjs';
 export async function invalidateCatalog(env) {
   if (!env.UPSTASH_REDIS_REST_URL || !env.UPSTASH_REDIS_REST_TOKEN) return;
   try {
@@ -49,16 +34,20 @@ export async function cachedPublic(request, env, load) {
   let key;
   let stage = 'generation';
   try {
-    const generation = (await redisCommand(env, ['GET', PREFIX + 'generation'])) || 'initial';
-    stage = 'digest';
     const digest = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(spec.identity));
-    key =
-      PREFIX +
-      generation +
-      ':' +
-      [...new Uint8Array(digest)].map((x) => x.toString(16).padStart(2, '0')).join('');
+    const identity = [...new Uint8Array(digest)]
+      .map((x) => x.toString(16).padStart(2, '0'))
+      .join('');
     stage = 'read';
-    const hit = await redisCommand(env, ['GET', key]);
+    const [generation, hit] = await redisCommand(env, [
+      'EVAL',
+      READ,
+      1,
+      PREFIX + 'generation',
+      PREFIX,
+      identity,
+    ]);
+    key = PREFIX + generation + ':' + identity;
     if (hit) {
       stage = 'decode';
       const entry = JSON.parse(hit);
@@ -115,7 +104,7 @@ export async function cachedPublic(request, env, load) {
                 ttl,
               ]);
             } catch {
-              /* D1 result remains usable if Redis fails. */
+              /* The SQL result remains usable if Redis fails. */
             }
         }
         return { body, headers, status: response.status };

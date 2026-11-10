@@ -1,5 +1,7 @@
 // Read-only production verification. This script never calls LinkedIn publishing.
 import assert from 'node:assert/strict';
+import { fileURLToPath } from 'node:url';
+import { createTiDB } from '../storage/tidb.mjs';
 import { readFile, writeFile } from 'node:fs/promises';
 import discoveries from '../../apps/opportunities/data/discoveries.json' with { type: 'json' };
 import { postText, linkedinCommentary } from '../../apps/opportunities/social.mjs';
@@ -7,6 +9,8 @@ import { postText, linkedinCommentary } from '../../apps/opportunities/social.mj
 const config = JSON.parse(
   await readFile(new URL('../../apps/opportunities/cloudflare.json', import.meta.url)),
 );
+process.loadEnvFile(fileURLToPath(new URL('../../.env', import.meta.url)));
+const db = createTiDB(process.env, 'opportunities');
 const cloudflareBase = `https://api.cloudflare.com/client/v4/accounts/${process.env.CLOUDFLARE_ACCOUNT_ID}`;
 async function cloudflare(path, options = {}) {
   const response = await fetch(cloudflareBase + path, {
@@ -21,13 +25,7 @@ async function cloudflare(path, options = {}) {
   assert.ok(response.ok && data.success, 'Cloudflare verification request');
   return data.result;
 }
-const query = async (sql) =>
-  (
-    await cloudflare(`/d1/database/${config.database_id}/query`, {
-      method: 'POST',
-      body: JSON.stringify({ sql }),
-    })
-  )[0].results;
+const query = async (sql) => (await db.prepare(sql).all()).results;
 const schedules = await cloudflare(`/workers/scripts/${config.worker_name}/schedules`);
 for (const cron of ['*/10 * * * *', '10 0,6,12,18 * * *', '0 1 * * *', '0 13 * * *'])
   assert.ok(

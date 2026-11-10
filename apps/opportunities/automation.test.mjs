@@ -920,3 +920,37 @@ test('unchanged imports only refresh last-seen; changed and reappearing jobs upd
     DB.db.close();
   }
 });
+
+test('TiDB imports group changed rows and retain mixed freshness updates', async () => {
+  const DB = database();
+  DB.dialect = 'mysql';
+  source(DB, 'ashby-zapier');
+  const original = globalThis.fetch;
+  let title = 'Remote Engineer';
+  globalThis.fetch = async () =>
+    Response.json({
+      jobs: ['one', 'two'].map((id) => ({
+        id,
+        title: id === 'one' ? title : 'Remote Designer',
+        jobUrl: `https://jobs.ashbyhq.com/zapier/${id}`,
+        publishedAt: '2026-01-01',
+        isListed: true,
+        location: 'UK',
+        isRemote: true,
+        workplaceType: 'Remote',
+        employmentType: 'Contract',
+      })),
+    });
+  try {
+    assert.equal((await ingestSource({ DB }, 'ashby-zapier')).contentUpdates, 2);
+    assert.equal((await ingestSource({ DB }, 'ashby-zapier')).freshnessOnly, 2);
+    title = 'Remote Support Engineer';
+    const mixed = await ingestSource({ DB }, 'ashby-zapier');
+    assert.equal(mixed.contentUpdates, 1);
+    assert.equal(mixed.freshnessOnly, 1);
+    assert.equal(DB.db.prepare('SELECT COUNT(*) n FROM opportunities').get().n, 2);
+  } finally {
+    globalThis.fetch = original;
+    DB.db.close();
+  }
+});
