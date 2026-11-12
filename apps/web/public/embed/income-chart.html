@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Where does your income sit in the US? — InsightGinie</title>
+<!--
+  EMBED THIS CHART on any site with:
+  <iframe src="https://insightginie.com/embed/income-chart.html" width="100%" height="560" style="border:0" title="Where does your income sit in the US? — InsightGinie"></iframe>
+  Host this file at https://insightginie.com/embed/income-chart.html
+  Data: US Census, CPS ASEC PINC-11 2024, individual money income, before tax, age 15+.
+-->
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #FBF6EC; color: #1F3350; }
+  .ig-widget { max-width: 640px; margin: 0 auto; padding: 28px 24px 20px; background: #FBF6EC; }
+  h2 { margin: 0 0 6px; font-size: 26px; line-height: 1.25; }
+  .sub { margin: 0 0 20px; color: #6B7280; font-size: 15px; }
+  .bar-row { margin-bottom: 12px; }
+  .bar-label { font-size: 15px; margin-bottom: 4px; }
+  .bar-track { background: #EDE6D3; border-radius: 6px; height: 22px; position: relative; }
+  .bar-fill { background: #1F7A6D; border-radius: 6px; height: 100%; }
+  .bar-fill.gold { background: #C9A227; }
+  .bar-value { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); font-size: 13px; font-weight: 700; color: #1F3350; }
+  .bar-value.outside { right: auto; left: calc(100% + 8px); color: #1F3350; }
+  .median { font-size: 16px; margin: 18px 0 20px; }
+  .checker { background: #fff; border: 1px solid #E5DDCB; border-radius: 10px; padding: 16px; }
+  .checker label { display: block; font-size: 14px; font-weight: 600; margin-bottom: 8px; }
+  .checker .row { display: flex; gap: 8px; align-items: center; }
+  .checker .row span { font-size: 18px; font-weight: 700; }
+  .checker input { flex: 1; min-width: 0; padding: 10px 12px; font-size: 16px; border: 1px solid #CBD5E1; border-radius: 8px; }
+  .checker button { padding: 10px 18px; font-size: 16px; font-weight: 700; color: #fff; background: #1F7A6D; border: 0; border-radius: 8px; cursor: pointer; }
+  .result { font-size: 15px; line-height: 1.5; margin: 12px 0 0; min-height: 22px; }
+  .src { font-size: 12px; color: #6B7280; margin: 16px 0 4px; }
+  .credit { font-size: 13px; margin: 0; }
+  .credit a { color: #1F7A6D; font-weight: 700; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="ig-widget">
+  <h2>Where does your income sit in the US?</h2>
+  <p class="sub">Share of US individuals earning under each amount</p>
+
+  <div class="bar-row">
+    <div class="bar-label">Under $25,000</div>
+    <div class="bar-track"><div class="bar-fill" style="width:37.1%"></div><span class="bar-value">37.1%</span></div>
+  </div>
+  <div class="bar-row">
+    <div class="bar-label">Under $50,000</div>
+    <div class="bar-track"><div class="bar-fill" style="width:59.3%"></div><span class="bar-value">59.3%</span></div>
+  </div>
+  <div class="bar-row">
+    <div class="bar-label">Under $75,000</div>
+    <div class="bar-track"><div class="bar-fill" style="width:74.7%"></div><span class="bar-value">74.7%</span></div>
+  </div>
+  <div class="bar-row">
+    <div class="bar-label">Under $100,000</div>
+    <div class="bar-track"><div class="bar-fill" style="width:83.3%"></div><span class="bar-value">83.3%</span></div>
+  </div>
+  <div class="bar-row">
+    <div class="bar-label">$250,000 or more</div>
+    <div class="bar-track"><div class="bar-fill gold" style="width:2.5%"></div><span class="bar-value outside">2.5%</span></div>
+  </div>
+
+  <p class="median">Median income band: <strong>$37,500&ndash;$39,999</strong></p>
+
+  <div class="checker">
+    <label for="inc">Your annual income (before tax)</label>
+    <div class="row"><span>$</span><input id="inc" type="number" min="0" step="1000" placeholder="e.g. 60000"><button id="go" type="button">Check</button></div>
+    <p id="result" class="result" aria-live="polite"></p>
+  </div>
+
+  <p class="src">Data: US Census, CPS ASEC PINC-11 2024, individual money income, before tax, age 15+.</p>
+  <p class="credit">Powered by <a href="https://insightginie.com/" target="_blank" rel="noopener">InsightGinie</a> &mdash; free calculators, no sign-up. <a href="https://insightginie.com/calc/individual-income-percentile/" target="_blank" rel="noopener">Check your income &rarr;</a></p>
+</div>
+<script>
+(function () {
+  var input = document.getElementById('inc');
+  var result = document.getElementById('result');
+  function check() {
+    var v = parseFloat(input.value);
+    if (isNaN(v) || v < 0) { result.textContent = 'Enter your annual income above to see which band it falls in.'; return; }
+    if (v < 25000) {
+      result.textContent = 'Your income is under $25,000. 37.1% of US individuals earn under $25,000.';
+    } else if (v < 50000) {
+      result.textContent = 'Your income falls in the $25,000–$50,000 band. 37.1% of US individuals earn under $25,000 and 59.3% earn under $50,000.';
+    } else if (v < 75000) {
+      result.textContent = 'Your income falls in the $50,000–$75,000 band. 59.3% of US individuals earn under $50,000 and 74.7% earn under $75,000.';
+    } else if (v < 100000) {
+      result.textContent = 'Your income falls in the $75,000–$100,000 band. 74.7% of US individuals earn under $75,000 and 83.3% earn under $100,000.';
+    } else if (v < 250000) {
+      result.textContent = 'Your income falls in the $100,000–$250,000 band. 83.3% of US individuals earn under $100,000, and only 2.5% earn $250,000 or more.';
+    } else {
+      result.textContent = 'Your income is $250,000 or more — only about 2.5% of US individuals earn that much.';
+    }
+  }
+  document.getElementById('go').addEventListener('click', check);
+  input.addEventListener('keydown', function (e) { if (e.key === 'Enter') check(); });
+})();
+</script>
+</body>
+</html>
