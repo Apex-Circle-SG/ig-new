@@ -79,4 +79,10 @@ export const GUIDES = [
     summary:
       'Runway in months is spendable cash divided by average monthly net burn — cash on hand over expenses minus reliable incoming cash.',
   },
+  {
+    href: '/guides/how-many-sales-do-i-need-to-break-even/',
+    title: 'How many sales do I need to break even?',
+    summary:
+      'Break-even units are fixed costs divided by the contribution margin (price minus variable cost per unit) — break-even is not profit, profit starts only above that point.',
+  },
 ];
